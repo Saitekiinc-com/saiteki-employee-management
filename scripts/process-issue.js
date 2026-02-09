@@ -17,11 +17,31 @@ async function main() {
 
   if (!issueBody) {
     if (process.argv.includes('--sync')) {
-      console.log('Manual sync triggered. Regenerating TEAM.md from existing data...');
+      console.log('Manual sync triggered. Regenerating TEAM.md and enriching data with AI...');
       if (fs.existsSync(DATA_FILE)) {
-        const currentEmployees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+        let currentEmployees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+
+        // AIキーがある場合、未構造化のデータをバッチ処理
+        if (process.env.GEMINI_API_KEY) {
+          let updated = false;
+          for (let e of currentEmployees) {
+            if (e.isActive !== false && e.self_intro && (!e.skills || e.skills.length === 0)) {
+              console.log(`Enriching data for ${e.name} using AI...`);
+              const structured = await extractDataWithAI({ self_intro: e.self_intro });
+              if (structured && !structured.ai_error) {
+                Object.assign(e, structured);
+                e.updatedAt = new Date().toISOString();
+                updated = true;
+              }
+            }
+          }
+          if (updated) {
+            fs.writeFileSync(DATA_FILE, JSON.stringify(currentEmployees, null, 2));
+          }
+        }
+
         generateTeamDoc(currentEmployees);
-        console.log('TEAM.md regenerated successfully.');
+        console.log('TEAM.md regenerated and data enriched.');
         return;
       } else {
         console.error('Data file not found. Cannot sync.');
@@ -69,18 +89,15 @@ async function main() {
   generateTeamDoc(employees);
 }
 
-// Issue本文のパース (Markdownのセクションごとの単純な抽出)
+// Issue本文のパース
 function parseIssueBody(body) {
   const lines = body.split('\n');
   const data = {};
   let currentKey = null;
 
-  // New templates have 'self_intro'
-  // Old templates had 'like_tech', 'smart_s', etc.
-  // We mapping '自己紹介 / キャリア詳細' to 'self_intro'
   const keyMap = {
     'お名前': 'name',
-    '職種': 'job', // マネージャー用オンボーディングで使われる可能性があるため残す
+    '職種': 'job',
     '自己紹介 / キャリア詳細': 'self_intro'
   };
 
@@ -89,7 +106,6 @@ function parseIssueBody(body) {
     if (line.startsWith('### ')) {
       const label = line.replace('### ', '').trim();
       currentKey = keyMap[label];
-      // マッピングされていないセクション（SMART等、旧形式の場合）は無視するか、その他として扱う
     } else if (currentKey && line !== '' && line !== '_No response_') {
       data[currentKey] = (data[currentKey] ? data[currentKey] + '\n' : '') + line;
     }
@@ -99,18 +115,12 @@ function parseIssueBody(body) {
 
 // Gemini APIを使ってテキストから構造化データを抽出
 async function extractDataWithAI(rawData) {
-  if (!rawData.self_intro) {
-    console.log('No self_intro found. Skipping AI extraction.');
-    return {};
-  }
-
-  if (!process.env.GEMINI_API_KEY) {
-    console.warn('GEMINI_API_KEY is not set. Skipping AI extraction.');
-    return {};
-  }
+  if (!rawData.self_intro) return {};
+  if (!process.env.GEMINI_API_KEY) return { ai_error: true, ai_error_msg: 'GEMINI_API_KEY missing' };
 
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview-001" });
+    // 安定性の高い 2.0 Flash を使用
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
     const prompt = `
     あなたは人事データの分析官です。以下の「自己紹介・キャリア詳細」のテキストから、社員のスキル、興味、目標、人柄を抽出し、JSON形式で出力してください。
@@ -122,27 +132,32 @@ async function extractDataWithAI(rawData) {
     
     Output JSON Schema:
     {
-      "skills": ["skill1", "skill2"], // 明示的に言及されている技術やスキル
+      "skills": ["skill1", "skill2"], // 明示的に言及されている技術やスキル（5個程度）
       "interests": ["interest1", "interest2"], // 興味があること、学びたいこと、趣味
-      "goal": "要約されたキャリア目標",
+      "goal": "要約されたキャリア目標（短文）",
       "personality": "人柄や志向性のキーワード (例: リーダー気質, スペシャリスト志向, アウトドア派)",
       "job_guess": "Engineer" // 文脈から推測される職種 (Engineer, Designer, Sales, PM, Corporate, QA, HR, 経営, Other)
     }
 
-    Response must be valid JSON only, no markdown formatting.
+    Respond ONLY with a valid JSON object. Do not include any markdown formatting like \`\`\`json.
     `;
 
     const result = await model.generateContent(prompt);
     const response = await result.response;
-    const text = response.text();
+    const text = response.text().trim();
 
-    // Clean up markdown code blocks if present
-    const jsonString = text.replace(/```json/g, '').replace(/```/g, '').trim();
+    console.log('Gemini Raw Response:', text);
+
+    let jsonString = text;
+    const jsonMatch = text.match(/\{[\s\S]*\}/);
+    if (jsonMatch) {
+      jsonString = jsonMatch[0];
+    }
 
     return JSON.parse(jsonString);
   } catch (error) {
-    console.error('Error calling Gemini API:', error);
-    return {};
+    console.error('Error in AI extraction:', error);
+    return { ai_error: true, ai_error_msg: error.message };
   }
 }
 
@@ -150,18 +165,11 @@ function parseDeleteIssueBody(body) {
   const lines = body.split('\n');
   const data = {};
   let currentKey = null;
-
-  const keyMap = {
-    '対象社員名': 'name',
-    '処理種別': 'action_type',
-    '理由': 'reason'
-  };
-
+  const keyMap = { '対象社員名': 'name', '処理種別': 'action_type', '理由': 'reason' };
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
     if (line.startsWith('### ')) {
-      const label = line.replace('### ', '').trim();
-      currentKey = keyMap[label];
+      currentKey = keyMap[line.replace('### ', '').trim()];
     } else if (currentKey && line !== '' && line !== '_No response_') {
       data[currentKey] = line;
     }
@@ -169,130 +177,74 @@ function parseDeleteIssueBody(body) {
   return data;
 }
 
-// 社員データの更新
 function updateEmployee(employees, newData) {
   const index = employees.findIndex(e => e.name === newData.name);
   const now = new Date().toISOString();
-
-  // 既存データがある場合はマージ、ただしnewDataのキー優先
-  // AI抽出データの配列などは上書きする
-  let entry = {};
-
   if (index !== -1) {
-    entry = { ...employees[index], ...newData, updatedAt: now, isActive: true };
-    // 配列データの重複排除などはあえてせず、最新のAI分析結果を信頼して上書きする
-    employees[index] = entry;
+    employees[index] = { ...employees[index], ...newData, updatedAt: now, isActive: true };
   } else {
-    // 新規作成（通常はオンボーディングで作成済みのはずだが、手動リカバリ等でここに来る場合も考慮）
-    entry = {
+    employees.push({
       ...newData,
       createdAt: now,
       updatedAt: now,
       isActive: true,
-      job: newData.job || newData.job_guess || 'Other' // Jobがない場合は推測を使う
-    };
-    employees.push(entry);
+      job: newData.job || newData.job_guess || 'Other'
+    });
   }
 }
 
-// 社員データの削除・アーカイブ
 function deleteEmployee(employees, data) {
   const index = employees.findIndex(e => e.name === data.name);
-  if (index === -1) {
-    console.log(`Employee ${data.name} not found.`);
-    return;
-  }
-
+  if (index === -1) return;
   if (data.action_type.includes('Delete')) {
-    // 物理削除
     employees.splice(index, 1);
   } else {
-    // アーカイブ (論理削除)
     employees[index].isActive = false;
     employees[index].archivedReason = data.reason;
     employees[index].archivedAt = new Date().toISOString();
   }
 }
 
-// Markdownドキュメント生成
 function generateTeamDoc(employees) {
   const activeEmployees = employees.filter(e => e.isActive !== false);
   const archivedEmployees = employees.filter(e => e.isActive === false);
-
   const jobs = [...new Set(activeEmployees.map(e => e.job))];
 
-  let md = '# チーム構成図\n\n';
-  md += '自動生成された組織図です。Issueによる更新が反映されます。\n\n';
+  let md = '# チーム構成図\n\n自動生成された組織図です。Issueによる更新が反映されます。\n\n';
+  md += '```mermaid\n%%{init: {\'theme\': \'base\', \'themeVariables\': {\'primaryColor\': \'#F2EBE3\', \'primaryTextColor\': \'#5D574F\', \'primaryBorderColor\': \'#D9CFC1\', \'lineColor\': \'#BEB3A5\', \'secondaryColor\': \'#FAF9F6\', \'tertiaryColor\': \'#FDFCFB\', \'nodeBorder\': \'1px\'}}}%%\nmindmap\n  root((株式会社Saiteki))\n';
 
-  md += '```mermaid\n';
-  md += `%%{init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#F2EBE3',
-      'primaryTextColor': '#5D574F',
-      'primaryBorderColor': '#D9CFC1',
-      'lineColor': '#BEB3A5',
-      'secondaryColor': '#FAF9F6',
-      'tertiaryColor': '#FDFCFB',
-      'nodeBorder': '1px'
-    }
-  }}%%\n`;
-  md += 'mindmap\n';
-  md += '  root((株式会社Saiteki))\n';
-
-  const jobMap = {
-    'Engineer': 'Engineer',
-    'Designer': 'Designer',
-    'Sales': 'Sales',
-    'PM': 'PM',
-    'Corporate': 'Corporate',
-    'EM': 'Engineer',
-    'QA': 'QA',
-    'HR': 'HR',
-    '経営': '経営',
-    'Executive': '経営',
-    'Other': 'Other'
-  };
+  const jobMap = { 'Engineer': 'Engineer', 'Designer': 'Designer', 'Sales': 'Sales', 'PM': 'PM', 'Corporate': 'Corporate', 'EM': 'Engineer', 'QA': 'QA', 'HR': 'HR', '経営': '経営', 'Executive': '経営', 'Other': 'Other' };
 
   jobs.forEach(job => {
-    md += `    ${jobMap[job] || job || '未割り当て'}\n`;
-    const members = activeEmployees.filter(e => e.job === job);
-    members.forEach(m => {
-      const safeName = m.name.replace(/[()"']/g, '');
-      md += `      ${safeName}\n`;
+    md += `    ${jobMap[job] || job || 'Other'}\n`;
+    activeEmployees.filter(e => e.job === job).forEach(m => {
+      md += `      ${m.name.replace(/[()"']/g, '')}\n`;
     });
   });
-  md += '```\n\n';
-
-  md += '## 詳細リスト\n\n';
-  md += '| 名前 | 職種 | 得意スキル (Tags) | 興味 (Interests) | 目標 (Goal) | 人柄 (Personality) |\n';
-  md += '| --- | --- | --- | --- | --- | --- |\n';
+  md += '```\n\n## 詳細リスト\n\n| 名前 | 職種 | 得意スキル (Tags) | 興味 (Interests) | 目標 (Goal) | 人柄 (Personality) |\n| --- | --- | --- | --- | --- | --- |\n';
 
   activeEmployees.forEach(e => {
-    // 古いデータ形式(like_tech等)も考慮しつつ、新しいAIデータを優先表示
-    const skills = e.skills ? e.skills.join(', ') : (e.like_tech || '-');
-    const interests = e.interests ? e.interests.join(', ') : '-';
-    // Goalは smart_goal か AI抽出の goal
+    const skills = (e.skills && e.skills.length > 0) ? e.skills.join(', ') : (e.like_tech || '-');
+    const interests = (e.interests && e.interests.length > 0) ? e.interests.join(', ') : '-';
     const goal = e.goal || (Array.isArray(e.smart_goal) ? e.smart_goal.join(' / ') : e.smart_goal) || '-';
     const personality = e.personality || '-';
 
-    md += `| ${e.name} | ${e.job} | ${skills} | ${interests} | ${goal} | ${personality} |\n`;
+    let displaySkills = skills;
+    let displayGoal = goal;
+    if (skills === '-' && interests === '-' && goal === '-' && e.self_intro) {
+      displaySkills = '(AI解析待ち/失敗)';
+      displayGoal = e.self_intro.split('\n')[0].substring(0, 100) + (e.self_intro.length > 100 ? '...' : '');
+    }
+    md += `| ${e.name} | ${e.job} | ${displaySkills} | ${interests} | ${displayGoal} | ${personality} |\n`;
   });
 
   if (archivedEmployees.length > 0) {
-    md += '\n## Alumni (OB/OG)\n\n';
-    md += '| 名前 | 在籍時の職種 | 理由 |\n';
-    md += '| --- | --- | --- |\n';
-    archivedEmployees.forEach(e => {
-      md += `| ${e.name} | ${e.job} | ${e.archivedReason || '-'} |\n`;
-    });
+    md += '\n## Alumni (OB/OG)\n\n| 名前 | 在籍時の職種 | 理由 |\n| --- | --- | --- |\n';
+    archivedEmployees.forEach(e => md += `| ${e.name} | ${e.job} | ${e.archivedReason || '-'} |\n`);
   }
 
   const docDir = path.dirname(TEAM_DOC_FILE);
-  if (!fs.existsSync(docDir)) {
-    fs.mkdirSync(docDir, { recursive: true });
-  }
-
+  if (!fs.existsSync(docDir)) fs.mkdirSync(docDir, { recursive: true });
   fs.writeFileSync(TEAM_DOC_FILE, md);
 }
 
