@@ -33,6 +33,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
           GCP_MODEL_ID: ${{ secrets.GCP_MODEL_ID }}
+          GCP_ENDPOINT_ID: ${{ secrets.GCP_ENDPOINT_ID }}
           GCP_LOCATION: ${{ secrets.GCP_LOCATION || 'us-central1' }}
         run: node scripts/process-issue.js
  

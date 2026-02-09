@@ -119,26 +119,32 @@ async function extractDataWithAI(rawData) {
 
   const projectId = process.env.GCP_PROJECT_ID;
   const location = process.env.GCP_LOCATION || 'us-central1';
-  // ユーザーのモデルID (例: saiteki-fine-tuning-01)
-  const modelId = process.env.GCP_MODEL_ID || "gemini-1.5-flash-002";
+  const modelId = process.env.GCP_MODEL_ID;
+  const endpointId = process.env.GCP_ENDPOINT_ID;
 
   if (!projectId) {
     console.error('GCP_PROJECT_ID missing');
     return { ai_error: true, ai_error_msg: 'GCP_PROJECT_ID missing' };
   }
 
-  // Vertex AI REST API Endpoint
-  // 標準モデルは publishers/google/models/ だが、カスタムモデルはプロジェクト直下の models/ になる
-  let modelPath = "";
-  if (modelId.startsWith("gemini-")) {
-    modelPath = `publishers/google/models/${modelId}`;
+  // Vertex AI API Endpoint Construction
+  let url = "";
+  if (endpointId) {
+    // ユーザー提供の参考プロジェクトに合わせ、エンドポイント使用時は v1beta1 を採用
+    console.log(`Using Vertex AI Endpoint: ${endpointId} (v1beta1)`);
+    url = `https://${location}-aiplatform.googleapis.com/v1beta1/projects/${projectId}/locations/${location}/endpoints/${endpointId}:streamGenerateContent?key=${apiKey}`;
   } else {
-    // チューニング済みモデルなどはプロジェクト直下のモデルリソースとして指定
-    modelPath = `models/${modelId}`;
+    // 従来のモデル指定パターン (v1)
+    let modelPath = "";
+    const targetModel = modelId || "gemini-1.5-flash-002";
+    if (targetModel.startsWith("gemini-")) {
+      modelPath = `publishers/google/models/${targetModel}`;
+    } else {
+      modelPath = `models/${targetModel}`;
+    }
+    console.log(`Using Vertex AI Model Path: ${modelPath} (v1)`);
+    url = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/${modelPath}:streamGenerateContent?key=${apiKey}`;
   }
-
-  console.log(`Calling Vertex AI: Project=${projectId}, Model=${modelId}, Path=${modelPath}`);
-  const url = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/${modelPath}:streamGenerateContent?key=${apiKey}`;
 
   try {
     const prompt = `
