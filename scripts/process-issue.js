@@ -192,7 +192,19 @@ async function extractDataWithAI(rawData) {
     console.log('AI Response:', text);
 
     const jsonMatch = text.match(/\{[\s\S]*\}/);
-    return jsonMatch ? JSON.parse(jsonMatch[0]) : {};
+    if (!jsonMatch) return {};
+
+    let jsonStr = jsonMatch[0];
+    // 末尾カンマを削除する（JSON標準では許容されないため）
+    jsonStr = jsonStr.replace(/,(\s*[\]}])/g, '$1');
+
+    try {
+      return JSON.parse(jsonStr);
+    } catch (e) {
+      console.error('Failed to parse sanitized JSON:', e.message);
+      console.error('Raw content:', jsonStr);
+      throw e;
+    }
   } catch (error) {
     console.error('AI extraction error:', error);
     return { ai_error: true, ai_error_msg: error.message };
