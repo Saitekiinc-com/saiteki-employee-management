@@ -183,7 +183,7 @@ function generateTeamDoc(employees) {
     'Sales': 'Sales',
     'PM': 'PM',
     'Corporate': 'Corporate',
-    'EM': 'EM',
+    'EM': 'Engineer',
     'QA': 'QA',
     'HR': 'HR',
     '経営': '経営',
