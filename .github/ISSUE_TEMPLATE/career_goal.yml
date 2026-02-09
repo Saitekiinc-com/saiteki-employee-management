@@ -18,6 +18,7 @@ body:
         - 小林翔
         - 杉本光一
         - 櫻井志保
+        - 田浦裕樹
         - 青木淳一郎
     validations:
       required: true
