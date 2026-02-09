@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   update-data:
-    if: contains(github.event.issue.labels.*.name, 'employee-update') || contains(github.event.issue.labels.*.name, 'employee-delete')
+    if: startsWith(github.event.issue.title, '[Career]') || startsWith(github.event.issue.title, '[Delete]')
     runs-on: ubuntu-latest
 
     steps:
