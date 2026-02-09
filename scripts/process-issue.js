@@ -117,11 +117,17 @@ async function extractDataWithAI(rawData) {
     return { ai_error: true, ai_error_msg: 'GEMINI_API_KEY missing' };
   }
 
-  const projectId = process.env.GCP_PROJECT_ID || 'saiteki-ai';
+  const projectId = process.env.GCP_PROJECT_ID;
   const location = process.env.GCP_LOCATION || 'us-central1';
-  const modelId = "gemini-1.5-flash";
+  const modelId = process.env.GCP_MODEL_ID || "gemini-1.5-flash-002"; // 404回避のためバージョンを明示
 
-  // APIキーを使用する場合は、Google AI Studio互換のエンドポイントまたはKeyパラメータ付きURLを使用
+  if (!projectId) {
+    console.error('GCP_PROJECT_ID missing');
+    return { ai_error: true, ai_error_msg: 'GCP_PROJECT_ID missing' };
+  }
+
+  // Vertex AI REST API Endpoint
+  console.log(`Calling Vertex AI: Project=${projectId}, Location=${location}, Model=${modelId}`);
   const url = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/${modelId}:streamGenerateContent?key=${apiKey}`;
 
   try {
