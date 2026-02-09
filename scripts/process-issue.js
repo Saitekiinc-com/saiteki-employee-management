@@ -17,6 +17,7 @@ async function main() {
       if (fs.existsSync(DATA_FILE)) {
         let currentEmployees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
 
+        // 未構造化のデータをバッチ処理
         let updated = false;
         for (let e of currentEmployees) {
           if (e.isActive !== false && e.self_intro && (!e.skills || e.skills.length === 0)) {
@@ -50,6 +51,7 @@ async function main() {
     employees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
   }
 
+  // ラベルによって処理を分岐
   const isUpdate = issueLabels.some(l => l.name === 'employee-update');
   const isDelete = issueLabels.some(l => l.name === 'employee-delete');
 
@@ -57,9 +59,11 @@ async function main() {
     const rawData = parseIssueBody(issueBody);
     console.log('Raw data from issue:', rawData);
 
+    // AIによる構造化処理
     const structuredData = await extractDataWithAI(rawData);
     console.log('Structured data from AI:', structuredData);
 
+    // マージして更新
     const finalData = { ...rawData, ...structuredData };
     updateEmployee(employees, finalData);
 
@@ -72,10 +76,14 @@ async function main() {
     return;
   }
 
+  // JSON保存
   fs.writeFileSync(DATA_FILE, JSON.stringify(employees, null, 2));
+
+  // ドキュメント生成
   generateTeamDoc(employees);
 }
 
+// Issue本文のパース
 function parseIssueBody(body) {
   const lines = body.split('\n');
   const data = {};
@@ -99,47 +107,47 @@ function parseIssueBody(body) {
   return data;
 }
 
-// Google AI Studio API を使用（APIキーで認証可能）
+// Vertex AI REST API を使用して構造化データを抽出
 async function extractDataWithAI(rawData) {
   if (!rawData.self_intro) return {};
 
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
-    console.error('GEMINI_API_KEY is not set');
+    console.error('GEMINI_API_KEY missing');
     return { ai_error: true, ai_error_msg: 'GEMINI_API_KEY missing' };
   }
 
-  // Google AI Studio API（generativelanguage.googleapis.com）を使用
-  // これはAPIキーで認証可能
+  const projectId = process.env.GCP_PROJECT_ID || 'saiteki-ai';
+  const location = process.env.GCP_LOCATION || 'us-central1';
   const modelId = "gemini-1.5-flash";
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelId}:generateContent?key=${apiKey}`;
+
+  // APIキーを使用する場合は、Google AI Studio互換のエンドポイントまたはKeyパラメータ付きURLを使用
+  const url = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/${modelId}:streamGenerateContent?key=${apiKey}`;
 
   try {
     const prompt = `
-あなたは人事データの分析官です。社員の自己紹介文から特定の情報を抽出し、JSON形式で出力してください。
+    あなたは人事データの分析官です。社員の自己紹介文から特定の情報を抽出し、JSON形式で出力してください。
 
-Input Text:
-"""
-${rawData.self_intro}
-"""
+    Input Text:
+    """
+    ${rawData.self_intro}
+    """
+    
+    Output JSON format:
+    {
+      "skills": ["スキル1", "スキル2"],
+      "interests": ["興味1", "興味2"],
+      "goal": "キャリア目標（要約）",
+      "personality": "人柄（キーワード）",
+      "job_guess": "Engineer"
+    }
 
-Output JSON format:
-{
-  "skills": ["スキル1", "スキル2"],
-  "interests": ["興味1", "興味2"],
-  "goal": "キャリア目標（要約）",
-  "personality": "人柄（キーワード）",
-  "job_guess": "Engineer"
-}
-
-Respond ONLY with valid JSON.
-`;
+    Respond ONLY with valid JSON.
+    `;
 
     const response = await fetch(url, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         contents: [{ role: 'user', parts: [{ text: prompt }] }]
       })
@@ -147,24 +155,24 @@ Respond ONLY with valid JSON.
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.error('Gemini API Error:', errorText);
-      throw new Error(`API returned ${response.status}: ${errorText}`);
+      console.error('API Error:', errorText);
+      throw new Error(`API ${response.status}: ${errorText}`);
     }
 
     const data = await response.json();
-    const text = data.candidates[0].content.parts[0].text.trim();
-
-    console.log('Gemini Raw Response:', text);
-
-    let jsonString = text;
-    const jsonMatch = text.match(/\{[\s\S]*\}/);
-    if (jsonMatch) {
-      jsonString = jsonMatch[0];
+    let text = "";
+    if (Array.isArray(data)) {
+      text = data.map(chunk => chunk.candidates[0].content.parts[0].text).join('');
+    } else {
+      text = data.candidates[0].content.parts[0].text;
     }
 
-    return JSON.parse(jsonString);
+    console.log('AI Response:', text);
+
+    const jsonMatch = text.match(/\{[\s\S]*\}/);
+    return jsonMatch ? JSON.parse(jsonMatch[0]) : {};
   } catch (error) {
-    console.error('Error in AI extraction:', error);
+    console.error('AI extraction error:', error);
     return { ai_error: true, ai_error_msg: error.message };
   }
 }
