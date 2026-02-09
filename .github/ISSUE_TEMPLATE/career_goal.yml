@@ -36,15 +36,15 @@ body:
     attributes:
       label: 職種
       options:
-        - Engineer
-        - Designer
-        - Sales
-        - PM
-        - Corporate
-        - EM
-        - QA
-        - HR
-        - Other
+        - Engineer (エンジニア)
+        - Designer (デザイナー)
+        - Sales (営業・セールス)
+        - PM (プロダクトマネージャー)
+        - Corporate (コーポレート: 総務・経理等)
+        - EM (エンジニアマネージャー: 組織管理)
+        - QA (品質保証)
+        - HR (人事)
+        - Other (その他)
     validations:
       required: true
 

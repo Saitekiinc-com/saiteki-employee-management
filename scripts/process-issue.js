@@ -162,11 +162,35 @@ function generateTeamDoc(employees) {
   md += '自動生成された組織図です。Issueによる更新が反映されます。\n\n';
 
   md += '```mermaid\n';
+  md += `%%{init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#D6D0C9',
+      'primaryTextColor': '#4A4540',
+      'primaryBorderColor': '#BBAA99',
+      'lineColor': '#A3998E',
+      'secondaryColor': '#F5F2F0',
+      'tertiaryColor': '#E8E4E1',
+      'nodeBorder': '1px'
+    }
+  }}%%\n`;
   md += 'mindmap\n';
   md += '  root((株式会社Saiteki))\n';
 
+  const jobMap = {
+    'Engineer': 'エンジニア',
+    'Designer': 'デザイナー',
+    'Sales': '営業・セールス',
+    'PM': 'プロダクトマネージャー',
+    'Corporate': 'コーポレート(総務・経理・人事等)',
+    'EM': 'エンジニアマネージャー(組織管理)',
+    'QA': '品質保証(QA)',
+    'HR': '人事(HR)',
+    'Other': 'その他'
+  };
+
   jobs.forEach(job => {
-    md += `    ${job || 'Unassigned'}\n`;
+    md += `    ${jobMap[job] || job || '未割り当て'}\n`;
     const members = activeEmployees.filter(e => e.job === job);
     members.forEach(m => {
       const safeName = m.name.replace(/[()"']/g, '');
