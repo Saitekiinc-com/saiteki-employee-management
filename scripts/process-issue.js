@@ -92,6 +92,7 @@ function parseIssueBody(body) {
   const keyMap = {
     'お名前': 'name',
     '職種': 'job',
+    'Slack ID': 'slack_id',
     '自己紹介 / キャリア詳細': 'self_intro'
   };
 
