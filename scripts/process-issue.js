@@ -178,16 +178,17 @@ function generateTeamDoc(employees) {
   md += '  root((株式会社Saiteki))\n';
 
   const jobMap = {
-    'Engineer': 'エンジニア',
-    'Designer': 'デザイナー',
-    'Sales': '営業・セールス',
-    'PM': 'プロダクトマネージャー',
-    'Corporate': 'コーポレート(総務・経理・人事等)',
-    'EM': 'エンジニアマネージャー(組織管理)',
-    'QA': '品質保証(QA)',
-    'HR': '人事(HR)',
-    'Executive': '経営層(CTO/COO等)',
-    'Other': 'その他'
+    'Engineer': 'Engineer',
+    'Designer': 'Designer',
+    'Sales': 'Sales',
+    'PM': 'PM',
+    'Corporate': 'Corporate',
+    'EM': 'EM',
+    'QA': 'QA',
+    'HR': 'HR',
+    '経営': '経営',
+    'Executive': '経営',
+    'Other': 'Other'
   };
 
   jobs.forEach(job => {
