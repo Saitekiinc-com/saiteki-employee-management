@@ -54,9 +54,13 @@ function parseIssueBody(body) {
   const keyMap = {
     'お名前': 'name',
     '職種': 'job',
-    '好きな技術・使いたい技術': 'preferred_tech',
-    '今年のゴール (SMART)': 'will',
-    '不足しているもの・支援が必要なこと': 'gap'
+    '好きな技術': 'like_tech',
+    '嫌いな技術': 'dislike_tech',
+    'S (Specific: 具体的)': 'smart_s',
+    'M (Measurable: 測定可能)': 'smart_m',
+    'A (Achievable: 達成可能)': 'smart_a',
+    'R (Relevant: 関連性)': 'smart_r',
+    'T (Time-bound: 期限)': 'smart_t'
   };
 
   for (let i = 0; i < lines.length; i++) {
@@ -64,16 +68,24 @@ function parseIssueBody(body) {
     if (line.startsWith('### ')) {
       const label = line.replace('### ', '').trim();
       currentKey = keyMap[label];
-      if (currentKey) data[currentKey] = ''; // 初期化
+      if (currentKey) data[currentKey] = '';
     } else if (currentKey && line !== '' && line !== '_No response_') {
-      if (currentKey === 'preferred_tech') {
-        data[currentKey] = line.split(',').map(s => s.trim());
-      } else {
-        // 複数行対応
-        data[currentKey] = (data[currentKey] ? data[currentKey] + '\n' : '') + line;
-      }
+      // カンマ区切りは想定せず、すべて文字列として保存
+      data[currentKey] = (data[currentKey] ? data[currentKey] + '\n' : '') + line;
     }
   }
+
+  // SMARTをまとめた文字列も生成（表示用）
+  if (data.smart_s || data.smart_m || data.smart_a || data.smart_r || data.smart_t) {
+    data.smart_goal = [
+      data.smart_s ? `**S:** ${data.smart_s}` : '',
+      data.smart_m ? `**M:** ${data.smart_m}` : '',
+      data.smart_a ? `**A:** ${data.smart_a}` : '',
+      data.smart_r ? `**R:** ${data.smart_r}` : '',
+      data.smart_t ? `**T:** ${data.smart_t}` : ''
+    ].filter(Boolean).join(' / ');
+  }
+
   return data;
 }
 
@@ -165,20 +177,15 @@ function generateTeamDoc(employees) {
   md += '```\n\n';
 
   md += '## 詳細リスト\n\n';
-  md += '| 名前 | 職種 | 好きな技術 | 今年のゴール (SMART) |\n';
-  md += '| --- | --- | --- | --- |\n';
+  md += '| 名前 | 職種 | 好きな技術 | 嫌いな技術 | 次のゴール (SMART) |\n';
+  md += '| --- | --- | --- | --- | --- |\n';
 
   activeEmployees.forEach(e => {
-    // Preferred Tech
-    const tech = Array.isArray(e.preferred_tech) ? e.preferred_tech.join(', ') : (e.preferred_tech || '-');
+    const likeTech = e.like_tech || '-';
+    const dislikeTech = e.dislike_tech || '-';
+    const goal = e.smart_goal || '-';
 
-    // Will (SMART)
-    let willContent = '-';
-    if (e.will) {
-      willContent = e.will.replace(/\n/g, '<br>');
-    }
-
-    md += `| ${e.name} | ${e.job} | ${tech} | ${willContent} |\n`;
+    md += `| ${e.name} | ${e.job} | ${likeTech} | ${dislikeTech} | ${goal} |\n`;
   });
 
   if (archivedEmployees.length > 0) {

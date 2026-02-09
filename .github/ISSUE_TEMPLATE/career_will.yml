@@ -34,37 +34,71 @@ body:
       required: true
 
   - type: input
-    id: preferred_tech
+    id: like_tech
     attributes:
-      label: 好きな技術・使いたい技術
-      description: モチベーションの源泉となる技術（経験があっても使いたくないものは除外）
+      label: 好きな技術
+      description: モチベーションの源泉となる技術。業務外でも触りたい、学びたいもの。
       placeholder: React, Rust, 生成AI
     validations:
       required: true
 
-  - type: textarea
-    id: will
+  - type: input
+    id: dislike_tech
     attributes:
-      label: 今年のゴール (SMART)
-      description: 以下のテンプレートに沿って、1年以内に達成したいことを記入してください
+      label: 嫌いな技術
+      description: アサインを避けてほしい技術。苦手なもの、もうやりたくないもの。
+      placeholder: jQuery, レガシーPHP
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
       value: |
-        ### S (Specific: 具体的)
-        - 
-        ### M (Measurable: 測定可能)
-        - 
-        ### A (Achievable: 達成可能)
-        - 
-        ### R (Relevant: 関連性)
-        - 
-        ### T (Time-bound: 期限)
-        - 
+        ---
+        ## 次に見据えたあなたのゴール（SMART）
+        以下の5つの観点から、1年以内に達成したい目標を記入してください。
+
+  - type: input
+    id: smart_s
+    attributes:
+      label: S (Specific: 具体的)
+      description: 何を達成するのか？
+      placeholder: 例) Go言語を使ったマイクロサービス開発ができるようになる
     validations:
       required: true
 
-  - type: textarea
-    id: gap
+  - type: input
+    id: smart_m
     attributes:
-      label: 不足しているもの・支援が必要なこと
-      description: ゴール達成のために必要な経験、知識、メンター、機会など
+      label: M (Measurable: 測定可能)
+      description: どうなったら成功と言えるか？
+      placeholder: 例) 実装したAPIが本番稼働し、チームメンバーがコードレビューで承認してくれる
     validations:
-      required: false
+      required: true
+
+  - type: input
+    id: smart_a
+    attributes:
+      label: A (Achievable: 達成可能)
+      description: どうやって実現するか？
+      placeholder: 例) 週3時間の学習時間を確保し、社内メンターにサポートしてもらう
+    validations:
+      required: true
+
+  - type: input
+    id: smart_r
+    attributes:
+      label: R (Relevant: 関連性)
+      description: なぜこれをやるのか？
+      placeholder: 例) 現在のプロジェクトでGoへの移行が予定されており、自分のスキルセットにも合う
+    validations:
+      required: true
+
+  - type: input
+    id: smart_t
+    attributes:
+      label: T (Time-bound: 期限)
+      description: いつまでに達成するか？
+      placeholder: 例) 2026年12月末までに最初のサービスをリリース
+    validations:
+      required: true
