@@ -13,7 +13,14 @@ function sync() {
         return;
     }
 
-    const employees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+    let employees;
+    try {
+        employees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+    } catch (e) {
+        console.error(`Error parsing ${DATA_FILE}:`, e.message);
+        console.error('The JSON file might be corrupted (e.g., trailing comma).');
+        return;
+    }
     const activeNames = employees
         .filter(e => e.isActive !== false)
         .map(e => e.name)
