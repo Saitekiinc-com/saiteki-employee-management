@@ -15,6 +15,7 @@ body:
       label: お名前
       description: 自分の名前を選択してください（選択肢にない場合はマネージャーに初期登録を依頼してください）
       options:
+        - 小林翔
         - 杉本光一
         - 青木淳一郎
     validations:
