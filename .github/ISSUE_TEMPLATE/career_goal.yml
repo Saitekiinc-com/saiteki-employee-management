@@ -8,7 +8,7 @@ body:
       value: |
         年次キャリア情報の更新ありがとうございます。
         この情報は社内マッチングやメンター推薦などに活用されます。
-  
+
   - type: input
     id: name
     attributes:
