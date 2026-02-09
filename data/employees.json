@@ -9,12 +9,12 @@
   {
     "name": "青木淳一郎",
     "job": "Engineer",
-    "updatedAt": "2026-02-09T10:26:26.829Z",
+    "updatedAt": "2026-02-09T10:29:13.538Z",
     "isActive": true,
     "createdAt": "2026-02-09T08:28:22.503Z",
     "self_intro": "11月から入社しました、青木と申します！\nよろしくお願いします！\n●出身地：佐賀県唐津市\n田舎ですが海の幸が美味しい街です。現在は福岡に住んでいます！\n●やってきたこと：AWS基盤のインフラの設計、構築を主にやってきました。Azure、Google Cloudにももっと触れていきたいと思っている今日このごろです\n●最近ハマってること：「ざっくりYoutube」という小籔、千原ジュニア、フットボールアワーが出ている動画を観ることです！みんな話が上手くておもしろいです\n●休日の過ごし方：家族とドライブに行ったり、子どもと遊んだり、妻をガチャガチャ屋さんに連れて行ったり\n●好きな食べ物：焼きそば、からあげ\n●ひとこと：福岡に住んでいるので、みなさんと直接会う機会は少ないかもしれませんがSlackやオンラインでコミュニケーションを取っていければと思っています！Saitekiの輪をどんどん広げていけたらと思っているので、みなさんよろしくお願いします",
     "ai_error": true,
-    "ai_error_msg": "API 403: [{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on resource project saiteki-ai.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"CONSUMER_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"consumer\": \"projects/saiteki-ai\",\n          \"containerInfo\": \"saiteki-ai\",\n          \"service\": \"aiplatform.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"Permission denied on resource project saiteki-ai.\"\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Google developers console\",\n            \"url\": \"https://console.developers.google.com\"\n          }\n        ]\n      }\n    ]\n  }\n}\n]"
+    "ai_error_msg": "API 403: [{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on resource project saiteki-ai.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"CONSUMER_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"containerInfo\": \"saiteki-ai\",\n          \"consumer\": \"projects/saiteki-ai\",\n          \"service\": \"aiplatform.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"Permission denied on resource project saiteki-ai.\"\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Google developers console\",\n            \"url\": \"https://console.developers.google.com\"\n          }\n        ]\n      }\n    ]\n  }\n}\n]"
   },
   {
     "name": "小林翔",
