@@ -21,6 +21,8 @@ mindmap
       貴志雪乃
     Sales
       藤井芙美子
+    Other
+      佐藤傑
 ```
 
 ## 詳細リスト
@@ -39,3 +41,4 @@ mindmap
 | 小島遼祐 | Engineer | - | - | - |
 | 藤井芙美子 | Sales | - | - | - |
 | 菅野聖也 | Engineer | - | - | - |
+| 佐藤傑 | Other | - | - | - |

@@ -90,5 +90,12 @@
     "updatedAt": "2026-02-09T08:41:32.701Z",
     "isActive": true,
     "createdAt": "2026-02-09T08:41:32.701Z"
+  },
+  {
+    "name": "佐藤傑",
+    "job": "Other",
+    "updatedAt": "2026-02-09T08:51:41.558Z",
+    "isActive": true,
+    "createdAt": "2026-02-09T08:51:41.558Z"
   }
 ]
