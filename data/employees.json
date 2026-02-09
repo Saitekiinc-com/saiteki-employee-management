@@ -4,7 +4,8 @@
     "job": "Engineer",
     "updatedAt": "2026-02-09T08:08:08.923Z",
     "isActive": true,
-    "createdAt": "2026-02-09T08:03:13.056Z"
+    "createdAt": "2026-02-09T08:03:13.056Z",
+    "slack_id": "U09MGV3MU9H"
   },
   {
     "name": "青木淳一郎",
@@ -25,7 +26,8 @@
     ],
     "goal": "Azure, Google Cloudの経験を積む。Saitekiの輪を広げる。",
     "personality": "協調性, コミュニケーション能力, 親しみやすい",
-    "job_guess": "インフラエンジニア"
+    "job_guess": "インフラエンジニア",
+    "slack_id": "U09NHL5HMRN"
   },
   {
     "name": "小林翔",
@@ -46,7 +48,8 @@
     ],
     "goal": "仲良くしながら一緒に成長",
     "personality": "協調性",
-    "job_guess": "Tester"
+    "job_guess": "Tester",
+    "slack_id": "U09S602LZS7"
   },
   {
     "name": "櫻井志保",
@@ -72,7 +75,8 @@
       "コミュニケーション重視",
       "謙虚"
     ],
-    "job_guess": "Data Analyst"
+    "job_guess": "Data Analyst",
+    "slack_id": "U09S5RCV6GK"
   },
   {
     "name": "田浦裕樹",
@@ -99,7 +103,8 @@
     ],
     "goal": "技術に裏打ちされた温かみのある仕事を目指す",
     "personality": "温かみがある",
-    "job_guess": "Engineer"
+    "job_guess": "Engineer",
+    "slack_id": "U09MM9KS06S"
   },
   {
     "name": "開米 敦則",
@@ -125,7 +130,8 @@
     ],
     "goal": "AIを活用した新しいテストの形にチャレンジする",
     "personality": "協調性, 真面目, 多趣味, 家族思い",
-    "job_guess": "QA Engineer"
+    "job_guess": "QA Engineer",
+    "slack_id": "U09UHG24VUZ"
   },
   {
     "name": "貴志雪乃",
@@ -147,7 +153,8 @@
     ],
     "goal": "精一杯努める",
     "personality": "誠実",
-    "job_guess": "保育士"
+    "job_guess": "保育士",
+    "slack_id": "U0A0QFEQGRX"
   },
   {
     "name": "上遼太郎",
@@ -171,7 +178,8 @@
     ],
     "goal": "新しいことに挑戦していきたい",
     "personality": "積極的, 好奇心旺盛, コミュニケーション好き",
-    "job_guess": "Engineer"
+    "job_guess": "Engineer",
+    "slack_id": "U09NHL467U0"
   },
   {
     "name": "小松田真伍",
@@ -199,7 +207,8 @@
     ],
     "goal": "経験を活かした自分なりの最適を還元",
     "personality": "社交的, 多趣味, 熱意がある, 謙虚",
-    "job_guess": "Engineer"
+    "job_guess": "Engineer",
+    "slack_id": "U0A7VHB07J4"
   },
   {
     "name": "小島遼祐",
@@ -226,7 +235,8 @@
     ],
     "goal": "IT業界未経験ながらも積極的に学習し成長すること",
     "personality": "積極的、学習意欲旺盛、責任感、音楽好き、ゲーム好き",
-    "job_guess": "Engineer"
+    "job_guess": "Engineer",
+    "slack_id": "U0A8H20BWCT"
   },
   {
     "name": "藤井芙美子",
@@ -254,7 +264,8 @@
       "家族思い",
       "アクティブ"
     ],
-    "job_guess": "Office Assistant"
+    "job_guess": "Office Assistant",
+    "slack_id": "U0A9EE7HZ3P"
   },
   {
     "name": "菅野聖也",
@@ -274,7 +285,8 @@
     ],
     "goal": "開発者としてのカンを取り戻し、システム開発を楽しむ",
     "personality": "探究心, 好奇心, 学習意欲",
-    "job_guess": "Engineer"
+    "job_guess": "Engineer",
+    "slack_id": "U0ADE4H3RTJ"
   },
   {
     "name": "佐藤傑",
@@ -305,7 +317,8 @@
       "コミュニティ志向",
       "学習意欲"
     ],
-    "job_guess": "Entrepreneur"
+    "job_guess": "Entrepreneur",
+    "slack_id": "U09MKUXAU4V"
   },
   {
     "name": "鈴木悠斗",
@@ -332,7 +345,8 @@
     ],
     "goal": "会社と共に成長し、皆が幸せになれるよう事業に全力で取り組む",
     "personality": "熱い、成長意欲",
-    "job_guess": "Executive/Sales"
+    "job_guess": "Executive/Sales",
+    "slack_id": "U09MPBUHTEE"
   },
   {
     "name": "戸塚直道",
@@ -359,6 +373,7 @@
     ],
     "goal": "日本のIT産業の構造を変革し、エンジニアの経済環境・待遇を改善する",
     "personality": "情熱的",
-    "job_guess": "経営者"
+    "job_guess": "経営者",
+    "slack_id": "U09MGUVJ8BV"
   }
 ]
