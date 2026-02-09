@@ -31,6 +31,7 @@ body:
         - EM (エンジニアマネージャー: 組織管理)
         - QA (品質保証)
         - HR (人事)
+        - Executive (経営層: CTO/COO/役員等)
         - Other (その他)
     validations:
       required: true

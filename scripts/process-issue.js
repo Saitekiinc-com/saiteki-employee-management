@@ -186,6 +186,7 @@ function generateTeamDoc(employees) {
     'EM': 'エンジニアマネージャー(組織管理)',
     'QA': '品質保証(QA)',
     'HR': '人事(HR)',
+    'Executive': '経営層(CTO/COO等)',
     'Other': 'その他'
   };
 
