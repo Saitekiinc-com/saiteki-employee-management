@@ -30,6 +30,7 @@ body:
         - Corporate
         - EM
         - QA
+        - HR
         - Other
     validations:
       required: true
