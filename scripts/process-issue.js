@@ -39,7 +39,7 @@ async function main() {
 
   // JSON保存
   fs.writeFileSync(DATA_FILE, JSON.stringify(employees, null, 2));
-  
+
   // ドキュメント生成
   generateTeamDoc(employees);
 }
@@ -48,19 +48,17 @@ async function main() {
 function parseIssueBody(body) {
   const lines = body.split('\n');
   const data = {};
-  
+
   let currentKey = null;
-  
+
   // 簡易的なパーサー: ### Label の次の行を取得
   // Issue Formsの出力形式に依存するため、必要に応じて調整
   const keyMap = {
     'お名前': 'name',
     '職種': 'job',
-    '役職': 'role',
-    '得意スキル': 'skills',
-    '今年のゴール': 'will',
-    'トライしたいこと・不足しているもの': 'gap',
-    '3年後のイメージ': 'vision'
+    '好きな技術・使いたい技術': 'preferred_tech',
+    '今年のゴール (SMART)': 'will',
+    '不足しているもの・支援が必要なこと': 'gap'
   };
 
   for (let i = 0; i < lines.length; i++) {
@@ -68,11 +66,13 @@ function parseIssueBody(body) {
     if (line.startsWith('### ')) {
       const label = line.replace('### ', '').trim();
       currentKey = keyMap[label];
+      // SMARTのような複数行項目などで、前の値が残らないように初期化
+      if (currentKey) data[currentKey] = '';
     } else if (currentKey && line !== '' && line !== '_No response_') {
-      if (currentKey === 'skills') {
+      if (currentKey === 'preferred_tech') {
         data[currentKey] = line.split(',').map(s => s.trim());
       } else {
-        // 複数行対応
+        // 複数行対応 (改行コードを含める)
         data[currentKey] = (data[currentKey] ? data[currentKey] + '\n' : '') + line;
       }
     }
@@ -84,7 +84,7 @@ function parseDeleteIssueBody(body) {
   const lines = body.split('\n');
   const data = {};
   let currentKey = null;
-  
+
   const keyMap = {
     '対象社員名': 'name',
     '処理種別': 'action_type',
@@ -107,7 +107,7 @@ function parseDeleteIssueBody(body) {
 function updateEmployee(employees, newData) {
   const index = employees.findIndex(e => e.name === newData.name);
   const now = new Date().toISOString();
-  
+
   const entry = {
     ...newData,
     updatedAt: now,
@@ -171,7 +171,7 @@ function generateTeamDoc(employees) {
   md += '## 詳細リスト\n\n';
   md += '| 名前 | 職種 | 役職 | 今年のゴール (Will) |\n';
   md += '| --- | --- | --- | --- |\n';
-  
+
   activeEmployees.forEach(e => {
     md += `| ${e.name} | ${e.job} | ${e.role} | ${e.will ? e.will.replace(/\n/g, '<br>') : '-'} |\n`;
   });

@@ -13,8 +13,8 @@ body:
     id: name
     attributes:
       label: お名前
-      description: フルネームを入力してください
-      placeholder: 山田 太郎
+      description: 姓名の間にスペースを入れずにフルネームを入力してください
+      placeholder: 山田太郎
     validations:
       required: true
 
@@ -33,47 +33,38 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: role
-    attributes:
-      label: 役職
-      options:
-        - Member
-        - Lead
-        - Manager
-        - VP/CxO
-    validations:
-      required: true
-
   - type: input
-    id: skills
+    id: preferred_tech
     attributes:
-      label: 得意スキル
-      description: 現在持っているスキルや強みをカンマ区切りで入力してください
-      placeholder: React, 採用, 営業企画
+      label: 好きな技術・使いたい技術
+      description: モチベーションの源泉となる技術（経験があっても使いたくないものは除外）
+      placeholder: React, Rust, 生成AI
     validations:
       required: true
 
   - type: textarea
     id: will
     attributes:
-      label: 今年のゴール
-      description: 1年以内に達成したい具体的な状態を教えてください
+      label: 今年のゴール (SMART)
+      description: 以下のテンプレートに沿って、1年以内に達成したいことを記入してください
+      value: |
+        ### S (Specific: 具体的)
+        - 
+        ### M (Measurable: 測定可能)
+        - 
+        ### A (Achievable: 達成可能)
+        - 
+        ### R (Relevant: 関連性)
+        - 
+        ### T (Time-bound: 期限)
+        - 
     validations:
       required: true
 
   - type: textarea
     id: gap
     attributes:
-      label: トライしたいこと・不足しているもの
-      description: ゴール達成のために必要な経験、知識、サポートなど
-    validations:
-      required: false
-
-  - type: textarea
-    id: vision
-    attributes:
-      label: 3年後のイメージ
-      description: 中長期的なキャリア志向（スペシャリスト、マネジメント等）
+      label: 不足しているもの・支援が必要なこと
+      description: ゴール達成のために必要な経験、知識、メンター、機会など
     validations:
       required: false
