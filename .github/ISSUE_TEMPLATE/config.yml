@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: サポート・質問
+    url: https://github.com/Saitekiinc-com/saiteki-employee-management/discussions
+    about: テンプレートに当てはまらない質問や議論はこちら
