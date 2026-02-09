@@ -110,7 +110,7 @@ async function extractDataWithAI(rawData) {
   }
 
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview-001" });
 
     const prompt = `
     あなたは人事データの分析官です。以下の「自己紹介・キャリア詳細」のテキストから、社員のスキル、興味、目標、人柄を抽出し、JSON形式で出力してください。
