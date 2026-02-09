@@ -1,6 +1,6 @@
 name: キャリア・目標登録（年次更新）
 description: 年ごとのキャリア目標とスキル状況を登録・更新します
-title: "[Career] {名前} - {西暦}"
+title: "[Career] 年次更新"
 labels: ["employee-update"]
 body:
   - type: markdown
