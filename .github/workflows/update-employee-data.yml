@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   update-data:
-    if: startsWith(github.event.issue.title, '[Career]') || startsWith(github.event.issue.title, '[Delete]')
+    if: contains(github.event.issue.labels.*.name, 'employee-update') || contains(github.event.issue.labels.*.name, 'employee-delete')
     runs-on: ubuntu-latest
 
     steps:
@@ -44,4 +44,4 @@ jobs:
       - name: Close Issue (Optional)
         uses: peter-evans/close-issue@v3
         with:
-          comment: "データと組織図を更新しました！ `docs/TEAM.md` を確認してください。"
+          comment: "データと組織図を更新しました！ docs/TEAM.md を確認してください。"

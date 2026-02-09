@@ -20,9 +20,9 @@ async function main() {
     employees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
   }
 
-  // タイトルの接頭辞で処理を分岐
-  const isUpdate = issueTitle.startsWith('[Career]');
-  const isDelete = issueTitle.startsWith('[Delete]');
+  // ラベルによって処理を分岐
+  const isUpdate = issueLabels.some(l => l.name === 'employee-update');
+  const isDelete = issueLabels.some(l => l.name === 'employee-delete');
 
   if (isUpdate) {
     const data = parseIssueBody(issueBody);
