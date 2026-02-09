@@ -33,89 +33,18 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: job
+  - type: textarea
+    id: self_intro
     attributes:
-      label: 職種
-      options:
-        - Engineer
-        - Designer
-        - Sales
-        - PM
-        - Corporate
-        - QA
-        - HR
-        - 経営
-        - Other
-    validations:
-      required: true
-
-  - type: input
-    id: like_tech
-    attributes:
-      label: 好きな技術
-      description: モチベーションの源泉となる技術。業務外でも触りたい、学びたいもの。
-      placeholder: React, Rust, 生成AI
-    validations:
-      required: true
-
-  - type: input
-    id: dislike_tech
-    attributes:
-      label: 嫌いな技術
-      description: アサインを避けてほしい技術。苦手なもの、もうやりたくないもの。
-      placeholder: jQuery, レガシーPHP
-    validations:
-      required: false
-
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        ## 次に見据えたあなたのゴール（SMART）
-        以下の5つの観点から、1年以内に達成したい目標を記入してください。
-
-  - type: input
-    id: smart_s
-    attributes:
-      label: "S (Specific: 具体的)"
-      description: 何を達成するのか？
-      placeholder: 例) Go言語を使ったマイクロサービス開発ができるようになる
-    validations:
-      required: true
-
-  - type: input
-    id: smart_m
-    attributes:
-      label: "M (Measurable: 測定可能)"
-      description: どうなったら成功と言えるか？
-      placeholder: 例) 実装したAPIが本番稼働し、チームメンバーがコードレビューで承認してくれる
-    validations:
-      required: true
-
-  - type: input
-    id: smart_a
-    attributes:
-      label: "A (Achievable: 達成可能)"
-      description: どうやって実現するか？
-      placeholder: 例) 週3時間の学習時間を確保し、社内メンターにサポートしてもらう
-    validations:
-      required: true
-
-  - type: input
-    id: smart_r
-    attributes:
-      label: "R (Relevant: 関連性)"
-      description: なぜこれをやるのか？
-      placeholder: 例) 現在のプロジェクトでGoへの移行が予定されており、自分のスキルセットにも合う
-    validations:
-      required: true
-
-  - type: input
-    id: smart_t
-    attributes:
-      label: "T (Time-bound: 期限)"
-      description: いつまでに達成するか？
-      placeholder: 例) 2026年12月末までに最初のサービスをリリース
+      label: 自己紹介 / キャリア詳細
+      description: |
+        あなたの経歴、強み、最近の興味、今後の目標、趣味、最近の悩みなど、**なんでも自由に書いてください**。
+        形式にこだわる必要はありません。AIが内容を理解して整理します。
+      placeholder: |
+        (例)
+        現在はGo言語を中心にバックエンド開発をしていますが、実はReactも書けます。
+        最近はRustに興味があり、週末に個人的なアプリを作っています。
+        来年は特定技術のスペシャリストというよりは、チームを率いるEM的な立ち位置に挑戦したいです。
+        趣味はサウナとキャンプです。最近は子供が生まれたので育休取得についても相談したいです。
     validations:
       required: true

@@ -10,12 +10,27 @@ body:
         - **アーカイブ**: 退職者としてデータを残します（推奨）
         - **削除**: 誤登録などを完全に消去します
 
-  - type: input
+  - type: dropdown
     id: name
     attributes:
       label: 対象社員名
-      description: 登録されている名前と完全に一致させてください
-      placeholder: 山田 太郎
+      description: 削除・アーカイブする社員を選択してください
+      options:
+        - 上遼太郎
+        - 佐藤傑
+        - 小島遼祐
+        - 小松田真伍
+        - 小林翔
+        - 戸塚直道
+        - 杉本光一
+        - 櫻井志保
+        - 田浦裕樹
+        - 菅野聖也
+        - 藤井芙美子
+        - 貴志雪乃
+        - 鈴木悠斗
+        - 開米 敦則
+        - 青木淳一郎
     validations:
       required: true
 

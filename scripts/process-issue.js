@@ -11,7 +11,19 @@ async function main() {
   const issueLabels = JSON.parse(process.env.ISSUE_LABELS || '[]');
 
   if (!issueBody) {
-    console.error('No issue body found');
+    if (process.argv.includes('--sync')) {
+      console.log('Manual sync triggered. Regenerating TEAM.md from existing data...');
+      if (fs.existsSync(DATA_FILE)) {
+        const currentEmployees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+        generateTeamDoc(currentEmployees);
+        console.log('TEAM.md regenerated successfully.');
+        return;
+      } else {
+        console.error('Data file not found. Cannot sync.');
+        process.exit(1);
+      }
+    }
+    console.error('No issue body found. Provide ISSUE_BODY or use --sync flag.');
     process.exit(1);
   }
 
