@@ -83,5 +83,12 @@
     "updatedAt": "2026-02-09T08:41:17.760Z",
     "isActive": true,
     "createdAt": "2026-02-09T08:41:17.760Z"
+  },
+  {
+    "name": "菅野聖也",
+    "job": "Engineer",
+    "updatedAt": "2026-02-09T08:41:32.701Z",
+    "isActive": true,
+    "createdAt": "2026-02-09T08:41:32.701Z"
   }
 ]
