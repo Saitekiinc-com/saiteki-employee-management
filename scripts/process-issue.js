@@ -68,7 +68,6 @@ function parseIssueBody(body) {
     if (line.startsWith('### ')) {
       const label = line.replace('### ', '').trim();
       currentKey = keyMap[label];
-      if (currentKey) data[currentKey] = '';
     } else if (currentKey && line !== '' && line !== '_No response_') {
       // カンマ区切りは想定せず、すべて文字列として保存
       data[currentKey] = (data[currentKey] ? data[currentKey] + '\n' : '') + line;

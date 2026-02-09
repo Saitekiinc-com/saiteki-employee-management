@@ -1,0 +1,34 @@
+name: 【マネージャー用】新規社員登録（オンボーディング）
+description: 新しく入社された方の名前と職種を初期登録します
+title: "[Onboarding] {名前}"
+labels: ["employee-update"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        マネージャーによる新規社員の初期登録用テンプレートです。
+        登録後、本人が「キャリア・目標登録」テンプレートで詳細を更新します。
+
+  - type: input
+    id: name
+    attributes:
+      label: お名前
+      description: 姓名の間にスペースを入れずにフルネームを入力してください
+      placeholder: 山田太郎
+    validations:
+      required: true
+
+  - type: dropdown
+    id: job
+    attributes:
+      label: 職種
+      options:
+        - Engineer
+        - Designer
+        - Sales
+        - PM
+        - Corporate
+        - EM
+        - Other
+    validations:
+      required: true
