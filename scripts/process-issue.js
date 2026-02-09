@@ -119,7 +119,8 @@ async function extractDataWithAI(rawData) {
 
   const projectId = process.env.GCP_PROJECT_ID;
   const location = process.env.GCP_LOCATION || 'us-central1';
-  const modelId = process.env.GCP_MODEL_ID || "gemini-1.5-flash-002"; // 404回避のためバージョンを明示
+  // tunedModels/your-model-id のような形式も受け入れ可能にする
+  const modelId = process.env.GCP_MODEL_ID || "gemini-1.5-flash-002";
 
   if (!projectId) {
     console.error('GCP_PROJECT_ID missing');
@@ -127,7 +128,9 @@ async function extractDataWithAI(rawData) {
   }
 
   // Vertex AI REST API Endpoint
-  console.log(`Calling Vertex AI: Project=${projectId}, Location=${location}, Model=${modelId}`);
+  // カスタムモデルの場合は publishers/google/models/ ではなく tunedModels/ を使う場合があるが
+  // 基本的には publishers/google/models/ の後に名前が入る
+  console.log(`Using Model: ${modelId}`);
   const url = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/${modelId}:streamGenerateContent?key=${apiKey}`;
 
   try {
