@@ -29,6 +29,7 @@ body:
         - PM
         - Corporate
         - EM
+        - QA
         - Other
     validations:
       required: true
