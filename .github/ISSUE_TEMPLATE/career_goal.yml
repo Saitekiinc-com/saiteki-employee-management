@@ -9,12 +9,14 @@ body:
         年次キャリア情報の更新ありがとうございます。
         この情報は社内マッチングやメンター推薦などに活用されます。
 
-  - type: input
+  - type: dropdown
     id: name
     attributes:
       label: お名前
-      description: 姓名の間にスペースを入れずにフルネームを入力してください
-      placeholder: 山田太郎
+      description: 自分の名前を選択してください（選択肢にない場合はマネージャーに初期登録を依頼してください）
+      options:
+        - 杉本光一
+        - 青木淳一郎
     validations:
       required: true
 

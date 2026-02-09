@@ -28,12 +28,15 @@ jobs:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_LABELS: ${{ toJson(github.event.issue.labels) }}
         run: node scripts/process-issue.js
+ 
+      - name: Sync Templates (Update dropdowns)
+        run: node scripts/sync-templates.js
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/employees.json docs/TEAM.md
+          git add data/employees.json docs/TEAM.md .github/ISSUE_TEMPLATE/career_goal.yml
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
