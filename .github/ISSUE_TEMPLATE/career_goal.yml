@@ -61,7 +61,7 @@ body:
   - type: input
     id: smart_s
     attributes:
-      label: S (Specific: 具体的)
+      label: "S (Specific: 具体的)"
       description: 何を達成するのか？
       placeholder: 例) Go言語を使ったマイクロサービス開発ができるようになる
     validations:
@@ -70,7 +70,7 @@ body:
   - type: input
     id: smart_m
     attributes:
-      label: M (Measurable: 測定可能)
+      label: "M (Measurable: 測定可能)"
       description: どうなったら成功と言えるか？
       placeholder: 例) 実装したAPIが本番稼働し、チームメンバーがコードレビューで承認してくれる
     validations:
@@ -79,7 +79,7 @@ body:
   - type: input
     id: smart_a
     attributes:
-      label: A (Achievable: 達成可能)
+      label: "A (Achievable: 達成可能)"
       description: どうやって実現するか？
       placeholder: 例) 週3時間の学習時間を確保し、社内メンターにサポートしてもらう
     validations:
@@ -88,7 +88,7 @@ body:
   - type: input
     id: smart_r
     attributes:
-      label: R (Relevant: 関連性)
+      label: "R (Relevant: 関連性)"
       description: なぜこれをやるのか？
       placeholder: 例) 現在のプロジェクトでGoへの移行が予定されており、自分のスキルセットにも合う
     validations:
@@ -97,7 +97,7 @@ body:
   - type: input
     id: smart_t
     attributes:
-      label: T (Time-bound: 期限)
+      label: "T (Time-bound: 期限)"
       description: いつまでに達成するか？
       placeholder: 例) 2026年12月末までに最初のサービスをリリース
     validations:
