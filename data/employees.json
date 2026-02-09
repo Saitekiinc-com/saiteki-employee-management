@@ -97,5 +97,12 @@
     "updatedAt": "2026-02-09T08:51:41.558Z",
     "isActive": true,
     "createdAt": "2026-02-09T08:51:41.558Z"
+  },
+  {
+    "name": "鈴木悠斗",
+    "job": "経営",
+    "updatedAt": "2026-02-09T09:01:15.189Z",
+    "isActive": true,
+    "createdAt": "2026-02-09T09:01:15.189Z"
   }
 ]

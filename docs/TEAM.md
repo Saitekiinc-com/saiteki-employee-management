@@ -3,6 +3,18 @@
 自動生成された組織図です。Issueによる更新が反映されます。
 
 ```mermaid
+%%{init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#D6D0C9',
+      'primaryTextColor': '#4A4540',
+      'primaryBorderColor': '#BBAA99',
+      'lineColor': '#A3998E',
+      'secondaryColor': '#F5F2F0',
+      'tertiaryColor': '#E8E4E1',
+      'nodeBorder': '1px'
+    }
+  }}%%
 mindmap
   root((株式会社Saiteki))
     Engineer
@@ -23,6 +35,8 @@ mindmap
       藤井芙美子
     Other
       佐藤傑
+    経営
+      鈴木悠斗
 ```
 
 ## 詳細リスト
@@ -42,3 +56,4 @@ mindmap
 | 藤井芙美子 | Sales | - | - | - |
 | 菅野聖也 | Engineer | - | - | - |
 | 佐藤傑 | Other | - | - | - |
+| 鈴木悠斗 | 経営 | - | - | - |
