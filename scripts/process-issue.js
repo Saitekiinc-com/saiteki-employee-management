@@ -119,7 +119,7 @@ async function extractDataWithAI(rawData) {
 
   const projectId = process.env.GCP_PROJECT_ID;
   const location = process.env.GCP_LOCATION || 'us-central1';
-  // tunedModels/your-model-id のような形式も受け入れ可能にする
+  // ユーザーのモデルID (例: saiteki-fine-tuning-01)
   const modelId = process.env.GCP_MODEL_ID || "gemini-1.5-flash-002";
 
   if (!projectId) {
@@ -128,10 +128,17 @@ async function extractDataWithAI(rawData) {
   }
 
   // Vertex AI REST API Endpoint
-  // カスタムモデルの場合は publishers/google/models/ ではなく tunedModels/ を使う場合があるが
-  // 基本的には publishers/google/models/ の後に名前が入る
-  console.log(`Using Model: ${modelId}`);
-  const url = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/${modelId}:streamGenerateContent?key=${apiKey}`;
+  // 標準モデルは publishers/google/models/ だが、カスタムモデルはプロジェクト直下の models/ になる
+  let modelPath = "";
+  if (modelId.startsWith("gemini-")) {
+    modelPath = `publishers/google/models/${modelId}`;
+  } else {
+    // チューニング済みモデルなどはプロジェクト直下のモデルリソースとして指定
+    modelPath = `models/${modelId}`;
+  }
+
+  console.log(`Calling Vertex AI: Project=${projectId}, Model=${modelId}, Path=${modelPath}`);
+  const url = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/${modelPath}:streamGenerateContent?key=${apiKey}`;
 
   try {
     const prompt = `
