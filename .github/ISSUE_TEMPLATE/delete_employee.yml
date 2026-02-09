@@ -24,8 +24,8 @@ body:
     attributes:
       label: 処理種別
       options:
-        - Archive (退職:データ残す)
-        - Delete (誤登録:完全に消す)
+        - "Archive (退職:データ残す)"
+        - "Delete (誤登録:完全に消す)"
     validations:
       required: true
 
