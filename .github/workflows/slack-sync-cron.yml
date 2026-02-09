@@ -1,0 +1,37 @@
+name: Periodic Slack Sync
+
+on:
+  schedule:
+    # 毎週月曜日の午前9時 (JST) = UTC 0:00
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # 手動実行用
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync Slack Activity
+        run: node scripts/sync-slack.js
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN || secrets.SLACK_APP_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GCP_LOCATION: ${{ secrets.GCP_LOCATION || 'us-central1' }}
+          GCP_ENDPOINT_ID: ${{ secrets.GCP_ENDPOINT_ID }}
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/employees.json docs/TEAM.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update employee profiles from Slack activity" && git push)
