@@ -104,5 +104,12 @@
     "updatedAt": "2026-02-09T09:01:15.189Z",
     "isActive": true,
     "createdAt": "2026-02-09T09:01:15.189Z"
+  },
+  {
+    "name": "戸塚直道",
+    "job": "経営",
+    "updatedAt": "2026-02-09T09:01:32.730Z",
+    "isActive": true,
+    "createdAt": "2026-02-09T09:01:32.730Z"
   }
 ]
