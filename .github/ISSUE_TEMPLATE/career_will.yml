@@ -1,0 +1,79 @@
+name: キャリア・目標登録（年次更新）
+description: 年ごとのキャリア目標とスキル状況を登録・更新します
+title: "[Career] {名前} - {西暦}"
+labels: ["employee-update"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        年次キャリア情報の更新ありがとうございます。
+        この情報は社内マッチングやメンター推薦などに活用されます。
+  
+  - type: input
+    id: name
+    attributes:
+      label: お名前
+      description: フルネームを入力してください
+      placeholder: 山田 太郎
+    validations:
+      required: true
+
+  - type: dropdown
+    id: job
+    attributes:
+      label: 職種
+      options:
+        - Engineer
+        - Designer
+        - Sales
+        - PM
+        - Corporate
+        - EM
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: 役職
+      options:
+        - Member
+        - Lead
+        - Manager
+        - VP/CxO
+    validations:
+      required: true
+
+  - type: input
+    id: skills
+    attributes:
+      label: 得意スキル
+      description: 現在持っているスキルや強みをカンマ区切りで入力してください
+      placeholder: React, 採用, 営業企画
+    validations:
+      required: true
+
+  - type: textarea
+    id: will
+    attributes:
+      label: 今年のゴール
+      description: 1年以内に達成したい具体的な状態を教えてください
+    validations:
+      required: true
+
+  - type: textarea
+    id: gap
+    attributes:
+      label: トライしたいこと・不足しているもの
+      description: ゴール達成のために必要な経験、知識、サポートなど
+    validations:
+      required: false
+
+  - type: textarea
+    id: vision
+    attributes:
+      label: 3年後のイメージ
+      description: 中長期的なキャリア志向（スペシャリスト、マネジメント等）
+    validations:
+      required: false

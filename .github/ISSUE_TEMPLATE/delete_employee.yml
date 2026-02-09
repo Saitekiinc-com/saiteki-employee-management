@@ -1,0 +1,38 @@
+name: 社員情報の削除・アーカイブ
+description: 退職や誤登録の際に社員データを処理します
+title: "[Delete] {名前}"
+labels: ["employee-delete"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        社員情報の削除またはアーカイブを申請します。
+        - **アーカイブ**: 退職者としてデータを残します（推奨）
+        - **削除**: 誤登録などを完全に消去します
+
+  - type: input
+    id: name
+    attributes:
+      label: 対象社員名
+      description: 登録されている名前と完全に一致させてください
+      placeholder: 山田 太郎
+    validations:
+      required: true
+
+  - type: dropdown
+    id: action_type
+    attributes:
+      label: 処理種別
+      options:
+        - Archive (退職:データ残す)
+        - Delete (誤登録:完全に消す)
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 理由
+      description: 退職理由や削除理由（任意）
+    validations:
+      required: false
