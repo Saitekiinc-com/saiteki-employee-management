@@ -160,11 +160,11 @@ async function extractDataWithAI(rawData) {
       "skills": ["スキル1", "スキル2"],
       "interests": ["興味1", "興味2"],
       "goal": "キャリア目標（要約）",
-      "personality": "人柄（キーワード）",
+      "personality": ["人柄キーワード1", "人柄キーワード2"],
       "job_guess": "Engineer"
     }
 
-    Respond ONLY with valid JSON.
+    Respond ONLY with valid JSON. Do not include markdown blocks. Do not add trailing commas.
     `;
 
     const response = await fetch(url, {
@@ -181,30 +181,46 @@ async function extractDataWithAI(rawData) {
       throw new Error(`API ${response.status}: ${errorText}`);
     }
 
-    const data = await response.json();
+    const resDataArr = await response.json();
     let text = "";
-    if (Array.isArray(data)) {
-      text = data.map(chunk => chunk.candidates[0].content.parts[0].text).join('');
+    if (Array.isArray(resDataArr)) {
+      text = resDataArr.map(chunk => chunk.candidates[0].content.parts[0].text).join('');
     } else {
-      text = data.candidates[0].content.parts[0].text;
+      text = resDataArr.candidates[0].content.parts[0].text;
     }
 
-    console.log('AI Response:', text);
+    console.log('--- Raw AI Response ---');
+    console.log(text);
+    console.log('-----------------------');
 
-    const jsonMatch = text.match(/\{[\s\S]*\}/);
-    if (!jsonMatch) return {};
+    // 堅牢なJSON抽出処理
+    const extractJSON = (str) => {
+      const start = str.indexOf('{');
+      const end = str.lastIndexOf('}');
+      if (start === -1 || end === -1) return {};
 
-    let jsonStr = jsonMatch[0];
-    // 末尾カンマを削除する（JSON標準では許容されないため）
-    jsonStr = jsonStr.replace(/,(\s*[\]}])/g, '$1');
+      let jsonPart = str.substring(start, end + 1);
+      // 文字列内のリテラル改行をスペースに置換
+      jsonPart = jsonPart.replace(/\r?\n/g, ' ');
+      // 末尾カンマの削除
+      jsonPart = jsonPart.replace(/,(\s*[\]\}])/g, '$1');
+      // 連続カンマの削除
+      jsonPart = jsonPart.replace(/,\s*,/g, ',');
 
-    try {
-      return JSON.parse(jsonStr);
-    } catch (e) {
-      console.error('Failed to parse sanitized JSON:', e.message);
-      console.error('Raw content:', jsonStr);
-      throw e;
-    }
+      try {
+        return JSON.parse(jsonPart);
+      } catch (e) {
+        console.warn(`Initial parse failed: ${e.message}. Retrying with aggressive cleanup.`);
+        try {
+          const aggressive = jsonPart.replace(/[\n\r\t]/g, ' ').trim();
+          return JSON.parse(aggressive);
+        } catch (e2) {
+          throw new Error(`AI JSON parse failed: ${e2.message}\nContent snippet: ${jsonPart.substring(0, 100)}`);
+        }
+      }
+    };
+
+    return extractJSON(text);
   } catch (error) {
     console.error('AI extraction error:', error);
     return { ai_error: true, ai_error_msg: error.message };
