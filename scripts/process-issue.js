@@ -44,15 +44,13 @@ async function main() {
   generateTeamDoc(employees);
 }
 
-// Issue本文のパース (Markdownの入力形式に合わせて調整)
+// Issue本文のパース
 function parseIssueBody(body) {
   const lines = body.split('\n');
   const data = {};
 
   let currentKey = null;
 
-  // 簡易的なパーサー: ### Label の次の行を取得
-  // Issue Formsの出力形式に依存するため、必要に応じて調整
   const keyMap = {
     'お名前': 'name',
     '職種': 'job',
@@ -66,13 +64,12 @@ function parseIssueBody(body) {
     if (line.startsWith('### ')) {
       const label = line.replace('### ', '').trim();
       currentKey = keyMap[label];
-      // SMARTのような複数行項目などで、前の値が残らないように初期化
-      if (currentKey) data[currentKey] = '';
+      if (currentKey) data[currentKey] = ''; // 初期化
     } else if (currentKey && line !== '' && line !== '_No response_') {
       if (currentKey === 'preferred_tech') {
         data[currentKey] = line.split(',').map(s => s.trim());
       } else {
-        // 複数行対応 (改行コードを含める)
+        // 複数行対応
         data[currentKey] = (data[currentKey] ? data[currentKey] + '\n' : '') + line;
       }
     }
@@ -143,7 +140,7 @@ function deleteEmployee(employees, data) {
   }
 }
 
-// Markdownドキュメント生成 (Mermaid)
+// Markdownドキュメント生成
 function generateTeamDoc(employees) {
   const activeEmployees = employees.filter(e => e.isActive !== false);
   const archivedEmployees = employees.filter(e => e.isActive === false);
@@ -161,7 +158,6 @@ function generateTeamDoc(employees) {
     md += `    ${job || 'Unassigned'}\n`;
     const members = activeEmployees.filter(e => e.job === job);
     members.forEach(m => {
-      // Mermaidのエスケープ処理
       const safeName = m.name.replace(/[()"']/g, '');
       md += `      ${safeName}\n`;
     });
@@ -169,11 +165,20 @@ function generateTeamDoc(employees) {
   md += '```\n\n';
 
   md += '## 詳細リスト\n\n';
-  md += '| 名前 | 職種 | 役職 | 今年のゴール (Will) |\n';
+  md += '| 名前 | 職種 | 好きな技術 | 今年のゴール (SMART) |\n';
   md += '| --- | --- | --- | --- |\n';
 
   activeEmployees.forEach(e => {
-    md += `| ${e.name} | ${e.job} | ${e.role} | ${e.will ? e.will.replace(/\n/g, '<br>') : '-'} |\n`;
+    // Preferred Tech
+    const tech = Array.isArray(e.preferred_tech) ? e.preferred_tech.join(', ') : (e.preferred_tech || '-');
+
+    // Will (SMART)
+    let willContent = '-';
+    if (e.will) {
+      willContent = e.will.replace(/\n/g, '<br>');
+    }
+
+    md += `| ${e.name} | ${e.job} | ${tech} | ${willContent} |\n`;
   });
 
   if (archivedEmployees.length > 0) {
@@ -185,7 +190,6 @@ function generateTeamDoc(employees) {
     });
   }
 
-  // ディレクトリ作成確認
   const docDir = path.dirname(TEAM_DOC_FILE);
   if (!fs.existsSync(docDir)) {
     fs.mkdirSync(docDir, { recursive: true });
