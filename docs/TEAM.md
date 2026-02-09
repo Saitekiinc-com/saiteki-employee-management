@@ -3,18 +3,7 @@
 自動生成された組織図です。Issueによる更新が反映されます。
 
 ```mermaid
-%%{init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#F2EBE3',
-      'primaryTextColor': '#5D574F',
-      'primaryBorderColor': '#D9CFC1',
-      'lineColor': '#BEB3A5',
-      'secondaryColor': '#FAF9F6',
-      'tertiaryColor': '#FDFCFB',
-      'nodeBorder': '1px'
-    }
-  }}%%
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#F2EBE3', 'primaryTextColor': '#5D574F', 'primaryBorderColor': '#D9CFC1', 'lineColor': '#BEB3A5', 'secondaryColor': '#FAF9F6', 'tertiaryColor': '#FDFCFB', 'nodeBorder': '1px'}}}%%
 mindmap
   root((株式会社Saiteki))
     Engineer
@@ -45,7 +34,7 @@ mindmap
 | 名前 | 職種 | 得意スキル (Tags) | 興味 (Interests) | 目標 (Goal) | 人柄 (Personality) |
 | --- | --- | --- | --- | --- | --- |
 | 杉本光一 | Engineer | - | - | - | - |
-| 青木淳一郎 | Engineer | - | - | - | - |
+| 青木淳一郎 | Engineer | (AI解析待ち/失敗) | - | s | - |
 | 小林翔 | QA | - | - | - | - |
 | 櫻井志保 | Engineer | - | - | - | - |
 | 田浦裕樹 | Engineer | - | - | - | - |
