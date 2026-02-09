@@ -34,7 +34,7 @@ mindmap
 | 名前 | 職種 | 得意スキル (Tags) | 興味 (Interests) | 目標 (Goal) | 人柄 (Personality) |
 | --- | --- | --- | --- | --- | --- |
 | 杉本光一 | Engineer | - | - | - | - |
-| 青木淳一郎 | Engineer | - | - | - | - |
+| 青木淳一郎 | Engineer | AWS, インフラ設計, インフラ構築 | Youtube (ざっくりYoutube), ドライブ, 家族と過ごすこと | Azure, Google Cloudの経験を積む。Saitekiの輪を広げる。 | 協調性, コミュニケーション能力, 親しみやすい |
 | 小林翔 | QA | - | - | - | - |
 | 櫻井志保 | Engineer | - | - | - | - |
 | 田浦裕樹 | Engineer | - | - | - | - |
