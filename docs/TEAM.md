@@ -18,6 +18,8 @@ mindmap
       開米 敦則
     HR
       貴志雪乃
+    Sales
+      藤井芙美子
 ```
 
 ## 詳細リスト
@@ -34,3 +36,4 @@ mindmap
 | 上遼太郎 | Engineer | - | - | - |
 | 小松田真伍 | Engineer | - | - | - |
 | 小島遼祐 | Engineer | - | - | - |
+| 藤井芙美子 | Sales | - | - | - |

@@ -76,5 +76,12 @@
     "updatedAt": "2026-02-09T08:40:49.036Z",
     "isActive": true,
     "createdAt": "2026-02-09T08:40:49.036Z"
+  },
+  {
+    "name": "藤井芙美子",
+    "job": "Sales",
+    "updatedAt": "2026-02-09T08:41:17.760Z",
+    "isActive": true,
+    "createdAt": "2026-02-09T08:41:17.760Z"
   }
 ]
