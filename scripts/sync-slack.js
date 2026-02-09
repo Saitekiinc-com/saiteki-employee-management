@@ -92,10 +92,10 @@ async function main() {
 async function fetchSlackMessages(channelId) {
     // Last 7 days by default
     const oldest = (Date.now() / 1000 - 7 * 24 * 60 * 60).toFixed(0);
-    const url = `https://slack.com/api/conversations.history?channel=${channelId}&oldest=${oldest}&limit=1000`;
+    const baseUrl = `https://slack.com/api/conversations.history?channel=${channelId}&oldest=${oldest}&limit=1000`;
 
     try {
-        const response = await fetch(url, {
+        const response = await fetch(baseUrl, {
             headers: {
                 'Authorization': `Bearer ${SLACK_TOKEN}`,
                 'Content-Type': 'application/json'
@@ -106,9 +106,43 @@ async function fetchSlackMessages(channelId) {
         if (!data.ok) {
             throw new Error(`Slack API Error: ${data.error}`);
         }
-        return data.messages || [];
+
+        const parentMessages = data.messages || [];
+        const allMessages = [...parentMessages];
+
+        // スレッドの取得
+        for (const msg of parentMessages) {
+            if (msg.thread_ts && msg.reply_count > 0) {
+                const replies = await fetchThreadReplies(channelId, msg.thread_ts);
+                // 親メッセージはhistoryに含まれているので、2番目以降のメッセージを追加
+                allMessages.push(...replies.slice(1));
+            }
+        }
+
+        return allMessages;
     } catch (error) {
         console.error('Failed to fetch Slack messages:', error);
+        return [];
+    }
+}
+
+async function fetchThreadReplies(channelId, threadTs) {
+    const url = `https://slack.com/api/conversations.replies?channel=${channelId}&ts=${threadTs}&limit=1000`;
+    try {
+        const response = await fetch(url, {
+            headers: {
+                'Authorization': `Bearer ${SLACK_TOKEN}`,
+                'Content-Type': 'application/json'
+            }
+        });
+        const data = await response.json();
+        if (!data.ok) {
+            console.error(`Thread API Error for ${threadTs}: ${data.error}`);
+            return [];
+        }
+        return data.messages || [];
+    } catch (error) {
+        console.error(`Failed to fetch thread ${threadTs}:`, error);
         return [];
     }
 }
