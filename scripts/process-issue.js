@@ -1,8 +1,13 @@
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const DATA_FILE = path.join(__dirname, '../data/employees.json');
 const TEAM_DOC_FILE = path.join(__dirname, '../docs/TEAM.md');
+
+// Gemini API Client
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
 // メイン処理
 async function main() {
@@ -37,9 +42,17 @@ async function main() {
   const isDelete = issueLabels.some(l => l.name === 'employee-delete');
 
   if (isUpdate) {
-    const data = parseIssueBody(issueBody);
-    console.log('Parsed data:', data);
-    updateEmployee(employees, data);
+    const rawData = parseIssueBody(issueBody);
+    console.log('Raw data from issue:', rawData);
+
+    // AIによる構造化処理
+    const structuredData = await extractDataWithAI(rawData);
+    console.log('Structured data from AI:', structuredData);
+
+    // マージして更新
+    const finalData = { ...rawData, ...structuredData };
+    updateEmployee(employees, finalData);
+
   } else if (isDelete) {
     const data = parseDeleteIssueBody(issueBody);
     console.log('Parsed delete data:', data);
@@ -56,23 +69,19 @@ async function main() {
   generateTeamDoc(employees);
 }
 
-// Issue本文のパース
+// Issue本文のパース (Markdownのセクションごとの単純な抽出)
 function parseIssueBody(body) {
   const lines = body.split('\n');
   const data = {};
-
   let currentKey = null;
 
+  // New templates have 'self_intro'
+  // Old templates had 'like_tech', 'smart_s', etc.
+  // We mapping '自己紹介 / キャリア詳細' to 'self_intro'
   const keyMap = {
     'お名前': 'name',
-    '職種': 'job',
-    '好きな技術': 'like_tech',
-    '嫌いな技術': 'dislike_tech',
-    'S (Specific: 具体的)': 'smart_s',
-    'M (Measurable: 測定可能)': 'smart_m',
-    'A (Achievable: 達成可能)': 'smart_a',
-    'R (Relevant: 関連性)': 'smart_r',
-    'T (Time-bound: 期限)': 'smart_t'
+    '職種': 'job', // マネージャー用オンボーディングで使われる可能性があるため残す
+    '自己紹介 / キャリア詳細': 'self_intro'
   };
 
   for (let i = 0; i < lines.length; i++) {
@@ -80,24 +89,61 @@ function parseIssueBody(body) {
     if (line.startsWith('### ')) {
       const label = line.replace('### ', '').trim();
       currentKey = keyMap[label];
+      // マッピングされていないセクション（SMART等、旧形式の場合）は無視するか、その他として扱う
     } else if (currentKey && line !== '' && line !== '_No response_') {
-      // カンマ区切りは想定せず、すべて文字列として保存
       data[currentKey] = (data[currentKey] ? data[currentKey] + '\n' : '') + line;
     }
   }
+  return data;
+}
 
-  // SMARTをまとめた文字列も生成（表示用）
-  if (data.smart_s || data.smart_m || data.smart_a || data.smart_r || data.smart_t) {
-    data.smart_goal = [
-      data.smart_s ? `**S:** ${data.smart_s}` : '',
-      data.smart_m ? `**M:** ${data.smart_m}` : '',
-      data.smart_a ? `**A:** ${data.smart_a}` : '',
-      data.smart_r ? `**R:** ${data.smart_r}` : '',
-      data.smart_t ? `**T:** ${data.smart_t}` : ''
-    ].filter(Boolean).join(' / ');
+// Gemini APIを使ってテキストから構造化データを抽出
+async function extractDataWithAI(rawData) {
+  if (!rawData.self_intro) {
+    console.log('No self_intro found. Skipping AI extraction.');
+    return {};
   }
 
-  return data;
+  if (!process.env.GEMINI_API_KEY) {
+    console.warn('GEMINI_API_KEY is not set. Skipping AI extraction.');
+    return {};
+  }
+
+  try {
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+
+    const prompt = `
+    あなたは人事データの分析官です。以下の「自己紹介・キャリア詳細」のテキストから、社員のスキル、興味、目標、人柄を抽出し、JSON形式で出力してください。
+
+    Input Text:
+    """
+    ${rawData.self_intro}
+    """
+    
+    Output JSON Schema:
+    {
+      "skills": ["skill1", "skill2"], // 明示的に言及されている技術やスキル
+      "interests": ["interest1", "interest2"], // 興味があること、学びたいこと、趣味
+      "goal": "要約されたキャリア目標",
+      "personality": "人柄や志向性のキーワード (例: リーダー気質, スペシャリスト志向, アウトドア派)",
+      "job_guess": "Engineer" // 文脈から推測される職種 (Engineer, Designer, Sales, PM, Corporate, QA, HR, 経営, Other)
+    }
+
+    Response must be valid JSON only, no markdown formatting.
+    `;
+
+    const result = await model.generateContent(prompt);
+    const response = await result.response;
+    const text = response.text();
+
+    // Clean up markdown code blocks if present
+    const jsonString = text.replace(/```json/g, '').replace(/```/g, '').trim();
+
+    return JSON.parse(jsonString);
+  } catch (error) {
+    console.error('Error calling Gemini API:', error);
+    return {};
+  }
 }
 
 function parseDeleteIssueBody(body) {
@@ -128,19 +174,24 @@ function updateEmployee(employees, newData) {
   const index = employees.findIndex(e => e.name === newData.name);
   const now = new Date().toISOString();
 
-  const entry = {
-    ...newData,
-    updatedAt: now,
-    isActive: true
-  };
+  // 既存データがある場合はマージ、ただしnewDataのキー優先
+  // AI抽出データの配列などは上書きする
+  let entry = {};
 
   if (index !== -1) {
-    employees[index] = { ...employees[index], ...entry };
+    entry = { ...employees[index], ...newData, updatedAt: now, isActive: true };
+    // 配列データの重複排除などはあえてせず、最新のAI分析結果を信頼して上書きする
+    employees[index] = entry;
   } else {
-    employees.push({
-      ...entry,
-      createdAt: now
-    });
+    // 新規作成（通常はオンボーディングで作成済みのはずだが、手動リカバリ等でここに来る場合も考慮）
+    entry = {
+      ...newData,
+      createdAt: now,
+      updatedAt: now,
+      isActive: true,
+      job: newData.job || newData.job_guess || 'Other' // Jobがない場合は推測を使う
+    };
+    employees.push(entry);
   }
 }
 
@@ -214,15 +265,18 @@ function generateTeamDoc(employees) {
   md += '```\n\n';
 
   md += '## 詳細リスト\n\n';
-  md += '| 名前 | 職種 | 好きな技術 | 嫌いな技術 | 次のゴール (SMART) |\n';
-  md += '| --- | --- | --- | --- | --- |\n';
+  md += '| 名前 | 職種 | 得意スキル (Tags) | 興味 (Interests) | 目標 (Goal) | 人柄 (Personality) |\n';
+  md += '| --- | --- | --- | --- | --- | --- |\n';
 
   activeEmployees.forEach(e => {
-    const likeTech = e.like_tech || '-';
-    const dislikeTech = e.dislike_tech || '-';
-    const goal = e.smart_goal || '-';
+    // 古いデータ形式(like_tech等)も考慮しつつ、新しいAIデータを優先表示
+    const skills = e.skills ? e.skills.join(', ') : (e.like_tech || '-');
+    const interests = e.interests ? e.interests.join(', ') : '-';
+    // Goalは smart_goal か AI抽出の goal
+    const goal = e.goal || (Array.isArray(e.smart_goal) ? e.smart_goal.join(' / ') : e.smart_goal) || '-';
+    const personality = e.personality || '-';
 
-    md += `| ${e.name} | ${e.job} | ${likeTech} | ${dislikeTech} | ${goal} |\n`;
+    md += `| ${e.name} | ${e.job} | ${skills} | ${interests} | ${goal} | ${personality} |\n`;
   });
 
   if (archivedEmployees.length > 0) {
