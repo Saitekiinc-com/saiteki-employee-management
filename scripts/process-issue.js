@@ -119,27 +119,27 @@ async function extractDataWithAI(rawData) {
   if (!process.env.GEMINI_API_KEY) return { ai_error: true, ai_error_msg: 'GEMINI_API_KEY missing' };
 
   try {
-    // 安定性の高い 2.0 Flash を使用
-    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+    // ユーザー指定のモデルを使用
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
     const prompt = `
-    あなたは人事データの分析官です。以下の「自己紹介・キャリア詳細」のテキストから、社員のスキル、興味、目標、人柄を抽出し、JSON形式で出力してください。
+    あなたは人事データの分析官です。社員の自己紹介文から特定の情報を抽出し、JSON形式で出力してください。
 
     Input Text:
     """
     ${rawData.self_intro}
     """
     
-    Output JSON Schema:
+    Output JSON format:
     {
-      "skills": ["skill1", "skill2"], // 明示的に言及されている技術やスキル（5個程度）
-      "interests": ["interest1", "interest2"], // 興味があること、学びたいこと、趣味
-      "goal": "要約されたキャリア目標（短文）",
-      "personality": "人柄や志向性のキーワード (例: リーダー気質, スペシャリスト志向, アウトドア派)",
-      "job_guess": "Engineer" // 文脈から推測される職種 (Engineer, Designer, Sales, PM, Corporate, QA, HR, 経営, Other)
+      "skills": ["スキル1", "スキル2"],
+      "interests": ["興味1", "興味2"],
+      "goal": "キャリア目標（要約）",
+      "personality": "人柄（キーワード）",
+      "job_guess": "Engineer"
     }
 
-    Respond ONLY with a valid JSON object. Do not include any markdown formatting like \`\`\`json.
+    Respond ONLY with valid JSON.
     `;
 
     const result = await model.generateContent(prompt);
