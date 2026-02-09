@@ -1,13 +1,17 @@
 const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { VertexAI } = require('@google-cloud/vertexai');
 
 const DATA_FILE = path.join(__dirname, '../data/employees.json');
 const TEAM_DOC_FILE = path.join(__dirname, '../docs/TEAM.md');
 
-// Gemini API Client
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
+// Vertex AI Client Initialization
+// Google Cloudの環境変数 (GCP_PROJECT_ID, GCP_LOCATION) をプロジェクトに合わせて使用
+const vertexAI = new VertexAI({
+  project: process.env.GCP_PROJECT_ID || 'saiteki-ai', // プロジェクトID
+  location: process.env.GCP_LOCATION || 'us-central1' // リージョン
+});
 
 // メイン処理
 async function main() {
@@ -21,23 +25,21 @@ async function main() {
       if (fs.existsSync(DATA_FILE)) {
         let currentEmployees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
 
-        // AIキーがある場合、未構造化のデータをバッチ処理
-        if (process.env.GEMINI_API_KEY) {
-          let updated = false;
-          for (let e of currentEmployees) {
-            if (e.isActive !== false && e.self_intro && (!e.skills || e.skills.length === 0)) {
-              console.log(`Enriching data for ${e.name} using AI...`);
-              const structured = await extractDataWithAI({ self_intro: e.self_intro });
-              if (structured && !structured.ai_error) {
-                Object.assign(e, structured);
-                e.updatedAt = new Date().toISOString();
-                updated = true;
-              }
+        // 未構造化のデータをバッチ処理
+        let updated = false;
+        for (let e of currentEmployees) {
+          if (e.isActive !== false && e.self_intro && (!e.skills || e.skills.length === 0)) {
+            console.log(`Enriching data for ${e.name} using AI...`);
+            const structured = await extractDataWithAI({ self_intro: e.self_intro });
+            if (structured && !structured.ai_error) {
+              Object.assign(e, structured);
+              e.updatedAt = new Date().toISOString();
+              updated = true;
             }
           }
-          if (updated) {
-            fs.writeFileSync(DATA_FILE, JSON.stringify(currentEmployees, null, 2));
-          }
+        }
+        if (updated) {
+          fs.writeFileSync(DATA_FILE, JSON.stringify(currentEmployees, null, 2));
         }
 
         generateTeamDoc(currentEmployees);
@@ -113,14 +115,14 @@ function parseIssueBody(body) {
   return data;
 }
 
-// Gemini APIを使ってテキストから構造化データを抽出
+// Vertex AIを使ってテキストから構造化データを抽出
 async function extractDataWithAI(rawData) {
   if (!rawData.self_intro) return {};
-  if (!process.env.GEMINI_API_KEY) return { ai_error: true, ai_error_msg: 'GEMINI_API_KEY missing' };
 
   try {
     // ユーザー指定のモデルを使用
-    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
+    const modelName = "gemini-1.5-flash-002";
+    const model = vertexAI.getGenerativeModel({ model: modelName });
 
     const prompt = `
     あなたは人事データの分析官です。社員の自己紹介文から特定の情報を抽出し、JSON形式で出力してください。
@@ -142,11 +144,15 @@ async function extractDataWithAI(rawData) {
     Respond ONLY with valid JSON.
     `;
 
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = response.text().trim();
+    const request = {
+      contents: [{ role: 'user', parts: [{ text: prompt }] }],
+    };
 
-    console.log('Gemini Raw Response:', text);
+    const resp = await model.generateContent(request);
+    const content = resp.response.candidates[0].content;
+    const text = content.parts[0].text.trim();
+
+    console.log('Vertex AI Raw Response:', text);
 
     let jsonString = text;
     const jsonMatch = text.match(/\{[\s\S]*\}/);
@@ -156,7 +162,7 @@ async function extractDataWithAI(rawData) {
 
     return JSON.parse(jsonString);
   } catch (error) {
-    console.error('Error in AI extraction:', error);
+    console.error('Error in Vertex AI extraction:', error);
     return { ai_error: true, ai_error_msg: error.message };
   }
 }
