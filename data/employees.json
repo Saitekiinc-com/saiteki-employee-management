@@ -27,5 +27,12 @@
     "updatedAt": "2026-02-09T08:36:35.579Z",
     "isActive": true,
     "createdAt": "2026-02-09T08:36:35.579Z"
+  },
+  {
+    "name": "櫻井志保",
+    "job": "Engineer",
+    "updatedAt": "2026-02-09T08:37:20.495Z",
+    "isActive": true,
+    "createdAt": "2026-02-09T08:37:20.495Z"
   }
 ]
