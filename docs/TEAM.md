@@ -6,12 +6,12 @@
 %%{init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#D6D0C9',
-      'primaryTextColor': '#4A4540',
-      'primaryBorderColor': '#BBAA99',
-      'lineColor': '#A3998E',
-      'secondaryColor': '#F5F2F0',
-      'tertiaryColor': '#E8E4E1',
+      'primaryColor': '#F2EBE3',
+      'primaryTextColor': '#5D574F',
+      'primaryBorderColor': '#D9CFC1',
+      'lineColor': '#BEB3A5',
+      'secondaryColor': '#FAF9F6',
+      'tertiaryColor': '#FDFCFB',
       'nodeBorder': '1px'
     }
   }}%%
