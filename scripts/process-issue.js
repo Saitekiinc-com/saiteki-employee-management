@@ -1,17 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
-const { VertexAI } = require('@google-cloud/vertexai');
 
 const DATA_FILE = path.join(__dirname, '../data/employees.json');
 const TEAM_DOC_FILE = path.join(__dirname, '../docs/TEAM.md');
-
-// Vertex AI Client Initialization
-// Google Cloudの環境変数 (GCP_PROJECT_ID, GCP_LOCATION) をプロジェクトに合わせて使用
-const vertexAI = new VertexAI({
-  project: process.env.GCP_PROJECT_ID || 'saiteki-ai', // プロジェクトID
-  location: process.env.GCP_LOCATION || 'us-central1' // リージョン
-});
 
 // メイン処理
 async function main() {
@@ -25,7 +17,6 @@ async function main() {
       if (fs.existsSync(DATA_FILE)) {
         let currentEmployees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
 
-        // 未構造化のデータをバッチ処理
         let updated = false;
         for (let e of currentEmployees) {
           if (e.isActive !== false && e.self_intro && (!e.skills || e.skills.length === 0)) {
@@ -59,7 +50,6 @@ async function main() {
     employees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
   }
 
-  // ラベルによって処理を分岐
   const isUpdate = issueLabels.some(l => l.name === 'employee-update');
   const isDelete = issueLabels.some(l => l.name === 'employee-delete');
 
@@ -67,11 +57,9 @@ async function main() {
     const rawData = parseIssueBody(issueBody);
     console.log('Raw data from issue:', rawData);
 
-    // AIによる構造化処理
     const structuredData = await extractDataWithAI(rawData);
     console.log('Structured data from AI:', structuredData);
 
-    // マージして更新
     const finalData = { ...rawData, ...structuredData };
     updateEmployee(employees, finalData);
 
@@ -84,14 +72,10 @@ async function main() {
     return;
   }
 
-  // JSON保存
   fs.writeFileSync(DATA_FILE, JSON.stringify(employees, null, 2));
-
-  // ドキュメント生成
   generateTeamDoc(employees);
 }
 
-// Issue本文のパース
 function parseIssueBody(body) {
   const lines = body.split('\n');
   const data = {};
@@ -115,44 +99,62 @@ function parseIssueBody(body) {
   return data;
 }
 
-// Vertex AIを使ってテキストから構造化データを抽出
+// Google AI Studio API を使用（APIキーで認証可能）
 async function extractDataWithAI(rawData) {
   if (!rawData.self_intro) return {};
 
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) {
+    console.error('GEMINI_API_KEY is not set');
+    return { ai_error: true, ai_error_msg: 'GEMINI_API_KEY missing' };
+  }
+
+  // Google AI Studio API（generativelanguage.googleapis.com）を使用
+  // これはAPIキーで認証可能
+  const modelId = "gemini-1.5-flash";
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelId}:generateContent?key=${apiKey}`;
+
   try {
-    // ユーザー指定のモデルを使用
-    const modelName = "gemini-1.5-flash-002";
-    const model = vertexAI.getGenerativeModel({ model: modelName });
-
     const prompt = `
-    あなたは人事データの分析官です。社員の自己紹介文から特定の情報を抽出し、JSON形式で出力してください。
+あなたは人事データの分析官です。社員の自己紹介文から特定の情報を抽出し、JSON形式で出力してください。
 
-    Input Text:
-    """
-    ${rawData.self_intro}
-    """
-    
-    Output JSON format:
-    {
-      "skills": ["スキル1", "スキル2"],
-      "interests": ["興味1", "興味2"],
-      "goal": "キャリア目標（要約）",
-      "personality": "人柄（キーワード）",
-      "job_guess": "Engineer"
+Input Text:
+"""
+${rawData.self_intro}
+"""
+
+Output JSON format:
+{
+  "skills": ["スキル1", "スキル2"],
+  "interests": ["興味1", "興味2"],
+  "goal": "キャリア目標（要約）",
+  "personality": "人柄（キーワード）",
+  "job_guess": "Engineer"
+}
+
+Respond ONLY with valid JSON.
+`;
+
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        contents: [{ role: 'user', parts: [{ text: prompt }] }]
+      })
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error('Gemini API Error:', errorText);
+      throw new Error(`API returned ${response.status}: ${errorText}`);
     }
 
-    Respond ONLY with valid JSON.
-    `;
+    const data = await response.json();
+    const text = data.candidates[0].content.parts[0].text.trim();
 
-    const request = {
-      contents: [{ role: 'user', parts: [{ text: prompt }] }],
-    };
-
-    const resp = await model.generateContent(request);
-    const content = resp.response.candidates[0].content;
-    const text = content.parts[0].text.trim();
-
-    console.log('Vertex AI Raw Response:', text);
+    console.log('Gemini Raw Response:', text);
 
     let jsonString = text;
     const jsonMatch = text.match(/\{[\s\S]*\}/);
@@ -162,7 +164,7 @@ async function extractDataWithAI(rawData) {
 
     return JSON.parse(jsonString);
   } catch (error) {
-    console.error('Error in Vertex AI extraction:', error);
+    console.error('Error in AI extraction:', error);
     return { ai_error: true, ai_error_msg: error.message };
   }
 }
