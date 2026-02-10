@@ -22,7 +22,7 @@ body:
     id: slack_id
     attributes:
       label: Slack ID
-      description: SlackのメンバーIDを入力してください（例: U12345678）
+      description: "SlackのメンバーIDを入力してください（例: U12345678）"
       placeholder: Uxxxxxxxx
     validations:
       required: true
