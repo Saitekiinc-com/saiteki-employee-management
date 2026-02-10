@@ -49,8 +49,8 @@
 ```mermaid
 sequenceDiagram
     participant GitHub as GitHub Actions
-    participant Slack1 as Slack (Primary)
-    participant Slack2 as Slack (Secondary)
+    participant Slack1 as Saiteki
+    participant Slack2 as Saiteki幹部用
     participant AI as Google Gemini (AI)
     participant DB as employees.json
 
