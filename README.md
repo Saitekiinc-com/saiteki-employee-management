@@ -38,7 +38,7 @@
 
 -   **Runtime**: Node.js (JavaScript)
 -   **CI/CD**: GitHub Actions (定期実行および手動実行の自動化)
--   **AI Model**: Google Gemini 1.5 Pro (Vertex AI経由)
+-   **AI Model**: Google Gemini 2.5 flash (Vertex AI経由)
 -   **Source Data**: Slack API
 -   **Database**: JSONファイル (`data/employees.json`) - シンプルで管理しやすいテキストベースのデータベース
 
