@@ -312,4 +312,44 @@ async function analyzeSlackActivityAdvanced(name, messages) {
     }
 }
 
+const TEAM_DOC_FILE = path.join(__dirname, '../docs/TEAM.md');
+
+function generateTeamDoc(employees) {
+    const activeEmployees = employees.filter(e => e.isActive !== false);
+    const archivedEmployees = employees.filter(e => e.isActive === false);
+    const jobs = [...new Set(activeEmployees.map(e => e.job))];
+
+    let md = '# チーム構成図\n\n自動生成された組織図です。IssueおよびSlack連携による更新が反映されます。\n\n';
+    md += '```mermaid\n%%{init: {\'theme\': \'base\', \'themeVariables\': {\'primaryColor\': \'#F2EBE3\', \'primaryTextColor\': \'#5D574F\', \'primaryBorderColor\': \'#D9CFC1\', \'lineColor\': \'#BEB3A5\', \'secondaryColor\': \'#FAF9F6\', \'tertiaryColor\': \'#FDFCFB\', \'nodeBorder\': \'1px\'}}}%%\nmindmap\n  root((株式会社Saiteki))\n';
+
+    const jobMap = { 'Engineer': 'Engineer', 'Designer': 'Designer', 'Sales': 'Sales', 'PM': 'PM', 'Corporate': 'Corporate', 'EM': 'Engineer', 'QA': 'QA', 'HR': 'HR', '経営': '経営', 'Executive': '経営', 'Other': 'Other' };
+
+    jobs.forEach(job => {
+        md += `    ${jobMap[job] || job || 'Other'}\n`;
+        activeEmployees.filter(e => e.job === job).forEach(m => {
+            md += `      ${m.name.replace(/[()"']/g, '')}\n`;
+        });
+    });
+    md += '```\n\n## 詳細リスト\n\n| 名前 | 職種 | 性格傾向 (Personality) | 強み/スタイル (Strengths) | 価値観 (Values) | 最近の状態 (Current) |\n| --- | --- | --- | --- | --- | --- |\n';
+
+    activeEmployees.forEach(e => {
+        const personality = e.personality_traits?.summary || '-';
+        const strengths = e.work_styles_and_strengths?.summary || '-';
+        const values = e.values_and_motivators?.summary || '-';
+        const current = e.current_state?.summary || '-';
+
+        md += `| ${e.name} | ${e.job} | ${personality} | ${strengths} | ${values} | ${current} |\n`;
+    });
+
+    if (archivedEmployees.length > 0) {
+        md += '\n## Alumni (OB/OG)\n\n| 名前 | 在籍時の職種 | 理由 |\n| --- | --- | --- |\n';
+        archivedEmployees.forEach(e => md += `| ${e.name} | ${e.job} | ${e.archivedReason || '-'} |\n`);
+    }
+
+    const docDir = path.dirname(TEAM_DOC_FILE);
+    if (!fs.existsSync(docDir)) fs.mkdirSync(docDir, { recursive: true });
+    fs.writeFileSync(TEAM_DOC_FILE, md);
+    console.log(`Regenerated ${TEAM_DOC_FILE}`);
+}
+
 main().catch(console.error);

@@ -288,21 +288,15 @@ function generateTeamDoc(employees) {
       md += `      ${m.name.replace(/[()"']/g, '')}\n`;
     });
   });
-  md += '```\n\n## 詳細リスト\n\n| 名前 | 職種 | 得意スキル (Tags) | 興味 (Interests) | 目標 (Goal) | 人柄 (Personality) |\n| --- | --- | --- | --- | --- | --- |\n';
+  md += '```\n\n## 詳細リスト\n\n| 名前 | 職種 | 性格傾向 (Personality) | 強み/スタイル (Strengths) | 価値観 (Values) | 最近の状態 (Current) |\n| --- | --- | --- | --- | --- | --- |\n';
 
   activeEmployees.forEach(e => {
-    const skills = (e.skills && e.skills.length > 0) ? e.skills.join(', ') : (e.like_tech || '-');
-    const interests = (e.interests && e.interests.length > 0) ? e.interests.join(', ') : '-';
-    const goal = e.goal || (Array.isArray(e.smart_goal) ? e.smart_goal.join(' / ') : e.smart_goal) || '-';
-    const personality = e.personality || '-';
+    const personality = e.personality_traits?.summary || (e.personality || '-');
+    const strengths = e.work_styles_and_strengths?.summary || (e.skills?.join(', ') || '-');
+    const values = e.values_and_motivators?.summary || '-';
+    const current = e.current_state?.summary || '-';
 
-    let displaySkills = skills;
-    let displayGoal = goal;
-    if (skills === '-' && interests === '-' && goal === '-' && e.self_intro) {
-      displaySkills = '(AI解析待ち/失敗)';
-      displayGoal = e.self_intro.split('\n')[0].substring(0, 100) + (e.self_intro.length > 100 ? '...' : '');
-    }
-    md += `| ${e.name} | ${e.job} | ${displaySkills} | ${interests} | ${displayGoal} | ${personality} |\n`;
+    md += `| ${e.name} | ${e.job} | ${personality} | ${strengths} | ${values} | ${current} |\n`;
   });
 
   if (archivedEmployees.length > 0) {
