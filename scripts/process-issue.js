@@ -316,7 +316,10 @@ function generateTeamDoc(employees) {
       };
       Object.keys(traits).forEach(t => {
         const data = e.personality_traits[t];
-        if (data) md += `| ${traits[t]} | ${data.score}/10 | ${data.evidence} |\n`;
+        if (data) {
+          const safeEvidence = (data.evidence || '').replace(/\n/g, '<br>');
+          md += `| ${traits[t]} | ${data.score}/10 | ${safeEvidence} |\n`;
+        }
       });
     } else {
       md += `※Slack連携後に詳細な性格分析結果が表示されます。 (暫定性格: ${e.personality || '-'})\n`;
