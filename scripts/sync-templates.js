@@ -3,8 +3,7 @@ const path = require('path');
 
 const DATA_FILE = path.join(__dirname, '../data/employees.json');
 const TEMPLATE_FILES = [
-    path.join(__dirname, '../.github/ISSUE_TEMPLATE/career_goal.yml'),
-    path.join(__dirname, '../.github/ISSUE_TEMPLATE/delete_employee.yml')
+    path.join(__dirname, '../.github/ISSUE_TEMPLATE/2_delete_employee.yml')
 ];
 
 function sync() {
