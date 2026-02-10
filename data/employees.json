@@ -1189,5 +1189,13 @@
         "組織改善"
       ]
     }
+  },
+  {
+    "name": "榎本詩織",
+    "slack_id": "U0AEE7CDAPK",
+    "job": "Engineer",
+    "createdAt": "2026-02-10T06:08:04.668Z",
+    "updatedAt": "2026-02-10T06:08:04.668Z",
+    "isActive": true
   }
 ]

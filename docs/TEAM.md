@@ -1,8 +1,7 @@
 # チーム構成図
 
-自動生成された組織図です。IssueおよびSlack連携による高度なAI分析結果が反映されます。
+自動生成された組織図です。Issueによる更新が反映されます。
 
-### 組織マップ
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#F2EBE3', 'primaryTextColor': '#5D574F', 'primaryBorderColor': '#D9CFC1', 'lineColor': '#BEB3A5', 'secondaryColor': '#FAF9F6', 'tertiaryColor': '#FDFCFB', 'nodeBorder': '1px'}}}%%
 mindmap
@@ -16,6 +15,7 @@ mindmap
       小松田真伍
       小島遼祐
       菅野聖也
+      榎本詩織
     QA
       小林翔
       開米 敦則
@@ -28,8 +28,6 @@ mindmap
     経営
       鈴木悠斗
       戸塚直道
-```
-
 ## 社員一覧サマリー
 
 | 名前 | 職種 | 性格傾向 (概略) | 現在の状態 |
@@ -49,6 +47,7 @@ mindmap
 | [佐藤傑](#%E4%BD%90%E8%97%A4%E5%82%91) | Other | 非常に開放的で外向性が高く、新しい経験や人々との交流を楽しむ。責任感と勤勉さも持ち合わせている。 | AI技術に関する情報収集や活用に意欲的で、自身の知識や経験を共有することに積極的。新しい技術動向に関心を寄せている。 |
 | [鈴木悠斗](#%E9%88%B4%E6%9C%A8%E6%82%A0%E6%96%97) | 経営 | 開放的で協調性が高く、外向的な性格。新しいもの好きで、周囲との調和を大切にする。 | 全体的にポジティブで、仕事に対するモチベーションも高い。新しい技術（生成AI）の活用に強い関心を持っている。 |
 | [戸塚直道](#%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93) | 経営 | 外交的で誠実、開放性と向こう見ずな一面も。仕事への情熱と周囲への感謝を忘れない。 | 多忙ながらも新規メンバーの入社や事業の進展に意欲的。AI技術の活用による事業成長と組織の強化に注力している。 |
+| [榎本詩織](#%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94) | Engineer | - | - |
 
 ---
 
@@ -78,7 +77,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: AI技術に対する深い理解と実践的な応用力を持つ。チームと協力し、積極的に知識を共有することで、組織全体の成長に貢献する。
 
@@ -144,7 +143,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: インフラ設計・構築の経験があり、新しい技術への学習意欲も高い。チームワークを重視し、協力的な姿勢で業務に取り組む。
 
@@ -210,7 +209,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: 協調性があり、コミュニケーション能力が高く、長年のテスター経験から注意深く問題点を見つけることができる。新しい知識を吸収することにも積極的である。
 
@@ -276,7 +275,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: データ分析スキルを持ち、学習意欲が高く、自ら課題を見つけて改善に取り組むタイプ。コミュニケーション能力も高く、チームワークを重視する。
 
@@ -342,7 +341,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: アジャイル開発を得意とし、チーム立ち上げや品質改善に貢献できる。問題解決能力が高く、技術的な知見を活かしてチームをサポートする。
 
@@ -406,7 +405,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: QAエンジニアとしての豊富な経験を持ち、問題解決能力が高く、新しい技術への適応力もあると考えられます。コミュニケーション能力も高く、チームワークを重視する姿勢が伺えます。
 
@@ -472,7 +471,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: 人事担当者として、丁寧なコミュニケーションと学習意欲を活かし、チームに貢献しようとしている。イベントの告知や勉強会のレポート共有など、情報発信にも積極的。
 
@@ -536,7 +535,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: 学習意欲が高く、新しい技術や知識を積極的に吸収しようとする。過去の経験を活かし、問題解決に役立てようとする。
 
@@ -600,7 +599,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: 自ら学習し、得た知識を共有する。AI技術に強い興味があり、積極的に業務に取り入れようとする。チームワークを重視し、周囲と協力して目標達成を目指す。
 
@@ -666,7 +665,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: 協調性を重視し、周囲から学びながら成長していくタイプ。コミュニケーション能力が高く、リーダーシップも発揮できる。
 
@@ -732,7 +731,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: 営業事務としての経験が豊富で、周囲と協力しながら業務を進めることを得意とする。状況を的確に把握し、柔軟に対応できる。
 
@@ -798,7 +797,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: 学習意欲が高く、新しい技術を積極的に取り入れる。過去の経験から、システム開発に関する基礎知識を持ち、品質管理の経験もある。
 
@@ -864,7 +863,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: AI技術に関する深い知識を持ち、実践的な応用に関心がある。グローバルな視点を持ち、チームでの開発を積極的に行う。
 
@@ -930,7 +929,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: 営業経験豊富で、新しい技術への適応力も高い。チームワークを重視し、周囲を巻き込みながら目標達成を目指す。
 
@@ -996,7 +995,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
 
 **要約**: 戦略的思考と実行力を兼ね備え、人脈を活かした営業力と組織運営能力に長ける。学習意欲が高く、常に新しい情報を取り入れ、改善を続ける。
 
@@ -1035,6 +1034,42 @@ mindmap
 - **感情レベル**: positive
 - **業務負荷状況**: 高負荷。採用活動、事業戦略、組織運営など多岐にわたる業務をこなしている。
 - **最近の関心トピック**: AI駆動開発, 受託開発営業, 組織改善
+
+</details>
+
+---
+
+<div id="榎本詩織"></div>
+
+### 榎本詩織 (Engineer)
+
+> **総合サマリー**: -
+
+<details>
+<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+
+※Slack連携後に詳細な性格分析結果が表示されます。 (暫定性格: -)
+
+</details>
+
+<details>
+<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
+
+※Slack連携後に詳細な強み分析が表示されます。 (既存スキル: -)
+
+</details>
+
+<details>
+<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+
+※Slack連携後に詳細分析が表示されます。
+
+</details>
+
+<details>
+<summary><b>📈 現在の状態 (Current State)</b></summary>
+
+※Slack連携後に表示されます。
 
 </details>
 
