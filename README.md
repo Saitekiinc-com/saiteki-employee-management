@@ -1,0 +1,66 @@
+# Saiteki Employee Management
+
+## プロジェクト概要
+このプロジェクトは、社内のSlackでのコミュニケーションデータを活用し、AIを用いて社員の「人柄」や「強み」を自動的に分析・可視化するシステムです。
+日々の何気ない会話から、各メンバーの個性やチーム内での役割（ムードメーカー、論理的思考の持ち主など）を発見し、組織作りやチームビルディングに役立てることを目的としています。
+
+## 主な機能：Slack同期とAI分析
+
+このシステムの核となるのが、Slackの会話履歴を定期的に収集し、AIで分析する機能です。
+
+### 🤖 何ができるのか？
+1.  **自動収集**: 毎週月曜日の朝に、指定されたSlackチャンネルから過去1週間の発言*を自動で集めます。
+    * （*手動実行時は過去のログも取得可能）
+2.  **AI分析**: 集めた発言をAI（Google Gemini）に読み込ませ、以下の項目を分析します。
+    -   **性格傾向**: 開放性、誠実性、協調性などの心理学的指標
+    -   **仕事のスタイル**: 問題解決のアプローチや強み
+    -   **コミュニケーション**: 発言の特徴やクセ
+    -   **価値観**: 仕事において大切にしていること
+    -   **現在の状態**: 直近のモチベーションや業務負荷
+3.  **プロファイル更新**: 分析結果をもとに、社員プロフィール図鑑（`docs/TEAM.md`）を自動更新します。
+
+### 🔄 複数ワークスペースへの対応
+本システムは、メインのワークスペース（例: 社内Slack）だけでなく、サブのワークスペース（例: コミュニティSlackなど）のデータも統合して分析できます。
+-   **統合分析**: 複数の場所での発言を時系列順に並べ、一人の人物として総合的に分析します。
+-   **継続的な学習**: 過去の分析結果（「強み」や「性格」など変わりにくい部分）をAIに「記憶」として渡し、新しい発言（「現在の状態」など直近の変化）と組み合わせて分析することで、長期的な変化と短期的な状態の両方を捉えます。
+
+## 技術スタック (Tech Stack)
+
+このシステムは以下の技術で構築されています。
+
+-   **Runtime**: Node.js (JavaScript)
+-   **CI/CD**: GitHub Actions (定期実行および手動実行の自動化)
+-   **AI Model**: Google Gemini 1.5 Pro (Vertex AI経由)
+-   **Source Data**: Slack API
+-   **Database**: JSONファイル (`data/employees.json`) - シンプルで管理しやすいテキストベースのデータベース
+
+## データフロー (Data Flow)
+
+データの流れは以下の通りです。
+
+```mermaid
+sequenceDiagram
+    participant GitHub as GitHub Actions
+    participant Slack1 as Slack (Primary)
+    participant Slack2 as Slack (Secondary)
+    participant AI as Google Gemini (AI)
+    participant DB as employees.json
+
+    GitHub->>Slack1: 1. メッセージ取得 (Fetch Logic)
+    Slack1-->>GitHub: 発言ログ
+    GitHub->>Slack2: 2. メッセージ取得 (Fetch Logic)
+    Slack2-->>GitHub: 発言ログ
+
+    GitHub->>GitHub: 3. メッセージ統合 (時系列順)
+    
+    GitHub->>DB: 4. 既存プロファイル読み込み
+    DB-->>GitHub: 過去の分析結果
+
+    GitHub->>AI: 5. 統合メッセージ + 過去の分析結果 を送信
+    Note right of AI: 「過去の経緯を踏まえつつ、<br>新しい発言からプロファイルを更新して」
+
+    AI-->>GitHub: 6. 最新の分析結果 (JSON)
+
+    GitHub->>DB: 7. データベース更新 (Save)
+    GitHub->>GitHub: 8. ドキュメント生成 (TEAM.md)
+```
