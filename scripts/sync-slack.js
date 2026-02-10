@@ -84,56 +84,36 @@ async function main() {
         const enrichedData = await analyzeSlackActivityAdvanced(employee.name, userMessages);
 
         if (enrichedData && !enrichedData.ai_error) {
-            // Update profile with new structure
-            // We merge carefully to preserve manual edits if strictly necessary, 
-            // but for this advanced profile, we largely trust the AI's holistic view.
+            // Remove legacy fields as requested by user
+            const legacyFields = [
+                'self_intro', 'skills', 'interests', 'goal',
+                'personality', 'job_guess', 'like_tech', 'smart_goal',
+                'profile_v2' // Remove the nested one
+            ];
+            legacyFields.forEach(field => delete employee[field]);
 
-            // Map legacy fields if they exist to new structure if needed, or just keep them alongside.
-            // The user wants to "replace" data structure, but we should keep 'skills' compatible for TEAM.md for now.
-            // We will populate the new fields and also sync back to 'skills/interests/personality' for backward compatibility.
+            // Map new structure directly to employee object based on the guide
+            employee.last_updated = new Date().toISOString();
+            employee.overall_summary = enrichedData.overall_summary;
+            employee.personality_traits = enrichedData.personality_traits;
+            employee.work_styles_and_strengths = enrichedData.work_styles_and_strengths;
+            employee.communication_patterns = enrichedData.communication_patterns;
+            employee.values_and_motivators = enrichedData.values_and_motivators;
+            employee.current_state = enrichedData.current_state;
 
-            employee.profile_v2 = {
-                user_id: employee.slack_id,
-                user_name: employee.name,
-                last_updated: new Date().toISOString(),
-                overall_summary: enrichedData.overall_summary,
-                personality_traits: enrichedData.personality_traits,
-                work_styles_and_strengths: enrichedData.work_styles_and_strengths,
-                communication_patterns: enrichedData.communication_patterns,
-                values_and_motivators: enrichedData.values_and_motivators,
-                current_state: enrichedData.current_state
-            };
-
-            // Backpack compatibility for TEAM.md
-            if (enrichedData.work_styles_and_strengths?.dominant_strengths) {
-                // Merge new strengths into skills/tags
-                const newSkills = enrichedData.work_styles_and_strengths.dominant_strengths;
-                employee.skills = [...new Set([...(employee.skills || []), ...newSkills])].slice(0, 15);
-            }
-            if (enrichedData.current_state?.recent_topics_of_interest) {
-                const newInterests = enrichedData.current_state.recent_topics_of_interest;
-                employee.interests = [...new Set([...(employee.interests || []), ...newInterests])].slice(0, 15);
-            }
-            if (enrichedData.personality_traits?.summary) {
-                // Use summary as a personality snippet or top traits
-                // Extract keywords from summary or use summary directly (maybe too long for table)
-                // Let's rely on the AI's 'personality_traits.summary' for the table if short, 
-                // or just keep using the old simple array if we want keywords.
-                // For now, let's derive some keywords from the report if possible, or leave existing ones.
-            }
-
-            employee.updatedAt = new Date().toISOString();
-            employee.slack_synced_at = employee.updatedAt;
+            employee.updatedAt = employee.last_updated;
+            employee.slack_synced_at = employee.last_updated;
             updatedCount++;
-            console.log(`  Success: Updated advanced profile for ${employee.name}.`);
+            console.log(`  Success: Updated professional profile for ${employee.name}.`);
         }
     }
 
     if (updatedCount > 0) {
         fs.writeFileSync(DATA_FILE, JSON.stringify(employees, null, 2));
         console.log(`Saved ${updatedCount} profiles to ${DATA_FILE}.`);
-        // We might want to update TEAM.md generator to use new fields later, 
-        // but for now we kept backward compat.
+
+        // Regenerate TEAM.md with the new data format
+        generateTeamDoc(employees);
     } else {
         console.log('No updates performed.');
     }
