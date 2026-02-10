@@ -4,7 +4,12 @@ on:
   schedule:
     # 毎週月曜日の午前9時 (JST) = UTC 0:00
     - cron: '0 0 * * 1'
-  workflow_dispatch: # 手動実行用
+  workflow_dispatch:
+    inputs:
+      full_sync:
+        description: '全期間の履歴を同期しますか？'
+        type: boolean
+        default: false
 
 jobs:
   sync:
@@ -20,7 +25,12 @@ jobs:
           node-version: '20'
 
       - name: Sync Slack Activity
-        run: node scripts/sync-slack.js
+        run: |
+          if [ "${{ github.event.inputs.full_sync }}" = "true" ]; then
+            node scripts/sync-slack.js --full
+          else
+            node scripts/sync-slack.js
+          fi
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN || secrets.SLACK_APP_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
