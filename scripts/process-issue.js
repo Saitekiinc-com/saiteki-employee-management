@@ -288,6 +288,7 @@ function generateTeamDoc(employees) {
       md += `      ${m.name.replace(/[()"']/g, '')}\n`;
     });
   });
+  md += '```\n\n';
   // 2. Summary Table
   md += '## 社員一覧サマリー\n\n| 名前 | 職種 | 性格傾向 (概略) | 現在の状態 |\n| --- | --- | --- | --- |\n';
   activeEmployees.forEach(e => {
