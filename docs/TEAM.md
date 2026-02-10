@@ -459,7 +459,7 @@ mindmap
 > **総合サマリー**: 貴志雪乃さんは、協調性があり、丁寧なコミュニケーションを心がける人物です。組織への貢献意欲が高く、学習意欲も旺盛です。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 協調性が高く、周囲への気配りができる、バランスの取れた人物です。新しい情報に対する関心も高く、ポジティブで明るい印象を与えます。
 
@@ -474,7 +474,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: 積極的に情報収集・共有し、周りを巻き込みながら業務を推進するタイプです。丁寧な仕事ぶりで、周囲からの信頼も厚いでしょう。採用担当としての役割も積極的にこなしています。
 
@@ -491,7 +491,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 組織への貢献、新しい知識の習得、周囲との良好な関係構築を重視している。自身の成長と組織の成長を重ねて考えている。メンバーの貢献を認め、感謝の気持ちを伝えることを大切にしている。
 
@@ -508,7 +508,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 新しい情報を積極的に共有し、組織への貢献意欲も高く、全体的にポジティブな状態にある。採用担当としても意欲的に業務に取り組んでいる。オンライン部活の企画や勉強会の開催など、積極的に活動している。
 
@@ -527,7 +527,7 @@ mindmap
 > **総合サマリー**: 上遼太郎さんは、学習意欲が高く、周囲との協調性を重視する人物。新しい技術への関心と、チームへの貢献意欲が強い。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 協調性が高く、学習意欲旺盛。周囲への感謝を忘れず、新しい技術への関心も高い。
 
@@ -542,7 +542,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: 他者の優れた点を吸収し、自身のスキルアップに繋げようとする。学習意欲が高く、情報収集能力に優れ、設計書作成にも意欲的。
 
@@ -559,7 +559,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 学習、成長、貢献を重視する傾向がある。他者のスキルから学び、自身の成長に繋げることにやりがいを感じる。チームへの貢献意欲も高い。
 
@@ -576,7 +576,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 共有された情報から積極的に学び、自身のスキルアップに繋げようとしている。チームメンバーのスキルを高く評価し、感謝の気持ちを伝えている。AI技術を活用した開発に強い関心を持っている。
 
@@ -595,7 +595,7 @@ mindmap
 > **総合サマリー**: 小松田真伍は、技術への探求心と学習意欲が非常に高く、積極的に情報共有を行う人物。組織貢献への意欲も強く、周囲との協調を重視する。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 新しい技術や知識の習得に積極的で、それを組織に還元しようとする意識が高い。協調性を重んじ、周囲とのコミュニケーションも円滑に行う。自身の経験に基づいた問題意識も持ち合わせている。
 
@@ -610,7 +610,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: 現状の問題点を把握し、積極的に改善策を提案する。チームと協力し、組織全体をより良くしようとする意識が非常に高い。新しい技術を積極的に試し、業務効率化に繋げようとする。
 
@@ -626,7 +626,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 組織への貢献意欲が強く、自身の成長を通じて組織をより良くしたいと考えている。現状打破への意欲も高く、新しい道を切り開くことにやりがいを感じる。技術の進化を追求し、それを社会に役立てたいと考えている。
 
@@ -642,7 +642,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 組織への貢献意欲が非常に高く、新しい技術を積極的に学習し、それを組織に共有しようとしている。業務効率化やナレッジ共有に強い関心を持っている。
 
@@ -661,7 +661,7 @@ mindmap
 > **総合サマリー**: 小島遼祐は、協調性があり、学習意欲が高く、周囲との良好な関係構築を重視する人物。社会人経験は浅いが、意欲的に学ぼうとしている。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 協調性が高く、新しい知識や経験に対する好奇心が旺盛。謙虚で、周囲への感謝を忘れない。
 
@@ -676,7 +676,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: 協調性を活かしてチームワークを重視し、学習意欲に基づいて自己成長を図ることで、組織に貢献しようとする。人の意見をまとめることが得意。
 
@@ -692,7 +692,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 人間関係の調和を重視し、自己成長を通じて周囲に貢献することに喜びを感じる。新しい知識や経験に対する好奇心が強く、常に学び続けようとする。
 
@@ -708,7 +708,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 新しい職場環境に積極的に馴染もうとしており、良好な人間関係を築きながら、仕事に貢献しようと意欲的に取り組んでいる。周囲への感謝の気持ちを忘れない。
 
@@ -727,7 +727,7 @@ mindmap
 > **総合サマリー**: 社交的で協調性があり、学習意欲の高い人物。周囲への気配りを忘れず、新しい環境への適応力も高い。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 共感力が高く、親しみやすい人柄。新しいことへの興味も持ち、積極的に学ぼうとする姿勢が見られる。
 
@@ -742,7 +742,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: 周囲を観察し、他者の良い点を吸収して成長しようとする姿勢が強く、チームワークを重視する。丁寧で親切な対応を心がける。
 
@@ -758,7 +758,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 他者との良好な関係構築と自己成長を重視し、周囲からの評価や感謝がモチベーションに繋がる。貢献意欲も高い。
 
@@ -774,7 +774,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 新しい職場環境に積極的に適応しようとしており、周囲とのコミュニケーションを楽しんでいる。仕事とプライベートのバランスも考慮しながら、充実した日々を送っている様子。
 
@@ -793,7 +793,7 @@ mindmap
 > **総合サマリー**: 向上心と協調性があり、AI技術への興味と学習意欲が高い。丁寧なコミュニケーションを心がけ、チームへの貢献を目指している。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 好奇心旺盛で、協調性があり、新しい技術や知識の吸収に積極的。ユーモアのセンスも持ち合わせている。
 
@@ -808,7 +808,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: 過去の開発経験と品質管理の経験があり、技術的なスキルと問題解決能力を兼ね備えている。AI技術を活用した業務改善に関心がある。
 
@@ -825,7 +825,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 技術的なスキル向上と、チームへの貢献を重視しており、新しい知識や経験を得ることに意欲的。AI技術の可能性に期待し、積極的に活用しようとしている。
 
@@ -842,7 +842,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 入社を控え、開発者としての勘を取り戻しつつ、チームに貢献できることを楽しみにしている。AI技術への関心が高く、業務への活用を模索している。
 
@@ -861,7 +861,7 @@ mindmap
 > **総合サマリー**: 起業家精神旺盛で、AIに関する深い知識とグローバルな視野を持つ。コミュニティ形成にも積極的で、アウトプットを重視する。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 外向的で好奇心旺盛、協調性も高く、新しいことに積極的に挑戦する。知的好奇心と行動力を兼ね備えている。
 
@@ -876,7 +876,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: 起業家精神とAIに関する専門知識を活かし、グローバルな視点での事業開発を得意とする。チームをまとめ、成果を出す能力も高い。
 
@@ -891,7 +891,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 新しい技術の習得と、それを通じた社会貢献に価値を置いている。アウトプットを重視し、常に成長を追求する。
 
@@ -906,7 +906,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 海外を拠点に活動し、グローバルな視点での事業展開を模索している。新しいAI技術への関心も高く、積極的に情報収集を行っている。
 
@@ -925,7 +925,7 @@ mindmap
 > **総合サマリー**: 社交的で親しみやすく、周囲との協調性を重視する人物。技術への関心も高く、新しい知識の習得に意欲的。チームメンバーの貢献を積極的に評価し、組織全体の成長に貢献しようとする。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 社交的で協調性を重視する性格。新しい技術や知識への好奇心も持ち合わせている。周囲への感謝と評価を忘れず、チームワークを重視する。
 
@@ -940,7 +940,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: リスク管理意識を持ち、情報共有を積極的に行う。チームメンバーの強みを認識し、高く評価できる。新しい技術への関心も高く、学習意欲も高い。組織を良くしようという意識も高い。
 
@@ -956,7 +956,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: チームワークと貢献を重視し、他者の成功を喜ぶことをモチベーションとする。リスク管理意識が高く、組織全体の安全を重視する。会社の成長に貢献したいという意欲が強い。
 
@@ -972,7 +972,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 周囲とのコミュニケーションを楽しみながら、業務に取り組んでいる様子がうかがえる。チームメンバーの活躍を喜ぶなど、良好な関係性を築いている。生成AIや新しい技術に強い関心を持ち、業務効率化や新しい価値創造に繋げようとしている。
 
@@ -991,7 +991,7 @@ mindmap
 > **総合サマリー**: 戸塚直道氏は、起業家精神とリーダーシップに溢れ、組織を牽引する。技術への関心も高く、学習意欲も旺盛。周囲との協調を重んじ、組織全体の成長を促進する。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 非常に外向的で協調性が高く、誠実な人物。周囲を巻き込み、組織を盛り上げようとする意識が強い。新しい経験や知識に対してオープンであり、変化を恐れない。
 
@@ -1006,7 +1006,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: 問題解決能力が高く、組織全体を俯瞰して最適な解決策を導き出す。リーダーシップを発揮し、チームを目標達成に導く。営業戦略やビジネスモデルに関する深い理解を持つ。
 
@@ -1022,7 +1022,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 組織全体の成長とメンバーの成功を重視する。新しい技術やビジネスモデルに対する好奇心が強く、常に学び続けることを大切にしている。業界構造を変革し、より良い未来を創造することに情熱を燃やす。
 
@@ -1038,7 +1038,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 引き続き非常に良好な状態を維持している。複数のプロジェクトに関わっており、多忙ではあるものの、高いモチベーションを維持している。チームメンバーのサポートや組織運営にも積極的に関わっている。特に、業界構造の変革に対する意欲が高い。
 
@@ -1057,7 +1057,7 @@ mindmap
 > **総合サマリー**: 社交的で学習意欲が高く、チームへの貢献意欲が強い。多様な趣味を持ち、コミュニケーションを大切にする人物。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 開放的で協調性があり、新しい知識を積極的に取り入れようとする姿勢が見られる。ユーモアがあり、親しみやすい。
 
@@ -1072,7 +1072,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: 多様な経験を活かし、柔軟な対応力と学習意欲の高さを生かした働き方が期待できる。コミュニケーション能力も高く、チームワークを重視する。
 
@@ -1088,7 +1088,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: チームワークと自己成長を重視し、新しい知識やスキルを積極的に習得することに意欲的。社内のつながりを大切にし、共に働くことを楽しみにしている。
 
@@ -1104,7 +1104,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 入社を前に期待と意欲に満ち溢れている。積極的にコミュニケーションを取り、周囲との関係構築に努めている。
 
