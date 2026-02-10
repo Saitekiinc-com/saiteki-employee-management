@@ -10,14 +10,6 @@ on:
         description: '全期間の履歴を同期しますか？'
         type: boolean
         default: false
-      target_workspace:
-        description: '対象ワークスペース (all, primary, secondary)'
-        type: choice
-        options:
-          - all
-          - primary
-          - secondary
-        default: 'all'
 
 jobs:
   sync:
@@ -35,9 +27,9 @@ jobs:
       - name: Sync Slack Activity
         run: |
           if [ "${{ github.event.inputs.full_sync }}" = "true" ]; then
-            node scripts/sync-slack.js --full --target "${{ github.event.inputs.target_workspace }}"
+            node scripts/sync-slack.js --full
           else
-            node scripts/sync-slack.js --target "${{ github.event.inputs.target_workspace }}"
+            node scripts/sync-slack.js
           fi
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN || secrets.SLACK_APP_TOKEN }}

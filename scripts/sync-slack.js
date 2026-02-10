@@ -23,10 +23,6 @@ const ENDPOINT_ID = process.env.GCP_ENDPOINT_ID;
 const args = process.argv.slice(2);
 const IS_FULL_SYNC = args.includes('--full');
 
-// Parse target workspace
-const targetArgIndex = args.indexOf('--target');
-const TARGET = (targetArgIndex !== -1 && args[targetArgIndex + 1]) ? args[targetArgIndex + 1] : 'all';
-
 
 async function main() {
     if (!SLACK_TOKEN || CHANNEL_IDS.length === 0 || !API_KEY || !PROJECT_ID) {
@@ -51,34 +47,29 @@ async function main() {
         return;
     }
 
-    console.log(`Starting sync... Full Mode: ${IS_FULL_SYNC}, Target: ${TARGET}`);
+    console.log(`Starting sync... Full Mode: ${IS_FULL_SYNC}`);
     console.log(`Target Channels: ${CHANNEL_IDS.join(', ')}`);
 
     // Fetch messages from ALL channels (Primary Workspace)
     let allMessages = [];
-    if (TARGET === 'all' || TARGET === 'primary') {
-        console.log('--- Primary Workspace ---');
-        for (const channelId of CHANNEL_IDS) {
-
-            const cid = channelId.trim();
-            if (!cid) continue;
-            console.log(`Fetching messages from channel: ${cid}...`);
-            try {
-                const channelMessages = await fetchSlackMessages(cid, IS_FULL_SYNC, SLACK_TOKEN);
-                console.log(`  Fetched ${channelMessages.length} messages from ${cid}`);
-                allMessages = allMessages.concat(channelMessages);
-            } catch (e) {
-                console.error(`  Failed to fetch from ${cid}: ${e.message}`);
-            }
+    console.log('--- Primary Workspace ---');
+    for (const channelId of CHANNEL_IDS) {
+        const cid = channelId.trim();
+        if (!cid) continue;
+        console.log(`Fetching messages from channel: ${cid}...`);
+        try {
+            const channelMessages = await fetchSlackMessages(cid, IS_FULL_SYNC, SLACK_TOKEN);
+            console.log(`  Fetched ${channelMessages.length} messages from ${cid}`);
+            allMessages = allMessages.concat(channelMessages);
+        } catch (e) {
+            console.error(`  Failed to fetch from ${cid}: ${e.message}`);
         }
-    } else {
-        console.log('Skipping Primary Workspace (Target: ' + TARGET + ')');
     }
     console.log(`Primary workspace messages: ${allMessages.length}`);
 
     // Fetch messages from Secondary Workspace (if configured)
     let allMessages2 = [];
-    if ((TARGET === 'all' || TARGET === 'secondary') && SLACK_TOKEN_2 && CHANNEL_IDS_2.length > 0) {
+    if (SLACK_TOKEN_2 && CHANNEL_IDS_2.length > 0) {
 
         console.log('--- Secondary Workspace ---');
         for (const channelId of CHANNEL_IDS_2) {
@@ -95,7 +86,7 @@ async function main() {
         }
         console.log(`Secondary workspace messages: ${allMessages2.length}`);
     } else {
-        console.log('Secondary workspace not configured or skipped. (Target: ' + TARGET + ')');
+        console.log('Secondary workspace not configured. Skipping.');
     }
     console.log(`Total messages fetched: ${allMessages.length + allMessages2.length}`);
 
