@@ -432,7 +432,7 @@ function generateTeamDoc(employees) {
         }
         md += '\n</details>\n\n';
 
-        md += '<details>\n<summary><b>💪 仕事タイルと強み (Work Styles & Strengths)</b></summary>\n\n';
+        md += '<details>\n<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>\n\n';
         if (e.work_styles_and_strengths) {
             md += `**要約**: ${e.work_styles_and_strengths.summary}\n\n`;
             md += `**問題解決スタイル**: ${e.work_styles_and_strengths.problem_solving_style || '-'}\n\n`;
