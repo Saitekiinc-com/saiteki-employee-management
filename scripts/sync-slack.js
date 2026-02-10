@@ -281,6 +281,7 @@ async function analyzeSlackActivityAdvanced(name, messages) {
     - 配列やオブジェクトの構造を崩さないこと。
     - "current_state"以外は、一時的な感情ではなく、長期的な特性を分析すること。
     - "current_state"は直近（ログの後半）の日付の発言を重視すること。
+    - **【重要】根拠(evidence)やエピソード(evidence_episodes)には、[2025-11-13...]のようなタイムスタンプや、<@U...>のようなユーザーIDを直接含めないでください。発言内容のエッセンスのみを自然な文章で記述してください。**
     `;
 
     try {
