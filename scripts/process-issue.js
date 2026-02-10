@@ -288,15 +288,71 @@ function generateTeamDoc(employees) {
       md += `      ${m.name.replace(/[()"']/g, '')}\n`;
     });
   });
-  md += '```\n\n## 詳細リスト\n\n| 名前 | 職種 | 性格傾向 (Personality) | 強み/スタイル (Strengths) | 価値観 (Values) | 最近の状態 (Current) |\n| --- | --- | --- | --- | --- | --- |\n';
-
+  // 2. Summary Table
+  md += '## 社員一覧サマリー\n\n| 名前 | 職種 | 性格傾向 (概略) | 現在の状態 |\n| --- | --- | --- | --- |\n';
   activeEmployees.forEach(e => {
     const personality = e.personality_traits?.summary || (e.personality || '-');
-    const strengths = e.work_styles_and_strengths?.summary || (e.skills?.join(', ') || '-');
-    const values = e.values_and_motivators?.summary || '-';
     const current = e.current_state?.summary || '-';
+    md += `| [${e.name}](#${encodeURIComponent(e.name)}) | ${e.job} | ${personality} | ${current} |\n`;
+  });
+  md += '\n---\n\n## 詳細プロフィール\n\n各社員の詳細な分析結果です。クリックして展開できます。\n\n';
 
-    md += `| ${e.name} | ${e.job} | ${personality} | ${strengths} | ${values} | ${current} |\n`;
+  // 3. Detailed Profiles
+  activeEmployees.forEach(e => {
+    md += `<div id="${e.name}"></div>\n\n`;
+    md += `### ${e.name} (${e.job})\n\n`;
+    md += `> **総合サマリー**: ${e.overall_summary || '-'}\n\n`;
+
+    md += '<details>\n<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>\n\n';
+    if (e.personality_traits) {
+      md += `**要約**: ${e.personality_traits.summary}\n\n`;
+      md += '| 項目 | スコア | 根拠・エピソード |\n| --- | --- | --- |\n';
+      const traits = ['openness', 'conscientiousness', 'extraversion', 'agreeableness', 'neuroticism'];
+      traits.forEach(t => {
+        const data = e.personality_traits[t];
+        if (data) md += `| ${t} | ${data.score}/10 | ${data.evidence} |\n`;
+      });
+    } else {
+      md += `※Slack連携後に詳細な性格分析結果が表示されます。 (暫定性格: ${e.personality || '-'})\n`;
+    }
+    md += '\n</details>\n\n';
+
+    md += '<details>\n<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>\n\n';
+    if (e.work_styles_and_strengths) {
+      md += `**要約**: ${e.work_styles_and_strengths.summary}\n\n`;
+      md += `**問題解決スタイル**: ${e.work_styles_and_strengths.problem_solving_style || '-'}\n\n`;
+      md += `**主要な強み**: ${e.work_styles_and_strengths.dominant_strengths?.join(', ') || '-'}\n\n`;
+      md += '**証拠エピソード**:\n';
+      e.work_styles_and_strengths.evidence_episodes?.forEach(ep => md += `- ${ep}\n`);
+    } else {
+      md += `※Slack連携後に詳細な強み分析が表示されます。 (既存スキル: ${e.skills?.join(', ') || '-'})\n`;
+    }
+    md += '\n</details>\n\n';
+
+    md += '<details>\n<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>\n\n';
+    if (e.values_and_motivators) {
+      md += `**要約**: ${e.values_and_motivators.summary}\n\n`;
+      md += `**コアバリュー**: ${e.values_and_motivators.core_values?.join(', ') || '-'}\n\n`;
+      md += `**モチベーショントリガー**: ${e.values_and_motivators.motivation_triggers?.join(', ') || '-'}\n\n`;
+      md += '**証拠エピソード**:\n';
+      e.values_and_motivators.evidence_episodes?.forEach(ep => md += `- ${ep}\n`);
+    } else {
+      md += '※Slack連携後に詳細分析が表示されます。\n';
+    }
+    md += '\n</details>\n\n';
+
+    md += '<details>\n<summary><b>📈 現在の状態 (Current State)</b></summary>\n\n';
+    if (e.current_state) {
+      md += `**要約**: ${e.current_state.summary}\n\n`;
+      md += `- **感情レベル**: ${e.current_state.sentiment_level || '-'}\n`;
+      md += `- **業務負荷状況**: ${e.current_state.workload_status || '-'}\n`;
+      md += `- **最近の関心トピック**: ${e.current_state.recent_topics_of_interest?.join(', ') || '-'}\n`;
+    } else {
+      md += '※Slack連携後に表示されます。\n';
+    }
+    md += '\n</details>\n\n';
+
+    md += '---\n\n';
   });
 
   if (archivedEmployees.length > 0) {
