@@ -65,7 +65,7 @@ mindmap
 > **総合サマリー**: 杉本さんは、AI技術への高い関心と貢献意欲を持ち、チームワークを重視する協調性のあるエンジニア。課題解決への意欲も高く、周囲への気配りもできる。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 開放性、協調性、外向性が高く、学習意欲も旺盛。AI技術への強い関心に加え、周囲への貢献意欲や共感性がうかがえる。
 
@@ -80,7 +80,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: チームワークを重視し、学習意欲が高く、得た知識やツールを共有することでチームに貢献しようとする。AI技術を活用した業務効率化に強い関心を持つ。
 
@@ -96,7 +96,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: チームワーク、自己成長、技術革新を重視する。他者との交流や新しい発見からモチベーションを得る。会社やチームの成功に貢献したいという強い意欲を持つ。
 
@@ -112,7 +112,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: AI技術への関心が高く、自己成長とチームへの貢献を強く意識している。業務負荷は状況により変動するものの、全体的に前向きな姿勢を維持している。
 
@@ -131,7 +131,7 @@ mindmap
 > **総合サマリー**: 佐賀県出身、福岡在住のAWS基盤エンジニア。多趣味で学習意欲が高く、協調性を重視する社交的な人物。Saitekiへの貢献意欲も高い。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 協調性が高く、新しい知識や経験に対して積極的な姿勢を持つ。楽観的で社交的な性格で、周囲とのコミュニケーションを積極的に行う。
 
@@ -146,7 +146,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: AWS基盤のインフラ設計・構築経験を持ち、新しい技術への学習意欲も高い。チームワークを重視し、協力的な姿勢で業務に取り組む。
 
@@ -162,7 +162,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 家族との時間を大切にし、仕事を通じてスキルアップを目指している。チームへの貢献意欲も高く、組織の一員としての意識も強い。
 
@@ -178,7 +178,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 現在は業務負荷が高い時期もあるが、Saitekiのメンバーとの出会いを喜び、来年への期待を抱いている。新しい環境でスキルアップを目指している。
 
@@ -197,7 +197,7 @@ mindmap
 > **総合サマリー**: 小林翔さんは、協調性があり、新しい環境への適応能力が高い人物。趣味が多岐にわたり、周囲との共通点を見つけやすい。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 開放性と協調性が高く、外向性も平均以上。新しい経験や人との交流を楽しみ、チームワークを重視する傾向がある。
 
@@ -212,7 +212,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: 協調性があり、コミュニケーション能力が高く、長年のテスター経験から問題発見能力に優れる。新しい知識の吸収にも積極的。
 
@@ -228,7 +228,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 成長、繋がり、楽しさ、経験を重視する。新しい知識やスキルを習得すること、他人との良好な関係を築くこと、楽しい経験をすることがモチベーションの源泉となる。
 
@@ -244,7 +244,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 新しい職場に期待を抱き、周囲との良好な関係を築こうと積極的に行動している。入社を控え、期待と意欲に満ちている様子。
 
@@ -263,7 +263,7 @@ mindmap
 > **総合サマリー**: 櫻井志保さんは、データ分析スキルを活かし、学習意欲とコミュニケーション能力を発揮して活躍することが期待される人物です。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 自己認識が高く、協調性があり、学習意欲も高い。新しい環境への適応力も期待できる。謙虚で丁寧な印象を与える。
 
@@ -278,7 +278,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: データ分析スキルを持ち、学習意欲が高く、自ら課題を見つけて改善に取り組むタイプ。コミュニケーション能力も高く、チームワークを重視する。
 
@@ -294,7 +294,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 成長と貢献を重視し、新しい知識やスキルを習得することに喜びを感じる。チームワークを重視し、周囲との協調関係を築くことを大切にする。
 
@@ -310,7 +310,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 入社を控えており、新しい環境への期待感と意欲に満ち溢れている。チームの一員として貢献したいという気持ちが強い。
 
@@ -329,7 +329,7 @@ mindmap
 > **総合サマリー**: 田浦裕樹は、豊富な経験と高い技術力を持ち、チームへの貢献意欲が強く、周囲との協調を大切にするエンジニアである。AI技術への関心も高く、学習意欲も旺盛。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 協調性が高く、誠実で、周囲への気配りを忘れない。また、ユーモアがあり、親しみやすい。
 
@@ -344,7 +344,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: AI技術を活用した開発に強みを持ち、チームを円滑に動かすための調整能力にも長けている。PoCの立ち上げや要件定義も得意。
 
@@ -359,7 +359,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: チームへの貢献、技術的な成長、顧客の成功を重視する。自身の知識や経験を共有することで、チーム全体のレベルアップに貢献したいと考えている。
 
@@ -374,7 +374,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 現在はAndroid TVアプリ開発チームでPoCの立ち上げフェーズに注力しており、クライアントとの要件定義・調整に力を入れている様子。テレワークも活用し、柔軟に対応している。
 
@@ -393,7 +393,7 @@ mindmap
 > **総合サマリー**: 開米敦則氏は、QAエンジニアとしての経験豊富で、AI技術への関心も高く、学習意欲も旺盛。協調性があり、チームへの貢献を重視する。
 
 <details>
-<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>
+<summary><b>🛠 性格傾向</b></summary>
 
 **要約**: 協調性が高く、学習意欲旺盛で、趣味も多彩。新しい環境にも積極的に適応しようとする。
 
@@ -408,7 +408,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>
+<summary><b>💪 仕事スタイルと強み</b></summary>
 
 **要約**: QAエンジニアとしての経験を活かし、AI技術を積極的に業務に取り入れようとしている。問題解決能力が高く、自律的に行動できる。
 
@@ -424,7 +424,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>
+<summary><b>💎 価値観とモチベーター</b></summary>
 
 **要約**: 効率性、学習意欲、貢献意欲を重視している。新しい技術を積極的に学び、業務に役立てることにモチベーションを感じる。チームや組織への貢献を重視する。
 
@@ -440,7 +440,7 @@ mindmap
 </details>
 
 <details>
-<summary><b>📈 現在の状態 (Current State)</b></summary>
+<summary><b>📈 現在の状態</b></summary>
 
 **要約**: 新しい職場環境に積極的に適応しようとしており、AI技術を活用した業務改善に意欲的。コミュニケーションも円滑で、チームへの貢献を意識している。
 

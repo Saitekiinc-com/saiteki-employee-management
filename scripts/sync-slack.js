@@ -409,7 +409,7 @@ function generateTeamDoc(employees) {
         md += `### ${e.name} (${e.job})\n\n`;
         md += `> **総合サマリー**: ${e.overall_summary || '-'}\n\n`;
 
-        md += '<details>\n<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>\n\n';
+        md += '<details>\n<summary><b>🛠 性格傾向</b></summary>\n\n';
         if (e.personality_traits) {
             md += `**要約**: ${e.personality_traits.summary}\n\n`;
             md += '| 項目 | スコア | 根拠・エピソード |\n| --- | --- | --- |\n';
@@ -432,7 +432,7 @@ function generateTeamDoc(employees) {
         }
         md += '\n</details>\n\n';
 
-        md += '<details>\n<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>\n\n';
+        md += '<details>\n<summary><b>💪 仕事スタイルと強み</b></summary>\n\n';
         if (e.work_styles_and_strengths) {
             md += `**要約**: ${e.work_styles_and_strengths.summary}\n\n`;
             md += `**問題解決スタイル**: ${e.work_styles_and_strengths.problem_solving_style || '-'}\n\n`;
@@ -444,7 +444,7 @@ function generateTeamDoc(employees) {
         }
         md += '\n</details>\n\n';
 
-        md += '<details>\n<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>\n\n';
+        md += '<details>\n<summary><b>💎 価値観とモチベーター</b></summary>\n\n';
         if (e.values_and_motivators) {
             md += `**要約**: ${e.values_and_motivators.summary}\n\n`;
             md += `**コアバリュー**: ${e.values_and_motivators.core_values?.join(', ') || '-'}\n\n`;
@@ -456,7 +456,7 @@ function generateTeamDoc(employees) {
         }
         md += '\n</details>\n\n';
 
-        md += '<details>\n<summary><b>📈 現在の状態 (Current State)</b></summary>\n\n';
+        md += '<details>\n<summary><b>📈 現在の状態</b></summary>\n\n';
         if (e.current_state) {
             md += `**要約**: ${e.current_state.summary}\n\n`;
             md += `- **感情レベル**: ${e.current_state.sentiment_level || '-'}\n`;
