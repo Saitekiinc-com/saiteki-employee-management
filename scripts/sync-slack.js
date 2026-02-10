@@ -125,8 +125,18 @@ async function main() {
 
         console.log(`  Processing ${msgCount} messages for AI analysis...`);
 
+        // Build existing profile context for integration
+        const existingProfile = employee.overall_summary ? {
+            overall_summary: employee.overall_summary,
+            personality_traits: employee.personality_traits,
+            work_styles_and_strengths: employee.work_styles_and_strengths,
+            communication_patterns: employee.communication_patterns,
+            values_and_motivators: employee.values_and_motivators,
+            current_state: employee.current_state
+        } : null;
+
         // AI Enrichment with Advanced Profile Structure
-        const enrichedData = await analyzeSlackActivityAdvanced(employee.name, userMessages);
+        const enrichedData = await analyzeSlackActivityAdvanced(employee.name, userMessages, existingProfile);
 
         if (enrichedData && !enrichedData.ai_error) {
             // Remove legacy fields as requested by user
@@ -264,7 +274,7 @@ async function fetchThreadReplies(channelId, threadTs, token = SLACK_TOKEN) {
     return allReplies;
 }
 
-async function analyzeSlackActivityAdvanced(name, messages) {
+async function analyzeSlackActivityAdvanced(name, messages, existingProfile = null) {
     let url = "";
     if (ENDPOINT_ID) {
         url = `https://${LOCATION}-aiplatform.googleapis.com/v1beta1/projects/${PROJECT_ID}/locations/${LOCATION}/endpoints/${ENDPOINT_ID}:streamGenerateContent?key=${API_KEY}`;
@@ -272,11 +282,25 @@ async function analyzeSlackActivityAdvanced(name, messages) {
         url = `https://${LOCATION}-aiplatform.googleapis.com/v1/projects/${PROJECT_ID}/locations/${LOCATION}/publishers/google/models/gemini-1.5-pro-002:streamGenerateContent?key=${API_KEY}`;
     }
 
+    // Build existing profile context section
+    let existingProfileSection = '';
+    if (existingProfile) {
+        existingProfileSection = `
+    ## 参考：既存の分析結果
+    以下はこの社員の過去の分析結果です。今回の発言ログは全ワークスペースのデータではなく、一部のワークスペースのみの可能性があります。
+    既存の分析結果の洞察を尊重しつつ、新しい発言ログの内容と統合して総合的なプロファイルを更新してください。
+    既存の分析と新しいデータで矛盾がある場合は、新しいデータを優先しつつ、既存の洞察も考慮してバランスの取れた分析を行ってください。
+    """
+    ${JSON.stringify(existingProfile, null, 2).substring(0, 10000)}
+    """
+`;
+    }
+
     // Advanced Profiling Prompt based on User Guide
     const prompt = `
     あなたは組織心理学者兼ベテラン人事分析官です。
     提供されたSlackの発言ログ（タイムスタンプ付き）を徹底的に分析し、対象社員の「人物プロファイル」を作成してください。
-    
+    ${existingProfileSection}
     ## 分析対象
     名前: ${name}
     ログ:
