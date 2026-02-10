@@ -414,11 +414,11 @@ function generateTeamDoc(employees) {
             md += `**要約**: ${e.personality_traits.summary}\n\n`;
             md += '| 項目 | スコア | 根拠・エピソード |\n| --- | --- | --- |\n';
             const traits = {
-                openness: '開放性 (Openness)',
-                conscientiousness: '誠実性 (Conscientiousness)',
-                extraversion: '外向性 (Extraversion)',
-                agreeableness: '協調性 (Agreeableness)',
-                neuroticism: '神経症的傾向 (Neuroticism)'
+                openness: '開放性',
+                conscientiousness: '誠実性',
+                extraversion: '外向性',
+                agreeableness: '協調性',
+                neuroticism: '神経症的傾向'
             };
             Object.keys(traits).forEach(t => {
                 const data = e.personality_traits[t];
