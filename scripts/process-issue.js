@@ -307,10 +307,16 @@ function generateTeamDoc(employees) {
     if (e.personality_traits) {
       md += `**要約**: ${e.personality_traits.summary}\n\n`;
       md += '| 項目 | スコア | 根拠・エピソード |\n| --- | --- | --- |\n';
-      const traits = ['openness', 'conscientiousness', 'extraversion', 'agreeableness', 'neuroticism'];
-      traits.forEach(t => {
+      const traits = {
+        openness: '開放性 (Openness)',
+        conscientiousness: '誠実性 (Conscientiousness)',
+        extraversion: '外向性 (Extraversion)',
+        agreeableness: '協調性 (Agreeableness)',
+        neuroticism: '神経症的傾向 (Neuroticism)'
+      };
+      Object.keys(traits).forEach(t => {
         const data = e.personality_traits[t];
-        if (data) md += `| ${t} | ${data.score}/10 | ${data.evidence} |\n`;
+        if (data) md += `| ${traits[t]} | ${data.score}/10 | ${data.evidence} |\n`;
       });
     } else {
       md += `※Slack連携後に詳細な性格分析結果が表示されます。 (暫定性格: ${e.personality || '-'})\n`;
