@@ -5,10 +5,15 @@ require('dotenv').config();
 const DATA_FILE = path.join(__dirname, '../data/employees.json');
 const BACKUP_FILE = path.join(__dirname, '../data/employees.backup.json');
 
-// Configuration
+// Configuration - Primary Workspace
 const SLACK_TOKEN = process.env.SLACK_BOT_TOKEN || process.env.SLACK_APP_TOKEN;
 // Support multiple channels (comma-separated in SLACK_CHANNEL_ID)
 const CHANNEL_IDS = process.env.SLACK_CHANNEL_ID ? process.env.SLACK_CHANNEL_ID.split(',').map(id => id.trim()) : [];
+
+// Configuration - Secondary Workspace (optional)
+const SLACK_TOKEN_2 = process.env.SLACK_BOT_TOKEN_2;
+const CHANNEL_IDS_2 = process.env.SLACK_CHANNEL_ID_2 ? process.env.SLACK_CHANNEL_ID_2.split(',').map(id => id.trim()) : [];
+
 const PROJECT_ID = process.env.GCP_PROJECT_ID;
 const LOCATION = process.env.GCP_LOCATION || 'us-central1';
 const API_KEY = process.env.GEMINI_API_KEY;
@@ -34,7 +39,7 @@ async function main() {
     console.log(`Backed up data to ${BACKUP_FILE}`);
 
     const employees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-    const targetEmployees = employees.filter(e => e.isActive !== false && e.slack_id);
+    const targetEmployees = employees.filter(e => e.isActive !== false && (e.slack_id || e.slack_id_2));
 
     if (targetEmployees.length === 0) {
         console.log('No active employees with Slack ID found.');
@@ -44,34 +49,63 @@ async function main() {
     console.log(`Starting sync... Full Mode: ${IS_FULL_SYNC}`);
     console.log(`Target Channels: ${CHANNEL_IDS.join(', ')}`);
 
-    // Fetch messages from ALL channels
+    // Fetch messages from ALL channels (Primary Workspace)
     let allMessages = [];
+    console.log('--- Primary Workspace ---');
     for (const channelId of CHANNEL_IDS) {
         const cid = channelId.trim();
         if (!cid) continue;
         console.log(`Fetching messages from channel: ${cid}...`);
         try {
-            const channelMessages = await fetchSlackMessages(cid, IS_FULL_SYNC);
+            const channelMessages = await fetchSlackMessages(cid, IS_FULL_SYNC, SLACK_TOKEN);
             console.log(`  Fetched ${channelMessages.length} messages from ${cid}`);
             allMessages = allMessages.concat(channelMessages);
         } catch (e) {
             console.error(`  Failed to fetch from ${cid}: ${e.message}`);
         }
     }
-    console.log(`Total messages fetched across all channels: ${allMessages.length}`);
+    console.log(`Primary workspace messages: ${allMessages.length}`);
+
+    // Fetch messages from Secondary Workspace (if configured)
+    let allMessages2 = [];
+    if (SLACK_TOKEN_2 && CHANNEL_IDS_2.length > 0) {
+        console.log('--- Secondary Workspace ---');
+        for (const channelId of CHANNEL_IDS_2) {
+            const cid = channelId.trim();
+            if (!cid) continue;
+            console.log(`Fetching messages from channel: ${cid}...`);
+            try {
+                const channelMessages = await fetchSlackMessages(cid, IS_FULL_SYNC, SLACK_TOKEN_2);
+                console.log(`  Fetched ${channelMessages.length} messages from ${cid}`);
+                allMessages2 = allMessages2.concat(channelMessages);
+            } catch (e) {
+                console.error(`  Failed to fetch from ${cid}: ${e.message}`);
+            }
+        }
+        console.log(`Secondary workspace messages: ${allMessages2.length}`);
+    } else {
+        console.log('Secondary workspace not configured. Skipping.');
+    }
+    console.log(`Total messages fetched: ${allMessages.length + allMessages2.length}`);
 
     let updatedCount = 0;
 
     for (const employee of targetEmployees) {
-        console.log(`Analyzing messages for ${employee.name} (${employee.slack_id})...`);
+        const ids = [employee.slack_id, employee.slack_id_2].filter(Boolean);
+        console.log(`Analyzing messages for ${employee.name} (IDs: ${ids.join(', ')})...`);
 
-        // Filter messages by this user
-        const userMessages = allMessages
-            .filter(m => m.user === employee.slack_id && m.text)
+        // Filter messages by this user from both workspaces
+        const primaryMessages = allMessages
+            .filter(m => m.user === employee.slack_id && m.text);
+        const secondaryMessages = allMessages2
+            .filter(m => employee.slack_id_2 && m.user === employee.slack_id_2 && m.text);
+        const combinedMessages = [...primaryMessages, ...secondaryMessages];
+
+        const userMessages = combinedMessages
             .map(m => `[${new Date(m.ts * 1000).toISOString()}] ${m.text}`)
             .join('\n');
 
-        const msgCount = allMessages.filter(m => m.user === employee.slack_id && m.text).length;
+        const msgCount = combinedMessages.length;
 
         if (!userMessages || userMessages.length < 100) {
             console.log(`  Skipping: Not enough message data for ${employee.name} (${msgCount} messages).`);
@@ -119,7 +153,7 @@ async function main() {
     }
 }
 
-async function fetchSlackMessages(channelId, isFullSync) {
+async function fetchSlackMessages(channelId, isFullSync, token = SLACK_TOKEN) {
     const messages = [];
     let hasMore = true;
     let cursor = undefined;
@@ -137,7 +171,7 @@ async function fetchSlackMessages(channelId, isFullSync) {
 
         const response = await fetch(baseUrl, {
             headers: {
-                'Authorization': `Bearer ${SLACK_TOKEN}`,
+                'Authorization': `Bearer ${token}`,
                 'Content-Type': 'application/json'
             }
         });
@@ -177,7 +211,7 @@ async function fetchSlackMessages(channelId, isFullSync) {
     for (let i = 0; i < threadParents.length; i += CHUNK_SIZE) {
         const chunk = threadParents.slice(i, i + CHUNK_SIZE);
         await Promise.all(chunk.map(async (parent) => {
-            const replies = await fetchThreadReplies(channelId, parent.thread_ts);
+            const replies = await fetchThreadReplies(channelId, parent.thread_ts, token);
             // replies[0] is usually the parent message itself
             allMessages.push(...replies.slice(1));
         }));
@@ -188,7 +222,7 @@ async function fetchSlackMessages(channelId, isFullSync) {
     return allMessages;
 }
 
-async function fetchThreadReplies(channelId, threadTs) {
+async function fetchThreadReplies(channelId, threadTs, token = SLACK_TOKEN) {
     let allReplies = [];
     let hasMore = true;
     let cursor = undefined;
@@ -198,7 +232,7 @@ async function fetchThreadReplies(channelId, threadTs) {
         const url = `https://slack.com/api/conversations.replies?channel=${channelId}&ts=${threadTs}&limit=200${cursor ? `&cursor=${cursor}` : ''}`;
         try {
             const response = await fetch(url, {
-                headers: { 'Authorization': `Bearer ${SLACK_TOKEN}` }
+                headers: { 'Authorization': `Bearer ${token}` }
             });
             const data = await response.json();
             if (!data.ok) break;
