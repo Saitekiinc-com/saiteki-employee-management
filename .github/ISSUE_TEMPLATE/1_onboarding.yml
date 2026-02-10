@@ -1,4 +1,4 @@
-name: 【マネージャー用】新規社員登録（オンボーディング）
+name: 新規社員登録
 description: 新しく入社された方の名前と職種を初期登録します
 title: "[Onboarding] {名前}"
 labels: ["employee-update"]
