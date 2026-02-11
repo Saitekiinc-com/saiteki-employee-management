@@ -15,178 +15,188 @@ const INPUT_FILE = path.join(__dirname, '../data/knowledge-graph.json');
 const OUTPUT_FILE = path.join(__dirname, '../docs/KNOWLEDGE_GRAPH.md');
 
 const HTML_OUTPUT_FILE = path.join(__dirname, '../docs/knowledge-graph.html');
+const JS_TEMPLATE_FILE = path.join(__dirname, 'graph-template.js');
 
 function main() {
-    console.log('=== ナレッジグラフ ドキュメント生成 ===\n');
+  console.log('=== ナレッジグラフ ドキュメント生成 ===\n');
 
-    if (!fs.existsSync(INPUT_FILE)) {
-        console.error(`入力ファイルが見つかりません: ${INPUT_FILE}`);
-        process.exit(1);
+  if (!fs.existsSync(INPUT_FILE)) {
+    console.error(`入力ファイルが見つかりません: ${INPUT_FILE}`);
+    process.exit(1);
+  }
+
+  const graph = JSON.parse(fs.readFileSync(INPUT_FILE, 'utf8'));
+  const { metadata, nodes, edges } = graph;
+
+  const personNodes = nodes.filter(n => n.type === 'person');
+  const attrNodes = nodes.filter(n => n.type === 'attribute');
+  const sharedEdges = edges.filter(e => e.type === 'SHARES');
+  const aiEdges = edges.filter(e => e.ai_generated);
+
+  let md = '';
+
+  // ヘッダー
+  md += '# ナレッジグラフ分析レポート\n\n';
+  md += `> 社員数: ${metadata.employee_count}名 | ノード: ${metadata.node_count} | エッジ: ${metadata.edge_count} | AI拡張: ${metadata.ai_enhanced ? 'あり' : 'なし'}\n\n`;
+  md += '- [👥 チーム構成図・詳細プロフィールはこちら (TEAM.md)](./TEAM.md)\n\n';
+  md += '---\n\n';
+
+  // スキル別グルーピング
+  md += '## スキル・強み別グルーピング\n\n';
+  const skillNodes = attrNodes.filter(n => n.categories.includes('skill'));
+  skillNodes.sort((a, b) => (b.connectedPeople?.length || 0) - (a.connectedPeople?.length || 0));
+
+  md += '| スキル | 保有者数 | 社員 |\n| --- | --- | --- |\n';
+  skillNodes.forEach(node => {
+    const people = node.connectedPeople || [];
+    const linkedPeople = people.map(p => `[${p}](./TEAM.md#${encodeURIComponent(p)})`);
+    md += `| ${node.label} | ${people.length} | ${linkedPeople.join(', ')} |\n`;
+  });
+  md += '\n';
+
+  // 価値観別グルーピング
+  md += '## 価値観別グルーピング\n\n';
+  const valueNodes = attrNodes.filter(n => n.categories.includes('value'));
+  valueNodes.sort((a, b) => (b.connectedPeople?.length || 0) - (a.connectedPeople?.length || 0));
+
+  md += '| 価値観 | 共有者数 | 社員 |\n| --- | --- | --- |\n';
+  valueNodes.forEach(node => {
+    const people = node.connectedPeople || [];
+    const linkedPeople = people.map(p => `[${p}](./TEAM.md#${encodeURIComponent(p)})`);
+    md += `| ${node.label} | ${people.length} | ${linkedPeople.join(', ')} |\n`;
+  });
+  md += '\n';
+
+  // 関心事別グルーピング
+  md += '## 関心事別グルーピング\n\n';
+  const interestNodes = attrNodes.filter(n => n.categories.includes('interest'));
+  interestNodes.sort((a, b) => (b.connectedPeople?.length || 0) - (a.connectedPeople?.length || 0));
+
+  md += '| 関心事 | 関心者数 | 社員 |\n| --- | --- | --- |\n';
+  interestNodes.forEach(node => {
+    const people = node.connectedPeople || [];
+    const linkedPeople = people.map(p => `[${p}](./TEAM.md#${encodeURIComponent(p)})`);
+    md += `| ${node.label} | ${people.length} | ${linkedPeople.join(', ')} |\n`;
+  });
+  md += '\n';
+
+  // 社員間マッチング（共通項目が多い順）
+  md += '## 社員間マッチング\n\n';
+  md += '共通のスキル・価値観・関心事が多い組み合わせです。\n\n';
+
+  const topShared = sharedEdges
+    .sort((a, b) => b.weight - a.weight)
+    .slice(0, 20);
+
+  md += '| 順位 | 社員ペア | 共通数 | 共通スキル | 共通価値観 | 共通関心事 |\n| --- | --- | --- | --- | --- | --- |\n';
+  topShared.forEach((edge, i) => {
+    const nameA = edge.source.replace('person:', '');
+    const nameB = edge.target.replace('person:', '');
+    const linkedPair = `[${nameA}](./TEAM.md#${encodeURIComponent(nameA)}) × [${nameB}](./TEAM.md#${encodeURIComponent(nameB)})`;
+    const s = edge.shared || {};
+    md += `| ${i + 1} | ${linkedPair} | ${edge.weight} | ${(s.skills || []).join(', ') || '-'} | ${(s.values || []).join(', ') || '-'} | ${(s.interests || []).join(', ') || '-'} |\n`;
+  });
+  md += '\n';
+
+  // AI推論による関係性
+  if (aiEdges.length > 0) {
+    md += '## AI推論による関係性\n\n';
+    md += 'カスタムチューニングモデルによる深層分析の結果です。\n\n';
+
+    const complementEdges = aiEdges.filter(e => e.type === 'COMPLEMENTS').sort((a, b) => b.weight - a.weight);
+    const mentoringEdges = aiEdges.filter(e => e.type === 'MENTORING_FIT').sort((a, b) => b.weight - a.weight);
+    const synergyEdges = aiEdges.filter(e => e.type === 'TEAM_SYNERGY').sort((a, b) => b.weight - a.weight);
+
+    if (complementEdges.length > 0) {
+      md += '### 補完関係\n\n';
+      md += '| 社員ペア | スコア | 理由 |\n| --- | --- | --- |\n';
+      complementEdges.forEach(e => {
+        const a = e.source.replace('person:', '');
+        const b = e.target.replace('person:', '');
+        const linkedPair = `[${a}](./TEAM.md#${encodeURIComponent(a)}) × [${b}](./TEAM.md#${encodeURIComponent(b)})`;
+        md += `| ${linkedPair} | ${e.weight}/10 | ${e.reason || '-'} |\n`;
+      });
+      md += '\n';
     }
 
-    const graph = JSON.parse(fs.readFileSync(INPUT_FILE, 'utf8'));
-    const { metadata, nodes, edges } = graph;
-
-    const personNodes = nodes.filter(n => n.type === 'person');
-    const attrNodes = nodes.filter(n => n.type === 'attribute');
-    const sharedEdges = edges.filter(e => e.type === 'SHARES');
-    const aiEdges = edges.filter(e => e.ai_generated);
-
-    let md = '';
-
-    // ヘッダー
-    md += '# ナレッジグラフ分析レポート\n\n';
-    md += `> 自動生成: ${metadata.generated_at}\n`;
-    md += `> 社員数: ${metadata.employee_count}名 | ノード: ${metadata.node_count} | エッジ: ${metadata.edge_count} | AI拡張: ${metadata.ai_enhanced ? 'あり' : 'なし'}\n\n`;
-    md += '---\n\n';
-
-    // スキル別グルーピング
-    md += '## スキル・強み別グルーピング\n\n';
-    const skillNodes = attrNodes.filter(n => n.categories.includes('skill'));
-    skillNodes.sort((a, b) => (b.connectedPeople?.length || 0) - (a.connectedPeople?.length || 0));
-
-    md += '| スキル | 保有者数 | 社員 |\n| --- | --- | --- |\n';
-    skillNodes.forEach(node => {
-        const people = node.connectedPeople || [];
-        md += `| ${node.label} | ${people.length} | ${people.join(', ')} |\n`;
-    });
-    md += '\n';
-
-    // 価値観別グルーピング
-    md += '## 価値観別グルーピング\n\n';
-    const valueNodes = attrNodes.filter(n => n.categories.includes('value'));
-    valueNodes.sort((a, b) => (b.connectedPeople?.length || 0) - (a.connectedPeople?.length || 0));
-
-    md += '| 価値観 | 共有者数 | 社員 |\n| --- | --- | --- |\n';
-    valueNodes.forEach(node => {
-        const people = node.connectedPeople || [];
-        md += `| ${node.label} | ${people.length} | ${people.join(', ')} |\n`;
-    });
-    md += '\n';
-
-    // 関心事別グルーピング
-    md += '## 関心事別グルーピング\n\n';
-    const interestNodes = attrNodes.filter(n => n.categories.includes('interest'));
-    interestNodes.sort((a, b) => (b.connectedPeople?.length || 0) - (a.connectedPeople?.length || 0));
-
-    md += '| 関心事 | 関心者数 | 社員 |\n| --- | --- | --- |\n';
-    interestNodes.forEach(node => {
-        const people = node.connectedPeople || [];
-        md += `| ${node.label} | ${people.length} | ${people.join(', ')} |\n`;
-    });
-    md += '\n';
-
-    // 社員間マッチング（共通項目が多い順）
-    md += '## 社員間マッチング\n\n';
-    md += '共通のスキル・価値観・関心事が多い組み合わせです。\n\n';
-
-    const topShared = sharedEdges
-        .sort((a, b) => b.weight - a.weight)
-        .slice(0, 20);
-
-    md += '| 順位 | 社員ペア | 共通数 | 共通スキル | 共通価値観 | 共通関心事 |\n| --- | --- | --- | --- | --- | --- |\n';
-    topShared.forEach((edge, i) => {
-        const nameA = edge.source.replace('person:', '');
-        const nameB = edge.target.replace('person:', '');
-        const s = edge.shared || {};
-        md += `| ${i + 1} | ${nameA} × ${nameB} | ${edge.weight} | ${(s.skills || []).join(', ') || '-'} | ${(s.values || []).join(', ') || '-'} | ${(s.interests || []).join(', ') || '-'} |\n`;
-    });
-    md += '\n';
-
-    // AI推論による関係性
-    if (aiEdges.length > 0) {
-        md += '## AI推論による関係性\n\n';
-        md += 'カスタムチューニングモデルによる深層分析の結果です。\n\n';
-
-        const complementEdges = aiEdges.filter(e => e.type === 'COMPLEMENTS').sort((a, b) => b.weight - a.weight);
-        const mentoringEdges = aiEdges.filter(e => e.type === 'MENTORING_FIT').sort((a, b) => b.weight - a.weight);
-        const synergyEdges = aiEdges.filter(e => e.type === 'TEAM_SYNERGY').sort((a, b) => b.weight - a.weight);
-
-        if (complementEdges.length > 0) {
-            md += '### 補完関係\n\n';
-            md += '| 社員ペア | スコア | 理由 |\n| --- | --- | --- |\n';
-            complementEdges.forEach(e => {
-                const a = e.source.replace('person:', '');
-                const b = e.target.replace('person:', '');
-                md += `| ${a} × ${b} | ${e.weight}/10 | ${e.reason || '-'} |\n`;
-            });
-            md += '\n';
-        }
-
-        if (mentoringEdges.length > 0) {
-            md += '### メンタリング適性\n\n';
-            md += '| メンター → メンティー | スコア | 理由 |\n| --- | --- | --- |\n';
-            mentoringEdges.forEach(e => {
-                const a = e.source.replace('person:', '');
-                const b = e.target.replace('person:', '');
-                const dir = e.direction === 'B→A' ? `${b} → ${a}` : e.direction === 'mutual' ? `${a} ↔ ${b}` : `${a} → ${b}`;
-                md += `| ${dir} | ${e.weight}/10 | ${e.reason || '-'} |\n`;
-            });
-            md += '\n';
-        }
-
-        if (synergyEdges.length > 0) {
-            md += '### チーム相乗効果\n\n';
-            md += '| 社員ペア | スコア | 理由 |\n| --- | --- | --- |\n';
-            synergyEdges.forEach(e => {
-                const a = e.source.replace('person:', '');
-                const b = e.target.replace('person:', '');
-                md += `| ${a} × ${b} | ${e.weight}/10 | ${e.reason || '-'} |\n`;
-            });
-            md += '\n';
-        }
+    if (mentoringEdges.length > 0) {
+      md += '### メンタリング適性\n\n';
+      md += '| メンター → メンティー | スコア | 理由 |\n| --- | --- | --- |\n';
+      mentoringEdges.forEach(e => {
+        const a = e.source.replace('person:', '');
+        const b = e.target.replace('person:', '');
+        const linkedA = `[${a}](./TEAM.md#${encodeURIComponent(a)})`;
+        const linkedB = `[${b}](./TEAM.md#${encodeURIComponent(b)})`;
+        const dir = e.direction === 'B→A' ? `${linkedB} → ${linkedA}` : e.direction === 'mutual' ? `${linkedA} ↔ ${linkedB}` : `${linkedA} → ${linkedB}`;
+        md += `| ${dir} | ${e.weight}/10 | ${e.reason || '-'} |\n`;
+      });
+      md += '\n';
     }
 
-    // 統計サマリー
-    md += '## 統計サマリー\n\n';
-
-    // カテゴリ分布
-    const categoryCounts = {};
-    attrNodes.forEach(n => {
-        n.categories.forEach(c => {
-            categoryCounts[c] = (categoryCounts[c] || 0) + 1;
-        });
-    });
-
-    md += '### ノード分布\n\n';
-    md += '| カテゴリ | ノード数 |\n| --- | --- |\n';
-    md += `| 社員 | ${personNodes.length} |\n`;
-    Object.entries(categoryCounts).forEach(([cat, count]) => {
-        const catLabel = { skill: 'スキル', value: '価値観', interest: '関心事', motivation: 'モチベーション' }[cat] || cat;
-        md += `| ${catLabel} | ${count} |\n`;
-    });
-    md += `| **合計** | **${nodes.length}** |\n\n`;
-
-    // エッジ分布
-    const edgeTypeCounts = {};
-    edges.forEach(e => {
-        edgeTypeCounts[e.type] = (edgeTypeCounts[e.type] || 0) + 1;
-    });
-
-    md += '### エッジ分布\n\n';
-    md += '| タイプ | エッジ数 |\n| --- | --- |\n';
-    Object.entries(edgeTypeCounts).forEach(([type, count]) => {
-        md += `| ${type} | ${count} |\n`;
-    });
-    md += `| **合計** | **${edges.length}** |\n\n`;
-
-    // 書き込み
-    const outputDir = path.dirname(OUTPUT_FILE);
-    if (!fs.existsSync(outputDir)) {
-        fs.mkdirSync(outputDir, { recursive: true });
+    if (synergyEdges.length > 0) {
+      md += '### チーム相乗効果\n\n';
+      md += '| 社員ペア | スコア | 理由 |\n| --- | --- | --- |\n';
+      synergyEdges.forEach(e => {
+        const a = e.source.replace('person:', '');
+        const b = e.target.replace('person:', '');
+        const linkedPair = `[${a}](./TEAM.md#${encodeURIComponent(a)}) × [${b}](./TEAM.md#${encodeURIComponent(b)})`;
+        md += `| ${linkedPair} | ${e.weight}/10 | ${e.reason || '-'} |\n`;
+      });
+      md += '\n';
     }
+  }
 
-    fs.writeFileSync(OUTPUT_FILE, md);
-    console.log(`Markdown生成完了: ${OUTPUT_FILE}`);
+  // 統計サマリー
+  md += '## 統計サマリー\n\n';
 
-    // HTML可視化ファイル生成
-    generateHTML(graph);
+  // カテゴリ分布
+  const categoryCounts = {};
+  attrNodes.forEach(n => {
+    n.categories.forEach(c => {
+      categoryCounts[c] = (categoryCounts[c] || 0) + 1;
+    });
+  });
+
+  md += '### ノード分布\n\n';
+  md += '| カテゴリ | ノード数 |\n| --- | --- |\n';
+  md += `| 社員 | ${personNodes.length} |\n`;
+  Object.entries(categoryCounts).forEach(([cat, count]) => {
+    const catLabel = { skill: 'スキル', value: '価値観', interest: '関心事', motivation: 'モチベーション' }[cat] || cat;
+    md += `| ${catLabel} | ${count} |\n`;
+  });
+  md += `| **合計** | **${nodes.length}** |\n\n`;
+
+  // エッジ分布
+  const edgeTypeCounts = {};
+  edges.forEach(e => {
+    edgeTypeCounts[e.type] = (edgeTypeCounts[e.type] || 0) + 1;
+  });
+
+  md += '### エッジ分布\n\n';
+  md += '| タイプ | エッジ数 |\n| --- | --- |\n';
+  Object.entries(edgeTypeCounts).forEach(([type, count]) => {
+    md += `| ${type} | ${count} |\n`;
+  });
+  md += `| **合計** | **${edges.length}** |\n\n`;
+
+  // 書き込み
+  const outputDir = path.dirname(OUTPUT_FILE);
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+
+  fs.writeFileSync(OUTPUT_FILE, md);
+  console.log(`Markdown生成完了: ${OUTPUT_FILE}`);
+
+  // HTML可視化ファイル生成
+  generateHTML(graph);
 }
 
 function generateHTML(graph) {
-    const graphJSON = JSON.stringify(graph);
+  const jsTemplate = fs.readFileSync(JS_TEMPLATE_FILE, 'utf8');
+  const graphJSON = JSON.stringify(graph);
 
-    const html = `<!DOCTYPE html>
+  const html = `<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -251,8 +261,19 @@ function generateHTML(graph) {
     color: #e2e8f0;
     font-size: 13px;
     cursor: pointer;
+    margin-bottom: 12px;
   }
-  #filter-select:focus { outline: none; border-color: #60a5fa; }
+  #search-input {
+    width: 100%;
+    padding: 10px 12px;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #e2e8f0;
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  #search-input:focus, #filter-select:focus { outline: none; border-color: #60a5fa; }
   .edge-toggle { margin-top: 12px; }
   .toggle-row {
     display: flex;
@@ -314,27 +335,45 @@ function generateHTML(graph) {
     color: #60a5fa;
   }
   .big5 .label { color: #64748b; margin-top: 2px; }
+  .personality-section { margin-top: 12px; }
+  .p-bar { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-size: 11px; }
+  .p-bar .p-label { width: 48px; color: #94a3b8; flex-shrink: 0; }
+  .p-bar .p-track { flex: 1; height: 6px; background: #1e293b; border-radius: 3px; overflow: hidden; }
+  .p-bar .p-fill { height: 100%; border-radius: 3px; transition: width 0.4s; }
+  .p-bar .p-score { width: 28px; text-align: right; color: #cbd5e1; font-weight: 600; }
   .connections-list { margin-top: 12px; }
   .connections-list h4 {
     font-size: 12px;
     color: #94a3b8;
     margin-bottom: 8px;
   }
-  .conn-item {
+  .conn-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+  }
+  .conn-card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6px 0;
-    border-bottom: 1px solid #1e293b;
-    font-size: 12px;
+    margin-bottom: 6px;
   }
-  .conn-item .conn-type {
+  .conn-card-name { font-size: 13px; font-weight: 600; }
+  .conn-card-badge {
     font-size: 10px;
-    padding: 2px 6px;
-    border-radius: 4px;
-    background: #334155;
-    color: #94a3b8;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
   }
+  .conn-card-reason { font-size: 11px; color: #94a3b8; line-height: 1.5; }
+  .conn-card-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .tag { display: inline-block; font-size: 10px; padding: 2px 8px; border-radius: 10px; }
+  .tag-skill { background: #60a5fa20; color: #60a5fa; }
+  .tag-value { background: #34d39920; color: #34d399; }
+  .tag-interest { background: #fb923c20; color: #fb923c; }
+  .tag-relation { background: #a78bfa20; color: #a78bfa; }
   .conn-type.COMPLEMENTS { background: #7c3aed20; color: #a78bfa; }
   .conn-type.MENTORING_FIT { background: #f59e0b20; color: #fbbf24; }
   .conn-type.TEAM_SYNERGY { background: #10b98120; color: #34d399; }
@@ -361,12 +400,14 @@ function generateHTML(graph) {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background: #1e293b;
+    background: #1e293bdd;
     border: 1px solid #334155;
     border-radius: 12px;
     padding: 14px 18px;
     font-size: 11px;
+    backdrop-filter: blur(8px);
   }
+  .legend h5 { color: #94a3b8; margin-bottom: 6px; font-size: 10px; font-weight: 400; }
   .legend-item {
     display: flex;
     align-items: center;
@@ -380,6 +421,13 @@ function generateHTML(graph) {
     border-radius: 50%;
     flex-shrink: 0;
   }
+  .legend-line {
+    width: 20px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 1px;
+  }
+  .legend-divider { border-top: 1px solid #334155; margin: 6px 0; }
 </style>
 </head>
 <body>
@@ -390,21 +438,20 @@ function generateHTML(graph) {
       <div class="stats" id="stats"></div>
     </div>
     <div id="controls">
-      <label>表示フィルタ</label>
+      <input type="text" id="search-input" placeholder="社員名を検索...">
       <select id="filter-select">
-        <option value="all">すべて表示</option>
-        <option value="person-only">社員のみ</option>
+        <option value="all" selected>すべて表示</option>
         <option value="skill">スキル</option>
         <option value="value">価値観</option>
         <option value="interest">関心事</option>
         <option value="motivation">モチベーション</option>
       </select>
       <div class="edge-toggle">
-        <label style="margin-bottom:8px">AI推論エッジ</label>
-        <label class="toggle-row"><input type="checkbox" id="toggle-shares" checked> 共通項目</label>
-        <label class="toggle-row"><input type="checkbox" id="toggle-complements" checked> 補完関係</label>
-        <label class="toggle-row"><input type="checkbox" id="toggle-mentoring" checked> メンタリング適性</label>
-        <label class="toggle-row"><input type="checkbox" id="toggle-synergy" checked> チーム相乗効果</label>
+        <label style="margin-bottom:8px">社員間リレーション</label>
+        <label class="toggle-row"><input type="checkbox" id="toggle-shares"> 共通事項</label>
+        <label class="toggle-row"><input type="checkbox" id="toggle-complements"> 補完関係</label>
+        <label class="toggle-row"><input type="checkbox" id="toggle-mentoring"> メンタリング適性</label>
+        <label class="toggle-row"><input type="checkbox" id="toggle-synergy"> チーム相乗効果</label>
       </div>
     </div>
     <div id="detail-panel">
@@ -414,273 +461,29 @@ function generateHTML(graph) {
   <div id="graph-container">
     <div class="tooltip" id="tooltip"></div>
     <div class="legend">
+      <h5>ノード</h5>
       <div class="legend-item"><div class="legend-dot" style="background:#818cf8"></div>社員</div>
       <div class="legend-item"><div class="legend-dot" style="background:#60a5fa"></div>スキル</div>
       <div class="legend-item"><div class="legend-dot" style="background:#34d399"></div>価値観</div>
       <div class="legend-item"><div class="legend-dot" style="background:#fb923c"></div>関心事</div>
       <div class="legend-item"><div class="legend-dot" style="background:#f472b6"></div>モチベーション</div>
+      <div class="legend-divider"></div>
+      <h5>社員間リレーション</h5>
+      <div class="legend-item"><div class="legend-line" style="background:#3b82f6"></div>共通事項</div>
+      <div class="legend-item"><div class="legend-line" style="background:#a78bfa"></div>補完関係</div>
+      <div class="legend-item"><div class="legend-line" style="background:#fbbf24"></div>メンター相性</div>
+      <div class="legend-item"><div class="legend-line" style="background:#34d399"></div>チーム相乗効果</div>
     </div>
   </div>
 </div>
 <script>
-const GRAPH_DATA = ${graphJSON};
-
-const colorMap = {
-  person: '#818cf8',
-  skill: '#60a5fa',
-  value: '#34d399',
-  interest: '#fb923c',
-  motivation: '#f472b6',
-};
-
-const edgeColorMap = {
-  HAS_SKILL: '#60a5fa40',
-  VALUES: '#34d39940',
-  INTERESTED_IN: '#fb923c40',
-  MOTIVATED_BY: '#f472b640',
-  SHARES: '#3b82f660',
-  COMPLEMENTS: '#a78bfa80',
-  MENTORING_FIT: '#fbbf2480',
-  TEAM_SYNERGY: '#34d39980',
-};
-
-const aiEdgeTypes = ['SHARES', 'COMPLEMENTS', 'MENTORING_FIT', 'TEAM_SYNERGY'];
-
-let currentFilter = 'all';
-let visibleEdgeTypes = new Set(aiEdgeTypes);
-
-// Stats
-const stats = document.getElementById('stats');
-const meta = GRAPH_DATA.metadata;
-stats.innerHTML = \`
-  <span><span class="dot" style="background:#818cf8"></span>\${meta.employee_count}名</span>
-  <span><span class="dot" style="background:#60a5fa"></span>\${meta.node_count}ノード</span>
-  <span><span class="dot" style="background:#34d399"></span>\${meta.edge_count}エッジ</span>
-  <span>\${meta.ai_enhanced ? 'AI拡張済' : ''}</span>
-\`;
-
-// SVG setup
-const container = document.getElementById('graph-container');
-const width = container.clientWidth;
-const height = container.clientHeight;
-
-const svg = d3.select('#graph-container').append('svg')
-  .attr('width', width)
-  .attr('height', height);
-
-const g = svg.append('g');
-
-// Zoom
-const zoom = d3.zoom()
-  .scaleExtent([0.1, 4])
-  .on('zoom', (e) => g.attr('transform', e.transform));
-svg.call(zoom);
-
-const tooltip = document.getElementById('tooltip');
-const detailPanel = document.getElementById('detail-panel');
-
-function getFilteredData() {
-  let nodes, edges;
-  const allNodes = GRAPH_DATA.nodes;
-  const allEdges = GRAPH_DATA.edges;
-
-  if (currentFilter === 'all') {
-    nodes = [...allNodes];
-  } else if (currentFilter === 'person-only') {
-    nodes = allNodes.filter(n => n.type === 'person');
-  } else {
-    const personNodes = allNodes.filter(n => n.type === 'person');
-    const catNodes = allNodes.filter(n => n.type === 'attribute' && n.categories.includes(currentFilter));
-    nodes = [...personNodes, ...catNodes];
-  }
-
-  const nodeIds = new Set(nodes.map(n => n.id));
-  edges = allEdges.filter(e => {
-    if (!nodeIds.has(e.source?.id || e.source) || !nodeIds.has(e.target?.id || e.target)) return false;
-    if (aiEdgeTypes.includes(e.type) && !visibleEdgeTypes.has(e.type)) return false;
-    return true;
-  });
-
-  return { nodes, edges };
-}
-
-function getNodeRadius(node) {
-  if (node.type === 'person') return 20;
-  const count = node.connectedPeople?.length || 1;
-  return Math.min(6 + count * 2, 18);
-}
-
-function getNodeColor(node) {
-  if (node.type === 'person') return colorMap.person;
-  if (node.color) return node.color;
-  const firstCat = node.categories?.[0] || 'skill';
-  return colorMap[firstCat] || '#94a3b8';
-}
-
-let simulation, linkGroup, nodeGroup, labelGroup;
-
-function render() {
-  g.selectAll('*').remove();
-  const data = getFilteredData();
-
-  linkGroup = g.append('g').attr('class', 'links');
-  nodeGroup = g.append('g').attr('class', 'nodes');
-  labelGroup = g.append('g').attr('class', 'labels');
-
-  const links = linkGroup.selectAll('line')
-    .data(data.edges)
-    .enter().append('line')
-    .attr('stroke', d => edgeColorMap[d.type] || '#33415540')
-    .attr('stroke-width', d => {
-      if (d.type === 'SHARES') return Math.max(1, d.weight * 0.5);
-      if (aiEdgeTypes.includes(d.type)) return 2;
-      return 0.5;
-    })
-    .attr('stroke-dasharray', d => d.ai_generated ? '4,4' : 'none');
-
-  const nodes = nodeGroup.selectAll('circle')
-    .data(data.nodes)
-    .enter().append('circle')
-    .attr('r', getNodeRadius)
-    .attr('fill', getNodeColor)
-    .attr('stroke', d => d.type === 'person' ? '#818cf880' : 'none')
-    .attr('stroke-width', d => d.type === 'person' ? 2 : 0)
-    .attr('cursor', 'pointer')
-    .on('mouseover', (event, d) => {
-      tooltip.style.opacity = 1;
-      let sub = '';
-      if (d.type === 'person') sub = d.job;
-      else sub = (d.connectedPeople?.length || 0) + '名が該当';
-      tooltip.innerHTML = \`<div class="tt-title">\${d.label}</div><div class="tt-sub">\${sub}</div>\`;
-    })
-    .on('mousemove', (event) => {
-      tooltip.style.left = (event.offsetX + 14) + 'px';
-      tooltip.style.top = (event.offsetY - 14) + 'px';
-    })
-    .on('mouseout', () => { tooltip.style.opacity = 0; })
-    .on('click', (event, d) => showDetail(d))
-    .call(d3.drag()
-      .on('start', (event, d) => {
-        if (!event.active) simulation.alphaTarget(0.3).restart();
-        d.fx = d.x; d.fy = d.y;
-      })
-      .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
-      .on('end', (event, d) => {
-        if (!event.active) simulation.alphaTarget(0);
-        d.fx = null; d.fy = null;
-      })
-    );
-
-  const labels = labelGroup.selectAll('text')
-    .data(data.nodes.filter(n => n.type === 'person' || (n.connectedPeople?.length || 0) >= 3))
-    .enter().append('text')
-    .text(d => d.label)
-    .attr('text-anchor', 'middle')
-    .attr('dy', d => d.type === 'person' ? -26 : -14)
-    .attr('fill', '#cbd5e1')
-    .attr('font-size', d => d.type === 'person' ? '12px' : '10px')
-    .attr('pointer-events', 'none');
-
-  simulation = d3.forceSimulation(data.nodes)
-    .force('link', d3.forceLink(data.edges).id(d => d.id).distance(d => {
-      if (d.type === 'SHARES' || aiEdgeTypes.includes(d.type)) return 120;
-      return 80;
-    }))
-    .force('charge', d3.forceManyBody()
-      .strength(d => d.type === 'person' ? -300 : -80)
-    )
-    .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(d => getNodeRadius(d) + 4))
-    .on('tick', () => {
-      links
-        .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
-        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
-      nodes.attr('cx', d => d.x).attr('cy', d => d.y);
-      labels.attr('x', d => d.x).attr('y', d => d.y);
-    });
-}
-
-function showDetail(node) {
-  if (node.type === 'person') {
-    const p = node.personality || {};
-    const allEdges = GRAPH_DATA.edges;
-    const connections = allEdges.filter(e => {
-      const src = e.source?.id || e.source;
-      const tgt = e.target?.id || e.target;
-      return (src === node.id || tgt === node.id) && aiEdgeTypes.includes(e.type);
-    });
-
-    let connHTML = '';
-    if (connections.length > 0) {
-      connHTML = '<div class="connections-list"><h4>関係性</h4>';
-      connections.sort((a, b) => b.weight - a.weight).slice(0, 10).forEach(e => {
-        const src = e.source?.id || e.source;
-        const tgt = e.target?.id || e.target;
-        const other = (src === node.id ? tgt : src).replace('person:', '');
-        const reason = e.reason || '';
-        connHTML += \`<div class="conn-item"><span>\${other} <span style="color:#64748b;font-size:10px">\${reason}</span></span><span class="conn-type \${e.type}">\${e.type.replace('_', ' ')}</span></div>\`;
-      });
-      connHTML += '</div>';
-    }
-
-    detailPanel.innerHTML = \`
-      <div class="detail-card">
-        <h3>\${node.label}</h3>
-        <div class="job">\${node.job}</div>
-        <div class="summary">\${node.summary}</div>
-        <div class="big5">
-          <div><div class="score">\${p.O}</div><div class="label">開放性</div></div>
-          <div><div class="score">\${p.C}</div><div class="label">誠実性</div></div>
-          <div><div class="score">\${p.E}</div><div class="label">外向性</div></div>
-          <div><div class="score">\${p.A}</div><div class="label">協調性</div></div>
-          <div><div class="score">\${p.N}</div><div class="label">神経症</div></div>
-        </div>
-        \${connHTML}
-      </div>
-    \`;
-  } else {
-    const people = node.connectedPeople || [];
-    detailPanel.innerHTML = \`
-      <div class="detail-card">
-        <h3>\${node.label}</h3>
-        <div class="job">\${node.categories?.join(', ')}</div>
-        <div class="summary">該当社員: \${people.length}名</div>
-        <div style="font-size:12px">\${people.map(p => '<div style="padding:4px 0;border-bottom:1px solid #1e293b">' + p + '</div>').join('')}</div>
-      </div>
-    \`;
-  }
-}
-
-// Filter handlers
-document.getElementById('filter-select').addEventListener('change', (e) => {
-  currentFilter = e.target.value;
-  render();
-});
-
-const toggleMap = {
-  'toggle-shares': 'SHARES',
-  'toggle-complements': 'COMPLEMENTS',
-  'toggle-mentoring': 'MENTORING_FIT',
-  'toggle-synergy': 'TEAM_SYNERGY',
-};
-
-Object.entries(toggleMap).forEach(([id, type]) => {
-  document.getElementById(id).addEventListener('change', (e) => {
-    if (e.target.checked) visibleEdgeTypes.add(type);
-    else visibleEdgeTypes.delete(type);
-    render();
-  });
-});
-
-// Initial render
-render();
-svg.call(zoom.transform, d3.zoomIdentity.translate(width / 4, height / 4).scale(0.8));
-<\/script>
+${jsTemplate.replace('__GRAPH_DATA_PLACEHOLDER__', graphJSON)}
+</script>
 </body>
 </html>`;
 
-    fs.writeFileSync(HTML_OUTPUT_FILE, html);
-    console.log(`HTML可視化生成完了: ${HTML_OUTPUT_FILE}`);
+  fs.writeFileSync(HTML_OUTPUT_FILE, html);
+  console.log(`HTML可視化生成完了: ${HTML_OUTPUT_FILE}`);
 }
 
 main();

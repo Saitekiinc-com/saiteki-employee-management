@@ -40,11 +40,22 @@ jobs:
       - name: Sync Templates (Update dropdowns)
         run: node scripts/sync-templates.js
 
+      - name: Build Knowledge Graph
+        run: node scripts/build-knowledge-graph.js
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GCP_LOCATION: ${{ secrets.GCP_LOCATION || 'us-central1' }}
+          GCP_ENDPOINT_ID: ${{ secrets.GCP_ENDPOINT_ID }}
+
+      - name: Generate Graph Documentation
+        run: node scripts/generate-graph-doc.js
+
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/employees.json docs/TEAM.md .github/ISSUE_TEMPLATE/2_delete_employee.yml
+          git add data/employees.json data/knowledge-graph.json docs/TEAM.md docs/KNOWLEDGE_GRAPH.md docs/knowledge-graph.html .github/ISSUE_TEMPLATE/2_delete_employee.yml
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

@@ -63,8 +63,19 @@
     color: #e2e8f0;
     font-size: 13px;
     cursor: pointer;
+    margin-bottom: 12px;
   }
-  #filter-select:focus { outline: none; border-color: #60a5fa; }
+  #search-input {
+    width: 100%;
+    padding: 10px 12px;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #e2e8f0;
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  #search-input:focus, #filter-select:focus { outline: none; border-color: #60a5fa; }
   .edge-toggle { margin-top: 12px; }
   .toggle-row {
     display: flex;
@@ -126,27 +137,45 @@
     color: #60a5fa;
   }
   .big5 .label { color: #64748b; margin-top: 2px; }
+  .personality-section { margin-top: 12px; }
+  .p-bar { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-size: 11px; }
+  .p-bar .p-label { width: 48px; color: #94a3b8; flex-shrink: 0; }
+  .p-bar .p-track { flex: 1; height: 6px; background: #1e293b; border-radius: 3px; overflow: hidden; }
+  .p-bar .p-fill { height: 100%; border-radius: 3px; transition: width 0.4s; }
+  .p-bar .p-score { width: 28px; text-align: right; color: #cbd5e1; font-weight: 600; }
   .connections-list { margin-top: 12px; }
   .connections-list h4 {
     font-size: 12px;
     color: #94a3b8;
     margin-bottom: 8px;
   }
-  .conn-item {
+  .conn-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+  }
+  .conn-card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6px 0;
-    border-bottom: 1px solid #1e293b;
-    font-size: 12px;
+    margin-bottom: 6px;
   }
-  .conn-item .conn-type {
+  .conn-card-name { font-size: 13px; font-weight: 600; }
+  .conn-card-badge {
     font-size: 10px;
-    padding: 2px 6px;
-    border-radius: 4px;
-    background: #334155;
-    color: #94a3b8;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
   }
+  .conn-card-reason { font-size: 11px; color: #94a3b8; line-height: 1.5; }
+  .conn-card-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .tag { display: inline-block; font-size: 10px; padding: 2px 8px; border-radius: 10px; }
+  .tag-skill { background: #60a5fa20; color: #60a5fa; }
+  .tag-value { background: #34d39920; color: #34d399; }
+  .tag-interest { background: #fb923c20; color: #fb923c; }
+  .tag-relation { background: #a78bfa20; color: #a78bfa; }
   .conn-type.COMPLEMENTS { background: #7c3aed20; color: #a78bfa; }
   .conn-type.MENTORING_FIT { background: #f59e0b20; color: #fbbf24; }
   .conn-type.TEAM_SYNERGY { background: #10b98120; color: #34d399; }
@@ -173,12 +202,14 @@
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background: #1e293b;
+    background: #1e293bdd;
     border: 1px solid #334155;
     border-radius: 12px;
     padding: 14px 18px;
     font-size: 11px;
+    backdrop-filter: blur(8px);
   }
+  .legend h5 { color: #94a3b8; margin-bottom: 6px; font-size: 10px; font-weight: 400; }
   .legend-item {
     display: flex;
     align-items: center;
@@ -192,6 +223,13 @@
     border-radius: 50%;
     flex-shrink: 0;
   }
+  .legend-line {
+    width: 20px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 1px;
+  }
+  .legend-divider { border-top: 1px solid #334155; margin: 6px 0; }
 </style>
 </head>
 <body>
@@ -202,21 +240,20 @@
       <div class="stats" id="stats"></div>
     </div>
     <div id="controls">
-      <label>表示フィルタ</label>
+      <input type="text" id="search-input" placeholder="社員名を検索...">
       <select id="filter-select">
-        <option value="all">すべて表示</option>
-        <option value="person-only">社員のみ</option>
+        <option value="all" selected>すべて表示</option>
         <option value="skill">スキル</option>
         <option value="value">価値観</option>
         <option value="interest">関心事</option>
         <option value="motivation">モチベーション</option>
       </select>
       <div class="edge-toggle">
-        <label style="margin-bottom:8px">AI推論エッジ</label>
-        <label class="toggle-row"><input type="checkbox" id="toggle-shares" checked> 共通項目</label>
-        <label class="toggle-row"><input type="checkbox" id="toggle-complements" checked> 補完関係</label>
-        <label class="toggle-row"><input type="checkbox" id="toggle-mentoring" checked> メンタリング適性</label>
-        <label class="toggle-row"><input type="checkbox" id="toggle-synergy" checked> チーム相乗効果</label>
+        <label style="margin-bottom:8px">社員間リレーション</label>
+        <label class="toggle-row"><input type="checkbox" id="toggle-shares"> 共通事項</label>
+        <label class="toggle-row"><input type="checkbox" id="toggle-complements"> 補完関係</label>
+        <label class="toggle-row"><input type="checkbox" id="toggle-mentoring"> メンタリング適性</label>
+        <label class="toggle-row"><input type="checkbox" id="toggle-synergy"> チーム相乗効果</label>
       </div>
     </div>
     <div id="detail-panel">
@@ -226,267 +263,833 @@
   <div id="graph-container">
     <div class="tooltip" id="tooltip"></div>
     <div class="legend">
+      <h5>ノード</h5>
       <div class="legend-item"><div class="legend-dot" style="background:#818cf8"></div>社員</div>
       <div class="legend-item"><div class="legend-dot" style="background:#60a5fa"></div>スキル</div>
       <div class="legend-item"><div class="legend-dot" style="background:#34d399"></div>価値観</div>
       <div class="legend-item"><div class="legend-dot" style="background:#fb923c"></div>関心事</div>
       <div class="legend-item"><div class="legend-dot" style="background:#f472b6"></div>モチベーション</div>
+      <div class="legend-divider"></div>
+      <h5>社員間リレーション</h5>
+      <div class="legend-item"><div class="legend-line" style="background:#3b82f6"></div>共通事項</div>
+      <div class="legend-item"><div class="legend-line" style="background:#a78bfa"></div>補完関係</div>
+      <div class="legend-item"><div class="legend-line" style="background:#fbbf24"></div>メンター相性</div>
+      <div class="legend-item"><div class="legend-line" style="background:#34d399"></div>チーム相乗効果</div>
     </div>
   </div>
 </div>
 <script>
+
+// Graph Data Placeholder (Will be replaced by generation script)
 const GRAPH_DATA = {"metadata":{"generated_at":"2026-02-11T03:29:36.198Z","source":"employees.json","employee_count":16,"node_count":283,"edge_count":694,"ai_enhanced":true},"nodes":[{"id":"person:杉本光一","type":"person","label":"杉本光一","job":"Engineer","summary":"杉本さんは、AI技術と組織プロセス改善への深い熱意を持ち、チームの成長と効率化に貢献する協調性溢れるエンジニアです。新メンバーを積極的に歓迎し、個人的な話題も交えながら親しみやすい関係を築く、人間味豊かな側面も持っています。","personality":{"O":9,"C":9,"E":9,"A":9,"N":3}},{"id":"person:青木淳一郎","type":"person","label":"青木淳一郎","job":"Engineer","summary":"AWS基盤の専門性を持ち、未経験技術の習得にも意欲的。家族を大切にし、高い責任感と協調性でSaitekiへの貢献とメンバーとの交流を積極的に図る人物。","personality":{"O":8,"C":7,"E":8,"A":9,"N":3}},{"id":"person:小林翔","type":"person","label":"小林翔","job":"QA","summary":"協調性が高く、新しい環境への適応能力に優れる人物。多岐にわたる趣味と豊富な経験を持ち、周囲との積極的な交流を通じて、共に成長することを重視する。詳細な情報共有も得意とする。","personality":{"O":9,"C":7,"E":8,"A":9,"N":3}},{"id":"person:櫻井志保","type":"person","label":"櫻井志保","job":"Engineer","summary":"櫻井志保さんは、データ分析スキルと高い学習意欲を持ち、協調性をもってチームに貢献しようと意欲的な人物です。","personality":{"O":8,"C":7,"E":6,"A":9,"N":3}},{"id":"person:田浦裕樹","type":"person","label":"田浦裕樹","job":"Engineer","summary":"豊富な経験と卓越した技術力を持ち、AI駆動開発とチームへの貢献に情熱を注ぐエンジニア。論理的思考と温かい人間性を兼ね備え、知識共有と協調性を重んじる。","personality":{"O":10,"C":9,"E":8,"A":9,"N":3}},{"id":"person:開米 敦則","type":"person","label":"開米 敦則","job":"QA","summary":"開米敦則氏は、QAエンジニアとしての豊富な経験とAI技術への深い探求心を持つ。多趣味で協調性が高く、新しい環境にも前向きに適応し、チームへの貢献と自己のスキルアップに意欲的に取り組む誠実な人物です。","personality":{"O":9,"C":9,"E":6,"A":9,"N":4}},{"id":"person:貴志雪乃","type":"person","label":"貴志雪乃","job":"HR","summary":"貴志雪乃さんは、新入社員として積極的に組織に貢献し、丁寧で協調性のあるコミュニケーションを通じてコミュニティ形成を推進する、非常に活動的で多才な人物です。","personality":{"O":9,"C":9,"E":8,"A":9,"N":3}},{"id":"person:上遼太郎","type":"person","label":"上遼太郎","job":"Engineer","summary":"上遼太郎さんは、多様な経験と強い学習意欲を持ち、特にAI駆動開発に深い関心を示しています。実践を通じて知識を深め、設計や開発プロセスの質と効率を追求。協調性と社交性を兼ね備え、周囲とのコミュニケーションを重視し、積極的にチーム貢献を目指す人物です。","personality":{"O":9,"C":9,"E":8,"A":9,"N":3}},{"id":"person:小松田真伍","type":"person","label":"小松田真伍","job":"Engineer","summary":"小松田真伍は、AI駆動開発の深い知見と実践力を持ち、それを組織へ積極的に還元しようとする。地域活性化という個人的な命題を持つほど社会貢献意欲が高く、既存の業界慣習を変革する強い意志と実行力を兼ね備えている。協調性と学習意欲も非常に高く、周囲を巻き込みながら課題解決に取り組む。","personality":{"O":10,"C":9,"E":8,"A":9,"N":4}},{"id":"person:小島遼祐","type":"person","label":"小島遼祐","job":"Engineer","summary":"極めて高い学習意欲と貢献意欲を持ち、社交的で協調性が高く、周囲との関係構築に積極的に取り組む人物。","personality":{"O":9,"C":9,"E":9,"A":9,"N":3}},{"id":"person:藤井芙美子","type":"person","label":"藤井芙美子","job":"Sales","summary":"新しい環境と役割に意欲的に適応し、持ち前の社交性と協調性で迅速に人間関係を築く。周囲への細やかな気配りと貢献意識が高く、ポジティブな姿勢で成長を追求する人物。","personality":{"O":9,"C":9,"E":9,"A":9,"N":3}},{"id":"person:菅野聖也","type":"person","label":"菅野聖也","job":"Engineer","summary":"協調性が高く、知的好奇心旺盛で学習意欲のある技術者。AI活用に積極的で、丁寧なコミュニケーションとチームへの貢献を重視する。","personality":{"O":9,"C":7,"E":7,"A":8,"N":4}},{"id":"person:佐藤傑","type":"person","label":"佐藤傑","job":"Other","summary":"グローバルな視点と実践的なAI知識を持ち、起業家精神と旺盛な行動力でコミュニティ形成や共創を推進する人物。アウトプットを重視し、常に成長を追求している。","personality":{"O":10,"C":9,"E":9,"A":8,"N":3}},{"id":"person:鈴木悠斗","type":"person","label":"鈴木悠斗","job":"経営","summary":"社交的で親しみやすく、強い責任感と経営者視点を持つ人物。組織の成長とリスク管理に強くコミットし、最新技術の活用にも積極的。チームメンバーの貢献を積極的に評価し、周囲を巻き込みながら全体をより良くしようと行動する。","personality":{"O":9,"C":9,"E":9,"A":9,"N":3}},{"id":"person:戸塚直道","type":"person","label":"戸塚直道","job":"経営","summary":"日本のIT産業変革とエンジニアの地位向上に情熱を燃やす起業家。高い学習意欲と実行力で組織を牽引し、メンバーの成長と協調を重視しながら、事業の加速に全身全霊を注ぐ。","personality":{"O":9,"C":9,"E":10,"A":9,"N":4}},{"id":"person:榎本詩織","type":"person","label":"榎本詩織","job":"Engineer","summary":"社交的で学習意欲が高く、チームへの貢献意欲が強い。多様な趣味を持ち、ユーモアを交えながら社内コミュニケーションを大切にする人物。","personality":{"O":9,"C":7,"E":8,"A":9,"N":4}},{"id":"attr:ai技術の深い知見と実践的な応用力","type":"attribute","label":"AI技術の深い知見と実践的な応用力","categories":["skill"],"color":"#60a5fa","connectedPeople":["杉本光一"]},{"id":"attr:開発プロセス全体の最適化と仕組み化","type":"attribute","label":"開発プロセス全体の最適化と仕組み化","categories":["skill"],"color":"#60a5fa","connectedPeople":["杉本光一"]},{"id":"attr:情報共有とナレッジマネジメントの推進","type":"attribute","label":"情報共有とナレッジマネジメントの推進","categories":["skill"],"color":"#60a5fa","connectedPeople":["杉本光一"]},{"id":"attr:変化への柔軟な対応と戦略的思考","type":"attribute","label":"変化への柔軟な対応と戦略的思考","categories":["skill"],"color":"#60a5fa","connectedPeople":["杉本光一"]},{"id":"attr:丁寧で建設的なコミュニケーション","type":"attribute","label":"丁寧で建設的なコミュニケーション","categories":["skill"],"color":"#60a5fa","connectedPeople":["杉本光一"]},{"id":"attr:インフラ設計_構築スキル","type":"attribute","label":"インフラ設計・構築スキル","categories":["skill"],"color":"#60a5fa","connectedPeople":["青木淳一郎"]},{"id":"attr:学習意欲","type":"attribute","label":"学習意欲","categories":["skill"],"color":"#60a5fa","connectedPeople":["青木淳一郎","櫻井志保","上遼太郎","小松田真伍","小島遼祐","藤井芙美子","榎本詩織"]},{"id":"attr:コミュニケーション","type":"attribute","label":"コミュニケーション","categories":["skill"],"color":"#60a5fa","connectedPeople":["青木淳一郎","小林翔","櫻井志保","貴志雪乃","榎本詩織"]},{"id":"attr:責任感","type":"attribute","label":"責任感","categories":["skill"],"color":"#60a5fa","connectedPeople":["青木淳一郎","小島遼祐"]},{"id":"attr:テスト_品質管理経験","type":"attribute","label":"テスト・品質管理経験","categories":["skill"],"color":"#60a5fa","connectedPeople":["小林翔"]},{"id":"attr:情報収集","type":"attribute","label":"情報収集","categories":["skill"],"color":"#60a5fa","connectedPeople":["小林翔"]},{"id":"attr:状況説明能力","type":"attribute","label":"状況説明能力","categories":["skill"],"color":"#60a5fa","connectedPeople":["小林翔"]},{"id":"attr:協調性","type":"attribute","label":"協調性","categories":["skill","value"],"color":"#60a5fa","connectedPeople":["小林翔","上遼太郎","小松田真伍","小島遼祐","藤井芙美子","榎本詩織","櫻井志保","開米 敦則","貴志雪乃"]},{"id":"attr:データ分析","type":"attribute","label":"データ分析","categories":["skill","interest"],"color":"#60a5fa","connectedPeople":["櫻井志保"]},{"id":"attr:開発プロセス全体（要件定義〜実装）への深い知見と標準化への貢献","type":"attribute","label":"開発プロセス全体（要件定義〜実装）への深い知見と標準化への貢献","categories":["skill"],"color":"#60a5fa","connectedPeople":["田浦裕樹"]},{"id":"attr:ai駆動開発の実践と知識共有","type":"attribute","label":"AI駆動開発の実践と知識共有","categories":["skill"],"color":"#60a5fa","connectedPeople":["田浦裕樹"]},{"id":"attr:アジャイルなプロジェクト推進と問題解決","type":"attribute","label":"アジャイルなプロジェクト推進と問題解決","categories":["skill"],"color":"#60a5fa","connectedPeople":["田浦裕樹"]},{"id":"attr:顧客視点での課題解決と安心感の提供","type":"attribute","label":"顧客視点での課題解決と安心感の提供","categories":["skill"],"color":"#60a5fa","connectedPeople":["田浦裕樹"]},{"id":"attr:チーム立ち上げ_品質改善","type":"attribute","label":"チーム立ち上げ・品質改善","categories":["skill"],"color":"#60a5fa","connectedPeople":["田浦裕樹"]},{"id":"attr:qaエンジニアリングの専門知識と20年の経験","type":"attribute","label":"QAエンジニアリングの専門知識と20年の経験","categories":["skill"],"color":"#60a5fa","connectedPeople":["開米 敦則"]},{"id":"attr:ai技術の知識と業務適用能力（特にテスト領域）","type":"attribute","label":"AI技術の知識と業務適用能力（特にテスト領域）","categories":["skill"],"color":"#60a5fa","connectedPeople":["開米 敦則"]},{"id":"attr:プロンプトエンジニアリングの理解と実践意欲","type":"attribute","label":"プロンプトエンジニアリングの理解と実践意欲","categories":["skill"],"color":"#60a5fa","connectedPeople":["開米 敦則"]},{"id":"attr:情報共有とドキュメンテーション能力、改善提案","type":"attribute","label":"情報共有とドキュメンテーション能力、改善提案","categories":["skill"],"color":"#60a5fa","connectedPeople":["開米 敦則"]},{"id":"attr:テスト自動化ツールの選定_比較検討とプロセスへの組み込み","type":"attribute","label":"テスト自動化ツールの選定・比較検討とプロセスへの組み込み","categories":["skill"],"color":"#60a5fa","connectedPeople":["開米 敦則"]},{"id":"attr:情報収集_共有力","type":"attribute","label":"情報収集・共有力","categories":["skill"],"color":"#60a5fa","connectedPeople":["貴志雪乃"]},{"id":"attr:企画_実行力","type":"attribute","label":"企画・実行力","categories":["skill"],"color":"#60a5fa","connectedPeople":["貴志雪乃"]},{"id":"attr:コミュニティ形成力","type":"attribute","label":"コミュニティ形成力","categories":["skill"],"color":"#60a5fa","connectedPeople":["貴志雪乃"]},{"id":"attr:他者貢献_協調性","type":"attribute","label":"他者貢献・協調性","categories":["skill"],"color":"#60a5fa","connectedPeople":["貴志雪乃"]},{"id":"attr:実践的ai活用","type":"attribute","label":"実践的AI活用","categories":["skill"],"color":"#60a5fa","connectedPeople":["上遼太郎"]},{"id":"attr:設計_構造化能力","type":"attribute","label":"設計・構造化能力","categories":["skill"],"color":"#60a5fa","connectedPeople":["上遼太郎"]},{"id":"attr:情報共有","type":"attribute","label":"情報共有","categories":["skill","value"],"color":"#60a5fa","connectedPeople":["上遼太郎","小松田真伍"]},{"id":"attr:品質志向","type":"attribute","label":"品質志向","categories":["skill"],"color":"#60a5fa","connectedPeople":["上遼太郎"]},{"id":"attr:問題解決","type":"attribute","label":"問題解決","categories":["skill"],"color":"#60a5fa","connectedPeople":["小松田真伍","戸塚直道"]},{"id":"attr:貢献意欲","type":"attribute","label":"貢献意欲","categories":["skill"],"color":"#60a5fa","connectedPeople":["小松田真伍","小島遼祐","藤井芙美子"]},{"id":"attr:変革志向","type":"attribute","label":"変革志向","categories":["skill"],"color":"#60a5fa","connectedPeople":["小松田真伍"]},{"id":"attr:実行力","type":"attribute","label":"実行力","categories":["skill"],"color":"#60a5fa","connectedPeople":["小松田真伍","戸塚直道"]},{"id":"attr:プロアクティブなコミュニケーション能力","type":"attribute","label":"プロアクティブなコミュニケーション能力","categories":["skill"],"color":"#60a5fa","connectedPeople":["小島遼祐"]},{"id":"attr:関係構築力","type":"attribute","label":"関係構築力","categories":["skill"],"color":"#60a5fa","connectedPeople":["小島遼祐"]},{"id":"attr:適応力","type":"attribute","label":"適応力","categories":["skill"],"color":"#60a5fa","connectedPeople":["藤井芙美子","榎本詩織"]},{"id":"attr:人間関係構築力","type":"attribute","label":"人間関係構築力","categories":["skill"],"color":"#60a5fa","connectedPeople":["藤井芙美子"]},{"id":"attr:観察力","type":"attribute","label":"観察力","categories":["skill"],"color":"#60a5fa","connectedPeople":["藤井芙美子"]},{"id":"attr:技術的なスキル（vb.net,_java）","type":"attribute","label":"技術的なスキル（VB.Net, JAVA）","categories":["skill"],"color":"#60a5fa","connectedPeople":["菅野聖也"]},{"id":"attr:品質管理の経験と視点","type":"attribute","label":"品質管理の経験と視点","categories":["skill"],"color":"#60a5fa","connectedPeople":["菅野聖也"]},{"id":"attr:ai活用スキルと探求心","type":"attribute","label":"AI活用スキルと探求心","categories":["skill"],"color":"#60a5fa","connectedPeople":["菅野聖也"]},{"id":"attr:旺盛な学習意欲と知識応用力","type":"attribute","label":"旺盛な学習意欲と知識応用力","categories":["skill"],"color":"#60a5fa","connectedPeople":["菅野聖也"]},{"id":"attr:工夫を凝らすコーディングへの興味","type":"attribute","label":"工夫を凝らすコーディングへの興味","categories":["skill"],"color":"#60a5fa","connectedPeople":["菅野聖也"]},{"id":"attr:起業家精神","type":"attribute","label":"起業家精神","categories":["skill"],"color":"#60a5fa","connectedPeople":["佐藤傑"]},{"id":"attr:ai知識","type":"attribute","label":"AI知識","categories":["skill"],"color":"#60a5fa","connectedPeople":["佐藤傑"]},{"id":"attr:グローバルな視点","type":"attribute","label":"グローバルな視点","categories":["skill"],"color":"#60a5fa","connectedPeople":["佐藤傑"]},{"id":"attr:アウトプット志向","type":"attribute","label":"アウトプット志向","categories":["skill"],"color":"#60a5fa","connectedPeople":["佐藤傑"]},{"id":"attr:実践力","type":"attribute","label":"実践力","categories":["skill"],"color":"#60a5fa","connectedPeople":["佐藤傑"]},{"id":"attr:協調的リーダーシップ","type":"attribute","label":"協調的リーダーシップ","categories":["skill"],"color":"#60a5fa","connectedPeople":["佐藤傑"]},{"id":"attr:リスク管理と危機意識","type":"attribute","label":"リスク管理と危機意識","categories":["skill"],"color":"#60a5fa","connectedPeople":["鈴木悠斗"]},{"id":"attr:組織の成長推進とリーダーシップ","type":"attribute","label":"組織の成長推進とリーダーシップ","categories":["skill"],"color":"#60a5fa","connectedPeople":["鈴木悠斗"]},{"id":"attr:最新技術の活用と業務改善","type":"attribute","label":"最新技術の活用と業務改善","categories":["skill"],"color":"#60a5fa","connectedPeople":["鈴木悠斗"]},{"id":"attr:メンバーの能力評価と育成支援","type":"attribute","label":"メンバーの能力評価と育成支援","categories":["skill"],"color":"#60a5fa","connectedPeople":["鈴木悠斗"]},{"id":"attr:建設的なフィードバック能力","type":"attribute","label":"建設的なフィードバック能力","categories":["skill"],"color":"#60a5fa","connectedPeople":["鈴木悠斗"]},{"id":"attr:リーダーシップ","type":"attribute","label":"リーダーシップ","categories":["skill"],"color":"#60a5fa","connectedPeople":["戸塚直道"]},{"id":"attr:戦略的思考","type":"attribute","label":"戦略的思考","categories":["skill"],"color":"#60a5fa","connectedPeople":["戸塚直道"]},{"id":"attr:組織牽引力","type":"attribute","label":"組織牽引力","categories":["skill"],"color":"#60a5fa","connectedPeople":["戸塚直道"]},{"id":"attr:採用力","type":"attribute","label":"採用力","categories":["skill"],"color":"#60a5fa","connectedPeople":["戸塚直道"]},{"id":"attr:学習促進","type":"attribute","label":"学習促進","categories":["skill"],"color":"#60a5fa","connectedPeople":["戸塚直道"]},{"id":"attr:多様な経験","type":"attribute","label":"多様な経験","categories":["skill","value"],"color":"#60a5fa","connectedPeople":["榎本詩織"]},{"id":"attr:技術革新と探求_(特にai)","type":"attribute","label":"技術革新と探求 (特にAI)","categories":["value"],"color":"#34d399","connectedPeople":["杉本光一"]},{"id":"attr:組織_チームへの貢献","type":"attribute","label":"組織・チームへの貢献","categories":["value"],"color":"#34d399","connectedPeople":["杉本光一"]},{"id":"attr:自己成長と学習","type":"attribute","label":"自己成長と学習","categories":["value"],"color":"#34d399","connectedPeople":["杉本光一"]},{"id":"attr:チームワークと協調性","type":"attribute","label":"チームワークと協調性","categories":["value"],"color":"#34d399","connectedPeople":["杉本光一"]},{"id":"attr:家族とのバランス","type":"attribute","label":"家族とのバランス","categories":["value"],"color":"#34d399","connectedPeople":["杉本光一"]},{"id":"attr:家族","type":"attribute","label":"家族","categories":["value"],"color":"#34d399","connectedPeople":["青木淳一郎","田浦裕樹","貴志雪乃","藤井芙美子"]},{"id":"attr:成長","type":"attribute","label":"成長","categories":["value","motivation"],"color":"#34d399","connectedPeople":["青木淳一郎","小林翔","櫻井志保","貴志雪乃","上遼太郎","小松田真伍","小島遼祐","藤井芙美子","佐藤傑","榎本詩織"]},{"id":"attr:貢献","type":"attribute","label":"貢献","categories":["value"],"color":"#34d399","connectedPeople":["青木淳一郎","櫻井志保","開米 敦則","貴志雪乃","上遼太郎","小松田真伍","小島遼祐","藤井芙美子","佐藤傑","戸塚直道"]},{"id":"attr:責任","type":"attribute","label":"責任","categories":["value"],"color":"#34d399","connectedPeople":["青木淳一郎","小島遼祐"]},{"id":"attr:楽しさ","type":"attribute","label":"楽しさ","categories":["value"],"color":"#34d399","connectedPeople":["小林翔"]},{"id":"attr:探求","type":"attribute","label":"探求","categories":["value"],"color":"#34d399","connectedPeople":["小林翔","佐藤傑"]},{"id":"attr:繋がり","type":"attribute","label":"繋がり","categories":["value"],"color":"#34d399","connectedPeople":["小林翔"]},{"id":"attr:チームワーク","type":"attribute","label":"チームワーク","categories":["value","interest"],"color":"#34d399","connectedPeople":["田浦裕樹","榎本詩織"]},{"id":"attr:継続的な学習と技術革新への挑戦","type":"attribute","label":"継続的な学習と技術革新への挑戦","categories":["value"],"color":"#34d399","connectedPeople":["田浦裕樹"]},{"id":"attr:顧客満足と貢献","type":"attribute","label":"顧客満足と貢献","categories":["value"],"color":"#34d399","connectedPeople":["田浦裕樹"]},{"id":"attr:誠実さ","type":"attribute","label":"誠実さ","categories":["value"],"color":"#34d399","connectedPeople":["田浦裕樹"]},{"id":"attr:知識共有","type":"attribute","label":"知識共有","categories":["value"],"color":"#34d399","connectedPeople":["田浦裕樹"]},{"id":"attr:効率性","type":"attribute","label":"効率性","categories":["value"],"color":"#34d399","connectedPeople":["開米 敦則","上遼太郎"]},{"id":"attr:学習_成長","type":"attribute","label":"学習・成長","categories":["value"],"color":"#34d399","connectedPeople":["開米 敦則"]},{"id":"attr:探求心","type":"attribute","label":"探求心","categories":["value"],"color":"#34d399","connectedPeople":["開米 敦則"]},{"id":"attr:コミュニティ","type":"attribute","label":"コミュニティ","categories":["value"],"color":"#34d399","connectedPeople":["貴志雪乃"]},{"id":"attr:周囲からの感謝","type":"attribute","label":"周囲からの感謝","categories":["value"],"color":"#34d399","connectedPeople":["貴志雪乃","藤井芙美子"]},{"id":"attr:挑戦","type":"attribute","label":"挑戦","categories":["value"],"color":"#34d399","connectedPeople":["上遼太郎"]},{"id":"attr:品質","type":"attribute","label":"品質","categories":["value"],"color":"#34d399","connectedPeople":["上遼太郎"]},{"id":"attr:変革","type":"attribute","label":"変革","categories":["value"],"color":"#34d399","connectedPeople":["小松田真伍"]},{"id":"attr:効率化","type":"attribute","label":"効率化","categories":["value"],"color":"#34d399","connectedPeople":["小松田真伍"]},{"id":"attr:公正性","type":"attribute","label":"公正性","categories":["value"],"color":"#34d399","connectedPeople":["小松田真伍"]},{"id":"attr:影響力","type":"attribute","label":"影響力","categories":["value"],"color":"#34d399","connectedPeople":["小松田真伍"]},{"id":"attr:社会貢献","type":"attribute","label":"社会貢献","categories":["value"],"color":"#34d399","connectedPeople":["小松田真伍","戸塚直道"]},{"id":"attr:地域活性化","type":"attribute","label":"地域活性化","categories":["value","interest"],"color":"#34d399","connectedPeople":["小松田真伍"]},{"id":"attr:探究心","type":"attribute","label":"探究心","categories":["value"],"color":"#34d399","connectedPeople":["小島遼祐"]},{"id":"attr:技術的成長とスキル向上","type":"attribute","label":"技術的成長とスキル向上","categories":["value"],"color":"#34d399","connectedPeople":["菅野聖也"]},{"id":"attr:チームワークと貢献","type":"attribute","label":"チームワークと貢献","categories":["value"],"color":"#34d399","connectedPeople":["菅野聖也"]},{"id":"attr:新しい知識の探求と学習","type":"attribute","label":"新しい知識の探求と学習","categories":["value"],"color":"#34d399","connectedPeople":["菅野聖也"]},{"id":"attr:ai技術の積極的活用","type":"attribute","label":"AI技術の積極的活用","categories":["value"],"color":"#34d399","connectedPeople":["菅野聖也"]},{"id":"attr:共創","type":"attribute","label":"共創","categories":["value"],"color":"#34d399","connectedPeople":["佐藤傑"]},{"id":"attr:アウトプット","type":"attribute","label":"アウトプット","categories":["value"],"color":"#34d399","connectedPeople":["佐藤傑"]},{"id":"attr:実践","type":"attribute","label":"実践","categories":["value"],"color":"#34d399","connectedPeople":["佐藤傑"]},{"id":"attr:自己と組織の成長","type":"attribute","label":"自己と組織の成長","categories":["value"],"color":"#34d399","connectedPeople":["鈴木悠斗"]},{"id":"attr:貢献と責任","type":"attribute","label":"貢献と責任","categories":["value"],"color":"#34d399","connectedPeople":["鈴木悠斗"]},{"id":"attr:チームワークと協調","type":"attribute","label":"チームワークと協調","categories":["value"],"color":"#34d399","connectedPeople":["鈴木悠斗"]},{"id":"attr:技術革新と活用","type":"attribute","label":"技術革新と活用","categories":["value"],"color":"#34d399","connectedPeople":["鈴木悠斗"]},{"id":"attr:業界変革","type":"attribute","label":"業界変革","categories":["value","motivation"],"color":"#34d399","connectedPeople":["戸塚直道","小松田真伍"]},{"id":"attr:エンジニアの待遇改善","type":"attribute","label":"エンジニアの待遇改善","categories":["value"],"color":"#34d399","connectedPeople":["戸塚直道"]},{"id":"attr:組織の成長","type":"attribute","label":"組織の成長","categories":["value","motivation"],"color":"#34d399","connectedPeople":["戸塚直道","小松田真伍"]},{"id":"attr:メンバーの成功","type":"attribute","label":"メンバーの成功","categories":["value"],"color":"#34d399","connectedPeople":["戸塚直道"]},{"id":"attr:透明性","type":"attribute","label":"透明性","categories":["value"],"color":"#34d399","connectedPeople":["戸塚直道"]},{"id":"attr:学習と実践","type":"attribute","label":"学習と実践","categories":["value"],"color":"#34d399","connectedPeople":["戸塚直道"]},{"id":"attr:社内のつながり","type":"attribute","label":"社内のつながり","categories":["value"],"color":"#34d399","connectedPeople":["榎本詩織"]},{"id":"attr:最新aiモデル（gemini3）の性能評価と活用","type":"attribute","label":"最新AIモデル（Gemini3）の性能評価と活用","categories":["interest"],"color":"#fb923c","connectedPeople":["杉本光一"]},{"id":"attr:ai開発ガイドラインの具体的な策定と社内展開（特に非エンジニア向け）","type":"attribute","label":"AI開発ガイドラインの具体的な策定と社内展開（特に非エンジニア向け）","categories":["interest"],"color":"#fb923c","connectedPeople":["杉本光一"]},{"id":"attr:rag技術と書籍推薦システムへの応用とデータ蓄積の促進","type":"attribute","label":"RAG技術と書籍推薦システムへの応用とデータ蓄積の促進","categories":["interest"],"color":"#fb923c","connectedPeople":["杉本光一"]},{"id":"attr:ai搭載ide_(antigravity,_cursor,_stagewise)_の比較と導入_評価","type":"attribute","label":"AI搭載IDE (Antigravity, Cursor, Stagewise) の比較と導入・評価","categories":["interest"],"color":"#fb923c","connectedPeople":["杉本光一"]},{"id":"attr:notionを活用したタスク管理と情報共有効率化（タスク粒度、見積もり、ワークフロー）","type":"attribute","label":"Notionを活用したタスク管理と情報共有効率化（タスク粒度、見積もり、ワークフロー）","categories":["interest"],"color":"#fb923c","connectedPeople":["杉本光一"]},{"id":"attr:ローカルai推論処理の可能性とハードウェア要件","type":"attribute","label":"ローカルAI推論処理の可能性とハードウェア要件","categories":["interest"],"color":"#fb923c","connectedPeople":["杉本光一"]},{"id":"attr:llm_as_a_judgeなど、aiモデルの評価_比較手法","type":"attribute","label":"LLM as a Judgeなど、AIモデルの評価・比較手法","categories":["interest"],"color":"#fb923c","connectedPeople":["杉本光一"]},{"id":"attr:nextjs16のmcpサーバーや自律操作への応用","type":"attribute","label":"Nextjs16のMCPサーバーや自律操作への応用","categories":["interest"],"color":"#fb923c","connectedPeople":["杉本光一"]},{"id":"attr:家族との時間、子供の成長、ゲーム、漫画、映画といった個人的な趣味","type":"attribute","label":"家族との時間、子供の成長、ゲーム、漫画、映画といった個人的な趣味","categories":["interest"],"color":"#fb923c","connectedPeople":["杉本光一"]},{"id":"attr:saitekiメンバーの入社経緯","type":"attribute","label":"Saitekiメンバーの入社経緯","categories":["interest"],"color":"#fb923c","connectedPeople":["青木淳一郎"]},{"id":"attr:京都旅行","type":"attribute","label":"京都旅行","categories":["interest"],"color":"#fb923c","connectedPeople":["青木淳一郎"]},{"id":"attr:2025年の振り返りと2026年への期待","type":"attribute","label":"2025年の振り返りと2026年への期待","categories":["interest"],"color":"#fb923c","connectedPeople":["青木淳一郎"]},{"id":"attr:biツールの知識習得","type":"attribute","label":"BIツールの知識習得","categories":["interest"],"color":"#fb923c","connectedPeople":["青木淳一郎"]},{"id":"attr:ゲーム（メダルゲーム、balatro,_slay_the_spire,_cloverpit）","type":"attribute","label":"ゲーム（メダルゲーム、Balatro, Slay the Spire, CloverPit）","categories":["interest"],"color":"#fb923c","connectedPeople":["小林翔"]},{"id":"attr:旅行（特に北海道グルメ、ニシンの塩焼き、神社仏閣、アニメ舞台）","type":"attribute","label":"旅行（特に北海道グルメ、ニシンの塩焼き、神社仏閣、アニメ舞台）","categories":["interest"],"color":"#fb923c","connectedPeople":["小林翔"]},{"id":"attr:海鮮料理","type":"attribute","label":"海鮮料理","categories":["interest"],"color":"#fb923c","connectedPeople":["小林翔"]},{"id":"attr:新しい職場の人間関係","type":"attribute","label":"新しい職場の人間関係","categories":["interest"],"color":"#fb923c","connectedPeople":["小林翔"]},{"id":"attr:ゲーム部創設","type":"attribute","label":"ゲーム部創設","categories":["interest"],"color":"#fb923c","connectedPeople":["小林翔"]},{"id":"attr:データベース構築","type":"attribute","label":"データベース構築","categories":["interest"],"color":"#fb923c","connectedPeople":["櫻井志保"]},{"id":"attr:資格取得","type":"attribute","label":"資格取得","categories":["interest"],"color":"#fb923c","connectedPeople":["櫻井志保"]},{"id":"attr:slackを通じたコミュニケーション","type":"attribute","label":"Slackを通じたコミュニケーション","categories":["interest"],"color":"#fb923c","connectedPeople":["櫻井志保"]},{"id":"attr:poc_(proof_of_concept)","type":"attribute","label":"PoC (Proof of Concept)","categories":["interest"],"color":"#fb923c","connectedPeople":["田浦裕樹"]},{"id":"attr:要件定義と開発プロセス標準化","type":"attribute","label":"要件定義と開発プロセス標準化","categories":["interest"],"color":"#fb923c","connectedPeople":["田浦裕樹"]},{"id":"attr:ai駆動開発と技術応用","type":"attribute","label":"AI駆動開発と技術応用","categories":["interest"],"color":"#fb923c","connectedPeople":["田浦裕樹"]},{"id":"attr:android_tvアプリ開発","type":"attribute","label":"Android TVアプリ開発","categories":["interest"],"color":"#fb923c","connectedPeople":["田浦裕樹"]},{"id":"attr:顧客との商談_クライアントワーク","type":"attribute","label":"顧客との商談・クライアントワーク","categories":["interest"],"color":"#fb923c","connectedPeople":["田浦裕樹"]},{"id":"attr:音楽（特にチェロ、羊文学）","type":"attribute","label":"音楽（特にチェロ、羊文学）","categories":["interest"],"color":"#fb923c","connectedPeople":["田浦裕樹"]},{"id":"attr:ゴッホ展","type":"attribute","label":"ゴッホ展","categories":["interest"],"color":"#fb923c","connectedPeople":["田浦裕樹"]},{"id":"attr:qaにおけるaiツールの選定と活用方法","type":"attribute","label":"QAにおけるAIツールの選定と活用方法","categories":["interest"],"color":"#fb923c","connectedPeople":["開米 敦則"]},{"id":"attr:プロンプトエンジニアリングの最適化とフォーマットの重要性","type":"attribute","label":"プロンプトエンジニアリングの最適化とフォーマットの重要性","categories":["interest"],"color":"#fb923c","connectedPeople":["開米 敦則"]},{"id":"attr:テスト自動化ツールの比較と適用フェーズ","type":"attribute","label":"テスト自動化ツールの比較と適用フェーズ","categories":["interest"],"color":"#fb923c","connectedPeople":["開米 敦則"]},{"id":"attr:情報共有とドキュメンテーションの改善、フィードバックの取り入れ","type":"attribute","label":"情報共有とドキュメンテーションの改善、フィードバックの取り入れ","categories":["interest"],"color":"#fb923c","connectedPeople":["開米 敦則"]},{"id":"attr:人とaiの具体的な作業領域の分担","type":"attribute","label":"人とAIの具体的な作業領域の分担","categories":["interest"],"color":"#fb923c","connectedPeople":["開米 敦則"]},{"id":"attr:ai技術","type":"attribute","label":"AI技術","categories":["interest"],"color":"#fb923c","connectedPeople":["貴志雪乃"]},{"id":"attr:上場企業経営者のビジネス論","type":"attribute","label":"上場企業経営者のビジネス論","categories":["interest"],"color":"#fb923c","connectedPeople":["貴志雪乃"]},{"id":"attr:qaと開発のプロセス","type":"attribute","label":"QAと開発のプロセス","categories":["interest"],"color":"#fb923c","connectedPeople":["貴志雪乃"]},{"id":"attr:オンラインイベント企画_運営（オンライン飲み会、映画鑑賞会など）","type":"attribute","label":"オンラインイベント企画・運営（オンライン飲み会、映画鑑賞会など）","categories":["interest"],"color":"#fb923c","connectedPeople":["貴志雪乃"]},{"id":"attr:採用活動_新入社員オンボーディング","type":"attribute","label":"採用活動・新入社員オンボーディング","categories":["interest"],"color":"#fb923c","connectedPeople":["貴志雪乃"]},{"id":"attr:映画鑑賞（社会派ドキュメンタリー含む）","type":"attribute","label":"映画鑑賞（社会派ドキュメンタリー含む）","categories":["interest"],"color":"#fb923c","connectedPeople":["貴志雪乃"]},{"id":"attr:ご当地スーパー","type":"attribute","label":"ご当地スーパー","categories":["interest"],"color":"#fb923c","connectedPeople":["貴志雪乃"]},{"id":"attr:鬼滅の刃","type":"attribute","label":"鬼滅の刃","categories":["interest"],"color":"#fb923c","connectedPeople":["貴志雪乃"]},{"id":"attr:性格診断テスト","type":"attribute","label":"性格診断テスト","categories":["interest"],"color":"#fb923c","connectedPeople":["貴志雪乃"]},{"id":"attr:aiを活用した開発_設計（gemini,_stagewise,_cursor）","type":"attribute","label":"AIを活用した開発・設計（Gemini, Stagewise, Cursor）","categories":["interest"],"color":"#fb923c","connectedPeople":["上遼太郎"]},{"id":"attr:設計書の品質と効率化（markdown,_スタイリング、粒度）","type":"attribute","label":"設計書の品質と効率化（Markdown, スタイリング、粒度）","categories":["interest"],"color":"#fb923c","connectedPeople":["上遼太郎"]},{"id":"attr:チーム内での情報共有と協力（notion活用、画面共有）","type":"attribute","label":"チーム内での情報共有と協力（Notion活用、画面共有）","categories":["interest"],"color":"#fb923c","connectedPeople":["上遼太郎"]},{"id":"attr:自身のスキルアップと学習（営業力、要件伝達スキル）","type":"attribute","label":"自身のスキルアップと学習（営業力、要件伝達スキル）","categories":["interest"],"color":"#fb923c","connectedPeople":["上遼太郎"]},{"id":"attr:ラーメン_つけ麺など食に関する話題","type":"attribute","label":"ラーメン・つけ麺など食に関する話題","categories":["interest"],"color":"#fb923c","connectedPeople":["上遼太郎"]},{"id":"attr:ai駆動開発_(warp,_antigravity,_claudecode,_cursor,_google_ai_studio,_mcp)","type":"attribute","label":"AI駆動開発 (Warp, Antigravity, ClaudeCode, Cursor, Google AI Studio, MCP)","categories":["interest"],"color":"#fb923c","connectedPeople":["小松田真伍"]},{"id":"attr:ナレッジdb/notion/rag","type":"attribute","label":"ナレッジDB/Notion/RAG","categories":["interest"],"color":"#fb923c","connectedPeople":["小松田真伍"]},{"id":"attr:qaと開発プロセスの改善_(doc_as_a_code)","type":"attribute","label":"QAと開発プロセスの改善 (Doc as a code)","categories":["interest"],"color":"#fb923c","connectedPeople":["小松田真伍"]},{"id":"attr:sierの評価軸と業界変革","type":"attribute","label":"SIerの評価軸と業界変革","categories":["interest"],"color":"#fb923c","connectedPeople":["小松田真伍"]},{"id":"attr:ビジネス書（特に推薦を求めるもの）","type":"attribute","label":"ビジネス書（特に推薦を求めるもの）","categories":["interest"],"color":"#fb923c","connectedPeople":["小島遼祐"]},{"id":"attr:アニメ（葬送のフリーレンや一般的なアニメ全般）","type":"attribute","label":"アニメ（葬送のフリーレンや一般的なアニメ全般）","categories":["interest"],"color":"#fb923c","connectedPeople":["小島遼祐"]},{"id":"attr:将棋","type":"attribute","label":"将棋","categories":["interest"],"color":"#fb923c","connectedPeople":["小島遼祐"]},{"id":"attr:ポケモン（ゲーム_カード）","type":"attribute","label":"ポケモン（ゲーム・カード）","categories":["interest"],"color":"#fb923c","connectedPeople":["小島遼祐"]},{"id":"attr:ラーメン","type":"attribute","label":"ラーメン","categories":["interest"],"color":"#fb923c","connectedPeople":["小島遼祐"]},{"id":"attr:同僚との共通の出身地や趣味","type":"attribute","label":"同僚との共通の出身地や趣味","categories":["interest"],"color":"#fb923c","connectedPeople":["小島遼祐"]},{"id":"attr:ゴールデンカムイ","type":"attribute","label":"ゴールデンカムイ","categories":["interest"],"color":"#fb923c","connectedPeople":["藤井芙美子"]},{"id":"attr:usjのアトラクション","type":"attribute","label":"USJのアトラクション","categories":["interest"],"color":"#fb923c","connectedPeople":["藤井芙美子"]},{"id":"attr:道の駅、ご当地スーパー、デパ地下","type":"attribute","label":"道の駅、ご当地スーパー、デパ地下","categories":["interest"],"color":"#fb923c","connectedPeople":["藤井芙美子"]},{"id":"attr:子供の成長と育児","type":"attribute","label":"子供の成長と育児","categories":["interest"],"color":"#fb923c","connectedPeople":["藤井芙美子"]},{"id":"attr:交通機関の状況","type":"attribute","label":"交通機関の状況","categories":["interest"],"color":"#fb923c","connectedPeople":["藤井芙美子"]},{"id":"attr:職場での同僚の行動","type":"attribute","label":"職場での同僚の行動","categories":["interest"],"color":"#fb923c","connectedPeople":["藤井芙美子"]},{"id":"attr:過去の流行","type":"attribute","label":"過去の流行","categories":["interest"],"color":"#fb923c","connectedPeople":["藤井芙美子"]},{"id":"attr:ai技術の活用（旅行計画、献立作成、コード生成）","type":"attribute","label":"AI技術の活用（旅行計画、献立作成、コード生成）","categories":["interest"],"color":"#fb923c","connectedPeople":["菅野聖也"]},{"id":"attr:読書（『コーヒーの化学』、『君は戦略を立てることができるか』など幅広いジャンル）","type":"attribute","label":"読書（『コーヒーの化学』、『君は戦略を立てることができるか』など幅広いジャンル）","categories":["interest"],"color":"#fb923c","connectedPeople":["菅野聖也"]},{"id":"attr:コードの書き方や工夫","type":"attribute","label":"コードの書き方や工夫","categories":["interest"],"color":"#fb923c","connectedPeople":["菅野聖也"]},{"id":"attr:チームメンバーとの交流と協力","type":"attribute","label":"チームメンバーとの交流と協力","categories":["interest"],"color":"#fb923c","connectedPeople":["菅野聖也"]},{"id":"attr:海外aiスタートアップ","type":"attribute","label":"海外AIスタートアップ","categories":["interest"],"color":"#fb923c","connectedPeople":["佐藤傑"]},{"id":"attr:グローバルなチーム開発","type":"attribute","label":"グローバルなチーム開発","categories":["interest"],"color":"#fb923c","connectedPeople":["佐藤傑"]},{"id":"attr:小型高性能モデルの動向と実用性","type":"attribute","label":"小型高性能モデルの動向と実用性","categories":["interest"],"color":"#fb923c","connectedPeople":["佐藤傑"]},{"id":"attr:mac環境でのai活用","type":"attribute","label":"Mac環境でのAI活用","categories":["interest"],"color":"#fb923c","connectedPeople":["佐藤傑"]},{"id":"attr:deepseek4","type":"attribute","label":"DeepSeek4","categories":["interest"],"color":"#fb923c","connectedPeople":["佐藤傑"]},{"id":"attr:生成aiの活用と進化","type":"attribute","label":"生成AIの活用と進化","categories":["interest"],"color":"#fb923c","connectedPeople":["鈴木悠斗"]},{"id":"attr:ビジネスメール詐欺への注意喚起とセキュリティ","type":"attribute","label":"ビジネスメール詐欺への注意喚起とセキュリティ","categories":["interest"],"color":"#fb923c","connectedPeople":["鈴木悠斗"]},{"id":"attr:リファラル採用と組織の拡大","type":"attribute","label":"リファラル採用と組織の拡大","categories":["interest"],"color":"#fb923c","connectedPeople":["鈴木悠斗"]},{"id":"attr:動物占いのアルゴリズム解析","type":"attribute","label":"動物占いのアルゴリズム解析","categories":["interest"],"color":"#fb923c","connectedPeople":["鈴木悠斗"]},{"id":"attr:日本酒やアニメなどの趣味の話題","type":"attribute","label":"日本酒やアニメなどの趣味の話題","categories":["interest"],"color":"#fb923c","connectedPeople":["鈴木悠斗"]},{"id":"attr:メンバーの仕事の成果や成長","type":"attribute","label":"メンバーの仕事の成果や成長","categories":["interest"],"color":"#fb923c","connectedPeople":["鈴木悠斗"]},{"id":"attr:ai駆動開発の現実と可能性","type":"attribute","label":"AI駆動開発の現実と可能性","categories":["interest"],"color":"#fb923c","connectedPeople":["戸塚直道"]},{"id":"attr:sierの未来と役割","type":"attribute","label":"SIerの未来と役割","categories":["interest"],"color":"#fb923c","connectedPeople":["戸塚直道"]},{"id":"attr:大規模案件獲得戦略","type":"attribute","label":"大規模案件獲得戦略","categories":["interest"],"color":"#fb923c","connectedPeople":["戸塚直道"]},{"id":"attr:自治体案件への参入","type":"attribute","label":"自治体案件への参入","categories":["interest"],"color":"#fb923c","connectedPeople":["戸塚直道"]},{"id":"attr:受託開発営業の強化","type":"attribute","label":"受託開発営業の強化","categories":["interest"],"color":"#fb923c","connectedPeople":["戸塚直道"]},{"id":"attr:メンバー採用と組織拡大","type":"attribute","label":"メンバー採用と組織拡大","categories":["interest"],"color":"#fb923c","connectedPeople":["戸塚直道"]},{"id":"attr:経営層とメンバー間の情報透明性","type":"attribute","label":"経営層とメンバー間の情報透明性","categories":["interest"],"color":"#fb923c","connectedPeople":["戸塚直道"]},{"id":"attr:社内学習の促進と知識共有","type":"attribute","label":"社内学習の促進と知識共有","categories":["interest"],"color":"#fb923c","connectedPeople":["戸塚直道"]},{"id":"attr:社内コミュニケーション","type":"attribute","label":"社内コミュニケーション","categories":["interest"],"color":"#fb923c","connectedPeople":["榎本詩織"]},{"id":"attr:日本酒","type":"attribute","label":"日本酒","categories":["interest"],"color":"#fb923c","connectedPeople":["榎本詩織"]},{"id":"attr:クレーンゲーム","type":"attribute","label":"クレーンゲーム","categories":["interest"],"color":"#fb923c","connectedPeople":["榎本詩織"]},{"id":"attr:ポケモン","type":"attribute","label":"ポケモン","categories":["interest"],"color":"#fb923c","connectedPeople":["榎本詩織"]},{"id":"attr:最新ai技術の深い理解と実践的な応用","type":"attribute","label":"最新AI技術の深い理解と実践的な応用","categories":["motivation"],"color":"#f472b6","connectedPeople":["杉本光一"]},{"id":"attr:自身の提案や仕組みがチームの生産性向上に貢献すること","type":"attribute","label":"自身の提案や仕組みがチームの生産性向上に貢献すること","categories":["motivation"],"color":"#f472b6","connectedPeople":["杉本光一"]},{"id":"attr:新しいメンバーとの交流と共通の話題を見つけること","type":"attribute","label":"新しいメンバーとの交流と共通の話題を見つけること","categories":["motivation"],"color":"#f472b6","connectedPeople":["杉本光一"]},{"id":"attr:会社の成長を実感すること","type":"attribute","label":"会社の成長を実感すること","categories":["motivation"],"color":"#f472b6","connectedPeople":["杉本光一"]},{"id":"attr:家族との時間を充実させること","type":"attribute","label":"家族との時間を充実させること","categories":["motivation"],"color":"#f472b6","connectedPeople":["杉本光一"]},{"id":"attr:新しい知識_技術の習得","type":"attribute","label":"新しい知識・技術の習得","categories":["motivation"],"color":"#f472b6","connectedPeople":["青木淳一郎","小林翔","櫻井志保","榎本詩織"]},{"id":"attr:チームへの貢献","type":"attribute","label":"チームへの貢献","categories":["motivation"],"color":"#f472b6","connectedPeople":["青木淳一郎","櫻井志保","榎本詩織"]},{"id":"attr:人との交流","type":"attribute","label":"人との交流","categories":["motivation"],"color":"#f472b6","connectedPeople":["青木淳一郎"]},{"id":"attr:チームへの貢献と協業","type":"attribute","label":"チームへの貢献と協業","categories":["motivation"],"color":"#f472b6","connectedPeople":["小林翔"]},{"id":"attr:楽しい経験や趣味の追求","type":"attribute","label":"楽しい経験や趣味の追求","categories":["motivation"],"color":"#f472b6","connectedPeople":["小林翔"]},{"id":"attr:共通の興味を持つ人々との交流","type":"attribute","label":"共通の興味を持つ人々との交流","categories":["motivation"],"color":"#f472b6","connectedPeople":["小林翔"]},{"id":"attr:興味を持ったことの詳細な情報共有","type":"attribute","label":"興味を持ったことの詳細な情報共有","categories":["motivation"],"color":"#f472b6","connectedPeople":["小林翔"]},{"id":"attr:専門性の向上","type":"attribute","label":"専門性の向上","categories":["motivation"],"color":"#f472b6","connectedPeople":["櫻井志保"]},{"id":"attr:チームメンバーからの感謝と成長の実感","type":"attribute","label":"チームメンバーからの感謝と成長の実感","categories":["motivation"],"color":"#f472b6","connectedPeople":["田浦裕樹"]},{"id":"attr:自身の知識共有がチームに貢献できたという実感","type":"attribute","label":"自身の知識共有がチームに貢献できたという実感","categories":["motivation"],"color":"#f472b6","connectedPeople":["田浦裕樹"]},{"id":"attr:新しい技術（特にai）の習得と実践","type":"attribute","label":"新しい技術（特にAI）の習得と実践","categories":["motivation"],"color":"#f472b6","connectedPeople":["田浦裕樹"]},{"id":"attr:顧客からの肯定的なフィードバックとプロジェクトの成功","type":"attribute","label":"顧客からの肯定的なフィードバックとプロジェクトの成功","categories":["motivation"],"color":"#f472b6","connectedPeople":["田浦裕樹"]},{"id":"attr:saitekiのmvvへの共感と貢献","type":"attribute","label":"SaitekiのMVVへの共感と貢献","categories":["motivation"],"color":"#f472b6","connectedPeople":["田浦裕樹"]},{"id":"attr:新しい技術への挑戦と実践、未知の領域の開拓","type":"attribute","label":"新しい技術への挑戦と実践、未知の領域の開拓","categories":["motivation"],"color":"#f472b6","connectedPeople":["開米 敦則"]},{"id":"attr:業務効率の改善と最適なツール選定","type":"attribute","label":"業務効率の改善と最適なツール選定","categories":["motivation"],"color":"#f472b6","connectedPeople":["開米 敦則"]},{"id":"attr:チームへの貢献と協業、情報共有","type":"attribute","label":"チームへの貢献と協業、情報共有","categories":["motivation"],"color":"#f472b6","connectedPeople":["開米 敦則"]},{"id":"attr:人との意見交換を通じたスキルアップと知識の深化","type":"attribute","label":"人との意見交換を通じたスキルアップと知識の深化","categories":["motivation"],"color":"#f472b6","connectedPeople":["開米 敦則"]},{"id":"attr:新しい知識や技術の習得と共有","type":"attribute","label":"新しい知識や技術の習得と共有","categories":["motivation"],"color":"#f472b6","connectedPeople":["貴志雪乃"]},{"id":"attr:組織やチームへの具体的な貢献","type":"attribute","label":"組織やチームへの具体的な貢献","categories":["motivation"],"color":"#f472b6","connectedPeople":["貴志雪乃"]},{"id":"attr:周囲からの感謝やポジティブな反応","type":"attribute","label":"周囲からの感謝やポジティブな反応","categories":["motivation"],"color":"#f472b6","connectedPeople":["貴志雪乃"]},{"id":"attr:メンバー間の交流や一体感の促進","type":"attribute","label":"メンバー間の交流や一体感の促進","categories":["motivation"],"color":"#f472b6","connectedPeople":["貴志雪乃"]},{"id":"attr:他者の成功や貢献を認識し、称賛すること","type":"attribute","label":"他者の成功や貢献を認識し、称賛すること","categories":["motivation"],"color":"#f472b6","connectedPeople":["貴志雪乃"]},{"id":"attr:新しい技術の習得と実践","type":"attribute","label":"新しい技術の習得と実践","categories":["motivation"],"color":"#f472b6","connectedPeople":["上遼太郎","佐藤傑"]},{"id":"attr:スキルアップと自己成長","type":"attribute","label":"スキルアップと自己成長","categories":["motivation"],"color":"#f472b6","connectedPeople":["上遼太郎"]},{"id":"attr:チームへの具体的な貢献","type":"attribute","label":"チームへの具体的な貢献","categories":["motivation"],"color":"#f472b6","connectedPeople":["上遼太郎"]},{"id":"attr:技術的な課題解決と改善","type":"attribute","label":"技術的な課題解決と改善","categories":["motivation"],"color":"#f472b6","connectedPeople":["上遼太郎"]},{"id":"attr:他者との交流と学び","type":"attribute","label":"他者との交流と学び","categories":["motivation"],"color":"#f472b6","connectedPeople":["上遼太郎"]},{"id":"attr:現状打破","type":"attribute","label":"現状打破","categories":["motivation"],"color":"#f472b6","connectedPeople":["小松田真伍"]},{"id":"attr:技術革新","type":"attribute","label":"技術革新","categories":["motivation"],"color":"#f472b6","connectedPeople":["小松田真伍"]},{"id":"attr:社会課題解決","type":"attribute","label":"社会課題解決","categories":["motivation"],"color":"#f472b6","connectedPeople":["小松田真伍"]},{"id":"attr:地域貢献","type":"attribute","label":"地域貢献","categories":["motivation"],"color":"#f472b6","connectedPeople":["小松田真伍"]},{"id":"attr:周囲からの感謝や肯定的な反応","type":"attribute","label":"周囲からの感謝や肯定的な反応","categories":["motivation"],"color":"#f472b6","connectedPeople":["小島遼祐"]},{"id":"attr:新しい知識の習得とスキルの向上","type":"attribute","label":"新しい知識の習得とスキルの向上","categories":["motivation"],"color":"#f472b6","connectedPeople":["小島遼祐"]},{"id":"attr:チームへの貢献と成功","type":"attribute","label":"チームへの貢献と成功","categories":["motivation"],"color":"#f472b6","connectedPeople":["小島遼祐"]},{"id":"attr:共通の関心事を通じた良好な人間関係","type":"attribute","label":"共通の関心事を通じた良好な人間関係","categories":["motivation"],"color":"#f472b6","connectedPeople":["小島遼祐"]},{"id":"attr:自己の成長実感","type":"attribute","label":"自己の成長実感","categories":["motivation"],"color":"#f472b6","connectedPeople":["小島遼祐"]},{"id":"attr:他者との共感_交流","type":"attribute","label":"他者との共感・交流","categories":["motivation"],"color":"#f472b6","connectedPeople":["藤井芙美子"]},{"id":"attr:組織への貢献実感","type":"attribute","label":"組織への貢献実感","categories":["motivation"],"color":"#f472b6","connectedPeople":["藤井芙美子"]},{"id":"attr:良好な人間関係","type":"attribute","label":"良好な人間関係","categories":["motivation"],"color":"#f472b6","connectedPeople":["藤井芙美子"]},{"id":"attr:感謝の言葉","type":"attribute","label":"感謝の言葉","categories":["motivation"],"color":"#f472b6","connectedPeople":["藤井芙美子"]},{"id":"attr:開発者としての能力回復と向上","type":"attribute","label":"開発者としての能力回復と向上","categories":["motivation"],"color":"#f472b6","connectedPeople":["菅野聖也"]},{"id":"attr:チームメンバーとの協働によるシステム開発","type":"attribute","label":"チームメンバーとの協働によるシステム開発","categories":["motivation"],"color":"#f472b6","connectedPeople":["菅野聖也"]},{"id":"attr:aiを活用した新しい働き方や効率化の実現","type":"attribute","label":"AIを活用した新しい働き方や効率化の実現","categories":["motivation"],"color":"#f472b6","connectedPeople":["菅野聖也"]},{"id":"attr:読書などによる知的好奇心の充足と知識の獲得","type":"attribute","label":"読書などによる知的好奇心の充足と知識の獲得","categories":["motivation"],"color":"#f472b6","connectedPeople":["菅野聖也"]},{"id":"attr:海外での多様な経験と異文化交流","type":"attribute","label":"海外での多様な経験と異文化交流","categories":["motivation"],"color":"#f472b6","connectedPeople":["佐藤傑"]},{"id":"attr:チームとの共創と具体的な成果創出","type":"attribute","label":"チームとの共創と具体的な成果創出","categories":["motivation"],"color":"#f472b6","connectedPeople":["佐藤傑"]},{"id":"attr:ハッカソンでのアウトプット創出","type":"attribute","label":"ハッカソンでのアウトプット創出","categories":["motivation"],"color":"#f472b6","connectedPeople":["佐藤傑"]},{"id":"attr:会社の目標達成と拡大","type":"attribute","label":"会社の目標達成と拡大","categories":["motivation"],"color":"#f472b6","connectedPeople":["鈴木悠斗"]},{"id":"attr:新しい技術や知識の習得と応用","type":"attribute","label":"新しい技術や知識の習得と応用","categories":["motivation"],"color":"#f472b6","connectedPeople":["鈴木悠斗"]},{"id":"attr:チームメンバーの成功と評価","type":"attribute","label":"チームメンバーの成功と評価","categories":["motivation"],"color":"#f472b6","connectedPeople":["鈴木悠斗"]},{"id":"attr:課題解決と組織の改善","type":"attribute","label":"課題解決と組織の改善","categories":["motivation"],"color":"#f472b6","connectedPeople":["鈴木悠斗"]},{"id":"attr:明確なビジョンの達成","type":"attribute","label":"明確なビジョンの達成","categories":["motivation"],"color":"#f472b6","connectedPeople":["戸塚直道"]},{"id":"attr:社員の成長と活躍","type":"attribute","label":"社員の成長と活躍","categories":["motivation"],"color":"#f472b6","connectedPeople":["戸塚直道"]},{"id":"attr:資金調達による事業加速","type":"attribute","label":"資金調達による事業加速","categories":["motivation"],"color":"#f472b6","connectedPeople":["戸塚直道"]},{"id":"attr:新しい技術やビジネスモデルの探求と実践","type":"attribute","label":"新しい技術やビジネスモデルの探求と実践","categories":["motivation"],"color":"#f472b6","connectedPeople":["戸塚直道"]},{"id":"attr:社会への影響力拡大","type":"attribute","label":"社会への影響力拡大","categories":["motivation"],"color":"#f472b6","connectedPeople":["戸塚直道"]},{"id":"attr:社内での学びの共有と実践","type":"attribute","label":"社内での学びの共有と実践","categories":["motivation"],"color":"#f472b6","connectedPeople":["戸塚直道"]},{"id":"attr:社内の人々と交流し、共に働くこと","type":"attribute","label":"社内の人々と交流し、共に働くこと","categories":["motivation"],"color":"#f472b6","connectedPeople":["榎本詩織"]},{"id":"attr:自己成長の実感","type":"attribute","label":"自己成長の実感","categories":["motivation"],"color":"#f472b6","connectedPeople":["榎本詩織"]}],"edges":[{"source":"person:杉本光一","target":"attr:ai技術の深い知見と実践的な応用力","type":"HAS_SKILL","weight":1},{"source":"person:杉本光一","target":"attr:開発プロセス全体の最適化と仕組み化","type":"HAS_SKILL","weight":1},{"source":"person:杉本光一","target":"attr:情報共有とナレッジマネジメントの推進","type":"HAS_SKILL","weight":1},{"source":"person:杉本光一","target":"attr:変化への柔軟な対応と戦略的思考","type":"HAS_SKILL","weight":1},{"source":"person:杉本光一","target":"attr:丁寧で建設的なコミュニケーション","type":"HAS_SKILL","weight":1},{"source":"person:青木淳一郎","target":"attr:インフラ設計_構築スキル","type":"HAS_SKILL","weight":1},{"source":"person:青木淳一郎","target":"attr:学習意欲","type":"HAS_SKILL","weight":1},{"source":"person:青木淳一郎","target":"attr:コミュニケーション","type":"HAS_SKILL","weight":1},{"source":"person:青木淳一郎","target":"attr:責任感","type":"HAS_SKILL","weight":1},{"source":"person:小林翔","target":"attr:テスト_品質管理経験","type":"HAS_SKILL","weight":1},{"source":"person:小林翔","target":"attr:コミュニケーション","type":"HAS_SKILL","weight":1},{"source":"person:小林翔","target":"attr:情報収集","type":"HAS_SKILL","weight":1},{"source":"person:小林翔","target":"attr:状況説明能力","type":"HAS_SKILL","weight":1},{"source":"person:小林翔","target":"attr:協調性","type":"HAS_SKILL","weight":1},{"source":"person:櫻井志保","target":"attr:データ分析","type":"HAS_SKILL","weight":1},{"source":"person:櫻井志保","target":"attr:学習意欲","type":"HAS_SKILL","weight":1},{"source":"person:櫻井志保","target":"attr:コミュニケーション","type":"HAS_SKILL","weight":1},{"source":"person:田浦裕樹","target":"attr:開発プロセス全体（要件定義〜実装）への深い知見と標準化への貢献","type":"HAS_SKILL","weight":1},{"source":"person:田浦裕樹","target":"attr:ai駆動開発の実践と知識共有","type":"HAS_SKILL","weight":1},{"source":"person:田浦裕樹","target":"attr:アジャイルなプロジェクト推進と問題解決","type":"HAS_SKILL","weight":1},{"source":"person:田浦裕樹","target":"attr:顧客視点での課題解決と安心感の提供","type":"HAS_SKILL","weight":1},{"source":"person:田浦裕樹","target":"attr:チーム立ち上げ_品質改善","type":"HAS_SKILL","weight":1},{"source":"person:開米 敦則","target":"attr:qaエンジニアリングの専門知識と20年の経験","type":"HAS_SKILL","weight":1},{"source":"person:開米 敦則","target":"attr:ai技術の知識と業務適用能力（特にテスト領域）","type":"HAS_SKILL","weight":1},{"source":"person:開米 敦則","target":"attr:プロンプトエンジニアリングの理解と実践意欲","type":"HAS_SKILL","weight":1},{"source":"person:開米 敦則","target":"attr:情報共有とドキュメンテーション能力、改善提案","type":"HAS_SKILL","weight":1},{"source":"person:開米 敦則","target":"attr:テスト自動化ツールの選定_比較検討とプロセスへの組み込み","type":"HAS_SKILL","weight":1},{"source":"person:貴志雪乃","target":"attr:情報収集_共有力","type":"HAS_SKILL","weight":1},{"source":"person:貴志雪乃","target":"attr:企画_実行力","type":"HAS_SKILL","weight":1},{"source":"person:貴志雪乃","target":"attr:コミュニケーション","type":"HAS_SKILL","weight":1},{"source":"person:貴志雪乃","target":"attr:コミュニティ形成力","type":"HAS_SKILL","weight":1},{"source":"person:貴志雪乃","target":"attr:他者貢献_協調性","type":"HAS_SKILL","weight":1},{"source":"person:上遼太郎","target":"attr:学習意欲","type":"HAS_SKILL","weight":1},{"source":"person:上遼太郎","target":"attr:実践的ai活用","type":"HAS_SKILL","weight":1},{"source":"person:上遼太郎","target":"attr:設計_構造化能力","type":"HAS_SKILL","weight":1},{"source":"person:上遼太郎","target":"attr:協調性","type":"HAS_SKILL","weight":1},{"source":"person:上遼太郎","target":"attr:情報共有","type":"HAS_SKILL","weight":1},{"source":"person:上遼太郎","target":"attr:品質志向","type":"HAS_SKILL","weight":1},{"source":"person:小松田真伍","target":"attr:問題解決","type":"HAS_SKILL","weight":1},{"source":"person:小松田真伍","target":"attr:協調性","type":"HAS_SKILL","weight":1},{"source":"person:小松田真伍","target":"attr:貢献意欲","type":"HAS_SKILL","weight":1},{"source":"person:小松田真伍","target":"attr:学習意欲","type":"HAS_SKILL","weight":1},{"source":"person:小松田真伍","target":"attr:変革志向","type":"HAS_SKILL","weight":1},{"source":"person:小松田真伍","target":"attr:実行力","type":"HAS_SKILL","weight":1},{"source":"person:小松田真伍","target":"attr:情報共有","type":"HAS_SKILL","weight":1},{"source":"person:小島遼祐","target":"attr:学習意欲","type":"HAS_SKILL","weight":1},{"source":"person:小島遼祐","target":"attr:プロアクティブなコミュニケーション能力","type":"HAS_SKILL","weight":1},{"source":"person:小島遼祐","target":"attr:協調性","type":"HAS_SKILL","weight":1},{"source":"person:小島遼祐","target":"attr:貢献意欲","type":"HAS_SKILL","weight":1},{"source":"person:小島遼祐","target":"attr:責任感","type":"HAS_SKILL","weight":1},{"source":"person:小島遼祐","target":"attr:関係構築力","type":"HAS_SKILL","weight":1},{"source":"person:藤井芙美子","target":"attr:適応力","type":"HAS_SKILL","weight":1},{"source":"person:藤井芙美子","target":"attr:学習意欲","type":"HAS_SKILL","weight":1},{"source":"person:藤井芙美子","target":"attr:協調性","type":"HAS_SKILL","weight":1},{"source":"person:藤井芙美子","target":"attr:貢献意欲","type":"HAS_SKILL","weight":1},{"source":"person:藤井芙美子","target":"attr:人間関係構築力","type":"HAS_SKILL","weight":1},{"source":"person:藤井芙美子","target":"attr:観察力","type":"HAS_SKILL","weight":1},{"source":"person:菅野聖也","target":"attr:技術的なスキル（vb.net,_java）","type":"HAS_SKILL","weight":1},{"source":"person:菅野聖也","target":"attr:品質管理の経験と視点","type":"HAS_SKILL","weight":1},{"source":"person:菅野聖也","target":"attr:ai活用スキルと探求心","type":"HAS_SKILL","weight":1},{"source":"person:菅野聖也","target":"attr:旺盛な学習意欲と知識応用力","type":"HAS_SKILL","weight":1},{"source":"person:菅野聖也","target":"attr:工夫を凝らすコーディングへの興味","type":"HAS_SKILL","weight":1},{"source":"person:佐藤傑","target":"attr:起業家精神","type":"HAS_SKILL","weight":1},{"source":"person:佐藤傑","target":"attr:ai知識","type":"HAS_SKILL","weight":1},{"source":"person:佐藤傑","target":"attr:グローバルな視点","type":"HAS_SKILL","weight":1},{"source":"person:佐藤傑","target":"attr:アウトプット志向","type":"HAS_SKILL","weight":1},{"source":"person:佐藤傑","target":"attr:実践力","type":"HAS_SKILL","weight":1},{"source":"person:佐藤傑","target":"attr:協調的リーダーシップ","type":"HAS_SKILL","weight":1},{"source":"person:鈴木悠斗","target":"attr:リスク管理と危機意識","type":"HAS_SKILL","weight":1},{"source":"person:鈴木悠斗","target":"attr:組織の成長推進とリーダーシップ","type":"HAS_SKILL","weight":1},{"source":"person:鈴木悠斗","target":"attr:最新技術の活用と業務改善","type":"HAS_SKILL","weight":1},{"source":"person:鈴木悠斗","target":"attr:メンバーの能力評価と育成支援","type":"HAS_SKILL","weight":1},{"source":"person:鈴木悠斗","target":"attr:建設的なフィードバック能力","type":"HAS_SKILL","weight":1},{"source":"person:戸塚直道","target":"attr:リーダーシップ","type":"HAS_SKILL","weight":1},{"source":"person:戸塚直道","target":"attr:戦略的思考","type":"HAS_SKILL","weight":1},{"source":"person:戸塚直道","target":"attr:問題解決","type":"HAS_SKILL","weight":1},{"source":"person:戸塚直道","target":"attr:組織牽引力","type":"HAS_SKILL","weight":1},{"source":"person:戸塚直道","target":"attr:実行力","type":"HAS_SKILL","weight":1},{"source":"person:戸塚直道","target":"attr:採用力","type":"HAS_SKILL","weight":1},{"source":"person:戸塚直道","target":"attr:学習促進","type":"HAS_SKILL","weight":1},{"source":"person:榎本詩織","target":"attr:学習意欲","type":"HAS_SKILL","weight":1},{"source":"person:榎本詩織","target":"attr:コミュニケーション","type":"HAS_SKILL","weight":1},{"source":"person:榎本詩織","target":"attr:適応力","type":"HAS_SKILL","weight":1},{"source":"person:榎本詩織","target":"attr:協調性","type":"HAS_SKILL","weight":1},{"source":"person:榎本詩織","target":"attr:多様な経験","type":"HAS_SKILL","weight":1},{"source":"person:杉本光一","target":"attr:技術革新と探求_(特にai)","type":"VALUES","weight":1},{"source":"person:杉本光一","target":"attr:組織_チームへの貢献","type":"VALUES","weight":1},{"source":"person:杉本光一","target":"attr:自己成長と学習","type":"VALUES","weight":1},{"source":"person:杉本光一","target":"attr:チームワークと協調性","type":"VALUES","weight":1},{"source":"person:杉本光一","target":"attr:家族とのバランス","type":"VALUES","weight":1},{"source":"person:青木淳一郎","target":"attr:家族","type":"VALUES","weight":1},{"source":"person:青木淳一郎","target":"attr:成長","type":"VALUES","weight":1},{"source":"person:青木淳一郎","target":"attr:貢献","type":"VALUES","weight":1},{"source":"person:青木淳一郎","target":"attr:責任","type":"VALUES","weight":1},{"source":"person:小林翔","target":"attr:成長","type":"VALUES","weight":1},{"source":"person:小林翔","target":"attr:楽しさ","type":"VALUES","weight":1},{"source":"person:小林翔","target":"attr:探求","type":"VALUES","weight":1},{"source":"person:小林翔","target":"attr:繋がり","type":"VALUES","weight":1},{"source":"person:櫻井志保","target":"attr:成長","type":"VALUES","weight":1},{"source":"person:櫻井志保","target":"attr:貢献","type":"VALUES","weight":1},{"source":"person:櫻井志保","target":"attr:協調性","type":"VALUES","weight":1},{"source":"person:田浦裕樹","target":"attr:チームワーク","type":"VALUES","weight":1},{"source":"person:田浦裕樹","target":"attr:継続的な学習と技術革新への挑戦","type":"VALUES","weight":1},{"source":"person:田浦裕樹","target":"attr:顧客満足と貢献","type":"VALUES","weight":1},{"source":"person:田浦裕樹","target":"attr:誠実さ","type":"VALUES","weight":1},{"source":"person:田浦裕樹","target":"attr:知識共有","type":"VALUES","weight":1},{"source":"person:田浦裕樹","target":"attr:家族","type":"VALUES","weight":1},{"source":"person:開米 敦則","target":"attr:効率性","type":"VALUES","weight":1},{"source":"person:開米 敦則","target":"attr:学習_成長","type":"VALUES","weight":1},{"source":"person:開米 敦則","target":"attr:貢献","type":"VALUES","weight":1},{"source":"person:開米 敦則","target":"attr:協調性","type":"VALUES","weight":1},{"source":"person:開米 敦則","target":"attr:探求心","type":"VALUES","weight":1},{"source":"person:貴志雪乃","target":"attr:貢献","type":"VALUES","weight":1},{"source":"person:貴志雪乃","target":"attr:成長","type":"VALUES","weight":1},{"source":"person:貴志雪乃","target":"attr:協調性","type":"VALUES","weight":1},{"source":"person:貴志雪乃","target":"attr:コミュニティ","type":"VALUES","weight":1},{"source":"person:貴志雪乃","target":"attr:周囲からの感謝","type":"VALUES","weight":1},{"source":"person:貴志雪乃","target":"attr:家族","type":"VALUES","weight":1},{"source":"person:上遼太郎","target":"attr:挑戦","type":"VALUES","weight":1},{"source":"person:上遼太郎","target":"attr:成長","type":"VALUES","weight":1},{"source":"person:上遼太郎","target":"attr:貢献","type":"VALUES","weight":1},{"source":"person:上遼太郎","target":"attr:効率性","type":"VALUES","weight":1},{"source":"person:上遼太郎","target":"attr:品質","type":"VALUES","weight":1},{"source":"person:小松田真伍","target":"attr:貢献","type":"VALUES","weight":1},{"source":"person:小松田真伍","target":"attr:成長","type":"VALUES","weight":1},{"source":"person:小松田真伍","target":"attr:変革","type":"VALUES","weight":1},{"source":"person:小松田真伍","target":"attr:効率化","type":"VALUES","weight":1},{"source":"person:小松田真伍","target":"attr:公正性","type":"VALUES","weight":1},{"source":"person:小松田真伍","target":"attr:影響力","type":"VALUES","weight":1},{"source":"person:小松田真伍","target":"attr:社会貢献","type":"VALUES","weight":1},{"source":"person:小松田真伍","target":"attr:地域活性化","type":"VALUES","weight":1},{"source":"person:小島遼祐","target":"attr:成長","type":"VALUES","weight":1},{"source":"person:小島遼祐","target":"attr:貢献","type":"VALUES","weight":1},{"source":"person:小島遼祐","target":"attr:責任","type":"VALUES","weight":1},{"source":"person:小島遼祐","target":"attr:探究心","type":"VALUES","weight":1},{"source":"person:藤井芙美子","target":"attr:成長","type":"VALUES","weight":1},{"source":"person:藤井芙美子","target":"attr:貢献","type":"VALUES","weight":1},{"source":"person:藤井芙美子","target":"attr:周囲からの感謝","type":"VALUES","weight":1},{"source":"person:藤井芙美子","target":"attr:家族","type":"VALUES","weight":1},{"source":"person:菅野聖也","target":"attr:技術的成長とスキル向上","type":"VALUES","weight":1},{"source":"person:菅野聖也","target":"attr:チームワークと貢献","type":"VALUES","weight":1},{"source":"person:菅野聖也","target":"attr:新しい知識の探求と学習","type":"VALUES","weight":1},{"source":"person:菅野聖也","target":"attr:ai技術の積極的活用","type":"VALUES","weight":1},{"source":"person:佐藤傑","target":"attr:成長","type":"VALUES","weight":1},{"source":"person:佐藤傑","target":"attr:貢献","type":"VALUES","weight":1},{"source":"person:佐藤傑","target":"attr:共創","type":"VALUES","weight":1},{"source":"person:佐藤傑","target":"attr:アウトプット","type":"VALUES","weight":1},{"source":"person:佐藤傑","target":"attr:実践","type":"VALUES","weight":1},{"source":"person:佐藤傑","target":"attr:探求","type":"VALUES","weight":1},{"source":"person:鈴木悠斗","target":"attr:自己と組織の成長","type":"VALUES","weight":1},{"source":"person:鈴木悠斗","target":"attr:貢献と責任","type":"VALUES","weight":1},{"source":"person:鈴木悠斗","target":"attr:チームワークと協調","type":"VALUES","weight":1},{"source":"person:鈴木悠斗","target":"attr:技術革新と活用","type":"VALUES","weight":1},{"source":"person:戸塚直道","target":"attr:業界変革","type":"VALUES","weight":1},{"source":"person:戸塚直道","target":"attr:エンジニアの待遇改善","type":"VALUES","weight":1},{"source":"person:戸塚直道","target":"attr:組織の成長","type":"VALUES","weight":1},{"source":"person:戸塚直道","target":"attr:メンバーの成功","type":"VALUES","weight":1},{"source":"person:戸塚直道","target":"attr:貢献","type":"VALUES","weight":1},{"source":"person:戸塚直道","target":"attr:透明性","type":"VALUES","weight":1},{"source":"person:戸塚直道","target":"attr:学習と実践","type":"VALUES","weight":1},{"source":"person:戸塚直道","target":"attr:社会貢献","type":"VALUES","weight":1},{"source":"person:榎本詩織","target":"attr:チームワーク","type":"VALUES","weight":1},{"source":"person:榎本詩織","target":"attr:成長","type":"VALUES","weight":1},{"source":"person:榎本詩織","target":"attr:社内のつながり","type":"VALUES","weight":1},{"source":"person:杉本光一","target":"attr:最新aiモデル（gemini3）の性能評価と活用","type":"INTERESTED_IN","weight":1},{"source":"person:杉本光一","target":"attr:ai開発ガイドラインの具体的な策定と社内展開（特に非エンジニア向け）","type":"INTERESTED_IN","weight":1},{"source":"person:杉本光一","target":"attr:rag技術と書籍推薦システムへの応用とデータ蓄積の促進","type":"INTERESTED_IN","weight":1},{"source":"person:杉本光一","target":"attr:ai搭載ide_(antigravity,_cursor,_stagewise)_の比較と導入_評価","type":"INTERESTED_IN","weight":1},{"source":"person:杉本光一","target":"attr:notionを活用したタスク管理と情報共有効率化（タスク粒度、見積もり、ワークフロー）","type":"INTERESTED_IN","weight":1},{"source":"person:杉本光一","target":"attr:ローカルai推論処理の可能性とハードウェア要件","type":"INTERESTED_IN","weight":1},{"source":"person:杉本光一","target":"attr:llm_as_a_judgeなど、aiモデルの評価_比較手法","type":"INTERESTED_IN","weight":1},{"source":"person:杉本光一","target":"attr:nextjs16のmcpサーバーや自律操作への応用","type":"INTERESTED_IN","weight":1},{"source":"person:杉本光一","target":"attr:家族との時間、子供の成長、ゲーム、漫画、映画といった個人的な趣味","type":"INTERESTED_IN","weight":1},{"source":"person:青木淳一郎","target":"attr:saitekiメンバーの入社経緯","type":"INTERESTED_IN","weight":1},{"source":"person:青木淳一郎","target":"attr:京都旅行","type":"INTERESTED_IN","weight":1},{"source":"person:青木淳一郎","target":"attr:2025年の振り返りと2026年への期待","type":"INTERESTED_IN","weight":1},{"source":"person:青木淳一郎","target":"attr:biツールの知識習得","type":"INTERESTED_IN","weight":1},{"source":"person:小林翔","target":"attr:ゲーム（メダルゲーム、balatro,_slay_the_spire,_cloverpit）","type":"INTERESTED_IN","weight":1},{"source":"person:小林翔","target":"attr:旅行（特に北海道グルメ、ニシンの塩焼き、神社仏閣、アニメ舞台）","type":"INTERESTED_IN","weight":1},{"source":"person:小林翔","target":"attr:海鮮料理","type":"INTERESTED_IN","weight":1},{"source":"person:小林翔","target":"attr:新しい職場の人間関係","type":"INTERESTED_IN","weight":1},{"source":"person:小林翔","target":"attr:ゲーム部創設","type":"INTERESTED_IN","weight":1},{"source":"person:櫻井志保","target":"attr:データベース構築","type":"INTERESTED_IN","weight":1},{"source":"person:櫻井志保","target":"attr:資格取得","type":"INTERESTED_IN","weight":1},{"source":"person:櫻井志保","target":"attr:slackを通じたコミュニケーション","type":"INTERESTED_IN","weight":1},{"source":"person:田浦裕樹","target":"attr:poc_(proof_of_concept)","type":"INTERESTED_IN","weight":1},{"source":"person:田浦裕樹","target":"attr:要件定義と開発プロセス標準化","type":"INTERESTED_IN","weight":1},{"source":"person:田浦裕樹","target":"attr:ai駆動開発と技術応用","type":"INTERESTED_IN","weight":1},{"source":"person:田浦裕樹","target":"attr:android_tvアプリ開発","type":"INTERESTED_IN","weight":1},{"source":"person:田浦裕樹","target":"attr:顧客との商談_クライアントワーク","type":"INTERESTED_IN","weight":1},{"source":"person:田浦裕樹","target":"attr:音楽（特にチェロ、羊文学）","type":"INTERESTED_IN","weight":1},{"source":"person:田浦裕樹","target":"attr:ゴッホ展","type":"INTERESTED_IN","weight":1},{"source":"person:開米 敦則","target":"attr:qaにおけるaiツールの選定と活用方法","type":"INTERESTED_IN","weight":1},{"source":"person:開米 敦則","target":"attr:プロンプトエンジニアリングの最適化とフォーマットの重要性","type":"INTERESTED_IN","weight":1},{"source":"person:開米 敦則","target":"attr:テスト自動化ツールの比較と適用フェーズ","type":"INTERESTED_IN","weight":1},{"source":"person:開米 敦則","target":"attr:情報共有とドキュメンテーションの改善、フィードバックの取り入れ","type":"INTERESTED_IN","weight":1},{"source":"person:開米 敦則","target":"attr:人とaiの具体的な作業領域の分担","type":"INTERESTED_IN","weight":1},{"source":"person:貴志雪乃","target":"attr:ai技術","type":"INTERESTED_IN","weight":1},{"source":"person:貴志雪乃","target":"attr:上場企業経営者のビジネス論","type":"INTERESTED_IN","weight":1},{"source":"person:貴志雪乃","target":"attr:qaと開発のプロセス","type":"INTERESTED_IN","weight":1},{"source":"person:貴志雪乃","target":"attr:オンラインイベント企画_運営（オンライン飲み会、映画鑑賞会など）","type":"INTERESTED_IN","weight":1},{"source":"person:貴志雪乃","target":"attr:採用活動_新入社員オンボーディング","type":"INTERESTED_IN","weight":1},{"source":"person:貴志雪乃","target":"attr:映画鑑賞（社会派ドキュメンタリー含む）","type":"INTERESTED_IN","weight":1},{"source":"person:貴志雪乃","target":"attr:ご当地スーパー","type":"INTERESTED_IN","weight":1},{"source":"person:貴志雪乃","target":"attr:鬼滅の刃","type":"INTERESTED_IN","weight":1},{"source":"person:貴志雪乃","target":"attr:性格診断テスト","type":"INTERESTED_IN","weight":1},{"source":"person:上遼太郎","target":"attr:aiを活用した開発_設計（gemini,_stagewise,_cursor）","type":"INTERESTED_IN","weight":1},{"source":"person:上遼太郎","target":"attr:設計書の品質と効率化（markdown,_スタイリング、粒度）","type":"INTERESTED_IN","weight":1},{"source":"person:上遼太郎","target":"attr:チーム内での情報共有と協力（notion活用、画面共有）","type":"INTERESTED_IN","weight":1},{"source":"person:上遼太郎","target":"attr:自身のスキルアップと学習（営業力、要件伝達スキル）","type":"INTERESTED_IN","weight":1},{"source":"person:上遼太郎","target":"attr:ラーメン_つけ麺など食に関する話題","type":"INTERESTED_IN","weight":1},{"source":"person:小松田真伍","target":"attr:ai駆動開発_(warp,_antigravity,_claudecode,_cursor,_google_ai_studio,_mcp)","type":"INTERESTED_IN","weight":1},{"source":"person:小松田真伍","target":"attr:ナレッジdb/notion/rag","type":"INTERESTED_IN","weight":1},{"source":"person:小松田真伍","target":"attr:qaと開発プロセスの改善_(doc_as_a_code)","type":"INTERESTED_IN","weight":1},{"source":"person:小松田真伍","target":"attr:sierの評価軸と業界変革","type":"INTERESTED_IN","weight":1},{"source":"person:小島遼祐","target":"attr:ビジネス書（特に推薦を求めるもの）","type":"INTERESTED_IN","weight":1},{"source":"person:小島遼祐","target":"attr:アニメ（葬送のフリーレンや一般的なアニメ全般）","type":"INTERESTED_IN","weight":1},{"source":"person:小島遼祐","target":"attr:将棋","type":"INTERESTED_IN","weight":1},{"source":"person:小島遼祐","target":"attr:ポケモン（ゲーム_カード）","type":"INTERESTED_IN","weight":1},{"source":"person:小島遼祐","target":"attr:ラーメン","type":"INTERESTED_IN","weight":1},{"source":"person:小島遼祐","target":"attr:同僚との共通の出身地や趣味","type":"INTERESTED_IN","weight":1},{"source":"person:藤井芙美子","target":"attr:ゴールデンカムイ","type":"INTERESTED_IN","weight":1},{"source":"person:藤井芙美子","target":"attr:usjのアトラクション","type":"INTERESTED_IN","weight":1},{"source":"person:藤井芙美子","target":"attr:道の駅、ご当地スーパー、デパ地下","type":"INTERESTED_IN","weight":1},{"source":"person:藤井芙美子","target":"attr:子供の成長と育児","type":"INTERESTED_IN","weight":1},{"source":"person:藤井芙美子","target":"attr:交通機関の状況","type":"INTERESTED_IN","weight":1},{"source":"person:藤井芙美子","target":"attr:職場での同僚の行動","type":"INTERESTED_IN","weight":1},{"source":"person:藤井芙美子","target":"attr:過去の流行","type":"INTERESTED_IN","weight":1},{"source":"person:菅野聖也","target":"attr:ai技術の活用（旅行計画、献立作成、コード生成）","type":"INTERESTED_IN","weight":1},{"source":"person:菅野聖也","target":"attr:読書（『コーヒーの化学』、『君は戦略を立てることができるか』など幅広いジャンル）","type":"INTERESTED_IN","weight":1},{"source":"person:菅野聖也","target":"attr:コードの書き方や工夫","type":"INTERESTED_IN","weight":1},{"source":"person:菅野聖也","target":"attr:チームメンバーとの交流と協力","type":"INTERESTED_IN","weight":1},{"source":"person:佐藤傑","target":"attr:海外aiスタートアップ","type":"INTERESTED_IN","weight":1},{"source":"person:佐藤傑","target":"attr:グローバルなチーム開発","type":"INTERESTED_IN","weight":1},{"source":"person:佐藤傑","target":"attr:小型高性能モデルの動向と実用性","type":"INTERESTED_IN","weight":1},{"source":"person:佐藤傑","target":"attr:mac環境でのai活用","type":"INTERESTED_IN","weight":1},{"source":"person:佐藤傑","target":"attr:deepseek4","type":"INTERESTED_IN","weight":1},{"source":"person:鈴木悠斗","target":"attr:生成aiの活用と進化","type":"INTERESTED_IN","weight":1},{"source":"person:鈴木悠斗","target":"attr:ビジネスメール詐欺への注意喚起とセキュリティ","type":"INTERESTED_IN","weight":1},{"source":"person:鈴木悠斗","target":"attr:リファラル採用と組織の拡大","type":"INTERESTED_IN","weight":1},{"source":"person:鈴木悠斗","target":"attr:動物占いのアルゴリズム解析","type":"INTERESTED_IN","weight":1},{"source":"person:鈴木悠斗","target":"attr:日本酒やアニメなどの趣味の話題","type":"INTERESTED_IN","weight":1},{"source":"person:鈴木悠斗","target":"attr:メンバーの仕事の成果や成長","type":"INTERESTED_IN","weight":1},{"source":"person:戸塚直道","target":"attr:ai駆動開発の現実と可能性","type":"INTERESTED_IN","weight":1},{"source":"person:戸塚直道","target":"attr:sierの未来と役割","type":"INTERESTED_IN","weight":1},{"source":"person:戸塚直道","target":"attr:大規模案件獲得戦略","type":"INTERESTED_IN","weight":1},{"source":"person:戸塚直道","target":"attr:自治体案件への参入","type":"INTERESTED_IN","weight":1},{"source":"person:戸塚直道","target":"attr:受託開発営業の強化","type":"INTERESTED_IN","weight":1},{"source":"person:戸塚直道","target":"attr:メンバー採用と組織拡大","type":"INTERESTED_IN","weight":1},{"source":"person:戸塚直道","target":"attr:経営層とメンバー間の情報透明性","type":"INTERESTED_IN","weight":1},{"source":"person:戸塚直道","target":"attr:社内学習の促進と知識共有","type":"INTERESTED_IN","weight":1},{"source":"person:榎本詩織","target":"attr:社内コミュニケーション","type":"INTERESTED_IN","weight":1},{"source":"person:榎本詩織","target":"attr:日本酒","type":"INTERESTED_IN","weight":1},{"source":"person:榎本詩織","target":"attr:クレーンゲーム","type":"INTERESTED_IN","weight":1},{"source":"person:榎本詩織","target":"attr:ポケモン","type":"INTERESTED_IN","weight":1},{"source":"person:杉本光一","target":"attr:最新ai技術の深い理解と実践的な応用","type":"MOTIVATED_BY","weight":1},{"source":"person:杉本光一","target":"attr:自身の提案や仕組みがチームの生産性向上に貢献すること","type":"MOTIVATED_BY","weight":1},{"source":"person:杉本光一","target":"attr:新しいメンバーとの交流と共通の話題を見つけること","type":"MOTIVATED_BY","weight":1},{"source":"person:杉本光一","target":"attr:会社の成長を実感すること","type":"MOTIVATED_BY","weight":1},{"source":"person:杉本光一","target":"attr:家族との時間を充実させること","type":"MOTIVATED_BY","weight":1},{"source":"person:青木淳一郎","target":"attr:新しい知識_技術の習得","type":"MOTIVATED_BY","weight":1},{"source":"person:青木淳一郎","target":"attr:チームへの貢献","type":"MOTIVATED_BY","weight":1},{"source":"person:青木淳一郎","target":"attr:人との交流","type":"MOTIVATED_BY","weight":1},{"source":"person:小林翔","target":"attr:新しい知識_技術の習得","type":"MOTIVATED_BY","weight":1},{"source":"person:小林翔","target":"attr:チームへの貢献と協業","type":"MOTIVATED_BY","weight":1},{"source":"person:小林翔","target":"attr:楽しい経験や趣味の追求","type":"MOTIVATED_BY","weight":1},{"source":"person:小林翔","target":"attr:共通の興味を持つ人々との交流","type":"MOTIVATED_BY","weight":1},{"source":"person:小林翔","target":"attr:興味を持ったことの詳細な情報共有","type":"MOTIVATED_BY","weight":1},{"source":"person:櫻井志保","target":"attr:新しい知識_技術の習得","type":"MOTIVATED_BY","weight":1},{"source":"person:櫻井志保","target":"attr:専門性の向上","type":"MOTIVATED_BY","weight":1},{"source":"person:櫻井志保","target":"attr:チームへの貢献","type":"MOTIVATED_BY","weight":1},{"source":"person:田浦裕樹","target":"attr:チームメンバーからの感謝と成長の実感","type":"MOTIVATED_BY","weight":1},{"source":"person:田浦裕樹","target":"attr:自身の知識共有がチームに貢献できたという実感","type":"MOTIVATED_BY","weight":1},{"source":"person:田浦裕樹","target":"attr:新しい技術（特にai）の習得と実践","type":"MOTIVATED_BY","weight":1},{"source":"person:田浦裕樹","target":"attr:顧客からの肯定的なフィードバックとプロジェクトの成功","type":"MOTIVATED_BY","weight":1},{"source":"person:田浦裕樹","target":"attr:saitekiのmvvへの共感と貢献","type":"MOTIVATED_BY","weight":1},{"source":"person:開米 敦則","target":"attr:新しい技術への挑戦と実践、未知の領域の開拓","type":"MOTIVATED_BY","weight":1},{"source":"person:開米 敦則","target":"attr:業務効率の改善と最適なツール選定","type":"MOTIVATED_BY","weight":1},{"source":"person:開米 敦則","target":"attr:チームへの貢献と協業、情報共有","type":"MOTIVATED_BY","weight":1},{"source":"person:開米 敦則","target":"attr:人との意見交換を通じたスキルアップと知識の深化","type":"MOTIVATED_BY","weight":1},{"source":"person:貴志雪乃","target":"attr:新しい知識や技術の習得と共有","type":"MOTIVATED_BY","weight":1},{"source":"person:貴志雪乃","target":"attr:組織やチームへの具体的な貢献","type":"MOTIVATED_BY","weight":1},{"source":"person:貴志雪乃","target":"attr:周囲からの感謝やポジティブな反応","type":"MOTIVATED_BY","weight":1},{"source":"person:貴志雪乃","target":"attr:メンバー間の交流や一体感の促進","type":"MOTIVATED_BY","weight":1},{"source":"person:貴志雪乃","target":"attr:他者の成功や貢献を認識し、称賛すること","type":"MOTIVATED_BY","weight":1},{"source":"person:上遼太郎","target":"attr:新しい技術の習得と実践","type":"MOTIVATED_BY","weight":1},{"source":"person:上遼太郎","target":"attr:スキルアップと自己成長","type":"MOTIVATED_BY","weight":1},{"source":"person:上遼太郎","target":"attr:チームへの具体的な貢献","type":"MOTIVATED_BY","weight":1},{"source":"person:上遼太郎","target":"attr:技術的な課題解決と改善","type":"MOTIVATED_BY","weight":1},{"source":"person:上遼太郎","target":"attr:他者との交流と学び","type":"MOTIVATED_BY","weight":1},{"source":"person:小松田真伍","target":"attr:組織の成長","type":"MOTIVATED_BY","weight":1},{"source":"person:小松田真伍","target":"attr:現状打破","type":"MOTIVATED_BY","weight":1},{"source":"person:小松田真伍","target":"attr:技術革新","type":"MOTIVATED_BY","weight":1},{"source":"person:小松田真伍","target":"attr:社会課題解決","type":"MOTIVATED_BY","weight":1},{"source":"person:小松田真伍","target":"attr:業界変革","type":"MOTIVATED_BY","weight":1},{"source":"person:小松田真伍","target":"attr:地域貢献","type":"MOTIVATED_BY","weight":1},{"source":"person:小島遼祐","target":"attr:周囲からの感謝や肯定的な反応","type":"MOTIVATED_BY","weight":1},{"source":"person:小島遼祐","target":"attr:新しい知識の習得とスキルの向上","type":"MOTIVATED_BY","weight":1},{"source":"person:小島遼祐","target":"attr:チームへの貢献と成功","type":"MOTIVATED_BY","weight":1},{"source":"person:小島遼祐","target":"attr:共通の関心事を通じた良好な人間関係","type":"MOTIVATED_BY","weight":1},{"source":"person:小島遼祐","target":"attr:自己の成長実感","type":"MOTIVATED_BY","weight":1},{"source":"person:藤井芙美子","target":"attr:他者との共感_交流","type":"MOTIVATED_BY","weight":1},{"source":"person:藤井芙美子","target":"attr:組織への貢献実感","type":"MOTIVATED_BY","weight":1},{"source":"person:藤井芙美子","target":"attr:良好な人間関係","type":"MOTIVATED_BY","weight":1},{"source":"person:藤井芙美子","target":"attr:感謝の言葉","type":"MOTIVATED_BY","weight":1},{"source":"person:菅野聖也","target":"attr:開発者としての能力回復と向上","type":"MOTIVATED_BY","weight":1},{"source":"person:菅野聖也","target":"attr:チームメンバーとの協働によるシステム開発","type":"MOTIVATED_BY","weight":1},{"source":"person:菅野聖也","target":"attr:aiを活用した新しい働き方や効率化の実現","type":"MOTIVATED_BY","weight":1},{"source":"person:菅野聖也","target":"attr:読書などによる知的好奇心の充足と知識の獲得","type":"MOTIVATED_BY","weight":1},{"source":"person:佐藤傑","target":"attr:新しい技術の習得と実践","type":"MOTIVATED_BY","weight":1},{"source":"person:佐藤傑","target":"attr:海外での多様な経験と異文化交流","type":"MOTIVATED_BY","weight":1},{"source":"person:佐藤傑","target":"attr:チームとの共創と具体的な成果創出","type":"MOTIVATED_BY","weight":1},{"source":"person:佐藤傑","target":"attr:ハッカソンでのアウトプット創出","type":"MOTIVATED_BY","weight":1},{"source":"person:鈴木悠斗","target":"attr:会社の目標達成と拡大","type":"MOTIVATED_BY","weight":1},{"source":"person:鈴木悠斗","target":"attr:新しい技術や知識の習得と応用","type":"MOTIVATED_BY","weight":1},{"source":"person:鈴木悠斗","target":"attr:チームメンバーの成功と評価","type":"MOTIVATED_BY","weight":1},{"source":"person:鈴木悠斗","target":"attr:課題解決と組織の改善","type":"MOTIVATED_BY","weight":1},{"source":"person:戸塚直道","target":"attr:明確なビジョンの達成","type":"MOTIVATED_BY","weight":1},{"source":"person:戸塚直道","target":"attr:社員の成長と活躍","type":"MOTIVATED_BY","weight":1},{"source":"person:戸塚直道","target":"attr:資金調達による事業加速","type":"MOTIVATED_BY","weight":1},{"source":"person:戸塚直道","target":"attr:新しい技術やビジネスモデルの探求と実践","type":"MOTIVATED_BY","weight":1},{"source":"person:戸塚直道","target":"attr:社会への影響力拡大","type":"MOTIVATED_BY","weight":1},{"source":"person:戸塚直道","target":"attr:社内での学びの共有と実践","type":"MOTIVATED_BY","weight":1},{"source":"person:榎本詩織","target":"attr:新しい知識_技術の習得","type":"MOTIVATED_BY","weight":1},{"source":"person:榎本詩織","target":"attr:チームへの貢献","type":"MOTIVATED_BY","weight":1},{"source":"person:榎本詩織","target":"attr:社内の人々と交流し、共に働くこと","type":"MOTIVATED_BY","weight":1},{"source":"person:榎本詩織","target":"attr:自己成長の実感","type":"MOTIVATED_BY","weight":1},{"source":"person:青木淳一郎","target":"person:小林翔","type":"SHARES","weight":2,"shared":{"skills":["コミュニケーション"],"values":["成長"],"interests":[]}},{"source":"person:青木淳一郎","target":"person:櫻井志保","type":"SHARES","weight":4,"shared":{"skills":["学習意欲","コミュニケーション"],"values":["成長","貢献"],"interests":[]}},{"source":"person:青木淳一郎","target":"person:田浦裕樹","type":"SHARES","weight":1,"shared":{"skills":[],"values":["家族"],"interests":[]}},{"source":"person:青木淳一郎","target":"person:開米 敦則","type":"SHARES","weight":1,"shared":{"skills":[],"values":["貢献"],"interests":[]}},{"source":"person:青木淳一郎","target":"person:貴志雪乃","type":"SHARES","weight":4,"shared":{"skills":["コミュニケーション"],"values":["家族","成長","貢献"],"interests":[]}},{"source":"person:青木淳一郎","target":"person:上遼太郎","type":"SHARES","weight":3,"shared":{"skills":["学習意欲"],"values":["成長","貢献"],"interests":[]}},{"source":"person:青木淳一郎","target":"person:小松田真伍","type":"SHARES","weight":3,"shared":{"skills":["学習意欲"],"values":["成長","貢献"],"interests":[]}},{"source":"person:青木淳一郎","target":"person:小島遼祐","type":"SHARES","weight":5,"shared":{"skills":["学習意欲","責任感"],"values":["成長","貢献","責任"],"interests":[]}},{"source":"person:青木淳一郎","target":"person:藤井芙美子","type":"SHARES","weight":4,"shared":{"skills":["学習意欲"],"values":["家族","成長","貢献"],"interests":[]}},{"source":"person:青木淳一郎","target":"person:佐藤傑","type":"SHARES","weight":2,"shared":{"skills":[],"values":["成長","貢献"],"interests":[]}},{"source":"person:青木淳一郎","target":"person:戸塚直道","type":"SHARES","weight":1,"shared":{"skills":[],"values":["貢献"],"interests":[]}},{"source":"person:青木淳一郎","target":"person:榎本詩織","type":"SHARES","weight":3,"shared":{"skills":["学習意欲","コミュニケーション"],"values":["成長"],"interests":[]}},{"source":"person:小林翔","target":"person:櫻井志保","type":"SHARES","weight":3,"shared":{"skills":["コミュニケーション"],"values":["成長","協調性"],"interests":[]}},{"source":"person:小林翔","target":"person:開米 敦則","type":"SHARES","weight":1,"shared":{"skills":[],"values":["協調性"],"interests":[]}},{"source":"person:小林翔","target":"person:貴志雪乃","type":"SHARES","weight":3,"shared":{"skills":["コミュニケーション"],"values":["成長","協調性"],"interests":[]}},{"source":"person:小林翔","target":"person:上遼太郎","type":"SHARES","weight":3,"shared":{"skills":["協調性"],"values":["成長","協調性"],"interests":[]}},{"source":"person:小林翔","target":"person:小松田真伍","type":"SHARES","weight":2,"shared":{"skills":["協調性"],"values":["成長"],"interests":[]}},{"source":"person:小林翔","target":"person:小島遼祐","type":"SHARES","weight":3,"shared":{"skills":["協調性"],"values":["成長","協調性"],"interests":[]}},{"source":"person:小林翔","target":"person:藤井芙美子","type":"SHARES","weight":3,"shared":{"skills":["協調性"],"values":["成長","協調性"],"interests":[]}},{"source":"person:小林翔","target":"person:佐藤傑","type":"SHARES","weight":2,"shared":{"skills":[],"values":["成長","探求"],"interests":[]}},{"source":"person:小林翔","target":"person:榎本詩織","type":"SHARES","weight":3,"shared":{"skills":["コミュニケーション","協調性"],"values":["成長"],"interests":[]}},{"source":"person:櫻井志保","target":"person:開米 敦則","type":"SHARES","weight":2,"shared":{"skills":[],"values":["貢献","協調性"],"interests":[]}},{"source":"person:櫻井志保","target":"person:貴志雪乃","type":"SHARES","weight":4,"shared":{"skills":["コミュニケーション"],"values":["成長","貢献","協調性"],"interests":[]}},{"source":"person:櫻井志保","target":"person:上遼太郎","type":"SHARES","weight":4,"shared":{"skills":["学習意欲"],"values":["成長","貢献","協調性"],"interests":[]}},{"source":"person:櫻井志保","target":"person:小松田真伍","type":"SHARES","weight":3,"shared":{"skills":["学習意欲"],"values":["成長","貢献"],"interests":[]}},{"source":"person:櫻井志保","target":"person:小島遼祐","type":"SHARES","weight":4,"shared":{"skills":["学習意欲"],"values":["成長","貢献","協調性"],"interests":[]}},{"source":"person:櫻井志保","target":"person:藤井芙美子","type":"SHARES","weight":4,"shared":{"skills":["学習意欲"],"values":["成長","貢献","協調性"],"interests":[]}},{"source":"person:櫻井志保","target":"person:佐藤傑","type":"SHARES","weight":2,"shared":{"skills":[],"values":["成長","貢献"],"interests":[]}},{"source":"person:櫻井志保","target":"person:戸塚直道","type":"SHARES","weight":1,"shared":{"skills":[],"values":["貢献"],"interests":[]}},{"source":"person:櫻井志保","target":"person:榎本詩織","type":"SHARES","weight":3,"shared":{"skills":["学習意欲","コミュニケーション"],"values":["成長"],"interests":[]}},{"source":"person:田浦裕樹","target":"person:貴志雪乃","type":"SHARES","weight":1,"shared":{"skills":[],"values":["家族"],"interests":[]}},{"source":"person:田浦裕樹","target":"person:藤井芙美子","type":"SHARES","weight":1,"shared":{"skills":[],"values":["家族"],"interests":[]}},{"source":"person:田浦裕樹","target":"person:榎本詩織","type":"SHARES","weight":1,"shared":{"skills":[],"values":["チームワーク"],"interests":[]}},{"source":"person:開米 敦則","target":"person:貴志雪乃","type":"SHARES","weight":2,"shared":{"skills":[],"values":["貢献","協調性"],"interests":[]}},{"source":"person:開米 敦則","target":"person:上遼太郎","type":"SHARES","weight":3,"shared":{"skills":[],"values":["効率性","貢献","協調性"],"interests":[]}},{"source":"person:開米 敦則","target":"person:小松田真伍","type":"SHARES","weight":1,"shared":{"skills":[],"values":["貢献"],"interests":[]}},{"source":"person:開米 敦則","target":"person:小島遼祐","type":"SHARES","weight":2,"shared":{"skills":[],"values":["貢献","協調性"],"interests":[]}},{"source":"person:開米 敦則","target":"person:藤井芙美子","type":"SHARES","weight":2,"shared":{"skills":[],"values":["貢献","協調性"],"interests":[]}},{"source":"person:開米 敦則","target":"person:佐藤傑","type":"SHARES","weight":1,"shared":{"skills":[],"values":["貢献"],"interests":[]}},{"source":"person:開米 敦則","target":"person:戸塚直道","type":"SHARES","weight":1,"shared":{"skills":[],"values":["貢献"],"interests":[]}},{"source":"person:貴志雪乃","target":"person:上遼太郎","type":"SHARES","weight":3,"shared":{"skills":[],"values":["貢献","成長","協調性"],"interests":[]}},{"source":"person:貴志雪乃","target":"person:小松田真伍","type":"SHARES","weight":2,"shared":{"skills":[],"values":["貢献","成長"],"interests":[]}},{"source":"person:貴志雪乃","target":"person:小島遼祐","type":"SHARES","weight":3,"shared":{"skills":[],"values":["貢献","成長","協調性"],"interests":[]}},{"source":"person:貴志雪乃","target":"person:藤井芙美子","type":"SHARES","weight":5,"shared":{"skills":[],"values":["貢献","成長","協調性","周囲からの感謝","家族"],"interests":[]}},{"source":"person:貴志雪乃","target":"person:佐藤傑","type":"SHARES","weight":2,"shared":{"skills":[],"values":["貢献","成長"],"interests":[]}},{"source":"person:貴志雪乃","target":"person:戸塚直道","type":"SHARES","weight":1,"shared":{"skills":[],"values":["貢献"],"interests":[]}},{"source":"person:貴志雪乃","target":"person:榎本詩織","type":"SHARES","weight":2,"shared":{"skills":["コミュニケーション"],"values":["成長"],"interests":[]}},{"source":"person:上遼太郎","target":"person:小松田真伍","type":"SHARES","weight":5,"shared":{"skills":["学習意欲","協調性","情報共有"],"values":["成長","貢献"],"interests":[]}},{"source":"person:上遼太郎","target":"person:小島遼祐","type":"SHARES","weight":5,"shared":{"skills":["学習意欲","協調性"],"values":["成長","貢献","協調性"],"interests":[]}},{"source":"person:上遼太郎","target":"person:藤井芙美子","type":"SHARES","weight":5,"shared":{"skills":["学習意欲","協調性"],"values":["成長","貢献","協調性"],"interests":[]}},{"source":"person:上遼太郎","target":"person:佐藤傑","type":"SHARES","weight":2,"shared":{"skills":[],"values":["成長","貢献"],"interests":[]}},{"source":"person:上遼太郎","target":"person:戸塚直道","type":"SHARES","weight":1,"shared":{"skills":[],"values":["貢献"],"interests":[]}},{"source":"person:上遼太郎","target":"person:榎本詩織","type":"SHARES","weight":3,"shared":{"skills":["学習意欲","協調性"],"values":["成長"],"interests":[]}},{"source":"person:小松田真伍","target":"person:小島遼祐","type":"SHARES","weight":5,"shared":{"skills":["協調性","貢献意欲","学習意欲"],"values":["貢献","成長"],"interests":[]}},{"source":"person:小松田真伍","target":"person:藤井芙美子","type":"SHARES","weight":5,"shared":{"skills":["協調性","貢献意欲","学習意欲"],"values":["貢献","成長"],"interests":[]}},{"source":"person:小松田真伍","target":"person:佐藤傑","type":"SHARES","weight":2,"shared":{"skills":[],"values":["貢献","成長"],"interests":[]}},{"source":"person:小松田真伍","target":"person:戸塚直道","type":"SHARES","weight":4,"shared":{"skills":["問題解決","実行力"],"values":["貢献","社会貢献"],"interests":[]}},{"source":"person:小松田真伍","target":"person:榎本詩織","type":"SHARES","weight":3,"shared":{"skills":["協調性","学習意欲"],"values":["成長"],"interests":[]}},{"source":"person:小島遼祐","target":"person:藤井芙美子","type":"SHARES","weight":6,"shared":{"skills":["学習意欲","協調性","貢献意欲"],"values":["協調性","成長","貢献"],"interests":[]}},{"source":"person:小島遼祐","target":"person:佐藤傑","type":"SHARES","weight":2,"shared":{"skills":[],"values":["成長","貢献"],"interests":[]}},{"source":"person:小島遼祐","target":"person:戸塚直道","type":"SHARES","weight":1,"shared":{"skills":[],"values":["貢献"],"interests":[]}},{"source":"person:小島遼祐","target":"person:榎本詩織","type":"SHARES","weight":3,"shared":{"skills":["学習意欲","協調性"],"values":["成長"],"interests":[]}},{"source":"person:藤井芙美子","target":"person:佐藤傑","type":"SHARES","weight":2,"shared":{"skills":[],"values":["成長","貢献"],"interests":[]}},{"source":"person:藤井芙美子","target":"person:戸塚直道","type":"SHARES","weight":1,"shared":{"skills":[],"values":["貢献"],"interests":[]}},{"source":"person:藤井芙美子","target":"person:榎本詩織","type":"SHARES","weight":4,"shared":{"skills":["適応力","学習意欲","協調性"],"values":["成長"],"interests":[]}},{"source":"person:佐藤傑","target":"person:戸塚直道","type":"SHARES","weight":1,"shared":{"skills":[],"values":["貢献"],"interests":[]}},{"source":"person:佐藤傑","target":"person:榎本詩織","type":"SHARES","weight":1,"shared":{"skills":[],"values":["成長"],"interests":[]}},{"source":"person:杉本光一","target":"person:青木淳一郎","type":"COMPLEMENTS","weight":8,"reason":"杉本のAI/プロセスと青木のAWSインフラが相互補完し、開発全体を強化。","ai_generated":true},{"source":"person:杉本光一","target":"person:青木淳一郎","type":"MENTORING_FIT","weight":9,"direction":"杉本→青木","reason":"杉本のAI・プロセス専門知識が青木の学習意欲を刺激し、成長を促進。","ai_generated":true},{"source":"person:杉本光一","target":"person:青木淳一郎","type":"TEAM_SYNERGY","weight":9,"reason":"AI/プロセス知見とAWSスキルが融合。高い協調性で技術革新に貢献。","ai_generated":true},{"source":"person:杉本光一","target":"person:小林翔","type":"COMPLEMENTS","weight":9,"reason":"杉本の開発・プロセスと小林のQA・情報共有が開発品質・効率を向上。","ai_generated":true},{"source":"person:杉本光一","target":"person:小林翔","type":"MENTORING_FIT","weight":7,"direction":"杉本→小林","reason":"杉本のAI・プロセス知識が小林のQA専門性を広げ、成長を促す。","ai_generated":true},{"source":"person:杉本光一","target":"person:小林翔","type":"TEAM_SYNERGY","weight":9,"reason":"開発とQAの連携。高い協調性と情報共有で、効率的かつ高品質な開発。","ai_generated":true},{"source":"person:杉本光一","target":"person:櫻井志保","type":"COMPLEMENTS","weight":9,"reason":"杉本のAI技術と櫻井のデータ分析スキルが合致し、AI開発を強力に推進。","ai_generated":true},{"source":"person:杉本光一","target":"person:櫻井志保","type":"MENTORING_FIT","weight":9,"direction":"杉本→櫻井","reason":"杉本のAI・プロセス知識が櫻井の分析スキルを高め、キャリア成長を支援。","ai_generated":true},{"source":"person:杉本光一","target":"person:櫻井志保","type":"TEAM_SYNERGY","weight":10,"reason":"AIとデータ分析の核となる専門性が融合。高い協調性で革新を生む。","ai_generated":true},{"source":"person:杉本光一","target":"person:田浦裕樹","type":"COMPLEMENTS","weight":9,"reason":"杉本のAI特化と田浦の広範な開発プロセス知見が相互補完し合う。","ai_generated":true},{"source":"person:杉本光一","target":"person:田浦裕樹","type":"MENTORING_FIT","weight":10,"direction":"mutual","reason":"AI・プロセス知見と経験を共有し、相互に高め合える理想的関係。","ai_generated":true},{"source":"person:杉本光一","target":"person:田浦裕樹","type":"TEAM_SYNERGY","weight":10,"reason":"高い技術力と共通の価値観、情熱が融合。AI開発と組織変革を牽引。","ai_generated":true},{"source":"person:杉本光一","target":"person:開米 敦則","type":"COMPLEMENTS","weight":9,"reason":"杉本のAI開発と開米のQA専門性が結びつき、AI品質保証を推進。","ai_generated":true},{"source":"person:杉本光一","target":"person:開米 敦則","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"杉本のAI知識と開米のQA視点が相互作用し、双方の成長に寄与。","ai_generated":true},{"source":"person:杉本光一","target":"person:開米 敦則","type":"TEAM_SYNERGY","weight":9,"reason":"AI開発とAI QAの専門家が、高い協調性で品質と効率を最大化。","ai_generated":true},{"source":"person:杉本光一","target":"person:菅野聖也","type":"COMPLEMENTS","weight":8,"reason":"杉本は戦略・プロセス、菅野は品質・既存技術で補完。","ai_generated":true},{"source":"person:杉本光一","target":"person:菅野聖也","type":"MENTORING_FIT","weight":9,"direction":"A→B","reason":"杉本がAI応用やプロセス改善で菅野の学習意欲を導く。","ai_generated":true},{"source":"person:杉本光一","target":"person:菅野聖也","type":"TEAM_SYNERGY","weight":9,"reason":"AI、学習、チームワークの共通価値観と補完スキルで高い成果。","ai_generated":true},{"source":"person:杉本光一","target":"person:佐藤傑","type":"COMPLEMENTS","weight":9,"reason":"杉本の技術深掘りと佐藤のアウトプット・事業化が相互補完。","ai_generated":true},{"source":"person:杉本光一","target":"person:佐藤傑","type":"MENTORING_FIT","weight":9,"direction":"mutual","reason":"杉本は技術詳細、佐藤は事業化・グローバル視点を提供。","ai_generated":true},{"source":"person:杉本光一","target":"person:佐藤傑","type":"TEAM_SYNERGY","weight":10,"reason":"AIへの情熱と実践力で革新的なプロジェクトを推進可能。","ai_generated":true},{"source":"person:杉本光一","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":9,"reason":"杉本の技術力と鈴木の経営・リスク管理が組織成長を推進。","ai_generated":true},{"source":"person:杉本光一","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":9,"direction":"mutual","reason":"杉本は技術、鈴木は経営・リスク管理の視点を提供。","ai_generated":true},{"source":"person:杉本光一","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":10,"reason":"共通の性格と補完的役割で強固なリーダーシップチーム。","ai_generated":true},{"source":"person:杉本光一","target":"person:戸塚直道","type":"COMPLEMENTS","weight":9,"reason":"杉本の技術力と戸塚のビジョン・業界変革への情熱が融合。","ai_generated":true},{"source":"person:杉本光一","target":"person:戸塚直道","type":"MENTORING_FIT","weight":9,"direction":"mutual","reason":"杉本は技術、戸塚は業界変革・ビジョンの視点を提供。","ai_generated":true},{"source":"person:杉本光一","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":10,"reason":"技術とビジョンが一体となり、大きな変革と成長を生み出す。","ai_generated":true},{"source":"person:杉本光一","target":"person:榎本詩織","type":"COMPLEMENTS","weight":8,"reason":"杉本の専門性・プロセス志向と榎本の多様性・コミュニケーションが補完。","ai_generated":true},{"source":"person:杉本光一","target":"person:榎本詩織","type":"MENTORING_FIT","weight":9,"direction":"A→B","reason":"杉本のAI・プロセス知識が榎本の学習意欲を刺激。","ai_generated":true},{"source":"person:杉本光一","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":9,"reason":"共通の協調性・学習意欲で、技術的深掘りと円滑なチーム運営を両立。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:小林翔","type":"COMPLEMENTS","weight":9,"reason":"開発（青木）と品質保証（小林）の専門性が相互に補完し、高品質なシステム開発に貢献。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:小林翔","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"異なる専門性を持つため、相互の知識・視点共有による学びが期待できる。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:小林翔","type":"TEAM_SYNERGY","weight":9,"reason":"高い協調性と異なる専門性で、開発・品質の両面から相乗効果が期待できる。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:櫻井志保","type":"COMPLEMENTS","weight":8,"reason":"インフラ（青木）とデータ分析（櫻井）の専門技術が相互に補完し、より高度なシステム構築へ。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:櫻井志保","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"異なる技術領域の専門知識を相互に共有し、共に技術的成長を促し合える。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:櫻井志保","type":"TEAM_SYNERGY","weight":9,"reason":"高い学習意欲と協調性、異なる専門性により、複雑な課題解決で相乗効果が期待できる。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:田浦裕樹","type":"COMPLEMENTS","weight":9,"reason":"青木の専門性と田浦の広範な知見が補完し、高品質かつ効率的な開発が可能に。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:田浦裕樹","type":"MENTORING_FIT","weight":10,"direction":"田浦→青木","reason":"田浦の豊富な経験と幅広い知見が、青木の技術的成長とキャリア発展に大きく貢献する。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:田浦裕樹","type":"TEAM_SYNERGY","weight":10,"reason":"高い協調性・責任感、そして専門性と広範な知見の組み合わせで、圧倒的な成果を生み出す。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:開米 敦則","type":"COMPLEMENTS","weight":9,"reason":"青木の開発（インフラ）と開米の品質保証（QA）の専門性が高度に補完し合える。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:開米 敦則","type":"MENTORING_FIT","weight":9,"direction":"開米→青木","reason":"開米の長年のQA経験とAI技術の知見が、青木の品質意識向上と技術領域拡大に大きく寄与。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:開米 敦則","type":"TEAM_SYNERGY","weight":9,"reason":"開発とQAの高い専門性と協調性で、品質と効率を両立したチーム成果が期待できる。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:貴志雪乃","type":"COMPLEMENTS","weight":6,"reason":"専門領域は異なるが、技術組織とHRの連携において相互の視点や知見が補完し合える。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:貴志雪乃","type":"MENTORING_FIT","weight":6,"direction":"mutual","reason":"専門領域は異なるが、組織運営・キャリア形成の視点で相互に学びを得る機会がある。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:貴志雪乃","type":"TEAM_SYNERGY","weight":8,"reason":"高い協調性と共通の価値観、そして貴志のコミュニティ形成力で、組織文化醸成や交流活性化に貢献。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:上遼太郎","type":"COMPLEMENTS","weight":8,"reason":"AWS基盤とAI開発の専門性が相互補完的。設計・品質面も。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:上遼太郎","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"異なる専門性を持つため、互いに学び合える関係。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:上遼太郎","type":"TEAM_SYNERGY","weight":9,"reason":"異なる専門性と高い協調性で、革新的なシステムを安定稼働。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:小松田真伍","type":"COMPLEMENTS","weight":9,"reason":"青木の安定基盤と小松田の変革・実行力で革新を実現。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:小松田真伍","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"AI実践力と変革志向で青木を刺激、青木は基盤でサポート。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:小松田真伍","type":"TEAM_SYNERGY","weight":10,"reason":"変革・実行力と安定基盤が融合し、社会貢献へ強力推進。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:小島遼祐","type":"COMPLEMENTS","weight":7,"reason":"青木の専門性と小島の汎用的な強みが協力し合える。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:小島遼祐","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"互いの強み（技術/人間関係）で成長を促進し合える。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:小島遼祐","type":"TEAM_SYNERGY","weight":9,"reason":"高い協調性と責任感で、非常に安定したチーム運営が可能。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:藤井芙美子","type":"COMPLEMENTS","weight":8,"reason":"技術とビジネスサイドの役割を補完し、連携を強化する。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:藤井芙美子","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"異なる職種から互いに新たな視点や知見を提供し合える。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:藤井芙美子","type":"TEAM_SYNERGY","weight":9,"reason":"異なる職種ながら高い共通特性で、社内外連携を強力推進。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:菅野聖也","type":"COMPLEMENTS","weight":8,"reason":"インフラとAI・品質管理の専門性が相互に補完し合う。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:菅野聖也","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"異なる技術分野で互いに学習意欲を刺激し、知識を深める。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:菅野聖也","type":"TEAM_SYNERGY","weight":9,"reason":"インフラとAI・品質管理の専門性を統合し、高品質なシステム開発。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:佐藤傑","type":"COMPLEMENTS","weight":9,"reason":"青木の技術的安定と佐藤の事業推進・AI知見が補完し合う。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:佐藤傑","type":"MENTORING_FIT","weight":8,"direction":"B→A","reason":"佐藤の起業家精神とAI知識が青木の成長意欲を刺激する。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:佐藤傑","type":"TEAM_SYNERGY","weight":9,"reason":"青木の技術的基盤と佐藤の革新的な推進力で大きな成果。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":8,"reason":"青木の技術力と鈴木の経営視点・リスク管理が事業を推進。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"鈴木の経営視点・育成力が青木の成長・貢献意欲と合致。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":9,"reason":"鈴木の経営力と青木の技術基盤で堅実かつ戦略的な組織成長。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:戸塚直道","type":"COMPLEMENTS","weight":8,"reason":"戸塚のビジョンと牽引力に青木の技術基盤が貢献し実現を加速。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:戸塚直道","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"戸塚のリーダーシップとエンジニア成長への情熱が青木を導く。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":9,"reason":"戸塚の強力な牽引力と青木の堅実な技術力で事業を加速。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:榎本詩織","type":"COMPLEMENTS","weight":7,"reason":"共通の強みが多く、技術的な深さと多様な視点で相互に刺激。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:榎本詩織","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"青木は技術、榎本はコミュニケーションで相互に学び合う。","ai_generated":true},{"source":"person:青木淳一郎","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":8,"reason":"高い協調性・学習意欲・コミュニケーション能力で安定した成果。","ai_generated":true},{"source":"person:小林翔","target":"person:櫻井志保","type":"COMPLEMENTS","weight":8,"reason":"小林の品質管理・情報共有と櫻井のデータ分析が補完。","ai_generated":true},{"source":"person:小林翔","target":"person:櫻井志保","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"小林は品質管理、櫻井はデータ分析で専門性を相互共有。","ai_generated":true},{"source":"person:小林翔","target":"person:櫻井志保","type":"TEAM_SYNERGY","weight":8,"reason":"共通の協調性・学習意欲で、品質管理とデータ分析を連携し成果。","ai_generated":true},{"source":"person:小林翔","target":"person:田浦裕樹","type":"COMPLEMENTS","weight":9,"reason":"開発とQAの専門性、知識共有と実行力の補完関係が強い。","ai_generated":true},{"source":"person:小林翔","target":"person:田浦裕樹","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"田浦は開発全体の深い知見を持ち、小林はそれを吸収できる。","ai_generated":true},{"source":"person:小林翔","target":"person:田浦裕樹","type":"TEAM_SYNERGY","weight":9,"reason":"開発とQAのプロが協調・知識共有し品質向上に貢献。","ai_generated":true},{"source":"person:小林翔","target":"person:開米 敦則","type":"COMPLEMENTS","weight":7,"reason":"経験と体系性で小林の柔軟性を補完し、AI分野で刺激。","ai_generated":true},{"source":"person:小林翔","target":"person:開米 敦則","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"開米の20年のQA経験とAI知識が、小林の成長意欲と合致。","ai_generated":true},{"source":"person:小林翔","target":"person:開米 敦則","type":"TEAM_SYNERGY","weight":9,"reason":"QAプロとして協調し、AI関連QAで高効率・高品質を実現。","ai_generated":true},{"source":"person:小林翔","target":"person:貴志雪乃","type":"COMPLEMENTS","weight":8,"reason":"情報共有、コミュニティ形成、企画力で互いを補完し合う。","ai_generated":true},{"source":"person:小林翔","target":"person:貴志雪乃","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"異なる専門性を持つが、共通の価値観で相互に学び合える。","ai_generated":true},{"source":"person:小林翔","target":"person:貴志雪乃","type":"TEAM_SYNERGY","weight":9,"reason":"共通の協調性・情報共有・貢献意欲で組織活性化に貢献。","ai_generated":true},{"source":"person:小林翔","target":"person:上遼太郎","type":"COMPLEMENTS","weight":9,"reason":"開発とQAの専門性、上の品質志向と小林の情報共有で補完。","ai_generated":true},{"source":"person:小林翔","target":"person:上遼太郎","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"上のエンジニアリング知見とAI実践力が、小林の専門性を高める。","ai_generated":true},{"source":"person:小林翔","target":"person:上遼太郎","type":"TEAM_SYNERGY","weight":9,"reason":"開発・QAの専門家が品質・協調性を重視し、AI開発で高い成果。","ai_generated":true},{"source":"person:小林翔","target":"person:小松田真伍","type":"COMPLEMENTS","weight":9,"reason":"開発・QAの専門性と、小松田の実行力で小林の柔軟性を補完。","ai_generated":true},{"source":"person:小林翔","target":"person:小松田真伍","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"小松田のAI駆動開発の実践知と変革志向が、小林の成長を加速。","ai_generated":true},{"source":"person:小林翔","target":"person:小松田真伍","type":"TEAM_SYNERGY","weight":10,"reason":"AI開発と品質保証の専門家が、変革志向と協調性で相乗効果。","ai_generated":true},{"source":"person:小林翔","target":"person:小島遼祐","type":"COMPLEMENTS","weight":8,"reason":"小島の責任感と小林のQA視点が、開発と品質の両面で補完。","ai_generated":true},{"source":"person:小林翔","target":"person:小島遼祐","type":"MENTORING_FIT","weight":9,"direction":"mutual","reason":"互いに学習意欲と成長志向が高く、専門性で相互に成長を促進。","ai_generated":true},{"source":"person:小林翔","target":"person:小島遼祐","type":"TEAM_SYNERGY","weight":10,"reason":"高い協調性と学習意欲、異なる専門性で非常に高い相乗効果を発揮。","ai_generated":true},{"source":"person:小林翔","target":"person:藤井芙美子","type":"COMPLEMENTS","weight":8,"reason":"藤井の実行力と関係構築力、小林のQA知見と情報共有が補完。","ai_generated":true},{"source":"person:小林翔","target":"person:藤井芙美子","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"異なる専門性と強みを持ち、互いに知識やスキルを教え合える。","ai_generated":true},{"source":"person:小林翔","target":"person:藤井芙美子","type":"TEAM_SYNERGY","weight":9,"reason":"高い協調性と共通価値観、異なる職種視点で高い成果を生む。","ai_generated":true},{"source":"person:小林翔","target":"person:菅野聖也","type":"COMPLEMENTS","weight":8,"reason":"共通の品質意識で連携し、AI活用と情報共有で技術探求を加速。","ai_generated":true},{"source":"person:小林翔","target":"person:菅野聖也","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"共通の品質意識と専門性で、技術と品質保証の知見を相互共有。","ai_generated":true},{"source":"person:小林翔","target":"person:菅野聖也","type":"TEAM_SYNERGY","weight":9,"reason":"共通の品質意識と高い協調性、学習意欲で技術と品質両面で成果。","ai_generated":true},{"source":"person:小林翔","target":"person:佐藤傑","type":"COMPLEMENTS","weight":9,"reason":"佐藤の実行力と推進力、小林のQA知見と情報共有でプロジェクト加速。","ai_generated":true},{"source":"person:小林翔","target":"person:佐藤傑","type":"MENTORING_FIT","weight":8,"direction":"佐藤→小林","reason":"佐藤の起業家精神と実践力は小林の成長を促し、小林は品質面で貢献。","ai_generated":true},{"source":"person:小林翔","target":"person:佐藤傑","type":"TEAM_SYNERGY","weight":9,"reason":"佐藤の推進力と実践、小林の品質保証と情報共有で革新と質の高い成果。","ai_generated":true},{"source":"person:小林翔","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":9,"reason":"鈴木の経営視点と実行力、小林のQA知見と情報共有で組織的成果。","ai_generated":true},{"source":"person:小林翔","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":9,"direction":"鈴木→小林","reason":"鈴木の経営者視点と育成力は小林の成長を促し、QA知見も共有。","ai_generated":true},{"source":"person:小林翔","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":10,"reason":"鈴木の強力なリーダーシップと経営視点、小林のQA知見で最高の成果。","ai_generated":true},{"source":"person:小林翔","target":"person:戸塚直道","type":"COMPLEMENTS","weight":9,"reason":"戸塚の経営・戦略と小林の実務・品質が非常に良く補完し合う。","ai_generated":true},{"source":"person:小林翔","target":"person:戸塚直道","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"戸塚の経営・リーダーシップは小林の成長を大いに促進する。","ai_generated":true},{"source":"person:小林翔","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":9,"reason":"戸塚の推進力と小林の協調・品質意識が組織の成長を加速させる。","ai_generated":true},{"source":"person:小林翔","target":"person:榎本詩織","type":"COMPLEMENTS","weight":7,"reason":"QAとEngineerの専門性、情報共有と学習意欲で技術補完。","ai_generated":true},{"source":"person:小林翔","target":"person:榎本詩織","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"QAとEngineerの専門知識を相互に学び合う好関係。","ai_generated":true},{"source":"person:小林翔","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":9,"reason":"類似した性格と価値観で高いチームワークを発揮。","ai_generated":true},{"source":"person:櫻井志保","target":"person:田浦裕樹","type":"COMPLEMENTS","weight":8,"reason":"データ分析と幅広い開発経験が技術的に補完し合う。","ai_generated":true},{"source":"person:櫻井志保","target":"person:田浦裕樹","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"田浦の豊富な経験と知識が櫻井の成長を強力に促進。","ai_generated":true},{"source":"person:櫻井志保","target":"person:田浦裕樹","type":"TEAM_SYNERGY","weight":9,"reason":"高い技術力と分析力、協調性でチーム成果を最大化。","ai_generated":true},{"source":"person:櫻井志保","target":"person:開米 敦則","type":"COMPLEMENTS","weight":9,"reason":"開発とQAの専門性、データ分析とテスト自動化で相乗効果。","ai_generated":true},{"source":"person:櫻井志保","target":"person:開米 敦則","type":"MENTORING_FIT","weight":8,"direction":"B→A","reason":"開米のQA専門性が櫻井の開発品質向上と学習を支援。","ai_generated":true},{"source":"person:櫻井志保","target":"person:開米 敦則","type":"TEAM_SYNERGY","weight":9,"reason":"開発とQAの密連携、AI技術探求で高品質開発を実現。","ai_generated":true},{"source":"person:櫻井志保","target":"person:貴志雪乃","type":"COMPLEMENTS","weight":8,"reason":"データ分析でHR戦略を科学的に補強、HRがエンジニア環境を支援。","ai_generated":true},{"source":"person:櫻井志保","target":"person:貴志雪乃","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"HRとエンジニアリングの異なる専門性を相互に学習。","ai_generated":true},{"source":"person:櫻井志保","target":"person:貴志雪乃","type":"TEAM_SYNERGY","weight":8,"reason":"HRと技術連携で組織パフォーマンスと社員満足度向上。","ai_generated":true},{"source":"person:櫻井志保","target":"person:佐藤傑","type":"COMPLEMENTS","weight":9,"reason":"実践力とデータ分析、AI知識と学習意欲が相互補完。","ai_generated":true},{"source":"person:櫻井志保","target":"person:佐藤傑","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"佐藤の実践力・AI知識・起業家精神が櫻井の成長を加速。","ai_generated":true},{"source":"person:櫻井志保","target":"person:佐藤傑","type":"TEAM_SYNERGY","weight":9,"reason":"データ分析×AI×実践力で強力なアウトプット創出。","ai_generated":true},{"source":"person:櫻井志保","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":9,"reason":"データ分析が経営判断を具体化し、経営視点が貢献意欲を最大化。","ai_generated":true},{"source":"person:櫻井志保","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"鈴木の経営視点・育成力が櫻井の成長とキャリアを導く。","ai_generated":true},{"source":"person:櫻井志保","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":9,"reason":"データ駆動経営と組織成長を両輪で推進できる。","ai_generated":true},{"source":"person:櫻井志保","target":"person:戸塚直道","type":"COMPLEMENTS","weight":9,"reason":"データ分析が戦略を補強し、強力な実行力が貢献意欲を成果に。","ai_generated":true},{"source":"person:櫻井志保","target":"person:戸塚直道","type":"MENTORING_FIT","weight":10,"direction":"B→A","reason":"戸塚の強いリーダーシップと学習促進で櫻井は飛躍的に成長。","ai_generated":true},{"source":"person:櫻井志保","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":10,"reason":"変革リーダーとデータ分析力が融合し、組織成長を加速。","ai_generated":true},{"source":"person:櫻井志保","target":"person:榎本詩織","type":"COMPLEMENTS","weight":7,"reason":"共通点が多いが、データ分析と多様な経験が補完し得る。","ai_generated":true},{"source":"person:櫻井志保","target":"person:榎本詩織","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"両者学習意欲高く、相互にスキル・経験を共有し成長。","ai_generated":true},{"source":"person:櫻井志保","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":8,"reason":"高い協調性と学習意欲で、生産的かつ成長できるチーム。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:開米 敦則","type":"COMPLEMENTS","weight":10,"reason":"開発とQAの専門性がAI領域で完璧に融合し補完。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:開米 敦則","type":"MENTORING_FIT","weight":9,"direction":"A→B","reason":"田浦の実践的AI開発経験が開米のAI活用能力を向上。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:開米 敦則","type":"TEAM_SYNERGY","weight":10,"reason":"AI駆動開発とQAのプロが結合し、高品質なプロダクトを創出。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:貴志雪乃","type":"COMPLEMENTS","weight":9,"reason":"専門性と視点が異なるため、組織課題を多角的に解決可能。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:貴志雪乃","type":"MENTORING_FIT","weight":8,"direction":"田浦→貴志","reason":"田浦の経験と技術知見が、HRの貴志の組織理解を深める。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:貴志雪乃","type":"TEAM_SYNERGY","weight":9,"reason":"技術とHRの専門性を融合し、組織全体の活性化と効率化を促進。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:上遼太郎","type":"COMPLEMENTS","weight":7,"reason":"類似スキルだが、田浦の経験と上の学習意欲が互いの成長を促進。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:上遼太郎","type":"MENTORING_FIT","weight":10,"direction":"田浦→上","reason":"田浦の豊富な経験とAI知見が、上の学習意欲と実践力を最大限に引き出す。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:上遼太郎","type":"TEAM_SYNERGY","weight":10,"reason":"互いの強みを増幅し、AI開発の品質と効率を劇的に向上させる。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:小松田真伍","type":"COMPLEMENTS","weight":8,"reason":"共通する専門性と情熱を共有し、田浦の経験が小松田の変革意欲を加速。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:小松田真伍","type":"MENTORING_FIT","weight":9,"direction":"田浦→小松田","reason":"田浦の広範な知見と小松田の変革力が相乗し、相互に学び高め合う。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:小松田真伍","type":"TEAM_SYNERGY","weight":10,"reason":"革新的なAI開発と組織変革を強力に推進する、極めて高い相乗効果。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:小島遼祐","type":"COMPLEMENTS","weight":8,"reason":"田浦の深い技術知見を、小島の高い学習意欲と関係構築力が広める。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:小島遼祐","type":"MENTORING_FIT","weight":10,"direction":"田浦→小島","reason":"田浦の包括的知見が、小島の極めて高い学習意欲と成長を強力に牽引する。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:小島遼祐","type":"TEAM_SYNERGY","weight":9,"reason":"技術力と協調性を兼ね備え、チームの生産性向上と知識共有を加速させる。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:藤井芙美子","type":"COMPLEMENTS","weight":10,"reason":"技術と営業の専門性が顧客価値創造と市場展開において完璧に補完し合う。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:藤井芙美子","type":"MENTORING_FIT","weight":8,"direction":"田浦→藤井","reason":"田浦の技術知見が藤井の営業戦略を強化し、相互に市場理解を深める。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:藤井芙美子","type":"TEAM_SYNERGY","weight":10,"reason":"技術と市場をつなぎ、AI製品の顧客価値最大化と迅速な事業成長を強力に推進。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:菅野聖也","type":"COMPLEMENTS","weight":9,"reason":"田浦の広範な経験が菅野の学習意欲と技術探求を加速。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:菅野聖也","type":"MENTORING_FIT","weight":10,"direction":"田浦→菅野","reason":"田浦の深い経験とAI駆動開発知見が菅野の成長を加速。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:菅野聖也","type":"TEAM_SYNERGY","weight":9,"reason":"互いに知識共有と学習を重視し、AIと品質で相乗効果。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:佐藤傑","type":"COMPLEMENTS","weight":8,"reason":"田浦の技術的深さと佐藤の事業的実践力が相互に補完。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:佐藤傑","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"技術面は田浦、事業開発面は佐藤が知識を共有し合える。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:佐藤傑","type":"TEAM_SYNERGY","weight":9,"reason":"共通の価値観と強みで、新規事業やAIプロジェクトを強力推進。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":9,"reason":"田浦の技術知見と鈴木の経営視点が、事業と組織成長を両輪で推進。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"田浦は技術面、鈴木は経営面で互いに知識と視点を提供し合える。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":10,"reason":"共通の価値観と高い協調性で、技術と経営を融合し組織を最大化。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:戸塚直道","type":"COMPLEMENTS","weight":9,"reason":"戸塚のビジョンと田浦の技術実践力が、業界変革を強力に推進。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:戸塚直道","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"田浦は技術実践、戸塚は経営・組織戦略で互いに成長を促す。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":10,"reason":"共通のビジョンと価値観、補完的な強みで、組織成長と業界変革を加速。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:榎本詩織","type":"COMPLEMENTS","weight":8,"reason":"田浦の専門知識と榎本の高い学習意欲・コミュニケーション力で相互補完。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:榎本詩織","type":"MENTORING_FIT","weight":9,"direction":"田浦→榎本","reason":"田浦の深い技術知見と知識共有意欲が、榎本の学習と成長を強力に支援。","ai_generated":true},{"source":"person:田浦裕樹","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":9,"reason":"共通のチーム志向と補完的なスキルで、学習とコミュニケーションが活発なチームに。","ai_generated":true},{"source":"person:開米 敦則","target":"person:貴志雪乃","type":"COMPLEMENTS","weight":7,"reason":"専門性とHR・コミュニティ力で組織に多角的に貢献。","ai_generated":true},{"source":"person:開米 敦則","target":"person:貴志雪乃","type":"MENTORING_FIT","weight":8,"direction":"開米 敦則→貴志雪乃","reason":"開米の経験と技術知識で、新人の貴志を育成。","ai_generated":true},{"source":"person:開米 敦則","target":"person:貴志雪乃","type":"TEAM_SYNERGY","weight":7,"reason":"異なる専門性から生まれる組織課題解決力。","ai_generated":true},{"source":"person:開米 敦則","target":"person:上遼太郎","type":"COMPLEMENTS","weight":9,"reason":"QAの知見と開発・設計力が相互に品質を高める。","ai_generated":true},{"source":"person:開米 敦則","target":"person:上遼太郎","type":"MENTORING_FIT","weight":8,"direction":"開米 敦則→上遼太郎","reason":"開米の豊富なQA経験が上氏の設計・実装を指導。","ai_generated":true},{"source":"person:開米 敦則","target":"person:上遼太郎","type":"TEAM_SYNERGY","weight":9,"reason":"高い協調性とAIへの関心で開発・品質向上に貢献。","ai_generated":true},{"source":"person:開米 敦則","target":"person:小松田真伍","type":"COMPLEMENTS","weight":9,"reason":"QAと変革志向のエンジニアが品質と革新を両立。","ai_generated":true},{"source":"person:開米 敦則","target":"person:小松田真伍","type":"MENTORING_FIT","weight":8,"direction":"開米 敦則→小松田真伍","reason":"開米のQA経験が、小松田の革新的な開発を安定化。","ai_generated":true},{"source":"person:開米 敦則","target":"person:小松田真伍","type":"TEAM_SYNERGY","weight":10,"reason":"AI・品質志向と変革意欲で、革新と安定を両立可能。","ai_generated":true},{"source":"person:開米 敦則","target":"person:小島遼祐","type":"COMPLEMENTS","weight":8,"reason":"QA経験と強力なコミュニケーション力で連携を強化。","ai_generated":true},{"source":"person:開米 敦則","target":"person:小島遼祐","type":"MENTORING_FIT","weight":9,"direction":"開米 敦則→小島遼祐","reason":"開米の20年QA経験が、小島氏の成長を強力に支援。","ai_generated":true},{"source":"person:開米 敦則","target":"person:小島遼祐","type":"TEAM_SYNERGY","weight":9,"reason":"協調性・学習意欲が高く、開発と品質の連携を円滑に。","ai_generated":true},{"source":"person:開米 敦則","target":"person:藤井芙美子","type":"COMPLEMENTS","weight":8,"reason":"技術知識と営業力が市場ニーズと品質を結びつける。","ai_generated":true},{"source":"person:開米 敦則","target":"person:藤井芙美子","type":"MENTORING_FIT","weight":7,"direction":"開米 敦則→藤井芙美子","reason":"開米の技術・QA知識が、藤井氏の営業活動を強化。","ai_generated":true},{"source":"person:開米 敦則","target":"person:藤井芙美子","type":"TEAM_SYNERGY","weight":8,"reason":"技術と市場視点を融合し、顧客価値と製品品質を向上。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:上遼太郎","type":"COMPLEMENTS","weight":7,"reason":"HRとエンジニアの専門性、計画と実践、コミュニティとAI活用。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:上遼太郎","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"貴志は組織・コミュニケーション、上は技術・AIで互いに学べる。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:上遼太郎","type":"TEAM_SYNERGY","weight":9,"reason":"似た性格・価値観を持ち、HRと技術の視点で高生産性を生む。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:小松田真伍","type":"COMPLEMENTS","weight":8,"reason":"貴志の企画力と小松田の変革志向・社会貢献意欲が合致。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:小松田真伍","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"貴志は組織・コミュニティ、小松田はAI・変革で相互に指導可能。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:小松田真伍","type":"TEAM_SYNERGY","weight":9,"reason":"共通の貢献・成長志向と変革意欲で、大きな成果が期待できる。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:小島遼祐","type":"COMPLEMENTS","weight":6,"reason":"協調性・貢献意欲が似ており、弱みを補うより強み増幅。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:小島遼祐","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"貴志は組織、小島は技術で、お互いの知識を深め合える。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:小島遼祐","type":"TEAM_SYNERGY","weight":9,"reason":"非常に似た性格と価値観で、高い協調性と生産性が期待できる。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:藤井芙美子","type":"COMPLEMENTS","weight":7,"reason":"HRと営業の異なる視点が、互いの専門性を補完し合える。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:藤井芙美子","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"貴志はHR、藤井は営業として、異なる専門知識を共有できる。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:藤井芙美子","type":"TEAM_SYNERGY","weight":9,"reason":"共通の協調性・貢献志向で、人との連携を要する業務で強み。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:菅野聖也","type":"COMPLEMENTS","weight":8,"reason":"貴志の企画力・コミュニティと菅野の技術・品質志向が補完。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:菅野聖也","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"貴志はHR・組織、菅野は技術・AIで互いに専門知識を深める。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:菅野聖也","type":"TEAM_SYNERGY","weight":8,"reason":"貴志のコミュニケーション力と菅野の技術力で、調和的に成果を出す。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:佐藤傑","type":"COMPLEMENTS","weight":8,"reason":"HR視点とAI/起業家視点が企画に深みをもたらす。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:佐藤傑","type":"MENTORING_FIT","weight":8,"direction":"B→A","reason":"佐藤の経験・AI・グローバル視点が貴志の成長を加速。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:佐藤傑","type":"TEAM_SYNERGY","weight":9,"reason":"共通価値観と強みでコミュニティ形成・共創を加速。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":8,"reason":"貴志の実行力と鈴木の経営視点が戦略的な施策を可能に。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"鈴木の経営経験と育成力が貴志の成長を強力に支援。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":9,"reason":"経営とHRの視点合致で組織成長と活性化を促進。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:戸塚直道","type":"COMPLEMENTS","weight":8,"reason":"戸塚の推進力と貴志のHR視点が事業加速と組織安定に。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:戸塚直道","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"戸塚の起業家経験・戦略が貴志の成長と視野拡大に不可欠。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":9,"reason":"強いリーダーシップとHRサポートで組織成長・活性化。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:榎本詩織","type":"COMPLEMENTS","weight":7,"reason":"HRとEngineer視点で社内施策やコミュニティ活動で補完。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:榎本詩織","type":"MENTORING_FIT","weight":6,"direction":"mutual","reason":"異なる専門性から互いに学び、組織理解を深められる。","ai_generated":true},{"source":"person:貴志雪乃","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":8,"reason":"共通のコミュニティ志向と高コミュ力で社内活性化に貢献。","ai_generated":true},{"source":"person:上遼太郎","target":"person:小松田真伍","type":"COMPLEMENTS","weight":9,"reason":"上の設計・品質と小松田の変革・実行力がAI開発を推進。","ai_generated":true},{"source":"person:上遼太郎","target":"person:小松田真伍","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"AI専門家として互いの強み（設計/変革）を教え合える。","ai_generated":true},{"source":"person:上遼太郎","target":"person:小松田真伍","type":"TEAM_SYNERGY","weight":10,"reason":"AI知見と行動力が高次元で融合し、革新的開発を強力に推進。","ai_generated":true},{"source":"person:上遼太郎","target":"person:小島遼祐","type":"COMPLEMENTS","weight":5,"reason":"類似点多く弱み補完は限定的。強みは共有し拡大。","ai_generated":true},{"source":"person:上遼太郎","target":"person:小島遼祐","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"双方の高い学習意欲で相互に刺激し成長し合える。","ai_generated":true},{"source":"person:上遼太郎","target":"person:小島遼祐","type":"TEAM_SYNERGY","weight":9,"reason":"高い協調性と学習意欲で協力し合い、生産性の高いチーム。","ai_generated":true},{"source":"person:上遼太郎","target":"person:藤井芙美子","type":"COMPLEMENTS","weight":9,"reason":"技術と営業の専門性を相互補完。市場理解とAI知見を融合。","ai_generated":true},{"source":"person:上遼太郎","target":"person:藤井芙美子","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"技術者は営業視点、営業は技術理解を深め、互いに成長。","ai_generated":true},{"source":"person:上遼太郎","target":"person:藤井芙美子","type":"TEAM_SYNERGY","weight":9,"reason":"技術と営業の強みを融合し、市場ニーズに合わせた製品開発・提案を加速。","ai_generated":true},{"source":"person:上遼太郎","target":"person:菅野聖也","type":"COMPLEMENTS","weight":7,"reason":"Kamiの設計力とKannoの特定技術・品質経験が相互補完。","ai_generated":true},{"source":"person:上遼太郎","target":"person:菅野聖也","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"AI・設計知見を共有し、Kannoの技術応用力と品質経験が貢献。","ai_generated":true},{"source":"person:上遼太郎","target":"person:菅野聖也","type":"TEAM_SYNERGY","weight":8,"reason":"高い協調性とAIへの関心で技術的な相乗効果を発揮。","ai_generated":true},{"source":"person:上遼太郎","target":"person:佐藤傑","type":"COMPLEMENTS","weight":9,"reason":"Kamiの技術実現力とSatoの事業推進力・視点が相互補完。","ai_generated":true},{"source":"person:上遼太郎","target":"person:佐藤傑","type":"MENTORING_FIT","weight":9,"direction":"mutual","reason":"双方の専門知識と視点が相互に深い洞察と成長を促す。","ai_generated":true},{"source":"person:上遼太郎","target":"person:佐藤傑","type":"TEAM_SYNERGY","weight":10,"reason":"技術実装力と事業推進力、起業家精神が融合し、爆発的な成果を生む。","ai_generated":true},{"source":"person:上遼太郎","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":9,"reason":"Kamiの技術力とSuzukiの経営視点・リスク管理が相互に強化。","ai_generated":true},{"source":"person:上遼太郎","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":9,"direction":"mutual","reason":"技術と経営の視点を相互に学び、両者の専門性を高め合う。","ai_generated":true},{"source":"person:上遼太郎","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":10,"reason":"技術と経営の強力な連携で組織目標達成とイノベーションを加速。","ai_generated":true},{"source":"person:小松田真伍","target":"person:佐藤傑","type":"COMPLEMENTS","weight":9,"reason":"佐藤の起業家精神とグローバル視点が小松田の技術を市場へ繋ぐ。","ai_generated":true},{"source":"person:小松田真伍","target":"person:佐藤傑","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"佐藤の事業推進力と小松田の技術知見で相互成長。","ai_generated":true},{"source":"person:小松田真伍","target":"person:佐藤傑","type":"TEAM_SYNERGY","weight":10,"reason":"AI技術と事業開発・共創の強力な組み合わせ。社会貢献と変革への意欲が合致。","ai_generated":true},{"source":"person:小松田真伍","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":9,"reason":"小松田の技術力と鈴木の経営視点・リスク管理で事業を推進。","ai_generated":true},{"source":"person:小松田真伍","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"鈴木の経営視点・組織推進力が小松田の技術応用を支援。","ai_generated":true},{"source":"person:小松田真伍","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":10,"reason":"技術革新と組織成長を両立。互いの強みを活かし合い、大きな成果に繋がる。","ai_generated":true},{"source":"person:小松田真伍","target":"person:戸塚直道","type":"COMPLEMENTS","weight":9,"reason":"小松田の技術と戸塚の業界変革ビジョン、組織牽引力で相乗効果。","ai_generated":true},{"source":"person:小松田真伍","target":"person:戸塚直道","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"戸塚の戦略的リーダーシップが小松田の技術応用範囲を広げる。","ai_generated":true},{"source":"person:小松田真伍","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":10,"reason":"業界変革と技術革新の強力な組み合わせ。互いの情熱と実行力で事業を加速。","ai_generated":true},{"source":"person:小松田真伍","target":"person:榎本詩織","type":"COMPLEMENTS","weight":8,"reason":"小松田の技術知見と榎本の円滑なコミュニケーションでチーム力向上。","ai_generated":true},{"source":"person:小松田真伍","target":"person:榎本詩織","type":"MENTORING_FIT","weight":8,"direction":"A→B","reason":"小松田のAI専門知識と問題解決力が榎本の成長を支援。","ai_generated":true},{"source":"person:小松田真伍","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":9,"reason":"技術力とコミュニケーション力でチームを活性化し、協力して成果を出す。","ai_generated":true},{"source":"person:小島遼祐","target":"person:藤井芙美子","type":"COMPLEMENTS","weight":10,"reason":"小島の技術知見と藤井の顧客理解・人間関係構築力が事業を加速。","ai_generated":true},{"source":"person:小島遼祐","target":"person:藤井芙美子","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"互いの専門性とコミュニケーション力で相互成長が見込める。","ai_generated":true},{"source":"person:小島遼祐","target":"person:藤井芙美子","type":"TEAM_SYNERGY","weight":10,"reason":"技術と営業の強力な連携で、顧客価値創造とビジネス拡大に貢献。","ai_generated":true},{"source":"person:小島遼祐","target":"person:菅野聖也","type":"COMPLEMENTS","weight":8,"reason":"小島の関係構築力と菅野の専門技術が相互補完的。","ai_generated":true},{"source":"person:小島遼祐","target":"person:菅野聖也","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"相互の学習意欲と異なる専門性が知識共有を促す。","ai_generated":true},{"source":"person:小島遼祐","target":"person:菅野聖也","type":"TEAM_SYNERGY","weight":9,"reason":"共通の価値観と高い協調性で技術的成長と貢献を加速。","ai_generated":true},{"source":"person:小島遼祐","target":"person:佐藤傑","type":"COMPLEMENTS","weight":9,"reason":"小島の関係構築力と佐藤の実践力・AI知識が事業を加速。","ai_generated":true},{"source":"person:小島遼祐","target":"person:佐藤傑","type":"MENTORING_FIT","weight":8,"direction":"B→A","reason":"佐藤の起業家視点と実践力が小島の成長に大きな示唆。","ai_generated":true},{"source":"person:小島遼祐","target":"person:佐藤傑","type":"TEAM_SYNERGY","weight":10,"reason":"共通の成長・貢献価値観と高い行動力で強固な共創関係。","ai_generated":true},{"source":"person:小島遼祐","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":9,"reason":"小島の現場推進力と鈴木の経営戦略視点が相乗効果を生む。","ai_generated":true},{"source":"person:小島遼祐","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"鈴木の経営経験と育成能力が小島のキャリア形成に直結。","ai_generated":true},{"source":"person:小島遼祐","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":10,"reason":"共通の性格・価値観と役割分担で極めて高い協調性と生産性。","ai_generated":true},{"source":"person:小島遼祐","target":"person:戸塚直道","type":"COMPLEMENTS","weight":9,"reason":"戸塚の強力なリーダーシップと小島の協調・実行力が事業変革を促進。","ai_generated":true},{"source":"person:小島遼祐","target":"person:戸塚直道","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"戸塚の起業家としての経験とリーダーシップが小島の成長を導く。","ai_generated":true},{"source":"person:小島遼祐","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":10,"reason":"共通の情熱と価値観、高い行動力で強烈な推進力を生み出す。","ai_generated":true},{"source":"person:小島遼祐","target":"person:榎本詩織","type":"COMPLEMENTS","weight":8,"reason":"小島の計画性と榎本の多様性が開発プロセスを安定させ活性化。","ai_generated":true},{"source":"person:小島遼祐","target":"person:榎本詩織","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"共通の学習意欲と異なる経験から相互に成長を促進。","ai_generated":true},{"source":"person:小島遼祐","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":9,"reason":"共通の協調性と学習意欲が円滑なコミュニケーションと生産性をもたらす。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:菅野聖也","type":"COMPLEMENTS","weight":9,"reason":"営業と技術の専門性を相互補完し、顧客課題解決に繋がる。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:菅野聖也","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"営業と技術で相互に専門知識や視点を共有し学べる。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:菅野聖也","type":"TEAM_SYNERGY","weight":9,"reason":"協調性と貢献意欲が高く、営業と技術で一体的に成果を出せる。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:佐藤傑","type":"COMPLEMENTS","weight":9,"reason":"佐藤の推進力を藤井の協調性と人間関係構築力で支援。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:佐藤傑","type":"MENTORING_FIT","weight":8,"direction":"B→A","reason":"佐藤の起業家精神と実践力が藤井の成長を強く後押しする。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:佐藤傑","type":"TEAM_SYNERGY","weight":10,"reason":"共通価値観と性格特性で強力な共創関係を築き、事業を推進できる。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":8,"reason":"経営戦略と現場実行の視点で相互補完し、組織成長を加速。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"鈴木の経営者視点と育成能力が藤井の成長を強力に促進する。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":10,"reason":"共通の性格と高い成長志向で、組織全体を巻き込み大きな成果を出す。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:戸塚直道","type":"COMPLEMENTS","weight":9,"reason":"戸塚の強い牽引力を藤井の協調性と現場力が補完し合う。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:戸塚直道","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"戸塚の経営者としての知見とリーダーシップが藤井を大きく成長させる。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":10,"reason":"経営者の強力な推進力と現場の実行力が融合し、大きな変革を成し遂げる。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:榎本詩織","type":"COMPLEMENTS","weight":8,"reason":"営業とエンジニアの異なる役割を高い協調性で補い合える。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:榎本詩織","type":"MENTORING_FIT","weight":7,"direction":"mutual","reason":"共通の学習意欲と専門性を相互に学び、成長を促進できる。","ai_generated":true},{"source":"person:藤井芙美子","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":9,"reason":"共通の社交性と協調性で部門間の連携が強化され、チーム貢献が高まる。","ai_generated":true},{"source":"person:菅野聖也","target":"person:佐藤傑","type":"COMPLEMENTS","weight":9,"reason":"技術実装力と品質志向を、起業家精神とグローバルな実践力で補完。","ai_generated":true},{"source":"person:菅野聖也","target":"person:佐藤傑","type":"MENTORING_FIT","weight":8,"direction":"B→A","reason":"佐藤が菅野に実践的AI活用、起業家視点、グローバル展開を指導可能。","ai_generated":true},{"source":"person:菅野聖也","target":"person:佐藤傑","type":"TEAM_SYNERGY","weight":9,"reason":"技術とビジネス視点が融合し、AI活用で高効率なアウトプットと成長を期待。","ai_generated":true},{"source":"person:菅野聖也","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":9,"reason":"菅野の技術的深掘りを鈴木の経営・組織成長視点が補完し、価値最大化。","ai_generated":true},{"source":"person:菅野聖也","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"鈴木は経営・組織視点、菅野は技術深掘りで相互に指導・学び合える。","ai_generated":true},{"source":"person:菅野聖也","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":10,"reason":"技術と経営視点が融合、互いの強みを最大化し、組織成長と技術革新を強力に推進。","ai_generated":true},{"source":"person:菅野聖也","target":"person:戸塚直道","type":"COMPLEMENTS","weight":9,"reason":"戸塚のビジョンと推進力に、菅野の技術的実行力が合致し、業界変革を加速。","ai_generated":true},{"source":"person:菅野聖也","target":"person:戸塚直道","type":"MENTORING_FIT","weight":9,"direction":"B→A","reason":"戸塚の戦略的視点と組織牽引力は、菅野の技術的成長を業界変革に導く。","ai_generated":true},{"source":"person:菅野聖也","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":10,"reason":"圧倒的リーダーシップと技術力が融合し、業界変革と組織成長を強力に実現する。","ai_generated":true},{"source":"person:菅野聖也","target":"person:榎本詩織","type":"COMPLEMENTS","weight":7,"reason":"共通点多いが、菅野の技術深掘りを榎本の多様な視点とコミュ力が広げる。","ai_generated":true},{"source":"person:菅野聖也","target":"person:榎本詩織","type":"MENTORING_FIT","weight":6,"direction":"mutual","reason":"共通の技術者視点で互いの学習意欲を刺激し、得意分野で知見交換。","ai_generated":true},{"source":"person:菅野聖也","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":8,"reason":"高い協調性と学習意欲で、円滑かつ生産的なチームワークを構築。","ai_generated":true},{"source":"person:佐藤傑","target":"person:鈴木悠斗","type":"COMPLEMENTS","weight":10,"reason":"佐藤の起業家精神と行動力を、鈴木の経営視点とリスク管理が強力に補完。","ai_generated":true},{"source":"person:佐藤傑","target":"person:鈴木悠斗","type":"MENTORING_FIT","weight":9,"direction":"mutual","reason":"グローバルな実践力と組織経営視点で相互に学び、成長を促進し合える。","ai_generated":true},{"source":"person:佐藤傑","target":"person:鈴木悠斗","type":"TEAM_SYNERGY","weight":10,"reason":"経営・実践・リーダーシップが高度に融合し、新規事業創出と組織成長を爆発的に推進。","ai_generated":true},{"source":"person:佐藤傑","target":"person:戸塚直道","type":"COMPLEMENTS","weight":9,"reason":"戸塚の戦略実行力と佐藤のAI技術・グローバル視点が融合。","ai_generated":true},{"source":"person:佐藤傑","target":"person:戸塚直道","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"互いに専門領域の知識と経験を共有し高め合える。","ai_generated":true},{"source":"person:佐藤傑","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":10,"reason":"経営者視点と実践的AI技術が融合し、事業加速に最大効果。","ai_generated":true},{"source":"person:佐藤傑","target":"person:榎本詩織","type":"COMPLEMENTS","weight":8,"reason":"佐藤の推進力と榎本の対人スキル・学習意欲が補完。","ai_generated":true},{"source":"person:佐藤傑","target":"person:榎本詩織","type":"MENTORING_FIT","weight":8,"direction":"佐藤→榎本","reason":"佐藤の専門知識と実践力が榎本の成長意欲に応える。","ai_generated":true},{"source":"person:佐藤傑","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":9,"reason":"佐藤の推進力と榎本の協調性・学習意欲が成果最大化。","ai_generated":true},{"source":"person:鈴木悠斗","target":"person:戸塚直道","type":"COMPLEMENTS","weight":8,"reason":"戸塚の変革実行力と鈴木のリスク管理・組織統制が補完。","ai_generated":true},{"source":"person:鈴木悠斗","target":"person:戸塚直道","type":"MENTORING_FIT","weight":8,"direction":"mutual","reason":"経営者としての異なる視点・強みを互いに学び合える。","ai_generated":true},{"source":"person:鈴木悠斗","target":"person:戸塚直道","type":"TEAM_SYNERGY","weight":9,"reason":"強力なリーダーシップと異なる経営視点が事業を加速。","ai_generated":true},{"source":"person:鈴木悠斗","target":"person:榎本詩織","type":"COMPLEMENTS","weight":8,"reason":"鈴木の経営視点と榎本の現場貢献意欲・コミュニケーションが補完。","ai_generated":true},{"source":"person:鈴木悠斗","target":"person:榎本詩織","type":"MENTORING_FIT","weight":9,"direction":"鈴木→榎本","reason":"鈴木の経営視点と育成能力が榎本の成長を強く促進する。","ai_generated":true},{"source":"person:鈴木悠斗","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":9,"reason":"経営視点と現場実行力、良好なコミュニケーションで組織力強化。","ai_generated":true},{"source":"person:戸塚直道","target":"person:榎本詩織","type":"COMPLEMENTS","weight":8,"reason":"戸塚のビジョンと榎本の学習意欲・協調性が組織成長に貢献。","ai_generated":true},{"source":"person:戸塚直道","target":"person:榎本詩織","type":"MENTORING_FIT","weight":9,"direction":"戸塚→榎本","reason":"戸塚の業界知識とリーダーシップが榎本の成長を大きく促す。","ai_generated":true},{"source":"person:戸塚直道","target":"person:榎本詩織","type":"TEAM_SYNERGY","weight":9,"reason":"戸塚の情熱と榎本の学習・協調性がビジョン実現を加速。","ai_generated":true}]};
 
+// --- Constants & Config ---
 const colorMap = {
-  person: '#818cf8',
-  skill: '#60a5fa',
-  value: '#34d399',
-  interest: '#fb923c',
-  motivation: '#f472b6',
+    person: '#818cf8',
+    skill: '#60a5fa',
+    value: '#34d399',
+    interest: '#fb923c',
+    motivation: '#f472b6',
 };
 
 const edgeColorMap = {
-  HAS_SKILL: '#60a5fa40',
-  VALUES: '#34d39940',
-  INTERESTED_IN: '#fb923c40',
-  MOTIVATED_BY: '#f472b640',
-  SHARES: '#3b82f660',
-  COMPLEMENTS: '#a78bfa80',
-  MENTORING_FIT: '#fbbf2480',
-  TEAM_SYNERGY: '#34d39980',
+    HAS_SKILL: '#60a5fa40',
+    VALUES: '#34d39940',
+    INTERESTED_IN: '#fb923c40',
+    MOTIVATED_BY: '#f472b640',
+    SHARES: '#3b82f660',
+    COMPLEMENTS: '#a78bfa80',
+    MENTORING_FIT: '#fbbf2480',
+    TEAM_SYNERGY: '#34d39980',
 };
 
 const aiEdgeTypes = ['SHARES', 'COMPLEMENTS', 'MENTORING_FIT', 'TEAM_SYNERGY'];
-
-let currentFilter = 'all';
-let visibleEdgeTypes = new Set(aiEdgeTypes);
-
-// Stats
-const stats = document.getElementById('stats');
-const meta = GRAPH_DATA.metadata;
-stats.innerHTML = `
-  <span><span class="dot" style="background:#818cf8"></span>${meta.employee_count}名</span>
-  <span><span class="dot" style="background:#60a5fa"></span>${meta.node_count}ノード</span>
-  <span><span class="dot" style="background:#34d399"></span>${meta.edge_count}エッジ</span>
-  <span>${meta.ai_enhanced ? 'AI拡張済' : ''}</span>
-`;
-
-// SVG setup
-const container = document.getElementById('graph-container');
-const width = container.clientWidth;
-const height = container.clientHeight;
-
-const svg = d3.select('#graph-container').append('svg')
-  .attr('width', width)
-  .attr('height', height);
-
-const g = svg.append('g');
-
-// Zoom
-const zoom = d3.zoom()
-  .scaleExtent([0.1, 4])
-  .on('zoom', (e) => g.attr('transform', e.transform));
-svg.call(zoom);
-
-const tooltip = document.getElementById('tooltip');
-const detailPanel = document.getElementById('detail-panel');
-
-function getFilteredData() {
-  let nodes, edges;
-  const allNodes = GRAPH_DATA.nodes;
-  const allEdges = GRAPH_DATA.edges;
-
-  if (currentFilter === 'all') {
-    nodes = [...allNodes];
-  } else if (currentFilter === 'person-only') {
-    nodes = allNodes.filter(n => n.type === 'person');
-  } else {
-    const personNodes = allNodes.filter(n => n.type === 'person');
-    const catNodes = allNodes.filter(n => n.type === 'attribute' && n.categories.includes(currentFilter));
-    nodes = [...personNodes, ...catNodes];
-  }
-
-  const nodeIds = new Set(nodes.map(n => n.id));
-  edges = allEdges.filter(e => {
-    if (!nodeIds.has(e.source?.id || e.source) || !nodeIds.has(e.target?.id || e.target)) return false;
-    if (aiEdgeTypes.includes(e.type) && !visibleEdgeTypes.has(e.type)) return false;
-    return true;
-  });
-
-  return { nodes, edges };
-}
-
-function getNodeRadius(node) {
-  if (node.type === 'person') return 20;
-  const count = node.connectedPeople?.length || 1;
-  return Math.min(6 + count * 2, 18);
-}
-
-function getNodeColor(node) {
-  if (node.type === 'person') return colorMap.person;
-  if (node.color) return node.color;
-  const firstCat = node.categories?.[0] || 'skill';
-  return colorMap[firstCat] || '#94a3b8';
-}
-
-let simulation, linkGroup, nodeGroup, labelGroup;
-
-function render() {
-  g.selectAll('*').remove();
-  const data = getFilteredData();
-
-  linkGroup = g.append('g').attr('class', 'links');
-  nodeGroup = g.append('g').attr('class', 'nodes');
-  labelGroup = g.append('g').attr('class', 'labels');
-
-  const links = linkGroup.selectAll('line')
-    .data(data.edges)
-    .enter().append('line')
-    .attr('stroke', d => edgeColorMap[d.type] || '#33415540')
-    .attr('stroke-width', d => {
-      if (d.type === 'SHARES') return Math.max(1, d.weight * 0.5);
-      if (aiEdgeTypes.includes(d.type)) return 2;
-      return 0.5;
-    })
-    .attr('stroke-dasharray', d => d.ai_generated ? '4,4' : 'none');
-
-  const nodes = nodeGroup.selectAll('circle')
-    .data(data.nodes)
-    .enter().append('circle')
-    .attr('r', getNodeRadius)
-    .attr('fill', getNodeColor)
-    .attr('stroke', d => d.type === 'person' ? '#818cf880' : 'none')
-    .attr('stroke-width', d => d.type === 'person' ? 2 : 0)
-    .attr('cursor', 'pointer')
-    .on('mouseover', (event, d) => {
-      tooltip.style.opacity = 1;
-      let sub = '';
-      if (d.type === 'person') sub = d.job;
-      else sub = (d.connectedPeople?.length || 0) + '名が該当';
-      tooltip.innerHTML = `<div class="tt-title">${d.label}</div><div class="tt-sub">${sub}</div>`;
-    })
-    .on('mousemove', (event) => {
-      tooltip.style.left = (event.offsetX + 14) + 'px';
-      tooltip.style.top = (event.offsetY - 14) + 'px';
-    })
-    .on('mouseout', () => { tooltip.style.opacity = 0; })
-    .on('click', (event, d) => showDetail(d))
-    .call(d3.drag()
-      .on('start', (event, d) => {
-        if (!event.active) simulation.alphaTarget(0.3).restart();
-        d.fx = d.x; d.fy = d.y;
-      })
-      .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
-      .on('end', (event, d) => {
-        if (!event.active) simulation.alphaTarget(0);
-        d.fx = null; d.fy = null;
-      })
-    );
-
-  const labels = labelGroup.selectAll('text')
-    .data(data.nodes.filter(n => n.type === 'person' || (n.connectedPeople?.length || 0) >= 3))
-    .enter().append('text')
-    .text(d => d.label)
-    .attr('text-anchor', 'middle')
-    .attr('dy', d => d.type === 'person' ? -26 : -14)
-    .attr('fill', '#cbd5e1')
-    .attr('font-size', d => d.type === 'person' ? '12px' : '10px')
-    .attr('pointer-events', 'none');
-
-  simulation = d3.forceSimulation(data.nodes)
-    .force('link', d3.forceLink(data.edges).id(d => d.id).distance(d => {
-      if (d.type === 'SHARES' || aiEdgeTypes.includes(d.type)) return 120;
-      return 80;
-    }))
-    .force('charge', d3.forceManyBody()
-      .strength(d => d.type === 'person' ? -300 : -80)
-    )
-    .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(d => getNodeRadius(d) + 4))
-    .on('tick', () => {
-      links
-        .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
-        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
-      nodes.attr('cx', d => d.x).attr('cy', d => d.y);
-      labels.attr('x', d => d.x).attr('y', d => d.y);
-    });
-}
-
-function showDetail(node) {
-  if (node.type === 'person') {
-    const p = node.personality || {};
-    const allEdges = GRAPH_DATA.edges;
-    const connections = allEdges.filter(e => {
-      const src = e.source?.id || e.source;
-      const tgt = e.target?.id || e.target;
-      return (src === node.id || tgt === node.id) && aiEdgeTypes.includes(e.type);
-    });
-
-    let connHTML = '';
-    if (connections.length > 0) {
-      connHTML = '<div class="connections-list"><h4>関係性</h4>';
-      connections.sort((a, b) => b.weight - a.weight).slice(0, 10).forEach(e => {
-        const src = e.source?.id || e.source;
-        const tgt = e.target?.id || e.target;
-        const other = (src === node.id ? tgt : src).replace('person:', '');
-        const reason = e.reason || '';
-        connHTML += `<div class="conn-item"><span>${other} <span style="color:#64748b;font-size:10px">${reason}</span></span><span class="conn-type ${e.type}">${e.type.replace('_', ' ')}</span></div>`;
-      });
-      connHTML += '</div>';
-    }
-
-    detailPanel.innerHTML = `
-      <div class="detail-card">
-        <h3>${node.label}</h3>
-        <div class="job">${node.job}</div>
-        <div class="summary">${node.summary}</div>
-        <div class="big5">
-          <div><div class="score">${p.O}</div><div class="label">開放性</div></div>
-          <div><div class="score">${p.C}</div><div class="label">誠実性</div></div>
-          <div><div class="score">${p.E}</div><div class="label">外向性</div></div>
-          <div><div class="score">${p.A}</div><div class="label">協調性</div></div>
-          <div><div class="score">${p.N}</div><div class="label">神経症</div></div>
-        </div>
-        ${connHTML}
-      </div>
-    `;
-  } else {
-    const people = node.connectedPeople || [];
-    detailPanel.innerHTML = `
-      <div class="detail-card">
-        <h3>${node.label}</h3>
-        <div class="job">${node.categories?.join(', ')}</div>
-        <div class="summary">該当社員: ${people.length}名</div>
-        <div style="font-size:12px">${people.map(p => '<div style="padding:4px 0;border-bottom:1px solid #1e293b">' + p + '</div>').join('')}</div>
-      </div>
-    `;
-  }
-}
-
-// Filter handlers
-document.getElementById('filter-select').addEventListener('change', (e) => {
-  currentFilter = e.target.value;
-  render();
-});
-
-const toggleMap = {
-  'toggle-shares': 'SHARES',
-  'toggle-complements': 'COMPLEMENTS',
-  'toggle-mentoring': 'MENTORING_FIT',
-  'toggle-synergy': 'TEAM_SYNERGY',
+const edgeTypeLabels = {
+    'SHARES': '共通事項',
+    'COMPLEMENTS': '補完関係',
+    'MENTORING_FIT': 'メンター相性',
+    'TEAM_SYNERGY': 'チーム相乗効果',
+    'HAS_SKILL': 'スキル',
+    'VALUES': '価値観',
+    'INTERESTED_IN': '関心事',
+    'MOTIVATED_BY': 'モチベーション'
+};
+const edgeTypeColors = {
+    'SHARES': '#3b82f6',
+    'COMPLEMENTS': '#a78bfa',
+    'MENTORING_FIT': '#fbbf24',
+    'TEAM_SYNERGY': '#34d399',
+    'HAS_SKILL': '#60a5fa',
+    'VALUES': '#34d399',
+    'INTERESTED_IN': '#fb923c',
+    'MOTIVATED_BY': '#f472b6'
 };
 
-Object.entries(toggleMap).forEach(([id, type]) => {
-  document.getElementById(id).addEventListener('change', (e) => {
-    if (e.target.checked) visibleEdgeTypes.add(type);
-    else visibleEdgeTypes.delete(type);
-    render();
-  });
+// --- Module 1: StateManager ---
+class StateManager {
+    constructor() {
+        this.state = {
+            currentFilter: 'all', // 'all' or specific category
+            selectedNodeId: null,
+            searchQuery: '',
+            // All relation edges hidden by default
+            visibleEdgeTypes: new Set()
+        };
+        this.listeners = [];
+    }
+
+    getState() {
+        return this.state;
+    }
+
+    setState(newState) {
+        this.state = { ...this.state, ...newState };
+        this.notify();
+    }
+
+    subscribe(listener) {
+        this.listeners.push(listener);
+    }
+
+    notify() {
+        this.listeners.forEach(listener => listener(this.state));
+    }
+}
+
+// --- Module 2: DataProcessor ---
+class DataProcessor {
+    static process(graphData, state) {
+        const { currentFilter, visibleEdgeTypes } = state;
+        const allNodes = graphData.nodes;
+        const allEdges = graphData.edges;
+
+        // 1. Filter Nodes
+        let nodes;
+        if (currentFilter === 'all') {
+            nodes = [...allNodes];
+        } else {
+            const personNodes = allNodes.filter(n => n.type === 'person');
+            const catNodes = allNodes.filter(n => n.type === 'attribute' && n.categories.includes(currentFilter));
+            nodes = [...personNodes, ...catNodes];
+        }
+
+        // 2. Filter Edges
+        const nodeIds = new Set(nodes.map(n => n.id));
+        let edges = allEdges.filter(e => {
+            // Both ends must be in filtered nodes
+            if (!nodeIds.has(e.source?.id || e.source) || !nodeIds.has(e.target?.id || e.target)) return false;
+            // Filter by AI edge types if applicable
+            if ((aiEdgeTypes.includes(e.type) && !visibleEdgeTypes.has(e.type))) return false;
+            return true;
+        });
+
+        // 3. Process Overlapping Edges (Improvement B)
+        const pairCount = {};
+        edges.forEach(e => {
+            const src = e.source?.id || e.source;
+            const tgt = e.target?.id || e.target;
+            const key = [src, tgt].sort().join('|');
+            if (!pairCount[key]) pairCount[key] = { count: 0, edges: [] };
+            pairCount[key].count++;
+            pairCount[key].edges.push(e);
+            e._pairIndex = pairCount[key].count - 1;
+            e._pairTotal = 0; // Placeholder
+        });
+
+        // Update total for calculating offsets
+        Object.values(pairCount).forEach(p => {
+            p.edges.forEach(e => e._pairTotal = p.count);
+        });
+
+        return { nodes, edges };
+    }
+}
+
+// --- Module 3: GraphRenderer ---
+class GraphRenderer {
+    constructor(containerId) {
+        this.container = document.getElementById(containerId);
+        this.width = this.container.clientWidth;
+        this.height = this.container.clientHeight;
+
+        this.svg = d3.select('#' + containerId).append('svg')
+            .attr('width', this.width)
+            .attr('height', this.height);
+
+        this.g = this.svg.append('g'); // Main group for zoom
+
+        this.defs = this.svg.append('defs');
+        this.defineMarkers();
+
+        this.simulation = null;
+        this.currentZoomScale = 0.8;
+        this.onNodeClick = null; // Callback
+
+        this.initZoom();
+    }
+
+    defineMarkers() {
+        this.defs.append('marker')
+            .attr('id', 'arrow-mentoring')
+            .attr('viewBox', '0 -5 10 10')
+            .attr('refX', 20)
+            .attr('refY', 0)
+            .attr('markerWidth', 6)
+            .attr('markerHeight', 6)
+            .attr('orient', 'auto')
+            .append('path')
+            .attr('d', 'M0,-5L10,0L0,5')
+            .attr('fill', edgeTypeColors['MENTORING_FIT']);
+    }
+
+    initZoom() {
+        this.zoom = d3.zoom()
+            .scaleExtent([0.1, 4])
+            .on('zoom', (e) => {
+                this.g.attr('transform', e.transform);
+                this.currentZoomScale = e.transform.k;
+                this.updateLabelVisibility();
+
+                // Improvement F & Performance Tweak
+                if (this.currentZoomScale < 0.5) {
+                    this.g.select('.links').style('opacity', 0.5);
+                } else {
+                    this.g.select('.links').style('opacity', 1);
+                }
+            });
+        this.svg.call(this.zoom);
+    }
+
+    render(data, currentFilter) {
+        this.currentFilter = currentFilter;
+        this.g.selectAll('*').remove(); // Clear previous render
+
+        // Layers
+        this.linkGroup = this.g.append('g').attr('class', 'links');
+        this.edgeLabelGroup = this.g.append('g').attr('class', 'edge-labels');
+        this.nodeGroup = this.g.append('g').attr('class', 'nodes');
+        this.labelGroup = this.g.append('g').attr('class', 'labels');
+
+        // --- Nodes ---
+        this.nodes = this.nodeGroup.selectAll('circle')
+            .data(data.nodes, d => d.id)
+            .enter().append('circle')
+            .attr('r', d => this.getNodeRadius(d))
+            .attr('fill', d => this.getNodeColor(d))
+            .attr('stroke', d => d.type === 'person' ? '#818cf880' : 'none')
+            .attr('stroke-width', d => d.type === 'person' ? 2 : 0)
+            .attr('cursor', 'pointer')
+            .on('click', (event, d) => {
+                event.stopPropagation();
+                if (this.onNodeClick) this.onNodeClick(d.id);
+            })
+            .call(this.dragBehavior());
+
+        // --- Edges ---
+        this.links = this.linkGroup.selectAll('path')
+            .data(data.edges)
+            .enter().append('path')
+            .attr('stroke', d => this.getEdgeColor(d))
+            .attr('stroke-width', d => this.getEdgeStyle(d).width)
+            .attr('stroke-opacity', 0.6)
+            .attr('fill', 'none')
+            .attr('stroke-dasharray', d => this.getEdgeStyle(d).dasharray)
+            .attr('marker-end', d => this.getEdgeStyle(d).marker);
+
+        // --- Node Labels ---
+        this.labels = this.labelGroup.selectAll('text')
+            .data(data.nodes)
+            .enter().append('text')
+            .text(d => d.label)
+            .attr('text-anchor', 'middle')
+            .attr('dy', d => d.type === 'person' ? -26 : -14)
+            .attr('fill', d => this.getLabelColor(d))
+            .attr('font-size', d => this.getLabelSize(d))
+            .attr('pointer-events', 'none')
+            .attr('stroke', '#0f172a')
+            .attr('stroke-width', 3)
+            .attr('paint-order', 'stroke');
+
+        // --- Auto Edge Labels (Improvement F: High zoom) ---
+        // Pre-create them hidden
+        // User requested to remove relation labels. Passing empty array.
+        this.autoEdgeLabels = this.edgeLabelGroup.selectAll('.auto-edge-label')
+            .data([]) // Empty data to prevent rendering
+            .enter().append('text');
+
+        // Setup Tooltip interactions
+        this.setupTooltip();
+
+        // Setup Simulation
+        this.simulation = d3.forceSimulation(data.nodes)
+            .force('link', d3.forceLink(data.edges).id(d => d.id).distance(d => {
+                if (d.type === 'SHARES' || aiEdgeTypes.includes(d.type)) return 160;
+                return 100;
+            }).strength(d => aiEdgeTypes.includes(d.type) ? 0.3 : 0.2))
+            .force('charge', d3.forceManyBody().strength(d => d.type === 'person' ? -500 : -120))
+            .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+            .force('collision', d3.forceCollide().radius(d => d.type === 'person' ? 45 : 20).strength(0.8))
+            .force('x', d3.forceX(this.width / 2).strength(0.02))
+            .force('y', d3.forceY(this.height / 2).strength(0.02))
+            .on('tick', () => {
+                this.tick();
+            });
+
+        // Initial label update
+        this.updateLabelVisibility();
+
+        // Clear background click
+        this.svg.on('click', () => {
+            if (this.onNodeClick) this.onNodeClick(null);
+        });
+    }
+
+    tick() {
+        // Curved edges (Improvement B)
+        this.links.attr('d', d => {
+            const dx = d.target.x - d.source.x;
+            const dy = d.target.y - d.source.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+
+            if (d._pairTotal <= 1) {
+                const dr = dist * 1.5;
+                return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,1 ${d.target.x},${d.target.y}`;
+            }
+
+            const offset = (d._pairIndex - (d._pairTotal - 1) / 2) * 0.8;
+            const curvature = 1.2 + offset;
+            const dr = dist * curvature;
+            const sweep = offset >= 0 ? 1 : 0;
+
+            return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,${sweep} ${d.target.x},${d.target.y}`;
+        });
+
+        this.nodes.attr('cx', d => d.x).attr('cy', d => d.y);
+        this.labels.attr('transform', d => 'translate(' + d.x + ',' + d.y + ')');
+
+        // Labels position
+        this.autoEdgeLabels
+            .attr('x', d => (d.source.x + d.target.x) / 2)
+            .attr('y', d => {
+                const midY = (d.source.y + d.target.y) / 2;
+                let offsetY = 0;
+                if (d._pairTotal > 1) {
+                    offsetY = (d._pairIndex - (d._pairTotal - 1) / 2) * 24;
+                }
+                return midY + offsetY;
+            });
+
+        // Sync custom AI edge labels (if enabled in highlight)
+        this.edgeLabelGroup.selectAll('.ai-edge-label-group').attr('transform', d => {
+            if (!d || !d.source || !d.target) return null;
+            const midX = (d.source.x + d.target.x) / 2;
+            const midY = (d.source.y + d.target.y) / 2;
+            let offsetY = 0;
+            if (d._pairTotal > 1) {
+                offsetY = (d._pairIndex - (d._pairTotal - 1) / 2) * 24;
+            }
+            return `translate(${midX}, ${midY + offsetY})`;
+        });
+    }
+
+    // --- Interaction Methods ---
+
+    highlight(nodeId) {
+        if (!nodeId) {
+            // Reset to default
+            this.nodeGroup.selectAll('circle').transition().duration(300).attr('opacity', 1);
+            this.links.transition().duration(300)
+                .attr('opacity', 1)
+                .attr('stroke-width', d => this.getEdgeStyle(d).width);
+            this.labels.transition().duration(300).attr('opacity', d => this.getZoomLabelOpacity(d));
+
+            this.edgeLabelGroup.selectAll('.ai-edge-label-group').remove();
+            this.updateLabelVisibility(); // Restore auto labels if valid
+            return;
+        }
+
+        // Logic for highlighting connected nodes
+        const connectedIds = new Set([nodeId]);
+        // We need access to current data. this.links.data() gives us the edges.
+        const currentEdges = this.links.data();
+        currentEdges.forEach(e => {
+            const src = e.source.id;
+            const tgt = e.target.id;
+            if (src === nodeId) connectedIds.add(tgt);
+            if (tgt === nodeId) connectedIds.add(src);
+        });
+
+        // Dim nodes
+        this.nodeGroup.selectAll('circle')
+            .transition().duration(200)
+            .attr('opacity', n => connectedIds.has(n.id) ? 1 : 0.15);
+
+        // Dim/Highlight Links
+        this.links.transition().duration(200)
+            .attr('opacity', e => {
+                const src = e.source.id;
+                const tgt = e.target.id;
+                return (src === nodeId || tgt === nodeId) ? 1 : 0.05;
+            })
+            .attr('stroke-width', e => {
+                const src = e.source.id;
+                const tgt = e.target.id;
+                return (src === nodeId || tgt === nodeId) ? 3 : 0.5;
+            });
+
+        // Dim Labels
+        this.labels.transition().duration(200)
+            .attr('opacity', n => {
+                if (n.id === nodeId) return 1;
+                return connectedIds.has(n.id) ? 1 : 0.08;
+            });
+
+        // Show detailed edge labels for this node
+        this.showEdgeDetails(nodeId, currentEdges);
+    }
+
+    showEdgeDetails(nodeId, edges) {
+        this.edgeLabelGroup.selectAll('.ai-edge-label-group').remove();
+        // User requested to remove relation labels.
+        // Returning here ensures no text labels are added for edges.
+        return;
+    }
+
+    focusOnNode(nodeId, graphDataNodes) {
+        const node = graphDataNodes.find(n => n.id === nodeId);
+        if (!node) return;
+
+        // Auto zoom
+        const scale = 1.6;
+        const translateX = this.width / 2 - node.x * scale;
+        const translateY = this.height / 2 - node.y * scale;
+
+        this.svg.transition().duration(750)
+            .call(this.zoom.transform,
+                d3.zoomIdentity.translate(translateX, translateY).scale(scale)
+            );
+
+        // Pull force (Optional UX enhancement from original)
+        // ... (Skipping complex pull force for brevity, zoom is main requirement)
+    }
+
+    // --- Helpers ---
+    getNodeRadius(node) {
+        if (node.type === 'person') return 20;
+        const count = node.connectedPeople?.length || 1;
+        return Math.min(6 + count * 2, 18);
+    }
+
+    getNodeColor(node) {
+        if (node.type === 'person') return colorMap.person;
+
+        // Contextual coloring based on filter
+        // If the current filter is a category and the node belongs to it, force that color
+        if (this.currentFilter && ['skill', 'value', 'interest', 'motivation'].includes(this.currentFilter)) {
+            if (node.categories && node.categories.includes(this.currentFilter)) {
+                return colorMap[this.currentFilter];
+            }
+        }
+
+        if (node.color) return node.color;
+        const firstCat = node.categories?.[0] || 'skill';
+        return colorMap[firstCat] || '#94a3b8';
+    }
+
+    getEdgeColor(d) {
+        return edgeColorMap[d.type] || '#33415540';
+    }
+
+    getEdgeStyle(d) {
+        switch (d.type) {
+            case 'SHARES': return { dasharray: 'none', width: Math.max(1, d.weight * 0.5), marker: '' };
+            case 'COMPLEMENTS': return { dasharray: '8,4', width: 2, marker: '' };
+            case 'MENTORING_FIT': return { dasharray: '2,3', width: 2, marker: 'url(#arrow-mentoring)' };
+            case 'TEAM_SYNERGY': return { dasharray: 'none', width: 2.5, marker: '' };
+            default: return { dasharray: 'none', width: 0.5, marker: '' };
+        }
+    }
+
+    getLabelColor(d) {
+        if (d.type === 'person') return '#e2e8f0';
+        const count = d.connectedPeople?.length || 0;
+        if (count >= 3) return '#cbd5e1';
+        if (count >= 2) return '#94a3b8';
+        return '#64748b';
+    }
+
+    getLabelSize(d) {
+        const scale = 1 / Math.max(this.currentZoomScale, 0.3);
+        const base = d.type === 'person' ? 13 : 11;
+        return (base * Math.min(scale, 2.5)) + 'px';
+    }
+
+    getZoomLabelOpacity(d) {
+        if (d.type === 'person') return 1;
+        if (this.currentZoomScale >= 0.7) return 1;
+        if (this.currentZoomScale >= 0.4) return 0.3;
+        return 0;
+    }
+
+    updateLabelVisibility() {
+        if (!this.labelGroup) return;
+        this.labelGroup.selectAll('text')
+            .attr('font-size', d => this.getLabelSize(d))
+            .attr('opacity', d => this.getZoomLabelOpacity(d));
+
+        // Auto Edge Labels visibility (Improvement E/F)
+        if (this.currentZoomScale >= 1.5) {
+            this.edgeLabelGroup.selectAll('.auto-edge-label')
+                .transition().duration(200)
+                .attr('opacity', 0.8);
+        } else {
+            this.edgeLabelGroup.selectAll('.auto-edge-label')
+                .transition().duration(200)
+                .attr('opacity', 0);
+        }
+    }
+
+    dragBehavior() {
+        return d3.drag()
+            .on('start', (event, d) => {
+                if (!event.active) this.simulation.alphaTarget(0.3).restart();
+                d.fx = d.x; d.fy = d.y;
+            })
+            .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
+            .on('end', (event, d) => {
+                if (!event.active) this.simulation.alphaTarget(0);
+                d.fx = null; d.fy = null;
+            });
+    }
+
+    // New Interaction: Hover Dimming (Improvement C)
+    setupTooltip() {
+        const tooltip = document.getElementById('tooltip');
+        this.nodeGroup.selectAll('circle')
+            .on('mousemove', (event) => {
+                tooltip.style.left = (event.offsetX + 14) + 'px';
+                tooltip.style.top = (event.offsetY - 14) + 'px';
+            })
+            .on('mouseover', (event, d) => {
+                tooltip.style.opacity = 1;
+                let sub = '';
+                if (d.type === 'person') sub = d.job;
+                else sub = (d.connectedPeople?.length || 0) + '名が該当';
+                tooltip.innerHTML = `<div class="tt-title">${d.label}</div><div class="tt-sub">${sub}</div>`;
+
+                // Trigger Dimming (Only if no node is selected)
+                // But wait, StateManager controls selection. 
+                // In a pure Renderer, we might just allow temporary hover dim if no selection.
+                // We'll rely on global checked in Highlight or handle locally:
+                // Since we don't have direct access to "selectedNodeId" state here unless passed,
+                // we will implement a "hoverHighlight" method that can be called responsibly or handle it internally assuming no selection if none active.
+                // For simplicity, we implement local hover logic that respects active highlight.
+                if (this.g.select('.links path[opacity="0.05"]').empty()) {
+                    // No active selection (approximation)
+                    this.tempHighlight(d.id);
+                }
+            })
+            .on('mouseout', () => {
+                tooltip.style.opacity = 0;
+                if (this.g.select('.links path[opacity="0.05"]').empty()) {
+                    this.clearTempHighlight();
+                }
+            });
+    }
+
+    tempHighlight(nodeId) {
+        const connectedIds = new Set([nodeId]);
+        this.links.data().forEach(e => {
+            const src = e.source.id;
+            const tgt = e.target.id;
+            if (src === nodeId) connectedIds.add(tgt);
+            if (tgt === nodeId) connectedIds.add(src);
+        });
+
+        this.nodeGroup.selectAll('circle').attr('opacity', n => connectedIds.has(n.id) ? 1 : 0.4);
+        this.links.attr('opacity', e => {
+            const src = e.source.id;
+            const tgt = e.target.id;
+            return (src === nodeId || tgt === nodeId) ? 0.8 : 0.1;
+        });
+    }
+
+    clearTempHighlight() {
+        this.nodeGroup.selectAll('circle').attr('opacity', 1);
+        this.links.attr('opacity', 1);
+    }
+}
+
+// --- Module 4: UIManager ---
+class UIManager {
+    constructor(stateManager) {
+        this.stateManager = stateManager;
+        this.detailPanel = document.getElementById('detail-panel');
+        this.stats = document.getElementById('stats');
+
+        // Bind DOM elements
+        this.filterSelect = document.getElementById('filter-select');
+        this.searchInput = document.getElementById('search-input');
+
+        this.initEvents();
+    }
+
+    initEvents() {
+        // Filter
+        this.filterSelect.addEventListener('change', (e) => {
+            this.stateManager.setState({ currentFilter: e.target.value, selectedNodeId: null });
+        });
+
+        // Search
+        this.searchInput.addEventListener('input', (e) => {
+            // Basic search logic could be here, but usually search triggers selection or filter
+            // For now just update stateQuery
+            this.stateManager.setState({ searchQuery: e.target.value.toLowerCase() });
+        });
+
+        // Handle Enter on search to select first match
+        this.searchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                const query = e.target.value.toLowerCase();
+                const nodes = GRAPH_DATA.nodes;
+                const match = nodes.find(n => n.label.toLowerCase().includes(query) || (n.kanji && n.kanji.includes(query)));
+                if (match) {
+                    this.stateManager.setState({ selectedNodeId: match.id });
+                }
+            }
+        });
+
+        // Edge Toggles
+        const toggleMap = {
+            'toggle-shares': 'SHARES',
+            'toggle-complements': 'COMPLEMENTS',
+            'toggle-mentoring': 'MENTORING_FIT',
+            'toggle-synergy': 'TEAM_SYNERGY'
+        };
+
+        Object.entries(toggleMap).forEach(([id, type]) => {
+            const el = document.getElementById(id);
+            if (el) {
+                el.addEventListener('change', (e) => {
+                    const currentVisible = this.stateManager.getState().visibleEdgeTypes;
+                    const newVisible = new Set(currentVisible);
+                    if (e.target.checked) {
+                        newVisible.add(type);
+                    } else {
+                        newVisible.delete(type);
+                    }
+                    this.stateManager.setState({ visibleEdgeTypes: newVisible });
+                });
+            }
+        });
+    }
+
+    updateStats(meta) {
+        this.stats.innerHTML = `
+          <span><span class="dot" style="background:#818cf8"></span>${meta.employee_count}名</span>
+          <span><span class="dot" style="background:#60a5fa"></span>${meta.node_count}ノード</span>
+          <span><span class="dot" style="background:#34d399"></span>${meta.edge_count}エッジ</span>
+          <span>${meta.ai_enhanced ? 'AI拡張済' : ''}</span>
+        `;
+    }
+
+    updateSidebar(nodeId) {
+        if (!nodeId) {
+            this.detailPanel.innerHTML = '<div class="detail-empty">ノードをクリックすると<br>詳細が表示されます</div>';
+            return;
+        }
+
+        const node = GRAPH_DATA.nodes.find(n => n.id === nodeId);
+        if (!node) return;
+
+        if (node.type === 'person') {
+            this.renderPersonDetail(node);
+        } else {
+            this.renderCategoryDetail(node);
+        }
+    }
+
+    renderPersonDetail(node) {
+        const p = node.personality || {};
+
+        // Find visible connections
+        const connections = GRAPH_DATA.edges.filter(e => {
+            const src = e.source?.id || e.source;
+            const tgt = e.target?.id || e.target;
+            return (src === node.id || tgt === node.id) && aiEdgeTypes.includes(e.type);
+        });
+
+        // Chart
+        const traits = [
+            { label: '開放性', score: p.O || 0, color: '#60a5fa' },
+            { label: '誠実性', score: p.C || 0, color: '#34d399' },
+            { label: '外向性', score: p.E || 0, color: '#fb923c' },
+            { label: '協調性', score: p.A || 0, color: '#a78bfa' },
+            { label: '安定性', score: 10 - (p.N || 0), color: '#f472b6' },
+        ];
+        const personalityHTML = traits.map(t =>
+            `<div class="p-bar"><span class="p-label">${t.label}</span><div class="p-track"><div class="p-fill" style="width:${t.score * 10}%;background:${t.color}"></div></div><span class="p-score">${t.score}</span></div>`
+        ).join('');
+
+        // Connections List (Improvement D)
+        let connHTML = '';
+        if (connections.length > 0) {
+            connections.sort((a, b) => b.weight - a.weight);
+            connHTML = '<div class="connections-list"><h4>🤝 つながりの強い社員</h4>';
+            connections.slice(0, 8).forEach(e => {
+                const src = e.source?.id || e.source;
+                const tgt = e.target?.id || e.target;
+                const otherId = src === node.id ? tgt : src;
+                const otherNode = GRAPH_DATA.nodes.find(n => n.id === otherId);
+                const otherLabel = otherNode ? otherNode.label : otherId;
+
+                const typeName = edgeTypeLabels[e.type] || e.type;
+                const typeColor = edgeTypeColors[e.type] || '#94a3b8';
+                const reason = e.reason || '';
+
+                // Clickable card with data-id attribute for global delegation event or inline
+                // We'll use a globally accessible function for simplicity in HTML string
+                // But essentially we want to call stateManager.setState
+                connHTML += `<div class="conn-card" style="cursor:pointer" onclick="window.app.navigateTo('${otherId}')">
+                  <div class="conn-card-header">
+                    <span class="conn-card-name">${otherLabel}</span>
+                    <span class="conn-card-badge" style="background:${typeColor}20;color:${typeColor}">${typeName}</span>
+                  </div>
+                  ${reason ? '<div class="conn-card-reason">' + reason + '</div>' : ''}
+                </div>`;
+            });
+            connHTML += '</div>';
+        }
+
+        // Attribute Tags (Skills, Values, Interests)
+        // Need to find edges that link this person to attributes
+        const attrEdges = GRAPH_DATA.edges.filter(e => {
+            const src = e.source?.id || e.source;
+            return src === node.id && !aiEdgeTypes.includes(e.type);
+        });
+        const attrNodes = attrEdges.map(e => {
+            const tgtId = e.target?.id || e.target;
+            return GRAPH_DATA.nodes.find(n => n.id === tgtId);
+        }).filter(Boolean);
+
+        const skills = attrNodes.filter(n => n.categories?.includes('skill'));
+        const values = attrNodes.filter(n => n.categories?.includes('value'));
+        const interests = attrNodes.filter(n => n.categories?.includes('interest'));
+
+        let tagsHTML = '';
+        if (skills.length > 0) tagsHTML += '<h4 style="margin:12px 0 6px;font-size:12px;color:#94a3b8">🔧 スキル</h4><div class="conn-card-tags">' + skills.map(s => '<span class="tag tag-skill">' + s.label + '</span>').join('') + '</div>';
+        if (values.length > 0) tagsHTML += '<h4 style="margin:12px 0 6px;font-size:12px;color:#94a3b8">💎 価値観</h4><div class="conn-card-tags">' + values.map(v => '<span class="tag tag-value">' + v.label + '</span>').join('') + '</div>';
+        if (interests.length > 0) tagsHTML += '<h4 style="margin:12px 0 6px;font-size:12px;color:#94a3b8">🎯 関心事</h4><div class="conn-card-tags">' + interests.map(i => '<span class="tag tag-interest">' + i.label + '</span>').join('') + '</div>';
+
+
+        this.detailPanel.innerHTML = `
+          <div class="detail-card">
+            <h3>${node.label}</h3>
+            <div class="job">${node.job}</div>
+            <div class="summary">${node.summary}</div>
+            <div class="personality-section">
+              <h4 style="font-size:12px;color:#94a3b8;margin-bottom:8px">🧠 性格特性</h4>
+              ${personalityHTML}
+            </div>
+            ${connHTML}
+            ${tagsHTML}
+          </div>
+        `;
+    }
+
+    renderCategoryDetail(node) {
+        const people = node.connectedPeople || [];
+        this.detailPanel.innerHTML = `
+          <div class="detail-card">
+            <h3>${node.label}</h3>
+            <div class="job">${node.categories?.join(', ')}</div>
+            <div class="summary">該当社員: ${people.length}名</div>
+            <div style="font-size:12px">${people.map(p => '<div style="padding:6px 0;border-bottom:1px solid #1e293b">' + p + '</div>').join('')}</div>
+          </div>
+        `;
+    }
+}
+
+// --- Module 5: Main ---
+class App {
+    constructor() {
+        this.stateManager = new StateManager();
+        this.renderer = null; // Deferred init until DOM ready if needed, but here we can just init
+        this.uiManager = null;
+    }
+
+    init() {
+        this.uiManager = new UIManager(this.stateManager);
+        this.renderer = new GraphRenderer('graph-container');
+
+        // Expose helper for clickable HTML
+        window.app = this;
+
+        // Initial Sidebar Stats
+        this.uiManager.updateStats(GRAPH_DATA.metadata);
+
+        // Subscribe to state changes
+        this.stateManager.subscribe(this.onStateChange.bind(this));
+
+        // Connect Renderer Events
+        this.renderer.onNodeClick = (nodeId) => {
+            this.stateManager.setState({ selectedNodeId: nodeId });
+        };
+
+        // Initial Render
+        this.onStateChange(this.stateManager.getState());
+
+        // Handle Resize
+        window.addEventListener('resize', () => {
+            // Reload page or re-init renderer (simplest is reload for D3 exact dimensions)
+            // or just update SVG dims
+            if (!this.renderer) return;
+            const container = document.getElementById('graph-container');
+            this.renderer.width = container.clientWidth;
+            this.renderer.height = container.clientHeight;
+            this.renderer.svg.attr('width', this.renderer.width).attr('height', this.renderer.height);
+            this.renderer.simulation.force('center', d3.forceCenter(this.renderer.width / 2, this.renderer.height / 2));
+            this.renderer.simulation.alpha(0.3).restart();
+        });
+    }
+
+    onStateChange(state) {
+        // 1. Process Data
+        const renderData = DataProcessor.process(GRAPH_DATA, state);
+
+        // 2. Render Graph
+        // Note: We only re-render if data (filter) changes, 
+        // but if only selection changes, we just highlight.
+        // For simplicity, we can let D3 handle updates, but distinguishing is better for performance.
+
+        // Check if we need full re-render (nodes changed)
+        // Simplified: Always pass data to render, let D3 handle enter/exit
+        this.renderer.render(renderData, state.currentFilter);
+
+        // 3. Handle Selection/Highlight
+        if (state.selectedNodeId) {
+            this.renderer.highlight(state.selectedNodeId);
+            this.renderer.focusOnNode(state.selectedNodeId, renderData.nodes);
+        } else {
+            this.renderer.highlight(null);
+        }
+
+        // 4. Update Sidebar
+        this.uiManager.updateSidebar(state.selectedNodeId);
+    }
+
+    // Helper for HTML onClick
+    navigateTo(nodeId) {
+        this.stateManager.setState({ selectedNodeId: nodeId });
+    }
+}
+
+// Start App
+document.addEventListener('DOMContentLoaded', () => {
+    const app = new App();
+    app.init();
 });
 
-// Initial render
-render();
-svg.call(zoom.transform, d3.zoomIdentity.translate(width / 4, height / 4).scale(0.8));
 </script>
 </body>
 </html>
