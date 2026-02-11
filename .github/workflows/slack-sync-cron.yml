@@ -41,9 +41,20 @@ jobs:
           GCP_LOCATION: ${{ secrets.GCP_LOCATION || 'us-central1' }}
           GCP_ENDPOINT_ID: ${{ secrets.GCP_ENDPOINT_ID }}
 
+      - name: Build Knowledge Graph
+        run: node scripts/build-knowledge-graph.js
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GCP_LOCATION: ${{ secrets.GCP_LOCATION || 'us-central1' }}
+          GCP_ENDPOINT_ID: ${{ secrets.GCP_ENDPOINT_ID }}
+
+      - name: Generate Graph Documentation
+        run: node scripts/generate-graph-doc.js
+
       - name: Commit and Push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/employees.json docs/TEAM.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update employee profiles from Slack activity" && git push)
+          git add data/employees.json data/knowledge-graph.json docs/TEAM.md docs/KNOWLEDGE_GRAPH.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update employee profiles and knowledge graph" && git push)

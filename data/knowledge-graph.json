@@ -1,0 +1,4519 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-11T02:33:47.106Z",
+    "source": "employees.json",
+    "employee_count": 16,
+    "node_count": 130,
+    "edge_count": 310,
+    "ai_enhanced": false
+  },
+  "nodes": [
+    {
+      "id": "person:杉本光一",
+      "type": "person",
+      "label": "杉本光一",
+      "job": "Engineer",
+      "summary": "杉本さんは、AI技術への高い関心と貢献意欲を持ち、チームワークを重視する協調性のあるエンジニア。課題解決への意欲も高く、周囲への気配りもできる。",
+      "personality": {
+        "O": 9,
+        "C": 8,
+        "E": 8,
+        "A": 9,
+        "N": 3
+      }
+    },
+    {
+      "id": "person:青木淳一郎",
+      "type": "person",
+      "label": "青木淳一郎",
+      "job": "Engineer",
+      "summary": "佐賀県出身、福岡在住のAWS基盤エンジニア。多趣味で学習意欲が高く、協調性を重視する社交的な人物。Saitekiへの貢献意欲も高い。",
+      "personality": {
+        "O": 8,
+        "C": 7,
+        "E": 8,
+        "A": 9,
+        "N": 3
+      }
+    },
+    {
+      "id": "person:小林翔",
+      "type": "person",
+      "label": "小林翔",
+      "job": "QA",
+      "summary": "小林翔さんは、協調性があり、新しい環境への適応能力が高い人物。趣味が多岐にわたり、周囲との共通点を見つけやすい。",
+      "personality": {
+        "O": 9,
+        "C": 7,
+        "E": 7,
+        "A": 9,
+        "N": 3
+      }
+    },
+    {
+      "id": "person:櫻井志保",
+      "type": "person",
+      "label": "櫻井志保",
+      "job": "Engineer",
+      "summary": "櫻井志保さんは、データ分析スキルを活かし、学習意欲とコミュニケーション能力を発揮して活躍することが期待される人物です。",
+      "personality": {
+        "O": 8,
+        "C": 7,
+        "E": 6,
+        "A": 9,
+        "N": 3
+      }
+    },
+    {
+      "id": "person:田浦裕樹",
+      "type": "person",
+      "label": "田浦裕樹",
+      "job": "Engineer",
+      "summary": "田浦裕樹は、豊富な経験と高い技術力を持ち、チームへの貢献意欲が強く、周囲との協調を大切にするエンジニアである。AI技術への関心も高く、学習意欲も旺盛。",
+      "personality": {
+        "O": 9,
+        "C": 8,
+        "E": 7,
+        "A": 9,
+        "N": 4
+      }
+    },
+    {
+      "id": "person:開米 敦則",
+      "type": "person",
+      "label": "開米 敦則",
+      "job": "QA",
+      "summary": "開米敦則氏は、QAエンジニアとしての経験豊富で、AI技術への関心も高く、学習意欲も旺盛。協調性があり、チームへの貢献を重視する。",
+      "personality": {
+        "O": 9,
+        "C": 8,
+        "E": 5,
+        "A": 9,
+        "N": 4
+      }
+    },
+    {
+      "id": "person:貴志雪乃",
+      "type": "person",
+      "label": "貴志雪乃",
+      "job": "HR",
+      "summary": "貴志雪乃さんは、協調性があり、丁寧なコミュニケーションを心がける人物です。組織への貢献意欲が高く、学習意欲も旺盛です。",
+      "personality": {
+        "O": 9,
+        "C": 8,
+        "E": 7,
+        "A": 9,
+        "N": 3
+      }
+    },
+    {
+      "id": "person:上遼太郎",
+      "type": "person",
+      "label": "上遼太郎",
+      "job": "Engineer",
+      "summary": "上遼太郎さんは、学習意欲が高く、周囲との協調性を重視する人物。新しい技術への関心と、チームへの貢献意欲が強い。",
+      "personality": {
+        "O": 9,
+        "C": 7,
+        "E": 6,
+        "A": 9,
+        "N": 3
+      }
+    },
+    {
+      "id": "person:小松田真伍",
+      "type": "person",
+      "label": "小松田真伍",
+      "job": "Engineer",
+      "summary": "小松田真伍は、技術への探求心と学習意欲が非常に高く、積極的に情報共有を行う人物。組織貢献への意欲も強く、周囲との協調を重視する。",
+      "personality": {
+        "O": 10,
+        "C": 8,
+        "E": 8,
+        "A": 9,
+        "N": 4
+      }
+    },
+    {
+      "id": "person:小島遼祐",
+      "type": "person",
+      "label": "小島遼祐",
+      "job": "Engineer",
+      "summary": "小島遼祐は、協調性があり、学習意欲が高く、周囲との良好な関係構築を重視する人物。社会人経験は浅いが、意欲的に学ぼうとしている。",
+      "personality": {
+        "O": 9,
+        "C": 7,
+        "E": 8,
+        "A": 9,
+        "N": 4
+      }
+    },
+    {
+      "id": "person:藤井芙美子",
+      "type": "person",
+      "label": "藤井芙美子",
+      "job": "Sales",
+      "summary": "社交的で協調性があり、学習意欲の高い人物。周囲への気配りを忘れず、新しい環境への適応力も高い。",
+      "personality": {
+        "O": 8,
+        "C": 9,
+        "E": 8,
+        "A": 9,
+        "N": 3
+      }
+    },
+    {
+      "id": "person:菅野聖也",
+      "type": "person",
+      "label": "菅野聖也",
+      "job": "Engineer",
+      "summary": "向上心と協調性があり、AI技術への興味と学習意欲が高い。丁寧なコミュニケーションを心がけ、チームへの貢献を目指している。",
+      "personality": {
+        "O": 9,
+        "C": 7,
+        "E": 7,
+        "A": 8,
+        "N": 4
+      }
+    },
+    {
+      "id": "person:佐藤傑",
+      "type": "person",
+      "label": "佐藤傑",
+      "job": "Other",
+      "summary": "起業家精神旺盛で、AIに関する深い知識とグローバルな視野を持つ。コミュニティ形成にも積極的で、アウトプットを重視する。",
+      "personality": {
+        "O": 10,
+        "C": 8,
+        "E": 9,
+        "A": 8,
+        "N": 3
+      }
+    },
+    {
+      "id": "person:鈴木悠斗",
+      "type": "person",
+      "label": "鈴木悠斗",
+      "job": "経営",
+      "summary": "社交的で親しみやすく、周囲との協調性を重視する人物。技術への関心も高く、新しい知識の習得に意欲的。チームメンバーの貢献を積極的に評価し、組織全体の成長に貢献しようとする。",
+      "personality": {
+        "O": 8,
+        "C": 7,
+        "E": 9,
+        "A": 9,
+        "N": 4
+      }
+    },
+    {
+      "id": "person:戸塚直道",
+      "type": "person",
+      "label": "戸塚直道",
+      "job": "経営",
+      "summary": "戸塚直道氏は、起業家精神とリーダーシップに溢れ、組織を牽引する。技術への関心も高く、学習意欲も旺盛。周囲との協調を重んじ、組織全体の成長を促進する。",
+      "personality": {
+        "O": 9,
+        "C": 8,
+        "E": 10,
+        "A": 9,
+        "N": 4
+      }
+    },
+    {
+      "id": "person:榎本詩織",
+      "type": "person",
+      "label": "榎本詩織",
+      "job": "Engineer",
+      "summary": "社交的で学習意欲が高く、チームへの貢献意欲が強い。多様な趣味を持ち、コミュニケーションを大切にする人物。",
+      "personality": {
+        "O": 9,
+        "C": 7,
+        "E": 7,
+        "A": 8,
+        "N": 4
+      }
+    },
+    {
+      "id": "attr:コミュニケーション",
+      "type": "attribute",
+      "label": "コミュニケーション",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "杉本光一",
+        "青木淳一郎",
+        "小林翔",
+        "櫻井志保",
+        "田浦裕樹",
+        "貴志雪乃",
+        "小島遼祐",
+        "榎本詩織"
+      ]
+    },
+    {
+      "id": "attr:学習意欲",
+      "type": "attribute",
+      "label": "学習意欲",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "杉本光一",
+        "青木淳一郎",
+        "櫻井志保",
+        "上遼太郎",
+        "小松田真伍",
+        "小島遼祐",
+        "藤井芙美子",
+        "菅野聖也",
+        "榎本詩織"
+      ]
+    },
+    {
+      "id": "attr:チームワーク",
+      "type": "attribute",
+      "label": "チームワーク",
+      "categories": [
+        "skill",
+        "value",
+        "interest"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "杉本光一",
+        "鈴木悠斗",
+        "田浦裕樹",
+        "菅野聖也",
+        "榎本詩織"
+      ]
+    },
+    {
+      "id": "attr:インフラ設計_構築スキル",
+      "type": "attribute",
+      "label": "インフラ設計・構築スキル",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "青木淳一郎"
+      ]
+    },
+    {
+      "id": "attr:テスト経験",
+      "type": "attribute",
+      "label": "テスト経験",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "小林翔"
+      ]
+    },
+    {
+      "id": "attr:情報収集",
+      "type": "attribute",
+      "label": "情報収集",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "小林翔",
+        "貴志雪乃",
+        "上遼太郎"
+      ]
+    },
+    {
+      "id": "attr:データ分析",
+      "type": "attribute",
+      "label": "データ分析",
+      "categories": [
+        "skill",
+        "interest"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "櫻井志保"
+      ]
+    },
+    {
+      "id": "attr:ai技術を活用した開発",
+      "type": "attribute",
+      "label": "AI技術を活用した開発",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:要件定義_整理",
+      "type": "attribute",
+      "label": "要件定義・整理",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:pocの推進",
+      "type": "attribute",
+      "label": "PoCの推進",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:qaエンジニアリングの知識",
+      "type": "attribute",
+      "label": "QAエンジニアリングの知識",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "開米 敦則"
+      ]
+    },
+    {
+      "id": "attr:ai技術の知識",
+      "type": "attribute",
+      "label": "AI技術の知識",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "開米 敦則"
+      ]
+    },
+    {
+      "id": "attr:問題解決",
+      "type": "attribute",
+      "label": "問題解決",
+      "categories": [
+        "skill",
+        "motivation"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "開米 敦則",
+        "小松田真伍",
+        "戸塚直道",
+        "鈴木悠斗"
+      ]
+    },
+    {
+      "id": "attr:企画力",
+      "type": "attribute",
+      "label": "企画力",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "貴志雪乃"
+      ]
+    },
+    {
+      "id": "attr:協調性",
+      "type": "attribute",
+      "label": "協調性",
+      "categories": [
+        "skill",
+        "value"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "上遼太郎",
+        "小松田真伍",
+        "小島遼祐",
+        "藤井芙美子",
+        "小林翔",
+        "櫻井志保",
+        "貴志雪乃",
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:貢献意欲",
+      "type": "attribute",
+      "label": "貢献意欲",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:共感性",
+      "type": "attribute",
+      "label": "共感性",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "藤井芙美子"
+      ]
+    },
+    {
+      "id": "attr:技術的なスキル（vb.net,_java）",
+      "type": "attribute",
+      "label": "技術的なスキル（VB.Net, JAVA）",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "菅野聖也"
+      ]
+    },
+    {
+      "id": "attr:品質管理の経験",
+      "type": "attribute",
+      "label": "品質管理の経験",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "菅野聖也"
+      ]
+    },
+    {
+      "id": "attr:ai活用スキル",
+      "type": "attribute",
+      "label": "AI活用スキル",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "菅野聖也"
+      ]
+    },
+    {
+      "id": "attr:起業家精神",
+      "type": "attribute",
+      "label": "起業家精神",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "佐藤傑"
+      ]
+    },
+    {
+      "id": "attr:ai知識",
+      "type": "attribute",
+      "label": "AI知識",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "佐藤傑"
+      ]
+    },
+    {
+      "id": "attr:グローバルな視点",
+      "type": "attribute",
+      "label": "グローバルな視点",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "佐藤傑"
+      ]
+    },
+    {
+      "id": "attr:情報共有",
+      "type": "attribute",
+      "label": "情報共有",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "鈴木悠斗"
+      ]
+    },
+    {
+      "id": "attr:リスク管理",
+      "type": "attribute",
+      "label": "リスク管理",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "鈴木悠斗"
+      ]
+    },
+    {
+      "id": "attr:リーダーシップ",
+      "type": "attribute",
+      "label": "リーダーシップ",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:組織力",
+      "type": "attribute",
+      "label": "組織力",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:適応力",
+      "type": "attribute",
+      "label": "適応力",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "榎本詩織"
+      ]
+    },
+    {
+      "id": "attr:成長",
+      "type": "attribute",
+      "label": "成長",
+      "categories": [
+        "value",
+        "motivation"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "杉本光一",
+        "青木淳一郎",
+        "小林翔",
+        "櫻井志保",
+        "貴志雪乃",
+        "上遼太郎",
+        "小松田真伍",
+        "小島遼祐",
+        "藤井芙美子",
+        "佐藤傑",
+        "戸塚直道",
+        "榎本詩織",
+        "菅野聖也"
+      ]
+    },
+    {
+      "id": "attr:技術革新",
+      "type": "attribute",
+      "label": "技術革新",
+      "categories": [
+        "value",
+        "motivation"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "杉本光一",
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:家族",
+      "type": "attribute",
+      "label": "家族",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "青木淳一郎"
+      ]
+    },
+    {
+      "id": "attr:貢献",
+      "type": "attribute",
+      "label": "貢献",
+      "categories": [
+        "value",
+        "motivation"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "青木淳一郎",
+        "櫻井志保",
+        "田浦裕樹",
+        "開米 敦則",
+        "貴志雪乃",
+        "上遼太郎",
+        "小松田真伍",
+        "小島遼祐",
+        "佐藤傑",
+        "鈴木悠斗",
+        "戸塚直道",
+        "藤井芙美子"
+      ]
+    },
+    {
+      "id": "attr:楽しさ",
+      "type": "attribute",
+      "label": "楽しさ",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "小林翔"
+      ]
+    },
+    {
+      "id": "attr:継続的な学習",
+      "type": "attribute",
+      "label": "継続的な学習",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:顧客満足",
+      "type": "attribute",
+      "label": "顧客満足",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:効率性",
+      "type": "attribute",
+      "label": "効率性",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "開米 敦則"
+      ]
+    },
+    {
+      "id": "attr:学習",
+      "type": "attribute",
+      "label": "学習",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "開米 敦則",
+        "上遼太郎",
+        "菅野聖也"
+      ]
+    },
+    {
+      "id": "attr:変革",
+      "type": "attribute",
+      "label": "変革",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:効率化",
+      "type": "attribute",
+      "label": "効率化",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:周囲からの感謝",
+      "type": "attribute",
+      "label": "周囲からの感謝",
+      "categories": [
+        "value",
+        "motivation"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "藤井芙美子",
+        "田浦裕樹",
+        "貴志雪乃",
+        "小島遼祐",
+        "鈴木悠斗"
+      ]
+    },
+    {
+      "id": "attr:技術向上",
+      "type": "attribute",
+      "label": "技術向上",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "菅野聖也"
+      ]
+    },
+    {
+      "id": "attr:ai技術",
+      "type": "attribute",
+      "label": "AI技術",
+      "categories": [
+        "value",
+        "interest"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "菅野聖也",
+        "貴志雪乃",
+        "上遼太郎",
+        "鈴木悠斗"
+      ]
+    },
+    {
+      "id": "attr:共創",
+      "type": "attribute",
+      "label": "共創",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "佐藤傑"
+      ]
+    },
+    {
+      "id": "attr:安全",
+      "type": "attribute",
+      "label": "安全",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "鈴木悠斗"
+      ]
+    },
+    {
+      "id": "attr:多様性",
+      "type": "attribute",
+      "label": "多様性",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "榎本詩織"
+      ]
+    },
+    {
+      "id": "attr:ai技術（gemini,_rag,_antigravityなど）",
+      "type": "attribute",
+      "label": "AI技術（Gemini, RAG, Antigravityなど）",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "杉本光一"
+      ]
+    },
+    {
+      "id": "attr:ai開発ガイドライン",
+      "type": "attribute",
+      "label": "AI開発ガイドライン",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "杉本光一"
+      ]
+    },
+    {
+      "id": "attr:チームの作業効率化",
+      "type": "attribute",
+      "label": "チームの作業効率化",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "杉本光一"
+      ]
+    },
+    {
+      "id": "attr:saitekiメンバーの入社経緯",
+      "type": "attribute",
+      "label": "Saitekiメンバーの入社経緯",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "青木淳一郎"
+      ]
+    },
+    {
+      "id": "attr:京都旅行",
+      "type": "attribute",
+      "label": "京都旅行",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "青木淳一郎"
+      ]
+    },
+    {
+      "id": "attr:ゲーム（メダルゲーム、ローグライク）",
+      "type": "attribute",
+      "label": "ゲーム（メダルゲーム、ローグライク）",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "小林翔"
+      ]
+    },
+    {
+      "id": "attr:北海道グルメ",
+      "type": "attribute",
+      "label": "北海道グルメ",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "小林翔"
+      ]
+    },
+    {
+      "id": "attr:データベース構築",
+      "type": "attribute",
+      "label": "データベース構築",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "櫻井志保"
+      ]
+    },
+    {
+      "id": "attr:資格取得",
+      "type": "attribute",
+      "label": "資格取得",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "櫻井志保"
+      ]
+    },
+    {
+      "id": "attr:poc_(proof_of_concept)",
+      "type": "attribute",
+      "label": "PoC (Proof of Concept)",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:要件定義",
+      "type": "attribute",
+      "label": "要件定義",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:android_tvアプリ開発",
+      "type": "attribute",
+      "label": "Android TVアプリ開発",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:ai駆動開発",
+      "type": "attribute",
+      "label": "AI駆動開発",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "田浦裕樹",
+        "小松田真伍",
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:aiを活用したテスト自動化",
+      "type": "attribute",
+      "label": "AIを活用したテスト自動化",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "開米 敦則"
+      ]
+    },
+    {
+      "id": "attr:テスト自動化ツールの比較検討",
+      "type": "attribute",
+      "label": "テスト自動化ツールの比較検討",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "開米 敦則"
+      ]
+    },
+    {
+      "id": "attr:プロンプトエンジニアリング",
+      "type": "attribute",
+      "label": "プロンプトエンジニアリング",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "開米 敦則"
+      ]
+    },
+    {
+      "id": "attr:youtube動画",
+      "type": "attribute",
+      "label": "YouTube動画",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "貴志雪乃"
+      ]
+    },
+    {
+      "id": "attr:オンラインイベント",
+      "type": "attribute",
+      "label": "オンラインイベント",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "貴志雪乃"
+      ]
+    },
+    {
+      "id": "attr:採用",
+      "type": "attribute",
+      "label": "採用",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "貴志雪乃"
+      ]
+    },
+    {
+      "id": "attr:映画",
+      "type": "attribute",
+      "label": "映画",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "貴志雪乃"
+      ]
+    },
+    {
+      "id": "attr:ローコード開発",
+      "type": "attribute",
+      "label": "ローコード開発",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "上遼太郎"
+      ]
+    },
+    {
+      "id": "attr:チームメンバーのスキル",
+      "type": "attribute",
+      "label": "チームメンバーのスキル",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "上遼太郎"
+      ]
+    },
+    {
+      "id": "attr:設計書の作成",
+      "type": "attribute",
+      "label": "設計書の作成",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "上遼太郎"
+      ]
+    },
+    {
+      "id": "attr:ナレッジdb",
+      "type": "attribute",
+      "label": "ナレッジDB",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:qa",
+      "type": "attribute",
+      "label": "QA",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:ビジネス書",
+      "type": "attribute",
+      "label": "ビジネス書",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "小島遼祐"
+      ]
+    },
+    {
+      "id": "attr:アニメ",
+      "type": "attribute",
+      "label": "アニメ",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "小島遼祐"
+      ]
+    },
+    {
+      "id": "attr:ポケモン",
+      "type": "attribute",
+      "label": "ポケモン",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "小島遼祐"
+      ]
+    },
+    {
+      "id": "attr:新しい人間関係",
+      "type": "attribute",
+      "label": "新しい人間関係",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "小島遼祐"
+      ]
+    },
+    {
+      "id": "attr:ゴールデンカムイ",
+      "type": "attribute",
+      "label": "ゴールデンカムイ",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "藤井芙美子"
+      ]
+    },
+    {
+      "id": "attr:道の駅、ご当地スーパー",
+      "type": "attribute",
+      "label": "道の駅、ご当地スーパー",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "藤井芙美子"
+      ]
+    },
+    {
+      "id": "attr:子供の成長",
+      "type": "attribute",
+      "label": "子供の成長",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "藤井芙美子"
+      ]
+    },
+    {
+      "id": "attr:デパ地下",
+      "type": "attribute",
+      "label": "デパ地下",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "藤井芙美子"
+      ]
+    },
+    {
+      "id": "attr:交通機関の状況",
+      "type": "attribute",
+      "label": "交通機関の状況",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "藤井芙美子"
+      ]
+    },
+    {
+      "id": "attr:読書（コーヒーの化学、戦略に関する本）",
+      "type": "attribute",
+      "label": "読書（コーヒーの化学、戦略に関する本）",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "菅野聖也"
+      ]
+    },
+    {
+      "id": "attr:コードの書き方",
+      "type": "attribute",
+      "label": "コードの書き方",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "菅野聖也"
+      ]
+    },
+    {
+      "id": "attr:海外aiスタートアップ",
+      "type": "attribute",
+      "label": "海外AIスタートアップ",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "佐藤傑"
+      ]
+    },
+    {
+      "id": "attr:グローバルなチーム開発",
+      "type": "attribute",
+      "label": "グローバルなチーム開発",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "佐藤傑"
+      ]
+    },
+    {
+      "id": "attr:小型高性能モデル（deepseek4など）",
+      "type": "attribute",
+      "label": "小型高性能モデル（Deepseek4など）",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "佐藤傑"
+      ]
+    },
+    {
+      "id": "attr:ビジネスメール詐欺",
+      "type": "attribute",
+      "label": "ビジネスメール詐欺",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "鈴木悠斗"
+      ]
+    },
+    {
+      "id": "attr:動物占い",
+      "type": "attribute",
+      "label": "動物占い",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "鈴木悠斗"
+      ]
+    },
+    {
+      "id": "attr:リファラル採用",
+      "type": "attribute",
+      "label": "リファラル採用",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "鈴木悠斗"
+      ]
+    },
+    {
+      "id": "attr:sierの役割",
+      "type": "attribute",
+      "label": "SIerの役割",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:大規模案件獲得",
+      "type": "attribute",
+      "label": "大規模案件獲得",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:業界構造の変革",
+      "type": "attribute",
+      "label": "業界構造の変革",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:自治体案件",
+      "type": "attribute",
+      "label": "自治体案件",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:受託開発",
+      "type": "attribute",
+      "label": "受託開発",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:ポスティング",
+      "type": "attribute",
+      "label": "ポスティング",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:社内コミュニケーション",
+      "type": "attribute",
+      "label": "社内コミュニケーション",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "榎本詩織"
+      ]
+    },
+    {
+      "id": "attr:日本酒",
+      "type": "attribute",
+      "label": "日本酒",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "榎本詩織"
+      ]
+    },
+    {
+      "id": "attr:他者との交流",
+      "type": "attribute",
+      "label": "他者との交流",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "杉本光一"
+      ]
+    },
+    {
+      "id": "attr:新しい発見",
+      "type": "attribute",
+      "label": "新しい発見",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "杉本光一"
+      ]
+    },
+    {
+      "id": "attr:新しい知識_技術の習得",
+      "type": "attribute",
+      "label": "新しい知識・技術の習得",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "青木淳一郎",
+        "小林翔",
+        "櫻井志保",
+        "田浦裕樹",
+        "貴志雪乃",
+        "上遼太郎",
+        "小島遼祐",
+        "菅野聖也",
+        "佐藤傑",
+        "戸塚直道",
+        "榎本詩織"
+      ]
+    },
+    {
+      "id": "attr:チームへの貢献",
+      "type": "attribute",
+      "label": "チームへの貢献",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "青木淳一郎",
+        "小林翔",
+        "櫻井志保",
+        "開米 敦則",
+        "貴志雪乃",
+        "上遼太郎",
+        "菅野聖也",
+        "榎本詩織"
+      ]
+    },
+    {
+      "id": "attr:楽しい経験",
+      "type": "attribute",
+      "label": "楽しい経験",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "小林翔"
+      ]
+    },
+    {
+      "id": "attr:専門性の向上",
+      "type": "attribute",
+      "label": "専門性の向上",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "櫻井志保"
+      ]
+    },
+    {
+      "id": "attr:チームの成功",
+      "type": "attribute",
+      "label": "チームの成功",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "田浦裕樹",
+        "小島遼祐",
+        "鈴木悠斗",
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:顧客からの肯定的なフィードバック",
+      "type": "attribute",
+      "label": "顧客からの肯定的なフィードバック",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:新しい技術への挑戦",
+      "type": "attribute",
+      "label": "新しい技術への挑戦",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "開米 敦則"
+      ]
+    },
+    {
+      "id": "attr:業務効率の改善",
+      "type": "attribute",
+      "label": "業務効率の改善",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "開米 敦則"
+      ]
+    },
+    {
+      "id": "attr:スキルアップ",
+      "type": "attribute",
+      "label": "スキルアップ",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "上遼太郎"
+      ]
+    },
+    {
+      "id": "attr:技術的な課題への挑戦",
+      "type": "attribute",
+      "label": "技術的な課題への挑戦",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "上遼太郎"
+      ]
+    },
+    {
+      "id": "attr:組織の成長",
+      "type": "attribute",
+      "label": "組織の成長",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:現状打破",
+      "type": "attribute",
+      "label": "現状打破",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:ai技術の活用",
+      "type": "attribute",
+      "label": "AI技術の活用",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "菅野聖也"
+      ]
+    },
+    {
+      "id": "attr:海外での経験",
+      "type": "attribute",
+      "label": "海外での経験",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "佐藤傑"
+      ]
+    },
+    {
+      "id": "attr:チームとの共創",
+      "type": "attribute",
+      "label": "チームとの共創",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "佐藤傑"
+      ]
+    },
+    {
+      "id": "attr:チームメンバーの成長",
+      "type": "attribute",
+      "label": "チームメンバーの成長",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:自己成長の実感",
+      "type": "attribute",
+      "label": "自己成長の実感",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "榎本詩織"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "person:杉本光一",
+      "target": "attr:コミュニケーション",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:学習意欲",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:チームワーク",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "attr:インフラ設計_構築スキル",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "attr:学習意欲",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "attr:コミュニケーション",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小林翔",
+      "target": "attr:テスト経験",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小林翔",
+      "target": "attr:コミュニケーション",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小林翔",
+      "target": "attr:情報収集",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "attr:データ分析",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "attr:コミュニケーション",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "attr:学習意欲",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:ai技術を活用した開発",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:コミュニケーション",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:要件定義_整理",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:pocの推進",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:qaエンジニアリングの知識",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:ai技術の知識",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:問題解決",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:情報収集",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:企画力",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:コミュニケーション",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:学習意欲",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:情報収集",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:協調性",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:問題解決",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:協調性",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:貢献意欲",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:学習意欲",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:コミュニケーション",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:学習意欲",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:協調性",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:共感性",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:学習意欲",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:協調性",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:技術的なスキル（vb.net,_java）",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:品質管理の経験",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:学習意欲",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:ai活用スキル",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:起業家精神",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:ai知識",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:グローバルな視点",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:情報共有",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:リスク管理",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:チームワーク",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:リーダーシップ",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:問題解決",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:組織力",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "attr:学習意欲",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "attr:コミュニケーション",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "attr:適応力",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:技術革新",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "attr:家族",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "attr:貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:小林翔",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:小林翔",
+      "target": "attr:協調性",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:小林翔",
+      "target": "attr:楽しさ",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "attr:貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "attr:協調性",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:チームワーク",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:継続的な学習",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:顧客満足",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:効率性",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:学習",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:協調性",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:学習",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:変革",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:効率化",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:周囲からの感謝",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:技術向上",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:チームワーク",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:学習",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:ai技術",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:共創",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:安全",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:協調性",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "attr:チームワーク",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "attr:成長",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "attr:多様性",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:ai技術（gemini,_rag,_antigravityなど）",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:ai開発ガイドライン",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:チームの作業効率化",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "attr:saitekiメンバーの入社経緯",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "attr:京都旅行",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:小林翔",
+      "target": "attr:ゲーム（メダルゲーム、ローグライク）",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:小林翔",
+      "target": "attr:北海道グルメ",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "attr:データベース構築",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "attr:資格取得",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:poc_(proof_of_concept)",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:要件定義",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:android_tvアプリ開発",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:ai駆動開発",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:aiを活用したテスト自動化",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:テスト自動化ツールの比較検討",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:プロンプトエンジニアリング",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:ai技術",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:youtube動画",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:オンラインイベント",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:採用",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:映画",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:ai技術",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:ローコード開発",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:チームメンバーのスキル",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:設計書の作成",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:ai駆動開発",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:ナレッジdb",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:qa",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:ビジネス書",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:アニメ",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:ポケモン",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:新しい人間関係",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:ゴールデンカムイ",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:道の駅、ご当地スーパー",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:子供の成長",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:デパ地下",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:交通機関の状況",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:読書（コーヒーの化学、戦略に関する本）",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:コードの書き方",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:海外aiスタートアップ",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:グローバルなチーム開発",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:小型高性能モデル（deepseek4など）",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:ai技術",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:ビジネスメール詐欺",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:動物占い",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:リファラル採用",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:ai駆動開発",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:sierの役割",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:大規模案件獲得",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:業界構造の変革",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:自治体案件",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:受託開発",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:ポスティング",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "attr:社内コミュニケーション",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "attr:日本酒",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:他者との交流",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:新しい発見",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "attr:新しい知識_技術の習得",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "attr:チームへの貢献",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:小林翔",
+      "target": "attr:新しい知識_技術の習得",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:小林翔",
+      "target": "attr:チームへの貢献",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:小林翔",
+      "target": "attr:楽しい経験",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "attr:新しい知識_技術の習得",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "attr:専門性の向上",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "attr:チームへの貢献",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:周囲からの感謝",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:チームの成功",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:新しい知識_技術の習得",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:顧客からの肯定的なフィードバック",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:新しい技術への挑戦",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:業務効率の改善",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "attr:チームへの貢献",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:新しい知識_技術の習得",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:チームへの貢献",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "attr:周囲からの感謝",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:新しい知識_技術の習得",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:スキルアップ",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:チームへの貢献",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:技術的な課題への挑戦",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:組織の成長",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:現状打破",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:技術革新",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:周囲からの感謝",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:新しい知識_技術の習得",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:チームの成功",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:貢献",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:新しい知識_技術の習得",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:チームへの貢献",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:成長",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "attr:ai技術の活用",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:新しい知識_技術の習得",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:海外での経験",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "attr:チームとの共創",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:チームの成功",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:周囲からの感謝",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "attr:問題解決",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:チームの成功",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:チームメンバーの成長",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:新しい知識_技術の習得",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "attr:新しい知識_技術の習得",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "attr:チームへの貢献",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "attr:自己成長の実感",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:青木淳一郎",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "コミュニケーション",
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:小林翔",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:櫻井志保",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "コミュニケーション",
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:田浦裕樹",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "チームワーク"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:貴志雪乃",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:上遼太郎",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:小松田真伍",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:小島遼祐",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "コミュニケーション",
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:藤井芙美子",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:菅野聖也",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "チームワーク"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:佐藤傑",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:鈴木悠斗",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "チームワーク"
+        ],
+        "values": [
+          "チームワーク"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "コミュニケーション",
+          "学習意欲"
+        ],
+        "values": [
+          "チームワーク",
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:小林翔",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:櫻井志保",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "学習意欲",
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:田浦裕樹",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:開米 敦則",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:貴志雪乃",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:上遼太郎",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:小松田真伍",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:小島遼祐",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "学習意欲",
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:藤井芙美子",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:菅野聖也",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:佐藤傑",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:鈴木悠斗",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "学習意欲",
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:櫻井志保",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:田浦裕樹",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:貴志雪乃",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "コミュニケーション",
+          "情報収集"
+        ],
+        "values": [
+          "成長",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:上遼太郎",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "情報収集"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:小松田真伍",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:小島遼祐",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:藤井芙美子",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:佐藤傑",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:田浦裕樹",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:開米 敦則",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:貴志雪乃",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長",
+          "貢献",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:上遼太郎",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:小松田真伍",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:小島遼祐",
+      "type": "SHARES",
+      "weight": 5,
+      "shared": {
+        "skills": [
+          "コミュニケーション",
+          "学習意欲"
+        ],
+        "values": [
+          "成長",
+          "貢献",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:藤井芙美子",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:菅野聖也",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:佐藤傑",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:鈴木悠斗",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長",
+          "貢献",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "コミュニケーション",
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:開米 敦則",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:貴志雪乃",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:上遼太郎",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:小松田真伍",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": [
+          "AI駆動開発"
+        ]
+      }
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:小島遼祐",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:菅野聖也",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "チームワーク"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:佐藤傑",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:鈴木悠斗",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "チームワーク",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": [
+          "AI駆動開発"
+        ]
+      }
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "チームワーク"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:貴志雪乃",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:上遼太郎",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "学習",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:小松田真伍",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "問題解決"
+        ],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:小島遼祐",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:菅野聖也",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "学習"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:佐藤傑",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:鈴木悠斗",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "問題解決"
+        ],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:上遼太郎",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "情報収集"
+        ],
+        "values": [
+          "貢献",
+          "成長"
+        ],
+        "interests": [
+          "AI技術"
+        ]
+      }
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:小松田真伍",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献",
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:小島遼祐",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "貢献",
+          "成長",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:藤井芙美子",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:菅野聖也",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [],
+        "interests": [
+          "AI技術"
+        ]
+      }
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:佐藤傑",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献",
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:鈴木悠斗",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": [
+          "AI技術"
+        ]
+      }
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献",
+          "成長",
+          "協調性"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "コミュニケーション"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "person:小松田真伍",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "学習意欲",
+          "協調性"
+        ],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "person:小島遼祐",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "学習意欲",
+          "協調性"
+        ],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "person:藤井芙美子",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "学習意欲",
+          "協調性"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "person:菅野聖也",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "学習"
+        ],
+        "interests": [
+          "AI技術"
+        ]
+      }
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "person:佐藤傑",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "person:鈴木悠斗",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": [
+          "AI技術"
+        ]
+      }
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "person:小島遼祐",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "協調性",
+          "学習意欲"
+        ],
+        "values": [
+          "貢献",
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "person:藤井芙美子",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "協調性",
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "person:菅野聖也",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "person:佐藤傑",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献",
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "person:鈴木悠斗",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "問題解決"
+        ],
+        "values": [
+          "貢献",
+          "成長"
+        ],
+        "interests": [
+          "AI駆動開発"
+        ]
+      }
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "person:藤井芙美子",
+      "type": "SHARES",
+      "weight": 4,
+      "shared": {
+        "skills": [
+          "学習意欲",
+          "協調性"
+        ],
+        "values": [
+          "協調性",
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "person:菅野聖也",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "person:佐藤傑",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "person:鈴木悠斗",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [],
+        "values": [
+          "協調性",
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 3,
+      "shared": {
+        "skills": [
+          "コミュニケーション",
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "person:菅野聖也",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "person:佐藤傑",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "協調性",
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "person:鈴木悠斗",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "チームワーク"
+        ],
+        "interests": [
+          "AI技術"
+        ]
+      }
+    },
+    {
+      "source": "person:菅野聖也",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [
+          "学習意欲"
+        ],
+        "values": [
+          "チームワーク"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "person:鈴木悠斗",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 2,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長",
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:佐藤傑",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "person:戸塚直道",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "貢献"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:鈴木悠斗",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "チームワーク"
+        ],
+        "interests": []
+      }
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "person:榎本詩織",
+      "type": "SHARES",
+      "weight": 1,
+      "shared": {
+        "skills": [],
+        "values": [
+          "成長"
+        ],
+        "interests": []
+      }
+    }
+  ]
+}
