@@ -4,10 +4,22 @@
 このプロジェクトは、社内のSlackでのコミュニケーションデータを活用し、AIを用いて社員の「人柄」や「強み」を自動的に分析・可視化するシステムです。
 日々の何気ない会話から、各メンバーの個性やチーム内での役割（ムードメーカー、論理的思考の持ち主など）を発見し、組織作りやチームビルディングに役立てることを目的としています。
 
-👉 **[社員プロフィール図鑑 (TEAM.md) はこちら](docs/TEAM.md)** - AIが生成した最新の社員分析結果をご覧いただけます。
-👉 **[インタラクティブ・ナレッジグラフ はこちら](https://saitekiinc-com.github.io/saiteki-employee-management/)** - 社員間のつながりを視覚的に探検できます。
-👉 **[Saiteki文化の客観的指標 (CULTURE.md) はこちら](docs/CULTURE.md)** - AI分析から導き出されたSaitekiのカルチャー定義をご覧いただけます。
-👉 **[新規事業アイディア提案 (NEW_BUSINESS_IDEAS.md) はこちら](docs/NEW_BUSINESS_IDEAS.md)** - TEAM.md分析に基づく新規事業案をご覧いただけます。
+### 📄 主要ドキュメント・可視化
+- 🌐 **[インタラクティブ・ナレッジグラフ (Web版)](https://saitekiinc-com.github.io/saiteki-employee-management/)**
+  - 社員間のつながりや共通点を視覚的に探検できます。
+
+- 👥 **[社員プロフィール図鑑 (TEAM.md)](docs/TEAM.md)**
+  - AIが分析した個々の社員の詳細な性格や強みを確認できます。
+
+- 📝 **[ナレッジグラフ分析レポート (KNOWLEDGE_GRAPH.md)](docs/KNOWLEDGE_GRAPH.md)**
+  - 組織全体のスキル分布や、AIによる推奨ペアの分析レポートです。
+
+- 💎 **[Saiteki文化の客観的指標 (CULTURE.md)](docs/CULTURE.md)**
+  - AI分析から導き出されたSaitekiのカルチャー定義です。
+
+- 💡 **[新規事業アイディア提案 (NEW_BUSINESS_IDEAS.md)](docs/NEW_BUSINESS_IDEAS.md)**
+  - 社員の人柄分析に基づいた新しい事業のアイディア提案です。
+
 
 ## 主な機能：Slack同期とAI分析
 
