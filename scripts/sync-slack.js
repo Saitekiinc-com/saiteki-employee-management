@@ -382,7 +382,7 @@ function generateTeamDoc(employees) {
 
     let md = '# チーム構成図\n\n自動生成された組織図です。IssueおよびSlack連携による高度なAI分析結果が反映されます。\n\n';
     md += '### 📊 関連リソース\n';
-    md += '- [🌐 インタラクティブ・ナレッジグラフ (HTML)](./knowledge-graph.html)\n';
+    md += '- [🌐 インタラクティブ・ナレッジグラフ (Web版)](https://saitekiinc-com.github.io/saiteki-employee-management/)\n';
     md += '- [📝 ナレッジグラフ分析レポート (Markdown)](./KNOWLEDGE_GRAPH.md)\n\n';
 
     // 1. Mermaid Map

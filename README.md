@@ -5,6 +5,7 @@
 日々の何気ない会話から、各メンバーの個性やチーム内での役割（ムードメーカー、論理的思考の持ち主など）を発見し、組織作りやチームビルディングに役立てることを目的としています。
 
 👉 **[社員プロフィール図鑑 (TEAM.md) はこちら](docs/TEAM.md)** - AIが生成した最新の社員分析結果をご覧いただけます。
+👉 **[インタラクティブ・ナレッジグラフ はこちら](https://saitekiinc-com.github.io/saiteki-employee-management/)** - 社員間のつながりを視覚的に探検できます。
 👉 **[Saiteki文化の客観的指標 (CULTURE.md) はこちら](docs/CULTURE.md)** - AI分析から導き出されたSaitekiのカルチャー定義をご覧いただけます。
 👉 **[新規事業アイディア提案 (NEW_BUSINESS_IDEAS.md) はこちら](docs/NEW_BUSINESS_IDEAS.md)** - TEAM.md分析に基づく新規事業案をご覧いただけます。
 

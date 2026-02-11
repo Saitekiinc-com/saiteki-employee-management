@@ -14,7 +14,7 @@ const path = require('path');
 const INPUT_FILE = path.join(__dirname, '../data/knowledge-graph.json');
 const OUTPUT_FILE = path.join(__dirname, '../docs/KNOWLEDGE_GRAPH.md');
 
-const HTML_OUTPUT_FILE = path.join(__dirname, '../docs/knowledge-graph.html');
+const HTML_OUTPUT_FILE = path.join(__dirname, '../docs/index.html');
 const JS_TEMPLATE_FILE = path.join(__dirname, 'graph-template.js');
 
 function main() {
