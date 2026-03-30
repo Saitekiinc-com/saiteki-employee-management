@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-03-23T03:06:01.413Z",
+    "generated_at": "2026-03-30T03:35:24.024Z",
     "source": "employees.json",
     "employee_count": 16,
-    "node_count": 426,
-    "edge_count": 897,
+    "node_count": 437,
+    "edge_count": 907,
     "ai_enhanced": true
   },
   "nodes": [
@@ -13,7 +13,7 @@
       "type": "person",
       "label": "杉本光一",
       "job": "Engineer",
-      "summary": "AI技術の探求と実践に加え、AI時代の組織変革と個人の柔軟な働き方をリードする技術リーダー。組織全体の生産性向上と自律的な課題解決を促す協調性と実行力に優れた人物。",
+      "summary": "AI技術の探求と実践に加え、AI時代の組織変革と個人の柔軟な働き方をリードする技術リーダー。組織全体の生産性向上と自律的な課題解決を促す協調性と実行力に優れた人物。特に、体系的な知識共有と活用、AI駆動開発による働き方の最適化に注力している。",
       "personality": {
         "O": 9,
         "C": 9,
@@ -69,7 +69,7 @@
       "type": "person",
       "label": "田浦裕樹",
       "job": "Engineer",
-      "summary": "Saitekiのビジョンと顧客への貢献に深く共感し、困難な状況でも諦めずに解決策を模索する強い推進力を持つ。自身の進捗を正直に開示しつつ責任感を持って業務に取り組み、同僚への感謝と配慮を忘れない誠実で協調性の高い人物。",
+      "summary": "Saitekiのビジョンと顧客貢献に深く共感し、困難でも諦めず解決策を模索する推進力を持つ。顧客の意思決定文脈を重視し、戦略的な機動力と柔軟性で会社の独自ポジション確立に貢献しようとする誠実で協調性の高い人物。",
       "personality": {
         "O": 10,
         "C": 9,
@@ -97,7 +97,7 @@
       "type": "person",
       "label": "貴志雪乃",
       "job": "HR",
-      "summary": "会社の成長戦略への深い理解を持ち、その浸透に尽力。ウェルビーイング向上、コミュニティ活性化、知的な情報共有を通じ、事業拡大に幅広く貢献する高い組織貢献意欲と協調性を持つ。",
+      "summary": "社員のウェルビーイングと長期的な活躍を重視し、セルフマネジメントプログラムの活用を促すことで、組織への貢献意欲と協調性を高く示している。",
       "personality": {
         "O": 9,
         "C": 9,
@@ -111,7 +111,7 @@
       "type": "person",
       "label": "上遼太郎",
       "job": "Engineer",
-      "summary": "自らの業務を深く理解し、計画的に進めることに重点を置き、進捗状況を具体的かつ透明性高く共有します。自身の能力や状況を客観的に判断し、必要に応じて責任を持って他者に協力を依頼するなど、プロジェクト全体の最適化に貢献する姿勢が見られます。",
+      "summary": "深い理解と計画性を重視し、ドキュメント作成を効率的に進める一方、実装フェーズでは自身の状況を正直に伝え、責任を持って協力を求めます。透明性の高い情報共有と、問題発生時の建設的な解決姿勢が際立っています。",
       "personality": {
         "O": 8,
         "C": 9,
@@ -125,7 +125,7 @@
       "type": "person",
       "label": "小松田真伍",
       "job": "Engineer",
-      "summary": "小松田真伍は、AI駆動開発とナレッジマネジメントの最先端技術を深く探求し実践する実行力に長けている。加えて、組織全体の貢献と効率化への意識が非常に高く、チームや会社をより良くしようとする強い貢献意欲と、周囲への細やかな配慮を併せ持つ。技術的な詳細検討と具体的な実装計画においてリーダーシップを発揮し、卓越した問題解決能力を示している。特に、ナレッジシステムの自動化、スケーラビリティ、ユーザー体験に注力している。",
+      "summary": "小松田真伍は、AI駆動開発の最先端技術を深く探求し、そのビジネスインパクトと戦略的側面まで考察する。組織貢献意欲が非常に高く、チームや会社をより良くしようと、技術的な詳細検討と具体的な実装計画においてリーダーシップを発揮し、卓越した問題解決能力と同時にビジネス視点からの洞察力も示している。特に、ナレッジシステムの自動化、スケーラビリティ、ユーザー体験に注力している。",
       "personality": {
         "O": 10,
         "C": 10,
@@ -139,7 +139,7 @@
       "type": "person",
       "label": "小島遼祐",
       "job": "Engineer",
-      "summary": "極めて高い学習意欲と貢献意欲を持ち、社交的で協調性が高く、周囲との関係構築に積極的に取り組みながら、具体的な業務での連携も楽しむ人物。新しいことへの挑戦には一歩踏み出すまで躊躇することがあるが、すぐに情報収集やアドバイスを求め、前向きに行動に移す。",
+      "summary": "極めて高い学習意欲と貢献意欲を持ち、社交的で協調性が高く、周囲との関係構築に積極的に取り組みながら、具体的な業務での連携も楽しむ人物。未理解な点にも粘り強く向き合い、自ら深く探求しようとする。",
       "personality": {
         "O": 9,
         "C": 9,
@@ -153,7 +153,7 @@
       "type": "person",
       "label": "藤井芙美子",
       "job": "Sales",
-      "summary": "社労士連携や経費申請ルールの明確化など、実務的な業務効率化と正確性向上に貢献。同時に、新しい同僚へ積極的に交流を図り、家族の話題も交えながら親近感を醸成する、人間性とプロ意識を兼ね備えた人物。",
+      "summary": "規則の明確化と誤りの訂正を通じて、組織の透明性と効率性を高めることに尽力。同時に、私的な話題を共有し、人間的なつながりを深めることに長けた人物。",
       "personality": {
         "O": 9,
         "C": 10,
@@ -209,13 +209,13 @@
       "type": "person",
       "label": "戸塚直道",
       "job": "経営",
-      "summary": "SES事業と受託開発の戦略的転換、M&Aによる事業拡大、AI駆動型ビジネスモデルの推進に情熱を注ぐ起業家。顧客の本質的なニーズを深く理解し、自律的な人材を育成することで、組織の成長と変革を牽引する。",
+      "summary": "AI駆動型組織への変革を強力に推進し、市場の動向を深く読み解きながら独自の戦略で事業を拡大する起業家。顧客の本質的なニーズに応える受託開発の進化と、リーダー自身のウェルビーイング確保にも意識を向けることで、組織の持続的な成長を牽引する。",
       "personality": {
         "O": 9,
         "C": 9,
         "E": 10,
         "A": 9,
-        "N": 4
+        "N": 5
       }
     },
     {
@@ -308,6 +308,18 @@
       "id": "attr:戦略的かつ実用的な技術選定能力",
       "type": "attribute",
       "label": "戦略的かつ実用的な技術選定能力",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "杉本光一"
+      ]
+    },
+    {
+      "id": "attr:高度な知識管理と情報活用戦略の立案_実行",
+      "type": "attribute",
+      "label": "高度な知識管理と情報活用戦略の立案・実行",
       "categories": [
         "skill"
       ],
@@ -652,6 +664,66 @@
       ]
     },
     {
+      "id": "attr:顧客の意思決定の文脈を理解し、提案を調整する柔軟性と機動力",
+      "type": "attribute",
+      "label": "顧客の意思決定の文脈を理解し、提案を調整する柔軟性と機動力",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:sierやコンサルティングファームとの差別化ポイントを明確に言語化する戦略的思考",
+      "type": "attribute",
+      "label": "SIerやコンサルティングファームとの差別化ポイントを明確に言語化する戦略的思考",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:リスク制御と早期開発を両立する実践的な提案力",
+      "type": "attribute",
+      "label": "リスク制御と早期開発を両立する実践的な提案力",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:顧客のシステム部門を担うというsaitekiのビジョン実現への強いコミットメント",
+      "type": "attribute",
+      "label": "顧客のシステム部門を担うというSaitekiのビジョン実現への強いコミットメント",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:実績を通じて会社のポジションを確立しようとする能動性",
+      "type": "attribute",
+      "label": "実績を通じて会社のポジションを確立しようとする能動性",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
       "id": "attr:qaエンジニアリングの専門知識と長年の経験",
       "type": "attribute",
       "label": "QAエンジニアリングの専門知識と長年の経験",
@@ -736,18 +808,6 @@
       ]
     },
     {
-      "id": "attr:コミュニティイベント企画_運営",
-      "type": "attribute",
-      "label": "コミュニティイベント企画・運営",
-      "categories": [
-        "skill"
-      ],
-      "color": "#60a5fa",
-      "connectedPeople": [
-        "貴志雪乃"
-      ]
-    },
-    {
       "id": "attr:社員のウェルビーイング支援",
       "type": "attribute",
       "label": "社員のウェルビーイング支援",
@@ -760,9 +820,9 @@
       ]
     },
     {
-      "id": "attr:情報キュレーション_共有",
+      "id": "attr:明瞭な情報発信力",
       "type": "attribute",
-      "label": "情報キュレーション・共有",
+      "label": "明瞭な情報発信力",
       "categories": [
         "skill"
       ],
@@ -796,34 +856,9 @@
       ]
     },
     {
-      "id": "attr:新入社員オンボーディング_歓迎",
+      "id": "attr:啓蒙活動",
       "type": "attribute",
-      "label": "新入社員オンボーディング・歓迎",
-      "categories": [
-        "skill",
-        "interest"
-      ],
-      "color": "#60a5fa",
-      "connectedPeople": [
-        "貴志雪乃"
-      ]
-    },
-    {
-      "id": "attr:明瞭な情報発信力",
-      "type": "attribute",
-      "label": "明瞭な情報発信力",
-      "categories": [
-        "skill"
-      ],
-      "color": "#60a5fa",
-      "connectedPeople": [
-        "貴志雪乃"
-      ]
-    },
-    {
-      "id": "attr:事業戦略の共有_浸透",
-      "type": "attribute",
-      "label": "事業戦略の共有・浸透",
+      "label": "啓蒙活動",
       "categories": [
         "skill"
       ],
@@ -906,6 +941,7 @@
       "connectedPeople": [
         "上遼太郎",
         "小松田真伍",
+        "藤井芙美子",
         "戸塚直道"
       ]
     },
@@ -961,6 +997,18 @@
       "id": "attr:ドキュメント作成_整理能力",
       "type": "attribute",
       "label": "ドキュメント作成・整理能力",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "上遼太郎"
+      ]
+    },
+    {
+      "id": "attr:proactiveなコミュニケーション",
+      "type": "attribute",
+      "label": "proactiveなコミュニケーション",
       "categories": [
         "skill"
       ],
@@ -1187,6 +1235,44 @@
       ]
     },
     {
+      "id": "attr:ビジネス洞察",
+      "type": "attribute",
+      "label": "ビジネス洞察",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:迅速な意思決定",
+      "type": "attribute",
+      "label": "迅速な意思決定",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:リスク管理",
+      "type": "attribute",
+      "label": "リスク管理",
+      "categories": [
+        "skill",
+        "value"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "小松田真伍",
+        "藤井芙美子"
+      ]
+    },
+    {
       "id": "attr:プロアクティブなコミュニケーション能力",
       "type": "attribute",
       "label": "プロアクティブなコミュニケーション能力",
@@ -1214,6 +1300,30 @@
       "id": "attr:前向きな業務遂行",
       "type": "attribute",
       "label": "前向きな業務遂行",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "小島遼祐"
+      ]
+    },
+    {
+      "id": "attr:学習の粘り強さ",
+      "type": "attribute",
+      "label": "学習の粘り強さ",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "小島遼祐"
+      ]
+    },
+    {
+      "id": "attr:内省的学習",
+      "type": "attribute",
+      "label": "内省的学習",
       "categories": [
         "skill"
       ],
@@ -1259,9 +1369,9 @@
       ]
     },
     {
-      "id": "attr:新入社員のオンボーディング支援",
+      "id": "attr:正確性へのこだわり",
       "type": "attribute",
-      "label": "新入社員のオンボーディング支援",
+      "label": "正確性へのこだわり",
       "categories": [
         "skill"
       ],
@@ -1283,21 +1393,6 @@
       ]
     },
     {
-      "id": "attr:先見性",
-      "type": "attribute",
-      "label": "先見性",
-      "categories": [
-        "skill",
-        "value"
-      ],
-      "color": "#60a5fa",
-      "connectedPeople": [
-        "藤井芙美子",
-        "戸塚直道",
-        "小松田真伍"
-      ]
-    },
-    {
       "id": "attr:情報整理能力",
       "type": "attribute",
       "label": "情報整理能力",
@@ -1310,9 +1405,9 @@
       ]
     },
     {
-      "id": "attr:ユーモア",
+      "id": "attr:透明性の確保",
       "type": "attribute",
-      "label": "ユーモア",
+      "label": "透明性の確保",
       "categories": [
         "skill"
       ],
@@ -1562,6 +1657,18 @@
       ]
     },
     {
+      "id": "attr:市場分析力",
+      "type": "attribute",
+      "label": "市場分析力",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
       "id": "attr:組織牽引力",
       "type": "attribute",
       "label": "組織牽引力",
@@ -1598,6 +1705,20 @@
       ]
     },
     {
+      "id": "attr:先見性",
+      "type": "attribute",
+      "label": "先見性",
+      "categories": [
+        "skill",
+        "value"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "戸塚直道",
+        "小松田真伍"
+      ]
+    },
+    {
       "id": "attr:ai技術",
       "type": "attribute",
       "label": "AI技術",
@@ -1626,18 +1747,6 @@
       "id": "attr:組織開発",
       "type": "attribute",
       "label": "組織開発",
-      "categories": [
-        "skill"
-      ],
-      "color": "#60a5fa",
-      "connectedPeople": [
-        "戸塚直道"
-      ]
-    },
-    {
-      "id": "attr:m&a戦略",
-      "type": "attribute",
-      "label": "M&A戦略",
       "categories": [
         "skill"
       ],
@@ -1682,6 +1791,18 @@
       "connectedPeople": [
         "戸塚直道",
         "榎本詩織"
+      ]
+    },
+    {
+      "id": "attr:自己管理力",
+      "type": "attribute",
+      "label": "自己管理力",
+      "categories": [
+        "skill"
+      ],
+      "color": "#60a5fa",
+      "connectedPeople": [
+        "戸塚直道"
       ]
     },
     {
@@ -1794,6 +1915,18 @@
       ]
     },
     {
+      "id": "attr:体系的な知識共有と活用",
+      "type": "attribute",
+      "label": "体系的な知識共有と活用",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "杉本光一"
+      ]
+    },
+    {
       "id": "attr:家族",
       "type": "attribute",
       "label": "家族",
@@ -1803,8 +1936,7 @@
       "color": "#34d399",
       "connectedPeople": [
         "青木淳一郎",
-        "田浦裕樹",
-        "藤井芙美子"
+        "田浦裕樹"
       ]
     },
     {
@@ -2106,6 +2238,42 @@
       ]
     },
     {
+      "id": "attr:顧客の意思決定の文脈尊重",
+      "type": "attribute",
+      "label": "顧客の意思決定の文脈尊重",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:市場での差別化と独自のポジション確立",
+      "type": "attribute",
+      "label": "市場での差別化と独自のポジション確立",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:プロトタイプとリスク制御による実践的なアジャイル",
+      "type": "attribute",
+      "label": "プロトタイプとリスク制御による実践的なアジャイル",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
       "id": "attr:探求心",
       "type": "attribute",
       "label": "探求心",
@@ -2204,42 +2372,6 @@
       ]
     },
     {
-      "id": "attr:周囲からの感謝",
-      "type": "attribute",
-      "label": "周囲からの感謝",
-      "categories": [
-        "value"
-      ],
-      "color": "#34d399",
-      "connectedPeople": [
-        "貴志雪乃"
-      ]
-    },
-    {
-      "id": "attr:歓迎",
-      "type": "attribute",
-      "label": "歓迎",
-      "categories": [
-        "value"
-      ],
-      "color": "#34d399",
-      "connectedPeople": [
-        "貴志雪乃"
-      ]
-    },
-    {
-      "id": "attr:オンボーディング",
-      "type": "attribute",
-      "label": "オンボーディング",
-      "categories": [
-        "value"
-      ],
-      "color": "#34d399",
-      "connectedPeople": [
-        "貴志雪乃"
-      ]
-    },
-    {
       "id": "attr:事業発展",
       "type": "attribute",
       "label": "事業発展",
@@ -2316,6 +2448,18 @@
       "id": "attr:チームでの目標達成",
       "type": "attribute",
       "label": "チームでの目標達成",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "上遼太郎"
+      ]
+    },
+    {
+      "id": "attr:品質向上",
+      "type": "attribute",
+      "label": "品質向上",
       "categories": [
         "value"
       ],
@@ -2434,6 +2578,30 @@
       ]
     },
     {
+      "id": "attr:費用対効果",
+      "type": "attribute",
+      "label": "費用対効果",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:ビジネス戦略",
+      "type": "attribute",
+      "label": "ビジネス戦略",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
       "id": "attr:探究心",
       "type": "attribute",
       "label": "探究心",
@@ -2470,9 +2638,33 @@
       ]
     },
     {
+      "id": "attr:粘り強い学習",
+      "type": "attribute",
+      "label": "粘り強い学習",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "小島遼祐"
+      ]
+    },
+    {
       "id": "attr:秩序",
       "type": "attribute",
       "label": "秩序",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "藤井芙美子"
+      ]
+    },
+    {
+      "id": "attr:公正性",
+      "type": "attribute",
+      "label": "公正性",
       "categories": [
         "value"
       ],
@@ -2674,9 +2866,21 @@
       ]
     },
     {
-      "id": "attr:m&aによる事業拡大",
+      "id": "attr:ai駆動型組織の確立",
       "type": "attribute",
-      "label": "M&Aによる事業拡大",
+      "label": "AI駆動型組織の確立",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:市場での独自ポジション確立",
+      "type": "attribute",
+      "label": "市場での独自ポジション確立",
       "categories": [
         "value"
       ],
@@ -2770,6 +2974,18 @@
       ]
     },
     {
+      "id": "attr:リーダーのウェルビーイング",
+      "type": "attribute",
+      "label": "リーダーのウェルビーイング",
+      "categories": [
+        "value"
+      ],
+      "color": "#34d399",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
       "id": "attr:社内のつながり",
       "type": "attribute",
       "label": "社内のつながり",
@@ -2806,21 +3022,9 @@
       ]
     },
     {
-      "id": "attr:slack情報活用によるpjアサイン_チームビルディング",
+      "id": "attr:ai活用ドキュメントの運用とチームの知識共有促進",
       "type": "attribute",
-      "label": "Slack情報活用によるPJアサイン・チームビルディング",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "杉本光一"
-      ]
-    },
-    {
-      "id": "attr:notionを活用した非同期1on1の仕組み化と運用",
-      "type": "attribute",
-      "label": "Notionを活用した非同期1on1の仕組み化と運用",
+      "label": "AI活用ドキュメントの運用とチームの知識共有促進",
       "categories": [
         "interest"
       ],
@@ -2854,9 +3058,9 @@
       ]
     },
     {
-      "id": "attr:ai活用に関するドキュメントの運用とチームの知識共有促進",
+      "id": "attr:メンバーの基本設計_詳細設計の進捗管理とサポート",
       "type": "attribute",
-      "label": "AI活用に関するドキュメントの運用とチームの知識共有促進",
+      "label": "メンバーの基本設計・詳細設計の進捗管理とサポート",
       "categories": [
         "interest"
       ],
@@ -3022,9 +3226,9 @@
       ]
     },
     {
-      "id": "attr:エンジニアリングの本質と商談への応用（ハチドリソーラーへの提案）",
+      "id": "attr:顧客の意思決定文脈に合わせた提案",
       "type": "attribute",
-      "label": "エンジニアリングの本質と商談への応用（ハチドリソーラーへの提案）",
+      "label": "顧客の意思決定文脈に合わせた提案",
       "categories": [
         "interest"
       ],
@@ -3034,9 +3238,9 @@
       ]
     },
     {
-      "id": "attr:顧客への安心感提供と信頼構築と、そのための準備",
+      "id": "attr:sier/コンサルティングファームにないsaiteki独自のポジショニング",
       "type": "attribute",
-      "label": "顧客への安心感提供と信頼構築と、そのための準備",
+      "label": "SIer/コンサルティングファームにないSaiteki独自のポジショニング",
       "categories": [
         "interest"
       ],
@@ -3046,9 +3250,9 @@
       ]
     },
     {
-      "id": "attr:プレゼンや資料設計における仮説検証とフィードバックの活用",
+      "id": "attr:早期プロト開発とリスク制御を両立したアジャイル提案",
       "type": "attribute",
-      "label": "プレゼンや資料設計における仮説検証とフィードバックの活用",
+      "label": "早期プロト開発とリスク制御を両立したアジャイル提案",
       "categories": [
         "interest"
       ],
@@ -3058,141 +3262,9 @@
       ]
     },
     {
-      "id": "attr:プライベートなグルメ（巨プリン）",
+      "id": "attr:aiで作れるものと品質の高いプロダクトのギャップとその対応",
       "type": "attribute",
-      "label": "プライベートなグルメ（巨プリン）",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "田浦裕樹"
-      ]
-    },
-    {
-      "id": "attr:同僚のマラソン参加などのプライベートな活動",
-      "type": "attribute",
-      "label": "同僚のマラソン参加などのプライベートな活動",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "田浦裕樹"
-      ]
-    },
-    {
-      "id": "attr:自身の時間管理と優先順位付け",
-      "type": "attribute",
-      "label": "自身の時間管理と優先順位付け",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "田浦裕樹"
-      ]
-    },
-    {
-      "id": "attr:自身の業務進捗管理と報告",
-      "type": "attribute",
-      "label": "自身の業務進捗管理と報告",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "田浦裕樹"
-      ]
-    },
-    {
-      "id": "attr:チームミーティングの効率化",
-      "type": "attribute",
-      "label": "チームミーティングの効率化",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "田浦裕樹"
-      ]
-    },
-    {
-      "id": "attr:同僚の仕事と家庭の両立への配慮",
-      "type": "attribute",
-      "label": "同僚の仕事と家庭の両立への配慮",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "田浦裕樹"
-      ]
-    },
-    {
-      "id": "attr:saitekiの経営戦略と独自のポジション（顧客のシステム開発部門、攻めと守りのバランス）",
-      "type": "attribute",
-      "label": "Saitekiの経営戦略と独自のポジション（顧客のシステム開発部門、攻めと守りのバランス）",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "田浦裕樹"
-      ]
-    },
-    {
-      "id": "attr:顧客との「泥臭い対話」の重要性",
-      "type": "attribute",
-      "label": "顧客との「泥臭い対話」の重要性",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "田浦裕樹"
-      ]
-    },
-    {
-      "id": "attr:困難なプロジェクトにおける「勝ち筋」の模索",
-      "type": "attribute",
-      "label": "困難なプロジェクトにおける「勝ち筋」の模索",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "田浦裕樹"
-      ]
-    },
-    {
-      "id": "attr:自身の業務進捗の管理と立て直し",
-      "type": "attribute",
-      "label": "自身の業務進捗の管理と立て直し",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "田浦裕樹"
-      ]
-    },
-    {
-      "id": "attr:チームの定例会議の効率化（廃止の受容）",
-      "type": "attribute",
-      "label": "チームの定例会議の効率化（廃止の受容）",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "田浦裕樹"
-      ]
-    },
-    {
-      "id": "attr:同僚の仕事と家庭の両立への感謝",
-      "type": "attribute",
-      "label": "同僚の仕事と家庭の両立への感謝",
+      "label": "AIで作れるものと品質の高いプロダクトのギャップとその対応",
       "categories": [
         "interest"
       ],
@@ -3298,9 +3370,9 @@
       ]
     },
     {
-      "id": "attr:ai_最新テクノロジーの動向",
+      "id": "attr:長期的なキャリア形成とコンディション維持",
       "type": "attribute",
-      "label": "AI・最新テクノロジーの動向",
+      "label": "長期的なキャリア形成とコンディション維持",
       "categories": [
         "interest"
       ],
@@ -3310,9 +3382,9 @@
       ]
     },
     {
-      "id": "attr:社内コミュニティの活性化",
+      "id": "attr:組織全体のパフォーマンス向上",
       "type": "attribute",
-      "label": "社内コミュニティの活性化",
+      "label": "組織全体のパフォーマンス向上",
       "categories": [
         "interest"
       ],
@@ -3322,45 +3394,9 @@
       ]
     },
     {
-      "id": "attr:社員間の交流促進",
+      "id": "attr:新基本設計_新詳細設計ドキュメントの完成と共有",
       "type": "attribute",
-      "label": "社員間の交流促進",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "貴志雪乃"
-      ]
-    },
-    {
-      "id": "attr:会社の事業戦略（m&a）の浸透と理解促進",
-      "type": "attribute",
-      "label": "会社の事業戦略（M&A）の浸透と理解促進",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "貴志雪乃"
-      ]
-    },
-    {
-      "id": "attr:企業ブランディング_広報",
-      "type": "attribute",
-      "label": "企業ブランディング・広報",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "貴志雪乃"
-      ]
-    },
-    {
-      "id": "attr:基本設計_詳細設計ドキュメントの作成",
-      "type": "attribute",
-      "label": "基本設計・詳細設計ドキュメントの作成",
+      "label": "新基本設計・新詳細設計ドキュメントの完成と共有",
       "categories": [
         "interest"
       ],
@@ -3370,9 +3406,9 @@
       ]
     },
     {
-      "id": "attr:aiへのインプット方法に関する確認",
+      "id": "attr:実装作業における具体的な課題と責任ある委任",
       "type": "attribute",
-      "label": "AIへのインプット方法に関する確認",
+      "label": "実装作業における具体的な課題と責任ある委任",
       "categories": [
         "interest"
       ],
@@ -3382,9 +3418,9 @@
       ]
     },
     {
-      "id": "attr:smar-app開発の進捗管理と詳細な状況報告（db基盤、認証、チーム関連機能、未着手機能）",
+      "id": "attr:aiへのインプット方法に関する正確性の確認",
       "type": "attribute",
-      "label": "SMAR-APP開発の進捗管理と詳細な状況報告（DB基盤、認証、チーム関連機能、未着手機能）",
+      "label": "AIへのインプット方法に関する正確性の確認",
       "categories": [
         "interest"
       ],
@@ -3394,9 +3430,9 @@
       ]
     },
     {
-      "id": "attr:タスクの責任ある委任",
+      "id": "attr:コミュニケーションの場の透明性確保",
       "type": "attribute",
-      "label": "タスクの責任ある委任",
+      "label": "コミュニケーションの場の透明性確保",
       "categories": [
         "interest"
       ],
@@ -3406,9 +3442,21 @@
       ]
     },
     {
-      "id": "attr:ナレッジグラフ構築と項目定義",
+      "id": "attr:ai駆動開発のビジネスインパクト（コスト、品質、リスク排除）",
       "type": "attribute",
-      "label": "ナレッジグラフ構築と項目定義",
+      "label": "AI駆動開発のビジネスインパクト（コスト、品質、リスク排除）",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:ナレッジグラフ構築と項目定義の改善",
+      "type": "attribute",
+      "label": "ナレッジグラフ構築と項目定義の改善",
       "categories": [
         "interest"
       ],
@@ -3478,9 +3526,9 @@
       ]
     },
     {
-      "id": "attr:bm25、llm、embedding、ナレッジグラフを用いた検索技術の比較検討",
+      "id": "attr:bm25、llm、embedding、ナレッジグラフを用いた検索技術の比較検討と迅速なプロトタイピング",
       "type": "attribute",
-      "label": "BM25、LLM、embedding、ナレッジグラフを用いた検索技術の比較検討",
+      "label": "BM25、LLM、embedding、ナレッジグラフを用いた検索技術の比較検討と迅速なプロトタイピング",
       "categories": [
         "interest"
       ],
@@ -3598,9 +3646,33 @@
       ]
     },
     {
-      "id": "attr:社労士連携および共有フォルダの運用",
+      "id": "attr:slerとコンサルティングファームのポジション",
       "type": "attribute",
-      "label": "社労士連携および共有フォルダの運用",
+      "label": "Slerとコンサルティングファームのポジション",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "小島遼祐"
+      ]
+    },
+    {
+      "id": "attr:専門的なレターの内容（深い理解）",
+      "type": "attribute",
+      "label": "専門的なレターの内容（深い理解）",
+      "categories": [
+        "interest"
+      ],
+      "color": "#fb923c",
+      "connectedPeople": [
+        "小島遼祐"
+      ]
+    },
+    {
+      "id": "attr:健康診断費用の補助規定の正確な情報伝達",
+      "type": "attribute",
+      "label": "健康診断費用の補助規定の正確な情報伝達",
       "categories": [
         "interest"
       ],
@@ -3610,9 +3682,9 @@
       ]
     },
     {
-      "id": "attr:会社からの補助金制度と経費精算ルール",
+      "id": "attr:月次報告（稼働表、交通費、経費）のリマインド",
       "type": "attribute",
-      "label": "会社からの補助金制度と経費精算ルール",
+      "label": "月次報告（稼働表、交通費、経費）のリマインド",
       "categories": [
         "interest"
       ],
@@ -3622,9 +3694,9 @@
       ]
     },
     {
-      "id": "attr:月次報告（勤怠、交通費、経費）のリマインドと促進",
+      "id": "attr:会社からの補助に関するルール（健康診断費用、書籍購入費用）の明確化",
       "type": "attribute",
-      "label": "月次報告（勤怠、交通費、経費）のリマインドと促進",
+      "label": "会社からの補助に関するルール（健康診断費用、書籍購入費用）の明確化",
       "categories": [
         "interest"
       ],
@@ -3634,9 +3706,9 @@
       ]
     },
     {
-      "id": "attr:新入社員への挨拶とオンボーディング",
+      "id": "attr:小学校の卒業式と日本の文化（袴）",
       "type": "attribute",
-      "label": "新入社員への挨拶とオンボーディング",
+      "label": "小学校の卒業式と日本の文化（袴）",
       "categories": [
         "interest"
       ],
@@ -3646,9 +3718,9 @@
       ]
     },
     {
-      "id": "attr:植物の育て方",
+      "id": "attr:有名レストランでの食事体験（孤独のグルメ、長崎飯店）",
       "type": "attribute",
-      "label": "植物の育て方",
+      "label": "有名レストランでの食事体験（孤独のグルメ、長崎飯店）",
       "categories": [
         "interest"
       ],
@@ -3658,21 +3730,9 @@
       ]
     },
     {
-      "id": "attr:子どもの卒園",
+      "id": "attr:皿うどん、貝類などの食の好み",
       "type": "attribute",
-      "label": "子どもの卒園",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "藤井芙美子"
-      ]
-    },
-    {
-      "id": "attr:野球（特に巨人）",
-      "type": "attribute",
-      "label": "野球（特に巨人）",
+      "label": "皿うどん、貝類などの食の好み",
       "categories": [
         "interest"
       ],
@@ -3875,9 +3935,9 @@
       ]
     },
     {
-      "id": "attr:m&a戦略の策定と実行、およびその背景にある自身のキャリアと専門的知見",
+      "id": "attr:saiteki_ai_standardの策定と導入を通じたai駆動型組織への変革",
       "type": "attribute",
-      "label": "M&A戦略の策定と実行、およびその背景にある自身のキャリアと専門的知見",
+      "label": "Saiteki AI Standardの策定と導入を通じたAI駆動型組織への変革",
       "categories": [
         "interest"
       ],
@@ -3887,9 +3947,9 @@
       ]
     },
     {
-      "id": "attr:受託開発における顧客の「本音」理解と提案スタイルの抜本的変更",
+      "id": "attr:スタートアップ界隈の「エンジニア軽視」と「ai負債」による市場の変化への対応戦略",
       "type": "attribute",
-      "label": "受託開発における顧客の「本音」理解と提案スタイルの抜本的変更",
+      "label": "スタートアップ界隈の「エンジニア軽視」と「AI負債」による市場の変化への対応戦略",
       "categories": [
         "interest"
       ],
@@ -3899,9 +3959,9 @@
       ]
     },
     {
-      "id": "attr:ai（特に顧客の思考プロファイリング）のビジネスへの活用と深化",
+      "id": "attr:受託開発における顧客の思考プロファイリングと抜本的な提案スタイルの変更",
       "type": "attribute",
-      "label": "AI（特に顧客の思考プロファイリング）のビジネスへの活用と深化",
+      "label": "受託開発における顧客の思考プロファイリングと抜本的な提案スタイルの変更",
       "categories": [
         "interest"
       ],
@@ -3911,9 +3971,9 @@
       ]
     },
     {
-      "id": "attr:自律したビジネスパーソンの採用と育成、及び組織への統合",
+      "id": "attr:リーダー自身のメンタルヘルスとマインドフルネスによる自己管理",
       "type": "attribute",
-      "label": "自律したビジネスパーソンの採用と育成、及び組織への統合",
+      "label": "リーダー自身のメンタルヘルスとマインドフルネスによる自己管理",
       "categories": [
         "interest"
       ],
@@ -3923,33 +3983,9 @@
       ]
     },
     {
-      "id": "attr:外部のビジネス書やnoteからの知見獲得と共有",
+      "id": "attr:チームメンバーからの情報共有（書籍、サービス）とそれに対する実践的なフィードバック",
       "type": "attribute",
-      "label": "外部のビジネス書やnoteからの知見獲得と共有",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "戸塚直道"
-      ]
-    },
-    {
-      "id": "attr:社内のコミュニケーション活性化とフィードバック文化の促進",
-      "type": "attribute",
-      "label": "社内のコミュニケーション活性化とフィードバック文化の促進",
-      "categories": [
-        "interest"
-      ],
-      "color": "#fb923c",
-      "connectedPeople": [
-        "戸塚直道"
-      ]
-    },
-    {
-      "id": "attr:オフィス環境の充実と、贈られた観葉植物の育成",
-      "type": "attribute",
-      "label": "オフィス環境の充実と、贈られた観葉植物の育成",
+      "label": "チームメンバーからの情報共有（書籍、サービス）とそれに対する実践的なフィードバック",
       "categories": [
         "interest"
       ],
@@ -4106,6 +4142,18 @@
       "id": "attr:新たな技術や社会の変化に関する知識を深く学び、それを周囲と共有すること",
       "type": "attribute",
       "label": "新たな技術や社会の変化に関する知識を深く学び、それを周囲と共有すること",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "杉本光一"
+      ]
+    },
+    {
+      "id": "attr:知識共有の仕組みを構築し、組織全体の知の活用を促進すること",
+      "type": "attribute",
+      "label": "知識共有の仕組みを構築し、組織全体の知の活用を促進すること",
       "categories": [
         "motivation"
       ],
@@ -4384,9 +4432,9 @@
       ]
     },
     {
-      "id": "attr:saitekiが目指す独自の顧客貢献アプローチへの共感",
+      "id": "attr:saitekiの独自の顧客貢献アプローチへの共感",
       "type": "attribute",
-      "label": "Saitekiが目指す独自の顧客貢献アプローチへの共感",
+      "label": "Saitekiの独自の顧客貢献アプローチへの共感",
       "categories": [
         "motivation"
       ],
@@ -4411,6 +4459,42 @@
       "id": "attr:経営層の明確な哲学とリーダーシップ",
       "type": "attribute",
       "label": "経営層の明確な哲学とリーダーシップ",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:saitekiの独自の市場ポジションへの挑戦と実現",
+      "type": "attribute",
+      "label": "Saitekiの独自の市場ポジションへの挑戦と実現",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:顧客の事業成長支援を通じて信頼を獲得すること",
+      "type": "attribute",
+      "label": "顧客の事業成長支援を通じて信頼を獲得すること",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "田浦裕樹"
+      ]
+    },
+    {
+      "id": "attr:自身の経験と知識を活かして会社の戦略的な方向性を推進すること",
+      "type": "attribute",
+      "label": "自身の経験と知識を活かして会社の戦略的な方向性を推進すること",
       "categories": [
         "motivation"
       ],
@@ -4528,30 +4612,6 @@
       ]
     },
     {
-      "id": "attr:新メンバーの組織への円滑な統合",
-      "type": "attribute",
-      "label": "新メンバーの組織への円滑な統合",
-      "categories": [
-        "motivation"
-      ],
-      "color": "#f472b6",
-      "connectedPeople": [
-        "貴志雪乃"
-      ]
-    },
-    {
-      "id": "attr:周囲からの感謝やポジティブな反応",
-      "type": "attribute",
-      "label": "周囲からの感謝やポジティブな反応",
-      "categories": [
-        "motivation"
-      ],
-      "color": "#f472b6",
-      "connectedPeople": [
-        "貴志雪乃"
-      ]
-    },
-    {
       "id": "attr:企画した取り組みが成功し、参加者や利用者に価値を提供できた時",
       "type": "attribute",
       "label": "企画した取り組みが成功し、参加者や利用者に価値を提供できた時",
@@ -4639,6 +4699,18 @@
       "id": "attr:ドキュメントの正確な作成と合意形成",
       "type": "attribute",
       "label": "ドキュメントの正確な作成と合意形成",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "上遼太郎"
+      ]
+    },
+    {
+      "id": "attr:作業の品質や最適な方法を追求すること",
+      "type": "attribute",
+      "label": "作業の品質や最適な方法を追求すること",
       "categories": [
         "motivation"
       ],
@@ -4804,6 +4876,30 @@
       ]
     },
     {
+      "id": "attr:ビジネス価値の創出",
+      "type": "attribute",
+      "label": "ビジネス価値の創出",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
+      "id": "attr:戦略的課題の解決",
+      "type": "attribute",
+      "label": "戦略的課題の解決",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "小松田真伍"
+      ]
+    },
+    {
       "id": "attr:周囲からの感謝や肯定的な反応",
       "type": "attribute",
       "label": "周囲からの感謝や肯定的な反応",
@@ -4888,9 +4984,21 @@
       ]
     },
     {
-      "id": "attr:業務の円滑化",
+      "id": "attr:複雑な概念の深い理解",
       "type": "attribute",
-      "label": "業務の円滑化",
+      "label": "複雑な概念の深い理解",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "小島遼祐"
+      ]
+    },
+    {
+      "id": "attr:業務プロセスの改善と明確化",
+      "type": "attribute",
+      "label": "業務プロセスの改善と明確化",
       "categories": [
         "motivation"
       ],
@@ -4900,9 +5008,21 @@
       ]
     },
     {
-      "id": "attr:問題解決による効率向上",
+      "id": "attr:情報共有の徹底による混乱防止",
       "type": "attribute",
-      "label": "問題解決による効率向上",
+      "label": "情報共有の徹底による混乱防止",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "藤井芙美子"
+      ]
+    },
+    {
+      "id": "attr:社員からの信頼獲得とサポートへの貢献",
+      "type": "attribute",
+      "label": "社員からの信頼獲得とサポートへの貢献",
       "categories": [
         "motivation"
       ],
@@ -4924,21 +5044,9 @@
       ]
     },
     {
-      "id": "attr:組織への貢献実感",
+      "id": "attr:美食や新しい体験の探求",
       "type": "attribute",
-      "label": "組織への貢献実感",
-      "categories": [
-        "motivation"
-      ],
-      "color": "#f472b6",
-      "connectedPeople": [
-        "藤井芙美子"
-      ]
-    },
-    {
-      "id": "attr:情報整理と共有",
-      "type": "attribute",
-      "label": "情報整理と共有",
+      "label": "美食や新しい体験の探求",
       "categories": [
         "motivation"
       ],
@@ -5116,9 +5224,21 @@
       ]
     },
     {
-      "id": "attr:m&a戦略の着実な実行と成功",
+      "id": "attr:ai駆動型組織の確立と標準化",
       "type": "attribute",
-      "label": "M&A戦略の着実な実行と成功",
+      "label": "AI駆動型組織の確立と標準化",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:市場の課題（ai負債など）を解決し、独自の競争優位を確立すること",
+      "type": "attribute",
+      "label": "市場の課題（AI負債など）を解決し、独自の競争優位を確立すること",
       "categories": [
         "motivation"
       ],
@@ -5179,6 +5299,18 @@
       "id": "attr:自身のプロの目利きとしての能力を発揮し、リスクを最小化し機会を最大化すること",
       "type": "attribute",
       "label": "自身のプロの目利きとしての能力を発揮し、リスクを最小化し機会を最大化すること",
+      "categories": [
+        "motivation"
+      ],
+      "color": "#f472b6",
+      "connectedPeople": [
+        "戸塚直道"
+      ]
+    },
+    {
+      "id": "attr:リーダー自身の心身の健康を維持し、その学びを組織に還元すること",
+      "type": "attribute",
+      "label": "リーダー自身の心身の健康を維持し、その学びを組織に還元すること",
       "categories": [
         "motivation"
       ],
@@ -5276,6 +5408,12 @@
     {
       "source": "person:杉本光一",
       "target": "attr:戦略的かつ実用的な技術選定能力",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:高度な知識管理と情報活用戦略の立案_実行",
       "type": "HAS_SKILL",
       "weight": 1
     },
@@ -5454,6 +5592,36 @@
       "weight": 1
     },
     {
+      "source": "person:田浦裕樹",
+      "target": "attr:顧客の意思決定の文脈を理解し、提案を調整する柔軟性と機動力",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:sierやコンサルティングファームとの差別化ポイントを明確に言語化する戦略的思考",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:リスク制御と早期開発を両立する実践的な提案力",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:顧客のシステム部門を担うというsaitekiのビジョン実現への強いコミットメント",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:実績を通じて会社のポジションを確立しようとする能動性",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
       "source": "person:開米 敦則",
       "target": "attr:qaエンジニアリングの専門知識と長年の経験",
       "type": "HAS_SKILL",
@@ -5497,19 +5665,13 @@
     },
     {
       "source": "person:貴志雪乃",
-      "target": "attr:コミュニティイベント企画_運営",
-      "type": "HAS_SKILL",
-      "weight": 1
-    },
-    {
-      "source": "person:貴志雪乃",
       "target": "attr:社員のウェルビーイング支援",
       "type": "HAS_SKILL",
       "weight": 1
     },
     {
       "source": "person:貴志雪乃",
-      "target": "attr:情報キュレーション_共有",
+      "target": "attr:明瞭な情報発信力",
       "type": "HAS_SKILL",
       "weight": 1
     },
@@ -5527,19 +5689,7 @@
     },
     {
       "source": "person:貴志雪乃",
-      "target": "attr:新入社員オンボーディング_歓迎",
-      "type": "HAS_SKILL",
-      "weight": 1
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "attr:明瞭な情報発信力",
-      "type": "HAS_SKILL",
-      "weight": 1
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "attr:事業戦略の共有_浸透",
+      "target": "attr:啓蒙活動",
       "type": "HAS_SKILL",
       "weight": 1
     },
@@ -5612,6 +5762,12 @@
     {
       "source": "person:上遼太郎",
       "target": "attr:ドキュメント作成_整理能力",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:proactiveなコミュニケーション",
       "type": "HAS_SKILL",
       "weight": 1
     },
@@ -5736,6 +5892,24 @@
       "weight": 1
     },
     {
+      "source": "person:小松田真伍",
+      "target": "attr:ビジネス洞察",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:迅速な意思決定",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:リスク管理",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
       "source": "person:小島遼祐",
       "target": "attr:学習意欲",
       "type": "HAS_SKILL",
@@ -5784,6 +5958,18 @@
       "weight": 1
     },
     {
+      "source": "person:小島遼祐",
+      "target": "attr:学習の粘り強さ",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:内省的学習",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
       "source": "person:藤井芙美子",
       "target": "attr:実務遂行力",
       "type": "HAS_SKILL",
@@ -5809,7 +5995,13 @@
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:新入社員のオンボーディング支援",
+      "target": "attr:正確性へのこだわり",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:リスク管理",
       "type": "HAS_SKILL",
       "weight": 1
     },
@@ -5821,19 +6013,13 @@
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:先見性",
-      "type": "HAS_SKILL",
-      "weight": 1
-    },
-    {
-      "source": "person:藤井芙美子",
       "target": "attr:情報整理能力",
       "type": "HAS_SKILL",
       "weight": 1
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:ユーモア",
+      "target": "attr:透明性の確保",
       "type": "HAS_SKILL",
       "weight": 1
     },
@@ -5971,6 +6157,12 @@
     },
     {
       "source": "person:戸塚直道",
+      "target": "attr:市場分析力",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
       "target": "attr:問題解決",
       "type": "HAS_SKILL",
       "weight": 1
@@ -6025,12 +6217,6 @@
     },
     {
       "source": "person:戸塚直道",
-      "target": "attr:m&a戦略",
-      "type": "HAS_SKILL",
-      "weight": 1
-    },
-    {
-      "source": "person:戸塚直道",
       "target": "attr:リスクマネジメント",
       "type": "HAS_SKILL",
       "weight": 1
@@ -6044,6 +6230,12 @@
     {
       "source": "person:戸塚直道",
       "target": "attr:適応力",
+      "type": "HAS_SKILL",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:自己管理力",
       "type": "HAS_SKILL",
       "weight": 1
     },
@@ -6122,6 +6314,12 @@
     {
       "source": "person:杉本光一",
       "target": "attr:ワークライフバランスの重視と、それによる持続可能な貢献",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:体系的な知識共有と活用",
       "type": "VALUES",
       "weight": 1
     },
@@ -6300,6 +6498,24 @@
       "weight": 1
     },
     {
+      "source": "person:田浦裕樹",
+      "target": "attr:顧客の意思決定の文脈尊重",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:市場での差別化と独自のポジション確立",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:プロトタイプとリスク制御による実践的なアジャイル",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
       "source": "person:開米 敦則",
       "target": "attr:探求心",
       "type": "VALUES",
@@ -6391,25 +6607,7 @@
     },
     {
       "source": "person:貴志雪乃",
-      "target": "attr:周囲からの感謝",
-      "type": "VALUES",
-      "weight": 1
-    },
-    {
-      "source": "person:貴志雪乃",
       "target": "attr:成長",
-      "type": "VALUES",
-      "weight": 1
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "attr:歓迎",
-      "type": "VALUES",
-      "weight": 1
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "attr:オンボーディング",
       "type": "VALUES",
       "weight": 1
     },
@@ -6464,6 +6662,12 @@
     {
       "source": "person:上遼太郎",
       "target": "attr:チームでの目標達成",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:品質向上",
       "type": "VALUES",
       "weight": 1
     },
@@ -6558,6 +6762,18 @@
       "weight": 1
     },
     {
+      "source": "person:小松田真伍",
+      "target": "attr:費用対効果",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:ビジネス戦略",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
       "source": "person:小島遼祐",
       "target": "attr:成長",
       "type": "VALUES",
@@ -6594,6 +6810,12 @@
       "weight": 1
     },
     {
+      "source": "person:小島遼祐",
+      "target": "attr:粘り強い学習",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
       "source": "person:藤井芙美子",
       "target": "attr:正確性",
       "type": "VALUES",
@@ -6625,7 +6847,13 @@
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:家族",
+      "target": "attr:公正性",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:透明性",
       "type": "VALUES",
       "weight": 1
     },
@@ -6757,7 +6985,13 @@
     },
     {
       "source": "person:戸塚直道",
-      "target": "attr:m&aによる事業拡大",
+      "target": "attr:ai駆動型組織の確立",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:市場での独自ポジション確立",
       "type": "VALUES",
       "weight": 1
     },
@@ -6816,6 +7050,12 @@
       "weight": 1
     },
     {
+      "source": "person:戸塚直道",
+      "target": "attr:リーダーのウェルビーイング",
+      "type": "VALUES",
+      "weight": 1
+    },
+    {
       "source": "person:榎本詩織",
       "target": "attr:チームワーク",
       "type": "VALUES",
@@ -6853,13 +7093,7 @@
     },
     {
       "source": "person:杉本光一",
-      "target": "attr:slack情報活用によるpjアサイン_チームビルディング",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "attr:notionを活用した非同期1on1の仕組み化と運用",
+      "target": "attr:ai活用ドキュメントの運用とチームの知識共有促進",
       "type": "INTERESTED_IN",
       "weight": 1
     },
@@ -6877,7 +7111,7 @@
     },
     {
       "source": "person:杉本光一",
-      "target": "attr:ai活用に関するドキュメントの運用とチームの知識共有促進",
+      "target": "attr:メンバーの基本設計_詳細設計の進捗管理とサポート",
       "type": "INTERESTED_IN",
       "weight": 1
     },
@@ -6961,91 +7195,25 @@
     },
     {
       "source": "person:田浦裕樹",
-      "target": "attr:エンジニアリングの本質と商談への応用（ハチドリソーラーへの提案）",
+      "target": "attr:顧客の意思決定文脈に合わせた提案",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:田浦裕樹",
-      "target": "attr:顧客への安心感提供と信頼構築と、そのための準備",
+      "target": "attr:sier/コンサルティングファームにないsaiteki独自のポジショニング",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:田浦裕樹",
-      "target": "attr:プレゼンや資料設計における仮説検証とフィードバックの活用",
+      "target": "attr:早期プロト開発とリスク制御を両立したアジャイル提案",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:田浦裕樹",
-      "target": "attr:プライベートなグルメ（巨プリン）",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "attr:同僚のマラソン参加などのプライベートな活動",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "attr:自身の時間管理と優先順位付け",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "attr:自身の業務進捗管理と報告",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "attr:チームミーティングの効率化",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "attr:同僚の仕事と家庭の両立への配慮",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "attr:saitekiの経営戦略と独自のポジション（顧客のシステム開発部門、攻めと守りのバランス）",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "attr:顧客との「泥臭い対話」の重要性",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "attr:困難なプロジェクトにおける「勝ち筋」の模索",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "attr:自身の業務進捗の管理と立て直し",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "attr:チームの定例会議の効率化（廃止の受容）",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "attr:同僚の仕事と家庭の両立への感謝",
+      "target": "attr:aiで作れるものと品質の高いプロダクトのギャップとその対応",
       "type": "INTERESTED_IN",
       "weight": 1
     },
@@ -7099,61 +7267,49 @@
     },
     {
       "source": "person:貴志雪乃",
-      "target": "attr:ai_最新テクノロジーの動向",
+      "target": "attr:長期的なキャリア形成とコンディション維持",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:貴志雪乃",
-      "target": "attr:社内コミュニティの活性化",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "attr:社員間の交流促進",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "attr:会社の事業戦略（m&a）の浸透と理解促進",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "attr:企業ブランディング_広報",
+      "target": "attr:組織全体のパフォーマンス向上",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:上遼太郎",
-      "target": "attr:基本設計_詳細設計ドキュメントの作成",
+      "target": "attr:新基本設計_新詳細設計ドキュメントの完成と共有",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:上遼太郎",
-      "target": "attr:aiへのインプット方法に関する確認",
+      "target": "attr:実装作業における具体的な課題と責任ある委任",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:上遼太郎",
-      "target": "attr:smar-app開発の進捗管理と詳細な状況報告（db基盤、認証、チーム関連機能、未着手機能）",
+      "target": "attr:aiへのインプット方法に関する正確性の確認",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:上遼太郎",
-      "target": "attr:タスクの責任ある委任",
+      "target": "attr:コミュニケーションの場の透明性確保",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:小松田真伍",
-      "target": "attr:ナレッジグラフ構築と項目定義",
+      "target": "attr:ai駆動開発のビジネスインパクト（コスト、品質、リスク排除）",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:ナレッジグラフ構築と項目定義の改善",
       "type": "INTERESTED_IN",
       "weight": 1
     },
@@ -7189,7 +7345,7 @@
     },
     {
       "source": "person:小松田真伍",
-      "target": "attr:bm25、llm、embedding、ナレッジグラフを用いた検索技術の比較検討",
+      "target": "attr:bm25、llm、embedding、ナレッジグラフを用いた検索技術の比較検討と迅速なプロトタイピング",
       "type": "INTERESTED_IN",
       "weight": 1
     },
@@ -7248,44 +7404,50 @@
       "weight": 1
     },
     {
-      "source": "person:藤井芙美子",
-      "target": "attr:社労士連携および共有フォルダの運用",
+      "source": "person:小島遼祐",
+      "target": "attr:slerとコンサルティングファームのポジション",
+      "type": "INTERESTED_IN",
+      "weight": 1
+    },
+    {
+      "source": "person:小島遼祐",
+      "target": "attr:専門的なレターの内容（深い理解）",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:会社からの補助金制度と経費精算ルール",
+      "target": "attr:健康診断費用の補助規定の正確な情報伝達",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:月次報告（勤怠、交通費、経費）のリマインドと促進",
+      "target": "attr:月次報告（稼働表、交通費、経費）のリマインド",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:新入社員への挨拶とオンボーディング",
+      "target": "attr:会社からの補助に関するルール（健康診断費用、書籍購入費用）の明確化",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:植物の育て方",
+      "target": "attr:小学校の卒業式と日本の文化（袴）",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:子どもの卒園",
+      "target": "attr:有名レストランでの食事体験（孤独のグルメ、長崎飯店）",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:野球（特に巨人）",
+      "target": "attr:皿うどん、貝類などの食の好み",
       "type": "INTERESTED_IN",
       "weight": 1
     },
@@ -7387,43 +7549,31 @@
     },
     {
       "source": "person:戸塚直道",
-      "target": "attr:m&a戦略の策定と実行、およびその背景にある自身のキャリアと専門的知見",
+      "target": "attr:saiteki_ai_standardの策定と導入を通じたai駆動型組織への変革",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:戸塚直道",
-      "target": "attr:受託開発における顧客の「本音」理解と提案スタイルの抜本的変更",
+      "target": "attr:スタートアップ界隈の「エンジニア軽視」と「ai負債」による市場の変化への対応戦略",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:戸塚直道",
-      "target": "attr:ai（特に顧客の思考プロファイリング）のビジネスへの活用と深化",
+      "target": "attr:受託開発における顧客の思考プロファイリングと抜本的な提案スタイルの変更",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:戸塚直道",
-      "target": "attr:自律したビジネスパーソンの採用と育成、及び組織への統合",
+      "target": "attr:リーダー自身のメンタルヘルスとマインドフルネスによる自己管理",
       "type": "INTERESTED_IN",
       "weight": 1
     },
     {
       "source": "person:戸塚直道",
-      "target": "attr:外部のビジネス書やnoteからの知見獲得と共有",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:戸塚直道",
-      "target": "attr:社内のコミュニケーション活性化とフィードバック文化の促進",
-      "type": "INTERESTED_IN",
-      "weight": 1
-    },
-    {
-      "source": "person:戸塚直道",
-      "target": "attr:オフィス環境の充実と、贈られた観葉植物の育成",
+      "target": "attr:チームメンバーからの情報共有（書籍、サービス）とそれに対する実践的なフィードバック",
       "type": "INTERESTED_IN",
       "weight": 1
     },
@@ -7502,6 +7652,12 @@
     {
       "source": "person:杉本光一",
       "target": "attr:新たな技術や社会の変化に関する知識を深く学び、それを周囲と共有すること",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "attr:知識共有の仕組みを構築し、組織全体の知の活用を促進すること",
       "type": "MOTIVATED_BY",
       "weight": 1
     },
@@ -7657,7 +7813,7 @@
     },
     {
       "source": "person:田浦裕樹",
-      "target": "attr:saitekiが目指す独自の顧客貢献アプローチへの共感",
+      "target": "attr:saitekiの独自の顧客貢献アプローチへの共感",
       "type": "MOTIVATED_BY",
       "weight": 1
     },
@@ -7670,6 +7826,24 @@
     {
       "source": "person:田浦裕樹",
       "target": "attr:経営層の明確な哲学とリーダーシップ",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:saitekiの独自の市場ポジションへの挑戦と実現",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:顧客の事業成長支援を通じて信頼を獲得すること",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "attr:自身の経験と知識を活かして会社の戦略的な方向性を推進すること",
       "type": "MOTIVATED_BY",
       "weight": 1
     },
@@ -7729,18 +7903,6 @@
     },
     {
       "source": "person:貴志雪乃",
-      "target": "attr:新メンバーの組織への円滑な統合",
-      "type": "MOTIVATED_BY",
-      "weight": 1
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "attr:周囲からの感謝やポジティブな反応",
-      "type": "MOTIVATED_BY",
-      "weight": 1
-    },
-    {
-      "source": "person:貴志雪乃",
       "target": "attr:企画した取り組みが成功し、参加者や利用者に価値を提供できた時",
       "type": "MOTIVATED_BY",
       "weight": 1
@@ -7784,6 +7946,12 @@
     {
       "source": "person:上遼太郎",
       "target": "attr:ドキュメントの正確な作成と合意形成",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "attr:作業の品質や最適な方法を追求すること",
       "type": "MOTIVATED_BY",
       "weight": 1
     },
@@ -7866,6 +8034,18 @@
       "weight": 1
     },
     {
+      "source": "person:小松田真伍",
+      "target": "attr:ビジネス価値の創出",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:小松田真伍",
+      "target": "attr:戦略的課題の解決",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
       "source": "person:小島遼祐",
       "target": "attr:周囲からの感謝や肯定的な反応",
       "type": "MOTIVATED_BY",
@@ -7908,14 +8088,26 @@
       "weight": 1
     },
     {
-      "source": "person:藤井芙美子",
-      "target": "attr:業務の円滑化",
+      "source": "person:小島遼祐",
+      "target": "attr:複雑な概念の深い理解",
       "type": "MOTIVATED_BY",
       "weight": 1
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:問題解決による効率向上",
+      "target": "attr:業務プロセスの改善と明確化",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:情報共有の徹底による混乱防止",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "attr:社員からの信頼獲得とサポートへの貢献",
       "type": "MOTIVATED_BY",
       "weight": 1
     },
@@ -7927,13 +8119,7 @@
     },
     {
       "source": "person:藤井芙美子",
-      "target": "attr:組織への貢献実感",
-      "type": "MOTIVATED_BY",
-      "weight": 1
-    },
-    {
-      "source": "person:藤井芙美子",
-      "target": "attr:情報整理と共有",
+      "target": "attr:美食や新しい体験の探求",
       "type": "MOTIVATED_BY",
       "weight": 1
     },
@@ -8023,7 +8209,13 @@
     },
     {
       "source": "person:戸塚直道",
-      "target": "attr:m&a戦略の着実な実行と成功",
+      "target": "attr:ai駆動型組織の確立と標準化",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:市場の課題（ai負債など）を解決し、独自の競争優位を確立すること",
       "type": "MOTIVATED_BY",
       "weight": 1
     },
@@ -8054,6 +8246,12 @@
     {
       "source": "person:戸塚直道",
       "target": "attr:自身のプロの目利きとしての能力を発揮し、リスクを最小化し機会を最大化すること",
+      "type": "MOTIVATED_BY",
+      "weight": 1
+    },
+    {
+      "source": "person:戸塚直道",
+      "target": "attr:リーダー自身の心身の健康を維持し、その学びを組織に還元すること",
       "type": "MOTIVATED_BY",
       "weight": 1
     },
@@ -8216,13 +8414,12 @@
       "source": "person:青木淳一郎",
       "target": "person:藤井芙美子",
       "type": "SHARES",
-      "weight": 3,
+      "weight": 2,
       "shared": {
         "skills": [
           "責任感"
         ],
         "values": [
-          "家族",
           "貢献"
         ],
         "interests": []
@@ -8537,19 +8734,6 @@
     },
     {
       "source": "person:田浦裕樹",
-      "target": "person:藤井芙美子",
-      "type": "SHARES",
-      "weight": 1,
-      "shared": {
-        "skills": [],
-        "values": [
-          "家族"
-        ],
-        "interests": []
-      }
-    },
-    {
-      "source": "person:田浦裕樹",
       "target": "person:榎本詩織",
       "type": "SHARES",
       "weight": 1,
@@ -8764,12 +8948,13 @@
       "source": "person:上遼太郎",
       "target": "person:藤井芙美子",
       "type": "SHARES",
-      "weight": 3,
+      "weight": 4,
       "shared": {
         "skills": [
           "責任感"
         ],
         "values": [
+          "透明性",
           "協調性",
           "正確性"
         ],
@@ -8812,11 +8997,14 @@
       "source": "person:小松田真伍",
       "target": "person:藤井芙美子",
       "type": "SHARES",
-      "weight": 1,
+      "weight": 3,
       "shared": {
-        "skills": [],
+        "skills": [
+          "リスク管理"
+        ],
         "values": [
-          "貢献"
+          "貢献",
+          "透明性"
         ],
         "interests": []
       }
@@ -8939,10 +9127,10 @@
       "type": "SHARES",
       "weight": 1,
       "shared": {
-        "skills": [
-          "先見性"
+        "skills": [],
+        "values": [
+          "透明性"
         ],
-        "values": [],
         "interests": []
       }
     },
@@ -8990,7 +9178,7 @@
       "target": "person:青木淳一郎",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "AI戦略とインフラ実装が相互補完し、実行力を高める。",
+      "reason": "杉本のAI駆動開発と知識共有に青木のAWSと学習意欲が貢献。",
       "ai_generated": true
     },
     {
@@ -8999,7 +9187,7 @@
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "杉本→青木",
-      "reason": "杉本のAI・組織変革知見が青木の学習意欲を強力に育成。",
+      "reason": "杉本のAI知見・組織変革が青木の成長・貢献意欲を導く。",
       "ai_generated": true
     },
     {
@@ -9007,7 +9195,7 @@
       "target": "person:青木淳一郎",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "AI戦略とインフラ実行が融合し、強力なプロダクト開発が可能。",
+      "reason": "AIとAWS基盤技術の融合で、組織全体の生産性向上。",
       "ai_generated": true
     },
     {
@@ -9015,24 +9203,24 @@
       "target": "person:小林翔",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "杉本のAI開発と小林の品質保証が一体化し、完成度を高める。",
+      "reason": "小林のQA視点と情報共有が杉本のAI駆動開発を品質面で補完。",
       "ai_generated": true
     },
     {
       "source": "person:杉本光一",
       "target": "person:小林翔",
       "type": "MENTORING_FIT",
-      "weight": 8,
+      "weight": 7,
       "direction": "杉本→小林",
-      "reason": "杉本がAI開発視点を、小林がQA視点で相互に学び合う機会。",
+      "reason": "杉本のAI駆動開発知見が、小林のQA専門性深化を促す。",
       "ai_generated": true
     },
     {
       "source": "person:杉本光一",
       "target": "person:小林翔",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "高い協調性と詳細観察力で、革新的なAI製品を高品質で実現。",
+      "weight": 8,
+      "reason": "AI駆動開発とQAの連携で、高品質と効率的な開発を実現。",
       "ai_generated": true
     },
     {
@@ -9040,7 +9228,7 @@
       "target": "person:櫻井志保",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "杉本のAI技術に櫻井のデータ分析が融合し、効果的なAI開発を促進。",
+      "reason": "櫻井のデータ分析スキルが、杉本のAI駆動開発を強力に支援。",
       "ai_generated": true
     },
     {
@@ -9049,7 +9237,7 @@
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "杉本→櫻井",
-      "reason": "杉本のAI知見が櫻井のデータ分析能力と学習意欲を大きく伸ばす。",
+      "reason": "杉本のAI知見が、櫻井のデータ分析専門性向上に直結。",
       "ai_generated": true
     },
     {
@@ -9057,7 +9245,7 @@
       "target": "person:櫻井志保",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "データ駆動型AI開発において、分析力とAI知見が強力に連携。",
+      "reason": "AI技術とデータ分析の強力な連携で、高度なAI開発を推進。",
       "ai_generated": true
     },
     {
@@ -9065,7 +9253,7 @@
       "target": "person:田浦裕樹",
       "type": "COMPLEMENTS",
       "weight": 10,
-      "reason": "杉本のAI戦略と田浦の開発プロセス・リスク管理が完璧に補完。",
+      "reason": "AI駆動開発と組織変革で、技術とビジネス両面で最高の補完。",
       "ai_generated": true
     },
     {
@@ -9074,7 +9262,7 @@
       "type": "MENTORING_FIT",
       "weight": 10,
       "direction": "mutual",
-      "reason": "AI技術戦略と開発プロセス・実践知見で相互に深い学びと成長。",
+      "reason": "互いの専門性が深く、戦略・技術・顧客面で相互学習を促進。",
       "ai_generated": true
     },
     {
@@ -9082,7 +9270,7 @@
       "target": "person:田浦裕樹",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "AI開発のビジョンと実践が融合し、組織を牽引する最強のチーム。",
+      "reason": "AI技術とアジャイル実践、顧客貢献が融合し、最高の成果創出。",
       "ai_generated": true
     },
     {
@@ -9090,16 +9278,16 @@
       "target": "person:開米 敦則",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "杉本のAI開発と開米のAI活用QA戦略が、品質と実用性を両立。",
+      "reason": "AI駆動開発とQAの専門性が結合、品質と効率を同時に高める。",
       "ai_generated": true
     },
     {
       "source": "person:杉本光一",
       "target": "person:開米 敦則",
       "type": "MENTORING_FIT",
-      "weight": 9,
+      "weight": 8,
       "direction": "杉本→開米",
-      "reason": "杉本のAI技術知見が、開米のAI活用QA戦略を深め広げる。",
+      "reason": "杉本のAI技術は、開米のQAプロセス戦略的改善に貢献。",
       "ai_generated": true
     },
     {
@@ -9107,7 +9295,7 @@
       "target": "person:開米 敦則",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "AI技術開発とAI活用QA戦略が統合され、革新性と品質を両立。",
+      "reason": "AI駆動開発とQA戦略の融合で、高品質かつ効率的な開発を実現。",
       "ai_generated": true
     },
     {
@@ -9115,216 +9303,216 @@
       "target": "person:貴志雪乃",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "技術とHR両面から組織課題解決と成長戦略推進で補完。",
+      "reason": "杉本の技術変革を貴志がHR視点で人間中心に支え、実行する。",
       "ai_generated": true
     },
     {
       "source": "person:杉本光一",
       "target": "person:貴志雪乃",
+      "type": "MENTORING_FIT",
+      "weight": 8,
+      "direction": "杉本→貴志",
+      "reason": "杉本のAI時代の組織変革視点が、貴志のHR戦略に貢献。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:貴志雪乃",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "技術革新と人間的側面を融合し、組織変革と社員満足を最大化。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:上遼太郎",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "杉本のビジョン実行を、上の計画性・詳細化・透明性で補強。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:上遼太郎",
+      "type": "MENTORING_FIT",
+      "weight": 9,
+      "direction": "杉本→上",
+      "reason": "杉本のAI技術リーダー知見が、上に成長機会を提供。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:上遼太郎",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "革新と堅実さが融合し、高品質かつ迅速なプロジェクト推進。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:小松田真伍",
+      "type": "COMPLEMENTS",
+      "weight": 7,
+      "reason": "共通のAI技術探求と組織変革目標を相互に高め合う。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:小松田真伍",
+      "type": "MENTORING_FIT",
+      "weight": 9,
+      "direction": "mutual",
+      "reason": "互いにAI技術、組織戦略、リーダーシップにおいて深く学び合える。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:小松田真伍",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "共通のビジョンと卓越した能力が相乗し、革新的な成果を生む。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:小島遼祐",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "杉本のAI技術知見と、小島の強い学習・探求意欲が相互に作用。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:小島遼祐",
+      "type": "MENTORING_FIT",
+      "weight": 10,
+      "direction": "杉本→小島",
+      "reason": "杉本の専門知識が、小島の高い学習意欲と探求心に合致。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:小島遼祐",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "共通の価値観と高い協調性で、杉本のビジョン実現を加速。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:藤井芙美子",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "杉本の技術導入を、藤井の業務改善・人間関係力で浸透。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:藤井芙美子",
+      "type": "MENTORING_FIT",
+      "weight": 8,
+      "direction": "杉本→藤井",
+      "reason": "杉本のAI時代の組織変革視点が、藤井の業務効率化に貢献。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:藤井芙美子",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "技術革新と実務効率化の連携で、組織全体の変革を推進。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:菅野聖也",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "杉本の専門性と菅野の学習意欲・既存技術が補完。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:菅野聖也",
+      "type": "MENTORING_FIT",
+      "weight": 9,
+      "direction": "A→B",
+      "reason": "杉本の深いAI知識と組織知見が菅野の成長を促進。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:菅野聖也",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "AI知識共有と学習意欲が結合し、組織貢献に繋がる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:佐藤傑",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "杉本の技術的深さと佐藤の実践・起業家精神が融合。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:杉本光一",
+      "target": "person:佐藤傑",
       "type": "MENTORING_FIT",
       "weight": 8,
       "direction": "mutual",
-      "reason": "互いの専門性（AI技術、組織戦略、HR戦略）を学び合う。",
+      "reason": "技術とビジネス視点で相互に学び、実践を加速する。",
       "ai_generated": true
     },
     {
       "source": "person:杉本光一",
-      "target": "person:貴志雪乃",
+      "target": "person:佐藤傑",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "高い協調性と実行力で、組織と人の成長を両面から推進。",
+      "reason": "技術革新と実践的ビジネス視点が融合し、大きな成果。",
       "ai_generated": true
     },
     {
       "source": "person:杉本光一",
-      "target": "person:上遼太郎",
+      "target": "person:鈴木悠斗",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "杉本の戦略的視点と上の徹底した実行管理がプロジェクトを強化。",
+      "reason": "技術と人間関係の両面から、持続可能な組織を構築。",
       "ai_generated": true
     },
     {
       "source": "person:杉本光一",
-      "target": "person:上遼太郎",
+      "target": "person:鈴木悠斗",
       "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "A→B",
-      "reason": "杉本はAIリーダー、上は体系的思考の学習者で理想的。",
+      "weight": 8,
+      "direction": "mutual",
+      "reason": "技術的効率化と組織の人間的側面で相互に洞察を深める。",
       "ai_generated": true
     },
     {
       "source": "person:杉本光一",
-      "target": "person:上遼太郎",
+      "target": "person:鈴木悠斗",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "高い計画性・情報共有能力で、杉本のリーダーシップを堅実に支える。",
+      "reason": "技術革新とチーム幸福度が両立した生産性の高い組織へ。",
       "ai_generated": true
     },
     {
       "source": "person:杉本光一",
-      "target": "person:小松田真伍",
+      "target": "person:戸塚直道",
       "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "共にAIとナレッジ管理の強みを持つが、異なる視点で補完。",
+      "weight": 10,
+      "reason": "経営戦略と技術実行が完璧に結合し、ビジョン実現。",
       "ai_generated": true
     },
     {
       "source": "person:杉本光一",
-      "target": "person:小松田真伍",
+      "target": "person:戸塚直道",
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "mutual",
-      "reason": "互いにAI技術・組織変革の知見を共有し、相乗的に成長。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:小松田真伍",
-      "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "AI技術とナレッジ管理の専門性で、圧倒的な成果を生む。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:小島遼祐",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "杉本の経験と小島の学習意欲が、新たな挑戦と成果創出を補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:小島遼祐",
-      "type": "MENTORING_FIT",
-      "weight": 10,
-      "direction": "A→B",
-      "reason": "杉本の専門性とリーダーシップが小島の学習意欲を最大限に引き出す。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:小島遼祐",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "共通の性格と価値観で、高い協調性と実行力で推進。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:藤井芙美子",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "杉本の戦略的技術導入と藤井の実務改善能力が組織効率化で補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:藤井芙美子",
-      "type": "MENTORING_FIT",
-      "weight": 7,
-      "direction": "A→B",
-      "reason": "杉本はAI技術と戦略視点を提供し、藤井の業務効率化を深める。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:藤井芙美子",
-      "type": "TEAM_SYNERGY",
-      "weight": 8,
-      "reason": "高い協調性と情報共有で、技術と実務両面から業務効率化を実現。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:菅野聖也",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "杉本の戦略とAI知見を菅野の学習意欲と技術で補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:菅野聖也",
-      "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "A→B",
-      "reason": "杉本のAI・組織知見が菅野の学習意欲と成長を導く。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:菅野聖也",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "AI知見リーダーと学習意欲ある技術者の協働で実現力向上。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:佐藤傑",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "杉本の深掘りAI知見と佐藤の実践・事業推進力が相互補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:佐藤傑",
-      "type": "MENTORING_FIT",
-      "weight": 7,
-      "direction": "A→B",
-      "reason": "杉本のAI専門知見が佐藤の実践を理論面で補強。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:佐藤傑",
-      "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "AI技術リーダーと起業家精神が融合し、実行力と新規事業創出を加速。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:鈴木悠斗",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "杉本の技術戦略を鈴木のチームマネジメントとWLB重視で補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:鈴木悠斗",
-      "type": "MENTORING_FIT",
-      "weight": 7,
-      "direction": "A→B",
-      "reason": "杉本のAI・組織変革の専門知識が鈴木の経営視野を広げる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:鈴木悠斗",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "技術リーダーシップとチームケアが融合し、組織目標達成と士気向上に寄与。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:戸塚直道",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "杉本の技術深度と戸塚の事業戦略が結びつき、AIビジネスを加速。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:杉本光一",
-      "target": "person:戸塚直道",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "A→B",
-      "reason": "杉本のAI技術の深い知見が戸塚の経営判断を精緻化する。",
+      "reason": "技術リーダーシップと経営戦略が相互に高め合う。",
       "ai_generated": true
     },
     {
@@ -9332,7 +9520,7 @@
       "target": "person:戸塚直道",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "AI技術リーダーと戦略的経営者が融合し、事業成長と組織変革を強力推進。",
+      "reason": "経営層と技術リーダーシップが連携し、変革を最大化。",
       "ai_generated": true
     },
     {
@@ -9340,7 +9528,7 @@
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "杉本のAI知見を榎本の学習意欲とコミュニケーションでチームに普及。",
+      "reason": "杉本の体系知と榎本の多様な経験・適応力が好循環。",
       "ai_generated": true
     },
     {
@@ -9349,7 +9537,7 @@
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "A→B",
-      "reason": "杉本のAI技術・組織知見が榎本の学習意欲と成長を強力に促進。",
+      "reason": "杉本の専門性とガイダンスが榎本の成長を促進。",
       "ai_generated": true
     },
     {
@@ -9357,15 +9545,15 @@
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "AI技術リーダーと学習意欲・コミュニケーション力の融合で、技術導入とチーム連携が加速。",
+      "reason": "AI知識と多様な経験が融合し、チーム学習を最大化。",
       "ai_generated": true
     },
     {
       "source": "person:青木淳一郎",
       "target": "person:小林翔",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "開発と品質保証の専門性を相互補完し、高品質な成果に繋がる。",
+      "weight": 9,
+      "reason": "青木の技術と小林の品質保証・情報伝達が相互補完。",
       "ai_generated": true
     },
     {
@@ -9374,7 +9562,7 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "mutual",
-      "reason": "専門領域が異なり、お互いに技術と品質保証の知見を教え合える。",
+      "reason": "青木は技術、小林は品質と情報発信で相互に学び合う。",
       "ai_generated": true
     },
     {
@@ -9382,7 +9570,7 @@
       "target": "person:小林翔",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "互いの専門性と高い協調性で、技術と品質の両面で優れた成果。",
+      "reason": "高い協調性と専門性で、技術開発から品質まで高連携。",
       "ai_generated": true
     },
     {
@@ -9390,7 +9578,7 @@
       "target": "person:櫻井志保",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "インフラとデータ分析の専門性で、異なる技術層を補完できる。",
+      "reason": "青木がインフラ、櫻井がデータ分析と異なる専門性で補完。",
       "ai_generated": true
     },
     {
@@ -9399,15 +9587,15 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "mutual",
-      "reason": "互いの専門技術領域を深掘りし、相互に学習を促進できる。",
+      "reason": "異なる専門分野で互いに教え合うことが可能。",
       "ai_generated": true
     },
     {
       "source": "person:青木淳一郎",
       "target": "person:櫻井志保",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "協調性と学習意欲が高く、インフラとデータ分析で技術的相乗効果。",
+      "weight": 8,
+      "reason": "異なる専門技術を共有価値観と高い協調性で統合できる。",
       "ai_generated": true
     },
     {
@@ -9415,16 +9603,16 @@
       "target": "person:田浦裕樹",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "青木の専門性と田浦の幅広い知見・プロセス構築力で、高い技術力と戦略的思考を両立。",
+      "reason": "青木の技術力と田浦の全体戦略・プロセス知識が相互補完。",
       "ai_generated": true
     },
     {
       "source": "person:青木淳一郎",
       "target": "person:田浦裕樹",
       "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "B→A",
-      "reason": "田浦の広範な開発・戦略的知見が、青木の専門性を深め、視野を広げる助けに。",
+      "weight": 8,
+      "direction": "mutual",
+      "reason": "田浦は開発プロセスと戦略、青木はAWS基盤で相互にメンタリング。",
       "ai_generated": true
     },
     {
@@ -9432,15 +9620,15 @@
       "target": "person:田浦裕樹",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "田浦の戦略的洞察と青木の専門技術が融合し、極めて高品質な成果を生む。",
+      "reason": "戦略的な推進力と具体的な実装力が結びつき、最高の成果を生む。",
       "ai_generated": true
     },
     {
       "source": "person:青木淳一郎",
       "target": "person:開米 敦則",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "青木のインフラ構築力と開米の戦略的QA視点で、堅牢なシステムとプロセスを実現。",
+      "weight": 9,
+      "reason": "青木のインフラ構築と開米のQA・AI活用がシステム品質を向上。",
       "ai_generated": true
     },
     {
@@ -9449,7 +9637,7 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "mutual",
-      "reason": "互いの専門技術（AWSインフラ、AI活用QA）を教え合い、理解を深める。",
+      "reason": "異なる専門領域（インフラとQA・AI）で相互に知識を共有。",
       "ai_generated": true
     },
     {
@@ -9457,349 +9645,349 @@
       "target": "person:開米 敦則",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "強固なインフラ基盤と戦略的・AIを活用した品質保証で、高品位なプロダクトを生む。",
+      "reason": "インフラ構築と品質保証・プロセス改善の連携で、高品質な開発が可能。",
       "ai_generated": true
     },
     {
       "source": "person:青木淳一郎",
       "target": "person:貴志雪乃",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "青木の技術力と貴志の組織貢献・ウェルビーイング支援が、事業と人材の両面で補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:貴志雪乃",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "B→A",
-      "reason": "貴志の組織戦略・人材育成の知見が、青木のキャリア展望と会社貢献への理解を深める。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:貴志雪乃",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "青木の技術貢献が貴志の創る組織環境で最大化され、全社的な成長に繋がる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:上遼太郎",
-      "type": "COMPLEMENTS",
       "weight": 7,
-      "reason": "上野の計画性・体系的思考が青木の実行力を補完。",
+      "reason": "青木の技術貢献を貴志が組織開発・ウェルビーイングで支える。",
       "ai_generated": true
     },
     {
       "source": "person:青木淳一郎",
-      "target": "person:上遼太郎",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "上野の計画性、青木の専門性が互いを高める。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:上遼太郎",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "計画性、専門性、協調性が融合し、高品質な成果を生む。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:小松田真伍",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "小松田の戦略・計画性が青木の専門性・実行力を最大化。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:小松田真伍",
-      "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "B→A",
-      "reason": "小松田の戦略的思考と実行力が青木の成長を加速。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:小松田真伍",
-      "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "青木の基盤技術と小松田の革新的ビジョンが相乗効果を生む。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:小島遼祐",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "小島の情報収集力と青木の実行力が互いを補強。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:小島遼祐",
-      "type": "MENTORING_FIT",
-      "weight": 7,
-      "direction": "A→B",
-      "reason": "青木の技術的専門性が小島の学習を助ける。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:小島遼祐",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "高い学習意欲と協調性で、迅速かつ質の高い成果を出す。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:藤井芙美子",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "藤井のプロセス改善・実務力が青木の技術貢献を最大化。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:藤井芙美子",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "互いの専門領域でビジネス理解と技術知見を深める。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:藤井芙美子",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "技術と実務の両面から、組織全体の効率化・貢献を推進。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:菅野聖也",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "青木のインフラ専門性と菅野のAI・アプリ開発が相互補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:菅野聖也",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "互いの専門技術（AWS, AI/アプリ）を学び合える。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:菅野聖也",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "AWS基盤とAI・アプリ開発の融合で、革新的なソリューション創造。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:佐藤傑",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "技術分野が異なり、佐藤のAI戦略を青木のAWS基盤で実現可能。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:佐藤傑",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "B→A",
-      "reason": "佐藤の起業家精神とAI実践知が青木の技術応用視野を広げる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:佐藤傑",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "革新的なAI戦略と堅実なインフラ構築力で強力な事業推進が可能。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:鈴木悠斗",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "青木の技術力と鈴木の組織マネジメント・チームビルディング能力が補完し合う。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:鈴木悠斗",
-      "type": "MENTORING_FIT",
-      "weight": 7,
-      "direction": "B→A",
-      "reason": "鈴木は経営視点と組織貢献の重要性を青木に伝え、キャリアを支援できる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:鈴木悠斗",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "技術責任感とポジティブな組織運営が融合し、安定的に高い成果を生む。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:戸塚直道",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "戸塚の戦略的ビジョンと青木の技術的実行力が強力に補完し合う。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:戸塚直道",
-      "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "B→A",
-      "reason": "戸塚の広範な経営戦略とAI活用知見が青木のキャリア形成に大きく貢献。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:戸塚直道",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "戸塚の戦略的リーダーシップと青木の堅実な技術力が、組織の成長を加速させる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:榎本詩織",
-      "type": "COMPLEMENTS",
-      "weight": 6,
-      "reason": "共通点が多く協調しやすいが、明確な弱み補完は限定的。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:榎本詩織",
-      "type": "MENTORING_FIT",
-      "weight": 6,
-      "direction": "A→B",
-      "reason": "青木がAWS専門性で榎本を指導できるが、深いメンタリングは相互交流が主。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:青木淳一郎",
-      "target": "person:榎本詩織",
-      "type": "TEAM_SYNERGY",
-      "weight": 8,
-      "reason": "高い学習意欲とコミュニケーション能力で、活発な知識共有と協力関係を築ける。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:櫻井志保",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "小林のQA・情報発信が櫻井のデータ分析の品質とコミュニケーションを補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:櫻井志保",
-      "type": "MENTORING_FIT",
-      "weight": 7,
-      "direction": "A→B",
-      "reason": "小林のQA経験と情報提供力が櫻井の専門性向上と品質意識を高める。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:櫻井志保",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "QAとデータ分析の専門性が高次元で融合し、高品質なプロダクト開発を推進。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:田浦裕樹",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "QAと開発の専門知識と高い協調性で互いを補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:田浦裕樹",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "B→A",
-      "reason": "田浦は開発全般・AI・アジャイルに深く、小林のQA知見を広げる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:田浦裕樹",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "高い協調性と情報共有意欲、課題解決への熱意で相乗効果大。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:開米 敦則",
-      "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "同職種だがAI活用や戦略的視点で開米、対人・情報発信で小林が補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:開米 敦則",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "B→A",
-      "reason": "開米のQA専門知識、AI活用、戦略的視点は小林の成長に繋がる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:開米 敦則",
-      "type": "TEAM_SYNERGY",
-      "weight": 8,
-      "reason": "高い協調性と品質改善への意欲、情報共有で安定したチームに。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:貴志雪乃",
-      "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "職種は違うが、社交性・情報発信・コミュニティ形成で互いを強化。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
       "target": "person:貴志雪乃",
       "type": "MENTORING_FIT",
       "weight": 6,
       "direction": "mutual",
-      "reason": "異なる専門性から相互に組織運営や業務への新たな視点を提供可能。",
+      "reason": "青木は技術、貴志は組織・ウェルビーイングで異なる視点を提供。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:貴志雪乃",
+      "type": "TEAM_SYNERGY",
+      "weight": 8,
+      "reason": "高い協調性と共通の貢献意欲で、組織全体の活性化に貢献。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:上遼太郎",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "上の計画性と詳細思考は青木の実行力を補完し、基盤設計を堅固にする。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:上遼太郎",
+      "type": "MENTORING_FIT",
+      "weight": 8,
+      "direction": "B→A",
+      "reason": "上の体系的思考とドキュメント化は青木の専門性を深め、質の高いアウトプットに繋がる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:上遼太郎",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "計画性、責任感、コミュニケーション能力が高く、互いの強みを生かした効率的な協業が期待できる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:小松田真伍",
+      "type": "COMPLEMENTS",
+      "weight": 10,
+      "reason": "小松田の戦略的思考と青木のAWS専門性が結合し、先進的なシステム構築が可能。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:小松田真伍",
+      "type": "MENTORING_FIT",
+      "weight": 9,
+      "direction": "B→A",
+      "reason": "小松田のビジネス・戦略的視点と卓越した問題解決能力は青木の成長を加速させる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:小松田真伍",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "小松田の戦略と青木の実行力が完璧に融合し、最高の成果と変革をもたらす。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:小島遼祐",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "双方の学習意欲と協調性が高く、互いの知識と経験を深め合う良い関係。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:小島遼祐",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "mutual",
+      "reason": "青木の専門知識が小島の探求心を刺激し、小島の粘り強い学習姿勢が青木にも良い影響。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:小島遼祐",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "共に高い学習意欲と協調性で、相乗効果を生む。互いに支え合い、困難も乗り越える。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:藤井芙美子",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "藤井のプロセス改善と青木の技術力が融合し、透明性と効率性の高い連携が可能。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:藤井芙美子",
+      "type": "MENTORING_FIT",
+      "weight": 8,
+      "direction": "mutual",
+      "reason": "藤井は組織貢献とプロセス改善を、青木は技術的詳細を互いに学び、補い合える。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:藤井芙美子",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "役割は異なるが、高い責任感と協調性で相互理解を深め、組織目標達成に大きく貢献。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:菅野聖也",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "青木のAWS基盤と菅野のAI/アプリ開発技術は互いの専門性を広げ、質の高いシステムを構築。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:菅野聖也",
+      "type": "MENTORING_FIT",
+      "weight": 9,
+      "direction": "mutual",
+      "reason": "互いの専門技術（AWS vs AI/アプリ）を教え合い、全体的な技術力を相互に高められる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:菅野聖也",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "高い協調性と学習意欲で、インフラとアプリ・AIの垣根を越えて強力なシステム開発チームとなる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:佐藤傑",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "インフラ専門性とAI/実践力が融合し、事業推進を加速。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:佐藤傑",
+      "type": "MENTORING_FIT",
+      "weight": 8,
+      "direction": "佐藤傑→青木淳一郎",
+      "reason": "佐藤の起業家精神とAI実践力が青木の成長を加速させる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:佐藤傑",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "インフラとAIの融合で革新的な事業を創出し、高い成果を生む。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:鈴木悠斗",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "技術専門性と組織運営が補完し、家族価値観も共有。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:鈴木悠斗",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "鈴木悠斗→青木淳一郎",
+      "reason": "鈴木は青木のモチベーション維持とキャリア面で強力な指導者。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:鈴木悠斗",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "安定した技術基盤と高いチーム士気で目標達成能力が向上。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:戸塚直道",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "戸塚のビジョンと戦略を青木の技術力で強力に実現する。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:戸塚直道",
+      "type": "MENTORING_FIT",
+      "weight": 9,
+      "direction": "戸塚直道→青木淳一郎",
+      "reason": "戸塚のビジョンと戦略が青木の成長と貢献意欲を最大限に引き出す。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:戸塚直道",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "経営戦略と最先端技術基盤が融合し、革新的な事業を創出。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:榎本詩織",
+      "type": "COMPLEMENTS",
+      "weight": 7,
+      "reason": "互いの専門性と多様な経験を広げ、安定性と柔軟性をもたらす。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:榎本詩織",
+      "type": "MENTORING_FIT",
+      "weight": 8,
+      "direction": "mutual",
+      "reason": "双方の専門性や経験を共有し、相互に学習を促進する関係。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:青木淳一郎",
+      "target": "person:榎本詩織",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "技術的深掘りと多様な視点が融合し、安定性と革新性を持つ。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:櫻井志保",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "QAとデータ分析が融合し、品質向上とデータ活用を促進する。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:櫻井志保",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "mutual",
+      "reason": "小林はQA視点、櫻井はデータ分析視点で相互に学び合う。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:櫻井志保",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "品質とデータ活用の両面から、製品開発を強力に推進する。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:田浦裕樹",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "QAと開発の専門知識が相互に品質を高め、両者の高い協調性がチーム力を向上。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:田浦裕樹",
+      "type": "MENTORING_FIT",
+      "weight": 9,
+      "direction": "B→A",
+      "reason": "田浦は開発全般・ビジネス戦略に長け、小林のQA知見を深化・拡大可能。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:田浦裕樹",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "専門性と人間性のバランスが取れ、互いの強みを引き出し最高の成果を創出。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:開米敦則",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "開米のAIとプロセス改善、小林のコミュニケーション力でQA業務を強化。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:開米敦則",
+      "type": "MENTORING_FIT",
+      "weight": 8,
+      "direction": "B→A",
+      "reason": "開米のAI活用・プロセス改善経験は、小林のQA専門性を高める上で有益。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:開米敦則",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "QA専門知識とソフトスキルが融合し、高品質かつ効率的なQAプロセス構築に貢献。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:貴志雪乃",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "小林の情報発信力と貴志のウェルビーイング支援が組織活性化で補完し合う。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:貴志雪乃",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "B→A",
+      "reason": "貴志のHR専門知識が小林のキャリア成長やウェルビーイング向上を支援。",
       "ai_generated": true
     },
     {
@@ -9807,124 +9995,124 @@
       "target": "person:貴志雪乃",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "共通の価値観、性格、高い社交性で社内活性化と文化形成に大貢献。",
+      "reason": "共通の協調性・情報共有意識で部署を越えたコラボレーションを強力に推進。",
       "ai_generated": true
     },
     {
       "source": "person:小林翔",
       "target": "person:上遼太郎",
       "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "小林の社交性と上の計画性・詳細思考が、情報共有とプロジェクト遂行を補完。",
+      "weight": 9,
+      "reason": "小林の詳細観察と上野の体系的思考・情報共有が、QA-開発連携を円滑に。",
       "ai_generated": true
     },
     {
       "source": "person:小林翔",
       "target": "person:上遼太郎",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "B→A",
+      "reason": "上野の体系的理解と計画性は、小林のテスト設計・情報整理に洞察をもたらす。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:上遼太郎",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "高い協調性と情報共有意識、品質重視で、QA-開発連携の模範となる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:小松田真伍",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "小松田の先端技術と小林の品質管理経験が、革新的プロダクトの品質を保証。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:小松田真伍",
+      "type": "MENTORING_FIT",
+      "weight": 10,
+      "direction": "B→A",
+      "reason": "小松田のAI駆動開発・戦略的思考は、小林のQAスキルを未来志向に導く。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:小松田真伍",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "互いの高い協調性、探求心、成長意欲が結びつき、イノベーションを加速させる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:小島遼祐",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "小林の詳細観察力と小島の粘り強い探求心は、相互に高品質なアウトプットを促進。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:小島遼祐",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "mutual",
+      "reason": "互いに情報共有や学びを促し合い、相乗的に成長。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:小島遼祐",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "高い協調性、コミュニケーション能力、学習意欲で、非常に生産的で良好なチーム。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:藤井芙美子",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "小林の情報発信力と藤井の整理・正確性で、質の高い情報共有が可能。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:藤井芙美子",
       "type": "MENTORING_FIT",
       "weight": 6,
-      "direction": "B→A",
-      "reason": "上の体系的思考、計画性、深い理解は小林のQAスキルに深みを与える。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:上遼太郎",
-      "type": "TEAM_SYNERGY",
-      "weight": 8,
-      "reason": "高い協調性、情報共有意欲、計画性で、堅実かつ円滑なチーム運営が可能。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:小松田真伍",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "QAと最先端技術開発の専門性、両者の協調性・情報共有意欲で補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:小松田真伍",
-      "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "B→A",
-      "reason": "小松田の最先端技術知見と貢献意欲が、小林の成長・探求心を強く刺激。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:小松田真伍",
-      "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "共通の価値観、非常に高い性格マッチ、専門性で革新的かつ生産性極大。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:小島遼祐",
-      "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "相互に協調性を持ち、挑戦意欲を刺激し合える。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:小島遼祐",
-      "type": "MENTORING_FIT",
-      "weight": 8,
       "direction": "mutual",
-      "reason": "双方の積極的学習・情報共有で相互成長を促す。",
+      "reason": "互いに異なる視点や強みを学び、組織貢献の幅を広げる。",
       "ai_generated": true
     },
     {
       "source": "person:小林翔",
-      "target": "person:小島遼祐",
+      "target": "person:藤井芙美子",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "高い協調性と学習意欲で、質高く生産的なチームが期待できる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:藤井芙美子",
-      "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "広い視野と実務力、情報発信と正確性が相互に補強される。",
+      "reason": "社交的で協調性が高く、かつ正確性と効率性を重視し、円滑に業務を推進。",
       "ai_generated": true
     },
     {
       "source": "person:小林翔",
-      "target": "person:藤井芙美子",
+      "target": "person:菅野聖也",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "小林のQA視点と菅野の技術・品質管理経験が、高品質な開発に直結。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:小林翔",
+      "target": "person:菅野聖也",
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "mutual",
-      "reason": "互いの専門性と経験を共有し、実務面や視野で学び合う。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:藤井芙美子",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "高い協調性と異なる専門性が、効率と創造性を両立させる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:菅野聖也",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "互いの技術的・情報的強みが融合し、深い議論と実践を促す。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:小林翔",
-      "target": "person:菅野聖也",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "専門領域と広い視野で相互に深い学びと成長を促進する。",
+      "reason": "互いの専門知識（QA、技術）を共有し、多角的な視点を養う。",
       "ai_generated": true
     },
     {
@@ -9932,7 +10120,7 @@
       "target": "person:菅野聖也",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "品質意識と技術探求、協調性が融合し、高い成果を生み出す。",
+      "reason": "高い協調性と学習意欲で、技術的にも人間関係的にも充実したチーム。",
       "ai_generated": true
     },
     {
@@ -9940,24 +10128,24 @@
       "target": "person:佐藤傑",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "情報収集と実行力、観察力とアウトプット志向が互いを高め合う。",
+      "reason": "小林の丁寧な情報共有と佐藤の実行力で、計画から実現までを高品質に推進。",
       "ai_generated": true
     },
     {
       "source": "person:小林翔",
       "target": "person:佐藤傑",
       "type": "MENTORING_FIT",
-      "weight": 8,
+      "weight": 7,
       "direction": "mutual",
-      "reason": "実行力と情報収集力、実践と探求で相互に刺激を与え成長する。",
+      "reason": "佐藤はビジネス視点と実行力を、小林は詳細な観察力と協調性を相互に提供。",
       "ai_generated": true
     },
     {
       "source": "person:小林翔",
       "target": "person:佐藤傑",
       "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "高い相性と異なる強みが融合し、革新的で質の高い成果を生む。",
+      "weight": 9,
+      "reason": "実行力と品質意識、高い協調性で、迅速かつ質の高い成果を創出可能。",
       "ai_generated": true
     },
     {
@@ -9965,7 +10153,7 @@
       "target": "person:鈴木悠斗",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "共通の人間性と、個人の成長と組織目標の達成が相互に高め合う。",
+      "reason": "小林が場を活性化し、鈴木がチームの士気を高め、相乗的に良い職場環境を構築。",
       "ai_generated": true
     },
     {
@@ -9974,7 +10162,7 @@
       "type": "MENTORING_FIT",
       "weight": 8,
       "direction": "mutual",
-      "reason": "組織視点と現場視点、経験と情報を互いに提供し合い成長を促す。",
+      "reason": "鈴木はリーダーシップと組織運営を、小林は個別の情報伝達と詳細観察を相互に学び合う。",
       "ai_generated": true
     },
     {
@@ -9982,7 +10170,7 @@
       "target": "person:鈴木悠斗",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "最高の協調性と相互理解で、高いパフォーマンスと幸福度を両立する。",
+      "reason": "非常に高い協調性とコミュニケーション能力で、心理的安全性の高い最高のチームワークを発揮。",
       "ai_generated": true
     },
     {
@@ -9990,7 +10178,7 @@
       "target": "person:戸塚直道",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "戸塚の戦略を小林のQA/情報力で具体化し、現場からのFB提供。",
+      "reason": "戸塚の戦略と小林の現場詳細実行・品質保証が補完。",
       "ai_generated": true
     },
     {
@@ -9998,8 +10186,8 @@
       "target": "person:戸塚直道",
       "type": "MENTORING_FIT",
       "weight": 9,
-      "direction": "戸塚→小林",
-      "reason": "戸塚の経営視点、戦略的思考は小林の成長意欲と合致。",
+      "direction": "B→A",
+      "reason": "戸塚の経営戦略と組織開発の知見が小林の成長を促す。",
       "ai_generated": true
     },
     {
@@ -10007,7 +10195,7 @@
       "target": "person:戸塚直道",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "戸塚の戦略と小林の現場実行力・情報共有力が相互に強化。",
+      "reason": "戸塚のビジョン実行を小林が品質とコミュニケーションで推進。",
       "ai_generated": true
     },
     {
@@ -10015,24 +10203,24 @@
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
       "weight": 7,
-      "reason": "QAと開発の専門性補完。高い協調性/コミュニケーションで相互支援。",
+      "reason": "専門領域（QA/Engineer）の違いで、品質と実装を相互補完。",
       "ai_generated": true
     },
     {
       "source": "person:小林翔",
       "target": "person:榎本詩織",
       "type": "MENTORING_FIT",
-      "weight": 7,
+      "weight": 8,
       "direction": "mutual",
-      "reason": "専門領域が異なり、互いの知見を共有し学び合う関係。",
+      "reason": "互いの専門性と経験を共有し、共に成長できる関係性。",
       "ai_generated": true
     },
     {
       "source": "person:小林翔",
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
-      "weight": 8,
-      "reason": "高いコミュニケーションと共通価値観で、協力体制が強く構築。",
+      "weight": 9,
+      "reason": "高い協調性とコミュニケーションで活発なチームワークを構築。",
       "ai_generated": true
     },
     {
@@ -10040,132 +10228,132 @@
       "target": "person:田浦裕樹",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "田浦の広範な開発・AI知見と櫻井のデータ分析スキルが強化。",
+      "reason": "田浦の広範な知見と櫻井のデータ分析スキルが相互補完。",
       "ai_generated": true
     },
     {
       "source": "person:櫻井志保",
       "target": "person:田浦裕樹",
-      "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "田浦→櫻井",
-      "reason": "田浦の知見と育成意欲が櫻井の高い学習意欲と専門性追求に適合。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:田浦裕樹",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "高い協調性と学習意欲。田浦の推進力と櫻井の分析力が相乗効果。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:開米 敦則",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "櫻井のデータ分析は開米のQA改善・AI活用を補強。専門知識の相互補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:開米 敦則",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "開米→櫻井",
-      "reason": "開米のQA・AI専門知識と経験は、櫻井の学習意欲に良い刺激。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:開米 敦則",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "高い協調性、QAとEngineerの融合で品質の高い開発に貢献。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:貴志雪乃",
-      "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "貴志の組織・人に関する知見が櫻井の成長をサポート。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:貴志雪乃",
-      "type": "MENTORING_FIT",
-      "weight": 7,
-      "direction": "貴志→櫻井",
-      "reason": "貴志のHR知見は櫻井のキャリア成長や組織貢献に有用な示唆。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:貴志雪乃",
-      "type": "TEAM_SYNERGY",
-      "weight": 7,
-      "reason": "共通の貢献意欲で、組織全体の生産性・ウェルビーイング向上に寄与。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:上遼太郎",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "上の計画性と体系的思考が櫻井の実行を補強する。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:上遼太郎",
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "B→A",
-      "reason": "上は計画性・体系的思考に優れ、櫻井の成長を促せる。",
+      "reason": "田浦の広範な経験と知見が、櫻井の学習意欲に応え成長を促進。",
       "ai_generated": true
     },
     {
       "source": "person:櫻井志保",
-      "target": "person:上遼太郎",
+      "target": "person:田浦裕樹",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "上の計画性が櫻井の強みを活かし、協調性高く目標達成へ。",
+      "reason": "田浦の戦略性と櫻井のデータ分析で、迅速で高品質な開発を実現。",
       "ai_generated": true
     },
     {
       "source": "person:櫻井志保",
-      "target": "person:小松田真伍",
+      "target": "person:開米敦則",
       "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "小松田の実行力と計画性が櫻井の専門性を推進する。",
+      "weight": 8,
+      "reason": "櫻井のデータ分析が開米の品質改善に、開米のQA知見が櫻井の開発に貢献。",
       "ai_generated": true
     },
     {
       "source": "person:櫻井志保",
-      "target": "person:小松田真伍",
+      "target": "person:開米敦則",
       "type": "MENTORING_FIT",
-      "weight": 10,
+      "weight": 8,
       "direction": "B→A",
-      "reason": "小松田はAI開発の最先端知識と高い実行力で櫻井を導ける。",
+      "reason": "開米のQA・AI専門知識が櫻井の開発スキル向上と品質意識育成に貢献。",
       "ai_generated": true
     },
     {
       "source": "person:櫻井志保",
-      "target": "person:小松田真伍",
+      "target": "person:開米敦則",
       "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "小松田の先見性と実行力で櫻井のスキルを最大化し、革新を生む。",
+      "weight": 9,
+      "reason": "データ分析とQA専門知識で品質向上、AI活用探求でシナジー。",
       "ai_generated": true
     },
     {
       "source": "person:櫻井志保",
-      "target": "person:小島遼祐",
+      "target": "person:貴志雪乃",
       "type": "COMPLEMENTS",
       "weight": 6,
-      "reason": "小島の計画性・責任感が櫻井の実行を支え、協調性も高い。",
+      "reason": "専門領域は異なるが、貴志の組織知見と櫻井のデータ分析が間接的に補完。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:貴志雪乃",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "B→A",
+      "reason": "貴志の組織・キャリア視点が、櫻井の専門性深化に広がりをもたらす。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:貴志雪乃",
+      "type": "TEAM_SYNERGY",
+      "weight": 7,
+      "reason": "共に組織貢献志向で、HRとデータ分析で協調性を発揮できる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:上遼太郎",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "上の計画性、体系的思考、ドキュメント能力が櫻井の貢献意欲を補強。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:上遼太郎",
+      "type": "MENTORING_FIT",
+      "weight": 9,
+      "direction": "B→A",
+      "reason": "上の計画性・体系的思考は、学習意欲の高い櫻井の良い指導者となる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:上遼太郎",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "上の計画性と櫻井の分析力で、データに基づいた堅牢な成果を生み出す。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:小松田真伍",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "小松田の戦略的思考が櫻井のデータ分析をビジネス価値へ昇華させる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:小松田真伍",
+      "type": "MENTORING_FIT",
+      "weight": 10,
+      "direction": "B→A",
+      "reason": "小松田の広範な知識とビジネス視点は、櫻井の成長に計り知れない価値がある。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:小松田真伍",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "櫻井のデータ分析と小松田のAI戦略的思考で、革新的なソリューションを創出。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:小島遼祐",
+      "type": "COMPLEMENTS",
+      "weight": 7,
+      "reason": "共通の成長意欲と協調性で、専門性の深化と問題解決を共に推進できる。",
       "ai_generated": true
     },
     {
@@ -10173,166 +10361,166 @@
       "target": "person:小島遼祐",
       "type": "MENTORING_FIT",
       "weight": 7,
-      "direction": "B→A",
-      "reason": "小島の責任感と計画性が櫻井の業務遂行に良い影響を与える。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:小島遼祐",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "互いに学習意欲が高く、協調的で、円滑な連携で成果を出す。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:藤井芙美子",
-      "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "藤井の実務遂行力が櫻井のデータ分析を実務に繋げる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:藤井芙美子",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "B→A",
-      "reason": "藤井の実務経験が櫻井のビジネス貢献視点を養う。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:藤井芙美子",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "櫻井のデータが藤井の業務改善を加速させ、組織貢献へ。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:菅野聖也",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "櫻井のデータ分析と菅野のAI活用・品質管理が相互に強化。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:菅野聖也",
-      "type": "MENTORING_FIT",
-      "weight": 7,
-      "direction": "B→A",
-      "reason": "菅野の多様な技術スキルと品質管理経験が櫻井の成長を助ける。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:菅野聖也",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "共通の学習意欲と技術的好奇心で、データ駆動AI開発を推進。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:佐藤傑",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "櫻井の分析と佐藤の実践力が事業成果に直結。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:佐藤傑",
-      "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "B→A",
-      "reason": "佐藤の実践力とアウトプット志向が櫻井の成長を導く。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:佐藤傑",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "データ分析と実行力が高次元で融合し、迅速な成果。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:鈴木悠斗",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "櫻井の専門性と鈴木の組織マネジメントが相互補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:鈴木悠斗",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "B→A",
-      "reason": "鈴木の経営視点が櫻井の専門性と組織貢献を育む。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:鈴木悠斗",
-      "type": "TEAM_SYNERGY",
-      "weight": 8,
-      "reason": "技術と人間的リーダーシップが融合し、強固なチーム。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:戸塚直道",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "櫻井の分析が戸塚の戦略を具体化し、実行を支援。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:戸塚直道",
-      "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "B→A",
-      "reason": "戸塚の経営手腕が櫻井の専門性をビジネス価値へ昇華。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:戸塚直道",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "戦略とデータ分析が結合し、組織と事業を強力に推進。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:榎本詩織",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "櫻井の専門性を榎本の多様な経験と交流が補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:櫻井志保",
-      "target": "person:榎本詩織",
-      "type": "MENTORING_FIT",
-      "weight": 8,
       "direction": "mutual",
-      "reason": "互いの強み（データ分析、多様な経験）を教え合える。",
+      "reason": "共に高い学習意欲を持ち、相互に刺激し合い成長するピアラーニングが可能。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:小島遼祐",
+      "type": "TEAM_SYNERGY",
+      "weight": 8,
+      "reason": "高い協調性と学習意欲で、互いに刺激し合いながらチーム目標を達成できる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:藤井芙美子",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "藤井の実務遂行力と正確性が、櫻井のデータ分析を具体的な成果へ繋げる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:藤井芙美子",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "B→A",
+      "reason": "藤井は実務でのデータ活用や社内外の関係構築で櫻井を指導できる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:藤井芙美子",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "櫻井の分析と藤井の実行力・関係構築力で、データ駆動のビジネス成果を最大化。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:菅野聖也",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "櫻井のデータ分析と菅野のAI活用スキル・品質管理視点が相互に強化。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:菅野聖也",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "mutual",
+      "reason": "両者共に学習意欲高く、AI活用とデータ分析で相互に技術的知見を深められる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:菅野聖也",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "データ分析とAI活用スキル、品質視点の融合で、高品質なAIソリューション開発。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:佐藤傑",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "櫻井の分析力と佐藤の実行力は相互補完的。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:佐藤傑",
+      "type": "MENTORING_FIT",
+      "weight": 9,
+      "direction": "B→A",
+      "reason": "佐藤は櫻井に実践・アウトプット・グローバル視点を提供。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:佐藤傑",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "データ駆動型AIプロダクト開発で最強のシナジー。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:鈴木悠斗",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "櫻井の専門性を鈴木のチームマネジメントが後押し。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:鈴木悠斗",
+      "type": "MENTORING_FIT",
+      "weight": 8,
+      "direction": "B→A",
+      "reason": "鈴木は櫻井に組織貢献・チームワーク・ソフトスキルを提供。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:鈴木悠斗",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "専門性とマネジメントの組み合わせで、成果と士気を両立。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:戸塚直道",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "櫻井の分析が戸塚の戦略と実行をデータで補強する。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:戸塚直道",
+      "type": "MENTORING_FIT",
+      "weight": 9,
+      "direction": "B→A",
+      "reason": "戸塚は櫻井に戦略・市場・組織変革の視点を提供。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:戸塚直道",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "リーダーシップとデータ分析でAI駆動型組織を強力推進。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:榎本詩織",
+      "type": "COMPLEMENTS",
+      "weight": 7,
+      "reason": "専門性と多様な経験を相互のコミュニケーションで補完。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:櫻井志保",
+      "target": "person:榎本詩織",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "mutual",
+      "reason": "双方で専門性と多様な経験を共有し学び合える。",
       "ai_generated": true
     },
     {
       "source": "person:櫻井志保",
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "専門性と多様な経験が融合し、学習と成果を加速。",
+      "weight": 8,
+      "reason": "専門性と多様な経験、コミュニケーションで円滑なチーム。",
       "ai_generated": true
     },
     {
@@ -10340,16 +10528,16 @@
       "target": "person:開米敦則",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "開発とQAのプロが上流から連携し、品質と効率を最大化。",
+      "reason": "開発とQAが一体となり、高品質かつ効率的な開発を実現。",
       "ai_generated": true
     },
     {
       "source": "person:田浦裕樹",
       "target": "person:開米敦則",
       "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "A→B",
-      "reason": "田浦の開発全体知見が開米のQA領域を広げる。",
+      "weight": 9,
+      "direction": "mutual",
+      "reason": "開発と品質、AI活用を相互に高め合うメンタリング。",
       "ai_generated": true
     },
     {
@@ -10357,7 +10545,7 @@
       "target": "person:開米敦則",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "高度な開発とQAが連携し、最高品質のプロダクトを創造。",
+      "reason": "AI駆動開発の品質と効率を最高レベルで両立。",
       "ai_generated": true
     },
     {
@@ -10365,16 +10553,16 @@
       "target": "person:貴志雪乃",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "専門分野は異なるが、組織貢献の視点でお互いを高め合う。",
+      "reason": "技術・戦略とHR・ウェルビーイングの専門性で組織課題を多角的に解決。",
       "ai_generated": true
     },
     {
       "source": "person:田浦裕樹",
       "target": "person:貴志雪乃",
       "type": "MENTORING_FIT",
-      "weight": 6,
+      "weight": 7,
       "direction": "mutual",
-      "reason": "異なる専門性から、組織論やMVV浸透で相互に学び合う。",
+      "reason": "田浦はビジネス戦略、貴志はウェルビーイング視点を提供。",
       "ai_generated": true
     },
     {
@@ -10382,15 +10570,15 @@
       "target": "person:貴志雪乃",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "高い組織貢献意欲と協調性で、部署横断プロジェクトに強み。",
+      "reason": "高い協調性と組織貢献意欲が相乗効果を生み、持続的成長へ。",
       "ai_generated": true
     },
     {
       "source": "person:田浦裕樹",
       "target": "person:上遼太郎",
       "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "田浦の全体推進力と、上の堅実な計画・実行力が補完し合う。",
+      "weight": 8,
+      "reason": "田浦の戦略・推進力と上の堅実な計画・ドキュメンテーションが相互補完。",
       "ai_generated": true
     },
     {
@@ -10398,8 +10586,8 @@
       "target": "person:上遼太郎",
       "type": "MENTORING_FIT",
       "weight": 8,
-      "direction": "田浦→上",
-      "reason": "田浦の広範な開発知識が上の堅実な実行力に深みを与える。",
+      "direction": "mutual",
+      "reason": "田浦の広範な知見が上を導き、上も堅実さで貢献。",
       "ai_generated": true
     },
     {
@@ -10407,7 +10595,7 @@
       "target": "person:上遼太郎",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "高い責任感と計画性、情報共有で堅牢かつ効率的な開発が可能。",
+      "reason": "共通の責任感と透明性、異なる強みが合わさり高品質な開発へ。",
       "ai_generated": true
     },
     {
@@ -10415,16 +10603,16 @@
       "target": "person:小松田真伍",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "田浦の全体最適視点と、小松田の最先端技術探求が融合する。",
+      "reason": "AI・戦略志向を共有しつつ、田浦の全体統括と小松田の技術深掘りが補完。",
       "ai_generated": true
     },
     {
       "source": "person:田浦裕樹",
       "target": "person:小松田真伍",
       "type": "MENTORING_FIT",
-      "weight": 7,
+      "weight": 9,
       "direction": "mutual",
-      "reason": "高度な専門性と探求心で、AI開発や組織変革で相互に刺激。",
+      "reason": "互いにAI・ビジネスの深い知見を持ち、高レベルで学び合える。",
       "ai_generated": true
     },
     {
@@ -10432,7 +10620,7 @@
       "target": "person:小松田真伍",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "高い技術力と貢献意欲が合致し、AI開発で圧倒的成果を生む。",
+      "reason": "共通の高い志向と強みでAI駆動開発を強力に推進可能。",
       "ai_generated": true
     },
     {
@@ -10440,7 +10628,7 @@
       "target": "person:小島遼祐",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "田浦の推進力が小島の挑戦を後押しし、小島の関係構築力がチームを潤滑にする。",
+      "reason": "田浦の経験と小島の学習意欲が相互に作用し、成長を加速。",
       "ai_generated": true
     },
     {
@@ -10449,7 +10637,7 @@
       "type": "MENTORING_FIT",
       "weight": 10,
       "direction": "田浦→小島",
-      "reason": "田浦の広範な経験と育成意欲が、小島の高い学習意欲と成長を最大化する。",
+      "reason": "田浦の豊富な経験・知見が小島の学習意欲と完全に合致。",
       "ai_generated": true
     },
     {
@@ -10457,7 +10645,7 @@
       "target": "person:小島遼祐",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "強い協調性と学習意欲で、知識共有と成長を加速し高い生産性を実現。",
+      "reason": "共通の高い協調性・貢献意欲と、メンター/メンティー関係がチームを強化。",
       "ai_generated": true
     },
     {
@@ -10465,16 +10653,16 @@
       "target": "person:藤井芙美子",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "専門性は異なるが、顧客貢献と業務効率化の視点で互いを高め合う。",
+      "reason": "顧客関係構築と組織効率化において、異なる専門性が互いを補完。",
       "ai_generated": true
     },
     {
       "source": "person:田浦裕樹",
       "target": "person:藤井芙美子",
       "type": "MENTORING_FIT",
-      "weight": 6,
+      "weight": 7,
       "direction": "mutual",
-      "reason": "業務効率化や顧客視点で相互に学び合える関係。",
+      "reason": "互いの専門分野外の知識を交換し、多角的な視点を習得。",
       "ai_generated": true
     },
     {
@@ -10482,15 +10670,15 @@
       "target": "person:藤井芙美子",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "顧客志向と業務効率化の共通認識で、ビジネスとITの橋渡し役として強み。",
+      "reason": "共通の価値観と異なる専門性で顧客関係と組織効率を最大化。",
       "ai_generated": true
     },
     {
       "source": "person:田浦裕樹",
       "target": "person:菅野聖也",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "田浦の広範な知見と菅野の探求心が学習と実践で補完。",
+      "weight": 9,
+      "reason": "田浦の戦略・標準化と菅野の技術実践・学習意欲が相互補完。",
       "ai_generated": true
     },
     {
@@ -10499,7 +10687,7 @@
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "田浦→菅野",
-      "reason": "田浦の深い開発経験・知識共有意欲が菅野の成長を促進。",
+      "reason": "田浦の経験と知見が、菅野の学習意欲と成長を強力に促進。",
       "ai_generated": true
     },
     {
@@ -10507,15 +10695,15 @@
       "target": "person:菅野聖也",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "互いの強みと学習意欲がAI開発を効率化し高水準化。",
+      "reason": "共通のAIとチームワーク重視で、高い技術と学習シナジー。",
       "ai_generated": true
     },
     {
       "source": "person:田浦裕樹",
       "target": "person:佐藤傑",
       "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "佐藤の実行力と田浦の堅実なプロセス構築がAI事業加速。",
+      "weight": 10,
+      "reason": "田浦の緻密な開発戦略と佐藤の事業推進力が完璧に補完。",
       "ai_generated": true
     },
     {
@@ -10524,57 +10712,57 @@
       "type": "MENTORING_FIT",
       "weight": 8,
       "direction": "mutual",
-      "reason": "異なる視点のベテラン同士が相互に事業と技術知見を深化。",
+      "reason": "互いの専門領域で知識を共有し、実践的な知見を学び合う。",
       "ai_generated": true
     },
     {
       "source": "person:田浦裕樹",
       "target": "person:佐藤傑",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "AI技術と事業推進の知見が融合し、強力な推進力で事業牽引。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "person:鈴木悠斗",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "技術的貢献と組織文化形成の強みが融合し、チーム健全化。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "person:鈴木悠斗",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "経営と技術、異なるリーダーシップが相互に学び成長を促進。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:田浦裕樹",
-      "target": "person:鈴木悠斗",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "技術力と人間力が融合し、高生産性かつ高エンゲージメントなチームへ。",
+      "reason": "戦略的思考と起業家精神・AI実践力が融合し、事業を力強く推進。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:鈴木悠斗",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "田浦の技術・事業戦略と鈴木の組織・人への配慮が相互補完。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:鈴木悠斗",
+      "type": "MENTORING_FIT",
+      "weight": 8,
+      "direction": "mutual",
+      "reason": "技術・開発戦略と組織・人材育成の異なる専門性を互いに学び合う。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:田浦裕樹",
+      "target": "person:鈴木悠斗",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "技術戦略と組織エンゲージメントの融合で、生産性と士気向上。",
       "ai_generated": true
     },
     {
       "source": "person:田浦裕樹",
       "target": "person:戸塚直道",
       "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "戸塚の事業戦略と田浦の技術・プロセス知見が相互補完。",
+      "weight": 10,
+      "reason": "戸塚の壮大なビジョンと田浦の現実的な実行戦略が相互補完。",
       "ai_generated": true
     },
     {
       "source": "person:田浦裕樹",
       "target": "person:戸塚直道",
       "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "経営戦略と技術戦略の専門家が相互に知見を深め合う。",
+      "weight": 9,
+      "direction": "戸塚→田浦",
+      "reason": "戸塚は田浦の戦略的視点を経営視点からさらに引き上げられる。",
       "ai_generated": true
     },
     {
@@ -10582,7 +10770,7 @@
       "target": "person:戸塚直道",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "経営ビジョンと技術戦略が融合し、強力な推進力で組織を成長。",
+      "reason": "ビジョンと実行力が一体となり、組織変革と成長を力強く推進。",
       "ai_generated": true
     },
     {
@@ -10590,7 +10778,7 @@
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "田浦の専門性と榎本の多様な経験・学習意欲が開発を促進。",
+      "reason": "田浦の体系的知識と榎本の多様な経験・学習意欲が補完。",
       "ai_generated": true
     },
     {
@@ -10599,7 +10787,7 @@
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "田浦→榎本",
-      "reason": "田浦の豊富な経験と育成意欲が榎本の技術成長を促進する。",
+      "reason": "田浦の豊富な専門知識と榎本の高い学習意欲が合致。",
       "ai_generated": true
     },
     {
@@ -10607,7 +10795,7 @@
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "互いの協調性と知見が融合し、技術力とチームワークを高める。",
+      "reason": "共通のチームワーク・学習意欲と、異なる専門性の融合で高シナジー。",
       "ai_generated": true
     },
     {
@@ -10615,7 +10803,7 @@
       "target": "person:貴志雪乃",
       "type": "COMPLEMENTS",
       "weight": 7,
-      "reason": "技術と人の側面で組織貢献目標を相互に補完。",
+      "reason": "専門性と視点が異なるため、組織課題解決に多角的に貢献。",
       "ai_generated": true
     },
     {
@@ -10624,7 +10812,7 @@
       "type": "MENTORING_FIT",
       "weight": 6,
       "direction": "mutual",
-      "reason": "異なる専門分野で相互に知見を共有し学び合える。",
+      "reason": "互いの専門分野と視点を共有し、学び合える関係性。",
       "ai_generated": true
     },
     {
@@ -10632,15 +10820,15 @@
       "target": "person:貴志雪乃",
       "type": "TEAM_SYNERGY",
       "weight": 8,
-      "reason": "QAの技術力とHRの組織浸透力で全社貢献。",
+      "reason": "双方の専門性でHRテックや従業員エンゲージメントを推進可能。",
       "ai_generated": true
     },
     {
       "source": "person:開米 敦則",
       "target": "person:上遼太郎",
       "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "QAと開発の視点から品質向上と効率化を相互に補完。",
+      "weight": 8,
+      "reason": "開発とQAの専門家が、品質と透明性を追求し協調。",
       "ai_generated": true
     },
     {
@@ -10649,7 +10837,7 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "mutual",
-      "reason": "QAと開発の専門知見を相互に提供し合える。",
+      "reason": "互いの専門領域で深い知識と経験を共有し高め合える。",
       "ai_generated": true
     },
     {
@@ -10657,7 +10845,7 @@
       "target": "person:上遼太郎",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "QAと開発が密連携し、高い品質と効率を実現。",
+      "reason": "計画性と品質追求で、高効率・高品質な開発プロセスを築く。",
       "ai_generated": true
     },
     {
@@ -10665,16 +10853,16 @@
       "target": "person:小松田真伍",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "AI活用・品質改善の目標を互いの専門性で補強。",
+      "reason": "AI駆動開発とQAの専門家が、品質と戦略的推進で協働。",
       "ai_generated": true
     },
     {
       "source": "person:開米 敦則",
       "target": "person:小松田真伍",
       "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "mutual",
-      "reason": "AI活用、品質改善に関して相互に高度な指導が可能。",
+      "weight": 7,
+      "direction": "B→A",
+      "reason": "小松田氏の戦略的視点とリーダーシップが開米氏の専門性向上に寄与。",
       "ai_generated": true
     },
     {
@@ -10682,7 +10870,7 @@
       "target": "person:小松田真伍",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "AI活用、品質、効率化への共通目標で最高の相乗効果。",
+      "reason": "最先端AI開発とQAの究極の組み合わせ。品質とイノベーションを両立。",
       "ai_generated": true
     },
     {
@@ -10690,7 +10878,7 @@
       "target": "person:小島遼祐",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "小島の挑戦意欲をQAの専門性と計画性がサポート。",
+      "reason": "小島氏の協調性と学習意欲が開米氏のQA戦略を深く理解し促進。",
       "ai_generated": true
     },
     {
@@ -10699,7 +10887,7 @@
       "type": "MENTORING_FIT",
       "weight": 8,
       "direction": "A→B",
-      "reason": "開米の経験と専門知識が小島の学習意欲に応える。",
+      "reason": "開米氏の専門知識と経験が、小島氏の学習意欲に応え成長を促進。",
       "ai_generated": true
     },
     {
@@ -10707,7 +10895,7 @@
       "target": "person:小島遼祐",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "共通の貢献意欲と協調性で、アイデアを具体化。",
+      "reason": "高い協調性と学習意欲で、新たな技術やプロセス改善を強力に推進。",
       "ai_generated": true
     },
     {
@@ -10715,7 +10903,7 @@
       "target": "person:藤井芙美子",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "技術と実務、異なる側面から「効率性」を追求し補完。",
+      "reason": "QAの品質改善とSalesの顧客視点・情報整理で事業貢献。",
       "ai_generated": true
     },
     {
@@ -10724,7 +10912,7 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "mutual",
-      "reason": "技術的効率化と組織的浸透の両面で学び合える。",
+      "reason": "互いの専門領域である品質と顧客視点から学び合い理解を深める。",
       "ai_generated": true
     },
     {
@@ -10732,7 +10920,7 @@
       "target": "person:藤井芙美子",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "技術と実務の視点で共通の効率化目標を推進。",
+      "reason": "品質保証と顧客満足を両立し、透明性の高い事業推進が可能。",
       "ai_generated": true
     },
     {
@@ -10740,7 +10928,7 @@
       "target": "person:菅野聖也",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "開米のQA戦略と菅野の実装スキルが互いを強化。",
+      "reason": "QAと開発の専門性を相互補完し、AI活用で品質向上に貢献できる。",
       "ai_generated": true
     },
     {
@@ -10748,8 +10936,8 @@
       "target": "person:菅野聖也",
       "type": "MENTORING_FIT",
       "weight": 7,
-      "direction": "mutual",
-      "reason": "開米はQA戦略を、菅野は実装と技術的工夫を指導。",
+      "direction": "開米 敦則→菅野聖也",
+      "reason": "開米のQA経験とAI応用力を、菅野の学習意欲に提供できる。",
       "ai_generated": true
     },
     {
@@ -10757,7 +10945,7 @@
       "target": "person:菅野聖也",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "AIへの共通意欲と補完スキルで高品質なプロダクト創出。",
+      "reason": "共通の探求心とAI活用意欲で、開発・QAプロセスの質を向上。",
       "ai_generated": true
     },
     {
@@ -10765,7 +10953,7 @@
       "target": "person:佐藤傑",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "佐藤の推進力と開米の品質・プロセス改善能力が補完。",
+      "reason": "QAの質とAI活用による実践的なアウトプットを、互いの強みで高め合う。",
       "ai_generated": true
     },
     {
@@ -10774,7 +10962,7 @@
       "type": "MENTORING_FIT",
       "weight": 8,
       "direction": "mutual",
-      "reason": "佐藤はビジネス、開米は品質保証の専門性を互いに提供。",
+      "reason": "互いの専門領域とAI活用視点が異なり、相互に学び合える。",
       "ai_generated": true
     },
     {
@@ -10782,7 +10970,7 @@
       "target": "person:佐藤傑",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "AI活用目標に対し、実行力と品質担保で大きな成果。",
+      "reason": "品質と実行力を兼ね備え、AI活用で革新的なアウトプットを生み出す。",
       "ai_generated": true
     },
     {
@@ -10790,266 +10978,266 @@
       "target": "person:鈴木悠斗",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "開米の専門性と鈴木の組織力で、技術とチームから目標達成。",
+      "reason": "開米の専門性と鈴木のマネジメント力で、技術と組織の両面を強化。",
       "ai_generated": true
     },
     {
       "source": "person:開米 敦則",
+      "target": "person:鈴木悠斗",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "mutual",
+      "reason": "専門分野が異なるため、互いの視点から組織への貢献方法を学び合える。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:鈴木悠斗",
+      "type": "TEAM_SYNERGY",
+      "weight": 8,
+      "reason": "専門性とマネジメント力で組織目標を達成し、ポジティブな文化を醸成。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:戸塚直道",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "戸塚の戦略と変革推進力に、開米のQA・AI活用の専門性で品質を保証。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:戸塚直道",
+      "type": "MENTORING_FIT",
+      "weight": 8,
+      "direction": "mutual",
+      "reason": "経営戦略と専門技術の視点から、互いに深い洞察を与え合える。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:戸塚直道",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "経営層の変革ビジョンと専門家の実践力が融合し、AI活用を強力に推進。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:榎本詩織",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "QAと開発の専門性を補完し、開米の計画性を榎本のコミュニケーションが円滑化。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:榎本詩織",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "開米 敦則→榎本詩織",
+      "reason": "開米のQA経験とAI応用力を、榎本の旺盛な学習意欲に提供できる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:開米 敦則",
+      "target": "person:榎本詩織",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "共通の探求心とAI活用意欲で、開発・QAプロセスの質と革新性を高める。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:上遼太郎",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "人材開発視点と体系的思考で、組織課題解決に貢献。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:上遼太郎",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "mutual",
+      "reason": "異なる専門性から、プロセス最適化と人への理解を深める。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:上遼太郎",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "共通の貢献意欲と協調性で、人と技術視点のチームを形成。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:小松田真伍",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "人材の長期活躍とAI技術戦略が融合し、組織を革新。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:小松田真伍",
+      "type": "MENTORING_FIT",
+      "weight": 8,
+      "direction": "mutual",
+      "reason": "組織と技術のプロとして、互いの知見を共有し高め合う。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:小松田真伍",
+      "type": "TEAM_SYNERGY",
+      "weight": 10,
+      "reason": "高い貢献意欲と実行力で、組織に絶大なインパクトを与える。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:小島遼祐",
+      "type": "COMPLEMENTS",
+      "weight": 7,
+      "reason": "共通の価値観と高い協調性で、ウェルビーイング施策を推進。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:小島遼祐",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "mutual",
+      "reason": "共に成長を志向し、ウェルビーイングと学習知見を相互提供。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:小島遼祐",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "類似性格と高い協調性で、円滑かつ生産的な協力関係を築く。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:藤井芙美子",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "人事視点と実務改善力で、施策の実現度を確実に高める。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:藤井芙美子",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "mutual",
+      "reason": "組織開発と実務改善、人間関係構築の知見を相互に共有。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:藤井芙美子",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "高い誠実性で企画から実行まで円滑かつ確実に推進。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:菅野聖也",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "HRの人の視点とAI技術活用で、ウェルビーイングを促進。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:菅野聖也",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "mutual",
+      "reason": "双方の学習意欲が高く、ウェルビーイングと技術を相互に学ぶ。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:菅野聖也",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "成長志向と協調性で、ウェルビーイングと技術の融合を推進。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:佐藤傑",
+      "type": "COMPLEMENTS",
+      "weight": 9,
+      "reason": "雪乃は人の側面、傑は技術と実行。お互いの専門性を補完し、ウェルビーイングと効率の両立を促進できる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:佐藤傑",
+      "type": "MENTORING_FIT",
+      "weight": 7,
+      "direction": "mutual",
+      "reason": "雪乃は組織開発を、傑は最新技術の実践知を相互提供できる。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:佐藤傑",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "ウェルビーイングとAI実践の融合で、革新的なHRソリューションや働き方を創出可能。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
+      "target": "person:鈴木悠斗",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "雪乃の制度設計と悠斗の現場実践力は、従業員支援において相補的。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:貴志雪乃",
       "target": "person:鈴木悠斗",
       "type": "MENTORING_FIT",
       "weight": 6,
       "direction": "mutual",
-      "reason": "鈴木は組織マネジメント、開米は専門技術で学び合える。",
+      "reason": "互いの専門性を交換。雪乃はHR知見、悠斗はリーダーシップの実践知を提供。",
       "ai_generated": true
     },
     {
-      "source": "person:開米 敦則",
+      "source": "person:貴志雪乃",
       "target": "person:鈴木悠斗",
       "type": "TEAM_SYNERGY",
-      "weight": 8,
-      "reason": "開米の技術力と鈴木のチームビルディングで堅牢な組織に。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:開米 敦則",
-      "target": "person:戸塚直道",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "戸塚の経営戦略と開米のQA専門性がAIビジネスを担保。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:開米 敦則",
-      "target": "person:戸塚直道",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "戸塚は経営、開米は専門技術視点で互いに指導し合える。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:開米 敦則",
-      "target": "person:戸塚直道",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "強力なリーダーシップと高品質実行力でAI事業成長を加速。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:開米 敦則",
-      "target": "person:榎本詩織",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "開米の専門知識と榎本のコミュニケーション力・経験が融合。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:開米 敦則",
-      "target": "person:榎本詩織",
-      "type": "MENTORING_FIT",
-      "weight": 7,
-      "direction": "A→B",
-      "reason": "開米はQA・AI活用の専門知識で榎本の学習意欲に応える。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:開米 敦則",
-      "target": "person:榎本詩織",
-      "type": "TEAM_SYNERGY",
-      "weight": 8,
-      "reason": "共通の探求心と協調性で、高品質かつ円滑なプロジェクト。",
+      "weight": 10,
+      "reason": "ウェルビーイング、チームワーク、目標達成への貢献意欲が一致。理想的な連携で組織を強化。",
       "ai_generated": true
     },
     {
       "source": "person:貴志雪乃",
-      "target": "person:上遼太郎",
+      "target": "person:戸塚直道",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "雪乃の広範な組織視点と上の具体的実行力が補完し合う。",
+      "weight": 9,
+      "reason": "雪乃のウェルビーイング支援は、戸塚のAI駆動変革の人的側面を補完。",
       "ai_generated": true
     },
     {
       "source": "person:貴志雪乃",
-      "target": "person:上遼太郎",
+      "target": "person:戸塚直道",
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "mutual",
-      "reason": "雪乃は組織戦略を、上は業務遂行の体系を共有可能。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:上遼太郎",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "高い協調性と計画性で目標達成に大きく貢献できる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:小松田真伍",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "雪乃の組織戦略と小松田の技術力で相乗効果が期待できる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:小松田真伍",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "互いの専門性を交換し、新しい価値創出を促せる関係。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:小松田真伍",
-      "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "高い協調性と実行力で組織貢献し、チームを牽引する。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:小島遼祐",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "雪乃の企画推進力と小島の関係構築力が相互作用する。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:小島遼祐",
-      "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "貴志雪乃→小島遼祐",
-      "reason": "雪乃の経験が小島の挑戦を具体的な行動へ導く。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:小島遼祐",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "高い協調性と学習意欲で、協力体制が強固になる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:藤井芙美子",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "雪乃の戦略的視点と藤井の実務的視点で組織貢献を最大化。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:藤井芙美子",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "互いの専門性と実務知見を共有し、相乗効果を生む。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:藤井芙美子",
-      "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "共通の価値観と強みで、非常に高いチーム生産性を持つ。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:菅野聖也",
-      "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "雪乃の組織戦略と菅野の技術で組織課題解決に貢献する。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:菅野聖也",
-      "type": "MENTORING_FIT",
-      "weight": 7,
-      "direction": "mutual",
-      "reason": "互いの知識と経験を交換し、学習を促進できる関係。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:菅野聖也",
-      "type": "TEAM_SYNERGY",
-      "weight": 8,
-      "reason": "協調性と知的好奇心が高く、円滑なチームワークが期待できる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:佐藤傑",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "貴志は組織基盤、佐藤は事業推進。互いに欠かせない視点を持つ。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:佐藤傑",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "貴志は組織戦略、佐藤は実践技術。相互に学び合える。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:佐藤傑",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "組織基盤と事業推進が融合し、革新的な成長を生む。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:鈴木悠斗",
-      "type": "COMPLEMENTS",
-      "weight": 10,
-      "reason": "共通の価値観と異なるアプローチで組織と個人の幸福を最大化。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:鈴木悠斗",
-      "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "mutual",
-      "reason": "組織視点と現場視点で相互に学び、高め合える。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:鈴木悠斗",
-      "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "組織文化と従業員エンゲージメントを極限まで高める。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:戸塚直道",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "戸塚の事業戦略を貴志が組織開発と浸透で強力に支援できる。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:貴志雪乃",
-      "target": "person:戸塚直道",
-      "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "経営者視点とHR視点でお互いの専門性を深め合える。",
+      "reason": "戸塚は戦略を、雪乃は組織と人の専門知見を相互に提供できる。",
       "ai_generated": true
     },
     {
@@ -11057,7 +11245,7 @@
       "target": "person:戸塚直道",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "戦略的変革と組織内浸透が融合し、強力な推進力を生む。",
+      "reason": "戸塚の変革力と雪乃の人間中心視点で、持続可能で強力な組織変革を推進可能。",
       "ai_generated": true
     },
     {
@@ -11065,7 +11253,7 @@
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "貴志の企画を榎本が現場で実践・活性化させる。",
+      "reason": "詩織の現場視点と雪乃のHR専門性が、より効果的なウェルビーイング策を共創。",
       "ai_generated": true
     },
     {
@@ -11074,15 +11262,15 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "A→B",
-      "reason": "貴志は組織戦略を、榎本は現場目線と多様な経験を共有し合う。",
+      "reason": "雪乃は組織とキャリア形成の視点で、詩織の成長を支援できる。",
       "ai_generated": true
     },
     {
       "source": "person:貴志雪乃",
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "貴志の企画力と榎本の現場での実行・活性化が組織に良い影響。",
+      "weight": 8,
+      "reason": "雪乃のウェルビーイング推進に詩織の現場からの意見とコミュニケーション力が貢献。",
       "ai_generated": true
     },
     {
@@ -11090,7 +11278,7 @@
       "target": "person:小松田真伍",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "上の堅実な計画と小松田の技術的革新性が相互に強化し合う。",
+      "reason": "小松田の先見性と実行力を、上の徹底した計画性・ドキュメンテーションが支える。",
       "ai_generated": true
     },
     {
@@ -11098,8 +11286,8 @@
       "target": "person:小松田真伍",
       "type": "MENTORING_FIT",
       "weight": 8,
-      "direction": "mutual",
-      "reason": "小松田は技術革新、上は堅実な実行。互いに高め合える。",
+      "direction": "B→A",
+      "reason": "小松田は広範な戦略的視点とAI技術で上を導き、上は具体的なプロセスで貢献。",
       "ai_generated": true
     },
     {
@@ -11107,49 +11295,49 @@
       "target": "person:小松田真伍",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "堅実な技術基盤と革新的な技術導入が最高のチームを生む。",
+      "reason": "先端技術開発と堅実な実行管理が融合し、高品質で革新的な成果を生み出す。",
       "ai_generated": true
     },
     {
       "source": "person:上遼太郎",
       "target": "person:小島遼祐",
       "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "上の計画性と小島の関係構築力・行動力が補完し合う。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:上遼太郎",
-      "target": "person:小島遼祐",
-      "type": "MENTORING_FIT",
       "weight": 8,
-      "direction": "A→B",
-      "reason": "上の体系的思考と計画性が、小島の学習意欲を具体化させる。",
+      "reason": "上の体系的思考と小島の探求心・関係構築力が相互補完。",
       "ai_generated": true
     },
     {
       "source": "person:上遼太郎",
       "target": "person:小島遼祐",
-      "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "上の計画性と小島の実行力・協調性が結合し、安定かつ活発なチームを形成。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:上遼太郎",
-      "target": "person:藤井芙美子",
-      "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "高いCとAが共通基盤。上の技術的深掘り、藤井の実務効率化・関係構築が補完。",
-      "ai_generated": true
-    },
-    {
-      "source": "person:上遼太郎",
-      "target": "person:藤井芙美子",
       "type": "MENTORING_FIT",
       "weight": 7,
+      "direction": "上→小島",
+      "reason": "上の計画性と体系的思考は、小島の学習探求に構造を与える。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "person:小島遼祐",
+      "type": "TEAM_SYNERGY",
+      "weight": 9,
+      "reason": "高い協調性・責任感・学習意欲で計画から実行まで円滑。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "person:藤井芙美子",
+      "type": "COMPLEMENTS",
+      "weight": 8,
+      "reason": "上の技術的詳細を藤井が実務運用へ落とし込み透明化。",
+      "ai_generated": true
+    },
+    {
+      "source": "person:上遼太郎",
+      "target": "person:藤井芙美子",
+      "type": "MENTORING_FIT",
+      "weight": 6,
       "direction": "mutual",
-      "reason": "異なる専門性だが、共通の価値観で互いの専門分野の知見を共有できる。",
+      "reason": "互いの専門性から組織プロセスと情報共有で相互に学べる。",
       "ai_generated": true
     },
     {
@@ -11157,7 +11345,7 @@
       "target": "person:藤井芙美子",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "上の計画性と藤井の実行力・効率性が、高精度かつ円滑な業務遂行を実現。",
+      "reason": "高い責任感と協調性で透明性と効率性を重視した協働が可能。",
       "ai_generated": true
     },
     {
@@ -11165,7 +11353,7 @@
       "target": "person:菅野聖也",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "上の計画性と菅野の知的好奇心・AI技術が相互に補完し、安定と革新を両立。",
+      "reason": "上の計画性と菅野の最新技術探求・品質管理が相互補完。",
       "ai_generated": true
     },
     {
@@ -11173,16 +11361,16 @@
       "target": "person:菅野聖也",
       "type": "MENTORING_FIT",
       "weight": 7,
-      "direction": "A→B",
-      "reason": "上の計画性・体系的思考が菅野の学習と技術応用を導き、菅野は新技術で刺激。",
+      "direction": "上→菅野",
+      "reason": "上の計画的アプローチが菅野の技術探求に堅牢な土台を与える。",
       "ai_generated": true
     },
     {
       "source": "person:上遼太郎",
       "target": "person:菅野聖也",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "上の計画性と菅野の技術探究心が融合し、安定した革新的な開発が可能。",
+      "weight": 8,
+      "reason": "上の堅実な計画と菅野の技術探求力で安定的な進化が可能。",
       "ai_generated": true
     },
     {
@@ -11190,7 +11378,7 @@
       "target": "person:佐藤傑",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "上の堅実な計画性・正確性が、佐藤の起業家精神・実行力を実用的な成果に導く。",
+      "reason": "佐藤の実行力と上の計画性・体系的思考が相互に補完し合う。",
       "ai_generated": true
     },
     {
@@ -11199,15 +11387,15 @@
       "type": "MENTORING_FIT",
       "weight": 8,
       "direction": "mutual",
-      "reason": "上は堅実な計画性、佐藤は実践的AI・起業家精神で互いに刺激し成長できる。",
+      "reason": "佐藤の実践力と上の計画性が、互いの成長を促す。",
       "ai_generated": true
     },
     {
       "source": "person:上遼太郎",
       "target": "person:佐藤傑",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "上の計画・詳細性と佐藤の実行・革新が融合し、強力な推進力と質の高い成果を生む。",
+      "weight": 10,
+      "reason": "計画性と実行力、探求心が融合し革新的かつ生産性の高い成果。",
       "ai_generated": true
     },
     {
@@ -11215,7 +11403,7 @@
       "target": "person:鈴木悠斗",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "上の堅実な計画・実行力が鈴木のリーダーシップとチーム力を具体的に支え、相互補完。",
+      "reason": "上の技術的計画と鈴木のチーム活性化が組織力を高める。",
       "ai_generated": true
     },
     {
@@ -11224,15 +11412,15 @@
       "type": "MENTORING_FIT",
       "weight": 8,
       "direction": "mutual",
-      "reason": "上は技術的計画性、鈴木は組織目標達成とチームマネジメントで互いに学び合う。",
+      "reason": "経営視点と技術視点から、互いの専門性を深め成長を促す。",
       "ai_generated": true
     },
     {
       "source": "person:上遼太郎",
       "target": "person:鈴木悠斗",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "上の確実な実行力と鈴木のチームをまとめる力で、効率的かつ高士気のチームが実現。",
+      "weight": 10,
+      "reason": "技術と人間性の両面で高いレベルの協働を実現し、目標達成。",
       "ai_generated": true
     },
     {
@@ -11240,7 +11428,7 @@
       "target": "person:戸塚直道",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "戸塚の戦略を上が具体化し、実行を計画的に支える。",
+      "reason": "戦略的思考と詳細な実行力、ビジョンと計画性が互いを補完。",
       "ai_generated": true
     },
     {
@@ -11249,15 +11437,15 @@
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "B→A",
-      "reason": "戸塚は戦略・経営視点で上を指導、上は実行面で貢献。",
+      "reason": "戸塚の経営戦略と組織開発の知見を上は学習できる。",
       "ai_generated": true
     },
     {
       "source": "person:上遼太郎",
       "target": "person:戸塚直道",
       "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "戦略と実行の完璧な連携で、組織目標を強力に推進する。",
+      "weight": 9,
+      "reason": "戸塚のビジョンを上が計画的に実行し、高い品質と透明性を保ちながら実現。",
       "ai_generated": true
     },
     {
@@ -11265,7 +11453,7 @@
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "上の計画性を榎本の高いコミュ力と協調性が支える。",
+      "reason": "上の詳細・計画性と榎本のコミュニケーション・適応力が相互補完。",
       "ai_generated": true
     },
     {
@@ -11274,23 +11462,23 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "A→B",
-      "reason": "上の計画性・体系的思考は、榎本の成長意欲に好影響。",
+      "reason": "上の体系的思考とドキュメント作成の専門知識を榎本が学べる。",
       "ai_generated": true
     },
     {
       "source": "person:上遼太郎",
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "上の精密な計画と榎本の円滑な協調で成果を最大化。",
+      "weight": 8,
+      "reason": "上の計画性と榎本の協調性で、円滑かつ高効率な開発が可能。",
       "ai_generated": true
     },
     {
       "source": "person:小松田真伍",
       "target": "person:小島遼祐",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "小松田の専門性と実行力を、小島の学習意欲とコミュ力が支える。",
+      "weight": 7,
+      "reason": "小松田の戦略的知見と小島の粘り強い学習意欲が相互作用。",
       "ai_generated": true
     },
     {
@@ -11299,7 +11487,7 @@
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "A→B",
-      "reason": "小松田の専門技術と実行力は、小島の学習意欲を強く刺激する。",
+      "reason": "小松田の高度な知見と戦略的思考を小島は吸収できる。",
       "ai_generated": true
     },
     {
@@ -11307,7 +11495,7 @@
       "target": "person:小島遼祐",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "高い専門性と学習意欲が融合し、革新と効率を両立できる。",
+      "reason": "高い学習意欲と協調性で、技術探求とチーム貢献を最大化。",
       "ai_generated": true
     },
     {
@@ -11315,16 +11503,16 @@
       "target": "person:藤井芙美子",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "技術的効率化と実務的効率化が連携し、組織最適化を促進。",
+      "reason": "小松田の変革と藤井の正確な実務遂行、人間関係構築が補完。",
       "ai_generated": true
     },
     {
       "source": "person:小松田真伍",
       "target": "person:藤井芙美子",
       "type": "MENTORING_FIT",
-      "weight": 8,
+      "weight": 7,
       "direction": "mutual",
-      "reason": "小松田は技術革新、藤井は実務ニーズと人間関係で相互貢献。",
+      "reason": "小松田はビジネス戦略、藤井は実務プロセスや人間関係を教え合える。",
       "ai_generated": true
     },
     {
@@ -11332,7 +11520,7 @@
       "target": "person:藤井芙美子",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "技術革新と実務適合が融合し、効率的かつ人間的な業務改善。",
+      "reason": "小松田の革新的な技術を藤井が正確かつ円滑に推進し、市場へ届ける。",
       "ai_generated": true
     },
     {
@@ -11340,7 +11528,7 @@
       "target": "person:菅野聖也",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "小松田の技術的推進力を菅野の品質視点と協調性が支える。",
+      "reason": "小松田の戦略と菅野の品質視点・学習意欲が技術革新を支える。",
       "ai_generated": true
     },
     {
@@ -11349,7 +11537,7 @@
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "A→B",
-      "reason": "小松田の専門知識と実行力は、菅野のAI探求心を高める。",
+      "reason": "小松田の最先端技術と戦略的知見を菅野が学習できる。",
       "ai_generated": true
     },
     {
@@ -11357,7 +11545,7 @@
       "target": "person:菅野聖也",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "先進技術の探求と品質・協調性が融合し、革新的開発を加速。",
+      "reason": "共通の学習意欲とAI探求心で、革新的な技術開発と品質を両立。",
       "ai_generated": true
     },
     {
@@ -11365,32 +11553,32 @@
       "target": "person:佐藤傑",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "技術詳細と事業展開/グローバル視点で相互補完。",
+      "reason": "技術的深掘と戦略を、グローバルな実践とアウトプットで相互強化。",
       "ai_generated": true
     },
     {
       "source": "person:小松田真伍",
       "target": "person:佐藤傑",
       "type": "MENTORING_FIT",
-      "weight": 7,
+      "weight": 8,
       "direction": "mutual",
-      "reason": "技術と事業で相互に学び合う関係。",
+      "reason": "互いの専門性と視点で補完し、グローバルな実践に活かせる。",
       "ai_generated": true
     },
     {
       "source": "person:小松田真伍",
       "target": "person:佐藤傑",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "高い実行力とAI実践志向が事業推進で相乗効果。",
+      "weight": 10,
+      "reason": "AI技術とビジネス戦略に起業家精神とグローバル実践力が融合。",
       "ai_generated": true
     },
     {
       "source": "person:小松田真伍",
       "target": "person:鈴木悠斗",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "技術推進と人・組織面の強化で互いに補完。",
+      "weight": 9,
+      "reason": "技術とビジネス視点に、チームの士気と人間関係構築力が加わる。",
       "ai_generated": true
     },
     {
@@ -11399,15 +11587,15 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "mutual",
-      "reason": "技術知見と組織運営で相互に学び合える。",
+      "reason": "異なる専門領域（技術/組織）で相互に学び、視野を広げられる。",
       "ai_generated": true
     },
     {
       "source": "person:小松田真伍",
       "target": "person:鈴木悠斗",
       "type": "TEAM_SYNERGY",
-      "weight": 8,
-      "reason": "技術実行力とチームケアで生産性/創造性向上。",
+      "weight": 9,
+      "reason": "技術革新とチームの士気・文化醸成が融合し、組織目標達成を促進。",
       "ai_generated": true
     },
     {
@@ -11415,7 +11603,7 @@
       "target": "person:戸塚直道",
       "type": "COMPLEMENTS",
       "weight": 10,
-      "reason": "戦略的事業拡大と先端技術実装の理想的補完。",
+      "reason": "技術詳細と市場戦略の双方向から、AI駆動型変革を強力推進。",
       "ai_generated": true
     },
     {
@@ -11423,8 +11611,8 @@
       "target": "person:戸塚直道",
       "type": "MENTORING_FIT",
       "weight": 9,
-      "direction": "戸塚→小松田",
-      "reason": "戸塚の経営視点が小松田の成長を促す。",
+      "direction": "mutual",
+      "reason": "経営戦略と技術戦略のハイレベルな相互指導で、事業成長を加速。",
       "ai_generated": true
     },
     {
@@ -11432,7 +11620,7 @@
       "target": "person:戸塚直道",
       "type": "TEAM_SYNERGY",
       "weight": 10,
-      "reason": "戦略と技術の強力なリーダーシップで革新を牽引。",
+      "reason": "AI戦略と実行力が経営・技術の両面で融合し、組織変革を牽引。",
       "ai_generated": true
     },
     {
@@ -11440,16 +11628,16 @@
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "技術専門性と円滑なチームコミュニケーションを補完。",
+      "reason": "小松田の技術深掘りを、榎本のコミュニケーションと多様な経験が支える。",
       "ai_generated": true
     },
     {
       "source": "person:小松田真伍",
       "target": "person:榎本詩織",
       "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "小松田→榎本",
-      "reason": "小松田の深い技術知見が榎本の成長をサポート。",
+      "weight": 9,
+      "direction": "A→B",
+      "reason": "小松田はAI最先端技術と戦略、榎本は高い学習意欲で吸収。",
       "ai_generated": true
     },
     {
@@ -11457,7 +11645,7 @@
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "技術力とチームワークで学習/アウトプット最大化。",
+      "reason": "小松田の技術リーダーシップと榎本のコミュニケーションがチームを活性化。",
       "ai_generated": true
     },
     {
@@ -11465,7 +11653,7 @@
       "target": "person:藤井芙美子",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "技術探究と実務効率化で互いに貢献。",
+      "reason": "小島の探求心と協調性を、藤井の正確性と効率性が実行面で支える。",
       "ai_generated": true
     },
     {
@@ -11474,7 +11662,7 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "mutual",
-      "reason": "実務知見と技術知見で相互に学び合える。",
+      "reason": "技術探求と実務遂行の異なる視点から、互いに学び成長できる。",
       "ai_generated": true
     },
     {
@@ -11482,15 +11670,15 @@
       "target": "person:藤井芙美子",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "高い協調性と実行力で堅実な成果と良好な関係。",
+      "reason": "高い協調性と貢献意欲で、技術と実務が円滑に連携し、質と効率を高める。",
       "ai_generated": true
     },
     {
       "source": "person:小島遼祐",
       "target": "person:菅野聖也",
       "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "小島の挑戦への躊躇を菅野の探求心と技術スキルが補完。",
+      "weight": 8,
+      "reason": "広範な学習と専門技術、関係構築と品質視点で相互補完。",
       "ai_generated": true
     },
     {
@@ -11499,7 +11687,7 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "mutual",
-      "reason": "互いに学習意欲が高く、異なる強みから学び合える。",
+      "reason": "互いに学習意欲が高く、専門性と探求心で相互に高め合える。",
       "ai_generated": true
     },
     {
@@ -11507,40 +11695,40 @@
       "target": "person:菅野聖也",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "高い協調性、学習意欲、貢献意欲を共有し、相乗効果を生む。",
+      "reason": "高い協調性、学習意欲、貢献意欲が合致し、技術と関係性で相乗効果。",
       "ai_generated": true
     },
     {
       "source": "person:小島遼祐",
       "target": "person:佐藤傑",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "佐藤の実行力が小島の躊躇を補完し、小島はアイデアを具体化。",
+      "weight": 9,
+      "reason": "小島の技術探求を佐藤のビジネス実践力とAI活用が補完し、具現化へ。",
       "ai_generated": true
     },
     {
       "source": "person:小島遼祐",
       "target": "person:佐藤傑",
       "type": "MENTORING_FIT",
-      "weight": 9,
-      "direction": "佐藤傑→小島遼祐",
-      "reason": "佐藤の実践的AI知識と起業家精神は、小島に挑戦行動を促す。",
+      "weight": 8,
+      "direction": "B→A",
+      "reason": "佐藤の起業家精神と実践的AI知識は小島の成長を加速させる。",
       "ai_generated": true
     },
     {
       "source": "person:小島遼祐",
       "target": "person:佐藤傑",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "高い学習・貢献意欲と実行力が融合し、成果を最大化する。",
+      "weight": 10,
+      "reason": "技術探求と実践力、協調性とアウトプット志向が最高の相乗効果を生む。",
       "ai_generated": true
     },
     {
       "source": "person:小島遼祐",
       "target": "person:鈴木悠斗",
       "type": "COMPLEMENTS",
-      "weight": 6,
-      "reason": "鈴木のチーム牽引力が小島の協調性を強化し、相互に好影響。",
+      "weight": 8,
+      "reason": "技術探求とチーム士気向上、業務推進とメンバー配慮で相互補完。",
       "ai_generated": true
     },
     {
@@ -11548,8 +11736,8 @@
       "target": "person:鈴木悠斗",
       "type": "MENTORING_FIT",
       "weight": 7,
-      "direction": "鈴木悠斗→小島遼祐",
-      "reason": "鈴木のリーダーシップと組織目標達成への知見は学びが多い。",
+      "direction": "B→A",
+      "reason": "鈴木の経営視点・チーム運営は小島の成長を促し、相互に学び合える。",
       "ai_generated": true
     },
     {
@@ -11557,40 +11745,40 @@
       "target": "person:鈴木悠斗",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "性格・価値観が酷似し、極めて高い協調性とポジティブな相乗効果。",
+      "reason": "共通の協調性、高い責任感、ポジティブさが組織目標達成と文化醸成を加速。",
       "ai_generated": true
     },
     {
       "source": "person:小島遼祐",
       "target": "person:戸塚直道",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "戸塚の戦略・実行力が小島の具体的業務を加速、ビジョン実現へ。",
+      "weight": 9,
+      "reason": "小島の技術実装力と戸塚の戦略的ビジョン・実行力が完璧に補完し合う。",
       "ai_generated": true
     },
     {
       "source": "person:小島遼祐",
       "target": "person:戸塚直道",
       "type": "MENTORING_FIT",
-      "weight": 10,
-      "direction": "戸塚直道→小島遼祐",
-      "reason": "戸塚の経営手腕、戦略的思考、実行力は小島の成長に絶大。",
+      "weight": 9,
+      "direction": "B→A",
+      "reason": "戸塚の経営戦略とAIビジネス知見は小島のエンジニアキャリアの強力な指針となる。",
       "ai_generated": true
     },
     {
       "source": "person:小島遼祐",
       "target": "person:戸塚直道",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "戸塚の強力なリーダーシップと小島の実行力が融合し、大きな成果。",
+      "weight": 10,
+      "reason": "技術的な探求と経営戦略、AI変革への推進力が最高のシナジーを生む。",
       "ai_generated": true
     },
     {
       "source": "person:小島遼祐",
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "榎本の多様な経験が小島の躊躇を軽減し、責任感が補完。",
+      "weight": 8,
+      "reason": "小島の深い探求に榎本の多様な経験と円滑なコミュニケーションが貢献。",
       "ai_generated": true
     },
     {
@@ -11599,7 +11787,7 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "mutual",
-      "reason": "互いに学習意欲が高く、異なる経験や性格特性から学び合える。",
+      "reason": "互いに学習意欲が高く、多様な経験と深い探求心で相互に刺激し合える。",
       "ai_generated": true
     },
     {
@@ -11607,7 +11795,7 @@
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "共通の学習意欲、協調性、コミュニケーション力で高いチーム成果。",
+      "reason": "高い協調性、学習意欲、良好なコミュニケーションでチームの生産性が向上。",
       "ai_generated": true
     },
     {
@@ -11615,7 +11803,7 @@
       "target": "person:菅野聖也",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "藤井の効率化・組織力と菅野の技術的深掘りが相互補完。",
+      "reason": "藤井の緻密さが菅野の技術探求を実務に繋げ、菅野の技術が藤井の効率化を加速。",
       "ai_generated": true
     },
     {
@@ -11623,8 +11811,8 @@
       "target": "person:菅野聖也",
       "type": "MENTORING_FIT",
       "weight": 7,
-      "direction": "藤井→菅野",
-      "reason": "藤井が実務効率化やビジネス適用を指南。",
+      "direction": "mutual",
+      "reason": "技術と実務、それぞれ専門性を相互に高め合える。",
       "ai_generated": true
     },
     {
@@ -11632,15 +11820,15 @@
       "target": "person:菅野聖也",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "実務性と技術探求心が融合し、革新かつ実用的な成果。",
+      "reason": "精緻なプロセスと先端技術で、効率的かつ高品質な成果。",
       "ai_generated": true
     },
     {
       "source": "person:藤井芙美子",
       "target": "person:佐藤傑",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "佐藤の起業家精神と藤井の堅実な実務推進力が互いを高める。",
+      "weight": 9,
+      "reason": "佐藤の実行力を藤井の正確性とリスク管理で安定化。",
       "ai_generated": true
     },
     {
@@ -11648,8 +11836,8 @@
       "target": "person:佐藤傑",
       "type": "MENTORING_FIT",
       "weight": 8,
-      "direction": "佐藤→藤井",
-      "reason": "佐藤がAI活用や戦略的視点を提供。",
+      "direction": "mutual",
+      "reason": "実行と秩序、それぞれが相手の専門性を高める。",
       "ai_generated": true
     },
     {
@@ -11657,57 +11845,57 @@
       "target": "person:佐藤傑",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "圧倒的な実行力と革新性で、迅速かつ質の高い成果を生み出す。",
+      "reason": "大胆な実行力と精緻な管理で、革新的な成果を確実にする。",
       "ai_generated": true
     },
     {
       "source": "person:藤井芙美子",
       "target": "person:鈴木悠斗",
       "type": "COMPLEMENTS",
-      "weight": 7,
-      "reason": "組織目標達成とメンバー幸福の両面で相補的。",
+      "weight": 8,
+      "reason": "藤井の秩序が鈴木の人間的配慮に実務的な骨格を与える。",
       "ai_generated": true
     },
     {
       "source": "person:藤井芙美子",
       "target": "person:鈴木悠斗",
       "type": "MENTORING_FIT",
-      "weight": 6,
-      "direction": "鈴木→藤井",
-      "reason": "鈴木が組織戦略やリーダーシップ視点を提供。",
+      "weight": 8,
+      "direction": "mutual",
+      "reason": "リーダーシップと実務遂行力で相互に高め合える。",
       "ai_generated": true
     },
     {
       "source": "person:藤井芙美子",
       "target": "person:鈴木悠斗",
       "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "高い協調性と実行力で、目標達成と幸福度を両立する最高のチーム。",
+      "weight": 9,
+      "reason": "健全な組織文化と効率的業務を両立し、目標達成を加速。",
       "ai_generated": true
     },
     {
       "source": "person:藤井芙美子",
       "target": "person:戸塚直道",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "戸塚の戦略的ビジョンと藤井の実務遂行力が高次元で連携。",
+      "weight": 9,
+      "reason": "戸塚の戦略実行を藤井の正確な管理とリスク対応が支える。",
       "ai_generated": true
     },
     {
       "source": "person:藤井芙美子",
       "target": "person:戸塚直道",
       "type": "MENTORING_FIT",
-      "weight": 9,
+      "weight": 8,
       "direction": "戸塚→藤井",
-      "reason": "戸塚が経営戦略、AI活用、リーダーシップを指南。",
+      "reason": "戸塚は戦略的視点で、藤井は実務の質で相互に影響。",
       "ai_generated": true
     },
     {
       "source": "person:藤井芙美子",
       "target": "person:戸塚直道",
       "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "戦略と実行が完璧に融合し、事業変革と成長を強力に推進。",
+      "weight": 9,
+      "reason": "卓越した戦略と揺るぎない実行力で、組織変革を加速。",
       "ai_generated": true
     },
     {
@@ -11715,7 +11903,7 @@
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "藤井の堅実な実務遂行力と榎本の学習・多様な経験が補完し合う。",
+      "reason": "藤井の規律と榎本の多様性が、組織に安定と柔軟性をもたらす。",
       "ai_generated": true
     },
     {
@@ -11723,33 +11911,33 @@
       "target": "person:榎本詩織",
       "type": "MENTORING_FIT",
       "weight": 7,
-      "direction": "藤井→榎本",
-      "reason": "藤井が実務効率化やプロセスの明確化を指南。",
+      "direction": "mutual",
+      "reason": "実務の質と多様な視点で互いに成長を促す。",
       "ai_generated": true
     },
     {
       "source": "person:藤井芙美子",
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "協力的な関係で、新たな知見と効率的な実行力を両立させる。",
+      "weight": 8,
+      "reason": "高い協調性と透明性で、効率的かつ創造的なチームワーク。",
       "ai_generated": true
     },
     {
       "source": "person:菅野聖也",
       "target": "person:佐藤傑",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "菅野の技術深掘りと佐藤の実践・アウトプット志向が補完。",
+      "weight": 9,
+      "reason": "実践と技術深掘り、グローバル視点と品質視点が補完。",
       "ai_generated": true
     },
     {
       "source": "person:菅野聖也",
       "target": "person:佐藤傑",
       "type": "MENTORING_FIT",
-      "weight": 9,
+      "weight": 8,
       "direction": "B→A",
-      "reason": "佐藤の起業家・実践的視点が菅野の技術探求を深化。",
+      "reason": "佐藤の実践力とグローバル視点が菅野の技術応用を促進。",
       "ai_generated": true
     },
     {
@@ -11757,7 +11945,7 @@
       "target": "person:佐藤傑",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "技術力と実践・ビジネス視点が融合し、AI活用で協創。",
+      "reason": "AIへの共通情熱と実践力・技術力が相乗効果を生む。",
       "ai_generated": true
     },
     {
@@ -11765,7 +11953,7 @@
       "target": "person:鈴木悠斗",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "菅野の技術力と鈴木のチームビルディング力が補完し合う。",
+      "reason": "鈴木のチーム構築力と菅野の技術力が相互に機能する。",
       "ai_generated": true
     },
     {
@@ -11774,23 +11962,23 @@
       "type": "MENTORING_FIT",
       "weight": 7,
       "direction": "B→A",
-      "reason": "鈴木のチームマネジメントが菅野の協調性を組織貢献へ昇華。",
+      "reason": "鈴木の経営視点とリーダーシップが菅野の視野を広げる。",
       "ai_generated": true
     },
     {
       "source": "person:菅野聖也",
       "target": "person:鈴木悠斗",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "菅野の技術が鈴木のチームで開花。組織目標達成へ貢献。",
+      "weight": 8,
+      "reason": "ポジティブな組織文化と技術的貢献でチーム力向上。",
       "ai_generated": true
     },
     {
       "source": "person:菅野聖也",
       "target": "person:戸塚直道",
       "type": "COMPLEMENTS",
-      "weight": 8,
-      "reason": "菅野の技術と戸塚の戦略・事業推進力が相互補完。",
+      "weight": 9,
+      "reason": "経営戦略と技術詳細、ビジョンと実行力が相乗効果。",
       "ai_generated": true
     },
     {
@@ -11799,7 +11987,7 @@
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "B→A",
-      "reason": "戸塚の戦略・事業推進力が菅野の技術探求をビジネスに昇華。",
+      "reason": "戸塚の戦略的思考と実行力が菅野のキャリアを広げる。",
       "ai_generated": true
     },
     {
@@ -11807,7 +11995,7 @@
       "target": "person:戸塚直道",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "戸塚の戦略と菅野の技術がAI事業変革を加速させる。",
+      "reason": "AIへの情熱と戦略的思考、技術力が結びつき大きな成果。",
       "ai_generated": true
     },
     {
@@ -11815,16 +12003,16 @@
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
       "weight": 6,
-      "reason": "類似の学習意欲・協調性。互いの異なる経験が補完。",
+      "reason": "共通点が多く協働しやすい。経験の多様性が補完。",
       "ai_generated": true
     },
     {
       "source": "person:菅野聖也",
       "target": "person:榎本詩織",
       "type": "MENTORING_FIT",
-      "weight": 6,
+      "weight": 7,
       "direction": "mutual",
-      "reason": "互いに技術や多様な経験を共有し、共に成長を促進。",
+      "reason": "共通の学習意欲と知的好奇心で相互に高め合える。",
       "ai_generated": true
     },
     {
@@ -11832,7 +12020,7 @@
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
       "weight": 8,
-      "reason": "似た性格と価値観で、学習と協働を互いに高め合える。",
+      "reason": "高い協調性と学習意欲でスムーズな連携と知識共有。",
       "ai_generated": true
     },
     {
@@ -11840,7 +12028,7 @@
       "target": "person:鈴木悠斗",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "佐藤の推進力と鈴木の組織調和力が相互に補完し合う。",
+      "reason": "実行力とチーム力、グローバル視点と組織調和が補完。",
       "ai_generated": true
     },
     {
@@ -11849,7 +12037,7 @@
       "type": "MENTORING_FIT",
       "weight": 8,
       "direction": "mutual",
-      "reason": "佐藤の実践力と鈴木の組織マネジメントが互いに学び合う。",
+      "reason": "実践力とチームビルディング力で相互に高め合える。",
       "ai_generated": true
     },
     {
@@ -11857,7 +12045,7 @@
       "target": "person:鈴木悠斗",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "佐藤の実践力と鈴木のチーム力が組織の成長と達成を加速。",
+      "reason": "強力な実行力とチームをまとめる力で大きな成果。",
       "ai_generated": true
     },
     {
@@ -11865,7 +12053,7 @@
       "target": "person:戸塚直道",
       "type": "COMPLEMENTS",
       "weight": 9,
-      "reason": "経営戦略とAI実装、グローバル視点を高度に補完し合う。",
+      "reason": "技術実践力と経営戦略が相互補完し、事業変革を加速。",
       "ai_generated": true
     },
     {
@@ -11874,7 +12062,7 @@
       "type": "MENTORING_FIT",
       "weight": 8,
       "direction": "B→A",
-      "reason": "戸塚は佐藤に経営戦略・組織開発の知見を提供できる。",
+      "reason": "戸塚の経営・戦略眼が佐藤傑の起業家精神に指導的示唆。",
       "ai_generated": true
     },
     {
@@ -11882,7 +12070,7 @@
       "target": "person:戸塚直道",
       "type": "TEAM_SYNERGY",
       "weight": 9,
-      "reason": "実行力とAI知見を兼ね備え、戦略と実践で圧倒的成果。",
+      "reason": "AI活用の共通ビジョンと高い実行力で事業を強力推進。",
       "ai_generated": true
     },
     {
@@ -11890,49 +12078,49 @@
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "佐藤の実行力・AI知見と榎本の協調性・学習意欲が融合する。",
+      "reason": "佐藤傑の技術推進力と榎本の高い伝達力が相互補完。",
       "ai_generated": true
     },
     {
       "source": "person:佐藤傑",
       "target": "person:榎本詩織",
       "type": "MENTORING_FIT",
-      "weight": 9,
+      "weight": 7,
       "direction": "A→B",
-      "reason": "佐藤のAI知識・起業家精神が榎本の成長意欲を大きく刺激。",
+      "reason": "佐藤傑の最新技術知見と実践力が榎本の学習意欲を導く。",
       "ai_generated": true
     },
     {
       "source": "person:佐藤傑",
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "佐藤の技術的推進力と榎本の協調性・学習力で相乗効果。",
+      "weight": 8,
+      "reason": "革新的な佐藤傑と協調的な榎本で活発なチームを形成。",
       "ai_generated": true
     },
     {
       "source": "person:鈴木悠斗",
       "target": "person:戸塚直道",
       "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "戸塚の戦略性と鈴木の人材育成・文化醸成が理想的に融合。",
+      "weight": 8,
+      "reason": "戸塚の戦略と鈴木の人的サポートで組織の実行力向上。",
       "ai_generated": true
     },
     {
       "source": "person:鈴木悠斗",
       "target": "person:戸塚直道",
       "type": "MENTORING_FIT",
-      "weight": 8,
-      "direction": "mutual",
-      "reason": "戦略と組織文化の両面で互いに知見を共有し高め合える。",
+      "weight": 7,
+      "direction": "B→A",
+      "reason": "戸塚の戦略眼が鈴木の組織運営に新たな視点を与える。",
       "ai_generated": true
     },
     {
       "source": "person:鈴木悠斗",
       "target": "person:戸塚直道",
       "type": "TEAM_SYNERGY",
-      "weight": 10,
-      "reason": "経営戦略と組織文化の両面から組織を強力に推進できる。",
+      "weight": 9,
+      "reason": "戦略性と人的配慮が融合し、強力な組織推進力を生む。",
       "ai_generated": true
     },
     {
@@ -11940,32 +12128,32 @@
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
       "weight": 8,
-      "reason": "鈴木の共感的リーダーシップが榎本の成長意欲と協調性を育む。",
+      "reason": "鈴木が育む文化に榎本のコミュニケーションが活力を与える。",
       "ai_generated": true
     },
     {
       "source": "person:鈴木悠斗",
       "target": "person:榎本詩織",
       "type": "MENTORING_FIT",
-      "weight": 8,
+      "weight": 7,
       "direction": "A→B",
-      "reason": "鈴木はリーダーシップ、チーム貢献、ワークライフバランスを教示。",
+      "reason": "鈴木のリーダーシップと組織運営経験が榎本の成長を促す。",
       "ai_generated": true
     },
     {
       "source": "person:鈴木悠斗",
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
-      "weight": 8,
-      "reason": "鈴木の温かいリーダーシップの下、榎本が成長しチームに貢献。",
+      "weight": 9,
+      "reason": "高い協調性とポジティブさで、活発で生産的なチームを形成。",
       "ai_generated": true
     },
     {
       "source": "person:戸塚直道",
       "target": "person:榎本詩織",
       "type": "COMPLEMENTS",
-      "weight": 9,
-      "reason": "戸塚の戦略的ビジョンと榎本の実行力・学習意欲が合致。",
+      "weight": 8,
+      "reason": "戸塚の戦略と榎本の実行・伝達力で組織目標を達成。",
       "ai_generated": true
     },
     {
@@ -11974,15 +12162,15 @@
       "type": "MENTORING_FIT",
       "weight": 9,
       "direction": "A→B",
-      "reason": "戸塚の経営戦略・AIビジネス知見が榎本の成長を強く促進。",
+      "reason": "戸塚の経営戦略とAI知見が榎本の成長意欲を強力に導く。",
       "ai_generated": true
     },
     {
       "source": "person:戸塚直道",
       "target": "person:榎本詩織",
       "type": "TEAM_SYNERGY",
-      "weight": 9,
-      "reason": "戸塚のAIビジネス戦略を榎本の技術力と学習意欲が具現化。",
+      "weight": 8,
+      "reason": "戦略的リーダーと学習意欲の高いメンバーで目標を達成。",
       "ai_generated": true
     }
   ]
