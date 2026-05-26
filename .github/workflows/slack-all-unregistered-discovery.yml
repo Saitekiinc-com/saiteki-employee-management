@@ -1,0 +1,38 @@
+name: Temporary Slack All Unregistered Discovery
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/slack-all-unregistered-discovery.yml"
+      - "scripts/discover-all-unregistered-slack-users.js"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Discover All Unregistered Slack Users
+        run: node scripts/discover-all-unregistered-slack-users.js
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN || secrets.SLACK_APP_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          SLACK_BOT_TOKEN_2: ${{ secrets.SLACK_BOT_TOKEN_2 }}
+          SLACK_CHANNEL_ID_2: ${{ secrets.SLACK_CHANNEL_ID_2 }}
+
+      - name: Upload Discovery Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: all-unregistered-slack-discovery
+          path: tmp/slack-all-unregistered-discovery/
+          retention-days: 7
