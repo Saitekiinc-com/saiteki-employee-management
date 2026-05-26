@@ -1983,5 +1983,53 @@
       ]
     },
     "slack_synced_at": "2026-04-20T03:39:00.659Z"
+  },
+  {
+    "name": "Jun Akiyama",
+    "slack_id": "U0AD4UADJ07",
+    "job": "Other",
+    "createdAt": "2026-05-26T14:35:00.000Z",
+    "updatedAt": "2026-05-26T14:35:00.000Z",
+    "isActive": true
+  },
+  {
+    "name": "Nakaoka Koshiro",
+    "slack_id": "U0B40MREQM6",
+    "job": "Other",
+    "createdAt": "2026-05-26T14:35:00.000Z",
+    "updatedAt": "2026-05-26T14:35:00.000Z",
+    "isActive": true
+  },
+  {
+    "name": "Yukinko N0319",
+    "slack_id": "U09MSTQ6HQC",
+    "job": "Other",
+    "createdAt": "2026-05-26T14:35:00.000Z",
+    "updatedAt": "2026-05-26T14:35:00.000Z",
+    "isActive": true
+  },
+  {
+    "name": "上原基臣",
+    "slack_id": "U0AFQUQ1H9R",
+    "job": "Other",
+    "createdAt": "2026-05-26T14:35:00.000Z",
+    "updatedAt": "2026-05-26T14:35:00.000Z",
+    "isActive": true
+  },
+  {
+    "name": "真栄城則明",
+    "slack_id": "U0AGC56822X",
+    "job": "Other",
+    "createdAt": "2026-05-26T14:35:00.000Z",
+    "updatedAt": "2026-05-26T14:35:00.000Z",
+    "isActive": true
+  },
+  {
+    "name": "八木橋 雄一",
+    "slack_id": "U0AG0UR6LDA",
+    "job": "Other",
+    "createdAt": "2026-05-26T14:35:00.000Z",
+    "updatedAt": "2026-05-26T14:35:00.000Z",
+    "isActive": true
   }
 ]
