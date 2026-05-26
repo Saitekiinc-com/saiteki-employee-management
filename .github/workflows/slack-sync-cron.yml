@@ -10,6 +10,10 @@ on:
         description: '全期間の履歴を同期しますか？'
         type: boolean
         default: false
+      discovery_mode:
+        description: '未登録Slackユーザーと関連メッセージのレポートだけを生成しますか？'
+        type: boolean
+        default: false
 
 jobs:
   sync:
@@ -24,7 +28,25 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Discover Unregistered Slack Users
+        if: ${{ github.event.inputs.discovery_mode == 'true' }}
+        run: node scripts/discover-unregistered-slack.js
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN || secrets.SLACK_APP_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          SLACK_BOT_TOKEN_2: ${{ secrets.SLACK_BOT_TOKEN_2 }}
+          SLACK_CHANNEL_ID_2: ${{ secrets.SLACK_CHANNEL_ID_2 }}
+
+      - name: Upload Discovery Report
+        if: ${{ github.event.inputs.discovery_mode == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: unregistered-slack-discovery
+          path: tmp/slack-unregistered-discovery/
+          retention-days: 7
+
       - name: Sync Slack Activity
+        if: ${{ github.event.inputs.discovery_mode != 'true' }}
         run: |
           if [ "${{ github.event.inputs.full_sync }}" = "true" ]; then
             node scripts/sync-slack.js --full
@@ -42,6 +64,7 @@ jobs:
           GCP_ENDPOINT_ID: ${{ secrets.GCP_ENDPOINT_ID }}
 
       - name: Build Knowledge Graph
+        if: ${{ github.event.inputs.discovery_mode != 'true' }}
         run: node scripts/build-knowledge-graph.js
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -50,9 +73,11 @@ jobs:
           GCP_ENDPOINT_ID: ${{ secrets.GCP_ENDPOINT_ID }}
 
       - name: Generate Graph Documentation
+        if: ${{ github.event.inputs.discovery_mode != 'true' }}
         run: node scripts/generate-graph-doc.js
 
       - name: Commit and Push changes
+        if: ${{ github.event.inputs.discovery_mode != 'true' }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
