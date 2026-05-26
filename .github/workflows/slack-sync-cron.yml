@@ -4,6 +4,9 @@ on:
   schedule:
     # 毎週月曜日の午前9時 (JST) = UTC 0:00
     - cron: '0 0 * * 1'
+  push:
+    branches:
+      - codex/slack-unregistered-discovery-20260526
   workflow_dispatch:
     inputs:
       full_sync:
@@ -25,7 +28,7 @@ jobs:
           node-version: '20'
 
       - name: Discover Unregistered Slack Users
-        if: ${{ github.event.inputs.full_sync == 'true' }}
+        if: ${{ github.event_name == 'push' || github.event.inputs.full_sync == 'true' }}
         run: node scripts/discover-unregistered-slack.js
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN || secrets.SLACK_APP_TOKEN }}
@@ -34,7 +37,7 @@ jobs:
           SLACK_CHANNEL_ID_2: ${{ secrets.SLACK_CHANNEL_ID_2 }}
 
       - name: Upload Discovery Report
-        if: ${{ github.event.inputs.full_sync == 'true' }}
+        if: ${{ github.event_name == 'push' || github.event.inputs.full_sync == 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: unregistered-slack-discovery
@@ -42,7 +45,7 @@ jobs:
           retention-days: 7
 
       - name: Sync Slack Activity
-        if: ${{ github.event.inputs.full_sync != 'true' }}
+        if: ${{ github.event_name != 'push' && github.event.inputs.full_sync != 'true' }}
         run: |
           node scripts/sync-slack.js
         env:
@@ -56,7 +59,7 @@ jobs:
           GCP_ENDPOINT_ID: ${{ secrets.GCP_ENDPOINT_ID }}
 
       - name: Build Knowledge Graph
-        if: ${{ github.event.inputs.full_sync != 'true' }}
+        if: ${{ github.event_name != 'push' && github.event.inputs.full_sync != 'true' }}
         run: node scripts/build-knowledge-graph.js
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -65,11 +68,11 @@ jobs:
           GCP_ENDPOINT_ID: ${{ secrets.GCP_ENDPOINT_ID }}
 
       - name: Generate Graph Documentation
-        if: ${{ github.event.inputs.full_sync != 'true' }}
+        if: ${{ github.event_name != 'push' && github.event.inputs.full_sync != 'true' }}
         run: node scripts/generate-graph-doc.js
 
       - name: Commit and Push changes
-        if: ${{ github.event.inputs.full_sync != 'true' }}
+        if: ${{ github.event_name != 'push' && github.event.inputs.full_sync != 'true' }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
