@@ -21,6 +21,28 @@ const sampleMessages = [
     threadTs: null,
     parentUserId: null,
     permalink: null
+  },
+  {
+    id: 'primary:C_TEST:2',
+    workspace: 'primary',
+    channelId: 'C_TEST',
+    user: 'U09MGV3MU9H',
+    text: '息子、ベビーサークルデビューしました:raised_hands:',
+    messageTs: '1770000001.000000',
+    threadTs: null,
+    parentUserId: null,
+    permalink: null
+  },
+  {
+    id: 'primary:C_TEST:3',
+    workspace: 'primary',
+    channelId: 'C_TEST',
+    user: 'U09MGV3MU9H',
+    text: 'Saiteki AI Standard を公開しました。',
+    messageTs: '1770000002.000000',
+    threadTs: null,
+    parentUserId: null,
+    permalink: null
   }
 ];
 
@@ -40,6 +62,15 @@ assert(graph.length > employees.length, 'facets should be generated for employee
 assert(
   graph.some((facet) => facet.employeeName === '上原基臣' && facet.messageQuotes.length > 0),
   'message quotes should be attached to matching facets'
+);
+const sugiAiFacets = graph.filter((facet) => facet.employeeName === '杉本光一' && facet.label.toLowerCase().includes('ai'));
+assert(
+  sugiAiFacets.some((facet) => facet.messageQuotes.some((quote) => quote.text.includes('AI Standard'))),
+  'ASCII terms such as AI should match as standalone words'
+);
+assert(
+  sugiAiFacets.every((facet) => !facet.messageQuotes.some((quote) => quote.text.includes('raised_hands'))),
+  'ASCII terms such as AI should not match inside emoji names like raised_hands'
 );
 
 const pokemonResults = searchFacets(graph, 'ポケモンが好きな人', { category: '興味・人柄', threshold: 0.16 });

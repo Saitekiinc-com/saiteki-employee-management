@@ -204,6 +204,29 @@ function evidenceSearchTerms(label, aliases) {
     .sort((a, b) => b.replace(/\s+/g, '').length - a.replace(/\s+/g, '').length);
 }
 
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function isAsciiSearchTerm(term) {
+  return /^[a-z0-9+#.]+$/i.test(term);
+}
+
+function textContainsTerm(text, term) {
+  if (!term) return false;
+  if (!isAsciiSearchTerm(term)) return text.includes(term);
+
+  const pattern = new RegExp(`(^|[^a-z0-9])${escapeRegExp(term)}([^a-z0-9]|$)`, 'i');
+  return pattern.test(text);
+}
+
+function quoteSearchTerms(label, aliases) {
+  return [label, ...aliases]
+    .map(normalizeText)
+    .filter((term) => term.replace(/\s+/g, '').length >= 2)
+    .sort((a, b) => b.replace(/\s+/g, '').length - a.replace(/\s+/g, '').length);
+}
+
 function messageKey(message) {
   return `${message.workspace || 'primary'}:${message.channelId || message.channel || ''}:${message.ts || message.messageTs || ''}`;
 }
@@ -248,14 +271,14 @@ function messagesBySlackId(messages) {
 
 function findMessageQuotes(employee, label, aliases, messageIndex) {
   const ids = [employee.slack_id, employee.slack_id_2].filter(Boolean);
-  const terms = [label, ...aliases].map(normalizeText).filter((term) => term.length >= 2);
+  const terms = quoteSearchTerms(label, aliases);
   const quotes = [];
 
   for (const id of ids) {
     const messages = messageIndex.get(id) || [];
     for (const message of messages) {
       const text = normalizeText(message.text);
-      if (!terms.some((term) => text.includes(term))) continue;
+      if (!terms.some((term) => textContainsTerm(text, term))) continue;
       quotes.push({
         text: cleanText(message.text, 180),
         channelId: message.channelId,
