@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a92db317585fa24f",
+  "@type": "saiteki:TopicNode",
+  "name": "技術と創作の経験を活かせること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

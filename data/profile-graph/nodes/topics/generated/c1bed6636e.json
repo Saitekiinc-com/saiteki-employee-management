@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:dbbc38170d7c5595",
+  "@type": "saiteki:TopicNode",
+  "name": "戦略的営業",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

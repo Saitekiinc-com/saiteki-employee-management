@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:38f1c0046b5c386b",
+  "@type": "saiteki:TopicNode",
+  "name": "ワークライフバランスの重視と、それによる持続可能な貢献",
+  "topicType": "value",
+  "aliases": [
+    "ワークライフバランスの重視と",
+    "それによる持続可能な貢献"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:f904928f7026a7e1",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:青木淳一郎",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:85dee343aec86c27",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:7956e43d0dad75aa:001"
+  ]
+}

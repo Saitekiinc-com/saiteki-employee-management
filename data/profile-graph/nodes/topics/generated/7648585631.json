@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:677d97f306497308",
+  "@type": "saiteki:TopicNode",
+  "name": "技術革新",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

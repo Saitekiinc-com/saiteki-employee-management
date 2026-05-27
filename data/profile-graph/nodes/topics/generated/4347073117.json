@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f82b3eec1f0a254a",
+  "@type": "saiteki:TopicNode",
+  "name": "インクルージョン推進",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

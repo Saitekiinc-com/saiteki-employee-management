@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:13e3e01544dd441d",
+  "@type": "saiteki:TopicNode",
+  "name": "個人の能力や経験の尊重",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

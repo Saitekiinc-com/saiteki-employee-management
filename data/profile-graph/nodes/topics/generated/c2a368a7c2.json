@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a7449a3ee83d70bb",
+  "@type": "saiteki:TopicNode",
+  "name": "テスト計画フェーズの最適化",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

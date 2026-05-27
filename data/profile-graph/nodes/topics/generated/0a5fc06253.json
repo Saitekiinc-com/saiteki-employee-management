@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7575eaa14fbac774",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい挑戦",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

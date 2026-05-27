@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:fde3fa19d1a570c5",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:戸塚直道",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:e6ce20c441ba1356",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:0ff89357a2a111cf:001"
+  ]
+}

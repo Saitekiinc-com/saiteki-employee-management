@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:687fecdaf9d5b960:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:15c6d21442494669",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "共創",
+  "detailBullets": [
+    "共創",
+    "グローバルな視点と実践的なAI知識を兼ね備え、起業家精神と旺盛な行動力で共創を推進する。",
+    "SaitekiメンバーとのAI実装の成功事例を「どんどん共創していきたい」「一緒に形にしましょう」と呼びかけ、自身の知見を共有しつつ、他者からの質問を積極的に受け付けるなど、協力的な姿勢が明確である。",
+    "最新技術を自ら積極的に検証し、その知見を共有しながら、多様なチームとの共創を通じて具体的な成果を最大化する。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1763025220.286729"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "共創"
+    },
+    {
+      "text": "グローバルな視点と実践的なAI知識を兼ね備え、起業家精神と旺盛な行動力で共創を推進する。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "SaitekiメンバーとのAI実装の成功事例を「どんどん共創していきたい」「一緒に形にしましょう」と呼びかけ、自身の知見を共有しつつ、他者からの質問を積極的に受け付けるなど、協力的な姿勢が明確である。",
+      "sourceField": "personality_traits.agreeableness.evidence"
+    },
+    {
+      "text": "最新技術を自ら積極的に検証し、その知見を共有しながら、多様なチームとの共創を通じて具体的な成果を最大化する。",
+      "sourceField": "work_styles_and_strengths.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:51:41.558Z",
+  "updatedAt": "2026-02-16T02:50:35.790Z"
+}

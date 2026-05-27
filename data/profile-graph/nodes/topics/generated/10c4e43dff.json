@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:cdcb27e52691705a",
+  "@type": "saiteki:TopicNode",
+  "name": "最高のカルチャーを守りながら、まだ見ぬ高みへと一気に駆け上がること",
+  "topicType": "motivation",
+  "aliases": [
+    "最高のカルチャーを守りながら",
+    "まだ見ぬ高みへと一気に駆け上がること"
+  ],
+  "generatedFrom": "employees.json"
+}

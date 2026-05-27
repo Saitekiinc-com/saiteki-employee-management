@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:1da5e59d7031668d",
+  "@type": "saiteki:TopicNode",
+  "name": "自己成長",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:5becf2642d0ef98e",
+  "@type": "saiteki:TopicNode",
+  "name": "実践的なAI活用能力",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

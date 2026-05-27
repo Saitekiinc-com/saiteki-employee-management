@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:8503ca1c8f365d39",
+  "@type": "saiteki:TopicNode",
+  "name": "親しみやすさ",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

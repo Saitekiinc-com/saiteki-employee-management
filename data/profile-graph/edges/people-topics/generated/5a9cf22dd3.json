@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:bd714dd2808ae428",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:櫻井志保",
+  "predicate": "MOTIVATED_BY",
+  "target": "topic:auto:0c2eea9c79e9d712",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "facts": [
+    "fact:auto:5a9cf22dd3521837:001"
+  ]
+}

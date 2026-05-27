@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:2c4d2c5f83f67307",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:田浦裕樹",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:d2612bb4bb1ee2b8",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:4c1f50c7da11979e:001"
+  ]
+}

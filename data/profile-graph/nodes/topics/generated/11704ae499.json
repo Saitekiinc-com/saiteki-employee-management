@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:dc418cea08a045f7",
+  "@type": "saiteki:TopicNode",
+  "name": "協調性",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

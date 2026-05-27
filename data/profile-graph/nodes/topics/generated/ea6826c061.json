@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:0d2b72d7f58453eb",
+  "@type": "saiteki:TopicNode",
+  "name": "Saitekiのビジョン実現と業界課題の解決に貢献できる実感",
+  "topicType": "motivation",
+  "aliases": [
+    "saiteki"
+  ],
+  "generatedFrom": "employees.json"
+}

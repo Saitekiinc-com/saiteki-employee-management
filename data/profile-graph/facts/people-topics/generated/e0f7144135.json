@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:ff0d61742f55d5cb:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:3c3d08aa5508a820",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "経験の共有",
+  "detailBullets": [
+    "経験の共有",
+    "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "経験の共有"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:36:35.579Z",
+  "updatedAt": "2026-05-11T04:06:08.439Z"
+}

@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:09b69d66bb20f1c4:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:4d74a09e0c8f7d7d",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "協調性",
+  "detailBullets": [
+    "協調性",
+    "櫻井志保さんは、データ分析スキルと高い学習意欲を持ち、協調性をもってチームに貢献しようと意欲的な人物です。",
+    "自己認識が高く、協調性があり、学習意欲も高い。",
+    "「今後ともよろしくお願いいたします」「まだまだ至らない点も多いかと思いますが、何卒よろしくお願いいたします」といった謙虚で丁寧な言葉遣いから、協調性や相手への配慮が強く感じられます。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "協調性"
+    },
+    {
+      "text": "櫻井志保さんは、データ分析スキルと高い学習意欲を持ち、協調性をもってチームに貢献しようと意欲的な人物です。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "自己認識が高く、協調性があり、学習意欲も高い。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "「今後ともよろしくお願いいたします」「まだまだ至らない点も多いかと思いますが、何卒よろしくお願いいたします」といった謙虚で丁寧な言葉遣いから、協調性や相手への配慮が強く感じられます。",
+      "sourceField": "personality_traits.agreeableness.evidence"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:37:20.495Z",
+  "updatedAt": "2026-02-11T11:49:38.763Z"
+}

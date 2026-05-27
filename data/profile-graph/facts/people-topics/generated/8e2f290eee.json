@@ -1,0 +1,35 @@
+{
+  "@id": "fact:auto:558fac35fa10dd80:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:a69a8f76ad31e0de",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "AI技術の組織への導入が進み、「AI駆動型組織」が実現すること",
+  "detailBullets": [
+    "AI技術の組織への導入が進み、「AI駆動型組織」が実現すること",
+    "AI駆動型組織への変革"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09QXV3F8G0:1761970843.001899",
+    "primary:C09QXV3F8G0:1762049034.961349"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "AI技術の組織への導入が進み、「AI駆動型組織」が実現すること"
+    },
+    {
+      "text": "AI駆動型組織への変革",
+      "sourceField": "values_and_motivators.core_values.3"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指すことをモチベーションの源泉とする。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

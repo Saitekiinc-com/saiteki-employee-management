@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:de4fee16143e750d",
+  "@type": "saiteki:TopicNode",
+  "name": "本質的な問い（Why）の追求",
+  "topicType": "value",
+  "aliases": [
+    "本質的な問い",
+    "why",
+    "の追求"
+  ],
+  "generatedFrom": "employees.json"
+}

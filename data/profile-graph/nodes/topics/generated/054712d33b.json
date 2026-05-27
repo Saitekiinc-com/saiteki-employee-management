@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:609b064b34127569",
+  "@type": "saiteki:TopicNode",
+  "name": "ゼロからアイデアを形にしていくプロセス",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

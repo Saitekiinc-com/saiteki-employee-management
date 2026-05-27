@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:06782631eadb53f2",
+  "@type": "saiteki:TopicNode",
+  "name": "組織が急激に成長し、ステージが一段上がる「歴史が変わる瞬間」を体感すること",
+  "topicType": "motivation",
+  "aliases": [
+    "組織が急激に成長し",
+    "ステージが一段上がる",
+    "歴史が変わる瞬間",
+    "を体感すること"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:b8b15687f0b9c802",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:真栄城則明",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:16cf9d4bc3406fb2",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:1110d59b47c14a66:001"
+  ]
+}

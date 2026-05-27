@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:aa1a23d793b9b56e:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:87e4163799ba635f",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "作曲",
+  "detailBullets": [
+    "作曲",
+    "八木橋さんは、作曲、オペレーションリーダー、ゲーム開発、開発・インフラ・サービス・テスト領域のSE、SES採用・営業など、技術とクリエイティブ、ビジネスの幅広い経験を持つ人物です。",
+    "作曲、ゲーム開発、開発・インフラ・サービス・テスト領域のSEなど、技術と創作の両面で幅広い経験がある。",
+    "開発、インフラ、サービス、テスト、採用・営業、ゲーム開発、作曲まで横断的な経験を持つ越境型の人材。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771638120.236499"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "作曲"
+    },
+    {
+      "text": "八木橋さんは、作曲、オペレーションリーダー、ゲーム開発、開発・インフラ・サービス・テスト領域のSE、SES採用・営業など、技術とクリエイティブ、ビジネスの幅広い経験を持つ人物です。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "作曲、ゲーム開発、開発・インフラ・サービス・テスト領域のSEなど、技術と創作の両面で幅広い経験がある。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "開発、インフラ、サービス、テスト、採用・営業、ゲーム開発、作曲まで横断的な経験を持つ越境型の人材。",
+      "sourceField": "work_styles_and_strengths.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

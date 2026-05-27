@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:1fe7afac6d9580ca",
+  "@type": "saiteki:TopicNode",
+  "name": "ユーザーの利便性向上",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

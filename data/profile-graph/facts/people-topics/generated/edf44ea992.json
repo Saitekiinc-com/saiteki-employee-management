@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:83daa95f417efbdf:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:8b11a68b178740dd",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "自己鍛錬",
+  "detailBullets": [
+    "自己鍛錬",
+    "週1でランニングを始め、長距離イベントへの参加を目標に掲げていることから、目標設定と自己鍛錬への意欲が高い。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "自己鍛錬"
+    },
+    {
+      "text": "週1でランニングを始め、長距離イベントへの参加を目標に掲げていることから、目標設定と自己鍛錬への意欲が高い。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。目標に向かって努力する過程自体を楽しんでいる。また、社内のつながりや他者への貢献も大切にする。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

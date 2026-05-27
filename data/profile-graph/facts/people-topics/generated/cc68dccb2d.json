@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:1c05d9a129cc052b:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:728a3fa0b3755395",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "成長",
+  "detailBullets": [
+    "成長",
+    "組織への多角的な貢献に加え、社員のウェルビーイング、社内コミュニティ活性化、学習機会提供、そして外部への情報発信を通じて企業の成長を多角的に支援。",
+    "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。",
+    "情報共有は明確かつ利用者のメリットを提示する形で行われるだけでなく、社内のウェルビーイング向上、会社の成長戦略、人材獲得、社内交流の活性化への貢献、そして外部への情報発信、社員への学習機会提供を積極的に促す。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1770343011.396819",
+    "primary:C09MKT8QKAR:1773385463.876479"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "成長"
+    },
+    {
+      "text": "組織への多角的な貢献に加え、社員のウェルビーイング、社内コミュニティ活性化、学習機会提供、そして外部への情報発信を通じて企業の成長を多角的に支援。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "情報共有は明確かつ利用者のメリットを提示する形で行われるだけでなく、社内のウェルビーイング向上、会社の成長戦略、人材獲得、社内交流の活性化への貢献、そして外部への情報発信、社員への学習機会提供を積極的に促す。",
+      "sourceField": "communication_patterns.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

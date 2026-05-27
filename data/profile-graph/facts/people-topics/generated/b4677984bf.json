@@ -1,0 +1,35 @@
+{
+  "@id": "fact:auto:103076e959dcb0e5:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:86257dae0cedc28d",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "AI駆動開発の実践と知識共有（特に標準化・ガイドライン作成）",
+  "detailBullets": [
+    "AI駆動開発の実践と知識共有（特に標準化・ガイドライン作成）",
+    "AI駆動開発の標準化に向けたワークフローやガイドライン作成にも継続的に取り組む。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1762165650.114659",
+    "primary:C09Q1KNL2P8:1762473098.322719"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "AI駆動開発の実践と知識共有（特に標準化・ガイドライン作成）"
+    },
+    {
+      "text": "AI駆動開発の標準化に向けたワークフローやガイドライン作成にも継続的に取り組む。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "AI技術を核とした開発プロセスの深い知見を持ち、アジャイルの本質であるリスクコントロールを重視する。Saitekiの独自の顧客貢献ビジョンに深く共感し、特に「顧客の意思決定の文脈に乗せる」機動力と柔軟性を重視。困難な状況でも諦めずに解決策を模索し、会社のユニークなポジション確立を推進する強い推進力と責任感を持って業務に取り組む。組織のビジョン達成への強いコミットメントと、適切な人材を見抜きチームへの貢献を促す視点を持つ。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:37:37.794Z",
+  "updatedAt": "2026-04-13T03:36:52.852Z"
+}

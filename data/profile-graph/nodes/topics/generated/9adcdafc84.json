@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:285d6521bbeae920",
+  "@type": "saiteki:TopicNode",
+  "name": "心理的安全性確保",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:710034eca00a4dcb",
+  "@type": "saiteki:TopicNode",
+  "name": "親密性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

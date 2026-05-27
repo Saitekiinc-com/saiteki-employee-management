@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:4d10aa62bb934528",
+  "@type": "saiteki:TopicNode",
+  "name": "エンジニアの影響力拡大",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

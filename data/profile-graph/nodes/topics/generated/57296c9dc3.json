@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:8304f1ee36fb34b0",
+  "@type": "saiteki:TopicNode",
+  "name": "同僚への貢献と感謝の還元",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

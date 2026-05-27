@@ -1,0 +1,35 @@
+{
+  "@id": "fact:auto:59b67310606001c1:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:957fa79a8ddf5004",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "ラーメン",
+  "detailBullets": [
+    "ラーメン",
+    "」と自身の役割と年齢を積極的に自己開示し、共通の話題（ラーメン、アニメ、ポケモン、出身地、大学、マッサージ巡りなど）を見つけては、積極的に相手に話しかけ、関係性を深めようと努力する。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1768614261.622119",
+    "primary:C09Q46YA4ER:1768714382.276029"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "ラーメン"
+    },
+    {
+      "text": "」と自身の役割と年齢を積極的に自己開示し、共通の話題（ラーメン、アニメ、ポケモン、出身地、大学、マッサージ巡りなど）を見つけては、積極的に相手に話しかけ、関係性を深めようと努力する。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社3ヶ月目の新入社員として、新しい環境への適応と人間関係の構築に積極的に取り組んでいる。自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。専門的な学習だけでなく、趣味を通じた交流にも意欲的である。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

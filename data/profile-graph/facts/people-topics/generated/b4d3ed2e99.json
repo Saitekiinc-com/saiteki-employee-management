@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:e6850651938c6422:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:9ff52fbfd9cf7335",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "創造性",
+  "detailBullets": [
+    "創造性",
+    "創造性と経験の幅が非常に広く、自然体で柔らかい関係構築を好む人物です。",
+    "ゲーム開発・作曲による創造性"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "創造性"
+    },
+    {
+      "text": "創造性と経験の幅が非常に広く、自然体で柔らかい関係構築を好む人物です。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "ゲーム開発・作曲による創造性",
+      "sourceField": "work_styles_and_strengths.dominant_strengths.1"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

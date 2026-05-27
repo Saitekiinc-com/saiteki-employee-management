@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:1249fdaf3cecfe55",
+  "@type": "saiteki:TopicNode",
+  "name": "計画性",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

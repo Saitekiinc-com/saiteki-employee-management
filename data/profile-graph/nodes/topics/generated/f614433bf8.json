@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:67f882431ade4bc1",
+  "@type": "saiteki:TopicNode",
+  "name": "次男の七五三撮影",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

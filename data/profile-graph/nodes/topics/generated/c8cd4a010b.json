@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a4a674352a6d0c85",
+  "@type": "saiteki:TopicNode",
+  "name": "社会課題解決志向",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

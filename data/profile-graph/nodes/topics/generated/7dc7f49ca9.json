@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3807f6d720668555",
+  "@type": "saiteki:TopicNode",
+  "name": "リモートワークの可能性実証",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

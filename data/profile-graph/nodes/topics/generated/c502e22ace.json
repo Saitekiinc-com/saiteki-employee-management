@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:5155e4cb16e3c2ca",
+  "@type": "saiteki:TopicNode",
+  "name": "新メンバーのオンボーディング支援と統合促進",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

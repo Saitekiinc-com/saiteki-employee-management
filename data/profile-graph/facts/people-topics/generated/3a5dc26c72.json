@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:8458117f7f85b13c:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:3e836c73f7467ba5",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "Saiteki AI Standardの策定と公開、およびAI活用の本質的な哲学",
+  "detailBullets": [
+    "Saiteki AI Standardの策定と公開、およびAI活用の本質的な哲学",
+    "全社的なAI活用ガイドライン『Saiteki AI Standard』を策定し公開するなど、組織全体の課題解決に対する強い責任感と、それを具体化するための計画性、実行力を持つ。",
+    "『Saiteki AI Standard』を策定・公開し、AI活用における組織全体の思考様式と行動規範を具体的に提示した。",
+    "全社チャンネルで『Saiteki AI Standard』を通じてAI活用の本質に関する哲学的な提言を行い、組織全体の意識改革を促すリーダーシップを発揮する。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q1KNL2P8:1762492758.727199",
+    "primary:C09Q46YA4ER:1763036519.623049"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "Saiteki AI Standardの策定と公開、およびAI活用の本質的な哲学"
+    },
+    {
+      "text": "全社的なAI活用ガイドライン『Saiteki AI Standard』を策定し公開するなど、組織全体の課題解決に対する強い責任感と、それを具体化するための計画性、実行力を持つ。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "『Saiteki AI Standard』を策定・公開し、AI活用における組織全体の思考様式と行動規範を具体的に提示した。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+    },
+    {
+      "text": "全社チャンネルで『Saiteki AI Standard』を通じてAI活用の本質に関する哲学的な提言を行い、組織全体の意識改革を促すリーダーシップを発揮する。",
+      "sourceField": "communication_patterns.communication_style"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:03:13.056Z",
+  "updatedAt": "2026-05-25T04:24:40.350Z"
+}

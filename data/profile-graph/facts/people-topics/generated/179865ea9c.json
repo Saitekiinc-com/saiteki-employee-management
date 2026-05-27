@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:d90713e047a5fa84:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b3ad29a1b0320ea1",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "テスト業務",
+  "detailBullets": [
+    "テスト業務",
+    "上原さんは、サーバ運用・テスト業務を中心に長く経験を積み、改修開発やサポート、総合テストにも携わってきた堅実なエンジニアです。",
+    "情報系専門学校卒業後、約10年間サーバ運用・テスト業務に携わったと自己紹介している。",
+    "その後、約2年ほど改修開発を経験し、直近では修正業務、サポート業務、総合テスト業務を担当していた。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771550812.233829"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "テスト業務"
+    },
+    {
+      "text": "上原さんは、サーバ運用・テスト業務を中心に長く経験を積み、改修開発やサポート、総合テストにも携わってきた堅実なエンジニアです。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "情報系専門学校卒業後、約10年間サーバ運用・テスト業務に携わったと自己紹介している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+    },
+    {
+      "text": "その後、約2年ほど改修開発を経験し、直近では修正業務、サポート業務、総合テスト業務を担当していた。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

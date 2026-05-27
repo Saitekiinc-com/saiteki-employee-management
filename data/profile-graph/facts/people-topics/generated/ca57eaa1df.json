@@ -1,0 +1,31 @@
+{
+  "@id": "fact:auto:72b54c8c4851d596:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:376cccc742a552c9",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "AI技術の積極的活用",
+  "detailBullets": [
+    "AI技術の積極的活用",
+    "新しい技術の習得と自身の成長を強く志向し、AI技術の可能性を信じてその活用を推進する。チームの一員として貢献することに価値を見出し、知的探求と人との交流を大切にする。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1770158657.842549",
+    "primary:C09Q46YA4ER:1770184639.802789"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "AI技術の積極的活用"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "新しい技術の習得と自身の成長を強く志向し、AI技術の可能性を信じてその活用を推進する。チームの一員として貢献することに価値を見出し、知的探求と人との交流を大切にする。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:41:32.701Z",
+  "updatedAt": "2026-02-16T02:50:17.340Z"
+}

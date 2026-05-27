@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f2133be1b0e558fa",
+  "@type": "saiteki:TopicNode",
+  "name": "興味を持ったことの詳細な情報共有",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

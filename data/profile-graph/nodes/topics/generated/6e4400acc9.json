@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:2dc2e976a5e6825e",
+  "@type": "saiteki:TopicNode",
+  "name": "グルメ（山岡家などのラーメン店）やリラックス体験（サウナ）",
+  "topicType": "interest",
+  "aliases": [
+    "グルメ",
+    "山岡家などのラーメン店",
+    "やリラックス体験",
+    "サウナ"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:fd6f1ed26b042cb9",
+  "@type": "saiteki:TopicNode",
+  "name": "起業家精神",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

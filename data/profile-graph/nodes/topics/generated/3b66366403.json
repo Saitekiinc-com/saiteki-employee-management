@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:82ee401a113cbd35",
+  "@type": "saiteki:TopicNode",
+  "name": "ヒアリング力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ab6e6a0065ce685f",
+  "@type": "saiteki:TopicNode",
+  "name": "社会課題解決",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

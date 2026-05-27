@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:febff093db336690:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:8ab2547be95bc8aa",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "安定",
+  "detailBullets": [
+    "安定",
+    "一人暮らし開始に伴う懸念事項を自ら解消し、「懸念がほぼ払拭できた」と報告することで、自己管理能力の高さと安定感を保つ能力を示す。",
+    "新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
+    "新しい生活への期待と、残りの連休を楽しむ意欲に満ちた、非常にポジティブで安定した状態にある。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "安定"
+    },
+    {
+      "text": "一人暮らし開始に伴う懸念事項を自ら解消し、「懸念がほぼ払拭できた」と報告することで、自己管理能力の高さと安定感を保つ能力を示す。",
+      "sourceField": "personality_traits.neuroticism.evidence"
+    },
+    {
+      "text": "新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "新しい生活への期待と、残りの連休を楽しむ意欲に満ちた、非常にポジティブで安定した状態にある。",
+      "sourceField": "current_state.summary"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:36:35.579Z",
+  "updatedAt": "2026-05-11T04:06:08.439Z"
+}

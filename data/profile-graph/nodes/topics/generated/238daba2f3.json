@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c19cd1bda08edfd8",
+  "@type": "saiteki:TopicNode",
+  "name": "自己鍛錬",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

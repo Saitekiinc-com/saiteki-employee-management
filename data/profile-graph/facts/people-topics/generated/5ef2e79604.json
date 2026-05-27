@@ -1,0 +1,30 @@
+{
+  "@id": "fact:auto:2be2f5aab4850af8:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b5d673be8484a6f8",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "最高のカルチャーを守りながら、まだ見ぬ高みへと一気に駆け上がること",
+  "detailBullets": [
+    "最高のカルチャーを守りながら、まだ見ぬ高みへと一気に駆け上がること",
+    "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指す…"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1779596348.176379"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "最高のカルチャーを守りながら、まだ見ぬ高みへと一気に駆け上がること"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指すことをモチベーションの源泉とする。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

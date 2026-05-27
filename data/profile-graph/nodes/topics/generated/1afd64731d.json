@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:683fac67601bae3b",
+  "@type": "saiteki:TopicNode",
+  "name": "繋がり",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

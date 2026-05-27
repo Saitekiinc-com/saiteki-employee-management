@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a457dab4d9727496",
+  "@type": "saiteki:TopicNode",
+  "name": "技術とビジネスの融合",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

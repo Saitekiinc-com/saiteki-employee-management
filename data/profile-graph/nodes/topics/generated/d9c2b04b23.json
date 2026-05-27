@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b130195d4b1231ac",
+  "@type": "saiteki:TopicNode",
+  "name": "M&A戦略の推進",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

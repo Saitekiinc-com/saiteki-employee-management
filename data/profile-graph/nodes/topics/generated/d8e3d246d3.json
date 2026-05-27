@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6e5e54b96b1b97c6",
+  "@type": "saiteki:TopicNode",
+  "name": "情報提供力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

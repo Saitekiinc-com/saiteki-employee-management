@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:1c752565141edef2",
+  "@type": "saiteki:TopicNode",
+  "name": "人間中心のAI活用哲学の提唱と浸透",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

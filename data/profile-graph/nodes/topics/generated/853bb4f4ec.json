@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b00d0a94575d0bdb",
+  "@type": "saiteki:TopicNode",
+  "name": "チームや組織の生産性が向上すること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

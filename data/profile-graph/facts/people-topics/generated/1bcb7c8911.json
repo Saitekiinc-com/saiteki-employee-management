@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:f11a2a68908ed0ae:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:cb72e3bcac7c6e44",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "「Letter of T」を通じて自身の哲学や経験がメンバーに伝わり、組織の成長に貢献すること",
+  "detailBullets": [
+    "「Letter of T」を通じて自身の哲学や経験がメンバーに伝わり、組織の成長に貢献すること",
+    "「Letter of T」で上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティ、そして「大手が動けない数年間」の戦い方といった経営の真髄を詳細に共有する。",
+    "毎週の「Letter of T」を継続的に発行し、経営戦略や自身の哲学を詳細に言語化。",
+    "「Letter of T」で、上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティといった経営と営業の真髄を詳細に共有し、自身の意思決定基準と執着心を示した。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1767527059.299489",
+    "primary:C09MKT8QKAR:1768010533.882019"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "「Letter of T」を通じて自身の哲学や経験がメンバーに伝わり、組織の成長に貢献すること"
+    },
+    {
+      "text": "「Letter of T」で上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティ、そして「大手が動けない数年間」の戦い方といった経営の真髄を詳細に共有する。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "毎週の「Letter of T」を継続的に発行し、経営戦略や自身の哲学を詳細に言語化。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "「Letter of T」で、上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティといった経営と営業の真髄を詳細に共有し、自身の意思決定基準と執着心を示した。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

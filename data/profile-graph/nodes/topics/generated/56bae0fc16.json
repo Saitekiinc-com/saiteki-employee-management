@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6c42fe53b4d5ade1",
+  "@type": "saiteki:TopicNode",
+  "name": "戦略的投資と意思決定",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

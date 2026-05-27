@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:4f255b11cefb37cd",
+  "@type": "saiteki:TopicNode",
+  "name": "チームメンバーとの交流と協力",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

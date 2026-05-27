@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d0079f91f8d06ef5",
+  "@type": "saiteki:TopicNode",
+  "name": "新しいメンバーと共に働くことへの期待と喜び",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

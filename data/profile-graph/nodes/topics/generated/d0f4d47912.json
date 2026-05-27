@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:10f78ca197c8f35a",
+  "@type": "saiteki:TopicNode",
+  "name": "京都旅行",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

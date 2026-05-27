@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:768a79d412d3b9d7",
+  "@type": "saiteki:TopicNode",
+  "name": "組織の成長や理想的な姿について考察し、貢献すること",
+  "topicType": "motivation",
+  "aliases": [
+    "組織の成長や理想的な姿について考察し",
+    "貢献すること"
+  ],
+  "generatedFrom": "employees.json"
+}

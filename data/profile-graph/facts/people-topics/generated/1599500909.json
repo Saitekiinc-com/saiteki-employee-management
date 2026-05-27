@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:26a750e571c0fe32:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:be6ac37ff9521fa9",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "自動化",
+  "detailBullets": [
+    "自動化",
+    "戦略的視点を持つエンジニアとして、アーキテクチャ、自動化、コスト最適化を深く探求し、技術をビジネス価値に変換し組織に貢献しようと積極的かつ自律的に行動する。",
+    "技術的な探求心に加え、ビジネスの側面、特にインフラのアーキテクチャ、自動化、コスト最適化といった実務的な課題への深い洞察を示す。",
+    "勉強会で、アーキテクチャの合意形成術、自動化の必要性、コスト最適化の主導権といった実践的なテーマについて詳細なメモを取り、深い洞察と多数の疑問点を書き出すことで、新しい知識への飽くなき探求心を示している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1770038608.992829",
+    "primary:C09MKT8QKAR:1778497640.252359"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "自動化"
+    },
+    {
+      "text": "戦略的視点を持つエンジニアとして、アーキテクチャ、自動化、コスト最適化を深く探求し、技術をビジネス価値に変換し組織に貢献しようと積極的かつ自律的に行動する。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "技術的な探求心に加え、ビジネスの側面、特にインフラのアーキテクチャ、自動化、コスト最適化といった実務的な課題への深い洞察を示す。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "勉強会で、アーキテクチャの合意形成術、自動化の必要性、コスト最適化の主導権といった実践的なテーマについて詳細なメモを取り、深い洞察と多数の疑問点を書き出すことで、新しい知識への飽くなき探求心を示している。",
+      "sourceField": "personality_traits.openness.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

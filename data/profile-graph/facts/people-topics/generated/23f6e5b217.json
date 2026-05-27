@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:884a26866f8b9010:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:1c6040126e085ad8",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "貢献意欲",
+  "detailBullets": [
+    "貢献意欲",
+    "社会や組織全体、そしてチームメンバーをより良くしようとする貢献意欲…",
+    "勉強会の場で積極的にメモを取り、講師への感謝を述べ、自身の学びを共有することで、場への積極的な参加と貢献意欲を示している。",
+    "「上のレイヤーでどういう動きが/考えが存在するのか」に関心を示し、自身の成長と組織への貢献意欲を表明した。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "貢献意欲"
+    },
+    {
+      "text": "社会や組織全体、そしてチームメンバーをより良くしようとする貢献意欲…",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "勉強会の場で積極的にメモを取り、講師への感謝を述べ、自身の学びを共有することで、場への積極的な参加と貢献意欲を示している。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "「上のレイヤーでどういう動きが/考えが存在するのか」に関心を示し、自身の成長と組織への貢献意欲を表明した。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:06ba0025290da648",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:櫻井志保",
+  "predicate": "VALUES",
+  "target": "topic:auto:cc24d96e35ae83c0",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:39f0c44e2272e9f2:001"
+  ]
+}

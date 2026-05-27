@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:2ff0bcf18162df2b",
+  "@type": "saiteki:TopicNode",
+  "name": "写真・ビジュアルコンテンツ",
+  "topicType": "interest",
+  "aliases": [
+    "写真",
+    "ビジュアルコンテンツ"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:2c2017ef60d7faae",
+  "@type": "saiteki:TopicNode",
+  "name": "BIツールの知識習得",
+  "topicType": "work_topic",
+  "aliases": [
+    "bi"
+  ],
+  "generatedFrom": "employees.json"
+}

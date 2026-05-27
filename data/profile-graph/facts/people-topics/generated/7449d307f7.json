@@ -1,0 +1,34 @@
+{
+  "@id": "fact:auto:39fe0d4d693ee6fc:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:0a95c32975673333",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "技術的なスキル（VB.Net, JAVA）",
+  "detailBullets": [
+    "技術的なスキル（VB.Net, JAVA）",
+    "情報系の専門学校を卒業後、VB.NetやJAVAを用いたシステム開発、機能追加、改修の経験を積んでいると詳細に説明している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1770158657.842549"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "技術的なスキル（VB.Net, JAVA）"
+    },
+    {
+      "text": "情報系の専門学校を卒業後、VB.NetやJAVAを用いたシステム開発、機能追加、改修の経験を積んでいると詳細に説明している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "システム開発、品質管理の経験に加え、AI技術活用と応用力に長ける。工夫を凝らしたコーディングを好み、多角的な視点から問題解決に取り組む。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:41:32.701Z",
+  "updatedAt": "2026-02-16T02:50:17.340Z"
+}

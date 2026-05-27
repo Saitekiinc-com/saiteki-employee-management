@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:2aeeca65fb61d283",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:佐藤傑",
+  "predicate": "HAS_WORK_STYLE",
+  "target": "topic:auto:11d630fd78832872",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "facts": [
+    "fact:auto:4e450debc13c7264:001"
+  ]
+}

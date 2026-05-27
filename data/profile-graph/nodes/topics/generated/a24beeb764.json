@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:857604f4f7a4185a",
+  "@type": "saiteki:TopicNode",
+  "name": "コンプライアンス遵守",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

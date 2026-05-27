@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:3775896ab1dbc167:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:0d02e4a270554e6f",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "適応力",
+  "detailBullets": [
+    "適応力",
+    "高校で調理師免許を取得後、事務、飲食業、ネットワーク監視・運用保守など多岐にわたる職務経験を持ち、環境変化への高い適応力と柔軟性を持っている。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "適応力"
+    },
+    {
+      "text": "高校で調理師免許を取得後、事務、飲食業、ネットワーク監視・運用保守など多岐にわたる職務経験を持ち、環境変化への高い適応力と柔軟性を持っている。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "多様な経験と高い学習意欲に加え、自己規律を持って目標達成に取り組む。コミュニケーション能力も高く、周囲を支援しながら協調的に働くことを志向する。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

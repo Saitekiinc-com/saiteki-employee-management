@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3e29d3df2c2be754",
+  "@type": "saiteki:TopicNode",
+  "name": "透明性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

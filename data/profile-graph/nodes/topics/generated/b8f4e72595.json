@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:8c5142ba19bf7739",
+  "@type": "saiteki:TopicNode",
+  "name": "リモートワーク推進",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

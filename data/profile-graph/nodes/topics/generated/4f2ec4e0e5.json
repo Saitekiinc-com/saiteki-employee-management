@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:2821222e54b4ecd0",
+  "@type": "saiteki:TopicNode",
+  "name": "技術とビジネスの調和",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

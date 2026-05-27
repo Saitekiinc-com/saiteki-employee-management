@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d123649c78f36772",
+  "@type": "saiteki:TopicNode",
+  "name": "人材獲得",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

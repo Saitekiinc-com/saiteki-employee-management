@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:f75612a75d96ba1b",
+  "@type": "saiteki:TopicNode",
+  "name": "仮説検証に基づくプレゼン・資料設計と改善",
+  "topicType": "work_strength",
+  "aliases": [
+    "仮説検証に基づくプレゼン",
+    "資料設計と改善"
+  ],
+  "generatedFrom": "employees.json"
+}

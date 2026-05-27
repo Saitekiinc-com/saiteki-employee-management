@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:078d0a3465bbe836:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:03553f817bb2e898",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "YouTubeコンテンツプロモーション",
+  "detailBullets": [
+    "YouTubeコンテンツプロモーション",
+    "従業員の心身の健康を重視し、セルフマネジメントプログラムを推奨するだけでなく、会社のYouTubeチャンネルを通じて外部のビジネスリーダーの知見や新しい事業戦略、最先端のDX・AI技術動向を積極的に共有している。",
+    "YouTubeチャンネルのコンテンツ紹介においても、見どころを明確に構造的に提示し、具体的な論点を列挙している。",
+    "全社チャンネル向けに福利厚生プログラム、リファラル採用、オンライン飲み部、そして会社のYouTubeチャンネルや社内勉強会のアーカイブ視聴を呼びかけ、絵文字を多用しつつ明るく積極的に社員の関心を惹きつけ、参加や学習を促している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1770343011.396819",
+    "primary:C09MKT8QKAR:1770717705.529169"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "YouTubeコンテンツプロモーション"
+    },
+    {
+      "text": "従業員の心身の健康を重視し、セルフマネジメントプログラムを推奨するだけでなく、会社のYouTubeチャンネルを通じて外部のビジネスリーダーの知見や新しい事業戦略、最先端のDX・AI技術動向を積極的に共有している。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "YouTubeチャンネルのコンテンツ紹介においても、見どころを明確に構造的に提示し、具体的な論点を列挙している。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "全社チャンネル向けに福利厚生プログラム、リファラル採用、オンライン飲み部、そして会社のYouTubeチャンネルや社内勉強会のアーカイブ視聴を呼びかけ、絵文字を多用しつつ明るく積極的に社員の関心を惹きつけ、参加や学習を促している。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

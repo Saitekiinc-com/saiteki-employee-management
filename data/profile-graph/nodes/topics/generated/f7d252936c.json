@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:e4d9a43ee35fc94e",
+  "@type": "saiteki:TopicNode",
+  "name": "組織への新しい才能の導入と育成",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

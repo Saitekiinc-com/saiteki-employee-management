@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:fd3db59d7a0e6095",
+  "@type": "saiteki:TopicNode",
+  "name": "先入観なく周囲と関われること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:5940a81348a42255",
+  "@type": "saiteki:TopicNode",
+  "name": "人間関係",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

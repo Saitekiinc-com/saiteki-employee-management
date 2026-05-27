@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ad4f2602425929b1",
+  "@type": "saiteki:TopicNode",
+  "name": "同僚との共通の出身地や趣味",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

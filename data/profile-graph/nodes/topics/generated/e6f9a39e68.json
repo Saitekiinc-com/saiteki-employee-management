@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:00da5d82f0f823f8",
+  "@type": "saiteki:TopicNode",
+  "name": "標準化",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

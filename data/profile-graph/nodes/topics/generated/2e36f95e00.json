@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:1f764d2826ce0359",
+  "@type": "saiteki:TopicNode",
+  "name": "自動化推進",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

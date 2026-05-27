@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0c27b4f48fa87c33",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい仕組みの探求と構築を楽しむ姿勢",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

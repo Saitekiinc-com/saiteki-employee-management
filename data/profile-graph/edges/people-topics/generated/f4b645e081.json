@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:f5201f618546f249",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:小島遼祐",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:dc418cea08a045f7",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:f4b645e081f3802f:001"
+  ]
+}

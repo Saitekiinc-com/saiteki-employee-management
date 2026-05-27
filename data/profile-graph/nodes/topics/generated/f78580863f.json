@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ab1e5afca03b65a6",
+  "@type": "saiteki:TopicNode",
+  "name": "長期的視点",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

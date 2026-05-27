@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0a4bc911958e5fdb",
+  "@type": "saiteki:TopicNode",
+  "name": "海外での多様な経験と異文化交流",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

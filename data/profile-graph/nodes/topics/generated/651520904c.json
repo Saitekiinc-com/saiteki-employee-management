@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:2931ee62e91439ac",
+  "@type": "saiteki:TopicNode",
+  "name": "共通の話題による親近感",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

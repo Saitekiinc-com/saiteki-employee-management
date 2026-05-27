@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:1bfb14caa9e6747a",
+  "@type": "saiteki:TopicNode",
+  "name": "イベントの企画・運営を通じて社内の一体感が高まること",
+  "topicType": "motivation",
+  "aliases": [
+    "イベントの企画",
+    "運営を通じて社内の一体感が高まること"
+  ],
+  "generatedFrom": "employees.json"
+}

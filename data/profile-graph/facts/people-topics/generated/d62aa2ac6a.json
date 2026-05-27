@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:db94191c92e1e139:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:f373f533bc82532e",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "音楽や動物など好きなものについて自然に話せること",
+  "detailBullets": [
+    "音楽や動物など好きなものについて自然に話せること",
+    "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "音楽や動物など好きなものについて自然に話せること"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

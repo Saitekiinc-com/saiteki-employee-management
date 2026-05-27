@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:09d42c9a02309f16",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい一人暮らしの生活",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:f3ca3271be4f0bfe",
+  "@type": "saiteki:TopicNode",
+  "name": "福利厚生プログラムの企画・導入・推進",
+  "topicType": "work_strength",
+  "aliases": [
+    "福利厚生プログラムの企画",
+    "導入",
+    "推進"
+  ],
+  "generatedFrom": "employees.json"
+}

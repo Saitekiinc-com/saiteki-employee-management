@@ -1,0 +1,35 @@
+{
+  "@id": "fact:auto:0e2c311237935991:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b6b8243c1c024767",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "relationLabel": "仕事上の調整や協力においては、他者の成果を尊重しつつ、自身のサポート体制を明確に提示することで、円滑な連携と問題解決を促進する。また、情報が必要な際にはAIなどのツールを積極的に活用し、迅速かつ効率的に解決策や情報を提供する。",
+  "detailBullets": [
+    "仕事上の調整や協力においては、他者の成果を尊重しつつ、自身のサポート体制を明確に提示することで、円滑な連携と問題解決を促進する。また、情報が必要な際にはAIなどのツールを積極的に活用し、迅速かつ効率的に解決策や情報を提供する。",
+    "仕事上の調整や協力においては、他者の成果を尊重しつつ、自身のサポート体制を明確に提示することで、円滑な連携と問題解決を促進する。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1762696554.977159",
+    "primary:C09Q46YA4ER:1763041809.063279"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.problem_solving_style",
+      "text": "仕事上の調整や協力においては、他者の成果を尊重しつつ、自身のサポート体制を明確に提示することで、円滑な連携と問題解決を促進する。また、情報が必要な際にはAIなどのツールを積極的に活用し、迅速かつ効率的に解決策や情報を提供する。"
+    },
+    {
+      "text": "仕事上の調整や協力においては、他者の成果を尊重しつつ、自身のサポート体制を明確に提示することで、円滑な連携と問題解決を促進する。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "自身のビジョンと情熱を明確に伝え、チームの士気を高めながら組織目標達成に貢献するリーダーシップを発揮する。特に、個人的な交流を通じてメンバーの一体感を醸成し、他者の成果を積極的に称賛し協力することで、新しいメンバーの円滑なオンボーディングとチームへの統合に尽力する。情報収集能力も高く、他者の疑問に対しAIを積極的に活用して貢献する。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:15.189Z",
+  "updatedAt": "2026-05-18T04:18:42.770Z"
+}

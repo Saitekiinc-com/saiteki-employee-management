@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:351d52da118ec252",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:青木淳一郎",
+  "predicate": "VALUES",
+  "target": "topic:auto:a9a0e915a1eb02c7",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:506adec4291a0a2c:001"
+  ]
+}

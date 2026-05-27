@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:d59e5cf396336979:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:5ae2aaa55affb327",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "新しい挑戦",
+  "detailBullets": [
+    "新しい挑戦",
+    "新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
+    "一人暮らしの開始という新しい挑戦をポジティブに捉え、連休を楽しむ意欲を見せる。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "新しい挑戦"
+    },
+    {
+      "text": "新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "一人暮らしの開始という新しい挑戦をポジティブに捉え、連休を楽しむ意欲を見せる。",
+      "sourceField": "values_and_motivators.evidence_episodes.3"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:36:35.579Z",
+  "updatedAt": "2026-05-11T04:06:08.439Z"
+}

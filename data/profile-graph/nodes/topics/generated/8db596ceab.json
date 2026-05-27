@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:595566e295f31ded",
+  "@type": "saiteki:TopicNode",
+  "name": "探求",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

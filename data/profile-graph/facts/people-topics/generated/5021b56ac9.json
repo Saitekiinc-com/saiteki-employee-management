@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:ffd2122532deed0e:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:9ff8b0c14f720dcf",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "開発者としての能力回復と向上",
+  "detailBullets": [
+    "開発者としての能力回復と向上",
+    "新しい技術の習得と自身の成長を強く志向し、AI技術の可能性を信じてその活用を推進する。チームの一員として貢献することに価値を見出し、知的探求と人との交流を大切にする。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "開発者としての能力回復と向上"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "新しい技術の習得と自身の成長を強く志向し、AI技術の可能性を信じてその活用を推進する。チームの一員として貢献することに価値を見出し、知的探求と人との交流を大切にする。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:41:32.701Z",
+  "updatedAt": "2026-02-16T02:50:17.340Z"
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:8f9aa32f93c6606c",
+  "@type": "saiteki:TopicNode",
+  "name": "AI技術の業務適用能力と実践力",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a8c5f5f780a9afe6",
+  "@type": "saiteki:TopicNode",
+  "name": "環境適応支援",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:383fbafd1a93109a",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:櫻井志保",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:9e1525bc2662989c",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:075de4f545a3b7d6:001"
+  ]
+}

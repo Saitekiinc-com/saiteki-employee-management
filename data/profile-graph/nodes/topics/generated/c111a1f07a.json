@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a045194b9857cb98",
+  "@type": "saiteki:TopicNode",
+  "name": "技術的理想と事業的理想の合意形成",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

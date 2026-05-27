@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:11e119a563ad98b0",
+  "@type": "saiteki:TopicNode",
+  "name": "顧客の意思決定の文脈尊重",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

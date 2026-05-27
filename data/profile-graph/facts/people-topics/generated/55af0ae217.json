@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:63d0417b75ed6968:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b1b6f790886ae24c",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "ブランド価値",
+  "detailBullets": [
+    "ブランド価値",
+    "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。",
+    "特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業文化とブランド価値を高めることに強いモチベーションを持っている。",
+    "外部への情報発信が成功し、企業ブランド価値が向上した時"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "ブランド価値"
+    },
+    {
+      "text": "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業文化とブランド価値を高めることに強いモチベーションを持っている。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "外部への情報発信が成功し、企業ブランド価値が向上した時",
+      "sourceField": "values_and_motivators.motivation_triggers.10"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

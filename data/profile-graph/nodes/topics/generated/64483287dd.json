@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:e857baa89f52cb3d",
+  "@type": "saiteki:TopicNode",
+  "name": "日常の出来事や流行からビジネスモデルなどの新しい学びや気づきを得ること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

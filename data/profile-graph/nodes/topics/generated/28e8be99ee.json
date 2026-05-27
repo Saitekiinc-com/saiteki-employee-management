@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:68d3085b029f43b8",
+  "@type": "saiteki:TopicNode",
+  "name": "穏やかな関係構築",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

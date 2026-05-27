@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:9dadb366aba94380",
+  "@type": "saiteki:TopicNode",
+  "name": "ラーメン",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

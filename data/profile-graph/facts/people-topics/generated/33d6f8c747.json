@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:73b5a9c019040254:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:867959e242bbf495",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "協働意欲",
+  "detailBullets": [
+    "協働意欲",
+    "入社3ヶ月目の新人として、積極的に自己開示とコミュニケーションを図り、周囲との良好な関係構築を最優先に進める。高い学習意欲と成長へのコミットメントを持ち、自身の知識や経験を活かしつつ、チームへの貢献を目指す。未経験分野にも前向きに取り組み、周囲からの学びを積極的に取り入れながら、着実に業務を遂行しようとする。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "協働意欲"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "入社3ヶ月目の新人として、積極的に自己開示とコミュニケーションを図り、周囲との良好な関係構築を最優先に進める。高い学習意欲と成長へのコミットメントを持ち、自身の知識や経験を活かしつつ、チームへの貢献を目指す。未経験分野にも前向きに取り組み、周囲からの学びを積極的に取り入れながら、着実に業務を遂行しようとする。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

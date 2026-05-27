@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:4e450debc13c7264:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:2aeeca65fb61d283",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "relationLabel": "最新のAI技術（特に小型高性能モデル）を深く理解し、自身のMac M4 Max環境でのGPTsoss動作検証など実践的な活用方法を模索・提案することで、現場の課題解決に貢献する。「現場で使い倒せるAIを一緒に形にしましょう」と、共創を通じ…",
+  "detailBullets": [
+    "最新のAI技術（特に小型高性能モデル）を深く理解し、自身のMac M4 Max環境でのGPTsoss動作検証など実践的な活用方法を模索・提案することで、現場の課題解決に貢献する。「現場で使い倒せるAIを一緒に形にしましょう」と、共創を通じ…",
+    "DeepSeek4などの最新の小型高性能AIモデルの動向に強い関心を示し、自身のMac M4 Max環境でGPTsossを実際に動かすなど、新しい技術を積極的に試している。",
+    "自身のMac環境でのAI動作検証や、追加コストなしで諸々動かせる「お得感」に言及するなど、実践的な視点と効率性を考慮する。",
+    "自身のMac環境でのAI利用経験を積極的に共有し、他者の質問を歓迎し、Mac Studioでの動作可能性についても具体的な見解を述べるなど、積極的に他者と関わろうとする姿勢が伺える。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1770597349.836969"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.problem_solving_style",
+      "text": "最新のAI技術（特に小型高性能モデル）を深く理解し、自身のMac M4 Max環境でのGPTsoss動作検証など実践的な活用方法を模索・提案することで、現場の課題解決に貢献する。「現場で使い倒せるAIを一緒に形にしましょう」と、共創を通じ…"
+    },
+    {
+      "text": "DeepSeek4などの最新の小型高性能AIモデルの動向に強い関心を示し、自身のMac M4 Max環境でGPTsossを実際に動かすなど、新しい技術を積極的に試している。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "自身のMac環境でのAI動作検証や、追加コストなしで諸々動かせる「お得感」に言及するなど、実践的な視点と効率性を考慮する。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "自身のMac環境でのAI利用経験を積極的に共有し、他者の質問を歓迎し、Mac Studioでの動作可能性についても具体的な見解を述べるなど、積極的に他者と関わろうとする姿勢が伺える。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:51:41.558Z",
+  "updatedAt": "2026-02-16T02:50:35.790Z"
+}

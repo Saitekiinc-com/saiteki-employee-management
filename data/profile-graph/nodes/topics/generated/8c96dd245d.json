@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:8f176e235cee2243",
+  "@type": "saiteki:TopicNode",
+  "name": "具体的な成果の創出",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

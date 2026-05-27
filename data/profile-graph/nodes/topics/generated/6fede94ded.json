@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:2edb1b177735e562",
+  "@type": "saiteki:TopicNode",
+  "name": "情報収集力と活用（AIの積極的利用）",
+  "topicType": "work_strength",
+  "aliases": [
+    "情報収集力と活用",
+    "aiの積極的利用",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

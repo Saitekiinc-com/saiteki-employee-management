@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:3971ecff86578a1d",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい同僚（山田さん）との関係構築",
+  "topicType": "interest",
+  "aliases": [
+    "新しい同僚",
+    "山田さん",
+    "との関係構築"
+  ],
+  "generatedFrom": "employees.json"
+}

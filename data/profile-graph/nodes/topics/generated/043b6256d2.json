@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:2d2ad7cc49dc6922",
+  "@type": "saiteki:TopicNode",
+  "name": "メンバーが積極的にイベントに参加し、楽しんでいる姿を見ること",
+  "topicType": "motivation",
+  "aliases": [
+    "メンバーが積極的にイベントに参加し",
+    "楽しんでいる姿を見ること"
+  ],
+  "generatedFrom": "employees.json"
+}

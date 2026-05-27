@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:a3b92002392fb078:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:5c6a8d1db323f11e",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "良好な関係性",
+  "detailBullets": [
+    "良好な関係性",
+    "」と述べ、業務における良好な関係性や成果を重視する姿勢が見られる。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "良好な関係性"
+    },
+    {
+      "text": "」と述べ、業務における良好な関係性や成果を重視する姿勢が見られる。",
+      "sourceField": "values_and_motivators.evidence_episodes.10"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7c6a12f9b119a0d5",
+  "@type": "saiteki:TopicNode",
+  "name": "自己規律",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

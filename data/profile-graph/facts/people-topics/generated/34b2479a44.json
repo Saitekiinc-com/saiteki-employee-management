@@ -1,0 +1,30 @@
+{
+  "@id": "fact:auto:675a40781a87a302:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:2c41e084bc134b50",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "映画",
+  "detailBullets": [
+    "映画",
+    "入社前後のキャッチアップ段階で、IT領域の学習を継続しながら早く貢献しようとしている状態です。AI活用や音楽制作など、自分なりの学習・創作習慣も持っています。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771850944.221989"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "映画"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社前後のキャッチアップ段階で、IT領域の学習を継続しながら早く貢献しようとしている状態です。AI活用や音楽制作など、自分なりの学習・創作習慣も持っています。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:537b102f1bc46b4f:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:85c79efa57da690a",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "挑戦",
+  "detailBullets": [
+    "挑戦",
+    "新しい経験への挑戦と達成",
+    "」と具体的なアドバイスを求めることで、新たな挑戦への意欲と行動力を見せている。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "挑戦"
+    },
+    {
+      "text": "新しい経験への挑戦と達成",
+      "sourceField": "values_and_motivators.motivation_triggers.6"
+    },
+    {
+      "text": "」と具体的なアドバイスを求めることで、新たな挑戦への意欲と行動力を見せている。",
+      "sourceField": "values_and_motivators.evidence_episodes.11"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

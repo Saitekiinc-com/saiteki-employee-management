@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:afb88d85735fcd63",
+  "@type": "saiteki:TopicNode",
+  "name": "学習",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

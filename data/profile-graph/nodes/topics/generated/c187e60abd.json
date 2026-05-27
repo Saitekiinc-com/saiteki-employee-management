@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0b3d1817f6ea6a78",
+  "@type": "saiteki:TopicNode",
+  "name": "ビジョナリー",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

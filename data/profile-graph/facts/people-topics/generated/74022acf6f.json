@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:c45a23b7754114a1:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:187228f40f7baffa",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "ビジネス戦略",
+  "detailBullets": [
+    "ビジネス戦略",
+    "ビジネス戦略理解",
+    "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。",
+    "自身の業務改善や知見を深めるために勉強会へ積極的に参加し、アーキテクチャの合意形成、自動化、コスト最適化といった実践的なインフラ技術とビジネス戦略の融合について集中的に学習している。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "ビジネス戦略"
+    },
+    {
+      "text": "ビジネス戦略理解",
+      "sourceField": "work_styles_and_strengths.dominant_strengths.50"
+    },
+    {
+      "text": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "自身の業務改善や知見を深めるために勉強会へ積極的に参加し、アーキテクチャの合意形成、自動化、コスト最適化といった実践的なインフラ技術とビジネス戦略の融合について集中的に学習している。",
+      "sourceField": "current_state.summary"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

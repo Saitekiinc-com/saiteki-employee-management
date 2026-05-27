@@ -1,0 +1,30 @@
+{
+  "@id": "fact:auto:31739dbf5e85f8e0:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:cde6315b9b4910fa",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "継続可能性（サスティナビリティ）",
+  "detailBullets": [
+    "継続可能性（サスティナビリティ）",
+    "自身の業務改善や知見を深めるために勉強会へ積極的に参加し、アーキテクチャの合意形成、自動化、コスト最適化といった実践的なインフラ技術とビジネス戦略の融合について集中的に学習している。自身の知見を組織に還元しようとする高い意欲が伺え、現在のSESとしての経験を活かしつつ、より上位のレイヤーでの貢献を目指している。特に、ビジネスにおけるエンジニアの役割拡大に強…"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1778496389.850229"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "継続可能性（サスティナビリティ）"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "自身の業務改善や知見を深めるために勉強会へ積極的に参加し、アーキテクチャの合意形成、自動化、コスト最適化といった実践的なインフラ技術とビジネス戦略の融合について集中的に学習している。自身の知見を組織に還元しようとする高い意欲が伺え、現在のSESとしての経験を活かしつつ、より上位のレイヤーでの貢献を目指している。特に、ビジネスにおけるエンジニアの役割拡大に強い関心を持ち、積極的に議論に参加している。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

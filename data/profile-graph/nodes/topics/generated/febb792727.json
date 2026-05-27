@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:748fb87656b9ee05",
+  "@type": "saiteki:TopicNode",
+  "name": "事業発展",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:ac144b32f3bc40aa",
+  "@type": "saiteki:TopicNode",
+  "name": "AIエージェントによる業務の効率化と品質向上",
+  "topicType": "motivation",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

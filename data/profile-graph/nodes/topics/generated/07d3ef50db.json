@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:cad94fe21fcb1c90",
+  "@type": "saiteki:TopicNode",
+  "name": "自己開示による信頼関係の構築",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

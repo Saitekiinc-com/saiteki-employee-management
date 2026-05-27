@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:c25b2e64c09c7ba0",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:杉本光一",
+  "predicate": "HAS_WORK_STYLE",
+  "target": "topic:auto:4cc90fb3c9859db9",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "facts": [
+    "fact:auto:5f8c93d08e3f05dc:001"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:86ef6595cc16b1fd",
+  "@type": "saiteki:TopicNode",
+  "name": "内定率10%という厳選採用と社風・カルチャーとのマッチ度重視",
+  "topicType": "work_topic",
+  "aliases": [
+    "内定率10%という厳選採用と社風",
+    "カルチャーとのマッチ度重視",
+    "10"
+  ],
+  "generatedFrom": "employees.json"
+}

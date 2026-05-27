@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:536d873a233d8426",
+  "@type": "saiteki:TopicNode",
+  "name": "新しいメンバーの歓迎と今後の協業",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

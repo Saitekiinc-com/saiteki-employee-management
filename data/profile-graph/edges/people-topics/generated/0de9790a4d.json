@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:0eb52e38478dbd51",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:菅野聖也",
+  "predicate": "MOTIVATED_BY",
+  "target": "topic:auto:cad2341e84ca5208",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "facts": [
+    "fact:auto:0de9790a4dcaf752:001"
+  ]
+}

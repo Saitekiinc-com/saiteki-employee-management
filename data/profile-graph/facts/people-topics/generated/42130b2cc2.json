@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:9dfd6397888ab150:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:5f460e17e7863478",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "新しい技術の習得",
+  "detailBullets": [
+    "新しい技術の習得",
+    "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "新しい技術の習得"
+    },
+    {
+      "text": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。組織への貢献意欲とSaitekiの一員であることへの誇り、メンバーとの交流を非常に重視している。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:28:22.503Z",
+  "updatedAt": "2026-02-11T11:48:53.611Z"
+}

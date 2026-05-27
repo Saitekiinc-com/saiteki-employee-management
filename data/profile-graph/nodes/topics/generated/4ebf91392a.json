@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:2e8423f220bbc4ca",
+  "@type": "saiteki:TopicNode",
+  "name": "経験と学びの共有",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

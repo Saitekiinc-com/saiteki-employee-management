@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:ccbcf0dccd15270c",
+  "@type": "saiteki:TopicNode",
+  "name": "AI技術の組織への導入が進み、「AI駆動型組織」が実現すること",
+  "topicType": "motivation",
+  "aliases": [
+    "ai技術の組織への導入が進み",
+    "ai駆動型組織",
+    "が実現すること",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

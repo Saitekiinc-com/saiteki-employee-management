@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:f8719ce886d74d13",
+  "@type": "saiteki:TopicNode",
+  "name": "上場SIer社長のような一流の経営者から学び、その知見を組織に還元できること",
+  "topicType": "motivation",
+  "aliases": [
+    "上場sier社長のような一流の経営者から学び",
+    "その知見を組織に還元できること",
+    "sier"
+  ],
+  "generatedFrom": "employees.json"
+}

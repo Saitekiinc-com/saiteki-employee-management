@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:f277ee46085b3f6d",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:戸塚直道",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:3d12c94e35a5a364",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:8dbf363659380d7d:001"
+  ]
+}

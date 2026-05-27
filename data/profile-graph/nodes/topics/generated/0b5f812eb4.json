@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0606e4b257eac0a3",
+  "@type": "saiteki:TopicNode",
+  "name": "コスト効率の良い技術活用",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

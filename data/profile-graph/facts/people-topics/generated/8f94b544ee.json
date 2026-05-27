@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:f12dcaabb0ce9d35:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:f069fa90baf1d5ad",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "健康維持",
+  "detailBullets": [
+    "健康維持",
+    "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "健康維持"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

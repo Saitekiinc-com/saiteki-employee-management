@@ -1,0 +1,17 @@
+{
+  "@id": "topic:auto:30c413cfe8fe5182",
+  "@type": "saiteki:TopicNode",
+  "name": "Mac環境でのAI活用（M4 Max、GPTsoss、Mac Studioでの動作可能性）",
+  "topicType": "work_topic",
+  "aliases": [
+    "mac環境でのai活用",
+    "m4",
+    "max",
+    "gptsoss",
+    "mac",
+    "studioでの動作可能性",
+    "ai",
+    "studio"
+  ],
+  "generatedFrom": "employees.json"
+}

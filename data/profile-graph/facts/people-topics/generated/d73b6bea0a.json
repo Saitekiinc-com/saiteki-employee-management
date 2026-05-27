@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:855a4f751e9bf425:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:98c253da613c112f",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "「準備が9割」という自身の営業哲学と戦略的交渉術",
+  "detailBullets": [
+    "「準備が9割」という自身の営業哲学と戦略的交渉術",
+    "急速な組織拡大期において、「準備が9割」の哲学と厳選採用でカルチャーを維持しつつ、幹部への権限委譲を進め、自身はM&Aや高難度案件獲得といった戦略的課題に注力。",
+    "「準備が9割」の哲学を商談やゴルフで実践し、協業や資金調達、大型案件獲得に繋げる。",
+    "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1779011267.124409"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "「準備が9割」という自身の営業哲学と戦略的交渉術"
+    },
+    {
+      "text": "急速な組織拡大期において、「準備が9割」の哲学と厳選採用でカルチャーを維持しつつ、幹部への権限委譲を進め、自身はM&Aや高難度案件獲得といった戦略的課題に注力。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "「準備が9割」の哲学を商談やゴルフで実践し、協業や資金調達、大型案件獲得に繋げる。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。",
+      "sourceField": "work_styles_and_strengths.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

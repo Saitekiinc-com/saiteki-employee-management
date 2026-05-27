@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:94cb8ecc303c918d",
+  "@type": "saiteki:TopicNode",
+  "name": "データベース構築",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

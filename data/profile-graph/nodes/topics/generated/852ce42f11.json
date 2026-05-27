@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:bfb2e1315c9728e4",
+  "@type": "saiteki:TopicNode",
+  "name": "AI技術の深い知見と実践的な応用力",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

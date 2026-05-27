@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:11eb00be33ad6607",
+  "@type": "saiteki:TopicNode",
+  "name": "他者への敬意と称賛を通じたモチベーション向上",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

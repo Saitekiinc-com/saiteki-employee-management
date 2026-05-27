@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:0d0cfa97fa33db33",
+  "@type": "saiteki:TopicNode",
+  "name": "新しいメンバーが円滑にチームに溶け込み、安心して活躍すること",
+  "topicType": "motivation",
+  "aliases": [
+    "新しいメンバーが円滑にチームに溶け込み",
+    "安心して活躍すること"
+  ],
+  "generatedFrom": "employees.json"
+}

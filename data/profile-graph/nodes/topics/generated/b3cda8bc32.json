@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:e8c250a49f4fef5f",
+  "@type": "saiteki:TopicNode",
+  "name": "ポジティブな影響力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:893166772405d3fc:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:7fb98a63f6385c86",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "貢献",
+  "detailBullets": [
+    "貢献",
+    "入社3ヶ月目の新人として高い成長意欲と協調性を持ち、学習と貢献に前向きに取り組む。",
+    "学生時代に一蘭で1年8ヶ月アルバイト責任者を務め、中学時代から代表委員長や部長、各種実行委員長を歴任。IT業界も社会人も未経験でありながら、「積極的に色々なことを学んでいきたい」「先輩方から学べることは全て学んで早く皆さんに追いつき、その先に進んでいけるように尽力いたします！」と強い責任感と自己成長へのコミットメントを繰り返し表明している。特に「自分はまだ…",
+    "高い学習意欲と成長へのコミットメントを持ち、自身の知識や経験を活かしつつ、チームへの貢献を目指す。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "貢献"
+    },
+    {
+      "text": "入社3ヶ月目の新人として高い成長意欲と協調性を持ち、学習と貢献に前向きに取り組む。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "学生時代に一蘭で1年8ヶ月アルバイト責任者を務め、中学時代から代表委員長や部長、各種実行委員長を歴任。IT業界も社会人も未経験でありながら、「積極的に色々なことを学んでいきたい」「先輩方から学べることは全て学んで早く皆さんに追いつき、その先に進んでいけるように尽力いたします！」と強い責任感と自己成長へのコミットメントを繰り返し表明している。特に「自分はまだ…",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "高い学習意欲と成長へのコミットメントを持ち、自身の知識や経験を活かしつつ、チームへの貢献を目指す。",
+      "sourceField": "work_styles_and_strengths.summary"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

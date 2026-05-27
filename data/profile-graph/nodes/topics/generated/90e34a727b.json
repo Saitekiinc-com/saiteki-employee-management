@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:34ba53aad838fe3f",
+  "@type": "saiteki:TopicNode",
+  "name": "未来を見据えた継続的な学習と洞察 (特にAIと法)",
+  "topicType": "value",
+  "aliases": [
+    "未来を見据えた継続的な学習と洞察",
+    "特にaiと法",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:597c8e17793bd82f",
+  "@type": "saiteki:TopicNode",
+  "name": "AIと法務に関する知見の習得",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

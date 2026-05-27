@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:223cd464facc478b",
+  "@type": "saiteki:TopicNode",
+  "name": "情報統制",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:ee019ff5014d24ba:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:70eb791948174547",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "自己管理能力と状況適応力",
+  "detailBullets": [
+    "自己管理能力と状況適応力",
+    "AI技術への深い知見と、その本質的な価値を追求する戦略的思考で、組織の課題解決と文化変革をリードする。特にゼロからシステムを構築し、探求するプロセスを楽しみ、新しい才能の歓迎を通じて組織のエンゲージメント向上にも貢献する。人間中心のAI活用を提唱し、本質的な価値創造とチーム内の深い議論を促進し、不確実性の高いプロジェクトも計画的に推進する。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "自己管理能力と状況適応力"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "AI技術への深い知見と、その本質的な価値を追求する戦略的思考で、組織の課題解決と文化変革をリードする。特にゼロからシステムを構築し、探求するプロセスを楽しみ、新しい才能の歓迎を通じて組織のエンゲージメント向上にも貢献する。人間中心のAI活用を提唱し、本質的な価値創造とチーム内の深い議論を促進し、不確実性の高いプロジェクトも計画的に推進する。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:03:13.056Z",
+  "updatedAt": "2026-05-25T04:24:40.350Z"
+}

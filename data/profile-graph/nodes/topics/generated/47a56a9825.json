@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7d4d3875c5cd8144",
+  "@type": "saiteki:TopicNode",
+  "name": "他者への敬意と成果の承認",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

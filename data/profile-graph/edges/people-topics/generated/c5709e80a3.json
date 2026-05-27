@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:f6fa5673144b17ff",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:貴志雪乃",
+  "predicate": "VALUES",
+  "target": "topic:auto:2b4898a5ed860d79",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:c5709e80a3f3049f:001"
+  ]
+}

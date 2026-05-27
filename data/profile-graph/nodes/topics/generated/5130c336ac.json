@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:fd55c3298cb5cc96",
+  "@type": "saiteki:TopicNode",
+  "name": "共通の話題や趣味を通じてメンバーと絆を深めること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

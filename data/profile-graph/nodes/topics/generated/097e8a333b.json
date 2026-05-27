@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3b7d1e094c7d53ee",
+  "@type": "saiteki:TopicNode",
+  "name": "技術経験を活かして貢献できること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

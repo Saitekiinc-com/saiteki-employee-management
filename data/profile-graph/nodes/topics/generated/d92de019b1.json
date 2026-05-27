@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:224cba6f30a3ac61",
+  "@type": "saiteki:TopicNode",
+  "name": "制度理解の促進",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

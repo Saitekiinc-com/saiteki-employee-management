@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:0d480ddb764bc1f0",
+  "@type": "saiteki:TopicNode",
+  "name": "高度な知識管理と情報活用戦略の立案・実行",
+  "topicType": "work_strength",
+  "aliases": [
+    "高度な知識管理と情報活用戦略の立案",
+    "実行"
+  ],
+  "generatedFrom": "employees.json"
+}

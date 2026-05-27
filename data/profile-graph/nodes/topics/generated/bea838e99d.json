@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:24d6f3e66ce39b9b",
+  "@type": "saiteki:TopicNode",
+  "name": "丁寧な対人姿勢",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

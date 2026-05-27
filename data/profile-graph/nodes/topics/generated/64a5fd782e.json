@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:96727cbc3ae1e3eb",
+  "@type": "saiteki:TopicNode",
+  "name": "AIが単なる効率化ツールでなく、より本質的な思考と深い議論を促進するきっかけとなること",
+  "topicType": "motivation",
+  "aliases": [
+    "aiが単なる効率化ツールでなく",
+    "より本質的な思考と深い議論を促進するきっかけとなること",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

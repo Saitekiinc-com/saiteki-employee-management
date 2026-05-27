@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:4f32e08bb3377e5a:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b1cd4e7fc9fabfe8",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "アニメ",
+  "detailBullets": [
+    "アニメ",
+    "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。",
+    "」と自身の役割と年齢を積極的に自己開示し、共通の話題（ラーメン、アニメ、ポケモン、出身地、大学、マッサージ巡りなど）を見つけては、積極的に相手に話しかけ、関係性を深めようと努力する。",
+    "特定の同僚に対し、自身の好きなアニメやインドア派であることなどを共有し、相手の趣味にも積極的に興味を示して質問している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1768614261.622119",
+    "primary:C09Q46YA4ER:1770178781.379329"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "アニメ"
+    },
+    {
+      "text": "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "」と自身の役割と年齢を積極的に自己開示し、共通の話題（ラーメン、アニメ、ポケモン、出身地、大学、マッサージ巡りなど）を見つけては、積極的に相手に話しかけ、関係性を深めようと努力する。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "特定の同僚に対し、自身の好きなアニメやインドア派であることなどを共有し、相手の趣味にも積極的に興味を示して質問している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.7"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

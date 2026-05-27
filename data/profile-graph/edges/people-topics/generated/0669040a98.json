@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:3bf2245b5fa319ca",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:小島遼祐",
+  "predicate": "VALUES",
+  "target": "topic:auto:9a849c2e1823c942",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:0669040a98cb8b68:001"
+  ]
+}

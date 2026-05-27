@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:3810047853dbbf1a",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:田浦裕樹",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:a6b6f5af3a866cb1",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:38ac3f9ad45cbf56:001"
+  ]
+}

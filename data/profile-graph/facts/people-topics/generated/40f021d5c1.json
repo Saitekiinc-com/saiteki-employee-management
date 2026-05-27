@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:8fcd5c773a4a0fbb:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:404ba22424b79112",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "流行の食文化（ラーメン）とビジネスモデル",
+  "detailBullets": [
+    "流行の食文化（ラーメン）とビジネスモデル",
+    "ラーメンを食べた後の「胃もたれ」という自身の経験から、「ヴィーガン系の体に負担が大きくないもの食べないといけない」と自らの体調を管理し改善しようとする意識と計画性が見られます。",
+    "ラーメンの話題では、相手の好みに配慮し「家系好きな人には合うのかも」と伝え、具体的な情報提供として「埼玉のサウナ行った後は帰り道にあるのでちょうどいいかもです」と提案するなど、親切で協調的な姿勢が伺えます。",
+    "ラーメンを食べた後の「胃もたれ」について語る際も、「笑笑」や「:skull_and_crossbones:」といった絵文字を使い、ユーモアを交えて軽やかに表現しており、ネガティブな状況を深刻に捉えすぎない傾向があります。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1778899778.186949",
+    "primary:C09N28KTKL1:1778935190.230339"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "流行の食文化（ラーメン）とビジネスモデル"
+    },
+    {
+      "text": "ラーメンを食べた後の「胃もたれ」という自身の経験から、「ヴィーガン系の体に負担が大きくないもの食べないといけない」と自らの体調を管理し改善しようとする意識と計画性が見られます。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "ラーメンの話題では、相手の好みに配慮し「家系好きな人には合うのかも」と伝え、具体的な情報提供として「埼玉のサウナ行った後は帰り道にあるのでちょうどいいかもです」と提案するなど、親切で協調的な姿勢が伺えます。",
+      "sourceField": "personality_traits.agreeableness.evidence"
+    },
+    {
+      "text": "ラーメンを食べた後の「胃もたれ」について語る際も、「笑笑」や「:skull_and_crossbones:」といった絵文字を使い、ユーモアを交えて軽やかに表現しており、ネガティブな状況を深刻に捉えすぎない傾向があります。",
+      "sourceField": "personality_traits.neuroticism.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:46.998Z",
+  "updatedAt": "2026-05-25T04:25:29.126Z"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:00aa80ae0e2099cc",
+  "@type": "saiteki:TopicNode",
+  "name": "合意形成",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

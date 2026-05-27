@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:937b598f905d8cf3:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:c3988b4584bef7b5",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "relationLabel": "未経験の技術や困難に直面しても、それをスキルアップの好機と捉え、前向きな姿勢で学びと経験を積み重ね、解決策を模索する。",
+  "detailBullets": [
+    "未経験の技術や困難に直面しても、それをスキルアップの好機と捉え、前向きな姿勢で学びと経験を積み重ね、解決策を模索する。",
+    "AWS基盤のインフラ設計・構築に高い専門性を持ちつつ、未経験技術への学習意欲が極めて高い。責任感が強く、チームワークと自己成長を重視して業務に取り組む。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.problem_solving_style",
+      "text": "未経験の技術や困難に直面しても、それをスキルアップの好機と捉え、前向きな姿勢で学びと経験を積み重ね、解決策を模索する。"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "AWS基盤のインフラ設計・構築に高い専門性を持ちつつ、未経験技術への学習意欲が極めて高い。責任感が強く、チームワークと自己成長を重視して業務に取り組む。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:28:22.503Z",
+  "updatedAt": "2026-02-11T11:48:53.611Z"
+}

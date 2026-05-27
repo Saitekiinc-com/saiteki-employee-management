@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ee0fa7523148a60c",
+  "@type": "saiteki:TopicNode",
+  "name": "多様性推進",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:6a73a78dac696544:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:5b896f5cb242f4a3",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "企業ブランディング",
+  "detailBullets": [
+    "企業ブランディング",
+    "企業ブランディングや外部への知見共有、社員の学習機会提供においては、YouTubeチャンネルや社内勉強会のアーカイブを活用し、具体的な見どころや学習効果を提示することで視聴・学習を促進している。",
+    "企業ブランディング強化"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "企業ブランディング"
+    },
+    {
+      "text": "企業ブランディングや外部への知見共有、社員の学習機会提供においては、YouTubeチャンネルや社内勉強会のアーカイブを活用し、具体的な見どころや学習効果を提示することで視聴・学習を促進している。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "text": "企業ブランディング強化",
+      "sourceField": "work_styles_and_strengths.dominant_strengths.15"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "直近のログでは、社のYouTubeチャンネルを通じた外部への情報発信に加え、社内勉強会アーカイブの共有を通じて社員への高度な技術的知見（AWSアーキテクチャ設計、プロジェクトマネジメント、合意形成術など）の提供に注力している。DX戦略やアナログ・トランスフォーメーション (AX)、AI駆動開発といった先進的なテーマに関心が高く、これらの情報を構造的かつ魅力的に共有することで、社員の学習意欲を刺激し、企業のブランド価値向上と技術力強化に…"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

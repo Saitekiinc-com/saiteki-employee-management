@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:c2d427246e26894e",
+  "@type": "saiteki:TopicNode",
+  "name": "AIエージェントの活用と役割分担に関するベストプラクティス",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

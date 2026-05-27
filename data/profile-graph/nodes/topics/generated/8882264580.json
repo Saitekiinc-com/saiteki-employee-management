@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f0ab9375176b8159",
+  "@type": "saiteki:TopicNode",
+  "name": "工夫を凝らすコーディングへの興味",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

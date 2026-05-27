@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:e91c0f3cde7f5406",
+  "@type": "saiteki:TopicNode",
+  "name": "AI時代における組織・人材戦略への深い洞察",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai時代における組織",
+    "人材戦略への深い洞察",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

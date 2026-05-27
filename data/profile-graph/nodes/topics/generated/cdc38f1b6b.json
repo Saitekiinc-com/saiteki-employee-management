@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:13d258cdf00f5e4d",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の時間管理と周囲への明確な伝達",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

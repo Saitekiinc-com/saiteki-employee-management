@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:48aa30358ca86847:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:a43df51d42073de2",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "新しい環境で役に立てること",
+  "detailBullets": [
+    "新しい環境で役に立てること",
+    "学び直しと早期貢献、丁寧な人間関係づくり、趣味を通じた交流を大切にしています。Slack上での活発な交流にも価値を感じており、社内のつながりを前向きに受け止めています。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "新しい環境で役に立てること"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "学び直しと早期貢献、丁寧な人間関係づくり、趣味を通じた交流を大切にしています。Slack上での活発な交流にも価値を感じており、社内のつながりを前向きに受け止めています。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

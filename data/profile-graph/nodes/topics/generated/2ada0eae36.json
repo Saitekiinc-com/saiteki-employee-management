@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d2e0766bc23020ec",
+  "@type": "saiteki:TopicNode",
+  "name": "新メンバーの多様なスキルや興味への尊重と探求心",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

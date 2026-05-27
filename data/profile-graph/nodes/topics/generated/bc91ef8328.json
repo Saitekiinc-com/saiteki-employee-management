@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:204bd4647c3b0c62",
+  "@type": "saiteki:TopicNode",
+  "name": "チームとの協働を重視する姿勢",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

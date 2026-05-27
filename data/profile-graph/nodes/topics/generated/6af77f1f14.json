@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:d5a150f51f04f45c",
+  "@type": "saiteki:TopicNode",
+  "name": "ポジティブな体験や発見を他者と共有し、その喜びや価値を広めること",
+  "topicType": "motivation",
+  "aliases": [
+    "ポジティブな体験や発見を他者と共有し",
+    "その喜びや価値を広めること"
+  ],
+  "generatedFrom": "employees.json"
+}

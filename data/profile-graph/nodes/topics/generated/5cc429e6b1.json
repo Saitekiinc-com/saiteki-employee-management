@@ -1,0 +1,14 @@
+{
+  "@id": "topic:auto:e1951f57d429c18e",
+  "@type": "saiteki:TopicNode",
+  "name": "AI技術の活用（旅行計画、献立作成、コード生成）",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai技術の活用",
+    "旅行計画",
+    "献立作成",
+    "コード生成",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

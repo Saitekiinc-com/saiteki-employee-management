@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:257090d7681d5031",
+  "@type": "saiteki:TopicNode",
+  "name": "リスク識別",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

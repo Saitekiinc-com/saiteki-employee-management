@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:195e9daecdd8a44e",
+  "@type": "saiteki:TopicNode",
+  "name": "MVVの追求と実践",
+  "topicType": "value",
+  "aliases": [
+    "mvv"
+  ],
+  "generatedFrom": "employees.json"
+}

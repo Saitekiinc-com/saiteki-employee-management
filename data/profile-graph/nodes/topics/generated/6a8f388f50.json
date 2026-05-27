@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:d9a06634d774ea19",
+  "@type": "saiteki:TopicNode",
+  "name": "DX戦略",
+  "topicType": "interest",
+  "aliases": [
+    "dx"
+  ],
+  "generatedFrom": "employees.json"
+}

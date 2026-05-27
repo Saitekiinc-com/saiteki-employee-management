@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:c1c6dfe3500ac39a:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:830ce23dcb461b65",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "音楽やMIXなど創作に没頭すること",
+  "detailBullets": [
+    "音楽やMIXなど創作に没頭すること",
+    "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+    "歌声合成ソフトで既存曲を歌わせたりMIXしたりして、気付けば10時間ほど経つことがあるほど集中して取り組む。",
+    "音楽を聞く、歌う、作ることが好きで、歌声合成やMIXに長時間没頭することがある。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771850944.221989"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "音楽やMIXなど創作に没頭すること"
+    },
+    {
+      "text": "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "歌声合成ソフトで既存曲を歌わせたりMIXしたりして、気付けば10時間ほど経つことがあるほど集中して取り組む。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+    },
+    {
+      "text": "音楽を聞く、歌う、作ることが好きで、歌声合成やMIXに長時間没頭することがある。",
+      "sourceField": "values_and_motivators.evidence_episodes.2"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

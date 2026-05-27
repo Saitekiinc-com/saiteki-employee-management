@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:57534688c95b8600",
+  "@type": "saiteki:TopicNode",
+  "name": "Saitekiメンバーの入社経緯",
+  "topicType": "work_topic",
+  "aliases": [
+    "saiteki"
+  ],
+  "generatedFrom": "employees.json"
+}

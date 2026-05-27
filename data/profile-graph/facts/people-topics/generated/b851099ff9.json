@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:059b84fc12b6e6d9:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:e161cb71066d22e5",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "日本酒",
+  "detailBullets": [
+    "日本酒",
+    "自身の多様な職務経験や趣味を詳細に自己開示し、新しい日本酒の銘柄や未視聴の映画にも積極的に興味を示し試そうとする意欲がある。",
+    "未経験の日本酒を試したり、未視聴の映画を見ようとするなど、新しい体験への意欲が高い。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1770701908.083739",
+    "primary:C09Q46YA4ER:1770707874.213279"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "日本酒"
+    },
+    {
+      "text": "自身の多様な職務経験や趣味を詳細に自己開示し、新しい日本酒の銘柄や未視聴の映画にも積極的に興味を示し試そうとする意欲がある。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "未経験の日本酒を試したり、未視聴の映画を見ようとするなど、新しい体験への意欲が高い。",
+      "sourceField": "values_and_motivators.evidence_episodes.3"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

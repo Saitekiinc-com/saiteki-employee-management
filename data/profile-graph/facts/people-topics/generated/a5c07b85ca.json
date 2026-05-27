@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:5b5736484f717280:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:ccdd3d729df7b6da",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "人との協働を通じた課題解決と新しい働き方の創出",
+  "detailBullets": [
+    "人との協働を通じた課題解決と新しい働き方の創出",
+    "新しい技術（AI）の積極的な探求と業務への適用、プロセス全体の効率化と品質向上に強い意欲を持つ。チームへの貢献意識も高く、情報共有や意見交換を通じて成果を最大化しようとする。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "人との協働を通じた課題解決と新しい働き方の創出"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "新しい技術（AI）の積極的な探求と業務への適用、プロセス全体の効率化と品質向上に強い意欲を持つ。チームへの貢献意識も高く、情報共有や意見交換を通じて成果を最大化しようとする。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:37:53.189Z",
+  "updatedAt": "2026-03-02T02:43:53.875Z"
+}

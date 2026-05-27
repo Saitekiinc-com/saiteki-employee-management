@@ -1,0 +1,30 @@
+{
+  "@id": "fact:auto:1110d59b47c14a66:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b8b15687f0b9c802",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "AIを活用した学習姿勢",
+  "detailBullets": [
+    "AIを活用した学習姿勢",
+    "多様な職務経験とAWS運用・監視経験を持ち、未知の領域でもAIや整理力を使って学習を進められるタイプ。音響や音楽制作の経験から、細部への感覚や継続的な創作力も強みです。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771850944.221989"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "AIを活用した学習姿勢"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "多様な職務経験とAWS運用・監視経験を持ち、未知の領域でもAIや整理力を使って学習を進められるタイプ。音響や音楽制作の経験から、細部への感覚や継続的な創作力も強みです。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:4eb0695b03475cf7",
+  "@type": "saiteki:TopicNode",
+  "name": "共感",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

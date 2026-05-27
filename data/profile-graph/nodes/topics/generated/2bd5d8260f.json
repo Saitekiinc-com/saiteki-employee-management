@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:3664473036cf79b1",
+  "@type": "saiteki:TopicNode",
+  "name": "新規入社者が組織に溶け込み、その成長をサポートできること",
+  "topicType": "motivation",
+  "aliases": [
+    "新規入社者が組織に溶け込み",
+    "その成長をサポートできること"
+  ],
+  "generatedFrom": "employees.json"
+}

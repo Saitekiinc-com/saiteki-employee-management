@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:939b9830934e2868",
+  "@type": "saiteki:TopicNode",
+  "name": "アナログトランスフォーメーション (AX)",
+  "topicType": "interest",
+  "aliases": [
+    "アナログトランスフォーメーション",
+    "ax"
+  ],
+  "generatedFrom": "employees.json"
+}

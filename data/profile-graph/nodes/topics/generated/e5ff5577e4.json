@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:6347067a16e4a277",
+  "@type": "saiteki:TopicNode",
+  "name": "社会課題（例：個別避難計画）を技術で解決し、誰かの幸せに直結すること",
+  "topicType": "motivation",
+  "aliases": [
+    "社会課題",
+    "個別避難計画",
+    "を技術で解決し",
+    "誰かの幸せに直結すること"
+  ],
+  "generatedFrom": "employees.json"
+}

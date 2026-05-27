@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:08dffc0234dbd36f",
+  "@type": "saiteki:TopicNode",
+  "name": "映画鑑賞",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

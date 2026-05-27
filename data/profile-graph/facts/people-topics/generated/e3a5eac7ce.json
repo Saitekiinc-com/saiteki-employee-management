@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:0ff89357a2a111cf:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:fde3fa19d1a570c5",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "ホスピタリティ",
+  "detailBullets": [
+    "ホスピタリティ",
+    "「Letter of T」で上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティ、そして「大手が動けない数年間」の戦い方といった経営の真髄を詳細に共有する。",
+    "「Letter of T」で、上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティといった経営と営業の真髄を詳細に共有し、自身の意思決定基準と執着心を示した。",
+    "上場SIer社長から学んだAI戦略、営業ハック、プロの「準備」、ホスピタリティ"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1778922261.524759"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "ホスピタリティ"
+    },
+    {
+      "text": "「Letter of T」で上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティ、そして「大手が動けない数年間」の戦い方といった経営の真髄を詳細に共有する。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "「Letter of T」で、上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティといった経営と営業の真髄を詳細に共有し、自身の意思決定基準と執着心を示した。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+    },
+    {
+      "text": "上場SIer社長から学んだAI戦略、営業ハック、プロの「準備」、ホスピタリティ",
+      "sourceField": "current_state.recent_topics_of_interest.5"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

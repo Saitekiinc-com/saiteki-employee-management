@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:43c7616072f1b54e:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:14eb354618a767d3",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "創作",
+  "detailBullets": [
+    "創作",
+    "音響や音楽制作の経験から、細部への感覚や継続的な創作力も強みです。",
+    "成長実感、学習、創作活動、MVVへの共感を大切にしています。",
+    "音楽やMIXなど創作に没頭すること"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "創作"
+    },
+    {
+      "text": "音響や音楽制作の経験から、細部への感覚や継続的な創作力も強みです。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "成長実感、学習、創作活動、MVVへの共感を大切にしています。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "音楽やMIXなど創作に没頭すること",
+      "sourceField": "values_and_motivators.motivation_triggers.2"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

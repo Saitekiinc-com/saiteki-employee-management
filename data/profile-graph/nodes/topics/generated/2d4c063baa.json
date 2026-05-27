@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b016f0bd31f7b5aa",
+  "@type": "saiteki:TopicNode",
+  "name": "社員のウェルビーイング支援",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

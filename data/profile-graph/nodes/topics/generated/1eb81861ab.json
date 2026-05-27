@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7d31fd5d44e99527",
+  "@type": "saiteki:TopicNode",
+  "name": "自炊",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

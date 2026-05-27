@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:de7dc0e7dd8aa17d",
+  "@type": "saiteki:TopicNode",
+  "name": "企業ブランディング強化",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

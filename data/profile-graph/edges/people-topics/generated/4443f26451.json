@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:445e4d950dbb8959",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:小島遼祐",
+  "predicate": "INTERESTED_IN",
+  "target": "topic:auto:d3cb54e34781d437",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:4443f26451f1c263:001"
+  ]
+}

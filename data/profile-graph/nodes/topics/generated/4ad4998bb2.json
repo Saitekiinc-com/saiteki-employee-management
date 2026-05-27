@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:890c22086b0f16e1",
+  "@type": "saiteki:TopicNode",
+  "name": "多様な働き方",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:f74e395538089871",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:鈴木悠斗",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:11eb00be33ad6607",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:61e6f90e28949d9f:001"
+  ]
+}

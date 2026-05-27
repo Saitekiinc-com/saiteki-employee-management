@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:f66a838b2c19db30",
+  "@type": "saiteki:TopicNode",
+  "name": "技術的な問題を迅速に解決し、システムを安定稼働させること",
+  "topicType": "motivation",
+  "aliases": [
+    "技術的な問題を迅速に解決し",
+    "システムを安定稼働させること"
+  ],
+  "generatedFrom": "employees.json"
+}

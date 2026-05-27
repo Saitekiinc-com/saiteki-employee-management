@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:e1bf1ad1becc2b4a",
+  "@type": "saiteki:TopicNode",
+  "name": "チームのナレッジ蓄積や情報活用の効率化に貢献すること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ec030fbf9a74319b",
+  "@type": "saiteki:TopicNode",
+  "name": "組織変革への貢献",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

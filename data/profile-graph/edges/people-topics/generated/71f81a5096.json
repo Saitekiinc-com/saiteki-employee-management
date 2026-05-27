@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:80ac34d1c1b9be36",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:鈴木悠斗",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:c009623505bfba47",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:71f81a509658a1dc:001"
+  ]
+}

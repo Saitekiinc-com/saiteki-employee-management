@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7188dee36bdb9f82",
+  "@type": "saiteki:TopicNode",
+  "name": "現状打破",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

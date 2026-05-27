@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c53c5c271c4ae7a3",
+  "@type": "saiteki:TopicNode",
+  "name": "社内コミュニティ活性化",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

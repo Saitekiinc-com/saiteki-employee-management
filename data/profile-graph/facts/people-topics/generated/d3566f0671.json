@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:b43854314ef2ea62:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:47596b31985d7bef",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "Slackコミュニケーション",
+  "detailBullets": [
+    "Slackコミュニケーション",
+    "Slack上の活発な交流に新鮮さを感じ、同じ趣味の人と話したいと表明している。",
+    "Slackでの活発なコミュニケーションに新鮮さを感じ、社内交流に前向きな姿勢を示している。",
+    "Slack上での活発な交流にも価値を感じており、社内のつながりを前向きに受け止めています。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771550812.233829"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "Slackコミュニケーション"
+    },
+    {
+      "text": "Slack上の活発な交流に新鮮さを感じ、同じ趣味の人と話したいと表明している。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "Slackでの活発なコミュニケーションに新鮮さを感じ、社内交流に前向きな姿勢を示している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+    },
+    {
+      "text": "Slack上での活発な交流にも価値を感じており、社内のつながりを前向きに受け止めています。",
+      "sourceField": "values_and_motivators.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

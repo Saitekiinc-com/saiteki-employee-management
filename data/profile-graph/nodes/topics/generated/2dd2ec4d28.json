@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d793dcda7ba71746",
+  "@type": "saiteki:TopicNode",
+  "name": "明瞭な情報発信力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

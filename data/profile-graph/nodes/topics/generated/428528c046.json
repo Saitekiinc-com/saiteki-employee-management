@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:bb774752af001fb3",
+  "@type": "saiteki:TopicNode",
+  "name": "業務プロセスの抜本的な改善と最適化",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

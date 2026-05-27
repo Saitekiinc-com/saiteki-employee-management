@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:65d36906863c3cb4",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:佐藤傑",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:938d6e61870dc34e",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:b271f31e67946857:001"
+  ]
+}

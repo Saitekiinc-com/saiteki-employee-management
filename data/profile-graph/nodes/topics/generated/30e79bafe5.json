@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a59da55e37668013",
+  "@type": "saiteki:TopicNode",
+  "name": "遊び心",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

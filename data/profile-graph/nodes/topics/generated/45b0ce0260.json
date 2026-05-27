@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:825eca0ecfd5341b",
+  "@type": "saiteki:TopicNode",
+  "name": "ビジネス戦略理解",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

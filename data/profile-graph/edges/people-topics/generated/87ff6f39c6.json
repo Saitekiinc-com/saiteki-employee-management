@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:54f83595b604be1b",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:榎本詩織",
+  "predicate": "MOTIVATED_BY",
+  "target": "topic:auto:bd44c9cb893457a5",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "facts": [
+    "fact:auto:87ff6f39c6298b90:001"
+  ]
+}

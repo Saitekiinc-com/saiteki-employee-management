@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:25736a6948e5f226",
+  "@type": "saiteki:TopicNode",
+  "name": "SES採用・営業",
+  "topicType": "work_topic",
+  "aliases": [
+    "ses採用",
+    "営業",
+    "ses"
+  ],
+  "generatedFrom": "employees.json"
+}

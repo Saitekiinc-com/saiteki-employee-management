@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:9de5126714142c79:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:f498b965ed9ad6e9",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "具体的な成果物の完成と品質向上",
+  "detailBullets": [
+    "具体的な成果物の完成と品質向上",
+    "新しい技術（AI）の積極的な探求と業務への適用、プロセス全体の効率化と品質向上に強い意欲を持つ。チームへの貢献意識も高く、情報共有や意見交換を通じて成果を最大化しようとする。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "具体的な成果物の完成と品質向上"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "新しい技術（AI）の積極的な探求と業務への適用、プロセス全体の効率化と品質向上に強い意欲を持つ。チームへの貢献意識も高く、情報共有や意見交換を通じて成果を最大化しようとする。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:37:53.189Z",
+  "updatedAt": "2026-03-02T02:43:53.875Z"
+}

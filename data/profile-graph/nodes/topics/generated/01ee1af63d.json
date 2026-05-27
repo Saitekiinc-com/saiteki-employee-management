@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:184cc6e203ca720a",
+  "@type": "saiteki:TopicNode",
+  "name": "自然体",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

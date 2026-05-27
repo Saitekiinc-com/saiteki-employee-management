@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:dff148d919b7040b",
+  "@type": "saiteki:TopicNode",
+  "name": "丁寧で建設的なコミュニケーションとチームガイダンス",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

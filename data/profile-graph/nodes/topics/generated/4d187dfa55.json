@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:617f18298628f2d6",
+  "@type": "saiteki:TopicNode",
+  "name": "Youtubeでの動画視聴",
+  "topicType": "interest",
+  "aliases": [
+    "youtube"
+  ],
+  "generatedFrom": "employees.json"
+}

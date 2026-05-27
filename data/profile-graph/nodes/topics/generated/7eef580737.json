@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:9aefa7e8a142d37c",
+  "@type": "saiteki:TopicNode",
+  "name": "プロダクトマネジメントとアーキテクチャの関係",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

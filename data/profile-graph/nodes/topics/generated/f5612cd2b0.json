@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:ed2bc5b254a748da",
+  "@type": "saiteki:TopicNode",
+  "name": "人材を見極め、チームへの適応を促す視点",
+  "topicType": "work_strength",
+  "aliases": [
+    "人材を見極め",
+    "チームへの適応を促す視点"
+  ],
+  "generatedFrom": "employees.json"
+}

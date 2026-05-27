@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:e999801428ad2528",
+  "@type": "saiteki:TopicNode",
+  "name": "実践的な学習コンテンツの選定・提示",
+  "topicType": "work_strength",
+  "aliases": [
+    "実践的な学習コンテンツの選定",
+    "提示"
+  ],
+  "generatedFrom": "employees.json"
+}

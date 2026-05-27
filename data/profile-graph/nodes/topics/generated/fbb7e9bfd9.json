@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:7f2a08e2631e124c",
+  "@type": "saiteki:TopicNode",
+  "name": "AWS運用・監視",
+  "topicType": "work_topic",
+  "aliases": [
+    "aws運用",
+    "監視",
+    "aws"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a3eacf28e5ee98f6",
+  "@type": "saiteki:TopicNode",
+  "name": "社交性",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

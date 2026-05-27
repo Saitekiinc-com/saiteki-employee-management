@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:75c880ac2d348252",
+  "@type": "saiteki:TopicNode",
+  "name": "SaitekiのMVVへの共感",
+  "topicType": "value",
+  "aliases": [
+    "saiteki",
+    "mvv"
+  ],
+  "generatedFrom": "employees.json"
+}

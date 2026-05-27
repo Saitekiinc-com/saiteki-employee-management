@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:192e1d7e3615a78c",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:上原基臣",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:99feb6abd45234fc",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:4e023f3bfbabc061:001"
+  ]
+}

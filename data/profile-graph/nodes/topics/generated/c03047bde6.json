@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:4a2b94f8a97ab576",
+  "@type": "saiteki:TopicNode",
+  "name": "DX",
+  "topicType": "value",
+  "aliases": [
+    "dx"
+  ],
+  "generatedFrom": "employees.json"
+}

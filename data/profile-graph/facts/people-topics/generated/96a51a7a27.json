@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:50dc0ca5a11fb649:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:32400406398d4430",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "影響力行使（エンジニアの）",
+  "detailBullets": [
+    "影響力行使（エンジニアの）",
+    "」と、ビジネスにおけるエンジニアの役割を積極的に捉えている。",
+    "エンジニアの責任",
+    "エンジニアの影響力拡大"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1767700454.798389",
+    "primary:C09MKT8QKAR:1774358177.758939"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "影響力行使（エンジニアの）"
+    },
+    {
+      "text": "」と、ビジネスにおけるエンジニアの役割を積極的に捉えている。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.4"
+    },
+    {
+      "text": "エンジニアの責任",
+      "sourceField": "values_and_motivators.core_values.35"
+    },
+    {
+      "text": "エンジニアの影響力拡大",
+      "sourceField": "values_and_motivators.motivation_triggers.27"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

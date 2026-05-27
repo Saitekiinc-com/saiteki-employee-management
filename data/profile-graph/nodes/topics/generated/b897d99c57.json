@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:9efd81ca747b6e01",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい技術の導入と実践（特にAI）",
+  "topicType": "motivation",
+  "aliases": [
+    "新しい技術の導入と実践",
+    "特にai",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

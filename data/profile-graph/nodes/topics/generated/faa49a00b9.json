@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:5de8f97dd398d240",
+  "@type": "saiteki:TopicNode",
+  "name": "実践",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

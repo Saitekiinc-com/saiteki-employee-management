@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:a2aa6c950a98807f:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:8147e3ad93a75ac5",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "新しいメンバーが円滑にチームに溶け込み、安心して活躍すること",
+  "detailBullets": [
+    "新しいメンバーが円滑にチームに溶け込み、安心して活躍すること",
+    "自身の想いをチームと共有し、組織のビジョン実現に向けて一丸となることに大きな価値を見出す。メンバー個々人との深い人間関係と、ポジティブでオープンな職場文化、他者への称賛と協力、新しいメンバーの円滑な統合、そして共に困難を乗り越える経験が行動の原動力となっている。家族との調和も依然として重要な価値観であり、仕事とプライベートのバランスを大切にする。新しい情報…"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "新しいメンバーが円滑にチームに溶け込み、安心して活躍すること"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "自身の想いをチームと共有し、組織のビジョン実現に向けて一丸となることに大きな価値を見出す。メンバー個々人との深い人間関係と、ポジティブでオープンな職場文化、他者への称賛と協力、新しいメンバーの円滑な統合、そして共に困難を乗り越える経験が行動の原動力となっている。家族との調和も依然として重要な価値観であり、仕事とプライベートのバランスを大切にする。新しい情報を積極的に活用し、他者の疑問を解決することにも喜びを感じる。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T09:01:15.189Z",
+  "updatedAt": "2026-05-18T04:18:42.770Z"
+}

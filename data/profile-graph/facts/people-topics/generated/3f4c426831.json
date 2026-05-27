@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:256596f7e72445fb:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:66b6ea320560df19",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "AWSアーキテクチャ設計",
+  "detailBullets": [
+    "AWSアーキテクチャ設計",
+    "直近のログでも、AWSアーキテクチャ設計、プロジェクトマネジメント、技術的理想と事業的理想のバランス、技術的負債といった高度な技術・ビジネス概念に関心を示し、具体的な学習機会を提供している。",
+    "直近の社内勉強会アーカイブの案内においても、参加できなかった社員への配慮を示し、実務的な課題（AWS構成案の合意形成、技術選定の根拠）を持つ社員をターゲットにすることで、彼らに有益な情報を提供しようとする配慮がうかがえる。",
+    "また、AIに関する最新トレンドやAWSアーキテクチャの合意形成といった技術…"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1771212607.684939",
+    "primary:C09MKT8QKAR:1779270321.615129"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "AWSアーキテクチャ設計"
+    },
+    {
+      "text": "直近のログでも、AWSアーキテクチャ設計、プロジェクトマネジメント、技術的理想と事業的理想のバランス、技術的負債といった高度な技術・ビジネス概念に関心を示し、具体的な学習機会を提供している。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "直近の社内勉強会アーカイブの案内においても、参加できなかった社員への配慮を示し、実務的な課題（AWS構成案の合意形成、技術選定の根拠）を持つ社員をターゲットにすることで、彼らに有益な情報を提供しようとする配慮がうかがえる。",
+      "sourceField": "personality_traits.agreeableness.evidence"
+    },
+    {
+      "text": "また、AIに関する最新トレンドやAWSアーキテクチャの合意形成といった技術…",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

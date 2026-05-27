@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:b978c946fb5c9a47",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:青木淳一郎",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:2c2017ef60d7faae",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:2d5502ef824ae66b:001"
+  ]
+}

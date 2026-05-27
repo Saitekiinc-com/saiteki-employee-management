@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:12f537e09053e8ff:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:50363ea5e5328f40",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "継続的改善志向",
+  "detailBullets": [
+    "継続的改善志向",
+    "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。明確で構造化された情報発信を通じて、社員の積極的な参加と理解を促す能力に加え、細部にまで配慮したコンテンツ選定・提示を通じて…"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "継続的改善志向"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。明確で構造化された情報発信を通じて、社員の積極的な参加と理解を促す能力に加え、細部にまで配慮したコンテンツ選定・提示を通じて、質の高い学習と情報共有の場を創出する能力に長けている。特に、技術的課題と事業的…"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

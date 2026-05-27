@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:878515d726f851e5",
+  "@type": "saiteki:TopicNode",
+  "name": "新メンバーの円滑な統合と支援",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

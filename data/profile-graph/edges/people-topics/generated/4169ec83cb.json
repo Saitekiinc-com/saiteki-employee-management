@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:d2b5cf76e4d98d71",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:上原基臣",
+  "predicate": "VALUES",
+  "target": "topic:auto:cc1b7a641136d43e",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:4169ec83cb4656f0:001"
+  ]
+}

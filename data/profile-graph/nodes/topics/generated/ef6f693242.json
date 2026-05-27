@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:3c8e85f298875e40",
+  "@type": "saiteki:TopicNode",
+  "name": "自身のアイデアや知見を活かして具体的な仕組みを構築し、その効果を実感すること",
+  "topicType": "motivation",
+  "aliases": [
+    "自身のアイデアや知見を活かして具体的な仕組みを構築し",
+    "その効果を実感すること"
+  ],
+  "generatedFrom": "employees.json"
+}

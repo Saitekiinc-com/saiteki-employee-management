@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:b5213e183b762367",
+  "@type": "saiteki:TopicNode",
+  "name": "「新しいSIer」として組織が進化し、市場で独自の価値を確立すること",
+  "topicType": "motivation",
+  "aliases": [
+    "新しいsier",
+    "として組織が進化し",
+    "市場で独自の価値を確立すること",
+    "sier"
+  ],
+  "generatedFrom": "employees.json"
+}

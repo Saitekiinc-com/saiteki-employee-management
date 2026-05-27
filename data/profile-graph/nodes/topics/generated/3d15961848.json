@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:24cd419cd98d1101",
+  "@type": "saiteki:TopicNode",
+  "name": "インフラ自動化の最適判断と実装戦略",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

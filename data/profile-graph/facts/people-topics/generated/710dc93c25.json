@@ -1,0 +1,34 @@
+{
+  "@id": "fact:auto:e8043046ee077488:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:51c165725f59c251",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "自炊",
+  "detailBullets": [
+    "自炊",
+    "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771850944.221989"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "自炊"
+    },
+    {
+      "text": "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社前後のキャッチアップ段階で、IT領域の学習を継続しながら早く貢献しようとしている状態です。AI活用や音楽制作など、自分なりの学習・創作習慣も持っています。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:6642e582c93b5c00",
+  "@type": "saiteki:TopicNode",
+  "name": "企画した取り組みが成功し、参加者や利用者に価値を提供できた時",
+  "topicType": "motivation",
+  "aliases": [
+    "企画した取り組みが成功し",
+    "参加者や利用者に価値を提供できた時"
+  ],
+  "generatedFrom": "employees.json"
+}

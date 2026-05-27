@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:552b15edfc51171d",
+  "@type": "saiteki:TopicNode",
+  "name": "チームワーク",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

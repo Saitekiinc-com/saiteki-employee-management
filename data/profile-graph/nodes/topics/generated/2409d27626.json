@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:57fe1cd684a98122",
+  "@type": "saiteki:TopicNode",
+  "name": "リスクコントロールと不確実性の管理",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

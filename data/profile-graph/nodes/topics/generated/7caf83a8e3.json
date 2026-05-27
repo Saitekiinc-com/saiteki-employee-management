@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:4c6672a1bddbf59f",
+  "@type": "saiteki:TopicNode",
+  "name": "共有体験の創出",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

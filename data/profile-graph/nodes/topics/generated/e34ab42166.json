@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:fcb2c6ba5b04d81b",
+  "@type": "saiteki:TopicNode",
+  "name": "チームメンバーからの感謝と成長の実感",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:542c10a2e68af1a2",
+  "@type": "saiteki:TopicNode",
+  "name": "プロジェクトの具現化",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f960e9591e34cfbc",
+  "@type": "saiteki:TopicNode",
+  "name": "ビジネス戦略",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

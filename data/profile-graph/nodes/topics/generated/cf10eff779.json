@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:ae65b2aee2182bd2",
+  "@type": "saiteki:TopicNode",
+  "name": "改修開発・サポート経験",
+  "topicType": "work_strength",
+  "aliases": [
+    "改修開発",
+    "サポート経験"
+  ],
+  "generatedFrom": "employees.json"
+}

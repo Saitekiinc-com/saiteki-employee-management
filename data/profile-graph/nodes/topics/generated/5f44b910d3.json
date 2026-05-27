@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:aea71070b33d55d6",
+  "@type": "saiteki:TopicNode",
+  "name": "社内の人々と交流し、共に働くこと",
+  "topicType": "motivation",
+  "aliases": [
+    "社内の人々と交流し",
+    "共に働くこと"
+  ],
+  "generatedFrom": "employees.json"
+}

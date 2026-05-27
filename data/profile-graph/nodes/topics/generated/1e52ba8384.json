@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b89732cc7004b43a",
+  "@type": "saiteki:TopicNode",
+  "name": "秩序",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

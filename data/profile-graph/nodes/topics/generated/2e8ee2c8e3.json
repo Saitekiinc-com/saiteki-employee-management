@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:fae179bb3d0064de",
+  "@type": "saiteki:TopicNode",
+  "name": "深い人間関係の構築と共感",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

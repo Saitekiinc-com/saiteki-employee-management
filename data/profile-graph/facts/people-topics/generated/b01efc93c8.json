@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:a97ae25c1b1f0431:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:42ffba602ecf6202",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "繋がり",
+  "detailBullets": [
+    "繋がり",
+    "これは、自身の状況を周囲に開示することで交流を促し、新しい環境での繋がりを求める社交性の表れである。",
+    "成長、繋がり、楽しさ、探求、そして経験を重視する。",
+    "飲み会の後に、自らの趣味や出張先での発見を詳細に共有することで、仲間との繋がりを深めようとする。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "繋がり"
+    },
+    {
+      "text": "これは、自身の状況を周囲に開示することで交流を促し、新しい環境での繋がりを求める社交性の表れである。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "成長、繋がり、楽しさ、探求、そして経験を重視する。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "飲み会の後に、自らの趣味や出張先での発見を詳細に共有することで、仲間との繋がりを深めようとする。",
+      "sourceField": "values_and_motivators.evidence_episodes.0"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:36:35.579Z",
+  "updatedAt": "2026-05-11T04:06:08.439Z"
+}

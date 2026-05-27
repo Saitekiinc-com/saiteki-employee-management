@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:3afa538f805e1131",
+  "@type": "saiteki:TopicNode",
+  "name": "AI技術トレンドのキャッチアップ・共有",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai技術トレンドのキャッチアップ",
+    "共有",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

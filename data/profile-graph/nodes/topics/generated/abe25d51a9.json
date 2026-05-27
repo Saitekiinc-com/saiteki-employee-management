@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c8caef34b408e6cd",
+  "@type": "saiteki:TopicNode",
+  "name": "システム実装",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

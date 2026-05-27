@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a1b4dc1dd7c9a417",
+  "@type": "saiteki:TopicNode",
+  "name": "学習の粘り強さ",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

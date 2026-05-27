@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:4783386d0cd69273",
+  "@type": "saiteki:TopicNode",
+  "name": "チームエンゲージメント",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

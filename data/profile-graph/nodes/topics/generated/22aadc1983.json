@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:bb01da4899378ea8",
+  "@type": "saiteki:TopicNode",
+  "name": "ビジネスモデル分析能力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

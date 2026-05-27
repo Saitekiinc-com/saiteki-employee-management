@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:ec77a0491f15da61:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:34b5c19309691ffc",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "Youtubeでの動画視聴",
+  "detailBullets": [
+    "Youtubeでの動画視聴",
+    "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。ポケモン（ゲーム、カード）、音楽（SEKAI NO OWARI）、読書（ビジネス書への関心）と多岐にわたる趣味を持つ。他者の趣味にも積極的に興味を示し、ビジネス書の推薦を具体的に求めるほか、マッ…",
+    "「営業の小島です！23歳です！」と自身の役割と年齢を積極的に自己開示し、共通の話題（ラーメン、アニメ、ポケモン、出身地、大学、マッサージ巡りなど）を見つけては、積極的に相手に話しかけ、関係性を深めようと努力する。特に「山田さん、改めてよろしくお願いします！」と個人名を挙げて挨拶し、自身の好きなアニメ（葬送のフリーレン）を共有した上で、「私もディズニープラス…",
+    "「自分もインドア派なので休日時間があるときは、アニメやYoutubeで動画視聴しています」と自身のライフスタイルを共有し、親近感を醸成している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1768623384.280539",
+    "primary:C09Q46YA4ER:1775116620.383579"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "Youtubeでの動画視聴"
+    },
+    {
+      "text": "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。ポケモン（ゲーム、カード）、音楽（SEKAI NO OWARI）、読書（ビジネス書への関心）と多岐にわたる趣味を持つ。他者の趣味にも積極的に興味を示し、ビジネス書の推薦を具体的に求めるほか、マッ…",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "「営業の小島です！23歳です！」と自身の役割と年齢を積極的に自己開示し、共通の話題（ラーメン、アニメ、ポケモン、出身地、大学、マッサージ巡りなど）を見つけては、積極的に相手に話しかけ、関係性を深めようと努力する。特に「山田さん、改めてよろしくお願いします！」と個人名を挙げて挨拶し、自身の好きなアニメ（葬送のフリーレン）を共有した上で、「私もディズニープラス…",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "「自分もインドア派なので休日時間があるときは、アニメやYoutubeで動画視聴しています」と自身のライフスタイルを共有し、親近感を醸成している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.14"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

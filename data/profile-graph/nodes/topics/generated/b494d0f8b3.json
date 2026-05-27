@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:89e4b93486a7761d",
+  "@type": "saiteki:TopicNode",
+  "name": "課題の発見と解決",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

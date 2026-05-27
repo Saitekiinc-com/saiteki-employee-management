@@ -9,6 +9,10 @@ const OUTPUT_FILE = path.join(DATA_DIR, 'employee-profile-graph.jsonld');
 
 const ALLOWED_PREDICATES = new Set([
   'LIKES',
+  'HAS_STRENGTH',
+  'HAS_WORK_STYLE',
+  'VALUES',
+  'MOTIVATED_BY',
   'INTERESTED_IN',
   'PLAYS',
   'COLLECTS',
@@ -145,8 +149,10 @@ function buildFactNode(fact) {
     '@type': 'saiteki:ProfileFact',
     'saiteki:edge': fact.edge,
     'saiteki:relationLabel': fact.relationLabel,
+    'saiteki:sourceField': fact.sourceField || null,
     'saiteki:detailBullets': fact.detailBullets || [],
     'saiteki:evidenceMessages': (fact.evidenceMessageIds || []).map(messageNodeId),
+    'saiteki:evidenceProfileFields': fact.evidenceProfileFields || [],
     'saiteki:confidence': fact.confidence,
     'saiteki:extractionMethod': fact.extractionMethod || 'curated_seed',
     'saiteki:firstSeenAt': fact.firstSeenAt || null,
@@ -157,6 +163,10 @@ function buildFactNode(fact) {
 function buildProfileEdge(edge, facts) {
   const detailBullets = unique(facts.flatMap((fact) => fact.detailBullets || []));
   const evidenceMessages = unique(facts.flatMap((fact) => fact.evidenceMessageIds || [])).map(messageNodeId);
+  const sourceFields = unique(facts.flatMap((fact) => [
+    fact.sourceField,
+    ...(fact.evidenceProfileFields || []).map((field) => field.sourceField)
+  ]));
   const confidenceValues = facts.map((fact) => fact.confidence).filter((value) => typeof value === 'number');
   const confidence = confidenceValues.length ? Math.max(...confidenceValues) : edge.confidence;
   const relationLabel = edge.relationLabel || facts.find((fact) => fact.relationLabel)?.relationLabel || edge.predicate;
@@ -170,6 +180,8 @@ function buildProfileEdge(edge, facts) {
     'saiteki:relationLabel': relationLabel,
     'saiteki:uiCategory': edge.uiCategory || facts.find((fact) => fact.uiCategory)?.uiCategory || '興味・人柄',
     'saiteki:category': edge.category || facts.find((fact) => fact.category)?.category || 'interest',
+    'saiteki:sourceField': edge.sourceField || sourceFields[0] || null,
+    'saiteki:sourceFields': sourceFields,
     'saiteki:facts': facts.map((fact) => fact['@id'] || fact.id),
     'saiteki:detailBullets': detailBullets,
     'saiteki:evidenceMessages': evidenceMessages,
@@ -219,7 +231,9 @@ function validateSource({ employees, slackMessages, source }) {
         errors.push(`${fact.sourceFile} has no detail bullets`);
       }
       if (!Array.isArray(fact.evidenceMessageIds) || fact.evidenceMessageIds.length === 0) {
-        errors.push(`${fact.sourceFile} has no evidence messages`);
+        if (!Array.isArray(fact.evidenceProfileFields) || fact.evidenceProfileFields.length === 0) {
+          errors.push(`${fact.sourceFile} has no evidence messages or profile fields`);
+        }
       }
       if (typeof fact.confidence !== 'number' || fact.confidence < 0 || fact.confidence > 1) {
         errors.push(`${fact.sourceFile} confidence must be between 0 and 1`);

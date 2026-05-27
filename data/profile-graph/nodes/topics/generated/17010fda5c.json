@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:04184c3040b0e665",
+  "@type": "saiteki:TopicNode",
+  "name": "顧客の意思決定の文脈を理解し、提案を調整する柔軟性と機動力",
+  "topicType": "work_strength",
+  "aliases": [
+    "顧客の意思決定の文脈を理解し",
+    "提案を調整する柔軟性と機動力"
+  ],
+  "generatedFrom": "employees.json"
+}

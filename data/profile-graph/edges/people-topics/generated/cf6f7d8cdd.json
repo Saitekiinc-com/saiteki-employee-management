@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:89b97d69a1ccf86e",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:真栄城則明",
+  "predicate": "MOTIVATED_BY",
+  "target": "topic:auto:59c5044dfc7f5c1a",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "facts": [
+    "fact:auto:cf6f7d8cddb4eaee:001"
+  ]
+}

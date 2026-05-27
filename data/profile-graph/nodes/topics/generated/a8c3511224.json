@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b682adb4de277939",
+  "@type": "saiteki:TopicNode",
+  "name": "ネット回線速度の改善",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

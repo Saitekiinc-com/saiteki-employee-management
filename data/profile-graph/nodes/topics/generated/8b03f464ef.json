@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c53b4364f3a1bed5",
+  "@type": "saiteki:TopicNode",
+  "name": "長距離イベント",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

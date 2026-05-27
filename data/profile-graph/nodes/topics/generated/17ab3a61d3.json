@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:2496533235d9a18d",
+  "@type": "saiteki:TopicNode",
+  "name": "グローバルな視点",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

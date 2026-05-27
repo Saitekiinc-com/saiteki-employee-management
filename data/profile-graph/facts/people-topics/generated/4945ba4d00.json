@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:bb6963b7ed693c01:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b95981fb2a572da1",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "葬送のフリーレン",
+  "detailBullets": [
+    "葬送のフリーレン",
+    "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。",
+    "」と個人名を挙げて挨拶し、自身の好きなアニメ（葬送のフリーレン）を共有した上で、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的コンテンツに言及する。",
+    "「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と自身の趣味を具体的に開示し、相手の「好きな作品も教えてください！"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1768614261.622119",
+    "primary:C09Q46YA4ER:1775210263.013639"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "葬送のフリーレン"
+    },
+    {
+      "text": "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "」と個人名を挙げて挨拶し、自身の好きなアニメ（葬送のフリーレン）を共有した上で、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的コンテンツに言及する。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と自身の趣味を具体的に開示し、相手の「好きな作品も教えてください！",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

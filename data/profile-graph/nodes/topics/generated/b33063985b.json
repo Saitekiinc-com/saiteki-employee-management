@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:d2dd90bfcd33df7a",
+  "@type": "saiteki:TopicNode",
+  "name": "SESとしての立場から見た事業全体の視点",
+  "topicType": "interest",
+  "aliases": [
+    "ses"
+  ],
+  "generatedFrom": "employees.json"
+}

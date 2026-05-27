@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:fcf9108614dcc61b",
+  "@type": "saiteki:TopicNode",
+  "name": "人材獲得・リファラル採用推進",
+  "topicType": "work_strength",
+  "aliases": [
+    "人材獲得",
+    "リファラル採用推進"
+  ],
+  "generatedFrom": "employees.json"
+}

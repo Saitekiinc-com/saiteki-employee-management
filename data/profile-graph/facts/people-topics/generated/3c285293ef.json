@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:52b5dc6f9a1acf31:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:08c2071decdc3295",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "新しい同僚（山田さん）との関係構築",
+  "detailBullets": [
+    "新しい同僚（山田さん）との関係構築",
+    "特に「山田さん、改めてよろしくお願いします！",
+    "「山田さん、改めてよろしくお願いします！",
+    "絵文字や「汗のしずく」などを適度に活用して親しみやすさや人間味を演出し、丁寧な挨拶と協働の意思表明を欠かさない（「山田さん、改めてよろしくお願いします！"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1775210263.013639"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "新しい同僚（山田さん）との関係構築"
+    },
+    {
+      "text": "特に「山田さん、改めてよろしくお願いします！",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "「山田さん、改めてよろしくお願いします！",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+    },
+    {
+      "text": "絵文字や「汗のしずく」などを適度に活用して親しみやすさや人間味を演出し、丁寧な挨拶と協働の意思表明を欠かさない（「山田さん、改めてよろしくお願いします！",
+      "sourceField": "communication_patterns.communication_style"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

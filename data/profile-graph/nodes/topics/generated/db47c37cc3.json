@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a9a0e915a1eb02c7",
+  "@type": "saiteki:TopicNode",
+  "name": "成長",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

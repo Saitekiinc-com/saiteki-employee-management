@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ce5b5b2de161a136",
+  "@type": "saiteki:TopicNode",
+  "name": "責任感",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

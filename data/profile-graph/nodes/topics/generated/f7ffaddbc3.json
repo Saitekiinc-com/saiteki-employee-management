@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:77cc9529849243ed",
+  "@type": "saiteki:TopicNode",
+  "name": "情報共有と進捗報告の明確さ",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

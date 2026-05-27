@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:90b929b243aa4ef5",
+  "@type": "saiteki:TopicNode",
+  "name": "評価軸の言語化とトレードオフの合意",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

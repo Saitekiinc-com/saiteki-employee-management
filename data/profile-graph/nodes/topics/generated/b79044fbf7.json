@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b9b5512458c35300",
+  "@type": "saiteki:TopicNode",
+  "name": "優秀な人材獲得による組織力向上",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

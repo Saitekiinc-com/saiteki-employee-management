@@ -1,0 +1,14 @@
+{
+  "@id": "topic:auto:c5177a13b1f59fdf",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の健康を維持し、持続的に貢献できること、それを「経営責任」と捉えること",
+  "topicType": "motivation",
+  "aliases": [
+    "自身の健康を維持し",
+    "持続的に貢献できること",
+    "それを",
+    "経営責任",
+    "と捉えること"
+  ],
+  "generatedFrom": "employees.json"
+}

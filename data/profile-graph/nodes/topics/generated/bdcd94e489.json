@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:0763ff75c6230975",
+  "@type": "saiteki:TopicNode",
+  "name": "アニメ・映画・ゲーム・収集などの話題でつながること",
+  "topicType": "motivation",
+  "aliases": [
+    "アニメ",
+    "映画",
+    "ゲーム",
+    "収集などの話題でつながること"
+  ],
+  "generatedFrom": "employees.json"
+}

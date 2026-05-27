@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:4df86edf37f19d9f",
+  "@type": "saiteki:TopicNode",
+  "name": "ユーモア",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

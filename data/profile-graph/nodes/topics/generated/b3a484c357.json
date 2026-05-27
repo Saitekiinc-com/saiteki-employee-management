@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:17dc29210b08e22f",
+  "@type": "saiteki:TopicNode",
+  "name": "汎用テスト観点の修正と改善",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

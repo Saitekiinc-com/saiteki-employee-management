@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:eb6ddec31e9bd491",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:上原基臣",
+  "predicate": "INTERESTED_IN",
+  "target": "topic:auto:49c1108eb8a7b318",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:d0f3b737b207d373:001"
+  ]
+}

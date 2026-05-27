@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:63356739e9c51264",
+  "@type": "saiteki:TopicNode",
+  "name": "協調的リーダーシップ",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

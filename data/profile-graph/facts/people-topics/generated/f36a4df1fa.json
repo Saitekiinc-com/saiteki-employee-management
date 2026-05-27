@@ -1,0 +1,34 @@
+{
+  "@id": "fact:auto:af991b17b1ad3ac8:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:21749a10f53580ff",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "AIを使った学習",
+  "detailBullets": [
+    "AIを使った学習",
+    "AIを使った学習や音楽制作にも関心が高く、成長実感を大切にしながら前向きにキャッチアップする人物です。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771850944.221989"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "AIを使った学習"
+    },
+    {
+      "text": "AIを使った学習や音楽制作にも関心が高く、成長実感を大切にしながら前向きにキャッチアップする人物です。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "多様な職務経験とAWS運用・監視経験を持ち、未知の領域でもAIや整理力を使って学習を進められるタイプ。音響や音楽制作の経験から、細部への感覚や継続的な創作力も強みです。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

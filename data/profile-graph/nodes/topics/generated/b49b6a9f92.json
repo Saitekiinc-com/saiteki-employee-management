@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:02da8462de6fe772",
+  "@type": "saiteki:TopicNode",
+  "name": "外部知見共有",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

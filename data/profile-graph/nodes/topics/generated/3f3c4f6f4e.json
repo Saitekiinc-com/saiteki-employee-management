@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3151da1f789f32eb",
+  "@type": "saiteki:TopicNode",
+  "name": "正確性へのこだわり",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:b33189588350bd4c",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:佐藤傑",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:2496533235d9a18d",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:faecce59c726d90c:001"
+  ]
+}

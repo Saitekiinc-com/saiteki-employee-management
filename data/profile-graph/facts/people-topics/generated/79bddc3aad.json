@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:a82d228a3e1ade6e:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:c5792b0cc0fb75e6",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "relationLabel": "先入観を持たず、自然体で状況に入り、複数領域の経験を組み合わせて対応するスタイル。明確な型にはめすぎず、小さな変化や違和感も楽しみながら進める傾向がある。",
+  "detailBullets": [
+    "先入観を持たず、自然体で状況に入り、複数領域の経験を組み合わせて対応するスタイル。明確な型にはめすぎず、小さな変化や違和感も楽しみながら進める傾向がある。",
+    "先入観を持たず、自然体で状況に入り、複数領域の経験を組み合わせて対応するスタイル。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.problem_solving_style",
+      "text": "先入観を持たず、自然体で状況に入り、複数領域の経験を組み合わせて対応するスタイル。明確な型にはめすぎず、小さな変化や違和感も楽しみながら進める傾向がある。"
+    },
+    {
+      "text": "先入観を持たず、自然体で状況に入り、複数領域の経験を組み合わせて対応するスタイル。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "開発、インフラ、サービス、テスト、採用・営業、ゲーム開発、作曲まで横断的な経験を持つ越境型の人材。技術と運用、クリエイティブをつなげて考えられる柔軟性が強みです。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

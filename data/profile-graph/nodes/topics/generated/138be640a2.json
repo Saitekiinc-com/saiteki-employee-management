@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3a81c786410a8a63",
+  "@type": "saiteki:TopicNode",
+  "name": "社内コミュニケーション",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -127,12 +127,22 @@ function scoreFacet(facet, queryVector, queryTerms) {
   ].filter(Boolean).join(' ');
   const combinedText = [labelText, evidenceText, facet.sourceText].filter(Boolean).join(' ');
   const labelScore = cosineSimilarity(queryVector, vectorize(labelText));
+  const evidenceScore = cosineSimilarity(queryVector, vectorize(evidenceText));
   const combinedScore = cosineSimilarity(queryVector, vectorize(combinedText));
   const label = normalizeText(labelText);
   const evidence = normalizeText(evidenceText);
   const labelBoost = queryTerms.filter((term) => label.includes(term)).length * 0.08;
-  const evidenceBoost = queryTerms.filter((term) => evidence.includes(term)).length * 0.015;
-  return Math.min(combinedScore * 0.75 + labelScore * 0.35 + labelBoost + evidenceBoost, 1);
+  const labelMatched = labelScore > 0.04 || labelBoost > 0;
+  const evidenceBoost = labelMatched ? queryTerms.filter((term) => evidence.includes(term)).length * 0.01 : 0;
+  const evidenceWeight = labelMatched ? 0.2 : 0.05;
+  return Math.min(
+    labelScore * 0.8
+      + evidenceScore * evidenceWeight
+      + combinedScore * 0.05
+      + labelBoost
+      + evidenceBoost,
+    1
+  );
 }
 
 function aggregateByEmployee(scoredFacets, threshold) {

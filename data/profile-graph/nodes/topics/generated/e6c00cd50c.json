@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:46d85a3836b77eb2",
+  "@type": "saiteki:TopicNode",
+  "name": "感謝",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

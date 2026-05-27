@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:50fe503bfd6e8c3c",
+  "@type": "saiteki:TopicNode",
+  "name": "新入社員オンボーディング支援",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6226b766d47f8a3b",
+  "@type": "saiteki:TopicNode",
+  "name": "社員の技術スキルが向上すること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

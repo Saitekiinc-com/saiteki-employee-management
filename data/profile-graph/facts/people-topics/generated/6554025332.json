@@ -1,0 +1,30 @@
+{
+  "@id": "fact:auto:e5667614fb1be892:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:31b80752a3a70974",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "映画鑑賞",
+  "detailBullets": [
+    "映画鑑賞",
+    "入社前後の新しい環境に向けて、技術面と社内コミュニケーションの両方でキャッチアップしようとしている状態です。自己認識は現実的で、周囲との交流を通じて早くなじもうとしています。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771550812.233829"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "映画鑑賞"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社前後の新しい環境に向けて、技術面と社内コミュニケーションの両方でキャッチアップしようとしている状態です。自己認識は現実的で、周囲との交流を通じて早くなじもうとしています。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

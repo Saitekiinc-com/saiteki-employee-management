@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:237f58750eab064e",
+  "@type": "saiteki:TopicNode",
+  "name": "AI駆動開発の実践と知識共有（特に標準化・ガイドライン作成）",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai駆動開発の実践と知識共有",
+    "特に標準化",
+    "ガイドライン作成",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

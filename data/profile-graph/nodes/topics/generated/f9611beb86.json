@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f0497659e6a0e4da",
+  "@type": "saiteki:TopicNode",
+  "name": "ブランド価値",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

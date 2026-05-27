@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0253e3e70f583dfa",
+  "@type": "saiteki:TopicNode",
+  "name": "人との交流",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d73830fca471fd11",
+  "@type": "saiteki:TopicNode",
+  "name": "就労証明書などの事務手続き",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

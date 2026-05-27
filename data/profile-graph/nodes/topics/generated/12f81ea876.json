@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a5c2a6495f118f80",
+  "@type": "saiteki:TopicNode",
+  "name": "安定",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f3d862b26ff6c6f1",
+  "@type": "saiteki:TopicNode",
+  "name": "会社の事業発展に貢献できること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

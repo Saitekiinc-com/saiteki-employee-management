@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:48910a12b727b143",
+  "@type": "saiteki:TopicNode",
+  "name": "自己開示と透明性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

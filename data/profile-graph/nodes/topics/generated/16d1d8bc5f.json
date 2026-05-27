@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f28138adf9be2daf",
+  "@type": "saiteki:TopicNode",
+  "name": "社内交流の促進",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

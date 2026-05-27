@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:32dc7c8d4eae1af0",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:藤井芙美子",
+  "predicate": "MOTIVATED_BY",
+  "target": "topic:auto:12da1637a2eb2508",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "facts": [
+    "fact:auto:2b0dd76297070f5b:001"
+  ]
+}

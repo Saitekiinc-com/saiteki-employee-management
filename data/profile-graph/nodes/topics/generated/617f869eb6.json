@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:3d12c94e35a5a364",
+  "@type": "saiteki:TopicNode",
+  "name": "新しく参画した営業部長・人事部長の活躍と幹部への権限委譲",
+  "topicType": "work_topic",
+  "aliases": [
+    "新しく参画した営業部長",
+    "人事部長の活躍と幹部への権限委譲"
+  ],
+  "generatedFrom": "employees.json"
+}

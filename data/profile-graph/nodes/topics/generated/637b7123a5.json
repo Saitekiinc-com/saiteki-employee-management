@@ -1,0 +1,14 @@
+{
+  "@id": "topic:auto:fda4ac3d98bc4202",
+  "@type": "saiteki:TopicNode",
+  "name": "技術革新と探求 (特にAIと知識グラフ、ベクトル検索、AI駆動開発)",
+  "topicType": "value",
+  "aliases": [
+    "技術革新と探求",
+    "特にaiと知識グラフ",
+    "ベクトル検索",
+    "ai駆動開発",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

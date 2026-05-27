@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3c118092d87c034d",
+  "@type": "saiteki:TopicNode",
+  "name": "理想の組織像と組織の成長",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:b863606b59c2e4af",
+  "@type": "saiteki:TopicNode",
+  "name": "知識共有の仕組みを構築し、組織全体の知の活用を促進すること",
+  "topicType": "motivation",
+  "aliases": [
+    "知識共有の仕組みを構築し",
+    "組織全体の知の活用を促進すること"
+  ],
+  "generatedFrom": "employees.json"
+}

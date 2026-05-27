@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:339d18c952fb4288",
+  "@type": "saiteki:TopicNode",
+  "name": "問題解決",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:cc9a61e49d8429a4",
+  "@type": "saiteki:TopicNode",
+  "name": "サーバ運用・テスト経験",
+  "topicType": "work_strength",
+  "aliases": [
+    "サーバ運用",
+    "テスト経験"
+  ],
+  "generatedFrom": "employees.json"
+}

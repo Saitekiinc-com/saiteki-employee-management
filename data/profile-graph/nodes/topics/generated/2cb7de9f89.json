@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:dcd196fd80b0d98a",
+  "@type": "saiteki:TopicNode",
+  "name": "チームの結束と高い士気",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

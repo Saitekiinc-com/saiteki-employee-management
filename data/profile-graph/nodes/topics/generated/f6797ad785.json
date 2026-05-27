@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a730131408122980",
+  "@type": "saiteki:TopicNode",
+  "name": "読書などによる知的好奇心の充足と知識の獲得",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

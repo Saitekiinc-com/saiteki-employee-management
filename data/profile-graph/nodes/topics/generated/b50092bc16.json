@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:70804e746ef76f4c",
+  "@type": "saiteki:TopicNode",
+  "name": "実践を通じた技術検証と実装",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

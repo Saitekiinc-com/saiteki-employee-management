@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6ed6e276e7eaaa97",
+  "@type": "saiteki:TopicNode",
+  "name": "良好な関係性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

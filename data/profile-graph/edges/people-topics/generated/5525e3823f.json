@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:7e60acf82dd08824",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:小林翔",
+  "predicate": "INTERESTED_IN",
+  "target": "topic:auto:93c68e9aacbd795b",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:5525e3823fc0de12:001"
+  ]
+}

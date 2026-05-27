@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ebba088235fa18c9",
+  "@type": "saiteki:TopicNode",
+  "name": "健康的な食生活と自己管理",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

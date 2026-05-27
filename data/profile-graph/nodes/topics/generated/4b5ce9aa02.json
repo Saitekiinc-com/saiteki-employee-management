@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:0ca0e5348a9c88fd",
+  "@type": "saiteki:TopicNode",
+  "name": "AI駆動開発の推進",
+  "topicType": "motivation",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:52c95da87eb2e283:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:e2a9fec337cc28d5",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "感謝",
+  "detailBullets": [
+    "感謝",
+    "懇親会への感謝を述べ、本社オフィスでの経験を共有し、他者に訪問を勧めるなど、他者のポジティブな体験を促進しようとします。",
+    "」と具体的に賞賛し、感謝を伝えている。",
+    "他者の投稿には積極的に反応し、親しみやすい挨拶や具体的な推奨、感謝の言葉を用いることで、カジュアルながらも建設的な対話を促進します。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "感謝"
+    },
+    {
+      "text": "懇親会への感謝を述べ、本社オフィスでの経験を共有し、他者に訪問を勧めるなど、他者のポジティブな体験を促進しようとします。",
+      "sourceField": "personality_traits.agreeableness.evidence"
+    },
+    {
+      "text": "」と具体的に賞賛し、感謝を伝えている。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.4"
+    },
+    {
+      "text": "他者の投稿には積極的に反応し、親しみやすい挨拶や具体的な推奨、感謝の言葉を用いることで、カジュアルながらも建設的な対話を促進します。",
+      "sourceField": "communication_patterns.summary"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:46.998Z",
+  "updatedAt": "2026-05-25T04:25:29.126Z"
+}

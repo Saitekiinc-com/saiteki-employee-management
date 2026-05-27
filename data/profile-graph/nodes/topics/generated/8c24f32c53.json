@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:14f64807484b59bb",
+  "@type": "saiteki:TopicNode",
+  "name": "最先端の技術やビジネスモデルを探求し、共有すること",
+  "topicType": "motivation",
+  "aliases": [
+    "最先端の技術やビジネスモデルを探求し",
+    "共有すること"
+  ],
+  "generatedFrom": "employees.json"
+}

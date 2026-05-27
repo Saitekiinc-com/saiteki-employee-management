@@ -1,0 +1,34 @@
+{
+  "@id": "fact:auto:22d06b3faae9d349:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:c68006485cfeb543",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "将棋",
+  "detailBullets": [
+    "将棋",
+    "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1768614261.622119"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "将棋"
+    },
+    {
+      "text": "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社3ヶ月目の新入社員として、新しい環境への適応と人間関係の構築に積極的に取り組んでいる。自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。専門的な学習だけでなく、趣味を通じた交流にも意欲的である。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

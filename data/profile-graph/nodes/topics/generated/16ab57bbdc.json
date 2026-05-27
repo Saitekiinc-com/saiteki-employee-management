@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:5b962cf0f123d9e1",
+  "@type": "saiteki:TopicNode",
+  "name": "ワークライフバランスを保ちつつ、自身の能力を最大限に発揮し、組織に貢献すること",
+  "topicType": "motivation",
+  "aliases": [
+    "ワークライフバランスを保ちつつ",
+    "自身の能力を最大限に発揮し",
+    "組織に貢献すること"
+  ],
+  "generatedFrom": "employees.json"
+}

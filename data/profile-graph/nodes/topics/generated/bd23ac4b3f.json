@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:93c68e9aacbd795b",
+  "@type": "saiteki:TopicNode",
+  "name": "連休の過ごし方",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

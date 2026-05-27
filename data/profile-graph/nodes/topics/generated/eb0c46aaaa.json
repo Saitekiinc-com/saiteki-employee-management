@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f350658d39a6abda",
+  "@type": "saiteki:TopicNode",
+  "name": "技術とビジネスの橋渡し",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

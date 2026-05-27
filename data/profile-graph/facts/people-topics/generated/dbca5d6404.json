@@ -1,0 +1,30 @@
+{
+  "@id": "fact:auto:31b667d1621d0ecc:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:ea4ac54a61759a4b",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "採用・営業も含む対人経験",
+  "detailBullets": [
+    "採用・営業も含む対人経験",
+    "開発、インフラ、サービス、テスト、採用・営業、ゲーム開発、作曲まで横断的な経験を持つ越境型の人材。技術と運用、クリエイティブをつなげて考えられる柔軟性が強みです。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771638120.236499"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "採用・営業も含む対人経験"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "開発、インフラ、サービス、テスト、採用・営業、ゲーム開発、作曲まで横断的な経験を持つ越境型の人材。技術と運用、クリエイティブをつなげて考えられる柔軟性が強みです。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

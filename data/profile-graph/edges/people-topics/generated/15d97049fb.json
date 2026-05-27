@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:63a80b5ef3317a02",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:戸塚直道",
+  "predicate": "HAS_WORK_STYLE",
+  "target": "topic:auto:0b47849e8f23090b",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "facts": [
+    "fact:auto:15d97049fb2d388d:001"
+  ]
+}

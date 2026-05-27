@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:aca3bcd4150af828",
+  "@type": "saiteki:TopicNode",
+  "name": "在宅勤務環境の確認",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:4e2921a2632e366d",
+  "@type": "saiteki:TopicNode",
+  "name": "海外AIスタートアップとの連携",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

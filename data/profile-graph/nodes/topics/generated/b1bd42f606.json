@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d26fd684ea34109a",
+  "@type": "saiteki:TopicNode",
+  "name": "職場の雰囲気向上",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

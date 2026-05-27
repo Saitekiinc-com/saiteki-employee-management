@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:67085f8e4f8c8bec",
+  "@type": "saiteki:TopicNode",
+  "name": "影響力行使（エンジニアの）",
+  "topicType": "value",
+  "aliases": [
+    "影響力行使",
+    "エンジニアの"
+  ],
+  "generatedFrom": "employees.json"
+}

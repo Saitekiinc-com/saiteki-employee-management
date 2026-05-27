@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:c136cc7ffdaf464d",
+  "@type": "saiteki:TopicNode",
+  "name": "AI技術が組織の文化や働き方を良い方向に変革すること",
+  "topicType": "motivation",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

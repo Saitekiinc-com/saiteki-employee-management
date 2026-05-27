@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:cf9d50e6cf12a7f1",
+  "@type": "saiteki:TopicNode",
+  "name": "会議の効率化を提案する配慮",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

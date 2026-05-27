@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:be49b88486254ad1:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:81a05da66f6c8edb",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "自身の年齢（23歳）",
+  "detailBullets": [
+    "自身の年齢（23歳）",
+    "23歳です！",
+    "自身の趣味や経験（アニメ、インドア派、歴史の好み、自身の年齢（23歳））を詳細に自己開示することで、相手との親近感を速やかに醸成する。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1768614261.622119",
+    "primary:C09Q46YA4ER:1775210263.013639"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "自身の年齢（23歳）"
+    },
+    {
+      "text": "23歳です！",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "自身の趣味や経験（アニメ、インドア派、歴史の好み、自身の年齢（23歳））を詳細に自己開示することで、相手との親近感を速やかに醸成する。",
+      "sourceField": "communication_patterns.communication_style"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社3ヶ月目の新入社員として、新しい環境への適応と人間関係の構築に積極的に取り組んでいる。自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。専門的な学習だけでなく、趣味を通じた交流にも意欲的である。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

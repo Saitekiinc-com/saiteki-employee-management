@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:729d3f6dd22af1d6",
+  "@type": "saiteki:TopicNode",
+  "name": "アーキテクチャの合意形成術（現場の制約と理想のバランス）",
+  "topicType": "interest",
+  "aliases": [
+    "アーキテクチャの合意形成術",
+    "現場の制約と理想のバランス"
+  ],
+  "generatedFrom": "employees.json"
+}

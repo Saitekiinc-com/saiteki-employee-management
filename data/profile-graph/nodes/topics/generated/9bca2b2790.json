@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:5c15bf965ae55d18",
+  "@type": "saiteki:TopicNode",
+  "name": "変革",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

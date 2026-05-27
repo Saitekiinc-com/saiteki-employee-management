@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:6dd3b0379f82a649:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:09ac25424ab41018",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "穏やかな関係構築",
+  "detailBullets": [
+    "穏やかな関係構築",
+    "自己紹介や返信は丁寧で開かれているが、「自然体で少しずつ関わっていけたら」と述べており、急に距離を詰めるよりも穏やかな関係構築を好む傾向がある。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "穏やかな関係構築"
+    },
+    {
+      "text": "自己紹介や返信は丁寧で開かれているが、「自然体で少しずつ関わっていけたら」と述べており、急に距離を詰めるよりも穏やかな関係構築を好む傾向がある。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

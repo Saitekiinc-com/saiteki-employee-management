@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:50ee12d4096a16f7:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:52b454c3e881785f",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "困難克服への挑戦",
+  "detailBullets": [
+    "困難克服への挑戦",
+    "Saitekiのビジョンと顧客への貢献に強い信頼とコミットメントを持ち、自身の経験と知識を活かして組織全体の成長と顧客の成功に貢献することに大きな価値を見出す。特に、顧客の意思決定の文脈を理解し、Saiteki独自の市場ポジションを確立することに強い意欲とモチベーションを感じる。困難な状況でも諦めずに解決策を模索し、責任感を持って業務を推進することにモチベ…"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "困難克服への挑戦"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "Saitekiのビジョンと顧客への貢献に強い信頼とコミットメントを持ち、自身の経験と知識を活かして組織全体の成長と顧客の成功に貢献することに大きな価値を見出す。特に、顧客の意思決定の文脈を理解し、Saiteki独自の市場ポジションを確立することに強い意欲とモチベーションを感じる。困難な状況でも諦めずに解決策を模索し、責任感を持って業務を推進することにモチベーションを感じる。会社のビジョン実現と業界課題の解決への貢献に強い喜びと使命感を…"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:37:37.794Z",
+  "updatedAt": "2026-04-13T03:36:52.852Z"
+}

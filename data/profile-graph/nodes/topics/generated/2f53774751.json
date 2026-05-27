@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:7c2e74b23497506b",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の策定したガイドラインが組織全体に浸透し、具体的な行動変容に繋がること",
+  "topicType": "motivation",
+  "aliases": [
+    "自身の策定したガイドラインが組織全体に浸透し",
+    "具体的な行動変容に繋がること"
+  ],
+  "generatedFrom": "employees.json"
+}

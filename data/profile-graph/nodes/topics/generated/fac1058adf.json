@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:eca278e6eef1506c",
+  "@type": "saiteki:TopicNode",
+  "name": "ビジネス洞察",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

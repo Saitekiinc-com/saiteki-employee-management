@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:608a4ab9273cc4ad",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の想いをチームと共有し、共感を得ること",
+  "topicType": "motivation",
+  "aliases": [
+    "自身の想いをチームと共有し",
+    "共感を得ること"
+  ],
+  "generatedFrom": "employees.json"
+}

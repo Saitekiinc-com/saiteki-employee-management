@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:3a81bb86c4ebec1c:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:89873a83d28387ab",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "適応力",
+  "detailBullets": [
+    "適応力",
+    "新しい環境への高い適応力と計画性を持ち、自身の生活の変化も積極的に共有する社交的な人物。",
+    "計画性、実行力、そして適応力に優れる。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "適応力"
+    },
+    {
+      "text": "新しい環境への高い適応力と計画性を持ち、自身の生活の変化も積極的に共有する社交的な人物。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "計画性、実行力、そして適応力に優れる。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "長年の経験に裏打ちされた細部への注意と、高いコミュニケーション能力が強み。新しい情報や知識の吸収にも積極的で、協調性を持ちながら業務に取り組む。状況把握と情報共有に長け、自身の経験を活かした具体的な提案も期待できる。計画性、実行力、そして適応力に優れる。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:36:35.579Z",
+  "updatedAt": "2026-05-11T04:06:08.439Z"
+}

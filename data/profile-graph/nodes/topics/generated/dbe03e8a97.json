@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:82f061be0215f230",
+  "@type": "saiteki:TopicNode",
+  "name": "音楽・音響への感性と集中力",
+  "topicType": "work_strength",
+  "aliases": [
+    "音楽",
+    "音響への感性と集中力"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:6dc32c7ae373a4a2",
+  "@type": "saiteki:TopicNode",
+  "name": "積極的に人々と交流し、関係を深めること",
+  "topicType": "motivation",
+  "aliases": [
+    "積極的に人々と交流し",
+    "関係を深めること"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:89a0ae1a15392641",
+  "@type": "saiteki:TopicNode",
+  "name": "インクルージョン",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

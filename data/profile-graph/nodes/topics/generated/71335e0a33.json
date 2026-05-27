@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:5194b84e01009cb9",
+  "@type": "saiteki:TopicNode",
+  "name": "人との協働を通じた課題解決と新しい働き方の創出",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

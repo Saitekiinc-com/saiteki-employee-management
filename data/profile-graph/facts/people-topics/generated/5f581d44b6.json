@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:521a6feb8a882e81:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:930e2e75efb1c0f6",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "社内の人々と交流し、共に働くこと",
+  "detailBullets": [
+    "社内の人々と交流し、共に働くこと",
+    "オンライン飲み会への参加意欲や、お酒好き仲間がいることへの喜びを表明するなど、社内の交流を大切にし、共に働くことを楽しみにしている様子がうかがえる。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "社内の人々と交流し、共に働くこと"
+    },
+    {
+      "text": "オンライン飲み会への参加意欲や、お酒好き仲間がいることへの喜びを表明するなど、社内の交流を大切にし、共に働くことを楽しみにしている様子がうかがえる。",
+      "sourceField": "values_and_motivators.evidence_episodes.2"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。目標に向かって努力する過程自体を楽しんでいる。また、社内のつながりや他者への貢献も大切にする。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:d509dde1fe4a33ae",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:上遼太郎",
+  "predicate": "VALUES",
+  "target": "topic:auto:dc418cea08a045f7",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:ce997d89781e99c2:001"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:f9059c5388bbd7ba",
+  "@type": "saiteki:TopicNode",
+  "name": "AWSアーキテクチャ設計",
+  "topicType": "work_topic",
+  "aliases": [
+    "aws"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:8bc48531b5c37a02",
+  "@type": "saiteki:TopicNode",
+  "name": "社員とその家族、友人を含むメンバーのエンゲージメント向上と交流の活性化",
+  "topicType": "motivation",
+  "aliases": [
+    "社員とその家族",
+    "友人を含むメンバーのエンゲージメント向上と交流の活性化"
+  ],
+  "generatedFrom": "employees.json"
+}

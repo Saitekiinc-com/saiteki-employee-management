@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:314f5a874221c778",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の知識や経験を共有し、他者の学びや組織の成長を促すこと",
+  "topicType": "motivation",
+  "aliases": [
+    "自身の知識や経験を共有し",
+    "他者の学びや組織の成長を促すこと"
+  ],
+  "generatedFrom": "employees.json"
+}

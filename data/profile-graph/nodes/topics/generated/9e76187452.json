@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:62543f8e442b0b89",
+  "@type": "saiteki:TopicNode",
+  "name": "複雑な技術課題の解決",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

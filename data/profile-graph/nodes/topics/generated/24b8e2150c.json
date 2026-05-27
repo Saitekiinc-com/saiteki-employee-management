@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:667021e7d5e32d42",
+  "@type": "saiteki:TopicNode",
+  "name": "計画的なプロジェクト推進",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

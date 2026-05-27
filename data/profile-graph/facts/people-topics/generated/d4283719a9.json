@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:d296e1cdf2775eb7:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:d21d9738deeaf901",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "自然体",
+  "detailBullets": [
+    "自然体",
+    "自然体で少しずつ周囲と関わることを望み、柔軟で独自の感性を持っています。",
+    "創造性と経験の幅が非常に広く、自然体で柔らかい関係構築を好む人物です。",
+    "最近ハマっていることへの答えも自由度が高く、先入観なく自然体で関わりたいと述べている。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771638120.236499"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "自然体"
+    },
+    {
+      "text": "自然体で少しずつ周囲と関わることを望み、柔軟で独自の感性を持っています。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "創造性と経験の幅が非常に広く、自然体で柔らかい関係構築を好む人物です。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "最近ハマっていることへの答えも自由度が高く、先入観なく自然体で関わりたいと述べている。",
+      "sourceField": "personality_traits.openness.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

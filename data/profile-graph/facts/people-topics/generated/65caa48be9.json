@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:511c1b4d61c7f855:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:e514798f6d805f6f",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "relationLabel": "IT企業でのシステム開発経験から論理的思考力を持ち、AIに質問することで多角的な視点や効率的な解決策を模索する。読書で得た多様な知識（例: コーヒーの化学、戦略論）を業務や会話に応用しようとする姿勢も見られる。",
+  "detailBullets": [
+    "IT企業でのシステム開発経験から論理的思考力を持ち、AIに質問することで多角的な視点や効率的な解決策を模索する。読書で得た多様な知識（例: コーヒーの化学、戦略論）を業務や会話に応用しようとする姿勢も見られる。",
+    "ビジネス書に加え「コーヒーの化学」や「君は戦略を立てることができるか」を読むなど、幅広い分野への知的好奇心が高く、テーマはバラバラだが面白いと思った本をよく読むと述べている。",
+    "読書で得た多様な知識（例: コーヒーの化学、戦略論）を業務や会話に応用しようとする姿勢も見られる。",
+    "「AIと共にいき、AIと共に死ぬ時代が来たのかもしれません」のような示唆に富んだ表現や、読書で得た知識（例: コーヒーの化学の内容）を会話のスパイスにしようとするなど、会話を豊かにする工夫が見られる。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1770158657.842549",
+    "primary:C09Q46YA4ER:1770184639.802789"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.problem_solving_style",
+      "text": "IT企業でのシステム開発経験から論理的思考力を持ち、AIに質問することで多角的な視点や効率的な解決策を模索する。読書で得た多様な知識（例: コーヒーの化学、戦略論）を業務や会話に応用しようとする姿勢も見られる。"
+    },
+    {
+      "text": "ビジネス書に加え「コーヒーの化学」や「君は戦略を立てることができるか」を読むなど、幅広い分野への知的好奇心が高く、テーマはバラバラだが面白いと思った本をよく読むと述べている。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "読書で得た多様な知識（例: コーヒーの化学、戦略論）を業務や会話に応用しようとする姿勢も見られる。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "text": "「AIと共にいき、AIと共に死ぬ時代が来たのかもしれません」のような示唆に富んだ表現や、読書で得た知識（例: コーヒーの化学の内容）を会話のスパイスにしようとするなど、会話を豊かにする工夫が見られる。",
+      "sourceField": "communication_patterns.communication_style"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:41:32.701Z",
+  "updatedAt": "2026-02-16T02:50:17.340Z"
+}

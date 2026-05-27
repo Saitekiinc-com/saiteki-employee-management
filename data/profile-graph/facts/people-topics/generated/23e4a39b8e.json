@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:5be6b4178559d97d:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:f5fa82acdef9b65c",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "新しい知識やスキルを習得すること",
+  "detailBullets": [
+    "新しい知識やスキルを習得すること",
+    "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。目標に向かって努力する過程自体を楽しんでいる。また、社内のつながりや他者への貢献も大切にする。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "新しい知識やスキルを習得すること"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。目標に向かって努力する過程自体を楽しんでいる。また、社内のつながりや他者への貢献も大切にする。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:fc658a6bd3d3d84c:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:a8fea20d60326104",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "個別への配慮",
+  "detailBullets": [
+    "個別への配慮",
+    "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "個別への配慮"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:41:17.760Z",
+  "updatedAt": "2026-05-25T04:26:33.625Z"
+}

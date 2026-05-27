@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:cea02316b184c54d",
+  "@type": "saiteki:TopicNode",
+  "name": "先見性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

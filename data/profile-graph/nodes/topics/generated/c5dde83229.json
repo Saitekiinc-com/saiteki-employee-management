@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:e8c2c4de74cc13a3",
+  "@type": "saiteki:TopicNode",
+  "name": "多様性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,30 @@
+{
+  "@id": "fact:auto:eb4f764dd6f6ea5e:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b977f6a1ea94e208",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "AIを使って考えを整理すること",
+  "detailBullets": [
+    "AIを使って考えを整理すること",
+    "成長実感、学習、創作活動、MVVへの共感を大切にしています。新しい環境で早くキャッチアップし、楽しみながら自分の幅を広げることにモチベーションがあります。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771850944.221989"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "AIを使って考えを整理すること"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "成長実感、学習、創作活動、MVVへの共感を大切にしています。新しい環境で早くキャッチアップし、楽しみながら自分の幅を広げることにモチベーションがあります。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

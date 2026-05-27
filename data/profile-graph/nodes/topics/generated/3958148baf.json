@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:059d4ab3611f0f6f",
+  "@type": "saiteki:TopicNode",
+  "name": "ナレッジベースのカテゴリ設計とRAGを活用した具体的な情報検索の仕組み",
+  "topicType": "work_topic",
+  "aliases": [
+    "rag"
+  ],
+  "generatedFrom": "employees.json"
+}

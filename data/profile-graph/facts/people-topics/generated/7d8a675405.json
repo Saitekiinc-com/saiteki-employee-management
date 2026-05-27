@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:b2cbefd40559b1ab:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:772464297e3962f6",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "アニメ・映画・ゲーム・収集などの話題でつながること",
+  "detailBullets": [
+    "アニメ・映画・ゲーム・収集などの話題でつながること",
+    "サーバ運用・テスト、改修開発、サポート、総合テストなど複数領域を経験し、アニメ、映画、ゲーム、トミカ、映画フライヤー収集など関心の幅も広い。",
+    "アニメ",
+    "ゲーム"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771550812.233829",
+    "primary:C09Q46YA4ER:1771581348.996029"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "アニメ・映画・ゲーム・収集などの話題でつながること"
+    },
+    {
+      "text": "サーバ運用・テスト、改修開発、サポート、総合テストなど複数領域を経験し、アニメ、映画、ゲーム、トミカ、映画フライヤー収集など関心の幅も広い。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "アニメ",
+      "sourceField": "current_state.recent_topics_of_interest.5"
+    },
+    {
+      "text": "ゲーム",
+      "sourceField": "current_state.recent_topics_of_interest.7"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

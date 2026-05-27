@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:78461c940dd58bd8",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:戸塚直道",
+  "predicate": "VALUES",
+  "target": "topic:auto:195e9daecdd8a44e",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:a63c681d298aea49:001"
+  ]
+}

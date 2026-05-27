@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:db9328e1c023c7e8:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:36aed32c54420dad",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "DX",
+  "detailBullets": [
+    "DX",
+    "従業員の心身の健康を重視し、セルフマネジメントプログラムを推奨するだけでなく、会社のYouTubeチャンネルを通じて外部のビジネスリーダーの知見や新しい事業戦略、最先端のDX・AI技術動向を積極的に共有している。",
+    "DX推進",
+    "自社のYouTubeチャンネル「成功のソースコード」で、ポスティング業界最大手のDX戦略に関する新着動画を全社に共有し、動画の主要な見どころ（現場の見える化、GPS×AIによる配布品質管理、データ分析、内製開発体制など）を箇条書きで分かりやすく提示することで、視聴を促進している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1778236039.098519"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "DX"
+    },
+    {
+      "text": "従業員の心身の健康を重視し、セルフマネジメントプログラムを推奨するだけでなく、会社のYouTubeチャンネルを通じて外部のビジネスリーダーの知見や新しい事業戦略、最先端のDX・AI技術動向を積極的に共有している。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "DX推進",
+      "sourceField": "work_styles_and_strengths.dominant_strengths.16"
+    },
+    {
+      "text": "自社のYouTubeチャンネル「成功のソースコード」で、ポスティング業界最大手のDX戦略に関する新着動画を全社に共有し、動画の主要な見どころ（現場の見える化、GPS×AIによる配布品質管理、データ分析、内製開発体制など）を箇条書きで分かりやすく提示することで、視聴を促進している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

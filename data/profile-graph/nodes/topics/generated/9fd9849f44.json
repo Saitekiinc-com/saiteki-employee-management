@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:becd598045b000d7",
+  "@type": "saiteki:TopicNode",
+  "name": "内省的学習",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

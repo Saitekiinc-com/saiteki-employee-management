@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:c009623505bfba47",
+  "@type": "saiteki:TopicNode",
+  "name": "AIを活用した情報収集や知識共有",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

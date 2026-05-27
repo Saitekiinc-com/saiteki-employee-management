@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:8144ad81a6e1b57a:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:d253604e3638081f",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "2025年の振り返りと2026年への期待",
+  "detailBullets": [
+    "2025年の振り返りと2026年への期待",
+    "2026-02-11T11:48:53.611Z",
+    "2026-02-09T08:28:22.503Z",
+    "入社時に「Saitekiの輪をどんどん広げていけたら」と組織への貢献意欲を示し、年末には2025年を「最高の年」と振り返り、2026年を「さらに飛躍の年にしていきましょう！"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1767157637.524489"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "2025年の振り返りと2026年への期待"
+    },
+    {
+      "text": "2026-02-11T11:48:53.611Z",
+      "sourceField": "updatedAt"
+    },
+    {
+      "text": "2026-02-09T08:28:22.503Z",
+      "sourceField": "createdAt"
+    },
+    {
+      "text": "入社時に「Saitekiの輪をどんどん広げていけたら」と組織への貢献意欲を示し、年末には2025年を「最高の年」と振り返り、2026年を「さらに飛躍の年にしていきましょう！",
+      "sourceField": "values_and_motivators.evidence_episodes.2"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:28:22.503Z",
+  "updatedAt": "2026-02-11T11:48:53.611Z"
+}

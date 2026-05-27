@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:e20b0eb03518babc",
+  "@type": "saiteki:TopicNode",
+  "name": "ドキュメント整備",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

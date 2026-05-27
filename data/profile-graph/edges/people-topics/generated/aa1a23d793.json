@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:87e4163799ba635f",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:八木橋 雄一",
+  "predicate": "INTERESTED_IN",
+  "target": "topic:auto:779e678323e60924",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:aa1a23d793b9b56e:001"
+  ]
+}

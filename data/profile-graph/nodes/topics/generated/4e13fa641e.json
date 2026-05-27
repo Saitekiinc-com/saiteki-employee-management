@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:9fb8219f5790cc32",
+  "@type": "saiteki:TopicNode",
+  "name": "総合テスト",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

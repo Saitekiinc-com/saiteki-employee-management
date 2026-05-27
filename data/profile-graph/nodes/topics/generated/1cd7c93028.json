@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:4d4fb7e75cb01be2",
+  "@type": "saiteki:TopicNode",
+  "name": "経営哲学の共有",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

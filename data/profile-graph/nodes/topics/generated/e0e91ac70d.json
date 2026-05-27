@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:3034fc609c7803b8",
+  "@type": "saiteki:TopicNode",
+  "name": "開発・インフラ・サービス・テスト",
+  "topicType": "work_topic",
+  "aliases": [
+    "開発",
+    "インフラ",
+    "サービス",
+    "テスト"
+  ],
+  "generatedFrom": "employees.json"
+}

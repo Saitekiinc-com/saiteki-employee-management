@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:4dd869c6262730bd:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:be81f33a76940dad",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "DX戦略",
+  "detailBullets": [
+    "DX戦略",
+    "自社のYouTubeチャンネル「成功のソースコード」で、ポスティング業界最大手のDX戦略に関する新着動画を全社に共有し、動画の主要な見どころ（現場の見える化、GPS×AIによる配布品質管理、データ分析、内製開発体制など）を箇条書きで分かりやすく提示することで、視聴を促進している。",
+    "自社YouTubeチャンネルで、ポスティング業界最大手のDX戦略を特集した動画を共有し、「アナログをAXで進化させる」といった先進的なビジネスモデルやDX戦略に関心を促し、社員の学習機会提供と企業ブランド価値向上に貢献しようとしている。",
+    "DX戦略やアナログ・トランスフォーメーション (AX)、AI駆動開発といった先進的なテーマに関心が高く、これらの情報を構造的かつ魅力的に共有することで、社員の学習意欲を刺激し、企業のブランド価値向上と技術力強化に貢献しようとしている。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1778236039.098519"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "DX戦略"
+    },
+    {
+      "text": "自社のYouTubeチャンネル「成功のソースコード」で、ポスティング業界最大手のDX戦略に関する新着動画を全社に共有し、動画の主要な見どころ（現場の見える化、GPS×AIによる配布品質管理、データ分析、内製開発体制など）を箇条書きで分かりやすく提示することで、視聴を促進している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+    },
+    {
+      "text": "自社YouTubeチャンネルで、ポスティング業界最大手のDX戦略を特集した動画を共有し、「アナログをAXで進化させる」といった先進的なビジネスモデルやDX戦略に関心を促し、社員の学習機会提供と企業ブランド価値向上に貢献しようとしている。",
+      "sourceField": "values_and_motivators.evidence_episodes.3"
+    },
+    {
+      "text": "DX戦略やアナログ・トランスフォーメーション (AX)、AI駆動開発といった先進的なテーマに関心が高く、これらの情報を構造的かつ魅力的に共有することで、社員の学習意欲を刺激し、企業のブランド価値向上と技術力強化に貢献しようとしている。",
+      "sourceField": "current_state.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3075f7a28dd02cd1",
+  "@type": "saiteki:TopicNode",
+  "name": "学習機会の提供",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d3162572a5918cf4",
+  "@type": "saiteki:TopicNode",
+  "name": "新メンバーのスキルや興味の積極的な探求",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:aa708486f45c0f32",
+  "@type": "saiteki:TopicNode",
+  "name": "AI駆動開発と、それに伴うエンジニアの役割の変化",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai駆動開発と",
+    "それに伴うエンジニアの役割の変化",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

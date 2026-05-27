@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f3cd944d29b2ab71",
+  "@type": "saiteki:TopicNode",
+  "name": "社員の心身の健康とウェルビーイング",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

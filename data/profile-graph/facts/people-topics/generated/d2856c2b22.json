@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:2b0dd76297070f5b:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:32dc7c8d4eae1af0",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "業務プロセスの改善と明確化",
+  "detailBullets": [
+    "業務プロセスの改善と明確化",
+    "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "業務プロセスの改善と明確化"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:41:17.760Z",
+  "updatedAt": "2026-05-25T04:26:33.625Z"
+}

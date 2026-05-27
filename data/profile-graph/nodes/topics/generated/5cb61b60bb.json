@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:e8811f98242aeb1b",
+  "@type": "saiteki:TopicNode",
+  "name": "自己の成長実感",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

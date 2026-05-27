@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:58c8c0c3efc7885d",
+  "@type": "saiteki:TopicNode",
+  "name": "自律性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

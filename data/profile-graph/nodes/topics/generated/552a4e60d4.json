@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c7d269e19dfbee02",
+  "@type": "saiteki:TopicNode",
+  "name": "戦略的課題の解決",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

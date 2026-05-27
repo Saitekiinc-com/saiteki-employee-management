@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:1c841c72c817ccab",
+  "@type": "saiteki:TopicNode",
+  "name": "透明性の確保",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

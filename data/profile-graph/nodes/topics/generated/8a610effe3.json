@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:4b0e168de9184750",
+  "@type": "saiteki:TopicNode",
+  "name": "コスト最適化",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

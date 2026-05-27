@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:318602b4945d6cff",
+  "@type": "saiteki:TopicNode",
+  "name": "チームのモチベーション向上",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

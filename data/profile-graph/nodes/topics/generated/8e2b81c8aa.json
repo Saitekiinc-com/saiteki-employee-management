@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:9baae41e6509f71f",
+  "@type": "saiteki:TopicNode",
+  "name": "Saitekiのビジョン達成への強いコミットメント",
+  "topicType": "work_strength",
+  "aliases": [
+    "saiteki"
+  ],
+  "generatedFrom": "employees.json"
+}

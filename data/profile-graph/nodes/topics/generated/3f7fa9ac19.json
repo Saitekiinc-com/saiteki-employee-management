@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a8b5acef0a27431a",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい技術の実践と検証",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

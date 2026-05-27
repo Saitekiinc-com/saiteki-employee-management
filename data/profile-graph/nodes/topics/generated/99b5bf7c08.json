@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7cdd70f44f8bac19",
+  "@type": "saiteki:TopicNode",
+  "name": "円滑な手続きの促進",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

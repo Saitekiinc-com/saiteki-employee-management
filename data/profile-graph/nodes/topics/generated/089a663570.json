@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:64688aa5817ef855",
+  "@type": "saiteki:TopicNode",
+  "name": "誠実さ",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

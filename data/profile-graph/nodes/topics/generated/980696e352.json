@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:85d1c9d60c757e2c",
+  "@type": "saiteki:TopicNode",
+  "name": "優秀な人材の獲得と新たな仲間が増えること、特に内定率10%という厳選採用で質の高い仲間が増えること",
+  "topicType": "motivation",
+  "aliases": [
+    "優秀な人材の獲得と新たな仲間が増えること",
+    "特に内定率10%という厳選採用で質の高い仲間が増えること",
+    "10"
+  ],
+  "generatedFrom": "employees.json"
+}

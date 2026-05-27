@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:eac2b6c8aafc623e",
+  "@type": "saiteki:TopicNode",
+  "name": "実用性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

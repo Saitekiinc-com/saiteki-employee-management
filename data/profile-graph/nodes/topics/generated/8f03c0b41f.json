@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0c2eea9c79e9d712",
+  "@type": "saiteki:TopicNode",
+  "name": "専門性の向上",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

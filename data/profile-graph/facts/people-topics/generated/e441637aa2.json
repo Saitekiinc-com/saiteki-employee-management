@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:59d5d5f150921e8d:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:7215195fa427a179",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "知的好奇心",
+  "detailBullets": [
+    "知的好奇心",
+    "非常に責任感が強く、物事を深く理解し、その背景にある構造まで探求する知的好奇心旺盛な人物です。",
+    "ワクワクします」と未来の組織像に想像を巡らせ、「山岡家」のビジネスモデルについて考察し、その気づきを共有するなど、知的好奇心と探究心が非常に旺盛です。",
+    "全体的に、前向きで社交的、かつ知的好奇心に溢れた状態が見受けられます。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "知的好奇心"
+    },
+    {
+      "text": "非常に責任感が強く、物事を深く理解し、その背景にある構造まで探求する知的好奇心旺盛な人物です。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "ワクワクします」と未来の組織像に想像を巡らせ、「山岡家」のビジネスモデルについて考察し、その気づきを共有するなど、知的好奇心と探究心が非常に旺盛です。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "全体的に、前向きで社交的、かつ知的好奇心に溢れた状態が見受けられます。",
+      "sourceField": "current_state.summary"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:46.998Z",
+  "updatedAt": "2026-05-25T04:25:29.126Z"
+}

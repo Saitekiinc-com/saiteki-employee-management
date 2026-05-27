@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:49139f29219b5337",
+  "@type": "saiteki:TopicNode",
+  "name": "徹底的な理解",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

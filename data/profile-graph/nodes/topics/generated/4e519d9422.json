@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7f2255ca173f93fb",
+  "@type": "saiteki:TopicNode",
+  "name": "複雑な技術課題の実践的解決",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

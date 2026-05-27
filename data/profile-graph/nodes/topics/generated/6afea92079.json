@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:5f210a94e16b3fe2",
+  "@type": "saiteki:TopicNode",
+  "name": "QAにおけるAI協働作業の定義と実践",
+  "topicType": "work_topic",
+  "aliases": [
+    "qa",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7138dfe38275c524",
+  "@type": "saiteki:TopicNode",
+  "name": "組織の一体感やポジティブな雰囲気が高まること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

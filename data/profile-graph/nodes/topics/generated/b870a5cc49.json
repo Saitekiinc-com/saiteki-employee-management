@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:335ce2e787d034fb",
+  "@type": "saiteki:TopicNode",
+  "name": "Slackコミュニケーション",
+  "topicType": "work_topic",
+  "aliases": [
+    "slack"
+  ],
+  "generatedFrom": "employees.json"
+}

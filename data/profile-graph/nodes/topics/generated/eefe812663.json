@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:ead5ec81fcd2364f",
+  "@type": "saiteki:TopicNode",
+  "name": "コスト効率の良いAIソリューション",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

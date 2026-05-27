@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3779dab9facb9b26",
+  "@type": "saiteki:TopicNode",
+  "name": "知識共有と後進育成",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

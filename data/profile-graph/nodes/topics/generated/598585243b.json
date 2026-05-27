@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6a82c89b7b084d34",
+  "@type": "saiteki:TopicNode",
+  "name": "自己成長と組織貢献の連動",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

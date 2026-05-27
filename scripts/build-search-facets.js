@@ -264,7 +264,7 @@ function findMessageQuotes(employee, label, aliases, messageIndex) {
     const messages = messageIndex.get(id) || [];
     for (const message of messages) {
       const text = normalizeText(message.text);
-      if (!terms.some((term) => text.includes(term))) continue;
+      if (!terms.some((term) => textContainsSearchTerm(text, term))) continue;
       quotes.push({
         text: cleanText(message.text, 180),
         channelId: message.channelId,
@@ -277,6 +277,14 @@ function findMessageQuotes(employee, label, aliases, messageIndex) {
   }
 
   return quotes;
+}
+
+function textContainsSearchTerm(text, term) {
+  if (/^[a-z0-9+#.]+$/.test(term)) {
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`(^|[^a-z0-9+#.])${escaped}([^a-z0-9+#.]|$)`, 'i').test(text);
+  }
+  return text.includes(term);
 }
 
 function messageQuotesFromEvidence(edge, slackMessageByNodeId) {
@@ -316,7 +324,7 @@ function profileGraphSearchFacets(profileGraph, employees, slackMessages) {
       const aliases = unique([
         topicName,
         ...(topic['saiteki:aliases'] || []),
-        ...detailBullets.flatMap(makeAliases)
+        ...makeAliases(label)
       ]).slice(0, 16);
 
       return {
@@ -336,7 +344,7 @@ function profileGraphSearchFacets(profileGraph, employees, slackMessages) {
           sourceField: 'data/profile-graph/facts'
         })),
         messageQuotes: messageQuotesFromEvidence(edge, slackMessageByNodeId),
-        sourceField: 'current_state.recent_topics_of_interest'
+        sourceField: edge['saiteki:sourceField'] || edge['saiteki:sourceFields']?.[0] || 'data/profile-graph/facts'
       };
     })
     .filter(Boolean);

@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:f78a979a18d8e318",
+  "@type": "saiteki:TopicNode",
+  "name": "音楽やMIXなど創作に没頭すること",
+  "topicType": "motivation",
+  "aliases": [
+    "mix"
+  ],
+  "generatedFrom": "employees.json"
+}

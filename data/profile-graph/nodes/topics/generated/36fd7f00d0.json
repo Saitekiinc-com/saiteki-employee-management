@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:2b4898a5ed860d79",
+  "@type": "saiteki:TopicNode",
+  "name": "イベントの質向上",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

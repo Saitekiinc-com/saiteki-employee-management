@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:2ecb85a45b3d1904:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:2e495588eae4355a",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "トミカ収集",
+  "detailBullets": [
+    "トミカ収集",
+    "入社前後の新しい環境に向けて、技術面と社内コミュニケーションの両方でキャッチアップしようとしている状態です。自己認識は現実的で、周囲との交流を通じて早くなじもうとしています。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "トミカ収集"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社前後の新しい環境に向けて、技術面と社内コミュニケーションの両方でキャッチアップしようとしている状態です。自己認識は現実的で、周囲との交流を通じて早くなじもうとしています。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

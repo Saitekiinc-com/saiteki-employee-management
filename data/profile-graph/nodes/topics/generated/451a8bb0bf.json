@@ -1,0 +1,14 @@
+{
+  "@id": "topic:auto:69e35fc6931f6aee",
+  "@type": "saiteki:TopicNode",
+  "name": "幹部メンバーに組織の背中を預け、自身がトップにしかできない高難度な戦略的課題（M&A、高難度案件）に集中できること",
+  "topicType": "motivation",
+  "aliases": [
+    "幹部メンバーに組織の背中を預け",
+    "自身がトップにしかできない高難度な戦略的課題",
+    "m&a",
+    "高難度案件",
+    "に集中できること"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:8d8c1b517b060450",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:青木淳一郎",
+  "predicate": "MOTIVATED_BY",
+  "target": "topic:auto:150354e47d5a0386",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "facts": [
+    "fact:auto:6e82e33a422dfb54:001"
+  ]
+}

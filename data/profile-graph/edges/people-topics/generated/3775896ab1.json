@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:0d02e4a270554e6f",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:榎本詩織",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:3d89347bf9aa535f",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:3775896ab1dbc167:001"
+  ]
+}

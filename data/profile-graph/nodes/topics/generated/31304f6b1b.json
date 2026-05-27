@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f9d6bf75d9a4e147",
+  "@type": "saiteki:TopicNode",
+  "name": "属人化の解消",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

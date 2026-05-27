@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:1a9d0377d6a40b70",
+  "@type": "saiteki:TopicNode",
+  "name": "コミュニティビルディングと一体感の醸成",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

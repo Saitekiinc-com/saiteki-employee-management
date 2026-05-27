@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:42c248ea19d8b827",
+  "@type": "saiteki:TopicNode",
+  "name": "属人化排除",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

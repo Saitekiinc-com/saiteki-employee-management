@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:749a9cdadece3f5e",
+  "@type": "saiteki:TopicNode",
+  "name": "歴史（特に古代史と、英語や理数に学習意欲が吸われたこと）",
+  "topicType": "interest",
+  "aliases": [
+    "歴史",
+    "特に古代史と",
+    "英語や理数に学習意欲が吸われたこと"
+  ],
+  "generatedFrom": "employees.json"
+}

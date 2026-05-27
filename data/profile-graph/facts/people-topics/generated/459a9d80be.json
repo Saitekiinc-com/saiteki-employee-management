@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:a6a72df8e4c006ba:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:54c7496c442277d7",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "貢献",
+  "detailBullets": [
+    "貢献",
+    "新入社員への配慮を継続し、心理的安全性とポジティブな職場環境の醸成に貢献している。",
+    "ユーモアを交えた私的な体験の共有を通じて親近感を醸成し、ポジティブで心理的安全性の高い職場環境の構築に貢献する。",
+    "個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "貢献"
+    },
+    {
+      "text": "新入社員への配慮を継続し、心理的安全性とポジティブな職場環境の醸成に貢献している。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "ユーモアを交えた私的な体験の共有を通じて親近感を醸成し、ポジティブで心理的安全性の高い職場環境の構築に貢献する。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
+      "sourceField": "values_and_motivators.summary"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:41:17.760Z",
+  "updatedAt": "2026-05-25T04:26:33.625Z"
+}

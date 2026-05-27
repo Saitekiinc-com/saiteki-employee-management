@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:1b6b11c4ef6ab952",
+  "@type": "saiteki:TopicNode",
+  "name": "共通の興味や経験を通じた関係構築",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

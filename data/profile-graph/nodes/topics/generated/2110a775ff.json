@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:944f132ece438e5d",
+  "@type": "saiteki:TopicNode",
+  "name": "戦略的思考",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

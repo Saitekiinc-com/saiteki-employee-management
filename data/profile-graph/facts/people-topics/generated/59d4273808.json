@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:b514f705ab12d2b2:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:055a0e26daf9659c",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "ウェルビーイング",
+  "detailBullets": [
+    "ウェルビーイング",
+    "組織への多角的な貢献に加え、社員のウェルビーイング、社内コミュニティ活性化、学習機会提供、そして外部への情報発信を通じて企業の成長を多角的に支援。",
+    "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。",
+    "社員のウェルビーイング支援"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "ウェルビーイング"
+    },
+    {
+      "text": "組織への多角的な貢献に加え、社員のウェルビーイング、社内コミュニティ活性化、学習機会提供、そして外部への情報発信を通じて企業の成長を多角的に支援。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "社員のウェルビーイング支援",
+      "sourceField": "work_styles_and_strengths.dominant_strengths.1"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

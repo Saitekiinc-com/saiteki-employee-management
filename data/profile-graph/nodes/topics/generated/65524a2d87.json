@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:149fa2253bba00a9",
+  "@type": "saiteki:TopicNode",
+  "name": "チームの一体感とシナジーの創出",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

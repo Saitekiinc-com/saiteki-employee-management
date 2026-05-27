@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:82a1bd89ae1327e0",
+  "@type": "saiteki:TopicNode",
+  "name": "健康意識と自己管理",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

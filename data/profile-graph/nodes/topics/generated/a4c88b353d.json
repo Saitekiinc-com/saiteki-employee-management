@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:6aec75ec6f2034f0",
+  "@type": "saiteki:TopicNode",
+  "name": "2025年の振り返りと2026年への期待",
+  "topicType": "interest",
+  "aliases": [
+    "2025",
+    "2026"
+  ],
+  "generatedFrom": "employees.json"
+}

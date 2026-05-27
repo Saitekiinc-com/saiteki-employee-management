@@ -1,0 +1,30 @@
+{
+  "@id": "fact:auto:2d5502ef824ae66b:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b978c946fb5c9a47",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "BIツールの知識習得",
+  "detailBullets": [
+    "BIツールの知識習得",
+    "AWS基盤のインフラ設計・構築に高い専門性を持ちつつ、未経験技術への学習意欲が極めて高い。責任感が強く、チームワークと自己成長を重視して業務に取り組む。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1763116882.083289"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "BIツールの知識習得"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "AWS基盤のインフラ設計・構築に高い専門性を持ちつつ、未経験技術への学習意欲が極めて高い。責任感が強く、チームワークと自己成長を重視して業務に取り組む。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:28:22.503Z",
+  "updatedAt": "2026-02-11T11:48:53.611Z"
+}

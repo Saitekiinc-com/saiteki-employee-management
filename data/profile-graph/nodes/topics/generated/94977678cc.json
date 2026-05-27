@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:e7e08aa59cc257d4",
+  "@type": "saiteki:TopicNode",
+  "name": "AIを活用した情報翻訳と伝達の重要性",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

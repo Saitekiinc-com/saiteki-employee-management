@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:2913cc23cd6d454a",
+  "@type": "saiteki:TopicNode",
+  "name": "語彙統制",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f9b5b8be0f1c8b59",
+  "@type": "saiteki:TopicNode",
+  "name": "効率化推進",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

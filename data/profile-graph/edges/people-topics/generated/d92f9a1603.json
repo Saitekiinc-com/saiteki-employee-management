@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:3a87976cdcb6596f",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:上原基臣",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:a79dc6702d3ed830",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:d92f9a1603264e0e:001"
+  ]
+}

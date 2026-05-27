@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:a6b6f5af3a866cb1",
+  "@type": "saiteki:TopicNode",
+  "name": "Saitekiのビジョンと業界課題の解決",
+  "topicType": "work_topic",
+  "aliases": [
+    "saiteki"
+  ],
+  "generatedFrom": "employees.json"
+}

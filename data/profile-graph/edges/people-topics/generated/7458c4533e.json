@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:75a22085c432b458",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:榎本詩織",
+  "predicate": "VALUES",
+  "target": "topic:auto:9ef136a4024adc92",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:7458c4533ec6f036:001"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:6f8174db565be1ed",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:小松田真伍",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:a8270b522b3dc998",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:5bd47c057a252c9d:001"
+  ]
+}

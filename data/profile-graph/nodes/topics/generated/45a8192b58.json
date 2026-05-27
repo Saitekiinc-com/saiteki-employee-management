@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:340575de9b2af04a",
+  "@type": "saiteki:TopicNode",
+  "name": "社員が安心して参加できる居場所が作られること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

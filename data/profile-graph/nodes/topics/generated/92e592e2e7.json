@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:46cb44492272389e",
+  "@type": "saiteki:TopicNode",
+  "name": "ポジティブな影響",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:2ad27b7ad8ea77c9",
+  "@type": "saiteki:TopicNode",
+  "name": "テストプロセスの戦略的改善提案と実行力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

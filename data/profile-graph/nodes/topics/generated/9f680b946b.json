@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0f44be19b186347b",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい技術を活用した人材育成の可能性を探求すること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:702eda4da36913d4:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:5d03a0509b5002ed",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "就労証明書などの事務手続き",
+  "detailBullets": [
+    "就労証明書などの事務手続き",
+    "5月下旬においても、専門的な総務業務に関する詳細な案内を行う一方で、個人の趣味に合わせた歓迎メッセージや、家族のユーモラスな体験の共有を通じて、人間関係の構築と心理的安全性の確保に継続して取り組んでいる。業務と個人の双方において積極的で、ポジティブな職場環境を維持・発展させている。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "就労証明書などの事務手続き"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "5月下旬においても、専門的な総務業務に関する詳細な案内を行う一方で、個人の趣味に合わせた歓迎メッセージや、家族のユーモラスな体験の共有を通じて、人間関係の構築と心理的安全性の確保に継続して取り組んでいる。業務と個人の双方において積極的で、ポジティブな職場環境を維持・発展させている。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:41:17.760Z",
+  "updatedAt": "2026-05-25T04:26:33.625Z"
+}

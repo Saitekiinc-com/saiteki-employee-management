@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:9062b51cd69ca0c9",
+  "@type": "saiteki:TopicNode",
+  "name": "サウナ",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

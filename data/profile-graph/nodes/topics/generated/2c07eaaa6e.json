@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d782401a5e6b292c",
+  "@type": "saiteki:TopicNode",
+  "name": "学習と成長",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

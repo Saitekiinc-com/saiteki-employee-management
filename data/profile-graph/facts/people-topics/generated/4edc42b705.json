@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:233b4541010ea035:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:1a60715f071e27f2",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "チームとの共創と具体的な成果創出",
+  "detailBullets": [
+    "チームとの共創と具体的な成果創出",
+    "新しい技術の探求とその実践的な活用を通じて社会に貢献することに価値を見出す。アウトプットと共創を重視し、常に自己成長と具体的な成果を追求する。異文化交流や旅、効率性も重要な要素。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "チームとの共創と具体的な成果創出"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "新しい技術の探求とその実践的な活用を通じて社会に貢献することに価値を見出す。アウトプットと共創を重視し、常に自己成長と具体的な成果を追求する。異文化交流や旅、効率性も重要な要素。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:51:41.558Z",
+  "updatedAt": "2026-02-16T02:50:35.790Z"
+}

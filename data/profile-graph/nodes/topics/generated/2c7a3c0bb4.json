@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f6cd80af9cf2a279",
+  "@type": "saiteki:TopicNode",
+  "name": "率先垂範",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}
