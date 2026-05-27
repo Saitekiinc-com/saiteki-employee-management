@@ -1,0 +1,72 @@
+{
+  "topics": [
+    {
+      "id": "topic:ゲーム",
+      "name": "ゲーム",
+      "topicType": "interest",
+      "aliases": ["game", "games"]
+    },
+    {
+      "id": "topic:ポケモン",
+      "name": "ポケモン",
+      "topicType": "interest",
+      "aliases": ["ポケカ", "Pokemon", "Pokémon", "Pokemon LEGENDS", "ぽこあポケモン"],
+      "parentTopic": "topic:ゲーム"
+    }
+  ],
+  "edges": [
+    {
+      "source": "person:小島遼祐",
+      "target": "topic:ポケモン",
+      "predicate": "COLLECTS",
+      "relationLabel": "ポケカ収集・対戦経験あり",
+      "detailBullets": [
+        "趣味としてポケモンのゲームやカードを挙げている",
+        "カードは主にコレクションとして楽しんでいる",
+        "ジムバトル参加経験があり、シングルバトルとダブルバトルの経験もある",
+        "小学生から続けているポケカ収集について話している"
+      ],
+      "evidenceMessageIds": [
+        "primary:C09Q46YA4ER:1768614261.622119",
+        "primary:C09Q46YA4ER:1772237402.765719"
+      ],
+      "confidence": 0.95,
+      "firstSeenAt": "2026-01-17T01:44:21.622Z"
+    },
+    {
+      "source": "person:榎本詩織",
+      "target": "topic:ポケモン",
+      "predicate": "LIKES",
+      "relationLabel": "ゲーム・ポケカ収集・グッズ集め",
+      "detailBullets": [
+        "趣味としてポケモンを挙げている",
+        "ゲーム、ポケカ収集、グッズ集めに触れている",
+        "コロナ以降にハマり、家にグッズが溢れていると話している",
+        "Pokémon LEGENDS Z-A や ぽこあポケモンにも触れている"
+      ],
+      "evidenceMessageIds": [
+        "primary:C09Q46YA4ER:1770701908.083739",
+        "primary:C09Q46YA4ER:1772417371.921669"
+      ],
+      "confidence": 0.96,
+      "firstSeenAt": "2026-02-10T01:38:28.083Z"
+    },
+    {
+      "source": "person:藤井芙美子",
+      "target": "topic:ポケモン",
+      "predicate": "FAMILY_CONTEXT",
+      "relationLabel": "家族文脈・社員同士の橋渡し",
+      "detailBullets": [
+        "子どもの七五三でポケモン柄の着物を選んだ話をしている",
+        "ポケモン好きの新メンバーに反応している",
+        "社内にポケモン好きがいることを紹介し、交流のきっかけを作っている"
+      ],
+      "evidenceMessageIds": [
+        "primary:C09N28KTKL1:1779633198.304519",
+        "primary:C09Q46YA4ER:1779079389.374189"
+      ],
+      "confidence": 0.86,
+      "firstSeenAt": "2026-05-18T10:03:18.304Z"
+    }
+  ]
+}

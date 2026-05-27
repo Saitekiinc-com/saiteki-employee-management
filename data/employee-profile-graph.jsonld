@@ -1,0 +1,413 @@
+{
+  "@context": {
+    "saiteki": "https://saiteki.example/schema#",
+    "schema": "https://schema.org/",
+    "person": "saiteki:person/",
+    "topic": "saiteki:topic/",
+    "message": "saiteki:message/",
+    "edge": "saiteki:edge/",
+    "name": "schema:name",
+    "source": "saiteki:source",
+    "target": "saiteki:target",
+    "predicate": "saiteki:predicate",
+    "detailBullets": "saiteki:detailBullets",
+    "evidenceMessages": "saiteki:evidenceMessages"
+  },
+  "generatedAt": "2026-05-27T07:41:01.372Z",
+  "sourceFiles": [
+    "data/employees.json",
+    "data/slack-messages.jsonl",
+    "data/profile-graph-overrides.json"
+  ],
+  "@graph": [
+    {
+      "@id": "person:杉本光一",
+      "@type": "saiteki:Person",
+      "schema:name": "杉本光一",
+      "saiteki:slackIds": [
+        "U09MGV3MU9H",
+        "U08KH52ELPR"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:青木淳一郎",
+      "@type": "saiteki:Person",
+      "schema:name": "青木淳一郎",
+      "saiteki:slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:小林翔",
+      "@type": "saiteki:Person",
+      "schema:name": "小林翔",
+      "saiteki:slackIds": [
+        "U09S602LZS7"
+      ],
+      "saiteki:job": "QA",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:櫻井志保",
+      "@type": "saiteki:Person",
+      "schema:name": "櫻井志保",
+      "saiteki:slackIds": [
+        "U09S5RCV6GK"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:田浦裕樹",
+      "@type": "saiteki:Person",
+      "schema:name": "田浦裕樹",
+      "saiteki:slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:開米 敦則",
+      "@type": "saiteki:Person",
+      "schema:name": "開米 敦則",
+      "saiteki:slackIds": [
+        "U09UHG24VUZ",
+        "U0A69LWD1QF"
+      ],
+      "saiteki:job": "QA",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:貴志雪乃",
+      "@type": "saiteki:Person",
+      "schema:name": "貴志雪乃",
+      "saiteki:slackIds": [
+        "U0A0QFEQGRX"
+      ],
+      "saiteki:job": "HR",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:上遼太郎",
+      "@type": "saiteki:Person",
+      "schema:name": "上遼太郎",
+      "saiteki:slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:小松田真伍",
+      "@type": "saiteki:Person",
+      "schema:name": "小松田真伍",
+      "saiteki:slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:小島遼祐",
+      "@type": "saiteki:Person",
+      "schema:name": "小島遼祐",
+      "saiteki:slackIds": [
+        "U0A8H20BWCT"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:藤井芙美子",
+      "@type": "saiteki:Person",
+      "schema:name": "藤井芙美子",
+      "saiteki:slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "saiteki:job": "Sales",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:菅野聖也",
+      "@type": "saiteki:Person",
+      "schema:name": "菅野聖也",
+      "saiteki:slackIds": [
+        "U0ADE4H3RTJ"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:佐藤傑",
+      "@type": "saiteki:Person",
+      "schema:name": "佐藤傑",
+      "saiteki:slackIds": [
+        "U09MKUXAU4V"
+      ],
+      "saiteki:job": "Other",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:鈴木悠斗",
+      "@type": "saiteki:Person",
+      "schema:name": "鈴木悠斗",
+      "saiteki:slackIds": [
+        "U09MPBUHTEE",
+        "U08SCMU6544"
+      ],
+      "saiteki:job": "経営",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:戸塚直道",
+      "@type": "saiteki:Person",
+      "schema:name": "戸塚直道",
+      "saiteki:slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "saiteki:job": "経営",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:榎本詩織",
+      "@type": "saiteki:Person",
+      "schema:name": "榎本詩織",
+      "saiteki:slackIds": [
+        "U0AEE7CDAPK"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:Jun Akiyama",
+      "@type": "saiteki:Person",
+      "schema:name": "Jun Akiyama",
+      "saiteki:slackIds": [
+        "U0AD4UADJ07"
+      ],
+      "saiteki:job": "Other",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:Nakaoka Koshiro",
+      "@type": "saiteki:Person",
+      "schema:name": "Nakaoka Koshiro",
+      "saiteki:slackIds": [
+        "U0B40MREQM6"
+      ],
+      "saiteki:job": "Other",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:Yukinko N0319",
+      "@type": "saiteki:Person",
+      "schema:name": "Yukinko N0319",
+      "saiteki:slackIds": [
+        "U09MSTQ6HQC"
+      ],
+      "saiteki:job": "Other",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:上原基臣",
+      "@type": "saiteki:Person",
+      "schema:name": "上原基臣",
+      "saiteki:slackIds": [
+        "U0AFQUQ1H9R"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:真栄城則明",
+      "@type": "saiteki:Person",
+      "schema:name": "真栄城則明",
+      "saiteki:slackIds": [
+        "U0AGC56822X"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "person:八木橋 雄一",
+      "@type": "saiteki:Person",
+      "schema:name": "八木橋 雄一",
+      "saiteki:slackIds": [
+        "U0AG0UR6LDA"
+      ],
+      "saiteki:job": "Engineer",
+      "saiteki:isActive": true
+    },
+    {
+      "@id": "topic:ゲーム",
+      "@type": "saiteki:Topic",
+      "schema:name": "ゲーム",
+      "saiteki:topicType": "interest",
+      "saiteki:aliases": [
+        "game",
+        "games"
+      ]
+    },
+    {
+      "@id": "topic:ポケモン",
+      "@type": "saiteki:Topic",
+      "schema:name": "ポケモン",
+      "saiteki:topicType": "interest",
+      "saiteki:aliases": [
+        "ポケカ",
+        "Pokemon",
+        "Pokémon",
+        "Pokemon LEGENDS",
+        "ぽこあポケモン"
+      ],
+      "saiteki:parentTopic": "topic:ゲーム"
+    },
+    {
+      "@id": "message:primary:C09Q46YA4ER:1768614261.622119",
+      "@type": "saiteki:SlackMessage",
+      "saiteki:workspace": "primary",
+      "saiteki:channelId": "C09Q46YA4ER",
+      "saiteki:channelName": "自己紹介",
+      "saiteki:messageTs": "1768614261.622119",
+      "saiteki:threadTs": "1768614261.622119",
+      "saiteki:authorSlackId": "U0A8H20BWCT",
+      "saiteki:authorName": "小島　遼祐",
+      "saiteki:textPreview": "皆様はじめまして！ 2026年3月に入社予定の小島遼祐(コジマリョウスケ)と申します。23歳です。よろしくお願いいたします。 •出身地 産まれは愛媛県大洲市 育ちは埼玉県桶川市 現在は大阪府豊中市に住んでいます ・これまでやってきたこと 高校は埼玉県の大宮高校、大学は兵庫県の関西学院大学に通っていました(大学は中退しています)。 IT関連では大学時代に実験のレポートでR言語を触った程度で、ほぼ未経験です。 大学時代に一蘭で1年8ヶ月アルバイトをしており、責任者をしていました。中学時代から代表委員長や部長、各種の実…"
+    },
+    {
+      "@id": "message:primary:C09Q46YA4ER:1772237402.765719",
+      "@type": "saiteki:SlackMessage",
+      "saiteki:workspace": "primary",
+      "saiteki:channelId": "C09Q46YA4ER",
+      "saiteki:channelName": "自己紹介",
+      "saiteki:messageTs": "1772237402.765719",
+      "saiteki:threadTs": "1770701908.083739",
+      "saiteki:authorSlackId": "U0A8H20BWCT",
+      "saiteki:authorName": "小島　遼祐",
+      "saiteki:textPreview": "@榎本 詩織 はじめまして！ 2月から入社した営業の小島と申します。 同じく埼玉出身です。 ご挨拶が遅くなってしまいましたが、これからよろしくお願いします:palms_up_together: 私もポケモンが好きなので色々お話できそうですね:exclamation: 今は小学生から続けているポケカ収集しかできていませんが、時間ができたらゲームもまたしたいな〜とも思ってるので、最近のおすすめのゲーム教えてください！"
+    },
+    {
+      "@id": "message:primary:C09Q46YA4ER:1770701908.083739",
+      "@type": "saiteki:SlackMessage",
+      "saiteki:workspace": "primary",
+      "saiteki:channelId": "C09Q46YA4ER",
+      "saiteki:channelName": "自己紹介",
+      "saiteki:messageTs": "1770701908.083739",
+      "saiteki:threadTs": "1770701908.083739",
+      "saiteki:authorSlackId": "U0AEE7CDAPK",
+      "saiteki:authorName": "榎本 詩織",
+      "saiteki:textPreview": "皆様はじめまして、 6月～7月に入社予定の榎本 詩織（えのもと しおり）と申します。 入社は少し先になりますが、これからどうぞよろしくお願いします。 *◼︎出身地* 生まれも育ちも埼玉県です。 （飛んで埼玉はまだ見てません。そろそろ見たいと思ってます。） *◼︎これまで* 高校で調理師免許を取得し、事務を約2年、飲食業を約４年経験した後、 コロナを機にネットワーク監視や運用保守を約4年経験しました。 現職は温泉施設に併設のレストランで働いています。 *◼︎趣味* ・ポケモン ゲームやポケカ収集、グッズ集め等々… …"
+    },
+    {
+      "@id": "message:primary:C09Q46YA4ER:1772417371.921669",
+      "@type": "saiteki:SlackMessage",
+      "saiteki:workspace": "primary",
+      "saiteki:channelId": "C09Q46YA4ER",
+      "saiteki:channelName": "自己紹介",
+      "saiteki:messageTs": "1772417371.921669",
+      "saiteki:threadTs": "1770701908.083739",
+      "saiteki:authorSlackId": "U0AEE7CDAPK",
+      "saiteki:authorName": "榎本 詩織",
+      "saiteki:textPreview": "@小島 遼祐 さん はじめまして、榎本です。 小島さんの自己紹介も読ませていただきました！ ポケカコレクション、楽しいですよね！ 今や旧裏やEカード、Vシリーズは高値なので中々手が出せませんが…:cry: 小島さんは対戦もされていたとのことなので、 機会があればデッキ編成のコツとか教えてください！ 最近は『Pokémon LEGENDS Z-A』と『マリオカートワールド』をやってます！ 3/5に出る『ぽこあポケモン』も楽しいと思います！ メタモンが色んなポケモンにへんしんして、街づくりするゲームです！ 良かったら…"
+    },
+    {
+      "@id": "message:primary:C09N28KTKL1:1779633198.304519",
+      "@type": "saiteki:SlackMessage",
+      "saiteki:workspace": "primary",
+      "saiteki:channelId": "C09N28KTKL1",
+      "saiteki:channelName": "ソーシャル",
+      "saiteki:messageTs": "1779633198.304519",
+      "saiteki:threadTs": "1779633198.304519",
+      "saiteki:authorSlackId": "U0A9EE7HZ3P",
+      "saiteki:authorName": "藤井芙美子",
+      "saiteki:textPreview": "次男の七五三撮影。 和装も洋装も、 本人の好きなように選ばせたら、 着物はポケモン柄でした:kimono: 流れ作業で進んでいく撮影。 ポーズを指定していいのかもわからず、 バタバタしているうちに、 撮影は前身頃だけで終了。 着替える前に慌てて背中を撮影:sweat_drops: 七五三撮影2回目でも、 こういう時って、 注文していいやら悪いやら、 わからないまま終了する:joy:"
+    },
+    {
+      "@id": "message:primary:C09Q46YA4ER:1779079389.374189",
+      "@type": "saiteki:SlackMessage",
+      "saiteki:workspace": "primary",
+      "saiteki:channelId": "C09Q46YA4ER",
+      "saiteki:channelName": "自己紹介",
+      "saiteki:messageTs": "1779079389.374189",
+      "saiteki:threadTs": "1779001204.657399",
+      "saiteki:authorSlackId": "U0A9EE7HZ3P",
+      "saiteki:authorName": "藤井芙美子",
+      "saiteki:textPreview": "@三本木拓磨 さん はじめまして、総務の藤井といいます:raised_hands: ポケモン大好きなんですね:驚き: Saitekiの営業に、超がつくほどのポケモン好きがいますよ:+1: オンライン飲み会や懇親会など、社員交流の機会ありますので、是非ご参加くださいね"
+    },
+    {
+      "@id": "edge:小島遼祐:COLLECTS:ポケモン",
+      "@type": "saiteki:ProfileEdge",
+      "saiteki:source": "person:小島遼祐",
+      "saiteki:target": "topic:ポケモン",
+      "saiteki:predicate": "COLLECTS",
+      "saiteki:relationLabel": "ポケカ収集・対戦経験あり",
+      "saiteki:detailBullets": [
+        "趣味としてポケモンのゲームやカードを挙げている",
+        "カードは主にコレクションとして楽しんでいる",
+        "ジムバトル参加経験があり、シングルバトルとダブルバトルの経験もある",
+        "小学生から続けているポケカ収集について話している"
+      ],
+      "saiteki:evidenceMessages": [
+        "message:primary:C09Q46YA4ER:1768614261.622119",
+        "message:primary:C09Q46YA4ER:1772237402.765719"
+      ],
+      "saiteki:confidence": 0.95,
+      "saiteki:extractionMethod": "curated_seed",
+      "saiteki:firstSeenAt": "2026-01-17T01:44:21.622Z",
+      "saiteki:updatedAt": "2026-05-27T07:41:01.374Z"
+    },
+    {
+      "@id": "edge:榎本詩織:LIKES:ポケモン",
+      "@type": "saiteki:ProfileEdge",
+      "saiteki:source": "person:榎本詩織",
+      "saiteki:target": "topic:ポケモン",
+      "saiteki:predicate": "LIKES",
+      "saiteki:relationLabel": "ゲーム・ポケカ収集・グッズ集め",
+      "saiteki:detailBullets": [
+        "趣味としてポケモンを挙げている",
+        "ゲーム、ポケカ収集、グッズ集めに触れている",
+        "コロナ以降にハマり、家にグッズが溢れていると話している",
+        "Pokémon LEGENDS Z-A や ぽこあポケモンにも触れている"
+      ],
+      "saiteki:evidenceMessages": [
+        "message:primary:C09Q46YA4ER:1770701908.083739",
+        "message:primary:C09Q46YA4ER:1772417371.921669"
+      ],
+      "saiteki:confidence": 0.96,
+      "saiteki:extractionMethod": "curated_seed",
+      "saiteki:firstSeenAt": "2026-02-10T01:38:28.083Z",
+      "saiteki:updatedAt": "2026-05-27T07:41:01.374Z"
+    },
+    {
+      "@id": "edge:藤井芙美子:FAMILY_CONTEXT:ポケモン",
+      "@type": "saiteki:ProfileEdge",
+      "saiteki:source": "person:藤井芙美子",
+      "saiteki:target": "topic:ポケモン",
+      "saiteki:predicate": "FAMILY_CONTEXT",
+      "saiteki:relationLabel": "家族文脈・社員同士の橋渡し",
+      "saiteki:detailBullets": [
+        "子どもの七五三でポケモン柄の着物を選んだ話をしている",
+        "ポケモン好きの新メンバーに反応している",
+        "社内にポケモン好きがいることを紹介し、交流のきっかけを作っている"
+      ],
+      "saiteki:evidenceMessages": [
+        "message:primary:C09N28KTKL1:1779633198.304519",
+        "message:primary:C09Q46YA4ER:1779079389.374189"
+      ],
+      "saiteki:confidence": 0.86,
+      "saiteki:extractionMethod": "curated_seed",
+      "saiteki:firstSeenAt": "2026-05-18T10:03:18.304Z",
+      "saiteki:updatedAt": "2026-05-27T07:41:01.374Z"
+    }
+  ]
+}
