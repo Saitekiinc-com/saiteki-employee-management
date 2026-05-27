@@ -82,6 +82,11 @@ function normalizeVector(vector) {
   return vector.map((value) => Number((value / norm).toFixed(8)));
 }
 
+function fitVectorDimensions(vector, dimensions) {
+  if (!dimensions || !Array.isArray(vector) || vector.length <= dimensions) return vector;
+  return vector.slice(0, dimensions);
+}
+
 function localFixtureEmbedding(text, dimensions = DEFAULT_LOCAL_DIMENSIONS) {
   const vector = Array(dimensions).fill(0);
   for (const token of tokenize(text)) {
@@ -165,7 +170,7 @@ async function createEmbeddingProvider(options = {}) {
       if (!Array.isArray(data.embedding?.values)) {
         throw new Error('Gemini embedding response did not include embedding.values.');
       }
-      return data.embedding.values;
+      return fitVectorDimensions(data.embedding.values, dimensions);
     }
   };
 }
@@ -179,6 +184,7 @@ module.exports = {
   cosineSimilarity,
   createEmbeddingProvider,
   createLocalFixtureProvider,
+  fitVectorDimensions,
   localFixtureEmbedding,
   normalizeText,
   stripQueryHelpers,
