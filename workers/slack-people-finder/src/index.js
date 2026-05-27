@@ -7,6 +7,18 @@ const QUERY_ACTION = 'query';
 const CATEGORY_BLOCK = 'search_category';
 const QUERY_BLOCK = 'search_query';
 const DEFAULT_THRESHOLD = 0.18;
+const DEFAULT_VECTOR_THRESHOLD = 0.22;
+const DEFAULT_TOP_UNITS = 80;
+const DEFAULT_RERANK_CANDIDATES = 12;
+const DEFAULT_EMBEDDING_MODEL = 'text-embedding-004';
+const DEFAULT_RERANK_MODEL = 'gemini-2.0-flash';
+
+const INTENT_RANK = {
+  direct: 4,
+  adjacent: 3,
+  weak: 2,
+  reject: 1
+};
 
 const WORK_QUERY_PATTERN = /aws|azure|gcp|react|next|rag|qa|pm|poc|api|db|sql|bi|gemini|cursor|notion|slack|github|開発|運用|監視|設計|要件|技術|テスト|品質|分析|採用|営業|総務|人事|オンボーディング|データ|プロンプト|自動化|インフラ|サーバ|アーキテクチャ|マネジメント|合意形成/i;
 const PERSONAL_QUERY_PATTERN = /好き|趣味|休日|映画|音楽|ゲーム|アニメ|漫画|マンガ|ポケモン|ガンダム|トミカ|自炊|料理|楽器|動物|犬|猫|旅行|スポーツ|読書/i;
@@ -26,6 +38,8 @@ const CATEGORY_OPTIONS = [
 
 let cachedFacets;
 let cachedAt = 0;
+let cachedProfileIndex;
+let cachedProfileIndexAt = 0;
 
 export default {
   async fetch(request, env, ctx) {
@@ -193,11 +207,7 @@ async function postSearchResults(env, { channel, user, query, category }) {
 
   try {
     const categoryResolution = resolveSearchCategory(query, category || '仕事・相談');
-    const facets = await loadFacets(env);
-    const results = searchFacets(facets, query, {
-      category: categoryResolution.category,
-      threshold: env.PEOPLE_FINDER_THRESHOLD || DEFAULT_THRESHOLD
-    });
+    const results = await searchPeople(env, query, categoryResolution);
     const chunks = chunkResults(results);
     const pages = chunks.length ? chunks : [[]];
 
@@ -221,6 +231,26 @@ async function postSearchResults(env, { channel, user, query, category }) {
     console.error(error);
     await postSearchError(env, { channel, user, query }, error);
   }
+}
+
+async function searchPeople(env, query, categoryResolution) {
+  if (canUseVectorSearch(env)) {
+    try {
+      return await searchProfileIndex(env, query, categoryResolution.category);
+    } catch (error) {
+      console.error('Vector people search failed; falling back to search facets', error);
+    }
+  }
+
+  const facets = await loadFacets(env);
+  return searchFacets(facets, query, {
+    category: categoryResolution.category,
+    threshold: env.PEOPLE_FINDER_THRESHOLD || DEFAULT_THRESHOLD
+  });
+}
+
+function canUseVectorSearch(env) {
+  return Boolean(env.PROFILE_SEARCH_INDEX_URL && env.GEMINI_API_KEY);
 }
 
 async function postSearchError(env, { channel, user, query }, error) {
@@ -278,6 +308,22 @@ async function loadFacets(env) {
   cachedFacets = data['@graph'] || [];
   cachedAt = now;
   return cachedFacets;
+}
+
+async function loadProfileIndex(env) {
+  const now = Date.now();
+  const ttl = Number(env.PROFILE_SEARCH_INDEX_CACHE_SECONDS || env.SEARCH_FACETS_CACHE_SECONDS || 300) * 1000;
+  if (cachedProfileIndex && now - cachedProfileIndexAt < ttl) return cachedProfileIndex;
+
+  const response = await fetch(env.PROFILE_SEARCH_INDEX_URL, {
+    headers: env.PROFILE_SEARCH_INDEX_TOKEN ? { authorization: `Bearer ${env.PROFILE_SEARCH_INDEX_TOKEN}` } : {}
+  });
+  if (!response.ok) {
+    throw new Error(`Failed to fetch profile search index: ${response.status}`);
+  }
+  cachedProfileIndex = await response.json();
+  cachedProfileIndexAt = now;
+  return cachedProfileIndex;
 }
 
 function buildSearchModal({ channelId, initialQuery = '', initialCategory = '仕事・相談' }) {
@@ -395,6 +441,9 @@ function formatResult(result) {
     .map((reason) => `・${escapeMrkdwn(reason.label)} (${Math.round(reason.score * 100)}%) - ${escapeMrkdwn(reasonSourceLabel(reason))}`)
     .join('\n');
   const detailNotes = result.reasons.flatMap(reasonDetailNotes).join('\n');
+  const rerankNote = result.rerankReason
+    ? `${escapeMrkdwn(result.rerankReason)} (${Math.round(Number(result.rerankConfidence || 0) * 100)}%)`
+    : '';
   const quotes = result.messageQuotes
     .map((quote) => {
       const quoteText = `「${escapeMrkdwn(truncate(quote.text, 140))}」`;
@@ -409,6 +458,7 @@ function formatResult(result) {
       text: [
         `*${mention}*`,
         `選出理由:\n${reasons || '関連する検索facetが閾値を超えました。'}`,
+        rerankNote ? `AI判定:\n${rerankNote}` : '',
         detailNotes ? `具体メモ:\n${detailNotes}` : '',
         quotes ? `メッセージ引用:\n${quotes}` : ''
       ].filter(Boolean).join('\n')
@@ -442,6 +492,7 @@ function isWorkReason(reason) {
 }
 
 function reasonSourceLabel(reason) {
+  if (reason.sourceLabel) return reason.sourceLabel;
   switch (reason.sourceField) {
     case 'work_styles_and_strengths.dominant_strengths':
       return '仕事上の強み';
@@ -456,6 +507,270 @@ function reasonSourceLabel(reason) {
     default:
       return '社員データ';
   }
+}
+
+async function searchProfileIndex(env, query, uiCategory) {
+  const index = await loadProfileIndex(env);
+  ensureEmbeddedIndex(index);
+
+  const queryText = stripQueryHelpers(query) || normalizeText(query);
+  const queryVector = await embedQuery(env, queryText, index.embedding?.model);
+  const threshold = parseNumber(env.PEOPLE_FINDER_VECTOR_THRESHOLD, DEFAULT_VECTOR_THRESHOLD);
+  const topUnits = parseNumber(env.PEOPLE_FINDER_VECTOR_TOP_UNITS, DEFAULT_TOP_UNITS);
+  const graph = Array.isArray(index['@graph']) ? index['@graph'] : [];
+
+  const scoredUnits = graph
+    .filter((unit) => !uiCategory || !unit.uiCategory || unit.uiCategory === uiCategory)
+    .map((unit) => ({
+      unit,
+      score: cosineVectorSimilarity(queryVector, unitVector(unit)) + lexicalLabelBoost(unit, queryText)
+    }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, topUnits);
+
+  const results = aggregateVectorUnits(scoredUnits, threshold);
+  if (results.length === 0 || env.PEOPLE_FINDER_ENABLE_RERANK === 'false') {
+    return results;
+  }
+
+  return rerankVectorResults(env, query, results, {
+    candidateLimit: env.PEOPLE_FINDER_RERANK_CANDIDATES,
+    includeAdjacent: env.PEOPLE_FINDER_DIRECT_ONLY !== 'true'
+  });
+}
+
+function ensureEmbeddedIndex(index) {
+  const graph = Array.isArray(index?.['@graph']) ? index['@graph'] : [];
+  const missing = graph.filter((unit) => unitVector(unit).length === 0);
+  if (graph.length === 0 || missing.length > 0) {
+    throw new Error(`Profile search index is not embedded: ${missing.length || graph.length} units without vectors.`);
+  }
+}
+
+function unitVector(unit) {
+  if (Array.isArray(unit.embedding)) return unit.embedding;
+  if (Array.isArray(unit.embedding?.vector)) return unit.embedding.vector;
+  if (Array.isArray(unit.embedding?.values)) return unit.embedding.values;
+  return [];
+}
+
+function lexicalLabelBoost(unit, queryText) {
+  const labelText = normalizeText([
+    unit.relationLabel,
+    unit.topicLabel,
+    ...(unit.topicAliases || [])
+  ].filter(Boolean).join(' '));
+  if (!labelText) return 0;
+  const terms = tokenize(queryText).filter((term) => term.length >= 2);
+  const matched = terms.filter((term) => labelText.includes(term)).length;
+  return Math.min(matched * 0.06, 0.18);
+}
+
+function aggregateVectorUnits(scoredUnits, threshold) {
+  const byEmployee = new Map();
+  for (const item of scoredUnits) {
+    if (item.score < threshold) continue;
+    const key = item.unit.personName;
+    if (!key) continue;
+    if (!byEmployee.has(key)) {
+      byEmployee.set(key, {
+        employeeName: key,
+        slackIds: item.unit.slackIds || [],
+        score: item.score,
+        reasons: [],
+        messageQuotes: []
+      });
+    }
+
+    const result = byEmployee.get(key);
+    result.score = Math.max(result.score, item.score);
+    result.reasons.push(vectorReason(item.unit, item.score));
+    result.messageQuotes.push(...(item.unit.quotes || []));
+  }
+
+  return [...byEmployee.values()]
+    .map((result) => ({
+      ...result,
+      score: Number(result.score.toFixed(4)),
+      reasons: result.reasons.sort((a, b) => b.score - a.score).slice(0, 3),
+      messageQuotes: dedupeQuotes(result.messageQuotes).slice(0, 3)
+    }))
+    .sort((a, b) => b.score - a.score || a.employeeName.localeCompare(b.employeeName, 'ja'));
+}
+
+function vectorReason(unit, score) {
+  return {
+    unitId: unit['@id'],
+    category: unit.category,
+    label: unit.relationLabel || unit.topicLabel || unit.predicate || 'プロフィール根拠',
+    score: Number(score.toFixed(4)),
+    sourceField: unit.sourceField || unit.sourceFields?.[0],
+    sourceLabel: unit.uiCategory || 'プロフィールグラフ',
+    evidenceSnippets: (unit.detailBullets || []).slice(0, 4),
+    detailBullets: unit.detailBullets || [],
+    relationLabel: unit.relationLabel,
+    topicLabel: unit.topicLabel,
+    semanticType: unit.semanticType
+  };
+}
+
+async function embedQuery(env, text, indexModel) {
+  const model = env.GEMINI_EMBEDDING_MODEL || indexModel || DEFAULT_EMBEDDING_MODEL;
+  const data = await callGemini(env, model, 'embedContent', {
+    content: { parts: [{ text }] },
+    embedContentConfig: { taskType: 'RETRIEVAL_QUERY' }
+  });
+  const values = data.embedding?.values;
+  if (!Array.isArray(values)) {
+    throw new Error('Gemini embedding response did not include embedding.values.');
+  }
+  return values;
+}
+
+async function rerankVectorResults(env, query, results, options = {}) {
+  const candidateLimit = parseNumber(options.candidateLimit, DEFAULT_RERANK_CANDIDATES);
+  const candidates = results.slice(0, candidateLimit);
+  const decisions = await geminiRerank(env, query, candidates);
+  return applyRerankDecisions(candidates, decisions, {
+    includeAdjacent: options.includeAdjacent !== false
+  });
+}
+
+async function geminiRerank(env, query, results) {
+  const model = env.GEMINI_RERANK_MODEL || DEFAULT_RERANK_MODEL;
+  const data = await callGemini(env, model, 'generateContent', {
+    contents: [
+      {
+        role: 'user',
+        parts: [{ text: buildRerankPrompt(query, results) }]
+      }
+    ],
+    generationConfig: {
+      temperature: 0,
+      responseMimeType: 'application/json'
+    }
+  });
+  const text = (data.candidates || [])
+    .flatMap((candidate) => candidate.content?.parts || [])
+    .map((part) => part.text)
+    .filter(Boolean)
+    .join('\n');
+  return parseJsonText(text).decisions || [];
+}
+
+async function callGemini(env, model, method, payload) {
+  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/${geminiModelResource(model)}:${method}`, {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      'x-goog-api-key': env.GEMINI_API_KEY
+    },
+    body: JSON.stringify(payload)
+  });
+  const data = await response.json();
+  if (!response.ok) {
+    throw new Error(`Gemini ${method} failed: ${response.status} ${JSON.stringify(data).slice(0, 240)}`);
+  }
+  return data;
+}
+
+function geminiModelResource(model) {
+  const value = String(model || '').trim();
+  return value.startsWith('models/') ? value : `models/${value}`;
+}
+
+function parseJsonText(text) {
+  const start = text.indexOf('{');
+  const end = text.lastIndexOf('}');
+  if (start === -1 || end === -1) {
+    throw new Error(`AI rerank response is not JSON: ${text.slice(0, 200)}`);
+  }
+  return JSON.parse(text.slice(start, end + 1));
+}
+
+function buildRerankPrompt(query, results) {
+  return `あなたは社員検索の再ランキング担当です。
+検索クエリに対して、候補社員が本当に近いかを根拠だけで判定してください。
+
+判定ラベル:
+- direct: 検索意図に直接合う
+- adjacent: 近いが主目的から少し外れる
+- weak: 関連はあるが候補として弱い
+- reject: 表示しない
+
+ルール:
+- 根拠にない推測はしない
+- 職種検索では、AI、エンジニア、影響力だけの候補は reject または weak
+- 趣味検索では、具体的な接点がある候補を direct
+- selectedReasonUnitIds は判定根拠に使ったunitIdだけを入れる
+- JSONだけを返す
+
+出力形式:
+{
+  "decisions": [
+    {
+      "employeeName": "社員名",
+      "intentFit": "direct",
+      "confidence": 0.9,
+      "reason": "短い理由",
+      "selectedReasonUnitIds": ["search-unit:..."]
+    }
+  ]
+}
+
+検索クエリ:
+${query}
+
+候補:
+${JSON.stringify(results.map(compactVectorResult), null, 2)}`;
+}
+
+function compactVectorResult(result) {
+  return {
+    employeeName: result.employeeName,
+    score: result.score,
+    reasons: (result.reasons || []).map((reason) => ({
+      unitId: reason.unitId,
+      semanticType: reason.semanticType,
+      relationLabel: reason.relationLabel,
+      topicLabel: reason.topicLabel,
+      score: reason.score,
+      detailBullets: (reason.detailBullets || []).slice(0, 3)
+    })),
+    quotes: (result.messageQuotes || []).slice(0, 2).map((quote) => ({
+      text: quote.text,
+      channelName: quote.channelName,
+      authorName: quote.authorName
+    }))
+  };
+}
+
+function applyRerankDecisions(results, decisions, options = {}) {
+  const includeAdjacent = options.includeAdjacent !== false;
+  const decisionByName = new Map((decisions || []).map((decision) => [decision.employeeName, decision]));
+  return results
+    .map((result) => {
+      const decision = decisionByName.get(result.employeeName);
+      if (!decision) return null;
+      const selectedIds = new Set(decision.selectedReasonUnitIds || []);
+      const selectedReasons = selectedIds.size > 0
+        ? result.reasons.filter((reason) => selectedIds.has(reason.unitId))
+        : result.reasons;
+      return {
+        ...result,
+        intentFit: decision.intentFit,
+        rerankConfidence: decision.confidence,
+        rerankReason: decision.reason,
+        reasons: selectedReasons.length > 0 ? selectedReasons : result.reasons
+      };
+    })
+    .filter(Boolean)
+    .filter((result) => result.intentFit === 'direct' || (includeAdjacent && result.intentFit === 'adjacent'))
+    .sort((a, b) => {
+      const rankDiff = (INTENT_RANK[b.intentFit] || 0) - (INTENT_RANK[a.intentFit] || 0);
+      if (rankDiff !== 0) return rankDiff;
+      return (b.rerankConfidence || 0) - (a.rerankConfidence || 0) || b.score - a.score;
+    });
 }
 
 function searchFacets(facets, query, options = {}) {
@@ -631,6 +946,20 @@ function cosineSimilarity(a, b) {
   return dot / (Math.sqrt(aNorm) * Math.sqrt(bNorm));
 }
 
+function cosineVectorSimilarity(a, b) {
+  if (!Array.isArray(a) || !Array.isArray(b) || a.length !== b.length) return 0;
+  let dot = 0;
+  let aNorm = 0;
+  let bNorm = 0;
+  for (let index = 0; index < a.length; index++) {
+    dot += a[index] * b[index];
+    aNorm += a[index] * a[index];
+    bNorm += b[index] * b[index];
+  }
+  if (!aNorm || !bNorm) return 0;
+  return dot / (Math.sqrt(aNorm) * Math.sqrt(bNorm));
+}
+
 function dedupeQuotes(quotes) {
   const seen = new Set();
   const unique = [];
@@ -666,6 +995,11 @@ function escapeMrkdwn(value) {
 function truncate(value, maxLength = 240) {
   const text = String(value || '').replace(/\s+/g, ' ').trim();
   return text.length > maxLength ? `${text.slice(0, maxLength - 1)}…` : text;
+}
+
+function parseNumber(value, fallback) {
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : fallback;
 }
 
 function plainText(text) {

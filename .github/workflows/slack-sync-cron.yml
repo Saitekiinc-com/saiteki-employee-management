@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install dependencies
+        run: npm ci
+
       - name: Sync Slack Activity
         run: |
           if [ "${{ github.event.inputs.full_sync }}" = "true" ]; then
@@ -52,6 +55,14 @@ jobs:
       - name: Build Search Facets
         run: node scripts/build-search-facets.js
 
+      - name: Build Profile Search Index
+        run: npm run build:profile-search-index
+
+      - name: Embed Profile Search Index
+        run: npm run embed:profile-search-index
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
       - name: Generate Graph Documentation
         run: node scripts/generate-graph-doc.js
 
@@ -59,5 +70,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/employees.json data/knowledge-graph.json data/search-facets.jsonld data/slack-messages.jsonl docs/TEAM.md docs/KNOWLEDGE_GRAPH.md docs/index.html
+          git add data/employees.json data/knowledge-graph.json data/search-facets.jsonld data/profile-search-index.json data/profile-search-index.embedded.json data/slack-messages.jsonl docs/TEAM.md docs/KNOWLEDGE_GRAPH.md docs/index.html
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update employee profiles, search facets, and knowledge graph" && git push)
