@@ -1,0 +1,21 @@
+{
+  "@id": "fact:fujii-fumiko:pokemon:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:fujii-fumiko:FAMILY_CONTEXT:pokemon",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "relationLabel": "家族と社員交流のポケモン文脈",
+  "detailBullets": [
+    "次男の七五三撮影で、本人がポケモン柄の着物を選んだ話を共有している",
+    "新入社員の三本木さんに、Saitekiの営業に超がつくほどのポケモン好きがいると紹介している",
+    "ポケモンの話題を社員同士の交流のきっかけとして扱っている"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1779633198.304519",
+    "primary:C09Q46YA4ER:1779079389.374189"
+  ],
+  "confidence": 0.84,
+  "extractionMethod": "curated_seed",
+  "firstSeenAt": "2026-05-18T04:43:09.374Z",
+  "updatedAt": "2026-05-27T00:00:00.000+09:00"
+}

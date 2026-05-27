@@ -2,9 +2,11 @@
   "name": "saiteki-employee-management",
   "private": true,
   "scripts": {
-    "build:search-facets": "node scripts/build-search-facets.js",
+    "build:employee-profile-graph": "node scripts/build-employee-profile-graph.js",
+    "build:search-facets": "npm run build:employee-profile-graph && node scripts/build-search-facets.js",
     "build:slack-export-pages": "node scripts/build-slack-export-pages.js",
     "slack:people-finder": "node scripts/slack-people-finder-app.js",
+    "test:employee-profile-graph": "node scripts/test-employee-profile-graph.js",
     "test:people-finder": "node scripts/test-people-finder-rag-search.js"
   },
   "dependencies": {

@@ -1,0 +1,16 @@
+{
+  "@id": "topic:ポケモン",
+  "@type": "saiteki:TopicNode",
+  "name": "ポケモン",
+  "topicType": "interest",
+  "parentTopic": "topic:ゲーム",
+  "aliases": [
+    "ポケカ",
+    "Pokemon",
+    "Pokémon",
+    "Pokemon LEGENDS",
+    "ぽこあポケモン",
+    "ダイヤモンド",
+    "メタモン"
+  ]
+}

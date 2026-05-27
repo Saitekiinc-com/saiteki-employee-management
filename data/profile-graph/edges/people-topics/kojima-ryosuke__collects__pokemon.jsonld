@@ -1,0 +1,10 @@
+{
+  "@id": "edge:kojima-ryosuke:COLLECTS:pokemon",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:小島遼祐",
+  "predicate": "COLLECTS",
+  "target": "topic:ポケモン",
+  "facts": [
+    "fact:kojima-ryosuke:pokemon:001"
+  ]
+}

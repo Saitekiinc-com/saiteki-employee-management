@@ -1,0 +1,9 @@
+{
+  "@id": "topic:ゲーム",
+  "@type": "saiteki:TopicNode",
+  "name": "ゲーム",
+  "topicType": "interest",
+  "aliases": [
+    "ゲーム"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "edge:enomoto-shiori:LIKES:pokemon",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:榎本詩織",
+  "predicate": "LIKES",
+  "target": "topic:ポケモン",
+  "facts": [
+    "fact:enomoto-shiori:pokemon:001"
+  ]
+}

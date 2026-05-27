@@ -4,6 +4,7 @@ const path = require('path');
 const DATA_DIR = path.join(__dirname, '../data');
 const EMPLOYEES_FILE = path.join(DATA_DIR, 'employees.json');
 const SLACK_MESSAGES_FILE = path.join(DATA_DIR, 'slack-messages.jsonl');
+const PROFILE_GRAPH_FILE = path.join(DATA_DIR, 'employee-profile-graph.jsonld');
 const OUTPUT_FILE = path.join(DATA_DIR, 'search-facets.jsonld');
 
 const UI_CATEGORY_WORK = '仕事・相談';
@@ -76,6 +77,10 @@ function readJsonl(file) {
     .map((line) => JSON.parse(line));
 }
 
+function readOptionalJson(file) {
+  return fs.existsSync(file) ? readJson(file) : null;
+}
+
 function writeJsonl(file, rows) {
   fs.writeFileSync(file, rows.map((row) => JSON.stringify(row)).join('\n') + (rows.length ? '\n' : ''));
 }
@@ -87,6 +92,10 @@ function getPath(object, dottedPath) {
 function toArray(value) {
   if (value == null) return [];
   return Array.isArray(value) ? value : [value];
+}
+
+function unique(values) {
+  return [...new Set(values.filter(Boolean))];
 }
 
 function cleanText(value, maxLength = 180) {
@@ -270,7 +279,100 @@ function findMessageQuotes(employee, label, aliases, messageIndex) {
   return quotes;
 }
 
-function buildSearchFacets(employees, slackMessages = []) {
+function messageQuotesFromEvidence(edge, slackMessageByNodeId) {
+  return (edge['saiteki:evidenceMessages'] || [])
+    .map((id) => slackMessageByNodeId.get(id))
+    .filter(Boolean)
+    .map((message) => ({
+      text: cleanText(message.text || message.rawText || '', 220),
+      channelId: message.channelId,
+      messageTs: message.messageTs,
+      threadTs: message.threadTs,
+      permalink: message.permalink
+    }));
+}
+
+function profileGraphSearchFacets(profileGraph, employees, slackMessages) {
+  if (!profileGraph) return [];
+
+  const graph = profileGraph['@graph'] || [];
+  const employeeByName = new Map(employees.map((employee) => [employee.name, employee]));
+  const topicById = new Map(graph
+    .filter((node) => node['@type'] === 'saiteki:Topic')
+    .map((node) => [node['@id'], node]));
+  const slackMessageByNodeId = new Map(slackMessages.map((message) => [messageNodeId(message.id), message]));
+
+  return graph
+    .filter((node) => node['@type'] === 'saiteki:ProfileEdge')
+    .map((edge, index) => {
+      const employeeName = String(edge['saiteki:source'] || '').replace(/^person:/, '');
+      const employee = employeeByName.get(employeeName);
+      const topic = topicById.get(edge['saiteki:target']);
+      if (!employee || !topic) return null;
+
+      const detailBullets = edge['saiteki:detailBullets'] || [];
+      const topicName = topic['schema:name'] || topic.name || String(edge['saiteki:target']).replace(/^topic:/, '');
+      const label = edge['saiteki:relationLabel'] || topicName;
+      const aliases = unique([
+        topicName,
+        ...(topic['saiteki:aliases'] || []),
+        ...detailBullets.flatMap(makeAliases)
+      ]).slice(0, 16);
+
+      return {
+        '@id': `facet:profile-graph:${index + 1}`,
+        '@type': 'saiteki:SearchFacet',
+        supersedesTerms: unique([topicName, ...(topic['saiteki:aliases'] || [])]),
+        person: edge['saiteki:source'],
+        employeeName,
+        slackIds: [employee.slack_id, employee.slack_id_2].filter(Boolean),
+        uiCategory: edge['saiteki:uiCategory'] || UI_CATEGORY_PERSONAL,
+        category: edge['saiteki:category'] || 'interest',
+        label,
+        aliases,
+        evidence: detailBullets.join(' / '),
+        evidenceSnippets: detailBullets.map((text) => ({
+          text,
+          sourceField: 'data/profile-graph/facts'
+        })),
+        messageQuotes: messageQuotesFromEvidence(edge, slackMessageByNodeId),
+        sourceField: 'current_state.recent_topics_of_interest'
+      };
+    })
+    .filter(Boolean);
+}
+
+function messageNodeId(messageId) {
+  const text = String(messageId || '').trim();
+  return text.startsWith('message:') ? text : `message:${text}`;
+}
+
+function pruneSupersededFacets(baseFacets, graphFacets) {
+  const graphFacetByEmployee = new Map();
+  for (const facet of graphFacets) {
+    if (!graphFacetByEmployee.has(facet.employeeName)) graphFacetByEmployee.set(facet.employeeName, []);
+    graphFacetByEmployee.get(facet.employeeName).push(facet);
+  }
+
+  return baseFacets.filter((facet) => {
+    const graphItems = graphFacetByEmployee.get(facet.employeeName) || [];
+    const label = normalizeText(facet.label);
+    return !graphItems.some((graphFacet) => {
+      if (graphFacet.uiCategory !== facet.uiCategory) return false;
+      return (graphFacet.supersedesTerms || [])
+        .map(normalizeText)
+        .filter((term) => term.replace(/\s+/g, '').length >= 2)
+        .some((term) => label.includes(term));
+    });
+  });
+}
+
+function stripInternalFacetFields(facet) {
+  const { supersedesTerms, ...publicFacet } = facet;
+  return publicFacet;
+}
+
+function buildSearchFacets(employees, slackMessages = [], profileGraph = null) {
   const messageIndex = messagesBySlackId(slackMessages);
   const graph = [];
   const seen = new Set();
@@ -313,11 +415,21 @@ function buildSearchFacets(employees, slackMessages = []) {
     }
   }
 
+  const graphFacets = profileGraphSearchFacets(profileGraph, employees, slackMessages);
+  const publicGraph = [
+    ...pruneSupersededFacets(graph, graphFacets),
+    ...graphFacets
+  ].map(stripInternalFacetFields);
+
   return {
     '@context': CONTEXT,
     generatedAt: new Date().toISOString(),
-    sourceFiles: ['data/employees.json', 'data/slack-messages.jsonl'],
-    '@graph': graph
+    sourceFiles: [
+      'data/employees.json',
+      'data/slack-messages.jsonl',
+      ...(profileGraph ? ['data/employee-profile-graph.jsonld'] : [])
+    ],
+    '@graph': publicGraph
   };
 }
 
@@ -328,7 +440,8 @@ function writeSearchFacets(facets, outputFile = OUTPUT_FILE) {
 function main() {
   const employees = readJson(EMPLOYEES_FILE);
   const messages = readJsonl(SLACK_MESSAGES_FILE);
-  const facets = buildSearchFacets(employees, messages);
+  const profileGraph = readOptionalJson(PROFILE_GRAPH_FILE);
+  const facets = buildSearchFacets(employees, messages, profileGraph);
   writeSearchFacets(facets);
   console.log(`Generated ${facets['@graph'].length} search facets at ${OUTPUT_FILE}`);
 }

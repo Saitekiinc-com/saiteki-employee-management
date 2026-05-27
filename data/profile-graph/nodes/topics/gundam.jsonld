@@ -1,0 +1,14 @@
+{
+  "@id": "topic:ガンダム",
+  "@type": "saiteki:TopicNode",
+  "name": "ガンダム",
+  "topicType": "interest",
+  "parentTopic": "topic:ゲーム",
+  "aliases": [
+    "GUNDAM",
+    "ガンダムバトルオペレーション2",
+    "ロボット作品",
+    "ロボアニメ",
+    "宇宙世紀"
+  ]
+}
