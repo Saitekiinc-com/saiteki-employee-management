@@ -1,9 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
+const { mergeSlackMessages, readJsonl, writeJsonl } = require('./build-search-facets');
 
 const DATA_FILE = path.join(__dirname, '../data/employees.json');
 const BACKUP_FILE = path.join(__dirname, '../data/employees.backup.json');
+const SLACK_MESSAGES_FILE = path.join(__dirname, '../data/slack-messages.jsonl');
 
 // Configuration - Primary Workspace
 const SLACK_TOKEN = process.env.SLACK_BOT_TOKEN || process.env.SLACK_APP_TOKEN;
@@ -40,12 +42,6 @@ async function main() {
     console.log(`Backed up data to ${BACKUP_FILE}`);
 
     const employees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-    const targetEmployees = employees.filter(e => e.isActive !== false && (e.slack_id || e.slack_id_2));
-
-    if (targetEmployees.length === 0) {
-        console.log('No active employees with Slack ID found.');
-        return;
-    }
 
     console.log(`Starting sync... Full Mode: ${IS_FULL_SYNC}`);
     console.log(`Target Channels: ${CHANNEL_IDS.join(', ')}`);
@@ -60,7 +56,7 @@ async function main() {
         try {
             const channelMessages = await fetchSlackMessages(cid, IS_FULL_SYNC, SLACK_TOKEN);
             console.log(`  Fetched ${channelMessages.length} messages from ${cid}`);
-            allMessages = allMessages.concat(channelMessages);
+            allMessages = allMessages.concat(channelMessages.map(m => ({ ...m, channelId: cid, workspace: 'primary' })));
         } catch (e) {
             console.error(`  Failed to fetch from ${cid}: ${e.message}`);
         }
@@ -79,7 +75,7 @@ async function main() {
             try {
                 const channelMessages = await fetchSlackMessages(cid, IS_FULL_SYNC, SLACK_TOKEN_2);
                 console.log(`  Fetched ${channelMessages.length} messages from ${cid}`);
-                allMessages2 = allMessages2.concat(channelMessages);
+                allMessages2 = allMessages2.concat(channelMessages.map(m => ({ ...m, channelId: cid, workspace: 'secondary' })));
             } catch (e) {
                 console.error(`  Failed to fetch from ${cid}: ${e.message}`);
             }
@@ -89,6 +85,22 @@ async function main() {
         console.log('Secondary workspace not configured. Skipping.');
     }
     console.log(`Total messages fetched: ${allMessages.length + allMessages2.length}`);
+
+    const existingSlackMessages = readJsonl(SLACK_MESSAGES_FILE);
+    const mergedSlackMessages = mergeSlackMessages(existingSlackMessages, [...allMessages, ...allMessages2]);
+    writeJsonl(SLACK_MESSAGES_FILE, mergedSlackMessages);
+    console.log(`Saved ${mergedSlackMessages.length} normalized Slack messages to ${SLACK_MESSAGES_FILE}.`);
+
+    const discoveredCount = await registerNewPrimaryWorkspaceUsers(employees, allMessages);
+    if (discoveredCount > 0) {
+        console.log(`Registered ${discoveredCount} newly discovered primary Slack users.`);
+    }
+
+    const targetEmployees = employees.filter(e => e.isActive !== false && (e.slack_id || e.slack_id_2));
+    if (targetEmployees.length === 0) {
+        console.log('No active employees with Slack ID found.');
+        return;
+    }
 
     let updatedCount = 0;
 
@@ -154,14 +166,78 @@ async function main() {
         }
     }
 
-    if (updatedCount > 0) {
+    if (updatedCount > 0 || discoveredCount > 0) {
         fs.writeFileSync(DATA_FILE, JSON.stringify(employees, null, 2));
-        console.log(`Saved ${updatedCount} profiles to ${DATA_FILE}.`);
+        console.log(`Saved ${updatedCount} profile updates and ${discoveredCount} new employees to ${DATA_FILE}.`);
 
         // Regenerate TEAM.md with the new data format
         generateTeamDoc(employees);
     } else {
         console.log('No updates performed.');
+    }
+}
+
+async function registerNewPrimaryWorkspaceUsers(employees, messages) {
+    const knownSlackIds = new Set(employees.flatMap(e => [e.slack_id, e.slack_id_2]).filter(Boolean));
+    const candidateIds = [...new Set(messages
+        .filter(m => m.workspace === 'primary' && m.user && !knownSlackIds.has(m.user) && !m.subtype)
+        .map(m => m.user))];
+    let createdCount = 0;
+
+    for (const userId of candidateIds) {
+        const user = await fetchSlackUserInfo(userId, SLACK_TOKEN);
+        if (!isEligibleSlackUser(user)) continue;
+
+        const name = user.real_name || user.profile?.real_name || user.profile?.display_name;
+        if (!name || employees.some(e => e.name === name)) continue;
+
+        const now = new Date().toISOString();
+        employees.push({
+            name,
+            job: 'Other',
+            slack_id: userId,
+            isActive: true,
+            createdAt: now,
+            updatedAt: now,
+            last_updated: now,
+            overall_summary: '',
+            personality_traits: null,
+            work_styles_and_strengths: null,
+            communication_patterns: null,
+            values_and_motivators: null,
+            current_state: null
+        });
+        knownSlackIds.add(userId);
+        createdCount++;
+    }
+
+    return createdCount;
+}
+
+function isEligibleSlackUser(user) {
+    return Boolean(user)
+        && !user.deleted
+        && !user.is_bot
+        && !user.is_app_user
+        && !user.is_restricted
+        && !user.is_ultra_restricted;
+}
+
+async function fetchSlackUserInfo(userId, token) {
+    const url = `https://slack.com/api/users.info?user=${encodeURIComponent(userId)}`;
+    try {
+        const response = await fetch(url, {
+            headers: { 'Authorization': `Bearer ${token}` }
+        });
+        const data = await response.json();
+        if (!data.ok) {
+            console.warn(`  Could not fetch Slack user ${userId}: ${data.error}`);
+            return null;
+        }
+        return data.user;
+    } catch (error) {
+        console.warn(`  Could not fetch Slack user ${userId}: ${error.message}`);
+        return null;
     }
 }
 
