@@ -392,9 +392,11 @@ function resultMessageBlocks({ query, category, categoryInferred = false, result
 function formatResult(result) {
   const mention = result.slackIds?.[0] ? `<@${result.slackIds[0]}>` : escapeMrkdwn(result.employeeName);
   const reasons = result.reasons
-    .map((reason) => `・${escapeMrkdwn(reason.label)} (${Math.round(reason.score * 100)}%)`)
+    .map((reason) => `・${escapeMrkdwn(reason.label)} (${Math.round(reason.score * 100)}%) - ${escapeMrkdwn(reasonSourceLabel(reason))}`)
     .join('\n');
-  const evidence = result.reasons.find((reason) => reason.evidence)?.evidence;
+  const extractionEvidence = result.reasons
+    .map((reason) => `・「${escapeMrkdwn(reasonSourceLabel(reason))}」に「${escapeMrkdwn(truncate(reason.label, 80))}」が保存されています。`)
+    .join('\n');
   const quotes = result.messageQuotes
     .map((quote) => {
       const quoteText = `「${escapeMrkdwn(truncate(quote.text, 140))}」`;
@@ -409,11 +411,28 @@ function formatResult(result) {
       text: [
         `*${mention}*`,
         `選出理由:\n${reasons || '関連する検索facetが閾値を超えました。'}`,
-        evidence ? `根拠要約: ${escapeMrkdwn(truncate(evidence, 180))}` : '',
-        quotes ? `メッセージ引用:\n${quotes}` : 'メッセージ引用: 保存済み引用はまだありません。'
+        extractionEvidence ? `抽出根拠:\n${extractionEvidence}` : '',
+        quotes ? `メッセージ引用:\n${quotes}` : ''
       ].filter(Boolean).join('\n')
     }
   };
+}
+
+function reasonSourceLabel(reason) {
+  switch (reason.sourceField) {
+    case 'work_styles_and_strengths.dominant_strengths':
+      return '仕事上の強み';
+    case 'work_styles_and_strengths.problem_solving_style':
+      return '問題解決スタイル';
+    case 'current_state.recent_topics_of_interest':
+      return reason.category === 'work_topic' ? '最近の仕事・技術トピック' : '最近の関心・話題';
+    case 'values_and_motivators.core_values':
+      return '価値観';
+    case 'values_and_motivators.motivation_triggers':
+      return '動機・嬉しいこと';
+    default:
+      return '社員データ';
+  }
 }
 
 function searchFacets(facets, query, options = {}) {
@@ -474,6 +493,7 @@ function aggregateByEmployee(scoredFacets, threshold) {
       category: item.facet.category,
       label: item.facet.label,
       score: Number(item.score.toFixed(4)),
+      sourceField: item.facet.sourceField,
       evidence: item.facet.evidence
     });
     result.messageQuotes.push(...(item.facet.messageQuotes || []));
