@@ -39,6 +39,22 @@ Slack上で `/saiteki-people` を実行し、社員データから相談相手�
 
 Socket Modeを使うため、公開HTTPエンドポイントは不要。
 
+### Request URLについて
+
+このアプリはSocket Modeで動くため、slash commandのRequest URLは使わない。
+
+Slack管理画面で手動作成するとRequest URLが必須表示になることがある。その場合は、以下のどちらかで進める。
+
+1. App Manifestから作成する
+   - `slack-people-finder-manifest.json` には `request_url` を入れていない
+   - `settings.socket_mode_enabled: true` が入っているため、slash command payloadはWebSocket経由で届く
+2. 先にSocket Modeを有効化してからslash commandを作成する
+   - Settings > Socket Mode で Enable Socket Mode をONにする
+   - App-Level Tokenに `connections:write` を付ける
+   - その後に `/saiteki-people` を作成する
+
+どうしても管理画面上でRequest URL入力が必須のまま進められない場合は、Manifestでの作成を優先する。暫定URLを入れてもSocket Mode有効中は使われないが、Socket ModeをOFFにしたときに誤配送されるため、正式設定としては避ける。
+
 必要なトークン:
 
 - `SLACK_BOT_TOKEN`: `xoxb-` で始まるBot User OAuth Token
