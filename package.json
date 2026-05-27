@@ -5,11 +5,14 @@
     "backfill:profile-graph": "node scripts/backfill-profile-graph-source.js",
     "build:employee-profile-graph": "node scripts/build-employee-profile-graph.js",
     "build:profile-search-index": "node scripts/build-profile-search-index.js",
+    "embed:profile-search-index": "node scripts/embed-profile-search-index.js",
     "build:search-facets": "npm run backfill:profile-graph && npm run build:employee-profile-graph && node scripts/build-search-facets.js && npm run build:profile-search-index",
     "build:slack-export-pages": "node scripts/build-slack-export-pages.js",
+    "search:profile-vector": "node scripts/people-finder-vector-search.js",
     "slack:people-finder": "node scripts/slack-people-finder-app.js",
     "test:employee-profile-graph": "node scripts/test-employee-profile-graph.js",
     "test:profile-search-index": "node scripts/test-profile-search-index.js",
+    "test:profile-vector-search": "node scripts/test-profile-vector-search.js",
     "test:people-finder": "node scripts/test-people-finder-rag-search.js"
   },
   "dependencies": {
