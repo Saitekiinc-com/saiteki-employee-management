@@ -292,7 +292,7 @@ function viewerHtml() {
   }
   .messages {
     display: grid;
-    gap: 8px;
+    gap: 10px;
   }
   .message {
     background: var(--panel);
@@ -302,6 +302,39 @@ function viewerHtml() {
   }
   .message.system {
     background: var(--system);
+  }
+  .thread-section {
+    background: var(--panel);
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .thread-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    padding: 9px 12px;
+    background: var(--accent-soft);
+    border-bottom: 1px solid var(--line);
+    color: #115e59;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .thread-header .meta {
+    font-weight: 400;
+    color: #47736f;
+  }
+  .thread-section .message {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .thread-section .message:last-child {
+    border-bottom: 0;
+  }
+  .message.thread-context {
+    background: #fbfcfd;
   }
   .message-head {
     display: flex;
@@ -458,6 +491,55 @@ function filteredMessages(channel) {
   });
 }
 
+function threadKey(message) {
+  return message.threadTs ? message.channelId + ':' + message.threadTs : '';
+}
+
+function buildThreadCounts(channel) {
+  const counts = new Map();
+  for (const message of channel?.messages || []) {
+    const key = threadKey(message);
+    if (!key) continue;
+    counts.set(key, (counts.get(key) || 0) + 1);
+  }
+  return counts;
+}
+
+function buildMessageSections(channel, messages) {
+  const threadCounts = buildThreadCounts(channel);
+  const parentByThread = new Map();
+  for (const message of channel?.messages || []) {
+    const key = threadKey(message);
+    if (key && message.messageTs === message.threadTs) parentByThread.set(key, message);
+  }
+
+  const sections = [];
+  const sectionByThread = new Map();
+  for (const message of messages) {
+    const key = threadKey(message);
+    const isThreaded = key && (threadCounts.get(key) > 1 || message.messageTs !== message.threadTs);
+    if (!isThreaded) {
+      sections.push({ type: 'single', messages: [message] });
+      continue;
+    }
+
+    if (!sectionByThread.has(key)) {
+      const section = {
+        type: 'thread',
+        key,
+        parent: parentByThread.get(key),
+        totalCount: threadCounts.get(key) || 0,
+        messages: []
+      };
+      sectionByThread.set(key, section);
+      sections.push(section);
+    }
+    sectionByThread.get(key).messages.push(message);
+  }
+
+  return sections;
+}
+
 function renderChannels() {
   els.channels.innerHTML = filteredChannels().map(channel =>
     '<button class="channel ' + (channel.id === state.channelId ? 'active' : '') + '" data-channel-id="' + escapeHtml(channel.id) + '">' +
@@ -470,21 +552,48 @@ function renderChannels() {
 function renderMessages() {
   const channel = currentChannel();
   const messages = filteredMessages(channel);
+  const sections = buildMessageSections(channel, messages);
   els.channelTitle.textContent = channel ? '#' + channel.name : '';
   els.channelMeta.textContent = channel
     ? messages.length.toLocaleString() + ' / ' + channel.messageCount.toLocaleString() + ' messages, ' + (channel.firstDate || '-') + ' - ' + (channel.lastDate || '-')
     : '';
-  els.messages.innerHTML = messages.length ? messages.map(message =>
-    '<article class="message ' + (message.subtype ? 'system' : '') + '">' +
+  els.messages.innerHTML = sections.length ? sections.map(renderSection).join('') : '<div class="empty">該当するメッセージはありません。</div>';
+}
+
+function renderSection(section) {
+  if (section.type === 'single') return renderMessage(section.messages[0]);
+
+  const parentIsVisible = section.parent && section.messages.some(message => message.messageTs === section.parent.messageTs);
+  const context = section.parent && !parentIsVisible ? renderMessage(section.parent, { isContext: true, isThreadParent: true }) : '';
+  const visibleCount = section.messages.length;
+  const totalCount = Math.max(section.totalCount || 0, visibleCount);
+  return '<section class="thread-section">' +
+    '<div class="thread-header">' +
+      '<span>スレッド</span>' +
+      '<span class="meta">表示 ' + visibleCount.toLocaleString() + ' / 全 ' + totalCount.toLocaleString() + ' 件</span>' +
+    '</div>' +
+    context +
+    section.messages.map(message => renderMessage(message, { isThreadParent: message.threadTs === message.messageTs })).join('') +
+  '</section>';
+}
+
+function renderMessage(message, options) {
+  const opts = options || {};
+  const classNames = ['message'];
+  if (message.subtype) classNames.push('system');
+  if (opts.isContext) classNames.push('thread-context');
+  return (
+    '<article class="' + classNames.join(' ') + '">' +
       '<div class="message-head">' +
         '<span class="author">' + escapeHtml(message.userName) + '</span>' +
         '<span class="time">' + escapeHtml(formatDateTime(message.timestamp)) + '</span>' +
+        (opts.isThreadParent ? '<span class="tag">親投稿</span>' : '') +
         (message.subtype ? '<span class="tag">' + escapeHtml(message.subtype) + '</span>' : '') +
-        (message.threadTs && message.threadTs !== message.messageTs ? '<span class="tag">thread reply</span>' : '') +
+        (message.threadTs && message.threadTs !== message.messageTs ? '<span class="tag">返信</span>' : '') +
       '</div>' +
       '<div class="text">' + escapeHtml(message.text || message.rawText || '(no text)') + '</div>' +
     '</article>'
-  ).join('') : '<div class="empty">該当するメッセージはありません。</div>';
+  );
 }
 
 function render() {
