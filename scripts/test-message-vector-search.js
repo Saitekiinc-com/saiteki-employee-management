@@ -60,6 +60,32 @@ async function main() {
     'security results should expose concrete security messages'
   );
 
+  const lexicalOnlyIndex = {
+    '@graph': [
+      {
+        '@id': 'search-message:lexical-pokemon',
+        personName: '本文一致 太郎',
+        semanticType: 'slack_message',
+        relationLabel: 'Slack発言: 雑談',
+        topicLabel: '雑談',
+        searchText: '休日はポケモンのゲームとポケカをしています',
+        detailBullets: ['休日はポケモンのゲームとポケカをしています'],
+        quotes: [{ text: '休日はポケモンのゲームとポケカをしています' }],
+        embedding: { vector: [0, 1] }
+      }
+    ]
+  };
+  const orthogonalProvider = {
+    async embed() {
+      return [1, 0];
+    }
+  };
+  const lexicalOnly = await searchProfileVectors(lexicalOnlyIndex, 'ポケモン', orthogonalProvider, {
+    threshold: 0.12,
+    topUnits: 10
+  });
+  assert.strictEqual(lexicalOnly[0]?.employeeName, '本文一致 太郎', 'message text matches should survive even when vector similarity is weak');
+
   console.log('message vector search OK');
 }
 
