@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:332e85d141c5e711",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:貴志雪乃",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:f82b3eec1f0a254a",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:da641a2cb4d7f70e:001"
+  ]
+}

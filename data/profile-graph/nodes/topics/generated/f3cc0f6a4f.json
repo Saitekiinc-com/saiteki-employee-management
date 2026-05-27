@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7db195a1c43a9b89",
+  "@type": "saiteki:TopicNode",
+  "name": "同僚との個人的な交流",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

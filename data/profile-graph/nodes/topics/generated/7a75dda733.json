@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:5790ed6c67b7f7d7",
+  "@type": "saiteki:TopicNode",
+  "name": "人とのつながり、交流",
+  "topicType": "value",
+  "aliases": [
+    "人とのつながり",
+    "交流"
+  ],
+  "generatedFrom": "employees.json"
+}

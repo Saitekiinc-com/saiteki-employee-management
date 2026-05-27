@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:1b10990b38c208f9:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:13a043b1f7123fd5",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "relationLabel": "技術的な課題解決において、Well-Architectedの理想と納期や予算といった「現場の制約」を考慮し、ヒアリングを重視して最適な判断を導き出す現実的なアプローチを取る。自動化やコスト最適化についても、短期的な視点だけでなく長期的な影…",
+  "detailBullets": [
+    "技術的な課題解決において、Well-Architectedの理想と納期や予算といった「現場の制約」を考慮し、ヒアリングを重視して最適な判断を導き出す現実的なアプローチを取る。自動化やコスト最適化についても、短期的な視点だけでなく長期的な影…",
+    "インフラ運用における現場の制約や自動化の難しさ、コスト最適化におけるリスクなどを客観的に把握し、それらをどう解決していくべきかという視点で情報を受け止めている。",
+    "技術的な課題解決において、Well-Architectedの理想と納期や予算といった「現場の制約」を考慮し、ヒアリングを重視して最適な判断を導き出す現実的なアプローチを取る。",
+    "Well-Architectedの理想と現場の制約を比較し、「ヒアリングが大事」と強調するなど、現実的な問題解決アプローチを重視している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1778496048.714999",
+    "primary:C09MKT8QKAR:1778496469.469739"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.problem_solving_style",
+      "text": "技術的な課題解決において、Well-Architectedの理想と納期や予算といった「現場の制約」を考慮し、ヒアリングを重視して最適な判断を導き出す現実的なアプローチを取る。自動化やコスト最適化についても、短期的な視点だけでなく長期的な影…"
+    },
+    {
+      "text": "インフラ運用における現場の制約や自動化の難しさ、コスト最適化におけるリスクなどを客観的に把握し、それらをどう解決していくべきかという視点で情報を受け止めている。",
+      "sourceField": "personality_traits.neuroticism.evidence"
+    },
+    {
+      "text": "技術的な課題解決において、Well-Architectedの理想と納期や予算といった「現場の制約」を考慮し、ヒアリングを重視して最適な判断を導き出す現実的なアプローチを取る。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "text": "Well-Architectedの理想と現場の制約を比較し、「ヒアリングが大事」と強調するなど、現実的な問題解決アプローチを重視している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a7fda7d87f8bc7f1",
+  "@type": "saiteki:TopicNode",
+  "name": "挑戦と限界突破",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

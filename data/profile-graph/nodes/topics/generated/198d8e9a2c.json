@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6ba08d9553461ffc",
+  "@type": "saiteki:TopicNode",
+  "name": "急速な組織拡大管理",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:43eb12eb0542c1de",
+  "@type": "saiteki:TopicNode",
+  "name": "技術的なスキル（VB.Net, JAVA）",
+  "topicType": "work_strength",
+  "aliases": [
+    "技術的なスキル",
+    "vb",
+    "net",
+    "java"
+  ],
+  "generatedFrom": "employees.json"
+}

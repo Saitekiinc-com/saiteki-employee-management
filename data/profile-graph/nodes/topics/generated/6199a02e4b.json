@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:96fcd33d58f7c949",
+  "@type": "saiteki:TopicNode",
+  "name": "ポジティブな職場文化の醸成",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:2b082a3044193237",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の役割を「M&A戦略の推進」や「高難易度な受託案件の獲得」へシフトすること",
+  "topicType": "interest",
+  "aliases": [
+    "自身の役割を",
+    "m&a戦略の推進",
+    "高難易度な受託案件の獲得",
+    "へシフトすること"
+  ],
+  "generatedFrom": "employees.json"
+}

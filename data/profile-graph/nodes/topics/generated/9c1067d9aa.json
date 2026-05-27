@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:122d13f213a9ac5b",
+  "@type": "saiteki:TopicNode",
+  "name": "Saitekiのユニークなポジションへの貢献",
+  "topicType": "value",
+  "aliases": [
+    "saiteki"
+  ],
+  "generatedFrom": "employees.json"
+}

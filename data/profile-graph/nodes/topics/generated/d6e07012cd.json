@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:594aaa0b6be957f9",
+  "@type": "saiteki:TopicNode",
+  "name": "ワークライフバランスを考慮した柔軟な働き方の提案と実践",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

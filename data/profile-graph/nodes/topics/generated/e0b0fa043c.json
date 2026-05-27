@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d59f07a559f39f82",
+  "@type": "saiteki:TopicNode",
+  "name": "チームワークと貢献",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

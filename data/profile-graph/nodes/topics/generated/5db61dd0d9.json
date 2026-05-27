@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ec89553975fb77ed",
+  "@type": "saiteki:TopicNode",
+  "name": "体系的な知識共有と活用",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3b8f2969f49f1018",
+  "@type": "saiteki:TopicNode",
+  "name": "トミカ収集",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

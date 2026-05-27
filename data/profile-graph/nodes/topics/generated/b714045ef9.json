@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:399a6843260f6d75",
+  "@type": "saiteki:TopicNode",
+  "name": "柔軟性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

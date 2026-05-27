@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:d8b90bc80a1560ec",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の専門性が組織の共通認識や文化として定着し、会社全体の成長に貢献すること",
+  "topicType": "motivation",
+  "aliases": [
+    "自身の専門性が組織の共通認識や文化として定着し",
+    "会社全体の成長に貢献すること"
+  ],
+  "generatedFrom": "employees.json"
+}

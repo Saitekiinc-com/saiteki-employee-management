@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:8574abc45ce83b95",
+  "@type": "saiteki:TopicNode",
+  "name": "社員の健康やコンディションが向上するプログラムの導入",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

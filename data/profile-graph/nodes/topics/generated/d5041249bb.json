@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:63948f5dd722bb35",
+  "@type": "saiteki:TopicNode",
+  "name": "AI時代における組織の適応と成長",
+  "topicType": "value",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

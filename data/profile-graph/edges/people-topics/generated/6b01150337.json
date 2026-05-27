@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:1f401648641c8319",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:杉本光一",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:60a0ef25c1cf307d",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:6b01150337223814:001"
+  ]
+}

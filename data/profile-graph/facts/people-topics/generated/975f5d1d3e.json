@@ -1,0 +1,34 @@
+{
+  "@id": "fact:auto:662674f1641785d6:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:4c6bd87dbe867f60",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "アーキテクチャの合意形成術（現場の制約と理想のバランス）",
+  "detailBullets": [
+    "アーキテクチャの合意形成術（現場の制約と理想のバランス）",
+    "勉強会で、アーキテクチャの合意形成術、自動化の必要性、コスト最適化の主導権といった実践的なテーマについて詳細なメモを取り、深い洞察と多数の疑問点を書き出すことで、新しい知識への飽くなき探求心を示している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1778495754.522949"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "アーキテクチャの合意形成術（現場の制約と理想のバランス）"
+    },
+    {
+      "text": "勉強会で、アーキテクチャの合意形成術、自動化の必要性、コスト最適化の主導権といった実践的なテーマについて詳細なメモを取り、深い洞察と多数の疑問点を書き出すことで、新しい知識への飽くなき探求心を示している。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "自身の業務改善や知見を深めるために勉強会へ積極的に参加し、アーキテクチャの合意形成、自動化、コスト最適化といった実践的なインフラ技術とビジネス戦略の融合について集中的に学習している。自身の知見を組織に還元しようとする高い意欲が伺え、現在のSESとしての経験を活かしつつ、より上位のレイヤーでの貢献を目指している。特に、ビジネスにおけるエンジニアの役割拡大に強い関心を持ち、積極的に議論に参加している。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

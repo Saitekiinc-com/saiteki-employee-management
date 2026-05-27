@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:a984c367fec68fea",
+  "@type": "saiteki:TopicNode",
+  "name": "Slackで同じ趣味の人と交流できること",
+  "topicType": "motivation",
+  "aliases": [
+    "slack"
+  ],
+  "generatedFrom": "employees.json"
+}

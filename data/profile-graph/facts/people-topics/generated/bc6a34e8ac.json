@@ -1,0 +1,31 @@
+{
+  "@id": "fact:auto:62b05464c352ea37:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:c7c108e0fe682485",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "AI駆動型組織への変革",
+  "detailBullets": [
+    "AI駆動型組織への変革",
+    "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指す…"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09QXV3F8G0:1761970843.001899",
+    "primary:C09QXV3F8G0:1762049034.961349"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "AI駆動型組織への変革"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指すことをモチベーションの源泉とする。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

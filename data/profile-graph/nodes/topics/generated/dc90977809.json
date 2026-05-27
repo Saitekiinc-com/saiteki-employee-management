@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:52357b5367db5a46",
+  "@type": "saiteki:TopicNode",
+  "name": "ゲーム開発・作曲による創造性",
+  "topicType": "work_strength",
+  "aliases": [
+    "ゲーム開発",
+    "作曲による創造性"
+  ],
+  "generatedFrom": "employees.json"
+}

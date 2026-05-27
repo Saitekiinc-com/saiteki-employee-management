@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:e3e46ea0e246d7f7",
+  "@type": "saiteki:TopicNode",
+  "name": "顧客のシステム部門を担うというSaitekiのビジョン実現への強いコミットメント",
+  "topicType": "work_strength",
+  "aliases": [
+    "saiteki"
+  ],
+  "generatedFrom": "employees.json"
+}

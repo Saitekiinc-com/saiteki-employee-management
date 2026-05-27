@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ca21dd5c6b4d5232",
+  "@type": "saiteki:TopicNode",
+  "name": "多様性の尊重",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

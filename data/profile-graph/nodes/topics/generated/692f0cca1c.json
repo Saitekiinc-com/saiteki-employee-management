@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:55ecc61b672ccf01",
+  "@type": "saiteki:TopicNode",
+  "name": "責任",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

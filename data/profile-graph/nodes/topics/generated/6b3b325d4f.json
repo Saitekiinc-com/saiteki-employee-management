@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0068b3784b19efd5",
+  "@type": "saiteki:TopicNode",
+  "name": "エンゲージメント促進",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

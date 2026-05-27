@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:221d0482d3de36cd",
+  "@type": "saiteki:TopicNode",
+  "name": "新たな技術や社会の変化に関する知識を深く学び、それを周囲と共有すること",
+  "topicType": "motivation",
+  "aliases": [
+    "新たな技術や社会の変化に関する知識を深く学び",
+    "それを周囲と共有すること"
+  ],
+  "generatedFrom": "employees.json"
+}

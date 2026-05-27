@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:0c1f2c81e1982570",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:榎本詩織",
+  "predicate": "INTERESTED_IN",
+  "target": "topic:auto:3a81c786410a8a63",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:48190c545cbb4004:001"
+  ]
+}

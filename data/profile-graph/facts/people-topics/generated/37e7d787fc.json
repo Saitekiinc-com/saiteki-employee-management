@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:e43acae052d0d694:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:c7ac6ed570ff3e3c",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "日常生活",
+  "detailBullets": [
+    "日常生活",
+    "入社前後の段階で、周囲と自然体で少しずつ関わろうとしている状態です。幅広い経験と独自の感性を持ち、技術面・創作面の両方で話題の接点を作れそうです。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "日常生活"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社前後の段階で、周囲と自然体で少しずつ関わろうとしている状態です。幅広い経験と独自の感性を持ち、技術面・創作面の両方で話題の接点を作れそうです。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

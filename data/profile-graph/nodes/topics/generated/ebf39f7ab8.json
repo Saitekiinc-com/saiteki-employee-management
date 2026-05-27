@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a892533817ac2470",
+  "@type": "saiteki:TopicNode",
+  "name": "ドキュメント化",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

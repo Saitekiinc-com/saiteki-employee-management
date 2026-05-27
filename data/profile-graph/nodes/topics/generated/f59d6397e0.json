@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:77926e80fa777df6",
+  "@type": "saiteki:TopicNode",
+  "name": "創作",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

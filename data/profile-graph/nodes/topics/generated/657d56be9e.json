@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:58b54ab5dc9bf29f",
+  "@type": "saiteki:TopicNode",
+  "name": "QAエンジニアリングの専門知識と長年の経験",
+  "topicType": "work_strength",
+  "aliases": [
+    "qa"
+  ],
+  "generatedFrom": "employees.json"
+}

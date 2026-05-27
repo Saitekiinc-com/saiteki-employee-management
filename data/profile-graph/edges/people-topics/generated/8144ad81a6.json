@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:d253604e3638081f",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:青木淳一郎",
+  "predicate": "INTERESTED_IN",
+  "target": "topic:auto:6aec75ec6f2034f0",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:8144ad81a6e1b57a:001"
+  ]
+}

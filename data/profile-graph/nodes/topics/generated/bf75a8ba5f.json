@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:061140526dc74bda",
+  "@type": "saiteki:TopicNode",
+  "name": "コンプライアンス",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

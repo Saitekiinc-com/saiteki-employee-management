@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c4eca6784d59ee2b",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい知識や情報の共有による貢献",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

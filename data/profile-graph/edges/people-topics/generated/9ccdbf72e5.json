@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:2ad203a896a9e96b",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:八木橋 雄一",
+  "predicate": "MOTIVATED_BY",
+  "target": "topic:auto:f965497071554d9c",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "facts": [
+    "fact:auto:9ccdbf72e50b55f9:001"
+  ]
+}

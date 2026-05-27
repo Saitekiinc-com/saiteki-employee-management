@@ -1,0 +1,35 @@
+{
+  "@id": "fact:auto:21490efeea917159:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:736f17b65fc2cbad",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "AI駆動開発の推進",
+  "detailBullets": [
+    "AI駆動開発の推進",
+    "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1767882780.664799",
+    "primary:C09N28KTKL1:1767882937.901279"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "AI駆動開発の推進"
+    },
+    {
+      "text": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとする。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

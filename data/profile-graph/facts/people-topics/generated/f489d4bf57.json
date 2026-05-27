@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:1b2f42983c604a12:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:91cf82703859cb98",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "自己成長",
+  "detailBullets": [
+    "自己成長",
+    "継続的な自己成長と目標達成への意欲を持ち、周囲を気遣う協調性も兼ね備えた人物。",
+    "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。",
+    "「積極的に色々なことを学んでいきたい」という言葉や、多岐にわたる職務経験、さらに週1回のランニングを始めるなど、自己成長と新しいスキルの習得が大きなモチベーションとなっている。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "自己成長"
+    },
+    {
+      "text": "継続的な自己成長と目標達成への意欲を持ち、周囲を気遣う協調性も兼ね備えた人物。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "「積極的に色々なことを学んでいきたい」という言葉や、多岐にわたる職務経験、さらに週1回のランニングを始めるなど、自己成長と新しいスキルの習得が大きなモチベーションとなっている。",
+      "sourceField": "values_and_motivators.evidence_episodes.1"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

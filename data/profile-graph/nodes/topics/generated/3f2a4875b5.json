@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:140d71aadc9983b0",
+  "@type": "saiteki:TopicNode",
+  "name": "外部ビジネス戦略・知見",
+  "topicType": "interest",
+  "aliases": [
+    "外部ビジネス戦略",
+    "知見"
+  ],
+  "generatedFrom": "employees.json"
+}

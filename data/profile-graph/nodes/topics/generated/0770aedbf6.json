@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:6e25a772588e63da",
+  "@type": "saiteki:TopicNode",
+  "name": "オンライン交流イベントの企画・運営・改善",
+  "topicType": "interest",
+  "aliases": [
+    "オンライン交流イベントの企画",
+    "運営",
+    "改善"
+  ],
+  "generatedFrom": "employees.json"
+}

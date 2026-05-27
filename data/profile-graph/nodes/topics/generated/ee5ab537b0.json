@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:2923b6c44b8ae698",
+  "@type": "saiteki:TopicNode",
+  "name": "技術的成長",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

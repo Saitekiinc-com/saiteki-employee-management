@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b0caff0d187c7d16",
+  "@type": "saiteki:TopicNode",
+  "name": "資格取得",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

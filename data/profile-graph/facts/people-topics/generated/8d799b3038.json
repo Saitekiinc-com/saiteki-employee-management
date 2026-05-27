@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:12c56f35e4078374:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b381068a47a7c9a5",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "チームワーク",
+  "detailBullets": [
+    "チームワーク",
+    "Slackでの活発なコミュニケーションに魅力を感じ、入社前から積極的に他者との交流を図り、チームワークを重視する傾向が見られる。",
+    "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "チームワーク"
+    },
+    {
+      "text": "Slackでの活発なコミュニケーションに魅力を感じ、入社前から積極的に他者との交流を図り、チームワークを重視する傾向が見られる。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+    },
+    {
+      "text": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

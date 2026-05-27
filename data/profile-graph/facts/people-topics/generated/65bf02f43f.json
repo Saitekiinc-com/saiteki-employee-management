@@ -1,0 +1,31 @@
+{
+  "@id": "fact:auto:221cb0d4e9439555:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:50cbd155a64af8fb",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "AIを活用した情報翻訳と伝達の重要性",
+  "detailBullets": [
+    "AIを活用した情報翻訳と伝達の重要性",
+    "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1767882780.664799",
+    "primary:C09N28KTKL1:1767882937.901279"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "AIを活用した情報翻訳と伝達の重要性"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

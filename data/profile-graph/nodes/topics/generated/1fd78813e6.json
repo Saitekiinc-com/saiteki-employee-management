@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:4d157bd57f47df67",
+  "@type": "saiteki:TopicNode",
+  "name": "Slerとコンサルティングファームのポジション",
+  "topicType": "interest",
+  "aliases": [
+    "sler"
+  ],
+  "generatedFrom": "employees.json"
+}

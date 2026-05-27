@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:5f4f5bc007559e5c",
+  "@type": "saiteki:TopicNode",
+  "name": "プロアクティブなコミュニケーションと関係構築",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

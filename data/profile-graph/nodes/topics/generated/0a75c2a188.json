@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:f22baf8baecc2873",
+  "@type": "saiteki:TopicNode",
+  "name": "専門的なレターの内容（深い理解）",
+  "topicType": "interest",
+  "aliases": [
+    "専門的なレターの内容",
+    "深い理解"
+  ],
+  "generatedFrom": "employees.json"
+}

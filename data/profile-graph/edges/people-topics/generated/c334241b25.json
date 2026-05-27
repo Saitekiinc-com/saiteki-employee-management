@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:13b50725d3680d8d",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:八木橋 雄一",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:661036563a1ab1e8",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:c334241b25f530b0:001"
+  ]
+}

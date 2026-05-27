@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ac4e595048a90885",
+  "@type": "saiteki:TopicNode",
+  "name": "知識共有とベストプラクティス探索",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

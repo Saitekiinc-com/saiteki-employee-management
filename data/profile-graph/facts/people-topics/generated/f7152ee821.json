@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:246871cb7c72d215:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:a34980b294bfa8d7",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "アウトプット",
+  "detailBullets": [
+    "アウトプット",
+    "最新技術への強い探求心と実践力を持ち、アウトプットを重視する人物。",
+    "ハッカソンへの積極的な参加を好み、「アウトプットが増えるほどテンションが上がる」と発言するなど、具体的な成果創出への強い意欲と実行力を持つ。",
+    "「現場で使い倒せるAIを一緒に形にしましょう」と、共創を通じて具体的なアウトプットを生み出すことに注力する。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1763025220.286729"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "アウトプット"
+    },
+    {
+      "text": "最新技術への強い探求心と実践力を持ち、アウトプットを重視する人物。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "ハッカソンへの積極的な参加を好み、「アウトプットが増えるほどテンションが上がる」と発言するなど、具体的な成果創出への強い意欲と実行力を持つ。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "「現場で使い倒せるAIを一緒に形にしましょう」と、共創を通じて具体的なアウトプットを生み出すことに注力する。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:51:41.558Z",
+  "updatedAt": "2026-02-16T02:50:35.790Z"
+}

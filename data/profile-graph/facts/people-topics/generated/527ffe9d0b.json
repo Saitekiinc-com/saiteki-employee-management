@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:5eb9e4bf49ad64ca:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:384ce213e51ce0c8",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "個別への配慮",
+  "detailBullets": [
+    "個別への配慮",
+    "組織運営に必要な事務処理の正確性と透明性を確保しつつ、個人の多様な関心や状況に配慮したコミュニケーションを重視する。ユーモアを交えた私的な体験の共有を通じて親近感を醸成し、ポジティブで心理的安全性の高い職場環境の構築に貢献する。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "個別への配慮"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "組織運営に必要な事務処理の正確性と透明性を確保しつつ、個人の多様な関心や状況に配慮したコミュニケーションを重視する。ユーモアを交えた私的な体験の共有を通じて親近感を醸成し、ポジティブで心理的安全性の高い職場環境の構築に貢献する。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:41:17.760Z",
+  "updatedAt": "2026-05-25T04:26:33.625Z"
+}

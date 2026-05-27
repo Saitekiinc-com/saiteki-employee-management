@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3185cf1c5ebcf405",
+  "@type": "saiteki:TopicNode",
+  "name": "プロアクティブ",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

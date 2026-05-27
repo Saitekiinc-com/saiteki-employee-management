@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:faecce59c726d90c:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b33189588350bd4c",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "グローバルな視点",
+  "detailBullets": [
+    "グローバルな視点",
+    "グローバルな視点と実践的なAI知識を兼ね備え、起業家精神と旺盛な行動力で共創を推進する。",
+    "グローバルな視点と実践的なAI知識を強みとし、起業家精神と行動力で事業を推進する。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "グローバルな視点"
+    },
+    {
+      "text": "グローバルな視点と実践的なAI知識を兼ね備え、起業家精神と旺盛な行動力で共創を推進する。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "グローバルな視点と実践的なAI知識を強みとし、起業家精神と行動力で事業を推進する。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "グローバルな視点と実践的なAI知識を強みとし、起業家精神と行動力で事業を推進する。最新技術を自ら積極的に検証し、その知見を共有しながら、多様なチームとの共創を通じて具体的な成果を最大化する。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:51:41.558Z",
+  "updatedAt": "2026-02-16T02:50:35.790Z"
+}

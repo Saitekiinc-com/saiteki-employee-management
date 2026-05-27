@@ -1,0 +1,31 @@
+{
+  "@id": "fact:auto:2ec9e9d7b80b92b4:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:4308e359e9bade93",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "組織が掲げる「大成功」の実現に向けて貢献すること",
+  "detailBullets": [
+    "組織が掲げる「大成功」の実現に向けて貢献すること",
+    "自身の想いをチームと共有し、組織のビジョン実現に向けて一丸となることに大きな価値を見出す。メンバー個々人との深い人間関係と、ポジティブでオープンな職場文化、他者への称賛と協力、新しいメンバーの円滑な統合、そして共に困難を乗り越える経験が行動の原動力となっている。家族との調和も依然として重要な価値観であり、仕事とプライベートのバランスを大切にする。新しい情報…"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1775440248.651509",
+    "primary:C09MKT8QKAR:1775652392.645229"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "組織が掲げる「大成功」の実現に向けて貢献すること"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "自身の想いをチームと共有し、組織のビジョン実現に向けて一丸となることに大きな価値を見出す。メンバー個々人との深い人間関係と、ポジティブでオープンな職場文化、他者への称賛と協力、新しいメンバーの円滑な統合、そして共に困難を乗り越える経験が行動の原動力となっている。家族との調和も依然として重要な価値観であり、仕事とプライベートのバランスを大切にする。新しい情報を積極的に活用し、他者の疑問を解決することにも喜びを感じる。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:15.189Z",
+  "updatedAt": "2026-05-18T04:18:42.770Z"
+}

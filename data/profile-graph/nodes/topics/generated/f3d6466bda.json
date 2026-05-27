@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c717ec9c288c721e",
+  "@type": "saiteki:TopicNode",
+  "name": "新入社員の歓迎と社内交流",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

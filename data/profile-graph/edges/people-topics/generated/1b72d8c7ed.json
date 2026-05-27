@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:9ce36e7cbff7ded1",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:杉本光一",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:86e0d49c75afb32d",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:1b72d8c7ed3a8098:001"
+  ]
+}

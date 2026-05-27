@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:77dbf9e7e6658115",
+  "@type": "saiteki:TopicNode",
+  "name": "計画・実行力",
+  "topicType": "work_strength",
+  "aliases": [
+    "計画",
+    "実行力"
+  ],
+  "generatedFrom": "employees.json"
+}

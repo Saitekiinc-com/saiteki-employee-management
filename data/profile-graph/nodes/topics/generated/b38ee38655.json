@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c0d81704f76be412",
+  "@type": "saiteki:TopicNode",
+  "name": "ハッカソンでのアウトプット創出",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

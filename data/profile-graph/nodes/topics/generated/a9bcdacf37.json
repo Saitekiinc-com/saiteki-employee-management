@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:06eb0e604f0275ff",
+  "@type": "saiteki:TopicNode",
+  "name": "ビジョナリーリーダーシップと文化醸成",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

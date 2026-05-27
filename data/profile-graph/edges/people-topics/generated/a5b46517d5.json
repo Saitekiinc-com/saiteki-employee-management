@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:59133c5b4f4aeb70",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:田浦裕樹",
+  "predicate": "VALUES",
+  "target": "topic:auto:c51f35139aea4d1e",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:a5b46517d515bca0:001"
+  ]
+}

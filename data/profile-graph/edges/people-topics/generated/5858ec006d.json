@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:3017f7d54d39daae",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:開米 敦則",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:58b54ab5dc9bf29f",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:5858ec006d813019:001"
+  ]
+}

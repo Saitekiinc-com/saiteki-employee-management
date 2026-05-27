@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:08e513ddbeee068d",
+  "@type": "saiteki:TopicNode",
+  "name": "社員の健康",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

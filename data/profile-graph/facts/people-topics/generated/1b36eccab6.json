@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:6581a0bea5e207a8:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:c06dcd0ffe144ea5",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "実行力",
+  "detailBullets": [
+    "実行力",
+    "ハッカソンへの積極的な参加を好み、「アウトプットが増えるほどテンションが上がる」と発言するなど、具体的な成果創出への強い意欲と実行力を持つ。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "実行力"
+    },
+    {
+      "text": "ハッカソンへの積極的な参加を好み、「アウトプットが増えるほどテンションが上がる」と発言するなど、具体的な成果創出への強い意欲と実行力を持つ。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "グローバルな視点と実践的なAI知識を強みとし、起業家精神と行動力で事業を推進する。最新技術を自ら積極的に検証し、その知見を共有しながら、多様なチームとの共創を通じて具体的な成果を最大化する。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:51:41.558Z",
+  "updatedAt": "2026-02-16T02:50:35.790Z"
+}

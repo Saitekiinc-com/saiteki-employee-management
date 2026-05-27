@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:9c42a2403a848f11:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:36e6b1299d9bced0",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "学習意欲",
+  "detailBullets": [
+    "学習意欲",
+    "高い学習意欲と成長へのコミットメントを持ち、自身の知識や経験を活かしつつ、チームへの貢献を目指す。",
+    "常にポジティブで、相手への配慮が感じられる丁寧な言葉遣いが特徴。自身の趣味や経験（アニメ、インドア派、歴史の好み、自身の年齢（23歳））を詳細に自己開示することで、相手との親近感を速やかに醸成する。共通の話題（特にアニメや歴史）を深掘りし、「好きな作品も教えてください！」と次の会話へと繋げる提案を頻繁に行う。絵文字や「汗のしずく」などを適度に活用して親しみ…",
+    "」と、深く理解しようとする探求心と粘り強い学習意欲を示した。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "学習意欲"
+    },
+    {
+      "text": "高い学習意欲と成長へのコミットメントを持ち、自身の知識や経験を活かしつつ、チームへの貢献を目指す。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "常にポジティブで、相手への配慮が感じられる丁寧な言葉遣いが特徴。自身の趣味や経験（アニメ、インドア派、歴史の好み、自身の年齢（23歳））を詳細に自己開示することで、相手との親近感を速やかに醸成する。共通の話題（特にアニメや歴史）を深掘りし、「好きな作品も教えてください！」と次の会話へと繋げる提案を頻繁に行う。絵文字や「汗のしずく」などを適度に活用して親しみ…",
+      "sourceField": "communication_patterns.communication_style"
+    },
+    {
+      "text": "」と、深く理解しようとする探求心と粘り強い学習意欲を示した。",
+      "sourceField": "values_and_motivators.evidence_episodes.12"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

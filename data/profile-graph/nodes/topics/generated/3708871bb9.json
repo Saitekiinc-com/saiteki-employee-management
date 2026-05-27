@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:597161a62d3a252b",
+  "@type": "saiteki:TopicNode",
+  "name": "日常生活",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

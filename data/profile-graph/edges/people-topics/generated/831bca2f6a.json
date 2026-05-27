@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:6a6b7d79214a6643",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:藤井芙美子",
+  "predicate": "VALUES",
+  "target": "topic:auto:9ef136a4024adc92",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:831bca2f6a9a5d80:001"
+  ]
+}

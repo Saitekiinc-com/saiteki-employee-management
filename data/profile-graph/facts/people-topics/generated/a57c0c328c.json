@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:aa0c6dd390fc9738:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:56fa4dd7135554a3",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "計画性",
+  "detailBullets": [
+    "計画性",
+    "ラーメンを食べた後の「胃もたれ」という自身の経験から、「ヴィーガン系の体に負担が大きくないもの食べないといけない」と自らの体調を管理し改善しようとする意識と計画性が見られます。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "計画性"
+    },
+    {
+      "text": "ラーメンを食べた後の「胃もたれ」という自身の経験から、「ヴィーガン系の体に負担が大きくないもの食べないといけない」と自らの体調を管理し改善しようとする意識と計画性が見られます。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "物事を深く理解し、その背景にある構造やビジネスモデルを考察する知的なアプローチを持ちます。社内イベントや異部署との交流を積極的に活用し、人脈形成と情報収集に努めることで、組織全体の活性化に貢献します。自身の健康や行動計画においても自己管理能力が高く、責任感を持って業務や自己改善に取り組みます。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:46.998Z",
+  "updatedAt": "2026-05-25T04:25:29.126Z"
+}

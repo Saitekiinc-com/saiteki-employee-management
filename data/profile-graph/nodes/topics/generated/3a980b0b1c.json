@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:21042c869963ccea",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい知識の探求と学習",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

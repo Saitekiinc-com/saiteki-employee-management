@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:6f69ecf97a9603db",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の年齢（23歳）",
+  "topicType": "interest",
+  "aliases": [
+    "自身の年齢",
+    "23歳",
+    "23"
+  ],
+  "generatedFrom": "employees.json"
+}

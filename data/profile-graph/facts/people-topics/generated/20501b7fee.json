@@ -1,0 +1,34 @@
+{
+  "@id": "fact:auto:6809b6fc35d1b04a:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:86acdb71cea93525",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "relationLabel": "自身の多様な経験を基盤としつつ、未知の分野や課題に対しては「積極的に色々なことを学んでいきたい」と表明するように、周囲との連携を図りながら知識を吸収し解決策を見出すアプローチを取る。個人的な目標に対しても、現状を認識しつつ着実にステップを…",
+  "detailBullets": [
+    "自身の多様な経験を基盤としつつ、未知の分野や課題に対しては「積極的に色々なことを学んでいきたい」と表明するように、周囲との連携を図りながら知識を吸収し解決策を見出すアプローチを取る。個人的な目標に対しても、現状を認識しつつ着実にステップを…",
+    "自身の多様な経験を基盤としつつ、未知の分野や課題に対しては「積極的に色々なことを学んでいきたい」と表明するように、周囲との連携を図りながら知識を吸収し解決策を見出すアプローチを取る。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1770701908.083739"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.problem_solving_style",
+      "text": "自身の多様な経験を基盤としつつ、未知の分野や課題に対しては「積極的に色々なことを学んでいきたい」と表明するように、周囲との連携を図りながら知識を吸収し解決策を見出すアプローチを取る。個人的な目標に対しても、現状を認識しつつ着実にステップを…"
+    },
+    {
+      "text": "自身の多様な経験を基盤としつつ、未知の分野や課題に対しては「積極的に色々なことを学んでいきたい」と表明するように、周囲との連携を図りながら知識を吸収し解決策を見出すアプローチを取る。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "多様な経験と高い学習意欲に加え、自己規律を持って目標達成に取り組む。コミュニケーション能力も高く、周囲を支援しながら協調的に働くことを志向する。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

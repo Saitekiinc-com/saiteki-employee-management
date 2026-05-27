@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:5a7d1848aaaa7b49",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:杉本光一",
+  "predicate": "INTERESTED_IN",
+  "target": "topic:auto:f05e02353b2e5bfd",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:0d2c18aa5752e8c0:001"
+  ]
+}

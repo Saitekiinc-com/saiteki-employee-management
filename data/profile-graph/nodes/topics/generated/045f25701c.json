@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:49c1108eb8a7b318",
+  "@type": "saiteki:TopicNode",
+  "name": "映画フライヤー収集",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

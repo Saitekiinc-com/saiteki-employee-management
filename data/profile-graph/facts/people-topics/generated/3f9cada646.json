@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:d326debfee220fc6:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:2c0d40a58c952ab7",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "成長",
+  "detailBullets": [
+    "成長",
+    "入社3ヶ月目の新人として高い成長意欲と協調性を持ち、学習と貢献に前向きに取り組む。",
+    "入社3ヶ月目の新人として、自己成長と周囲との協働に意欲を燃やす。",
+    "」と強い責任感と自己成長へのコミットメントを繰り返し表明している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1769221423.772749",
+    "primary:C09Q46YA4ER:1775116620.383579"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "成長"
+    },
+    {
+      "text": "入社3ヶ月目の新人として高い成長意欲と協調性を持ち、学習と貢献に前向きに取り組む。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "入社3ヶ月目の新人として、自己成長と周囲との協働に意欲を燃やす。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "」と強い責任感と自己成長へのコミットメントを繰り返し表明している。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

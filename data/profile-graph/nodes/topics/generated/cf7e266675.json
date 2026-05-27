@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0f62e3131b278f80",
+  "@type": "saiteki:TopicNode",
+  "name": "新たな人材の獲得とチームへの歓迎",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

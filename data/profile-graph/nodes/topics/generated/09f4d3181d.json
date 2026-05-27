@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:38dbc02db5b767a1",
+  "@type": "saiteki:TopicNode",
+  "name": "社内懇親会や異部署との交流",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

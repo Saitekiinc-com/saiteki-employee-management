@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:7d2a16975b3bf654",
+  "@type": "saiteki:TopicNode",
+  "name": "AIを使った学習",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

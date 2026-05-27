@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:5d20f97138140aab:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:3398eb0bfa7d8b12",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "成長",
+  "detailBullets": [
+    "成長",
+    "AIを使った学習や音楽制作にも関心が高く、成長実感を大切にしながら前向きにキャッチアップする人物です。",
+    "周囲への返信も柔らかく、成長やMVVへの共感を大切にする前向きな姿勢が見られます。",
+    "学習で分からないことをAIに壁打ちし、要点整理して成長につなげている。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771850944.221989"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "成長"
+    },
+    {
+      "text": "AIを使った学習や音楽制作にも関心が高く、成長実感を大切にしながら前向きにキャッチアップする人物です。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "周囲への返信も柔らかく、成長やMVVへの共感を大切にする前向きな姿勢が見られます。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "学習で分からないことをAIに壁打ちし、要点整理して成長につなげている。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

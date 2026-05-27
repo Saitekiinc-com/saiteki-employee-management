@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0724cdf723da4cdc",
+  "@type": "saiteki:TopicNode",
+  "name": "品質",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

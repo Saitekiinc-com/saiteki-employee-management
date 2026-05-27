@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:766fdc8803a89111:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:acbda5bb706573ca",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "貢献",
+  "detailBullets": [
+    "貢献",
+    "櫻井志保さんは、データ分析スキルと高い学習意欲を持ち、協調性をもってチームに貢献しようと意欲的な人物です。",
+    "チームワークを大切にし、周囲との良好な関係を築きながら貢献することにモチベーションを感じます。",
+    "チームへの貢献"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "貢献"
+    },
+    {
+      "text": "櫻井志保さんは、データ分析スキルと高い学習意欲を持ち、協調性をもってチームに貢献しようと意欲的な人物です。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "チームワークを大切にし、周囲との良好な関係を築きながら貢献することにモチベーションを感じます。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "チームへの貢献",
+      "sourceField": "values_and_motivators.motivation_triggers.2"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:37:20.495Z",
+  "updatedAt": "2026-02-11T11:49:38.763Z"
+}

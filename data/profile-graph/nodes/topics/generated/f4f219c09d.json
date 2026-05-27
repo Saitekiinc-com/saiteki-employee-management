@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:ba580abd02a05596",
+  "@type": "saiteki:TopicNode",
+  "name": "MVVが組織全体に深く理解され、行動の指針となること",
+  "topicType": "motivation",
+  "aliases": [
+    "mvvが組織全体に深く理解され",
+    "行動の指針となること",
+    "mvv"
+  ],
+  "generatedFrom": "employees.json"
+}

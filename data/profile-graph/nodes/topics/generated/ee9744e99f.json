@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:e128342b8141bcda",
+  "@type": "saiteki:TopicNode",
+  "name": "人とAIの役割分担と成果物の作成",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

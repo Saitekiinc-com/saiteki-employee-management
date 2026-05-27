@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:4213bc3a140d71bd:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:4f5c8e5940e36622",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "AI技術の活用（旅行計画、献立作成、コード生成）",
+  "detailBullets": [
+    "AI技術の活用（旅行計画、献立作成、コード生成）",
+    "「AIさんに何でも質問すること」を挙げ、旅行計画、献立、コード生成に活用している。",
+    "AIを旅行計画や献立、コード生成に活用し、その便利さを実感していると積極的に紹介している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1770158657.842549",
+    "primary:C09Q46YA4ER:1770184639.802789"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "AI技術の活用（旅行計画、献立作成、コード生成）"
+    },
+    {
+      "text": "「AIさんに何でも質問すること」を挙げ、旅行計画、献立、コード生成に活用している。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "AIを旅行計画や献立、コード生成に活用し、その便利さを実感していると積極的に紹介している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "システム開発、品質管理の経験に加え、AI技術活用と応用力に長ける。工夫を凝らしたコーディングを好み、多角的な視点から問題解決に取り組む。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:41:32.701Z",
+  "updatedAt": "2026-02-16T02:50:17.340Z"
+}

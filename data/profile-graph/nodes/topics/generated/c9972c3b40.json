@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a79dc6702d3ed830",
+  "@type": "saiteki:TopicNode",
+  "name": "サーバ運用",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

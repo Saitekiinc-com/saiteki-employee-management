@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:eb58770af9aa53f7",
+  "@type": "saiteki:TopicNode",
+  "name": "優秀な人材獲得",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

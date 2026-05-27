@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:772af190f449f8b3",
+  "@type": "saiteki:TopicNode",
+  "name": "実務支援力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

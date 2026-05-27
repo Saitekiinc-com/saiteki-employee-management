@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:84bf23ae08cce590:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:21de2ca1b614e6a5",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "戦略的営業",
+  "detailBullets": [
+    "戦略的営業",
+    "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "戦略的営業"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

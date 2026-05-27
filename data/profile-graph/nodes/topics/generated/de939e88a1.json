@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:e8c2cd26a2598480",
+  "@type": "saiteki:TopicNode",
+  "name": "楽しい経験や趣味の追求",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

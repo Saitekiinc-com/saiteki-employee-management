@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:a88bb27e7d77d665:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:9692395ec253067a",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "ランニング",
+  "detailBullets": [
+    "ランニング",
+    "さらに、週1回のランニングを新たに始めるなど、新しい経験や挑戦に常に前向きである。",
+    "加えて、週1回のランニングを習慣化し、将来の長距離イベント参加という目標を掲げるなど、自己規律と目標達成への強い意欲を持つ。",
+    "始めたばかりのランニングについても「まだまだ長距離は走れない」と現状を冷静に自己認識しつつ、将来の目標を持つなど、現実的で安定した精神状態を保っている。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1776338605.304609"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "ランニング"
+    },
+    {
+      "text": "さらに、週1回のランニングを新たに始めるなど、新しい経験や挑戦に常に前向きである。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "加えて、週1回のランニングを習慣化し、将来の長距離イベント参加という目標を掲げるなど、自己規律と目標達成への強い意欲を持つ。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "始めたばかりのランニングについても「まだまだ長距離は走れない」と現状を冷静に自己認識しつつ、将来の目標を持つなど、現実的で安定した精神状態を保っている。",
+      "sourceField": "personality_traits.neuroticism.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

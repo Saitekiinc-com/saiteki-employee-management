@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:f498b965ed9ad6e9",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:開米 敦則",
+  "predicate": "MOTIVATED_BY",
+  "target": "topic:auto:433446f4e97fbb2a",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "facts": [
+    "fact:auto:9de5126714142c79:001"
+  ]
+}

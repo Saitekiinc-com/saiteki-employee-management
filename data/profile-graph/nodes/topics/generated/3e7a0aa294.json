@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:2b2d98f9887efde1",
+  "@type": "saiteki:TopicNode",
+  "name": "コードの書き方や工夫",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,14 @@
+{
+  "@id": "topic:auto:660d5d4d5897f8e5",
+  "@type": "saiteki:TopicNode",
+  "name": "AI駆動開発 (AI-driven development)",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai駆動開発",
+    "ai-driven",
+    "development",
+    "ai",
+    "driven"
+  ],
+  "generatedFrom": "employees.json"
+}

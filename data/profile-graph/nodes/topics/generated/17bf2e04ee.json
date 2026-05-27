@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d9a9ca3fe209d59a",
+  "@type": "saiteki:TopicNode",
+  "name": "組織文化変革へのリーダーシップ",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:5efab940c12ba511:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:4c817a670a11429d",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "コミュニケーション",
+  "detailBullets": [
+    "コミュニケーション",
+    "「Slack等を通じて積極的にコミュニケーションを取っていければ」と、自ら進んで他者との交流を求める姿勢が見られます。",
+    "チームでのコミュニケーションを重視し、協調的に仕事を進めるタイプです。",
+    "Slack等を通じて積極的にコミュニケーションを取りたいと意欲を示しています。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1762938735.368459"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "コミュニケーション"
+    },
+    {
+      "text": "「Slack等を通じて積極的にコミュニケーションを取っていければ」と、自ら進んで他者との交流を求める姿勢が見られます。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "チームでのコミュニケーションを重視し、協調的に仕事を進めるタイプです。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "Slack等を通じて積極的にコミュニケーションを取りたいと意欲を示しています。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:37:20.495Z",
+  "updatedAt": "2026-02-11T11:49:38.763Z"
+}

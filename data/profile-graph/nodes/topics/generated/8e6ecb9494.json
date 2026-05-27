@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:48221ccfbb87ff35",
+  "@type": "saiteki:TopicNode",
+  "name": "他者の疑問や困りごとを情報提供によって解決すること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3980037d42e5f097",
+  "@type": "saiteki:TopicNode",
+  "name": "異部署の社員や普段関わりの少ない人との交流を通じて新たな視点を得ること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:efbbbc64aa1fab0c",
+  "@type": "saiteki:TopicNode",
+  "name": "健康管理意識",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

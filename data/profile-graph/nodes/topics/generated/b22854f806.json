@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:daeac1973ffe6656",
+  "@type": "saiteki:TopicNode",
+  "name": "オープンな情報共有と透明性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

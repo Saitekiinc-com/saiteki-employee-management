@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:4caeb1a7e5a62b36",
+  "@type": "saiteki:TopicNode",
+  "name": "人間中心のAI活用と価値創造",
+  "topicType": "value",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

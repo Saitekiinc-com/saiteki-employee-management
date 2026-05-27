@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:78940da555b61c9b",
+  "@type": "saiteki:TopicNode",
+  "name": "開発者としての能力回復と向上",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

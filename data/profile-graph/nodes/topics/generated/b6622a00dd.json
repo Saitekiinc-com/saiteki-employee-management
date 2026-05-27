@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:59c5044dfc7f5c1a",
+  "@type": "saiteki:TopicNode",
+  "name": "分からないことを理解できるようになること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

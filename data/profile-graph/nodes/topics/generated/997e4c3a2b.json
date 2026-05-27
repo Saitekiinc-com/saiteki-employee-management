@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:cbfddeb50dcabaf1",
+  "@type": "saiteki:TopicNode",
+  "name": "最新技術の探求と検証",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

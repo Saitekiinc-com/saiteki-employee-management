@@ -1,0 +1,39 @@
+{
+  "@id": "fact:auto:07bab82db79cc993:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:25e8022a0ef4e47a",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "社内のつながり",
+  "detailBullets": [
+    "社内のつながり",
+    "また、社内のつながりや他者への貢献も大切にする。",
+    "「SESだけどちゃんと社内のつながりがあるっていいなと感じました」という発言から、組織内の一体感や連携を非常に重視していることが伺える。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1770701908.083739"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "社内のつながり"
+    },
+    {
+      "text": "また、社内のつながりや他者への貢献も大切にする。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "「SESだけどちゃんと社内のつながりがあるっていいなと感じました」という発言から、組織内の一体感や連携を非常に重視していることが伺える。",
+      "sourceField": "values_and_motivators.evidence_episodes.0"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。目標に向かって努力する過程自体を楽しんでいる。また、社内のつながりや他者への貢献も大切にする。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:9dccbb7f0e4c158d",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:菅野聖也",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:f5f6c3069f04ebea",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:2a168fe6df5eece8:001"
+  ]
+}

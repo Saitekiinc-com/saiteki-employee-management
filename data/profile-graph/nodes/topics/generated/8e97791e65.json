@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c9f2e192c3dd0d21",
+  "@type": "saiteki:TopicNode",
+  "name": "新しいメンバーの組織への定着支援",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

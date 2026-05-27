@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:5a98ac74520a3c1a",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:貴志雪乃",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:70289bd332394bc6",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:25453fbc0574b9d6:001"
+  ]
+}

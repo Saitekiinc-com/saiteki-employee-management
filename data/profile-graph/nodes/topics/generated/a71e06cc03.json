@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:903e7551d3f68e18",
+  "@type": "saiteki:TopicNode",
+  "name": "プロトタイプとリスク制御による実践的なアジャイル",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

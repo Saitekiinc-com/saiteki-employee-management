@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:1dedb1bc62c6aa12:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:e43a857196059aa7",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "貢献",
+  "detailBullets": [
+    "貢献",
+    "組織への多角的な貢献に加え、社員のウェルビーイング、社内コミュニティ活性化、学習機会提供、そして外部への情報発信を通じて企業の成長を多角的に支援。",
+    "組織への貢献意欲と周囲への配慮が非常に高く、課題解決に積極的。",
+    "リファラル紹介者への感謝を述べ、インセンティブ制度の詳細を明確に伝えることで貢献を評価し支援する姿勢を示す。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "貢献"
+    },
+    {
+      "text": "組織への多角的な貢献に加え、社員のウェルビーイング、社内コミュニティ活性化、学習機会提供、そして外部への情報発信を通じて企業の成長を多角的に支援。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "組織への貢献意欲と周囲への配慮が非常に高く、課題解決に積極的。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "リファラル紹介者への感謝を述べ、インセンティブ制度の詳細を明確に伝えることで貢献を評価し支援する姿勢を示す。",
+      "sourceField": "personality_traits.agreeableness.evidence"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

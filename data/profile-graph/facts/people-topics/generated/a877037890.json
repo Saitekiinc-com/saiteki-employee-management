@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:52d3a23b9405dec9:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:dfb4058bab8ec494",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "ビジネス戦略理解",
+  "detailBullets": [
+    "ビジネス戦略理解",
+    "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "ビジネス戦略理解"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:04606e27cb2389a6",
+  "@type": "saiteki:TopicNode",
+  "name": "学習意欲",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

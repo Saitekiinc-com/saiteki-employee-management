@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:d4dabb71697eb6bf:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:239ca1c6fabac162",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "SES採用・営業",
+  "detailBullets": [
+    "SES採用・営業",
+    "八木橋さんは、作曲、オペレーションリーダー、ゲーム開発、開発・インフラ・サービス・テスト領域のSE、SES採用・営業など、技術とクリエイティブ、ビジネスの幅広い経験を持つ人物です。",
+    "オペレーションリーダー、各種SE、SES採用・営業など、複数の役割を担ってきた実務経験があり、業務上の責任を持って役割を遂行してきたことがうかがえる。",
+    "開発、インフラ、サービス、テスト各種SE、SES採用・営業など、技術とビジネスをまたぐ経験がある。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771638120.236499"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "SES採用・営業"
+    },
+    {
+      "text": "八木橋さんは、作曲、オペレーションリーダー、ゲーム開発、開発・インフラ・サービス・テスト領域のSE、SES採用・営業など、技術とクリエイティブ、ビジネスの幅広い経験を持つ人物です。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "オペレーションリーダー、各種SE、SES採用・営業など、複数の役割を担ってきた実務経験があり、業務上の責任を持って役割を遂行してきたことがうかがえる。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "開発、インフラ、サービス、テスト各種SE、SES採用・営業など、技術とビジネスをまたぐ経験がある。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

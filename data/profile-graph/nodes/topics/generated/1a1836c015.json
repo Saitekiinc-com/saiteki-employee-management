@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:cf89bdf2308e8db4",
+  "@type": "saiteki:TopicNode",
+  "name": "個別への配慮",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

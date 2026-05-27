@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:db997f3e82e7e13b",
+  "@type": "saiteki:TopicNode",
+  "name": "知的好奇心",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

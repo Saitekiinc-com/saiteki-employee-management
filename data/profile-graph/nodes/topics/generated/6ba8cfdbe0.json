@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:ea4a85ef32397d14",
+  "@type": "saiteki:TopicNode",
+  "name": "複雑な技術的・事業的課題が解決されること",
+  "topicType": "motivation",
+  "aliases": [
+    "複雑な技術的",
+    "事業的課題が解決されること"
+  ],
+  "generatedFrom": "employees.json"
+}

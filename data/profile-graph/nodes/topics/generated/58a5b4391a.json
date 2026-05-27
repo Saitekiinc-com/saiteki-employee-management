@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:af019d9dee828a7f",
+  "@type": "saiteki:TopicNode",
+  "name": "社員からの信頼獲得とサポートへの貢献",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

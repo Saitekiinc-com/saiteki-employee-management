@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:5108e584f559f8ff",
+  "@type": "saiteki:TopicNode",
+  "name": "新しいSIer像の追求",
+  "topicType": "value",
+  "aliases": [
+    "sier"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a9891a09e3752bcf",
+  "@type": "saiteki:TopicNode",
+  "name": "コミュニティ形成",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

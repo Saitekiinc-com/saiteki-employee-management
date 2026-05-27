@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:002a23d0262f0594",
+  "@type": "saiteki:TopicNode",
+  "name": "AI活用ドキュメントの運用とチームの知識共有促進",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

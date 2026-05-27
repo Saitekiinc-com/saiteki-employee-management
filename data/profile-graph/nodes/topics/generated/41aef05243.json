@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:e38b1411c7a663ad",
+  "@type": "saiteki:TopicNode",
+  "name": "前向きな業務遂行",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

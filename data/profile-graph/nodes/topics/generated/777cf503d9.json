@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:f61d17f49ecf69ed",
+  "@type": "saiteki:TopicNode",
+  "name": "Saitekiの独自の顧客貢献アプローチへの理解と推進",
+  "topicType": "work_strength",
+  "aliases": [
+    "saiteki"
+  ],
+  "generatedFrom": "employees.json"
+}

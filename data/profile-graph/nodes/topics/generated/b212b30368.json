@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:8924a4c6a60de27d",
+  "@type": "saiteki:TopicNode",
+  "name": "困難な個人的な挑戦を成功させ、「できない」を「できる」に変えることを証明すること",
+  "topicType": "motivation",
+  "aliases": [
+    "困難な個人的な挑戦を成功させ",
+    "できない",
+    "できる",
+    "に変えることを証明すること"
+  ],
+  "generatedFrom": "employees.json"
+}

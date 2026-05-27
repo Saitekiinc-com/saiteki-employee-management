@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7082d5769f54202d",
+  "@type": "saiteki:TopicNode",
+  "name": "クレーンゲーム",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

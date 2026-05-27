@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f05e02353b2e5bfd",
+  "@type": "saiteki:TopicNode",
+  "name": "ゼロからのシステム構築と探求",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

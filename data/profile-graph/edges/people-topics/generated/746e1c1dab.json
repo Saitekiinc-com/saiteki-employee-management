@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:fab7db1f4e3a5b18",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:上原基臣",
+  "predicate": "HAS_WORK_STYLE",
+  "target": "topic:auto:ed4a1c3aaac4ecfb",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "facts": [
+    "fact:auto:746e1c1dab054eb7:001"
+  ]
+}

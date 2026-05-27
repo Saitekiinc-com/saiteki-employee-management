@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:144b68605a7a85b0",
+  "@type": "saiteki:TopicNode",
+  "name": "未経験の技術や困難に直面しても、それをスキルアップの好機と捉え、前向きな姿勢で学びと経験を積み重ね、解決策を模索する。",
+  "topicType": "work_style",
+  "aliases": [
+    "未経験の技術や困難に直面しても",
+    "それをスキルアップの好機と捉え",
+    "前向きな姿勢で学びと経験を積み重ね",
+    "解決策を模索する"
+  ],
+  "generatedFrom": "employees.json"
+}

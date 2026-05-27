@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:73ef82b90c456631:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:3a6d8ffee72ad38c",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "relationLabel": "現象の裏にある構造やロジックを深く理解しようとする思考スタイルを持ちます。ラーメン店の立地から「ビジネスモデル」を推察し、「気づきがありました」と考察を共有するなど、表面的な情報だけでなく、その背景にある原理を解明しようとします。自身の体…",
+  "detailBullets": [
+    "現象の裏にある構造やロジックを深く理解しようとする思考スタイルを持ちます。ラーメン店の立地から「ビジネスモデル」を推察し、「気づきがありました」と考察を共有するなど、表面的な情報だけでなく、その背景にある原理を解明しようとします。自身の体…",
+    "組織の未来やビジネスモデルに深い洞察と好奇心を持つ知的な人物。",
+    "ワクワクします」と未来の組織像に想像を巡らせ、「山岡家」のビジネスモデルについて考察し、その気づきを共有するなど、知的好奇心と探究心が非常に旺盛です。",
+    "物事を深く理解し、その背景にある構造やビジネスモデルを考察する知的なアプローチを持ちます。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1778899778.186949"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.problem_solving_style",
+      "text": "現象の裏にある構造やロジックを深く理解しようとする思考スタイルを持ちます。ラーメン店の立地から「ビジネスモデル」を推察し、「気づきがありました」と考察を共有するなど、表面的な情報だけでなく、その背景にある原理を解明しようとします。自身の体…"
+    },
+    {
+      "text": "組織の未来やビジネスモデルに深い洞察と好奇心を持つ知的な人物。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "ワクワクします」と未来の組織像に想像を巡らせ、「山岡家」のビジネスモデルについて考察し、その気づきを共有するなど、知的好奇心と探究心が非常に旺盛です。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "物事を深く理解し、その背景にある構造やビジネスモデルを考察する知的なアプローチを持ちます。",
+      "sourceField": "work_styles_and_strengths.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:46.998Z",
+  "updatedAt": "2026-05-25T04:25:29.126Z"
+}

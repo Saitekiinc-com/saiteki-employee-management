@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ce14f19d442604f8",
+  "@type": "saiteki:TopicNode",
+  "name": "技術的負債と事業成長のバランス",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

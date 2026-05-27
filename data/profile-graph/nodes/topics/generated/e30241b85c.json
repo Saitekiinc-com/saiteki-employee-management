@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b3e0c896c9ebd7a1",
+  "@type": "saiteki:TopicNode",
+  "name": "幹部への権限委譲と信頼",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

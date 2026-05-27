@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6964190bd6d54452",
+  "@type": "saiteki:TopicNode",
+  "name": "自動化による効率向上",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

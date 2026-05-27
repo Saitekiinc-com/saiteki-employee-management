@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:38743fbb4474f988",
+  "@type": "saiteki:TopicNode",
+  "name": "MIX",
+  "topicType": "interest",
+  "aliases": [
+    "mix"
+  ],
+  "generatedFrom": "employees.json"
+}

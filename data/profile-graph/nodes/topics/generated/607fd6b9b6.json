@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:5d42ad956c2be717",
+  "@type": "saiteki:TopicNode",
+  "name": "コミュニケーション促進",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:03283ccd2d09e296",
+  "@type": "saiteki:TopicNode",
+  "name": "公正性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

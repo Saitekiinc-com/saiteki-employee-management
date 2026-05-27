@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:3ed54415778d17be",
+  "@type": "saiteki:TopicNode",
+  "name": "顧客との「泥臭い対話」を重視する姿勢",
+  "topicType": "work_strength",
+  "aliases": [
+    "顧客との",
+    "泥臭い対話",
+    "を重視する姿勢"
+  ],
+  "generatedFrom": "employees.json"
+}

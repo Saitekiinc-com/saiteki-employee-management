@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:97cfa0ffb3af20a5",
+  "@type": "saiteki:TopicNode",
+  "name": "社員の技術力向上支援",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

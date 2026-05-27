@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d1bca0dc7f327d47",
+  "@type": "saiteki:TopicNode",
+  "name": "組織全体のパフォーマンス向上への貢献",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

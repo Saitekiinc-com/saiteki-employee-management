@@ -1,0 +1,30 @@
+{
+  "@id": "fact:auto:d84556cec90c8a06:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:9f104ed5e1f8d129",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "コスト効率の良いAIソリューション",
+  "detailBullets": [
+    "コスト効率の良いAIソリューション",
+    "グローバルな視点と実践的なAI知識を強みとし、起業家精神と行動力で事業を推進する。最新技術を自ら積極的に検証し、その知見を共有しながら、多様なチームとの共創を通じて具体的な成果を最大化する。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1763025220.286729"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "コスト効率の良いAIソリューション"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "グローバルな視点と実践的なAI知識を強みとし、起業家精神と行動力で事業を推進する。最新技術を自ら積極的に検証し、その知見を共有しながら、多様なチームとの共創を通じて具体的な成果を最大化する。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:51:41.558Z",
+  "updatedAt": "2026-02-16T02:50:35.790Z"
+}

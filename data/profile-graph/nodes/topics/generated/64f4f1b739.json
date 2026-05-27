@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:4338a3d0100ea4a0",
+  "@type": "saiteki:TopicNode",
+  "name": "AI技術の積極的活用",
+  "topicType": "value",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

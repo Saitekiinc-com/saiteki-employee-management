@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:38f69de33beca57b",
+  "@type": "saiteki:TopicNode",
+  "name": "知識の体系化",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

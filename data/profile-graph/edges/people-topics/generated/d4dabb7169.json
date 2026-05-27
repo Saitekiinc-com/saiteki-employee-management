@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:239ca1c6fabac162",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:八木橋 雄一",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:25736a6948e5f226",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:d4dabb71697eb6bf:001"
+  ]
+}

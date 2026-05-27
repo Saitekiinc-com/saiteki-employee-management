@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0398b69da13ee004",
+  "@type": "saiteki:TopicNode",
+  "name": "親近感の醸成",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

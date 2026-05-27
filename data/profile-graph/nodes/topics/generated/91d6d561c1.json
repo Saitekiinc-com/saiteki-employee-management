@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:591616e9b6ebf85f",
+  "@type": "saiteki:TopicNode",
+  "name": "組織の未来への貢献",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

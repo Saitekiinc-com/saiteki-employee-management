@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0331fc7a78e4b8ae",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の企画や発信がメンバーの行動や意識に良い影響を与えること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

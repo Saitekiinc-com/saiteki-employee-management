@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:59131934fc214f53",
+  "@type": "saiteki:TopicNode",
+  "name": "多様な専門性を持つメンバー間のシナジー",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

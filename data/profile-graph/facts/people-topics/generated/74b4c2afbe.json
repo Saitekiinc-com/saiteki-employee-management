@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:ee316b7b477a24d1:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:053486667c01e211",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "責任",
+  "detailBullets": [
+    "責任",
+    "責任感も強く、常に前向きな姿勢を保ち、人とのつながりを重視する。",
+    "学生時代に一蘭で1年8ヶ月アルバイト責任者を務め、中学時代から代表委員長や部長、各種実行委員長を歴任。",
+    "責任感"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1768614261.622119"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "責任"
+    },
+    {
+      "text": "責任感も強く、常に前向きな姿勢を保ち、人とのつながりを重視する。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "学生時代に一蘭で1年8ヶ月アルバイト責任者を務め、中学時代から代表委員長や部長、各種実行委員長を歴任。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "責任感",
+      "sourceField": "work_styles_and_strengths.dominant_strengths.4"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

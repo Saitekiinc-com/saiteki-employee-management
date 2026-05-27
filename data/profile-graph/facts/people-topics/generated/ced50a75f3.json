@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:15d97049fb2d388d:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:63a80b5ef3317a02",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "relationLabel": "徹底した「準備が9割」の哲学に基づき、綿密な計画と事前準備で困難な目標を達成する。上場SIer社長とのゴルフでの協業機会創出や、実績のないベンチャーがVCから資金調達1.5億円、大型案件獲得に至った成功例として、「資料に語らせる」戦略を具…",
+  "detailBullets": [
+    "徹底した「準備が9割」の哲学に基づき、綿密な計画と事前準備で困難な目標を達成する。上場SIer社長とのゴルフでの協業機会創出や、実績のないベンチャーがVCから資金調達1.5億円、大型案件獲得に至った成功例として、「資料に語らせる」戦略を具…",
+    "急速な組織拡大期において、「準備が9割」の哲学と厳選採用でカルチャーを維持しつつ、幹部への権限委譲を進め、自身はM&Aや高難度案件獲得といった戦略的課題に注力。",
+    "徹底した準備とプロ意識を持ち、自身の経験や学びをオープンに共有しながら、健全な向上心と自己成長へのプレッシャーを原動力に組織を牽引する。",
+    "「準備が9割」の哲学を商談やゴルフで実践し、協業や資金調達、大型案件獲得に繋げる。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1763186720.366269",
+    "primary:C09MKT8QKAR:1764399528.915259"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.problem_solving_style",
+      "text": "徹底した「準備が9割」の哲学に基づき、綿密な計画と事前準備で困難な目標を達成する。上場SIer社長とのゴルフでの協業機会創出や、実績のないベンチャーがVCから資金調達1.5億円、大型案件獲得に至った成功例として、「資料に語らせる」戦略を具…"
+    },
+    {
+      "text": "急速な組織拡大期において、「準備が9割」の哲学と厳選採用でカルチャーを維持しつつ、幹部への権限委譲を進め、自身はM&Aや高難度案件獲得といった戦略的課題に注力。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "徹底した準備とプロ意識を持ち、自身の経験や学びをオープンに共有しながら、健全な向上心と自己成長へのプレッシャーを原動力に組織を牽引する。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "「準備が9割」の哲学を商談やゴルフで実践し、協業や資金調達、大型案件獲得に繋げる。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

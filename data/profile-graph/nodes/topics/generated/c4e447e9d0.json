@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:40b8b9277513e716",
+  "@type": "saiteki:TopicNode",
+  "name": "実験と検証",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

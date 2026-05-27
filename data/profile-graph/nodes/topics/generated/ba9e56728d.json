@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:99feb6abd45234fc",
+  "@type": "saiteki:TopicNode",
+  "name": "学習意欲と適応力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

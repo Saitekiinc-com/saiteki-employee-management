@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:14561014cbbd9f6e:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:c438070ef8d9bf79",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "在宅勤務環境の確認",
+  "detailBullets": [
+    "在宅勤務環境の確認",
+    "環境移行時において、懸念事項を事前に洗い出し、荷解き、ネット開通、在宅勤務環境の確認といったタスクを計画的にこなすことで問題を解決し、安心を確保する論理的かつ実践的なアプローチをとる。",
+    "引っ越し後の荷解き、ネット開通、在宅勤務環境の確認といったタスクを計画的にこなし、懸念を払拭したことを報告する。",
+    "東京での一人暮らしへの移行を完了し、引っ越しに伴う主要なタスク（荷解き、ネット開通、在宅勤務環境の確認）を計画通りに解消したことで、精神的・肉体的な負荷が軽減されている。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "在宅勤務環境の確認"
+    },
+    {
+      "text": "環境移行時において、懸念事項を事前に洗い出し、荷解き、ネット開通、在宅勤務環境の確認といったタスクを計画的にこなすことで問題を解決し、安心を確保する論理的かつ実践的なアプローチをとる。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "text": "引っ越し後の荷解き、ネット開通、在宅勤務環境の確認といったタスクを計画的にこなし、懸念を払拭したことを報告する。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+    },
+    {
+      "text": "東京での一人暮らしへの移行を完了し、引っ越しに伴う主要なタスク（荷解き、ネット開通、在宅勤務環境の確認）を計画通りに解消したことで、精神的・肉体的な負荷が軽減されている。",
+      "sourceField": "current_state.summary"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:36:35.579Z",
+  "updatedAt": "2026-05-11T04:06:08.439Z"
+}

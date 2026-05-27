@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:a6730ae3085c1481:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:73eec17987f6e91d",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "上場SIer社長から学んだAI戦略、営業ハック、プロの「準備」、ホスピタリティ",
+  "detailBullets": [
+    "上場SIer社長から学んだAI戦略、営業ハック、プロの「準備」、ホスピタリティ",
+    "「Letter of T」で上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティ、そして「大手が動けない数年間」の戦い方といった経営の真髄を詳細に共有する。",
+    "上場SIer社長とのゴルフでの協業機会創出や、実績のないベンチャーがVCから資金調達1.5億円、大型案件獲得に至った成功例として、「資料に語らせる」戦略を具体的に語る。",
+    "ホスピタリティ"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09QXV3F8G0:1761970843.001899",
+    "primary:C09QXV3F8G0:1762049034.961349"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "上場SIer社長から学んだAI戦略、営業ハック、プロの「準備」、ホスピタリティ"
+    },
+    {
+      "text": "「Letter of T」で上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティ、そして「大手が動けない数年間」の戦い方といった経営の真髄を詳細に共有する。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "上場SIer社長とのゴルフでの協業機会創出や、実績のないベンチャーがVCから資金調達1.5億円、大型案件獲得に至った成功例として、「資料に語らせる」戦略を具体的に語る。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "text": "ホスピタリティ",
+      "sourceField": "work_styles_and_strengths.dominant_strengths.25"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

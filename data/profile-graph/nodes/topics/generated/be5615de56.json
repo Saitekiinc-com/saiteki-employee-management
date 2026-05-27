@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:70289bd332394bc6",
+  "@type": "saiteki:TopicNode",
+  "name": "MCP・AIエージェント活用",
+  "topicType": "work_topic",
+  "aliases": [
+    "mcp",
+    "aiエージェント活用",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

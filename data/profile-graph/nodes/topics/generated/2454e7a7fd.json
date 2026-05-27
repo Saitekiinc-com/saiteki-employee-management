@@ -1,0 +1,17 @@
+{
+  "@id": "topic:auto:11d630fd78832872",
+  "@type": "saiteki:TopicNode",
+  "name": "最新のAI技術（特に小型高性能モデル）を深く理解し、自身のMac M4 Max環境でのGPTsoss動作検証など実践的な活用方法を模索・提案することで、現場の課題解決に貢献する。「現場で使い倒せるAIを一緒に形にしましょう」と、共創を通じ…",
+  "topicType": "work_style",
+  "aliases": [
+    "最新のai技術",
+    "特に小型高性能モデル",
+    "を深く理解し",
+    "自身のmac",
+    "m4",
+    "max環境でのgptsoss動作検証など実践的な活用方法を模索",
+    "提案することで",
+    "現場の課題解決に貢献する"
+  ],
+  "generatedFrom": "employees.json"
+}

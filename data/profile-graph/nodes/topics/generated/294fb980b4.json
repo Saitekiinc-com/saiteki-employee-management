@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:4dbe0ff5c3ef2bf9",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい案件やプロジェクトへの参加",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

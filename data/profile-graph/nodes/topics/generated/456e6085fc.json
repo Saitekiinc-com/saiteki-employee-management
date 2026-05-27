@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:878d453b70380cf1",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい環境での生活の確立",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

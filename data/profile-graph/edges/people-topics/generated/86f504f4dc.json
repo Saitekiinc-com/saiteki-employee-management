@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:91aaebf7586cce1c",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:佐藤傑",
+  "predicate": "VALUES",
+  "target": "topic:auto:07ccb26087d50c6b",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:86f504f4dc41fae0:001"
+  ]
+}

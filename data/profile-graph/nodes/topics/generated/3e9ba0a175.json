@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:efe3541cbe0a25f2",
+  "@type": "saiteki:TopicNode",
+  "name": "協働",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

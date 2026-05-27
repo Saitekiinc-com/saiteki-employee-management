@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:29a5b15560de4856",
+  "@type": "saiteki:TopicNode",
+  "name": "実行力と迅速な問題解決能力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

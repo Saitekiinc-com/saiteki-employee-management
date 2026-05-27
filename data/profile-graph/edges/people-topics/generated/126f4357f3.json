@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:722a8879269f4acb",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:鈴木悠斗",
+  "predicate": "VALUES",
+  "target": "topic:auto:878515d726f851e5",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:126f4357f38e826e:001"
+  ]
+}

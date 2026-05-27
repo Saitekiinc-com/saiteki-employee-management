@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c40be8f3434e1d08",
+  "@type": "saiteki:TopicNode",
+  "name": "担当業務の円滑な進行と成果",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

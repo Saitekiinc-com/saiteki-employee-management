@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:4aa51133f70d90cc",
+  "@type": "saiteki:TopicNode",
+  "name": "品質重視",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:fef407d76fadc711",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:櫻井志保",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:9e1525bc2662989c",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:e09ba70be4019caa:001"
+  ]
+}

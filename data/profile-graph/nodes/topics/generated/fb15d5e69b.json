@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:4b1e1515d51303e1",
+  "@type": "saiteki:TopicNode",
+  "name": "共有された挑戦と達成感",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

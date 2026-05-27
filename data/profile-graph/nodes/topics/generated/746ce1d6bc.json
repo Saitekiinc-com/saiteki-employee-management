@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:da1394d53b90c311",
+  "@type": "saiteki:TopicNode",
+  "name": "継続的な学習と技術革新（特にAIの探求と標準化、アジャイルの本質的な実践）",
+  "topicType": "value",
+  "aliases": [
+    "継続的な学習と技術革新",
+    "特にaiの探求と標準化",
+    "アジャイルの本質的な実践",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

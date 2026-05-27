@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:03457903014dd68c:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:5ac3b62e1568c885",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "社内コミュニティ活性化",
+  "detailBullets": [
+    "社内コミュニティ活性化",
+    "組織への多角的な貢献に加え、社員のウェルビーイング、社内コミュニティ活性化、学習機会提供、そして外部への情報発信を通じて企業の成長を多角的に支援。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "社内コミュニティ活性化"
+    },
+    {
+      "text": "組織への多角的な貢献に加え、社員のウェルビーイング、社内コミュニティ活性化、学習機会提供、そして外部への情報発信を通じて企業の成長を多角的に支援。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "直近のログでは、社のYouTubeチャンネルを通じた外部への情報発信に加え、社内勉強会アーカイブの共有を通じて社員への高度な技術的知見（AWSアーキテクチャ設計、プロジェクトマネジメント、合意形成術など）の提供に注力している。DX戦略やアナログ・トランスフォーメーション (AX)、AI駆動開発といった先進的なテーマに関心が高く、これらの情報を構造的かつ魅力的に共有することで、社員の学習意欲を刺激し、企業のブランド価値向上と技術力強化に…"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

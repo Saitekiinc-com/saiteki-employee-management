@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:5b2e78e1ace0adb4:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:cd234e35c0a4bd65",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "Slackで同じ趣味の人と交流できること",
+  "detailBullets": [
+    "Slackで同じ趣味の人と交流できること",
+    "Slack上の活発な交流に新鮮さを感じ、同じ趣味の人と話したいと表明している。",
+    "Slackでの活発なコミュニケーションに新鮮さを感じ、社内交流に前向きな姿勢を示している。",
+    "Slack上での活発な交流にも価値を感じており、社内のつながりを前向きに受け止めています。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771550812.233829"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "Slackで同じ趣味の人と交流できること"
+    },
+    {
+      "text": "Slack上の活発な交流に新鮮さを感じ、同じ趣味の人と話したいと表明している。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "Slackでの活発なコミュニケーションに新鮮さを感じ、社内交流に前向きな姿勢を示している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+    },
+    {
+      "text": "Slack上での活発な交流にも価値を感じており、社内のつながりを前向きに受け止めています。",
+      "sourceField": "values_and_motivators.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

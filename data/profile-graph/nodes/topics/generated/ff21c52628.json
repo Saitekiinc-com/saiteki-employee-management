@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:cc4a328664f5d430",
+  "@type": "saiteki:TopicNode",
+  "name": "実務支援",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

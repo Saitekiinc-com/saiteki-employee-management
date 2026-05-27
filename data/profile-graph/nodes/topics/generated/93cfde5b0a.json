@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:81e38de859f8346f",
+  "@type": "saiteki:TopicNode",
+  "name": "アジャイル開発の本質的な理解と実践（特にリスクコントロールと不確実性分解）",
+  "topicType": "work_strength",
+  "aliases": [
+    "アジャイル開発の本質的な理解と実践",
+    "特にリスクコントロールと不確実性分解"
+  ],
+  "generatedFrom": "employees.json"
+}

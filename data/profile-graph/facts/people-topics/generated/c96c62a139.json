@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:2e0588b487138fdd:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:85f4c209badfbc1e",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "テストプロセスの戦略的改善提案と実行力",
+  "detailBullets": [
+    "テストプロセスの戦略的改善提案と実行力",
+    "QAエンジニアとしての経験に基づき、AI技術を積極的に業務プロセスに取り入れ、効率的かつ戦略的な改善を推進する。情報共有を重視し、自律的にタスクを遂行しながら常に最適化を追求する。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "テストプロセスの戦略的改善提案と実行力"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "QAエンジニアとしての経験に基づき、AI技術を積極的に業務プロセスに取り入れ、効率的かつ戦略的な改善を推進する。情報共有を重視し、自律的にタスクを遂行しながら常に最適化を追求する。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:37:53.189Z",
+  "updatedAt": "2026-03-02T02:43:53.875Z"
+}

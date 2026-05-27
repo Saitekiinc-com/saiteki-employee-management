@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:018e4bc2b5527f04",
+  "@type": "saiteki:TopicNode",
+  "name": "AIを活用した新しい働き方や効率化の実現",
+  "topicType": "motivation",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

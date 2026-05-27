@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:7ffde0028fccbdc1",
+  "@type": "saiteki:TopicNode",
+  "name": "流行の食文化（ラーメン）とビジネスモデル",
+  "topicType": "interest",
+  "aliases": [
+    "流行の食文化",
+    "ラーメン",
+    "とビジネスモデル"
+  ],
+  "generatedFrom": "employees.json"
+}

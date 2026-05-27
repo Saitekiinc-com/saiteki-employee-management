@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:aab830e153ed84d5",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:小松田真伍",
+  "predicate": "MOTIVATED_BY",
+  "target": "topic:auto:2fc7ee1897a3d9f0",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "facts": [
+    "fact:auto:bc0508c12f8339d9:001"
+  ]
+}

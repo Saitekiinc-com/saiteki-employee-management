@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7e253c5bd322fb8d",
+  "@type": "saiteki:TopicNode",
+  "name": "継続的改善",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

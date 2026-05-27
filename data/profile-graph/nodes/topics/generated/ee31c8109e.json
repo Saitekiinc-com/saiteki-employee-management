@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:de1a2bcaffba7860",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい経験への挑戦と達成",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

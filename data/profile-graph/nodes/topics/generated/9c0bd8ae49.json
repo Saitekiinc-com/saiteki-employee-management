@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:c2163babc4c29fc1",
+  "@type": "saiteki:TopicNode",
+  "name": "他者貢献・協調性",
+  "topicType": "work_strength",
+  "aliases": [
+    "他者貢献",
+    "協調性"
+  ],
+  "generatedFrom": "employees.json"
+}

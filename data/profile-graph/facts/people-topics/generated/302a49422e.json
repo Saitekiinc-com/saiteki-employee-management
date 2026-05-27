@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:448b211ad3122bcc:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:74c64742fde9bca6",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "改修開発",
+  "detailBullets": [
+    "改修開発",
+    "上原さんは、サーバ運用・テスト業務を中心に長く経験を積み、改修開発やサポート、総合テストにも携わってきた堅実なエンジニアです。",
+    "サーバ運用・テスト、改修開発、サポート、総合テストなど複数領域を経験し、アニメ、映画、ゲーム、トミカ、映画フライヤー収集など関心の幅も広い。",
+    "長期のサーバ運用・テスト経験を基盤に、改修開発、サポート、総合テストまで幅広く対応できる実務型の技術者。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771550812.233829"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "改修開発"
+    },
+    {
+      "text": "上原さんは、サーバ運用・テスト業務を中心に長く経験を積み、改修開発やサポート、総合テストにも携わってきた堅実なエンジニアです。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "サーバ運用・テスト、改修開発、サポート、総合テストなど複数領域を経験し、アニメ、映画、ゲーム、トミカ、映画フライヤー収集など関心の幅も広い。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "長期のサーバ運用・テスト経験を基盤に、改修開発、サポート、総合テストまで幅広く対応できる実務型の技術者。",
+      "sourceField": "work_styles_and_strengths.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

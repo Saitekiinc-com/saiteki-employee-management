@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b0df065cc9baaabd",
+  "@type": "saiteki:TopicNode",
+  "name": "革新",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

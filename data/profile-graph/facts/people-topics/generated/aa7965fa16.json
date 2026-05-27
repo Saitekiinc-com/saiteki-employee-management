@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:02a59fb3953f90fa:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:c13ae28106740cf5",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "感謝",
+  "detailBullets": [
+    "感謝",
+    "周囲とのコミュニケーションでは感謝と共感を示し、建設的な議論を重視する。",
+    "勉強会の場で積極的にメモを取り、講師への感謝を述べ、自身の学びを共有することで、場への積極的な参加と貢献意欲を示している。",
+    "他者の発言や共有された知識に対して「本当に勉強になります」「腑に落ちます」「誠にありがとうございます」と感謝と共感を示し、自身の学びを素直に表現する。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1772977849.507209",
+    "primary:C09MKT8QKAR:1775041855.201039"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "感謝"
+    },
+    {
+      "text": "周囲とのコミュニケーションでは感謝と共感を示し、建設的な議論を重視する。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "勉強会の場で積極的にメモを取り、講師への感謝を述べ、自身の学びを共有することで、場への積極的な参加と貢献意欲を示している。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "他者の発言や共有された知識に対して「本当に勉強になります」「腑に落ちます」「誠にありがとうございます」と感謝と共感を示し、自身の学びを素直に表現する。",
+      "sourceField": "personality_traits.agreeableness.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

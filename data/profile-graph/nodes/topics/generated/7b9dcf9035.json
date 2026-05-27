@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d0214abe613c7e85",
+  "@type": "saiteki:TopicNode",
+  "name": "現実的判断",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

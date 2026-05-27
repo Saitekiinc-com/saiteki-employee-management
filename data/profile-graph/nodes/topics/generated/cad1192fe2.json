@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:cf7a2e4dda315926",
+  "@type": "saiteki:TopicNode",
+  "name": "技術的成長とスキル向上",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

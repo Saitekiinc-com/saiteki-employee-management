@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b8dc716574522346",
+  "@type": "saiteki:TopicNode",
+  "name": "組織活性化への貢献",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

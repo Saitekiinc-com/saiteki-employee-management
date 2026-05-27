@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:07ccb26087d50c6b",
+  "@type": "saiteki:TopicNode",
+  "name": "効率性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

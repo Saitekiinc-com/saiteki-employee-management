@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:719038f038969826",
+  "@type": "saiteki:TopicNode",
+  "name": "AI駆動型組織への変革",
+  "topicType": "value",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

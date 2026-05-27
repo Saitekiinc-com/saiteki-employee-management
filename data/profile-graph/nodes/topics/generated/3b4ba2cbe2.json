@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ef33bc9274b3e781",
+  "@type": "saiteki:TopicNode",
+  "name": "柔軟な働き方実践",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

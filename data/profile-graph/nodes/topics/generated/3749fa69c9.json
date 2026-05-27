@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:0cfd83fe90ae6367",
+  "@type": "saiteki:TopicNode",
+  "name": "採用・営業も含む対人経験",
+  "topicType": "work_strength",
+  "aliases": [
+    "採用",
+    "営業も含む対人経験"
+  ],
+  "generatedFrom": "employees.json"
+}

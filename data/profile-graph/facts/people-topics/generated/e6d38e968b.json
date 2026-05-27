@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:aa970c46c49b673a:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:24123541c7f511ec",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "社内交流",
+  "detailBullets": [
+    "社内交流",
+    "Slackでの活発なコミュニケーションに新鮮さを感じ、社内交流に前向きな姿勢を示している。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "社内交流"
+    },
+    {
+      "text": "Slackでの活発なコミュニケーションに新鮮さを感じ、社内交流に前向きな姿勢を示している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "学び直しと早期貢献、丁寧な人間関係づくり、趣味を通じた交流を大切にしています。Slack上での活発な交流にも価値を感じており、社内のつながりを前向きに受け止めています。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

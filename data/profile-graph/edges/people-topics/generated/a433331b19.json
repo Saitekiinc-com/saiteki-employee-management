@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:21a2401978aca142",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:小松田真伍",
+  "predicate": "VALUES",
+  "target": "topic:auto:921b3d0c5a1e2954",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:a433331b19e159f7:001"
+  ]
+}

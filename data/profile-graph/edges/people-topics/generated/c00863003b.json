@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:40c1a7955a428d81",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:開米 敦則",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:5f210a94e16b3fe2",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:c00863003baf9fa0:001"
+  ]
+}

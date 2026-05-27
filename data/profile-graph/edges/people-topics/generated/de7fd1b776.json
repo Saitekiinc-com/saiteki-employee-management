@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:6d56d9ee41238680",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:貴志雪乃",
+  "predicate": "INTERESTED_IN",
+  "target": "topic:auto:34feee8da42e03de",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:de7fd1b7763e5f0d:001"
+  ]
+}

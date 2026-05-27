@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:96971995f3c29c2d",
+  "@type": "saiteki:TopicNode",
+  "name": "技術選定",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:16cf9d4bc3406fb2",
+  "@type": "saiteki:TopicNode",
+  "name": "AIを活用した学習姿勢",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

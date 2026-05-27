@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:149f50428b79b3af",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:上遼太郎",
+  "predicate": "INTERESTED_IN",
+  "target": "topic:auto:38dbc02db5b767a1",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:f467fca8af0c0a20:001"
+  ]
+}

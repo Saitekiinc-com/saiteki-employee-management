@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d859c388c05acac5",
+  "@type": "saiteki:TopicNode",
+  "name": "戦略的M&A推進",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

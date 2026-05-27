@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:089b8dd4b449ed31",
+  "@type": "saiteki:TopicNode",
+  "name": "社員間の交流が促進されること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:f77d3ed48e6d8686:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:5222b1b1cdaf054b",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "自己規律",
+  "detailBullets": [
+    "自己規律",
+    "自己規律性も高い。",
+    "加えて、週1回のランニングを習慣化し、将来の長距離イベント参加という目標を掲げるなど、自己規律と目標達成への強い意欲を持つ。",
+    "多様な経験と高い学習意欲に加え、自己規律を持って目標達成に取り組む。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "自己規律"
+    },
+    {
+      "text": "自己規律性も高い。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "加えて、週1回のランニングを習慣化し、将来の長距離イベント参加という目標を掲げるなど、自己規律と目標達成への強い意欲を持つ。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "多様な経験と高い学習意欲に加え、自己規律を持って目標達成に取り組む。",
+      "sourceField": "work_styles_and_strengths.summary"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

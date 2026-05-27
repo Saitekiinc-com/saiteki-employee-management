@@ -1,0 +1,14 @@
+{
+  "@id": "topic:auto:812c6de47f13eba2",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい技術（特にAI）の習得と実践、そしてその標準化への挑戦",
+  "topicType": "motivation",
+  "aliases": [
+    "新しい技術",
+    "特にai",
+    "の習得と実践",
+    "そしてその標準化への挑戦",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

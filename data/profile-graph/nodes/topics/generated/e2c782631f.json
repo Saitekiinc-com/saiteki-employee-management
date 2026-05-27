@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:56f7714af1d8acd7",
+  "@type": "saiteki:TopicNode",
+  "name": "困難克服への挑戦",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

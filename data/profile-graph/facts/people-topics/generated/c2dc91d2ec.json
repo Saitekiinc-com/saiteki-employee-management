@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:0ed8485d4b53f9e9:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:cb0ea99bf71799ef",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "実践",
+  "detailBullets": [
+    "実践",
+    "グローバルな視点と実践的なAI知識を兼ね備え、起業家精神と旺盛な行動力で共創を推進する。",
+    "常に前向きで、新しい挑戦や学びを楽しみ、実践と情報共有を通じて貢献しようとする探求心と行動力を兼ね備えている。",
+    "自身のMac環境でのAI動作検証や、追加コストなしで諸々動かせる「お得感」に言及するなど、実践的な視点と効率性を考慮する。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "実践"
+    },
+    {
+      "text": "グローバルな視点と実践的なAI知識を兼ね備え、起業家精神と旺盛な行動力で共創を推進する。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "常に前向きで、新しい挑戦や学びを楽しみ、実践と情報共有を通じて貢献しようとする探求心と行動力を兼ね備えている。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "自身のMac環境でのAI動作検証や、追加コストなしで諸々動かせる「お得感」に言及するなど、実践的な視点と効率性を考慮する。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:51:41.558Z",
+  "updatedAt": "2026-02-16T02:50:35.790Z"
+}

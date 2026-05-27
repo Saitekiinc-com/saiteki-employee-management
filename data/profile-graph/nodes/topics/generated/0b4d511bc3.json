@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:eadcdcc32b65bc03",
+  "@type": "saiteki:TopicNode",
+  "name": "包容力",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

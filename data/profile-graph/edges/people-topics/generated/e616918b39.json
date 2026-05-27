@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:b7e115e1f8e248fa",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:上遼太郎",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:8c1d2a1d31c31418",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:e616918b39a9fdae:001"
+  ]
+}

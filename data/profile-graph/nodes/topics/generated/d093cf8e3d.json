@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:984d3f9065253ac4",
+  "@type": "saiteki:TopicNode",
+  "name": "迅速な意思決定",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

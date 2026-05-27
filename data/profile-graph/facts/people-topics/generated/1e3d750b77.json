@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:9aebf5444b0498af:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:f6eda9d6483071e2",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "動物",
+  "detailBullets": [
+    "動物",
+    "技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。",
+    "音楽や動物など好きなものについて自然に話せること",
+    "犬猫だけでなく動物全般が好きと述べ、周囲からもその回答の余白を好意的に受け止められている。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771638120.236499",
+    "primary:C09Q46YA4ER:1775209779.773479"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "動物"
+    },
+    {
+      "text": "技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "音楽や動物など好きなものについて自然に話せること",
+      "sourceField": "values_and_motivators.motivation_triggers.3"
+    },
+    {
+      "text": "犬猫だけでなく動物全般が好きと述べ、周囲からもその回答の余白を好意的に受け止められている。",
+      "sourceField": "values_and_motivators.evidence_episodes.1"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

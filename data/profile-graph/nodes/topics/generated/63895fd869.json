@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d1e97e024249a328",
+  "@type": "saiteki:TopicNode",
+  "name": "計画的なプロジェクト推進とリスク管理",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

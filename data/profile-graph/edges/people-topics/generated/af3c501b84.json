@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:e6f744d87ea83ebe",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:藤井芙美子",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:93601fd1b58f86dd",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:af3c501b8434721c:001"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:e6ce20c441ba1356",
+  "@type": "saiteki:TopicNode",
+  "name": "ホスピタリティ",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:168c179ef72b2847",
+  "@type": "saiteki:TopicNode",
+  "name": "スケーラビリティ",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

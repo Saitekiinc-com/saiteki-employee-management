@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:4304e6198cea45e3:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:c63e29af532a1fe2",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "次男の七五三撮影",
+  "detailBullets": [
+    "次男の七五三撮影",
+    "次男の七五三撮影」で和装も洋装も本人の好きなように選ばせ、ポケモン柄の着物を着たことを親しみを込めて共有。",
+    "次男の七五三撮影でのエピソードを、ユーモラスな絵文字を交えて共有し、周囲との親近感を深めた。",
+    "次男の七五三撮影での出来事を共有することで、個人的な体験を通じた親近感の醸成と、ポジティブな雰囲気づくりに貢献している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1779633198.304519"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "次男の七五三撮影"
+    },
+    {
+      "text": "次男の七五三撮影」で和装も洋装も本人の好きなように選ばせ、ポケモン柄の着物を着たことを親しみを込めて共有。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "次男の七五三撮影でのエピソードを、ユーモラスな絵文字を交えて共有し、周囲との親近感を深めた。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+    },
+    {
+      "text": "次男の七五三撮影での出来事を共有することで、個人的な体験を通じた親近感の醸成と、ポジティブな雰囲気づくりに貢献している。",
+      "sourceField": "values_and_motivators.evidence_episodes.2"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:41:17.760Z",
+  "updatedAt": "2026-05-25T04:26:33.625Z"
+}

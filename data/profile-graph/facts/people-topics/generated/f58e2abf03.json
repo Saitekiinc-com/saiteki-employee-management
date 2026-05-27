@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:9aff934066ed0998:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:63de1e5543af2f13",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "マッサージ巡り",
+  "detailBullets": [
+    "マッサージ巡り",
+    "他者の趣味にも積極的に興味を示し、ビジネス書の推薦を具体的に求めるほか、マッサージ巡りといった新しい活動にも関心を示し、情報収集を試みるなど、新しい知識や情報への探求心が非常に高い。",
+    "」と自身の役割と年齢を積極的に自己開示し、共通の話題（ラーメン、アニメ、ポケモン、出身地、大学、マッサージ巡りなど）を見つけては、積極的に相手に話しかけ、関係性を深めようと努力する。",
+    "IT業界や社会人経験の不足を謙虚に認識しているものの、それを不安視する発言はなく、一貫して「積極的に学び、尽力する」という非常に前向きで意欲的な姿勢を保っている。「自分はまだ業界3ヶ月目の新人なので、これから一緒に成長させていただきたいです」と、自身の立場を認めつつも、成長への前向きな姿勢に繋げている。歴史の勉強において「教科書の最初の方はしっかりやってい…"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1773397785.051549"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "マッサージ巡り"
+    },
+    {
+      "text": "他者の趣味にも積極的に興味を示し、ビジネス書の推薦を具体的に求めるほか、マッサージ巡りといった新しい活動にも関心を示し、情報収集を試みるなど、新しい知識や情報への探求心が非常に高い。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "」と自身の役割と年齢を積極的に自己開示し、共通の話題（ラーメン、アニメ、ポケモン、出身地、大学、マッサージ巡りなど）を見つけては、積極的に相手に話しかけ、関係性を深めようと努力する。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "IT業界や社会人経験の不足を謙虚に認識しているものの、それを不安視する発言はなく、一貫して「積極的に学び、尽力する」という非常に前向きで意欲的な姿勢を保っている。「自分はまだ業界3ヶ月目の新人なので、これから一緒に成長させていただきたいです」と、自身の立場を認めつつも、成長への前向きな姿勢に繋げている。歴史の勉強において「教科書の最初の方はしっかりやってい…",
+      "sourceField": "personality_traits.neuroticism.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

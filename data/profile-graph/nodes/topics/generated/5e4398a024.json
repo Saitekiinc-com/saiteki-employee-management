@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0f42714286e6b084",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の業務状況を正直かつ建設的に報告する能力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

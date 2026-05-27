@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:4062f6ac9a7a0cf4",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:小林翔",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:977cc68ae454040e",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:b5c4927140d499de:001"
+  ]
+}

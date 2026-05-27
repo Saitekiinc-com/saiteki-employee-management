@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:dc6e729ec15c2821",
+  "@type": "saiteki:TopicNode",
+  "name": "コンテキスト理解",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

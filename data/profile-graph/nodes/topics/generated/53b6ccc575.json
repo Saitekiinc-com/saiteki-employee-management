@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:caf4df2bfde08052",
+  "@type": "saiteki:TopicNode",
+  "name": "情報共有",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

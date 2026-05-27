@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ba76a0a5dd3bc993",
+  "@type": "saiteki:TopicNode",
+  "name": "ゲーム開発",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

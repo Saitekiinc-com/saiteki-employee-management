@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:3b545e9087e5a6e4:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:95f31eea3c567a95",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "新しいメンバーの歓迎と今後の協業",
+  "detailBullets": [
+    "新しいメンバーの歓迎と今後の協業",
+    "同僚が執筆したnoteの内容に深く感動し、Saitekiのビジョン実現と業界課題解決への自身のコミットメントを再確認している。新しいメンバーの参加を心から歓迎し、彼が組織に合うことを見抜いていたことを伝え、今後のプロジェクトでの協業を楽しみにする、非常にポジティブな状態にある。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "新しいメンバーの歓迎と今後の協業"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "同僚が執筆したnoteの内容に深く感動し、Saitekiのビジョン実現と業界課題解決への自身のコミットメントを再確認している。新しいメンバーの参加を心から歓迎し、彼が組織に合うことを見抜いていたことを伝え、今後のプロジェクトでの協業を楽しみにする、非常にポジティブな状態にある。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:37:37.794Z",
+  "updatedAt": "2026-04-13T03:36:52.852Z"
+}

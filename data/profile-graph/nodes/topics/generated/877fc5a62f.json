@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:18192da3d8282f50",
+  "@type": "saiteki:TopicNode",
+  "name": "有益な情報の共有によって社員の学習・成長を促すこと",
+  "topicType": "motivation",
+  "aliases": [
+    "有益な情報の共有によって社員の学習",
+    "成長を促すこと"
+  ],
+  "generatedFrom": "employees.json"
+}

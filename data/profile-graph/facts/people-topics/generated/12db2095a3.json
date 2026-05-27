@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:03083a0bfc882691:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:d19d859ac5ccb87a",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "要点整理",
+  "detailBullets": [
+    "要点整理",
+    "学習で分からないことをAIに壁打ちし、要点整理して成長につなげている。",
+    "要点整理力",
+    "分からないことをAIに壁打ちし、自分の中で要点整理できた瞬間に成長を感じると述べている。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771850944.221989"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "要点整理"
+    },
+    {
+      "text": "学習で分からないことをAIに壁打ちし、要点整理して成長につなげている。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "要点整理力",
+      "sourceField": "work_styles_and_strengths.dominant_strengths.3"
+    },
+    {
+      "text": "分からないことをAIに壁打ちし、自分の中で要点整理できた瞬間に成長を感じると述べている。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

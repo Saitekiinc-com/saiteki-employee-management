@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:25dff400bcda6eb5",
+  "@type": "saiteki:TopicNode",
+  "name": "目標達成志向",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

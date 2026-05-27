@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3b673804ac544480",
+  "@type": "saiteki:TopicNode",
+  "name": "リファラル採用の推進",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

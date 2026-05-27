@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d05d7b9c8ae7d310",
+  "@type": "saiteki:TopicNode",
+  "name": "参加者からの良いフィードバックやイベントの成功",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

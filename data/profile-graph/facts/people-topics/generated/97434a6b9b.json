@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:1e36524d0fda9d78:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:7ef3910240816f9a",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "優秀な人材獲得",
+  "detailBullets": [
+    "優秀な人材獲得",
+    "優秀な人材獲得による組織力向上",
+    "リファラル採用のインセンティブ制度を明確に案内し、優秀な人材獲得と企業成長への強い意欲を示している。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "優秀な人材獲得"
+    },
+    {
+      "text": "優秀な人材獲得による組織力向上",
+      "sourceField": "values_and_motivators.motivation_triggers.2"
+    },
+    {
+      "text": "リファラル採用のインセンティブ制度を明確に案内し、優秀な人材獲得と企業成長への強い意欲を示している。",
+      "sourceField": "values_and_motivators.evidence_episodes.1"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "直近のログでは、社のYouTubeチャンネルを通じた外部への情報発信に加え、社内勉強会アーカイブの共有を通じて社員への高度な技術的知見（AWSアーキテクチャ設計、プロジェクトマネジメント、合意形成術など）の提供に注力している。DX戦略やアナログ・トランスフォーメーション (AX)、AI駆動開発といった先進的なテーマに関心が高く、これらの情報を構造的かつ魅力的に共有することで、社員の学習意欲を刺激し、企業のブランド価値向上と技術力強化に…"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

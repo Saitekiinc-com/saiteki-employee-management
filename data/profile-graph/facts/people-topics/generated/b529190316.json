@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:2c4845155e2b2ecb:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:6040376e5163ddec",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "共通の話題による親近感",
+  "detailBullets": [
+    "共通の話題による親近感",
+    "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "共通の話題による親近感"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

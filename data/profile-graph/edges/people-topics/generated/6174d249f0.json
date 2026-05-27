@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:8a4f3f3ad8e57060",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:小松田真伍",
+  "predicate": "HAS_STRENGTH",
+  "target": "topic:auto:82ee401a113cbd35",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "facts": [
+    "fact:auto:6174d249f0cdddf1:001"
+  ]
+}

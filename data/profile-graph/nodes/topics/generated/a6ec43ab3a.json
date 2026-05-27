@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:02ded16db3e0c973",
+  "@type": "saiteki:TopicNode",
+  "name": "「準備が9割」という自身の営業哲学と戦略的交渉術",
+  "topicType": "work_topic",
+  "aliases": [
+    "準備が9割",
+    "という自身の営業哲学と戦略的交渉術"
+  ],
+  "generatedFrom": "employees.json"
+}

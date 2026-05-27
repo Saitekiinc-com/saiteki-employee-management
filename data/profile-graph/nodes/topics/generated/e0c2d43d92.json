@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:839c1132301b7938",
+  "@type": "saiteki:TopicNode",
+  "name": "組織の成長と新しい才能の歓迎",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

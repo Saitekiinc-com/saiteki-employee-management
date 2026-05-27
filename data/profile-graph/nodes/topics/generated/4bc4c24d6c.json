@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:f62715f6d3c14a94",
+  "@type": "saiteki:TopicNode",
+  "name": "SIerやコンサルティングファームとの差別化ポイントを明確に言語化する戦略的思考",
+  "topicType": "work_strength",
+  "aliases": [
+    "sier"
+  ],
+  "generatedFrom": "employees.json"
+}

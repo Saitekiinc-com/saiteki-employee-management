@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:cbf7ae90ab04fa0b",
+  "@type": "saiteki:TopicNode",
+  "name": "国際的なチーム開発",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

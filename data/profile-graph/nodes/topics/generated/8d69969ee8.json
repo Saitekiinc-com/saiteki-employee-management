@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:cd153d494154342c",
+  "@type": "saiteki:TopicNode",
+  "name": "SDD × AI駆動開発フロー",
+  "topicType": "work_topic",
+  "aliases": [
+    "sdd",
+    "ai駆動開発フロー",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

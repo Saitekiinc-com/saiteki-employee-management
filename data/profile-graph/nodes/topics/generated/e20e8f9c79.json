@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:30c99e2f76b5bf52",
+  "@type": "saiteki:TopicNode",
+  "name": "セルフマネジメントプログラムの導入・推進",
+  "topicType": "interest",
+  "aliases": [
+    "セルフマネジメントプログラムの導入",
+    "推進"
+  ],
+  "generatedFrom": "employees.json"
+}

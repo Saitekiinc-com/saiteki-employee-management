@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:c5c6d4cb6d265e6d:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:d192ced27620b718",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "プロアクティブなコミュニケーションと関係構築",
+  "detailBullets": [
+    "プロアクティブなコミュニケーションと関係構築",
+    "自身のビジョンと情熱を明確に伝え、チームの士気を高めながら組織目標達成に貢献するリーダーシップを発揮する。特に、個人的な交流を通じてメンバーの一体感を醸成し、他者の成果を積極的に称賛し協力することで、新しいメンバーの円滑なオンボーディングとチームへの統合に尽力する。情報収集能力も高く、他者の疑問に対しAIを積極的に活用して貢献する。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "プロアクティブなコミュニケーションと関係構築"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "自身のビジョンと情熱を明確に伝え、チームの士気を高めながら組織目標達成に貢献するリーダーシップを発揮する。特に、個人的な交流を通じてメンバーの一体感を醸成し、他者の成果を積極的に称賛し協力することで、新しいメンバーの円滑なオンボーディングとチームへの統合に尽力する。情報収集能力も高く、他者の疑問に対しAIを積極的に活用して貢献する。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T09:01:15.189Z",
+  "updatedAt": "2026-05-18T04:18:42.770Z"
+}

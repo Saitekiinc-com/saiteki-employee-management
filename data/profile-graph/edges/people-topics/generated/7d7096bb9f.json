@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:524555dd2a73a1ff",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:戸塚直道",
+  "predicate": "INTERESTED_IN",
+  "target": "topic:auto:0f62e3131b278f80",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:7d7096bb9f0fe9ce:001"
+  ]
+}

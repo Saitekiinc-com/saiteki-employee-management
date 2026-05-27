@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:1fef5fb3a6ef0103",
+  "@type": "saiteki:TopicNode",
+  "name": "経験の共有",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

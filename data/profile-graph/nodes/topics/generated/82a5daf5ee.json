@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:5460bcc5ad525929",
+  "@type": "saiteki:TopicNode",
+  "name": "AI技術導入推進",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,34 @@
+{
+  "@id": "fact:auto:0b46c602f6df3305:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:5da3fab2496207b1",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "家族",
+  "detailBullets": [
+    "家族",
+    "5月下旬においても、専門的な総務業務に関する詳細な案内を行う一方で、個人の趣味に合わせた歓迎メッセージや、家族のユーモラスな体験の共有を通じて、人間関係の構築と心理的安全性の確保に継続して取り組んでいる。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1772085230.496209"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "家族"
+    },
+    {
+      "text": "5月下旬においても、専門的な総務業務に関する詳細な案内を行う一方で、個人の趣味に合わせた歓迎メッセージや、家族のユーモラスな体験の共有を通じて、人間関係の構築と心理的安全性の確保に継続して取り組んでいる。",
+      "sourceField": "current_state.summary"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:41:17.760Z",
+  "updatedAt": "2026-05-25T04:26:33.625Z"
+}

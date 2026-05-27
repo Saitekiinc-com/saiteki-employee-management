@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:14349e49e1d4735c",
+  "@type": "saiteki:TopicNode",
+  "name": "楽器演奏",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

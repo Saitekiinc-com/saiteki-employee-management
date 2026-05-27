@@ -1,0 +1,30 @@
+{
+  "@id": "fact:auto:a3170f773a8b109e:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:401671b6da03869c",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "京都旅行",
+  "detailBullets": [
+    "京都旅行",
+    "年末年始を通してSaitekiメンバーとの出会いに深く感謝し、2026年を「飛躍の年」と意気込んでいる。12月上旬には業務負荷が高い様子が伺えたが、それを乗り越え、現在は非常に前向きな精神状態にある。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1767657700.440699"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "京都旅行"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "年末年始を通してSaitekiメンバーとの出会いに深く感謝し、2026年を「飛躍の年」と意気込んでいる。12月上旬には業務負荷が高い様子が伺えたが、それを乗り越え、現在は非常に前向きな精神状態にある。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:28:22.503Z",
+  "updatedAt": "2026-02-11T11:48:53.611Z"
+}

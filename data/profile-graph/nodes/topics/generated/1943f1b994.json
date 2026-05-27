@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c02d288d9f1a0f55",
+  "@type": "saiteki:TopicNode",
+  "name": "オンライン飲み部",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

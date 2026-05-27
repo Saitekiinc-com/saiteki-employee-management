@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:3a7de9dafa7b331a:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:5de3a81b20cea213",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "Saitekiのビジョン達成への強いコミットメント",
+  "detailBullets": [
+    "Saitekiのビジョン達成への強いコミットメント",
+    "Saitekiのビジョンと顧客貢献に深く共感し、困難でも諦めず解決策を模索する推進力を持つ。",
+    "AI技術の学習に深くコミットし、自身でRAG構築を目標に高性能PCを導入。ゴッホ展を深く鑑賞し、原田マハの関連書籍を即座に購入するなど芸術への知的好奇心が非常に高い。長年の憧れだったチェロを始め、羊文学のライブには毎年参戦するほどの情熱を持つ。日本酒、ビール、ワインを好み、特に黒龍、作、酔鯨、浜福鶴といった銘柄を挙げる。ロイズの生チョコとアイラウイスキーの…",
+    "PoCの立ち上げフェーズでタスク分解、優先順位付け、計画策定を詳細に行い、進捗を具体的なポイントと共に共有する。AI駆動開発の標準化に向けたワークフローやガイドライン作成にも継続的に取り組む。家庭の事情が生じた際も、業務への影響を考慮し速やかに連絡を行い、柔軟に対応するなど、責任感と計画性が非常に高い。顧客に「自信を持って即答」するためには徹底した準備が必…"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1763042084.489309",
+    "primary:C09Q46YA4ER:1763048639.447159"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "Saitekiのビジョン達成への強いコミットメント"
+    },
+    {
+      "text": "Saitekiのビジョンと顧客貢献に深く共感し、困難でも諦めず解決策を模索する推進力を持つ。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "AI技術の学習に深くコミットし、自身でRAG構築を目標に高性能PCを導入。ゴッホ展を深く鑑賞し、原田マハの関連書籍を即座に購入するなど芸術への知的好奇心が非常に高い。長年の憧れだったチェロを始め、羊文学のライブには毎年参戦するほどの情熱を持つ。日本酒、ビール、ワインを好み、特に黒龍、作、酔鯨、浜福鶴といった銘柄を挙げる。ロイズの生チョコとアイラウイスキーの…",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "PoCの立ち上げフェーズでタスク分解、優先順位付け、計画策定を詳細に行い、進捗を具体的なポイントと共に共有する。AI駆動開発の標準化に向けたワークフローやガイドライン作成にも継続的に取り組む。家庭の事情が生じた際も、業務への影響を考慮し速やかに連絡を行い、柔軟に対応するなど、責任感と計画性が非常に高い。顧客に「自信を持って即答」するためには徹底した準備が必…",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:37:37.794Z",
+  "updatedAt": "2026-04-13T03:36:52.852Z"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ee95fe951788f625",
+  "@type": "saiteki:TopicNode",
+  "name": "リーダーシップ",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

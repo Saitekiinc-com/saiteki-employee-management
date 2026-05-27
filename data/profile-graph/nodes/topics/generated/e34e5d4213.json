@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:ee8f21c1eeb33f88",
+  "@type": "saiteki:TopicNode",
+  "name": "AI活用スキルと探求心",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

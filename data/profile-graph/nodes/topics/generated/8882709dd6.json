@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ff666d1b576260f3",
+  "@type": "saiteki:TopicNode",
+  "name": "自己管理能力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

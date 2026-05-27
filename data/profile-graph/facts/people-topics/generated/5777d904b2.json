@@ -1,0 +1,39 @@
+{
+  "@id": "fact:auto:98876fb0b4511f54:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:6c490f024e2ab78f",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "SESとしての立場から見た事業全体の視点",
+  "detailBullets": [
+    "SESとしての立場から見た事業全体の視点",
+    "自身のSESとしての立場を自覚しつつも、より上位のレイヤーの思考を取り入れ、組織全体の最適化に貢献しようとする強い向上心と戦略的な視点を持つ。",
+    "自身の知見を組織に還元しようとする高い意欲が伺え、現在のSESとしての経験を活かしつつ、より上位のレイヤーでの貢献を目指している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1779012745.845509"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "SESとしての立場から見た事業全体の視点"
+    },
+    {
+      "text": "自身のSESとしての立場を自覚しつつも、より上位のレイヤーの思考を取り入れ、組織全体の最適化に貢献しようとする強い向上心と戦略的な視点を持つ。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "自身の知見を組織に還元しようとする高い意欲が伺え、現在のSESとしての経験を活かしつつ、より上位のレイヤーでの貢献を目指している。",
+      "sourceField": "current_state.summary"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "自身の業務改善や知見を深めるために勉強会へ積極的に参加し、アーキテクチャの合意形成、自動化、コスト最適化といった実践的なインフラ技術とビジネス戦略の融合について集中的に学習している。自身の知見を組織に還元しようとする高い意欲が伺え、現在のSESとしての経験を活かしつつ、より上位のレイヤーでの貢献を目指している。特に、ビジネスにおけるエンジニアの役割拡大に強い関心を持ち、積極的に議論に参加している。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

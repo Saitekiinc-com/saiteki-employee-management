@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f5f6c3069f04ebea",
+  "@type": "saiteki:TopicNode",
+  "name": "旺盛な学習意欲と知識応用力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

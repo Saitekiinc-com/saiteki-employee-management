@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ccd08b2f09acb52f",
+  "@type": "saiteki:TopicNode",
+  "name": "長期的なシステム運用設計",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

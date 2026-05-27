@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:77df7483e4dd1de7:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b676c998e67f31a7",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "音楽",
+  "detailBullets": [
+    "音楽",
+    "技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。",
+    "音楽や動物など好きなものについて自然に話せること"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "音楽"
+    },
+    {
+      "text": "技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "音楽や動物など好きなものについて自然に話せること",
+      "sourceField": "values_and_motivators.motivation_triggers.3"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社前後の段階で、周囲と自然体で少しずつ関わろうとしている状態です。幅広い経験と独自の感性を持ち、技術面・創作面の両方で話題の接点を作れそうです。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

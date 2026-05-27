@@ -1,0 +1,34 @@
+{
+  "@id": "fact:auto:1842e4bfe79ba945:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:e69c94aad4752fa8",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "サポート業務",
+  "detailBullets": [
+    "サポート業務",
+    "その後、約2年ほど改修開発を経験し、直近では修正業務、サポート業務、総合テスト業務を担当していた。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771550812.233829"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "サポート業務"
+    },
+    {
+      "text": "その後、約2年ほど改修開発を経験し、直近では修正業務、サポート業務、総合テスト業務を担当していた。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社前後の新しい環境に向けて、技術面と社内コミュニケーションの両方でキャッチアップしようとしている状態です。自己認識は現実的で、周囲との交流を通じて早くなじもうとしています。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

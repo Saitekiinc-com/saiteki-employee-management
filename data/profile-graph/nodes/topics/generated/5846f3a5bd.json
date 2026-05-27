@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:94d1b6f772002a3d",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい環境で早く戦力化すること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

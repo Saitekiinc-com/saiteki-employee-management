@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0cf61069e380cf3a",
+  "@type": "saiteki:TopicNode",
+  "name": "オペレーションリーダー経験",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

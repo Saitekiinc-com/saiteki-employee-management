@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:d8b213ad7dd2cb23",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:杉本光一",
+  "predicate": "VALUES",
+  "target": "topic:auto:4caeb1a7e5a62b36",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:c14f4cf1bbd90aa7:001"
+  ]
+}

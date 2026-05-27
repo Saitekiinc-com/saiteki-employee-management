@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:1dc268b5486d5d64",
+  "@type": "saiteki:TopicNode",
+  "name": "日本酒",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

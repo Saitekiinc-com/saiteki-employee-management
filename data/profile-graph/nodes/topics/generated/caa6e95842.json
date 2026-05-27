@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f81fcc67f51762b1",
+  "@type": "saiteki:TopicNode",
+  "name": "メンバーが自律的に課題を見つけ解決する組織風土を醸成すること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

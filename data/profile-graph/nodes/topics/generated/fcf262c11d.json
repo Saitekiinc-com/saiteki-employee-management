@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:eda25859b2a8f74d",
+  "@type": "saiteki:TopicNode",
+  "name": "新しいシステムや仕組みの開拓",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:52d7abdc7ae614e5",
+  "@type": "saiteki:TopicNode",
+  "name": "AI駆動開発",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

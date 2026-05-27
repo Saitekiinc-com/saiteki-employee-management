@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:26039aeaddd1defe",
+  "@type": "saiteki:TopicNode",
+  "name": "他者からの感謝や賞賛を受け、貢献が認められること",
+  "topicType": "motivation",
+  "aliases": [
+    "他者からの感謝や賞賛を受け",
+    "貢献が認められること"
+  ],
+  "generatedFrom": "employees.json"
+}

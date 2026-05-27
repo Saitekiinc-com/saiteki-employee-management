@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:defaca6a6998c1f2:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:d04124dbb7ff0924",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "家族との交流や子育て（GWの過ごし方、こどもの国、けん玉）",
+  "detailBullets": [
+    "家族との交流や子育て（GWの過ごし方、こどもの国、けん玉）",
+    "GWの過ごし方や家族との「こどもの国」での体験、けん玉のパフォーマンス動画を撮ったことなどを躊躇なく共有する。",
+    "こどもの日に家族で「こどもの国」に行き、けん玉パフォーマンスを鑑賞・動画撮影したエピソードをチームに共有した。",
+    "こどもの日に家族で「こどもの国」に行った経験を共有し、仕事とプライベートの調和を重視していることを示した。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1778111201.195729"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "家族との交流や子育て（GWの過ごし方、こどもの国、けん玉）"
+    },
+    {
+      "text": "GWの過ごし方や家族との「こどもの国」での体験、けん玉のパフォーマンス動画を撮ったことなどを躊躇なく共有する。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "こどもの日に家族で「こどもの国」に行き、けん玉パフォーマンスを鑑賞・動画撮影したエピソードをチームに共有した。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+    },
+    {
+      "text": "こどもの日に家族で「こどもの国」に行った経験を共有し、仕事とプライベートの調和を重視していることを示した。",
+      "sourceField": "values_and_motivators.evidence_episodes.1"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:15.189Z",
+  "updatedAt": "2026-05-18T04:18:42.770Z"
+}

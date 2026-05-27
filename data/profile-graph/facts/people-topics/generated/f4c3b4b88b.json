@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:dee68a393e1d8fc4:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:7c105cb452552e26",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "協働",
+  "detailBullets": [
+    "協働",
+    "入社3ヶ月目の新人として、自己成長と周囲との協働に意欲を燃やす。",
+    "「よろしくお願いします」「ありがとうございます」といった丁寧な言葉遣いを常に心がけ、相手の趣味や経験を「かっこいいです！」「親近感が湧きました！」と称賛する。初対面の相手に対しても、一蘭のギフトカードや優待券の提供を申し出るなど、他者への配慮と好意が非常に強く感じられる。特に「山田さん、改めてよろしくお願いします！」と個人名を挙げて丁寧な挨拶を欠かさず、自…",
+    "協働意欲"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "協働"
+    },
+    {
+      "text": "入社3ヶ月目の新人として、自己成長と周囲との協働に意欲を燃やす。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "「よろしくお願いします」「ありがとうございます」といった丁寧な言葉遣いを常に心がけ、相手の趣味や経験を「かっこいいです！」「親近感が湧きました！」と称賛する。初対面の相手に対しても、一蘭のギフトカードや優待券の提供を申し出るなど、他者への配慮と好意が非常に強く感じられる。特に「山田さん、改めてよろしくお願いします！」と個人名を挙げて丁寧な挨拶を欠かさず、自…",
+      "sourceField": "personality_traits.agreeableness.evidence"
+    },
+    {
+      "text": "協働意欲",
+      "sourceField": "work_styles_and_strengths.dominant_strengths.12"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:e2ad0e96e71fb2b0:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:7521ac2432092086",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "情報共有",
+  "detailBullets": [
+    "情報共有",
+    "明確で構造化された情報発信を通じて、社員の積極的な参加と理解を促す能力に加え、細部にまで配慮したコンテンツ選定・提示を通じて、質の高い学習と情報共有の場を創出する能力に長けている。",
+    "社員のコンディション向上という課題に対し、外部プログラム導入や具体的なサポートで対応。人材獲得には、明確なインセンティブ制度を設けて社内からの紹介を促す。社内交流の希薄化には、参加ハードルの低いイベントを企画し、インクルーシブな呼びかけで解決を図る。企業ブランディングや外部への知見共有、社員の学習機会提供においては、YouTubeチャンネルや社内勉強会のア…",
+    "情報共有は明確かつ利用者のメリットを提示する形で行われるだけでなく、社内のウェルビーイング向上、会社の成長戦略、人材獲得、社内交流の活性化への貢献、そして外部への情報発信、社員への学習機会提供を積極的に促す。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "情報共有"
+    },
+    {
+      "text": "明確で構造化された情報発信を通じて、社員の積極的な参加と理解を促す能力に加え、細部にまで配慮したコンテンツ選定・提示を通じて、質の高い学習と情報共有の場を創出する能力に長けている。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "社員のコンディション向上という課題に対し、外部プログラム導入や具体的なサポートで対応。人材獲得には、明確なインセンティブ制度を設けて社内からの紹介を促す。社内交流の希薄化には、参加ハードルの低いイベントを企画し、インクルーシブな呼びかけで解決を図る。企業ブランディングや外部への知見共有、社員の学習機会提供においては、YouTubeチャンネルや社内勉強会のア…",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "text": "情報共有は明確かつ利用者のメリットを提示する形で行われるだけでなく、社内のウェルビーイング向上、会社の成長戦略、人材獲得、社内交流の活性化への貢献、そして外部への情報発信、社員への学習機会提供を積極的に促す。",
+      "sourceField": "communication_patterns.summary"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

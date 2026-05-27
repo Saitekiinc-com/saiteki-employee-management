@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:85dee343aec86c27",
+  "@type": "saiteki:TopicNode",
+  "name": "インフラ設計・構築スキル",
+  "topicType": "work_strength",
+  "aliases": [
+    "インフラ設計",
+    "構築スキル"
+  ],
+  "generatedFrom": "employees.json"
+}

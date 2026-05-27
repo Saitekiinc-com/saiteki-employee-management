@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:7956e43d0dad75aa:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:f904928f7026a7e1",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "インフラ設計・構築スキル",
+  "detailBullets": [
+    "インフラ設計・構築スキル",
+    "AWS基盤のインフラ設計・構築に高い専門性を持ちつつ、未経験技術への学習意欲が極めて高い。",
+    "入社時の自己紹介でAWS基盤のインフラ設計・構築に携わってきたことを明確に述べている。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "インフラ設計・構築スキル"
+    },
+    {
+      "text": "AWS基盤のインフラ設計・構築に高い専門性を持ちつつ、未経験技術への学習意欲が極めて高い。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "入社時の自己紹介でAWS基盤のインフラ設計・構築に携わってきたことを明確に述べている。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "AWS基盤のインフラ設計・構築に高い専門性を持ちつつ、未経験技術への学習意欲が極めて高い。責任感が強く、チームワークと自己成長を重視して業務に取り組む。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:28:22.503Z",
+  "updatedAt": "2026-02-11T11:48:53.611Z"
+}

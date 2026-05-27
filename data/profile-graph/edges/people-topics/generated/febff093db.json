@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:8ab2547be95bc8aa",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:小林翔",
+  "predicate": "VALUES",
+  "target": "topic:auto:a5c2a6495f118f80",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:febff093db336690:001"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:9a849c2e1823c942",
+  "@type": "saiteki:TopicNode",
+  "name": "探究心",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:5d19351a686d3f4e:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:719da4ec7053283f",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "人材獲得",
+  "detailBullets": [
+    "人材獲得",
+    "新しい知識や経験、会社の事業戦略、社員の心身の健康、社員間の交流、人材獲得に加え、外部へのビジネス知見共有、特に技術的な専門知識の深化と共有への探求心が旺盛で、感情表現も豊かでバランスが取れている。",
+    "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。",
+    "人材獲得には、明確なインセンティブ制度を設けて社内からの紹介を促す。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "人材獲得"
+    },
+    {
+      "text": "新しい知識や経験、会社の事業戦略、社員の心身の健康、社員間の交流、人材獲得に加え、外部へのビジネス知見共有、特に技術的な専門知識の深化と共有への探求心が旺盛で、感情表現も豊かでバランスが取れている。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "人材獲得には、明確なインセンティブ制度を設けて社内からの紹介を促す。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:60a0ef25c1cf307d",
+  "@type": "saiteki:TopicNode",
+  "name": "Neo4jなどのグラフデータベースを活用した検索ソリューションの検討",
+  "topicType": "work_topic",
+  "aliases": [
+    "neo4j"
+  ],
+  "generatedFrom": "employees.json"
+}

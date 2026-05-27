@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:d4b25eb123fd2075:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:6fc7efbc854a475e",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "合意形成",
+  "detailBullets": [
+    "合意形成",
+    "勉強会で、アーキテクチャの合意形成術、自動化の必要性、コスト最適化の主導権といった実践的なテーマについて詳細なメモを取り、深い洞察と多数の疑問点を書き出すことで、新しい知識への飽くなき探求心を示している。",
+    "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。",
+    "プロジェクトマネージャーなど上位者との合意形成について、「説得できる根拠が強くないと押し切られる」「話し合って進めていくのが最適」と認識し、建設的な議論を重視している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09QXV3F8G0:1776582552.991989",
+    "primary:C09MKT8QKAR:1778495754.522949"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "合意形成"
+    },
+    {
+      "text": "勉強会で、アーキテクチャの合意形成術、自動化の必要性、コスト最適化の主導権といった実践的なテーマについて詳細なメモを取り、深い洞察と多数の疑問点を書き出すことで、新しい知識への飽くなき探求心を示している。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "プロジェクトマネージャーなど上位者との合意形成について、「説得できる根拠が強くないと押し切られる」「話し合って進めていくのが最適」と認識し、建設的な議論を重視している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.5"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

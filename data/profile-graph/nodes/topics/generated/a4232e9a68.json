@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:1052f630b04ced56",
+  "@type": "saiteki:TopicNode",
+  "name": "引っ越し後の環境整備（荷解き、ネット開通）",
+  "topicType": "interest",
+  "aliases": [
+    "引っ越し後の環境整備",
+    "荷解き",
+    "ネット開通"
+  ],
+  "generatedFrom": "employees.json"
+}

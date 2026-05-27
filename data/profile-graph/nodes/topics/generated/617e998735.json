@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:985c75e992a31829",
+  "@type": "saiteki:TopicNode",
+  "name": "システム開発最上流工程への深い理解と重視",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

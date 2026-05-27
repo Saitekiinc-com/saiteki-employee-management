@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:8201423d75af0dc5",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:鈴木悠斗",
+  "predicate": "MOTIVATED_BY",
+  "target": "topic:auto:691ee5ecd5650fff",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "facts": [
+    "fact:auto:dc81ea87c31d218e:001"
+  ]
+}

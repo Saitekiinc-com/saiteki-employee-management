@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:70092af8e5755eec",
+  "@type": "saiteki:TopicNode",
+  "name": "アニメ",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

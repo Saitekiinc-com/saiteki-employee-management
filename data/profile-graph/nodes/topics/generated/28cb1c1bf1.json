@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d9a5f7e5bcc2fa58",
+  "@type": "saiteki:TopicNode",
+  "name": "同僚への配慮とサポート",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

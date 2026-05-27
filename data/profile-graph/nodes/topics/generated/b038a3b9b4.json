@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:938d6e61870dc34e",
+  "@type": "saiteki:TopicNode",
+  "name": "小型高性能AIモデルの動向と実用性（DeepSeek4を含む）",
+  "topicType": "work_topic",
+  "aliases": [
+    "小型高性能aiモデルの動向と実用性",
+    "deepseek4を含む",
+    "ai",
+    "deepseek4"
+  ],
+  "generatedFrom": "employees.json"
+}

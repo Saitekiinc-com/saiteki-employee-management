@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ace5e14d7b8b0519",
+  "@type": "saiteki:TopicNode",
+  "name": "参加者満足度向上",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

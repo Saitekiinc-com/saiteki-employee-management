@@ -1,0 +1,34 @@
+{
+  "@id": "fact:auto:1f84df5d811b8dc7:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:f7fcb59dd8fb226f",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "オンライン飲み部",
+  "detailBullets": [
+    "オンライン飲み部",
+    "Slackでの活発なコミュニケーションに魅力を感じると明言し、オンライン飲み部への参加意欲を示し、複数の相手に積極的に返信することで交流を楽しんでいる様子が伺える。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1770707874.213279"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "オンライン飲み部"
+    },
+    {
+      "text": "Slackでの活発なコミュニケーションに魅力を感じると明言し、オンライン飲み部への参加意欲を示し、複数の相手に積極的に返信することで交流を楽しんでいる様子が伺える。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

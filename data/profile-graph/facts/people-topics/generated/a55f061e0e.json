@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:4c9b2f312465432d:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:da4ced9f2997d1b9",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "Mac環境でのAI活用（M4 Max、GPTsoss、Mac Studioでの動作可能性）",
+  "detailBullets": [
+    "Mac環境でのAI活用（M4 Max、GPTsoss、Mac Studioでの動作可能性）",
+    "DeepSeek4などの最新の小型高性能AIモデルの動向に強い関心を示し、自身のMac M4 Max環境でGPTsossを実際に動かすなど、新しい技術を積極的に試している。",
+    "自身のMac環境でのAI動作検証や、追加コストなしで諸々動かせる「お得感」に言及するなど、実践的な視点と効率性を考慮する。",
+    "自身のMac環境でのAI利用経験を積極的に共有し、他者の質問を歓迎し、Mac Studioでの動作可能性についても具体的な見解を述べるなど、積極的に他者と関わろうとする姿勢が伺える。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1763025220.286729",
+    "primary:C09MKT8QKAR:1770597349.836969"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "Mac環境でのAI活用（M4 Max、GPTsoss、Mac Studioでの動作可能性）"
+    },
+    {
+      "text": "DeepSeek4などの最新の小型高性能AIモデルの動向に強い関心を示し、自身のMac M4 Max環境でGPTsossを実際に動かすなど、新しい技術を積極的に試している。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "自身のMac環境でのAI動作検証や、追加コストなしで諸々動かせる「お得感」に言及するなど、実践的な視点と効率性を考慮する。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "自身のMac環境でのAI利用経験を積極的に共有し、他者の質問を歓迎し、Mac Studioでの動作可能性についても具体的な見解を述べるなど、積極的に他者と関わろうとする姿勢が伺える。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:51:41.558Z",
+  "updatedAt": "2026-02-16T02:50:35.790Z"
+}

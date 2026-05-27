@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:691ee5ecd5650fff",
+  "@type": "saiteki:TopicNode",
+  "name": "ポジティブで協力的な職場環境の維持",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

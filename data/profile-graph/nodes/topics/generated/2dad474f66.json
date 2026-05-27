@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b94ffc96d52a6731",
+  "@type": "saiteki:TopicNode",
+  "name": "周囲からの感謝や肯定的な反応",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

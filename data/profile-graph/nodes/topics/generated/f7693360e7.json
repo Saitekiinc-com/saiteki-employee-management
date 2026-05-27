@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:da41884f04a608d8",
+  "@type": "saiteki:TopicNode",
+  "name": "一体感",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

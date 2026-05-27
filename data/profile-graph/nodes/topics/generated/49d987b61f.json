@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6d892707ad7e0894",
+  "@type": "saiteki:TopicNode",
+  "name": "企業ブランディング",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3bcf8f77a04fa887",
+  "@type": "saiteki:TopicNode",
+  "name": "チーム内の深い対話と協調",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

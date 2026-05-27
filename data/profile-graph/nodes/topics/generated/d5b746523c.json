@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:a338bce37d7a11a4",
+  "@type": "saiteki:TopicNode",
+  "name": "変革志向",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

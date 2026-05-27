@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:7eca9b7182e011c4",
+  "@type": "saiteki:TopicNode",
+  "name": "イベント企画・運営",
+  "topicType": "work_strength",
+  "aliases": [
+    "イベント企画",
+    "運営"
+  ],
+  "generatedFrom": "employees.json"
+}

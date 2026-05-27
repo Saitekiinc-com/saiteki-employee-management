@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:e7f7486de1df9482",
+  "@type": "saiteki:TopicNode",
+  "name": "他者の努力や成果を認め、称賛すること",
+  "topicType": "motivation",
+  "aliases": [
+    "他者の努力や成果を認め",
+    "称賛すること"
+  ],
+  "generatedFrom": "employees.json"
+}

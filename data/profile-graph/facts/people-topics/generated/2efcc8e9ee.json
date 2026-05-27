@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:c3e9853f157d91d9:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:5f073e952aebfa7b",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "自身の役割を「M&A戦略の推進」や「高難易度な受託案件の獲得」へシフトすること",
+  "detailBullets": [
+    "自身の役割を「M&A戦略の推進」や「高難易度な受託案件の獲得」へシフトすること",
+    "自身はM&A戦略推進や高難易度な受託案件の獲得といった新たな領域に挑戦する姿勢を見せる。",
+    "組織の急拡大期には、頼れる幹部メンバーへの権限委譲を通じて自身の役割をM&A戦略推進や高難易度案件獲得といったトップにしかできない難題の突破に集中させる。",
+    "M&A戦略の推進"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1779596348.176379"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "自身の役割を「M&A戦略の推進」や「高難易度な受託案件の獲得」へシフトすること"
+    },
+    {
+      "text": "自身はM&A戦略推進や高難易度な受託案件の獲得といった新たな領域に挑戦する姿勢を見せる。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "組織の急拡大期には、頼れる幹部メンバーへの権限委譲を通じて自身の役割をM&A戦略推進や高難易度案件獲得といったトップにしかできない難題の突破に集中させる。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "text": "M&A戦略の推進",
+      "sourceField": "values_and_motivators.core_values.25"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

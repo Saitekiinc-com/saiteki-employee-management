@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ee889374720b81d1",
+  "@type": "saiteki:TopicNode",
+  "name": "複雑な概念の深い理解",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:34385df7e3fda0f2",
+  "@type": "saiteki:TopicNode",
+  "name": "知識の社会還元",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

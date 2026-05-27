@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:50070856973febc7:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:1426fcee09d38d30",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "音楽",
+  "detailBullets": [
+    "音楽",
+    "AIを使った学習や音楽制作にも関心が高く、成長実感を大切にしながら前向きにキャッチアップする人物です。",
+    "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+    "自己紹介で経歴や趣味をオープンに共有し、大食いチャレンジや音楽の話題など、周囲が反応しやすい話題を自然に出している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771850944.221989"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "音楽"
+    },
+    {
+      "text": "AIを使った学習や音楽制作にも関心が高く、成長実感を大切にしながら前向きにキャッチアップする人物です。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "自己紹介で経歴や趣味をオープンに共有し、大食いチャレンジや音楽の話題など、周囲が反応しやすい話題を自然に出している。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

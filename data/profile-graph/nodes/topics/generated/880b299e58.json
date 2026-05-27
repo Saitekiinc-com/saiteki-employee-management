@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:8a1866cce3b429ad",
+  "@type": "saiteki:TopicNode",
+  "name": "自律的な行動と役割の拡張",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

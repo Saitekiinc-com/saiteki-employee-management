@@ -1,0 +1,31 @@
+{
+  "@id": "fact:auto:5765b639ff0e2c03:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:de2dec35de901642",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "AI技術の業務適用能力と実践力",
+  "detailBullets": [
+    "AI技術の業務適用能力と実践力",
+    "QAエンジニアとしての経験に基づき、AI技術を積極的に業務プロセスに取り入れ、効率的かつ戦略的な改善を推進する。情報共有を重視し、自律的にタスクを遂行しながら常に最適化を追求する。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1763622223.528399",
+    "primary:C09Q46YA4ER:1763630204.164709"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "AI技術の業務適用能力と実践力"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "QAエンジニアとしての経験に基づき、AI技術を積極的に業務プロセスに取り入れ、効率的かつ戦略的な改善を推進する。情報共有を重視し、自律的にタスクを遂行しながら常に最適化を追求する。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:37:53.189Z",
+  "updatedAt": "2026-03-02T02:43:53.875Z"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:41d2977f6134fc6a",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の知識共有がチームや後進の成長に貢献できたという実感",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

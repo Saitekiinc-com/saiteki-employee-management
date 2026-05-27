@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:dc5fd1745f02d534",
+  "@type": "saiteki:TopicNode",
+  "name": "Claude Code / Cursor",
+  "topicType": "work_topic",
+  "aliases": [
+    "claude",
+    "code",
+    "cursor"
+  ],
+  "generatedFrom": "employees.json"
+}

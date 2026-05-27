@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:efee769467e2106c",
+  "@type": "saiteki:TopicNode",
+  "name": "厳選採用によるカルチャー維持",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

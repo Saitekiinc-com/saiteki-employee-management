@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:63f8e05fdca18447",
+  "@type": "saiteki:TopicNode",
+  "name": "DX推進",
+  "topicType": "work_strength",
+  "aliases": [
+    "dx"
+  ],
+  "generatedFrom": "employees.json"
+}

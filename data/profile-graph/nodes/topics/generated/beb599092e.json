@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:dcf55ebf86ec92d5",
+  "@type": "saiteki:TopicNode",
+  "name": "現場理解",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

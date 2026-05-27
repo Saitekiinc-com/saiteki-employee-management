@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:d3cb8861b6187570",
+  "@type": "saiteki:TopicNode",
+  "name": "「Letter of T」を通じて自身の哲学や経験がメンバーに伝わり、組織の成長に貢献すること",
+  "topicType": "motivation",
+  "aliases": [
+    "letter",
+    "of",
+    "を通じて自身の哲学や経験がメンバーに伝わり",
+    "組織の成長に貢献すること"
+  ],
+  "generatedFrom": "employees.json"
+}

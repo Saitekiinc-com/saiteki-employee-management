@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:86f504f4dc41fae0:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:91aaebf7586cce1c",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "効率性",
+  "detailBullets": [
+    "効率性",
+    "自身のMac環境でのAI動作検証や、追加コストなしで諸々動かせる「お得感」に言及するなど、実践的な視点と効率性を考慮する。",
+    "異文化交流や旅、効率性も重要な要素。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "効率性"
+    },
+    {
+      "text": "自身のMac環境でのAI動作検証や、追加コストなしで諸々動かせる「お得感」に言及するなど、実践的な視点と効率性を考慮する。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "異文化交流や旅、効率性も重要な要素。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "新しい技術の探求とその実践的な活用を通じて社会に貢献することに価値を見出す。アウトプットと共創を重視し、常に自己成長と具体的な成果を追求する。異文化交流や旅、効率性も重要な要素。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:51:41.558Z",
+  "updatedAt": "2026-02-16T02:50:35.790Z"
+}

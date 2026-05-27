@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:a8270b522b3dc998",
+  "@type": "saiteki:TopicNode",
+  "name": "ビジネス戦略と技術的判断の融合（特に上位レイヤーの思考）",
+  "topicType": "work_topic",
+  "aliases": [
+    "ビジネス戦略と技術的判断の融合",
+    "特に上位レイヤーの思考"
+  ],
+  "generatedFrom": "employees.json"
+}

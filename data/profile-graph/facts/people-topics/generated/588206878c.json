@@ -1,0 +1,39 @@
+{
+  "@id": "fact:auto:53d7e82e80b46de6:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:256f66d2551a934b",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "Slerとコンサルティングファームのポジション",
+  "detailBullets": [
+    "Slerとコンサルティングファームのポジション",
+    "「Slerとコンサルティングファームができないポジション」に関する過去の会話を記憶しており、専門的なレターの内容を一度では理解できなかった際も、「もう一回その視点を持って読んでみます！",
+    "「Slerとコンサルティングファームができないポジション」について、過去の会話内容を正確に記憶し、専門的なレターを一度で理解できなかった際にも、「もう一回その視点を持って読んでみます！"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1774340612.197969"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "Slerとコンサルティングファームのポジション"
+    },
+    {
+      "text": "「Slerとコンサルティングファームができないポジション」に関する過去の会話を記憶しており、専門的なレターの内容を一度では理解できなかった際も、「もう一回その視点を持って読んでみます！",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.13"
+    },
+    {
+      "text": "「Slerとコンサルティングファームができないポジション」について、過去の会話内容を正確に記憶し、専門的なレターを一度で理解できなかった際にも、「もう一回その視点を持って読んでみます！",
+      "sourceField": "values_and_motivators.evidence_episodes.12"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社3ヶ月目の新入社員として、新しい環境への適応と人間関係の構築に積極的に取り組んでいる。自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。専門的な学習だけでなく、趣味を通じた交流にも意欲的である。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

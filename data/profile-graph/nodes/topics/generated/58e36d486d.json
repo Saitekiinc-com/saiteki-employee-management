@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:35287af1a3ebe95c",
+  "@type": "saiteki:TopicNode",
+  "name": "音楽や動物など好きなものについて自然に話せること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

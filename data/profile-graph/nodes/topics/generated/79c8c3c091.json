@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:9ebe344730f1d440",
+  "@type": "saiteki:TopicNode",
+  "name": "継続可能性（サスティナビリティ）",
+  "topicType": "interest",
+  "aliases": [
+    "継続可能性",
+    "サスティナビリティ"
+  ],
+  "generatedFrom": "employees.json"
+}

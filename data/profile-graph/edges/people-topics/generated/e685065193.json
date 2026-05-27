@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:9ff52fbfd9cf7335",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:八木橋 雄一",
+  "predicate": "VALUES",
+  "target": "topic:auto:1da24b1df9792caf",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "facts": [
+    "fact:auto:e6850651938c6422:001"
+  ]
+}

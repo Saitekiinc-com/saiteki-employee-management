@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:003e4aed5cfd18a8",
+  "@type": "saiteki:TopicNode",
+  "name": "本社オフィスの利用促進",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

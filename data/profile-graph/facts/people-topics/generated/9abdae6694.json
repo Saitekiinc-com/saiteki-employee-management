@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:b271f31e67946857:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:65d36906863c3cb4",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "小型高性能AIモデルの動向と実用性（DeepSeek4を含む）",
+  "detailBullets": [
+    "小型高性能AIモデルの動向と実用性（DeepSeek4を含む）",
+    "DeepSeek4などの最新の小型高性能AIモデルの動向に強い関心を示し、自身のMac M4 Max環境でGPTsossを実際に動かすなど、新しい技術を積極的に試している。",
+    "DeepSeek4などの小型高性能モデルの動向に注目し、追加コストなしで利用できるメリットを強調、Mac StudioでのAI利用についても過去の事例を挙げて肯定的な見解を示している。",
+    "Mac M4 MaxでのGPTsoss動作やDeepSeek4など小型高性能AIモデルの動向に注目し、自身の環境での実践に意欲的である。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1763025220.286729",
+    "primary:C09MKT8QKAR:1770597349.836969"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "小型高性能AIモデルの動向と実用性（DeepSeek4を含む）"
+    },
+    {
+      "text": "DeepSeek4などの最新の小型高性能AIモデルの動向に強い関心を示し、自身のMac M4 Max環境でGPTsossを実際に動かすなど、新しい技術を積極的に試している。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "DeepSeek4などの小型高性能モデルの動向に注目し、追加コストなしで利用できるメリットを強調、Mac StudioでのAI利用についても過去の事例を挙げて肯定的な見解を示している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.5"
+    },
+    {
+      "text": "Mac M4 MaxでのGPTsoss動作やDeepSeek4など小型高性能AIモデルの動向に注目し、自身の環境での実践に意欲的である。",
+      "sourceField": "values_and_motivators.evidence_episodes.3"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:51:41.558Z",
+  "updatedAt": "2026-02-16T02:50:35.790Z"
+}

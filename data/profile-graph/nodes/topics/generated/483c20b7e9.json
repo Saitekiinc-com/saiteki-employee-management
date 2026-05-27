@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:d6b568c2c73a58ae",
+  "@type": "saiteki:TopicNode",
+  "name": "顧客からの肯定的なフィードバックとプロジェクトの成功、顧客から信頼を得ること",
+  "topicType": "motivation",
+  "aliases": [
+    "顧客からの肯定的なフィードバックとプロジェクトの成功",
+    "顧客から信頼を得ること"
+  ],
+  "generatedFrom": "employees.json"
+}

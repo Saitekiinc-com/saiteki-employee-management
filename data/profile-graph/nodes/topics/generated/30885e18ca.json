@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6f658c0312d4201c",
+  "@type": "saiteki:TopicNode",
+  "name": "自己開示力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

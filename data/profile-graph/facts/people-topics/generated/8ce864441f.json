@@ -1,0 +1,35 @@
+{
+  "@id": "fact:auto:30badfe00d30dfde:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:1d7bfd0a44638eb5",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "SDD × AI駆動開発フロー",
+  "detailBullets": [
+    "SDD × AI駆動開発フロー",
+    "自社AI顧問による「AIニュースレポート」を全社に共有し、特にAI駆動開発関連のトピック（Claude Code / Cursorの動向、MCP・AIエージェント活用、SDD × AI駆動開発フローなど）を具体的に挙げることで、社員の最先端技術への関心を高め、学習を促している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1770373170.127379",
+    "primary:C09MKT8QKAR:1772700667.770829"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "SDD × AI駆動開発フロー"
+    },
+    {
+      "text": "自社AI顧問による「AIニュースレポート」を全社に共有し、特にAI駆動開発関連のトピック（Claude Code / Cursorの動向、MCP・AIエージェント活用、SDD × AI駆動開発フローなど）を具体的に挙げることで、社員の最先端技術への関心を高め、学習を促している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.4"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。明確で構造化された情報発信を通じて、社員の積極的な参加と理解を促す能力に加え、細部にまで配慮したコンテンツ選定・提示を通じて、質の高い学習と情報共有の場を創出する能力に長けている。特に、技術的課題と事業的…"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

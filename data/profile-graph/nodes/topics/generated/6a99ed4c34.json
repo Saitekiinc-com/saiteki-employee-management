@@ -1,0 +1,16 @@
+{
+  "@id": "topic:auto:80068c3387a57370",
+  "@type": "saiteki:TopicNode",
+  "name": "上場SIer社長から学んだAI戦略、営業ハック、プロの「準備」、ホスピタリティ",
+  "topicType": "work_topic",
+  "aliases": [
+    "上場sier社長から学んだai戦略",
+    "営業ハック",
+    "プロの",
+    "準備",
+    "ホスピタリティ",
+    "sier",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

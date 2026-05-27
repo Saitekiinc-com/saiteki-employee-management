@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:bfa5d878a5d877d3",
+  "@type": "saiteki:TopicNode",
+  "name": "現実と理想のギャップ埋め",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

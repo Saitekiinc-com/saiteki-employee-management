@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b43612602c22a03d",
+  "@type": "saiteki:TopicNode",
+  "name": "親しみやすいコミュニケーション",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

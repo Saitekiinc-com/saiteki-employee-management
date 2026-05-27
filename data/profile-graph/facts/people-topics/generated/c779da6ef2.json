@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:9f77f1ae49f459e0:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:f0e9fe2dddccaf00",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "AI（Letter of T, カスタムチューニング）によるS級人材モデル構築と継続的な運用（ペアデータ、毎週更新）",
+  "detailBullets": [
+    "AI（Letter of T, カスタムチューニング）によるS級人材モデル構築と継続的な運用（ペアデータ、毎週更新）",
+    "新しいAI技術（Letter of T）を使ったS級人材モデル構築の可能性を探求し、課題と視点からペアデータによるチューニング、毎週更新という具体的なアイデアを出すなど、技術トレンドへの深い洞察と革新的な発想力を持つ。",
+    "AI活用における「なんとなく必要」といった表面的なアプローチに警鐘を鳴らし、「なぜ」を深く掘り下げることで本質的な課題解決を促す。サブエージェントの運用では、計画書を作成し複数の作業割り振りを明確にすることで、プロジェクトの不確実性を管理し、円滑な進行を可能にしている。個人の状況変化（育児による稼働制約）が業務に与える影響を認識し、その解決策として早朝の稼…",
+    "Letter of Tを用いたS級人材モデル構築の可能性を探り、課題と視点からペアデータによるチューニング、毎週更新という具体的な運用イメージを構想した。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q1KNL2P8:1762492758.727199",
+    "primary:C09Q46YA4ER:1763036519.623049"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "AI（Letter of T, カスタムチューニング）によるS級人材モデル構築と継続的な運用（ペアデータ、毎週更新）"
+    },
+    {
+      "text": "新しいAI技術（Letter of T）を使ったS級人材モデル構築の可能性を探求し、課題と視点からペアデータによるチューニング、毎週更新という具体的なアイデアを出すなど、技術トレンドへの深い洞察と革新的な発想力を持つ。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "AI活用における「なんとなく必要」といった表面的なアプローチに警鐘を鳴らし、「なぜ」を深く掘り下げることで本質的な課題解決を促す。サブエージェントの運用では、計画書を作成し複数の作業割り振りを明確にすることで、プロジェクトの不確実性を管理し、円滑な進行を可能にしている。個人の状況変化（育児による稼働制約）が業務に与える影響を認識し、その解決策として早朝の稼…",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "text": "Letter of Tを用いたS級人材モデル構築の可能性を探り、課題と視点からペアデータによるチューニング、毎週更新という具体的な運用イメージを構想した。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:03:13.056Z",
+  "updatedAt": "2026-05-25T04:24:40.350Z"
+}

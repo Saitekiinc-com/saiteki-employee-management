@@ -1,0 +1,31 @@
+{
+  "@id": "fact:auto:eec546671c8b9687:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:3d7c2f38d30df68a",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "AIエージェントによる業務の効率化と品質向上",
+  "detailBullets": [
+    "AIエージェントによる業務の効率化と品質向上",
+    "最新AI技術への探求心に加えて、その本質的な意味と人間社会・組織への影響を深く考察し、人間中心の価値創造と組織文化の変革に最大の喜びを見出す。特に、ゼロから新しい仕組みやシステムを開拓し、形にしていくプロセスに強いモチベーションを感じる。全社的なAI活用ガイドライン『Saiteki AI Standard』の策定を通じて、AI時代における「なぜ」を追求する…"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q1KNL2P8:1762492758.727199",
+    "primary:C09Q46YA4ER:1763036519.623049"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "AIエージェントによる業務の効率化と品質向上"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "最新AI技術への探求心に加えて、その本質的な意味と人間社会・組織への影響を深く考察し、人間中心の価値創造と組織文化の変革に最大の喜びを見出す。特に、ゼロから新しい仕組みやシステムを開拓し、形にしていくプロセスに強いモチベーションを感じる。全社的なAI活用ガイドライン『Saiteki AI Standard』の策定を通じて、AI時代における「なぜ」を追求する知的好奇心と、チーム内の深い対話を通じた課題解決、そして組織全体の知の活用と成長…"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:03:13.056Z",
+  "updatedAt": "2026-05-25T04:24:40.350Z"
+}

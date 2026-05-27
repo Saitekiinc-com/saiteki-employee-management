@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:df624216392638c3",
+  "@type": "saiteki:TopicNode",
+  "name": "組織全体がAI時代に合わせた思考様式と働き方に変革していく過程",
+  "topicType": "motivation",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

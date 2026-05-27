@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:1fb91f1d21538388",
+  "@type": "saiteki:TopicNode",
+  "name": "データ分析スキルを活かし、論理的な思考で現状を把握し問題解決に取り組むアプローチを取ります。",
+  "topicType": "work_style",
+  "aliases": [
+    "データ分析スキルを活かし",
+    "論理的な思考で現状を把握し問題解決に取り組むアプローチを取ります"
+  ],
+  "generatedFrom": "employees.json"
+}

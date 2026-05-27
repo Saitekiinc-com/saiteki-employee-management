@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:a857c08332e16b32",
+  "@type": "saiteki:TopicNode",
+  "name": "開発プロセス全体（要件定義〜実装）への深い知見と標準化への貢献",
+  "topicType": "work_strength",
+  "aliases": [
+    "開発プロセス全体",
+    "要件定義〜実装",
+    "への深い知見と標準化への貢献"
+  ],
+  "generatedFrom": "employees.json"
+}

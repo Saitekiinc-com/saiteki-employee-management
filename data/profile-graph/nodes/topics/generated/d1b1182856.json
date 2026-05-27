@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6be883b43880e8ba",
+  "@type": "saiteki:TopicNode",
+  "name": "コミュニケーション能力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

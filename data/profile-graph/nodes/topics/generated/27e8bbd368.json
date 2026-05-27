@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:2397419006f959d0",
+  "@type": "saiteki:TopicNode",
+  "name": "顧客満足と貢献（特に顧客への安心感提供と信頼構築）",
+  "topicType": "value",
+  "aliases": [
+    "顧客満足と貢献",
+    "特に顧客への安心感提供と信頼構築"
+  ],
+  "generatedFrom": "employees.json"
+}

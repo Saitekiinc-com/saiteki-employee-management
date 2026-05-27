@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c4063a47ffb79158",
+  "@type": "saiteki:TopicNode",
+  "name": "自己挑戦",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

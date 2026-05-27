@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:b5be36a82dd07b11:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:3bc1644f65abdda0",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "健康的な食生活と自己管理",
+  "detailBullets": [
+    "健康的な食生活と自己管理",
+    "直近では、理想の組織像への強い期待と、社内懇親会や本社オフィス訪問を通じた積極的な交流が際立っています。個人の健康管理にも意識が高く、食生活の見直しを検討するなど、自己改善に前向きです。全体的に、前向きで社交的、かつ知的好奇心に溢れた状態が見受けられます。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "健康的な食生活と自己管理"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "直近では、理想の組織像への強い期待と、社内懇親会や本社オフィス訪問を通じた積極的な交流が際立っています。個人の健康管理にも意識が高く、食生活の見直しを検討するなど、自己改善に前向きです。全体的に、前向きで社交的、かつ知的好奇心に溢れた状態が見受けられます。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:46.998Z",
+  "updatedAt": "2026-05-25T04:25:29.126Z"
+}

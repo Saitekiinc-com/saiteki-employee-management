@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:67c643da84e5068b:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:565cc61a18bd076f",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "貢献",
+  "detailBullets": [
+    "貢献",
+    "福岡在住で家族を大切にし、高い責任感と協調性でSaitekiへの貢献とメンバーとの交流を積極的に図る人物。",
+    "組織への貢献意欲とSaitekiの一員であることへの誇り、メンバーとの交流を非常に重視している。",
+    "チームへの貢献"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "貢献"
+    },
+    {
+      "text": "福岡在住で家族を大切にし、高い責任感と協調性でSaitekiへの貢献とメンバーとの交流を積極的に図る人物。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "組織への貢献意欲とSaitekiの一員であることへの誇り、メンバーとの交流を非常に重視している。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "チームへの貢献",
+      "sourceField": "values_and_motivators.motivation_triggers.1"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:28:22.503Z",
+  "updatedAt": "2026-02-11T11:48:53.611Z"
+}

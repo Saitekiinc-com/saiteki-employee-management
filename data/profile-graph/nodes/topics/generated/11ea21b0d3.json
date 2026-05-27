@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0ae0c6e96a48af53",
+  "@type": "saiteki:TopicNode",
+  "name": "健康維持",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

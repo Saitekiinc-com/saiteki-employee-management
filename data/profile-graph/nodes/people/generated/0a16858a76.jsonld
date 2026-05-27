@@ -1,0 +1,5 @@
+{
+  "@id": "person:小林翔",
+  "@type": "saiteki:PersonNode",
+  "name": "小林翔"
+}

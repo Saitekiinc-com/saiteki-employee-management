@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:aceff1be63f3598f:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:7bf35d6b67c91f47",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "幹部メンバーに組織の背中を預け、自身がトップにしかできない高難度な戦略的課題（M&A、高難度案件）に集中できること",
+  "detailBullets": [
+    "幹部メンバーに組織の背中を預け、自身がトップにしかできない高難度な戦略的課題（M&A、高難度案件）に集中できること",
+    "急速な組織拡大期において、「準備が9割」の哲学と厳選採用でカルチャーを維持しつつ、幹部への権限委譲を進め、自身はM&Aや高難度案件獲得といった戦略的課題に注力。",
+    "自身はM&A戦略推進や高難易度な受託案件の獲得といった新たな領域に挑戦する姿勢を見せる。",
+    "幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1762670380.655439",
+    "primary:C09Q46YA4ER:1762691774.461429"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "幹部メンバーに組織の背中を預け、自身がトップにしかできない高難度な戦略的課題（M&A、高難度案件）に集中できること"
+    },
+    {
+      "text": "急速な組織拡大期において、「準備が9割」の哲学と厳選採用でカルチャーを維持しつつ、幹部への権限委譲を進め、自身はM&Aや高難度案件獲得といった戦略的課題に注力。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "自身はM&A戦略推進や高難易度な受託案件の獲得といった新たな領域に挑戦する姿勢を見せる。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。",
+      "sourceField": "work_styles_and_strengths.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

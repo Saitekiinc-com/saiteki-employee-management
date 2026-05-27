@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:f65027ac68af476c",
+  "@type": "saiteki:TopicNode",
+  "name": "YouTubeコンテンツプロモーション",
+  "topicType": "interest",
+  "aliases": [
+    "youtube"
+  ],
+  "generatedFrom": "employees.json"
+}

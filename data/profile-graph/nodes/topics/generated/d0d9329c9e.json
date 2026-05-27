@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d20dc7565cf7912a",
+  "@type": "saiteki:TopicNode",
+  "name": "長期的な活躍",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

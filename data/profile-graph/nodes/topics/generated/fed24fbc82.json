@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:977cc68ae454040e",
+  "@type": "saiteki:TopicNode",
+  "name": "テスト・品質管理経験",
+  "topicType": "work_strength",
+  "aliases": [
+    "テスト",
+    "品質管理経験"
+  ],
+  "generatedFrom": "employees.json"
+}

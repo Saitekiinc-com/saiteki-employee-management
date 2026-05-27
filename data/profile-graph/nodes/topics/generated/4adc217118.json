@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:cad2341e84ca5208",
+  "@type": "saiteki:TopicNode",
+  "name": "チームメンバーとの協働によるシステム開発",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

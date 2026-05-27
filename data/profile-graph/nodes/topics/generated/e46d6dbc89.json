@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ba8f9f18ceef8481",
+  "@type": "saiteki:TopicNode",
+  "name": "技術領域を横断する経験",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

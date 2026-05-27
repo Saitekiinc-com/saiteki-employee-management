@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b2ca82a20ec5c56c",
+  "@type": "saiteki:TopicNode",
+  "name": "ネットワーキング",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

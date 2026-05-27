@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6cda2fda97663cb7",
+  "@type": "saiteki:TopicNode",
+  "name": "人材の成長とサポート",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

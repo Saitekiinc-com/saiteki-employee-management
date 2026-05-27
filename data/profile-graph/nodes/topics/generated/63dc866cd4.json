@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:bbbfd787e752dd56",
+  "@type": "saiteki:TopicNode",
+  "name": "企業文化構築",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

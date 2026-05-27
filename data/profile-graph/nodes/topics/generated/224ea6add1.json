@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:849b5323329d5b48",
+  "@type": "saiteki:TopicNode",
+  "name": "AI活用",
+  "topicType": "value",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

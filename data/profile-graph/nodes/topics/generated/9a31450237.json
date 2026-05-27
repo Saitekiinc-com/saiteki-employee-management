@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f808c5a7d7946fde",
+  "@type": "saiteki:TopicNode",
+  "name": "経営層への貢献",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

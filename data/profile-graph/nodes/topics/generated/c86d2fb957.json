@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:c51f35139aea4d1e",
+  "@type": "saiteki:TopicNode",
+  "name": "顧客との泥臭い対話",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:921c044837c19bcf",
+  "@type": "saiteki:TopicNode",
+  "name": "内部プロセス改善",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,14 @@
+{
+  "@id": "topic:auto:c27f9ae429b53f32",
+  "@type": "saiteki:TopicNode",
+  "name": "Saiteki AI Standardの策定と公開、およびAI活用の本質的な哲学",
+  "topicType": "work_topic",
+  "aliases": [
+    "saiteki",
+    "ai",
+    "standardの策定と公開",
+    "およびai活用の本質的な哲学",
+    "standard"
+  ],
+  "generatedFrom": "employees.json"
+}

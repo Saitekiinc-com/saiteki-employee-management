@@ -1,0 +1,14 @@
+{
+  "@id": "topic:auto:3c4762b684471c08",
+  "@type": "saiteki:TopicNode",
+  "name": "組織・チームへの貢献 (ナレッジ共有、業務効率化、コミュニケーション改善)",
+  "topicType": "value",
+  "aliases": [
+    "組織",
+    "チームへの貢献",
+    "ナレッジ共有",
+    "業務効率化",
+    "コミュニケーション改善"
+  ],
+  "generatedFrom": "employees.json"
+}

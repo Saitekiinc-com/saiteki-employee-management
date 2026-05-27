@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:ea1bc80ffef7905e",
+  "@type": "saiteki:TopicNode",
+  "name": "自身の健康管理を適切に行い、自己改善に取り組むこと",
+  "topicType": "motivation",
+  "aliases": [
+    "自身の健康管理を適切に行い",
+    "自己改善に取り組むこと"
+  ],
+  "generatedFrom": "employees.json"
+}

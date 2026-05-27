@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b89c7b64e635b875",
+  "@type": "saiteki:TopicNode",
+  "name": "マッサージ巡り",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

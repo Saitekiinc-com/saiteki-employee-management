@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:53f57fffdb24564e:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:8a895c3e06ed934a",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "家族",
+  "detailBullets": [
+    "家族",
+    "福岡在住で家族を大切にし、高い責任感と協調性でSaitekiへの貢献とメンバーとの交流を積極的に図る人物。",
+    "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。",
+    "自己紹介で「家族とドライブに行ったり、子どもと遊んだり、妻をガチャガチャ屋さんに連れて行ったり」と休日の過ごし方を共有し、家族との時間を大切にしている様子が伺える。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1762130432.688849"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "家族"
+    },
+    {
+      "text": "福岡在住で家族を大切にし、高い責任感と協調性でSaitekiへの貢献とメンバーとの交流を積極的に図る人物。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "自己紹介で「家族とドライブに行ったり、子どもと遊んだり、妻をガチャガチャ屋さんに連れて行ったり」と休日の過ごし方を共有し、家族との時間を大切にしている様子が伺える。",
+      "sourceField": "values_and_motivators.evidence_episodes.0"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:28:22.503Z",
+  "updatedAt": "2026-02-11T11:48:53.611Z"
+}

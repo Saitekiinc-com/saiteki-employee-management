@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:21fe7a04a22b298f",
+  "@type": "saiteki:TopicNode",
+  "name": "準備の徹底",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

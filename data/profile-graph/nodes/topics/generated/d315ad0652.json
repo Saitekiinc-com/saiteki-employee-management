@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:d748d0e3e8c1fef9",
+  "@type": "saiteki:TopicNode",
+  "name": "チーム立ち上げ・品質改善（レビューを通じた貢献）",
+  "topicType": "work_strength",
+  "aliases": [
+    "チーム立ち上げ",
+    "品質改善",
+    "レビューを通じた貢献"
+  ],
+  "generatedFrom": "employees.json"
+}

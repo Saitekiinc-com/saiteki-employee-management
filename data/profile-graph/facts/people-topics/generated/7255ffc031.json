@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:d6767ab410b253e3:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:9350b08edd25a430",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "半年前5人から35人（業務委託含め55人）への組織の急拡大",
+  "detailBullets": [
+    "半年前5人から35人（業務委託含め55人）への組織の急拡大",
+    "半年前5人だった正社員が35人（業務委託含め55人）規模への急拡大期に、関東在住メンバー9割参加の懇親会を成功させ、オフィスに溢れんばかりの人々を見て感無量となる。",
+    "半年前5人だった正社員が35人、業務委託含め55人規模へ急拡大する中で、内定率10%という厳選採用で「人柄の良さ」と「最高のカルチャー」を維持していることを共有した。",
+    "半年前5人だった正社員が35人（業務委託含め55人）規模へ急拡大したことを「歴史が変わる瞬間」と捉え、喜びと高揚感を共有した。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09N28KTKL1:1771582371.246069",
+    "primary:C09MKT8QKAR:1779596348.176379"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "半年前5人から35人（業務委託含め55人）への組織の急拡大"
+    },
+    {
+      "text": "半年前5人だった正社員が35人（業務委託含め55人）規模への急拡大期に、関東在住メンバー9割参加の懇親会を成功させ、オフィスに溢れんばかりの人々を見て感無量となる。",
+      "sourceField": "personality_traits.extraversion.evidence"
+    },
+    {
+      "text": "半年前5人だった正社員が35人、業務委託含め55人規模へ急拡大する中で、内定率10%という厳選採用で「人柄の良さ」と「最高のカルチャー」を維持していることを共有した。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+    },
+    {
+      "text": "半年前5人だった正社員が35人（業務委託含め55人）規模へ急拡大したことを「歴史が変わる瞬間」と捉え、喜びと高揚感を共有した。",
+      "sourceField": "values_and_motivators.evidence_episodes.0"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

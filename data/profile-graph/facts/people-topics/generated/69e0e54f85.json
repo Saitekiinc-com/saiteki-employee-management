@@ -1,0 +1,31 @@
+{
+  "@id": "fact:auto:521149d7ae112dc2:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:5a545e7ea426e83c",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "新しい技術の導入と実践（特にAI）",
+  "detailBullets": [
+    "新しい技術の導入と実践（特にAI）",
+    "新しい技術（AI）の積極的な探求と業務への適用、プロセス全体の効率化と品質向上に強い意欲を持つ。チームへの貢献意識も高く、情報共有や意見交換を通じて成果を最大化しようとする。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1763622223.528399",
+    "primary:C09Q46YA4ER:1763630204.164709"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "新しい技術の導入と実践（特にAI）"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "新しい技術（AI）の積極的な探求と業務への適用、プロセス全体の効率化と品質向上に強い意欲を持つ。チームへの貢献意識も高く、情報共有や意見交換を通じて成果を最大化しようとする。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:37:53.189Z",
+  "updatedAt": "2026-03-02T02:43:53.875Z"
+}

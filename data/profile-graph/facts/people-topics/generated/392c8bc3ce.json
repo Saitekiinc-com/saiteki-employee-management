@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:804a574f31fcb014:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:2deaaaa191ef2629",
+  "uiCategory": "仕事・相談",
+  "category": "strength",
+  "sourceField": "work_styles_and_strengths.dominant_strengths",
+  "relationLabel": "責任感",
+  "detailBullets": [
+    "責任感",
+    "責任感も強く、常に前向きな姿勢を保ち、人とのつながりを重視する。",
+    "」と強い責任感と自己成長へのコミットメントを繰り返し表明している。",
+    "「先輩方から学べることは全て学び、早く追いつき、その先に進んでいけるように尽力する」と、自己成長と組織貢献への強い意欲と責任感を表明している。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "text": "責任感"
+    },
+    {
+      "text": "責任感も強く、常に前向きな姿勢を保ち、人とのつながりを重視する。",
+      "sourceField": "personality_traits.summary"
+    },
+    {
+      "text": "」と強い責任感と自己成長へのコミットメントを繰り返し表明している。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "「先輩方から学べることは全て学び、早く追いつき、その先に進んでいけるように尽力する」と、自己成長と組織貢献への強い意欲と責任感を表明している。",
+      "sourceField": "values_and_motivators.evidence_episodes.6"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:40:49.036Z",
+  "updatedAt": "2026-04-13T03:38:53.901Z"
+}

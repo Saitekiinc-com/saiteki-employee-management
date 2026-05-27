@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:6486c5dae3963e3a",
+  "@type": "saiteki:TopicNode",
+  "name": "改修開発",
+  "topicType": "work_topic",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

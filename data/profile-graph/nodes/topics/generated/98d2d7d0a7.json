@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:ff9afe9f0ad4e8f6",
+  "@type": "saiteki:TopicNode",
+  "name": "個人的な体験や感情の共有",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

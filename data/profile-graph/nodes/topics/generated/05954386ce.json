@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3f725f7a37b44619",
+  "@type": "saiteki:TopicNode",
+  "name": "チームビルディング",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

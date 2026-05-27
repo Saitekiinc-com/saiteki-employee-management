@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:b22b5a6fb50ee089:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:a1bd4fc8d74646fa",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "柔軟性",
+  "detailBullets": [
+    "柔軟性",
+    "技術と運用、クリエイティブをつなげて考えられる柔軟性が強みです。",
+    "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "柔軟性"
+    },
+    {
+      "text": "技術と運用、クリエイティブをつなげて考えられる柔軟性が強みです。",
+      "sourceField": "work_styles_and_strengths.summary"
+    },
+    {
+      "text": "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

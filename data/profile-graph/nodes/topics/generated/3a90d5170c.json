@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d63d97fe0eff1c3f",
+  "@type": "saiteki:TopicNode",
+  "name": "貢献",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

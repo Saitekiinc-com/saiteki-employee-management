@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:c8ed3f42cf4e209e",
+  "@type": "saiteki:TopicNode",
+  "name": "徹底した準備が商談やゴルフといった場での成功に繋がり、協業や資金調達といった具体的な成果を生み出すこと",
+  "topicType": "motivation",
+  "aliases": [
+    "徹底した準備が商談やゴルフといった場での成功に繋がり",
+    "協業や資金調達といった具体的な成果を生み出すこと"
+  ],
+  "generatedFrom": "employees.json"
+}

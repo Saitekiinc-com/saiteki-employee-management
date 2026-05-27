@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:311519403a655cbd",
+  "@type": "saiteki:TopicNode",
+  "name": "持続可能性",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

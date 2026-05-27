@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0d5476d89acba8b4",
+  "@type": "saiteki:TopicNode",
+  "name": "エンジニアのビジネス貢献",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

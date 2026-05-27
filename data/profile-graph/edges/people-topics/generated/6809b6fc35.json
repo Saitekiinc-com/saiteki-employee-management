@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:86acdb71cea93525",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:榎本詩織",
+  "predicate": "HAS_WORK_STYLE",
+  "target": "topic:auto:0cd481e6ffda1782",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "facts": [
+    "fact:auto:6809b6fc35d1b04a:001"
+  ]
+}

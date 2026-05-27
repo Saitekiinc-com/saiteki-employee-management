@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:d3cb54e34781d437",
+  "@type": "saiteki:TopicNode",
+  "name": "ビジネス書",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

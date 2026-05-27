@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:3762b77f566d803c:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:ea6cc6f55b7c3466",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "早期貢献",
+  "detailBullets": [
+    "早期貢献",
+    "学び直しと早期貢献、丁寧な人間関係づくり、趣味を通じた交流を大切にしています。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "早期貢献"
+    },
+    {
+      "text": "学び直しと早期貢献、丁寧な人間関係づくり、趣味を通じた交流を大切にしています。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "学び直しと早期貢献、丁寧な人間関係づくり、趣味を通じた交流を大切にしています。Slack上での活発な交流にも価値を感じており、社内のつながりを前向きに受け止めています。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

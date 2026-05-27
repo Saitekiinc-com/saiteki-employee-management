@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:156dd4813b350ac4",
+  "@type": "saiteki:TopicNode",
+  "name": "カジュアルな交流を通じて関係性を深めること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

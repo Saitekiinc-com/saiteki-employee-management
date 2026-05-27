@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:616eff4c7f14cbe7:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:fa034008b7084f18",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "成長",
+  "detailBullets": [
+    "成長",
+    "「上のレイヤーでどういう動きが/考えが存在するのか」に関心を示し、自身の成長と組織への貢献意欲を表明した。",
+    "現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。",
+    "成長意欲"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1767702940.973259"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "成長"
+    },
+    {
+      "text": "「上のレイヤーでどういう動きが/考えが存在するのか」に関心を示し、自身の成長と組織への貢献意欲を表明した。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+    },
+    {
+      "text": "現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。",
+      "sourceField": "values_and_motivators.summary"
+    },
+    {
+      "text": "成長意欲",
+      "sourceField": "values_and_motivators.core_values.21"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:59.012Z",
+  "updatedAt": "2026-05-25T04:25:58.941Z"
+}

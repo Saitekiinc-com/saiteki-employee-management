@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:a447d68e252ff911:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:15819135477f3185",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "資格取得",
+  "detailBullets": [
+    "資格取得",
+    "Power BIを用いたデータ分析・加工の経験があり、資格取得を目指しデータベース構築といったより専門的な分野への挑戦意欲を明確に示しています。",
+    "資格取得を目指し、データベース構築などより専門的な分野への挑戦を考えていると表明しています。",
+    "資格取得やデータベース構築といった専門分野への挑戦意欲を表明しています。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1762938735.368459"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "資格取得"
+    },
+    {
+      "text": "Power BIを用いたデータ分析・加工の経験があり、資格取得を目指しデータベース構築といったより専門的な分野への挑戦意欲を明確に示しています。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "資格取得を目指し、データベース構築などより専門的な分野への挑戦を考えていると表明しています。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+    },
+    {
+      "text": "資格取得やデータベース構築といった専門分野への挑戦意欲を表明しています。",
+      "sourceField": "values_and_motivators.evidence_episodes.0"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:37:20.495Z",
+  "updatedAt": "2026-02-11T11:49:38.763Z"
+}

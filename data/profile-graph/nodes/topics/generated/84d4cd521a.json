@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:85bc7a9b7319c8a1",
+  "@type": "saiteki:TopicNode",
+  "name": "組織文化の形成と改善",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

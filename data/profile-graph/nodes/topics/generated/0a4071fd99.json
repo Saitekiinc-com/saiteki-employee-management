@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:cd68e5ad304b98e3",
+  "@type": "saiteki:TopicNode",
+  "name": "社内勉強会を通じたメンバーの学習機会提供",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

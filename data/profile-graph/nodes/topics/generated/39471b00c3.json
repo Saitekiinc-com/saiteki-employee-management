@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:1267db887d9f10a5",
+  "@type": "saiteki:TopicNode",
+  "name": "戦略的かつ実用的な技術選定能力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

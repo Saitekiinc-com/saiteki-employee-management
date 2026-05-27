@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:e09ba70be4019caa:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:fef407d76fadc711",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "データ分析",
+  "detailBullets": [
+    "データ分析",
+    "櫻井志保さんは、データ分析スキルと高い学習意欲を持ち、協調性をもってチームに貢献しようと意欲的な人物です。",
+    "Power BIを用いたデータ分析・加工の経験があり、資格取得を目指しデータベース構築といったより専門的な分野への挑戦意欲を明確に示しています。",
+    "データ分析スキルを活かし、論理的な思考で現状を把握し問題解決に取り組むアプローチを取ります。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "データ分析"
+    },
+    {
+      "text": "櫻井志保さんは、データ分析スキルと高い学習意欲を持ち、協調性をもってチームに貢献しようと意欲的な人物です。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "Power BIを用いたデータ分析・加工の経験があり、資格取得を目指しデータベース構築といったより専門的な分野への挑戦意欲を明確に示しています。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "データ分析スキルを活かし、論理的な思考で現状を把握し問題解決に取り組むアプローチを取ります。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:37:20.495Z",
+  "updatedAt": "2026-02-11T11:49:38.763Z"
+}

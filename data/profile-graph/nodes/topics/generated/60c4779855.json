@@ -1,0 +1,14 @@
+{
+  "@id": "topic:auto:88746b805b7131ad",
+  "@type": "saiteki:TopicNode",
+  "name": "家族との交流や子育て（GWの過ごし方、こどもの国、けん玉）",
+  "topicType": "interest",
+  "aliases": [
+    "家族との交流や子育て",
+    "gwの過ごし方",
+    "こどもの国",
+    "けん玉",
+    "gw"
+  ],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:2d7ad17bd03c1cb3",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:杉本光一",
+  "predicate": "MOTIVATED_BY",
+  "target": "topic:auto:609b064b34127569",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "facts": [
+    "fact:auto:8152c6d7aa4eb2aa:001"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:59567670622c765b",
+  "@type": "saiteki:TopicNode",
+  "name": "組織が掲げる「大成功」の実現に向けて貢献すること",
+  "topicType": "motivation",
+  "aliases": [
+    "組織が掲げる",
+    "大成功",
+    "の実現に向けて貢献すること"
+  ],
+  "generatedFrom": "employees.json"
+}

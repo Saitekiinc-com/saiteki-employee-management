@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3039543b8ec46ff6",
+  "@type": "saiteki:TopicNode",
+  "name": "仲間と共に個人的な挑戦を乗り越えること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "edge:auto:21749a10f53580ff",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:真栄城則明",
+  "predicate": "KNOWS_ABOUT",
+  "target": "topic:auto:7d2a16975b3bf654",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "facts": [
+    "fact:auto:af991b17b1ad3ac8:001"
+  ]
+}

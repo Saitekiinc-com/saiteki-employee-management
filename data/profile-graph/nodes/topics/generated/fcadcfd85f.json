@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:e023d18fc0645e95",
+  "@type": "saiteki:TopicNode",
+  "name": "自己管理能力と状況適応力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

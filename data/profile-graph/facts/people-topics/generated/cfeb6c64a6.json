@@ -1,0 +1,40 @@
+{
+  "@id": "fact:auto:ac05300a0c18a63f:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:bad305c127a33cf1",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "AWS運用・監視",
+  "detailBullets": [
+    "AWS運用・監視",
+    "真栄城さんは、溶接工や3D-CAD、音響サポート、審査センターSVなど多様な経験を経て、AWS環境の運用・監視に携わってきたエンジニアです。",
+    "溶接工、3D-CAD、セミナー配信の音響サポート、審査センターSV、AWS運用監視と経験が幅広い。",
+    "多様な職務経験とAWS運用・監視経験を持ち、未知の領域でもAIや整理力を使って学習を進められるタイプ。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771850944.221989"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "AWS運用・監視"
+    },
+    {
+      "text": "真栄城さんは、溶接工や3D-CAD、音響サポート、審査センターSVなど多様な経験を経て、AWS環境の運用・監視に携わってきたエンジニアです。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "溶接工、3D-CAD、セミナー配信の音響サポート、審査センターSV、AWS運用監視と経験が幅広い。",
+      "sourceField": "personality_traits.openness.evidence"
+    },
+    {
+      "text": "多様な職務経験とAWS運用・監視経験を持ち、未知の領域でもAIや整理力を使って学習を進められるタイプ。",
+      "sourceField": "work_styles_and_strengths.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

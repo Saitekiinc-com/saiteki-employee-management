@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:0bf3ead13c8ddb5a",
+  "@type": "saiteki:TopicNode",
+  "name": "比較分析",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

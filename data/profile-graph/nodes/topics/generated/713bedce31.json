@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:707b0152db96de13",
+  "@type": "saiteki:TopicNode",
+  "name": "チームへの貢献と成功",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

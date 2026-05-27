@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:bc05176f6cfad317",
+  "@type": "saiteki:TopicNode",
+  "name": "多様な職務経験による適応力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

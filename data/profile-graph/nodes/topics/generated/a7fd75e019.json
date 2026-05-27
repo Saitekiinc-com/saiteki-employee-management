@@ -1,0 +1,11 @@
+{
+  "@id": "topic:auto:9e0b42e33e75fa50",
+  "@type": "saiteki:TopicNode",
+  "name": "他者との共感・交流",
+  "topicType": "motivation",
+  "aliases": [
+    "他者との共感",
+    "交流"
+  ],
+  "generatedFrom": "employees.json"
+}

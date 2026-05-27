@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:75c0edea75674dc3",
+  "@type": "saiteki:TopicNode",
+  "name": "効率化と生産性向上 (AIによる)",
+  "topicType": "value",
+  "aliases": [
+    "効率化と生産性向上",
+    "aiによる",
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

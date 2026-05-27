@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:e324ba33e4685455:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:bb0b227febc47f47",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "計画の実行と達成",
+  "detailBullets": [
+    "計画の実行と達成",
+    "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "計画の実行と達成"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:36:35.579Z",
+  "updatedAt": "2026-05-11T04:06:08.439Z"
+}

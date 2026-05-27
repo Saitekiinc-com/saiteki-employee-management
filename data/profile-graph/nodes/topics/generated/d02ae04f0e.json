@@ -1,0 +1,12 @@
+{
+  "@id": "topic:auto:5c3864e229f09519",
+  "@type": "saiteki:TopicNode",
+  "name": "AWS運用・監視経験",
+  "topicType": "work_strength",
+  "aliases": [
+    "aws運用",
+    "監視経験",
+    "aws"
+  ],
+  "generatedFrom": "employees.json"
+}

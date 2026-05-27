@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:20e2475ae272d8e5",
+  "@type": "saiteki:TopicNode",
+  "name": "自然体のコミュニケーション",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

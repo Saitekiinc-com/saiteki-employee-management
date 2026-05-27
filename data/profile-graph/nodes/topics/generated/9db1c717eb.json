@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:af82e812d443a0cf",
+  "@type": "saiteki:TopicNode",
+  "name": "学習促進",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

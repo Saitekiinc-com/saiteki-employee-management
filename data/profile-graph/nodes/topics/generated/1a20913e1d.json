@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:f965497071554d9c",
+  "@type": "saiteki:TopicNode",
+  "name": "のんびり楽しく日常を整えること",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

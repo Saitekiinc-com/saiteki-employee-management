@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:012a1786482d0575",
+  "@type": "saiteki:TopicNode",
+  "name": "新しい働き方の確立",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:30c8f00240a162a2",
+  "@type": "saiteki:TopicNode",
+  "name": "実績を通じて会社のポジションを確立しようとする能動性",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

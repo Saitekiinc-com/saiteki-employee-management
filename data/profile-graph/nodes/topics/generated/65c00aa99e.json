@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:1788764fdc8f1fb5",
+  "@type": "saiteki:TopicNode",
+  "name": "組織文化の変革と進化",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:921b3d0c5a1e2954",
+  "@type": "saiteki:TopicNode",
+  "name": "柔軟な働き方",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

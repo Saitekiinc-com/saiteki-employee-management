@@ -1,0 +1,31 @@
+{
+  "@id": "fact:auto:c87f64ad2e7e4cc4:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:36a29963ab3303a0",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "グルメ（山岡家などのラーメン店）やリラックス体験（サウナ）",
+  "detailBullets": [
+    "グルメ（山岡家などのラーメン店）やリラックス体験（サウナ）",
+    "家族との時間を積極的に楽しみ、その喜びやエピソード（GWの過ごし方、けん玉チャレンジ）をチームと共有する。社内では積極的にコミュニケーションを取り、他者の話にも共感を示す。また、AIを情報収集に活用するなど、新しいツールへの適応力と貢献意欲も高い。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1762696554.977159",
+    "primary:C09Q46YA4ER:1776750301.199809"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "グルメ（山岡家などのラーメン店）やリラックス体験（サウナ）"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "家族との時間を積極的に楽しみ、その喜びやエピソード（GWの過ごし方、けん玉チャレンジ）をチームと共有する。社内では積極的にコミュニケーションを取り、他者の話にも共感を示す。また、AIを情報収集に活用するなど、新しいツールへの適応力と貢献意欲も高い。"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T09:01:15.189Z",
+  "updatedAt": "2026-05-18T04:18:42.770Z"
+}

@@ -1,0 +1,14 @@
+{
+  "@id": "topic:auto:0fbc4fd847be4d2e",
+  "@type": "saiteki:TopicNode",
+  "name": "半年前5人から35人（業務委託含め55人）への組織の急拡大",
+  "topicType": "interest",
+  "aliases": [
+    "半年前5人から35人",
+    "業務委託含め55人",
+    "への組織の急拡大",
+    "35",
+    "55"
+  ],
+  "generatedFrom": "employees.json"
+}

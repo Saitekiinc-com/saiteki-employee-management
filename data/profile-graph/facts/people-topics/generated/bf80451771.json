@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:72412a09c2d216f8:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:87bf7597ac818c32",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "AI駆動開発 (AI-driven development)",
+  "detailBullets": [
+    "AI駆動開発 (AI-driven development)",
+    "自社AI顧問による「AIニュースレポート」を全社に共有し、特にAI駆動開発関連のトピック（Claude Code / Cursorの動向、MCP・AIエージェント活用、SDD × AI駆動開発フローなど）を具体的に挙げることで、社員の最先端技術への関心を高め、学習を促している。",
+    "自社AI顧問からの「AIニュースレポート」の主要トピックを抽出して共有することで、社員のAI駆動開発といった最先端技術への関心を刺激し、学習と成長を促すことに高い価値を置いている。",
+    "DX戦略やアナログ・トランスフォーメーション (AX)、AI駆動開発といった先進的なテーマに関心が高く、これらの情報を構造的かつ魅力的に共有することで、社員の学習意欲を刺激し、企業のブランド価値向上と技術力強化に貢献しようとしている。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09MKT8QKAR:1770373170.127379",
+    "primary:C09MKT8QKAR:1772700667.770829"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "AI駆動開発 (AI-driven development)"
+    },
+    {
+      "text": "自社AI顧問による「AIニュースレポート」を全社に共有し、特にAI駆動開発関連のトピック（Claude Code / Cursorの動向、MCP・AIエージェント活用、SDD × AI駆動開発フローなど）を具体的に挙げることで、社員の最先端技術への関心を高め、学習を促している。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.4"
+    },
+    {
+      "text": "自社AI顧問からの「AIニュースレポート」の主要トピックを抽出して共有することで、社員のAI駆動開発といった最先端技術への関心を刺激し、学習と成長を促すことに高い価値を置いている。",
+      "sourceField": "values_and_motivators.evidence_episodes.4"
+    },
+    {
+      "text": "DX戦略やアナログ・トランスフォーメーション (AX)、AI駆動開発といった先進的なテーマに関心が高く、これらの情報を構造的かつ魅力的に共有することで、社員の学習意欲を刺激し、企業のブランド価値向上と技術力強化に貢献しようとしている。",
+      "sourceField": "current_state.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

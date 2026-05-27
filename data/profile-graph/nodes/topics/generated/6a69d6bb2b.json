@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:48274e85fe97c043",
+  "@type": "saiteki:TopicNode",
+  "name": "成長意欲",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:3e203759d77a0670",
+  "@type": "saiteki:TopicNode",
+  "name": "長期的なキャリア形成とコンディション維持",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

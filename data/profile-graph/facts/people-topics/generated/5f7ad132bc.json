@@ -1,0 +1,28 @@
+{
+  "@id": "fact:auto:681c6c27d0054cee:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:ec6caea5e8c02c41",
+  "uiCategory": "興味・人柄",
+  "category": "recent_topic",
+  "sourceField": "values_and_motivators.motivation_triggers",
+  "relationLabel": "自身の専門性が組織の共通認識や文化として定着し、会社全体の成長に貢献すること",
+  "detailBullets": [
+    "自身の専門性が組織の共通認識や文化として定着し、会社全体の成長に貢献すること",
+    "Saitekiのビジョンと顧客への貢献に強い信頼とコミットメントを持ち、自身の経験と知識を活かして組織全体の成長と顧客の成功に貢献することに大きな価値を見出す。特に、顧客の意思決定の文脈を理解し、Saiteki独自の市場ポジションを確立することに強い意欲とモチベーションを感じる。困難な状況でも諦めずに解決策を模索し、責任感を持って業務を推進することにモチベ…"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "text": "自身の専門性が組織の共通認識や文化として定着し、会社全体の成長に貢献すること"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "Saitekiのビジョンと顧客への貢献に強い信頼とコミットメントを持ち、自身の経験と知識を活かして組織全体の成長と顧客の成功に貢献することに大きな価値を見出す。特に、顧客の意思決定の文脈を理解し、Saiteki独自の市場ポジションを確立することに強い意欲とモチベーションを感じる。困難な状況でも諦めずに解決策を模索し、責任感を持って業務を推進することにモチベーションを感じる。会社のビジョン実現と業界課題の解決への貢献に強い喜びと使命感を…"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:37:37.794Z",
+  "updatedAt": "2026-04-13T03:36:52.852Z"
+}

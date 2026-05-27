@@ -26,11 +26,14 @@ const employees = readJson(path.join(DATA_DIR, 'employees.json'));
 const slackMessages = readJsonl(path.join(DATA_DIR, 'slack-messages.jsonl'));
 const source = readProfileGraphSource();
 
-assert(source.people.length >= 4, 'profile graph should have thin person node files');
+assert(source.people.length >= employees.filter((employee) => employee.isActive !== false).length, 'profile graph should have thin person node files for active employees');
 assert(source.topics.some((topic) => topic['@id'] === 'topic:ポケモン'), 'pokemon topic node should exist');
 assert(source.topics.some((topic) => topic['@id'] === 'topic:ガンダム'), 'gundam topic node should exist');
 assert(source.edges.every((edge) => Array.isArray(edge.facts) && edge.facts.length > 0), 'edges should reference facts');
 assert(source.facts.every((fact) => fact.detailBullets?.length > 0), 'facts should carry detail bullets');
+assert(source.facts.every((fact) => (
+  fact.evidenceMessageIds?.length > 0 || fact.evidenceProfileFields?.length > 0
+)), 'facts should carry Slack evidence or profile field evidence');
 
 const graph = buildEmployeeProfileGraph({
   employees,
@@ -45,9 +48,13 @@ assert(nodes.some((node) => node['@id'] === 'topic:ポケモン' && node['@type'
 assert(nodes.some((node) => node['@id'] === 'message:primary:C09Q46YA4ER:1772237402.765719'));
 
 const edges = nodes.filter((node) => node['@type'] === 'saiteki:ProfileEdge');
-assert.strictEqual(edges.length, 4, 'seed graph should have four profile edges');
+assert(edges.length > 800, 'profile graph should backfill all existing profile facets');
+assert.strictEqual(edges.length, source.edges.length, 'built edge count should match source edge files');
 
-const kojima = edges.find((edge) => edge['saiteki:source'] === 'person:小島遼祐');
+const kojima = edges.find((edge) => (
+  edge['saiteki:source'] === 'person:小島遼祐'
+  && edge['saiteki:target'] === 'topic:ポケモン'
+));
 assert(kojima, '小島遼祐 edge should exist');
 assert.strictEqual(kojima['saiteki:target'], 'topic:ポケモン');
 assert.strictEqual(kojima['saiteki:predicate'], 'COLLECTS');
@@ -64,7 +71,7 @@ const invalid = JSON.parse(JSON.stringify(source));
 invalid.facts.find((fact) => fact['@id'] === 'fact:kojima-ryosuke:pokemon:001').evidenceMessageIds = [];
 assert.throws(
   () => validateSource({ employees, slackMessages, source: invalid }),
-  /has no evidence messages/,
+  /has no evidence messages or profile fields/,
   'validator should reject facts without evidence'
 );
 

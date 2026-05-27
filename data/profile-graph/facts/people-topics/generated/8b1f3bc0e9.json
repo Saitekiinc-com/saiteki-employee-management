@@ -1,0 +1,37 @@
+{
+  "@id": "fact:auto:e88efe02c91e2924:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:b72da03593915905",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "長距離イベント",
+  "detailBullets": [
+    "長距離イベント",
+    "加えて、週1回のランニングを習慣化し、将来の長距離イベント参加という目標を掲げるなど、自己規律と目標達成への強い意欲を持つ。",
+    "週1でランニングを始め、長距離イベントへの参加を目標に掲げていることから、目標設定と自己鍛錬への意欲が高い。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "長距離イベント"
+    },
+    {
+      "text": "加えて、週1回のランニングを習慣化し、将来の長距離イベント参加という目標を掲げるなど、自己規律と目標達成への強い意欲を持つ。",
+      "sourceField": "personality_traits.conscientiousness.evidence"
+    },
+    {
+      "text": "週1でランニングを始め、長距離イベントへの参加を目標に掲げていることから、目標設定と自己鍛錬への意欲が高い。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+    },
+    {
+      "sourceField": "current_state.summary",
+      "text": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-10T06:08:04.668Z",
+  "updatedAt": "2026-04-20T03:39:00.659Z"
+}

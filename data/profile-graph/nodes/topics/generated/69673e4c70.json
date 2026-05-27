@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:779e678323e60924",
+  "@type": "saiteki:TopicNode",
+  "name": "作曲",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:54336757ff8930ab:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:516062560b3964b3",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "企業成長",
+  "detailBullets": [
+    "企業成長",
+    "リファラル採用のインセンティブ制度を明確に案内し、優秀な人材獲得と企業成長への強い意欲を示している。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "企業成長"
+    },
+    {
+      "text": "リファラル採用のインセンティブ制度を明確に案内し、優秀な人材獲得と企業成長への強い意欲を示している。",
+      "sourceField": "values_and_motivators.evidence_episodes.1"
+    },
+    {
+      "sourceField": "values_and_motivators.summary",
+      "text": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業文化とブランド価値を高めることに強いモチベーションを持っている。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T08:39:30.378Z",
+  "updatedAt": "2026-05-25T04:25:05.267Z"
+}

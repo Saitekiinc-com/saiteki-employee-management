@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:098cda2dd1985045",
+  "@type": "saiteki:TopicNode",
+  "name": "新しいメンバーの円滑な職場適応",
+  "topicType": "motivation",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

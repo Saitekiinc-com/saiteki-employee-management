@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:fe2db9a33c6447ff",
+  "@type": "saiteki:TopicNode",
+  "name": "情報公開",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

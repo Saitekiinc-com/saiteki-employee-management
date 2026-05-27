@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:5e851fee91b5310a",
+  "@type": "saiteki:TopicNode",
+  "name": "経営的執念",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

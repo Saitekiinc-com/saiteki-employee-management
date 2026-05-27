@@ -1,0 +1,13 @@
+{
+  "@id": "topic:auto:ae5217c30b20c28e",
+  "@type": "saiteki:TopicNode",
+  "name": "読書（「コーヒーの化学」、「君は戦略を立てることができるか」など幅広いジャンル）",
+  "topicType": "interest",
+  "aliases": [
+    "読書",
+    "コーヒーの化学",
+    "君は戦略を立てることができるか",
+    "など幅広いジャンル"
+  ],
+  "generatedFrom": "employees.json"
+}

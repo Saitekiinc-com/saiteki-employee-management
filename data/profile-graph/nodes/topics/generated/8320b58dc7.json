@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b7b6d1dca57c4cd3",
+  "@type": "saiteki:TopicNode",
+  "name": "社内交流",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

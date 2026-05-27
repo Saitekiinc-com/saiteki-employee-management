@@ -1,0 +1,10 @@
+{
+  "@id": "topic:auto:75e09af91bcf1676",
+  "@type": "saiteki:TopicNode",
+  "name": "人とAIの協働作業の概念化と推進",
+  "topicType": "work_strength",
+  "aliases": [
+    "ai"
+  ],
+  "generatedFrom": "employees.json"
+}

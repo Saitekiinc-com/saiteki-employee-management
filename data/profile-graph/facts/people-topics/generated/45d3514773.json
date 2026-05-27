@@ -1,0 +1,38 @@
+{
+  "@id": "fact:auto:dc8cce7dc19daf4d:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:3fc56542b3e977f1",
+  "uiCategory": "興味・人柄",
+  "category": "value",
+  "sourceField": "values_and_motivators.core_values",
+  "relationLabel": "責任感",
+  "detailBullets": [
+    "責任感",
+    "代表としてゴルフコンペで恥ずかしいスコアを出せないという責任感から、徹底的な準備を行う。",
+    "ゴルフコンペで代表としての責任感から徹底した準備（早朝300球打ち、コース予習など）を行い、上場SIer社長から高評価を得て協業の話に繋がったことを共有した。",
+    "大規模イベントの企画・案内では参加者への細やかな配慮を欠かさず、新メンバーや貢献者に対しては名前を挙げて感謝と歓迎の意を伝えることで、親しみやすさとリーダーとしての責任感を両立させている。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "values_and_motivators.core_values",
+      "text": "責任感"
+    },
+    {
+      "text": "代表としてゴルフコンペで恥ずかしいスコアを出せないという責任感から、徹底的な準備を行う。",
+      "sourceField": "personality_traits.neuroticism.evidence"
+    },
+    {
+      "text": "ゴルフコンペで代表としての責任感から徹底した準備（早朝300球打ち、コース予習など）を行い、上場SIer社長から高評価を得て協業の話に繋がったことを共有した。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.4"
+    },
+    {
+      "text": "大規模イベントの企画・案内では参加者への細やかな配慮を欠かさず、新メンバーや貢献者に対しては名前を挙げて感謝と歓迎の意を伝えることで、親しみやすさとリーダーとしての責任感を両立させている。",
+      "sourceField": "communication_patterns.summary"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-02-09T09:01:32.730Z",
+  "updatedAt": "2026-05-25T04:27:15.192Z"
+}

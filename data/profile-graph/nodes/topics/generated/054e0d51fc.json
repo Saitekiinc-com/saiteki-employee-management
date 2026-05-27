@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:7b23b7fb90c33e07",
+  "@type": "saiteki:TopicNode",
+  "name": "歌声合成",
+  "topicType": "interest",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

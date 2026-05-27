@@ -1,0 +1,41 @@
+{
+  "@id": "fact:auto:460421020baba0c2:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:0dbfc427a77e0c66",
+  "uiCategory": "仕事・相談",
+  "category": "work_topic",
+  "sourceField": "current_state.recent_topics_of_interest",
+  "relationLabel": "Saitekiメンバーの入社経緯",
+  "detailBullets": [
+    "Saitekiメンバーの入社経緯",
+    "福岡在住で家族を大切にし、高い責任感と協調性でSaitekiへの貢献とメンバーとの交流を積極的に図る人物。",
+    "「Saitekiの輪をどんどん広げていけたら」と発言し、オンラインでの積極的なコミュニケーションや「パパ会」の提案を通じてメンバーとの関係構築に努めている。",
+    "組織への貢献意欲とSaitekiの一員であることへの誇り、メンバーとの交流を非常に重視している。"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1762130432.688849",
+    "primary:C09MKT8QKAR:1767157637.524489"
+  ],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "current_state.recent_topics_of_interest",
+      "text": "Saitekiメンバーの入社経緯"
+    },
+    {
+      "text": "福岡在住で家族を大切にし、高い責任感と協調性でSaitekiへの貢献とメンバーとの交流を積極的に図る人物。",
+      "sourceField": "overall_summary"
+    },
+    {
+      "text": "「Saitekiの輪をどんどん広げていけたら」と発言し、オンラインでの積極的なコミュニケーションや「パパ会」の提案を通じてメンバーとの関係構築に努めている。",
+      "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+    },
+    {
+      "text": "組織への貢献意欲とSaitekiの一員であることへの誇り、メンバーとの交流を非常に重視している。",
+      "sourceField": "values_and_motivators.summary"
+    }
+  ],
+  "confidence": 0.66,
+  "extractionMethod": "profile_field_backfill_with_message",
+  "firstSeenAt": "2026-02-09T08:28:22.503Z",
+  "updatedAt": "2026-02-11T11:48:53.611Z"
+}

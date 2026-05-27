@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:730a1ecd6eb6120b",
+  "@type": "saiteki:TopicNode",
+  "name": "社内のつながり",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

@@ -1,0 +1,16 @@
+{
+  "@id": "topic:auto:617337a37e7e96bf",
+  "@type": "saiteki:TopicNode",
+  "name": "AI（Letter of T, カスタムチューニング）によるS級人材モデル構築と継続的な運用（ペアデータ、毎週更新）",
+  "topicType": "work_topic",
+  "aliases": [
+    "ai",
+    "letter",
+    "of",
+    "カスタムチューニング",
+    "によるs級人材モデル構築と継続的な運用",
+    "ペアデータ",
+    "毎週更新"
+  ],
+  "generatedFrom": "employees.json"
+}

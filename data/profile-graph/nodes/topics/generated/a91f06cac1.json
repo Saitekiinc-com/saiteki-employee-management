@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:b916e9d354d7c924",
+  "@type": "saiteki:TopicNode",
+  "name": "責任ある情報開示",
+  "topicType": "value",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

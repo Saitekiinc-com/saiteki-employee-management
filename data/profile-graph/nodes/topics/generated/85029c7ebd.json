@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:02b2728c07a2507c",
+  "@type": "saiteki:TopicNode",
+  "name": "行動変容促進",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

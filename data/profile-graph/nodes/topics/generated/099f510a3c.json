@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:84735e3d836ec2bd",
+  "@type": "saiteki:TopicNode",
+  "name": "ファシリテーション能力",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}

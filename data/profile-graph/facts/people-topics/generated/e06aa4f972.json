@@ -1,0 +1,32 @@
+{
+  "@id": "fact:auto:746e1c1dab054eb7:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:auto:fab7db1f4e3a5b18",
+  "uiCategory": "仕事・相談",
+  "category": "work_style",
+  "sourceField": "work_styles_and_strengths.problem_solving_style",
+  "relationLabel": "まず現場や相手に合わせて丁寧に状況を理解し、自身の経験を土台に着実に対応するスタイル。不慣れな領域では無理に取り繕わず、学習と質問を通じてキャッチアップする姿勢が強い。",
+  "detailBullets": [
+    "まず現場や相手に合わせて丁寧に状況を理解し、自身の経験を土台に着実に対応するスタイル。不慣れな領域では無理に取り繕わず、学習と質問を通じてキャッチアップする姿勢が強い。",
+    "不慣れな領域では無理に取り繕わず、学習と質問を通じてキャッチアップする姿勢が強い。"
+  ],
+  "evidenceMessageIds": [],
+  "evidenceProfileFields": [
+    {
+      "sourceField": "work_styles_and_strengths.problem_solving_style",
+      "text": "まず現場や相手に合わせて丁寧に状況を理解し、自身の経験を土台に着実に対応するスタイル。不慣れな領域では無理に取り繕わず、学習と質問を通じてキャッチアップする姿勢が強い。"
+    },
+    {
+      "text": "不慣れな領域では無理に取り繕わず、学習と質問を通じてキャッチアップする姿勢が強い。",
+      "sourceField": "work_styles_and_strengths.problem_solving_style"
+    },
+    {
+      "sourceField": "work_styles_and_strengths.summary",
+      "text": "長期のサーバ運用・テスト経験を基盤に、改修開発、サポート、総合テストまで幅広く対応できる実務型の技術者。新しい環境では丁寧に状況を把握し、学びながら着実に貢献していくタイプです。"
+    }
+  ],
+  "confidence": 0.5,
+  "extractionMethod": "profile_field_backfill",
+  "firstSeenAt": "2026-05-26T14:35:00.000Z",
+  "updatedAt": "2026-05-26T14:46:19.000Z"
+}

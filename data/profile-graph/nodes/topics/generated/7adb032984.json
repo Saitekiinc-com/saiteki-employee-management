@@ -1,0 +1,8 @@
+{
+  "@id": "topic:auto:482c5b43432b433b",
+  "@type": "saiteki:TopicNode",
+  "name": "自律的なタスク管理と品質追求",
+  "topicType": "work_strength",
+  "aliases": [],
+  "generatedFrom": "employees.json"
+}
