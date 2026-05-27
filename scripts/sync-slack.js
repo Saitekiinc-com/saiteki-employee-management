@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
 const { mergeSlackMessages, readJsonl, writeJsonl } = require('./build-search-facets');
+const { generateTeamDoc } = require('./lib/team-doc');
 
 const DATA_FILE = path.join(__dirname, '../data/employees.json');
 const BACKUP_FILE = path.join(__dirname, '../data/employees.backup.json');
@@ -171,7 +172,7 @@ async function main() {
         console.log(`Saved ${updatedCount} profile updates and ${discoveredCount} new employees to ${DATA_FILE}.`);
 
         // Regenerate TEAM.md with the new data format
-        generateTeamDoc(employees);
+        generateTeamDoc(employees, { mode: 'slack' });
     } else {
         console.log('No updates performed.');
     }
@@ -447,117 +448,6 @@ async function analyzeSlackActivityAdvanced(name, messages, existingProfile = nu
         console.error(`AI analysis failed for ${name}:`, error.message);
         return { ai_error: true };
     }
-}
-
-const TEAM_DOC_FILE = path.join(__dirname, '../docs/TEAM.md');
-
-function generateTeamDoc(employees) {
-    const activeEmployees = employees.filter(e => e.isActive !== false);
-    const archivedEmployees = employees.filter(e => e.isActive === false);
-    const jobs = [...new Set(activeEmployees.map(e => e.job))];
-
-    let md = '# チーム構成図\n\n自動生成された組織図です。IssueおよびSlack連携による高度なAI分析結果が反映されます。\n\n';
-    md += '### 📊 関連リソース\n';
-    md += '- [🌐 インタラクティブ・ナレッジグラフ (Web版)](https://saitekiinc-com.github.io/saiteki-employee-management/)\n';
-    md += '- [📝 ナレッジグラフ分析レポート (Markdown)](./KNOWLEDGE_GRAPH.md)\n\n';
-
-    // 1. Mermaid Map
-    md += '### 組織マップ\n';
-    md += '```mermaid\n%%{init: {\'theme\': \'base\', \'themeVariables\': {\'primaryColor\': \'#F2EBE3\', \'primaryTextColor\': \'#5D574F\', \'primaryBorderColor\': \'#D9CFC1\', \'lineColor\': \'#BEB3A5\', \'secondaryColor\': \'#FAF9F6\', \'tertiaryColor\': \'#FDFCFB\', \'nodeBorder\': \'1px\'}}}%%\nmindmap\n  root((株式会社Saiteki))\n';
-    const jobMap = { 'Engineer': 'Engineer', 'Designer': 'Designer', 'Sales': 'Sales', 'PM': 'PM', 'Corporate': 'Corporate', 'EM': 'Engineer', 'QA': 'QA', 'HR': 'HR', '経営': '経営', 'Executive': '経営', 'Other': 'Other' };
-    jobs.forEach(job => {
-        md += `    ${jobMap[job] || job || 'Other'}\n`;
-        activeEmployees.filter(e => e.job === job).forEach(m => {
-            md += `      ${m.name.replace(/[()"']/g, '')}\n`;
-        });
-    });
-    md += '```\n\n';
-
-    // 2. Summary Table
-    md += '## 社員一覧サマリー\n\n| 名前 | 職種 | 性格傾向 (概略) | 現在の状態 |\n| --- | --- | --- | --- |\n';
-    activeEmployees.forEach(e => {
-        const personality = e.personality_traits?.summary || '-';
-        const current = e.current_state?.summary || '-';
-        md += `| [${e.name}](#${encodeURIComponent(e.name)}) | ${e.job} | ${personality} | ${current} |\n`;
-    });
-    md += '\n---\n\n## 詳細プロフィール\n\n各社員の詳細な分析結果です。クリックして展開できます。\n\n';
-
-    // 3. Detailed Profiles
-    activeEmployees.forEach(e => {
-        md += `<div id="${e.name}"></div>\n\n`;
-        md += `### ${e.name} (${e.job})\n\n`;
-        md += `> **総合サマリー**: ${e.overall_summary || '-'}\n\n`;
-
-        md += '<details>\n<summary><b>🛠 性格傾向</b></summary>\n\n';
-        if (e.personality_traits) {
-            md += `**要約**: ${e.personality_traits.summary}\n\n`;
-            md += '| 項目 | スコア | 根拠・エピソード |\n| --- | --- | --- |\n';
-            const traits = {
-                openness: '開放性',
-                conscientiousness: '誠実性',
-                extraversion: '外向性',
-                agreeableness: '協調性',
-                neuroticism: '神経症的傾向'
-            };
-            Object.keys(traits).forEach(t => {
-                const data = e.personality_traits[t];
-                if (data) {
-                    const safeEvidence = (data.evidence || '').replace(/\n/g, '<br>');
-                    md += `| ${traits[t]} | ${data.score}/10 | ${safeEvidence} |\n`;
-                }
-            });
-        } else {
-            md += 'データなし\n';
-        }
-        md += '\n</details>\n\n';
-
-        md += '<details>\n<summary><b>💪 仕事スタイルと強み</b></summary>\n\n';
-        if (e.work_styles_and_strengths) {
-            md += `**要約**: ${e.work_styles_and_strengths.summary}\n\n`;
-            md += `**問題解決スタイル**: ${e.work_styles_and_strengths.problem_solving_style || '-'}\n\n`;
-            md += `**主要な強み**: ${e.work_styles_and_strengths.dominant_strengths?.join(', ') || '-'}\n\n`;
-            md += '**証拠エピソード**:\n';
-            e.work_styles_and_strengths.evidence_episodes?.forEach(ep => md += `- ${ep}\n`);
-        } else {
-            md += 'データなし\n';
-        }
-        md += '\n</details>\n\n';
-
-        md += '<details>\n<summary><b>💎 価値観とモチベーター</b></summary>\n\n';
-        if (e.values_and_motivators) {
-            md += `**要約**: ${e.values_and_motivators.summary}\n\n`;
-            md += `**コアバリュー**: ${e.values_and_motivators.core_values?.join(', ') || '-'}\n\n`;
-            md += `**モチベーショントリガー**: ${e.values_and_motivators.motivation_triggers?.join(', ') || '-'}\n\n`;
-            md += '**証拠エピソード**:\n';
-            e.values_and_motivators.evidence_episodes?.forEach(ep => md += `- ${ep}\n`);
-        } else {
-            md += 'データなし\n';
-        }
-        md += '\n</details>\n\n';
-
-        md += '<details>\n<summary><b>📈 現在の状態</b></summary>\n\n';
-        if (e.current_state) {
-            md += `**要約**: ${e.current_state.summary}\n\n`;
-            md += `- **感情レベル**: ${e.current_state.sentiment_level || '-'}\n`;
-            md += `- **業務負荷状況**: ${e.current_state.workload_status || '-'}\n`;
-            md += `- **最近の関心トピック**: ${e.current_state.recent_topics_of_interest?.join(', ') || '-'}\n`;
-        } else {
-            md += 'データなし\n';
-        }
-        md += '\n</details>\n\n';
-
-        md += '---\n\n';
-    });
-
-    if (archivedEmployees.length > 0) {
-        md += '## Alumni (OB/OG)\n\n| 名前 | 在籍時の職種 | 理由 |\n| --- | --- | --- |\n';
-        archivedEmployees.forEach(e => md += `| ${e.name} | ${e.job} | ${e.archivedReason || '-'} |\n`);
-    }
-
-    const docDir = path.dirname(TEAM_DOC_FILE);
-    if (!fs.existsSync(docDir)) fs.mkdirSync(docDir, { recursive: true });
-    fs.writeFileSync(TEAM_DOC_FILE, md);
-    console.log(`Regenerated ${TEAM_DOC_FILE} with detailed profiles.`);
 }
 
 main().catch(console.error);
