@@ -6,7 +6,10 @@ const CATEGORY_ACTION = 'category';
 const QUERY_ACTION = 'query';
 const CATEGORY_BLOCK = 'search_category';
 const QUERY_BLOCK = 'search_query';
-const DEFAULT_THRESHOLD = 0.16;
+const DEFAULT_THRESHOLD = 0.18;
+
+const WORK_QUERY_PATTERN = /aws|azure|gcp|react|next|rag|qa|pm|poc|api|db|sql|bi|gemini|cursor|notion|slack|github|開発|運用|監視|設計|要件|技術|テスト|品質|分析|採用|営業|総務|人事|オンボーディング|データ|プロンプト|自動化|インフラ|サーバ|アーキテクチャ|マネジメント|合意形成/i;
+const PERSONAL_QUERY_PATTERN = /好き|趣味|休日|映画|音楽|ゲーム|アニメ|漫画|マンガ|ポケモン|ガンダム|トミカ|自炊|料理|楽器|動物|犬|猫|旅行|スポーツ|読書/i;
 
 const CATEGORY_OPTIONS = [
   {
@@ -70,13 +73,17 @@ async function handleSlashCommand(rawBody, env, ctx) {
   if (query.trim()) {
     ctx.waitUntil(openModal(env, triggerId, buildSearchModal({
       channelId,
-      initialQuery: query.trim()
+      initialQuery: query.trim(),
+      initialCategory: resolveSearchCategory(query.trim(), '仕事・相談').category
     })));
   }
 
   return slackJson({
     response_type: 'ephemeral',
-    blocks: buttonBlocks({ initialQuery: query.trim() })
+    blocks: buttonBlocks({
+      initialQuery: query.trim(),
+      initialCategory: resolveSearchCategory(query.trim(), '仕事・相談').category
+    })
   });
 }
 
@@ -91,7 +98,7 @@ async function handleInteraction(rawBody, env, ctx) {
       ctx.waitUntil(openModal(env, payload.trigger_id, buildSearchModal({
         channelId: payload.channel?.id,
         initialQuery: actionValue.initialQuery || '',
-        initialCategory: actionValue.initialCategory || '興味・人柄'
+        initialCategory: resolveSearchCategory(actionValue.initialQuery || '', actionValue.initialCategory || '仕事・相談').category
       })));
     }
     return new Response('', { status: 200 });
@@ -185,9 +192,10 @@ async function postSearchResults(env, { channel, user, query, category }) {
   if (!channel || !user) return;
 
   try {
+    const categoryResolution = resolveSearchCategory(query, category || '仕事・相談');
     const facets = await loadFacets(env);
     const results = searchFacets(facets, query, {
-      category,
+      category: categoryResolution.category,
       threshold: env.PEOPLE_FINDER_THRESHOLD || DEFAULT_THRESHOLD
     });
     const chunks = chunkResults(results);
@@ -200,7 +208,8 @@ async function postSearchResults(env, { channel, user, query, category }) {
         text: `「${query}」に近い社員検索結果`,
         blocks: resultMessageBlocks({
           query,
-          category,
+          category: categoryResolution.category,
+          categoryInferred: categoryResolution.inferred,
           results: pages[index],
           totalResults: results.length,
           page: index + 1,
@@ -271,7 +280,7 @@ async function loadFacets(env) {
   return cachedFacets;
 }
 
-function buildSearchModal({ channelId, initialQuery = '', initialCategory = '興味・人柄' }) {
+function buildSearchModal({ channelId, initialQuery = '', initialCategory = '仕事・相談' }) {
   const selectedCategory = normalizeCategory(initialCategory);
   const initialOption = CATEGORY_OPTIONS.find((item) => item.value === selectedCategory) || CATEGORY_OPTIONS[1];
   const queryElement = {
@@ -324,7 +333,7 @@ function buildSearchModal({ channelId, initialQuery = '', initialCategory = '興
   };
 }
 
-function buttonBlocks({ initialQuery = '', initialCategory = '興味・人柄' } = {}) {
+function buttonBlocks({ initialQuery = '', initialCategory = '仕事・相談' } = {}) {
   const text = initialQuery
     ? `「${escapeMrkdwn(initialQuery)}」で社員検索を開きます。`
     : '社員データから、相談できそうな人や話しかけるきっかけになる人を探します。';
@@ -345,14 +354,18 @@ function buttonBlocks({ initialQuery = '', initialCategory = '興味・人柄' }
   ];
 }
 
-function resultMessageBlocks({ query, category, results, totalResults, page, totalPages }) {
+function resultMessageBlocks({ query, category, categoryInferred = false, results, totalResults, page, totalPages }) {
+  const categoryText = categoryInferred
+    ? `${escapeMrkdwn(category)} (入力内容から自動判定)`
+    : escapeMrkdwn(category);
+
   if (results.length === 0) {
     return [
       {
         type: 'section',
         text: {
           type: 'mrkdwn',
-          text: `「${escapeMrkdwn(query)}」に合う社員は見つかりませんでした。\nカテゴリ: *${escapeMrkdwn(category)}*`
+          text: `「${escapeMrkdwn(query)}」に合う社員は見つかりませんでした。\nカテゴリ: *${categoryText}*`
         }
       }
     ];
@@ -363,7 +376,7 @@ function resultMessageBlocks({ query, category, results, totalResults, page, tot
       type: 'section',
       text: {
         type: 'mrkdwn',
-        text: `「${escapeMrkdwn(query)}」に近い社員が *${totalResults}名* 見つかりました。\nカテゴリ: *${escapeMrkdwn(category)}* / 表示: ${page}/${totalPages}`
+        text: `「${escapeMrkdwn(query)}」に近い社員が *${totalResults}名* 見つかりました。\nカテゴリ: *${categoryText}* / 表示: ${page}/${totalPages}`
       }
     },
     { type: 'divider' }
@@ -404,7 +417,7 @@ function formatResult(result) {
 }
 
 function searchFacets(facets, query, options = {}) {
-  const uiCategory = normalizeCategory(options.category || '興味・人柄');
+  const uiCategory = resolveSearchCategory(query, options.category || '興味・人柄').category;
   const parsedThreshold = Number(options.threshold ?? DEFAULT_THRESHOLD);
   const threshold = Number.isFinite(parsedThreshold) ? parsedThreshold : DEFAULT_THRESHOLD;
   const queryText = stripQueryHelpers(query) || normalizeText(query);
@@ -486,12 +499,31 @@ function normalizeCategory(category) {
   return category;
 }
 
+function inferCategoryFromQuery(query) {
+  const value = normalizeText(query);
+  if (PERSONAL_QUERY_PATTERN.test(value)) return '興味・人柄';
+  if (WORK_QUERY_PATTERN.test(value)) return '仕事・相談';
+  return null;
+}
+
+function resolveSearchCategory(query, selectedCategory) {
+  const normalizedCategory = normalizeCategory(selectedCategory || '興味・人柄');
+  const inferredCategory = inferCategoryFromQuery(query);
+  return {
+    category: inferredCategory || normalizedCategory,
+    inferred: Boolean(inferredCategory && inferredCategory !== normalizedCategory),
+    selectedCategory: normalizedCategory
+  };
+}
+
 function stripQueryHelpers(query) {
   return normalizeText(query)
     .replace(/が好きな人|が好き|好きな人|好きな|興味がある人|詳しい人|得意な人|できる人|話せる人|相談できる人|相談したい|人/g, ' ')
+    .replace(/を知っている人|を知っている|知っている人|知っている|知ってる|分かる|わかる|経験者|または|もしくは|あるいは/g, ' ')
     .replace(/について|に関心がある|に興味がある|を探して|探して|教えて|詳しい|相談/g, ' ')
     .replace(/([a-z0-9+#.])([^a-z0-9+#.\s])/g, '$1 $2')
     .replace(/([^a-z0-9+#.\s])([a-z0-9+#.])/g, '$1 $2')
+    .replace(/(^|\s)(に|を|が|は|の|と|で)(?=\s|$)/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 }

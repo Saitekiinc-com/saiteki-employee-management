@@ -45,7 +45,8 @@ const FIELD_CONFIGS = [
     category: 'interest',
     uiCategory: UI_CATEGORY_PERSONAL,
     path: 'current_state.recent_topics_of_interest',
-    evidencePath: 'current_state.summary'
+    evidencePath: 'current_state.summary',
+    filter: isPersonalTopic
   },
   {
     category: 'value',
@@ -94,6 +95,10 @@ function cleanText(value, maxLength = 180) {
 
 function isWorkTopic(value) {
   return /ai|aws|react|next|rag|qa|pm|poc|gemini|cursor|notion|slack|api|db|sql|bi|開発|運用|監視|設計|要件|技術|テスト|品質|分析|採用|営業|総務|人事|オンボーディング|データ|プロンプト|自動化|インフラ|サーバ/i.test(value);
+}
+
+function isPersonalTopic(value) {
+  return !isWorkTopic(value);
 }
 
 function normalizeText(value) {

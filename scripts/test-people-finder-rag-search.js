@@ -4,7 +4,7 @@ const os = require('os');
 const path = require('path');
 
 const { buildSearchFacets, writeSearchFacets } = require('./build-search-facets');
-const { searchFacets, stripQueryHelpers } = require('./people-finder-rag-search');
+const { resolveSearchCategory, searchFacets, stripQueryHelpers } = require('./people-finder-rag-search');
 
 const employees = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/employees.json'), 'utf8'));
 const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'people-finder-'));
@@ -25,6 +25,12 @@ const sampleMessages = [
 ];
 
 assert.strictEqual(stripQueryHelpers('ポケモンが好きな人'), 'ポケモン');
+assert.strictEqual(stripQueryHelpers('AWSに詳しい人、または経験者'), 'aws');
+assert.deepStrictEqual(resolveSearchCategory('AWSを知っている人', '興味・人柄'), {
+  category: '仕事・相談',
+  inferred: true,
+  selectedCategory: '興味・人柄'
+});
 
 const facets = buildSearchFacets(employees, sampleMessages);
 writeSearchFacets(facets, tempFacetsFile);
@@ -45,6 +51,11 @@ assert(pokemon.includes('榎本詩織'), '榎本詩織 should match pokemon');
 const aws = searchFacets(graph, 'AWS運用に詳しい人', { category: '仕事・相談', threshold: 0.16 })
   .map((result) => result.employeeName);
 assert(aws.includes('真栄城則明'), '真栄城則明 should match AWS operations');
+
+const inferredAws = searchFacets(graph, 'AWSに詳しい人、または経験者', { category: '興味・人柄' })
+  .map((result) => result.employeeName);
+assert(inferredAws.includes('真栄城則明'), 'AWS query should infer work category');
+assert(!inferredAws.includes('榎本詩織'), 'AWS query should not match broad personal experience facets');
 
 const gundam = searchFacets(graph, 'ガンダムが好きな人', { category: '興味・人柄', threshold: 0.16 });
 const uehara = gundam.find((result) => result.employeeName === '上原基臣');
