@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
+  "name": "saiteki-people-finder-slack",
+  "main": "src/index.js",
+  "compatibility_date": "2026-05-27",
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "vars": {
+    "SLACK_CHANNEL_ID_3": "C0B6G5S8WUU",
+    "PEOPLE_FINDER_THRESHOLD": "0.16",
+    "SEARCH_FACETS_CACHE_SECONDS": "300",
+    "SEARCH_FACETS_URL": "https://raw.githubusercontent.com/Saitekiinc-com/saiteki-employee-management/main/data/search-facets.jsonld"
+  },
+  "secrets": {
+    "required": [
+      "SLACK_SIGNING_SECRET",
+      "SLACK_BOT_TOKEN_3"
+    ]
+  }
+}
