@@ -13,6 +13,7 @@
     "test:employee-profile-graph": "node scripts/test-employee-profile-graph.js",
     "test:profile-search-index": "node scripts/test-profile-search-index.js",
     "test:profile-vector-search": "node scripts/test-profile-vector-search.js",
+    "test:people-finder-rerank": "node scripts/test-people-finder-rerank.js",
     "test:people-finder": "node scripts/test-people-finder-rag-search.js"
   },
   "dependencies": {
