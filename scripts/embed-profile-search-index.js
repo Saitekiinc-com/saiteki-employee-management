@@ -142,7 +142,7 @@ async function main() {
     maxRetries: args.retries
   });
   writeEmbeddedIndex(embedded, outputFile);
-  console.log(`Embedded ${embedded['@graph'].filter((unit) => unit.embedding?.vector).length} profile search units at ${outputFile}`);
+  console.log(`Embedded ${embedded['@graph'].filter((unit) => unit.embedding?.vector).length} search units at ${outputFile}`);
   console.log(`Provider: ${provider.name} / ${provider.model}`);
 }
 

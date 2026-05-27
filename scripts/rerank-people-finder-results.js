@@ -1,6 +1,6 @@
 require('dotenv').config({ quiet: true });
 
-const { normalizeText, tokenize } = require('./profile-embedding-utils');
+const { normalizeText, stripQueryHelpers, tokenize } = require('./profile-embedding-utils');
 
 const INTENT_RANK = {
   direct: 4,
@@ -168,7 +168,7 @@ function localDecision(query, result) {
     };
   }
 
-  const queryTerms = tokenize(normalizedQuery).filter((term) => term.length >= 2);
+  const queryTerms = tokenize(stripQueryHelpers(normalizedQuery) || normalizedQuery).filter((term) => term.length >= 2);
   const matched = queryTerms.some((term) => normalizeText(text).includes(term));
   return {
     employeeName: result.employeeName,

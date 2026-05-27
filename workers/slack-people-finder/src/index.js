@@ -8,6 +8,7 @@ const CATEGORY_BLOCK = 'search_category';
 const QUERY_BLOCK = 'search_query';
 const DEFAULT_THRESHOLD = 0.18;
 const DEFAULT_VECTOR_THRESHOLD = 0.22;
+const DEFAULT_MESSAGE_VECTOR_THRESHOLD = 0.12;
 const DEFAULT_TOP_UNITS = 80;
 const DEFAULT_RERANK_CANDIDATES = 12;
 const DEFAULT_EMBEDDING_MODEL = 'gemini-embedding-001';
@@ -39,6 +40,8 @@ const CATEGORY_OPTIONS = [
 
 let cachedFacets;
 let cachedAt = 0;
+let cachedMessageIndex;
+let cachedMessageIndexAt = 0;
 let cachedProfileIndex;
 let cachedProfileIndexAt = 0;
 
@@ -235,6 +238,14 @@ async function postSearchResults(env, { channel, user, query, category }) {
 }
 
 async function searchPeople(env, query, categoryResolution) {
+  if (canUseMessageSearch(env)) {
+    try {
+      return await searchMessageIndex(env, query);
+    } catch (error) {
+      console.error('Message vector people search failed; falling back to profile search', error);
+    }
+  }
+
   if (canUseVectorSearch(env)) {
     try {
       return await searchProfileIndex(env, query, categoryResolution.category);
@@ -248,6 +259,10 @@ async function searchPeople(env, query, categoryResolution) {
     category: categoryResolution.category,
     threshold: env.PEOPLE_FINDER_THRESHOLD || DEFAULT_THRESHOLD
   });
+}
+
+function canUseMessageSearch(env) {
+  return Boolean(env.MESSAGE_SEARCH_INDEX_URL && env.GEMINI_API_KEY);
 }
 
 function canUseVectorSearch(env) {
@@ -327,6 +342,22 @@ async function loadProfileIndex(env) {
   return cachedProfileIndex;
 }
 
+async function loadMessageIndex(env) {
+  const now = Date.now();
+  const ttl = Number(env.MESSAGE_SEARCH_INDEX_CACHE_SECONDS || env.PROFILE_SEARCH_INDEX_CACHE_SECONDS || env.SEARCH_FACETS_CACHE_SECONDS || 300) * 1000;
+  if (cachedMessageIndex && now - cachedMessageIndexAt < ttl) return cachedMessageIndex;
+
+  const response = await fetch(env.MESSAGE_SEARCH_INDEX_URL, {
+    headers: env.MESSAGE_SEARCH_INDEX_TOKEN ? { authorization: `Bearer ${env.MESSAGE_SEARCH_INDEX_TOKEN}` } : {}
+  });
+  if (!response.ok) {
+    throw new Error(`Failed to fetch message search index: ${response.status}`);
+  }
+  cachedMessageIndex = await response.json();
+  cachedMessageIndexAt = now;
+  return cachedMessageIndex;
+}
+
 function buildSearchModal({ channelId, initialQuery = '', initialCategory = '仕事・相談' }) {
   const selectedCategory = normalizeCategory(initialCategory);
   const initialOption = CATEGORY_OPTIONS.find((item) => item.value === selectedCategory) || CATEGORY_OPTIONS[1];
@@ -349,7 +380,7 @@ function buildSearchModal({ channelId, initialQuery = '', initialCategory = '仕
         type: 'section',
         text: {
           type: 'mrkdwn',
-          text: '*探したい方向を選んで、自然文で入力してください。*\nカテゴリで絞ってから、社員データとメッセージ引用を類似検索します。'
+          text: '*探したい方向を選んで、自然文で入力してください。*\n社員データとメッセージ引用から、近い発言やプロフィール根拠を検索します。'
         }
       },
       {
@@ -512,12 +543,27 @@ function reasonSourceLabel(reason) {
 
 async function searchProfileIndex(env, query, uiCategory) {
   const index = await loadProfileIndex(env);
+  return searchVectorIndex(env, index, query, {
+    uiCategory,
+    threshold: env.PEOPLE_FINDER_VECTOR_THRESHOLD || DEFAULT_VECTOR_THRESHOLD
+  });
+}
+
+async function searchMessageIndex(env, query) {
+  const index = await loadMessageIndex(env);
+  return searchVectorIndex(env, index, query, {
+    threshold: env.PEOPLE_FINDER_MESSAGE_VECTOR_THRESHOLD || DEFAULT_MESSAGE_VECTOR_THRESHOLD
+  });
+}
+
+async function searchVectorIndex(env, index, query, options = {}) {
   ensureEmbeddedIndex(index);
 
   const queryText = stripQueryHelpers(query) || normalizeText(query);
   const queryVector = await embedQuery(env, queryText, index.embedding?.model, firstVectorDimensions(index));
-  const threshold = parseNumber(env.PEOPLE_FINDER_VECTOR_THRESHOLD, DEFAULT_VECTOR_THRESHOLD);
+  const threshold = parseNumber(options.threshold, DEFAULT_VECTOR_THRESHOLD);
   const topUnits = parseNumber(env.PEOPLE_FINDER_VECTOR_TOP_UNITS, DEFAULT_TOP_UNITS);
+  const uiCategory = options.uiCategory;
   const graph = Array.isArray(index['@graph']) ? index['@graph'] : [];
 
   const scoredUnits = graph
@@ -544,7 +590,7 @@ function ensureEmbeddedIndex(index) {
   const graph = Array.isArray(index?.['@graph']) ? index['@graph'] : [];
   const missing = graph.filter((unit) => unitVector(unit).length === 0);
   if (graph.length === 0 || missing.length > 0) {
-    throw new Error(`Profile search index is not embedded: ${missing.length || graph.length} units without vectors.`);
+    throw new Error(`Vector search index is not embedded: ${missing.length || graph.length} units without vectors.`);
   }
 }
 
@@ -614,7 +660,7 @@ function vectorReason(unit, score) {
     label: unit.relationLabel || unit.topicLabel || unit.predicate || 'プロフィール根拠',
     score: Number(score.toFixed(4)),
     sourceField: unit.sourceField || unit.sourceFields?.[0],
-    sourceLabel: unit.uiCategory || 'プロフィールグラフ',
+    sourceLabel: unit.sourceLabel || unit.uiCategory || 'プロフィールグラフ',
     evidenceSnippets: (unit.detailBullets || []).slice(0, 4),
     detailBullets: unit.detailBullets || [],
     relationLabel: unit.relationLabel,
@@ -715,6 +761,8 @@ function buildRerankPrompt(query, results) {
 - 根拠にない推測はしない
 - 職種検索では、AI、エンジニア、影響力だけの候補は reject または weak
 - 趣味検索では、具体的な接点がある候補を direct
+- Slackメッセージ検索では、関連する実発言がある候補を direct または adjacent
+- 発言が質問・引用・雑談だけで相談相手として弱い場合は adjacent または weak
 - selectedReasonUnitIds は判定根拠に使ったunitIdだけを入れる
 - JSONだけを返す
 
@@ -902,7 +950,7 @@ function stripQueryHelpers(query) {
   return normalizeText(query)
     .replace(/が好きな人|が好き|好きな人|好きな|興味がある人|詳しい人|得意な人|できる人|話せる人|相談できる人|相談したい|人/g, ' ')
     .replace(/を知っている人|を知っている|知っている人|知っている|知ってる|分かる|わかる|経験者|または|もしくは|あるいは/g, ' ')
-    .replace(/について|に関心がある|に興味がある|を探して|探して|教えて|詳しい|相談/g, ' ')
+    .replace(/について|に関心がある|に興味がある|を探して|探して|教えて欲しい|教えてほしい|教えて|欲しい|ほしい|詳しい|相談/g, ' ')
     .replace(/([a-z0-9+#.])([^a-z0-9+#.\s])/g, '$1 $2')
     .replace(/([^a-z0-9+#.\s])([a-z0-9+#.])/g, '$1 $2')
     .replace(/(^|\s)(に|を|が|は|の|と|で)(?=\s|$)/g, ' ')
