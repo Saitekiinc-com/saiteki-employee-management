@@ -39,6 +39,8 @@ Slack上で `/saiteki-people` を実行し、社員データから相談相手�
 
 Socket Modeを使うため、公開HTTPエンドポイントは不要。
 
+Cloudflare WorkersでRequest URL方式にする場合は、[Cloudflare Workers版 Slack社員検索](../workers/slack-people-finder/README.md) を使う。
+
 ### Request URLについて
 
 このアプリはSocket Modeで動くため、slash commandのRequest URLは使わない。
