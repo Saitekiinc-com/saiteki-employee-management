@@ -1,11 +1,15 @@
 {
+  "name": "saiteki-employee-management",
+  "private": true,
   "scripts": {
     "build:search-facets": "node scripts/build-search-facets.js",
+    "slack:people-finder": "node scripts/slack-people-finder-app.js",
     "test:people-finder": "node scripts/test-people-finder-rag-search.js"
   },
   "dependencies": {
     "@google-cloud/vertexai": "^1.10.0",
     "@google/generative-ai": "^0.24.1",
+    "@slack/bolt": "^4.7.2",
     "dotenv": "^17.2.4"
   }
 }
