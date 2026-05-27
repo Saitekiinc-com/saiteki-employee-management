@@ -10,11 +10,42 @@ const SLACK_MESSAGES_FILE = path.join(__dirname, '../data/slack-messages.jsonl')
 // Configuration - Primary Workspace
 const SLACK_TOKEN = process.env.SLACK_BOT_TOKEN || process.env.SLACK_APP_TOKEN;
 // Support multiple channels (comma-separated in SLACK_CHANNEL_ID)
-const CHANNEL_IDS = process.env.SLACK_CHANNEL_ID ? process.env.SLACK_CHANNEL_ID.split(',').map(id => id.trim()) : [];
+const CHANNEL_IDS = parseChannelIds(process.env.SLACK_CHANNEL_ID);
 
 // Configuration - Secondary Workspace (optional)
 const SLACK_TOKEN_2 = process.env.SLACK_BOT_TOKEN_2;
-const CHANNEL_IDS_2 = process.env.SLACK_CHANNEL_ID_2 ? process.env.SLACK_CHANNEL_ID_2.split(',').map(id => id.trim()) : [];
+const CHANNEL_IDS_2 = parseChannelIds(process.env.SLACK_CHANNEL_ID_2);
+
+// Configuration - Slack App channel archive (optional)
+const SLACK_TOKEN_3 = process.env.SLACK_BOT_TOKEN_3;
+const CHANNEL_IDS_3 = parseChannelIds(process.env.SLACK_CHANNEL_ID_3);
+
+const SLACK_SOURCES = [
+    {
+        name: 'Primary Workspace',
+        workspace: 'primary',
+        token: SLACK_TOKEN,
+        channelIds: CHANNEL_IDS,
+        analyzeProfiles: true,
+        registerNewUsers: true
+    },
+    {
+        name: 'Secondary Workspace',
+        workspace: 'secondary',
+        token: SLACK_TOKEN_2,
+        channelIds: CHANNEL_IDS_2,
+        analyzeProfiles: true,
+        registerNewUsers: false
+    },
+    {
+        name: 'Slack App Channel Archive',
+        workspace: 'primary',
+        token: SLACK_TOKEN_3,
+        channelIds: CHANNEL_IDS_3,
+        analyzeProfiles: false,
+        registerNewUsers: false
+    }
+];
 
 const PROJECT_ID = process.env.GCP_PROJECT_ID;
 const LOCATION = process.env.GCP_LOCATION || 'us-central1';
@@ -24,6 +55,43 @@ const ENDPOINT_ID = process.env.GCP_ENDPOINT_ID;
 // Parse command line arguments
 const args = process.argv.slice(2);
 const IS_FULL_SYNC = args.includes('--full');
+
+function parseChannelIds(value) {
+    return value ? value.split(',').map(id => id.trim()).filter(Boolean) : [];
+}
+
+async function fetchAllSourceMessages(sources) {
+    const results = [];
+
+    for (const source of sources) {
+        if (!source.token || source.channelIds.length === 0) {
+            console.log(`${source.name} not configured. Skipping.`);
+            results.push({ ...source, messages: [] });
+            continue;
+        }
+
+        console.log(`--- ${source.name} ---`);
+        let messages = [];
+        for (const channelId of source.channelIds) {
+            console.log(`Fetching messages from channel: ${channelId}...`);
+            try {
+                const channelMessages = await fetchSlackMessages(channelId, IS_FULL_SYNC, source.token);
+                console.log(`  Fetched ${channelMessages.length} messages from ${channelId}`);
+                messages = messages.concat(channelMessages.map(m => ({
+                    ...m,
+                    channelId,
+                    workspace: source.workspace
+                })));
+            } catch (e) {
+                console.error(`  Failed to fetch from ${channelId}: ${e.message}`);
+            }
+        }
+        console.log(`${source.name} messages: ${messages.length}`);
+        results.push({ ...source, messages });
+    }
+
+    return results;
+}
 
 
 async function main() {
@@ -44,54 +112,29 @@ async function main() {
     const employees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
 
     console.log(`Starting sync... Full Mode: ${IS_FULL_SYNC}`);
-    console.log(`Target Channels: ${CHANNEL_IDS.join(', ')}`);
+    console.log(`Target Channels: ${SLACK_SOURCES
+        .filter(source => source.token && source.channelIds.length > 0)
+        .map(source => `${source.name}=${source.channelIds.join(',')}`)
+        .join(' / ')}`);
 
-    // Fetch messages from ALL channels (Primary Workspace)
-    let allMessages = [];
-    console.log('--- Primary Workspace ---');
-    for (const channelId of CHANNEL_IDS) {
-        const cid = channelId.trim();
-        if (!cid) continue;
-        console.log(`Fetching messages from channel: ${cid}...`);
-        try {
-            const channelMessages = await fetchSlackMessages(cid, IS_FULL_SYNC, SLACK_TOKEN);
-            console.log(`  Fetched ${channelMessages.length} messages from ${cid}`);
-            allMessages = allMessages.concat(channelMessages.map(m => ({ ...m, channelId: cid, workspace: 'primary' })));
-        } catch (e) {
-            console.error(`  Failed to fetch from ${cid}: ${e.message}`);
-        }
-    }
-    console.log(`Primary workspace messages: ${allMessages.length}`);
+    const sourceMessages = await fetchAllSourceMessages(SLACK_SOURCES);
+    const allMessages = sourceMessages.flatMap(source => source.messages);
+    const profileMessages = sourceMessages
+        .filter(source => source.analyzeProfiles)
+        .flatMap(source => source.messages);
+    const registrationMessages = sourceMessages
+        .filter(source => source.registerNewUsers)
+        .flatMap(source => source.messages);
 
-    // Fetch messages from Secondary Workspace (if configured)
-    let allMessages2 = [];
-    if (SLACK_TOKEN_2 && CHANNEL_IDS_2.length > 0) {
-
-        console.log('--- Secondary Workspace ---');
-        for (const channelId of CHANNEL_IDS_2) {
-            const cid = channelId.trim();
-            if (!cid) continue;
-            console.log(`Fetching messages from channel: ${cid}...`);
-            try {
-                const channelMessages = await fetchSlackMessages(cid, IS_FULL_SYNC, SLACK_TOKEN_2);
-                console.log(`  Fetched ${channelMessages.length} messages from ${cid}`);
-                allMessages2 = allMessages2.concat(channelMessages.map(m => ({ ...m, channelId: cid, workspace: 'secondary' })));
-            } catch (e) {
-                console.error(`  Failed to fetch from ${cid}: ${e.message}`);
-            }
-        }
-        console.log(`Secondary workspace messages: ${allMessages2.length}`);
-    } else {
-        console.log('Secondary workspace not configured. Skipping.');
-    }
-    console.log(`Total messages fetched: ${allMessages.length + allMessages2.length}`);
+    console.log(`Total messages fetched: ${allMessages.length}`);
+    console.log(`Messages available for profile analysis: ${profileMessages.length}`);
 
     const existingSlackMessages = readJsonl(SLACK_MESSAGES_FILE);
-    const mergedSlackMessages = mergeSlackMessages(existingSlackMessages, [...allMessages, ...allMessages2]);
+    const mergedSlackMessages = mergeSlackMessages(existingSlackMessages, allMessages);
     writeJsonl(SLACK_MESSAGES_FILE, mergedSlackMessages);
     console.log(`Saved ${mergedSlackMessages.length} normalized Slack messages to ${SLACK_MESSAGES_FILE}.`);
 
-    const discoveredCount = await registerNewPrimaryWorkspaceUsers(employees, allMessages);
+    const discoveredCount = await registerNewPrimaryWorkspaceUsers(employees, registrationMessages);
     if (discoveredCount > 0) {
         console.log(`Registered ${discoveredCount} newly discovered primary Slack users.`);
     }
@@ -109,9 +152,9 @@ async function main() {
         console.log(`Analyzing messages for ${employee.name} (IDs: ${ids.join(', ')})...`);
 
         // Filter messages by this user from both workspaces
-        const primaryMessages = allMessages
+        const primaryMessages = profileMessages
             .filter(m => m.user === employee.slack_id && m.text);
-        const secondaryMessages = allMessages2
+        const secondaryMessages = profileMessages
             .filter(m => employee.slack_id_2 && m.user === employee.slack_id_2 && m.text);
         const combinedMessages = [...primaryMessages, ...secondaryMessages];
 

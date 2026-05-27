@@ -3,7 +3,7 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 
-const { buildSearchFacets, writeSearchFacets } = require('./build-search-facets');
+const { buildSearchFacets, mergeSlackMessages, writeSearchFacets } = require('./build-search-facets');
 const { resolveSearchCategory, searchFacets, stripQueryHelpers } = require('./people-finder-rag-search');
 
 const employees = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/employees.json'), 'utf8'));
@@ -23,6 +23,15 @@ const sampleMessages = [
     permalink: null
   }
 ];
+
+const archivedMessage = mergeSlackMessages([], [{
+  workspace: 'primary',
+  channelId: 'C_TEST',
+  user: 'U_TEST',
+  ts: '1770000001.000000',
+  text: 'Slack原文は\n改行を含めて保存する'
+}])[0];
+assert.strictEqual(archivedMessage.text, 'Slack原文は\n改行を含めて保存する');
 
 assert.strictEqual(stripQueryHelpers('ポケモンが好きな人'), 'ポケモン');
 assert.strictEqual(stripQueryHelpers('AWSに詳しい人、または経験者'), 'aws');

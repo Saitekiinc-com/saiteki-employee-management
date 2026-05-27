@@ -125,7 +125,7 @@ function messageKey(message) {
 }
 
 function normalizeSlackMessage(message, workspace = 'primary') {
-  const text = cleanText(message.text, 2000);
+  const text = String(message.text || '').trim();
   if (!message.user || !message.ts || !text) return null;
   return {
     id: messageKey({ ...message, workspace }),
