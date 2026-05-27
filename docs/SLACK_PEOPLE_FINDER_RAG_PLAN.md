@@ -70,6 +70,9 @@ Slackモーダルでは以下の2カテゴリを表示する。
 
 `data/employees.json` を原本として、検索用に `data/search-facets.jsonld` を生成する。
 
+話しかけるきっかけとして使える「人と話題の接点」は、`search-facets.jsonld` ではなく [社員プロフィールグラフJSON-LD計画](./EMPLOYEE_PROFILE_GRAPH_JSONLD_PLAN.md) の `employee-profile-graph.jsonld` に集約する。
+`search-facets.jsonld` は、将来的に `employee-profile-graph.jsonld` から生成するSlack App向けの派生indexとして扱う。
+
 検索用データは社員単位の長文ではなく、意味のまとまりごとのfacetとして持つ。
 
 ```json
