@@ -17,6 +17,7 @@ const CONTEXT = {
   label: 'saiteki:label',
   aliases: 'saiteki:aliases',
   evidence: 'saiteki:evidence',
+  evidenceSnippets: 'saiteki:evidenceSnippets',
   messageQuotes: 'saiteki:messageQuotes',
   sourceField: 'saiteki:sourceField'
 };
@@ -120,6 +121,74 @@ function makeAliases(label) {
   return [...new Set([...parts, ...ascii])].slice(0, 8);
 }
 
+function collectTextFields(value, pathParts = [], rows = []) {
+  if (typeof value === 'string') {
+    const text = cleanText(value, 1000);
+    if (text) rows.push({ sourceField: pathParts.join('.'), text });
+    return rows;
+  }
+
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => collectTextFields(item, pathParts.concat(index), rows));
+    return rows;
+  }
+
+  if (value && typeof value === 'object') {
+    for (const [key, item] of Object.entries(value)) {
+      collectTextFields(item, pathParts.concat(key), rows);
+    }
+  }
+
+  return rows;
+}
+
+function sentenceWithTerm(text, terms) {
+  const compact = cleanText(text, 260);
+  const sentences = compact.match(/[^。！？!?]+[。！？!?]?/g) || [compact];
+  return sentences.find((sentence) => {
+    const normalized = normalizeText(sentence);
+    return terms.some((term) => normalized.includes(term));
+  }) || compact;
+}
+
+function snippetScore(snippet, label) {
+  const source = snippet.sourceField || '';
+  const normalizedSnippet = normalizeText(snippet.text);
+  const normalizedLabel = normalizeText(label);
+  let score = 0;
+  if (source.includes('evidence')) score += 5;
+  if (source.includes('summary')) score -= 1;
+  if (normalizedSnippet !== normalizedLabel) score += 3;
+  if (snippet.text.length > label.length + 6) score += 2;
+  if (/[（(].+[）)]/.test(snippet.text)) score += 1;
+  return score;
+}
+
+function findEvidenceSnippets(employee, label, aliases) {
+  const compactLabel = normalizeText(label).replace(/\s+/g, '');
+  if (compactLabel.length > 8 || /[（(].+[）)]/.test(label)) return [];
+
+  const terms = [label, ...aliases].map(normalizeText).filter((term) => term.length >= 2);
+  const seen = new Set();
+  const snippets = [];
+
+  for (const field of collectTextFields(employee)) {
+    const normalized = normalizeText(field.text);
+    if (!terms.some((term) => normalized.includes(term))) continue;
+
+    const text = cleanText(sentenceWithTerm(field.text, terms), 160);
+    const key = normalizeText(text);
+    if (key === normalizeText(label)) continue;
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    snippets.push({ text, sourceField: field.sourceField });
+  }
+
+  return snippets
+    .sort((a, b) => snippetScore(b, label) - snippetScore(a, label))
+    .slice(0, 2);
+}
+
 function messageKey(message) {
   return `${message.workspace || 'primary'}:${message.channelId || message.channel || ''}:${message.ts || message.messageTs || ''}`;
 }
@@ -206,9 +275,10 @@ function buildSearchFacets(employees, slackMessages = []) {
         seen.add(key);
 
         const aliases = makeAliases(label);
+        const evidenceSnippets = findEvidenceSnippets(employee, label, aliases);
         const messageQuotes = findMessageQuotes(employee, label, aliases, messageIndex);
 
-        graph.push({
+        const facet = {
           '@id': `facet:${encodeURIComponent(employee.name)}:${config.category}:${graph.length + 1}`,
           '@type': 'saiteki:SearchFacet',
           person: `person:${employee.name}`,
@@ -221,7 +291,9 @@ function buildSearchFacets(employees, slackMessages = []) {
           evidence,
           messageQuotes,
           sourceField: config.path
-        });
+        };
+        if (evidenceSnippets.length > 0) facet.evidenceSnippets = evidenceSnippets;
+        graph.push(facet);
       }
     }
   }

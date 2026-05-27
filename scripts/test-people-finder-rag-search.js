@@ -48,6 +48,16 @@ assert(pokemon.includes('小島遼祐'), '小島遼祐 should match pokemon');
 assert(pokemon.includes('藤井芙美子'), '藤井芙美子 should match pokemon');
 assert(pokemon.includes('榎本詩織'), '榎本詩織 should match pokemon');
 assert(
+  pokemonResults.some((result) => result.employeeName === '小島遼祐'
+    && result.reasons.some((reason) => reason.label === 'ポケモン（ゲーム・カード）')),
+  'pokemon result should expose 小島遼祐 specific pokemon context'
+);
+assert(
+  pokemonResults.some((result) => result.employeeName === '藤井芙美子'
+    && result.reasons.some((reason) => reason.label === '新しいメンバーとの共通の趣味（ポケモン）')),
+  'pokemon result should expose 藤井芙美子 specific pokemon context'
+);
+assert(
   pokemonResults.some((result) => result.reasons.some((reason) => reason.label.includes('ポケモン') && reason.sourceField)),
   'pokemon results should retain the matched source field for evidence display'
 );

@@ -157,6 +157,7 @@ function aggregateByEmployee(scoredFacets, threshold) {
       label: item.facet.label,
       score: Number(item.score.toFixed(4)),
       sourceField: item.facet.sourceField,
+      evidenceSnippets: item.facet.evidenceSnippets || [],
       evidence: item.facet.evidence
     });
     result.messageQuotes.push(...(item.facet.messageQuotes || []));
