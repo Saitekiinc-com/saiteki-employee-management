@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build:search-facets": "node scripts/build-search-facets.js",
+    "test:people-finder": "node scripts/test-people-finder-rag-search.js"
+  },
   "dependencies": {
     "@google-cloud/vertexai": "^1.10.0",
     "@google/generative-ai": "^0.24.1",
