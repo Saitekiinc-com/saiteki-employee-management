@@ -7,10 +7,11 @@
     "label": "saiteki:label",
     "aliases": "saiteki:aliases",
     "evidence": "saiteki:evidence",
+    "evidenceSnippets": "saiteki:evidenceSnippets",
     "messageQuotes": "saiteki:messageQuotes",
     "sourceField": "saiteki:sourceField"
   },
-  "generatedAt": "2026-05-27T04:21:37.778Z",
+  "generatedAt": "2026-05-27T05:51:11.260Z",
   "sourceFiles": [
     "data/employees.json",
     "data/slack-messages.jsonl"
@@ -1178,7 +1179,17 @@
       "aliases": [],
       "evidence": "AWS基盤のインフラ設計・構築に高い専門性を持ちつつ、未経験技術への学習意欲が極めて高い。責任感が強く、チームワークと自己成長を重視して業務に取り組む。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "AWS以外のAzure、Google Cloud、AIといった技術への学習意欲や、未経験のBIツールでの苦戦も「スキルの幅を広げるチャンス」と捉え、知識と経験を得ることに意欲的である。",
+          "sourceField": "values_and_motivators.evidence_episodes.1"
+        },
+        {
+          "text": "AWS基盤のインフラ設計・構築に高い専門性を持ちつつ、未経験技術への学習意欲が極めて高い。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%9D%92%E6%9C%A8%E6%B7%B3%E4%B8%80%E9%83%8E:strength:63",
@@ -1212,7 +1223,17 @@
       "aliases": [],
       "evidence": "AWS基盤のインフラ設計・構築に高い専門性を持ちつつ、未経験技術への学習意欲が極めて高い。責任感が強く、チームワークと自己成長を重視して業務に取り組む。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "業務の納期を最優先し、興味のある社内イベントであっても納品が近いことを理由に参加を見送る判断をするなど、強い責任感を持つ。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "興味のある社内イベントであっても、納品が近いことを理由に不参加を表明し、業務を最優先する強い責任感を見せている。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%9D%92%E6%9C%A8%E6%B7%B3%E4%B8%80%E9%83%8E:work_style:65",
@@ -1326,7 +1347,17 @@
       "aliases": [],
       "evidence": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。組織への貢献意欲とSaitekiの一員であることへの誇り、メンバーとの交流を非常に重視している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自己紹介で「家族とドライブに行ったり、子どもと遊んだり、妻をガチャガチャ屋さんに連れて行ったり」と休日の過ごし方を共有し、家族との時間を大切にしている様子が伺える。",
+          "sourceField": "values_and_motivators.evidence_episodes.0"
+        },
+        {
+          "text": "福岡在住で家族を大切にし、高い責任感と協調性でSaitekiへの貢献とメンバーとの交流を積極的に図る人物。",
+          "sourceField": "overall_summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%9D%92%E6%9C%A8%E6%B7%B3%E4%B8%80%E9%83%8E:value:71",
@@ -1343,7 +1374,17 @@
       "aliases": [],
       "evidence": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。組織への貢献意欲とSaitekiの一員であることへの誇り、メンバーとの交流を非常に重視している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "責任感が強く、チームワークと自己成長を重視して業務に取り組む。",
+          "sourceField": "work_styles_and_strengths.summary"
+        },
+        {
+          "text": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%9D%92%E6%9C%A8%E6%B7%B3%E4%B8%80%E9%83%8E:value:72",
@@ -1360,7 +1401,17 @@
       "aliases": [],
       "evidence": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。組織への貢献意欲とSaitekiの一員であることへの誇り、メンバーとの交流を非常に重視している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "入社時に「Saitekiの輪をどんどん広げていけたら」と組織への貢献意欲を示し、年末には2025年を「最高の年」と振り返り、2026年を「さらに飛躍の年にしていきましょう！",
+          "sourceField": "values_and_motivators.evidence_episodes.2"
+        },
+        {
+          "text": "福岡在住で家族を大切にし、高い責任感と協調性でSaitekiへの貢献とメンバーとの交流を積極的に図る人物。",
+          "sourceField": "overall_summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%9D%92%E6%9C%A8%E6%B7%B3%E4%B8%80%E9%83%8E:value:73",
@@ -1377,7 +1428,17 @@
       "aliases": [],
       "evidence": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。組織への貢献意欲とSaitekiの一員であることへの誇り、メンバーとの交流を非常に重視している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "業務の納期を最優先し、興味のある社内イベントであっても納品が近いことを理由に参加を見送る判断をするなど、強い責任感を持つ。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "興味のある社内イベントであっても、納品が近いことを理由に不参加を表明し、業務を最優先する強い責任感を見せている。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%9D%92%E6%9C%A8%E6%B7%B3%E4%B8%80%E9%83%8E:recent_topic:74",
@@ -1394,7 +1455,13 @@
       "aliases": [],
       "evidence": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。組織への貢献意欲とSaitekiの一員であることへの誇り、メンバーとの交流を非常に重視している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.motivation_triggers"
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "evidenceSnippets": [
+        {
+          "text": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%9D%92%E6%9C%A8%E6%B7%B3%E4%B8%80%E9%83%8E:recent_topic:75",
@@ -1428,7 +1495,17 @@
       "aliases": [],
       "evidence": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。組織への貢献意欲とSaitekiの一員であることへの誇り、メンバーとの交流を非常に重視している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.motivation_triggers"
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "evidenceSnippets": [
+        {
+          "text": "責任感が強く、チームワークと自己成長を重視して業務に取り組む。",
+          "sourceField": "work_styles_and_strengths.summary"
+        },
+        {
+          "text": "家族との時間を大切にし、仕事では新しい技術の習得と自己成長を追求。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%9D%92%E6%9C%A8%E6%B7%B3%E4%B8%80%E9%83%8E:recent_topic:77",
@@ -1544,7 +1621,17 @@
       "aliases": [],
       "evidence": "長年の経験に裏打ちされた細部への注意と、高いコミュニケーション能力が強み。新しい情報や知識の吸収にも積極的で、協調性を持ちながら業務に取り組む。状況把握と情報共有に長け、自身の経験を活かした具体的な提案も期待できる。計画性、実行力、そして適応力に優れる。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "開放性と協調性が特に高く、新しい経験や人との交流を楽しみ、チームワークを重視する傾向がある。",
+          "sourceField": "personality_traits.summary"
+        },
+        {
+          "text": "新しい情報や知識の吸収にも積極的で、協調性を持ちながら業務に取り組む。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:strength:84",
@@ -1576,7 +1663,17 @@
       "aliases": [],
       "evidence": "長年の経験に裏打ちされた細部への注意と、高いコミュニケーション能力が強み。新しい情報や知識の吸収にも積極的で、協調性を持ちながら業務に取り組む。状況把握と情報共有に長け、自身の経験を活かした具体的な提案も期待できる。計画性、実行力、そして適応力に優れる。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "新しい環境への高い適応力と計画性を持ち、自身の生活の変化も積極的に共有する社交的な人物。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "計画性、実行力、そして適応力に優れる。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:strength:86",
@@ -1592,7 +1689,17 @@
       "aliases": [],
       "evidence": "長年の経験に裏打ちされた細部への注意と、高いコミュニケーション能力が強み。新しい情報や知識の吸収にも積極的で、協調性を持ちながら業務に取り組む。状況把握と情報共有に長け、自身の経験を活かした具体的な提案も期待できる。計画性、実行力、そして適応力に優れる。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "目標達成に向けた実行力があり、ポジティブに挑戦を楽しむ。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "計画性、実行力、そして適応力に優れる。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:strength:87",
@@ -1608,7 +1715,17 @@
       "aliases": [],
       "evidence": "長年の経験に裏打ちされた細部への注意と、高いコミュニケーション能力が強み。新しい情報や知識の吸収にも積極的で、協調性を持ちながら業務に取り組む。状況把握と情報共有に長け、自身の経験を活かした具体的な提案も期待できる。計画性、実行力、そして適応力に優れる。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "新しい環境への高い適応力と計画性を持ち、自身の生活の変化も積極的に共有する社交的な人物。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "計画性、実行力、そして適応力に優れる。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:work_style:88",
@@ -1731,7 +1848,13 @@
       "aliases": [],
       "evidence": "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "成長、繋がり、楽しさ、探求、そして経験を重視する。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:value:95",
@@ -1747,7 +1870,17 @@
       "aliases": [],
       "evidence": "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "開放性と協調性が特に高く、新しい経験や人との交流を楽しみ、チームワークを重視する傾向がある。",
+          "sourceField": "personality_traits.summary"
+        },
+        {
+          "text": "新しい情報や知識の吸収にも積極的で、協調性を持ちながら業務に取り組む。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:value:96",
@@ -1763,7 +1896,13 @@
       "aliases": [],
       "evidence": "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "成長、繋がり、楽しさ、探求、そして経験を重視する。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:value:97",
@@ -1779,7 +1918,13 @@
       "aliases": [],
       "evidence": "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "成長、繋がり、楽しさ、探求、そして経験を重視する。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:value:98",
@@ -1795,7 +1940,17 @@
       "aliases": [],
       "evidence": "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "これは、自身の状況を周囲に開示することで交流を促し、新しい環境での繋がりを求める社交性の表れである。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        },
+        {
+          "text": "飲み会の後に、自らの趣味や出張先での発見を詳細に共有することで、仲間との繋がりを深めようとする。",
+          "sourceField": "values_and_motivators.evidence_episodes.0"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:value:99",
@@ -1827,7 +1982,17 @@
       "aliases": [],
       "evidence": "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "一人暮らしの開始という新しい挑戦をポジティブに捉え、連休を楽しむ意欲を見せる。",
+          "sourceField": "values_and_motivators.evidence_episodes.3"
+        },
+        {
+          "text": "新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:value:101",
@@ -1843,7 +2008,17 @@
       "aliases": [],
       "evidence": "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "一人暮らし開始に伴う懸念事項を自ら解消し、「懸念がほぼ払拭できた」と報告することで、自己管理能力の高さと安定感を保つ能力を示す。",
+          "sourceField": "personality_traits.neuroticism.evidence"
+        },
+        {
+          "text": "新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:value:102",
@@ -1859,7 +2034,13 @@
       "aliases": [],
       "evidence": "成長、繋がり、楽しさ、探求、そして経験を重視する。新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "新しい挑戦や安定した環境の確立、自律性を重んじ、自身の情熱を共有することがモチベーションの源泉となる。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9E%97%E7%BF%94:recent_topic:103",
@@ -2003,7 +2184,17 @@
       "aliases": [],
       "evidence": "データに基づいた分析力と高い学習意欲を持ち、自ら専門性を深めようと努力します。チームでのコミュニケーションを重視し、協調的に仕事を進めるタイプです。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "Power BIを用いたデータ分析・加工の経験があり、資格取得を目指しデータベース構築といったより専門的な分野への挑戦意欲を明確に示しています。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "Power BIを用いたデータ分析・加工の経験があると述べています。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%AB%BB%E4%BA%95%E5%BF%97%E4%BF%9D:strength:112",
@@ -2019,7 +2210,17 @@
       "aliases": [],
       "evidence": "データに基づいた分析力と高い学習意欲を持ち、自ら専門性を深めようと努力します。チームでのコミュニケーションを重視し、協調的に仕事を進めるタイプです。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "櫻井志保さんは、データ分析スキルと高い学習意欲を持ち、協調性をもってチームに貢献しようと意欲的な人物です。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "自己認識が高く、協調性があり、学習意欲も高い。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%AB%BB%E4%BA%95%E5%BF%97%E4%BF%9D:strength:113",
@@ -2070,7 +2271,17 @@
       "aliases": [],
       "evidence": "データに基づいた分析力と高い学習意欲を持ち、自ら専門性を深めようと努力します。チームでのコミュニケーションを重視し、協調的に仕事を進めるタイプです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "Power BIを用いたデータ分析・加工の経験があり、資格取得を目指しデータベース構築といったより専門的な分野への挑戦意欲を明確に示しています。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "Power BIを用いたデータ分析・加工の経験があると述べています。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%AB%BB%E4%BA%95%E5%BF%97%E4%BF%9D:work_topic:116",
@@ -2086,7 +2297,17 @@
       "aliases": [],
       "evidence": "データに基づいた分析力と高い学習意欲を持ち、自ら専門性を深めようと努力します。チームでのコミュニケーションを重視し、協調的に仕事を進めるタイプです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "Power BIを用いたデータ分析・加工の経験があり、資格取得を目指しデータベース構築といったより専門的な分野への挑戦意欲を明確に示しています。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "資格取得を目指し、データベース構築などより専門的な分野への挑戦を考えていると表明しています。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%AB%BB%E4%BA%95%E5%BF%97%E4%BF%9D:work_topic:117",
@@ -2120,7 +2341,17 @@
       "aliases": [],
       "evidence": "1月からの入社を控えており、新しい環境に対する高い期待感と意欲に満ち溢れています。自身のスキルを活かしつつ、さらなる専門性向上とチームへの貢献を目指しています。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "Power BIを用いたデータ分析・加工の経験があり、資格取得を目指しデータベース構築といったより専門的な分野への挑戦意欲を明確に示しています。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "資格取得を目指し、データベース構築などより専門的な分野への挑戦を考えていると表明しています。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%AB%BB%E4%BA%95%E5%BF%97%E4%BF%9D:value:119",
@@ -2136,7 +2367,13 @@
       "aliases": [],
       "evidence": "自身の成長と専門性向上を重視し、新しい知識やスキルを習得することに喜びを感じる人物です。チームワークを大切にし、周囲との良好な関係を築きながら貢献することにモチベーションを感じます。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自身の成長と専門性向上を重視し、新しい知識やスキルを習得することに喜びを感じる人物です。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%AB%BB%E4%BA%95%E5%BF%97%E4%BF%9D:value:120",
@@ -2152,7 +2389,17 @@
       "aliases": [],
       "evidence": "自身の成長と専門性向上を重視し、新しい知識やスキルを習得することに喜びを感じる人物です。チームワークを大切にし、周囲との良好な関係を築きながら貢献することにモチベーションを感じます。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "櫻井志保さんは、データ分析スキルと高い学習意欲を持ち、協調性をもってチームに貢献しようと意欲的な人物です。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "チームワークを大切にし、周囲との良好な関係を築きながら貢献することにモチベーションを感じます。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%AB%BB%E4%BA%95%E5%BF%97%E4%BF%9D:value:121",
@@ -2168,7 +2415,17 @@
       "aliases": [],
       "evidence": "自身の成長と専門性向上を重視し、新しい知識やスキルを習得することに喜びを感じる人物です。チームワークを大切にし、周囲との良好な関係を築きながら貢献することにモチベーションを感じます。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "「今後ともよろしくお願いいたします」「まだまだ至らない点も多いかと思いますが、何卒よろしくお願いいたします」といった謙虚で丁寧な言葉遣いから、協調性や相手への配慮が強く感じられます。",
+          "sourceField": "personality_traits.agreeableness.evidence"
+        },
+        {
+          "text": "丁寧で謙虚、協調性を重視し、積極的な姿勢が特徴です。",
+          "sourceField": "communication_patterns.communication_style"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%AB%BB%E4%BA%95%E5%BF%97%E4%BF%9D:value:122",
@@ -2184,7 +2441,17 @@
       "aliases": [],
       "evidence": "自身の成長と専門性向上を重視し、新しい知識やスキルを習得することに喜びを感じる人物です。チームワークを大切にし、周囲との良好な関係を築きながら貢献することにモチベーションを感じます。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "データに基づいた分析力と高い学習意欲を持ち、自ら専門性を深めようと努力します。",
+          "sourceField": "work_styles_and_strengths.summary"
+        },
+        {
+          "text": "自身の成長と専門性向上を重視し、新しい知識やスキルを習得することに喜びを感じる人物です。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%AB%BB%E4%BA%95%E5%BF%97%E4%BF%9D:recent_topic:123",
@@ -2232,7 +2499,13 @@
       "aliases": [],
       "evidence": "自身の成長と専門性向上を重視し、新しい知識やスキルを習得することに喜びを感じる人物です。チームワークを大切にし、周囲との良好な関係を築きながら貢献することにモチベーションを感じます。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.motivation_triggers"
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "evidenceSnippets": [
+        {
+          "text": "自身のスキルを活かしつつ、さらなる専門性向上とチームへの貢献を目指しています。",
+          "sourceField": "current_state.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%AB%BB%E4%BA%95%E5%BF%97%E4%BF%9D:recent_topic:126",
@@ -3486,7 +3759,13 @@
       "aliases": [],
       "evidence": "新しい技術（AI）の積極的な探求と業務への適用、プロセス全体の効率化と品質向上に強い意欲を持つ。チームへの貢献意識も高く、情報共有や意見交換を通じて成果を最大化しようとする。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "「汎用テスト観点の方は後で修正したいと思っています」と、具体的な品質改善目標を持っている。",
+          "sourceField": "values_and_motivators.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%96%8B%E7%B1%B3%20%E6%95%A6%E5%89%87:value:194",
@@ -3503,7 +3782,13 @@
       "aliases": [],
       "evidence": "新しい技術（AI）の積極的な探求と業務への適用、プロセス全体の効率化と品質向上に強い意欲を持つ。チームへの貢献意識も高く、情報共有や意見交換を通じて成果を最大化しようとする。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "チームへの貢献意識も高く、情報共有や意見交換を通じて成果を最大化しようとする。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%96%8B%E7%B1%B3%20%E6%95%A6%E5%89%87:value:195",
@@ -3520,7 +3805,17 @@
       "aliases": [],
       "evidence": "新しい技術（AI）の積極的な探求と業務への適用、プロセス全体の効率化と品質向上に強い意欲を持つ。チームへの貢献意識も高く、情報共有や意見交換を通じて成果を最大化しようとする。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "協調性が高く、計画的かつ誠実に業務に取り組む人物。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "協調性があり、丁寧なコミュニケーションを心がける。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%96%8B%E7%B1%B3%20%E6%95%A6%E5%89%87:value:196",
@@ -3738,7 +4033,13 @@
       ],
       "evidence": "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。明確で構造化された情報発信を通じて、社員の積極的な参加と理解を促す能力に加え、細部にまで配慮したコンテンツ選定・提示を通じて…",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "オンライン飲み部への参加を広く呼びかけ、入社前のメンバーも歓迎するだけでなく、詳細な運営計画、円滑な交流のためのルール設定、そして匿名アンケートによる改善提案の機会を提供することで、社員間の交流促進とインクルーシブなコミュニティ形成、さらにはイベントの質の向上に積極的に取り組んでいることが伺える。",
+          "sourceField": "values_and_motivators.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:strength:208",
@@ -3789,7 +4090,17 @@
       ],
       "evidence": "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。明確で構造化された情報発信を通じて、社員の積極的な参加と理解を促す能力に加え、細部にまで配慮したコンテンツ選定・提示を通じて…",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "オンライン飲み会の企画・運営において、参加者が円滑に交流し、イベントを楽しめるよう詳細なスケジュール、ルール、ブレイクアウトルームの進行方法、自己紹介内容、ルームリーダーの割り当て、各種リンクといった必要なリソースを極めて緻密に提示している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        },
+        {
+          "text": "オンライン飲み部への参加を広く呼びかけ、入社前のメンバーも歓迎するだけでなく、詳細な運営計画、円滑な交流のためのルール設定、そして匿名アンケートによる改善提案の機会を提供することで、社員間の交流促進とインクルーシブなコミュニティ形成、さらにはイベントの質の向上に積極的に取り組んでいることが伺える。",
+          "sourceField": "values_and_motivators.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:strength:211",
@@ -3853,7 +4164,17 @@
       "aliases": [],
       "evidence": "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。明確で構造化された情報発信を通じて、社員の積極的な参加と理解を促す能力に加え、細部にまで配慮したコンテンツ選定・提示を通じて…",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "新しい知識や経験、会社の事業戦略、社員の心身の健康、社員間の交流、人材獲得に加え、外部へのビジネス知見共有、特に技術的な専門知識の深化と共有への探求心が旺盛で、感情表現も豊かでバランスが取れている。",
+          "sourceField": "personality_traits.summary"
+        },
+        {
+          "text": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:strength:215",
@@ -3869,7 +4190,13 @@
       "aliases": [],
       "evidence": "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。明確で構造化された情報発信を通じて、社員の積極的な参加と理解を促す能力に加え、細部にまで配慮したコンテンツ選定・提示を通じて…",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:strength:216",
@@ -3919,7 +4246,17 @@
       ],
       "evidence": "社員のウェルビーイング向上、会社成長のための人材獲得、社内コミュニティの活性化に加え、外部への情報発信を通じたブランド価値向上と社員の学習機会提供を優先課題の一つとし、プログラム導入・推進、イベント企画、コンテンツ共有に尽力している。明確で構造化された情報発信を通じて、社員の積極的な参加と理解を促す能力に加え、細部にまで配慮したコンテンツ選定・提示を通じて…",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "自社のYouTubeチャンネル「成功のソースコード」で、ポスティング業界最大手のDX戦略に関する新着動画を全社に共有し、動画の主要な見どころ（現場の見える化、GPS×AIによる配布品質管理、データ分析、内製開発体制など）を箇条書きで分かりやすく提示することで、視聴を促進している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+        },
+        {
+          "text": "従業員の心身の健康を重視し、セルフマネジメントプログラムを推奨するだけでなく、会社のYouTubeチャンネルを通じて外部のビジネスリーダーの知見や新しい事業戦略、最先端のDX・AI技術動向を積極的に共有している。",
+          "sourceField": "personality_traits.openness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:strength:219",
@@ -4245,7 +4582,17 @@
       "aliases": [],
       "evidence": "直近のログでは、社のYouTubeチャンネルを通じた外部への情報発信に加え、社内勉強会アーカイブの共有を通じて社員への高度な技術的知見（AWSアーキテクチャ設計、プロジェクトマネジメント、合意形成術など）の提供に注力している。DX戦略やアナログ・トランスフォーメーション (AX)、AI駆動開発といった先進的なテーマに関心が高く、これらの情報を構造的かつ魅力…",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "リファラル採用のインセンティブ制度を明確に案内し、優秀な人材獲得と企業成長への強い意欲を示している。",
+          "sourceField": "values_and_motivators.evidence_episodes.1"
+        },
+        {
+          "text": "優秀な人材獲得による組織力向上",
+          "sourceField": "values_and_motivators.motivation_triggers.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:interest:237",
@@ -4309,7 +4656,13 @@
       "aliases": [],
       "evidence": "直近のログでは、社のYouTubeチャンネルを通じた外部への情報発信に加え、社内勉強会アーカイブの共有を通じて社員への高度な技術的知見（AWSアーキテクチャ設計、プロジェクトマネジメント、合意形成術など）の提供に注力している。DX戦略やアナログ・トランスフォーメーション (AX)、AI駆動開発といった先進的なテーマに関心が高く、これらの情報を構造的かつ魅力…",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "インクルージョン推進",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.7"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:interest:241",
@@ -4419,7 +4772,17 @@
       ],
       "evidence": "直近のログでは、社のYouTubeチャンネルを通じた外部への情報発信に加え、社内勉強会アーカイブの共有を通じて社員への高度な技術的知見（AWSアーキテクチャ設計、プロジェクトマネジメント、合意形成術など）の提供に注力している。DX戦略やアナログ・トランスフォーメーション (AX)、AI駆動開発といった先進的なテーマに関心が高く、これらの情報を構造的かつ魅力…",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "自社のYouTubeチャンネル「成功のソースコード」で、ポスティング業界最大手のDX戦略に関する新着動画を全社に共有し、動画の主要な見どころ（現場の見える化、GPS×AIによる配布品質管理、データ分析、内製開発体制など）を箇条書きで分かりやすく提示することで、視聴を促進している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+        },
+        {
+          "text": "従業員の心身の健康を重視し、セルフマネジメントプログラムを推奨するだけでなく、会社のYouTubeチャンネルを通じて外部のビジネスリーダーの知見や新しい事業戦略、最先端のDX・AI技術動向を積極的に共有している。",
+          "sourceField": "personality_traits.openness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:interest:247",
@@ -4499,7 +4862,17 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "リファラル紹介者への感謝を述べ、インセンティブ制度の詳細を明確に伝えることで貢献を評価し支援する姿勢を示す。",
+          "sourceField": "personality_traits.agreeableness.evidence"
+        },
+        {
+          "text": "自社YouTubeチャンネルで、ポスティング業界最大手のDX戦略を特集した動画を共有し、「アナログをAXで進化させる」といった先進的なビジネスモデルやDX戦略に関心を促し、社員の学習機会提供と企業ブランド価値向上に貢献しようとしている。",
+          "sourceField": "values_and_motivators.evidence_episodes.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:252",
@@ -4515,7 +4888,17 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "特に、会社の理念と社員のウェルビーイング、会社成長への貢献、そして社内コミュニティの重要性を強く結びつけて語り、共感と行動を促す。",
+          "sourceField": "communication_patterns.communication_style"
+        },
+        {
+          "text": "社員の心身の健康とウェルビーイング",
+          "sourceField": "current_state.recent_topics_of_interest.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:253",
@@ -4531,7 +4914,13 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:254",
@@ -4547,7 +4936,17 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "福利厚生プログラムのチラシを案内し、社員の健康と持続的なパフォーマンスへの深い配慮と価値観を表明している。",
+          "sourceField": "values_and_motivators.evidence_episodes.0"
+        },
+        {
+          "text": "社員の健康やコンディションが向上するプログラムの導入",
+          "sourceField": "values_and_motivators.motivation_triggers.0"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:255",
@@ -4563,7 +4962,17 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "リファラル採用のインセンティブ制度を明確に案内し、優秀な人材獲得と企業成長への強い意欲を示している。",
+          "sourceField": "values_and_motivators.evidence_episodes.1"
+        },
+        {
+          "text": "人材獲得には、明確なインセンティブ制度を設けて社内からの紹介を促す。",
+          "sourceField": "work_styles_and_strengths.problem_solving_style"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:256",
@@ -4579,7 +4988,13 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "リファラル採用のインセンティブ制度を明確に案内し、優秀な人材獲得と企業成長への強い意欲を示している。",
+          "sourceField": "values_and_motivators.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:257",
@@ -4595,7 +5010,17 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "オンライン飲み部への参加を広く呼びかけ、入社前のメンバーも歓迎するだけでなく、詳細な運営計画、円滑な交流のためのルール設定、そして匿名アンケートによる改善提案の機会を提供することで、社員間の交流促進とインクルーシブなコミュニティ形成、さらにはイベントの質の向上に積極的に取り組んでいることが伺える。",
+          "sourceField": "values_and_motivators.evidence_episodes.2"
+        },
+        {
+          "text": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:258",
@@ -4611,7 +5036,17 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "社員のコンディション向上という課題に対し、外部プログラム導入や具体的なサポートで対応。人材獲得には、明確なインセンティブ制度を設けて社内からの紹介を促す。社内交流の希薄化には、参加ハードルの低いイベントを企画し、インクルーシブな呼びかけで解決を図る。企業ブランディングや外部への知見共有、社員の学習機会提供においては、…",
+          "sourceField": "work_styles_and_strengths.problem_solving_style"
+        },
+        {
+          "text": "直近の情報共有においても、コンテンツの見どころや学習ポイント、対象者を明確に提示し、社員の関心を…",
+          "sourceField": "communication_patterns.communication_style"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:259",
@@ -4627,7 +5062,13 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:260",
@@ -4643,7 +5084,13 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "他者貢献・協調性",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:261",
@@ -4675,7 +5122,17 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "リファラル採用のインセンティブ制度を明確に案内し、優秀な人材獲得と企業成長への強い意欲を示している。",
+          "sourceField": "values_and_motivators.evidence_episodes.1"
+        },
+        {
+          "text": "自社AI顧問からの「AIニュースレポート」の主要トピックを抽出して共有することで、社員のAI駆動開発といった最先端技術への関心を刺激し、学習と成長を促すことに高い価値を置いている。",
+          "sourceField": "values_and_motivators.evidence_episodes.4"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:263",
@@ -4691,7 +5148,13 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "会社の事業発展に貢献できること",
+          "sourceField": "values_and_motivators.motivation_triggers.7"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:264",
@@ -4707,7 +5170,13 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "インクルージョン推進",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.7"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:265",
@@ -4771,7 +5240,17 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自社YouTubeチャンネルで、ポスティング業界最大手のDX戦略を特集した動画を共有し、「アナログをAXで進化させる」といった先進的なビジネスモデルやDX戦略に関心を促し、社員の学習機会提供と企業ブランド価値向上に貢献しようとしている。",
+          "sourceField": "values_and_motivators.evidence_episodes.3"
+        },
+        {
+          "text": "外部への情報発信が成功し、企業ブランド価値が向上した時",
+          "sourceField": "values_and_motivators.motivation_triggers.10"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:269",
@@ -4805,7 +5284,17 @@
       ],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自社のYouTubeチャンネル「成功のソースコード」で、ポスティング業界最大手のDX戦略に関する新着動画を全社に共有し、動画の主要な見どころ（現場の見える化、GPS×AIによる配布品質管理、データ分析、内製開発体制など）を箇条書きで分かりやすく提示することで、視聴を促進している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+        },
+        {
+          "text": "従業員の心身の健康を重視し、セルフマネジメントプログラムを推奨するだけでなく、会社のYouTubeチャンネルを通じて外部のビジネスリーダーの知見や新しい事業戦略、最先端のDX・AI技術動向を積極的に共有している。",
+          "sourceField": "personality_traits.openness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:271",
@@ -4823,7 +5312,17 @@
       ],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自社のYouTubeチャンネル「成功のソースコード」で、ポスティング業界最大手のDX戦略に関する新着動画を全社に共有し、動画の主要な見どころ（現場の見える化、GPS×AIによる配布品質管理、データ分析、内製開発体制など）を箇条書きで分かりやすく提示することで、視聴を促進している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+        },
+        {
+          "text": "自社AI顧問による「AIニュースレポート」を全社に共有し、特にAI駆動開発関連のトピック（Claude Code / Cursorの動向、MCP・AIエージェント活用、SDD × AI駆動開発フローなど）を具体的に挙げることで、社員の最先端技術への関心を高め、学習を促している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.4"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:272",
@@ -4839,7 +5338,13 @@
       "aliases": [],
       "evidence": "組織への多角的な貢献、社員の心身の健康と長期的な活躍を重視するウェルビーイングの推進に加え、会社の成長を支える優秀な人材の獲得、社員間のインクルーシブな交流を通じたコミュニティ形成、そして外部へのビジネス知見共有、学習機会の提供、ブランド向上にも高い価値を置く。特に、質の高い情報を提供することで社員の成長を促し、技術的専門知識の深化、技術と事業の調和、企業…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "社内勉強会「AWSアーキテクチャの合意形成術」のアーカイブ動画を公開し、技術的理想と事業的理想のバランス、合意形成術といった実践的な技術・ビジネス課題への解決策提供を通じて、社員の技術的成長と企業の技術力向上に貢献しようとしている。",
+          "sourceField": "values_and_motivators.evidence_episodes.5"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%B2%B4%E5%BF%97%E9%9B%AA%E4%B9%83:value:273",
@@ -5163,7 +5668,17 @@
       "aliases": [],
       "evidence": "物事を深く理解し、その背景にある構造やビジネスモデルを考察する知的なアプローチを持ちます。社内イベントや異部署との交流を積極的に活用し、人脈形成と情報収集に努めることで、組織全体の活性化に貢献します。自身の健康や行動計画においても自己管理能力が高く、責任感を持って業務や自己改善に取り組みます。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "ワクワクします」と未来の組織像に想像を巡らせ、「山岡家」のビジネスモデルについて考察し、その気づきを共有するなど、知的好奇心と探究心が非常に旺盛です。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "非常に責任感が強く、物事を深く理解し、その背景にある構造まで探求する知的好奇心旺盛な人物です。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E9%81%BC%E5%A4%AA%E9%83%8E:strength:292",
@@ -5197,7 +5712,13 @@
       "aliases": [],
       "evidence": "物事を深く理解し、その背景にある構造やビジネスモデルを考察する知的なアプローチを持ちます。社内イベントや異部署との交流を積極的に活用し、人脈形成と情報収集に努めることで、組織全体の活性化に貢献します。自身の健康や行動計画においても自己管理能力が高く、責任感を持って業務や自己改善に取り組みます。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "ラーメンを食べた後の「胃もたれ」という自身の経験から、「ヴィーガン系の体に負担が大きくないもの食べないといけない」と自らの体調を管理し改善しようとする意識と計画性が見られます。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E9%81%BC%E5%A4%AA%E9%83%8E:strength:294",
@@ -5214,7 +5735,17 @@
       "aliases": [],
       "evidence": "物事を深く理解し、その背景にある構造やビジネスモデルを考察する知的なアプローチを持ちます。社内イベントや異部署との交流を積極的に活用し、人脈形成と情報収集に努めることで、組織全体の活性化に貢献します。自身の健康や行動計画においても自己管理能力が高く、責任感を持って業務や自己改善に取り組みます。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "これは、既存分析で見られた自己管理能力と責任感の高さと一致します。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "自身の健康や行動計画においても自己管理能力が高く、責任感を持って業務や自己改善に取り組みます。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E9%81%BC%E5%A4%AA%E9%83%8E:strength:295",
@@ -5282,7 +5813,17 @@
       "aliases": [],
       "evidence": "物事を深く理解し、その背景にある構造やビジネスモデルを考察する知的なアプローチを持ちます。社内イベントや異部署との交流を積極的に活用し、人脈形成と情報収集に努めることで、組織全体の活性化に貢献します。自身の健康や行動計画においても自己管理能力が高く、責任感を持って業務や自己改善に取り組みます。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "これは、既存分析で見られた自己管理能力と責任感の高さと一致します。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "非常に責任感が強く、物事を深く理解し、その背景にある構造まで探求する知的好奇心旺盛な人物です。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E9%81%BC%E5%A4%AA%E9%83%8E:strength:299",
@@ -5350,7 +5891,17 @@
       "aliases": [],
       "evidence": "物事を深く理解し、その背景にある構造やビジネスモデルを考察する知的なアプローチを持ちます。社内イベントや異部署との交流を積極的に活用し、人脈形成と情報収集に努めることで、組織全体の活性化に貢献します。自身の健康や行動計画においても自己管理能力が高く、責任感を持って業務や自己改善に取り組みます。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "懇親会に参加し、普段関わることのできない内勤の社員と積極的に交流し、「新鮮だった」と感想を述べ、他の社員にも本社訪問を推奨するなど、社内交流とネットワーキングを重視している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        },
+        {
+          "text": "社内交流とネットワーキング",
+          "sourceField": "values_and_motivators.core_values.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E9%81%BC%E5%A4%AA%E9%83%8E:strength:303",
@@ -5519,7 +6070,13 @@
       "aliases": [],
       "evidence": "直近では、理想の組織像への強い期待と、社内懇親会や本社オフィス訪問を通じた積極的な交流が際立っています。個人の健康管理にも意識が高く、食生活の見直しを検討するなど、自己改善に前向きです。全体的に、前向きで社交的、かつ知的好奇心に溢れた状態が見受けられます。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "ラーメンの話題では、相手の好みに配慮し「家系好きな人には合うのかも」と伝え、具体的な情報提供として「埼玉のサウナ行った後は帰り道にあるのでちょうどいいかもです」と提案するなど、親切で協調的な姿勢が伺えます。",
+          "sourceField": "personality_traits.agreeableness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E9%81%BC%E5%A4%AA%E9%83%8E:value:312",
@@ -5553,7 +6110,17 @@
       "aliases": [],
       "evidence": "物事の本質を深く理解し、それを自身の言葉で説明できるレベルまで落とし込むことに価値を見出します。組織の理想的な未来像を追求し、その実現に貢献することに強いモチベーションを感じています。また、社内での活発な交流やコミュニティ活動、自身の健康と自己改善を非常に重視し、チーム全体のエンゲージメントと活気を高めることに喜びを感じます。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "ワクワクします」と未来の組織像に想像を巡らせ、「山岡家」のビジネスモデルについて考察し、その気づきを共有するなど、知的好奇心と探究心が非常に旺盛です。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "非常に責任感が強く、物事を深く理解し、その背景にある構造まで探求する知的好奇心旺盛な人物です。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E9%81%BC%E5%A4%AA%E9%83%8E:value:314",
@@ -5655,7 +6222,17 @@
       "aliases": [],
       "evidence": "物事の本質を深く理解し、それを自身の言葉で説明できるレベルまで落とし込むことに価値を見出します。組織の理想的な未来像を追求し、その実現に貢献することに強いモチベーションを感じています。また、社内での活発な交流やコミュニティ活動、自身の健康と自己改善を非常に重視し、チーム全体のエンゲージメントと活気を高めることに喜びを感じます。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "懇親会への感謝を述べ、本社オフィスでの経験を共有し、他者に訪問を勧めるなど、他者のポジティブな体験を促進しようとします。",
+          "sourceField": "personality_traits.agreeableness.evidence"
+        },
+        {
+          "text": "」と具体的に賞賛し、感謝を伝えている。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.4"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E9%81%BC%E5%A4%AA%E9%83%8E:value:320",
@@ -5672,7 +6249,13 @@
       "aliases": [],
       "evidence": "物事の本質を深く理解し、それを自身の言葉で説明できるレベルまで落とし込むことに価値を見出します。組織の理想的な未来像を追求し、その実現に貢献することに強いモチベーションを感じています。また、社内での活発な交流やコミュニティ活動、自身の健康と自己改善を非常に重視し、チーム全体のエンゲージメントと活気を高めることに喜びを感じます。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "ポジティブな影響力",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.11"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E9%81%BC%E5%A4%AA%E9%83%8E:value:321",
@@ -5689,7 +6272,13 @@
       "aliases": [],
       "evidence": "物事の本質を深く理解し、それを自身の言葉で説明できるレベルまで落とし込むことに価値を見出します。組織の理想的な未来像を追求し、その実現に貢献することに強いモチベーションを感じています。また、社内での活発な交流やコミュニティ活動、自身の健康と自己改善を非常に重視し、チーム全体のエンゲージメントと活気を高めることに喜びを感じます。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "ワクワクします」と未来の組織像に想像を巡らせ、「山岡家」のビジネスモデルについて考察し、その気づきを共有するなど、知的好奇心と探究心が非常に旺盛です。",
+          "sourceField": "personality_traits.openness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E9%81%BC%E5%A4%AA%E9%83%8E:recent_topic:322",
@@ -5837,7 +6426,17 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "Well-Architectedの理想と現場の制約を比較し、「ヒアリングが大事」と強調するなど、現実的な問題解決アプローチを重視している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+        },
+        {
+          "text": "問題解決に際しては「考え尽くしたものをぶつける」という、徹底した準備と論理構築を重視する。",
+          "sourceField": "work_styles_and_strengths.problem_solving_style"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:330",
@@ -5871,7 +6470,17 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "勉強会の場で積極的にメモを取り、講師への感謝を述べ、自身の学びを共有することで、場への積極的な参加と貢献意欲を示している。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        },
+        {
+          "text": "「上のレイヤーでどういう動きが/考えが存在するのか」に関心を示し、自身の成長と組織への貢献意欲を表明した。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:332",
@@ -5939,7 +6548,13 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "勉強会の内容を詳細かつ構造的にメモし、自身の理解度を深めるだけでなく、他者への情報共有も意識した体裁で記録している。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:336",
@@ -5956,7 +6571,13 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "自動化やコスト最適化についても、短期的な視点だけでなく長期的な影響や全体像を捉え、エンジニアが主導権を持つべきという戦略的思考で課題に取り組む。",
+          "sourceField": "work_styles_and_strengths.problem_solving_style"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:337",
@@ -6024,7 +6645,13 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "知的好奇心と向上心に満ちた状態で、新たな知識を吸収し、それを積極的に共有・実践しようとしている段階。",
+          "sourceField": "current_state.workload_status"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:341",
@@ -6245,7 +6872,13 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "長期的なシステム運用設計",
+          "sourceField": "values_and_motivators.motivation_triggers.12"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:354",
@@ -6367,7 +7000,13 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "新しい技術や知識の習得、改善提案に極めて積極的で、それを組織に還元しようとする意識が非常に高い点は変わらない。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:361",
@@ -6420,7 +7059,17 @@
       ],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "特に『上のレイヤーでどういう動きが/考えが存在するのか』という高次の視点への強い関心が伺え、AIの活用についても言及するなど、常に先を見据えている。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "「AIの線含めて更に人に翻訳して渡す部分が重要になる」と発言し、技術の実践的な応用とコミュニケーションの重要性を認識している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:364",
@@ -6454,7 +7103,13 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "ドキュメント整備と標準化",
+          "sourceField": "values_and_motivators.motivation_triggers.19"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:366",
@@ -6505,7 +7160,17 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "データ分析基盤におけるシングルAZ構成提案時の合意形成プロセスや、冗長化の判断軸（コスト比重）について深く考察した。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.7"
+        },
+        {
+          "text": "勉強会で、アーキテクチャの合意形成術、自動化の必要性、コスト最適化の主導権といった実践的なテーマについて詳細なメモを取り、深い洞察と多数の疑問点を書き出すことで、新しい知識への飽くなき探求心を示している。",
+          "sourceField": "personality_traits.openness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:369",
@@ -6624,7 +7289,17 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "勉強会の場で積極的にメモを取り、講師への感謝を述べ、自身の学びを共有することで、場への積極的な参加と貢献意欲を示している。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        },
+        {
+          "text": "他者の発言や共有された知識に対して「本当に勉強になります」「腑に落ちます」「誠にありがとうございます」と感謝と共感を示し、自身の学びを素直に表現する。",
+          "sourceField": "personality_traits.agreeableness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:376",
@@ -6709,7 +7384,17 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "勉強会で、アーキテクチャの合意形成術、自動化の必要性、コスト最適化の主導権といった実践的なテーマについて詳細なメモを取り、深い洞察と多数の疑問点を書き出すことで、新しい知識への飽くなき探求心を示している。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "インフラ運用における現場の制約や自動化の難しさ、コスト最適化におけるリスクなどを客観的に把握し、それらをどう解決していくべきかという視点で情報を受け止めている。",
+          "sourceField": "personality_traits.neuroticism.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:strength:381",
@@ -6862,7 +7547,17 @@
       "aliases": [],
       "evidence": "AI駆動開発の推進に加え、アーキテクチャの合意形成、自動化、コスト最適化といったインフラ領域の深い知見とビジネス視点を融合させ、戦略的な意思決定に貢献しようとする。複雑な情報を構造化し、実践的な課題解決を追求する。自身の学習した内容を積極的に他者に共有し、組織全体の知見向上にも貢献しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "影響力行使（エンジニアの）",
+          "sourceField": "values_and_motivators.core_values.37"
+        },
+        {
+          "text": "エンジニアの影響力拡大",
+          "sourceField": "values_and_motivators.motivation_triggers.27"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:work_style:390",
@@ -7037,7 +7732,17 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "勉強会の場で積極的にメモを取り、講師への感謝を述べ、自身の学びを共有することで、場への積極的な参加と貢献意欲を示している。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        },
+        {
+          "text": "「上のレイヤーでどういう動きが/考えが存在するのか」に関心を示し、自身の成長と組織への貢献意欲を表明した。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:399",
@@ -7054,7 +7759,17 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "「上のレイヤーでどういう動きが/考えが存在するのか」に関心を示し、自身の成長と組織への貢献意欲を表明した。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        },
+        {
+          "text": "「同等の成果出せるように頑張りたい」と、自己成長と高みを目指す意欲を示した。",
+          "sourceField": "values_and_motivators.evidence_episodes.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:400",
@@ -7071,7 +7786,17 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "変革志向",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.4"
+        },
+        {
+          "text": "組織変革への貢献",
+          "sourceField": "values_and_motivators.motivation_triggers.16"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:401",
@@ -7088,7 +7813,13 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "効率化推進",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.8"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:402",
@@ -7105,7 +7836,13 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "品質重視",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.9"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:403",
@@ -7122,7 +7859,13 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:404",
@@ -7173,7 +7916,17 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "勉強会で、アーキテクチャの合意形成術、自動化の必要性、コスト最適化の主導権といった実践的なテーマについて詳細なメモを取り、深い洞察と多数の疑問点を書き出すことで、新しい知識への飽くなき探求心を示している。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "戦略的視点を持つエンジニアとして、アーキテクチャ、自動化、コスト最適化を深く探求し、技術をビジネス価値に変換し組織に貢献しようと積極的かつ自律的に行動する。",
+          "sourceField": "overall_summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:407",
@@ -7241,7 +7994,17 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "勉強会で、アーキテクチャの合意形成術、自動化の必要性、コスト最適化の主導権といった実践的なテーマについて詳細なメモを取り、深い洞察と多数の疑問点を書き出すことで、新しい知識への飽くなき探求心を示している。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "インフラ運用における現場の制約や自動化の難しさ、コスト最適化におけるリスクなどを客観的に把握し、それらをどう解決していくべきかという視点で情報を受け止めている。",
+          "sourceField": "personality_traits.neuroticism.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:411",
@@ -7258,7 +8021,13 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "スケーラビリティ志向",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.18"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:412",
@@ -7326,7 +8095,17 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "ビジネス戦略と技術的判断の融合（特に上位レイヤーの思考）",
+          "sourceField": "current_state.recent_topics_of_interest.3"
+        },
+        {
+          "text": "クラウドコスト最適化におけるエンジニアの主導権とビジネス戦略",
+          "sourceField": "current_state.recent_topics_of_interest.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:416",
@@ -7360,7 +8139,13 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "ドキュメント整備と標準化",
+          "sourceField": "values_and_motivators.motivation_triggers.19"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:418",
@@ -7377,7 +8162,13 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "適応力",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.47"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:419",
@@ -7413,7 +8204,17 @@
       ],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "特に『上のレイヤーでどういう動きが/考えが存在するのか』という高次の視点への強い関心が伺え、AIの活用についても言及するなど、常に先を見据えている。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "「AIの線含めて更に人に翻訳して渡す部分が重要になる」と発言し、技術の実践的な応用とコミュニケーションの重要性を認識している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:421",
@@ -7464,7 +8265,17 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "データ分析基盤におけるシングルAZ構成提案時の合意形成プロセスや、冗長化の判断軸（コスト比重）について深く考察した。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.7"
+        },
+        {
+          "text": "勉強会で、アーキテクチャの合意形成術、自動化の必要性、コスト最適化の主導権といった実践的なテーマについて詳細なメモを取り、深い洞察と多数の疑問点を書き出すことで、新しい知識への飽くなき探求心を示している。",
+          "sourceField": "personality_traits.openness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:424",
@@ -7498,7 +8309,13 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "柔軟な働き方実践",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.41"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:426",
@@ -7532,7 +8349,17 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "勉強会の場で積極的にメモを取り、講師への感謝を述べ、自身の学びを共有することで、場への積極的な参加と貢献意欲を示している。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        },
+        {
+          "text": "他者の発言や共有された知識に対して「本当に勉強になります」「腑に落ちます」「誠にありがとうございます」と感謝と共感を示し、自身の学びを素直に表現する。",
+          "sourceField": "personality_traits.agreeableness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:428",
@@ -7583,7 +8410,13 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自動化やコスト最適化についても、短期的な視点だけでなく長期的な影響や全体像を捉え、エンジニアが主導権を持つべきという戦略的思考で課題に取り組む。",
+          "sourceField": "work_styles_and_strengths.problem_solving_style"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:431",
@@ -7600,7 +8433,17 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "戦略的視点を持つエンジニアとして、アーキテクチャ、自動化、コスト最適化を深く探求し、技術をビジネス価値に変換し組織に貢献しようと積極的かつ自律的に行動する。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "ビジネス価値の創出",
+          "sourceField": "values_and_motivators.motivation_triggers.14"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:432",
@@ -7688,7 +8531,13 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "「ビジネスパーソンは主導権持ってやろうぜ」「10で足りないなら100持ってく→考え尽くしたものをぶつける」と、自らの仕事への強いコミットメントとプロアクティブな姿勢を表明した。",
+          "sourceField": "values_and_motivators.evidence_episodes.6"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:value:437",
@@ -7705,7 +8554,13 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自身の関心事や疑問点を具体的に言語化する几帳面さ、そして物事を深く理解しようとする責任感が非常に高い。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:recent_topic:438",
@@ -7739,7 +8594,13 @@
       "aliases": [],
       "evidence": "技術的な探求心に加え、アーキテクチャ設計、自動化、コスト最適化といったインフラ領域がビジネス戦略に与える影響を深く理解し、エンジニアがその主導権を持つべきだと考えている。現場の制約を考慮した実用性と、組織への貢献、自身の成長に強いモチベーションを感じる。技術を「人に翻訳して渡す」ことで、より広範な価値創出を目指し、自らの立場を超えて全体最適に貢献しようとす…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.motivation_triggers"
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "evidenceSnippets": [
+        {
+          "text": "「同等の成果出せるように頑張りたい」と、自己成長と高みを目指す意欲を示した。",
+          "sourceField": "values_and_motivators.evidence_episodes.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E6%9D%BE%E7%94%B0%E7%9C%9F%E4%BC%8D:recent_topic:440",
@@ -8284,7 +9145,17 @@
       "aliases": [],
       "evidence": "入社3ヶ月目の新人として、積極的に自己開示とコミュニケーションを図り、周囲との良好な関係構築を最優先に進める。高い学習意欲と成長へのコミットメントを持ち、自身の知識や経験を活かしつつ、チームへの貢献を目指す。未経験分野にも前向きに取り組み、周囲からの学びを積極的に取り入れながら、着実に業務を遂行しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "」と、深く理解しようとする探求心と粘り強い学習意欲を示した。",
+          "sourceField": "values_and_motivators.evidence_episodes.12"
+        },
+        {
+          "text": "常にポジティブで、相手への配慮が感じられる丁寧な言葉遣いが特徴。自身の趣味や経験（アニメ、インドア派、歴史の好み、自身の年齢（23歳））を詳細に自己開示することで、相手との親近感を速やかに醸成する。共通の話題（特にアニメや歴史）を深掘りし、「好きな作品も教えてください！」と次の会話へと繋げる提案を頻繁に行う。絵文字や…",
+          "sourceField": "communication_patterns.communication_style"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:strength:472",
@@ -8316,7 +9187,13 @@
       "aliases": [],
       "evidence": "入社3ヶ月目の新人として、積極的に自己開示とコミュニケーションを図り、周囲との良好な関係構築を最優先に進める。高い学習意欲と成長へのコミットメントを持ち、自身の知識や経験を活かしつつ、チームへの貢献を目指す。未経験分野にも前向きに取り組み、周囲からの学びを積極的に取り入れながら、着実に業務を遂行しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "入社3ヶ月目の新人として高い成長意欲と協調性を持ち、学習と貢献に前向きに取り組む。",
+          "sourceField": "overall_summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:strength:474",
@@ -8332,7 +9209,17 @@
       "aliases": [],
       "evidence": "入社3ヶ月目の新人として、積極的に自己開示とコミュニケーションを図り、周囲との良好な関係構築を最優先に進める。高い学習意欲と成長へのコミットメントを持ち、自身の知識や経験を活かしつつ、チームへの貢献を目指す。未経験分野にも前向きに取り組み、周囲からの学びを積極的に取り入れながら、着実に業務を遂行しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "特定の同僚に対し、『いい案件を提案できるよう頑張る』と、具体的な業務を通じた貢献意欲を示している。",
+          "sourceField": "values_and_motivators.evidence_episodes.9"
+        },
+        {
+          "text": "自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。",
+          "sourceField": "current_state.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:strength:475",
@@ -8348,7 +9235,17 @@
       "aliases": [],
       "evidence": "入社3ヶ月目の新人として、積極的に自己開示とコミュニケーションを図り、周囲との良好な関係構築を最優先に進める。高い学習意欲と成長へのコミットメントを持ち、自身の知識や経験を活かしつつ、チームへの貢献を目指す。未経験分野にも前向きに取り組み、周囲からの学びを積極的に取り入れながら、着実に業務を遂行しようとする。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "」と強い責任感と自己成長へのコミットメントを繰り返し表明している。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "「先輩方から学べることは全て学び、早く追いつき、その先に進んでいけるように尽力する」と、自己成長と組織貢献への強い意欲と責任感を表明している。",
+          "sourceField": "values_and_motivators.evidence_episodes.6"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:strength:476",
@@ -8517,7 +9414,17 @@
       "aliases": [],
       "evidence": "入社3ヶ月目の新入社員として、新しい環境への適応と人間関係の構築に積極的に取り組んでいる。自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。専門的な学習だけでなく、趣味を通じた交流にも意欲的である。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "」と個人名を挙げて挨拶し、自身の好きなアニメ（葬送のフリーレン）を共有した上で、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的コンテンツに言及する。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:interest:486",
@@ -8533,7 +9440,17 @@
       "aliases": [],
       "evidence": "入社3ヶ月目の新入社員として、新しい環境への適応と人間関係の構築に積極的に取り組んでいる。自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。専門的な学習だけでなく、趣味を通じた交流にも意欲的である。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "」と個人名を挙げて挨拶し、自身の好きなアニメ（葬送のフリーレン）を共有した上で、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的コンテンツに言及する。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:interest:487",
@@ -8549,7 +9466,17 @@
       "aliases": [],
       "evidence": "入社3ヶ月目の新入社員として、新しい環境への適応と人間関係の構築に積極的に取り組んでいる。自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。専門的な学習だけでなく、趣味を通じた交流にも意欲的である。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "」と自身の役割と年齢を積極的に自己開示し、共通の話題（ラーメン、アニメ、ポケモン、出身地、大学、マッサージ巡りなど）を見つけては、積極的に相手に話しかけ、関係性を深めようと努力する。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:interest:488",
@@ -8659,7 +9586,13 @@
       "aliases": [],
       "evidence": "入社3ヶ月目の新入社員として、新しい環境への適応と人間関係の構築に積極的に取り組んでいる。自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。専門的な学習だけでなく、趣味を通じた交流にも意欲的である。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "ポケモン（ゲーム、カード）、音楽（SEKAI NO OWARI）、読書（ビジネス書への関心）と多岐にわたる趣味を持つ。",
+          "sourceField": "personality_traits.openness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:interest:494",
@@ -8675,7 +9608,13 @@
       "aliases": [],
       "evidence": "入社3ヶ月目の新入社員として、新しい環境への適応と人間関係の構築に積極的に取り組んでいる。自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。専門的な学習だけでなく、趣味を通じた交流にも意欲的である。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "将棋、アニメ（特に葬送のフリーレンへの深い愛）、「私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです」と具体的に言及する。",
+          "sourceField": "personality_traits.openness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:interest:495",
@@ -8711,7 +9650,13 @@
       "aliases": [],
       "evidence": "入社3ヶ月目の新入社員として、新しい環境への適応と人間関係の構築に積極的に取り組んでいる。自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。専門的な学習だけでなく、趣味を通じた交流にも意欲的である。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "」と自身の役割と年齢を積極的に自己開示し、共通の話題（ラーメン、アニメ、ポケモン、出身地、大学、マッサージ巡りなど）を見つけては、積極的に相手に話しかけ、関係性を深めようと努力する。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:interest:497",
@@ -8743,7 +9688,17 @@
       "aliases": [],
       "evidence": "入社3ヶ月目の新入社員として、新しい環境への適応と人間関係の構築に積極的に取り組んでいる。自己開示と共通の話題を通じて周囲との親近感を深めつつ、自身の成長とチームへの貢献意欲を高く持っている。専門的な学習だけでなく、趣味を通じた交流にも意欲的である。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "」と自身の役割と年齢を積極的に自己開示し、共通の話題（ラーメン、アニメ、ポケモン、出身地、大学、マッサージ巡りなど）を見つけては、積極的に相手に話しかけ、関係性を深めようと努力する。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        },
+        {
+          "text": "他者の趣味にも積極的に興味を示し、ビジネス書の推薦を具体的に求めるほか、マッサージ巡りといった新しい活動にも関心を示し、情報収集を試みるなど、新しい知識や情報への探求心が非常に高い。",
+          "sourceField": "personality_traits.openness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:interest:499",
@@ -8796,7 +9751,13 @@
       "aliases": [],
       "evidence": "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "入社3ヶ月目の新人として高い成長意欲と協調性を持ち、学習と貢献に前向きに取り組む。",
+          "sourceField": "overall_summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:value:502",
@@ -8812,7 +9773,17 @@
       "aliases": [],
       "evidence": "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "」と強い責任感と自己成長へのコミットメントを繰り返し表明している。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "「よろしくお願いします」「ありがとうございます」といった丁寧な言葉遣いを常に心がけ、相手の趣味や経験を「かっこいいです！」「親近感が湧きました！」と称賛する。初対面の相手に対しても、一蘭のギフトカードや優待券の提供を申し出るなど、他者への配慮と好意が非常に強く感じられる。特に「山田さん、改めてよろしくお願いします！」…",
+          "sourceField": "personality_traits.agreeableness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:value:503",
@@ -8828,7 +9799,17 @@
       "aliases": [],
       "evidence": "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "学生時代に一蘭で1年8ヶ月アルバイト責任者を務め、中学時代から代表委員長や部長、各種実行委員長を歴任。IT業界も社会人も未経験でありながら、「積極的に色々なことを学んでいきたい」「先輩方から学べることは全て学んで早く皆さんに追いつき、その先に進んでいけるように尽力いたします！」と強い責任感と自己成長へのコミットメント…",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "「先輩方から学べることは全て学び、早く追いつき、その先に進めるように尽力する」と、強い成長意欲と貢献への決意を表明している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.6"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:value:504",
@@ -8844,7 +9825,17 @@
       "aliases": [],
       "evidence": "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "学生時代に一蘭で1年8ヶ月アルバイト責任者を務め、中学時代から代表委員長や部長、各種実行委員長を歴任。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "「先輩方から学べることは全て学び、早く追いつき、その先に進んでいけるように尽力する」と、自己成長と組織貢献への強い意欲と責任感を表明している。",
+          "sourceField": "values_and_motivators.evidence_episodes.6"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:value:505",
@@ -8876,7 +9867,13 @@
       "aliases": [],
       "evidence": "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "」と述べ、業務における良好な関係性や成果を重視する姿勢が見られる。",
+          "sourceField": "values_and_motivators.evidence_episodes.10"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:value:507",
@@ -8892,7 +9889,17 @@
       "aliases": [],
       "evidence": "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "」と具体的なアドバイスを求めることで、新たな挑戦への意欲と行動力を見せている。",
+          "sourceField": "values_and_motivators.evidence_episodes.11"
+        },
+        {
+          "text": "新しい経験への挑戦と達成",
+          "sourceField": "values_and_motivators.motivation_triggers.6"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:value:508",
@@ -8908,7 +9915,13 @@
       "aliases": [],
       "evidence": "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "」と、深く理解しようとする探求心と粘り強い学習意欲を示した。",
+          "sourceField": "values_and_motivators.evidence_episodes.12"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:value:509",
@@ -8924,7 +9937,17 @@
       "aliases": [],
       "evidence": "人間関係の調和と周囲への貢献、特に、入社3ヶ月目の新人としての自己成長とチームとの協働を非常に重視する。チームの一員として認められ、役立つことや、共通の関心事を通じて良好な関係を築くことに大きな喜びを感じる。新しい知識の習得や深い理解に価値を置き、それを楽しむ傾向がある。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "「よろしくお願いします」「ありがとうございます」といった丁寧な言葉遣いを常に心がけ、相手の趣味や経験を「かっこいいです！」「親近感が湧きました！」と称賛する。初対面の相手に対しても、一蘭のギフトカードや優待券の提供を申し出るなど、他者への配慮と好意が非常に強く感じられる。特に「山田さん、改めてよろしくお願いします！」…",
+          "sourceField": "personality_traits.agreeableness.evidence"
+        },
+        {
+          "text": "「自分はまだ業界3ヶ月目の新人なので、これから一緒に成長させていただきたいです」と、自身の成長とチームとの協働への強い意欲と謙虚な姿勢を表明している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.5"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%B0%8F%E5%B3%B6%E9%81%BC%E7%A5%90:value:510",
@@ -9132,7 +10155,13 @@
       "aliases": [],
       "evidence": "組織運営に必要な事務処理の正確性と透明性を確保しつつ、個人の多様な関心や状況に配慮したコミュニケーションを重視する。ユーモアを交えた私的な体験の共有を通じて親近感を醸成し、ポジティブで心理的安全性の高い職場環境の構築に貢献する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "高い責任感と細部へのこだわりで業務の正確性を確保しつつ、個人的な体験やユーモアを交えて積極的に交流する。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:strength:523",
@@ -9148,7 +10177,13 @@
       "aliases": [],
       "evidence": "組織運営に必要な事務処理の正確性と透明性を確保しつつ、個人の多様な関心や状況に配慮したコミュニケーションを重視する。ユーモアを交えた私的な体験の共有を通じて親近感を醸成し、ポジティブで心理的安全性の高い職場環境の構築に貢献する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "情報共有の徹底による混乱防止",
+          "sourceField": "values_and_motivators.motivation_triggers.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:strength:524",
@@ -9308,7 +10343,17 @@
       "aliases": [],
       "evidence": "組織運営に必要な事務処理の正確性と透明性を確保しつつ、個人の多様な関心や状況に配慮したコミュニケーションを重視する。ユーモアを交えた私的な体験の共有を通じて親近感を醸成し、ポジティブで心理的安全性の高い職場環境の構築に貢献する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "明確、詳細志向、丁寧、配慮がある、積極的、親しみやすい、個人的な体験の共有による共感醸成、ユーモアを交えた、遊び心のある、歓迎的、受容的、共感を示す、褒める、安心させる、協力的、大げさな表現を用いる、親近感を重視する",
+          "sourceField": "communication_patterns.communication_style"
+        },
+        {
+          "text": "業務の正確性を追求しつつ、個人的な体験やユーモアを交え積極的に人間関係を構築。",
+          "sourceField": "overall_summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:strength:534",
@@ -9372,7 +10417,13 @@
       "aliases": [],
       "evidence": "組織運営に必要な事務処理の正確性と透明性を確保しつつ、個人の多様な関心や状況に配慮したコミュニケーションを重視する。ユーモアを交えた私的な体験の共有を通じて親近感を醸成し、ポジティブで心理的安全性の高い職場環境の構築に貢献する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "次男の七五三撮影での出来事を共有することで、個人的な体験を通じた親近感の醸成と、ポジティブな雰囲気づくりに貢献している。",
+          "sourceField": "values_and_motivators.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:strength:538",
@@ -9460,7 +10511,17 @@
       "aliases": [],
       "evidence": "5月下旬においても、専門的な総務業務に関する詳細な案内を行う一方で、個人の趣味に合わせた歓迎メッセージや、家族のユーモラスな体験の共有を通じて、人間関係の構築と心理的安全性の確保に継続して取り組んでいる。業務と個人の双方において積極的で、ポジティブな職場環境を維持・発展させている。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "次男の七五三撮影」で和装も洋装も本人の好きなように選ばせ、ポケモン柄の着物を着たことを親しみを込めて共有。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "次男の七五三撮影でのエピソードを、ユーモラスな絵文字を交えて共有し、周囲との親近感を深めた。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:interest:543",
@@ -9527,7 +10588,17 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "業務の正確性を追求しつつ、個人的な体験やユーモアを交え積極的に人間関係を構築。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "高い責任感と細部へのこだわりで業務の正確性を確保しつつ、個人的な体験やユーモアを交えて積極的に交流する。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:547",
@@ -9575,7 +10646,17 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "次男の七五三撮影での出来事を共有することで、個人的な体験を通じた親近感の醸成と、ポジティブな雰囲気づくりに貢献している。",
+          "sourceField": "values_and_motivators.evidence_episodes.2"
+        },
+        {
+          "text": "社員からの信頼獲得とサポートへの貢献",
+          "sourceField": "values_and_motivators.motivation_triggers.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:550",
@@ -9623,7 +10704,17 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "組織運営に必要な事務処理の正確性と透明性を確保しつつ、個人の多様な関心や状況に配慮したコミュニケーションを重視する。",
+          "sourceField": "work_styles_and_strengths.summary"
+        },
+        {
+          "text": "透明性の確保",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.7"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:553",
@@ -9639,7 +10730,17 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "直近のログでは、就労証明書に関する行政手続きの案内という事務的な業務と、新メンバーへの個別配慮、私的な出来事の共有といった人間関係構築のための活動が並行して見られる。",
+          "sourceField": "current_state.workload_status"
+        },
+        {
+          "text": "業務の正確性を追求しつつ、個人的な体験やユーモアを交え積極的に人間関係を構築。",
+          "sourceField": "overall_summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:554",
@@ -9655,7 +10756,13 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "絵文字を効果的に使用し、メッセージに親しみやすさと遊び心を加え、周囲との心理的距離を縮めることを得意としている。",
+          "sourceField": "communication_patterns.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:555",
@@ -9687,7 +10794,13 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "明確、詳細志向、丁寧、配慮がある、積極的、親しみやすい、個人的な体験の共有による共感醸成、ユーモアを交えた、遊び心のある、歓迎的、受容的、共感を示す、褒める、安心させる、協力的、大げさな表現を用いる、親近感を重視する",
+          "sourceField": "communication_patterns.communication_style"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:557",
@@ -9703,7 +10816,13 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "コンプライアンス遵守",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.9"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:558",
@@ -9735,7 +10854,17 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "明確、詳細志向、丁寧、配慮がある、積極的、親しみやすい、個人的な体験の共有による共感醸成、ユーモアを交えた、遊び心のある、歓迎的、受容的、共感を示す、褒める、安心させる、協力的、大げさな表現を用いる、親近感を重視する",
+          "sourceField": "communication_patterns.communication_style"
+        },
+        {
+          "text": "他者との共感・交流",
+          "sourceField": "values_and_motivators.motivation_triggers.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:560",
@@ -9751,7 +10880,13 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "個人の興味や好奇心の追求",
+          "sourceField": "values_and_motivators.motivation_triggers.6"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:561",
@@ -9783,7 +10918,13 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:563",
@@ -9799,7 +10940,17 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "他者の発言に対して遊び心のある反応を示し、ポジティブなコミュニケーションを促進した。",
+          "sourceField": "values_and_motivators.evidence_episodes.4"
+        },
+        {
+          "text": "明確、詳細志向、丁寧、配慮がある、積極的、親しみやすい、個人的な体験の共有による共感醸成、ユーモアを交えた、遊び心のある、歓迎的、受容的、共感を示す、褒める、安心させる、協力的、大げさな表現を用いる、親近感を重視する",
+          "sourceField": "communication_patterns.communication_style"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:564",
@@ -9847,7 +10998,13 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "5月下旬においても、専門的な総務業務に関する詳細な案内を行う一方で、個人の趣味に合わせた歓迎メッセージや、家族のユーモラスな体験の共有を通じて、人間関係の構築と心理的安全性の確保に継続して取り組んでいる。",
+          "sourceField": "current_state.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:567",
@@ -9863,7 +11020,13 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "新しいメンバーの共通の趣味に言及し、社内での繋がりを提案することで、その人物の個性への配慮と受け入れの姿勢を見せた。",
+          "sourceField": "values_and_motivators.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:value:568",
@@ -9895,7 +11058,13 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "社員からの信頼獲得とサポートへの貢献",
+          "sourceField": "values_and_motivators.motivation_triggers.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:recent_topic:570",
@@ -9962,7 +11131,17 @@
       ],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.motivation_triggers"
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "evidenceSnippets": [
+        {
+          "text": "新しいメンバーに対し、自身の部署と名前を伝えた上で、相手の趣味（ポケモン）に関心を示し、共通の話題や社内交流の機会を提案して歓迎の意を表明した。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        },
+        {
+          "text": "また、社内イベントへの参加を促すなど、交流を活発化させる姿勢が顕著である。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:recent_topic:574",
@@ -10122,7 +11301,13 @@
       "aliases": [],
       "evidence": "組織における業務の正確性と公正な運用を重視しつつも、個人の個性や背景を尊重し、温かい人間関係と親近感を築くことに大きな価値を見出す。個人的な体験やユーモアを共有することで、日々の業務や交流に楽しさや遊び心を見出し、ポジティブな職場環境の醸成に貢献している。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.motivation_triggers"
+      "sourceField": "values_and_motivators.motivation_triggers",
+      "evidenceSnippets": [
+        {
+          "text": "実務支援力",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.17"
+        }
+      ]
     },
     {
       "@id": "facet:%E8%97%A4%E4%BA%95%E8%8A%99%E7%BE%8E%E5%AD%90:recent_topic:584",
@@ -10543,7 +11728,17 @@
       "aliases": [],
       "evidence": "グローバルな視点と実践的なAI知識を強みとし、起業家精神と行動力で事業を推進する。最新技術を自ら積極的に検証し、その知見を共有しながら、多様なチームとの共創を通じて具体的な成果を最大化する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "グローバルな視点と実践的なAI知識を兼ね備え、起業家精神と旺盛な行動力で共創を推進する。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "グローバルな視点と実践的なAI知識を強みとし、起業家精神と行動力で事業を推進する。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%BD%90%E8%97%A4%E5%82%91:strength:608",
@@ -10577,7 +11772,17 @@
       "aliases": [],
       "evidence": "グローバルな視点と実践的なAI知識を強みとし、起業家精神と行動力で事業を推進する。最新技術を自ら積極的に検証し、その知見を共有しながら、多様なチームとの共創を通じて具体的な成果を最大化する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "グローバルな視点と実践的なAI知識を兼ね備え、起業家精神と旺盛な行動力で共創を推進する。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "グローバルな視点と実践的なAI知識を強みとし、起業家精神と行動力で事業を推進する。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%BD%90%E8%97%A4%E5%82%91:strength:610",
@@ -10609,7 +11814,13 @@
       "aliases": [],
       "evidence": "グローバルな視点と実践的なAI知識を強みとし、起業家精神と行動力で事業を推進する。最新技術を自ら積極的に検証し、その知見を共有しながら、多様なチームとの共創を通じて具体的な成果を最大化する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "ハッカソンへの積極的な参加を好み、「アウトプットが増えるほどテンションが上がる」と発言するなど、具体的な成果創出への強い意欲と実行力を持つ。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%BD%90%E8%97%A4%E5%82%91:strength:612",
@@ -10796,7 +12007,13 @@
       "aliases": [],
       "evidence": "新しい技術の探求とその実践的な活用を通じて社会に貢献することに価値を見出す。アウトプットと共創を重視し、常に自己成長と具体的な成果を追求する。異文化交流や旅、効率性も重要な要素。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "アウトプットと共創を重視し、常に自己成長と具体的な成果を追求する。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%BD%90%E8%97%A4%E5%82%91:value:622",
@@ -10812,7 +12029,17 @@
       "aliases": [],
       "evidence": "新しい技術の探求とその実践的な活用を通じて社会に貢献することに価値を見出す。アウトプットと共創を重視し、常に自己成長と具体的な成果を追求する。異文化交流や旅、効率性も重要な要素。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "最新のAI技術（特に小型高性能モデル）を深く理解し、自身のMac M4 Max環境でのGPTsoss動作検証など実践的な活用方法を模索・提案することで、現場の課題解決に貢献する。",
+          "sourceField": "work_styles_and_strengths.problem_solving_style"
+        },
+        {
+          "text": "常に前向きで、新しい挑戦や学びを楽しみ、実践と情報共有を通じて貢献しようとする探求心と行動力を兼ね備えている。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%BD%90%E8%97%A4%E5%82%91:value:623",
@@ -10828,7 +12055,17 @@
       "aliases": [],
       "evidence": "新しい技術の探求とその実践的な活用を通じて社会に貢献することに価値を見出す。アウトプットと共創を重視し、常に自己成長と具体的な成果を追求する。異文化交流や旅、効率性も重要な要素。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "SaitekiメンバーとのAI実装の成功事例を「どんどん共創していきたい」「一緒に形にしましょう」と呼びかけ、自身の知見を共有しつつ、他者からの質問を積極的に受け付けるなど、協力的な姿勢が明確である。",
+          "sourceField": "personality_traits.agreeableness.evidence"
+        },
+        {
+          "text": "SaitekiのメンバーとのAI実装の成功事例を共創し、現場で役立つAIの形を共に追求しようと呼びかける。",
+          "sourceField": "values_and_motivators.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%BD%90%E8%97%A4%E5%82%91:value:624",
@@ -10844,7 +12081,17 @@
       "aliases": [],
       "evidence": "新しい技術の探求とその実践的な活用を通じて社会に貢献することに価値を見出す。アウトプットと共創を重視し、常に自己成長と具体的な成果を追求する。異文化交流や旅、効率性も重要な要素。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "海外のハッカソン（ポーランドなど）に積極的に参加し、ドバイでの参加にも意欲を見せ、「アウトプットが増えるほどテンションが上がる」と発言している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        },
+        {
+          "text": "ハッカソンへの積極的な参加を好み、「アウトプットが増えるほどテンションが上がる」と発言するなど、具体的な成果創出への強い意欲と実行力を持つ。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%BD%90%E8%97%A4%E5%82%91:value:625",
@@ -10860,7 +12107,17 @@
       "aliases": [],
       "evidence": "新しい技術の探求とその実践的な活用を通じて社会に貢献することに価値を見出す。アウトプットと共創を重視し、常に自己成長と具体的な成果を追求する。異文化交流や旅、効率性も重要な要素。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自身のMac環境でのAI動作検証や、追加コストなしで諸々動かせる「お得感」に言及するなど、実践的な視点と効率性を考慮する。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "Mac M4 MaxでのGPTsoss動作やDeepSeek4など小型高性能AIモデルの動向に注目し、自身の環境での実践に意欲的である。",
+          "sourceField": "values_and_motivators.evidence_episodes.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%BD%90%E8%97%A4%E5%82%91:value:626",
@@ -10876,7 +12133,17 @@
       "aliases": [],
       "evidence": "新しい技術の探求とその実践的な活用を通じて社会に貢献することに価値を見出す。アウトプットと共創を重視し、常に自己成長と具体的な成果を追求する。異文化交流や旅、効率性も重要な要素。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "最新技術の探求と検証",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.6"
+        },
+        {
+          "text": "最新技術への強い探求心と実践力を持ち、アウトプットを重視する人物。",
+          "sourceField": "overall_summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%BD%90%E8%97%A4%E5%82%91:value:627",
@@ -10892,7 +12159,17 @@
       "aliases": [],
       "evidence": "新しい技術の探求とその実践的な活用を通じて社会に貢献することに価値を見出す。アウトプットと共創を重視し、常に自己成長と具体的な成果を追求する。異文化交流や旅、効率性も重要な要素。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自身のMac環境でのAI動作検証や、追加コストなしで諸々動かせる「お得感」に言及するなど、実践的な視点と効率性を考慮する。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "異文化交流や旅、効率性も重要な要素。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%BD%90%E8%97%A4%E5%82%91:recent_topic:628",
@@ -11321,7 +12598,13 @@
       "aliases": [],
       "evidence": "自身の想いをチームと共有し、組織のビジョン実現に向けて一丸となることに大きな価値を見出す。メンバー個々人との深い人間関係と、ポジティブでオープンな職場文化、他者への称賛と協力、新しいメンバーの円滑な統合、そして共に困難を乗り越える経験が行動の原動力となっている。家族との調和も依然として重要な価値観であり、仕事とプライベートのバランスを大切にする。新しい情報…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "家族との調和も依然として重要な価値観であり、仕事とプライベートのバランスを大切にする。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E9%88%B4%E6%9C%A8%E6%82%A0%E6%96%97:value:652",
@@ -11643,7 +12926,13 @@
       "aliases": [],
       "evidence": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "組織の急成長期にリーダーシップを発揮し、戦略的な視点と細やかな配慮を両立させる。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:strength:670",
@@ -11711,7 +13000,13 @@
       "aliases": [],
       "evidence": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "社員交流会の準備から当日の運営、写真撮影における参加者への配慮まで細部に行き届いた計画性と実行力を見せる。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:strength:674",
@@ -11881,7 +13176,13 @@
       "aliases": [],
       "evidence": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "急速な組織成長の状況や戦略的なシフトを「Letter of T」で詳細かつ具体的に共有し、高い透明性を確保。",
+          "sourceField": "communication_patterns.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:strength:684",
@@ -11900,7 +13201,17 @@
       ],
       "evidence": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "「Letter of T」で上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティ、そして「大手が動けない数年間」の戦い方といった経営の真髄を詳細に共有する。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "「Letter of T」で、上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティといった経営と営業の真髄を詳細に共有し、自身の意思決定基準と執着心を示した。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:strength:685",
@@ -11954,7 +13265,17 @@
       ],
       "evidence": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "社員交流会の準備から当日の運営、写真撮影における参加者への配慮まで細部に行き届いた計画性と実行力を見せる。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "組織の急拡大に伴うマネジメント、厳選採用の推進、M&A戦略や高難易度案件獲得といったトップレベルの戦略的業務への集中、社内懇親会や勉強会の企画・運営、毎週の「Letter of T」作成など、多岐にわたる活動を精力的にこなしている。",
+          "sourceField": "current_state.workload_status"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:strength:688",
@@ -12039,7 +13360,17 @@
       "aliases": [],
       "evidence": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "自身の学びと哲学を共有し、人間性とプロ意識でチームを鼓舞し、事業と文化の双方で組織を牽引するリーダー。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "徹底した準備とプロ意識を持ち、自身の経験や学びをオープンに共有しながら、健全な向上心と自己成長へのプレッシャーを原動力に組織を牽引する。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:strength:693",
@@ -12073,7 +13404,17 @@
       "aliases": [],
       "evidence": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "「Letter of T」で上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティ、そして「大手が動けない数年間」の戦い方といった経営の真髄を詳細に共有する。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "「Letter of T」で、上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティといった経営と営業の真髄を詳細に共有し、自身の意思決定基準と執着心を示した。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:strength:695",
@@ -12107,7 +13448,17 @@
       "aliases": [],
       "evidence": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "半年前5人だった正社員が35人、業務委託含め55人規模へ急拡大する中で、内定率10%という厳選採用で「人柄の良さ」と「最高のカルチャー」を維持していることを共有した。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+        },
+        {
+          "text": "内定率10%という厳選採用で「人柄の良さ」と「最高のカルチャー」が実現していることに確信を抱き、その価値を重視している。",
+          "sourceField": "values_and_motivators.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:strength:697",
@@ -12124,7 +13475,13 @@
       "aliases": [],
       "evidence": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:strength:698",
@@ -12141,7 +13498,17 @@
       "aliases": [],
       "evidence": "「準備が9割」の哲学と厳選採用で組織の急成長を管理し、強固な文化を維持。幹部への権限委譲で自身の時間を戦略的M&A推進や高難易度案件獲得に投じ、高い視座で事業を牽引。自身の経験や学びを積極的に共有し、組織全体のパフォーマンスと持続的成長を力強く促進する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "組織の急拡大期には、頼れる幹部メンバーへの権限委譲を通じて自身の役割をM&A戦略推進や高難易度案件獲得といったトップにしかできない難題の突破に集中させる。",
+          "sourceField": "work_styles_and_strengths.problem_solving_style"
+        },
+        {
+          "text": "組織の急拡大に伴うマネジメント、厳選採用の推進、M&A戦略や高難易度案件獲得といったトップレベルの戦略的業務への集中、社内懇親会や勉強会の企画・運営、毎週の「Letter of T」作成など、多岐にわたる活動を精力的にこなしている。",
+          "sourceField": "current_state.workload_status"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:work_style:699",
@@ -12385,7 +13752,13 @@
       "aliases": [],
       "evidence": "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指す…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "社会課題解決志向",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:value:711",
@@ -12508,7 +13881,13 @@
       "aliases": [],
       "evidence": "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指す…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "多様性推進",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.6"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:value:718",
@@ -12525,7 +13904,13 @@
       "aliases": [],
       "evidence": "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指す…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "急速な組織成長の状況や戦略的なシフトを「Letter of T」で詳細かつ具体的に共有し、高い透明性を確保。",
+          "sourceField": "communication_patterns.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:value:719",
@@ -12593,7 +13978,17 @@
       "aliases": [],
       "evidence": "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指す…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "ゴルフコンペで代表としての責任感から徹底した準備（早朝300球打ち、コース予習など）を行い、上場SIer社長から高評価を得て協業の話に繋がったことを共有した。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.4"
+        },
+        {
+          "text": "代表としてゴルフコンペで恥ずかしいスコアを出せないという責任感から、徹底的な準備を行う。",
+          "sourceField": "personality_traits.neuroticism.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:value:723",
@@ -12610,7 +14005,13 @@
       "aliases": [],
       "evidence": "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指す…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "健康管理意識",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.16"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:value:724",
@@ -12699,7 +14100,17 @@
       "aliases": [],
       "evidence": "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指す…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自身の学びと哲学を共有し、人間性とプロ意識でチームを鼓舞し、事業と文化の双方で組織を牽引するリーダー。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "徹底した準備とプロ意識を持ち、自身の経験や学びをオープンに共有しながら、健全な向上心と自己成長へのプレッシャーを原動力に組織を牽引する。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:value:729",
@@ -12733,7 +14144,17 @@
       "aliases": [],
       "evidence": "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指す…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "「Letter of T」で上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティ、そして「大手が動けない数年間」の戦い方といった経営の真髄を詳細に共有する。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "「Letter of T」で、上場SIer社長から学んだAI戦略、営業ハック、仕事としてのゴルフ、ホスピタリティといった経営と営業の真髄を詳細に共有し、自身の意思決定基準と執着心を示した。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:value:731",
@@ -12801,7 +14222,17 @@
       "aliases": [],
       "evidence": "「準備が9割」という徹底したプロ意識と、組織の急成長を支える文化醸成への強いコミットメントを核とする。頼れる幹部への権限委譲を通じて自身の時間をM&A戦略や高難易度案件の獲得といった経営の最重要課題に集中させ、事業のステージを一段引き上げることに価値を見出す。厳選採用で最高のカルチャーを維持しつつ、自身の学びや哲学を共有し、チーム全体でまだ見ぬ高みを目指す…",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "頼れる幹部メンバー（営業部長、人事部長）の活躍により、自身は「M&A戦略の推進」や「高難易度な受託案件の獲得」に時間を全投できるようになったことを表明した。",
+          "sourceField": "values_and_motivators.evidence_episodes.1"
+        },
+        {
+          "text": "自身の役割を「M&A戦略の推進」や「高難易度な受託案件の獲得」へシフトすること",
+          "sourceField": "current_state.recent_topics_of_interest.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%88%B8%E5%A1%9A%E7%9B%B4%E9%81%93:value:735",
@@ -13206,7 +14637,17 @@
       "aliases": [],
       "evidence": "多様な経験と高い学習意欲に加え、自己規律を持って目標達成に取り組む。コミュニケーション能力も高く、周囲を支援しながら協調的に働くことを志向する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "自身の経験が浅い点を認識しつつもそれを学習意欲に繋げており、熱中しすぎるクレーンゲームを「ゴトン病」とユーモラスに表現しつつ「最近は自重しています」と自己制御の姿勢も見せる。",
+          "sourceField": "personality_traits.neuroticism.evidence"
+        },
+        {
+          "text": "「積極的に色々なことを学んでいきたい」と明言し、未経験分野への学習意欲が非常に高い。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:strength:755",
@@ -13238,7 +14679,13 @@
       "aliases": [],
       "evidence": "多様な経験と高い学習意欲に加え、自己規律を持って目標達成に取り組む。コミュニケーション能力も高く、周囲を支援しながら協調的に働くことを志向する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "高校で調理師免許を取得後、事務、飲食業、ネットワーク監視・運用保守など多岐にわたる職務経験を持ち、環境変化への高い適応力と柔軟性を持っている。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:strength:757",
@@ -13254,7 +14701,17 @@
       "aliases": [],
       "evidence": "多様な経験と高い学習意欲に加え、自己規律を持って目標達成に取り組む。コミュニケーション能力も高く、周囲を支援しながら協調的に働くことを志向する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "継続的な自己成長と目標達成への意欲を持ち、周囲を気遣う協調性も兼ね備えた人物。",
+          "sourceField": "overall_summary"
+        },
+        {
+          "text": "非常に開放的で協調性があり、新しい知識や経験を積極的に取り入れようとする。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:strength:758",
@@ -13270,7 +14727,17 @@
       "aliases": [],
       "evidence": "多様な経験と高い学習意欲に加え、自己規律を持って目標達成に取り組む。コミュニケーション能力も高く、周囲を支援しながら協調的に働くことを志向する。",
       "messageQuotes": [],
-      "sourceField": "work_styles_and_strengths.dominant_strengths"
+      "sourceField": "work_styles_and_strengths.dominant_strengths",
+      "evidenceSnippets": [
+        {
+          "text": "加えて、週1回のランニングを習慣化し、将来の長距離イベント参加という目標を掲げるなど、自己規律と目標達成への強い意欲を持つ。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "多様な経験と高い学習意欲に加え、自己規律を持って目標達成に取り組む。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:strength:759",
@@ -13342,7 +14809,17 @@
       "aliases": [],
       "evidence": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "Slackでの活発なコミュニケーションに魅力を感じ、入社前から積極的に他者との交流を図り、チームワークを重視する傾向が見られる。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+        },
+        {
+          "text": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:interest:763",
@@ -13358,7 +14835,17 @@
       "aliases": [],
       "evidence": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "自身の多様な職務経験や趣味を詳細に自己開示し、新しい日本酒の銘柄や未視聴の映画にも積極的に興味を示し試そうとする意欲がある。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "未経験の日本酒を試したり、未視聴の映画を見ようとするなど、新しい体験への意欲が高い。",
+          "sourceField": "values_and_motivators.evidence_episodes.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:interest:764",
@@ -13374,7 +14861,13 @@
       "aliases": [],
       "evidence": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "自身の経験が浅い点を認識しつつもそれを学習意欲に繋げており、熱中しすぎるクレーンゲームを「ゴトン病」とユーモラスに表現しつつ「最近は自重しています」と自己制御の姿勢も見せる。",
+          "sourceField": "personality_traits.neuroticism.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:interest:765",
@@ -13406,7 +14899,17 @@
       "aliases": [],
       "evidence": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "自身の多様な職務経験や趣味を詳細に自己開示し、新しい日本酒の銘柄や未視聴の映画にも積極的に興味を示し試そうとする意欲がある。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "未経験の日本酒を試したり、未視聴の映画を見ようとするなど、新しい体験への意欲が高い。",
+          "sourceField": "values_and_motivators.evidence_episodes.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:interest:767",
@@ -13422,7 +14925,13 @@
       "aliases": [],
       "evidence": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "Slackでの活発なコミュニケーションに魅力を感じると明言し、オンライン飲み部への参加意欲を示し、複数の相手に積極的に返信することで交流を楽しんでいる様子が伺える。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:interest:768",
@@ -13438,7 +14947,17 @@
       "aliases": [],
       "evidence": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "さらに、週1回のランニングを新たに始めるなど、新しい経験や挑戦に常に前向きである。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "加えて、週1回のランニングを習慣化し、将来の長距離イベント参加という目標を掲げるなど、自己規律と目標達成への強い意欲を持つ。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:interest:769",
@@ -13470,7 +14989,13 @@
       "aliases": [],
       "evidence": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "週1でランニングを始め、長距離イベントへの参加を目標に掲げていることから、目標設定と自己鍛錬への意欲が高い。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:interest:771",
@@ -13486,7 +15011,17 @@
       "aliases": [],
       "evidence": "入社後も継続して自己成長への意欲が高く、新たな個人的な挑戦を始めている。周囲への気配りや応援も忘れず、社内でのポジティブな存在として期待される。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "加えて、週1回のランニングを習慣化し、将来の長距離イベント参加という目標を掲げるなど、自己規律と目標達成への強い意欲を持つ。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "週1でランニングを始め、長距離イベントへの参加を目標に掲げていることから、目標設定と自己鍛錬への意欲が高い。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:value:772",
@@ -13502,7 +15037,17 @@
       "aliases": [],
       "evidence": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。目標に向かって努力する過程自体を楽しんでいる。また、社内のつながりや他者への貢献も大切にする。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "Slackでの活発なコミュニケーションに魅力を感じ、入社前から積極的に他者との交流を図り、チームワークを重視する傾向が見られる。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+        },
+        {
+          "text": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:value:773",
@@ -13518,7 +15063,17 @@
       "aliases": [],
       "evidence": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。目標に向かって努力する過程自体を楽しんでいる。また、社内のつながりや他者への貢献も大切にする。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "「積極的に色々なことを学んでいきたい」という言葉や、多岐にわたる職務経験、さらに週1回のランニングを始めるなど、自己成長と新しいスキルの習得が大きなモチベーションとなっている。",
+          "sourceField": "values_and_motivators.evidence_episodes.1"
+        },
+        {
+          "text": "継続的な自己成長と目標達成への意欲を持ち、周囲を気遣う協調性も兼ね備えた人物。",
+          "sourceField": "overall_summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:value:774",
@@ -13534,7 +15089,17 @@
       "aliases": [],
       "evidence": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。目標に向かって努力する過程自体を楽しんでいる。また、社内のつながりや他者への貢献も大切にする。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "「SESだけどちゃんと社内のつながりがあるっていいなと感じました」という発言から、組織内の一体感や連携を非常に重視していることが伺える。",
+          "sourceField": "values_and_motivators.evidence_episodes.0"
+        },
+        {
+          "text": "また、社内のつながりや他者への貢献も大切にする。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:value:775",
@@ -13550,7 +15115,17 @@
       "aliases": [],
       "evidence": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。目標に向かって努力する過程自体を楽しんでいる。また、社内のつながりや他者への貢献も大切にする。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自身の多様な経験を基盤としつつ、未知の分野や課題に対しては「積極的に色々なことを学んでいきたい」と表明するように、周囲との連携を図りながら知識を吸収し解決策を見出すアプローチを取る。",
+          "sourceField": "work_styles_and_strengths.problem_solving_style"
+        },
+        {
+          "text": "多様な経験と高い学習意欲に加え、自己規律を持って目標達成に取り組む。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:value:776",
@@ -13582,7 +15157,13 @@
       "aliases": [],
       "evidence": "チームワークと自己成長を強く重視し、新しい経験やスキルを積極的に習得することに意欲的。目標に向かって努力する過程自体を楽しんでいる。また、社内のつながりや他者への貢献も大切にする。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "週1でランニングを始め、長距離イベントへの参加を目標に掲げていることから、目標設定と自己鍛錬への意欲が高い。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E6%A6%8E%E6%9C%AC%E8%A9%A9%E7%B9%94:recent_topic:778",
@@ -13804,7 +15385,17 @@
       "aliases": [],
       "evidence": "長期のサーバ運用・テスト経験を基盤に、改修開発、サポート、総合テストまで幅広く対応できる実務型の技術者。新しい環境では丁寧に状況を把握し、学びながら着実に貢献していくタイプです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "サーバ運用・テスト、改修開発、サポート、総合テストなど複数領域を経験し、アニメ、映画、ゲーム、トミカ、映画フライヤー収集など関心の幅も広い。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "情報系専門学校卒業後、約10年間サーバ運用・テスト業務に携わったと自己紹介している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E5%8E%9F%E5%9F%BA%E8%87%A3:work_topic:791",
@@ -13820,7 +15411,17 @@
       "aliases": [],
       "evidence": "長期のサーバ運用・テスト経験を基盤に、改修開発、サポート、総合テストまで幅広く対応できる実務型の技術者。新しい環境では丁寧に状況を把握し、学びながら着実に貢献していくタイプです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "情報系専門学校卒業後、約10年間サーバ運用・テスト業務に携わったと自己紹介している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+        },
+        {
+          "text": "その後、約2年ほど改修開発を経験し、直近では修正業務、サポート業務、総合テスト業務を担当していた。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E5%8E%9F%E5%9F%BA%E8%87%A3:work_topic:792",
@@ -13836,7 +15437,17 @@
       "aliases": [],
       "evidence": "長期のサーバ運用・テスト経験を基盤に、改修開発、サポート、総合テストまで幅広く対応できる実務型の技術者。新しい環境では丁寧に状況を把握し、学びながら着実に貢献していくタイプです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "サーバ運用・テスト、改修開発、サポート、総合テストなど複数領域を経験し、アニメ、映画、ゲーム、トミカ、映画フライヤー収集など関心の幅も広い。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "その後、約2年ほど改修開発を経験し、直近では修正業務、サポート業務、総合テスト業務を担当していた。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E5%8E%9F%E5%9F%BA%E8%87%A3:work_topic:793",
@@ -13852,7 +15463,17 @@
       "aliases": [],
       "evidence": "長期のサーバ運用・テスト経験を基盤に、改修開発、サポート、総合テストまで幅広く対応できる実務型の技術者。新しい環境では丁寧に状況を把握し、学びながら着実に貢献していくタイプです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "サーバ運用・テスト、改修開発、サポート、総合テストなど複数領域を経験し、アニメ、映画、ゲーム、トミカ、映画フライヤー収集など関心の幅も広い。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "その後、約2年ほど改修開発を経験し、直近では修正業務、サポート業務、総合テスト業務を担当していた。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E5%8E%9F%E5%9F%BA%E8%87%A3:work_topic:794",
@@ -13886,7 +15507,13 @@
       "aliases": [],
       "evidence": "入社前後の新しい環境に向けて、技術面と社内コミュニケーションの両方でキャッチアップしようとしている状態です。自己認識は現実的で、周囲との交流を通じて早くなじもうとしています。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "その後、約2年ほど改修開発を経験し、直近では修正業務、サポート業務、総合テスト業務を担当していた。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E5%8E%9F%E5%9F%BA%E8%87%A3:interest:796",
@@ -13902,7 +15529,17 @@
       "aliases": [],
       "evidence": "入社前後の新しい環境に向けて、技術面と社内コミュニケーションの両方でキャッチアップしようとしている状態です。自己認識は現実的で、周囲との交流を通じて早くなじもうとしています。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "サーバ運用・テスト、改修開発、サポート、総合テストなど複数領域を経験し、アニメ、映画、ゲーム、トミカ、映画フライヤー収集など関心の幅も広い。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "アニメ・映画・ゲーム・収集などの話題でつながること",
+          "sourceField": "values_and_motivators.motivation_triggers.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E5%8E%9F%E5%9F%BA%E8%87%A3:interest:797",
@@ -13934,7 +15571,17 @@
       "aliases": [],
       "evidence": "入社前後の新しい環境に向けて、技術面と社内コミュニケーションの両方でキャッチアップしようとしている状態です。自己認識は現実的で、周囲との交流を通じて早くなじもうとしています。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "サーバ運用・テスト、改修開発、サポート、総合テストなど複数領域を経験し、アニメ、映画、ゲーム、トミカ、映画フライヤー収集など関心の幅も広い。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "アニメ・映画・ゲーム・収集などの話題でつながること",
+          "sourceField": "values_and_motivators.motivation_triggers.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E5%8E%9F%E5%9F%BA%E8%87%A3:interest:799",
@@ -13998,7 +15645,13 @@
       "aliases": [],
       "evidence": "学び直しと早期貢献、丁寧な人間関係づくり、趣味を通じた交流を大切にしています。Slack上での活発な交流にも価値を感じており、社内のつながりを前向きに受け止めています。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "学び直しと早期貢献、丁寧な人間関係づくり、趣味を通じた交流を大切にしています。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E5%8E%9F%E5%9F%BA%E8%87%A3:value:803",
@@ -14030,7 +15683,13 @@
       "aliases": [],
       "evidence": "学び直しと早期貢献、丁寧な人間関係づくり、趣味を通じた交流を大切にしています。Slack上での活発な交流にも価値を感じており、社内のつながりを前向きに受け止めています。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "Slackでの活発なコミュニケーションに新鮮さを感じ、社内交流に前向きな姿勢を示している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E4%B8%8A%E5%8E%9F%E5%9F%BA%E8%87%A3:value:805",
@@ -14249,7 +15908,17 @@
       ],
       "evidence": "多様な職務経験とAWS運用・監視経験を持ち、未知の領域でもAIや整理力を使って学習を進められるタイプ。音響や音楽制作の経験から、細部への感覚や継続的な創作力も強みです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "溶接工、3D-CAD、セミナー配信の音響サポート、審査センターSV、AWS運用監視と経験が幅広い。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "前職からITに関わり、約3年間AWS環境のシステム運用・監視を経験している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:work_topic:817",
@@ -14267,7 +15936,17 @@
       ],
       "evidence": "多様な職務経験とAWS運用・監視経験を持ち、未知の領域でもAIや整理力を使って学習を進められるタイプ。音響や音楽制作の経験から、細部への感覚や継続的な創作力も強みです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "学習で分からないことをAIに壁打ちし、要点整理して成長につなげている。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:interest:818",
@@ -14283,7 +15962,17 @@
       "aliases": [],
       "evidence": "入社前後のキャッチアップ段階で、IT領域の学習を継続しながら早く貢献しようとしている状態です。AI活用や音楽制作など、自分なりの学習・創作習慣も持っています。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "学習で分からないことをAIに壁打ちし、要点整理して成長につなげている。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "分からないことをAIに壁打ちし、自分の中で要点整理できた瞬間に成長を感じると述べている。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.2"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:interest:819",
@@ -14299,7 +15988,17 @@
       "aliases": [],
       "evidence": "入社前後のキャッチアップ段階で、IT領域の学習を継続しながら早く貢献しようとしている状態です。AI活用や音楽制作など、自分なりの学習・創作習慣も持っています。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "自己紹介で経歴や趣味をオープンに共有し、大食いチャレンジや音楽の話題など、周囲が反応しやすい話題を自然に出している。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:interest:820",
@@ -14315,7 +16014,13 @@
       "aliases": [],
       "evidence": "入社前後のキャッチアップ段階で、IT領域の学習を継続しながら早く貢献しようとしている状態です。AI活用や音楽制作など、自分なりの学習・創作習慣も持っています。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+          "sourceField": "personality_traits.openness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:interest:821",
@@ -14331,7 +16036,17 @@
       "aliases": [],
       "evidence": "入社前後のキャッチアップ段階で、IT領域の学習を継続しながら早く貢献しようとしている状態です。AI活用や音楽制作など、自分なりの学習・創作習慣も持っています。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "歌声合成ソフトで既存曲を歌わせたりMIXしたりして、気付けば10時間ほど経つことがあるほど集中して取り組む。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:interest:822",
@@ -14349,7 +16064,17 @@
       ],
       "evidence": "入社前後のキャッチアップ段階で、IT領域の学習を継続しながら早く貢献しようとしている状態です。AI活用や音楽制作など、自分なりの学習・創作習慣も持っています。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "歌声合成ソフトで既存曲を歌わせたりMIXしたりして、気付けば10時間ほど経つことがあるほど集中して取り組む。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:interest:823",
@@ -14397,7 +16122,13 @@
       "aliases": [],
       "evidence": "入社前後のキャッチアップ段階で、IT領域の学習を継続しながら早く貢献しようとしている状態です。AI活用や音楽制作など、自分なりの学習・創作習慣も持っています。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+          "sourceField": "personality_traits.openness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:value:826",
@@ -14413,7 +16144,17 @@
       "aliases": [],
       "evidence": "成長実感、学習、創作活動、MVVへの共感を大切にしています。新しい環境で早くキャッチアップし、楽しみながら自分の幅を広げることにモチベーションがあります。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "学習で分からないことをAIに壁打ちし、要点整理して成長につなげている。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "未経験領域や学ぶことの多さを不安としてではなく、成長の機会として捉えている。",
+          "sourceField": "personality_traits.neuroticism.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:value:827",
@@ -14429,7 +16170,17 @@
       "aliases": [],
       "evidence": "成長実感、学習、創作活動、MVVへの共感を大切にしています。新しい環境で早くキャッチアップし、楽しみながら自分の幅を広げることにモチベーションがあります。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "音楽、楽器演奏、歌声合成、MIX、自炊など趣味も多面的で、AIへの壁打ち学習にも前向き。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "学習で分からないことをAIに壁打ちし、要点整理して成長につなげている。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:value:828",
@@ -14445,7 +16196,17 @@
       "aliases": [],
       "evidence": "成長実感、学習、創作活動、MVVへの共感を大切にしています。新しい環境で早くキャッチアップし、楽しみながら自分の幅を広げることにモチベーションがあります。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "音楽やMIXなど創作に没頭すること",
+          "sourceField": "values_and_motivators.motivation_triggers.2"
+        },
+        {
+          "text": "音響や音楽制作の経験から、細部への感覚や継続的な創作力も強みです。",
+          "sourceField": "work_styles_and_strengths.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:value:829",
@@ -14463,7 +16224,17 @@
       ],
       "evidence": "成長実感、学習、創作活動、MVVへの共感を大切にしています。新しい環境で早くキャッチアップし、楽しみながら自分の幅を広げることにモチベーションがあります。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "「どうぞこれからよろしくお願いいたします」と丁寧に挨拶し、MVVへの共感や周囲との趣味会話にも前向き。",
+          "sourceField": "personality_traits.agreeableness.evidence"
+        },
+        {
+          "text": "MVVへの共感を示したことについて、周囲からも好意的に受け止められている。",
+          "sourceField": "values_and_motivators.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E7%9C%9F%E6%A0%84%E5%9F%8E%E5%89%87%E6%98%8E:value:830",
@@ -14671,7 +16442,17 @@
       "aliases": [],
       "evidence": "開発、インフラ、サービス、テスト、採用・営業、ゲーム開発、作曲まで横断的な経験を持つ越境型の人材。技術と運用、クリエイティブをつなげて考えられる柔軟性が強みです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "作曲、ゲーム開発、開発・インフラ・サービス・テスト領域のSEなど、技術と創作の両面で幅広い経験がある。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "作曲、テック企業のオペレーションリーダー、コンシューマゲーム開発を経験している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%85%AB%E6%9C%A8%E6%A9%8B%20%E9%9B%84%E4%B8%80:work_topic:842",
@@ -14712,7 +16493,17 @@
       ],
       "evidence": "開発、インフラ、サービス、テスト、採用・営業、ゲーム開発、作曲まで横断的な経験を持つ越境型の人材。技術と運用、クリエイティブをつなげて考えられる柔軟性が強みです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "オペレーションリーダー、各種SE、SES採用・営業など、複数の役割を担ってきた実務経験があり、業務上の責任を持って役割を遂行してきたことがうかがえる。",
+          "sourceField": "personality_traits.conscientiousness.evidence"
+        },
+        {
+          "text": "開発、インフラ、サービス、テスト各種SE、SES採用・営業など、技術とビジネスをまたぐ経験がある。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.1"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%85%AB%E6%9C%A8%E6%A9%8B%20%E9%9B%84%E4%B8%80:interest:844",
@@ -14728,7 +16519,17 @@
       "aliases": [],
       "evidence": "入社前後の段階で、周囲と自然体で少しずつ関わろうとしている状態です。幅広い経験と独自の感性を持ち、技術面・創作面の両方で話題の接点を作れそうです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "作曲、ゲーム開発、開発・インフラ・サービス・テスト領域のSEなど、技術と創作の両面で幅広い経験がある。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "作曲、テック企業のオペレーションリーダー、コンシューマゲーム開発を経験している。",
+          "sourceField": "work_styles_and_strengths.evidence_episodes.0"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%85%AB%E6%9C%A8%E6%A9%8B%20%E9%9B%84%E4%B8%80:interest:845",
@@ -14744,7 +16545,17 @@
       "aliases": [],
       "evidence": "入社前後の段階で、周囲と自然体で少しずつ関わろうとしている状態です。幅広い経験と独自の感性を持ち、技術面・創作面の両方で話題の接点を作れそうです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "音楽や動物など好きなものについて自然に話せること",
+          "sourceField": "values_and_motivators.motivation_triggers.3"
+        },
+        {
+          "text": "技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%85%AB%E6%9C%A8%E6%A9%8B%20%E9%9B%84%E4%B8%80:interest:846",
@@ -14776,7 +16587,17 @@
       "aliases": [],
       "evidence": "入社前後の段階で、周囲と自然体で少しずつ関わろうとしている状態です。幅広い経験と独自の感性を持ち、技術面・創作面の両方で話題の接点を作れそうです。",
       "messageQuotes": [],
-      "sourceField": "current_state.recent_topics_of_interest"
+      "sourceField": "current_state.recent_topics_of_interest",
+      "evidenceSnippets": [
+        {
+          "text": "犬猫だけでなく動物全般が好きと述べ、周囲からもその回答の余白を好意的に受け止められている。",
+          "sourceField": "values_and_motivators.evidence_episodes.1"
+        },
+        {
+          "text": "音楽や動物など好きなものについて自然に話せること",
+          "sourceField": "values_and_motivators.motivation_triggers.3"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%85%AB%E6%9C%A8%E6%A9%8B%20%E9%9B%84%E4%B8%80:interest:848",
@@ -14808,7 +16629,17 @@
       "aliases": [],
       "evidence": "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "最近ハマっていることへの答えも自由度が高く、先入観なく自然体で関わりたいと述べている。",
+          "sourceField": "personality_traits.openness.evidence"
+        },
+        {
+          "text": "自己紹介や返信は丁寧で開かれているが、「自然体で少しずつ関わっていけたら」と述べており、急に距離を詰めるよりも穏やかな関係構築を好む傾向がある。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%85%AB%E6%9C%A8%E6%A9%8B%20%E9%9B%84%E4%B8%80:value:850",
@@ -14824,7 +16655,17 @@
       "aliases": [],
       "evidence": "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "技術と運用、クリエイティブをつなげて考えられる柔軟性が強みです。",
+          "sourceField": "work_styles_and_strengths.summary"
+        },
+        {
+          "text": "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。",
+          "sourceField": "values_and_motivators.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%85%AB%E6%9C%A8%E6%A9%8B%20%E9%9B%84%E4%B8%80:value:851",
@@ -14840,7 +16681,17 @@
       "aliases": [],
       "evidence": "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "ゲーム開発・作曲による創造性",
+          "sourceField": "work_styles_and_strengths.dominant_strengths.1"
+        },
+        {
+          "text": "創造性と経験の幅が非常に広く、自然体で柔らかい関係構築を好む人物です。",
+          "sourceField": "personality_traits.summary"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%85%AB%E6%9C%A8%E6%A9%8B%20%E9%9B%84%E4%B8%80:value:852",
@@ -14856,7 +16707,13 @@
       "aliases": [],
       "evidence": "自然体、柔軟性、創作性、日常を楽しく整えることを大切にしています。技術や仕事の経験だけでなく、音楽や動物、生活のリズムなど幅広い関心を持っています。",
       "messageQuotes": [],
-      "sourceField": "values_and_motivators.core_values"
+      "sourceField": "values_and_motivators.core_values",
+      "evidenceSnippets": [
+        {
+          "text": "自己紹介や返信は丁寧で開かれているが、「自然体で少しずつ関わっていけたら」と述べており、急に距離を詰めるよりも穏やかな関係構築を好む傾向がある。",
+          "sourceField": "personality_traits.extraversion.evidence"
+        }
+      ]
     },
     {
       "@id": "facet:%E5%85%AB%E6%9C%A8%E6%A9%8B%20%E9%9B%84%E4%B8%80:value:853",

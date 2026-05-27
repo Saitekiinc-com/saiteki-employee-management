@@ -394,9 +394,7 @@ function formatResult(result) {
   const reasons = result.reasons
     .map((reason) => `・${escapeMrkdwn(reason.label)} (${Math.round(reason.score * 100)}%) - ${escapeMrkdwn(reasonSourceLabel(reason))}`)
     .join('\n');
-  const extractionEvidence = result.reasons
-    .map((reason) => `・「${escapeMrkdwn(reasonSourceLabel(reason))}」に「${escapeMrkdwn(truncate(reason.label, 80))}」が保存されています。`)
-    .join('\n');
+  const detailNotes = result.reasons.flatMap(reasonDetailNotes).join('\n');
   const quotes = result.messageQuotes
     .map((quote) => {
       const quoteText = `「${escapeMrkdwn(truncate(quote.text, 140))}」`;
@@ -411,11 +409,36 @@ function formatResult(result) {
       text: [
         `*${mention}*`,
         `選出理由:\n${reasons || '関連する検索facetが閾値を超えました。'}`,
-        extractionEvidence ? `抽出根拠:\n${extractionEvidence}` : '',
+        detailNotes ? `具体メモ:\n${detailNotes}` : '',
         quotes ? `メッセージ引用:\n${quotes}` : ''
       ].filter(Boolean).join('\n')
     }
   };
+}
+
+function reasonDetailNotes(reason) {
+  const snippets = (reason.evidenceSnippets || [])
+    .map((snippet) => typeof snippet === 'string' ? snippet : snippet.text)
+    .filter(Boolean);
+  if (snippets.length > 0) {
+    return snippets.map((snippet) => `・${escapeMrkdwn(truncate(formatEvidenceSnippet(reason, snippet), 170))}`);
+  }
+  return [`・${escapeMrkdwn(formatEvidenceSnippet(reason, reason.label))}`];
+}
+
+function formatEvidenceSnippet(reason, snippet) {
+  const text = String(snippet || '').trim();
+  const label = String(reason.label || '').trim();
+  const fallbackNote = isWorkReason(reason) ? '具体的な経験内容までは未整理' : '具体的な種類・文脈までは未整理';
+  if (!text) return `${label}（${fallbackNote}）`;
+  if (normalizeText(text) === normalizeText(label) && !/[（(].+[）)]/.test(text)) {
+    return `${text}（${fallbackNote}）`;
+  }
+  return text;
+}
+
+function isWorkReason(reason) {
+  return ['strength', 'work_style', 'work_topic'].includes(reason.category);
 }
 
 function reasonSourceLabel(reason) {
@@ -494,6 +517,7 @@ function aggregateByEmployee(scoredFacets, threshold) {
       label: item.facet.label,
       score: Number(item.score.toFixed(4)),
       sourceField: item.facet.sourceField,
+      evidenceSnippets: item.facet.evidenceSnippets || [],
       evidence: item.facet.evidence
     });
     result.messageQuotes.push(...(item.facet.messageQuotes || []));
