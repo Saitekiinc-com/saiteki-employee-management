@@ -57,8 +57,9 @@ Slack管理画面で手動作成するとRequest URLが必須表示になるこ�
 
 必要なトークン:
 
-- `SLACK_BOT_TOKEN`: `xoxb-` で始まるBot User OAuth Token
-- `SLACK_APP_TOKEN`: `xapp-` で始まるApp-Level Token
+- `SLACK_BOT_TOKEN_3`: `xoxb-` で始まるBot User OAuth Token
+- `SLACK_APP_TOKEN_3`: `xapp-` で始まるApp-Level Token
+- `SLACK_CHANNEL_ID_3`: アプリを利用できるチャンネルID。カンマ区切りで複数指定できる
 
 App-Level Tokenには `connections:write` scopeが必要。
 
@@ -72,17 +73,21 @@ Bot scope:
 ```bash
 npm install
 npm run build:search-facets
-SLACK_BOT_TOKEN=xoxb-... SLACK_APP_TOKEN=xapp-... npm run slack:people-finder
+SLACK_BOT_TOKEN_3=xoxb-... SLACK_APP_TOKEN_3=xapp-... SLACK_CHANNEL_ID_3=C... npm run slack:people-finder
 ```
 
 任意の環境変数:
 
+- `SLACK_BOT_TOKEN`: `SLACK_BOT_TOKEN_3` がない場合に使う互換用Bot Token
+- `SLACK_APP_TOKEN`: `SLACK_APP_TOKEN_3` がない場合に使う互換用App-Level Token
 - `PEOPLE_FINDER_EMPLOYEES_FILE`: `employees.json` のパス
 - `PEOPLE_FINDER_MESSAGES_FILE`: `slack-messages.jsonl` のパス
 - `PEOPLE_FINDER_FACETS_FILE`: `search-facets.jsonld` のパス
 - `PEOPLE_FINDER_THRESHOLD`: 検索結果に含める類似度閾値。初期値は `0.16`
 
 `search-facets.jsonld` が存在しない場合、起動後の初回検索時に `employees.json` と `slack-messages.jsonl` から自動生成する。
+
+GitHub Secretsに `SLACK_BOT_TOKEN_3`, `SLACK_APP_TOKEN_3`, `SLACK_CHANNEL_ID_3` を追加しても、それだけではSocket Modeアプリは常駐しない。常駐実行するサーバー、PC、または別のホスティング環境にも同じ環境変数を設定して `npm run slack:people-finder` を起動する。
 
 ## 運用メモ
 

@@ -15,6 +15,13 @@ const CATEGORY_BLOCK = 'search_category';
 const QUERY_BLOCK = 'search_query';
 const DEFAULT_THRESHOLD = 0.16;
 
+const SLACK_BOT_TOKEN = process.env.SLACK_BOT_TOKEN_3 || process.env.SLACK_BOT_TOKEN;
+const SLACK_APP_TOKEN = process.env.SLACK_APP_TOKEN_3 || process.env.SLACK_APP_TOKEN;
+const ALLOWED_CHANNEL_IDS = (process.env.SLACK_CHANNEL_ID_3 || '')
+  .split(',')
+  .map((id) => id.trim())
+  .filter(Boolean);
+
 const EMPLOYEES_FILE = process.env.PEOPLE_FINDER_EMPLOYEES_FILE || path.join(__dirname, '../data/employees.json');
 const SLACK_MESSAGES_FILE = process.env.PEOPLE_FINDER_MESSAGES_FILE || path.join(__dirname, '../data/slack-messages.jsonl');
 const FACETS_FILE = process.env.PEOPLE_FINDER_FACETS_FILE || path.join(__dirname, '../data/search-facets.jsonld');
@@ -32,8 +39,8 @@ const CATEGORY_OPTIONS = [
   }
 ];
 
-function requireEnv(name) {
-  if (!process.env[name]) {
+function requireValue(name, value) {
+  if (!value) {
     throw new Error(`Missing required environment variable: ${name}`);
   }
 }
@@ -247,16 +254,28 @@ function runSearch(query, category) {
   });
 }
 
-requireEnv('SLACK_BOT_TOKEN');
-requireEnv('SLACK_APP_TOKEN');
+function isAllowedChannel(channelId) {
+  return ALLOWED_CHANNEL_IDS.length === 0 || ALLOWED_CHANNEL_IDS.includes(channelId);
+}
+
+requireValue('SLACK_BOT_TOKEN_3 or SLACK_BOT_TOKEN', SLACK_BOT_TOKEN);
+requireValue('SLACK_APP_TOKEN_3 or SLACK_APP_TOKEN', SLACK_APP_TOKEN);
 
 const app = new App({
-  token: process.env.SLACK_BOT_TOKEN,
+  token: SLACK_BOT_TOKEN,
   socketMode: true,
-  appToken: process.env.SLACK_APP_TOKEN
+  appToken: SLACK_APP_TOKEN
 });
 
 app.command(COMMAND, async ({ ack, body, client }) => {
+  if (!isAllowedChannel(body.channel_id)) {
+    await ack({
+      response_type: 'ephemeral',
+      text: 'このチャンネルではSaiteki People Finderを利用できません。'
+    });
+    return;
+  }
+
   await ack({
     response_type: 'ephemeral',
     blocks: buttonBlocks({ initialQuery: body.text || '' })
