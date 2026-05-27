@@ -1,0 +1,43 @@
+name: Build Message Search Index
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-message-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Message Search Index
+        run: npm run build:message-search-index
+
+      - name: Embed Message Search Index
+        run: npm run embed:message-search-index
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/message-search-index.json data/message-search-index.embedded.json
+          if git diff --staged --quiet; then
+            echo "No message search index changes to commit"
+          else
+            git commit -m "Auto: Update message search index"
+            git push
+          fi
