@@ -1,0 +1,559 @@
+const fs = require('fs');
+const path = require('path');
+
+const REPO_ROOT = path.join(__dirname, '..');
+const DEFAULT_EXPORT_DIR = path.resolve(REPO_ROOT, '..', 'Saiteki Slack export Oct 21 2025 - May 27 2026');
+const DEFAULT_OUTPUT_DIR = path.join(REPO_ROOT, 'docs', 'slack-export');
+const DEFAULT_MESSAGES_FILE = path.join(REPO_ROOT, 'data', 'slack-messages.jsonl');
+
+function parseArgs(argv) {
+  const args = {};
+  for (let index = 0; index < argv.length; index++) {
+    const item = argv[index];
+    if (!item.startsWith('--')) continue;
+    const key = item.slice(2).replace(/-([a-z])/g, (_, char) => char.toUpperCase());
+    args[key] = argv[index + 1] && !argv[index + 1].startsWith('--') ? argv[++index] : true;
+  }
+  return args;
+}
+
+function readJson(file) {
+  return JSON.parse(fs.readFileSync(file, 'utf8'));
+}
+
+function writeJsonl(file, rows) {
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, rows.map((row) => JSON.stringify(row)).join('\n') + (rows.length ? '\n' : ''));
+}
+
+function userDisplayName(user) {
+  if (!user) return '';
+  return user.profile?.display_name
+    || user.profile?.real_name
+    || user.real_name
+    || user.name
+    || user.id
+    || '';
+}
+
+function normalizeChannelSlug(name) {
+  return String(name || '')
+    .normalize('NFKC')
+    .replace(/[\\/:*?"<>|#]+/g, '-')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '')
+    .toLowerCase();
+}
+
+function buildLookups(exportDir) {
+  const channels = readJson(path.join(exportDir, 'channels.json'));
+  const users = readJson(path.join(exportDir, 'users.json'));
+  const channelByName = new Map(channels.map((channel) => [normalizeLookupKey(channel.name), channel]));
+  const channelById = new Map(channels.map((channel) => [channel.id, channel]));
+  const userById = new Map(users.map((user) => [user.id, user]));
+  return { channels, users, channelByName, channelById, userById };
+}
+
+function normalizeLookupKey(value) {
+  return String(value || '').normalize('NFKC');
+}
+
+function readableText(text, userById, channelById) {
+  return String(text || '')
+    .replace(/<@([A-Z0-9]+)>/g, (_, userId) => {
+      const name = userDisplayName(userById.get(userId)) || userId;
+      return `@${name}`;
+    })
+    .replace(/<#([A-Z0-9]+)(?:\\|([^>]+))?>/g, (_, channelId, label) => {
+      const channel = channelById.get(channelId);
+      return `#${label || channel?.name || channelId}`;
+    })
+    .replace(/<([^|>]+)\\|([^>]+)>/g, '$2 ($1)')
+    .replace(/<([^>]+)>/g, '$1')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&')
+    .trim();
+}
+
+function messageTimestamp(ts) {
+  const millis = Number.parseFloat(ts || '0') * 1000;
+  return Number.isFinite(millis) ? new Date(millis) : null;
+}
+
+function messageSortValue(message) {
+  return Number.parseFloat(message.messageTs || '0') || 0;
+}
+
+function collectMessages(exportDir, lookups) {
+  const channelDirs = fs.readdirSync(exportDir, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort((a, b) => a.localeCompare(b, 'ja'));
+
+  const channels = [];
+  const jsonlRows = [];
+
+  for (const channelDir of channelDirs) {
+    const channel = lookups.channelByName.get(normalizeLookupKey(channelDir)) || {};
+    const channelId = channel.id || channelDir;
+    const channelName = channel.name || channelDir;
+    const files = fs.readdirSync(path.join(exportDir, channelDir))
+      .filter((file) => file.endsWith('.json'))
+      .sort();
+    const messages = [];
+
+    for (const file of files) {
+      const sourceFile = `${channelDir}/${file}`;
+      const date = file.replace(/\.json$/, '');
+      const rawMessages = readJson(path.join(exportDir, channelDir, file));
+      for (const raw of rawMessages) {
+        const user = lookups.userById.get(raw.user);
+        const createdAt = messageTimestamp(raw.ts);
+        const text = readableText(raw.text || raw.comment || '', lookups.userById, lookups.channelById);
+        const userName = userDisplayName(user) || raw.user || raw.username || raw.bot_profile?.name || 'Unknown';
+        const row = {
+          id: `primary:${channelId}:${raw.ts}`,
+          workspace: 'primary',
+          channelId,
+          channelName,
+          user: raw.user || raw.bot_id || '',
+          userName,
+          userRealName: user?.real_name || user?.profile?.real_name || '',
+          text,
+          rawText: raw.text || '',
+          messageTs: String(raw.ts || ''),
+          threadTs: raw.thread_ts ? String(raw.thread_ts) : null,
+          parentUserId: raw.parent_user_id || null,
+          subtype: raw.subtype || null,
+          date,
+          timestamp: createdAt ? createdAt.toISOString() : '',
+          source: 'slack_export',
+          sourceFile
+        };
+        messages.push(row);
+        if (text) jsonlRows.push(row);
+      }
+    }
+
+    messages.sort((a, b) => messageSortValue(a) - messageSortValue(b));
+    channels.push({
+      id: channelId,
+      name: channelName,
+      slug: normalizeChannelSlug(channelName || channelDir),
+      isArchived: Boolean(channel.is_archived),
+      messageCount: messages.length,
+      firstDate: messages[0]?.date || '',
+      lastDate: messages[messages.length - 1]?.date || '',
+      messages
+    });
+  }
+
+  channels.sort((a, b) => b.messageCount - a.messageCount || a.name.localeCompare(b.name, 'ja'));
+  jsonlRows.sort((a, b) => messageSortValue(a) - messageSortValue(b));
+  return { channels, jsonlRows };
+}
+
+function writeViewer(outputDir, payload) {
+  fs.mkdirSync(outputDir, { recursive: true });
+  fs.writeFileSync(path.join(outputDir, 'index.html'), viewerHtml());
+  fs.writeFileSync(path.join(outputDir, 'slack-export-data.js'), `window.SLACK_EXPORT_DATA = ${JSON.stringify(payload, null, 2)};\n`);
+}
+
+function viewerHtml() {
+  return `<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saiteki Slack Export</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --panel: #ffffff;
+    --line: #d9dee7;
+    --text: #172033;
+    --muted: #667085;
+    --accent: #0f766e;
+    --accent-soft: #dff3ef;
+    --system: #f3f4f6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", Meiryo, sans-serif;
+    letter-spacing: 0;
+  }
+  .shell {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 300px minmax(0, 1fr);
+  }
+  aside {
+    background: var(--panel);
+    border-right: 1px solid var(--line);
+    padding: 18px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: auto;
+  }
+  main {
+    padding: 22px 26px 48px;
+    min-width: 0;
+  }
+  h1 {
+    font-size: 18px;
+    margin: 0 0 6px;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin: 16px 0;
+  }
+  .stat {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px;
+    background: #fbfcfd;
+  }
+  .stat b {
+    display: block;
+    font-size: 18px;
+  }
+  label {
+    display: block;
+    font-size: 12px;
+    color: var(--muted);
+    margin: 12px 0 6px;
+  }
+  input, select {
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--text);
+    font-size: 14px;
+    padding: 9px 10px;
+  }
+  .channels {
+    margin-top: 16px;
+    display: grid;
+    gap: 6px;
+  }
+  .channel {
+    border: 1px solid var(--line);
+    background: #fff;
+    border-radius: 8px;
+    padding: 9px 10px;
+    text-align: left;
+    cursor: pointer;
+  }
+  .channel.active {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
+  .channel-name {
+    font-weight: 700;
+    font-size: 13px;
+    overflow-wrap: anywhere;
+  }
+  .channel-meta {
+    color: var(--muted);
+    font-size: 11px;
+    margin-top: 3px;
+  }
+  .toolbar {
+    display: grid;
+    grid-template-columns: minmax(220px, 1fr) 170px 170px 150px;
+    gap: 10px;
+    align-items: end;
+    margin-bottom: 14px;
+  }
+  .title-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: flex-start;
+    margin-bottom: 14px;
+  }
+  .title-row h2 {
+    margin: 0 0 6px;
+    font-size: 22px;
+  }
+  .messages {
+    display: grid;
+    gap: 8px;
+  }
+  .message {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  .message.system {
+    background: var(--system);
+  }
+  .message-head {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+  .author {
+    font-weight: 700;
+  }
+  .time, .tag {
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .tag {
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 1px 7px;
+    background: #fff;
+  }
+  .text {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    line-height: 1.65;
+    font-size: 14px;
+  }
+  .empty {
+    border: 1px dashed var(--line);
+    border-radius: 8px;
+    padding: 24px;
+    color: var(--muted);
+    text-align: center;
+    background: #fff;
+  }
+  @media (max-width: 900px) {
+    .shell { grid-template-columns: 1fr; }
+    aside { position: static; height: auto; }
+    .toolbar { grid-template-columns: 1fr; }
+    main { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside>
+    <h1>Slack Export</h1>
+    <div class="meta" id="exportMeta"></div>
+    <div class="stats">
+      <div class="stat"><b id="channelCount">0</b><span class="meta">channels</span></div>
+      <div class="stat"><b id="messageCount">0</b><span class="meta">messages</span></div>
+    </div>
+    <label for="channelSearch">チャンネル検索</label>
+    <input id="channelSearch" type="search" autocomplete="off">
+    <div class="channels" id="channels"></div>
+  </aside>
+  <main>
+    <div class="title-row">
+      <div>
+        <h2 id="channelTitle"></h2>
+        <div class="meta" id="channelMeta"></div>
+      </div>
+    </div>
+    <div class="toolbar">
+      <div>
+        <label for="messageSearch">本文・投稿者検索</label>
+        <input id="messageSearch" type="search" autocomplete="off">
+      </div>
+      <div>
+        <label for="dateFrom">開始日</label>
+        <input id="dateFrom" type="date">
+      </div>
+      <div>
+        <label for="dateTo">終了日</label>
+        <input id="dateTo" type="date">
+      </div>
+      <div>
+        <label for="systemMode">表示</label>
+        <select id="systemMode">
+          <option value="all">すべて</option>
+          <option value="messages">通常投稿のみ</option>
+          <option value="system">システム投稿のみ</option>
+        </select>
+      </div>
+    </div>
+    <div class="messages" id="messages"></div>
+  </main>
+</div>
+<script src="./slack-export-data.js"></script>
+<script>
+const data = window.SLACK_EXPORT_DATA;
+const state = {
+  channelId: data.channels[0]?.id || '',
+  channelSearch: '',
+  messageSearch: '',
+  dateFrom: '',
+  dateTo: '',
+  systemMode: 'all'
+};
+
+const els = {
+  exportMeta: document.getElementById('exportMeta'),
+  channelCount: document.getElementById('channelCount'),
+  messageCount: document.getElementById('messageCount'),
+  channelSearch: document.getElementById('channelSearch'),
+  channels: document.getElementById('channels'),
+  channelTitle: document.getElementById('channelTitle'),
+  channelMeta: document.getElementById('channelMeta'),
+  messageSearch: document.getElementById('messageSearch'),
+  dateFrom: document.getElementById('dateFrom'),
+  dateTo: document.getElementById('dateTo'),
+  systemMode: document.getElementById('systemMode'),
+  messages: document.getElementById('messages')
+};
+
+function escapeHtml(value) {
+  return String(value || '').replace(/[&<>"']/g, char => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[char]));
+}
+
+function formatDateTime(value) {
+  if (!value) return '';
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  return new Intl.DateTimeFormat('ja-JP', {
+    year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit'
+  }).format(date);
+}
+
+function currentChannel() {
+  return data.channels.find(channel => channel.id === state.channelId) || data.channels[0];
+}
+
+function filteredChannels() {
+  const query = state.channelSearch.trim().toLowerCase();
+  if (!query) return data.channels;
+  return data.channels.filter(channel => channel.name.toLowerCase().includes(query));
+}
+
+function filteredMessages(channel) {
+  const query = state.messageSearch.trim().toLowerCase();
+  return (channel?.messages || []).filter(message => {
+    if (state.dateFrom && message.date < state.dateFrom) return false;
+    if (state.dateTo && message.date > state.dateTo) return false;
+    const isSystem = Boolean(message.subtype);
+    if (state.systemMode === 'messages' && isSystem) return false;
+    if (state.systemMode === 'system' && !isSystem) return false;
+    if (!query) return true;
+    return [message.text, message.rawText, message.userName, message.userRealName, message.subtype]
+      .filter(Boolean)
+      .some(value => String(value).toLowerCase().includes(query));
+  });
+}
+
+function renderChannels() {
+  els.channels.innerHTML = filteredChannels().map(channel =>
+    '<button class="channel ' + (channel.id === state.channelId ? 'active' : '') + '" data-channel-id="' + escapeHtml(channel.id) + '">' +
+      '<div class="channel-name">#' + escapeHtml(channel.name) + '</div>' +
+      '<div class="channel-meta">' + channel.messageCount.toLocaleString() + ' messages / ' + escapeHtml(channel.firstDate || '-') + ' - ' + escapeHtml(channel.lastDate || '-') + '</div>' +
+    '</button>'
+  ).join('');
+}
+
+function renderMessages() {
+  const channel = currentChannel();
+  const messages = filteredMessages(channel);
+  els.channelTitle.textContent = channel ? '#' + channel.name : '';
+  els.channelMeta.textContent = channel
+    ? messages.length.toLocaleString() + ' / ' + channel.messageCount.toLocaleString() + ' messages, ' + (channel.firstDate || '-') + ' - ' + (channel.lastDate || '-')
+    : '';
+  els.messages.innerHTML = messages.length ? messages.map(message =>
+    '<article class="message ' + (message.subtype ? 'system' : '') + '">' +
+      '<div class="message-head">' +
+        '<span class="author">' + escapeHtml(message.userName) + '</span>' +
+        '<span class="time">' + escapeHtml(formatDateTime(message.timestamp)) + '</span>' +
+        (message.subtype ? '<span class="tag">' + escapeHtml(message.subtype) + '</span>' : '') +
+        (message.threadTs && message.threadTs !== message.messageTs ? '<span class="tag">thread reply</span>' : '') +
+      '</div>' +
+      '<div class="text">' + escapeHtml(message.text || message.rawText || '(no text)') + '</div>' +
+    '</article>'
+  ).join('') : '<div class="empty">該当するメッセージはありません。</div>';
+}
+
+function render() {
+  els.exportMeta.textContent = data.exportName + ' / ' + data.generatedAt;
+  els.channelCount.textContent = data.channels.length.toLocaleString();
+  els.messageCount.textContent = data.totalMessages.toLocaleString();
+  renderChannels();
+  renderMessages();
+}
+
+els.channels.addEventListener('click', event => {
+  const button = event.target.closest('[data-channel-id]');
+  if (!button) return;
+  state.channelId = button.dataset.channelId;
+  render();
+});
+els.channelSearch.addEventListener('input', event => {
+  state.channelSearch = event.target.value;
+  renderChannels();
+});
+els.messageSearch.addEventListener('input', event => {
+  state.messageSearch = event.target.value;
+  renderMessages();
+});
+els.dateFrom.addEventListener('input', event => {
+  state.dateFrom = event.target.value;
+  renderMessages();
+});
+els.dateTo.addEventListener('input', event => {
+  state.dateTo = event.target.value;
+  renderMessages();
+});
+els.systemMode.addEventListener('change', event => {
+  state.systemMode = event.target.value;
+  renderMessages();
+});
+
+render();
+</script>
+</body>
+</html>`;
+}
+
+function main() {
+  const args = parseArgs(process.argv.slice(2));
+  const exportDir = path.resolve(args.exportDir || args.export || DEFAULT_EXPORT_DIR);
+  const outputDir = path.resolve(args.outputDir || DEFAULT_OUTPUT_DIR);
+  const messagesFile = path.resolve(args.messagesFile || DEFAULT_MESSAGES_FILE);
+
+  if (!fs.existsSync(path.join(exportDir, 'channels.json')) || !fs.existsSync(path.join(exportDir, 'users.json'))) {
+    throw new Error(`Slack export directory is missing channels.json or users.json: ${exportDir}`);
+  }
+
+  const lookups = buildLookups(exportDir);
+  const { channels, jsonlRows } = collectMessages(exportDir, lookups);
+  const payload = {
+    exportName: path.basename(exportDir),
+    generatedAt: new Date().toISOString(),
+    channelCount: channels.length,
+    totalMessages: channels.reduce((sum, channel) => sum + channel.messageCount, 0),
+    channels
+  };
+
+  writeViewer(outputDir, payload);
+  writeJsonl(messagesFile, jsonlRows);
+  console.log(`Generated Slack export viewer at ${path.join(outputDir, 'index.html')}`);
+  console.log(`Generated ${jsonlRows.length} normalized messages at ${messagesFile}`);
+}
+
+if (require.main === module) {
+  main();
+}
