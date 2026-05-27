@@ -42,11 +42,15 @@ assert(
   'message quotes should be attached to matching facets'
 );
 
-const pokemon = searchFacets(graph, 'ポケモンが好きな人', { category: '興味・人柄', threshold: 0.16 })
-  .map((result) => result.employeeName);
+const pokemonResults = searchFacets(graph, 'ポケモンが好きな人', { category: '興味・人柄', threshold: 0.16 });
+const pokemon = pokemonResults.map((result) => result.employeeName);
 assert(pokemon.includes('小島遼祐'), '小島遼祐 should match pokemon');
 assert(pokemon.includes('藤井芙美子'), '藤井芙美子 should match pokemon');
 assert(pokemon.includes('榎本詩織'), '榎本詩織 should match pokemon');
+assert(
+  pokemonResults.some((result) => result.reasons.some((reason) => reason.label.includes('ポケモン') && reason.sourceField)),
+  'pokemon results should retain the matched source field for evidence display'
+);
 
 const aws = searchFacets(graph, 'AWS運用に詳しい人', { category: '仕事・相談', threshold: 0.16 })
   .map((result) => result.employeeName);
