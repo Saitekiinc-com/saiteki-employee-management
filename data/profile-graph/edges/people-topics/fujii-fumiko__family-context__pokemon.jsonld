@@ -1,0 +1,10 @@
+{
+  "@id": "edge:fujii-fumiko:FAMILY_CONTEXT:pokemon",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:藤井芙美子",
+  "predicate": "FAMILY_CONTEXT",
+  "target": "topic:ポケモン",
+  "facts": [
+    "fact:fujii-fumiko:pokemon:001"
+  ]
+}

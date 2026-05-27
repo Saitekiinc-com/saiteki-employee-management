@@ -1,0 +1,24 @@
+{
+  "@id": "fact:kojima-ryosuke:pokemon:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:kojima-ryosuke:COLLECTS:pokemon",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "relationLabel": "ポケモンのゲーム・ポケカ収集",
+  "detailBullets": [
+    "趣味としてポケモンのゲームやカードを挙げている",
+    "初めて遊んだポケモンはダイヤモンド",
+    "中学生の時はシングルバトル、大学生の時はダブルバトルをしていた",
+    "カードは主にコレクションとして楽しんでいる",
+    "2025年9月から11月まではジムバトルにも出ていた",
+    "小学生からポケカ収集を続けている"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1768614261.622119",
+    "primary:C09Q46YA4ER:1772237402.765719"
+  ],
+  "confidence": 0.98,
+  "extractionMethod": "curated_seed",
+  "firstSeenAt": "2026-01-17T01:44:21.622Z",
+  "updatedAt": "2026-05-27T00:00:00.000+09:00"
+}

@@ -1,0 +1,24 @@
+{
+  "@id": "fact:enomoto-shiori:pokemon:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:enomoto-shiori:LIKES:pokemon",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "relationLabel": "ポケモンのゲーム・ポケカ・グッズ",
+  "detailBullets": [
+    "自己紹介でアニメやゲームが好きだと話している",
+    "ポケカコレクションに共感している",
+    "旧裏、Eカード、Vシリーズなどポケカの種類に触れている",
+    "小島さんにデッキ編成のコツを聞きたいと話している",
+    "最近は Pokémon LEGENDS Z-A を遊んでいる",
+    "ぽこあポケモンをすすめており、メタモンが街づくりするゲームだと説明している"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1770701908.083739",
+    "primary:C09Q46YA4ER:1772417371.921669"
+  ],
+  "confidence": 0.95,
+  "extractionMethod": "curated_seed",
+  "firstSeenAt": "2026-02-10T05:38:28.083Z",
+  "updatedAt": "2026-05-27T00:00:00.000+09:00"
+}

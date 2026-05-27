@@ -1,0 +1,10 @@
+{
+  "@id": "edge:uehara-kiomi:LIKES:gundam",
+  "@type": "saiteki:ProfileEdge",
+  "source": "person:上原基臣",
+  "predicate": "LIKES",
+  "target": "topic:ガンダム",
+  "facts": [
+    "fact:uehara-kiomi:gundam:001"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "@id": "fact:uehara-kiomi:gundam:001",
+  "@type": "saiteki:ProfileFact",
+  "edge": "edge:uehara-kiomi:LIKES:gundam",
+  "uiCategory": "興味・人柄",
+  "category": "interest",
+  "relationLabel": "ガンダム・ロボット作品",
+  "detailBullets": [
+    "アニメはファンタジーからロボット作品まで幅広く観ている",
+    "ゲームではガンダムバトルオペレーション2をプレイしている",
+    "ロボット作品の導入として王道のガンダムをすすめている",
+    "ガンダムには色々なシリーズがあり、面白いと思える作品があるはずだと話している"
+  ],
+  "evidenceMessageIds": [
+    "primary:C09Q46YA4ER:1771550812.233829",
+    "primary:C09Q46YA4ER:1771561365.892569"
+  ],
+  "confidence": 0.96,
+  "extractionMethod": "curated_seed",
+  "firstSeenAt": "2026-02-20T01:26:52.233Z",
+  "updatedAt": "2026-05-27T00:00:00.000+09:00"
+}
