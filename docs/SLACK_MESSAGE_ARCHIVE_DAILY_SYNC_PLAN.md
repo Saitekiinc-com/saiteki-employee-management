@@ -33,6 +33,10 @@ Slackフリープランでは、Slack APIや画面検索で長期の過去メッ
 - `scripts/build-search-facets.js`
   - `data/employees.json` と `data/slack-messages.jsonl` から検索facetを生成
 
+社員プロフィールの検索用JSON-LDとして、既存の `data/search-facets.jsonld` を使う。
+これは `employees.json` のプロフィール本文をそのままJSON-LD化した完全なプロフィール原本ではなく、Slack Appの類似検索に使う「社員プロフィールfacet」である。
+今後も `employees.json` をプロフィール原本、`data/search-facets.jsonld` を検索・表示用の派生JSON-LDとして扱う。
+
 ただし、今のままだと課題がある。
 
 - Slack API同期由来のメッセージは、Slack export由来より保存プロパティが少ない
@@ -219,6 +223,7 @@ GO条件:
 GO条件:
 
 - `data/search-facets.jsonld` にメッセージ引用が紐づく
+- `data/search-facets.jsonld` が、最新の社員プロフィール情報とSlack原文アーカイブから再生成される
 - 検索結果で、選出理由だけでなく具体的な話題の文脈が見える
 - 引用がない場合でも、データ欠落なのかプロフィール根拠なのかを判別できる
 
