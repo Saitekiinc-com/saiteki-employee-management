@@ -16,8 +16,10 @@
     "PEOPLE_FINDER_VECTOR_TOP_UNITS": "80",
     "PEOPLE_FINDER_RERANK_CANDIDATES": "12",
     "PEOPLE_FINDER_DIRECT_ONLY": "false",
-    "GEMINI_EMBEDDING_MODEL": "text-embedding-004",
+    "GEMINI_EMBEDDING_MODEL": "gemini-embedding-001",
+    "GEMINI_EMBEDDING_DIMENSIONS": "768",
     "GEMINI_RERANK_MODEL": "gemini-2.0-flash",
+    "PROFILE_SEARCH_INDEX_URL": "https://raw.githubusercontent.com/Saitekiinc-com/saiteki-employee-management/main/data/profile-search-index.embedded.json",
     "SEARCH_FACETS_URL": "https://raw.githubusercontent.com/Saitekiinc-com/saiteki-employee-management/main/data/search-facets.jsonld"
   },
   "secrets": {
