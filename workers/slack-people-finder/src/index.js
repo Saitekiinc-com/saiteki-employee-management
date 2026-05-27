@@ -610,15 +610,27 @@ function firstVectorDimensions(index) {
 }
 
 function lexicalLabelBoost(unit, queryText) {
-  const labelText = normalizeText([
+  const textParts = [
     unit.relationLabel,
     unit.topicLabel,
     ...(unit.topicAliases || [])
-  ].filter(Boolean).join(' '));
+  ];
+
+  if (unit.semanticType === 'slack_message') {
+    textParts.push(
+      unit.searchText,
+      ...(unit.detailBullets || []),
+      ...(unit.quotes || []).map((quote) => quote.text)
+    );
+  }
+
+  const labelText = normalizeText(textParts.filter(Boolean).join(' '));
   if (!labelText) return 0;
   const terms = tokenize(queryText).filter((term) => term.length >= 2);
   const matched = terms.filter((term) => labelText.includes(term)).length;
-  return Math.min(matched * 0.06, 0.18);
+  const weight = unit.semanticType === 'slack_message' ? 0.09 : 0.06;
+  const cap = unit.semanticType === 'slack_message' ? 0.24 : 0.18;
+  return Math.min(matched * weight, cap);
 }
 
 function aggregateVectorUnits(scoredUnits, threshold) {
