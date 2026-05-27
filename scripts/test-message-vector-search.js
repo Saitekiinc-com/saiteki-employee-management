@@ -6,7 +6,7 @@ const path = require('path');
 const { buildMessageSearchIndex } = require('./build-message-search-index');
 const { embedProfileSearchIndex } = require('./embed-profile-search-index');
 const { searchProfileVectors } = require('./people-finder-vector-search');
-const { createLocalFixtureProvider } = require('./profile-embedding-utils');
+const { createLocalFixtureProvider, fitVectorDimensions } = require('./profile-embedding-utils');
 const { createReranker, rerankPeopleResults } = require('./rerank-people-finder-results');
 
 async function main() {
@@ -24,6 +24,7 @@ async function main() {
   assert(units.every((unit) => unit.quotes?.[0]?.text), 'message units should carry display quotes');
   assert(!units.some((unit) => unit.searchText.includes('チャンネルに参加しました')), 'system join messages should be excluded');
   assert(!units.some((unit) => unit.searchText.includes('チャットコピペ')), 'pasted chat transcripts should not be attributed to the poster');
+  assert.deepStrictEqual(fitVectorDimensions([1, 2, 3, 4], 2), [1, 2], 'oversized embeddings should be trimmed to configured dimensions');
 
   const provider = createLocalFixtureProvider({ dimensions: 1024 });
   const embedded = await embedProfileSearchIndex(index, provider, {

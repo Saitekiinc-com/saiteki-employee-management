@@ -683,7 +683,12 @@ async function embedQuery(env, text, indexModel, indexDimensions = 0) {
   if (!Array.isArray(values)) {
     throw new Error('Gemini embedding response did not include embedding.values.');
   }
-  return values;
+  return fitVectorDimensions(values, dimensions);
+}
+
+function fitVectorDimensions(vector, dimensions) {
+  if (!dimensions || !Array.isArray(vector) || vector.length <= dimensions) return vector;
+  return vector.slice(0, dimensions);
 }
 
 async function rerankVectorResults(env, query, results, options = {}) {
