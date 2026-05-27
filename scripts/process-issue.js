@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
+const { generateTeamDoc } = require('./lib/team-doc');
 
 const DATA_FILE = path.join(__dirname, '../data/employees.json');
-const TEAM_DOC_FILE = path.join(__dirname, '../docs/TEAM.md');
 
 // メイン処理
 async function main() {
@@ -34,7 +34,7 @@ async function main() {
           fs.writeFileSync(DATA_FILE, JSON.stringify(currentEmployees, null, 2));
         }
 
-        generateTeamDoc(currentEmployees);
+        generateTeamDoc(currentEmployees, { mode: 'issue' });
         console.log('TEAM.md regenerated and data enriched.');
         return;
       } else {
@@ -80,7 +80,7 @@ async function main() {
   fs.writeFileSync(DATA_FILE, JSON.stringify(employees, null, 2));
 
   // ドキュメント生成
-  generateTeamDoc(employees);
+  generateTeamDoc(employees, { mode: 'issue' });
 }
 
 // Issue本文のパース
@@ -270,109 +270,6 @@ function deleteEmployee(employees, data) {
     employees[index].archivedReason = data.reason;
     employees[index].archivedAt = new Date().toISOString();
   }
-}
-
-function generateTeamDoc(employees) {
-  const activeEmployees = employees.filter(e => e.isActive !== false);
-  const archivedEmployees = employees.filter(e => e.isActive === false);
-  const jobs = [...new Set(activeEmployees.map(e => e.job))];
-
-  let md = '# チーム構成図\n\n自動生成された組織図です。Issueによる更新が反映されます。\n\n';
-  md += '```mermaid\n%%{init: {\'theme\': \'base\', \'themeVariables\': {\'primaryColor\': \'#F2EBE3\', \'primaryTextColor\': \'#5D574F\', \'primaryBorderColor\': \'#D9CFC1\', \'lineColor\': \'#BEB3A5\', \'secondaryColor\': \'#FAF9F6\', \'tertiaryColor\': \'#FDFCFB\', \'nodeBorder\': \'1px\'}}}%%\nmindmap\n  root((株式会社Saiteki))\n';
-
-  const jobMap = { 'Engineer': 'Engineer', 'Designer': 'Designer', 'Sales': 'Sales', 'PM': 'PM', 'Corporate': 'Corporate', 'EM': 'Engineer', 'QA': 'QA', 'HR': 'HR', '経営': '経営', 'Executive': '経営', 'Other': 'Other' };
-
-  jobs.forEach(job => {
-    md += `    ${jobMap[job] || job || 'Other'}\n`;
-    activeEmployees.filter(e => e.job === job).forEach(m => {
-      md += `      ${m.name.replace(/[()"']/g, '')}\n`;
-    });
-  });
-  md += '```\n\n';
-  // 2. Summary Table
-  md += '## 社員一覧サマリー\n\n| 名前 | 職種 | 性格傾向 (概略) | 現在の状態 |\n| --- | --- | --- | --- |\n';
-  activeEmployees.forEach(e => {
-    const personality = e.personality_traits?.summary || (e.personality || '-');
-    const current = e.current_state?.summary || '-';
-    md += `| [${e.name}](#${encodeURIComponent(e.name)}) | ${e.job} | ${personality} | ${current} |\n`;
-  });
-  md += '\n---\n\n## 詳細プロフィール\n\n各社員の詳細な分析結果です。クリックして展開できます。\n\n';
-
-  // 3. Detailed Profiles
-  activeEmployees.forEach(e => {
-    md += `<div id="${e.name}"></div>\n\n`;
-    md += `### ${e.name} (${e.job})\n\n`;
-    md += `> **総合サマリー**: ${e.overall_summary || '-'}\n\n`;
-
-    md += '<details>\n<summary><b>🛠 性格傾向 (Personality Traits)</b></summary>\n\n';
-    if (e.personality_traits) {
-      md += `**要約**: ${e.personality_traits.summary}\n\n`;
-      md += '| 項目 | スコア | 根拠・エピソード |\n| --- | --- | --- |\n';
-      const traits = {
-        openness: '開放性 (Openness)',
-        conscientiousness: '誠実性 (Conscientiousness)',
-        extraversion: '外向性 (Extraversion)',
-        agreeableness: '協調性 (Agreeableness)',
-        neuroticism: '神経症的傾向 (Neuroticism)'
-      };
-      Object.keys(traits).forEach(t => {
-        const data = e.personality_traits[t];
-        if (data) {
-          const safeEvidence = (data.evidence || '').replace(/\n/g, '<br>');
-          md += `| ${traits[t]} | ${data.score}/10 | ${safeEvidence} |\n`;
-        }
-      });
-    } else {
-      md += `※Slack連携後に詳細な性格分析結果が表示されます。 (暫定性格: ${e.personality || '-'})\n`;
-    }
-    md += '\n</details>\n\n';
-
-    md += '<details>\n<summary><b>💪 仕事スタイルと強み (Work Styles & Strengths)</b></summary>\n\n';
-    if (e.work_styles_and_strengths) {
-      md += `**要約**: ${e.work_styles_and_strengths.summary}\n\n`;
-      md += `**問題解決スタイル**: ${e.work_styles_and_strengths.problem_solving_style || '-'}\n\n`;
-      md += `**主要な強み**: ${e.work_styles_and_strengths.dominant_strengths?.join(', ') || '-'}\n\n`;
-      md += '**証拠エピソード**:\n';
-      e.work_styles_and_strengths.evidence_episodes?.forEach(ep => md += `- ${ep}\n`);
-    } else {
-      md += `※Slack連携後に詳細な強み分析が表示されます。 (既存スキル: ${e.skills?.join(', ') || '-'})\n`;
-    }
-    md += '\n</details>\n\n';
-
-    md += '<details>\n<summary><b>💎 価値観とモチベーター (Values & Motivators)</b></summary>\n\n';
-    if (e.values_and_motivators) {
-      md += `**要約**: ${e.values_and_motivators.summary}\n\n`;
-      md += `**コアバリュー**: ${e.values_and_motivators.core_values?.join(', ') || '-'}\n\n`;
-      md += `**モチベーショントリガー**: ${e.values_and_motivators.motivation_triggers?.join(', ') || '-'}\n\n`;
-      md += '**証拠エピソード**:\n';
-      e.values_and_motivators.evidence_episodes?.forEach(ep => md += `- ${ep}\n`);
-    } else {
-      md += '※Slack連携後に詳細分析が表示されます。\n';
-    }
-    md += '\n</details>\n\n';
-
-    md += '<details>\n<summary><b>📈 現在の状態 (Current State)</b></summary>\n\n';
-    if (e.current_state) {
-      md += `**要約**: ${e.current_state.summary}\n\n`;
-      md += `- **感情レベル**: ${e.current_state.sentiment_level || '-'}\n`;
-      md += `- **業務負荷状況**: ${e.current_state.workload_status || '-'}\n`;
-      md += `- **最近の関心トピック**: ${e.current_state.recent_topics_of_interest?.join(', ') || '-'}\n`;
-    } else {
-      md += '※Slack連携後に表示されます。\n';
-    }
-    md += '\n</details>\n\n';
-
-    md += '---\n\n';
-  });
-
-  if (archivedEmployees.length > 0) {
-    md += '\n## Alumni (OB/OG)\n\n| 名前 | 在籍時の職種 | 理由 |\n| --- | --- | --- |\n';
-    archivedEmployees.forEach(e => md += `| ${e.name} | ${e.job} | ${e.archivedReason || '-'} |\n`);
-  }
-
-  const docDir = path.dirname(TEAM_DOC_FILE);
-  if (!fs.existsSync(docDir)) fs.mkdirSync(docDir, { recursive: true });
-  fs.writeFileSync(TEAM_DOC_FILE, md);
 }
 
 main().catch(console.error);
