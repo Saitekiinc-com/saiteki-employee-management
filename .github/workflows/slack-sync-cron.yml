@@ -36,6 +36,8 @@ jobs:
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
           SLACK_BOT_TOKEN_2: ${{ secrets.SLACK_BOT_TOKEN_2 }}
           SLACK_CHANNEL_ID_2: ${{ secrets.SLACK_CHANNEL_ID_2 }}
+          SLACK_BOT_TOKEN_3: ${{ secrets.SLACK_BOT_TOKEN_3 }}
+          SLACK_CHANNEL_ID_3: ${{ secrets.SLACK_CHANNEL_ID_3 }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
           GCP_LOCATION: ${{ secrets.GCP_LOCATION || 'us-central1' }}
