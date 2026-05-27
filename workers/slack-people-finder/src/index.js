@@ -10,7 +10,8 @@ const DEFAULT_THRESHOLD = 0.18;
 const DEFAULT_VECTOR_THRESHOLD = 0.22;
 const DEFAULT_TOP_UNITS = 80;
 const DEFAULT_RERANK_CANDIDATES = 12;
-const DEFAULT_EMBEDDING_MODEL = 'text-embedding-004';
+const DEFAULT_EMBEDDING_MODEL = 'gemini-embedding-001';
+const DEFAULT_EMBEDDING_DIMENSIONS = 768;
 const DEFAULT_RERANK_MODEL = 'gemini-2.0-flash';
 
 const INTENT_RANK = {
@@ -514,7 +515,7 @@ async function searchProfileIndex(env, query, uiCategory) {
   ensureEmbeddedIndex(index);
 
   const queryText = stripQueryHelpers(query) || normalizeText(query);
-  const queryVector = await embedQuery(env, queryText, index.embedding?.model);
+  const queryVector = await embedQuery(env, queryText, index.embedding?.model, firstVectorDimensions(index));
   const threshold = parseNumber(env.PEOPLE_FINDER_VECTOR_THRESHOLD, DEFAULT_VECTOR_THRESHOLD);
   const topUnits = parseNumber(env.PEOPLE_FINDER_VECTOR_TOP_UNITS, DEFAULT_TOP_UNITS);
   const graph = Array.isArray(index['@graph']) ? index['@graph'] : [];
@@ -552,6 +553,14 @@ function unitVector(unit) {
   if (Array.isArray(unit.embedding?.vector)) return unit.embedding.vector;
   if (Array.isArray(unit.embedding?.values)) return unit.embedding.values;
   return [];
+}
+
+function firstVectorDimensions(index) {
+  for (const unit of index?.['@graph'] || []) {
+    const vector = unitVector(unit);
+    if (vector.length > 0) return vector.length;
+  }
+  return 0;
 }
 
 function lexicalLabelBoost(unit, queryText) {
@@ -614,11 +623,15 @@ function vectorReason(unit, score) {
   };
 }
 
-async function embedQuery(env, text, indexModel) {
+async function embedQuery(env, text, indexModel, indexDimensions = 0) {
   const model = env.GEMINI_EMBEDDING_MODEL || indexModel || DEFAULT_EMBEDDING_MODEL;
+  const dimensions = parseNumber(indexDimensions || env.GEMINI_EMBEDDING_DIMENSIONS, DEFAULT_EMBEDDING_DIMENSIONS);
   const data = await callGemini(env, model, 'embedContent', {
     content: { parts: [{ text }] },
-    embedContentConfig: { taskType: 'RETRIEVAL_QUERY' }
+    embedContentConfig: {
+      taskType: 'RETRIEVAL_QUERY',
+      outputDimensionality: dimensions
+    }
   });
   const values = data.embedding?.values;
   if (!Array.isArray(values)) {

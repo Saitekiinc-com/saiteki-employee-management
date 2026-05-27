@@ -1,7 +1,8 @@
 const crypto = require('crypto');
 
 const DEFAULT_LOCAL_DIMENSIONS = 1024;
-const DEFAULT_GEMINI_EMBEDDING_MODEL = 'text-embedding-004';
+const DEFAULT_GEMINI_EMBEDDING_MODEL = 'gemini-embedding-001';
+const DEFAULT_GEMINI_EMBEDDING_DIMENSIONS = 768;
 
 const LOCAL_SYNONYMS = {
   qa: ['品質保証', 'テスト', 'テスト設計', '総合テスト', '検証', '不具合'],
@@ -135,24 +136,43 @@ async function createEmbeddingProvider(options = {}) {
     throw new Error('GEMINI_API_KEY is required for gemini embedding provider. Use --provider local-fixture for tests.');
   }
 
-  const { GoogleGenerativeAI, TaskType } = require('@google/generative-ai');
   const modelName = options.model || process.env.GEMINI_EMBEDDING_MODEL || DEFAULT_GEMINI_EMBEDDING_MODEL;
-  const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: modelName });
+  const dimensions = Number(options.outputDimensionality || options.dimensions || process.env.GEMINI_EMBEDDING_DIMENSIONS || DEFAULT_GEMINI_EMBEDDING_DIMENSIONS);
 
   return {
     name: 'gemini',
     model: modelName,
-    dimensions: null,
+    dimensions,
     async embed(text, task = 'document') {
-      const taskType = task === 'query' ? TaskType.RETRIEVAL_QUERY : TaskType.RETRIEVAL_DOCUMENT;
-      const response = await model.embedContent({
-        content: { role: 'user', parts: [{ text }] },
-        taskType
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/${geminiModelResource(modelName)}:embedContent`, {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json; charset=utf-8',
+          'x-goog-api-key': apiKey
+        },
+        body: JSON.stringify({
+          content: { role: 'user', parts: [{ text }] },
+          embedContentConfig: {
+            taskType: task === 'query' ? 'RETRIEVAL_QUERY' : 'RETRIEVAL_DOCUMENT',
+            outputDimensionality: dimensions
+          }
+        })
       });
-      return response.embedding.values;
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(`Gemini embedContent failed: ${response.status} ${JSON.stringify(data).slice(0, 240)}`);
+      }
+      if (!Array.isArray(data.embedding?.values)) {
+        throw new Error('Gemini embedding response did not include embedding.values.');
+      }
+      return data.embedding.values;
     }
   };
+}
+
+function geminiModelResource(model) {
+  const value = String(model || '').trim();
+  return value.startsWith('models/') ? value : `models/${value}`;
 }
 
 module.exports = {
