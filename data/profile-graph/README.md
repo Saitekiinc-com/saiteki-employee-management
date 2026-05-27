@@ -22,3 +22,8 @@ Slack検索やRAGで読む `data/employee-profile-graph.jsonld` と
 `data/profile-search-index.embedded.json` は `npm run embed:profile-search-index`
 で生成するembeddingつきindexです。通常は `GEMINI_API_KEY` を使います。
 テスト時だけ `-- --provider local-fixture` を指定できます。
+
+ベクトル検索結果をAIで再評価する場合は `npm run search:profile-vector -- --rerank`
+を使います。通常はGeminiで `direct` / `adjacent` / `weak` / `reject`
+を判定し、テスト時だけ `--reranker local-fixture` を指定できます。
+`direct` だけを表示したい場合は `--direct-only` を追加します。

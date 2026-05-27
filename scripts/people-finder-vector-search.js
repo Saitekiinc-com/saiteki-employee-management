@@ -9,6 +9,7 @@ const {
   stripQueryHelpers,
   tokenize
 } = require('./profile-embedding-utils');
+const { createReranker, rerankPeopleResults } = require('./rerank-people-finder-results');
 
 const DEFAULT_INDEX_FILE = path.join(__dirname, '../data/profile-search-index.embedded.json');
 const DEFAULT_THRESHOLD = 0.22;
@@ -147,7 +148,16 @@ async function main() {
     threshold: args.threshold,
     topUnits: args['top-units']
   });
-  console.log(JSON.stringify({ query, results }, null, 2));
+  const finalResults = args.rerank
+    ? await rerankPeopleResults(query, results, await createReranker({
+      provider: args.reranker,
+      model: args['rerank-model']
+    }), {
+      candidateLimit: args['rerank-candidates'],
+      includeAdjacent: !args['direct-only'] && args['include-adjacent'] !== 'false'
+    })
+    : results;
+  console.log(JSON.stringify({ query, results: finalResults }, null, 2));
 }
 
 if (require.main === module) {
