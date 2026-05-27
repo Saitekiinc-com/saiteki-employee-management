@@ -113,7 +113,12 @@ async function embedWithRetry(provider, text, task, options = {}) {
 
 function isRetryableEmbeddingError(error) {
   const message = String(error?.message || error || '');
-  return message.includes('429') || message.includes('Too Many Requests') || message.includes('quota');
+  return message.includes('429')
+    || message.includes('503')
+    || message.includes('Too Many Requests')
+    || message.includes('UNAVAILABLE')
+    || message.includes('service is currently unavailable')
+    || message.includes('quota');
 }
 
 function sleep(ms) {
