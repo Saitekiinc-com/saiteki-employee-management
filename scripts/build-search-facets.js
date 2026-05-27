@@ -165,10 +165,8 @@ function snippetScore(snippet, label) {
 }
 
 function findEvidenceSnippets(employee, label, aliases) {
-  const compactLabel = normalizeText(label).replace(/\s+/g, '');
-  if (compactLabel.length > 8 || /[（(].+[）)]/.test(label)) return [];
-
-  const terms = [label, ...aliases].map(normalizeText).filter((term) => term.length >= 2);
+  const terms = evidenceSearchTerms(label, aliases);
+  if (terms.length === 0) return [];
   const seen = new Set();
   const snippets = [];
 
@@ -187,6 +185,23 @@ function findEvidenceSnippets(employee, label, aliases) {
   return snippets
     .sort((a, b) => snippetScore(b, label) - snippetScore(a, label))
     .slice(0, 2);
+}
+
+function evidenceSearchTerms(label, aliases) {
+  const terms = [];
+  const normalizedLabel = normalizeText(label);
+  const compactLabel = normalizedLabel.replace(/\s+/g, '');
+  if (compactLabel.length >= 2 && compactLabel.length <= 16) terms.push(normalizedLabel);
+
+  for (const alias of aliases) {
+    const term = normalizeText(alias);
+    const compactTerm = term.replace(/\s+/g, '');
+    if (compactTerm.length < 3 || compactTerm.length > 16) continue;
+    terms.push(term);
+  }
+
+  return [...new Set(terms)]
+    .sort((a, b) => b.replace(/\s+/g, '').length - a.replace(/\s+/g, '').length);
 }
 
 function messageKey(message) {
