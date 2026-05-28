@@ -25,6 +25,10 @@ async function main() {
   assert(!units.some((unit) => unit.searchText.includes('チャンネルに参加しました')), 'system join messages should be excluded');
   assert(!units.some((unit) => unit.searchText.includes('チャットコピペ')), 'pasted chat transcripts should not be attributed to the poster');
   assert.deepStrictEqual(fitVectorDimensions([1, 2, 3, 4], 2), [1, 2], 'oversized embeddings should be trimmed to configured dimensions');
+  assert(
+    units.some((unit) => unit.personName === '三本木拓磨' && unit.searchText.includes('ポケモン')),
+    'message index should include named Slack authors even before they exist in employees.json'
+  );
 
   const provider = createLocalFixtureProvider({ dimensions: 1024 });
   const embedded = await embedProfileSearchIndex(index, provider, {

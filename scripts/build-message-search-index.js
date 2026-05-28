@@ -43,6 +43,19 @@ function employeeBySlackId(employees) {
   return byId;
 }
 
+function messageAuthor(message, employee) {
+  const name = cleanText(employee?.name || message.userRealName || message.userName || '', 120);
+  if (!name) return null;
+  return {
+    person: employee ? `person:${employee.name}` : `slack-user:${message.user}`,
+    personName: name,
+    slackIds: employee
+      ? [employee.slack_id, employee.slack_id_2].filter(Boolean)
+      : [message.user].filter(Boolean),
+    job: employee?.job || ''
+  };
+}
+
 function isSearchableMessage(message) {
   const text = cleanText(message.text || message.rawText || '');
   if (!message.id || !message.user || !text) return false;
@@ -69,7 +82,7 @@ function buildSearchText(message, employee) {
   return [
     message.text || message.rawText || '',
     message.channelName || '',
-    employee.job || ''
+    employee?.job || ''
   ].map((item) => cleanText(item, 1200)).filter(Boolean).join('\n');
 }
 
@@ -80,16 +93,17 @@ function buildMessageSearchIndex({ employees, messages, generatedAt = new Date()
   for (const message of messages) {
     if (!isSearchableMessage(message)) continue;
     const employee = bySlackId.get(message.user);
-    if (!employee) continue;
+    const author = messageAuthor(message, employee);
+    if (!author) continue;
 
     const quote = messageQuote(message);
     const text = cleanText(message.text || message.rawText || '', 500);
     units.push({
       '@id': `search-message:${message.id}`,
       '@type': 'saiteki:MessageSearchUnit',
-      person: `person:${employee.name}`,
-      personName: employee.name,
-      slackIds: [employee.slack_id, employee.slack_id_2].filter(Boolean),
+      person: author.person,
+      personName: author.personName,
+      slackIds: author.slackIds,
       message: quote.messageId,
       semanticType: 'slack_message',
       category: 'message',
@@ -101,7 +115,7 @@ function buildMessageSearchIndex({ employees, messages, generatedAt = new Date()
       timestamp: message.timestamp || '',
       detailBullets: [text],
       quotes: [quote],
-      searchText: buildSearchText(message, employee)
+      searchText: buildSearchText(message, author)
     });
   }
 
@@ -136,5 +150,6 @@ if (require.main === module) {
 
 module.exports = {
   buildMessageSearchIndex,
+  messageAuthor,
   writeMessageSearchIndex
 };
