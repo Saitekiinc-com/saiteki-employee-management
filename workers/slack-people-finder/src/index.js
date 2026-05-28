@@ -13,7 +13,7 @@ const DEFAULT_TOP_UNITS = 80;
 const DEFAULT_RERANK_CANDIDATES = 12;
 const DEFAULT_EMBEDDING_MODEL = 'gemini-embedding-001';
 const DEFAULT_EMBEDDING_DIMENSIONS = 768;
-const DEFAULT_RERANK_MODEL = 'gemini-3.5-flash';
+const DEFAULT_RERANK_MODEL = 'gemini-2.5-flash';
 const DEFAULT_MESSAGE_VIEWER_URL = 'https://saitekiinc-com.github.io/saiteki-employee-management/slack-export/';
 
 const INTENT_RANK = {

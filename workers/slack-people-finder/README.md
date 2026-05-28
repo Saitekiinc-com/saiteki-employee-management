@@ -52,7 +52,7 @@ Cloudflare Workersには以下をsecretとして設定する。
 - `PEOPLE_FINDER_RERANK_CANDIDATES`: AI再ランキング対象の候補社員数
 - `PEOPLE_FINDER_DIRECT_ONLY`: `true` の場合、AI判定が `direct` の候補だけ表示
 - `GEMINI_EMBEDDING_MODEL`: クエリembedding生成モデル
-- `GEMINI_RERANK_MODEL`: 再ランキング・質問解釈・回答生成モデル。既定は `gemini-3.5-flash`
+- `GEMINI_RERANK_MODEL`: 再ランキング・質問解釈・回答生成モデル。既定は `gemini-2.5-flash`
 - `MESSAGE_VIEWER_URL`: 検索結果の根拠メッセージリンク先。GitHub PagesのSlack Exportページを指定する
 
 ## デプロイ
