@@ -16,50 +16,6 @@ const DEFAULT_EMBEDDING_DIMENSIONS = 768;
 const DEFAULT_RERANK_MODEL = 'gemini-2.0-flash';
 const DEFAULT_MESSAGE_VIEWER_URL = 'https://saitekiinc-com.github.io/saiteki-employee-management/slack-export/';
 
-const QUERY_EVIDENCE_ALIASES = {
-  qa: ['品質保証'],
-  品質保証: ['qa'],
-  ポケモン: [
-    'pokemon',
-    'pokémon',
-    'ポケカ',
-    'ピカチュウ',
-    'アチャモ',
-    'バシャーモ',
-    'ポッチャマ',
-    'ヒノアラシ',
-    'ダイパ',
-    'ルビサファ',
-    'テンガン山',
-    'テッカニン',
-    'ドダイトス'
-  ],
-  ポケカ: ['ポケモン', 'pokemon', 'pokémon'],
-  pokemon: ['ポケモン', 'ポケカ', 'pokémon'],
-  pokémon: ['ポケモン', 'ポケカ', 'pokemon'],
-  セキュリティ: ['security', '情報セキュリティ', '脆弱性', 'csirt', 'siem', 'ゼロトラスト']
-};
-
-const QUERY_EVIDENCE_STOP_TERMS = new Set([
-  'こと',
-  'もの',
-  'できる',
-  '詳しい',
-  '仕事',
-  '相談',
-  '社員',
-  '興味',
-  '人柄',
-  '好き',
-  '趣味',
-  '休日',
-  '最近',
-  '話せる',
-  '探し',
-  '教えて',
-  'エンジニア'
-]);
-
 const INTENT_RANK = {
   direct: 4,
   adjacent: 3,
@@ -651,7 +607,8 @@ async function searchProfileIndex(env, query, uiCategory) {
 async function searchMessageIndex(env, query) {
   const index = await loadMessageIndex(env);
   return searchVectorIndex(env, index, query, {
-    threshold: env.PEOPLE_FINDER_MESSAGE_VECTOR_THRESHOLD || DEFAULT_MESSAGE_VECTOR_THRESHOLD
+    threshold: env.PEOPLE_FINDER_MESSAGE_VECTOR_THRESHOLD || DEFAULT_MESSAGE_VECTOR_THRESHOLD,
+    requireRerankEvidence: true
   });
 }
 
@@ -659,7 +616,6 @@ async function searchVectorIndex(env, index, query, options = {}) {
   ensureEmbeddedIndex(index);
 
   const queryText = stripQueryHelpers(query) || normalizeText(query);
-  const evidenceTerms = queryEvidenceTerms(queryText);
   const queryVector = await embedQuery(env, queryText, index.embedding?.model, firstVectorDimensions(index));
   const threshold = parseNumber(options.threshold, DEFAULT_VECTOR_THRESHOLD);
   const topUnits = parseNumber(env.PEOPLE_FINDER_VECTOR_TOP_UNITS, DEFAULT_TOP_UNITS);
@@ -668,7 +624,6 @@ async function searchVectorIndex(env, index, query, options = {}) {
 
   const scoredUnits = graph
     .filter((unit) => !uiCategory || !unit.uiCategory || unit.uiCategory === uiCategory)
-    .filter((unit) => unitHasQueryEvidence(unit, evidenceTerms))
     .map((unit) => ({
       unit,
       score: cosineVectorSimilarity(queryVector, unitVector(unit)) + lexicalLabelBoost(unit, queryText)
@@ -677,8 +632,11 @@ async function searchVectorIndex(env, index, query, options = {}) {
     .slice(0, topUnits);
 
   const results = aggregateVectorUnits(scoredUnits, threshold);
-  if (results.length === 0 || env.PEOPLE_FINDER_ENABLE_RERANK === 'false') {
+  if (results.length === 0) {
     return results;
+  }
+  if (env.PEOPLE_FINDER_ENABLE_RERANK === 'false') {
+    return options.requireRerankEvidence ? [] : results;
   }
 
   try {
@@ -687,8 +645,8 @@ async function searchVectorIndex(env, index, query, options = {}) {
       includeAdjacent: env.PEOPLE_FINDER_DIRECT_ONLY !== 'true'
     });
   } catch (error) {
-    console.error('Vector people rerank failed; returning vector results', error);
-    return results;
+    console.error('Vector people rerank failed', error);
+    return options.requireRerankEvidence ? [] : results;
   }
 }
 
@@ -739,50 +697,6 @@ function lexicalLabelBoost(unit, queryText) {
   return Math.min(matched * weight, cap);
 }
 
-function queryEvidenceTerms(queryText) {
-  const normalized = normalizeText(queryText);
-  if (!normalized) return [];
-
-  const terms = [];
-  for (const term of normalized.split(/\s+/)) {
-    if (isUsefulEvidenceTerm(term)) terms.push(term);
-  }
-
-  for (const term of normalized.match(/[a-z0-9+#.]{2,}/g) || []) {
-    if (isUsefulEvidenceTerm(term)) terms.push(term);
-  }
-
-  for (const [term, aliases] of Object.entries(QUERY_EVIDENCE_ALIASES)) {
-    if (!normalized.includes(normalizeText(term))) continue;
-    terms.push(normalizeText(term));
-    terms.push(...aliases.map(normalizeText));
-  }
-
-  return [...new Set(terms.filter(Boolean))];
-}
-
-function isUsefulEvidenceTerm(term) {
-  const normalized = normalizeText(term);
-  return normalized.length >= 2 && !QUERY_EVIDENCE_STOP_TERMS.has(normalized);
-}
-
-function unitHasQueryEvidence(unit, evidenceTerms) {
-  if (unit.semanticType !== 'slack_message' || evidenceTerms.length === 0) return true;
-  const text = unitEvidenceText(unit);
-  return evidenceTerms.some((term) => text.includes(term));
-}
-
-function unitEvidenceText(unit) {
-  return normalizeText([
-    unit.searchText,
-    unit.relationLabel,
-    unit.topicLabel,
-    ...(unit.topicAliases || []),
-    ...(unit.detailBullets || []),
-    ...(unit.quotes || []).map((quote) => quote.text)
-  ].filter(Boolean).join(' '));
-}
-
 function aggregateVectorUnits(scoredUnits, threshold) {
   const byEmployee = new Map();
   for (const item of scoredUnits) {
@@ -802,7 +716,10 @@ function aggregateVectorUnits(scoredUnits, threshold) {
     const result = byEmployee.get(key);
     result.score = Math.max(result.score, item.score);
     result.reasons.push(vectorReason(item.unit, item.score));
-    result.messageQuotes.push(...(item.unit.quotes || []));
+    result.messageQuotes.push(...(item.unit.quotes || []).map((quote) => ({
+      ...quote,
+      unitId: item.unit['@id']
+    })));
   }
 
   return [...byEmployee.values()]
@@ -928,9 +845,13 @@ function buildRerankPrompt(query, results) {
 - 根拠にない推測はしない
 - 職種検索では、AI、エンジニア、影響力だけの候補は reject または weak
 - 趣味検索では、具体的な接点がある候補を direct
-- Slackメッセージ検索では、関連する実発言がある候補を direct または adjacent
+- Slackメッセージ検索では、候補内の実発言・引用・具体メモだけを根拠にする
+- クエリ語の言い換え、同義語、関連する固有名詞は考慮してよい
+- ただし、実発言がクエリの主題を支えていない場合は、ベクトルscoreが高くても reject
+- 挨拶、日程、ありがとう、かわいい等の汎用雑談だけで主題が根拠文にない場合は reject
 - 発言が質問・引用・雑談だけで相談相手として弱い場合は adjacent または weak
-- selectedReasonUnitIds は判定根拠に使ったunitIdだけを入れる
+- evidenceSupported は、選んだ根拠だけでクエリに答えられる場合だけ true
+- selectedReasonUnitIds は判定根拠に使ったunitIdだけを入れる。Slackメッセージ検索では最低1件必須
 - JSONだけを返す
 
 出力形式:
@@ -941,7 +862,8 @@ function buildRerankPrompt(query, results) {
       "intentFit": "direct",
       "confidence": 0.9,
       "reason": "短い理由",
-      "selectedReasonUnitIds": ["search-unit:..."]
+      "evidenceSupported": true,
+      "selectedReasonUnitIds": ["提示されたunitId"]
     }
   ]
 }
@@ -984,12 +906,20 @@ function applyRerankDecisions(results, decisions, options = {}) {
       const selectedReasons = selectedIds.size > 0
         ? result.reasons.filter((reason) => selectedIds.has(reason.unitId))
         : result.reasons;
+      const slackMessageResult = isSlackMessageResult(result);
+      if (slackMessageResult && (decision.evidenceSupported === false || selectedIds.size === 0 || selectedReasons.length === 0)) {
+        return null;
+      }
+      const selectedMessageQuotes = selectedIds.size > 0
+        ? filterMessageQuotesByReasonIds(result.messageQuotes || [], selectedIds)
+        : result.messageQuotes;
       return {
         ...result,
         intentFit: decision.intentFit,
         rerankConfidence: decision.confidence,
         rerankReason: decision.reason,
-        reasons: selectedReasons.length > 0 ? selectedReasons : result.reasons
+        reasons: selectedReasons.length > 0 ? selectedReasons : result.reasons,
+        messageQuotes: slackMessageResult ? selectedMessageQuotes : (selectedMessageQuotes || result.messageQuotes)
       };
     })
     .filter(Boolean)
@@ -999,6 +929,29 @@ function applyRerankDecisions(results, decisions, options = {}) {
       if (rankDiff !== 0) return rankDiff;
       return (b.rerankConfidence || 0) - (a.rerankConfidence || 0) || b.score - a.score;
     });
+}
+
+function isSlackMessageResult(result) {
+  return (result.reasons || []).some((reason) => reason.semanticType === 'slack_message');
+}
+
+function filterMessageQuotesByReasonIds(quotes, selectedIds) {
+  const normalizedIds = new Set([...selectedIds].map(normalizeEvidenceId).filter(Boolean));
+  return (quotes || []).filter((quote) => {
+    const ids = [
+      quote.unitId,
+      quote.messageId,
+      messagePageIdFromQuote(quote)
+    ].map(normalizeEvidenceId);
+    return ids.some((id) => normalizedIds.has(id));
+  });
+}
+
+function normalizeEvidenceId(value) {
+  return String(value || '')
+    .replace(/^search-message:/, '')
+    .replace(/^message:/, '')
+    .trim();
 }
 
 function searchFacets(facets, query, options = {}) {

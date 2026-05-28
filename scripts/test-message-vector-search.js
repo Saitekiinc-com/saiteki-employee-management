@@ -78,6 +78,17 @@ async function main() {
         embedding: { vector: [0, 1] }
       },
       {
+        '@id': 'search-message:lexical-unrelated-same-person',
+        personName: '本文一致 太郎',
+        semanticType: 'slack_message',
+        relationLabel: 'Slack発言: 雑談',
+        topicLabel: '雑談',
+        searchText: 'こちらこそありがとうございました！',
+        detailBullets: ['こちらこそありがとうございました！'],
+        quotes: [{ text: 'こちらこそありがとうございました！' }],
+        embedding: { vector: [1, 0] }
+      },
+      {
         '@id': 'search-message:vector-only-unrelated',
         personName: '無関係 次郎',
         semanticType: 'slack_message',
@@ -99,10 +110,17 @@ async function main() {
     threshold: 0.12,
     topUnits: 10
   });
-  assert.strictEqual(lexicalOnly[0]?.employeeName, '本文一致 太郎', 'message text matches should survive even when vector similarity is weak');
+  const rerankedLexicalOnly = await rerankPeopleResults('ポケモン', lexicalOnly, reranker, {
+    candidateLimit: 10
+  });
+  assert.strictEqual(rerankedLexicalOnly[0]?.employeeName, '本文一致 太郎', 'message text matches should survive even when vector similarity is weak');
   assert(
-    !lexicalOnly.some((result) => result.employeeName === '無関係 次郎'),
-    'message vector search should drop vector-near results when the message body has no query evidence'
+    !rerankedLexicalOnly.some((result) => result.employeeName === '無関係 次郎'),
+    'message rerank should drop vector-near results when the message body has no supporting evidence'
+  );
+  assert(
+    !rerankedLexicalOnly[0].quotes.some((quote) => quote.text.includes('ありがとうございました')),
+    'message rerank should keep only quotes tied to the selected supporting reasons'
   );
 
   console.log('message vector search OK');
