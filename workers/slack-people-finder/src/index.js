@@ -349,13 +349,17 @@ async function searchPeopleAnswer(env, query, categoryResolution) {
       };
     } catch (error) {
       console.error('People answer generation failed', answerGenerationErrorDetails(error));
+      const diagnosticsNote = answerFailureDiagnosticsNote(env, error);
       return {
         blocks: answerMessageBlocks({
           query,
           category: categoryResolution.category,
           categoryInferred: categoryResolution.inferred,
           plan,
-          answer: 'AI回答生成に失敗しました。検索候補は取得できていますが、質問意図に沿った根拠判定が完了しなかったため、候補一覧の表示を止めました。少し時間を置いて再実行してください。',
+          answer: [
+            'AI回答生成に失敗しました。検索候補は取得できていますが、質問意図に沿った根拠判定が完了しなかったため、候補一覧の表示を止めました。少し時間を置いて再実行してください。',
+            diagnosticsNote
+          ].filter(Boolean).join('\n\n'),
           selected: [],
           candidates: [],
           messageViewerUrl
@@ -1368,6 +1372,23 @@ function answerGenerationErrorDetails(error) {
     message: truncate(error?.message || String(error), 500),
     ...(error?.answerDiagnostics || {})
   };
+}
+
+function answerFailureDiagnosticsNote(env, error) {
+  if (env.PEOPLE_FINDER_SHOW_FAILURE_DIAGNOSTICS !== 'true') return '';
+  const details = answerGenerationErrorDetails(error);
+  const parts = [
+    details.stage ? `stage=${details.stage}` : '',
+    details.model ? `model=${details.model}` : '',
+    Number.isFinite(details.candidateCount) ? `candidates=${details.candidateCount}` : '',
+    Number.isFinite(details.promptChars) ? `promptChars=${details.promptChars}` : '',
+    Number.isFinite(details.responseChars) ? `responseChars=${details.responseChars}` : '',
+    Number.isFinite(details.elapsedMs) ? `elapsedMs=${details.elapsedMs}` : '',
+    Array.isArray(details.finishReasons) && details.finishReasons.length > 0
+      ? `finishReasons=${details.finishReasons.join(',')}`
+      : ''
+  ].filter(Boolean);
+  return parts.length > 0 ? `診断: ${parts.join(' / ')}` : '';
 }
 
 function geminiFinishReasons(data) {
