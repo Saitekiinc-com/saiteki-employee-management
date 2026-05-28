@@ -53,6 +53,7 @@ Cloudflare Workersには以下をsecretとして設定する。
 - `PEOPLE_FINDER_DIRECT_ONLY`: `true` の場合、AI判定が `direct` の候補だけ表示
 - `GEMINI_EMBEDDING_MODEL`: クエリembedding生成モデル
 - `GEMINI_RERANK_MODEL`: 再ランキングモデル
+- `MESSAGE_VIEWER_URL`: 検索結果の根拠メッセージリンク先。GitHub PagesのSlack Exportページを指定する
 
 ## デプロイ
 
@@ -116,7 +117,8 @@ npx wrangler deploy
 ```json
 {
   "MESSAGE_SEARCH_INDEX_URL": "https://raw.githubusercontent.com/Saitekiinc-com/saiteki-employee-management/main/data/message-search-index.embedded.json",
-  "PROFILE_SEARCH_INDEX_URL": "https://raw.githubusercontent.com/Saitekiinc-com/saiteki-employee-management/main/data/profile-search-index.embedded.json"
+  "PROFILE_SEARCH_INDEX_URL": "https://raw.githubusercontent.com/Saitekiinc-com/saiteki-employee-management/main/data/profile-search-index.embedded.json",
+  "MESSAGE_VIEWER_URL": "https://saitekiinc-com.github.io/saiteki-employee-management/slack-export/"
 }
 ```
 

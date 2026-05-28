@@ -21,6 +21,7 @@
     "GEMINI_EMBEDDING_MODEL": "gemini-embedding-001",
     "GEMINI_EMBEDDING_DIMENSIONS": "768",
     "GEMINI_RERANK_MODEL": "gemini-2.0-flash",
+    "MESSAGE_VIEWER_URL": "https://saitekiinc-com.github.io/saiteki-employee-management/slack-export/",
     "MESSAGE_SEARCH_INDEX_URL": "https://raw.githubusercontent.com/Saitekiinc-com/saiteki-employee-management/main/data/message-search-index.embedded.json",
     "PROFILE_SEARCH_INDEX_URL": "https://raw.githubusercontent.com/Saitekiinc-com/saiteki-employee-management/main/data/profile-search-index.embedded.json",
     "SEARCH_FACETS_URL": "https://raw.githubusercontent.com/Saitekiinc-com/saiteki-employee-management/main/data/search-facets.jsonld"
