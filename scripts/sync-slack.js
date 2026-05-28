@@ -91,9 +91,9 @@ async function main() {
     writeJsonl(SLACK_MESSAGES_FILE, mergedSlackMessages);
     console.log(`Saved ${mergedSlackMessages.length} normalized Slack messages to ${SLACK_MESSAGES_FILE}.`);
 
-    const discoveredCount = await registerNewPrimaryWorkspaceUsers(employees, allMessages);
-    if (discoveredCount > 0) {
-        console.log(`Registered ${discoveredCount} newly discovered primary Slack users.`);
+    const registration = await registerSlackUsersFromMessages(employees, mergedSlackMessages);
+    if (registration.changedCount > 0) {
+        console.log(`Registered ${registration.createdCount} new Slack users and updated ${registration.updatedCount} existing employees from Slack messages.`);
     }
 
     const targetEmployees = employees.filter(e => e.isActive !== false && (e.slack_id || e.slack_id_2));
@@ -166,9 +166,9 @@ async function main() {
         }
     }
 
-    if (updatedCount > 0 || discoveredCount > 0) {
+    if (updatedCount > 0 || registration.changedCount > 0) {
         fs.writeFileSync(DATA_FILE, JSON.stringify(employees, null, 2));
-        console.log(`Saved ${updatedCount} profile updates and ${discoveredCount} new employees to ${DATA_FILE}.`);
+        console.log(`Saved ${updatedCount} profile updates and ${registration.changedCount} Slack user registrations to ${DATA_FILE}.`);
 
         // Regenerate TEAM.md with the new data format
         generateTeamDoc(employees);
@@ -177,25 +177,37 @@ async function main() {
     }
 }
 
-async function registerNewPrimaryWorkspaceUsers(employees, messages) {
+async function registerSlackUsersFromMessages(employees, messages) {
     const knownSlackIds = new Set(employees.flatMap(e => [e.slack_id, e.slack_id_2]).filter(Boolean));
-    const candidateIds = [...new Set(messages
-        .filter(m => m.workspace === 'primary' && m.user && !knownSlackIds.has(m.user) && !m.subtype)
-        .map(m => m.user))];
+    const employeeByName = new Map(employees.map(employee => [normalizeEmployeeName(employee.name), employee]));
+    const candidates = collectSlackUserCandidates(messages, knownSlackIds);
     let createdCount = 0;
+    let updatedCount = 0;
 
-    for (const userId of candidateIds) {
-        const user = await fetchSlackUserInfo(userId, SLACK_TOKEN);
-        if (!isEligibleSlackUser(user)) continue;
+    for (const candidate of candidates) {
+        const field = candidate.workspace === 'secondary' ? 'slack_id_2' : 'slack_id';
+        const token = candidate.workspace === 'secondary' ? SLACK_TOKEN_2 : SLACK_TOKEN;
+        const user = token ? await fetchSlackUserInfo(candidate.userId, token) : null;
+        if (user && !isEligibleSlackUser(user)) continue;
 
-        const name = user.real_name || user.profile?.real_name || user.profile?.display_name;
-        if (!name || employees.some(e => e.name === name)) continue;
+        const name = slackUserName(user) || candidate.userRealName || candidate.userName;
+        if (!isRegisterableSlackName(name)) continue;
+
+        const existingEmployee = employeeByName.get(normalizeEmployeeName(name));
+        if (existingEmployee) {
+            if (!existingEmployee[field]) {
+                existingEmployee[field] = candidate.userId;
+                existingEmployee.updatedAt = new Date().toISOString();
+                knownSlackIds.add(candidate.userId);
+                updatedCount++;
+            }
+            continue;
+        }
 
         const now = new Date().toISOString();
-        employees.push({
+        const employee = {
             name,
             job: 'Other',
-            slack_id: userId,
             isActive: true,
             createdAt: now,
             updatedAt: now,
@@ -206,12 +218,60 @@ async function registerNewPrimaryWorkspaceUsers(employees, messages) {
             communication_patterns: null,
             values_and_motivators: null,
             current_state: null
-        });
-        knownSlackIds.add(userId);
+        };
+        employee[field] = candidate.userId;
+        employees.push(employee);
+        employeeByName.set(normalizeEmployeeName(name), employee);
+        knownSlackIds.add(candidate.userId);
         createdCount++;
     }
 
-    return createdCount;
+    return {
+        createdCount,
+        updatedCount,
+        changedCount: createdCount + updatedCount
+    };
+}
+
+function collectSlackUserCandidates(messages, knownSlackIds) {
+    const byUser = new Map();
+    for (const message of messages) {
+        const userId = message.user;
+        if (!userId || knownSlackIds.has(userId)) continue;
+
+        const workspace = message.workspace === 'secondary' ? 'secondary' : 'primary';
+        const key = `${workspace}:${userId}`;
+        const current = byUser.get(key) || {
+            workspace,
+            userId,
+            userName: '',
+            userRealName: ''
+        };
+
+        current.userName ||= message.userName || message.username || '';
+        current.userRealName ||= message.userRealName || '';
+        byUser.set(key, current);
+    }
+    return [...byUser.values()];
+}
+
+function slackUserName(user) {
+    if (!user) return '';
+    return user.real_name
+        || user.profile?.real_name
+        || user.profile?.display_name
+        || user.name
+        || '';
+}
+
+function normalizeEmployeeName(name) {
+    return String(name || '').normalize('NFKC').replace(/\s+/g, '');
+}
+
+function isRegisterableSlackName(name) {
+    const value = String(name || '').trim();
+    if (!value) return false;
+    return !/^(unknown|slackbot|github|bot)$/i.test(value);
 }
 
 function isEligibleSlackUser(user) {
@@ -560,4 +620,11 @@ function generateTeamDoc(employees) {
     console.log(`Regenerated ${TEAM_DOC_FILE} with detailed profiles.`);
 }
 
-main().catch(console.error);
+if (require.main === module) {
+    main().catch(console.error);
+}
+
+module.exports = {
+    collectSlackUserCandidates,
+    registerSlackUsersFromMessages
+};
