@@ -6,7 +6,7 @@ const { buildProfileSearchIndex } = require('./build-profile-search-index');
 const { embedProfileSearchIndex } = require('./embed-profile-search-index');
 const { searchProfileVectors } = require('./people-finder-vector-search');
 const { createLocalFixtureProvider } = require('./profile-embedding-utils');
-const { createReranker, rerankPeopleResults } = require('./rerank-people-finder-results');
+const { applyDecisions, createReranker, rerankPeopleResults } = require('./rerank-people-finder-results');
 
 async function main() {
   const profileGraph = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/employee-profile-graph.jsonld'), 'utf8'));
@@ -51,6 +51,52 @@ async function main() {
     pokemonReranked.every((result) => ['direct', 'adjacent'].includes(result.intentFit)),
     'rerank should only return displayable intent fits'
   );
+
+  const awsMessageResults = [
+    {
+      employeeName: 'AWS 太郎',
+      score: 0.8,
+      reasons: [
+        {
+          unitId: 'search-message:primary:C1:123.456',
+          semanticType: 'slack_message',
+          relationLabel: 'Slack発言: 自己紹介',
+          topicLabel: '自己紹介',
+          detailBullets: ['AWS運用構築の経験があります']
+        }
+      ],
+      quotes: [
+        {
+          unitId: 'search-message:primary:C1:123.456',
+          messageId: 'message:primary:C1:123.456',
+          text: 'AWS運用構築の経験があります'
+        }
+      ]
+    }
+  ];
+  const idMismatchKept = applyDecisions(awsMessageResults, [
+    {
+      employeeName: 'AWS 太郎',
+      intentFit: 'direct',
+      confidence: 0.9,
+      reason: 'AWS経験の根拠がある',
+      evidenceSupported: true,
+      selectedReasonUnitIds: ['提示されたunitId']
+    }
+  ]);
+  assert.strictEqual(idMismatchKept.length, 1, 'LLM-supported Slack message result should survive when only the returned reason id format is invalid');
+
+  const unsupportedDropped = applyDecisions(awsMessageResults, [
+    {
+      employeeName: 'AWS 太郎',
+      intentFit: 'reject',
+      confidence: 0.1,
+      reason: '根拠がない',
+      evidenceSupported: false,
+      selectedReasonUnitIds: []
+    }
+  ]);
+  assert.strictEqual(unsupportedDropped.length, 0, 'unsupported Slack message result should still be dropped');
 
   console.log('people finder rerank OK');
 }
