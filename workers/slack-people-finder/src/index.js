@@ -11,6 +11,7 @@ const DEFAULT_VECTOR_THRESHOLD = 0.22;
 const DEFAULT_MESSAGE_VECTOR_THRESHOLD = 0.12;
 const DEFAULT_TOP_UNITS = 80;
 const DEFAULT_RERANK_CANDIDATES = 12;
+const DEFAULT_ANSWER_CANDIDATES = 6;
 const DEFAULT_SEARCH_TIMEOUT_MS = 25000;
 const DEFAULT_PROFILE_FALLBACK_MIN = 4;
 const DEFAULT_ENABLE_PROFILE_FALLBACK = false;
@@ -349,15 +350,16 @@ async function searchPeopleAnswer(env, query, categoryResolution) {
       };
     } catch (error) {
       console.error('People answer generation failed', error);
+      const fallback = generateFallbackPeopleAnswer(query, categoryResolution.category, plan, candidates);
       return {
         blocks: answerMessageBlocks({
           query,
           category: categoryResolution.category,
           categoryInferred: categoryResolution.inferred,
           plan,
-          answer: 'AI回答生成に失敗しました。検索候補は取得できていますが、質問意図に沿った根拠判定が完了しなかったため、候補一覧の表示を止めました。少し時間を置いて再実行してください。',
-          selected: [],
-          candidates: [],
+          answer: fallback.answer,
+          selected: fallback.selected,
+          candidates,
           messageViewerUrl
         })
       };
@@ -1277,11 +1279,13 @@ function defaultRejectEvidence(relationIntent) {
 
 async function generatePeopleAnswer(env, query, category, plan, candidates) {
   const model = env.GEMINI_RERANK_MODEL || DEFAULT_RERANK_MODEL;
+  const answerCandidateLimit = parseNumber(env.PEOPLE_FINDER_ANSWER_CANDIDATES, DEFAULT_ANSWER_CANDIDATES);
+  const answerCandidates = candidates.slice(0, answerCandidateLimit);
   const data = await callGemini(env, model, 'generateContent', {
     contents: [
       {
         role: 'user',
-        parts: [{ text: buildAnswerPrompt(query, category, plan, candidates) }]
+        parts: [{ text: buildAnswerPrompt(query, category, plan, answerCandidates) }]
       }
     ],
     generationConfig: {
@@ -1290,10 +1294,65 @@ async function generatePeopleAnswer(env, query, category, plan, candidates) {
     }
   });
   const parsed = parseJsonText(geminiText(data));
+  const answer = String(parsed.answer || '').trim();
+  if (!answer) {
+    throw new Error('Gemini answer response did not include answer.');
+  }
   return {
-    answer: String(parsed.answer || '').trim() || '回答を生成できませんでした。',
+    answer,
     selected: Array.isArray(parsed.selected) ? parsed.selected : []
   };
+}
+
+function generateFallbackPeopleAnswer(query, category, plan, candidates) {
+  const selected = [];
+  const lines = [
+    'AI回答の整形に失敗したため、検索候補の根拠から要約します。'
+  ];
+  const displayCandidates = candidates.slice(0, DEFAULT_ANSWER_CANDIDATES);
+
+  if (displayCandidates.length === 0) {
+    return {
+      answer: '該当しそうな社員は見つかりませんでした。',
+      selected: []
+    };
+  }
+
+  for (const result of displayCandidates) {
+    const reasons = (result.reasons || []).slice(0, 2);
+    const reasonIds = reasons.map((reason) => reason.unitId).filter(Boolean);
+    selected.push({ employeeName: result.employeeName, reasonUnitIds: reasonIds });
+    const labels = reasons
+      .map((reason) => reason.label || reason.relationLabel || reason.topicLabel)
+      .filter(Boolean)
+      .slice(0, 2)
+      .join(' / ');
+    const memo = fallbackReasonMemo(reasons);
+    lines.push([
+      `*${escapeMrkdwn(result.employeeName)}*`,
+      labels ? `根拠: ${escapeMrkdwn(labels)}` : '',
+      memo ? `メモ: ${escapeMrkdwn(memo)}` : ''
+    ].filter(Boolean).join('\n'));
+  }
+
+  if (plan?.relationIntent === 'has_work_experience') {
+    lines.push('年数や担当範囲は、根拠メッセージに明記がない場合は不明です。');
+  }
+
+  return {
+    answer: lines.join('\n\n'),
+    selected
+  };
+}
+
+function fallbackReasonMemo(reasons) {
+  for (const reason of reasons || []) {
+    const bullet = (reason.detailBullets || reason.evidenceSnippets || [])
+      .map((item) => typeof item === 'string' ? item : item.text)
+      .find(Boolean);
+    if (bullet) return truncate(bullet, 120);
+  }
+  return '';
 }
 
 function buildAnswerPrompt(query, category, plan, candidates) {
