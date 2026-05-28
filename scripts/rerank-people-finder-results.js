@@ -90,7 +90,7 @@ async function createGeminiReranker(options = {}) {
     throw new Error('GEMINI_API_KEY is required for gemini reranker. Use --reranker local-fixture for tests.');
   }
   const { GoogleGenerativeAI } = require('@google/generative-ai');
-  const modelName = options.model || process.env.GEMINI_RERANK_MODEL || 'gemini-2.0-flash';
+  const modelName = options.model || process.env.GEMINI_RERANK_MODEL || 'gemini-3.5-flash';
   const genAI = new GoogleGenerativeAI(apiKey);
   const model = genAI.getGenerativeModel({
     model: modelName,
