@@ -53,6 +53,7 @@ function buildRerankPrompt(query, results) {
 ルール:
 - 根拠にない推測はしない
 - 「QAエンジニア」のような職種検索では、AI、エンジニア、影響力だけの候補は reject または weak
+- AWS、Azure、Reactのような短い技術名・製品名は、実務経験や具体的な話題として根拠に出ていれば direct
 - 「ポケモン」のような趣味検索では、具体的な接点がある候補を direct
 - Slackメッセージ検索では、候補内の実発言・引用・具体メモだけを根拠にする
 - クエリ語の言い換え、同義語、関連する固有名詞は考慮してよい
@@ -217,19 +218,23 @@ function applyDecisions(results, decisions, options = {}) {
         ? result.reasons.filter((reason) => selectedIds.has(reason.unitId))
         : result.reasons;
       const slackMessageResult = isSlackMessageResult(result);
-      if (slackMessageResult && (decision.evidenceSupported === false || selectedIds.size === 0 || selectedReasons.length === 0)) {
+      if (slackMessageResult && decision.evidenceSupported === false) {
         return null;
       }
+      const displayReasons = selectedReasons.length > 0 ? selectedReasons : result.reasons;
       const selectedQuotes = selectedIds.size > 0
         ? filterQuotesByReasonIds(result.quotes || [], selectedIds)
         : result.quotes;
+      const displayQuotes = selectedQuotes.length > 0
+        ? selectedQuotes
+        : filterQuotesByReasonIds(result.quotes || [], new Set(displayReasons.map((reason) => reason.unitId)));
       return {
         ...result,
         intentFit: decision.intentFit,
         rerankConfidence: decision.confidence,
         rerankReason: decision.reason,
-        reasons: selectedReasons.length > 0 ? selectedReasons : result.reasons,
-        quotes: slackMessageResult ? selectedQuotes : (selectedQuotes || result.quotes)
+        reasons: displayReasons,
+        quotes: slackMessageResult ? displayQuotes : (displayQuotes || result.quotes)
       };
     })
     .filter(Boolean)
