@@ -24,10 +24,16 @@ const ENDPOINT_ID = process.env.GCP_ENDPOINT_ID;
 // Parse command line arguments
 const args = process.argv.slice(2);
 const IS_FULL_SYNC = args.includes('--full');
+const IS_REGISTRY_ONLY = args.includes('--registry-only');
 
 
 async function main() {
-    if (!SLACK_TOKEN || CHANNEL_IDS.length === 0 || !API_KEY || !PROJECT_ID) {
+    if (!SLACK_TOKEN || CHANNEL_IDS.length === 0) {
+        console.error('Missing required environment variables: SLACK_BOT_TOKEN, SLACK_CHANNEL_ID');
+        process.exit(1);
+    }
+
+    if (!IS_REGISTRY_ONLY && (!API_KEY || !PROJECT_ID)) {
         console.error('Missing required environment variables: SLACK_BOT_TOKEN, SLACK_CHANNEL_ID, GEMINI_API_KEY, GCP_PROJECT_ID');
         process.exit(1);
     }
@@ -43,7 +49,7 @@ async function main() {
 
     const employees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
 
-    console.log(`Starting sync... Full Mode: ${IS_FULL_SYNC}`);
+    console.log(`Starting sync... Full Mode: ${IS_FULL_SYNC}, Registry Only: ${IS_REGISTRY_ONLY}`);
     console.log(`Target Channels: ${CHANNEL_IDS.join(', ')}`);
 
     // Fetch messages from ALL channels (Primary Workspace)
@@ -88,12 +94,25 @@ async function main() {
 
     const existingSlackMessages = readJsonl(SLACK_MESSAGES_FILE);
     const mergedSlackMessages = mergeSlackMessages(existingSlackMessages, [...allMessages, ...allMessages2]);
-    writeJsonl(SLACK_MESSAGES_FILE, mergedSlackMessages);
-    console.log(`Saved ${mergedSlackMessages.length} normalized Slack messages to ${SLACK_MESSAGES_FILE}.`);
 
     const registration = await registerSlackUsersFromMessages(employees, mergedSlackMessages);
     if (registration.changedCount > 0) {
         console.log(`Registered ${registration.createdCount} new Slack users and updated ${registration.updatedCount} existing employees from Slack messages.`);
+    }
+
+    const enrichedSlackMessages = enrichSlackMessageAuthors(mergedSlackMessages, employees, registration.userProfilesByKey);
+    writeJsonl(SLACK_MESSAGES_FILE, enrichedSlackMessages);
+    console.log(`Saved ${enrichedSlackMessages.length} normalized Slack messages to ${SLACK_MESSAGES_FILE}.`);
+
+    if (IS_REGISTRY_ONLY) {
+        if (registration.changedCount > 0) {
+            fs.writeFileSync(DATA_FILE, JSON.stringify(employees, null, 2));
+            console.log(`Saved ${registration.changedCount} Slack user registrations to ${DATA_FILE}.`);
+        } else {
+            console.log('No Slack user registration updates performed.');
+        }
+        console.log('Registry-only mode finished without AI profile analysis or search index generation.');
+        return;
     }
 
     const targetEmployees = employees.filter(e => e.isActive !== false && (e.slack_id || e.slack_id_2));
@@ -181,6 +200,7 @@ async function registerSlackUsersFromMessages(employees, messages) {
     const knownSlackIds = new Set(employees.flatMap(e => [e.slack_id, e.slack_id_2]).filter(Boolean));
     const employeeByName = new Map(employees.map(employee => [normalizeEmployeeName(employee.name), employee]));
     const candidates = collectSlackUserCandidates(messages, knownSlackIds);
+    const userProfilesByKey = new Map();
     let createdCount = 0;
     let updatedCount = 0;
 
@@ -188,6 +208,7 @@ async function registerSlackUsersFromMessages(employees, messages) {
         const field = candidate.workspace === 'secondary' ? 'slack_id_2' : 'slack_id';
         const token = candidate.workspace === 'secondary' ? SLACK_TOKEN_2 : SLACK_TOKEN;
         const user = token ? await fetchSlackUserInfo(candidate.userId, token) : null;
+        if (user) userProfilesByKey.set(`${candidate.workspace}:${candidate.userId}`, user);
         if (user && !isEligibleSlackUser(user)) continue;
 
         const name = slackUserName(user) || candidate.userRealName || candidate.userName;
@@ -229,7 +250,8 @@ async function registerSlackUsersFromMessages(employees, messages) {
     return {
         createdCount,
         updatedCount,
-        changedCount: createdCount + updatedCount
+        changedCount: createdCount + updatedCount,
+        userProfilesByKey
     };
 }
 
@@ -238,6 +260,7 @@ function collectSlackUserCandidates(messages, knownSlackIds) {
     for (const message of messages) {
         const userId = message.user;
         if (!userId || knownSlackIds.has(userId)) continue;
+        if (!/^[UW][A-Z0-9]+$/.test(userId)) continue;
 
         const workspace = message.workspace === 'secondary' ? 'secondary' : 'primary';
         const key = `${workspace}:${userId}`;
@@ -253,6 +276,37 @@ function collectSlackUserCandidates(messages, knownSlackIds) {
         byUser.set(key, current);
     }
     return [...byUser.values()];
+}
+
+function enrichSlackMessageAuthors(messages, employees, userProfilesByKey = new Map()) {
+    const nameByKey = new Map();
+    const realNameByKey = new Map();
+
+    for (const employee of employees) {
+        if (employee.slack_id) {
+            nameByKey.set(`primary:${employee.slack_id}`, employee.name);
+        }
+        if (employee.slack_id_2) {
+            nameByKey.set(`secondary:${employee.slack_id_2}`, employee.name);
+        }
+    }
+
+    for (const [key, user] of userProfilesByKey.entries()) {
+        const name = slackUserName(user);
+        if (name) nameByKey.set(key, name);
+        const realName = user.real_name || user.profile?.real_name || '';
+        if (realName) realNameByKey.set(key, realName);
+    }
+
+    return messages.map((message) => {
+        const workspace = message.workspace === 'secondary' ? 'secondary' : 'primary';
+        const key = `${workspace}:${message.user}`;
+        return {
+            ...message,
+            userName: message.userName || nameByKey.get(key) || message.user || '',
+            userRealName: message.userRealName || realNameByKey.get(key) || nameByKey.get(key) || ''
+        };
+    });
 }
 
 function slackUserName(user) {
