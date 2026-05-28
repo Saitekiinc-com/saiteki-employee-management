@@ -1,9 +1,6 @@
-name: Periodic Slack Sync
+name: Manual Full Slack Sync
 
 on:
-  schedule:
-    # 毎週月曜日の午前9時 (JST) = UTC 0:00
-    - cron: '0 0 * * 1'
   workflow_dispatch:
     inputs:
       full_sync:
