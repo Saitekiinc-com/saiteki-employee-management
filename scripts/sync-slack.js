@@ -24,21 +24,11 @@ const ENDPOINT_ID = process.env.GCP_ENDPOINT_ID;
 // Parse command line arguments
 const args = process.argv.slice(2);
 const IS_FULL_SYNC = args.includes('--full');
-const PROFILE_ANALYSIS_MODE = optionValue('profile-analysis') || process.env.SLACK_PROFILE_ANALYSIS || 'all';
-const SHOULD_ANALYZE_PROFILES = PROFILE_ANALYSIS_MODE !== 'none';
 
 
 async function main() {
-    if (!['all', 'none'].includes(PROFILE_ANALYSIS_MODE)) {
-        console.error('Invalid --profile-analysis value. Use "all" or "none".');
-        process.exit(1);
-    }
-
-    if (!SLACK_TOKEN || CHANNEL_IDS.length === 0 || (SHOULD_ANALYZE_PROFILES && (!API_KEY || !PROJECT_ID))) {
-        const required = SHOULD_ANALYZE_PROFILES
-            ? 'SLACK_BOT_TOKEN, SLACK_CHANNEL_ID, GEMINI_API_KEY, GCP_PROJECT_ID'
-            : 'SLACK_BOT_TOKEN, SLACK_CHANNEL_ID';
-        console.error(`Missing required environment variables: ${required}`);
+    if (!SLACK_TOKEN || CHANNEL_IDS.length === 0 || !API_KEY || !PROJECT_ID) {
+        console.error('Missing required environment variables: SLACK_BOT_TOKEN, SLACK_CHANNEL_ID, GEMINI_API_KEY, GCP_PROJECT_ID');
         process.exit(1);
     }
 
@@ -54,7 +44,6 @@ async function main() {
     const employees = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
 
     console.log(`Starting sync... Full Mode: ${IS_FULL_SYNC}`);
-    console.log(`Profile analysis mode: ${PROFILE_ANALYSIS_MODE}`);
     console.log(`Target Channels: ${CHANNEL_IDS.join(', ')}`);
 
     // Fetch messages from ALL channels (Primary Workspace)
@@ -105,17 +94,6 @@ async function main() {
     const registration = await registerSlackUsersFromMessages(employees, mergedSlackMessages);
     if (registration.changedCount > 0) {
         console.log(`Registered ${registration.createdCount} new Slack users and updated ${registration.updatedCount} existing employees from Slack messages.`);
-    }
-
-    if (!SHOULD_ANALYZE_PROFILES) {
-        if (registration.changedCount > 0) {
-            fs.writeFileSync(DATA_FILE, JSON.stringify(employees, null, 2));
-            console.log(`Saved ${registration.changedCount} Slack user registrations to ${DATA_FILE}.`);
-            generateTeamDoc(employees);
-        } else {
-            console.log('Profile analysis skipped and no employee registrations were needed.');
-        }
-        return;
     }
 
     const targetEmployees = employees.filter(e => e.isActive !== false && (e.slack_id || e.slack_id_2));
@@ -199,14 +177,6 @@ async function main() {
     }
 }
 
-function optionValue(name) {
-    const prefix = `--${name}=`;
-    const inline = args.find(argument => argument.startsWith(prefix));
-    if (inline) return inline.slice(prefix.length);
-    const index = args.indexOf(`--${name}`);
-    return index >= 0 ? args[index + 1] : '';
-}
-
 async function registerSlackUsersFromMessages(employees, messages) {
     const knownSlackIds = new Set(employees.flatMap(e => [e.slack_id, e.slack_id_2]).filter(Boolean));
     const employeeByName = new Map(employees.map(employee => [normalizeEmployeeName(employee.name), employee]));
@@ -268,7 +238,6 @@ function collectSlackUserCandidates(messages, knownSlackIds) {
     for (const message of messages) {
         const userId = message.user;
         if (!userId || knownSlackIds.has(userId)) continue;
-        if (!/^[UW][A-Z0-9]+$/.test(userId)) continue;
 
         const workspace = message.workspace === 'secondary' ? 'secondary' : 'primary';
         const key = `${workspace}:${userId}`;
