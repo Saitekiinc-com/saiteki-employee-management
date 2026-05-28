@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-05-28T12:15:39.037Z",
+  "generatedAt": "2026-05-28T12:23:13.084Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"

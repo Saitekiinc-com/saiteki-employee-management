@@ -1,6 +1,6 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-05-28T12:18:02.333Z",
+  "generatedAt": "2026-05-28T12:23:13.802Z",
   "channelCount": 9,
   "totalMessages": 1715,
   "channels": [
