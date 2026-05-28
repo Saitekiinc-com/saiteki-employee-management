@@ -1,0 +1,61 @@
+name: Lightweight Slack Reflect
+
+on:
+  workflow_dispatch:
+    inputs:
+      full_sync:
+        description: '全期間の履歴を取得しますか？'
+        type: boolean
+        default: false
+
+jobs:
+  reflect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync Slack Users and Messages
+        run: |
+          if [ "${{ github.event.inputs.full_sync }}" = "true" ]; then
+            node scripts/sync-slack.js --full --profile-analysis=none
+          else
+            node scripts/sync-slack.js --profile-analysis=none
+          fi
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN || secrets.SLACK_APP_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          SLACK_BOT_TOKEN_2: ${{ secrets.SLACK_BOT_TOKEN_2 }}
+          SLACK_CHANNEL_ID_2: ${{ secrets.SLACK_CHANNEL_ID_2 }}
+
+      - name: Build Message Search Index
+        run: npm run build:message-search-index
+
+      - name: Embed Message Search Index
+        run: npm run embed:message-search-index
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Build Slack Export Pages
+        run: npm run build:slack-export-pages
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/employees.json data/slack-messages.jsonl data/message-search-index.json data/message-search-index.embedded.json docs/TEAM.md docs/slack-export
+          if git diff --staged --quiet; then
+            echo "No lightweight Slack reflection changes to commit"
+          else
+            git commit -m "Auto: Reflect Slack users and messages"
+            git push
+          fi
