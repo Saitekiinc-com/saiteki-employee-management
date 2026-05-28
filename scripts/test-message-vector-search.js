@@ -76,6 +76,17 @@ async function main() {
         detailBullets: ['休日はポケモンのゲームとポケカをしています'],
         quotes: [{ text: '休日はポケモンのゲームとポケカをしています' }],
         embedding: { vector: [0, 1] }
+      },
+      {
+        '@id': 'search-message:vector-only-unrelated',
+        personName: '無関係 次郎',
+        semanticType: 'slack_message',
+        relationLabel: 'Slack発言: 雑談',
+        topicLabel: '雑談',
+        searchText: '皆様ありがとうございます！',
+        detailBullets: ['皆様ありがとうございます！'],
+        quotes: [{ text: '皆様ありがとうございます！' }],
+        embedding: { vector: [1, 0] }
       }
     ]
   };
@@ -89,6 +100,10 @@ async function main() {
     topUnits: 10
   });
   assert.strictEqual(lexicalOnly[0]?.employeeName, '本文一致 太郎', 'message text matches should survive even when vector similarity is weak');
+  assert(
+    !lexicalOnly.some((result) => result.employeeName === '無関係 次郎'),
+    'message vector search should drop vector-near results when the message body has no query evidence'
+  );
 
   console.log('message vector search OK');
 }

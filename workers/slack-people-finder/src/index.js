@@ -16,6 +16,50 @@ const DEFAULT_EMBEDDING_DIMENSIONS = 768;
 const DEFAULT_RERANK_MODEL = 'gemini-2.0-flash';
 const DEFAULT_MESSAGE_VIEWER_URL = 'https://saitekiinc-com.github.io/saiteki-employee-management/slack-export/';
 
+const QUERY_EVIDENCE_ALIASES = {
+  qa: ['品質保証'],
+  品質保証: ['qa'],
+  ポケモン: [
+    'pokemon',
+    'pokémon',
+    'ポケカ',
+    'ピカチュウ',
+    'アチャモ',
+    'バシャーモ',
+    'ポッチャマ',
+    'ヒノアラシ',
+    'ダイパ',
+    'ルビサファ',
+    'テンガン山',
+    'テッカニン',
+    'ドダイトス'
+  ],
+  ポケカ: ['ポケモン', 'pokemon', 'pokémon'],
+  pokemon: ['ポケモン', 'ポケカ', 'pokémon'],
+  pokémon: ['ポケモン', 'ポケカ', 'pokemon'],
+  セキュリティ: ['security', '情報セキュリティ', '脆弱性', 'csirt', 'siem', 'ゼロトラスト']
+};
+
+const QUERY_EVIDENCE_STOP_TERMS = new Set([
+  'こと',
+  'もの',
+  'できる',
+  '詳しい',
+  '仕事',
+  '相談',
+  '社員',
+  '興味',
+  '人柄',
+  '好き',
+  '趣味',
+  '休日',
+  '最近',
+  '話せる',
+  '探し',
+  '教えて',
+  'エンジニア'
+]);
+
 const INTENT_RANK = {
   direct: 4,
   adjacent: 3,
@@ -615,6 +659,7 @@ async function searchVectorIndex(env, index, query, options = {}) {
   ensureEmbeddedIndex(index);
 
   const queryText = stripQueryHelpers(query) || normalizeText(query);
+  const evidenceTerms = queryEvidenceTerms(queryText);
   const queryVector = await embedQuery(env, queryText, index.embedding?.model, firstVectorDimensions(index));
   const threshold = parseNumber(options.threshold, DEFAULT_VECTOR_THRESHOLD);
   const topUnits = parseNumber(env.PEOPLE_FINDER_VECTOR_TOP_UNITS, DEFAULT_TOP_UNITS);
@@ -623,6 +668,7 @@ async function searchVectorIndex(env, index, query, options = {}) {
 
   const scoredUnits = graph
     .filter((unit) => !uiCategory || !unit.uiCategory || unit.uiCategory === uiCategory)
+    .filter((unit) => unitHasQueryEvidence(unit, evidenceTerms))
     .map((unit) => ({
       unit,
       score: cosineVectorSimilarity(queryVector, unitVector(unit)) + lexicalLabelBoost(unit, queryText)
@@ -691,6 +737,50 @@ function lexicalLabelBoost(unit, queryText) {
   const weight = unit.semanticType === 'slack_message' ? 0.09 : 0.06;
   const cap = unit.semanticType === 'slack_message' ? 0.24 : 0.18;
   return Math.min(matched * weight, cap);
+}
+
+function queryEvidenceTerms(queryText) {
+  const normalized = normalizeText(queryText);
+  if (!normalized) return [];
+
+  const terms = [];
+  for (const term of normalized.split(/\s+/)) {
+    if (isUsefulEvidenceTerm(term)) terms.push(term);
+  }
+
+  for (const term of normalized.match(/[a-z0-9+#.]{2,}/g) || []) {
+    if (isUsefulEvidenceTerm(term)) terms.push(term);
+  }
+
+  for (const [term, aliases] of Object.entries(QUERY_EVIDENCE_ALIASES)) {
+    if (!normalized.includes(normalizeText(term))) continue;
+    terms.push(normalizeText(term));
+    terms.push(...aliases.map(normalizeText));
+  }
+
+  return [...new Set(terms.filter(Boolean))];
+}
+
+function isUsefulEvidenceTerm(term) {
+  const normalized = normalizeText(term);
+  return normalized.length >= 2 && !QUERY_EVIDENCE_STOP_TERMS.has(normalized);
+}
+
+function unitHasQueryEvidence(unit, evidenceTerms) {
+  if (unit.semanticType !== 'slack_message' || evidenceTerms.length === 0) return true;
+  const text = unitEvidenceText(unit);
+  return evidenceTerms.some((term) => text.includes(term));
+}
+
+function unitEvidenceText(unit) {
+  return normalizeText([
+    unit.searchText,
+    unit.relationLabel,
+    unit.topicLabel,
+    ...(unit.topicAliases || []),
+    ...(unit.detailBullets || []),
+    ...(unit.quotes || []).map((quote) => quote.text)
+  ].filter(Boolean).join(' '));
 }
 
 function aggregateVectorUnits(scoredUnits, threshold) {
