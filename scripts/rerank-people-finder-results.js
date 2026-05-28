@@ -54,7 +54,12 @@ function buildRerankPrompt(query, results) {
 - 根拠にない推測はしない
 - 「QAエンジニア」のような職種検索では、AI、エンジニア、影響力だけの候補は reject または weak
 - 「ポケモン」のような趣味検索では、具体的な接点がある候補を direct
-- selectedReasonUnitIds は判定根拠に使ったunitIdだけを入れる
+- Slackメッセージ検索では、候補内の実発言・引用・具体メモだけを根拠にする
+- クエリ語の言い換え、同義語、関連する固有名詞は考慮してよい
+- ただし、実発言がクエリの主題を支えていない場合は、ベクトルscoreが高くても reject
+- 挨拶、日程、ありがとう、かわいい等の汎用雑談だけで主題が根拠文にない場合は reject
+- evidenceSupported は、選んだ根拠だけでクエリに答えられる場合だけ true
+- selectedReasonUnitIds は判定根拠に使ったunitIdだけを入れる。Slackメッセージ検索では最低1件必須
 - JSONだけを返す
 
 出力形式:
@@ -65,7 +70,8 @@ function buildRerankPrompt(query, results) {
       "intentFit": "direct",
       "confidence": 0.9,
       "reason": "短い理由",
-      "selectedReasonUnitIds": ["search-unit:..."]
+      "evidenceSupported": true,
+      "selectedReasonUnitIds": ["提示されたunitId"]
     }
   ]
 }
@@ -144,6 +150,7 @@ function localDecision(query, result) {
       intentFit: matched ? 'direct' : 'reject',
       confidence: matched ? 0.9 : 0.1,
       reason: matched ? 'ポケモンまたはポケカへの具体的な接点がある' : 'ポケモン文脈の根拠がない',
+      evidenceSupported: matched,
       selectedReasonUnitIds: matchedIds
     };
   }
@@ -164,6 +171,7 @@ function localDecision(query, result) {
         : adjacent
           ? 'テストや検証の経験に近い根拠がある'
           : 'QAやテストに直接つながる根拠が弱い',
+      evidenceSupported: direct || adjacent,
       selectedReasonUnitIds: direct ? directIds : adjacentIds
     };
   }
@@ -175,6 +183,7 @@ function localDecision(query, result) {
     intentFit: matched ? 'direct' : 'weak',
     confidence: matched ? 0.72 : 0.35,
     reason: matched ? '検索語に対応する根拠がある' : 'ベクトル類似はあるが明示的な根拠は弱い',
+    evidenceSupported: matched,
     selectedReasonUnitIds: firstMatchingReasonIds(result, queryTerms)
   };
 }
@@ -207,12 +216,20 @@ function applyDecisions(results, decisions, options = {}) {
       const selectedReasons = selectedIds.size > 0
         ? result.reasons.filter((reason) => selectedIds.has(reason.unitId))
         : result.reasons;
+      const slackMessageResult = isSlackMessageResult(result);
+      if (slackMessageResult && (decision.evidenceSupported === false || selectedIds.size === 0 || selectedReasons.length === 0)) {
+        return null;
+      }
+      const selectedQuotes = selectedIds.size > 0
+        ? filterQuotesByReasonIds(result.quotes || [], selectedIds)
+        : result.quotes;
       return {
         ...result,
         intentFit: decision.intentFit,
         rerankConfidence: decision.confidence,
         rerankReason: decision.reason,
-        reasons: selectedReasons.length > 0 ? selectedReasons : result.reasons
+        reasons: selectedReasons.length > 0 ? selectedReasons : result.reasons,
+        quotes: slackMessageResult ? selectedQuotes : (selectedQuotes || result.quotes)
       };
     })
     .filter(Boolean)
@@ -222,6 +239,28 @@ function applyDecisions(results, decisions, options = {}) {
       if (rankDiff !== 0) return rankDiff;
       return (b.rerankConfidence || 0) - (a.rerankConfidence || 0) || b.score - a.score;
     });
+}
+
+function isSlackMessageResult(result) {
+  return (result.reasons || []).some((reason) => reason.semanticType === 'slack_message');
+}
+
+function filterQuotesByReasonIds(quotes, selectedIds) {
+  const normalizedIds = new Set([...selectedIds].map(normalizeEvidenceId).filter(Boolean));
+  return (quotes || []).filter((quote) => {
+    const ids = [
+      quote.unitId,
+      quote.messageId
+    ].map(normalizeEvidenceId);
+    return ids.some((id) => normalizedIds.has(id));
+  });
+}
+
+function normalizeEvidenceId(value) {
+  return String(value || '')
+    .replace(/^search-message:/, '')
+    .replace(/^message:/, '')
+    .trim();
 }
 
 async function rerankPeopleResults(query, results, reranker, options = {}) {
