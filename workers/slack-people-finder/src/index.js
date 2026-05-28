@@ -348,7 +348,7 @@ async function searchPeopleAnswer(env, query, categoryResolution) {
         })
       };
     } catch (error) {
-      console.error('People answer generation failed', error);
+      console.error('People answer generation failed', answerGenerationErrorDetails(error));
       return {
         blocks: answerMessageBlocks({
           query,
@@ -1277,23 +1277,103 @@ function defaultRejectEvidence(relationIntent) {
 
 async function generatePeopleAnswer(env, query, category, plan, candidates) {
   const model = env.GEMINI_RERANK_MODEL || DEFAULT_RERANK_MODEL;
-  const data = await callGemini(env, model, 'generateContent', {
-    contents: [
-      {
-        role: 'user',
-        parts: [{ text: buildAnswerPrompt(query, category, plan, candidates) }]
-      }
-    ],
-    generationConfig: {
-      temperature: 0,
-      responseMimeType: 'application/json'
-    }
-  });
-  const parsed = parseJsonText(geminiText(data));
-  return {
-    answer: String(parsed.answer || '').trim() || '回答を生成できませんでした。',
-    selected: Array.isArray(parsed.selected) ? parsed.selected : []
+  const prompt = buildAnswerPrompt(query, category, plan, candidates);
+  const startedAt = Date.now();
+  const baseDiagnostics = {
+    model,
+    category,
+    relationIntent: plan?.relationIntent || '',
+    candidateCount: candidates.length,
+    promptChars: prompt.length
   };
+  console.log('People answer generation started', baseDiagnostics);
+
+  let data;
+  try {
+    data = await callGemini(env, model, 'generateContent', {
+      contents: [
+        {
+          role: 'user',
+          parts: [{ text: prompt }]
+        }
+      ],
+      generationConfig: {
+        temperature: 0,
+        responseMimeType: 'application/json'
+      }
+    });
+  } catch (error) {
+    throw attachAnswerDiagnostics(error, {
+      ...baseDiagnostics,
+      stage: 'gemini_generate_content',
+      elapsedMs: Date.now() - startedAt
+    });
+  }
+
+  const text = geminiText(data);
+  let parsed;
+  try {
+    parsed = parseJsonText(text);
+  } catch (error) {
+    throw attachAnswerDiagnostics(error, {
+      ...baseDiagnostics,
+      stage: 'parse_json',
+      elapsedMs: Date.now() - startedAt,
+      responseChars: text.length,
+      finishReasons: geminiFinishReasons(data)
+    });
+  }
+
+  const answer = String(parsed.answer || '').trim();
+  const selected = Array.isArray(parsed.selected) ? parsed.selected : [];
+  if (!answer) {
+    console.warn('People answer generation returned empty answer', {
+      ...baseDiagnostics,
+      stage: 'empty_answer',
+      elapsedMs: Date.now() - startedAt,
+      responseChars: text.length,
+      selectedCount: selected.length,
+      finishReasons: geminiFinishReasons(data)
+    });
+  } else {
+    console.log('People answer generation completed', {
+      ...baseDiagnostics,
+      elapsedMs: Date.now() - startedAt,
+      responseChars: text.length,
+      answerChars: answer.length,
+      selectedCount: selected.length,
+      finishReasons: geminiFinishReasons(data)
+    });
+  }
+
+  return {
+    answer: answer || '回答を生成できませんでした。',
+    selected
+  };
+}
+
+function attachAnswerDiagnostics(error, diagnostics) {
+  if (error && typeof error === 'object') {
+    error.answerDiagnostics = {
+      ...(error.answerDiagnostics || {}),
+      ...diagnostics
+    };
+  }
+  return error;
+}
+
+function answerGenerationErrorDetails(error) {
+  return {
+    name: error?.name || 'Error',
+    message: truncate(error?.message || String(error), 500),
+    ...(error?.answerDiagnostics || {})
+  };
+}
+
+function geminiFinishReasons(data) {
+  return (data?.candidates || [])
+    .map((candidate) => candidate.finishReason)
+    .filter(Boolean);
 }
 
 function buildAnswerPrompt(query, category, plan, candidates) {
