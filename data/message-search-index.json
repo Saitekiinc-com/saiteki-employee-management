@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-05-27T16:42:47.712Z",
+  "generatedAt": "2026-05-28T00:51:45.927Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -2712,6 +2712,74 @@
       "searchText": "素晴らしすぎます！ プレスリリースの投資家コメントの部分、今日の戸塚さんのXポスト (添付画像) に対応する部分かと思います。 プロの投資家の意見は、これから時代がどういう方向に向かうのか？を示すものだと思いますので、我々エンジニアも強く意識する必要があると思います。\nソーシャル\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1762684874.531759",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1762684874.531759",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1762684874.531759",
+      "timestamp": "2025-11-09T10:41:14.531Z",
+      "detailBullets": [
+        "4月入社の永井です。 湖国の民です。よろしくお願いいたします。 ■出身地: 三重（現在は滋賀在住） ■経歴: テスター、業務保守業務、PMO業務にも携わってきました。 中小企業の社内SEやエンドユーザー向けサポートも行ってきたため、ITリテラシーの低い方々への説明やサポートは得意です。 ■最近の趣味・休日の過ごし方、他 ゲームのチャットで、友人たちと深夜までやり取りしてます。 性別年齢出身地不詳キャラでプレイしたかったのですが、意外とすぐバレてしまうものですね…。 運動はあまり得意ではありませんが、健康管理のために週1回のジムには必ず通うようにしています。 毎回、行くまでにグズつきますが、何とか続けています。 鳥人間好きです。 7月末、各地の鳥人間たちが琵琶湖に遡上してくるとワクワクします。 毎年現地観戦してましたが、最近は暑すぎて自宅でYouTube中継に切り替えました。 普段はYouTubeをあまり観ませんが、7月最終週の土日に行われる鳥人間生中継は毎年必ず観ます。 鳥人間だけはテレビ放映よりYouTubeです。 あ！会社関連の動画も観ますよォ。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1762684874.531759",
+          "text": "4月入社の永井です。 湖国の民です。よろしくお願いいたします。 ■出身地: 三重（現在は滋賀在住） ■経歴: テスター、業務保守業務、PMO業務にも携わってきました。 中小企業の社内SEやエンドユーザー向けサポートも行ってきたため、ITリテラシーの低い方々への説明やサポートは得意です。 ■最近の趣味・休日の過ごし方、他 ゲームのチャットで、友人たちと深夜までやり取りしてます。 性別年齢出身地不詳キャラでプレイしたかったのですが、意外とすぐバレてしまうものですね…。 運動はあまり得意ではありませんが、健康管理のために週1回のジムには必ず通うようにしています。 毎回、行くまでにグズつきますが、何とか続けています。 鳥人間好きです。 7月末、各地の鳥人間たちが琵琶湖に遡上してくるとワクワクします。 毎年現地観戦してましたが、最近は暑すぎて自宅でYouTube中継に切り替えました。 普段はYouTubeをあまり観ませんが、7月最終週の土日に行われる鳥人間生中継は毎年必ず観ます。 鳥人間だけはテレビ放映よりYouTubeです。 あ！会社関連の動画も観ますよォ。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1762684874.531759",
+          "threadTs": "1762684874.531759",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "4月入社の永井です。 湖国の民です。よろしくお願いいたします。 ■出身地: 三重（現在は滋賀在住） ■経歴: テスター、業務保守業務、PMO業務にも携わってきました。 中小企業の社内SEやエンドユーザー向けサポートも行ってきたため、ITリテラシーの低い方々への説明やサポートは得意です。 ■最近の趣味・休日の過ごし方、他 ゲームのチャットで、友人たちと深夜までやり取りしてます。 性別年齢出身地不詳キャラでプレイしたかったのですが、意外とすぐバレてしまうものですね…。 運動はあまり得意ではありませんが、健康管理のために週1回のジムには必ず通うようにしています。 毎回、行くまでにグズつきますが、何とか続けています。 鳥人間好きです。 7月末、各地の鳥人間たちが琵琶湖に遡上してくるとワクワクします。 毎年現地観戦してましたが、最近は暑すぎて自宅でYouTube中継に切り替えました。 普段はYouTubeをあまり観ませんが、7月最終週の土日に行われる鳥人間生中継は毎年必ず観ます。 鳥人間だけはテレビ放映よりYouTubeです。 あ！会社関連の動画も観ますよォ。\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1762685107.716689",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1762685107.716689",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1762685107.716689",
+      "timestamp": "2025-11-09T10:45:07.716Z",
+      "detailBullets": [
+        "・・・自己紹介欄、掲載されてる方少ないじゃないですか。 まずはお手本が必要かと。 社長、取締役、期待しています:laughing: @戸塚直道 @鈴木悠斗"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1762685107.716689",
+          "text": "・・・自己紹介欄、掲載されてる方少ないじゃないですか。 まずはお手本が必要かと。 社長、取締役、期待しています:laughing: @戸塚直道 @鈴木悠斗",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1762685107.716689",
+          "threadTs": "1762685107.716689",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "・・・自己紹介欄、掲載されてる方少ないじゃないですか。 まずはお手本が必要かと。 社長、取締役、期待しています:laughing: @戸塚直道 @鈴木悠斗\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1762688455.180679",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -2887,6 +2955,40 @@
       "searchText": "@永井 週1のジム素晴らしいですね:joy: 葛藤しなが、ちゃんと行くの流石です:laughing:\n自己紹介\n経営"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1762693270.819909",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1762693270.819909",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1762693270.819909",
+      "timestamp": "2025-11-09T13:01:10.819Z",
+      "detailBullets": [
+        "@青木淳一郎 よろしくお願いいたします。 青木さんがしょっぱなに自己紹介して下さてるので助かりました。 佐賀:sparkles: いつかバルーンフェスタに行ってみたいです。 福岡も良いところですよね。 同じ西日本勢です。共に頑張りましょう:muscle:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1762693270.819909",
+          "text": "@青木淳一郎 よろしくお願いいたします。 青木さんがしょっぱなに自己紹介して下さてるので助かりました。 佐賀:sparkles: いつかバルーンフェスタに行ってみたいです。 福岡も良いところですよね。 同じ西日本勢です。共に頑張りましょう:muscle:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1762693270.819909",
+          "threadTs": "1762130432.688849",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@青木淳一郎 よろしくお願いいたします。 青木さんがしょっぱなに自己紹介して下さてるので助かりました。 佐賀:sparkles: いつかバルーンフェスタに行ってみたいです。 福岡も良いところですよね。 同じ西日本勢です。共に頑張りましょう:muscle:\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1762696554.977159",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:鈴木悠斗",
@@ -2920,6 +3022,74 @@
         }
       ],
       "searchText": "2025年6月に取締役副社長兼COOとして入社した鈴木です:technologist::skin-tone-2: 自己紹介投稿します:bangbang: ▪︎出身地：神奈川県川崎市 (サッカー日本代表に選ばれた、三笘薫と田中碧と同じ小学校です:soccer:) ▪︎これまでやってきたこと 中学→野球部:baseball:(3年間坊主でした:bald_man::skin-tone-2:) 高校→マクドナルドでアルバイト:fries: 1社目→マクドナルドで店長補佐:hamburger: 2社目→SES営業部立ち上げ、売上7.2億まで拡大 3社目→執行役員として営業責任者を務める。またインフラ・セキュリティエンジニアとして、現場に参画。2年半ほどPJを経験し、大規模PJのPLを務めた。 戸塚さんとは元々取引先として知り合い、やり取りする過程で意気投合しました。 2025年3月ごろに、一緒に働いて欲しいと言われ、6月に入社しました。 営業としては10年以上経験がありますが、経営者としては見習いです。 会社と共に私も成長していきますので、皆様よろしくお願いします:bangbang: ▪︎最近ハマっていること： キングダムのアニメを観る事:crossed_swords: とにかく熱いっすね、やっぱり嬴政が好きですね:crown: ▪︎休日の過ごし方：家族と買い物:shopping_trolley:、仕事:technologist::skin-tone-2: ▪︎好きな食べ物or趣味：寿司:sushi:、家系ラーメン:ramen:、動画鑑賞:arrow_forward:、ゴルフ:golf:、サウナ:man_in_steamy_room: ▪︎ひとこと：皆さんが幸せになれるよう、全力で事業に取り組みます:bangbang:\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1762698194.702609",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1762698194.702609",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1762698194.702609",
+      "timestamp": "2025-11-09T14:23:14.702Z",
+      "detailBullets": [
+        "ストイックすぎる...:innocent:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1762698194.702609",
+          "text": "ストイックすぎる...:innocent:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1762698194.702609",
+          "threadTs": "1762691774.461429",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "ストイックすぎる...:innocent:\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1762698622.300109",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1762698622.300109",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1762698622.300109",
+      "timestamp": "2025-11-09T14:30:22.300Z",
+      "detailBullets": [
+        "キングダム面白いですね。シンが王騎将軍に崖から突き落とされるところまでは読みました:book:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1762698622.300109",
+          "text": "キングダム面白いですね。シンが王騎将軍に崖から突き落とされるところまでは読みました:book:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1762698622.300109",
+          "threadTs": "1762696554.977159",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "キングダム面白いですね。シンが王騎将軍に崖から突き落とされるところまでは読みました:book:\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09Q46YA4ER:1762727014.153609",
@@ -5957,6 +6127,74 @@
       "searchText": "@鈴木悠斗 ワインは妻が飲んでますw この店に行く時は、僕は完全にもてなす側ですねえ。笑 子供が小さいとピザ食べる頻度めっちゃ増えますよね。笑 うちは日本ハムとかから出てるものとか、毎週のようにピザ食べてますw\nソーシャル\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1763299634.654749",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1763299634.654749",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1763299634.654749",
+      "timestamp": "2025-11-16T13:27:14.654Z",
+      "detailBullets": [
+        "@田浦裕樹 さん はじめまして。 噂の関西の社員さんですか！ どうぞよろしくお願いいたします。 関西勢頑張っていきましょう:muscle: 鳥人間、当初はそうなんですよね。仮装して落ちる大会だったようですね。 対岸にたどり着いたあたりからスゴイ大会になっていきました。 現在は69kmが最長飛距離です。（人力部門）"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1763299634.654749",
+          "text": "@田浦裕樹 さん はじめまして。 噂の関西の社員さんですか！ どうぞよろしくお願いいたします。 関西勢頑張っていきましょう:muscle: 鳥人間、当初はそうなんですよね。仮装して落ちる大会だったようですね。 対岸にたどり着いたあたりからスゴイ大会になっていきました。 現在は69kmが最長飛距離です。（人力部門）",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1763299634.654749",
+          "threadTs": "1762684874.531759",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@田浦裕樹 さん はじめまして。 噂の関西の社員さんですか！ どうぞよろしくお願いいたします。 関西勢頑張っていきましょう:muscle: 鳥人間、当初はそうなんですよね。仮装して落ちる大会だったようですね。 対岸にたどり着いたあたりからスゴイ大会になっていきました。 現在は69kmが最長飛距離です。（人力部門）\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1763299831.196559",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1763299831.196559",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1763299831.196559",
+      "timestamp": "2025-11-16T13:30:31.196Z",
+      "detailBullets": [
+        "@杉本光一 さん 三重県人発見:eyes: 友達が名張なので、年に何回か、甲賀超えて伊賀超えて忍者の里を見つつ会いに行ってます。 もくもくファーム、美味しいですよね！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1763299831.196559",
+          "text": "@杉本光一 さん 三重県人発見:eyes: 友達が名張なので、年に何回か、甲賀超えて伊賀超えて忍者の里を見つつ会いに行ってます。 もくもくファーム、美味しいですよね！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1763299831.196559",
+          "threadTs": "1762684874.531759",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@杉本光一 さん 三重県人発見:eyes: 友達が名張なので、年に何回か、甲賀超えて伊賀超えて忍者の里を見つつ会いに行ってます。 もくもくファーム、美味しいですよね！\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1763301472.082649",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -8407,6 +8645,108 @@
       "searchText": "@杉本光一 僕はヤフオクで買った中古のレッツノートですw 僕も現行のMacがいいのかなあ、と思ってChatGPTにオススメを聞いたら、Lenovoのゲーミングノートを勧められましたw <https://www.lenovo.com/jp/ja/p/laptops/legion-laptops/legion-5-series/legion-pro-5-gen-10-16-inch-amd/len101g0041|https://www.lenovo.com/jp/ja/p/laptops/legion-laptops/legion-5-series/legion-pro-5-gen-10-16-inch-amd/len101g0041 ()\nソーシャル\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1763969309.959499",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1763969309.959499",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1763969309.959499",
+      "timestamp": "2025-11-24T07:28:29.959Z",
+      "detailBullets": [
+        "> この回、見ましたよ！ 見ましたか！！！ この伝説のチームが今、 ・パイロットはゲートオープンの旗振りで大会委員長 ・機体設計、製造した人が大会YouTubeの解説者 なのです。 他にも学校で指導者されてる方も居たり、鳥人間界隈では胸アツなチームですw"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1763969309.959499",
+          "text": "> この回、見ましたよ！ 見ましたか！！！ この伝説のチームが今、 ・パイロットはゲートオープンの旗振りで大会委員長 ・機体設計、製造した人が大会YouTubeの解説者 なのです。 他にも学校で指導者されてる方も居たり、鳥人間界隈では胸アツなチームですw",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1763969309.959499",
+          "threadTs": "1762684874.531759",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "> この回、見ましたよ！ 見ましたか！！！ この伝説のチームが今、 ・パイロットはゲートオープンの旗振りで大会委員長 ・機体設計、製造した人が大会YouTubeの解説者 なのです。 他にも学校で指導者されてる方も居たり、鳥人間界隈では胸アツなチームですw\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1763969844.727759",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1763969844.727759",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1763969844.727759",
+      "timestamp": "2025-11-24T07:37:24.727Z",
+      "detailBullets": [
+        "北陸の海鮮、最高ですよね。 回転寿司ですらレベチ！ また食べに行きたいです:drooling_face:（食べ物だけ反応しましたw）"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1763969844.727759",
+          "text": "北陸の海鮮、最高ですよね。 回転寿司ですらレベチ！ また食べに行きたいです:drooling_face:（食べ物だけ反応しましたw）",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1763969844.727759",
+          "threadTs": "1763792385.231639",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "北陸の海鮮、最高ですよね。 回転寿司ですらレベチ！ また食べに行きたいです:drooling_face:（食べ物だけ反応しましたw）\nソーシャル"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1763972045.056699",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1763972045.056699",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1763972045.056699",
+      "timestamp": "2025-11-24T08:14:05.056Z",
+      "detailBullets": [
+        "3連休、皆さんはどんなふうに過ごされましたか？ 我が家は、田舎の実家の柿の木の剪定をしていました。 柿の木は手の届くサイズにしておかないと、害獣や害鳥に狙われてしまうんです。 最近のニュースでも、クマが柿の木に上っているのをよく見かけますが、あれは放置された柿の木が原因。 そのため、上に伸びた枝を切り落として、木が大きくならないように整えてきました。 関西はクマ被害はあまり聞きませんけど、鹿やサルが来ますw ところで、柿の木にはこの時期ならではの風物詩、「モズのはやにえ」がありましたよ。 今年はバッタが刺さっていたんですが、以前はカエルも見かけましたよ。 ちょっとエグいので写真は控えますが、動物好きのお子さんがいる方は、ぜひググってみてください。 実際に見てみると、なかなか衝撃的ですw"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1763972045.056699",
+          "text": "3連休、皆さんはどんなふうに過ごされましたか？ 我が家は、田舎の実家の柿の木の剪定をしていました。 柿の木は手の届くサイズにしておかないと、害獣や害鳥に狙われてしまうんです。 最近のニュースでも、クマが柿の木に上っているのをよく見かけますが、あれは放置された柿の木が原因。 そのため、上に伸びた枝を切り落として、木が大きくならないように整えてきました。 関西はクマ被害はあまり聞きませんけど、鹿やサルが来ますw ところで、柿の木にはこの時期ならではの風物詩、「モズのはやにえ」がありましたよ。 今年はバッタが刺さっていたんですが、以前はカエルも見かけましたよ。 ちょっとエグいので写真は控えますが、動物好きのお子さんがいる方は、ぜひググってみてください。 実際に見てみると、なかなか衝撃的ですw",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1763972045.056699",
+          "threadTs": "1763972045.056699",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "3連休、皆さんはどんなふうに過ごされましたか？ 我が家は、田舎の実家の柿の木の剪定をしていました。 柿の木は手の届くサイズにしておかないと、害獣や害鳥に狙われてしまうんです。 最近のニュースでも、クマが柿の木に上っているのをよく見かけますが、あれは放置された柿の木が原因。 そのため、上に伸びた枝を切り落として、木が大きくならないように整えてきました。 関西はクマ被害はあまり聞きませんけど、鹿やサルが来ますw ところで、柿の木にはこの時期ならではの風物詩、「モズのはやにえ」がありましたよ。 今年はバッタが刺さっていたんですが、以前はカエルも見かけましたよ。 ちょっとエグいので写真は控えますが、動物好きのお子さんがいる方は、ぜひググってみてください。 実際に見てみると、なかなか衝撃的ですw\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1763974159.334559",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -9490,6 +9830,40 @@
         }
       ],
       "searchText": "@田浦裕樹 愛がありますよね、、ほんとありがたいっす！さっきまで鈴木さんの代打で交流会も出てきていて、相変わらず体力だけはバグっているなと思います笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1764167244.016589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1764167244.016589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1764167244.016589",
+      "timestamp": "2025-11-26T14:27:24.016Z",
+      "detailBullets": [
+        "@戸塚直道 3連休でしたよ..「休」×3ですよ...程よく休んでくださいね。 と言っても、アドレナリンが噴出してて休めなさそうですが:innocent: @上遼太郎 柿の木じゃなくても、細い枝にぶっさすので、もしかしたら近所の街路樹や公園の木でも見られるかも、です。 @鈴木悠斗 インフラははやると困りますが、インフルは猛威を振るってます。 あちこちで学級閉鎖って聞きます。お大事になさってください。 （MOZUめっちゃ観てました！西島さん、良き:star-struck:） @杉本光一 コクーンシティにららぽ、いいですね！充実した３連休:laughing: あったかグッズとかいいのありましたか？ @田浦裕樹 「はやにえ」という言葉はさすがに覚えてなくてググりましたw ふだん使わない言葉ですから、ここに記載する前に勉強しました。 「・・・餌」だっけ？とおぼろげに調べてたら、ひらがなで「はやにえ」でした。 @青木淳一郎 そちらもサル居ますか。 動物園で見るとかわいいのですが、野生は恐怖でしかありませんよね。 引掻かれるとか聞きますし:scream:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1764167244.016589",
+          "text": "@戸塚直道 3連休でしたよ..「休」×3ですよ...程よく休んでくださいね。 と言っても、アドレナリンが噴出してて休めなさそうですが:innocent: @上遼太郎 柿の木じゃなくても、細い枝にぶっさすので、もしかしたら近所の街路樹や公園の木でも見られるかも、です。 @鈴木悠斗 インフラははやると困りますが、インフルは猛威を振るってます。 あちこちで学級閉鎖って聞きます。お大事になさってください。 （MOZUめっちゃ観てました！西島さん、良き:star-struck:） @杉本光一 コクーンシティにららぽ、いいですね！充実した３連休:laughing: あったかグッズとかいいのありましたか？ @田浦裕樹 「はやにえ」という言葉はさすがに覚えてなくてググりましたw ふだん使わない言葉ですから、ここに記載する前に勉強しました。 「・・・餌」だっけ？とおぼろげに調べてたら、ひらがなで「はやにえ」でした。 @青木淳一郎 そちらもサル居ますか。 動物園で見るとかわいいのですが、野生は恐怖でしかありませんよね。 引掻かれるとか聞きますし:scream:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1764167244.016589",
+          "threadTs": "1763972045.056699",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@戸塚直道 3連休でしたよ..「休」×3ですよ...程よく休んでくださいね。 と言っても、アドレナリンが噴出してて休めなさそうですが:innocent: @上遼太郎 柿の木じゃなくても、細い枝にぶっさすので、もしかしたら近所の街路樹や公園の木でも見られるかも、です。 @鈴木悠斗 インフラははやると困りますが、インフルは猛威を振るってます。 あちこちで学級閉鎖って聞きます。お大事になさってください。 （MOZUめっちゃ観てました！西島さん、良き:star-struck:） @杉本光一 コクーンシティにららぽ、いいですね！充実した３連休:laughing: あったかグッズとかいいのありましたか？ @田浦裕樹 「はやにえ」という言葉はさすがに覚えてなくてググりましたw ふだん使わない言葉ですから、ここに記載する前に勉強しました。 「・・・餌」だっけ？とおぼろげに調べてたら、ひらがなで「はやにえ」でした。 @青木淳一郎 そちらもサル居ますか。 動物園で見るとかわいいのですが、野生は恐怖でしかありませんよね。 引掻かれるとか聞きますし:scream:\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09Q46YA4ER:1764167888.441039",
@@ -10646,6 +11020,108 @@
       "searchText": "@貴志雪乃 貴志さん、あらためてよろしくお願いします！これからどうぞよろしくお願いします:fire: Slackではエンジニア、本社メンバー分け隔てなく、同じ会社の仲間としてワイワイ会話できたらいいなと思っていますのでなんでも投稿してください！ @全員 皆さん、貴志さんは人事としてご入社してくださいます！私の採用業務の支援という形で、応募者対応など様々な業務をお願いしていく形になります:raised_hands: 10月から業務委託で関わっていただいていたのですが、即レスでしかも的を得たコメントをしてくださって、私の考えていることとかもすぐにキャッチアップしてくれるとても優秀な方です:writing_hand:\n自己紹介\n経営"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1764323194.777419",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1764323194.777419",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1764323194.777419",
+      "timestamp": "2025-11-28T09:46:34.777Z",
+      "detailBullets": [
+        "@貴志雪乃 ようこそ:sparkles: 関西勢が増えてきてうれしいです。 頑張っていきましょう！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1764323194.777419",
+          "text": "@貴志雪乃 ようこそ:sparkles: 関西勢が増えてきてうれしいです。 頑張っていきましょう！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1764323194.777419",
+          "threadTs": "1764314990.224019",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@貴志雪乃 ようこそ:sparkles: 関西勢が増えてきてうれしいです。 頑張っていきましょう！\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1764324439.362059",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1764324439.362059",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1764324439.362059",
+      "timestamp": "2025-11-28T10:07:19.362Z",
+      "detailBullets": [
+        "千切ってる...ﾋｨ:scream: 本を破るのは抵抗ある界隈です。 せめて裁断機とかカッターとか使いません？"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1764324439.362059",
+          "text": "千切ってる...ﾋｨ:scream: 本を破るのは抵抗ある界隈です。 せめて裁断機とかカッターとか使いません？",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1764324439.362059",
+          "threadTs": "1764283610.083429",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "千切ってる...ﾋｨ:scream: 本を破るのは抵抗ある界隈です。 せめて裁断機とかカッターとか使いません？\nソーシャル"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1764324567.061929",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1764324567.061929",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1764324567.061929",
+      "timestamp": "2025-11-28T10:09:27.061Z",
+      "detailBullets": [
+        "出社したら焼きそばパンがもらえる..と。 φ(..)メモメモ"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1764324567.061929",
+          "text": "出社したら焼きそばパンがもらえる..と。 φ(..)メモメモ",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1764324567.061929",
+          "threadTs": "1764289310.635369",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "出社したら焼きそばパンがもらえる..と。 φ(..)メモメモ\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1764324573.944179",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -10749,6 +11225,40 @@
         }
       ],
       "searchText": "カレーパンは私が買います:curry:\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1764325910.474429",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1764325910.474429",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1764325910.474429",
+      "timestamp": "2025-11-28T10:31:50.474Z",
+      "detailBullets": [
+        "以前、本の自炊ってのが流行った（？）のですが、されません？ 本を裁断して高速でPDF化するスキャナ、早い上に想像以上にきれいにPDF化されますよ。 前職で使用してました。（サーバーに社内書庫を置いてくれてました。） 皆で資料共有できて、PCで読めるから良かったです。 もちろん社外持ち出し禁止でしたけど。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1764325910.474429",
+          "text": "以前、本の自炊ってのが流行った（？）のですが、されません？ 本を裁断して高速でPDF化するスキャナ、早い上に想像以上にきれいにPDF化されますよ。 前職で使用してました。（サーバーに社内書庫を置いてくれてました。） 皆で資料共有できて、PCで読めるから良かったです。 もちろん社外持ち出し禁止でしたけど。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1764325910.474429",
+          "threadTs": "1764283610.083429",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "以前、本の自炊ってのが流行った（？）のですが、されません？ 本を裁断して高速でPDF化するスキャナ、早い上に想像以上にきれいにPDF化されますよ。 前職で使用してました。（サーバーに社内書庫を置いてくれてました。） 皆で資料共有できて、PCで読めるから良かったです。 もちろん社外持ち出し禁止でしたけど。\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1764326750.661779",
@@ -11027,6 +11537,40 @@
         }
       ],
       "searchText": "@貴志雪乃 はじめまして！エンジニアの杉本です:laughing: 親子で遊ぶ時間大切にされてる感じが素敵ですね:raised_hands: うちも６ヶ月ですが子供がいるので、会社を通しての交流とかがあればぜひ一緒に遊んでもらえるとうれしいです笑 今後ともよろしくお願いいたしますー！\n自己紹介\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1764421548.203789",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1764421548.203789",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1764421548.203789",
+      "timestamp": "2025-11-29T13:05:48.203Z",
+      "detailBullets": [
+        "何冊も自分のコレクションをタブレットで持ち運べるのは、繰り返し本を読む方には最適なのでは。 PDF化するまでが手間なのですけどね。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1764421548.203789",
+          "text": "何冊も自分のコレクションをタブレットで持ち運べるのは、繰り返し本を読む方には最適なのでは。 PDF化するまでが手間なのですけどね。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1764421548.203789",
+          "threadTs": "1764283610.083429",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "何冊も自分のコレクションをタブレットで持ち運べるのは、繰り返し本を読む方には最適なのでは。 PDF化するまでが手間なのですけどね。\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1764421586.587269",
@@ -14386,6 +14930,74 @@
       "searchText": "ネットワーク版はもってないや！わかりやすいよね:ok_hand: ぜひぜひ！\nオススメ本\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1765445103.621149",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1765445103.621149",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1765445103.621149",
+      "timestamp": "2025-12-11T09:25:03.621Z",
+      "detailBullets": [
+        "@田浦裕樹 お疲れ様です。 社長のXをちゃんとフォローしてるなんて、従業員の鑑すぎる！！！ 見習わなければ。 （と言ってフォローしませんw） いやー、この時間にパンの画像は、いけません。見てはいけません..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1765445103.621149",
+          "text": "@田浦裕樹 お疲れ様です。 社長のXをちゃんとフォローしてるなんて、従業員の鑑すぎる！！！ 見習わなければ。 （と言ってフォローしませんw） いやー、この時間にパンの画像は、いけません。見てはいけません...",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1765445103.621149",
+          "threadTs": "1765260673.017549",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@田浦裕樹 お疲れ様です。 社長のXをちゃんとフォローしてるなんて、従業員の鑑すぎる！！！ 見習わなければ。 （と言ってフォローしませんw） いやー、この時間にパンの画像は、いけません。見てはいけません...\nソーシャル"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1765448345.114769",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1765448345.114769",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1765448345.114769",
+      "timestamp": "2025-12-11T10:19:05.114Z",
+      "detailBullets": [
+        "戸塚さんがGeminiを褒めてたのでプライベートで使用してみましたが、Geminiいいですね！ 返してくる情報量の多さと、知りたい内容が、いい確率で返ってくるし提案も良いものを出します。 GPTしか使ってなかったのですが、GPTは、最近ようやく日本人らしい感覚の文章を作れるようになったなぁ、と思っていたところでした。最近まで帰国子女と話してるような感覚でしたw Geminiのほうがより日本語の理解度が深い気がしました。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1765448345.114769",
+          "text": "戸塚さんがGeminiを褒めてたのでプライベートで使用してみましたが、Geminiいいですね！ 返してくる情報量の多さと、知りたい内容が、いい確率で返ってくるし提案も良いものを出します。 GPTしか使ってなかったのですが、GPTは、最近ようやく日本人らしい感覚の文章を作れるようになったなぁ、と思っていたところでした。最近まで帰国子女と話してるような感覚でしたw Geminiのほうがより日本語の理解度が深い気がしました。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1765448345.114769",
+          "threadTs": "1764728726.193979",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "戸塚さんがGeminiを褒めてたのでプライベートで使用してみましたが、Geminiいいですね！ 返してくる情報量の多さと、知りたい内容が、いい確率で返ってくるし提案も良いものを出します。 GPTしか使ってなかったのですが、GPTは、最近ようやく日本人らしい感覚の文章を作れるようになったなぁ、と思っていたところでした。最近まで帰国子女と話してるような感覚でしたw Geminiのほうがより日本語の理解度が深い気がしました。\nai駆動開発ネタ"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1765457165.490089",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:田浦裕樹",
@@ -14839,6 +15451,40 @@
         }
       ],
       "searchText": "個人的には集英社に営業に行ってほしいw\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1765537300.709219",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1765537300.709219",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1765537300.709219",
+      "timestamp": "2025-12-12T11:01:40.709Z",
+      "detailBullets": [
+        "なんとタイムリーな！ そのうちミッキーと会話できるチャットが開発されるんだろうな... ディズニーシーのクラッシュとの会話がアプリでもできる！みたいな？"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1765537300.709219",
+          "text": "なんとタイムリーな！ そのうちミッキーと会話できるチャットが開発されるんだろうな... ディズニーシーのクラッシュとの会話がアプリでもできる！みたいな？",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1765537300.709219",
+          "threadTs": "1764728726.193979",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "なんとタイムリーな！ そのうちミッキーと会話できるチャットが開発されるんだろうな... ディズニーシーのクラッシュとの会話がアプリでもできる！みたいな？\nai駆動開発ネタ"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1765578230.174019",
@@ -16344,6 +16990,40 @@
       "searchText": "1月30日(金)19:30〜第2回の社内勉強会をオンラインで開催します！今回も「品質」がテーマとなります！！ メインパーソナリティは田浦さん、開米さん、小林さんです！任意参加ですが、ぜひ興味のある方はみなさん予定を空けておいてください:man-raising-hand:\nソーシャル\n経営"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1766310440.138139",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1766310440.138139",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1766310440.138139",
+      "timestamp": "2025-12-21T09:47:20.138Z",
+      "detailBullets": [
+        "まる子も終わりサザエさん時間の日曜の夕暮れ時。 本日は冬至なのでゆずが風呂にダイビング:bathtub: 鍋にカボチャも入れてみました。（文句は言わせねぇ） 社長のように言葉巧みにSNS投稿はできないので、静かなslackに定期的にネタをぶち込んでいこうと思います。 ひとまず宣言だけして今夜はM-1観戦:tv:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1766310440.138139",
+          "text": "まる子も終わりサザエさん時間の日曜の夕暮れ時。 本日は冬至なのでゆずが風呂にダイビング:bathtub: 鍋にカボチャも入れてみました。（文句は言わせねぇ） 社長のように言葉巧みにSNS投稿はできないので、静かなslackに定期的にネタをぶち込んでいこうと思います。 ひとまず宣言だけして今夜はM-1観戦:tv:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1766310440.138139",
+          "threadTs": "1766310440.138139",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "まる子も終わりサザエさん時間の日曜の夕暮れ時。 本日は冬至なのでゆずが風呂にダイビング:bathtub: 鍋にカボチャも入れてみました。（文句は言わせねぇ） 社長のように言葉巧みにSNS投稿はできないので、静かなslackに定期的にネタをぶち込んでいこうと思います。 ひとまず宣言だけして今夜はM-1観戦:tv:\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1766327159.246819",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:田浦裕樹",
@@ -16658,6 +17338,74 @@
       "searchText": "@貴志雪乃 貴志さん、シェアありがとうございます！ @田浦裕樹 @開米 敦則 @小林 翔 当日ご登壇よろしくお願いします:pray: @杉本光一 @上遼太郎 @永井 @青木淳一郎 @櫻井志保 ぜひ、予定合えばご参加ください:muscle:\nソーシャル\n経営"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1766502623.756349",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1766502623.756349",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1766502623.756349",
+      "timestamp": "2025-12-23T15:10:23.756Z",
+      "detailBullets": [
+        "香りは良かったです。 ただ、香りを出そうと思って半分に切ってネットに入れて浮かべてたのですが、網目が粗かったせいか、種も粒も浮いてる:weary:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1766502623.756349",
+          "text": "香りは良かったです。 ただ、香りを出そうと思って半分に切ってネットに入れて浮かべてたのですが、網目が粗かったせいか、種も粒も浮いてる:weary:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1766502623.756349",
+          "threadTs": "1766310440.138139",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "香りは良かったです。 ただ、香りを出そうと思って半分に切ってネットに入れて浮かべてたのですが、網目が粗かったせいか、種も粒も浮いてる:weary:\nソーシャル"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1766502983.746789",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1766502983.746789",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1766502983.746789",
+      "timestamp": "2025-12-23T15:16:23.746Z",
+      "detailBullets": [
+        "たまに変なリアクションがありますよね。 「たうりん」ってナニ？w"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1766502983.746789",
+          "text": "たまに変なリアクションがありますよね。 「たうりん」ってナニ？w",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1766502983.746789",
+          "threadTs": "1766402518.042529",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "たまに変なリアクションがありますよね。 「たうりん」ってナニ？w\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1766505497.441919",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:田浦裕樹",
@@ -16833,6 +17581,74 @@
       "searchText": "同志が5人カウンターに並んでいて、全員、大満足な表情で店を出て行きました！\nソーシャル\n経営"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1766583027.403549",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1766583027.403549",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1766583027.403549",
+      "timestamp": "2025-12-24T13:30:27.403Z",
+      "detailBullets": [
+        "@田浦裕樹 たうりん！！！ 思わず叫んでしまいましたw それは失礼しました。 てっきり、社長が:man-running:するときのサプリか何かだとw"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1766583027.403549",
+          "text": "@田浦裕樹 たうりん！！！ 思わず叫んでしまいましたw それは失礼しました。 てっきり、社長が:man-running:するときのサプリか何かだとw",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1766583027.403549",
+          "threadTs": "1766402518.042529",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@田浦裕樹 たうりん！！！ 思わず叫んでしまいましたw それは失礼しました。 てっきり、社長が:man-running:するときのサプリか何かだとw\nソーシャル"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1766583195.715209",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1766583195.715209",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1766583195.715209",
+      "timestamp": "2025-12-24T13:33:15.715Z",
+      "detailBullets": [
+        "@戸塚直道 @貴志雪乃 こちらの勉強会は、カオ無し発言無しただ聞き流しているだけ、でも参加可能ですか？"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1766583195.715209",
+          "text": "@戸塚直道 @貴志雪乃 こちらの勉強会は、カオ無し発言無しただ聞き流しているだけ、でも参加可能ですか？",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1766583195.715209",
+          "threadTs": "1766402518.042529",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@戸塚直道 @貴志雪乃 こちらの勉強会は、カオ無し発言無しただ聞き流しているだけ、でも参加可能ですか？\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1766583650.776559",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -16936,6 +17752,74 @@
         }
       ],
       "searchText": "メリークリスマス:christmas_tree: <https://youtu.be/MN3j9Qf16go?si=ojz06zweqWGs707A|https://youtu.be/MN3j9Qf16go?si=ojz06zweqWGs707A ()\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1766590192.584409",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1766590192.584409",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1766590192.584409",
+      "timestamp": "2025-12-24T15:29:52.584Z",
+      "detailBullets": [
+        "@田浦裕樹 メリクリです:christmas_tree: 羊文学とはセンスよろしいですな:heart_eyes:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1766590192.584409",
+          "text": "@田浦裕樹 メリクリです:christmas_tree: 羊文学とはセンスよろしいですな:heart_eyes:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1766590192.584409",
+          "threadTs": null,
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@田浦裕樹 メリクリです:christmas_tree: 羊文学とはセンスよろしいですな:heart_eyes:\nソーシャル"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1766590378.478219",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1766590378.478219",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1766590378.478219",
+      "timestamp": "2025-12-24T15:32:58.478Z",
+      "detailBullets": [
+        "@戸塚直道 行けたら行くわ、レベルでの参加表明です:raised_hand_with_fingers_splayed:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1766590378.478219",
+          "text": "@戸塚直道 行けたら行くわ、レベルでの参加表明です:raised_hand_with_fingers_splayed:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1766590378.478219",
+          "threadTs": "1766402518.042529",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@戸塚直道 行けたら行くわ、レベルでの参加表明です:raised_hand_with_fingers_splayed:\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1766616285.003449",
@@ -17428,6 +18312,40 @@
       "searchText": "@戸塚直道 はい、誘います！ 手段がどうとは言いませんが、戸塚さんに大阪に来てもらうのがいいですかね。笑\nソーシャル\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1766741184.810849",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1766741184.810849",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1766741184.810849",
+      "timestamp": "2025-12-26T09:26:24.810Z",
+      "detailBullets": [
+        "@田浦裕樹 @戸塚直道 ハイッ:hand:ハイッ:hand: 大阪で、かつ社長も行くなら便乗したいです！w 攻撃的なサウンド？！ 家で聴いてると柔らかめな音なので想像がつかないです。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1766741184.810849",
+          "text": "@田浦裕樹 @戸塚直道 ハイッ:hand:ハイッ:hand: 大阪で、かつ社長も行くなら便乗したいです！w 攻撃的なサウンド？！ 家で聴いてると柔らかめな音なので想像がつかないです。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1766741184.810849",
+          "threadTs": "1766616285.003449",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@田浦裕樹 @戸塚直道 ハイッ:hand:ハイッ:hand: 大阪で、かつ社長も行くなら便乗したいです！w 攻撃的なサウンド？！ 家で聴いてると柔らかめな音なので想像がつかないです。\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1766749023.066669",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:田浦裕樹",
@@ -17848,6 +18766,40 @@
       "searchText": "<!channel () 年末に失礼します！皆さん、2025年も大変お世話になり、ありがとうございました！ 日頃の業務の疲れを癒すべく、ゆっくり休んでくださいね。 僕はというと、今日も大阪に来ていてこれから会食です笑 明日の18:00頃には業務を切り上げて、父と鍋をつつきたいと思っています！ さて、今年も本当に色々なことがありました。 皆さんのおかげさまで会社が少しずつ大きくなり、 2026年は確実に「飛躍」を実現する1年になると確信しています。 一人一人の力で会社が前に進んできた2025年を、 外部非公開で、社内向けにnoteの下書きにまとめました。 ずっとバタバタしてしまっていてなかなか一人ずつ、 感謝の気持ちを伝えられていないのですが、良かったら読んでみてください。 <https://note.com/preview/n608f14d8204a?prev_access_key=882989f403700b3938a3db3946bdbada () もっと、もっともっといい会社にしたい。 仲間になってくださった全員に応える気持ちで事業に打ち込みたい。 その熱が、過去最高に高まっています！！ 来年も一緒に頑張ってもらえたら嬉しいです。 2025年は本当にお世話になりました！良いお年をお迎えください！\nall-saiteki\n経営"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1767091514.855669",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1767091514.855669",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1767091514.855669",
+      "timestamp": "2025-12-30T10:45:14.855Z",
+      "detailBullets": [
+        "こんばんは。 これってどうやって参加するのでしょう？"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1767091514.855669",
+          "text": "こんばんは。 これってどうやって参加するのでしょう？",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1767091514.855669",
+          "threadTs": "1766402518.042529",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "こんばんは。 これってどうやって参加するのでしょう？\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09MKT8QKAR:1767093173.979589",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:上遼太郎",
@@ -17951,6 +18903,74 @@
         }
       ],
       "searchText": "@戸塚直道 僕もNote読みました！ めちゃくちゃアツイ:bangbang: 感動しました:bangbang: Saitekiに関われたのは人生の集大成の感覚があります。 今後ともよろしくお願いします:bangbang:\nall-saiteki\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1767100202.547719",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1767100202.547719",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1767100202.547719",
+      "timestamp": "2025-12-30T13:10:02.547Z",
+      "detailBullets": [
+        "@戸塚直道 お疲れ様です。メッセージ拝読いたしました。 戸塚さんがたったお一人で始められた頃のことを思うと、Slackから伝わってくる今の賑やかさが、より一層感慨深く、かけがえのないものに感じられます。 「このメンバーとなら大丈夫」という戸塚さんのお言葉、私も全く同じ気持ちです。 これから先、もし困難な道があったとしても、このチームならどこか軽やかに、楽しみながら進んでいける気がしています。 2026年、Saitekiにとって忘れられない飛躍の年になりますように。 私も精一杯尽力させていただきます。 今年も一年、本当にお世話になりました。 寒い日が続きますので、みなさまどうぞお身体ご自愛ください。 それでは、良いお年をお迎えください。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1767100202.547719",
+          "text": "@戸塚直道 お疲れ様です。メッセージ拝読いたしました。 戸塚さんがたったお一人で始められた頃のことを思うと、Slackから伝わってくる今の賑やかさが、より一層感慨深く、かけがえのないものに感じられます。 「このメンバーとなら大丈夫」という戸塚さんのお言葉、私も全く同じ気持ちです。 これから先、もし困難な道があったとしても、このチームならどこか軽やかに、楽しみながら進んでいける気がしています。 2026年、Saitekiにとって忘れられない飛躍の年になりますように。 私も精一杯尽力させていただきます。 今年も一年、本当にお世話になりました。 寒い日が続きますので、みなさまどうぞお身体ご自愛ください。 それでは、良いお年をお迎えください。",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1767100202.547719",
+          "threadTs": "1767087951.457869",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@戸塚直道 お疲れ様です。メッセージ拝読いたしました。 戸塚さんがたったお一人で始められた頃のことを思うと、Slackから伝わってくる今の賑やかさが、より一層感慨深く、かけがえのないものに感じられます。 「このメンバーとなら大丈夫」という戸塚さんのお言葉、私も全く同じ気持ちです。 これから先、もし困難な道があったとしても、このチームならどこか軽やかに、楽しみながら進んでいける気がしています。 2026年、Saitekiにとって忘れられない飛躍の年になりますように。 私も精一杯尽力させていただきます。 今年も一年、本当にお世話になりました。 寒い日が続きますので、みなさまどうぞお身体ご自愛ください。 それでは、良いお年をお迎えください。\nall-saiteki"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1767100459.045229",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1767100459.045229",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1767100459.045229",
+      "timestamp": "2025-12-30T13:14:19.045Z",
+      "detailBullets": [
+        "@田浦裕樹 こんなサイトが！ ありがとうございます:heart_eyes:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1767100459.045229",
+          "text": "@田浦裕樹 こんなサイトが！ ありがとうございます:heart_eyes:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1767100459.045229",
+          "threadTs": "1766402518.042529",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@田浦裕樹 こんなサイトが！ ありがとうございます:heart_eyes:\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1767100768.859379",
@@ -20432,6 +21452,74 @@
         }
       ],
       "searchText": "@小松田 真伍 ナイスシェアです！ありがとうございます！ 光一がAntigravityについて以前シェアしてくれていましたが、各所で名前を聞くようになってきましたよね！ぜひ外部から得られた知見をどしどしシェアしていただきたいです:raised_hands: 読んでいて、 ・環境依存をほぼ意識せずに0→1を作れる ・日本語指示だけで完結する ・Wrapで土台を作り、Antigravityで実装に集中できる ・さらにClaudeCode＋Cursorでレビューを回して精度を上げる という流れは、PoC・技術検証・提案用デモにおいては、ほぼ理想形なんじゃないかと！ 上記の知見を小松田さんからシェアしていただくオンライン勉強会とか、社内でやれたらいいなぁと思ったりしました笑 @杉本光一 この辺ぜひ、時間空いてるときに意見欲しいっす！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1767956236.184009",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1767956236.184009",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1767956236.184009",
+      "timestamp": "2026-01-09T10:57:16.184Z",
+      "detailBullets": [
+        "@戸塚直道 やはり稲盛さんの本は読まれてますね:+1: 年始に読まれるとは！さすがですね。 稲盛さんサイコー:raised_hands:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1767956236.184009",
+          "text": "@戸塚直道 やはり稲盛さんの本は読まれてますね:+1: 年始に読まれるとは！さすがですね。 稲盛さんサイコー:raised_hands:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1767956236.184009",
+          "threadTs": "1767527059.299489",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@戸塚直道 やはり稲盛さんの本は読まれてますね:+1: 年始に読まれるとは！さすがですね。 稲盛さんサイコー:raised_hands:\nall-saiteki"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1767956704.335879",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1767956704.335879",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1767956704.335879",
+      "timestamp": "2026-01-09T11:05:04.335Z",
+      "detailBullets": [
+        "@戸塚直道 拝見（拝聴）しました:ear: これ前職の時に聞きたかったですw そして、当時にこのAIの技術があれば！と思いながら聞いてました。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1767956704.335879",
+          "text": "@戸塚直道 拝見（拝聴）しました:ear: これ前職の時に聞きたかったですw そして、当時にこのAIの技術があれば！と思いながら聞いてました。",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1767956704.335879",
+          "threadTs": "1767488265.114869",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@戸塚直道 拝見（拝聴）しました:ear: これ前職の時に聞きたかったですw そして、当時にこのAIの技術があれば！と思いながら聞いてました。\nall-saiteki"
     },
     {
       "@id": "search-message:primary:C09MKT8QKAR:1767961251.197869",
@@ -24027,6 +25115,40 @@
       "searchText": "@杉本光一 うす、ありがとう！\nソーシャル\n経営"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1769161965.180659",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1769161965.180659",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1769161965.180659",
+      "timestamp": "2026-01-23T09:52:45.180Z",
+      "detailBullets": [
+        "はじめまして。 ようこそ:sparkles: 関西のメンバーが増えるのはとてもうれしいことです。 若いエンジニアが育っていくの、楽しみです！ 鈴木伝説！小出しにシェアお願いしますw"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1769161965.180659",
+          "text": "はじめまして。 ようこそ:sparkles: 関西のメンバーが増えるのはとてもうれしいことです。 若いエンジニアが育っていくの、楽しみです！ 鈴木伝説！小出しにシェアお願いしますw",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1769161965.180659",
+          "threadTs": "1768614261.622119",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして。 ようこそ:sparkles: 関西のメンバーが増えるのはとてもうれしいことです。 若いエンジニアが育っていくの、楽しみです！ 鈴木伝説！小出しにシェアお願いしますw\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1769170871.761999",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:上遼太郎",
@@ -26004,6 +27126,40 @@
         }
       ],
       "searchText": "<!channel () この後19:30からの勉強会について、社内のメンバーにはこちらでもURLを展開してしまいますね！ 途中参加も、途中退室も全然OKなのでお気軽に！ URL：<https://meet.google.com/roa-zekv-btw ()\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1769768990.336879",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1769768990.336879",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1769768990.336879",
+      "timestamp": "2026-01-30T10:29:50.336Z",
+      "detailBullets": [
+        "うわぁ:sweat_drops: ゾクゾクしますね、予告編。 観たいですぅ"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1769768990.336879",
+          "text": "うわぁ:sweat_drops: ゾクゾクしますね、予告編。 観たいですぅ",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1769768990.336879",
+          "threadTs": "1769421985.992149",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "うわぁ:sweat_drops: ゾクゾクしますね、予告編。 観たいですぅ\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1769769633.270849",
@@ -30037,6 +31193,74 @@
       "searchText": "@杉本光一 さん はじめまして、榎本と申します。 はい！ぜひ今度見ようと思います！ 笑いのツボ浅いので、当時CMとか見て『これは映画館では見れないな』と勝手に思ったんですよね笑 本当に良い文化だと思います！ 今後とも、よろしくお願いいたします！\n自己紹介\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1770976451.394469",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1770976451.394469",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1770976451.394469",
+      "timestamp": "2026-02-13T09:54:11.394Z",
+      "detailBullets": [
+        "@戸塚直道 波平さん:disguised_face:の眼鏡と同じレベルちゃいますかー:rolling_on_the_floor_laughing: まだ若いのに..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1770976451.394469",
+          "text": "@戸塚直道 波平さん:disguised_face:の眼鏡と同じレベルちゃいますかー:rolling_on_the_floor_laughing: まだ若いのに...",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1770976451.394469",
+          "threadTs": "1770857718.581989",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@戸塚直道 波平さん:disguised_face:の眼鏡と同じレベルちゃいますかー:rolling_on_the_floor_laughing: まだ若いのに...\nソーシャル"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1770976557.907749",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1770976557.907749",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1770976557.907749",
+      "timestamp": "2026-02-13T09:55:57.907Z",
+      "detailBullets": [
+        "食べ物の話題には食いついていきます！:drooling_face: 明日はバレンタイン:sparkling_heart: ロイズの生チョコ、私も食べたいです:飯テロ:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1770976557.907749",
+          "text": "食べ物の話題には食いついていきます！:drooling_face: 明日はバレンタイン:sparkling_heart: ロイズの生チョコ、私も食べたいです:飯テロ:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1770976557.907749",
+          "threadTs": "1770727880.016049",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "食べ物の話題には食いついていきます！:drooling_face: 明日はバレンタイン:sparkling_heart: ロイズの生チョコ、私も食べたいです:飯テロ:\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1770978895.024759",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -30875,6 +32099,40 @@
       "searchText": "@杉本光一 ご夫婦で気に入って頂けたようで、嬉しいです:relaxed: おいしいですよね〜:wink:\nソーシャル\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1771493316.123929",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1771493316.123929",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1771493316.123929",
+      "timestamp": "2026-02-19T09:28:36.123Z",
+      "detailBullets": [
+        "<!here () やったー！！！:raised_hands: 何食べましょか？ 皆さん、何にします？:hamburger::shallow_pan_of_food::bento::doughnut::lollipop: どうしよー。困る:drooling_face::heart_eyes::partying_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1771493316.123929",
+          "text": "<!here () やったー！！！:raised_hands: 何食べましょか？ 皆さん、何にします？:hamburger::shallow_pan_of_food::bento::doughnut::lollipop: どうしよー。困る:drooling_face::heart_eyes::partying_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1771493316.123929",
+          "threadTs": "1771322499.120929",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!here () やったー！！！:raised_hands: 何食べましょか？ 皆さん、何にします？:hamburger::shallow_pan_of_food::bento::doughnut::lollipop: どうしよー。困る:drooling_face::heart_eyes::partying_face:\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1771501845.703009",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -31674,6 +32932,40 @@
       "searchText": "一旦スレ内の方々へ改めてご連絡 *`\"今週に\"4月からの入社確定`*しました:saluting_face: 改めて宜しくお願い申し上げます:man-bowing::skin-tone-2:\n自己紹介\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1771590446.051739",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1771590446.051739",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1771590446.051739",
+      "timestamp": "2026-02-20T12:27:26.051Z",
+      "detailBullets": [
+        "@上原基臣 はじめまして。よろしくお願いいたします。 トミカ、株主優待の限定車を10年分くらい蓄積してますw もう少し貯めたら高値で転売予定ですw トミカいいですよね:sparkles: 第３土曜でしたっけ？新車販売日。 昔よく売り場にチェックしに行ってました。 あの小ささでサスペンションとが足回りとかしっかりしてて、日本の誇れるおもちゃです！ トミカトミカ プラレール 乗り物GOGOパラダイス～♪ この歌もまだ健在ですか？"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1771590446.051739",
+          "text": "@上原基臣 はじめまして。よろしくお願いいたします。 トミカ、株主優待の限定車を10年分くらい蓄積してますw もう少し貯めたら高値で転売予定ですw トミカいいですよね:sparkles: 第３土曜でしたっけ？新車販売日。 昔よく売り場にチェックしに行ってました。 あの小ささでサスペンションとが足回りとかしっかりしてて、日本の誇れるおもちゃです！ トミカトミカ プラレール 乗り物GOGOパラダイス～♪ この歌もまだ健在ですか？",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1771590446.051739",
+          "threadTs": "1771550812.233829",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@上原基臣 はじめまして。よろしくお願いいたします。 トミカ、株主優待の限定車を10年分くらい蓄積してますw もう少し貯めたら高値で転売予定ですw トミカいいですよね:sparkles: 第３土曜でしたっけ？新車販売日。 昔よく売り場にチェックしに行ってました。 あの小ささでサスペンションとが足回りとかしっかりしてて、日本の誇れるおもちゃです！ トミカトミカ プラレール 乗り物GOGOパラダイス～♪ この歌もまだ健在ですか？\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1771590491.516839",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:小松田真伍",
@@ -31742,6 +33034,40 @@
         }
       ],
       "searchText": "@鈴木悠斗 〆最高でした:最高::sparkles:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1771590872.705629",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1771590872.705629",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1771590872.705629",
+      "timestamp": "2026-02-20T12:34:32.705Z",
+      "detailBullets": [
+        "@戸塚直道 「社長」スタンプが無いですよ:eyes:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1771590872.705629",
+          "text": "@戸塚直道 「社長」スタンプが無いですよ:eyes:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1771590872.705629",
+          "threadTs": "1771582371.246069",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@戸塚直道 「社長」スタンプが無いですよ:eyes:\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1771590948.318499",
@@ -31847,6 +33173,40 @@
         }
       ],
       "searchText": "自己紹介シートもみなさん入力ありがとうございました:ok_hand: <https://docs.google.com/spreadsheets/d/1jENPGIOAkhlBgHBdUPjxO1LdmTkerOhtE7j3vE-NVe0/edit?gid=1254990488#gid=1254990488 () 永井さんの「食う！！」に笑いますw\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1771592121.512069",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1771592121.512069",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1771592121.512069",
+      "timestamp": "2026-02-20T12:55:21.512Z",
+      "detailBullets": [
+        "みんな真面目に書いてるから、ボケとかないと（責任感）"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1771592121.512069",
+          "text": "みんな真面目に書いてるから、ボケとかないと（責任感）",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1771592121.512069",
+          "threadTs": "1771590948.318499",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "みんな真面目に書いてるから、ボケとかないと（責任感）\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1771592327.047509",
@@ -32054,6 +33414,40 @@
       "searchText": "止められない:point_up::しゅき_すき_好き_suki_shuki_syuki: ルビィちゃんパートも元気はつらつで:しゅき_すき_好き_suki_shuki_syuki::良き: 確かにめちゃショート出回ってるやつですね:笑_笑い_wara_kusa_laugh:\nソーシャル\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1771597881.013229",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1771597881.013229",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1771597881.013229",
+      "timestamp": "2026-02-20T14:31:21.013Z",
+      "detailBullets": [
+        "<!here () 鳥人間コンテスト布教:microphone: 鳥人間コンテストとは。 読売テレビ（ytb）主催のイベント。 彦根の松原水泳場から琵琶湖に飛び立つ。 毎年７月の最終週の土日に開催。（Youtube生実況） TV放映日は８月末か９月初めの水曜特番になることが多い。 今は「滑空機部門」と「人力プロペラ機部門」２部門のみ。 過去には仮装や、タイムトライアル部門もあった。 昨年は、大阪大学、大阪工大、大阪公大の関西勢が1，2，3（ペラ機） 滑空は、上智、東京理科大、日大津田沼。 しかし注目されたのは静岡大学。 テレビでは、癌闘病の父を持つ子がクローズアップされてたが、そこじゃない。 静岡大は低翼機、前ペラで、機体のペイントは自動車部が手掛けた。 それはそれはきれいな機体で。 まさに戦闘機。 おそらく零戦をイメージして作られたのだけど、あまりにも戦闘機すぎて、テレビだけでなく実況のYoutubeでも遠目にしか映してくれない事態に（泣） 結果は斜め45度で、ボチャン。（20mいったか？くらいの距離） 一般的に有名なのは、 映画（土屋太鳳ちゃん主演）の二人乗りは、芝浦工業大学がモ..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1771597881.013229",
+          "text": "<!here () 鳥人間コンテスト布教:microphone: 鳥人間コンテストとは。 読売テレビ（ytb）主催のイベント。 彦根の松原水泳場から琵琶湖に飛び立つ。 毎年７月の最終週の土日に開催。（Youtube生実況） TV放映日は８月末か９月初めの水曜特番になることが多い。 今は「滑空機部門」と「人力プロペラ機部門」２部門のみ。 過去には仮装や、タイムトライアル部門もあった。 昨年は、大阪大学、大阪工大、大阪公大の関西勢が1，2，3（ペラ機） 滑空は、上智、東京理科大、日大津田沼。 しかし注目されたのは静岡大学。 テレビでは、癌闘病の父を持つ子がクローズアップされてたが、そこじゃない。 静岡大は低翼機、前ペラで、機体のペイントは自動車部が手掛けた。 それはそれはきれいな機体で。 まさに戦闘機。 おそらく零戦をイメージして作られたのだけど、あまりにも戦闘機すぎて、テレビだけでなく実況のYoutubeでも遠目にしか映してくれない事態に（泣） 結果は斜め45度で、ボチャン。（20mいったか？くらいの距離） 一般的に有名なのは、 映画（土屋太鳳ちゃん主演）の二人乗りは、芝浦工業大学がモデル。 朝ドラ（福原遥ちゃん主演）は、大阪工大の堺風車の会が全面協力。（機体提供） 西から言うと、 九州大学は滑空機で名門校。 飛ばない飛ばないと言われた阪大は、去年チーム記録を大幅に更新し優勝。 三重は伊賀（DMG森精機）の渡辺君が歴代記録保持者。 早稲田のWASAは、たまに優勝争いに食い込む。 名大Aircraft、東京科学大のMeisterは強い。 東京都立大、日大、東京理科大は、滑空機とペ...",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1771597881.013229",
+          "threadTs": "1771597881.013229",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!here () 鳥人間コンテスト布教:microphone: 鳥人間コンテストとは。 読売テレビ（ytb）主催のイベント。 彦根の松原水泳場から琵琶湖に飛び立つ。 毎年７月の最終週の土日に開催。（Youtube生実況） TV放映日は８月末か９月初めの水曜特番になることが多い。 今は「滑空機部門」と「人力プロペラ機部門」２部門のみ。 過去には仮装や、タイムトライアル部門もあった。 昨年は、大阪大学、大阪工大、大阪公大の関西勢が1，2，3（ペラ機） 滑空は、上智、東京理科大、日大津田沼。 しかし注目されたのは静岡大学。 テレビでは、癌闘病の父を持つ子がクローズアップされてたが、そこじゃない。 静岡大は低翼機、前ペラで、機体のペイントは自動車部が手掛けた。 それはそれはきれいな機体で。 まさに戦闘機。 おそらく零戦をイメージして作られたのだけど、あまりにも戦闘機すぎて、テレビだけでなく実況のYoutubeでも遠目にしか映してくれない事態に（泣） 結果は斜め45度で、ボチャン。（20mいったか？くらいの距離） 一般的に有名なのは、 映画（土屋太鳳ちゃん主演）の二人乗りは、芝浦工業大学がモデル。 朝ドラ（福原遥ちゃん主演）は、大阪工大の堺風車の会が全面協力。（機体提供） 西から言うと、 九州大学は滑空機で名門校。 飛ばない飛ばないと言われた阪大は、去年チーム記録を大幅に更新し優勝。 三重は伊賀（DMG森精機）の渡辺君が歴代記録保持者。 早稲田のWASAは、たまに優勝争いに食い込む。 名大Aircraft、東京科学大のMeisterは強い。 東京都立大、日大、東京理科大は、滑空機とペラの両方にチームを持ってる。 東北はやはり東北大のwindnauts。 東北大は企業コラボが強いので、素材はめちゃくちゃ良いものを使ってる。 北海道大学は２日かけてフェリーで機体を運んでくる。 企業はIWATANI産業に注目。 あのガスボンベとか作ってる会社。ここがイベント主。 一時、鳥人間は休止したが、岩谷さんが復活させてくれた。 滑空機にチームを持っていて、一番のスポンサーだから、会場に100人以上の団体で応援に来てる。 みんな岩谷さんのチームTシャツ着てる。（会場で一番盛り上がるチーム） 2026年の出場申し込み書類提出が、今週締め切られた。 提出したと公言してるところは 北海道大学、東北大、東京科学大、早稲田、日大、筑波、上智、名大、大阪工大、帝京、東海大、横浜国立大、広島工大、電通大...全部は追えてない。 今年は東大、京大も提出した。（東大、京大はそんなに飛ぶイメージがない） 社会人チームは発信しないので、どこが出るか不明。 これから書類審査などがあり、6月末か7月初めに出場校が決定する。 今年も楽しみである。\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1771598121.556709",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -32192,6 +33586,40 @@
         }
       ],
       "searchText": "知らない世界すぎて、めちゃくちゃ興味ありますね。 また競技のタイミングでぜひアナウンスして欲しいです！ スポーツ観戦部で観戦したいです（中継はするんでしょうか）\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1771598706.829009",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1771598706.829009",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1771598706.829009",
+      "timestamp": "2026-02-20T14:45:06.829Z",
+      "detailBullets": [
+        "@スポーツ観戦部 是非ご覧ください。Youtubeで生配信します。 テレビと違って、１機飛ぶのに30分準備にかかるので、２日間Youtubeにかじりついてます。 おそらく、１日目はプロペラ機、２日目はプロペラ機の残機と滑空機になると思います。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1771598706.829009",
+          "text": "@スポーツ観戦部 是非ご覧ください。Youtubeで生配信します。 テレビと違って、１機飛ぶのに30分準備にかかるので、２日間Youtubeにかじりついてます。 おそらく、１日目はプロペラ機、２日目はプロペラ機の残機と滑空機になると思います。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1771598706.829009",
+          "threadTs": "1771597881.013229",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@スポーツ観戦部 是非ご覧ください。Youtubeで生配信します。 テレビと違って、１機飛ぶのに30分準備にかかるので、２日間Youtubeにかじりついてます。 おそらく、１日目はプロペラ機、２日目はプロペラ機の残機と滑空機になると思います。\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09Q46YA4ER:1771638120.236499",
@@ -33859,6 +35287,74 @@
       "searchText": "@貴志雪乃 貴志さん、めちゃくちゃ素敵な紹介文ありがとうございます:sob: :さすい:を10回は押したいぐらいです！ 僕もMELONでアーカイブを受けてみたのですが、いつも脳みそが何かしらでいっぱいになっているので、何も考えずにゆっくり身体を動かす時間が30分あるだけでもかなりスッキリしました！！ ぜひみなさん、適度に使ってみてください〜！\nソーシャル\n経営"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1772190021.185839",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1772190021.185839",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1772190021.185839",
+      "timestamp": "2026-02-27T11:00:21.185Z",
+      "detailBullets": [
+        "@貴志雪乃 なんですと！？ 何通かメール来てたのですが、削除しましたw 最近、迷惑メールがひどくて... 後でゴミ箱あさります（ｶﾞｻｺﾞｿ）"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1772190021.185839",
+          "text": "@貴志雪乃 なんですと！？ 何通かメール来てたのですが、削除しましたw 最近、迷惑メールがひどくて... 後でゴミ箱あさります（ｶﾞｻｺﾞｿ）",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1772190021.185839",
+          "threadTs": "1772186917.428179",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@貴志雪乃 なんですと！？ 何通かメール来てたのですが、削除しましたw 最近、迷惑メールがひどくて... 後でゴミ箱あさります（ｶﾞｻｺﾞｿ）\nソーシャル"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1772190158.302809",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1772190158.302809",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1772190158.302809",
+      "timestamp": "2026-02-27T11:02:38.302Z",
+      "detailBullets": [
+        "ん？移転？ どこ行くんですかー？？？"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1772190158.302809",
+          "text": "ん？移転？ どこ行くんですかー？？？",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1772190158.302809",
+          "threadTs": "1771986913.720619",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "ん？移転？ どこ行くんですかー？？？\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1772192634.607049",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:貴志雪乃",
@@ -35175,6 +36671,74 @@
       "searchText": "<https://x.com/0xfene/status/2030504252561617126?s=46|https://x.com/0xfene/status/2030504252561617126?s=46 ()\nai駆動開発ネタ\n経営"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1773137097.278069",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1773137097.278069",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1773137097.278069",
+      "timestamp": "2026-03-10T10:04:57.278Z",
+      "detailBullets": [
+        "・・・次は何食べよう:drooling_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1773137097.278069",
+          "text": "・・・次は何食べよう:drooling_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1773137097.278069",
+          "threadTs": "1772799034.552449",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "・・・次は何食べよう:drooling_face:\nソーシャル"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1773138934.263069",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1773138934.263069",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1773138934.263069",
+      "timestamp": "2026-03-10T10:35:34.263Z",
+      "detailBullets": [
+        "年１くらいで、遠方在住の社員を呼んでほしいですね。 面談と称して、オフィス見学ツアーを是非:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1773138934.263069",
+          "text": "年１くらいで、遠方在住の社員を呼んでほしいですね。 面談と称して、オフィス見学ツアーを是非:sparkles:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1773138934.263069",
+          "threadTs": "1772354155.977019",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "年１くらいで、遠方在住の社員を呼んでほしいですね。 面談と称して、オフィス見学ツアーを是非:sparkles:\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1773152629.282379",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:杉本光一",
@@ -35487,6 +37051,40 @@
         }
       ],
       "searchText": "@貴志雪乃 貴志さん、シェアしていただきありがとうございます！ 皆さん、今回のnoteは他社のSES経営者向けのnoteになります。SaitekiはSESや受託だけでなく、M&Aも用いて事業拡大を行います。 詳しくは今週のLetterに書きますね！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1773391103.323729",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0ALD8DAHEE",
+      "personName": "網倉 さなえ",
+      "slackIds": [
+        "U0ALD8DAHEE"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1773391103.323729",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1773391103.323729",
+      "timestamp": "2026-03-13T08:38:23.323Z",
+      "detailBullets": [
+        "はじめまして、網倉 さなえです。よろしくお願いします。 ■出身地 埼玉県です。 ■これまでやってきたこと 事務職・社内SEとして、業務効率化や集計業務などに携わってきました。 ■最近ハマっていること 子どもの影響でヒップホップをよく聴くようになりました。 ■休日の過ごし方 お菓子作りをしたり、マッサージ巡りをしてリフレッシュしています。 また、野球観戦が好きで巨人を応援しています:softball: ■ひとこと まだ分からないことも多いですが、早く慣れられるよう頑張ります。 どうぞよろしくお願いします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1773391103.323729",
+          "text": "はじめまして、網倉 さなえです。よろしくお願いします。 ■出身地 埼玉県です。 ■これまでやってきたこと 事務職・社内SEとして、業務効率化や集計業務などに携わってきました。 ■最近ハマっていること 子どもの影響でヒップホップをよく聴くようになりました。 ■休日の過ごし方 お菓子作りをしたり、マッサージ巡りをしてリフレッシュしています。 また、野球観戦が好きで巨人を応援しています:softball: ■ひとこと まだ分からないことも多いですが、早く慣れられるよう頑張ります。 どうぞよろしくお願いします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1773391103.323729",
+          "threadTs": "1773391103.323729",
+          "authorName": "網倉　さなえ",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして、網倉 さなえです。よろしくお願いします。 ■出身地 埼玉県です。 ■これまでやってきたこと 事務職・社内SEとして、業務効率化や集計業務などに携わってきました。 ■最近ハマっていること 子どもの影響でヒップホップをよく聴くようになりました。 ■休日の過ごし方 お菓子作りをしたり、マッサージ巡りをしてリフレッシュしています。 また、野球観戦が好きで巨人を応援しています:softball: ■ひとこと まだ分からないことも多いですが、早く慣れられるよう頑張ります。 どうぞよろしくお願いします。\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09Q46YA4ER:1773396256.752799",
@@ -36949,6 +38547,40 @@
       "searchText": "<!channel () 【健康診断費用の補助規定に関するお詫びと訂正】 Saiteki社員の皆様 お疲れ様です。総務の藤井です。 先日周知いたしました「健康診断の補助金」の内容につきまして、 一部記載に不足があったため、以下の通り訂正いたします。 混乱を招く表現となりましたこと、深くお詫び申し上げます。 改めてご案内申し上げますので、ご一読いただきますようお願い致します。 【訂正内容】 ※健康診断費用の補助について※ 健康診断費用の補助対象は「法定受診項目（基本診断）」のみとなります。 訂正前： 健康診断費用 上限10,000円 訂正後： 法定受診項目に限り、上限10,000円まで補助 オプション費用について： ご自身の判断でオプション検査を追加受診することは可能ですが、その費用は補助の対象外（自己負担）となります。領収書にオプション費用が含まれている場合、法定項目分のみを差し引いて精算いたします。 ※書籍購入費用について※ こちらは変更ございません（上限5,000円/月）。 今後はこのような案内の相違がないよう、労務管理の連携を徹底してまいります。 すでにお手続きを進められている皆様にはご迷惑をおかけしますが、 何卒ご理解とご協力のほどお願い申し上げます。\nall-saiteki\nSales"
     },
     {
+      "@id": "search-message:primary:C09QXV3F8G0:1774609713.270169",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1774609713.270169",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1774609713.270169",
+      "timestamp": "2026-03-27T11:08:33.270Z",
+      "detailBullets": [
+        "最近、長文メールはAI（社内のコパイロット君）に任せてます。 「お客様へのメールを打つので草案を考える。ビジネス用の文章に変換。会話形式で修正していく。」を定型文としてIMEに登録しておいて、コパイロット君と会話しながらメールを作成していく。 ごめんなさいのメールも、ちょっと感情的な文面も、意味不明な乱文でも、上手にコパイロット君が仕上げていってくれるので、とても効率が良い。 だが、しかし。 ちょっとコパイロット君にイラっと来る場面がある。 永「め」（変換）→「お客様へのメールを打つので草案を考える。ビジネス用の文章に変換。会話形式で修正していく。」 Co『お客様へのメールを作成するため、まず草案を考え、その後ビジネス用の文章へ整えていきたい。会話形式で修正を進めたい、というご意向で承りました。・・・』 永「お世話になっております。納期が遅れてるんで、そろそろ提出していただきたいのですが、どういう状況下連絡してや。ちょっと急いでいる案件やでー、的な感じでメール作ってくれへん？」 Co『任せといて。ほな、ビジネスとして失礼にならない丁寧メールに整えてみたで。・・・・・』 うぉい:rig..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1774609713.270169",
+          "text": "最近、長文メールはAI（社内のコパイロット君）に任せてます。 「お客様へのメールを打つので草案を考える。ビジネス用の文章に変換。会話形式で修正していく。」を定型文としてIMEに登録しておいて、コパイロット君と会話しながらメールを作成していく。 ごめんなさいのメールも、ちょっと感情的な文面も、意味不明な乱文でも、上手にコパイロット君が仕上げていってくれるので、とても効率が良い。 だが、しかし。 ちょっとコパイロット君にイラっと来る場面がある。 永「め」（変換）→「お客様へのメールを打つので草案を考える。ビジネス用の文章に変換。会話形式で修正していく。」 Co『お客様へのメールを作成するため、まず草案を考え、その後ビジネス用の文章へ整えていきたい。会話形式で修正を進めたい、というご意向で承りました。・・・』 永「お世話になっております。納期が遅れてるんで、そろそろ提出していただきたいのですが、どういう状況下連絡してや。ちょっと急いでいる案件やでー、的な感じでメール作ってくれへん？」 Co『任せといて。ほな、ビジネスとして失礼にならない丁寧メールに整えてみたで。・・・・・』 うぉい:rightwards_hand:（ペシッ） なんで、ここで関西弁になるん。さっきまで丁寧に敬語でしゃべってくれてたのに... しかも、エセ関西弁のイントネーションでしゃべってる！（ように聞こえる：空耳:ear:） いきなりフレンドリーにならんといて。 私の心の壁と関西弁はフォッサマグナで区切られとんのじゃ！境界線を越えてこないでっ！！ ガチャガチャガチャガチャガチャガチャ・・・・（ちょっと大きめのキーボ...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1774609713.270169",
+          "threadTs": "1774609713.270169",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "最近、長文メールはAI（社内のコパイロット君）に任せてます。 「お客様へのメールを打つので草案を考える。ビジネス用の文章に変換。会話形式で修正していく。」を定型文としてIMEに登録しておいて、コパイロット君と会話しながらメールを作成していく。 ごめんなさいのメールも、ちょっと感情的な文面も、意味不明な乱文でも、上手にコパイロット君が仕上げていってくれるので、とても効率が良い。 だが、しかし。 ちょっとコパイロット君にイラっと来る場面がある。 永「め」（変換）→「お客様へのメールを打つので草案を考える。ビジネス用の文章に変換。会話形式で修正していく。」 Co『お客様へのメールを作成するため、まず草案を考え、その後ビジネス用の文章へ整えていきたい。会話形式で修正を進めたい、というご意向で承りました。・・・』 永「お世話になっております。納期が遅れてるんで、そろそろ提出していただきたいのですが、どういう状況下連絡してや。ちょっと急いでいる案件やでー、的な感じでメール作ってくれへん？」 Co『任せといて。ほな、ビジネスとして失礼にならない丁寧メールに整えてみたで。・・・・・』 うぉい:rightwards_hand:（ペシッ） なんで、ここで関西弁になるん。さっきまで丁寧に敬語でしゃべってくれてたのに... しかも、エセ関西弁のイントネーションでしゃべってる！（ように聞こえる：空耳:ear:） いきなりフレンドリーにならんといて。 私の心の壁と関西弁はフォッサマグナで区切られとんのじゃ！境界線を越えてこないでっ！！ ガチャガチャガチャガチャガチャガチャ・・・・（ちょっと大きめのキーボード音） さ、メールできた。送信っと。 そんな春の日差しの午後のお話。\nai駆動開発ネタ"
+    },
+    {
       "@id": "search-message:primary:C09QXV3F8G0:1774610925.265109",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -37506,6 +39138,40 @@
       "searchText": "@戸塚直道 ありがとうございます！ 社内案件等次の機会までに 今の現場と副業/個人事業で修行積んでおきます:saluting_face:\n自己紹介\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1775108851.880199",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0APQEHUJ7R",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1775108851.880199",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1775108851.880199",
+      "timestamp": "2026-04-02T05:47:31.880Z",
+      "detailBullets": [
+        "初めまして。小林 美咲(こばやし みさき)と申します。 ■出身地 東京都 ■これまでやってきたこと IT業界に入るまでは、事務やサービス業に携わってきました。 IT業界に入ってからは、光回線の保守・監視、メールセキュリティサービスのテクサポ、文書管理システムの開発現場でPMO業務に携わってきました。 直近では、某配信アプリでライブ配信をしていました。 ■最近ハマっていること パンどろぼう、ハリポタ、都市伝説、古代史 ■休日の過ごし方 基本家から出たくないので動画視聴 ■ひとこと 一日でも早く皆さんに追いつけるように頑張ります！ 仲良くしていただけると嬉しいです:smiling_face_with_3_hearts:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1775108851.880199",
+          "text": "初めまして。小林 美咲(こばやし みさき)と申します。 ■出身地 東京都 ■これまでやってきたこと IT業界に入るまでは、事務やサービス業に携わってきました。 IT業界に入ってからは、光回線の保守・監視、メールセキュリティサービスのテクサポ、文書管理システムの開発現場でPMO業務に携わってきました。 直近では、某配信アプリでライブ配信をしていました。 ■最近ハマっていること パンどろぼう、ハリポタ、都市伝説、古代史 ■休日の過ごし方 基本家から出たくないので動画視聴 ■ひとこと 一日でも早く皆さんに追いつけるように頑張ります！ 仲良くしていただけると嬉しいです:smiling_face_with_3_hearts:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1775108851.880199",
+          "threadTs": "1775108851.880199",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。小林 美咲(こばやし みさき)と申します。 ■出身地 東京都 ■これまでやってきたこと IT業界に入るまでは、事務やサービス業に携わってきました。 IT業界に入ってからは、光回線の保守・監視、メールセキュリティサービスのテクサポ、文書管理システムの開発現場でPMO業務に携わってきました。 直近では、某配信アプリでライブ配信をしていました。 ■最近ハマっていること パンどろぼう、ハリポタ、都市伝説、古代史 ■休日の過ごし方 基本家から出たくないので動画視聴 ■ひとこと 一日でも早く皆さんに追いつけるように頑張ります！ 仲良くしていただけると嬉しいです:smiling_face_with_3_hearts:\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1775111580.123429",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -37608,6 +39274,40 @@
         }
       ],
       "searchText": "はじめまして。 2月よりSaitekiに入社した営業の小島と申します！ 自分もインドア派なので休日時間があるときは、アニメやYoutubeで動画視聴しています:relaxed: 歴史の勉強では自分も古代史が一番好きです。というより、教科書の最初の方はしっかりやっていたんですが、近世あたりになってくるとだんだんやる気が英語や理数に吸われてしまって、理解度でいうと古代史が一番高いので好きな感じです:sweat_drops: ロマンもありますよね！ 自分はまだ業界3ヶ月目の新人なので、これから一緒に成長させていただきたいです:exclamation:️ 今後ともよろしくお願いします！\n自己紹介\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1775209341.074629",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AQ9BML333",
+      "personName": "山田慎太郎",
+      "slackIds": [
+        "U0AQ9BML333"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1775209341.074629",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1775209341.074629",
+      "timestamp": "2026-04-03T09:42:21.074Z",
+      "detailBullets": [
+        "はじめまして、山田慎太郎です。 これからよろしくお願いいたします！ ⬛︎出身地 千葉の浦安です ⬛︎これまでやってきたこと 携帯やwifiルーターの検証業務を行うQAエンジニアとして働いてました ⬛︎最近ハマっていること ネットフリックスやディズニープラスを見ることにハマってます ⬛︎休日の過ごし方 飲みに行くことが多いです！ ⬛︎ひとこと まだ経験も浅いですが、一人前になれるよう頑張ります！ よろしくお願い致します:man-bowing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1775209341.074629",
+          "text": "はじめまして、山田慎太郎です。 これからよろしくお願いいたします！ ⬛︎出身地 千葉の浦安です ⬛︎これまでやってきたこと 携帯やwifiルーターの検証業務を行うQAエンジニアとして働いてました ⬛︎最近ハマっていること ネットフリックスやディズニープラスを見ることにハマってます ⬛︎休日の過ごし方 飲みに行くことが多いです！ ⬛︎ひとこと まだ経験も浅いですが、一人前になれるよう頑張ります！ よろしくお願い致します:man-bowing:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1775209341.074629",
+          "threadTs": "1775209341.074629",
+          "authorName": "山田慎太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして、山田慎太郎です。 これからよろしくお願いいたします！ ⬛︎出身地 千葉の浦安です ⬛︎これまでやってきたこと 携帯やwifiルーターの検証業務を行うQAエンジニアとして働いてました ⬛︎最近ハマっていること ネットフリックスやディズニープラスを見ることにハマってます ⬛︎休日の過ごし方 飲みに行くことが多いです！ ⬛︎ひとこと まだ経験も浅いですが、一人前になれるよう頑張ります！ よろしくお願い致します:man-bowing:\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09Q46YA4ER:1775209779.773479",
@@ -37745,6 +39445,74 @@
         }
       ],
       "searchText": "@山田慎太郎 営業の小島です！23歳です！ 山田さん、改めてよろしくお願いします！ 私もディズニープラス見るの好きで、ついこの間まで放送されていた葬送のフリーレンが一番好きです:exclamation:️ 山田さんの好きな作品も教えてください！\n自己紹介\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1775213405.386829",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AQ9BML333",
+      "personName": "山田慎太郎",
+      "slackIds": [
+        "U0AQ9BML333"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1775213405.386829",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1775213405.386829",
+      "timestamp": "2026-04-03T10:50:05.386Z",
+      "detailBullets": [
+        "@鈴木悠斗 改めてよろしくお願いいたします！ 最近はワインに挑戦してます！笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1775213405.386829",
+          "text": "@鈴木悠斗 改めてよろしくお願いいたします！ 最近はワインに挑戦してます！笑",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1775213405.386829",
+          "threadTs": "1775209341.074629",
+          "authorName": "山田慎太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "@鈴木悠斗 改めてよろしくお願いいたします！ 最近はワインに挑戦してます！笑\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1775213560.296319",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AQ9BML333",
+      "personName": "山田慎太郎",
+      "slackIds": [
+        "U0AQ9BML333"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1775213560.296319",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1775213560.296319",
+      "timestamp": "2026-04-03T10:52:40.296Z",
+      "detailBullets": [
+        "@小島 遼祐 改めてよろしくお願いいたします！ ディズニープラスだとシンプソンズが好きです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1775213560.296319",
+          "text": "@小島 遼祐 改めてよろしくお願いいたします！ ディズニープラスだとシンプソンズが好きです！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1775213560.296319",
+          "threadTs": "1775209341.074629",
+          "authorName": "山田慎太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "@小島 遼祐 改めてよろしくお願いいたします！ ディズニープラスだとシンプソンズが好きです！\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09Q46YA4ER:1775226289.175459",
@@ -38303,6 +40071,40 @@
       "searchText": "@鈴木悠斗 ご入学おめでとうございます！:confetti_ball: 素敵なお友達と出会えますように:sparkles:\nソーシャル\nSales"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1775551716.716439",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0ARN3NKAD7",
+      "personName": "大澤翔",
+      "slackIds": [
+        "U0ARN3NKAD7"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1775551716.716439",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1775551716.716439",
+      "timestamp": "2026-04-07T08:48:36.716Z",
+      "detailBullets": [
+        "はじめまして、5月入社予定の大澤翔（おおさわ かける）と申します！ ⬛︎出身地 東京です。 ⬛︎これまでやってきたこと Webサイトや地図アプリの検証業務に加え、生成AIを活用したPythonスクリプトの作成・改修などに携わってきました。 ⬛︎最近ハマっていること 週末にNetflixでドラマやアニメを一気見すること:clapper: ⬛︎趣味 野球中継、運動不足なので散歩 バンドをしていたこともあって、音楽も幅広く聴きます:headphones: ⬛︎ひとこと まだ分からないことも多いですが、力になれるよう頑張ります:muscle: ご迷惑をおかけすることもあるかと思いますが、ご指導いただけますと幸いです。 これからよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1775551716.716439",
+          "text": "はじめまして、5月入社予定の大澤翔（おおさわ かける）と申します！ ⬛︎出身地 東京です。 ⬛︎これまでやってきたこと Webサイトや地図アプリの検証業務に加え、生成AIを活用したPythonスクリプトの作成・改修などに携わってきました。 ⬛︎最近ハマっていること 週末にNetflixでドラマやアニメを一気見すること:clapper: ⬛︎趣味 野球中継、運動不足なので散歩 バンドをしていたこともあって、音楽も幅広く聴きます:headphones: ⬛︎ひとこと まだ分からないことも多いですが、力になれるよう頑張ります:muscle: ご迷惑をおかけすることもあるかと思いますが、ご指導いただけますと幸いです。 これからよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1775551716.716439",
+          "threadTs": "1775551716.716439",
+          "authorName": "大澤翔",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして、5月入社予定の大澤翔（おおさわ かける）と申します！ ⬛︎出身地 東京です。 ⬛︎これまでやってきたこと Webサイトや地図アプリの検証業務に加え、生成AIを活用したPythonスクリプトの作成・改修などに携わってきました。 ⬛︎最近ハマっていること 週末にNetflixでドラマやアニメを一気見すること:clapper: ⬛︎趣味 野球中継、運動不足なので散歩 バンドをしていたこともあって、音楽も幅広く聴きます:headphones: ⬛︎ひとこと まだ分からないことも多いですが、力になれるよう頑張ります:muscle: ご迷惑をおかけすることもあるかと思いますが、ご指導いただけますと幸いです。 これからよろしくお願いいたします！\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1775554510.741119",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -38370,6 +40172,40 @@
         }
       ],
       "searchText": "<!channel () まだまだご参加いただけます！:sparkles: オンライン飲み部、追加メンバー募集中です！:beers: 少しでも気になっている方は、ぜひお気軽にご参加ください:blush: 顔出しのみ・途中参加も大歓迎です！ また、入社前の方のご参加も大歓迎です:seedling: 雰囲気をのぞきに来るだけでも大丈夫です:eyes: ご都合の合う方は、ぜひ「参加」ボタンをお願いいたします:raised_hands:\nソーシャル\nHR"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1775556960.044099",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AR74C3YBY",
+      "personName": "佐藤 裕之",
+      "slackIds": [
+        "U0AR74C3YBY"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1775556960.044099",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1775556960.044099",
+      "timestamp": "2026-04-07T10:16:00.044Z",
+      "detailBullets": [
+        "初めまして。 6月入社予定の佐藤 裕之（さとう ひろゆき）と申します。 今後ともよろしくお願いいたします。 :black_large_square:︎出身地 福井県 :black_large_square:︎これまでやってきたこと 音楽配信管理システム領域などのテクニカルサポートやPMOとして、要件整理や進捗管理、関係者調整などを担当してきました。 :black_large_square:︎最近ハマっていること バイオ9 :black_large_square:︎趣味 アニメ、音楽、ゲーム :black_large_square:︎ひとこと まだ不慣れな点もございますが、これまでの経験を活かし、少しでも早く貢献できるよう努めてまいります。 ご迷惑をおかけすることもあるかと思いますが、よろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1775556960.044099",
+          "text": "初めまして。 6月入社予定の佐藤 裕之（さとう ひろゆき）と申します。 今後ともよろしくお願いいたします。 :black_large_square:︎出身地 福井県 :black_large_square:︎これまでやってきたこと 音楽配信管理システム領域などのテクニカルサポートやPMOとして、要件整理や進捗管理、関係者調整などを担当してきました。 :black_large_square:︎最近ハマっていること バイオ9 :black_large_square:︎趣味 アニメ、音楽、ゲーム :black_large_square:︎ひとこと まだ不慣れな点もございますが、これまでの経験を活かし、少しでも早く貢献できるよう努めてまいります。 ご迷惑をおかけすることもあるかと思いますが、よろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1775556960.044099",
+          "threadTs": "1775556960.044099",
+          "authorName": "佐藤 裕之",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 6月入社予定の佐藤 裕之（さとう ひろゆき）と申します。 今後ともよろしくお願いいたします。 :black_large_square:︎出身地 福井県 :black_large_square:︎これまでやってきたこと 音楽配信管理システム領域などのテクニカルサポートやPMOとして、要件整理や進捗管理、関係者調整などを担当してきました。 :black_large_square:︎最近ハマっていること バイオ9 :black_large_square:︎趣味 アニメ、音楽、ゲーム :black_large_square:︎ひとこと まだ不慣れな点もございますが、これまでの経験を活かし、少しでも早く貢献できるよう努めてまいります。 ご迷惑をおかけすることもあるかと思いますが、よろしくお願いいたします。\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09MKT8QKAR:1775603962.741739",
@@ -38649,6 +40485,40 @@
         }
       ],
       "searchText": "<!channel () *【重要】賃金規定の改定および36協定の更新に関するお知らせ* 社員の皆様 お疲れ様です。総務の藤井です。 この度、弊社の賃金規定の一部改定、および36協定の更新を行いましたので、以下の通り周知いたします。 内容をご確認いただき、適切に業務にあたっていただくようお願い申し上げます。 *1. 賃金規定の改定（住宅手当の支給条件変更）* <https://drive.google.com/file/d/1u8rrk6y3QZU1cHd93E9pZtZBlQrotVnt/view?usp=drive_link () > *【改定前の条文】* > 第6条 第2項 > 住宅手当：住宅手当:福利厚生の一環として社内の住宅手当の基準に従って住宅費用の一部を支給する手当(月額上限2万円)。 > *【改定後の条文】* > 第6条 第2項 > 住宅手当：業務上の必要により会社が転居を命じた場合に、社内基準に従い、居住に要する費用の一部として支給する手当（月額上限2万円）。 *2. 36協定（時間外・休日労働に関する協定）の更新* 労働基準法に基づき、従業員代表との間で「36協定」を新たに締結（更新）いたしました。 <https://drive.google.com/file/d/1PfZGf9pw3xADnFp0qqJJPte7-44vJtfp/view?usp=drive_link () > *・有効期間：* 2026年4月1日 ～ 2027年3月31日 > *・内容：* 時間外労働および休日労働の限度時間等 > 会社として、引き続き過度な長時間労働の抑制と、心身の健康確保に努めてまいります。 > 皆様におかれましても、効率的な業務遂行と適切な時間管理を心がけていただけますようお願いいたします。 *【資料の閲覧方法】* Slackの#|all-saiteki 上部にある「就業規則・賃金規定」からご覧いただけます。 以上、よろしくお願いいたします:pray:\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1775814559.841369",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1775814559.841369",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1775814559.841369",
+      "timestamp": "2026-04-10T09:49:19.841Z",
+      "detailBullets": [
+        "貴志さんありがとうございます。 今回も食べることしか考えてません！:drooling_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1775814559.841369",
+          "text": "貴志さんありがとうございます。 今回も食べることしか考えてません！:drooling_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1775814559.841369",
+          "threadTs": "1775556512.002749",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "貴志さんありがとうございます。 今回も食べることしか考えてません！:drooling_face:\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09QXV3F8G0:1775852760.999509",
@@ -39835,6 +41705,40 @@
       "searchText": "本日も深夜に内定承諾のご連絡をくださった方がいました:bouquet:とても人柄がよく、一緒に頑張りたい！と思えるような方です:sparkles:\nソーシャル\n経営"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1776654343.204939",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0ATVGURLRL",
+      "personName": "好田 歩",
+      "slackIds": [
+        "U0ATVGURLRL"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1776654343.204939",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1776654343.204939",
+      "timestamp": "2026-04-20T03:05:43.204Z",
+      "detailBullets": [
+        "はじめまして、6月入社予定の好田 歩(こうだ あゆみ)と申します！ ■出身地 兵庫県 ■これまでやってきたこと Excelを使ったデータ管理業務、社内アプリの問い合わせ対応を経験してきました。 IT業界に入る前は造園業でのお仕事経験が長く、木を切ることも出来ます。 ■趣味 映画鑑賞やゲームなど、家で趣味が完結することが多いですが、たまにサウナに行ったりしてリフレッシュすることもあります！ ■ひとこと まだまだ未熟でブランクもありますが精一杯頑張りますので、よろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1776654343.204939",
+          "text": "はじめまして、6月入社予定の好田 歩(こうだ あゆみ)と申します！ ■出身地 兵庫県 ■これまでやってきたこと Excelを使ったデータ管理業務、社内アプリの問い合わせ対応を経験してきました。 IT業界に入る前は造園業でのお仕事経験が長く、木を切ることも出来ます。 ■趣味 映画鑑賞やゲームなど、家で趣味が完結することが多いですが、たまにサウナに行ったりしてリフレッシュすることもあります！ ■ひとこと まだまだ未熟でブランクもありますが精一杯頑張りますので、よろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1776654343.204939",
+          "threadTs": "1776654343.204939",
+          "authorName": "好田　歩",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして、6月入社予定の好田 歩(こうだ あゆみ)と申します！ ■出身地 兵庫県 ■これまでやってきたこと Excelを使ったデータ管理業務、社内アプリの問い合わせ対応を経験してきました。 IT業界に入る前は造園業でのお仕事経験が長く、木を切ることも出来ます。 ■趣味 映画鑑賞やゲームなど、家で趣味が完結することが多いですが、たまにサウナに行ったりしてリフレッシュすることもあります！ ■ひとこと まだまだ未熟でブランクもありますが精一杯頑張りますので、よろしくお願いいたします！\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1776733117.495979",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -39868,6 +41772,40 @@
         }
       ],
       "searchText": "@好田 歩 好田さん、あらためてよろしくお願いいたします！これから一緒に頑張っていきましょう！ 木を切ることができる、って自己紹介が初めてで興味津々です！！ また今度、話した時に木の切り方とか造園業のこと、教えてください！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1776736629.165399",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0ATVGURLRL",
+      "personName": "好田 歩",
+      "slackIds": [
+        "U0ATVGURLRL"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1776736629.165399",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1776736629.165399",
+      "timestamp": "2026-04-21T01:57:09.165Z",
+      "detailBullets": [
+        "@戸塚直道 あらためてよろしくお願いいたします！ 興味を持っていただけて嬉しいです:smile: ぜひ色々とお話しさせてください！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1776736629.165399",
+          "text": "@戸塚直道 あらためてよろしくお願いいたします！ 興味を持っていただけて嬉しいです:smile: ぜひ色々とお話しさせてください！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1776736629.165399",
+          "threadTs": "1776654343.204939",
+          "authorName": "好田　歩",
+          "permalink": null
+        }
+      ],
+      "searchText": "@戸塚直道 あらためてよろしくお願いいたします！ 興味を持っていただけて嬉しいです:smile: ぜひ色々とお話しさせてください！\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09Q46YA4ER:1776750301.199809",
@@ -39940,6 +41878,74 @@
       "searchText": "<!channel () お疲れさまです！ 今後、順次エンジニアメンバーと営業とのやりとりはLINEからSlackへ移行していきます！ 適宜「99_氏名」というプライベートチャンネルを作らせていただきますので、ご認識のほどよろしくお願いいたします！ ※現在、案件参画に向けて営業と具体的な案件についてやりとりをしているメンバーについては、コミュニケーションツールが途中で変わると不便なので案件参画が確定したり、きりの良いタイミングで切り替えていきます！\nall-saiteki\n経営"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1776754984.809089",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0ATVGURLRL",
+      "personName": "好田 歩",
+      "slackIds": [
+        "U0ATVGURLRL"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1776754984.809089",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1776754984.809089",
+      "timestamp": "2026-04-21T07:03:04.809Z",
+      "detailBullets": [
+        "@鈴木悠斗 鈴木さんもサウナ行かれるんですね！ わかりました！映画以外も見るので情報交換できると嬉しいです笑 あらためてよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1776754984.809089",
+          "text": "@鈴木悠斗 鈴木さんもサウナ行かれるんですね！ わかりました！映画以外も見るので情報交換できると嬉しいです笑 あらためてよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1776754984.809089",
+          "threadTs": "1776654343.204939",
+          "authorName": "好田　歩",
+          "permalink": null
+        }
+      ],
+      "searchText": "@鈴木悠斗 鈴木さんもサウナ行かれるんですね！ わかりました！映画以外も見るので情報交換できると嬉しいです笑 あらためてよろしくお願いいたします！\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1776760342.217379",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AU4AEKC86",
+      "personName": "小野裕",
+      "slackIds": [
+        "U0AU4AEKC86"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1776760342.217379",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1776760342.217379",
+      "timestamp": "2026-04-21T08:32:22.217Z",
+      "detailBullets": [
+        "はじめまして、10月入社予定の小野裕（おのゆう）と申します！ ■出身地 北海道 ■これまでやってきたこと これまでノーコード／ローコードを用いた開発に従事し、実装・テストなど経験してきました。 ■趣味 運動やお酒を飲むことが好きです。 ■ひとこと まだまだ未熟ではございますが、一日でも早く貢献できるよう精一杯努力してまいります。どうぞよろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1776760342.217379",
+          "text": "はじめまして、10月入社予定の小野裕（おのゆう）と申します！ ■出身地 北海道 ■これまでやってきたこと これまでノーコード／ローコードを用いた開発に従事し、実装・テストなど経験してきました。 ■趣味 運動やお酒を飲むことが好きです。 ■ひとこと まだまだ未熟ではございますが、一日でも早く貢献できるよう精一杯努力してまいります。どうぞよろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1776760342.217379",
+          "threadTs": "1776760342.217379",
+          "authorName": "小野裕",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして、10月入社予定の小野裕（おのゆう）と申します！ ■出身地 北海道 ■これまでやってきたこと これまでノーコード／ローコードを用いた開発に従事し、実装・テストなど経験してきました。 ■趣味 運動やお酒を飲むことが好きです。 ■ひとこと まだまだ未熟ではございますが、一日でも早く貢献できるよう精一杯努力してまいります。どうぞよろしくお願いいたします。\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1776761465.049109",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -40010,6 +42016,40 @@
       "searchText": "<!channel () 先日アナウンスした弊社AI顧問の佐藤傑さんが登壇されたClaude Code活用の発展編動画アーカイブをいただきました！ 視聴期間は2ヶ月とのことですので、ぜひ、ご覧ください！ Claude Codeをあまり触り慣れていない方でしたら、まずは初級編からご覧になることをお勧めします！ <https://www.notion.so/4-19-33f9be44865881bc8a56d83e28840728 ()\nai駆動開発ネタ\n経営"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1776764192.447579",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AUL01EBU1",
+      "personName": "田端陽",
+      "slackIds": [
+        "U0AUL01EBU1"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1776764192.447579",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1776764192.447579",
+      "timestamp": "2026-04-21T09:36:32.447Z",
+      "detailBullets": [
+        "はじめまして。 6月から入社させていただく田端陽（たばたあきら）と申します。 :black_large_square:︎出身地 埼玉県 :black_large_square:︎これまでやってきたこと カーエレクトロニクス領域にて、海外メーカーと連携しながら、 製品の企画〜量産までの進捗・品質管理などのPMO業務に携わってきました。 ■休日の過ごし方 休日の空いた時間に散歩をすることが日課になっています。 :black_large_square:︎趣味 最近、子どもと一緒に釣りを始めました。 まだまだ初心者ですが楽しんでいます。 :black_large_square:︎ひとこと これまでの経験を活かし、精一杯貢献できるよう取り組んでまいります。 皆さま、どうぞよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1776764192.447579",
+          "text": "はじめまして。 6月から入社させていただく田端陽（たばたあきら）と申します。 :black_large_square:︎出身地 埼玉県 :black_large_square:︎これまでやってきたこと カーエレクトロニクス領域にて、海外メーカーと連携しながら、 製品の企画〜量産までの進捗・品質管理などのPMO業務に携わってきました。 ■休日の過ごし方 休日の空いた時間に散歩をすることが日課になっています。 :black_large_square:︎趣味 最近、子どもと一緒に釣りを始めました。 まだまだ初心者ですが楽しんでいます。 :black_large_square:︎ひとこと これまでの経験を活かし、精一杯貢献できるよう取り組んでまいります。 皆さま、どうぞよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1776764192.447579",
+          "threadTs": "1776764192.447579",
+          "authorName": "田端陽",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして。 6月から入社させていただく田端陽（たばたあきら）と申します。 :black_large_square:︎出身地 埼玉県 :black_large_square:︎これまでやってきたこと カーエレクトロニクス領域にて、海外メーカーと連携しながら、 製品の企画〜量産までの進捗・品質管理などのPMO業務に携わってきました。 ■休日の過ごし方 休日の空いた時間に散歩をすることが日課になっています。 :black_large_square:︎趣味 最近、子どもと一緒に釣りを始めました。 まだまだ初心者ですが楽しんでいます。 :black_large_square:︎ひとこと これまでの経験を活かし、精一杯貢献できるよう取り組んでまいります。 皆さま、どうぞよろしくお願いいたします！\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1776764670.884479",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -40078,6 +42118,40 @@
         }
       ],
       "searchText": "@田端陽 田端さん、これからよろしくお願いします！ 面談の中でお聞きしたご経験がとても魅力的であったこともさながら、面談当日に私が風邪を引いてしまっていたのに対し、気遣いながら話してくださったのがとても印象的でした！ Warm Heart, Cool Headなプロ集団の実現に向け、今後いろいろな場面でご一緒させてください！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1776766390.287819",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AUL01EBU1",
+      "personName": "田端陽",
+      "slackIds": [
+        "U0AUL01EBU1"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1776766390.287819",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1776766390.287819",
+      "timestamp": "2026-04-21T10:13:10.287Z",
+      "detailBullets": [
+        "こちらこそ、よろしくお願いいたします。 面談を通じて、一人ひとりと丁寧に向き合われている印象を受け、素晴らしい方と出会えたことに感謝しております。 今後は業務を通じて貢献できるよう、精進してまいります！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1776766390.287819",
+          "text": "こちらこそ、よろしくお願いいたします。 面談を通じて、一人ひとりと丁寧に向き合われている印象を受け、素晴らしい方と出会えたことに感謝しております。 今後は業務を通じて貢献できるよう、精進してまいります！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1776766390.287819",
+          "threadTs": "1776764192.447579",
+          "authorName": "田端陽",
+          "permalink": null
+        }
+      ],
+      "searchText": "こちらこそ、よろしくお願いいたします。 面談を通じて、一人ひとりと丁寧に向き合われている印象を受け、素晴らしい方と出会えたことに感謝しております。 今後は業務を通じて貢献できるよう、精進してまいります！\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09Q46YA4ER:1776775466.474649",
@@ -40182,6 +42256,108 @@
       "searchText": "@田端陽 さん はじめまして。総務の藤井といいます:smile: プロフィールのお庭の写真がとても素敵ですね！ お子さんとの釣りは川釣りでしょうか？ 親子で楽しめる趣味、いいですねぇ:heart: どうぞよろしくお願いします！\n自己紹介\nSales"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1776778072.943289",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0ATVGURLRL",
+      "personName": "好田 歩",
+      "slackIds": [
+        "U0ATVGURLRL"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1776778072.943289",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1776778072.943289",
+      "timestamp": "2026-04-21T13:27:52.943Z",
+      "detailBullets": [
+        "@藤井芙美子 藤井さん、はじめまして！ 映画館で見る映画が特に好きで、GW中はマリオの新作映画を見にいこうか悩んでいます笑 これからどうぞよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1776778072.943289",
+          "text": "@藤井芙美子 藤井さん、はじめまして！ 映画館で見る映画が特に好きで、GW中はマリオの新作映画を見にいこうか悩んでいます笑 これからどうぞよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1776778072.943289",
+          "threadTs": "1776654343.204939",
+          "authorName": "好田　歩",
+          "permalink": null
+        }
+      ],
+      "searchText": "@藤井芙美子 藤井さん、はじめまして！ 映画館で見る映画が特に好きで、GW中はマリオの新作映画を見にいこうか悩んでいます笑 これからどうぞよろしくお願いいたします！\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1776823311.880359",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AUL01EBU1",
+      "personName": "田端陽",
+      "slackIds": [
+        "U0AUL01EBU1"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1776823311.880359",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1776823311.880359",
+      "timestamp": "2026-04-22T02:01:51.880Z",
+      "detailBullets": [
+        "@藤井芙美子 さん はじめまして、田端です。 温かいお言葉をありがとうございます！ 写真も見ていただき嬉しいです。 釣りは海で、まだまだ初心者ですが子どもと一緒に楽しんでいます。 こちらこそ、どうぞよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1776823311.880359",
+          "text": "@藤井芙美子 さん はじめまして、田端です。 温かいお言葉をありがとうございます！ 写真も見ていただき嬉しいです。 釣りは海で、まだまだ初心者ですが子どもと一緒に楽しんでいます。 こちらこそ、どうぞよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1776823311.880359",
+          "threadTs": "1776764192.447579",
+          "authorName": "田端陽",
+          "permalink": null
+        }
+      ],
+      "searchText": "@藤井芙美子 さん はじめまして、田端です。 温かいお言葉をありがとうございます！ 写真も見ていただき嬉しいです。 釣りは海で、まだまだ初心者ですが子どもと一緒に楽しんでいます。 こちらこそ、どうぞよろしくお願いいたします！\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1776829596.830299",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AU4AEKC86",
+      "personName": "小野裕",
+      "slackIds": [
+        "U0AU4AEKC86"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1776829596.830299",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1776829596.830299",
+      "timestamp": "2026-04-22T03:46:36.830Z",
+      "detailBullets": [
+        "ご連絡いただきありがとうございます。 お酒がお好きな方が多いとのことで、とても楽しみです。 タイミングが合う際には、ぜひ部活にも参加させていただきたいと思います。 今後ともどうぞよろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1776829596.830299",
+          "text": "ご連絡いただきありがとうございます。 お酒がお好きな方が多いとのことで、とても楽しみです。 タイミングが合う際には、ぜひ部活にも参加させていただきたいと思います。 今後ともどうぞよろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1776829596.830299",
+          "threadTs": "1776760342.217379",
+          "authorName": "小野裕",
+          "permalink": null
+        }
+      ],
+      "searchText": "ご連絡いただきありがとうございます。 お酒がお好きな方が多いとのことで、とても楽しみです。 タイミングが合う際には、ぜひ部活にも参加させていただきたいと思います。 今後ともどうぞよろしくお願いいたします。\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1776851748.792899",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:鈴木悠斗",
@@ -40250,6 +42426,40 @@
         }
       ],
       "searchText": "@田端陽 はじまして！鈴木です！ お子さんと釣りいいですね:fishing_pole_and_fish: 私も息子がいるので、今度行ってみたいなと思いました:relaxed: 私もPMOやってましたので、明日色々と会話させてください:sparkles:\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1776855617.737179",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AUL01EBU1",
+      "personName": "田端陽",
+      "slackIds": [
+        "U0AUL01EBU1"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1776855617.737179",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1776855617.737179",
+      "timestamp": "2026-04-22T11:00:17.737Z",
+      "detailBullets": [
+        "@鈴木悠斗 さん はじめまして、田端です！ コメントありがとうございます！ 息子さんいらっしゃるんですね、ぜひ一度釣りも楽しいと思います:fishing_pole_and_fish: 明日、いろいろお話しできるのを楽しみにしております！ どうぞよろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1776855617.737179",
+          "text": "@鈴木悠斗 さん はじめまして、田端です！ コメントありがとうございます！ 息子さんいらっしゃるんですね、ぜひ一度釣りも楽しいと思います:fishing_pole_and_fish: 明日、いろいろお話しできるのを楽しみにしております！ どうぞよろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1776855617.737179",
+          "threadTs": "1776764192.447579",
+          "authorName": "田端陽",
+          "permalink": null
+        }
+      ],
+      "searchText": "@鈴木悠斗 さん はじめまして、田端です！ コメントありがとうございます！ 息子さんいらっしゃるんですね、ぜひ一度釣りも楽しいと思います:fishing_pole_and_fish: 明日、いろいろお話しできるのを楽しみにしております！ どうぞよろしくお願いいたします。\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1776999826.938229",
@@ -40353,6 +42563,40 @@
         }
       ],
       "searchText": "↑_↑_↑↑_↑_↑↑_↑_↑↑_↑_↑↑_↑_↑↑_↑_↑↑_↑_↑↑_↑_↑↑_↑_↑↑_↑_↑ 上記のイベントですが、飛び入り参加もOKです！！ 「今日、元々予定あったけど急に暇になったし、出席したいかも」という方もぜひ、ご参加ください！ 飲食費3,000円まで補助出ます！（領収書必ず取っておいてください！）\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1777022579.330369",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1777022579.330369",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1777022579.330369",
+      "timestamp": "2026-04-24T09:22:59.330Z",
+      "detailBullets": [
+        "少々遅れるかもしれませんが出席させていただきます。 間に合うように頑張ります。 連絡まで :woman-running::skin-tone-2:=3=3=3"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1777022579.330369",
+          "text": "少々遅れるかもしれませんが出席させていただきます。 間に合うように頑張ります。 連絡まで :woman-running::skin-tone-2:=3=3=3",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1777022579.330369",
+          "threadTs": "1776999826.938229",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "少々遅れるかもしれませんが出席させていただきます。 間に合うように頑張ります。 連絡まで :woman-running::skin-tone-2:=3=3=3\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1777025249.032519",
@@ -40947,6 +43191,40 @@
       "searchText": "おお、いいですね！何もない部屋に入居したときのワクワク感が伝わってきます:sparkles:\nソーシャル\n経営"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1777128918.697919",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B00RXK25P",
+      "personName": "坂野 真理子",
+      "slackIds": [
+        "U0B00RXK25P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1777128918.697919",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1777128918.697919",
+      "timestamp": "2026-04-25T14:55:18.697Z",
+      "detailBullets": [
+        "皆様、初めまして。 6月より入社させていただきます、坂野 真理子(ばんの まりこ)と申します。 これからよろしくお願いいたします。 ⬛︎出身地 三重県生まれ、三重県育ちです。 ⬛︎これまでやってきたこと 現在職業訓練学校に通っており、Java Silver取得に向けて勉強中です。 前職は外貨送金サービスにおいて、顧客導入フェーズの技術二次対応を担当しておりました。 ■休日の過ごし方 東京に引っ越して3年半が過ぎましたが、今もおのぼりさんとして近辺の散策を楽しんでます。 ⬛︎趣味 気になる展覧会があると友人と見に行きます。直近ではエジプト展やゴッホ展にいきました。東京はこういう機会が沢山あって素晴らしいですね！ コーヒーが好きで、自宅でドリップコーヒーを楽しんでいます。 マンガやアニメも好きで、特に小説は学生の頃読んでた作家さんがその後出された本など読みたいなと思っています。(なかなか実現できていません..) ⬛︎ひとこと 不慣れなところ、至らぬところ多々ございますが、一日も早くお役に立てるよう努めてまいります。どうぞよろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1777128918.697919",
+          "text": "皆様、初めまして。 6月より入社させていただきます、坂野 真理子(ばんの まりこ)と申します。 これからよろしくお願いいたします。 ⬛︎出身地 三重県生まれ、三重県育ちです。 ⬛︎これまでやってきたこと 現在職業訓練学校に通っており、Java Silver取得に向けて勉強中です。 前職は外貨送金サービスにおいて、顧客導入フェーズの技術二次対応を担当しておりました。 ■休日の過ごし方 東京に引っ越して3年半が過ぎましたが、今もおのぼりさんとして近辺の散策を楽しんでます。 ⬛︎趣味 気になる展覧会があると友人と見に行きます。直近ではエジプト展やゴッホ展にいきました。東京はこういう機会が沢山あって素晴らしいですね！ コーヒーが好きで、自宅でドリップコーヒーを楽しんでいます。 マンガやアニメも好きで、特に小説は学生の頃読んでた作家さんがその後出された本など読みたいなと思っています。(なかなか実現できていません..) ⬛︎ひとこと 不慣れなところ、至らぬところ多々ございますが、一日も早くお役に立てるよう努めてまいります。どうぞよろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1777128918.697919",
+          "threadTs": "1777128918.697919",
+          "authorName": "坂野 真理子",
+          "permalink": null
+        }
+      ],
+      "searchText": "皆様、初めまして。 6月より入社させていただきます、坂野 真理子(ばんの まりこ)と申します。 これからよろしくお願いいたします。 ⬛︎出身地 三重県生まれ、三重県育ちです。 ⬛︎これまでやってきたこと 現在職業訓練学校に通っており、Java Silver取得に向けて勉強中です。 前職は外貨送金サービスにおいて、顧客導入フェーズの技術二次対応を担当しておりました。 ■休日の過ごし方 東京に引っ越して3年半が過ぎましたが、今もおのぼりさんとして近辺の散策を楽しんでます。 ⬛︎趣味 気になる展覧会があると友人と見に行きます。直近ではエジプト展やゴッホ展にいきました。東京はこういう機会が沢山あって素晴らしいですね！ コーヒーが好きで、自宅でドリップコーヒーを楽しんでいます。 マンガやアニメも好きで、特に小説は学生の頃読んでた作家さんがその後出された本など読みたいなと思っています。(なかなか実現できていません..) ⬛︎ひとこと 不慣れなところ、至らぬところ多々ございますが、一日も早くお役に立てるよう努めてまいります。どうぞよろしくお願いいたします。\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1777171030.438869",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -40980,6 +43258,74 @@
         }
       ],
       "searchText": "@坂野 真理子 坂野さん、あらためてよろしくお願いします！ 三重県生まれのメンバー、弊社に他に2名いらっしゃいます！ 最近は行けてないですが、上野の美術館とか、よく見に行ってました！電車で行ける距離にいろんな展覧会があるのはとても魅力ですよね！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1777198920.167159",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1777198920.167159",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1777198920.167159",
+      "timestamp": "2026-04-26T10:22:00.167Z",
+      "detailBullets": [
+        "三重県出身者でっす！ ٩( `>∇< ´ *)۶ﾔﾀｰ!!!:sparkles:同郷:sparkles: わかります。 東京は美術館、博物館に恵まれてて、ほんま羨ましいです。 いつかご一緒したい:heart: どうぞよろしくお願いします:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1777198920.167159",
+          "text": "三重県出身者でっす！ ٩( `>∇< ´ *)۶ﾔﾀｰ!!!:sparkles:同郷:sparkles: わかります。 東京は美術館、博物館に恵まれてて、ほんま羨ましいです。 いつかご一緒したい:heart: どうぞよろしくお願いします:sparkles:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1777198920.167159",
+          "threadTs": "1777128918.697919",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "三重県出身者でっす！ ٩( `>∇< ´ *)۶ﾔﾀｰ!!!:sparkles:同郷:sparkles: わかります。 東京は美術館、博物館に恵まれてて、ほんま羨ましいです。 いつかご一緒したい:heart: どうぞよろしくお願いします:sparkles:\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1777200415.388129",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1777200415.388129",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1777200415.388129",
+      "timestamp": "2026-04-26T10:46:55.388Z",
+      "detailBullets": [
+        "家電は、まずは電子レンジですね！ レンジさえあれば生きていけます。 温めるのはもちろん、コップ１杯ならお湯もすぐ沸かせるから、カップラーメンも食べれます:ramen: 専用の調理器具は要るけど、ご飯も炊けます。肉も魚も焼けます。 一人暮らし！ ＼ガンバレ／"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1777200415.388129",
+          "text": "家電は、まずは電子レンジですね！ レンジさえあれば生きていけます。 温めるのはもちろん、コップ１杯ならお湯もすぐ沸かせるから、カップラーメンも食べれます:ramen: 専用の調理器具は要るけど、ご飯も炊けます。肉も魚も焼けます。 一人暮らし！ ＼ガンバレ／",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1777200415.388129",
+          "threadTs": "1777096977.994879",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "家電は、まずは電子レンジですね！ レンジさえあれば生きていけます。 温めるのはもちろん、コップ１杯ならお湯もすぐ沸かせるから、カップラーメンも食べれます:ramen: 専用の調理器具は要るけど、ご飯も炊けます。肉も魚も焼けます。 一人暮らし！ ＼ガンバレ／\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09MKT8QKAR:1777205945.834019",
@@ -41051,6 +43397,108 @@
       "searchText": "@坂野 真理子さん はじめまして、総務の藤井です。 どうぞよろしくお願いいたします！ 展覧会お好きなら、 六本木の森美術館でロン・ミュエク展が開催中でおすすめですよ:blush: 20年位前に初めてみた時は、鳥肌が立つほどの迫力と緻密さに感動しました。 機会があったらぜひ:+1:\n自己紹介\nSales"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1777265479.349559",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B00RXK25P",
+      "personName": "坂野 真理子",
+      "slackIds": [
+        "U0B00RXK25P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1777265479.349559",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1777265479.349559",
+      "timestamp": "2026-04-27T04:51:19.349Z",
+      "detailBullets": [
+        "@戸塚直道 さん ありがとうございます、こちらこそよろしくお願いいたします！ 三重県の方が2人も！びっくりです！ 上野は美術館や博物館、色々あり過ぎて1日じゃ全く足りないですね〜！親子で楽しめる素敵なスポットだと思います:smile:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1777265479.349559",
+          "text": "@戸塚直道 さん ありがとうございます、こちらこそよろしくお願いいたします！ 三重県の方が2人も！びっくりです！ 上野は美術館や博物館、色々あり過ぎて1日じゃ全く足りないですね〜！親子で楽しめる素敵なスポットだと思います:smile:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1777265479.349559",
+          "threadTs": "1777128918.697919",
+          "authorName": "坂野 真理子",
+          "permalink": null
+        }
+      ],
+      "searchText": "@戸塚直道 さん ありがとうございます、こちらこそよろしくお願いいたします！ 三重県の方が2人も！びっくりです！ 上野は美術館や博物館、色々あり過ぎて1日じゃ全く足りないですね〜！親子で楽しめる素敵なスポットだと思います:smile:\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1777266644.982479",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B00RXK25P",
+      "personName": "坂野 真理子",
+      "slackIds": [
+        "U0B00RXK25P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1777266644.982479",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1777266644.982479",
+      "timestamp": "2026-04-27T05:10:44.982Z",
+      "detailBullets": [
+        "@永井 さん ありがとうございます！ 同郷ですね、よろしくお願いいたします！ 美術展も沢山あり過ぎて迷うほどです...！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1777266644.982479",
+          "text": "@永井 さん ありがとうございます！ 同郷ですね、よろしくお願いいたします！ 美術展も沢山あり過ぎて迷うほどです...！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1777266644.982479",
+          "threadTs": "1777128918.697919",
+          "authorName": "坂野 真理子",
+          "permalink": null
+        }
+      ],
+      "searchText": "@永井 さん ありがとうございます！ 同郷ですね、よろしくお願いいたします！ 美術展も沢山あり過ぎて迷うほどです...！\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1777267149.061759",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B00RXK25P",
+      "personName": "坂野 真理子",
+      "slackIds": [
+        "U0B00RXK25P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1777267149.061759",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1777267149.061759",
+      "timestamp": "2026-04-27T05:19:09.061Z",
+      "detailBullets": [
+        "@藤井芙美子 さん 初めまして、コメントありがとうございます！ これからよろしくお願いいたします！ ロン・ミュエク氏は知らなかったのですが、サイト見てみたらオーストラリアの方というのもあり興味が沸きました！見てきたいと思います:blush:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1777267149.061759",
+          "text": "@藤井芙美子 さん 初めまして、コメントありがとうございます！ これからよろしくお願いいたします！ ロン・ミュエク氏は知らなかったのですが、サイト見てみたらオーストラリアの方というのもあり興味が沸きました！見てきたいと思います:blush:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1777267149.061759",
+          "threadTs": "1777128918.697919",
+          "authorName": "坂野 真理子",
+          "permalink": null
+        }
+      ],
+      "searchText": "@藤井芙美子 さん 初めまして、コメントありがとうございます！ これからよろしくお願いいたします！ ロン・ミュエク氏は知らなかったのですが、サイト見てみたらオーストラリアの方というのもあり興味が沸きました！見てきたいと思います:blush:\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1777296754.169019",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:鈴木悠斗",
@@ -41084,6 +43532,108 @@
         }
       ],
       "searchText": "@坂野 真理子 改めてよろしくお願いします！ 資格取得に向け学習されているのは、素晴らしいですね:sparkles: マンガ、アニメ好きは、結構社内で多くて、私も好きなので、今度おすすめを教えてください:bangbang:\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1777332050.317699",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AU4AEKC86",
+      "personName": "小野裕",
+      "slackIds": [
+        "U0AU4AEKC86"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1777332050.317699",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1777332050.317699",
+      "timestamp": "2026-04-27T23:20:50.317Z",
+      "detailBullets": [
+        "@鈴木悠斗 鈴木さん はじめまして、小野です。 ご連絡いただきありがとうございます。 お酒お好きとのことなので、機会があればぜひご一緒できたら嬉しいです。 改めて、今後ともよろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1777332050.317699",
+          "text": "@鈴木悠斗 鈴木さん はじめまして、小野です。 ご連絡いただきありがとうございます。 お酒お好きとのことなので、機会があればぜひご一緒できたら嬉しいです。 改めて、今後ともよろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1777332050.317699",
+          "threadTs": "1776760342.217379",
+          "authorName": "小野裕",
+          "permalink": null
+        }
+      ],
+      "searchText": "@鈴木悠斗 鈴木さん はじめまして、小野です。 ご連絡いただきありがとうございます。 お酒お好きとのことなので、機会があればぜひご一緒できたら嬉しいです。 改めて、今後ともよろしくお願いいたします。\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1777348848.406709",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B00RXK25P",
+      "personName": "坂野 真理子",
+      "slackIds": [
+        "U0B00RXK25P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1777348848.406709",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1777348848.406709",
+      "timestamp": "2026-04-28T04:00:48.406Z",
+      "detailBullets": [
+        "@鈴木悠斗 さん ありがとうございます、こちらこそよろしくお願いいたします！ マンガもアニメも皆さんご存知の有名タイトルしか知らないのですが、最近だとBLUE GIANT映画版を見てよかったです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1777348848.406709",
+          "text": "@鈴木悠斗 さん ありがとうございます、こちらこそよろしくお願いいたします！ マンガもアニメも皆さんご存知の有名タイトルしか知らないのですが、最近だとBLUE GIANT映画版を見てよかったです！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1777348848.406709",
+          "threadTs": "1777128918.697919",
+          "authorName": "坂野 真理子",
+          "permalink": null
+        }
+      ],
+      "searchText": "@鈴木悠斗 さん ありがとうございます、こちらこそよろしくお願いいたします！ マンガもアニメも皆さんご存知の有名タイトルしか知らないのですが、最近だとBLUE GIANT映画版を見てよかったです！\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1777372907.320649",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1777372907.320649",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1777372907.320649",
+      "timestamp": "2026-04-28T10:41:47.320Z",
+      "detailBullets": [
+        "#スポーツ観戦部 今年のWBC何が良かったって？:baseball: 大谷のホームラン？ ロウキの球威？ 佐藤輝明？森下翔太？ ちっちっち ((d(´-ε-｀) ずっと流れてた、【タッチ】でしょ！ 優勝はローンデポ・パークのベネズエラではなく、稲葉さん！！！:sunglasses: この世代にはたまりませんわぁぁぁ <https://www.youtube.com/watch?v=6V_fTnlj_Dg () 星屑ロンリぃネぇス（キュイーン:guitar:） そっと悲しみに こんにちぅはあぁ（いぇぁ:microphone:） 呼吸を止めて....（ﾀﾋ:angel:） _"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1777372907.320649",
+          "text": "#スポーツ観戦部 今年のWBC何が良かったって？:baseball: 大谷のホームラン？ ロウキの球威？ 佐藤輝明？森下翔太？ ちっちっち ((d(´-ε-｀) ずっと流れてた、【タッチ】でしょ！ 優勝はローンデポ・パークのベネズエラではなく、稲葉さん！！！:sunglasses: この世代にはたまりませんわぁぁぁ <https://www.youtube.com/watch?v=6V_fTnlj_Dg () 星屑ロンリぃネぇス（キュイーン:guitar:） そっと悲しみに こんにちぅはあぁ（いぇぁ:microphone:） 呼吸を止めて....（ﾀﾋ:angel:） _",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1777372907.320649",
+          "threadTs": "1777372907.320649",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "#スポーツ観戦部 今年のWBC何が良かったって？:baseball: 大谷のホームラン？ ロウキの球威？ 佐藤輝明？森下翔太？ ちっちっち ((d(´-ε-｀) ずっと流れてた、【タッチ】でしょ！ 優勝はローンデポ・パークのベネズエラではなく、稲葉さん！！！:sunglasses: この世代にはたまりませんわぁぁぁ <https://www.youtube.com/watch?v=6V_fTnlj_Dg () 星屑ロンリぃネぇス（キュイーン:guitar:） そっと悲しみに こんにちぅはあぁ（いぇぁ:microphone:） 呼吸を止めて....（ﾀﾋ:angel:） _\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1777386632.406269",
@@ -41540,6 +44090,40 @@
       "searchText": "なんと、本日だけで2名のエンジニアの方から内定承諾いただき単月の内定承諾者が10名となりました…！:clap:\nソーシャル\n経営"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1777545869.758509",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B0XCRK6KW",
+      "personName": "清水光一",
+      "slackIds": [
+        "U0B0XCRK6KW"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1777545869.758509",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1777545869.758509",
+      "timestamp": "2026-04-30T10:44:29.758Z",
+      "detailBullets": [
+        "はじめまして。 6月から入社予定の清水光一（しみずこういち）と申します。 ⬛︎出身地 石川県 ⬛︎これまでやってきたこと 今現在JP1の資格取得を目指し学習中です。 また前職ではSQLを使ったデータ移行、運用OPでエラーメッセージの切り分け、サービス起動後の状態確認等を行っておりました。 ⬛︎趣味 ゲーセン行ったり友達とお酒を飲んだりしてます。 またスマホのソシャゲもよくしてます 某ソシャゲでランカーになるくらい好きです！ ⬛︎ひとこと まだ分からないことも多く迷惑かける事がございますがよろしくお願い致します！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1777545869.758509",
+          "text": "はじめまして。 6月から入社予定の清水光一（しみずこういち）と申します。 ⬛︎出身地 石川県 ⬛︎これまでやってきたこと 今現在JP1の資格取得を目指し学習中です。 また前職ではSQLを使ったデータ移行、運用OPでエラーメッセージの切り分け、サービス起動後の状態確認等を行っておりました。 ⬛︎趣味 ゲーセン行ったり友達とお酒を飲んだりしてます。 またスマホのソシャゲもよくしてます 某ソシャゲでランカーになるくらい好きです！ ⬛︎ひとこと まだ分からないことも多く迷惑かける事がございますがよろしくお願い致します！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1777545869.758509",
+          "threadTs": "1777545869.758509",
+          "authorName": "清水光一",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして。 6月から入社予定の清水光一（しみずこういち）と申します。 ⬛︎出身地 石川県 ⬛︎これまでやってきたこと 今現在JP1の資格取得を目指し学習中です。 また前職ではSQLを使ったデータ移行、運用OPでエラーメッセージの切り分け、サービス起動後の状態確認等を行っておりました。 ⬛︎趣味 ゲーセン行ったり友達とお酒を飲んだりしてます。 またスマホのソシャゲもよくしてます 某ソシャゲでランカーになるくらい好きです！ ⬛︎ひとこと まだ分からないことも多く迷惑かける事がございますがよろしくお願い致します！\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1777564318.961609",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:鈴木悠斗",
@@ -41713,6 +44297,40 @@
       "searchText": "今月はフォースを感じながら月初処理をしますw\nソーシャル\nSales"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1777611126.963949",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0APF12RSJK",
+      "personName": "深尾航輝",
+      "slackIds": [
+        "U0APF12RSJK"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1777611126.963949",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1777611126.963949",
+      "timestamp": "2026-05-01T04:52:06.963Z",
+      "detailBullets": [
+        "はじめまして！ 本日入社いたしました深尾航輝（ふかおこうき）です。 少しだけ自己紹介させてください！ :black_small_square:出身地 兵庫県の神戸市です。 南京町には行ったことがある方もいらっしゃるかもしれません。 生まれてすぐに関東に来て、関西にもどっているので、関西弁はマイルドな方です。 :black_small_square:︎これまでやってきたこと インフラエンジニアとして、24365の監視案件や社内SE、AWS運用構築 ↓ 大手SES企業で企業担当、リクルーティングアドバイザー ↓ ベンチャーSES企業の採用責任者 ↓ Saiteki人事 エンジニアやって、営業やって、採用側やってというキャリアになります！ :black_small_square:︎最近ハマっていること ・インディアンジュエリー ・カフェ巡り ・ジム ・酒を呑んだり呑まれたり :black_small_square:︎休日の過ごし方 家で過ごすことが多いですが、外出時にはカフェに行ったりしています！ :black_small_square:︎ひとこと 前職も採用側をやっておりましたが、採用は..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1777611126.963949",
+          "text": "はじめまして！ 本日入社いたしました深尾航輝（ふかおこうき）です。 少しだけ自己紹介させてください！ :black_small_square:出身地 兵庫県の神戸市です。 南京町には行ったことがある方もいらっしゃるかもしれません。 生まれてすぐに関東に来て、関西にもどっているので、関西弁はマイルドな方です。 :black_small_square:︎これまでやってきたこと インフラエンジニアとして、24365の監視案件や社内SE、AWS運用構築 ↓ 大手SES企業で企業担当、リクルーティングアドバイザー ↓ ベンチャーSES企業の採用責任者 ↓ Saiteki人事 エンジニアやって、営業やって、採用側やってというキャリアになります！ :black_small_square:︎最近ハマっていること ・インディアンジュエリー ・カフェ巡り ・ジム ・酒を呑んだり呑まれたり :black_small_square:︎休日の過ごし方 家で過ごすことが多いですが、外出時にはカフェに行ったりしています！ :black_small_square:︎ひとこと 前職も採用側をやっておりましたが、採用は人事や内勤だけの力ではなく、 会社の総合力で戦わないとうまくいきません。 そのため、みなさんの協力が必要不可欠です！ ぜひお力をお貸しください！よろしくお願いします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1777611126.963949",
+          "threadTs": "1777611126.963949",
+          "authorName": "深尾航輝",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして！ 本日入社いたしました深尾航輝（ふかおこうき）です。 少しだけ自己紹介させてください！ :black_small_square:出身地 兵庫県の神戸市です。 南京町には行ったことがある方もいらっしゃるかもしれません。 生まれてすぐに関東に来て、関西にもどっているので、関西弁はマイルドな方です。 :black_small_square:︎これまでやってきたこと インフラエンジニアとして、24365の監視案件や社内SE、AWS運用構築 ↓ 大手SES企業で企業担当、リクルーティングアドバイザー ↓ ベンチャーSES企業の採用責任者 ↓ Saiteki人事 エンジニアやって、営業やって、採用側やってというキャリアになります！ :black_small_square:︎最近ハマっていること ・インディアンジュエリー ・カフェ巡り ・ジム ・酒を呑んだり呑まれたり :black_small_square:︎休日の過ごし方 家で過ごすことが多いですが、外出時にはカフェに行ったりしています！ :black_small_square:︎ひとこと 前職も採用側をやっておりましたが、採用は人事や内勤だけの力ではなく、 会社の総合力で戦わないとうまくいきません。 そのため、みなさんの協力が必要不可欠です！ ぜひお力をお貸しください！よろしくお願いします！\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09MKT8QKAR:1777620986.367549",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:藤井芙美子",
@@ -41745,6 +44363,40 @@
         }
       ],
       "searchText": "<!channel () 4/24のオンライン飲み会に参加した皆さん！ 社労士共有個人フォルダに領収書の格納をお忘れなく:raised_hands: 宛名は「株式会社Saiteki」です！\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1777621617.611089",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0APF134ZP1",
+      "personName": "徳田健一",
+      "slackIds": [
+        "U0APF134ZP1"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1777621617.611089",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1777621617.611089",
+      "timestamp": "2026-05-01T07:46:57.611Z",
+      "detailBullets": [
+        "<!channel () みなさん、初めまして。 本日より営業として入社いたしました徳田健一です。 鈴木さん、小島さんと一緒にみなさんの案件参画サポートをメインにしていきます。 よろしくお願いします！！ ◼︎出身地 大阪府 ◼︎これまでやってきたこと 飲み屋 ↓ 全国出張の営業 ↓ SES営業（ここで人事の深尾さんと一緒に働いてました） ↓ SES営業2社目（ここでも人事の深尾さんと働いてました） ↓ Saiteki（やっぱりここでも人事の深尾さんと働いています） ◼︎最近ハマってること 格闘技はずっと好きです。筋トレも好きです。 ◼︎休日の過ごし方 妻と子ども２人に好かれる為のこと全般をしています！ ◼︎好きな食べ物 or 趣味 死ぬ前には必ず食べたいほどすき焼きが好きです。 野菜全般は基本的にいらないですね。 ◼︎ひとこと こういった限られた文字数での自己紹介は得意です。 自分の最大のつよm"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1777621617.611089",
+          "text": "<!channel () みなさん、初めまして。 本日より営業として入社いたしました徳田健一です。 鈴木さん、小島さんと一緒にみなさんの案件参画サポートをメインにしていきます。 よろしくお願いします！！ ◼︎出身地 大阪府 ◼︎これまでやってきたこと 飲み屋 ↓ 全国出張の営業 ↓ SES営業（ここで人事の深尾さんと一緒に働いてました） ↓ SES営業2社目（ここでも人事の深尾さんと働いてました） ↓ Saiteki（やっぱりここでも人事の深尾さんと働いています） ◼︎最近ハマってること 格闘技はずっと好きです。筋トレも好きです。 ◼︎休日の過ごし方 妻と子ども２人に好かれる為のこと全般をしています！ ◼︎好きな食べ物 or 趣味 死ぬ前には必ず食べたいほどすき焼きが好きです。 野菜全般は基本的にいらないですね。 ◼︎ひとこと こういった限られた文字数での自己紹介は得意です。 自分の最大のつよm",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1777621617.611089",
+          "threadTs": "1777621617.611089",
+          "authorName": "徳田健一",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel () みなさん、初めまして。 本日より営業として入社いたしました徳田健一です。 鈴木さん、小島さんと一緒にみなさんの案件参画サポートをメインにしていきます。 よろしくお願いします！！ ◼︎出身地 大阪府 ◼︎これまでやってきたこと 飲み屋 ↓ 全国出張の営業 ↓ SES営業（ここで人事の深尾さんと一緒に働いてました） ↓ SES営業2社目（ここでも人事の深尾さんと働いてました） ↓ Saiteki（やっぱりここでも人事の深尾さんと働いています） ◼︎最近ハマってること 格闘技はずっと好きです。筋トレも好きです。 ◼︎休日の過ごし方 妻と子ども２人に好かれる為のこと全般をしています！ ◼︎好きな食べ物 or 趣味 死ぬ前には必ず食べたいほどすき焼きが好きです。 野菜全般は基本的にいらないですね。 ◼︎ひとこと こういった限られた文字数での自己紹介は得意です。 自分の最大のつよm\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1777627135.394599",
@@ -41815,6 +44467,40 @@
         }
       ],
       "searchText": "5月1人目の内定承諾をいただけました:confetti_ball:女性エンジニアの方です！ 最近、少しずつ女性比率が上がっていて、今回のご承諾で比率は23％ぐらいになりました:open_mouth: 性別、年齢など問わず、色々なエンジニアの皆さんに選んでいただける会社にできるよう精進します:fire:\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1777690915.312679",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B1BH35JFN",
+      "personName": "宍戸佑衣",
+      "slackIds": [
+        "U0B1BH35JFN"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1777690915.312679",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1777690915.312679",
+      "timestamp": "2026-05-02T03:01:55.312Z",
+      "detailBullets": [
+        "<!channel () はじめまして、7月入社予定の宍戸佑衣(ししどゆい)と申します。 ◾︎出身地 神奈川県 ◾︎これまでやってきたこと 社内向けのAWS・Azureの運用保守業務やAPIの実装からテスト,改修対応といった開発業務まで幅広く担当していました。 ◾︎趣味 絵を描くこととゲームが好きです。 まだ始めたばかりですが、個人的にゲーム作成をしてます。 フィギュア集めにもハマってます。 ◾︎ひとこと 経験年数も浅くまだ分からないことばかりですが、少しでも早く役に立てるように取り組んでいきます。 よろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1777690915.312679",
+          "text": "<!channel () はじめまして、7月入社予定の宍戸佑衣(ししどゆい)と申します。 ◾︎出身地 神奈川県 ◾︎これまでやってきたこと 社内向けのAWS・Azureの運用保守業務やAPIの実装からテスト,改修対応といった開発業務まで幅広く担当していました。 ◾︎趣味 絵を描くこととゲームが好きです。 まだ始めたばかりですが、個人的にゲーム作成をしてます。 フィギュア集めにもハマってます。 ◾︎ひとこと 経験年数も浅くまだ分からないことばかりですが、少しでも早く役に立てるように取り組んでいきます。 よろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1777690915.312679",
+          "threadTs": "1777690915.312679",
+          "authorName": "宍戸佑衣",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel () はじめまして、7月入社予定の宍戸佑衣(ししどゆい)と申します。 ◾︎出身地 神奈川県 ◾︎これまでやってきたこと 社内向けのAWS・Azureの運用保守業務やAPIの実装からテスト,改修対応といった開発業務まで幅広く担当していました。 ◾︎趣味 絵を描くこととゲームが好きです。 まだ始めたばかりですが、個人的にゲーム作成をしてます。 フィギュア集めにもハマってます。 ◾︎ひとこと 経験年数も浅くまだ分からないことばかりですが、少しでも早く役に立てるように取り組んでいきます。 よろしくお願いいたします。\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09Q46YA4ER:1777691947.060559",
@@ -42684,6 +45370,40 @@
       "searchText": "結構小さいのに存在感あってかっこよかったです！ ぜひ次回はご参加ください:muscle:\nソーシャル\n経営"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1778461203.663449",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B0CBE9N7R",
+      "personName": "関根 福康",
+      "slackIds": [
+        "U0B0CBE9N7R"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1778461203.663449",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1778461203.663449",
+      "timestamp": "2026-05-11T01:00:03.663Z",
+      "detailBullets": [
+        "<!channel () こんにちは、初めまして！7月入社予定の関根 福康（せきね ふくやす）と申します！:otukare_otsukare_お疲れ様_です::bow-nya2: ■出身地 埼玉県 （秩父とかいう田舎の出身です） ■︎これまでやってきたこと 情シスのヘルプデスク、Webアプリ系のQAに携わってきました。 業務改善を考えるのが好きで自動テストの実装やQA業務フローの改善などをしてました。 ■︎趣味 料理が趣味です。最近は中華鍋の使い道を考えるのが楽しいです！ お酒が好きです！なんでも飲みますが、知らない安酒を開拓するのがライフワークです。 Youtubeで雑学を漁るのが日課です。最近は中国史を聞き流してます！ ■︎ひとこと 技術的なバックボーンはまだまだですが、できることは何でも身につけていきたいです！ 仕組みを作るための準備と手探り感のある仕事が好きです。 皆さんと関わりながら成長の機会を探していきたいです。よろしくお願いします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1778461203.663449",
+          "text": "<!channel () こんにちは、初めまして！7月入社予定の関根 福康（せきね ふくやす）と申します！:otukare_otsukare_お疲れ様_です::bow-nya2: ■出身地 埼玉県 （秩父とかいう田舎の出身です） ■︎これまでやってきたこと 情シスのヘルプデスク、Webアプリ系のQAに携わってきました。 業務改善を考えるのが好きで自動テストの実装やQA業務フローの改善などをしてました。 ■︎趣味 料理が趣味です。最近は中華鍋の使い道を考えるのが楽しいです！ お酒が好きです！なんでも飲みますが、知らない安酒を開拓するのがライフワークです。 Youtubeで雑学を漁るのが日課です。最近は中国史を聞き流してます！ ■︎ひとこと 技術的なバックボーンはまだまだですが、できることは何でも身につけていきたいです！ 仕組みを作るための準備と手探り感のある仕事が好きです。 皆さんと関わりながら成長の機会を探していきたいです。よろしくお願いします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1778461203.663449",
+          "threadTs": "1778461203.663449",
+          "authorName": "関根 福康",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel () こんにちは、初めまして！7月入社予定の関根 福康（せきね ふくやす）と申します！:otukare_otsukare_お疲れ様_です::bow-nya2: ■出身地 埼玉県 （秩父とかいう田舎の出身です） ■︎これまでやってきたこと 情シスのヘルプデスク、Webアプリ系のQAに携わってきました。 業務改善を考えるのが好きで自動テストの実装やQA業務フローの改善などをしてました。 ■︎趣味 料理が趣味です。最近は中華鍋の使い道を考えるのが楽しいです！ お酒が好きです！なんでも飲みますが、知らない安酒を開拓するのがライフワークです。 Youtubeで雑学を漁るのが日課です。最近は中国史を聞き流してます！ ■︎ひとこと 技術的なバックボーンはまだまだですが、できることは何でも身につけていきたいです！ 仕組みを作るための準備と手探り感のある仕事が好きです。 皆さんと関わりながら成長の機会を探していきたいです。よろしくお願いします！\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1778461567.189949",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -43032,6 +45752,40 @@
         }
       ],
       "searchText": "~ベストプラクティス通りやっちゃえ~ そんな甘い話じゃない\nall-saiteki\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1778496451.823809",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B0CBE9N7R",
+      "personName": "関根 福康",
+      "slackIds": [
+        "U0B0CBE9N7R"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1778496451.823809",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1778496451.823809",
+      "timestamp": "2026-05-11T10:47:31.823Z",
+      "detailBullets": [
+        "@戸塚直道 よろしくお願いします！秩父は何もなくて良い所です！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1778496451.823809",
+          "text": "@戸塚直道 よろしくお願いします！秩父は何もなくて良い所です！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1778496451.823809",
+          "threadTs": "1778461203.663449",
+          "authorName": "関根 福康",
+          "permalink": null
+        }
+      ],
+      "searchText": "@戸塚直道 よろしくお願いします！秩父は何もなくて良い所です！\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09MKT8QKAR:1778496469.469739",
@@ -44712,6 +47466,40 @@
       "searchText": "小4の長男が、友達3人連れてきたら*全員足が臭い*:skull_and_crossbones: 私、窒息死するかもしれません・・・:angel:\nソーシャル\nSales"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1778837560.484439",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U09QZF7KT2P",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1778837560.484439",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1778837560.484439",
+      "timestamp": "2026-05-15T09:32:40.484Z",
+      "detailBullets": [
+        "@藤井芙美子 よその子の足の臭さは強烈ですよね！ 玄関に充満するツーンとした匂い... みんな、靴洗えって思った。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1778837560.484439",
+          "text": "@藤井芙美子 よその子の足の臭さは強烈ですよね！ 玄関に充満するツーンとした匂い... みんな、靴洗えって思った。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1778837560.484439",
+          "threadTs": "1778828549.738099",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@藤井芙美子 よその子の足の臭さは強烈ですよね！ 玄関に充満するツーンとした匂い... みんな、靴洗えって思った。\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1778842473.305589",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:藤井芙美子",
@@ -45411,6 +48199,74 @@
       "searchText": "４月５月の自己紹介チャンネルに投稿してくれた人に挨拶したんだけど、１２人くらいいて大変と同時にびっくりした笑 すごい勢いでSaitekiに入社する人がいるんだなと実感してるよ笑\nソーシャル\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1778900274.847589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0ARN3NKAD7",
+      "personName": "大澤翔",
+      "slackIds": [
+        "U0ARN3NKAD7"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1778900274.847589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1778900274.847589",
+      "timestamp": "2026-05-16T02:57:54.847Z",
+      "detailBullets": [
+        "初めまして！ 前職から引き続きフルリモートの案件入ったので、運動不足気になります笑 こちらこそよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1778900274.847589",
+          "text": "初めまして！ 前職から引き続きフルリモートの案件入ったので、運動不足気になります笑 こちらこそよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1778900274.847589",
+          "threadTs": "1775551716.716439",
+          "authorName": "大澤翔",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして！ 前職から引き続きフルリモートの案件入ったので、運動不足気になります笑 こちらこそよろしくお願いいたします！\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1778900301.526219",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0ARN3NKAD7",
+      "personName": "大澤翔",
+      "slackIds": [
+        "U0ARN3NKAD7"
+      ],
+      "message": "message:primary:C09N28KTKL1:1778900301.526219",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1778900301.526219",
+      "timestamp": "2026-05-16T02:58:21.526Z",
+      "detailBullets": [
+        "皆様ありがとうございます！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1778900301.526219",
+          "text": "皆様ありがとうございます！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1778900301.526219",
+          "threadTs": "1778807046.634599",
+          "authorName": "大澤翔",
+          "permalink": null
+        }
+      ],
+      "searchText": "皆様ありがとうございます！\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1778900347.365909",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:杉本光一",
@@ -45551,6 +48407,40 @@
       "searchText": "@鈴木悠斗 埼玉のサウナ行った後は帰り道にあるのでちょうどいいかもです:no_mouth::no_mouth:\nソーシャル\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1778907289.776179",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0AUL01EBU1",
+      "personName": "田端陽",
+      "slackIds": [
+        "U0AUL01EBU1"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1778907289.776179",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1778907289.776179",
+      "timestamp": "2026-05-16T04:54:49.776Z",
+      "detailBullets": [
+        "@杉本光一 はじめまして。田端です。 こちらこそよろしくお願いします！ 1歳はとても可愛い時期ですよね。 息子さんとのゲームや銭湯デビュー、楽しみですね:laughing: 子供と遊ぶと、こちらも新しい発見や学びが多くて楽しいですよね。 また機会があればぜひ色々お話しできればと思います。 今後ともよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1778907289.776179",
+          "text": "@杉本光一 はじめまして。田端です。 こちらこそよろしくお願いします！ 1歳はとても可愛い時期ですよね。 息子さんとのゲームや銭湯デビュー、楽しみですね:laughing: 子供と遊ぶと、こちらも新しい発見や学びが多くて楽しいですよね。 また機会があればぜひ色々お話しできればと思います。 今後ともよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1778907289.776179",
+          "threadTs": "1776764192.447579",
+          "authorName": "田端陽",
+          "permalink": null
+        }
+      ],
+      "searchText": "@杉本光一 はじめまして。田端です。 こちらこそよろしくお願いします！ 1歳はとても可愛い時期ですよね。 息子さんとのゲームや銭湯デビュー、楽しみですね:laughing: 子供と遊ぶと、こちらも新しい発見や学びが多くて楽しいですよね。 また機会があればぜひ色々お話しできればと思います。 今後ともよろしくお願いいたします！\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09N28KTKL1:1778909235.755049",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -45584,6 +48474,40 @@
         }
       ],
       "searchText": "僕も会社の成長に振り落とされないようにしがみついてないと、、と思っているよ、、、引き続き頑張ります！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1778922089.175679",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B00RXK25P",
+      "personName": "坂野 真理子",
+      "slackIds": [
+        "U0B00RXK25P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1778922089.175679",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1778922089.175679",
+      "timestamp": "2026-05-16T09:01:29.175Z",
+      "detailBullets": [
+        "@杉本光一 さん 初めまして！杉本さんも三重の方なんですね！嬉しいです！同じ山組ですね(笑)お子さんが可愛いですね:heart_eyes_cat: Java Silverに限らず、色々アドバイス頂けたら嬉しいです！よろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1778922089.175679",
+          "text": "@杉本光一 さん 初めまして！杉本さんも三重の方なんですね！嬉しいです！同じ山組ですね(笑)お子さんが可愛いですね:heart_eyes_cat: Java Silverに限らず、色々アドバイス頂けたら嬉しいです！よろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1778922089.175679",
+          "threadTs": "1777128918.697919",
+          "authorName": "坂野 真理子",
+          "permalink": null
+        }
+      ],
+      "searchText": "@杉本光一 さん 初めまして！杉本さんも三重の方なんですね！嬉しいです！同じ山組ですね(笑)お子さんが可愛いですね:heart_eyes_cat: Java Silverに限らず、色々アドバイス頂けたら嬉しいです！よろしくお願いいたします！\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09MKT8QKAR:1778922261.524759",
@@ -45689,6 +48613,40 @@
         }
       ],
       "searchText": "課題とそれに対する視点があるので、 ペアデータにしたらいいチューニングができるかも そして毎週更新される。 直道の分身！？:ninja:\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1778929168.174149",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0APQEHUJ7R",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1778929168.174149",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1778929168.174149",
+      "timestamp": "2026-05-16T10:59:28.174Z",
+      "detailBullets": [
+        "ヴィーガンのカフェ(UPCOFFEE)でお茶してから、大宮の氷川神社に行ってきました:shinto_shrine::pray::sparkles: お天気も良くて、空いてたので気持ちよく参拝できました( 〜'ω' )〜 でもこれ以上暑くなったら外出れないでつ:joy::joy::joy: おみくじは吉:sparkles::clap: ＂難しいと思う事も誠をつくして行なえば安々と成就するなり＂ とのことだったので、誠心誠意頑張っていこうと思いまつ(ง •̀_•́)ง:fire:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1778929168.174149",
+          "text": "ヴィーガンのカフェ(UPCOFFEE)でお茶してから、大宮の氷川神社に行ってきました:shinto_shrine::pray::sparkles: お天気も良くて、空いてたので気持ちよく参拝できました( 〜'ω' )〜 でもこれ以上暑くなったら外出れないでつ:joy::joy::joy: おみくじは吉:sparkles::clap: ＂難しいと思う事も誠をつくして行なえば安々と成就するなり＂ とのことだったので、誠心誠意頑張っていこうと思いまつ(ง •̀_•́)ง:fire:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1778929168.174149",
+          "threadTs": "1778929168.174149",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "ヴィーガンのカフェ(UPCOFFEE)でお茶してから、大宮の氷川神社に行ってきました:shinto_shrine::pray::sparkles: お天気も良くて、空いてたので気持ちよく参拝できました( 〜'ω' )〜 でもこれ以上暑くなったら外出れないでつ:joy::joy::joy: おみくじは吉:sparkles::clap: ＂難しいと思う事も誠をつくして行なえば安々と成就するなり＂ とのことだったので、誠心誠意頑張っていこうと思いまつ(ง •̀_•́)ง:fire:\nソーシャル"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1778935190.230339",
@@ -45831,6 +48789,142 @@
       "searchText": "@戸塚直道 ・ゴルフの中であった「試合」 ・準備よりさらに前の段階からの戦略立て 田浦さんの諸案件でのご準備の様子も同様ですが `上のレイヤーでどういう動きが/考えが存在するのか`、本当に勉強になります:sparkles: 求められる立ち回りは、会社の中での役割でそれぞれになると想いますが 同等の成果出せるように頑張りたいです:fire:\nall-saiteki\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1778992589.813949",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0APQEHUJ7R",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1778992589.813949",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1778992589.813949",
+      "timestamp": "2026-05-17T04:36:29.813Z",
+      "detailBullets": [
+        "@上遼太郎 暑くて溶けちゃう:melting_face::melting_face::melting_face: ヴィーガン系は味薄めなので胃もたれ民におぬぬめでつ( 〜'ω' )〜"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1778992589.813949",
+          "text": "@上遼太郎 暑くて溶けちゃう:melting_face::melting_face::melting_face: ヴィーガン系は味薄めなので胃もたれ民におぬぬめでつ( 〜'ω' )〜",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1778992589.813949",
+          "threadTs": "1778929168.174149",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "@上遼太郎 暑くて溶けちゃう:melting_face::melting_face::melting_face: ヴィーガン系は味薄めなので胃もたれ民におぬぬめでつ( 〜'ω' )〜\nソーシャル"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1778992756.623349",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0APQEHUJ7R",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1778992756.623349",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1778992756.623349",
+      "timestamp": "2026-05-17T04:39:16.623Z",
+      "detailBullets": [
+        "@杉本光一 米粉のドーナツありました:doughnut:！ お昼時に行ったのでめっちゃ空いてましたよ( 〜'ω' )〜 米粉ドーナツも頼めば良かったでつ:smiling_face_with_tear:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1778992756.623349",
+          "text": "@杉本光一 米粉のドーナツありました:doughnut:！ お昼時に行ったのでめっちゃ空いてましたよ( 〜'ω' )〜 米粉ドーナツも頼めば良かったでつ:smiling_face_with_tear:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1778992756.623349",
+          "threadTs": "1778929168.174149",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "@杉本光一 米粉のドーナツありました:doughnut:！ お昼時に行ったのでめっちゃ空いてましたよ( 〜'ω' )〜 米粉ドーナツも頼めば良かったでつ:smiling_face_with_tear:\nソーシャル"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1779001204.657399",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B493P7TG9",
+      "personName": "三本木拓磨",
+      "slackIds": [
+        "U0B493P7TG9"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1779001204.657399",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1779001204.657399",
+      "timestamp": "2026-05-17T07:00:04.657Z",
+      "detailBullets": [
+        "初めまして、10月入社予定の三本木拓磨です。 :black_small_square:出身地 福島県郡山市 :black_small_square:︎これまでやってきたこと ホテルの和食調理師として従事 ↓ SESにて監視運用に従事 ↓ 10月に入社予定 :black_small_square:︎最近ハマっていること 暇なときは基本ポケモンやってます。 主に対戦が好きです。 好きな方がいたらぜひ対戦よろしくお願いします。 :black_small_square:︎休日の過ごし方 休日も基本的にはポケモンやってます。 好きなポケモンはテッカニンとドダイトスです。 よろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1779001204.657399",
+          "text": "初めまして、10月入社予定の三本木拓磨です。 :black_small_square:出身地 福島県郡山市 :black_small_square:︎これまでやってきたこと ホテルの和食調理師として従事 ↓ SESにて監視運用に従事 ↓ 10月に入社予定 :black_small_square:︎最近ハマっていること 暇なときは基本ポケモンやってます。 主に対戦が好きです。 好きな方がいたらぜひ対戦よろしくお願いします。 :black_small_square:︎休日の過ごし方 休日も基本的にはポケモンやってます。 好きなポケモンはテッカニンとドダイトスです。 よろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1779001204.657399",
+          "threadTs": "1779001204.657399",
+          "authorName": "三本木拓磨",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして、10月入社予定の三本木拓磨です。 :black_small_square:出身地 福島県郡山市 :black_small_square:︎これまでやってきたこと ホテルの和食調理師として従事 ↓ SESにて監視運用に従事 ↓ 10月に入社予定 :black_small_square:︎最近ハマっていること 暇なときは基本ポケモンやってます。 主に対戦が好きです。 好きな方がいたらぜひ対戦よろしくお願いします。 :black_small_square:︎休日の過ごし方 休日も基本的にはポケモンやってます。 好きなポケモンはテッカニンとドダイトスです。 よろしくお願いいたします。\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1779009600.992479",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0ATVGURLRL",
+      "personName": "好田 歩",
+      "slackIds": [
+        "U0ATVGURLRL"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1779009600.992479",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1779009600.992479",
+      "timestamp": "2026-05-17T09:20:00.992Z",
+      "detailBullets": [
+        "@杉本光一 杉本さん、はじめまして！ 家の近くにサウナあるの羨ましいです！ サウナハット用意すると一気にガチ感が出ますね:laughing: 私も近々用意しようかと思っています！ 今後ともよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1779009600.992479",
+          "text": "@杉本光一 杉本さん、はじめまして！ 家の近くにサウナあるの羨ましいです！ サウナハット用意すると一気にガチ感が出ますね:laughing: 私も近々用意しようかと思っています！ 今後ともよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1779009600.992479",
+          "threadTs": "1776654343.204939",
+          "authorName": "好田　歩",
+          "permalink": null
+        }
+      ],
+      "searchText": "@杉本光一 杉本さん、はじめまして！ 家の近くにサウナあるの羨ましいです！ サウナハット用意すると一気にガチ感が出ますね:laughing: 私も近々用意しようかと思っています！ 今後ともよろしくお願いいたします！\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09MKT8QKAR:1779011267.124409",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:戸塚直道",
@@ -45936,6 +49030,40 @@
       "searchText": "<!channel () 5月19日の社員交流会にお越しいただく皆さま、明日以降に以下の項目をご確認くださいませ:pray: 当日はお世話になっているカメラマンの方もお呼びして、写真撮影を適宜していただこうと思っています！こちらの写真は求人媒体等に使われる画像に利用させていただこうと思っているのですが、もし媒体への掲載がNGな方がいらっしゃれば事前にご教示いただけますでしょうか？ 本投稿のスレッドやプライベートチャンネルでは回答しづらいかもしれませんので、本件はDMで私にご連絡いただく形で大丈夫です:man-raising-hand: お手数をおかけしますが、ご確認のほどよろしくお願いいたします！\nall-saiteki\n経営"
     },
     {
+      "@id": "search-message:primary:C09Q46YA4ER:1779025558.707549",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B0CBE9N7R",
+      "personName": "関根 福康",
+      "slackIds": [
+        "U0B0CBE9N7R"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1779025558.707549",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1779025558.707549",
+      "timestamp": "2026-05-17T13:45:58.707Z",
+      "detailBullets": [
+        "@杉本光一 始めまして！ 気が合いそうな方が多そうでいい体験ができそうな気がしてます！ 是非機会あれば！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1779025558.707549",
+          "text": "@杉本光一 始めまして！ 気が合いそうな方が多そうでいい体験ができそうな気がしてます！ 是非機会あれば！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1779025558.707549",
+          "threadTs": "1778461203.663449",
+          "authorName": "関根 福康",
+          "permalink": null
+        }
+      ],
+      "searchText": "@杉本光一 始めまして！ 気が合いそうな方が多そうでいい体験ができそうな気がしてます！ 是非機会あれば！\n自己紹介"
+    },
+    {
       "@id": "search-message:primary:C09Q46YA4ER:1779078567.229229",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:藤井芙美子",
@@ -46002,6 +49130,74 @@
         }
       ],
       "searchText": "@三本木拓磨 さん はじめまして、総務の藤井といいます:raised_hands: ポケモン大好きなんですね:驚き: Saitekiの営業に、超がつくほどのポケモン好きがいますよ:+1: オンライン飲み会や懇親会など、社員交流の機会ありますので、是非ご参加くださいね\n自己紹介\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1779101827.921629",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B0CBE9N7R",
+      "personName": "関根 福康",
+      "slackIds": [
+        "U0B0CBE9N7R"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1779101827.921629",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1779101827.921629",
+      "timestamp": "2026-05-18T10:57:07.921Z",
+      "detailBullets": [
+        "@藤井芙美子さん はじめまして！ 銀ピカの電車はインパクトありますよね 当日は酒好きを探しにお邪魔します！よろしくお願いします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1779101827.921629",
+          "text": "@藤井芙美子さん はじめまして！ 銀ピカの電車はインパクトありますよね 当日は酒好きを探しにお邪魔します！よろしくお願いします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1779101827.921629",
+          "threadTs": "1778461203.663449",
+          "authorName": "関根 福康",
+          "permalink": null
+        }
+      ],
+      "searchText": "@藤井芙美子さん はじめまして！ 銀ピカの電車はインパクトありますよね 当日は酒好きを探しにお邪魔します！よろしくお願いします！\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1779104551.992099",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B493P7TG9",
+      "personName": "三本木拓磨",
+      "slackIds": [
+        "U0B493P7TG9"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1779104551.992099",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1779104551.992099",
+      "timestamp": "2026-05-18T11:42:31.992Z",
+      "detailBullets": [
+        "是非おねがいします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1779104551.992099",
+          "text": "是非おねがいします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1779104551.992099",
+          "threadTs": "1779001204.657399",
+          "authorName": "三本木拓磨",
+          "permalink": null
+        }
+      ],
+      "searchText": "是非おねがいします！\n自己紹介"
     },
     {
       "@id": "search-message:primary:C09MKT8QKAR:1779181569.125349",
@@ -46247,6 +49443,40 @@
       "searchText": "おー！めちゃくちゃ写真綺麗ですね！ 共有ありがとうございます:star-struck::star-struck: 流石プロ！:camera: 昼間しか屋上行ってなかったので夜も行けば良かったです:thinking_face::thinking_face:\nall-saiteki\nEngineer"
     },
     {
+      "@id": "search-message:primary:C09N28KTKL1:1779269301.482269",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0APQEHUJ7R",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1779269301.482269",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1779269301.482269",
+      "timestamp": "2026-05-20T09:28:21.482Z",
+      "detailBullets": [
+        "@上遼太郎 昨日はありがと！(｡･ω･)y-ﾟﾟﾟ"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1779269301.482269",
+          "text": "@上遼太郎 昨日はありがと！(｡･ω･)y-ﾟﾟﾟ",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1779269301.482269",
+          "threadTs": "1779198645.285829",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "@上遼太郎 昨日はありがと！(｡･ω･)y-ﾟﾟﾟ\nソーシャル"
+    },
+    {
       "@id": "search-message:primary:C09MKT8QKAR:1779270321.615129",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:貴志雪乃",
@@ -46419,6 +49649,74 @@
         }
       ],
       "searchText": "サブエージェントみなさん使われてますか？ 役割とかみなさんどんな感じで分けられているのか気になったので、 その基準とかあれば教えていただきたいです:raised_hands: 自分の一例も紹介しますね。 <https://www.notion.so/Codex-367dfb42679c8077a54def30ea264d5c?source=copy_link () そんな大した話ではないですが、 私の場合は計画書を作るプランナーエージェントを作っています〜 複数のサブエージェントごとの作業の割り振りもその計画書に落とし込んでいるので、 多少の不安には目を瞑ってプロジェクトを進めることができるなぁと思ったりしていますね:face_with_rolling_eyes:\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1779409920.329079",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B493P7TG9",
+      "personName": "三本木拓磨",
+      "slackIds": [
+        "U0B493P7TG9"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1779409920.329079",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1779409920.329079",
+      "timestamp": "2026-05-22T00:32:00.329Z",
+      "detailBullets": [
+        "こちらこそ入社前に皆様と触れ合う機会をいただきありがとうございました。 また交流会がございましたら是非参加させていただきたいです！！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1779409920.329079",
+          "text": "こちらこそ入社前に皆様と触れ合う機会をいただきありがとうございました。 また交流会がございましたら是非参加させていただきたいです！！！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1779409920.329079",
+          "threadTs": "1779001204.657399",
+          "authorName": "三本木拓磨",
+          "permalink": null
+        }
+      ],
+      "searchText": "こちらこそ入社前に皆様と触れ合う機会をいただきありがとうございました。 また交流会がございましたら是非参加させていただきたいです！！！\n自己紹介"
+    },
+    {
+      "@id": "search-message:primary:C0B5FKHTTCK:1779541425.437039",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B5NULAXKQ",
+      "personName": "book-purchase",
+      "slackIds": [
+        "U0B5NULAXKQ"
+      ],
+      "message": "message:primary:C0B5FKHTTCK:1779541425.437039",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 書籍購入補助制度の利用",
+      "topicLabel": "書籍購入補助制度の利用",
+      "messageTs": "1779541425.437039",
+      "timestamp": "2026-05-23T13:03:45.437Z",
+      "detailBullets": [
+        "書籍購入補助の申請はこちらから行えます。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C0B5FKHTTCK:1779541425.437039",
+          "text": "書籍購入補助の申請はこちらから行えます。",
+          "channelId": "C0B5FKHTTCK",
+          "channelName": "書籍購入補助制度の利用",
+          "messageTs": "1779541425.437039",
+          "threadTs": null,
+          "authorName": "book-purchase",
+          "permalink": null
+        }
+      ],
+      "searchText": "書籍購入補助の申請はこちらから行えます。\n書籍購入補助制度の利用"
     },
     {
       "@id": "search-message:primary:C0B5FKHTTCK:1779548238.821239",
@@ -46631,6 +49929,74 @@
       "searchText": "<!channel () みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.05.23）* を共有します。 今週のテーマは *「35人の組織へ：本社交流会の熱量と、ステージを変える幹部の力」* です。 今回は、先日開催された関東在住メンバー9割が集まった懇親会のレポートと、組織が急拡大する中で起きているSaitekiの大きな地殻変動について書いています。 • *【5人から35人への激変】* 半年前は5人だった正社員が、入社予定を含めると35名（業務委託含め55名程度）規模へ 。内定率10%という厳選採用だからこそ実現している「人柄の良さ」と最高のカルチャーへの確信 。 • *【最強の盾と矛：幹部陣の躍進】* 5月入社の営業部長・徳田、人事部長・深尾がGW明け2週間で成果を連発 。6月メンバーの参画決定や採用実務の完全巻き取りにより、会社のステージが一段上がりました 。 • *【代表の覚悟】* 頼れる幹部メンバーに組織の背中を預け 、戸塚は「M&A戦略の推進」や「高難易度な受託案件の獲得」など、トップにしかできない難題の突破に時間を全投します 。 私は今、大袈裟ではなくまさに歴史が変わる瞬間の渦中にいると思っています 。この素晴らしい仲間たちと、最高のカルチャーを守りながら、まだ見ぬ高みへと一気に駆け上がっていきましょう！ 週末はぜひリフレッシュして、また来週から最高の景色を一緒に作っていきましょう！ ▼ Letter of T | 今週の記録（2026.05.23） <https://www.notion.so/Letter-of-T-2026-05-23-36adfb42679c808fb6bdd3a38efcee76 () 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
     },
     {
+      "@id": "search-message:primary:C0B5FKHTTCK:1779621422.329399",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B5NULAXKQ",
+      "personName": "book-purchase",
+      "slackIds": [
+        "U0B5NULAXKQ"
+      ],
+      "message": "message:primary:C0B5FKHTTCK:1779621422.329399",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 書籍購入補助制度の利用",
+      "topicLabel": "書籍購入補助制度の利用",
+      "messageTs": "1779621422.329399",
+      "timestamp": "2026-05-24T11:17:02.329Z",
+      "detailBullets": [
+        "@上遼太郎 書籍購入補助「ゼロから作るDeep Learning ―Pythonで学ぶディープラーニングの理論と実装」は「読了・レポート提出待ち」です。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C0B5FKHTTCK:1779621422.329399",
+          "text": "@上遼太郎 書籍購入補助「ゼロから作るDeep Learning ―Pythonで学ぶディープラーニングの理論と実装」は「読了・レポート提出待ち」です。",
+          "channelId": "C0B5FKHTTCK",
+          "channelName": "書籍購入補助制度の利用",
+          "messageTs": "1779621422.329399",
+          "threadTs": "1779621422.329399",
+          "authorName": "book-purchase",
+          "permalink": null
+        }
+      ],
+      "searchText": "@上遼太郎 書籍購入補助「ゼロから作るDeep Learning ―Pythonで学ぶディープラーニングの理論と実装」は「読了・レポート提出待ち」です。\n書籍購入補助制度の利用"
+    },
+    {
+      "@id": "search-message:primary:C0B5FKHTTCK:1779621422.567989",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B5NULAXKQ",
+      "personName": "book-purchase",
+      "slackIds": [
+        "U0B5NULAXKQ"
+      ],
+      "message": "message:primary:C0B5FKHTTCK:1779621422.567989",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 書籍購入補助制度の利用",
+      "topicLabel": "書籍購入補助制度の利用",
+      "messageTs": "1779621422.567989",
+      "timestamp": "2026-05-24T11:17:02.567Z",
+      "detailBullets": [
+        "申請を受け付けました。上長がSlackのボタンから購入可否を判断します。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C0B5FKHTTCK:1779621422.567989",
+          "text": "申請を受け付けました。上長がSlackのボタンから購入可否を判断します。",
+          "channelId": "C0B5FKHTTCK",
+          "channelName": "書籍購入補助制度の利用",
+          "messageTs": "1779621422.567989",
+          "threadTs": "1779621422.329399",
+          "authorName": "book-purchase",
+          "permalink": null
+        }
+      ],
+      "searchText": "申請を受け付けました。上長がSlackのボタンから購入可否を判断します。\n書籍購入補助制度の利用"
+    },
+    {
       "@id": "search-message:primary:C0B5FKHTTCK:1779621593.870609",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:上遼太郎",
@@ -46664,6 +50030,40 @@
         }
       ],
       "searchText": "@杉本光一 書籍購入補助の申請フローとても分かりやすかったです！ 申請してみたのでご確認お願いいたします:man-bowing:\n書籍購入補助制度の利用\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C0B5FKHTTCK:1779621623.006609",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B5NULAXKQ",
+      "personName": "book-purchase",
+      "slackIds": [
+        "U0B5NULAXKQ"
+      ],
+      "message": "message:primary:C0B5FKHTTCK:1779621623.006609",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 書籍購入補助制度の利用",
+      "topicLabel": "書籍購入補助制度の利用",
+      "messageTs": "1779621623.006609",
+      "timestamp": "2026-05-24T11:20:23.006Z",
+      "detailBullets": [
+        "@杉本光一 購入が承認されました。購入後、このスレッドに領収書画像を添付してください。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C0B5FKHTTCK:1779621623.006609",
+          "text": "@杉本光一 購入が承認されました。購入後、このスレッドに領収書画像を添付してください。",
+          "channelId": "C0B5FKHTTCK",
+          "channelName": "書籍購入補助制度の利用",
+          "messageTs": "1779621623.006609",
+          "threadTs": "1779621422.329399",
+          "authorName": "book-purchase",
+          "permalink": null
+        }
+      ],
+      "searchText": "@杉本光一 購入が承認されました。購入後、このスレッドに領収書画像を添付してください。\n書籍購入補助制度の利用"
     },
     {
       "@id": "search-message:primary:C0B5FKHTTCK:1779621646.721849",
@@ -46701,6 +50101,40 @@
       "searchText": "@上遼太郎 ありがとう！購入申請も押しました！\n書籍購入補助制度の利用\nEngineer"
     },
     {
+      "@id": "search-message:primary:C0B5FKHTTCK:1779621707.674689",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B5NULAXKQ",
+      "personName": "book-purchase",
+      "slackIds": [
+        "U0B5NULAXKQ"
+      ],
+      "message": "message:primary:C0B5FKHTTCK:1779621707.674689",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 書籍購入補助制度の利用",
+      "topicLabel": "書籍購入補助制度の利用",
+      "messageTs": "1779621707.674689",
+      "timestamp": "2026-05-24T11:21:47.674Z",
+      "detailBullets": [
+        "@上遼太郎 領収書の貼り付け済みとして受け付けました。上長がスレッド内の画像を確認してください。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C0B5FKHTTCK:1779621707.674689",
+          "text": "@上遼太郎 領収書の貼り付け済みとして受け付けました。上長がスレッド内の画像を確認してください。",
+          "channelId": "C0B5FKHTTCK",
+          "channelName": "書籍購入補助制度の利用",
+          "messageTs": "1779621707.674689",
+          "threadTs": "1779621422.329399",
+          "authorName": "book-purchase",
+          "permalink": null
+        }
+      ],
+      "searchText": "@上遼太郎 領収書の貼り付け済みとして受け付けました。上長がスレッド内の画像を確認してください。\n書籍購入補助制度の利用"
+    },
+    {
       "@id": "search-message:primary:C0B5FKHTTCK:1779621725.769269",
       "@type": "saiteki:MessageSearchUnit",
       "person": "person:上遼太郎",
@@ -46734,6 +50168,40 @@
         }
       ],
       "searchText": "こちら購入時の領収書です\n書籍購入補助制度の利用\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C0B5FKHTTCK:1779621866.676089",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "slack-user:U0B5NULAXKQ",
+      "personName": "book-purchase",
+      "slackIds": [
+        "U0B5NULAXKQ"
+      ],
+      "message": "message:primary:C0B5FKHTTCK:1779621866.676089",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 書籍購入補助制度の利用",
+      "topicLabel": "書籍購入補助制度の利用",
+      "messageTs": "1779621866.676089",
+      "timestamp": "2026-05-24T11:24:26.676Z",
+      "detailBullets": [
+        "@杉本光一 領収書を確認済みにしました。読了後、レポートを提出してください。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C0B5FKHTTCK:1779621866.676089",
+          "text": "@杉本光一 領収書を確認済みにしました。読了後、レポートを提出してください。",
+          "channelId": "C0B5FKHTTCK",
+          "channelName": "書籍購入補助制度の利用",
+          "messageTs": "1779621866.676089",
+          "threadTs": "1779621422.329399",
+          "authorName": "book-purchase",
+          "permalink": null
+        }
+      ],
+      "searchText": "@杉本光一 領収書を確認済みにしました。読了後、レポートを提出してください。\n書籍購入補助制度の利用"
     },
     {
       "@id": "search-message:primary:C0B5FKHTTCK:1779623640.591289",
