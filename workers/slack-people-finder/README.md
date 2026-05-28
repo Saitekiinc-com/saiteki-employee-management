@@ -50,7 +50,6 @@ Cloudflare Workersには以下をsecretとして設定する。
 - `PEOPLE_FINDER_MESSAGE_VECTOR_THRESHOLD`: Slackメッセージベクトル検索の社員表示閾値
 - `PEOPLE_FINDER_VECTOR_TOP_UNITS`: AI再ランキング前に見る検索単位数
 - `PEOPLE_FINDER_RERANK_CANDIDATES`: AI再ランキング対象の候補社員数
-- `PEOPLE_FINDER_ANSWER_CANDIDATES`: 回答生成に渡す候補社員数
 - `PEOPLE_FINDER_SEARCH_TIMEOUT_MS`: Slackへ無反応にならないよう検索を中断するまでの時間
 - `PEOPLE_FINDER_ENABLE_QUERY_PLANNING`: `true` の場合、検索前にLLMでクエリ理解を行う
 - `PEOPLE_FINDER_COLLECTION_RERANK`: `true` の場合、候補収集時にもAI再ランキングを行う
