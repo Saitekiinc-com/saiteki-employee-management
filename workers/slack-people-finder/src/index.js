@@ -580,10 +580,15 @@ async function searchVectorIndex(env, index, query, options = {}) {
     return results;
   }
 
-  return rerankVectorResults(env, query, results, {
-    candidateLimit: env.PEOPLE_FINDER_RERANK_CANDIDATES,
-    includeAdjacent: env.PEOPLE_FINDER_DIRECT_ONLY !== 'true'
-  });
+  try {
+    return await rerankVectorResults(env, query, results, {
+      candidateLimit: env.PEOPLE_FINDER_RERANK_CANDIDATES,
+      includeAdjacent: env.PEOPLE_FINDER_DIRECT_ONLY !== 'true'
+    });
+  } catch (error) {
+    console.error('Vector people rerank failed; returning vector results', error);
+    return results;
+  }
 }
 
 function ensureEmbeddedIndex(index) {
