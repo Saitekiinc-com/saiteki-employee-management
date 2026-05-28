@@ -1,12 +1,19 @@
 name: Slack Registry and Pages Reflect
 
 on:
+  schedule:
+    # 毎日午前9時 (JST) = UTC 0:00。Slack登録者・メッセージ・Pagesだけを軽量反映する。
+    - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       full_sync:
         description: '全期間の履歴を取得しますか？'
         type: boolean
         default: false
+
+concurrency:
+  group: slack-registry-pages-reflect
+  cancel-in-progress: false
 
 jobs:
   reflect:
@@ -42,7 +49,19 @@ jobs:
           SLACK_BOT_TOKEN_2: ${{ secrets.SLACK_BOT_TOKEN_2 }}
           SLACK_CHANNEL_ID_2: ${{ secrets.SLACK_CHANNEL_ID_2 }}
 
+      - name: Detect Slack data changes
+        id: data_changes
+        run: |
+          if git diff --quiet -- data/employees.json data/slack-messages.jsonl; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No Slack registry or message changes detected"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Slack registry or message changes detected"
+          fi
+
       - name: Build Slack Export Pages
+        if: steps.data_changes.outputs.changed == 'true'
         run: npm run build:slack-export-pages
 
       - name: Guard search output stability
@@ -60,6 +79,7 @@ jobs:
             workers/slack-people-finder/src/index.js
 
       - name: Commit and Push changes
+        if: steps.data_changes.outputs.changed == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -72,13 +92,16 @@ jobs:
           fi
 
       - name: Setup Pages
+        if: steps.data_changes.outputs.changed == 'true'
         uses: actions/configure-pages@v4
 
       - name: Upload Pages artifact
+        if: steps.data_changes.outputs.changed == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: './docs'
 
       - name: Deploy to GitHub Pages
+        if: steps.data_changes.outputs.changed == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
