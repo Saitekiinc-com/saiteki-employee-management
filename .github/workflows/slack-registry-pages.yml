@@ -2,7 +2,7 @@ name: Slack Registry and Pages Reflect
 
 on:
   schedule:
-    # 毎日午前9時 (JST) = UTC 0:00。Slack登録者・メッセージ・Pagesだけを軽量反映する。
+    # 毎日午前9時 (JST) = UTC 0:00。Slack社員検索に必要なメッセージindexまで軽量反映する。
     - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
@@ -60,6 +60,16 @@ jobs:
             echo "Slack registry or message changes detected"
           fi
 
+      - name: Build Message Search Index
+        if: steps.data_changes.outputs.changed == 'true'
+        run: npm run build:message-search-index
+
+      - name: Embed Message Search Index
+        if: steps.data_changes.outputs.changed == 'true'
+        run: npm run embed:message-search-index
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
       - name: Build Slack Export Pages
         if: steps.data_changes.outputs.changed == 'true'
         run: npm run build:slack-export-pages
@@ -71,8 +81,6 @@ jobs:
             data/search-facets.jsonld \
             data/profile-search-index.json \
             data/profile-search-index.embedded.json \
-            data/message-search-index.json \
-            data/message-search-index.embedded.json \
             docs/TEAM.md \
             docs/KNOWLEDGE_GRAPH.md \
             docs/index.html \
@@ -83,7 +91,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/employees.json data/slack-messages.jsonl docs/slack-export
+          git add data/employees.json data/slack-messages.jsonl data/message-search-index.json data/message-search-index.embedded.json docs/slack-export
           if git diff --staged --quiet; then
             echo "No Slack registry or Pages changes to commit"
           else
