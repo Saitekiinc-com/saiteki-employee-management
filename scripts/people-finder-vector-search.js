@@ -15,6 +15,50 @@ const DEFAULT_INDEX_FILE = path.join(__dirname, '../data/profile-search-index.em
 const DEFAULT_THRESHOLD = 0.22;
 const DEFAULT_TOP_UNITS = 80;
 
+const QUERY_EVIDENCE_ALIASES = {
+  qa: ['品質保証'],
+  品質保証: ['qa'],
+  ポケモン: [
+    'pokemon',
+    'pokémon',
+    'ポケカ',
+    'ピカチュウ',
+    'アチャモ',
+    'バシャーモ',
+    'ポッチャマ',
+    'ヒノアラシ',
+    'ダイパ',
+    'ルビサファ',
+    'テンガン山',
+    'テッカニン',
+    'ドダイトス'
+  ],
+  ポケカ: ['ポケモン', 'pokemon', 'pokémon'],
+  pokemon: ['ポケモン', 'ポケカ', 'pokémon'],
+  pokémon: ['ポケモン', 'ポケカ', 'pokemon'],
+  セキュリティ: ['security', '情報セキュリティ', '脆弱性', 'csirt', 'siem', 'ゼロトラスト']
+};
+
+const QUERY_EVIDENCE_STOP_TERMS = new Set([
+  'こと',
+  'もの',
+  'できる',
+  '詳しい',
+  '仕事',
+  '相談',
+  '社員',
+  '興味',
+  '人柄',
+  '好き',
+  '趣味',
+  '休日',
+  '最近',
+  '話せる',
+  '探し',
+  '教えて',
+  'エンジニア'
+]);
+
 function parseArgs(argv) {
   const args = {};
   for (let index = 0; index < argv.length; index++) {
@@ -124,14 +168,60 @@ function lexicalLabelBoost(unit, queryText) {
   return Math.min(matched * weight, cap);
 }
 
+function queryEvidenceTerms(queryText) {
+  const normalized = normalizeText(queryText);
+  if (!normalized) return [];
+
+  const terms = [];
+  for (const term of normalized.split(/\s+/)) {
+    if (isUsefulEvidenceTerm(term)) terms.push(term);
+  }
+
+  for (const term of normalized.match(/[a-z0-9+#.]{2,}/g) || []) {
+    if (isUsefulEvidenceTerm(term)) terms.push(term);
+  }
+
+  for (const [term, aliases] of Object.entries(QUERY_EVIDENCE_ALIASES)) {
+    if (!normalized.includes(normalizeText(term))) continue;
+    terms.push(normalizeText(term));
+    terms.push(...aliases.map(normalizeText));
+  }
+
+  return [...new Set(terms.filter(Boolean))];
+}
+
+function isUsefulEvidenceTerm(term) {
+  const normalized = normalizeText(term);
+  return normalized.length >= 2 && !QUERY_EVIDENCE_STOP_TERMS.has(normalized);
+}
+
+function unitHasQueryEvidence(unit, evidenceTerms) {
+  if (unit.semanticType !== 'slack_message' || evidenceTerms.length === 0) return true;
+  const text = unitEvidenceText(unit);
+  return evidenceTerms.some((term) => text.includes(term));
+}
+
+function unitEvidenceText(unit) {
+  return normalizeText([
+    unit.searchText,
+    unit.relationLabel,
+    unit.topicLabel,
+    ...(unit.topicAliases || []),
+    ...(unit.detailBullets || []),
+    ...(unit.quotes || []).map((quote) => quote.text)
+  ].filter(Boolean).join(' '));
+}
+
 async function searchProfileVectors(index, query, provider, options = {}) {
   ensureEmbedded(index);
   const threshold = Number(options.threshold ?? DEFAULT_THRESHOLD);
   const topUnits = Number(options.topUnits || DEFAULT_TOP_UNITS);
   const queryText = stripQueryHelpers(query) || normalizeText(query);
+  const evidenceTerms = queryEvidenceTerms(queryText);
   const queryVector = await provider.embed(queryText, 'query');
 
   const scoredUnits = (index['@graph'] || [])
+    .filter((unit) => unitHasQueryEvidence(unit, evidenceTerms))
     .map((unit) => ({
       unit,
       score: cosineSimilarity(queryVector, unitVector(unit)) + lexicalLabelBoost(unit, queryText)
