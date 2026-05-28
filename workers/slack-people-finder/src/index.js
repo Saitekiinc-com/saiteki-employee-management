@@ -93,11 +93,19 @@ async function handleSlashCommand(rawBody, env, ctx) {
   }
 
   if (query.trim()) {
-    ctx.waitUntil(openModal(env, triggerId, buildSearchModal({
-      channelId,
-      initialQuery: query.trim(),
-      initialCategory: resolveSearchCategory(query.trim(), '仕事・相談').category
-    })));
+    try {
+      await openModal(env, triggerId, buildSearchModal({
+        channelId,
+        initialQuery: query.trim(),
+        initialCategory: resolveSearchCategory(query.trim(), '仕事・相談').category
+      }));
+    } catch (error) {
+      console.error('Failed to open people finder modal from slash command', modalErrorDetails(error));
+      return slackJson({
+        response_type: 'ephemeral',
+        text: '社員検索モーダルの表示に失敗しました。少し時間を置いて再実行してください。'
+      });
+    }
   }
 
   return slackJson({
@@ -117,11 +125,15 @@ async function handleInteraction(rawBody, env, ctx) {
     const action = payload.actions?.[0];
     if (action?.action_id === OPEN_ACTION) {
       const actionValue = parseActionValue(action.value);
-      ctx.waitUntil(openModal(env, payload.trigger_id, buildSearchModal({
-        channelId: payload.channel?.id,
-        initialQuery: actionValue.initialQuery || '',
-        initialCategory: resolveSearchCategory(actionValue.initialQuery || '', actionValue.initialCategory || '仕事・相談').category
-      })));
+      try {
+        await openModal(env, payload.trigger_id, buildSearchModal({
+          channelId: payload.channel?.id,
+          initialQuery: actionValue.initialQuery || '',
+          initialCategory: resolveSearchCategory(actionValue.initialQuery || '', actionValue.initialCategory || '仕事・相談').category
+        }));
+      } catch (error) {
+        console.error('Failed to open people finder modal from block action', modalErrorDetails(error));
+      }
     }
     return new Response('', { status: 200 });
   }
@@ -1384,11 +1396,23 @@ function answerFailureDiagnosticsNote(env, error) {
     Number.isFinite(details.promptChars) ? `promptChars=${details.promptChars}` : '',
     Number.isFinite(details.responseChars) ? `responseChars=${details.responseChars}` : '',
     Number.isFinite(details.elapsedMs) ? `elapsedMs=${details.elapsedMs}` : '',
+    details.message ? `error=${diagnosticValue(details.message, 180)}` : '',
     Array.isArray(details.finishReasons) && details.finishReasons.length > 0
       ? `finishReasons=${details.finishReasons.join(',')}`
       : ''
   ].filter(Boolean);
   return parts.length > 0 ? `診断: ${parts.join(' / ')}` : '';
+}
+
+function diagnosticValue(value, maxLength = 180) {
+  return truncate(String(value || '').replace(/\s+/g, ' '), maxLength);
+}
+
+function modalErrorDetails(error) {
+  return {
+    name: error?.name || 'Error',
+    message: diagnosticValue(error?.message || String(error), 300)
+  };
 }
 
 function geminiFinishReasons(data) {
