@@ -217,32 +217,68 @@ function messageKey(message) {
   return `${message.workspace || 'primary'}:${message.channelId || message.channel || ''}:${message.ts || message.messageTs || ''}`;
 }
 
-function normalizeSlackMessage(message, workspace = 'primary') {
-  const text = cleanText(message.text, 2000);
-  if (!message.user || !message.ts || !text) return null;
+function normalizeSlackMessage(message, workspace = 'primary', context = {}) {
+  const text = cleanText(message.text || message.rawText, 2000);
+  const messageTs = String(message.messageTs || message.ts || '');
+  const channelId = message.channelId || message.channel || '';
+  const timestamp = message.timestamp || timestampFromSlackTs(messageTs);
+  if (!message.user || !messageTs || !text) return null;
   return {
     id: messageKey({ ...message, workspace }),
     workspace,
-    channelId: message.channelId || message.channel || '',
+    channelId,
+    channelName: message.channelName || context.channelNameById?.get(channelId) || '',
     user: message.user,
+    userName: message.userName || message.username || context.userNameById?.get(message.user) || '',
+    userRealName: message.userRealName || context.userRealNameById?.get(message.user) || '',
     text,
-    messageTs: String(message.ts),
-    threadTs: message.thread_ts ? String(message.thread_ts) : null,
-    parentUserId: message.parent_user_id || null,
+    rawText: message.rawText || message.text || '',
+    messageTs,
+    threadTs: message.threadTs ? String(message.threadTs) : (message.thread_ts ? String(message.thread_ts) : null),
+    parentUserId: message.parentUserId || message.parent_user_id || null,
+    subtype: message.subtype || null,
+    date: message.date || timestamp.slice(0, 10),
+    timestamp,
+    source: message.source || 'slack_api',
+    sourceFile: message.sourceFile || '',
     permalink: message.permalink || null
   };
 }
 
 function mergeSlackMessages(existingRows, fetchedMessages) {
   const rowsById = new Map();
+  const context = buildSlackMessageContext(existingRows);
   for (const row of existingRows) {
     if (row && row.id) rowsById.set(row.id, row);
   }
   for (const message of fetchedMessages) {
-    const row = normalizeSlackMessage(message, message.workspace || 'primary');
+    const row = normalizeSlackMessage(message, message.workspace || 'primary', context);
     if (row) rowsById.set(row.id, row);
   }
   return [...rowsById.values()].sort((a, b) => (a.messageTs || '').localeCompare(b.messageTs || ''));
+}
+
+function buildSlackMessageContext(rows) {
+  const channelNameById = new Map();
+  const userNameById = new Map();
+  const userRealNameById = new Map();
+  for (const row of rows || []) {
+    if (row.channelId && row.channelName && !channelNameById.has(row.channelId)) {
+      channelNameById.set(row.channelId, row.channelName);
+    }
+    if (row.user && row.userName && !userNameById.has(row.user)) {
+      userNameById.set(row.user, row.userName);
+    }
+    if (row.user && row.userRealName && !userRealNameById.has(row.user)) {
+      userRealNameById.set(row.user, row.userRealName);
+    }
+  }
+  return { channelNameById, userNameById, userRealNameById };
+}
+
+function timestampFromSlackTs(messageTs) {
+  const millis = Number.parseFloat(messageTs || '0') * 1000;
+  return Number.isFinite(millis) && millis > 0 ? new Date(millis).toISOString() : '';
 }
 
 function messagesBySlackId(messages) {
@@ -460,6 +496,7 @@ if (require.main === module) {
 
 module.exports = {
   buildSearchFacets,
+  buildSlackMessageContext,
   mergeSlackMessages,
   normalizeSlackMessage,
   readJsonl,

@@ -1,0 +1,84 @@
+name: Slack Registry and Pages Reflect
+
+on:
+  workflow_dispatch:
+    inputs:
+      full_sync:
+        description: '全期間の履歴を取得しますか？'
+        type: boolean
+        default: false
+
+jobs:
+  reflect:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync Slack registry data
+        run: |
+          if [ "${{ github.event.inputs.full_sync }}" = "true" ]; then
+            node scripts/sync-slack.js --registry-only --full
+          else
+            node scripts/sync-slack.js --registry-only
+          fi
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN || secrets.SLACK_APP_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          SLACK_BOT_TOKEN_2: ${{ secrets.SLACK_BOT_TOKEN_2 }}
+          SLACK_CHANNEL_ID_2: ${{ secrets.SLACK_CHANNEL_ID_2 }}
+
+      - name: Build Slack Export Pages
+        run: npm run build:slack-export-pages
+
+      - name: Guard search output stability
+        run: |
+          git diff --exit-code -- \
+            data/knowledge-graph.json \
+            data/search-facets.jsonld \
+            data/profile-search-index.json \
+            data/profile-search-index.embedded.json \
+            data/message-search-index.json \
+            data/message-search-index.embedded.json \
+            docs/TEAM.md \
+            docs/KNOWLEDGE_GRAPH.md \
+            docs/index.html \
+            workers/slack-people-finder/src/index.js
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/employees.json data/slack-messages.jsonl docs/slack-export
+          if git diff --staged --quiet; then
+            echo "No Slack registry or Pages changes to commit"
+          else
+            git commit -m "Auto: Reflect Slack registry and Pages"
+            git push
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
