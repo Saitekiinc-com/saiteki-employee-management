@@ -13,6 +13,7 @@ const DEFAULT_TOP_UNITS = 80;
 const DEFAULT_RERANK_CANDIDATES = 12;
 const DEFAULT_SEARCH_TIMEOUT_MS = 25000;
 const DEFAULT_PROFILE_FALLBACK_MIN = 4;
+const DEFAULT_ENABLE_PROFILE_FALLBACK = false;
 const DEFAULT_EMBEDDING_MODEL = 'gemini-embedding-001';
 const DEFAULT_EMBEDDING_DIMENSIONS = 768;
 const DEFAULT_RERANK_MODEL = 'gemini-2.5-flash';
@@ -307,7 +308,7 @@ function createSearchTimeout(timeoutMs, response) {
 async function searchPeopleAnswer(env, query, categoryResolution) {
   const messageViewerUrl = env.MESSAGE_VIEWER_URL || DEFAULT_MESSAGE_VIEWER_URL;
   let plan = simpleSearchPlan(query, categoryResolution.category);
-  if (canUseAnswerGeneration(env)) {
+  if (shouldUseQueryPlanning(env)) {
     try {
       plan = await planSearchIntent(env, query, categoryResolution.category);
     } catch (error) {
@@ -370,15 +371,21 @@ async function collectSearchCandidates(env, originalQuery, categoryResolution, p
   const vectorQuery = plan.searchQuery || originalQuery;
   const rerankQuery = buildRerankQuery(originalQuery, plan);
   const profileFallbackMin = parseNumber(env.PEOPLE_FINDER_PROFILE_FALLBACK_MIN, DEFAULT_PROFILE_FALLBACK_MIN);
+  const skipCollectionRerank = env.PEOPLE_FINDER_COLLECTION_RERANK !== 'true';
   const resultSets = [];
+  let attemptedVectorSearch = false;
 
   if (canUseMessageSearch(env)) {
+    attemptedVectorSearch = true;
     try {
-      const messageResults = await searchMessageIndex(env, vectorQuery, { rerankQuery });
+      const messageResults = await searchMessageIndex(env, vectorQuery, {
+        rerankQuery,
+        skipRerank: skipCollectionRerank
+      });
       console.log('People finder message candidates collected', { count: messageResults.length });
       if (messageResults.length > 0) {
         resultSets.push(messageResults);
-        if (messageResults.length >= profileFallbackMin) {
+        if (!shouldUseProfileFallback(env) || messageResults.length >= profileFallbackMin) {
           return mergeSearchResults(resultSets.flat()).slice(0, DEFAULT_RERANK_CANDIDATES);
         }
       }
@@ -387,9 +394,13 @@ async function collectSearchCandidates(env, originalQuery, categoryResolution, p
     }
   }
 
-  if (canUseVectorSearch(env)) {
+  if (shouldUseProfileFallback(env) && canUseVectorSearch(env)) {
+    attemptedVectorSearch = true;
     try {
-      const profileResults = await searchProfileIndex(env, vectorQuery, categoryResolution.category, { rerankQuery });
+      const profileResults = await searchProfileIndex(env, vectorQuery, categoryResolution.category, {
+        rerankQuery,
+        skipRerank: skipCollectionRerank
+      });
       console.log('People finder profile candidates collected', { count: profileResults.length });
       if (profileResults.length > 0) resultSets.push(profileResults);
     } catch (error) {
@@ -398,6 +409,7 @@ async function collectSearchCandidates(env, originalQuery, categoryResolution, p
   }
 
   if (resultSets.length === 0) {
+    if (attemptedVectorSearch) return [];
     const facets = await loadFacets(env);
     resultSets.push(searchFacets(facets, originalQuery, {
       category: categoryResolution.category,
@@ -470,6 +482,16 @@ function canUseVectorSearch(env) {
 
 function canUseAnswerGeneration(env) {
   return Boolean(env.GEMINI_API_KEY);
+}
+
+function shouldUseQueryPlanning(env) {
+  return env.PEOPLE_FINDER_ENABLE_QUERY_PLANNING === 'true' && canUseAnswerGeneration(env);
+}
+
+function shouldUseProfileFallback(env) {
+  const value = env.PEOPLE_FINDER_ENABLE_PROFILE_FALLBACK;
+  if (value === undefined || value === null || value === '') return DEFAULT_ENABLE_PROFILE_FALLBACK;
+  return value === 'true';
 }
 
 async function postSearchError(env, { channel, user, query }, error) {
@@ -903,7 +925,8 @@ async function searchProfileIndex(env, query, uiCategory, options = {}) {
   return searchVectorIndex(env, index, query, {
     uiCategory,
     threshold: env.PEOPLE_FINDER_VECTOR_THRESHOLD || DEFAULT_VECTOR_THRESHOLD,
-    rerankQuery: options.rerankQuery
+    rerankQuery: options.rerankQuery,
+    skipRerank: options.skipRerank
   });
 }
 
@@ -912,7 +935,8 @@ async function searchMessageIndex(env, query, options = {}) {
   return searchVectorIndex(env, index, query, {
     threshold: env.PEOPLE_FINDER_MESSAGE_VECTOR_THRESHOLD || DEFAULT_MESSAGE_VECTOR_THRESHOLD,
     requireRerankEvidence: true,
-    rerankQuery: options.rerankQuery
+    rerankQuery: options.rerankQuery,
+    skipRerank: options.skipRerank
   });
 }
 
@@ -937,6 +961,9 @@ async function searchVectorIndex(env, index, query, options = {}) {
 
   const results = aggregateVectorUnits(scoredUnits, threshold);
   if (results.length === 0) {
+    return results;
+  }
+  if (options.skipRerank) {
     return results;
   }
   if (env.PEOPLE_FINDER_ENABLE_RERANK === 'false') {
@@ -1195,14 +1222,57 @@ function normalizeSearchPlan(plan, query, category) {
 
 function simpleSearchPlan(query, category) {
   const queryText = stripQueryHelpers(query) || normalizeText(query) || String(query || '').trim();
+  const relationIntent = inferRelationIntent(query, category);
   return {
     interpretedQuestion: `${query}に合う社員を知りたい`,
-    relationIntent: category === '興味・人柄' ? 'general_match' : 'can_consult',
+    relationIntent,
     topicTerms: queryText ? [queryText] : [],
-    searchQuery: queryText || query,
-    mustHaveEvidence: [],
-    rejectEvidence: []
+    searchQuery: expandSearchQuery(queryText || query, relationIntent),
+    mustHaveEvidence: defaultMustHaveEvidence(relationIntent),
+    rejectEvidence: defaultRejectEvidence(relationIntent)
   };
+}
+
+function inferRelationIntent(query, category) {
+  const normalized = normalizeText(query);
+  if (/経験者|実務経験|経験|携わ|担当|運用|監視|設計|構築|保守/.test(normalized)) return 'has_work_experience';
+  if (/紹介|共有|案内|投稿|知らせ/.test(normalized)) return 'shared_information';
+  if (/詳しい|相談|教えて|得意|知見|わかる|分かる/.test(normalized)) return 'can_consult';
+  if (category === '興味・人柄' || /好き|趣味|ハマ|興味|推し/.test(normalized)) return 'has_interest';
+  return 'general_match';
+}
+
+function expandSearchQuery(queryText, relationIntent) {
+  const parts = [queryText, ...queryAliases(queryText)];
+  if (relationIntent === 'has_work_experience') {
+    parts.push('実務 経験 担当 運用 監視 設計 構築 保守 開発 現場');
+  } else if (relationIntent === 'can_consult') {
+    parts.push('相談 詳しい 知見 得意 実務 接点 説明');
+  } else if (relationIntent === 'has_interest') {
+    parts.push('好き 趣味 ハマっている 興味');
+  }
+  return [...new Set(parts.filter(Boolean))].join(' ');
+}
+
+function queryAliases(queryText) {
+  const normalized = normalizeText(queryText);
+  const aliases = [];
+  if (normalized.includes('ポケカ')) aliases.push('ポケモンカード pokemon card トレカ カードゲーム');
+  if (normalized.includes('aws')) aliases.push('amazon web services クラウド インフラ');
+  return aliases;
+}
+
+function defaultMustHaveEvidence(relationIntent) {
+  if (relationIntent === 'has_work_experience') return ['本人の実務経験'];
+  if (relationIntent === 'has_interest') return ['本人の興味・嗜好・発言'];
+  if (relationIntent === 'can_consult') return ['本人の知見・実務接点・説明できそうな根拠'];
+  if (relationIntent === 'shared_information') return ['本人が紹介・共有・案内した行動'];
+  return [];
+}
+
+function defaultRejectEvidence(relationIntent) {
+  if (relationIntent === 'has_work_experience') return ['勉強会を案内しただけ', '記事を共有しただけ', '関心があるだけ'];
+  return [];
 }
 
 async function generatePeopleAnswer(env, query, category, plan, candidates) {
