@@ -336,6 +336,10 @@ function viewerHtml() {
   .message.thread-context {
     background: #fbfcfd;
   }
+  .message.target {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgba(15, 118, 110, 0.16);
+  }
   .message-head {
     display: flex;
     gap: 8px;
@@ -426,14 +430,42 @@ function viewerHtml() {
 <script src="./slack-export-data.js"></script>
 <script>
 const data = window.SLACK_EXPORT_DATA;
+
+function normalizeMessageId(value) {
+  return String(value || '').replace(/^message:/, '').trim();
+}
+
+function locationMessageId() {
+  const params = new URLSearchParams(window.location.search);
+  const queryValue = params.get('message') || params.get('messageId');
+  if (queryValue) return normalizeMessageId(queryValue);
+
+  const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+  if (hash.startsWith('message=')) return normalizeMessageId(hash.slice('message='.length));
+  if (hash.startsWith('message:') || hash.startsWith('primary:')) return normalizeMessageId(hash);
+  return '';
+}
+
+function channelIdForMessage(messageId) {
+  const normalized = normalizeMessageId(messageId);
+  if (!normalized) return '';
+  for (const channel of data.channels || []) {
+    if ((channel.messages || []).some(message => normalizeMessageId(message.id) === normalized)) return channel.id;
+  }
+  return '';
+}
+
+const initialMessageId = locationMessageId();
 const state = {
-  channelId: data.channels[0]?.id || '',
+  channelId: channelIdForMessage(initialMessageId) || data.channels[0]?.id || '',
   channelSearch: '',
   messageSearch: '',
   dateFrom: '',
   dateTo: '',
-  systemMode: 'all'
+  systemMode: 'all',
+  targetMessageId: initialMessageId
 };
+let hasScrolledToTarget = false;
 
 const els = {
   exportMeta: document.getElementById('exportMeta'),
@@ -558,6 +590,10 @@ function renderMessages() {
     ? messages.length.toLocaleString() + ' / ' + channel.messageCount.toLocaleString() + ' messages, ' + (channel.firstDate || '-') + ' - ' + (channel.lastDate || '-')
     : '';
   els.messages.innerHTML = sections.length ? sections.map(renderSection).join('') : '<div class="empty">該当するメッセージはありません。</div>';
+  if (state.targetMessageId && !hasScrolledToTarget) {
+    hasScrolledToTarget = true;
+    window.requestAnimationFrame(scrollToTargetMessage);
+  }
 }
 
 function renderSection(section) {
@@ -582,8 +618,9 @@ function renderMessage(message, options) {
   const classNames = ['message'];
   if (message.subtype) classNames.push('system');
   if (opts.isContext) classNames.push('thread-context');
+  if (normalizeMessageId(message.id) === state.targetMessageId) classNames.push('target');
   return (
-    '<article class="' + classNames.join(' ') + '">' +
+    '<article id="' + escapeHtml(messageElementId(message.id)) + '" class="' + classNames.join(' ') + '">' +
       '<div class="message-head">' +
         '<span class="author">' + escapeHtml(message.userName) + '</span>' +
         '<span class="time">' + escapeHtml(formatDateTime(message.timestamp)) + '</span>' +
@@ -594,6 +631,15 @@ function renderMessage(message, options) {
       '<div class="text">' + escapeHtml(message.text || message.rawText || '(no text)') + '</div>' +
     '</article>'
   );
+}
+
+function messageElementId(messageId) {
+  return 'message-' + normalizeMessageId(messageId);
+}
+
+function scrollToTargetMessage() {
+  const element = document.getElementById(messageElementId(state.targetMessageId));
+  if (element) element.scrollIntoView({ block: 'center' });
 }
 
 function render() {

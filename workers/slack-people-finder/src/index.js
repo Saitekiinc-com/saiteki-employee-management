@@ -14,6 +14,7 @@ const DEFAULT_RERANK_CANDIDATES = 12;
 const DEFAULT_EMBEDDING_MODEL = 'gemini-embedding-001';
 const DEFAULT_EMBEDDING_DIMENSIONS = 768;
 const DEFAULT_RERANK_MODEL = 'gemini-2.0-flash';
+const DEFAULT_MESSAGE_VIEWER_URL = 'https://saitekiinc-com.github.io/saiteki-employee-management/slack-export/';
 
 const INTENT_RANK = {
   direct: 4,
@@ -227,7 +228,8 @@ async function postSearchResults(env, { channel, user, query, category }) {
           results: pages[index],
           totalResults: results.length,
           page: index + 1,
-          totalPages: pages.length
+          totalPages: pages.length,
+          messageViewerUrl: env.MESSAGE_VIEWER_URL || DEFAULT_MESSAGE_VIEWER_URL
         })
       });
     }
@@ -380,7 +382,7 @@ function buildSearchModal({ channelId, initialQuery = '', initialCategory = '仕
         type: 'section',
         text: {
           type: 'mrkdwn',
-          text: '*探したい方向を選んで、自然文で入力してください。*\n社員データとメッセージ引用から、近い発言やプロフィール根拠を検索します。'
+          text: '*探したい方向を選んで、自然文で入力してください。*\n社員データと根拠メッセージから、近い発言やプロフィール根拠を検索します。'
         }
       },
       {
@@ -432,7 +434,7 @@ function buttonBlocks({ initialQuery = '', initialCategory = '仕事・相談' }
   ];
 }
 
-function resultMessageBlocks({ query, category, categoryInferred = false, results, totalResults, page, totalPages }) {
+function resultMessageBlocks({ query, category, categoryInferred = false, results, totalResults, page, totalPages, messageViewerUrl }) {
   const categoryText = categoryInferred
     ? `${escapeMrkdwn(category)} (入力内容から自動判定)`
     : escapeMrkdwn(category);
@@ -461,13 +463,13 @@ function resultMessageBlocks({ query, category, categoryInferred = false, result
   ];
 
   for (const result of results) {
-    blocks.push(formatResult(result));
+    blocks.push(formatResult(result, { messageViewerUrl }));
   }
 
   return blocks;
 }
 
-function formatResult(result) {
+function formatResult(result, options = {}) {
   const mention = result.slackIds?.[0] ? `<@${result.slackIds[0]}>` : escapeMrkdwn(result.employeeName);
   const reasons = result.reasons
     .map((reason) => `・${escapeMrkdwn(reason.label)} (${Math.round(reason.score * 100)}%) - ${escapeMrkdwn(reasonSourceLabel(reason))}`)
@@ -476,11 +478,9 @@ function formatResult(result) {
   const rerankNote = result.rerankReason
     ? `${escapeMrkdwn(result.rerankReason)} (${Math.round(Number(result.rerankConfidence || 0) * 100)}%)`
     : '';
-  const quotes = result.messageQuotes
-    .map((quote) => {
-      const quoteText = `「${escapeMrkdwn(truncate(quote.text, 140))}」`;
-      return quote.permalink ? `<${quote.permalink}|${quoteText}>` : quoteText;
-    })
+  const messageLinks = result.messageQuotes
+    .map((quote) => formatMessageReference(quote, options.messageViewerUrl))
+    .filter(Boolean)
     .join('\n');
 
   return {
@@ -492,10 +492,65 @@ function formatResult(result) {
         `選出理由:\n${reasons || '関連する検索facetが閾値を超えました。'}`,
         rerankNote ? `AI判定:\n${rerankNote}` : '',
         detailNotes ? `具体メモ:\n${detailNotes}` : '',
-        quotes ? `メッセージ引用:\n${quotes}` : ''
+        messageLinks ? `根拠メッセージ:\n${messageLinks}` : ''
       ].filter(Boolean).join('\n')
     }
   };
+}
+
+function formatMessageReference(quote, viewerBaseUrl) {
+  const url = messageReferenceUrl(quote, viewerBaseUrl);
+  if (!url) return '';
+  return `・<${url}|${escapeMrkdwn(messageReferenceLabel(quote))}>`;
+}
+
+function messageReferenceUrl(quote, viewerBaseUrl) {
+  const messageId = normalizeMessagePageId(quote.messageId) || messagePageIdFromQuote(quote);
+  const baseUrl = String(viewerBaseUrl || '').trim();
+  if (baseUrl && messageId) {
+    try {
+      const url = new URL(baseUrl);
+      url.searchParams.set('message', messageId);
+      return url.toString();
+    } catch (error) {
+      console.error('Invalid message viewer URL', error);
+    }
+  }
+  return quote.permalink || '';
+}
+
+function messagePageIdFromQuote(quote) {
+  if (!quote.channelId || !quote.messageTs) return '';
+  return `${quote.workspace || 'primary'}:${quote.channelId}:${quote.messageTs}`;
+}
+
+function normalizeMessagePageId(messageId) {
+  return String(messageId || '').replace(/^message:/, '').trim();
+}
+
+function messageReferenceLabel(quote) {
+  return [
+    quote.channelName ? `#${quote.channelName}` : quote.channelId ? `#${quote.channelId}` : 'Slackメッセージ',
+    quote.authorName,
+    formatMessageDate(quote.messageTs)
+  ].filter(Boolean).join(' / ');
+}
+
+function formatMessageDate(messageTs) {
+  const millis = Number.parseFloat(messageTs || '0') * 1000;
+  if (!Number.isFinite(millis) || millis <= 0) return '';
+  try {
+    return new Intl.DateTimeFormat('ja-JP', {
+      timeZone: 'Asia/Tokyo',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit'
+    }).format(new Date(millis));
+  } catch {
+    return '';
+  }
 }
 
 function reasonDetailNotes(reason) {
