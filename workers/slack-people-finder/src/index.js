@@ -11,6 +11,8 @@ const DEFAULT_VECTOR_THRESHOLD = 0.22;
 const DEFAULT_MESSAGE_VECTOR_THRESHOLD = 0.12;
 const DEFAULT_TOP_UNITS = 80;
 const DEFAULT_RERANK_CANDIDATES = 12;
+const DEFAULT_SEARCH_TIMEOUT_MS = 25000;
+const DEFAULT_PROFILE_FALLBACK_MIN = 4;
 const DEFAULT_EMBEDDING_MODEL = 'gemini-embedding-001';
 const DEFAULT_EMBEDDING_DIMENSIONS = 768;
 const DEFAULT_RERANK_MODEL = 'gemini-2.5-flash';
@@ -211,8 +213,18 @@ async function postSearchResults(env, { channel, user, query, category }) {
   if (!channel || !user) return;
 
   try {
+    const startedAt = Date.now();
     const categoryResolution = resolveSearchCategory(query, category || '仕事・相談');
-    const response = await searchPeopleAnswer(env, query, categoryResolution);
+    console.log('People finder search started', {
+      category: categoryResolution.category,
+      queryLength: String(query || '').length
+    });
+    const response = await searchPeopleAnswerWithTimeout(env, query, categoryResolution);
+    console.log('People finder search response ready', {
+      elapsedMs: Date.now() - startedAt,
+      hasBlocks: Boolean(response.blocks),
+      resultCount: response.results?.length || 0
+    });
 
     if (response.blocks) {
       await callSlackApi(env, 'chat.postEphemeral', {
@@ -248,6 +260,48 @@ async function postSearchResults(env, { channel, user, query, category }) {
     console.error(error);
     await postSearchError(env, { channel, user, query }, error);
   }
+}
+
+async function searchPeopleAnswerWithTimeout(env, query, categoryResolution) {
+  const timeoutMs = parseNumber(env.PEOPLE_FINDER_SEARCH_TIMEOUT_MS, DEFAULT_SEARCH_TIMEOUT_MS);
+  const timeout = createSearchTimeout(timeoutMs, {
+    blocks: answerMessageBlocks({
+      query,
+      category: categoryResolution.category,
+      categoryInferred: categoryResolution.inferred,
+      plan: simpleSearchPlan(query, categoryResolution.category),
+      answer: `検索処理が${Math.round(timeoutMs / 1000)}秒以内に完了しませんでした。回答なしで止まらないよう、いったん処理を中断しました。検索語を少し具体化して再実行するか、時間を置いて試してください。`,
+      selected: [],
+      candidates: [],
+      messageViewerUrl: env.MESSAGE_VIEWER_URL || DEFAULT_MESSAGE_VIEWER_URL
+    })
+  });
+  const searchPromise = searchPeopleAnswer(env, query, categoryResolution);
+  searchPromise.catch((error) => {
+    console.error('People finder search failed after timeout race', error);
+  });
+
+  try {
+    return await Promise.race([searchPromise, timeout.promise]);
+  } finally {
+    timeout.cancel();
+  }
+}
+
+function createSearchTimeout(timeoutMs, response) {
+  let timeoutId;
+  const promise = new Promise((resolve) => {
+    timeoutId = setTimeout(() => {
+      console.warn('People finder search timed out', { timeoutMs });
+      resolve(response);
+    }, timeoutMs);
+  });
+  return {
+    promise,
+    cancel() {
+      clearTimeout(timeoutId);
+    }
+  };
 }
 
 async function searchPeopleAnswer(env, query, categoryResolution) {
@@ -315,12 +369,19 @@ async function searchPeopleAnswer(env, query, categoryResolution) {
 async function collectSearchCandidates(env, originalQuery, categoryResolution, plan) {
   const vectorQuery = plan.searchQuery || originalQuery;
   const rerankQuery = buildRerankQuery(originalQuery, plan);
+  const profileFallbackMin = parseNumber(env.PEOPLE_FINDER_PROFILE_FALLBACK_MIN, DEFAULT_PROFILE_FALLBACK_MIN);
   const resultSets = [];
 
   if (canUseMessageSearch(env)) {
     try {
       const messageResults = await searchMessageIndex(env, vectorQuery, { rerankQuery });
-      if (messageResults.length > 0) resultSets.push(messageResults);
+      console.log('People finder message candidates collected', { count: messageResults.length });
+      if (messageResults.length > 0) {
+        resultSets.push(messageResults);
+        if (messageResults.length >= profileFallbackMin) {
+          return mergeSearchResults(resultSets.flat()).slice(0, DEFAULT_RERANK_CANDIDATES);
+        }
+      }
     } catch (error) {
       console.error('Message vector candidate collection failed', error);
     }
@@ -329,6 +390,7 @@ async function collectSearchCandidates(env, originalQuery, categoryResolution, p
   if (canUseVectorSearch(env)) {
     try {
       const profileResults = await searchProfileIndex(env, vectorQuery, categoryResolution.category, { rerankQuery });
+      console.log('People finder profile candidates collected', { count: profileResults.length });
       if (profileResults.length > 0) resultSets.push(profileResults);
     } catch (error) {
       console.error('Profile vector candidate collection failed', error);

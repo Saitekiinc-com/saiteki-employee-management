@@ -50,6 +50,8 @@ Cloudflare Workersには以下をsecretとして設定する。
 - `PEOPLE_FINDER_MESSAGE_VECTOR_THRESHOLD`: Slackメッセージベクトル検索の社員表示閾値
 - `PEOPLE_FINDER_VECTOR_TOP_UNITS`: AI再ランキング前に見る検索単位数
 - `PEOPLE_FINDER_RERANK_CANDIDATES`: AI再ランキング対象の候補社員数
+- `PEOPLE_FINDER_SEARCH_TIMEOUT_MS`: Slackへ無反応にならないよう検索を中断するまでの時間
+- `PEOPLE_FINDER_PROFILE_FALLBACK_MIN`: Slackメッセージ検索でこの人数以上見つかった場合はprofile index検索を省略する
 - `PEOPLE_FINDER_DIRECT_ONLY`: `true` の場合、AI判定が `direct` の候補だけ表示
 - `GEMINI_EMBEDDING_MODEL`: クエリembedding生成モデル
 - `GEMINI_RERANK_MODEL`: 再ランキング・質問解釈・回答生成モデル。既定は `gemini-2.5-flash`
