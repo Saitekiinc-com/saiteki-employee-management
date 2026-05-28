@@ -13,7 +13,7 @@ const DEFAULT_TOP_UNITS = 80;
 const DEFAULT_RERANK_CANDIDATES = 12;
 const DEFAULT_EMBEDDING_MODEL = 'gemini-embedding-001';
 const DEFAULT_EMBEDDING_DIMENSIONS = 768;
-const DEFAULT_RERANK_MODEL = 'gemini-2.0-flash';
+const DEFAULT_RERANK_MODEL = 'gemini-3.5-flash';
 const DEFAULT_MESSAGE_VIEWER_URL = 'https://saitekiinc-com.github.io/saiteki-employee-management/slack-export/';
 
 const INTENT_RANK = {
@@ -293,7 +293,19 @@ async function searchPeopleAnswer(env, query, categoryResolution) {
         })
       };
     } catch (error) {
-      console.error('People answer generation failed; returning ranked candidates', error);
+      console.error('People answer generation failed', error);
+      return {
+        blocks: answerMessageBlocks({
+          query,
+          category: categoryResolution.category,
+          categoryInferred: categoryResolution.inferred,
+          plan,
+          answer: 'AI回答生成に失敗しました。検索候補は取得できていますが、質問意図に沿った根拠判定が完了しなかったため、候補一覧の表示を止めました。少し時間を置いて再実行してください。',
+          selected: [],
+          candidates: [],
+          messageViewerUrl
+        })
+      };
     }
   }
 
