@@ -71,6 +71,9 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
+      - name: Build Slack Export Pages
+        run: npm run build:slack-export-pages
+
       - name: Generate Graph Documentation
         run: node scripts/generate-graph-doc.js
 
@@ -78,5 +81,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/employees.json data/knowledge-graph.json data/search-facets.jsonld data/profile-search-index.json data/profile-search-index.embedded.json data/message-search-index.json data/message-search-index.embedded.json data/slack-messages.jsonl docs/TEAM.md docs/KNOWLEDGE_GRAPH.md docs/index.html
+          git add data/employees.json data/knowledge-graph.json data/search-facets.jsonld data/profile-search-index.json data/profile-search-index.embedded.json data/message-search-index.json data/message-search-index.embedded.json data/slack-messages.jsonl docs/TEAM.md docs/KNOWLEDGE_GRAPH.md docs/index.html docs/slack-export
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update employee profiles, search facets, and knowledge graph" && git push)

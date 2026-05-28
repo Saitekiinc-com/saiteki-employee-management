@@ -21,6 +21,15 @@ function readJson(file) {
   return JSON.parse(fs.readFileSync(file, 'utf8'));
 }
 
+function readJsonl(file) {
+  if (!fs.existsSync(file)) return [];
+  return fs.readFileSync(file, 'utf8')
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => JSON.parse(line));
+}
+
 function writeJsonl(file, rows) {
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, rows.map((row) => JSON.stringify(row)).join('\n') + (rows.length ? '\n' : ''));
@@ -153,6 +162,38 @@ function collectMessages(exportDir, lookups) {
   channels.sort((a, b) => b.messageCount - a.messageCount || a.name.localeCompare(b.name, 'ja'));
   jsonlRows.sort((a, b) => messageSortValue(a) - messageSortValue(b));
   return { channels, jsonlRows };
+}
+
+function collectMessagesFromJsonl(messages) {
+  const byChannel = new Map();
+
+  for (const message of messages) {
+    const channelId = message.channelId || message.channelName || 'unknown';
+    const channelName = message.channelName || message.channelId || 'unknown';
+    if (!byChannel.has(channelId)) {
+      byChannel.set(channelId, {
+        id: channelId,
+        name: channelName,
+        slug: normalizeChannelSlug(channelName),
+        isArchived: false,
+        messages: []
+      });
+    }
+    byChannel.get(channelId).messages.push(message);
+  }
+
+  const channels = [...byChannel.values()].map((channel) => {
+    channel.messages.sort((a, b) => messageSortValue(a) - messageSortValue(b));
+    return {
+      ...channel,
+      messageCount: channel.messages.length,
+      firstDate: channel.messages[0]?.date || '',
+      lastDate: channel.messages[channel.messages.length - 1]?.date || ''
+    };
+  });
+
+  channels.sort((a, b) => b.messageCount - a.messageCount || a.name.localeCompare(b.name, 'ja'));
+  return channels;
 }
 
 function writeViewer(outputDir, payload) {
@@ -689,14 +730,26 @@ function main() {
   const outputDir = path.resolve(args.outputDir || DEFAULT_OUTPUT_DIR);
   const messagesFile = path.resolve(args.messagesFile || DEFAULT_MESSAGES_FILE);
 
-  if (!fs.existsSync(path.join(exportDir, 'channels.json')) || !fs.existsSync(path.join(exportDir, 'users.json'))) {
-    throw new Error(`Slack export directory is missing channels.json or users.json: ${exportDir}`);
+  const hasExportSource = fs.existsSync(path.join(exportDir, 'channels.json')) && fs.existsSync(path.join(exportDir, 'users.json'));
+
+  let exportName = path.basename(exportDir);
+  let channels = [];
+  let jsonlRows = [];
+
+  if (hasExportSource) {
+    const lookups = buildLookups(exportDir);
+    ({ channels, jsonlRows } = collectMessages(exportDir, lookups));
+  } else {
+    jsonlRows = readJsonl(messagesFile);
+    if (jsonlRows.length === 0) {
+      throw new Error(`Slack export directory is missing channels.json or users.json, and no messages were found: ${exportDir}, ${messagesFile}`);
+    }
+    exportName = path.relative(REPO_ROOT, messagesFile) || path.basename(messagesFile);
+    channels = collectMessagesFromJsonl(jsonlRows);
   }
 
-  const lookups = buildLookups(exportDir);
-  const { channels, jsonlRows } = collectMessages(exportDir, lookups);
   const payload = {
-    exportName: path.basename(exportDir),
+    exportName,
     generatedAt: new Date().toISOString(),
     channelCount: channels.length,
     totalMessages: channels.reduce((sum, channel) => sum + channel.messageCount, 0),
@@ -704,9 +757,11 @@ function main() {
   };
 
   writeViewer(outputDir, payload);
-  writeJsonl(messagesFile, jsonlRows);
+  if (hasExportSource) {
+    writeJsonl(messagesFile, jsonlRows);
+  }
   console.log(`Generated Slack export viewer at ${path.join(outputDir, 'index.html')}`);
-  console.log(`Generated ${jsonlRows.length} normalized messages at ${messagesFile}`);
+  console.log(`${hasExportSource ? 'Generated' : 'Loaded'} ${jsonlRows.length} normalized messages at ${messagesFile}`);
 }
 
 if (require.main === module) {
