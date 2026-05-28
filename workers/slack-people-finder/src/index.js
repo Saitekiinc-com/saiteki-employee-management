@@ -212,10 +212,21 @@ async function postSearchResults(env, { channel, user, query, category }) {
 
   try {
     const categoryResolution = resolveSearchCategory(query, category || '仕事・相談');
-    const results = await searchPeople(env, query, categoryResolution);
-    const chunks = chunkResults(results);
-    const pages = chunks.length ? chunks : [[]];
+    const response = await searchPeopleAnswer(env, query, categoryResolution);
 
+    if (response.blocks) {
+      await callSlackApi(env, 'chat.postEphemeral', {
+        channel,
+        user,
+        text: `「${query}」への社員検索回答`,
+        blocks: response.blocks
+      });
+      return;
+    }
+
+    const chunks = chunkResults(response.results || []);
+    const pages = chunks.length ? chunks : [[]];
+    const totalResults = response.results?.length || 0;
     for (let index = 0; index < pages.length; index++) {
       await callSlackApi(env, 'chat.postEphemeral', {
         channel,
@@ -226,7 +237,7 @@ async function postSearchResults(env, { channel, user, query, category }) {
           category: categoryResolution.category,
           categoryInferred: categoryResolution.inferred,
           results: pages[index],
-          totalResults: results.length,
+          totalResults,
           page: index + 1,
           totalPages: pages.length,
           messageViewerUrl: env.MESSAGE_VIEWER_URL || DEFAULT_MESSAGE_VIEWER_URL
@@ -239,30 +250,140 @@ async function postSearchResults(env, { channel, user, query, category }) {
   }
 }
 
-async function searchPeople(env, query, categoryResolution) {
+async function searchPeopleAnswer(env, query, categoryResolution) {
+  const messageViewerUrl = env.MESSAGE_VIEWER_URL || DEFAULT_MESSAGE_VIEWER_URL;
+  let plan = simpleSearchPlan(query, categoryResolution.category);
+  if (canUseAnswerGeneration(env)) {
+    try {
+      plan = await planSearchIntent(env, query, categoryResolution.category);
+    } catch (error) {
+      console.error('Search intent planning failed; using simple plan', error);
+    }
+  }
+
+  const candidates = await collectSearchCandidates(env, query, categoryResolution, plan);
+  if (candidates.length === 0) {
+    return {
+      blocks: answerMessageBlocks({
+        query,
+        category: categoryResolution.category,
+        categoryInferred: categoryResolution.inferred,
+        plan,
+        answer: '該当しそうな社員は見つかりませんでした。検索語を少し広げると見つかる可能性があります。',
+        selected: [],
+        candidates,
+        messageViewerUrl
+      })
+    };
+  }
+
+  if (canUseAnswerGeneration(env)) {
+    try {
+      const answer = await generatePeopleAnswer(env, query, categoryResolution.category, plan, candidates);
+      return {
+        blocks: answerMessageBlocks({
+          query,
+          category: categoryResolution.category,
+          categoryInferred: categoryResolution.inferred,
+          plan,
+          answer: answer.answer,
+          selected: answer.selected || [],
+          candidates,
+          messageViewerUrl
+        })
+      };
+    } catch (error) {
+      console.error('People answer generation failed; returning ranked candidates', error);
+    }
+  }
+
+  return { results: candidates };
+}
+
+async function collectSearchCandidates(env, originalQuery, categoryResolution, plan) {
+  const vectorQuery = plan.searchQuery || originalQuery;
+  const rerankQuery = buildRerankQuery(originalQuery, plan);
+  const resultSets = [];
+
   if (canUseMessageSearch(env)) {
     try {
-      const messageResults = await searchMessageIndex(env, query);
-      if (messageResults.length > 0) return messageResults;
-      console.warn('Message vector people search returned no results; falling back to profile vector search');
+      const messageResults = await searchMessageIndex(env, vectorQuery, { rerankQuery });
+      if (messageResults.length > 0) resultSets.push(messageResults);
     } catch (error) {
-      console.error('Message vector people search failed; falling back to profile search', error);
+      console.error('Message vector candidate collection failed', error);
     }
   }
 
   if (canUseVectorSearch(env)) {
     try {
-      return await searchProfileIndex(env, query, categoryResolution.category);
+      const profileResults = await searchProfileIndex(env, vectorQuery, categoryResolution.category, { rerankQuery });
+      if (profileResults.length > 0) resultSets.push(profileResults);
     } catch (error) {
-      console.error('Vector people search failed; falling back to search facets', error);
+      console.error('Profile vector candidate collection failed', error);
     }
   }
 
-  const facets = await loadFacets(env);
-  return searchFacets(facets, query, {
-    category: categoryResolution.category,
-    threshold: env.PEOPLE_FINDER_THRESHOLD || DEFAULT_THRESHOLD
-  });
+  if (resultSets.length === 0) {
+    const facets = await loadFacets(env);
+    resultSets.push(searchFacets(facets, originalQuery, {
+      category: categoryResolution.category,
+      threshold: env.PEOPLE_FINDER_THRESHOLD || DEFAULT_THRESHOLD
+    }));
+  }
+
+  return mergeSearchResults(resultSets.flat()).slice(0, DEFAULT_RERANK_CANDIDATES);
+}
+
+function buildRerankQuery(originalQuery, plan) {
+  const lines = [
+    `元の入力: ${originalQuery}`,
+    plan?.interpretedQuestion ? `解釈した質問: ${plan.interpretedQuestion}` : '',
+    plan?.relationIntent ? `関係性意図: ${plan.relationIntent}` : '',
+    plan?.mustHaveEvidence?.length ? `必要な根拠: ${plan.mustHaveEvidence.join('、')}` : '',
+    plan?.rejectEvidence?.length ? `除外する根拠: ${plan.rejectEvidence.join('、')}` : ''
+  ].filter(Boolean);
+  return lines.join('\n');
+}
+
+function mergeSearchResults(results) {
+  const byName = new Map();
+  for (const result of results || []) {
+    const key = result.employeeName;
+    if (!key) continue;
+    if (!byName.has(key)) {
+      byName.set(key, {
+        ...result,
+        slackIds: result.slackIds || [],
+        reasons: [],
+        messageQuotes: []
+      });
+    }
+    const merged = byName.get(key);
+    merged.score = Math.max(Number(merged.score || 0), Number(result.score || 0));
+    merged.slackIds = [...new Set([...(merged.slackIds || []), ...(result.slackIds || [])])];
+    merged.reasons.push(...(result.reasons || []));
+    merged.messageQuotes.push(...(result.messageQuotes || []));
+  }
+
+  return [...byName.values()]
+    .map((result) => ({
+      ...result,
+      reasons: dedupeBy(result.reasons, (reason) => reason.unitId || `${reason.label}:${reason.sourceField}`).slice(0, 5),
+      messageQuotes: dedupeQuotes(result.messageQuotes).slice(0, 5)
+    }))
+    .sort((a, b) => b.score - a.score || a.employeeName.localeCompare(b.employeeName, 'ja'));
+}
+
+function dedupeBy(items, keyFn) {
+  const seen = new Set();
+  const unique = [];
+  for (const item of items || []) {
+    const key = keyFn(item);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    unique.push(item);
+  }
+  return unique;
 }
 
 function canUseMessageSearch(env) {
@@ -271,6 +392,10 @@ function canUseMessageSearch(env) {
 
 function canUseVectorSearch(env) {
   return Boolean(env.PROFILE_SEARCH_INDEX_URL && env.GEMINI_API_KEY);
+}
+
+function canUseAnswerGeneration(env) {
+  return Boolean(env.GEMINI_API_KEY);
 }
 
 async function postSearchError(env, { channel, user, query }, error) {
@@ -471,12 +596,94 @@ function resultMessageBlocks({ query, category, categoryInferred = false, result
   return blocks;
 }
 
+function answerMessageBlocks({ query, category, categoryInferred = false, plan, answer, selected, candidates, messageViewerUrl }) {
+  const categoryText = categoryInferred
+    ? `${escapeMrkdwn(category)} (入力内容から自動判定)`
+    : escapeMrkdwn(category);
+  const interpreted = plan?.interpretedQuestion && normalizeText(plan.interpretedQuestion) !== normalizeText(query)
+    ? `\n解釈: ${escapeMrkdwn(plan.interpretedQuestion)}`
+    : '';
+  const blocks = [
+    {
+      type: 'section',
+      text: {
+        type: 'mrkdwn',
+        text: `「${escapeMrkdwn(query)}」への回答\nカテゴリ: *${categoryText}*${interpreted}`
+      }
+    },
+    { type: 'divider' }
+  ];
+
+  for (const chunk of splitMrkdwn(answer || '回答を生成できませんでした。')) {
+    blocks.push({
+      type: 'section',
+      text: { type: 'mrkdwn', text: chunk }
+    });
+  }
+
+  const evidenceLines = answerEvidenceLines(selected, candidates, messageViewerUrl);
+  if (evidenceLines.length > 0) {
+    blocks.push({ type: 'divider' });
+    for (const chunk of splitMrkdwn(`*根拠メッセージ*\n${evidenceLines.join('\n')}`)) {
+      blocks.push({
+        type: 'section',
+        text: { type: 'mrkdwn', text: chunk }
+      });
+    }
+  }
+
+  return blocks.slice(0, 20);
+}
+
+function splitMrkdwn(text, maxLength = 2800) {
+  const chunks = [];
+  let rest = String(text || '').trim();
+  while (rest.length > maxLength) {
+    const cut = Math.max(rest.lastIndexOf('\n', maxLength), rest.lastIndexOf('。', maxLength));
+    const index = cut > maxLength * 0.5 ? cut + 1 : maxLength;
+    chunks.push(rest.slice(0, index).trim());
+    rest = rest.slice(index).trim();
+  }
+  if (rest) chunks.push(rest);
+  return chunks;
+}
+
+function answerEvidenceLines(selected, candidates, messageViewerUrl) {
+  const byName = new Map((candidates || []).map((result) => [result.employeeName, result]));
+  const selectedItems = Array.isArray(selected)
+    ? selected
+    : (candidates || []).slice(0, 5).map((result) => ({ employeeName: result.employeeName }));
+  const lines = [];
+  const seen = new Set();
+
+  for (const item of selectedItems) {
+    const result = byName.get(item.employeeName);
+    if (!result) continue;
+    const selectedIds = new Set(item.reasonUnitIds || item.selectedReasonUnitIds || []);
+    const quotes = selectedIds.size > 0
+      ? filterMessageQuotesByReasonIds(result.messageQuotes || [], selectedIds)
+      : result.messageQuotes || [];
+    const displayQuotes = (quotes.length > 0 ? quotes : result.messageQuotes || []).slice(0, 2);
+    for (const quote of displayQuotes) {
+      const reference = formatMessageReference(quote, messageViewerUrl).replace(/^・/, '');
+      if (!reference) continue;
+      const key = `${item.employeeName}:${reference}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      lines.push(`・${escapeMrkdwn(item.employeeName)}: ${reference}`);
+      if (lines.length >= 8) return lines;
+    }
+  }
+
+  return lines;
+}
+
 function formatResult(result, options = {}) {
   const mention = result.slackIds?.[0] ? `<@${result.slackIds[0]}>` : escapeMrkdwn(result.employeeName);
   const reasons = result.reasons
     .map((reason) => `・${escapeMrkdwn(reason.label)} (${Math.round(reason.score * 100)}%) - ${escapeMrkdwn(reasonSourceLabel(reason))}`)
     .join('\n');
-  const detailNotes = result.reasons.flatMap(reasonDetailNotes).join('\n');
+  const detailNotes = resultDetailNotes(result.reasons).join('\n');
   const rerankNote = result.rerankReason
     ? `${escapeMrkdwn(result.rerankReason)} (${Math.round(Number(result.rerankConfidence || 0) * 100)}%)`
     : '';
@@ -555,12 +762,31 @@ function formatMessageDate(messageTs) {
   }
 }
 
+function resultDetailNotes(reasons) {
+  const notes = [];
+  const seen = new Set();
+  for (const reason of reasons || []) {
+    for (const note of reasonDetailNotes(reason).slice(0, 2)) {
+      const key = normalizeText(note.replace(/^・/, ''));
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      notes.push(note);
+      if (notes.length >= 4) return notes;
+    }
+  }
+  return notes;
+}
+
 function reasonDetailNotes(reason) {
   const snippets = (reason.evidenceSnippets || [])
     .map((snippet) => typeof snippet === 'string' ? snippet : snippet.text)
     .filter(Boolean);
   if (snippets.length > 0) {
-    return snippets.map((snippet) => `・${escapeMrkdwn(truncate(formatEvidenceSnippet(reason, snippet), 170))}`);
+    const usefulSnippets = snippets.filter((snippet) => {
+      if (snippets.length === 1) return true;
+      return normalizeText(snippet) !== normalizeText(reason.label);
+    });
+    return usefulSnippets.map((snippet) => `・${escapeMrkdwn(truncate(formatEvidenceSnippet(reason, snippet), 130))}`);
   }
   return [`・${escapeMrkdwn(formatEvidenceSnippet(reason, reason.label))}`];
 }
@@ -598,19 +824,21 @@ function reasonSourceLabel(reason) {
   }
 }
 
-async function searchProfileIndex(env, query, uiCategory) {
+async function searchProfileIndex(env, query, uiCategory, options = {}) {
   const index = await loadProfileIndex(env);
   return searchVectorIndex(env, index, query, {
     uiCategory,
-    threshold: env.PEOPLE_FINDER_VECTOR_THRESHOLD || DEFAULT_VECTOR_THRESHOLD
+    threshold: env.PEOPLE_FINDER_VECTOR_THRESHOLD || DEFAULT_VECTOR_THRESHOLD,
+    rerankQuery: options.rerankQuery
   });
 }
 
-async function searchMessageIndex(env, query) {
+async function searchMessageIndex(env, query, options = {}) {
   const index = await loadMessageIndex(env);
   return searchVectorIndex(env, index, query, {
     threshold: env.PEOPLE_FINDER_MESSAGE_VECTOR_THRESHOLD || DEFAULT_MESSAGE_VECTOR_THRESHOLD,
-    requireRerankEvidence: true
+    requireRerankEvidence: true,
+    rerankQuery: options.rerankQuery
   });
 }
 
@@ -643,6 +871,7 @@ async function searchVectorIndex(env, index, query, options = {}) {
 
   try {
     return await rerankVectorResults(env, query, results, {
+      rerankQuery: options.rerankQuery || query,
       candidateLimit: env.PEOPLE_FINDER_RERANK_CANDIDATES,
       includeAdjacent: env.PEOPLE_FINDER_DIRECT_ONLY !== 'true'
     });
@@ -775,7 +1004,7 @@ function fitVectorDimensions(vector, dimensions) {
 async function rerankVectorResults(env, query, results, options = {}) {
   const candidateLimit = parseNumber(options.candidateLimit, DEFAULT_RERANK_CANDIDATES);
   const candidates = results.slice(0, candidateLimit);
-  const decisions = await geminiRerank(env, query, candidates);
+  const decisions = await geminiRerank(env, options.rerankQuery || query, candidates);
   return applyRerankDecisions(candidates, decisions, {
     includeAdjacent: options.includeAdjacent !== false
   });
@@ -833,6 +1062,159 @@ function parseJsonText(text) {
   return JSON.parse(text.slice(start, end + 1));
 }
 
+async function planSearchIntent(env, query, category) {
+  const model = env.GEMINI_RERANK_MODEL || DEFAULT_RERANK_MODEL;
+  const data = await callGemini(env, model, 'generateContent', {
+    contents: [
+      {
+        role: 'user',
+        parts: [{ text: buildSearchPlanPrompt(query, category) }]
+      }
+    ],
+    generationConfig: {
+      temperature: 0,
+      responseMimeType: 'application/json'
+    }
+  });
+  const text = geminiText(data);
+  return normalizeSearchPlan(parseJsonText(text), query, category);
+}
+
+function buildSearchPlanPrompt(query, category) {
+  return `あなたは社員検索のクエリ理解担当です。
+入力を、社員を探すための検索計画に変換してください。
+
+重要:
+- ユーザーに質問形式を強制しない。「AWS経験者」のような短い入力も質問として解釈する。
+- 「経験者」は本人の実務経験を求める。「勉強会を案内した」「記事を共有した」「関心がある」だけでは足りない。
+- 「詳しい人」「相談できる人」は本人の知見・実務接点・説明できそうな根拠を求める。
+- 「好きな人」は本人の興味・嗜好を求める。
+- 「紹介した人」「共有した人」は情報共有の行動を求める。
+- ベクトル検索用クエリには、主題語と根拠になりそうな言い換えを入れる。
+
+JSONだけを返してください。
+{
+  "interpretedQuestion": "ユーザーが本当に知りたいこと",
+  "relationIntent": "has_work_experience | can_consult | has_interest | shared_information | general_match",
+  "topicTerms": ["AWS"],
+  "searchQuery": "AWS 運用 監視 構築 設計 保守 実務 経験 現場",
+  "mustHaveEvidence": ["本人の実務経験"],
+  "rejectEvidence": ["勉強会を案内しただけ"]
+}
+
+入力: ${query}
+カテゴリ: ${category}`;
+}
+
+function normalizeSearchPlan(plan, query, category) {
+  const fallback = simpleSearchPlan(query, category);
+  const normalized = plan && typeof plan === 'object' ? plan : {};
+  return {
+    interpretedQuestion: String(normalized.interpretedQuestion || fallback.interpretedQuestion).trim(),
+    relationIntent: String(normalized.relationIntent || fallback.relationIntent).trim(),
+    topicTerms: Array.isArray(normalized.topicTerms) ? normalized.topicTerms.map(String).filter(Boolean).slice(0, 8) : fallback.topicTerms,
+    searchQuery: String(normalized.searchQuery || fallback.searchQuery).trim(),
+    mustHaveEvidence: Array.isArray(normalized.mustHaveEvidence) ? normalized.mustHaveEvidence.map(String).filter(Boolean).slice(0, 8) : [],
+    rejectEvidence: Array.isArray(normalized.rejectEvidence) ? normalized.rejectEvidence.map(String).filter(Boolean).slice(0, 8) : []
+  };
+}
+
+function simpleSearchPlan(query, category) {
+  const queryText = stripQueryHelpers(query) || normalizeText(query) || String(query || '').trim();
+  return {
+    interpretedQuestion: `${query}に合う社員を知りたい`,
+    relationIntent: category === '興味・人柄' ? 'general_match' : 'can_consult',
+    topicTerms: queryText ? [queryText] : [],
+    searchQuery: queryText || query,
+    mustHaveEvidence: [],
+    rejectEvidence: []
+  };
+}
+
+async function generatePeopleAnswer(env, query, category, plan, candidates) {
+  const model = env.GEMINI_RERANK_MODEL || DEFAULT_RERANK_MODEL;
+  const data = await callGemini(env, model, 'generateContent', {
+    contents: [
+      {
+        role: 'user',
+        parts: [{ text: buildAnswerPrompt(query, category, plan, candidates) }]
+      }
+    ],
+    generationConfig: {
+      temperature: 0,
+      responseMimeType: 'application/json'
+    }
+  });
+  const parsed = parseJsonText(geminiText(data));
+  return {
+    answer: String(parsed.answer || '').trim() || '回答を生成できませんでした。',
+    selected: Array.isArray(parsed.selected) ? parsed.selected : []
+  };
+}
+
+function buildAnswerPrompt(query, category, plan, candidates) {
+  return `あなたは社員検索BOTの回答生成担当です。
+ユーザーの質問意図に対して、候補の根拠だけを使って回答してください。
+
+ルール:
+- 候補に含まれる根拠だけを使い、推測で補わない。
+- 検索計画の relationIntent と mustHaveEvidence / rejectEvidence を厳密に使う。
+- 「経験者」意図なら、本人が実務で何をしたかを答える。運用、監視、管理、設計、構築、保守、開発、年数など、根拠にある範囲で具体化する。
+- 年数や担当範囲が根拠にない場合は「年数は不明」のように不足を明示する。
+- 質問意図に合わない候補は回答に含めない。例: 経験者検索で、勉強会案内やアーカイブ共有だけの人は除外する。
+- ただ短くするのではなく、質問に答えるために必要な情報を書く。
+- Slack mrkdwnで読みやすく書く。表は使わない。
+- JSONだけを返す。
+
+出力形式:
+{
+  "answer": "回答本文",
+  "selected": [
+    { "employeeName": "社員名", "reasonUnitIds": ["候補内のunitId"] }
+  ]
+}
+
+ユーザー入力: ${query}
+カテゴリ: ${category}
+検索計画:
+${JSON.stringify(plan, null, 2)}
+
+候補:
+${JSON.stringify(candidates.map(compactAnswerCandidate), null, 2)}`;
+}
+
+function compactAnswerCandidate(result) {
+  return {
+    employeeName: result.employeeName,
+    score: result.score,
+    reasons: (result.reasons || []).slice(0, 5).map((reason) => ({
+      unitId: reason.unitId,
+      label: reason.label || reason.relationLabel || reason.topicLabel,
+      semanticType: reason.semanticType,
+      sourceLabel: reason.sourceLabel,
+      score: reason.score,
+      detailBullets: (reason.detailBullets || reason.evidenceSnippets || [])
+        .slice(0, 4)
+        .map((bullet) => truncate(typeof bullet === 'string' ? bullet : bullet.text, 220))
+    })),
+    quotes: (result.messageQuotes || []).slice(0, 3).map((quote) => ({
+      unitId: quote.unitId,
+      messageId: quote.messageId,
+      text: truncate(quote.text, 260),
+      channelName: quote.channelName,
+      authorName: quote.authorName
+    }))
+  };
+}
+
+function geminiText(data) {
+  return (data.candidates || [])
+    .flatMap((candidate) => candidate.content?.parts || [])
+    .map((part) => part.text)
+    .filter(Boolean)
+    .join('\n');
+}
+
 function buildRerankPrompt(query, results) {
   return `あなたは社員検索の再ランキング担当です。
 検索クエリに対して、候補社員が本当に近いかを根拠だけで判定してください。
@@ -846,7 +1228,9 @@ function buildRerankPrompt(query, results) {
 ルール:
 - 根拠にない推測はしない
 - 職種検索では、AI、エンジニア、影響力だけの候補は reject または weak
+- クエリが求める関係性を厳密に見る。例: 「経験者」は本人の実務経験、「詳しい人」「相談」は本人の知見や実務接点、「好きな人」は本人の興味・嗜好、「紹介/共有した人」は情報共有の行動を重視する
 - AWS、Azure、Reactのような短い技術名・製品名は、実務経験や具体的な話題として根拠に出ていれば direct
+- ただし「経験者」検索では、勉強会の案内、学習機会の提供、アーカイブ共有、関心表明だけでは direct にしない
 - 趣味検索では、具体的な接点がある候補を direct
 - Slackメッセージ検索では、候補内の実発言・引用・具体メモだけを根拠にする
 - クエリ語の言い換え、同義語、関連する固有名詞は考慮してよい
@@ -888,10 +1272,12 @@ function compactVectorResult(result) {
       relationLabel: reason.relationLabel,
       topicLabel: reason.topicLabel,
       score: reason.score,
-      detailBullets: (reason.detailBullets || []).slice(0, 3)
+      detailBullets: (reason.detailBullets || [])
+        .slice(0, 3)
+        .map((bullet) => truncate(bullet, 240))
     })),
     quotes: (result.messageQuotes || []).slice(0, 2).map((quote) => ({
-      text: quote.text,
+      text: truncate(quote.text, 240),
       channelName: quote.channelName,
       authorName: quote.authorName
     }))
@@ -905,14 +1291,12 @@ function applyRerankDecisions(results, decisions, options = {}) {
     .map((result) => {
       const decision = decisionByName.get(result.employeeName);
       if (!decision) return null;
+      if (decision.evidenceSupported === false) return null;
       const selectedIds = new Set(decision.selectedReasonUnitIds || []);
       const selectedReasons = selectedIds.size > 0
         ? result.reasons.filter((reason) => selectedIds.has(reason.unitId))
         : result.reasons;
       const slackMessageResult = isSlackMessageResult(result);
-      if (slackMessageResult && decision.evidenceSupported === false) {
-        return null;
-      }
       const displayReasons = selectedReasons.length > 0 ? selectedReasons : result.reasons;
       const selectedMessageQuotes = selectedIds.size > 0
         ? filterMessageQuotesByReasonIds(result.messageQuotes || [], selectedIds)
