@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-05-28T15:33:30.182Z",
+  "generatedAt": "2026-05-29T04:08:34.675Z",
   "channelCount": 9,
-  "totalMessages": 1718,
+  "totalMessages": 1721,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -15780,7 +15780,7 @@ window.SLACK_EXPORT_DATA = {
           "text": "いよいよ5月31日に広島で100kmマラソンにトライするのですが、なんと昨日、足を攣ってしまって若干リハビリ気味に最終練習しています:smiling_face_with_tear: 10km毎にソーシャルのスレッドに勝手に状況を投稿していきますので興味ある人は覗きに来てください笑",
           "rawText": "いよいよ5月31日に広島で100kmマラソンにトライするのですが、なんと昨日、足を攣ってしまって若干リハビリ気味に最終練習しています:smiling_face_with_tear:\n10km毎にソーシャルのスレッドに勝手に状況を投稿していきますので興味ある人は覗きに来てください笑",
           "messageTs": "1779976124.657229",
-          "threadTs": null,
+          "threadTs": "1779976124.657229",
           "parentUserId": null,
           "subtype": null,
           "date": "2026-05-28",
@@ -15828,11 +15828,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1780002171.041099",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09NHL467U0",
+          "userName": "上遼太郎",
+          "userRealName": "上遼太郎",
+          "text": "マジですか！！ 仕事の疲労が体にきてたりしてるんですかね:smiling_face_with_tear::smiling_face_with_tear: タイムとかどうなるのか楽しみにしてます:face_with_monocle:",
+          "rawText": "マジですか！！\n仕事の疲労が体にきてたりしてるんですかね:smiling_face_with_tear::smiling_face_with_tear:\nタイムとかどうなるのか楽しみにしてます:face_with_monocle:",
+          "messageTs": "1780002171.041099",
+          "threadTs": "1779976124.657229",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-05-28",
+          "timestamp": "2026-05-28T21:02:51.041Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1780026302.274289",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09NHL5HMRN",
+          "userName": "青木淳一郎",
+          "userRealName": "青木淳一郎",
+          "text": "博多駅現場近くのお弁当屋さんのアジフライ弁当:bento: 値段はなんと500円！！ このご時世にワンコインで美味しくて、お腹いっぱいになるお弁当が買えることがとてもありがたい:sob: (カメラセンスなくてすみません:pray:)",
+          "rawText": "博多駅現場近くのお弁当屋さんのアジフライ弁当:bento:\n値段はなんと500円！！\nこのご時世にワンコインで美味しくて、お腹いっぱいになるお弁当が買えることがとてもありがたい:sob:\n(カメラセンスなくてすみません:pray:)",
+          "messageTs": "1780026302.274289",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-05-29",
+          "timestamp": "2026-05-29T03:45:02.274Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 830,
+      "messageCount": 832,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-05-28"
+      "lastDate": "2026-05-29"
     },
     {
       "id": "C09Q46YA4ER",
@@ -27461,11 +27501,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1780016531.403769",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> 各位 お疲れ様です。総務の藤井です。 5月は本社懇親会で沢山の方々にご挨拶ができてとても嬉しかったです:smile: 月末になりましたので、5月分稼働報告、経費・交通費精算のご案内をさせていただきます。 【稼働報告・経費の提出先】 社労士共有用の個人フォルダ(URLわからなくなった方は連絡ください) 【提出期限】 6月3日(毎月第3営業日) 【提出するもの】 稼働表 交通費申請書 ※コピペの際は注意！ 領収書(PDFや高画質で撮影したもの) ※領収書の宛名は「株式会社Saiteki」 【注意】 `※5月24日の渋谷本社懇親会へご参加くださった方々へ※` 5月までに入社済みの社員さん：今回の交通費精算書で交通費を精算してください。 6月以降に入社される皆さん：入社後に交通費の精算をさせていただきます。 `※書籍購入補助について※` 杉本さんが<#C0B5FKHTTCK> というチャンネルを作成してくださいました。 チャンネルへ招待されていない方は、総務の藤井までご連絡ください:pray: ご不明な事がありましたら、 「99_(ご自身のお名前)」のチャンネルにご連絡ください。 お手数をおかけいたしますが、よろしくお願いいたします！",
+          "rawText": "<!channel>\n各位\nお疲れ様です。総務の藤井です。\n5月は本社懇親会で沢山の方々にご挨拶ができてとても嬉しかったです:smile:\n月末になりましたので、5月分稼働報告、経費・交通費精算のご案内をさせていただきます。\n\n【稼働報告・経費の提出先】\n社労士共有用の個人フォルダ(URLわからなくなった方は連絡ください)\n【提出期限】\n6月3日(毎月第3営業日)\n【提出するもの】\n稼働表\n交通費申請書　※コピペの際は注意！\n領収書(PDFや高画質で撮影したもの)　※領収書の宛名は「株式会社Saiteki」\n【注意】\n`※5月24日の渋谷本社懇親会へご参加くださった方々へ※`\n5月までに入社済みの社員さん：今回の交通費精算書で交通費を精算してください。\n6月以降に入社される皆さん：入社後に交通費の精算をさせていただきます。\n`※書籍購入補助について※`\n杉本さんが<#C0B5FKHTTCK> というチャンネルを作成してくださいました。\nチャンネルへ招待されていない方は、総務の藤井までご連絡ください:pray:\n\nご不明な事がありましたら、\n「99_(ご自身のお名前)」のチャンネルにご連絡ください。\nお手数をおかけいたしますが、よろしくお願いいたします！",
+          "messageTs": "1780016531.403769",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-05-29",
+          "timestamp": "2026-05-29T01:02:11.403Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 265,
+      "messageCount": 266,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-05-24"
+      "lastDate": "2026-05-29"
     },
     {
       "id": "C09QXV3F8G0",
