@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-05-29T04:08:31.220Z",
+  "generatedAt": "2026-05-30T03:54:49.836Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -49643,7 +49643,7 @@
           "channelId": "C09QXV3F8G0",
           "channelName": "ai駆動開発ネタ",
           "messageTs": "1779376384.254949",
-          "threadTs": null,
+          "threadTs": "1779376384.254949",
           "authorName": "杉本光一",
           "permalink": null
         }
@@ -51451,12 +51451,291 @@
           "channelId": "C09N28KTKL1",
           "channelName": "ソーシャル",
           "messageTs": "1780026302.274289",
-          "threadTs": null,
+          "threadTs": "1780026302.274289",
           "authorName": "青木淳一郎",
           "permalink": null
         }
       ],
       "searchText": "博多駅現場近くのお弁当屋さんのアジフライ弁当:bento: 値段はなんと500円！！ このご時世にワンコインで美味しくて、お腹いっぱいになるお弁当が買えることがとてもありがたい:sob: (カメラセンスなくてすみません:pray:)\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780041619.370329",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780041619.370329",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780041619.370329",
+      "timestamp": "2026-05-29T08:00:19.370Z",
+      "detailBullets": [
+        "タイムは8分30秒/kmぐらいで走れたらいいかなと思ってるけど、どうだろうね…さすがに想像つかないね、、！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780041619.370329",
+          "text": "タイムは8分30秒/kmぐらいで走れたらいいかなと思ってるけど、どうだろうね…さすがに想像つかないね、、！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780041619.370329",
+          "threadTs": "1779976124.657229",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "タイムは8分30秒/kmぐらいで走れたらいいかなと思ってるけど、どうだろうね…さすがに想像つかないね、、！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780041681.757789",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780041681.757789",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780041681.757789",
+      "timestamp": "2026-05-29T08:01:21.757Z",
+      "detailBullets": [
+        "500円は安すぎる！しかもおいしそうです:drooling_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780041681.757789",
+          "text": "500円は安すぎる！しかもおいしそうです:drooling_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780041681.757789",
+          "threadTs": "1780026302.274289",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "500円は安すぎる！しかもおいしそうです:drooling_face:\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780044877.382459",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780044877.382459",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780044877.382459",
+      "timestamp": "2026-05-29T08:54:37.382Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 激ウマです！ だけど儲けがあるのか心配です:cry:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780044877.382459",
+          "text": "<@U09MGUVJ8BV> 激ウマです！ だけど儲けがあるのか心配です:cry:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780044877.382459",
+          "threadTs": "1780026302.274289",
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 激ウマです！ だけど儲けがあるのか心配です:cry:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780061141.358849",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:杉本光一",
+      "personName": "杉本光一",
+      "slackIds": [
+        "U09MGV3MU9H",
+        "U08KH52ELPR"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780061141.358849",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780061141.358849",
+      "timestamp": "2026-05-29T13:25:41.358Z",
+      "detailBullets": [
+        "<@U0B493P7TG9> はじめまして！エンジニアの杉本です:raised_hands: ポケモンはそんなになのですが、たしかポケパーク？のドタイトスがかわいいなと思った記憶です笑 いや3Dだとみんなかわいいかもしれない"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780061141.358849",
+          "text": "<@U0B493P7TG9> はじめまして！エンジニアの杉本です:raised_hands: ポケモンはそんなになのですが、たしかポケパーク？のドタイトスがかわいいなと思った記憶です笑 いや3Dだとみんなかわいいかもしれない",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780061141.358849",
+          "threadTs": "1779001204.657399",
+          "authorName": "杉本光一",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B493P7TG9> はじめまして！エンジニアの杉本です:raised_hands: ポケモンはそんなになのですが、たしかポケパーク？のドタイトスがかわいいなと思った記憶です笑 いや3Dだとみんなかわいいかもしれない\n自己紹介\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780061328.748899",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:杉本光一",
+      "personName": "杉本光一",
+      "slackIds": [
+        "U09MGV3MU9H",
+        "U08KH52ELPR"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780061328.748899",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780061328.748899",
+      "timestamp": "2026-05-29T13:28:48.748Z",
+      "detailBullets": [
+        "<@U0B782MLJUQ> はじめまして！エンジニアの杉本です:raised_hands: 声優にビートボックスにすごいですね！！子供に音楽やらせたいなと思ってたので話す機会あればビートボックス教えてください:man-bowing:笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780061328.748899",
+          "text": "<@U0B782MLJUQ> はじめまして！エンジニアの杉本です:raised_hands: 声優にビートボックスにすごいですね！！子供に音楽やらせたいなと思ってたので話す機会あればビートボックス教えてください:man-bowing:笑",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780061328.748899",
+          "threadTs": "1779938230.236099",
+          "authorName": "杉本光一",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B782MLJUQ> はじめまして！エンジニアの杉本です:raised_hands: 声優にビートボックスにすごいですね！！子供に音楽やらせたいなと思ってたので話す機会あればビートボックス教えてください:man-bowing:笑\n自己紹介\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780062858.873219",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:三本木拓磨",
+      "personName": "三本木拓磨",
+      "slackIds": [
+        "U0B493P7TG9"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780062858.873219",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780062858.873219",
+      "timestamp": "2026-05-29T13:54:18.873Z",
+      "detailBullets": [
+        "はじめまして！三本木です！ ポケモンは深いですよ！！ 対戦がおすすめです！！ ドダイトスをかわいいと思っていただけるなんて嬉しいです！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780062858.873219",
+          "text": "はじめまして！三本木です！ ポケモンは深いですよ！！ 対戦がおすすめです！！ ドダイトスをかわいいと思っていただけるなんて嬉しいです！！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780062858.873219",
+          "threadTs": "1779001204.657399",
+          "authorName": "三本木拓磨",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして！三本木です！ ポケモンは深いですよ！！ 対戦がおすすめです！！ ドダイトスをかわいいと思っていただけるなんて嬉しいです！！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1780109042.630909",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1780109042.630909",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1780109042.630909",
+      "timestamp": "2026-05-30T02:44:02.630Z",
+      "detailBullets": [
+        "サブエージェントを採用するほどの大規模な処理をAIに任せたことが無いのはありますが 投稿拝見しての感想です。(遅レス:man-bowing::skin-tone-2:) 現場では、OpenSpecという仕様駆動ライブラリを使い始めており その始まり部分は以下のような形で`勝手にエージェントがサブタスク作ってること`は見かけます。。 メイン：実装計画を立てるエージェント サ ブ：要件を集めるエージェント OpenSpecの導入と並行して、テストの自動設計エージェントは実装したので メイン：開発フローの責任者 (結合テストの計画まで) サ ブ：開発工程の責任者 サ ブ：テスト工程の責任者 とかにしてしまえばフローをAI駆動一貫で動かせちゃうなと思っちゃった次第でした。 ※全てドキュメントアウトプットは既に出しているので、*ヒトが最終判断という形にはできる想定*"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1780109042.630909",
+          "text": "サブエージェントを採用するほどの大規模な処理をAIに任せたことが無いのはありますが 投稿拝見しての感想です。(遅レス:man-bowing::skin-tone-2:) 現場では、OpenSpecという仕様駆動ライブラリを使い始めており その始まり部分は以下のような形で`勝手にエージェントがサブタスク作ってること`は見かけます。。 メイン：実装計画を立てるエージェント サ ブ：要件を集めるエージェント OpenSpecの導入と並行して、テストの自動設計エージェントは実装したので メイン：開発フローの責任者 (結合テストの計画まで) サ ブ：開発工程の責任者 サ ブ：テスト工程の責任者 とかにしてしまえばフローをAI駆動一貫で動かせちゃうなと思っちゃった次第でした。 ※全てドキュメントアウトプットは既に出しているので、*ヒトが最終判断という形にはできる想定*",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1780109042.630909",
+          "threadTs": "1779376384.254949",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "サブエージェントを採用するほどの大規模な処理をAIに任せたことが無いのはありますが 投稿拝見しての感想です。(遅レス:man-bowing::skin-tone-2:) 現場では、OpenSpecという仕様駆動ライブラリを使い始めており その始まり部分は以下のような形で`勝手にエージェントがサブタスク作ってること`は見かけます。。 メイン：実装計画を立てるエージェント サ ブ：要件を集めるエージェント OpenSpecの導入と並行して、テストの自動設計エージェントは実装したので メイン：開発フローの責任者 (結合テストの計画まで) サ ブ：開発工程の責任者 サ ブ：テスト工程の責任者 とかにしてしまえばフローをAI駆動一貫で動かせちゃうなと思っちゃった次第でした。 ※全てドキュメントアウトプットは既に出しているので、*ヒトが最終判断という形にはできる想定*\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780109585.852519",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780109585.852519",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780109585.852519",
+      "timestamp": "2026-05-30T02:53:05.852Z",
+      "detailBullets": [
+        "<@U09NHL5HMRN> 博多駅は行かなくては:fire: お店の名前伺ってもいいですか！？ (`企業秘密：数量限定で知られたくない`とかであれば非公開でも:sweat_drops:)"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780109585.852519",
+          "text": "<@U09NHL5HMRN> 博多駅は行かなくては:fire: お店の名前伺ってもいいですか！？ (`企業秘密：数量限定で知られたくない`とかであれば非公開でも:sweat_drops:)",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780109585.852519",
+          "threadTs": "1780026302.274289",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL5HMRN> 博多駅は行かなくては:fire: お店の名前伺ってもいいですか！？ (`企業秘密：数量限定で知られたくない`とかであれば非公開でも:sweat_drops:)\nソーシャル\nEngineer"
     }
   ]
 }
