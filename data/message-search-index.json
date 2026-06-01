@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-05-31T04:19:58.571Z",
+  "generatedAt": "2026-06-01T04:48:35.217Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -52681,6 +52681,670 @@
         }
       ],
       "searchText": "はじめて50km走りました！攣った部分が痛み始めたのでロキソニン投下\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780203659.321449",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780203659.321449",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780203659.321449",
+      "timestamp": "2026-05-31T05:00:59.321Z",
+      "detailBullets": [
+        "渡船イベントあった笑 マジか"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780203659.321449",
+          "text": "渡船イベントあった笑 マジか",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780203659.321449",
+          "threadTs": "1780171408.047009",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "渡船イベントあった笑 マジか\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780205840.045719",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780205840.045719",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780205840.045719",
+      "timestamp": "2026-05-31T05:37:20.045Z",
+      "detailBullets": [
+        "60km お腹が空くという概念がなくなる"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780205840.045719",
+          "text": "60km お腹が空くという概念がなくなる",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780205840.045719",
+          "threadTs": "1780171408.047009",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "60km お腹が空くという概念がなくなる\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780214175.576009",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780214175.576009",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780214175.576009",
+      "timestamp": "2026-05-31T07:56:15.576Z",
+      "detailBullets": [
+        "終わったらビールが待ってます！ ロキソニンが効いてますように:pray:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780214175.576009",
+          "text": "終わったらビールが待ってます！ ロキソニンが効いてますように:pray:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780214175.576009",
+          "threadTs": "1780171408.047009",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "終わったらビールが待ってます！ ロキソニンが効いてますように:pray:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780216987.791659",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780216987.791659",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780216987.791659",
+      "timestamp": "2026-05-31T08:43:07.791Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> ありがとうございます！ビール！うおぉぉぉ！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780216987.791659",
+          "text": "<@U0A9EE7HZ3P> ありがとうございます！ビール！うおぉぉぉ！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780216987.791659",
+          "threadTs": "1780171408.047009",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> ありがとうございます！ビール！うおぉぉぉ！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780217226.466499",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780217226.466499",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780217226.466499",
+      "timestamp": "2026-05-31T08:47:06.466Z",
+      "detailBullets": [
+        "あと20キロ！関門がきっつい！笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780217226.466499",
+          "text": "あと20キロ！関門がきっつい！笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780217226.466499",
+          "threadTs": "1780171408.047009",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "あと20キロ！関門がきっつい！笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780223294.896549",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780223294.896549",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780223294.896549",
+      "timestamp": "2026-05-31T10:28:14.896Z",
+      "detailBullets": [
+        "あと10km！一周回ってお腹すいてきた笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780223294.896549",
+          "text": "あと10km！一周回ってお腹すいてきた笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780223294.896549",
+          "threadTs": "1780171408.047009",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "あと10km！一周回ってお腹すいてきた笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780223373.259819",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780223373.259819",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780223373.259819",
+      "timestamp": "2026-05-31T10:29:33.259Z",
+      "detailBullets": [
+        "スゲーー！！あとちょっと:fist:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780223373.259819",
+          "text": "スゲーー！！あとちょっと:fist:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780223373.259819",
+          "threadTs": "1780171408.047009",
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "スゲーー！！あとちょっと:fist:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780223409.858589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780223409.858589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780223409.858589",
+      "timestamp": "2026-05-31T10:30:09.858Z",
+      "detailBullets": [
+        "ガンバレ:bangbang:あと少し:bangbang:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780223409.858589",
+          "text": "ガンバレ:bangbang:あと少し:bangbang:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780223409.858589",
+          "threadTs": "1780171408.047009",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "ガンバレ:bangbang:あと少し:bangbang:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780229226.428479",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780229226.428479",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780229226.428479",
+      "timestamp": "2026-05-31T12:07:06.428Z",
+      "detailBullets": [
+        "皆さん応援ありがとうございました！なんとか完走しました！制限時間4分前！笑 いやー序盤でもも裏攣った時はさすがに折れかけましたが、やりきった！良い経験でした！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780229226.428479",
+          "text": "皆さん応援ありがとうございました！なんとか完走しました！制限時間4分前！笑 いやー序盤でもも裏攣った時はさすがに折れかけましたが、やりきった！良い経験でした！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780229226.428479",
+          "threadTs": "1780171408.047009",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "皆さん応援ありがとうございました！なんとか完走しました！制限時間4分前！笑 いやー序盤でもも裏攣った時はさすがに折れかけましたが、やりきった！良い経験でした！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780230619.583779",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780230619.583779",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780230619.583779",
+      "timestamp": "2026-05-31T12:30:19.583Z",
+      "detailBullets": [
+        "15時間半の激闘、完走おめでとうございます:tada: すごすぎる:bangbang: すごすぎる:bangbang:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780230619.583779",
+          "text": "15時間半の激闘、完走おめでとうございます:tada: すごすぎる:bangbang: すごすぎる:bangbang:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780230619.583779",
+          "threadTs": "1780171408.047009",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "15時間半の激闘、完走おめでとうございます:tada: すごすぎる:bangbang: すごすぎる:bangbang:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780231459.092539",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780231459.092539",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780231459.092539",
+      "timestamp": "2026-05-31T12:44:19.092Z",
+      "detailBullets": [
+        "お疲れさまでした！ 100kmはマジですごいです！ まずは体を労ってくださいね:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780231459.092539",
+          "text": "お疲れさまでした！ 100kmはマジですごいです！ まずは体を労ってくださいね:sparkles:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780231459.092539",
+          "threadTs": "1780171408.047009",
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "お疲れさまでした！ 100kmはマジですごいです！ まずは体を労ってくださいね:sparkles:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780233638.766449",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780233638.766449",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780233638.766449",
+      "timestamp": "2026-05-31T13:20:38.766Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> <@U09NHL5HMRN> お二人ともありがとうございます！ところどころ体が痛いです笑 とりあえず今日は限界超えたので寝ます:zzz: 応援、心強かったです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780233638.766449",
+          "text": "<@U09MM9KS06S> <@U09NHL5HMRN> お二人ともありがとうございます！ところどころ体が痛いです笑 とりあえず今日は限界超えたので寝ます:zzz: 応援、心強かったです！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780233638.766449",
+          "threadTs": "1780171408.047009",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> <@U09NHL5HMRN> お二人ともありがとうございます！ところどころ体が痛いです笑 とりあえず今日は限界超えたので寝ます:zzz: 応援、心強かったです！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780241280.999099",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:鈴木悠斗",
+      "personName": "鈴木悠斗",
+      "slackIds": [
+        "U09MPBUHTEE",
+        "U08SCMU6544"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780241280.999099",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780241280.999099",
+      "timestamp": "2026-05-31T15:28:00.999Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> まじで凄すぎます:joy: 本当にお疲れ様でした:bangbang:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780241280.999099",
+          "text": "<@U09MGUVJ8BV> まじで凄すぎます:joy: 本当にお疲れ様でした:bangbang:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780241280.999099",
+          "threadTs": "1780171408.047009",
+          "authorName": "鈴木悠斗",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> まじで凄すぎます:joy: 本当にお疲れ様でした:bangbang:\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780269597.639749",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:杉本光一",
+      "personName": "杉本光一",
+      "slackIds": [
+        "U09MGV3MU9H",
+        "U08KH52ELPR"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780269597.639749",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780269597.639749",
+      "timestamp": "2026-05-31T23:19:57.639Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 100kmお疲れ様！すごすぎる・・・！！ このあとなにを食べたのか気になる笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780269597.639749",
+          "text": "<@U09MGUVJ8BV> 100kmお疲れ様！すごすぎる・・・！！ このあとなにを食べたのか気になる笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780269597.639749",
+          "threadTs": "1780171408.047009",
+          "authorName": "杉本光一",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 100kmお疲れ様！すごすぎる・・・！！ このあとなにを食べたのか気になる笑\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780269867.857199",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:杉本光一",
+      "personName": "杉本光一",
+      "slackIds": [
+        "U09MGV3MU9H",
+        "U08KH52ELPR"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780269867.857199",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780269867.857199",
+      "timestamp": "2026-05-31T23:24:27.857Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 家族でこういうとこ行きたいです！！笑 絶対いい思い出になりますね:raised_hands:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780269867.857199",
+          "text": "<@U09MM9KS06S> 家族でこういうとこ行きたいです！！笑 絶対いい思い出になりますね:raised_hands:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780269867.857199",
+          "threadTs": "1780116887.955589",
+          "authorName": "杉本光一",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 家族でこういうとこ行きたいです！！笑 絶対いい思い出になりますね:raised_hands:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780272910.825039",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780272910.825039",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780272910.825039",
+      "timestamp": "2026-06-01T00:15:10.825Z",
+      "detailBullets": [
+        "<@U09MPBUHTEE> ありがとうございます！！皆さんに気合を分け与えていきます！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780272910.825039",
+          "text": "<@U09MPBUHTEE> ありがとうございます！！皆さんに気合を分け与えていきます！！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780272910.825039",
+          "threadTs": "1780171408.047009",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MPBUHTEE> ありがとうございます！！皆さんに気合を分け与えていきます！！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780273073.541029",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780273073.541029",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780273073.541029",
+      "timestamp": "2026-06-01T00:17:53.541Z",
+      "detailBullets": [
+        "<@U09MGV3MU9H> このあとは満身創痍で、実はプリン1つしか食べられなかった笑 60km超えたぐらいから、エイドで何を口にしても吐き気がひどくて、水だけ飲んでたね！消化機能が衰える？とかそういうものらしい。 90km超えた辺りから食欲出てきたな？と思ったんだけど、終わってみたら早く寝たい、、が勝ってたね笑 応援ありがとう！奥様にもよろしくお伝えください！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780273073.541029",
+          "text": "<@U09MGV3MU9H> このあとは満身創痍で、実はプリン1つしか食べられなかった笑 60km超えたぐらいから、エイドで何を口にしても吐き気がひどくて、水だけ飲んでたね！消化機能が衰える？とかそういうものらしい。 90km超えた辺りから食欲出てきたな？と思ったんだけど、終わってみたら早く寝たい、、が勝ってたね笑 応援ありがとう！奥様にもよろしくお伝えください！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780273073.541029",
+          "threadTs": "1780171408.047009",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGV3MU9H> このあとは満身創痍で、実はプリン1つしか食べられなかった笑 60km超えたぐらいから、エイドで何を口にしても吐き気がひどくて、水だけ飲んでたね！消化機能が衰える？とかそういうものらしい。 90km超えた辺りから食欲出てきたな？と思ったんだけど、終わってみたら早く寝たい、、が勝ってたね笑 応援ありがとう！奥様にもよろしくお伝えください！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1780274290.450589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1780274290.450589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1780274290.450589",
+      "timestamp": "2026-06-01T00:38:10.450Z",
+      "detailBullets": [
+        "<!channel> みなさん、先週もお疲れ様でした！！ ちょっと遅れましたが、*Letter of T | 今週の記録（2026.05.30）* を共有します。 今週のテーマは *「しまなみ100kmマラソン完走と、人生を最高にする『3つの幸福軸』」* です。 今回は、5月30日に私が自らの限界に挑んだ「せとうちしまなみマラソン」の生々しい記録と、私の人生観の根底にある思想について語っています。 • *【仕事もプライベートも全力】* 月300時間コミットしながら、100kmマラソンを走り抜く。私が過酷な趣味に挑戦し続けるマインドセットの理由。 • *【人生を最大化する3つの軸】* 「会社」「個人」「家庭（家族）」。戸塚が幸福度の高い毎日を追求するために実践している幸福の設計論。 • *【限界の地平で見えた景色】* 60kmを超えて胃が食べ物を受け付けず、90kmで目眩がする極限状態。その先で自分を支えた「セルフイメージ」と仲間の存在。 • *【来年への更なる誓い】* 次の限界突破へ。来年挑戦を決意したサバイバルレース「アイアンマン」への想い。 「人間は、自分が『できる』と信じたセル..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1780274290.450589",
+          "text": "<!channel> みなさん、先週もお疲れ様でした！！ ちょっと遅れましたが、*Letter of T | 今週の記録（2026.05.30）* を共有します。 今週のテーマは *「しまなみ100kmマラソン完走と、人生を最高にする『3つの幸福軸』」* です。 今回は、5月30日に私が自らの限界に挑んだ「せとうちしまなみマラソン」の生々しい記録と、私の人生観の根底にある思想について語っています。 • *【仕事もプライベートも全力】* 月300時間コミットしながら、100kmマラソンを走り抜く。私が過酷な趣味に挑戦し続けるマインドセットの理由。 • *【人生を最大化する3つの軸】* 「会社」「個人」「家庭（家族）」。戸塚が幸福度の高い毎日を追求するために実践している幸福の設計論。 • *【限界の地平で見えた景色】* 60kmを超えて胃が食べ物を受け付けず、90kmで目眩がする極限状態。その先で自分を支えた「セルフイメージ」と仲間の存在。 • *【来年への更なる誓い】* 次の限界突破へ。来年挑戦を決意したサバイバルレース「アイアンマン」への想い。 「人間は、自分が『できる』と信じたセルフイメージの枠までしか到達できない」。 トップである私が自ら限界を超え、セルフイメージを引き上げることで、Saitekiをさらに上のステージへと牽引していきます。メンバーの皆さんにも、仕事だけでなく人生のすべてを欲張りに幸せにしてほしいという想いを込めました。 ぜひ読んでみてください！ ▼ Letter of T | 今週の記録（2026.05.30） <https://app.notion.co...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1780274290.450589",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> みなさん、先週もお疲れ様でした！！ ちょっと遅れましたが、*Letter of T | 今週の記録（2026.05.30）* を共有します。 今週のテーマは *「しまなみ100kmマラソン完走と、人生を最高にする『3つの幸福軸』」* です。 今回は、5月30日に私が自らの限界に挑んだ「せとうちしまなみマラソン」の生々しい記録と、私の人生観の根底にある思想について語っています。 • *【仕事もプライベートも全力】* 月300時間コミットしながら、100kmマラソンを走り抜く。私が過酷な趣味に挑戦し続けるマインドセットの理由。 • *【人生を最大化する3つの軸】* 「会社」「個人」「家庭（家族）」。戸塚が幸福度の高い毎日を追求するために実践している幸福の設計論。 • *【限界の地平で見えた景色】* 60kmを超えて胃が食べ物を受け付けず、90kmで目眩がする極限状態。その先で自分を支えた「セルフイメージ」と仲間の存在。 • *【来年への更なる誓い】* 次の限界突破へ。来年挑戦を決意したサバイバルレース「アイアンマン」への想い。 「人間は、自分が『できる』と信じたセルフイメージの枠までしか到達できない」。 トップである私が自ら限界を超え、セルフイメージを引き上げることで、Saitekiをさらに上のステージへと牽引していきます。メンバーの皆さんにも、仕事だけでなく人生のすべてを欲張りに幸せにしてほしいという想いを込めました。 ぜひ読んでみてください！ ▼ Letter of T | 今週の記録（2026.05.30） <https://app.notion.com/p/Letter-of-T-2026-05-30-372dfb42679c809e89bee23b5935fb9e?source=copy_link|Letter of T | 今週の記録 (2026.05.30)> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780277444.855959",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780277444.855959",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780277444.855959",
+      "timestamp": "2026-06-01T01:30:44.855Z",
+      "detailBullets": [
+        "<@U09MGV3MU9H> ぜひぜひご家族で行ってください:bangbang: めっちゃいい思い出になると思います:pleading_face: 幼稚園ぐらいまでは、虫や蛙を見つけると、いちごそっちのけになったりもするので、それもまたかわいいです:heart_eyes:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780277444.855959",
+          "text": "<@U09MGV3MU9H> ぜひぜひご家族で行ってください:bangbang: めっちゃいい思い出になると思います:pleading_face: 幼稚園ぐらいまでは、虫や蛙を見つけると、いちごそっちのけになったりもするので、それもまたかわいいです:heart_eyes:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780277444.855959",
+          "threadTs": "1780116887.955589",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGV3MU9H> ぜひぜひご家族で行ってください:bangbang: めっちゃいい思い出になると思います:pleading_face: 幼稚園ぐらいまでは、虫や蛙を見つけると、いちごそっちのけになったりもするので、それもまたかわいいです:heart_eyes:\nソーシャル\nEngineer"
     }
   ]
 }
