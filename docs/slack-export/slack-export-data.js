@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-01T04:48:52.639Z",
+  "generatedAt": "2026-06-02T04:27:45.441Z",
   "channelCount": 9,
-  "totalMessages": 1778,
+  "totalMessages": 1779,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -28621,9 +28621,29 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1780324624.332429",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> 確認が遅くなってしまいましたが、 福岡、大阪は明日台風直撃のようですね:cyclone: 常駐先から、出社を控えるように指示が出ている人や、 待機命令出ている人はいませんか？ その様な指示を受けている人は、上司や社労士さんへ報告いたしますので、 お手数ですが「99_氏名」のチャンネルで情報共有をお願い致します。",
+          "rawText": "<!channel>\n確認が遅くなってしまいましたが、\n福岡、大阪は明日台風直撃のようですね:cyclone:\n\n常駐先から、出社を控えるように指示が出ている人や、\n待機命令出ている人はいませんか？\nその様な指示を受けている人は、上司や社労士さんへ報告いたしますので、\nお手数ですが「99_氏名」のチャンネルで情報共有をお願い致します。",
+          "messageTs": "1780324624.332429",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-01",
+          "timestamp": "2026-06-01T14:37:04.332Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 267,
+      "messageCount": 268,
       "firstDate": "2025-10-21",
       "lastDate": "2026-06-01"
     },

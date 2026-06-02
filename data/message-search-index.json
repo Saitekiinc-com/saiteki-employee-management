@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-01T04:48:35.217Z",
+  "generatedAt": "2026-06-02T04:27:43.678Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -53345,6 +53345,40 @@
         }
       ],
       "searchText": "<@U09MGV3MU9H> ぜひぜひご家族で行ってください:bangbang: めっちゃいい思い出になると思います:pleading_face: 幼稚園ぐらいまでは、虫や蛙を見つけると、いちごそっちのけになったりもするので、それもまたかわいいです:heart_eyes:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1780324624.332429",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1780324624.332429",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1780324624.332429",
+      "timestamp": "2026-06-01T14:37:04.332Z",
+      "detailBullets": [
+        "<!channel> 確認が遅くなってしまいましたが、 福岡、大阪は明日台風直撃のようですね:cyclone: 常駐先から、出社を控えるように指示が出ている人や、 待機命令出ている人はいませんか？ その様な指示を受けている人は、上司や社労士さんへ報告いたしますので、 お手数ですが「99_氏名」のチャンネルで情報共有をお願い致します。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1780324624.332429",
+          "text": "<!channel> 確認が遅くなってしまいましたが、 福岡、大阪は明日台風直撃のようですね:cyclone: 常駐先から、出社を控えるように指示が出ている人や、 待機命令出ている人はいませんか？ その様な指示を受けている人は、上司や社労士さんへ報告いたしますので、 お手数ですが「99_氏名」のチャンネルで情報共有をお願い致します。",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1780324624.332429",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> 確認が遅くなってしまいましたが、 福岡、大阪は明日台風直撃のようですね:cyclone: 常駐先から、出社を控えるように指示が出ている人や、 待機命令出ている人はいませんか？ その様な指示を受けている人は、上司や社労士さんへ報告いたしますので、 お手数ですが「99_氏名」のチャンネルで情報共有をお願い致します。\nall-saiteki\nSales"
     }
   ]
 }
