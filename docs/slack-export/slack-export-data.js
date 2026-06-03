@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-02T04:27:45.441Z",
+  "generatedAt": "2026-06-03T04:46:50.111Z",
   "channelCount": 9,
-  "totalMessages": 1779,
+  "totalMessages": 1781,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -16888,11 +16888,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1780458868.149089",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "しばらく投稿していませんでしたが、5月は内定承諾してくれた方が7名でした！:partying_face:",
+          "rawText": "しばらく投稿していませんでしたが、5月は内定承諾してくれた方が7名でした！:partying_face:",
+          "messageTs": "1780458868.149089",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-03",
+          "timestamp": "2026-06-03T03:54:28.149Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 883,
+      "messageCount": 884,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-06-01"
+      "lastDate": "2026-06-03"
     },
     {
       "id": "C09Q46YA4ER",
@@ -23522,11 +23542,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1780384228.494199",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0B782MLJUQ",
+          "userName": "大平 知典",
+          "userRealName": "大平 知典",
+          "text": "<@U09MGV3MU9H> 初めまして！ ぜひ機会があればお教えしたいです！すぐ始められるので、お子さんにもぜひ挑戦してみて欲しいです:smiley:",
+          "rawText": "<@U09MGV3MU9H> \n初めまして！\nぜひ機会があればお教えしたいです！すぐ始められるので、お子さんにもぜひ挑戦してみて欲しいです:smiley:",
+          "messageTs": "1780384228.494199",
+          "threadTs": "1779938230.236099",
+          "parentUserId": "U0B782MLJUQ",
+          "subtype": null,
+          "date": "2026-06-02",
+          "timestamp": "2026-06-02T07:10:28.494Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 348,
+      "messageCount": 349,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-05-29"
+      "lastDate": "2026-06-02"
     },
     {
       "id": "C09MKT8QKAR",

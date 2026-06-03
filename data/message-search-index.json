@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-02T04:27:43.678Z",
+  "generatedAt": "2026-06-03T04:46:47.410Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -53379,6 +53379,75 @@
         }
       ],
       "searchText": "<!channel> 確認が遅くなってしまいましたが、 福岡、大阪は明日台風直撃のようですね:cyclone: 常駐先から、出社を控えるように指示が出ている人や、 待機命令出ている人はいませんか？ その様な指示を受けている人は、上司や社労士さんへ報告いたしますので、 お手数ですが「99_氏名」のチャンネルで情報共有をお願い致します。\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780384228.494199",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:大平 知典",
+      "personName": "大平 知典",
+      "slackIds": [
+        "U0B782MLJUQ"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780384228.494199",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780384228.494199",
+      "timestamp": "2026-06-02T07:10:28.494Z",
+      "detailBullets": [
+        "<@U09MGV3MU9H> 初めまして！ ぜひ機会があればお教えしたいです！すぐ始められるので、お子さんにもぜひ挑戦してみて欲しいです:smiley:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780384228.494199",
+          "text": "<@U09MGV3MU9H> 初めまして！ ぜひ機会があればお教えしたいです！すぐ始められるので、お子さんにもぜひ挑戦してみて欲しいです:smiley:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780384228.494199",
+          "threadTs": "1779938230.236099",
+          "authorName": "大平 知典",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGV3MU9H> 初めまして！ ぜひ機会があればお教えしたいです！すぐ始められるので、お子さんにもぜひ挑戦してみて欲しいです:smiley:\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780458868.149089",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780458868.149089",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780458868.149089",
+      "timestamp": "2026-06-03T03:54:28.149Z",
+      "detailBullets": [
+        "しばらく投稿していませんでしたが、5月は内定承諾してくれた方が7名でした！:partying_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780458868.149089",
+          "text": "しばらく投稿していませんでしたが、5月は内定承諾してくれた方が7名でした！:partying_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780458868.149089",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "しばらく投稿していませんでしたが、5月は内定承諾してくれた方が7名でした！:partying_face:\nソーシャル\n経営"
     }
   ]
 }
