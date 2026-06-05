@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-04T04:41:15.730Z",
+  "generatedAt": "2026-06-05T04:15:24.016Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -53483,6 +53483,316 @@
         }
       ],
       "searchText": "<!channel> 皆さん、お疲れさまです！この度、Saitekiは2026年6月1日付で派遣事業の許認可を取得しました！ これにより今後、皆さんのご提案先の幅が広がり、皆さんとしても会社としても機会が拡大します！ それに伴い、労使協定の締結が必要となっており、労働者代表で協定を締結いただける方を募集します！ もし代表をしても良いよ、という方がいらっしゃれば、SlackのDMでご連絡ください！ 本日中のご回答をお願いできればと思いますので、よろしくお願いいたします！ 労働者代表募集のお知らせ （労働者派遣法第30条の4に基づく労使協定締結のための代表者） 従業員各位 当社では、6/1より派遣事業許認可を受けております。また労働者派遣法第30条の4に基づき、派遣労働者の待遇決定方式として「労使協定方式」を採用する事としました。つきましては、本協定締結のための「労働者代表」を選出する必要があります。労働者代表は、次の要件を満たす方の中から労働者の過半数の支持により選出します。 ・ 監督又は管理の地位にある者ではないこと ・ 会社の意向に基づき選任された者でないこと（会社が指名するものではないこと） ・派遣労働者の意見を公正に取りまとめることができること １．労働者代表の役割 選出された労働者代表は、会社と次の事項について協議・署名を行います。 ・労使協定方式による賃金・賞与等の待遇決定方法 ・対象となる派遣労働者の範囲 ・協定の有効期間 など なお、労働者代表に就任したこと、または立候補したことを理由として、不利益な取り扱いを受けることはありません。 2．立候補の受付 立候補を希望される方は、代表戸塚宛にメール（Slackなど）にてお申し出ください。 3．候補者が複数となった場合の取扱い 回答期限後の候補者が２名以上となった場合は、改めて選出方法（投票等）をお知らせし、その方法により労働者代表を決定します。 4．個人情報の取扱い 回答内容は、労働者代表の選出およびその記録・保存の目的にのみ使用し、その他の目的には使用しません。 5．お問い合わせ先 本件に関するご質問は、下記までお問い合わせください。 担当者 ：戸塚直道 連絡先 ：SlackのDMでお願いします。\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780564055.656909",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:根路銘秀典",
+      "personName": "根路銘秀典",
+      "slackIds": [
+        "U0B81RBBDD1"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780564055.656909",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780564055.656909",
+      "timestamp": "2026-06-04T09:07:35.656Z",
+      "detailBullets": [
+        "初めまして。 7月入社予定の根路銘 秀典(ねろめ ひでのり)と申します。 :black_medium_square:出身地 沖縄県那覇市 :black_medium_square:経歴 IT系専門学校卒業後 業務システム開発メインのエンジニアをして来ました。直近ではswiftによるアプリ開発に従事しています。 :black_medium_square:趣味 ゲーム実況動画視聴、釣り、お菓子作り :black_medium_square:ひとこと エンジニアとしては10年以上経験がありますがモダンな開発に携わり始めたのはここ1年程なので皆さんと一緒に成長して行けたら、と考えています。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780564055.656909",
+          "text": "初めまして。 7月入社予定の根路銘 秀典(ねろめ ひでのり)と申します。 :black_medium_square:出身地 沖縄県那覇市 :black_medium_square:経歴 IT系専門学校卒業後 業務システム開発メインのエンジニアをして来ました。直近ではswiftによるアプリ開発に従事しています。 :black_medium_square:趣味 ゲーム実況動画視聴、釣り、お菓子作り :black_medium_square:ひとこと エンジニアとしては10年以上経験がありますがモダンな開発に携わり始めたのはここ1年程なので皆さんと一緒に成長して行けたら、と考えています。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780564055.656909",
+          "threadTs": "1780564055.656909",
+          "authorName": "根路銘秀典",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 7月入社予定の根路銘 秀典(ねろめ ひでのり)と申します。 :black_medium_square:出身地 沖縄県那覇市 :black_medium_square:経歴 IT系専門学校卒業後 業務システム開発メインのエンジニアをして来ました。直近ではswiftによるアプリ開発に従事しています。 :black_medium_square:趣味 ゲーム実況動画視聴、釣り、お菓子作り :black_medium_square:ひとこと エンジニアとしては10年以上経験がありますがモダンな開発に携わり始めたのはここ1年程なので皆さんと一緒に成長して行けたら、と考えています。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1780565647.468049",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1780565647.468049",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1780565647.468049",
+      "timestamp": "2026-06-04T09:34:07.468Z",
+      "detailBullets": [
+        "<!channel> 皆さん、お疲れさまです！昨日ご共有した労働者代表の件ですが、藤井さんに立候補いただきました！ 信任の決議が必要なので、信任いただける方はSlackの DMで私宛に連絡をいただけますでしょうか？？ 皆さまご協力をよろしくお願いいたします！ ▼ご案内文 労働者代表選出のお知らせ （労働者派遣法第30条の4に基づく労使協定締結のための代表者） 従業員各位 当社では、6/1より派遣事業許認可を受けております。また労働者派遣法第30条の4に基づき、派遣労働者の待遇決定方式として「労使協定方式」を採用する事としました。昨日ご案内の通り、本協定締結のための「労働者代表」を選出する必要があります。総務の藤井さんに立候補いただきましたので、信任決議を取らせていただきます。 尚、労働者代表は、次の要件を満たす方の中から労働者の過半数の支持により選出します。 ・ 監督又は管理の地位にある者ではないこと ・ 会社の意向に基づき選任された者でないこと（会社が指名するものではないこと） ・派遣労働者の意見を公正に取りまとめることができること １．労働者代表の役割 選出された労働者代表は、会..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1780565647.468049",
+          "text": "<!channel> 皆さん、お疲れさまです！昨日ご共有した労働者代表の件ですが、藤井さんに立候補いただきました！ 信任の決議が必要なので、信任いただける方はSlackの DMで私宛に連絡をいただけますでしょうか？？ 皆さまご協力をよろしくお願いいたします！ ▼ご案内文 労働者代表選出のお知らせ （労働者派遣法第30条の4に基づく労使協定締結のための代表者） 従業員各位 当社では、6/1より派遣事業許認可を受けております。また労働者派遣法第30条の4に基づき、派遣労働者の待遇決定方式として「労使協定方式」を採用する事としました。昨日ご案内の通り、本協定締結のための「労働者代表」を選出する必要があります。総務の藤井さんに立候補いただきましたので、信任決議を取らせていただきます。 尚、労働者代表は、次の要件を満たす方の中から労働者の過半数の支持により選出します。 ・ 監督又は管理の地位にある者ではないこと ・ 会社の意向に基づき選任された者でないこと（会社が指名するものではないこと） ・派遣労働者の意見を公正に取りまとめることができること １．労働者代表の役割 選出された労働者代表は、会社と次の事項について協議・署名を行います。 ・労使協定方式による賃金・賞与等の待遇決定方法 ・対象となる派遣労働者の範囲 ・協定の有効期間 など なお、労働者代表に就任したこと、または立候補したことを理由として、不利益な取り扱いを受けることはありません。 ２．今回の立候補者 下記の方から、労働者代表への立候補がありましたのでお知らせいたします。 氏名 ：藤井芙美子 所属 ：総務部 ３．立候補者への...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1780565647.468049",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> 皆さん、お疲れさまです！昨日ご共有した労働者代表の件ですが、藤井さんに立候補いただきました！ 信任の決議が必要なので、信任いただける方はSlackの DMで私宛に連絡をいただけますでしょうか？？ 皆さまご協力をよろしくお願いいたします！ ▼ご案内文 労働者代表選出のお知らせ （労働者派遣法第30条の4に基づく労使協定締結のための代表者） 従業員各位 当社では、6/1より派遣事業許認可を受けております。また労働者派遣法第30条の4に基づき、派遣労働者の待遇決定方式として「労使協定方式」を採用する事としました。昨日ご案内の通り、本協定締結のための「労働者代表」を選出する必要があります。総務の藤井さんに立候補いただきましたので、信任決議を取らせていただきます。 尚、労働者代表は、次の要件を満たす方の中から労働者の過半数の支持により選出します。 ・ 監督又は管理の地位にある者ではないこと ・ 会社の意向に基づき選任された者でないこと（会社が指名するものではないこと） ・派遣労働者の意見を公正に取りまとめることができること １．労働者代表の役割 選出された労働者代表は、会社と次の事項について協議・署名を行います。 ・労使協定方式による賃金・賞与等の待遇決定方法 ・対象となる派遣労働者の範囲 ・協定の有効期間 など なお、労働者代表に就任したこと、または立候補したことを理由として、不利益な取り扱いを受けることはありません。 ２．今回の立候補者 下記の方から、労働者代表への立候補がありましたのでお知らせいたします。 氏名 ：藤井芙美子 所属 ：総務部 ３．立候補者への信任受付 上記2.の立候補者について、信任可否の意思を代表宛にSlackのDMでご連絡下さい。 信任の場合 ：「信任します」「信任」等 不信任の場合 ：「信任しません」「反対」等 回答期限 回答期限：2026年6月5日（金）20時00分 ※未回答者への確認 上記期限までにご回答が確認できない方については、会社より個別にご連絡し、賛否の意思を確認させていただくことがあります。 ※労働者代表の決定 賛成の人数が、対象となる全労働者数の過半数に達した場合、当該候補者を労働者代表として決定します。過半数の賛成が得られなかった場合は、あらためて候補者の募集等を行います。 ４．個人情報の取扱い 賛否の回答内容は、労働者代表の選出およびその記録・保存の目的にのみ使用し、その他の目的には使用しません。 ５．お問い合わせ先 本件に関するご質問は、下記までお問い合わせください。 担当者 ：戸塚直道 連絡先 ：SlackのDM（戸塚へ連絡お願いします）\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780565824.462859",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:井上宏大",
+      "personName": "井上宏大",
+      "slackIds": [
+        "U0B8AEFRHA5"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780565824.462859",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780565824.462859",
+      "timestamp": "2026-06-04T09:37:04.462Z",
+      "detailBullets": [
+        "初めまして。 7月もしくは8月 入社予定の井上 宏大(イノウエ コウダイ)と申します。 :black_medium_square:出身地 東京都大田区 :black_medium_square:経歴 SQLを中心に担当しており、直近ではデータ移行業務に従事しておりました。 :black_medium_square:趣味 酒、料理、筋トレ、ゲーム、アニメ、映画 :black_medium_square:ひとこと まだまだ拙い部分もありいろいろ教えてもらうことがあると思いますが、よろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780565824.462859",
+          "text": "初めまして。 7月もしくは8月 入社予定の井上 宏大(イノウエ コウダイ)と申します。 :black_medium_square:出身地 東京都大田区 :black_medium_square:経歴 SQLを中心に担当しており、直近ではデータ移行業務に従事しておりました。 :black_medium_square:趣味 酒、料理、筋トレ、ゲーム、アニメ、映画 :black_medium_square:ひとこと まだまだ拙い部分もありいろいろ教えてもらうことがあると思いますが、よろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780565824.462859",
+          "threadTs": "1780565824.462859",
+          "authorName": "井上宏大",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 7月もしくは8月 入社予定の井上 宏大(イノウエ コウダイ)と申します。 :black_medium_square:出身地 東京都大田区 :black_medium_square:経歴 SQLを中心に担当しており、直近ではデータ移行業務に従事しておりました。 :black_medium_square:趣味 酒、料理、筋トレ、ゲーム、アニメ、映画 :black_medium_square:ひとこと まだまだ拙い部分もありいろいろ教えてもらうことがあると思いますが、よろしくお願いいたします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780580840.828899",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:たしろかの",
+      "personName": "たしろかの",
+      "slackIds": [
+        "U0B6WCWT1GF"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780580840.828899",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780580840.828899",
+      "timestamp": "2026-06-04T13:47:20.828Z",
+      "detailBullets": [
+        "初めまして。 7月入社予定の田代香乃（たしろかの）と申します。 ■出身地 熊本生まれ、福岡在住です:bear::strawberry: ■これまでやってきたこと 外国語学部卒業後、2年弱ホテルフロントとして従事 →SES転職後3カ月の研修を経てWEBシステム開発業務を担当（ちょうど2年目に差し掛かったところです！） ■最近ハマってること SAKAMOTODAYSにドハマりしグッズ探ししてます:heart_hands::skin-tone-2: ■趣味 ライブ参戦、アニメ・漫画（ONEPIECEも好きです！）、映画、ピラティス ■ひとこと 経験は少ないですが、様々なことに挑戦していきたいと考えています！ これからよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780580840.828899",
+          "text": "初めまして。 7月入社予定の田代香乃（たしろかの）と申します。 ■出身地 熊本生まれ、福岡在住です:bear::strawberry: ■これまでやってきたこと 外国語学部卒業後、2年弱ホテルフロントとして従事 →SES転職後3カ月の研修を経てWEBシステム開発業務を担当（ちょうど2年目に差し掛かったところです！） ■最近ハマってること SAKAMOTODAYSにドハマりしグッズ探ししてます:heart_hands::skin-tone-2: ■趣味 ライブ参戦、アニメ・漫画（ONEPIECEも好きです！）、映画、ピラティス ■ひとこと 経験は少ないですが、様々なことに挑戦していきたいと考えています！ これからよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780580840.828899",
+          "threadTs": "1780580840.828899",
+          "authorName": "たしろかの",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 7月入社予定の田代香乃（たしろかの）と申します。 ■出身地 熊本生まれ、福岡在住です:bear::strawberry: ■これまでやってきたこと 外国語学部卒業後、2年弱ホテルフロントとして従事 →SES転職後3カ月の研修を経てWEBシステム開発業務を担当（ちょうど2年目に差し掛かったところです！） ■最近ハマってること SAKAMOTODAYSにドハマりしグッズ探ししてます:heart_hands::skin-tone-2: ■趣味 ライブ参戦、アニメ・漫画（ONEPIECEも好きです！）、映画、ピラティス ■ひとこと 経験は少ないですが、様々なことに挑戦していきたいと考えています！ これからよろしくお願いいたします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780616480.535979",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780616480.535979",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780616480.535979",
+      "timestamp": "2026-06-04T23:41:20.535Z",
+      "detailBullets": [
+        "<@U0B81RBBDD1> 根路銘さん、去年の9月からずっと連絡させていただいていて約1年越しにご入社いただけるのがとても嬉しいです！！ 沖縄に行った時は、ぜひお声がけさせてくださいね！これから頼りにしていますのでよろしくお願いします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780616480.535979",
+          "text": "<@U0B81RBBDD1> 根路銘さん、去年の9月からずっと連絡させていただいていて約1年越しにご入社いただけるのがとても嬉しいです！！ 沖縄に行った時は、ぜひお声がけさせてくださいね！これから頼りにしていますのでよろしくお願いします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780616480.535979",
+          "threadTs": "1780564055.656909",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B81RBBDD1> 根路銘さん、去年の9月からずっと連絡させていただいていて約1年越しにご入社いただけるのがとても嬉しいです！！ 沖縄に行った時は、ぜひお声がけさせてくださいね！これから頼りにしていますのでよろしくお願いします！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780616564.802339",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780616564.802339",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780616564.802339",
+      "timestamp": "2026-06-04T23:42:44.802Z",
+      "detailBullets": [
+        "<@U0B8AEFRHA5> 井上さん、あらためてよろしくお願いします！これからご一緒できることとても楽しみにしています！ 趣味の1つ目に「酒」が来るあたり、そこはかとない本気度を感じました！笑 交流会を定期的に開催しているのでぜひ参加してくださいね！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780616564.802339",
+          "text": "<@U0B8AEFRHA5> 井上さん、あらためてよろしくお願いします！これからご一緒できることとても楽しみにしています！ 趣味の1つ目に「酒」が来るあたり、そこはかとない本気度を感じました！笑 交流会を定期的に開催しているのでぜひ参加してくださいね！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780616564.802339",
+          "threadTs": "1780565824.462859",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B8AEFRHA5> 井上さん、あらためてよろしくお願いします！これからご一緒できることとても楽しみにしています！ 趣味の1つ目に「酒」が来るあたり、そこはかとない本気度を感じました！笑 交流会を定期的に開催しているのでぜひ参加してくださいね！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780616713.887159",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780616713.887159",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780616713.887159",
+      "timestamp": "2026-06-04T23:45:13.887Z",
+      "detailBullets": [
+        "<@U0B6WCWT1GF> 田代さん、あらためてよろしくお願いします！ 弊社には福岡のエンジニアが5人いて、これから福岡は強化していく想定なので一緒に盛り上げていってほしいです！ そしてONE PIECE好きなんですね…僕も大好きです！！今度、語りましょう！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780616713.887159",
+          "text": "<@U0B6WCWT1GF> 田代さん、あらためてよろしくお願いします！ 弊社には福岡のエンジニアが5人いて、これから福岡は強化していく想定なので一緒に盛り上げていってほしいです！ そしてONE PIECE好きなんですね…僕も大好きです！！今度、語りましょう！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780616713.887159",
+          "threadTs": "1780580840.828899",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B6WCWT1GF> 田代さん、あらためてよろしくお願いします！ 弊社には福岡のエンジニアが5人いて、これから福岡は強化していく想定なので一緒に盛り上げていってほしいです！ そしてONE PIECE好きなんですね…僕も大好きです！！今度、語りましょう！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780619130.475179",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:根路銘秀典",
+      "personName": "根路銘秀典",
+      "slackIds": [
+        "U0B81RBBDD1"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780619130.475179",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780619130.475179",
+      "timestamp": "2026-06-05T00:25:30.475Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 様 こちらこそ、長期に渡りお声掛けくださりありがとうございます。 来月からよろしくお願い致します。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780619130.475179",
+          "text": "<@U09MGUVJ8BV> 様 こちらこそ、長期に渡りお声掛けくださりありがとうございます。 来月からよろしくお願い致します。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780619130.475179",
+          "threadTs": "1780564055.656909",
+          "authorName": "根路銘秀典",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 様 こちらこそ、長期に渡りお声掛けくださりありがとうございます。 来月からよろしくお願い致します。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780621953.068919",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:井上宏大",
+      "personName": "井上宏大",
+      "slackIds": [
+        "U0B8AEFRHA5"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780621953.068919",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780621953.068919",
+      "timestamp": "2026-06-05T01:12:33.068Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> よろしくお願いいたします！ 交流会是非参加させていただきます。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780621953.068919",
+          "text": "<@U09MGUVJ8BV> よろしくお願いいたします！ 交流会是非参加させていただきます。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780621953.068919",
+          "threadTs": "1780565824.462859",
+          "authorName": "井上宏大",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> よろしくお願いいたします！ 交流会是非参加させていただきます。\n自己紹介\nOther"
     }
   ]
 }

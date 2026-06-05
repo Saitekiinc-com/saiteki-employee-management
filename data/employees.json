@@ -2525,5 +2525,50 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0B782MLJUQ"
+  },
+  {
+    "name": "根路銘秀典",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-06-05T04:15:23.702Z",
+    "updatedAt": "2026-06-05T04:15:23.702Z",
+    "last_updated": "2026-06-05T04:15:23.702Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0B81RBBDD1"
+  },
+  {
+    "name": "井上宏大",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-06-05T04:15:23.768Z",
+    "updatedAt": "2026-06-05T04:15:23.768Z",
+    "last_updated": "2026-06-05T04:15:23.768Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0B8AEFRHA5"
+  },
+  {
+    "name": "たしろかの",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-06-05T04:15:23.812Z",
+    "updatedAt": "2026-06-05T04:15:23.812Z",
+    "last_updated": "2026-06-05T04:15:23.812Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0B6WCWT1GF"
   }
 ]
