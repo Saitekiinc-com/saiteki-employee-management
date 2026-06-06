@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-05T04:15:24.016Z",
+  "generatedAt": "2026-06-06T03:58:08.782Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -53793,6 +53793,74 @@
         }
       ],
       "searchText": "<@U09MGUVJ8BV> よろしくお願いいたします！ 交流会是非参加させていただきます。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1780634607.999469",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:たしろかの",
+      "personName": "たしろかの",
+      "slackIds": [
+        "U0B6WCWT1GF"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1780634607.999469",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1780634607.999469",
+      "timestamp": "2026-06-05T04:43:27.999Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> よろしくお願いします:woman-bowing::blush:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1780634607.999469",
+          "text": "<@U09MGUVJ8BV> よろしくお願いします:woman-bowing::blush:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1780634607.999469",
+          "threadTs": "1780580840.828899",
+          "authorName": "たしろかの",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> よろしくお願いします:woman-bowing::blush:\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1780644342.203519",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1780644342.203519",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1780644342.203519",
+      "timestamp": "2026-06-05T07:25:42.203Z",
+      "detailBullets": [
+        "<!channel> *※重要※* 各自治体から住民税の徴収が始まります。 皆さん下記について必ずご一読ください。 ↓↓↓ `2026年5月末までにご入社された皆さまへ` 6月中旬頃に住所税「普通徴収納付書」が届いた場合は、 会社での特別徴収の準備ができておりますので、破棄頂いて構いません。（納付書で納付しない） `2026年6月以降にご入社者された皆さまへ` 住所税「普通徴収納付書」の写真やスキャン画像(解像度が良くブレていない画像)を、 「<mailto:soumu@saitekiinc.com|soumu@saitekiinc.com>」までお送りください。 もし、前職から特別徴収異動届を受け取っている場合は、データでご共有下さい。 (原本をPDF等のデータにする方法がない場合は、渋谷本社へお送りください) 皆さん、ご理解とご協力のほどよろしくお願い致します:woman-bowing: ----------------------------------------- <@U09QZF7KT2P> さん <@U09MPBUHTEE> さん <@U09NHL5HMRN> さん 会..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1780644342.203519",
+          "text": "<!channel> *※重要※* 各自治体から住民税の徴収が始まります。 皆さん下記について必ずご一読ください。 ↓↓↓ `2026年5月末までにご入社された皆さまへ` 6月中旬頃に住所税「普通徴収納付書」が届いた場合は、 会社での特別徴収の準備ができておりますので、破棄頂いて構いません。（納付書で納付しない） `2026年6月以降にご入社者された皆さまへ` 住所税「普通徴収納付書」の写真やスキャン画像(解像度が良くブレていない画像)を、 「<mailto:soumu@saitekiinc.com|soumu@saitekiinc.com>」までお送りください。 もし、前職から特別徴収異動届を受け取っている場合は、データでご共有下さい。 (原本をPDF等のデータにする方法がない場合は、渋谷本社へお送りください) 皆さん、ご理解とご協力のほどよろしくお願い致します:woman-bowing: ----------------------------------------- <@U09QZF7KT2P> さん <@U09MPBUHTEE> さん <@U09NHL5HMRN> さん 会社に納付書が届いて社労士さんに共有済みです。 「特別徴収税額通知書」(本人控え)を後日郵送致します。",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1780644342.203519",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> *※重要※* 各自治体から住民税の徴収が始まります。 皆さん下記について必ずご一読ください。 ↓↓↓ `2026年5月末までにご入社された皆さまへ` 6月中旬頃に住所税「普通徴収納付書」が届いた場合は、 会社での特別徴収の準備ができておりますので、破棄頂いて構いません。（納付書で納付しない） `2026年6月以降にご入社者された皆さまへ` 住所税「普通徴収納付書」の写真やスキャン画像(解像度が良くブレていない画像)を、 「<mailto:soumu@saitekiinc.com|soumu@saitekiinc.com>」までお送りください。 もし、前職から特別徴収異動届を受け取っている場合は、データでご共有下さい。 (原本をPDF等のデータにする方法がない場合は、渋谷本社へお送りください) 皆さん、ご理解とご協力のほどよろしくお願い致します:woman-bowing: ----------------------------------------- <@U09QZF7KT2P> さん <@U09MPBUHTEE> さん <@U09NHL5HMRN> さん 会社に納付書が届いて社労士さんに共有済みです。 「特別徴収税額通知書」(本人控え)を後日郵送致します。\nall-saiteki\nSales"
     }
   ]
 }

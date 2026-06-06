@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-05T04:15:33.101Z",
+  "generatedAt": "2026-06-06T03:58:11.455Z",
   "channelCount": 9,
-  "totalMessages": 1791,
+  "totalMessages": 1793,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -23722,9 +23722,29 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1780634607.999469",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0B6WCWT1GF",
+          "userName": "たしろかの",
+          "userRealName": "たしろかの",
+          "text": "<@U09MGUVJ8BV> よろしくお願いします:woman-bowing::blush:",
+          "rawText": "<@U09MGUVJ8BV> \nよろしくお願いします:woman-bowing::blush:",
+          "messageTs": "1780634607.999469",
+          "threadTs": "1780580840.828899",
+          "parentUserId": "U0B6WCWT1GF",
+          "subtype": null,
+          "date": "2026-06-05",
+          "timestamp": "2026-06-05T04:43:27.999Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 357,
+      "messageCount": 358,
       "firstDate": "2025-11-01",
       "lastDate": "2026-06-05"
     },
@@ -28881,11 +28901,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1780644342.203519",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> *※重要※* 各自治体から住民税の徴収が始まります。 皆さん下記について必ずご一読ください。 ↓↓↓ `2026年5月末までにご入社された皆さまへ` 6月中旬頃に住所税「普通徴収納付書」が届いた場合は、 会社での特別徴収の準備ができておりますので、破棄頂いて構いません。（納付書で納付しない） `2026年6月以降にご入社者された皆さまへ` 住所税「普通徴収納付書」の写真やスキャン画像(解像度が良くブレていない画像)を、 「<mailto:soumu@saitekiinc.com|soumu@saitekiinc.com>」までお送りください。 もし、前職から特別徴収異動届を受け取っている場合は、データでご共有下さい。 (原本をPDF等のデータにする方法がない場合は、渋谷本社へお送りください) 皆さん、ご理解とご協力のほどよろしくお願い致します:woman-bowing: ----------------------------------------- <@U09QZF7KT2P> さん <@U09MPBUHTEE> さん <@U09NHL5HMRN> さん 会社に納付書が届いて社労士さんに共有済みです。 「特別徴収税額通知書」(本人控え)を後日郵送致します。",
+          "rawText": "<!channel>\n*※重要※*\n各自治体から住民税の徴収が始まります。\n皆さん下記について必ずご一読ください。\n↓↓↓\n`2026年5月末までにご入社された皆さまへ`\n6月中旬頃に住所税「普通徴収納付書」が届いた場合は、\n会社での特別徴収の準備ができておりますので、破棄頂いて構いません。（納付書で納付しない）\n\n`2026年6月以降にご入社者された皆さまへ`\n住所税「普通徴収納付書」の写真やスキャン画像(解像度が良くブレていない画像)を、\n「<mailto:soumu@saitekiinc.com|soumu@saitekiinc.com>」までお送りください。\nもし、前職から特別徴収異動届を受け取っている場合は、データでご共有下さい。\n(原本をPDF等のデータにする方法がない場合は、渋谷本社へお送りください)\n\n\n皆さん、ご理解とご協力のほどよろしくお願い致します:woman-bowing:\n\n-----------------------------------------\n <@U09QZF7KT2P> さん　 <@U09MPBUHTEE> さん\n <@U09NHL5HMRN> さん\n会社に納付書が届いて社労士さんに共有済みです。\n「特別徴収税額通知書」(本人控え)を後日郵送致します。",
+          "messageTs": "1780644342.203519",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-05",
+          "timestamp": "2026-06-05T07:25:42.203Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 270,
+      "messageCount": 271,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-06-04"
+      "lastDate": "2026-06-05"
     },
     {
       "id": "C09QXV3F8G0",
