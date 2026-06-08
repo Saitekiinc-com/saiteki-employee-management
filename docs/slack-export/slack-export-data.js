@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-07T04:24:29.201Z",
+  "generatedAt": "2026-06-08T04:40:38.756Z",
   "channelCount": 9,
-  "totalMessages": 1794,
+  "totalMessages": 1795,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -16908,11 +16908,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1780887190.706189",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<@U0APF12RSJK> さん :tada:Happy Birthday:tada: お誕生日おめでとうございます！ 良い一年になりますように:grin::sparkles:",
+          "rawText": "<@U0APF12RSJK> さん\n:tada:Happy Birthday:tada:\nお誕生日おめでとうございます！\n良い一年になりますように:grin::sparkles:",
+          "messageTs": "1780887190.706189",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-08",
+          "timestamp": "2026-06-08T02:53:10.706Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 884,
+      "messageCount": 885,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-06-03"
+      "lastDate": "2026-06-08"
     },
     {
       "id": "C09Q46YA4ER",

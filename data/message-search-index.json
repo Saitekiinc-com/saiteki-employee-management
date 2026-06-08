@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-07T04:24:27.430Z",
+  "generatedAt": "2026-06-08T04:40:36.948Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -53896,6 +53896,40 @@
         }
       ],
       "searchText": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.06.06）* を共有します。 今週のテーマは *「派遣免許一挙取得！会社のステージアップと、半年の時を超えた縁」* です。 今回は、Saitekiのビジネスの可能性を広げる大きなマイルストーンの達成と、それに連動して集まってくれた頼もしい仲間たちのストーリーをお届けします。 • *【大手・中堅SIerへの直接提案が可能に】* ◦ 「労働者派遣事業許認可」および「有料職業紹介事業許認可」を一挙に取得しました。純資産2,000万円以上という厳しい基準も、去年の1.5億円の資金調達があったため余裕でクリア。他の多くのSES企業に大きな差をつけ、一つ上のステージへ進みます。 • *【半年の時を経て繋がった縁】* ◦ 昨年9月の出会いから、鈴木さんを中心に何度も対話を重ねてきた根路銘さんの入社が決定。今回の派遣免許取得がトリガーとなり、ついに信頼が実を結びました。※良いなと思った方はずっと追いかけます（笑） • *【営業組織のインフラを強化】* ◦ 1人で30名以上のエンジニアの稼働をマネジメントしていたSES営業・春山さんが参画予定となりました！5月入社の営業部長・徳田さんの紹介による、心強いリファラル採用です。 会社としての基盤（許認可）が整うことで、そこに引き寄せられるように仲間が集まってくる、そんな素晴らしい成長サイクルを肌で感じる1週間でした。 Saitekiに選んでいただける機会が本当に増えているので、ぜひみなさんからのリファラルでのご紹介もお待ちしています！ 新しい武器と新しい仲間と共に、さらにスピードを上げて爆進していきましょう！ ▼ Letter of T | 今週の記録（2026.06.06） <https://app.notion.com/p/Letter-of-T-2026-06-06-377dfb42679c80539ca7ca2c9e228b78> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1780887190.706189",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1780887190.706189",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1780887190.706189",
+      "timestamp": "2026-06-08T02:53:10.706Z",
+      "detailBullets": [
+        "<@U0APF12RSJK> さん :tada:Happy Birthday:tada: お誕生日おめでとうございます！ 良い一年になりますように:grin::sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1780887190.706189",
+          "text": "<@U0APF12RSJK> さん :tada:Happy Birthday:tada: お誕生日おめでとうございます！ 良い一年になりますように:grin::sparkles:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1780887190.706189",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APF12RSJK> さん :tada:Happy Birthday:tada: お誕生日おめでとうございます！ 良い一年になりますように:grin::sparkles:\nソーシャル\nSales"
     }
   ]
 }
