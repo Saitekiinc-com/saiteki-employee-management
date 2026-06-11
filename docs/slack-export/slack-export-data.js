@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-10T04:12:27.463Z",
+  "generatedAt": "2026-06-11T04:25:15.386Z",
   "channelCount": 9,
-  "totalMessages": 1796,
+  "totalMessages": 1802,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -16928,11 +16928,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1781080617.441609",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<@U09MPBUHTEE> さん :birthday:Happy Birthday:tada: お誕生日おめでとうございます！ 皇居マラソン頑張ってください！:sparkles:",
+          "rawText": "<@U09MPBUHTEE> さん\n:birthday:Happy Birthday:tada:\nお誕生日おめでとうございます！\n皇居マラソン頑張ってください！:sparkles:",
+          "messageTs": "1781080617.441609",
+          "threadTs": "1781080617.441609",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-10",
+          "timestamp": "2026-06-10T08:36:57.441Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1781103299.614869",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MPBUHTEE",
+          "userName": "鈴木悠斗",
+          "userRealName": "鈴木悠斗",
+          "text": "<@U0A9EE7HZ3P> ありがとうございます！ マラソン頑張ります:runner::man-running:",
+          "rawText": "<@U0A9EE7HZ3P> \nありがとうございます！\nマラソン頑張ります:runner::man-running:",
+          "messageTs": "1781103299.614869",
+          "threadTs": "1781080617.441609",
+          "parentUserId": "U0A9EE7HZ3P",
+          "subtype": null,
+          "date": "2026-06-10",
+          "timestamp": "2026-06-10T14:54:59.614Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 885,
+      "messageCount": 887,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-06-08"
+      "lastDate": "2026-06-10"
     },
     {
       "id": "C09Q46YA4ER",
@@ -23762,11 +23802,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1781094399.852539",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0B6FN76QUF",
+          "userName": "稲村涼",
+          "userRealName": "稲村涼",
+          "text": "7月入社予定の稲村涼（いなむらりょう）と申します。 ■出身地 東京生まれ、東京育ちです ■これまでやってきたこと 美容師 ↓ 飲食店社員（居酒屋店長してました:beer:） ↓ SES企業にて印刷機テスター、ネットワーク機器の法人営業 ■趣味 ・バイク 休日はよく走りに行ってます:racing_motorcycle: ・筋トレ 週4継続してます:muscle: あと、猫飼ってます:cat2: ■ひとこと 経験は浅いですが、積極的にチャレンジしながら早く戦力になれるよう頑張ります。 どうぞよろしくお願いいたします！",
+          "rawText": "7月入社予定の稲村涼（いなむらりょう）と申します。\n\n■出身地\n東京生まれ、東京育ちです\n\n■これまでやってきたこと\n美容師\n↓\n飲食店社員（居酒屋店長してました:beer:）\n↓\nSES企業にて印刷機テスター、ネットワーク機器の法人営業\n\n■趣味\n・バイク　休日はよく走りに行ってます:racing_motorcycle:\n・筋トレ　週4継続してます:muscle:\nあと、猫飼ってます:cat2:\n\n■ひとこと\n経験は浅いですが、積極的にチャレンジしながら早く戦力になれるよう頑張ります。\nどうぞよろしくお願いいたします！",
+          "messageTs": "1781094399.852539",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-10",
+          "timestamp": "2026-06-10T12:26:39.852Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1781131236.228899",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0B925NE9RP",
+          "userName": "松浦 馨",
+          "userRealName": "松浦 馨",
+          "text": "7月or8月入社予定の松浦馨（まつうら けい）と申します！ ■出身地 大阪出身、大阪在住です:octopus: ■これまでやってきたこと 美容業界の営業 ↓ SES企業にてQAエンジニアとして業務に従事 • 現在は車載機開発プロジェクトで、テスト設計やテスト実施をしております。 ■趣味 ・サッカー観戦 :soccer: ガンバ大阪の試合をよく見ています！ 日本代表も好きです！ ・筋トレ :muscle: 週4〜5日ほど継続しています ■ひとこと まだまだ学ぶことばかりですが、積極的にチャレンジしながら一日でも早く戦力になれるよう頑張ります！ 皆さまと一緒に働けることを楽しみにしております。 どうぞよろしくお願いいたします！",
+          "rawText": "7月or8月入社予定の松浦馨（まつうら けい）と申します！\n■出身地\n大阪出身、大阪在住です:octopus:\n■これまでやってきたこと\n美容業界の営業\n↓\nSES企業にてQAエンジニアとして業務に従事\n• 現在は車載機開発プロジェクトで、テスト設計やテスト実施をしております。\n■趣味\n・サッカー観戦 :soccer:\n　ガンバ大阪の試合をよく見ています！\n日本代表も好きです！\n・筋トレ :muscle:\n　週4〜5日ほど継続しています\n■ひとこと\nまだまだ学ぶことばかりですが、積極的にチャレンジしながら一日でも早く戦力になれるよう頑張ります！\n皆さまと一緒に働けることを楽しみにしております。\nどうぞよろしくお願いいたします！",
+          "messageTs": "1781131236.228899",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-10",
+          "timestamp": "2026-06-10T22:40:36.228Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 358,
+      "messageCount": 360,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-06-05"
+      "lastDate": "2026-06-10"
     },
     {
       "id": "C09MKT8QKAR",
@@ -28973,7 +29053,7 @@ window.SLACK_EXPORT_DATA = {
           "text": "<!channel> お疲れ様です！新制度について共有します。 詳細は以下の内容をご確認ください！ 不明点は私にご連絡ください！ 〜〜〜〜〜〜 【エンジニア交際費補助制度】 制定日：2026年6月 対象：全エンジニア社員 ■ 制度概要 現場常駐エンジニアが、業務上の関係強化を目的として顧客と会食・懇親を行う場合、会社が費用の一部を補助します。 ■ 補助条件（以下をすべて満たすこと） ① 対象となる会食の種類（重要度が高いもの） :white_check_mark: 対象となるもの ・現場配属時の歓迎会 ・プロジェクト節目の打ち上げ・慰労会（リリース・納品・フェーズ完了など） ・顧客主催の懇親会・チーム会食 :x: 対象外となるもの ・顧客個人からの個別の誘い（「二人で飲みに行きませんか」等） ・業務上の必然性が低いと判断される私的な会食 ② 頻度 ・補助は月1回までとします ③ 補助金額 ・1回あたり上限 5,000円（実費精算） ■ 申請方法 会食後、以下を添えて会社へ申請してください。 ・領収書 ・会食相手（会社名・役職） ・会食の目的・背景（簡単なメモで可） ■ 注意事項 ・事前に営業担当への相談・確認を推奨します ・会食の目的・重要度について、会社が判断した結果、補助対象外となる場合があります ・制度の悪用が確認された場合は、補助の停止または返還を求める場合があります",
           "rawText": "<!channel>\n\nお疲れ様です！新制度について共有します。\n詳細は以下の内容をご確認ください！\n不明点は私にご連絡ください！\n\n〜〜〜〜〜〜\n\n【エンジニア交際費補助制度】\n\n制定日：2026年6月\n対象：全エンジニア社員\n\n■ 制度概要\n現場常駐エンジニアが、業務上の関係強化を目的として顧客と会食・懇親を行う場合、会社が費用の一部を補助します。\n\n■ 補助条件（以下をすべて満たすこと）\n\n① 対象となる会食の種類（重要度が高いもの）\n\n:white_check_mark: 対象となるもの\n・現場配属時の歓迎会\n・プロジェクト節目の打ち上げ・慰労会（リリース・納品・フェーズ完了など）\n・顧客主催の懇親会・チーム会食\n\n:x: 対象外となるもの\n・顧客個人からの個別の誘い（「二人で飲みに行きませんか」等）\n・業務上の必然性が低いと判断される私的な会食\n\n② 頻度\n・補助は月1回までとします\n\n③ 補助金額\n・1回あたり上限 5,000円（実費精算）\n\n■ 申請方法\n会食後、以下を添えて会社へ申請してください。\n・領収書\n・会食相手（会社名・役職）\n・会食の目的・背景（簡単なメモで可）\n\n■ 注意事項\n・事前に営業担当への相談・確認を推奨します\n・会食の目的・重要度について、会社が判断した結果、補助対象外となる場合があります\n・制度の悪用が確認された場合は、補助の停止または返還を求める場合があります",
           "messageTs": "1780996090.622309",
-          "threadTs": null,
+          "threadTs": "1780996090.622309",
           "parentUserId": null,
           "subtype": null,
           "date": "2026-06-09",
@@ -28981,11 +29061,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1781083777.497769",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09QZF7KT2P",
+          "userName": "永井",
+          "userRealName": "永井",
+          "text": "ありがとうございます、とても助かります！ 滅多にない機会ではあるのですが、「行っても気疲れしてしまうかも……」「でも他社の同じ立場の方は出席率が良いしなぁ……」と、実はかなり葛藤してグズグズ悩んでいました。 遠方から参加される直の先輩（社員さん）とお話ししたい気持ちもあったので、どうすべきか迷っていたところです。 おかげさまで、次回からは前向きに参加できそうです！ 参加の前に相談させていただきます。",
+          "rawText": "ありがとうございます、とても助かります！\n滅多にない機会ではあるのですが、「行っても気疲れしてしまうかも……」「でも他社の同じ立場の方は出席率が良いしなぁ……」と、実はかなり葛藤してグズグズ悩んでいました。\n遠方から参加される直の先輩（社員さん）とお話ししたい気持ちもあったので、どうすべきか迷っていたところです。\nおかげさまで、次回からは前向きに参加できそうです！\n参加の前に相談させていただきます。",
+          "messageTs": "1781083777.497769",
+          "threadTs": "1780996090.622309",
+          "parentUserId": "U09MPBUHTEE",
+          "subtype": null,
+          "date": "2026-06-10",
+          "timestamp": "2026-06-10T09:29:37.497Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 273,
+      "messageCount": 274,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-06-09"
+      "lastDate": "2026-06-10"
     },
     {
       "id": "C09QXV3F8G0",
@@ -31628,11 +31728,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1781078581.051219",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U0A0QFEQGRX",
+          "userName": "貴志雪乃",
+          "userRealName": "貴志雪乃",
+          "text": "<!channel> :mega: 共有のお知らせ 皆様お疲れ様です :coffee: 弊社AI顧問の Uravation 佐藤代表 より、 「2026年5月版 AIニュースレポート」 が共有されました :sparkles: :fire: 今回の注目トピック :hammer_and_wrench: AI開発ツール動向 └ Claude Opus 4.8 / Cursor Composer 2.5 など :link: エージェント・連携基盤 └ MCPステートレス化・マルチエージェント連携 :rocket: 主要モデル刷新 └ GPT-5.5 Instant / Gemini 3.5 Flash など AI駆動開発まわりの最新動向が盛りだくさんの内容になっています！ ご興味のある方は、ぜひチェックしてみてください :eyes: :sparkles:",
+          "rawText": "<!channel>\n:mega: 共有のお知らせ\n皆様お疲れ様です :coffee:\n\n弊社AI顧問の Uravation 佐藤代表 より、 「2026年5月版 AIニュースレポート」 が共有されました :sparkles:\n\n:fire: 今回の注目トピック\n\n:hammer_and_wrench: AI開発ツール動向\n　└ Claude Opus 4.8 / Cursor Composer 2.5 など\n:link: エージェント・連携基盤\n　└ MCPステートレス化・マルチエージェント連携\n:rocket: 主要モデル刷新\n　└ GPT-5.5 Instant / Gemini 3.5 Flash など\n\nAI駆動開発まわりの最新動向が盛りだくさんの内容になっています！\nご興味のある方は、ぜひチェックしてみてください :eyes: :sparkles:",
+          "messageTs": "1781078581.051219",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-10",
+          "timestamp": "2026-06-10T08:03:01.051Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 138,
+      "messageCount": 139,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-05-30"
+      "lastDate": "2026-06-10"
     },
     {
       "id": "C09Q1KNL2P8",

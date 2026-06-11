@@ -2570,5 +2570,35 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0B6WCWT1GF"
+  },
+  {
+    "name": "稲村涼",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-06-11T04:25:08.732Z",
+    "updatedAt": "2026-06-11T04:25:08.732Z",
+    "last_updated": "2026-06-11T04:25:08.732Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0B6FN76QUF"
+  },
+  {
+    "name": "松浦 馨",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-06-11T04:25:08.844Z",
+    "updatedAt": "2026-06-11T04:25:08.844Z",
+    "last_updated": "2026-06-11T04:25:08.844Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0B925NE9RP"
   }
 ]
