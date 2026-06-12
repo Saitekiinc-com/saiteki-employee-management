@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-11T04:25:09.049Z",
+  "generatedAt": "2026-06-12T04:27:45.977Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -54170,6 +54170,180 @@
         }
       ],
       "searchText": "7月or8月入社予定の松浦馨（まつうら けい）と申します！ ■出身地 大阪出身、大阪在住です:octopus: ■これまでやってきたこと 美容業界の営業 ↓ SES企業にてQAエンジニアとして業務に従事 • 現在は車載機開発プロジェクトで、テスト設計やテスト実施をしております。 ■趣味 ・サッカー観戦 :soccer: ガンバ大阪の試合をよく見ています！ 日本代表も好きです！ ・筋トレ :muscle: 週4〜5日ほど継続しています ■ひとこと まだまだ学ぶことばかりですが、積極的にチャレンジしながら一日でも早く戦力になれるよう頑張ります！ 皆さまと一緒に働けることを楽しみにしております。 どうぞよろしくお願いいたします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781175930.421169",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781175930.421169",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781175930.421169",
+      "timestamp": "2026-06-11T11:05:30.421Z",
+      "detailBullets": [
+        "数ヶ月前に <@U0A8H20BWCT> さんにもらったe-ギフト券を活用させてもらい、一蘭に来ています:laughing: 遼祐さんが以前勤めていた、梅田の東通り店です。 運良く行列はほぼなく、15分ぐらいで着座できました。 やっぱり一蘭は美味しいですね:yum: めっちゃ満足です。 中島くん、ホントにありがとうございました:bangbang:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781175930.421169",
+          "text": "数ヶ月前に <@U0A8H20BWCT> さんにもらったe-ギフト券を活用させてもらい、一蘭に来ています:laughing: 遼祐さんが以前勤めていた、梅田の東通り店です。 運良く行列はほぼなく、15分ぐらいで着座できました。 やっぱり一蘭は美味しいですね:yum: めっちゃ満足です。 中島くん、ホントにありがとうございました:bangbang:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781175930.421169",
+          "threadTs": "1781175930.421169",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "数ヶ月前に <@U0A8H20BWCT> さんにもらったe-ギフト券を活用させてもらい、一蘭に来ています:laughing: 遼祐さんが以前勤めていた、梅田の東通り店です。 運良く行列はほぼなく、15分ぐらいで着座できました。 やっぱり一蘭は美味しいですね:yum: めっちゃ満足です。 中島くん、ホントにありがとうございました:bangbang:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781181647.300889",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小島遼祐",
+      "personName": "小島遼祐",
+      "slackIds": [
+        "U0A8H20BWCT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781181647.300889",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781181647.300889",
+      "timestamp": "2026-06-11T12:40:47.300Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> お疲れ様です！ わざわざ東通りに足を運んでくださったんですね！ ありがとうございます！！！ とっても嬉しいです:relaxed: ビールと替玉まで楽しんでもらえたようで本当に良かったです！ 一蘭は18時以降混んでる店が多いですが、東通り店は最寄りの駅前にもう1店舗一蘭があるからか意外と入りやすいので、またお時間ある時に行ってみてください！ (小島だよ:bangbang:)"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781181647.300889",
+          "text": "<@U09MM9KS06S> お疲れ様です！ わざわざ東通りに足を運んでくださったんですね！ ありがとうございます！！！ とっても嬉しいです:relaxed: ビールと替玉まで楽しんでもらえたようで本当に良かったです！ 一蘭は18時以降混んでる店が多いですが、東通り店は最寄りの駅前にもう1店舗一蘭があるからか意外と入りやすいので、またお時間ある時に行ってみてください！ (小島だよ:bangbang:)",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781181647.300889",
+          "threadTs": "1781175930.421169",
+          "authorName": "小島　遼祐",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> お疲れ様です！ わざわざ東通りに足を運んでくださったんですね！ ありがとうございます！！！ とっても嬉しいです:relaxed: ビールと替玉まで楽しんでもらえたようで本当に良かったです！ 一蘭は18時以降混んでる店が多いですが、東通り店は最寄りの駅前にもう1店舗一蘭があるからか意外と入りやすいので、またお時間ある時に行ってみてください！ (小島だよ:bangbang:)\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781188015.303469",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781188015.303469",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781188015.303469",
+      "timestamp": "2026-06-11T14:26:55.303Z",
+      "detailBullets": [
+        "<@U0A8H20BWCT> こちらこそ、楽しませてもらってありがとうございました:bangbang: そして、控えめな小島だよいただきました:laughing: あらかじめ嫁さんに「帰りに一蘭に寄る」と宣言してから行きましたw 待望の一蘭、至福の時でした。 また時間作って行きますねー:+1:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781188015.303469",
+          "text": "<@U0A8H20BWCT> こちらこそ、楽しませてもらってありがとうございました:bangbang: そして、控えめな小島だよいただきました:laughing: あらかじめ嫁さんに「帰りに一蘭に寄る」と宣言してから行きましたw 待望の一蘭、至福の時でした。 また時間作って行きますねー:+1:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781188015.303469",
+          "threadTs": "1781175930.421169",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A8H20BWCT> こちらこそ、楽しませてもらってありがとうございました:bangbang: そして、控えめな小島だよいただきました:laughing: あらかじめ嫁さんに「帰りに一蘭に寄る」と宣言してから行きましたw 待望の一蘭、至福の時でした。 また時間作って行きますねー:+1:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781236138.168329",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781236138.168329",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781236138.168329",
+      "timestamp": "2026-06-12T03:48:58.168Z",
+      "detailBullets": [
+        "ご飯連投失礼します:bow: この時期に旬を迎えるイサキの塩焼きです。 味が濃くてめちゃくちゃおいしかったです。 イサキは、なにげに皮がおいしいんですよねえ:relaxed: 旬のイサキの美味しさをお伝えしたくて投稿しました:+1:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781236138.168329",
+          "text": "ご飯連投失礼します:bow: この時期に旬を迎えるイサキの塩焼きです。 味が濃くてめちゃくちゃおいしかったです。 イサキは、なにげに皮がおいしいんですよねえ:relaxed: 旬のイサキの美味しさをお伝えしたくて投稿しました:+1:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781236138.168329",
+          "threadTs": null,
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "ご飯連投失礼します:bow: この時期に旬を迎えるイサキの塩焼きです。 味が濃くてめちゃくちゃおいしかったです。 イサキは、なにげに皮がおいしいんですよねえ:relaxed: 旬のイサキの美味しさをお伝えしたくて投稿しました:+1:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781236413.803089",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781236413.803089",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781236413.803089",
+      "timestamp": "2026-06-12T03:53:33.803Z",
+      "detailBullets": [
+        "<!channel> 皆さん、お疲れさまです！ 弊社AI顧問の佐藤傑さんが登壇されたClaude Codeの講義について「3ヶ月限定」で社内展開をしておりましたが、傑さんのご厚意により*”Saiteki社員のみ該当動画を永続的に視聴可能”*にしていただきました！ 私も週末にあらためて見返してみようと思っていますが、ぜひ、皆さんもみてみてください！ Claudeは今後のスタンダードの一つになっていくと思います！キャッチアップしておいて損はないどころか、得しかないとみています！ • Claude Code初級編 <https://youtu.be/-QLzSFbQcpM> • Claude Code 発展編 <https://youtu.be/HuAyqafiINI>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781236413.803089",
+          "text": "<!channel> 皆さん、お疲れさまです！ 弊社AI顧問の佐藤傑さんが登壇されたClaude Codeの講義について「3ヶ月限定」で社内展開をしておりましたが、傑さんのご厚意により*”Saiteki社員のみ該当動画を永続的に視聴可能”*にしていただきました！ 私も週末にあらためて見返してみようと思っていますが、ぜひ、皆さんもみてみてください！ Claudeは今後のスタンダードの一つになっていくと思います！キャッチアップしておいて損はないどころか、得しかないとみています！ • Claude Code初級編 <https://youtu.be/-QLzSFbQcpM> • Claude Code 発展編 <https://youtu.be/HuAyqafiINI>",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781236413.803089",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> 皆さん、お疲れさまです！ 弊社AI顧問の佐藤傑さんが登壇されたClaude Codeの講義について「3ヶ月限定」で社内展開をしておりましたが、傑さんのご厚意により*”Saiteki社員のみ該当動画を永続的に視聴可能”*にしていただきました！ 私も週末にあらためて見返してみようと思っていますが、ぜひ、皆さんもみてみてください！ Claudeは今後のスタンダードの一つになっていくと思います！キャッチアップしておいて損はないどころか、得しかないとみています！ • Claude Code初級編 <https://youtu.be/-QLzSFbQcpM> • Claude Code 発展編 <https://youtu.be/HuAyqafiINI>\nai駆動開発ネタ\n経営"
     }
   ]
 }
