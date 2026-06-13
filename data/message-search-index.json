@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-12T04:27:45.977Z",
+  "generatedAt": "2026-06-13T04:16:41.630Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -54095,7 +54095,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1781094399.852539",
-          "threadTs": null,
+          "threadTs": "1781094399.852539",
           "authorName": "稲村涼",
           "permalink": null
         }
@@ -54164,7 +54164,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1781131236.228899",
-          "threadTs": null,
+          "threadTs": "1781131236.228899",
           "authorName": "松浦 馨",
           "permalink": null
         }
@@ -54303,7 +54303,7 @@
           "channelId": "C09N28KTKL1",
           "channelName": "ソーシャル",
           "messageTs": "1781236138.168329",
-          "threadTs": null,
+          "threadTs": "1781236138.168329",
           "authorName": "田浦裕樹",
           "permalink": null
         }
@@ -54344,6 +54344,251 @@
         }
       ],
       "searchText": "<!channel> 皆さん、お疲れさまです！ 弊社AI顧問の佐藤傑さんが登壇されたClaude Codeの講義について「3ヶ月限定」で社内展開をしておりましたが、傑さんのご厚意により*”Saiteki社員のみ該当動画を永続的に視聴可能”*にしていただきました！ 私も週末にあらためて見返してみようと思っていますが、ぜひ、皆さんもみてみてください！ Claudeは今後のスタンダードの一つになっていくと思います！キャッチアップしておいて損はないどころか、得しかないとみています！ • Claude Code初級編 <https://youtu.be/-QLzSFbQcpM> • Claude Code 発展編 <https://youtu.be/HuAyqafiINI>\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781268166.014629",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781268166.014629",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781268166.014629",
+      "timestamp": "2026-06-12T12:42:46.014Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 美味しそうすぎます！イサキは皮の脂が好きです！ このぐらいのサイズなら頭、尻尾、骨も全て食べます笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781268166.014629",
+          "text": "<@U09MM9KS06S> 美味しそうすぎます！イサキは皮の脂が好きです！ このぐらいのサイズなら頭、尻尾、骨も全て食べます笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781268166.014629",
+          "threadTs": "1781236138.168329",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 美味しそうすぎます！イサキは皮の脂が好きです！ このぐらいのサイズなら頭、尻尾、骨も全て食べます笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781271423.109709",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781271423.109709",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781271423.109709",
+      "timestamp": "2026-06-12T13:37:03.109Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 皮の脂が好きって、戸塚さん、通ですね:bangbang: 実は、イサキを食べながら、この骨はさすがに戸塚さんも無理だろうと思ってたんですよ:sweat_smile: まさかこの硬い骨まで食べはるとは、ワイルドすぎます:rolling_on_the_floor_laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781271423.109709",
+          "text": "<@U09MGUVJ8BV> 皮の脂が好きって、戸塚さん、通ですね:bangbang: 実は、イサキを食べながら、この骨はさすがに戸塚さんも無理だろうと思ってたんですよ:sweat_smile: まさかこの硬い骨まで食べはるとは、ワイルドすぎます:rolling_on_the_floor_laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781271423.109709",
+          "threadTs": "1781236138.168329",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 皮の脂が好きって、戸塚さん、通ですね:bangbang: 実は、イサキを食べながら、この骨はさすがに戸塚さんも無理だろうと思ってたんですよ:sweat_smile: まさかこの硬い骨まで食べはるとは、ワイルドすぎます:rolling_on_the_floor_laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781307316.519029",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781307316.519029",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781307316.519029",
+      "timestamp": "2026-06-12T23:35:16.519Z",
+      "detailBullets": [
+        "<@U0B6FN76QUF> 稲村さん、あらためてよろしくお願いします！バイクかっこいいですね！いずれバイクの写真もソーシャルとかに載せて欲しいです:raised_hands:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781307316.519029",
+          "text": "<@U0B6FN76QUF> 稲村さん、あらためてよろしくお願いします！バイクかっこいいですね！いずれバイクの写真もソーシャルとかに載せて欲しいです:raised_hands:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781307316.519029",
+          "threadTs": "1781094399.852539",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B6FN76QUF> 稲村さん、あらためてよろしくお願いします！バイクかっこいいですね！いずれバイクの写真もソーシャルとかに載せて欲しいです:raised_hands:\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781307463.959649",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781307463.959649",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781307463.959649",
+      "timestamp": "2026-06-12T23:37:43.959Z",
+      "detailBullets": [
+        "<@U0B925NE9RP> 松浦さん、あらためてよろしくお願いします:raised_hands: サッカー観戦が好きなメンバー、たくさんいますのでスポーツ観戦部など立ち上げたらぜひご参加ください:raised_hands:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781307463.959649",
+          "text": "<@U0B925NE9RP> 松浦さん、あらためてよろしくお願いします:raised_hands: サッカー観戦が好きなメンバー、たくさんいますのでスポーツ観戦部など立ち上げたらぜひご参加ください:raised_hands:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781307463.959649",
+          "threadTs": "1781131236.228899",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B925NE9RP> 松浦さん、あらためてよろしくお願いします:raised_hands: サッカー観戦が好きなメンバー、たくさんいますのでスポーツ観戦部など立ち上げたらぜひご参加ください:raised_hands:\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781319489.822869",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781319489.822869",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781319489.822869",
+      "timestamp": "2026-06-13T02:58:09.822Z",
+      "detailBullets": [
+        "<https://news.yahoo.co.jp/expert/articles/76c2e7910cb7e1cbf7469e4ee1c430e61bec65a3|https://news.yahoo.co.jp/expert/articles/76c2e7910cb7e1cbf7469e4ee1c430e61bec65a3>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781319489.822869",
+          "text": "<https://news.yahoo.co.jp/expert/articles/76c2e7910cb7e1cbf7469e4ee1c430e61bec65a3|https://news.yahoo.co.jp/expert/articles/76c2e7910cb7e1cbf7469e4ee1c430e61bec65a3>",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781319489.822869",
+          "threadTs": "1781319489.822869",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<https://news.yahoo.co.jp/expert/articles/76c2e7910cb7e1cbf7469e4ee1c430e61bec65a3|https://news.yahoo.co.jp/expert/articles/76c2e7910cb7e1cbf7469e4ee1c430e61bec65a3>\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781320046.644529",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781320046.644529",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781320046.644529",
+      "timestamp": "2026-06-13T03:07:26.644Z",
+      "detailBullets": [
+        "<https://x.com/anthropicai/status/2065597531644743999?s=46|https://x.com/anthropicai/status/2065597531644743999?s=46> 米国政府は、国家安全保障当局を引用し、米国内外を問わず、いかなる外国人国民（Anthropicの外国人社員を含む）によるFable 5およびMythos 5へのすべてのアクセスを停止する輸出管理指令を発行しました。 この命令の実際の効果は、コンプライアンスを確保するため、当社がすべての顧客に対してFable 5およびMythos 5を急遽無効化しなければならないということです。 その他のすべてのClaudeモデルへのアクセスは影響を受けません。 お客様にご迷惑をおかけしたことをお詫び申し上げます。私たちはこれが誤解であると信じており、できるだけ早くアクセスを復旧するよう取り組んでいます。 当社の詳細な声明をお読みください：<http://anthropic.com/news/fable-myt|anthropic.com/news/fable-myt>…"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781320046.644529",
+          "text": "<https://x.com/anthropicai/status/2065597531644743999?s=46|https://x.com/anthropicai/status/2065597531644743999?s=46> 米国政府は、国家安全保障当局を引用し、米国内外を問わず、いかなる外国人国民（Anthropicの外国人社員を含む）によるFable 5およびMythos 5へのすべてのアクセスを停止する輸出管理指令を発行しました。 この命令の実際の効果は、コンプライアンスを確保するため、当社がすべての顧客に対してFable 5およびMythos 5を急遽無効化しなければならないということです。 その他のすべてのClaudeモデルへのアクセスは影響を受けません。 お客様にご迷惑をおかけしたことをお詫び申し上げます。私たちはこれが誤解であると信じており、できるだけ早くアクセスを復旧するよう取り組んでいます。 当社の詳細な声明をお読みください：<http://anthropic.com/news/fable-myt|anthropic.com/news/fable-myt>…",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781320046.644529",
+          "threadTs": "1781319489.822869",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<https://x.com/anthropicai/status/2065597531644743999?s=46|https://x.com/anthropicai/status/2065597531644743999?s=46> 米国政府は、国家安全保障当局を引用し、米国内外を問わず、いかなる外国人国民（Anthropicの外国人社員を含む）によるFable 5およびMythos 5へのすべてのアクセスを停止する輸出管理指令を発行しました。 この命令の実際の効果は、コンプライアンスを確保するため、当社がすべての顧客に対してFable 5およびMythos 5を急遽無効化しなければならないということです。 その他のすべてのClaudeモデルへのアクセスは影響を受けません。 お客様にご迷惑をおかけしたことをお詫び申し上げます。私たちはこれが誤解であると信じており、できるだけ早くアクセスを復旧するよう取り組んでいます。 当社の詳細な声明をお読みください：<http://anthropic.com/news/fable-myt|anthropic.com/news/fable-myt>…\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781321487.063799",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781321487.063799",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781321487.063799",
+      "timestamp": "2026-06-13T03:31:27.063Z",
+      "detailBullets": [
+        "Yahooニュースの情報からだと兵器などへの悪用を危惧して停止させた、と読み取れるけど\"米国人のみ利用可能\"としているのはいかにもトランプ氏らしいな。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781321487.063799",
+          "text": "Yahooニュースの情報からだと兵器などへの悪用を危惧して停止させた、と読み取れるけど\"米国人のみ利用可能\"としているのはいかにもトランプ氏らしいな。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781321487.063799",
+          "threadTs": "1781319489.822869",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "Yahooニュースの情報からだと兵器などへの悪用を危惧して停止させた、と読み取れるけど\"米国人のみ利用可能\"としているのはいかにもトランプ氏らしいな。\nai駆動開発ネタ\n経営"
     }
   ]
 }
