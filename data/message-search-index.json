@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-13T04:16:41.630Z",
+  "generatedAt": "2026-06-14T04:44:02.055Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -54589,6 +54589,41 @@
         }
       ],
       "searchText": "Yahooニュースの情報からだと兵器などへの悪用を危惧して停止させた、と読み取れるけど\"米国人のみ利用可能\"としているのはいかにもトランプ氏らしいな。\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781407611.994419",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:杉本光一",
+      "personName": "杉本光一",
+      "slackIds": [
+        "U09MGV3MU9H",
+        "U08KH52ELPR"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781407611.994419",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781407611.994419",
+      "timestamp": "2026-06-14T03:26:51.994Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> イサキはじめて知りました！ごはんも進みそうですね笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781407611.994419",
+          "text": "<@U09MM9KS06S> イサキはじめて知りました！ごはんも進みそうですね笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781407611.994419",
+          "threadTs": "1781236138.168329",
+          "authorName": "杉本光一",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> イサキはじめて知りました！ごはんも進みそうですね笑\nソーシャル\nEngineer"
     }
   ]
 }

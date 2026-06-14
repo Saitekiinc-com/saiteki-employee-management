@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-13T04:16:48.807Z",
+  "generatedAt": "2026-06-14T04:44:03.905Z",
   "channelCount": 9,
-  "totalMessages": 1814,
+  "totalMessages": 1815,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -17088,11 +17088,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1781407611.994419",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MGV3MU9H",
+          "userName": "杉本光一",
+          "userRealName": "杉本光一",
+          "text": "<@U09MM9KS06S> イサキはじめて知りました！ごはんも進みそうですね笑",
+          "rawText": "<@U09MM9KS06S> \nイサキはじめて知りました！ごはんも進みそうですね笑",
+          "messageTs": "1781407611.994419",
+          "threadTs": "1781236138.168329",
+          "parentUserId": "U09MM9KS06S",
+          "subtype": null,
+          "date": "2026-06-14",
+          "timestamp": "2026-06-14T03:26:51.994Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 893,
+      "messageCount": 894,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-06-12"
+      "lastDate": "2026-06-14"
     },
     {
       "id": "C09Q46YA4ER",
