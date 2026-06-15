@@ -2600,5 +2600,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0B925NE9RP"
+  },
+  {
+    "name": "安増 優輝",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-06-15T04:59:06.413Z",
+    "updatedAt": "2026-06-15T04:59:06.413Z",
+    "last_updated": "2026-06-15T04:59:06.413Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0B9S2057EE"
   }
 ]
