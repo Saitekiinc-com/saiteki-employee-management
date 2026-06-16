@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-15T04:59:06.630Z",
+  "generatedAt": "2026-06-16T04:58:40.400Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -54862,12 +54862,292 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1781495517.560449",
-          "threadTs": null,
+          "threadTs": "1781495517.560449",
           "authorName": "安増 優輝",
           "permalink": null
         }
       ],
       "searchText": "初めまして 7月もしくは8月入社予定の安増 優輝(やすます ゆうき)と申します。 ◾︎出身地 熊本県 ◾︎これまでやってきたこと 都庁の職員が利用するシステムの 開発を上流工程から携わっていました。 ◾︎休日の過ごし方 友人と東京観光や映画鑑賞 ◾︎趣味 アニメ、ゲーム、最近ピアノを独学ではじめました ◾︎ひとこと まだ分からないことも多いのですが、皆さまの力になれるよう一日も早く業務に慣れていきたいと思っています。どうぞよろしくお願いいたします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781516665.014879",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781516665.014879",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781516665.014879",
+      "timestamp": "2026-06-15T09:44:25.014Z",
+      "detailBullets": [
+        "はい！ 上野？でゴッホ展はやってるらしいです！まだ行ったことはないですが笑 多分、行っても首傾げてるかもしれないです(笑) インスタでたまたま見て綺麗そうだったんで行ってみました:v:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781516665.014879",
+          "text": "はい！ 上野？でゴッホ展はやってるらしいです！まだ行ったことはないですが笑 多分、行っても首傾げてるかもしれないです(笑) インスタでたまたま見て綺麗そうだったんで行ってみました:v:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781516665.014879",
+          "threadTs": "1781444181.349029",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "はい！ 上野？でゴッホ展はやってるらしいです！まだ行ったことはないですが笑 多分、行っても首傾げてるかもしれないです(笑) インスタでたまたま見て綺麗そうだったんで行ってみました:v:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781525878.738589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:鈴木悠斗",
+      "personName": "鈴木悠斗",
+      "slackIds": [
+        "U09MPBUHTEE",
+        "U08SCMU6544"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781525878.738589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781525878.738589",
+      "timestamp": "2026-06-15T12:17:58.738Z",
+      "detailBullets": [
+        "<@U0B81RBBDD1> お疲れさまです！ 自己紹介の投稿ありがとうございます:bangbang: 戸塚も言ってますが、毎月やり取りさせていただき、入社を決断いただいた事本当に嬉しいです:relaxed: 改めて今後とも宜しくお願いします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781525878.738589",
+          "text": "<@U0B81RBBDD1> お疲れさまです！ 自己紹介の投稿ありがとうございます:bangbang: 戸塚も言ってますが、毎月やり取りさせていただき、入社を決断いただいた事本当に嬉しいです:relaxed: 改めて今後とも宜しくお願いします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781525878.738589",
+          "threadTs": "1780564055.656909",
+          "authorName": "鈴木悠斗",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B81RBBDD1> お疲れさまです！ 自己紹介の投稿ありがとうございます:bangbang: 戸塚も言ってますが、毎月やり取りさせていただき、入社を決断いただいた事本当に嬉しいです:relaxed: 改めて今後とも宜しくお願いします！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781526063.674039",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:鈴木悠斗",
+      "personName": "鈴木悠斗",
+      "slackIds": [
+        "U09MPBUHTEE",
+        "U08SCMU6544"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781526063.674039",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781526063.674039",
+      "timestamp": "2026-06-15T12:21:03.674Z",
+      "detailBullets": [
+        "<@U0B8AEFRHA5> はじめまして！鈴木です:man-gesturing-ok::skin-tone-2: 趣味たくさんあっていいですね:relaxed: おすすめの映画とか今度教えてください:bangbang: 懇親会などでお会いできること、楽しみにしてます:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781526063.674039",
+          "text": "<@U0B8AEFRHA5> はじめまして！鈴木です:man-gesturing-ok::skin-tone-2: 趣味たくさんあっていいですね:relaxed: おすすめの映画とか今度教えてください:bangbang: 懇親会などでお会いできること、楽しみにしてます:sparkles:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781526063.674039",
+          "threadTs": "1780565824.462859",
+          "authorName": "鈴木悠斗",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B8AEFRHA5> はじめまして！鈴木です:man-gesturing-ok::skin-tone-2: 趣味たくさんあっていいですね:relaxed: おすすめの映画とか今度教えてください:bangbang: 懇親会などでお会いできること、楽しみにしてます:sparkles:\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781526385.777099",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:鈴木悠斗",
+      "personName": "鈴木悠斗",
+      "slackIds": [
+        "U09MPBUHTEE",
+        "U08SCMU6544"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781526385.777099",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781526385.777099",
+      "timestamp": "2026-06-15T12:26:25.777Z",
+      "detailBullets": [
+        "<@U0B6WCWT1GF> はじまして！鈴木です:man-gesturing-ok::skin-tone-2: 私もワンピース好きで、エニエスロビー編が1番好きです:muscle::skin-tone-2: 伏線説明のYoutubeとかたまにみます:eyes: 改めてよろしくお願いします:bangbang:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781526385.777099",
+          "text": "<@U0B6WCWT1GF> はじまして！鈴木です:man-gesturing-ok::skin-tone-2: 私もワンピース好きで、エニエスロビー編が1番好きです:muscle::skin-tone-2: 伏線説明のYoutubeとかたまにみます:eyes: 改めてよろしくお願いします:bangbang:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781526385.777099",
+          "threadTs": "1780580840.828899",
+          "authorName": "鈴木悠斗",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B6WCWT1GF> はじまして！鈴木です:man-gesturing-ok::skin-tone-2: 私もワンピース好きで、エニエスロビー編が1番好きです:muscle::skin-tone-2: 伏線説明のYoutubeとかたまにみます:eyes: 改めてよろしくお願いします:bangbang:\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781527009.553579",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:鈴木悠斗",
+      "personName": "鈴木悠斗",
+      "slackIds": [
+        "U09MPBUHTEE",
+        "U08SCMU6544"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781527009.553579",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781527009.553579",
+      "timestamp": "2026-06-15T12:36:49.553Z",
+      "detailBullets": [
+        "<@U0B6FN76QUF> 改めてよろしくお願いします！ 筋トレ週4すごいですね:eyes: バイク何乗ってるか今度教えてください:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781527009.553579",
+          "text": "<@U0B6FN76QUF> 改めてよろしくお願いします！ 筋トレ週4すごいですね:eyes: バイク何乗ってるか今度教えてください:sparkles:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781527009.553579",
+          "threadTs": "1781094399.852539",
+          "authorName": "鈴木悠斗",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B6FN76QUF> 改めてよろしくお願いします！ 筋トレ週4すごいですね:eyes: バイク何乗ってるか今度教えてください:sparkles:\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781527183.919869",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:鈴木悠斗",
+      "personName": "鈴木悠斗",
+      "slackIds": [
+        "U09MPBUHTEE",
+        "U08SCMU6544"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781527183.919869",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781527183.919869",
+      "timestamp": "2026-06-15T12:39:43.919Z",
+      "detailBullets": [
+        "<@U0B925NE9RP> はじめまして！鈴木です:man-gesturing-ok::skin-tone-2: サッカー観戦好きなんですね:eyes: 今が1番盛り上がる時期ですね:sparkles: 大阪行くこともあるので、その時リアルでもお会いしましょう！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781527183.919869",
+          "text": "<@U0B925NE9RP> はじめまして！鈴木です:man-gesturing-ok::skin-tone-2: サッカー観戦好きなんですね:eyes: 今が1番盛り上がる時期ですね:sparkles: 大阪行くこともあるので、その時リアルでもお会いしましょう！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781527183.919869",
+          "threadTs": "1781131236.228899",
+          "authorName": "鈴木悠斗",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B925NE9RP> はじめまして！鈴木です:man-gesturing-ok::skin-tone-2: サッカー観戦好きなんですね:eyes: 今が1番盛り上がる時期ですね:sparkles: 大阪行くこともあるので、その時リアルでもお会いしましょう！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781527313.007619",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:鈴木悠斗",
+      "personName": "鈴木悠斗",
+      "slackIds": [
+        "U09MPBUHTEE",
+        "U08SCMU6544"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781527313.007619",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781527313.007619",
+      "timestamp": "2026-06-15T12:41:53.007Z",
+      "detailBullets": [
+        "<@U0B9S2057EE> はじまして！鈴木です:man-gesturing-ok::skin-tone-2: アニメ、ゲーム好きは多いので、メンバーと話が合うと思います:video_game: 改めてよろしくお願いします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781527313.007619",
+          "text": "<@U0B9S2057EE> はじまして！鈴木です:man-gesturing-ok::skin-tone-2: アニメ、ゲーム好きは多いので、メンバーと話が合うと思います:video_game: 改めてよろしくお願いします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781527313.007619",
+          "threadTs": "1781495517.560449",
+          "authorName": "鈴木悠斗",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B9S2057EE> はじまして！鈴木です:man-gesturing-ok::skin-tone-2: アニメ、ゲーム好きは多いので、メンバーと話が合うと思います:video_game: 改めてよろしくお願いします！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781565437.907239",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781565437.907239",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781565437.907239",
+      "timestamp": "2026-06-15T23:17:17.907Z",
+      "detailBullets": [
+        ":newspaper: *AI駆動開発 ニュース - 2026/06/15* 1. *Claude Code v2.1.161 &amp; Opus 4.8 リリース — Dynamic Workflows 導入* └ Anthropic が Claude Code 最新版 v2.1.161 をリリース。5月28日公開の Claude Opus 4.8 と連携し、大規模タスクを複数サブエージェントへ動的に分解する「Dynamic Workflows」が標準化。Opus を advisor、Sonnet を実行エージェントに置く運用戦略が推奨に。 :link: <https://www.ai-souken.com/article/claude-code-updates-2026|https://www.ai-souken.com/article/claude-code-updates-2026> 2. *GitHub Copilot が全プラン使用量ベース課金へ移行（6月1日〜）* └ すべての GitHub Copilot プランが 6 月 1 日より AI クレジット制の使用量ベー..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781565437.907239",
+          "text": ":newspaper: *AI駆動開発 ニュース - 2026/06/15* 1. *Claude Code v2.1.161 &amp; Opus 4.8 リリース — Dynamic Workflows 導入* └ Anthropic が Claude Code 最新版 v2.1.161 をリリース。5月28日公開の Claude Opus 4.8 と連携し、大規模タスクを複数サブエージェントへ動的に分解する「Dynamic Workflows」が標準化。Opus を advisor、Sonnet を実行エージェントに置く運用戦略が推奨に。 :link: <https://www.ai-souken.com/article/claude-code-updates-2026|https://www.ai-souken.com/article/claude-code-updates-2026> 2. *GitHub Copilot が全プラン使用量ベース課金へ移行（6月1日〜）* └ すべての GitHub Copilot プランが 6 月 1 日より AI クレジット制の使用量ベース課金へ移行。May アップデートでは「Plan エージェント」が追加され、コード実装前に AI と共同で実装計画を策定できるようになった。 :link: <https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/|https://github.blog/news-...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781565437.907239",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: *AI駆動開発 ニュース - 2026/06/15* 1. *Claude Code v2.1.161 &amp; Opus 4.8 リリース — Dynamic Workflows 導入* └ Anthropic が Claude Code 最新版 v2.1.161 をリリース。5月28日公開の Claude Opus 4.8 と連携し、大規模タスクを複数サブエージェントへ動的に分解する「Dynamic Workflows」が標準化。Opus を advisor、Sonnet を実行エージェントに置く運用戦略が推奨に。 :link: <https://www.ai-souken.com/article/claude-code-updates-2026|https://www.ai-souken.com/article/claude-code-updates-2026> 2. *GitHub Copilot が全プラン使用量ベース課金へ移行（6月1日〜）* └ すべての GitHub Copilot プランが 6 月 1 日より AI クレジット制の使用量ベース課金へ移行。May アップデートでは「Plan エージェント」が追加され、コード実装前に AI と共同で実装計画を策定できるようになった。 :link: <https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/|https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/> 3. *Cursor が ARR $3B 達成 &amp; Bugbot 大幅改善* └ Cursor の ARR が 2026 年 5 月に $3 billion に到達。6 月 10 日には Bugbot が 3 倍以上高速化・22% コスト削減・バグ発見率 10% 向上を達成。高リスク操作を自動検知する「Auto-review」エージェント安全システムも導入。 :link: <https://devops.com/cursor-acquires-graphite-to-streamline-ai-powered-development/|https://devops.com/cursor-acquires-graphite-to-streamline-ai-powered-development/> 4. *Cognition（Devin）が $1B 調達・評価額 $26B、自社コードの 89% を自動生成* └ 5 月 27 日、Cog...\nai駆動開発ネタ\n経営"
     }
   ]
 }
