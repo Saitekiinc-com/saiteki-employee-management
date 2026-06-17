@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-16T04:58:40.400Z",
+  "generatedAt": "2026-06-17T04:44:06.950Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -55148,6 +55148,110 @@
         }
       ],
       "searchText": ":newspaper: *AI駆動開発 ニュース - 2026/06/15* 1. *Claude Code v2.1.161 &amp; Opus 4.8 リリース — Dynamic Workflows 導入* └ Anthropic が Claude Code 最新版 v2.1.161 をリリース。5月28日公開の Claude Opus 4.8 と連携し、大規模タスクを複数サブエージェントへ動的に分解する「Dynamic Workflows」が標準化。Opus を advisor、Sonnet を実行エージェントに置く運用戦略が推奨に。 :link: <https://www.ai-souken.com/article/claude-code-updates-2026|https://www.ai-souken.com/article/claude-code-updates-2026> 2. *GitHub Copilot が全プラン使用量ベース課金へ移行（6月1日〜）* └ すべての GitHub Copilot プランが 6 月 1 日より AI クレジット制の使用量ベース課金へ移行。May アップデートでは「Plan エージェント」が追加され、コード実装前に AI と共同で実装計画を策定できるようになった。 :link: <https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/|https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/> 3. *Cursor が ARR $3B 達成 &amp; Bugbot 大幅改善* └ Cursor の ARR が 2026 年 5 月に $3 billion に到達。6 月 10 日には Bugbot が 3 倍以上高速化・22% コスト削減・バグ発見率 10% 向上を達成。高リスク操作を自動検知する「Auto-review」エージェント安全システムも導入。 :link: <https://devops.com/cursor-acquires-graphite-to-streamline-ai-powered-development/|https://devops.com/cursor-acquires-graphite-to-streamline-ai-powered-development/> 4. *Cognition（Devin）が $1B 調達・評価額 $26B、自社コードの 89% を自動生成* └ 5 月 27 日、Cog...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1781588911.463389",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1781588911.463389",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1781588911.463389",
+      "timestamp": "2026-06-16T05:48:31.463Z",
+      "detailBullets": [
+        "<!channel> *今年の5月までに入社した皆さんへ* お疲れ様です。総務の藤井です。 先日、鈴木福社長からご案内があったように、 「エンジニア交際費補助制度」が開始されました。 それに伴い、社労士共有個人フォルダの、 「【要確認】このフォルダについて.docx」に記載している、 会社からの補助に係る項目を改定いたしました。 各自、個人フォルダからご確認をお願い致します。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1781588911.463389",
+          "text": "<!channel> *今年の5月までに入社した皆さんへ* お疲れ様です。総務の藤井です。 先日、鈴木福社長からご案内があったように、 「エンジニア交際費補助制度」が開始されました。 それに伴い、社労士共有個人フォルダの、 「【要確認】このフォルダについて.docx」に記載している、 会社からの補助に係る項目を改定いたしました。 各自、個人フォルダからご確認をお願い致します。",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1781588911.463389",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> *今年の5月までに入社した皆さんへ* お疲れ様です。総務の藤井です。 先日、鈴木福社長からご案内があったように、 「エンジニア交際費補助制度」が開始されました。 それに伴い、社労士共有個人フォルダの、 「【要確認】このフォルダについて.docx」に記載している、 会社からの補助に係る項目を改定いたしました。 各自、個人フォルダからご確認をお願い致します。\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781661478.054239",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781661478.054239",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781661478.054239",
+      "timestamp": "2026-06-17T01:57:58.054Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026/06/17_ 1. _SpaceX が AI コーディングツール「Cursor」を600億ドルで買収_ └ SpaceX（xAI統合済み）がCursorを約600億ドルの全額株式取引で買収することを正式発表（6/16）。Cursorは年間ARR約26億ドルまで急成長しており、SpaceXのColossusスパコンインフラとの共同モデルトレーニングも進行中。AnthropicやOpenAIへの対抗軸として注目。 :link: <https://www.engadget.com/2195265/spacex-is-buying-ai-coding-startup-cursor-for-60-billion/> 2. _Claude Code v2.1.161 リリース — Agent TeamsとDynamic Workflows_ └ Claude Codeが週次アップデートを継続。複数エージェントが協調して大きなタスクを分担する「Agent Teams」と、サブエージェントへの動的タスク分解を行う「Dynamic Wor..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781661478.054239",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026/06/17_ 1. _SpaceX が AI コーディングツール「Cursor」を600億ドルで買収_ └ SpaceX（xAI統合済み）がCursorを約600億ドルの全額株式取引で買収することを正式発表（6/16）。Cursorは年間ARR約26億ドルまで急成長しており、SpaceXのColossusスパコンインフラとの共同モデルトレーニングも進行中。AnthropicやOpenAIへの対抗軸として注目。 :link: <https://www.engadget.com/2195265/spacex-is-buying-ai-coding-startup-cursor-for-60-billion/> 2. _Claude Code v2.1.161 リリース — Agent TeamsとDynamic Workflows_ └ Claude Codeが週次アップデートを継続。複数エージェントが協調して大きなタスクを分担する「Agent Teams」と、サブエージェントへの動的タスク分解を行う「Dynamic Workflows」が標準化。コードゼロでも使えるCoworkもGA済み。 :link: <https://www.ai-souken.com/article/claude-code-updates-2026> 3. _GitHub Copilot が従量課金制（AI Credits）に完全移行_ └ 6月1日より全プランがAI Creditsによる従量課金に移行。Copilotコードレビュー機能がGi...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781661478.054239",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026/06/17_ 1. _SpaceX が AI コーディングツール「Cursor」を600億ドルで買収_ └ SpaceX（xAI統合済み）がCursorを約600億ドルの全額株式取引で買収することを正式発表（6/16）。Cursorは年間ARR約26億ドルまで急成長しており、SpaceXのColossusスパコンインフラとの共同モデルトレーニングも進行中。AnthropicやOpenAIへの対抗軸として注目。 :link: <https://www.engadget.com/2195265/spacex-is-buying-ai-coding-startup-cursor-for-60-billion/> 2. _Claude Code v2.1.161 リリース — Agent TeamsとDynamic Workflows_ └ Claude Codeが週次アップデートを継続。複数エージェントが協調して大きなタスクを分担する「Agent Teams」と、サブエージェントへの動的タスク分解を行う「Dynamic Workflows」が標準化。コードゼロでも使えるCoworkもGA済み。 :link: <https://www.ai-souken.com/article/claude-code-updates-2026> 3. _GitHub Copilot が従量課金制（AI Credits）に完全移行_ └ 6月1日より全プランがAI Creditsによる従量課金に移行。Copilotコードレビュー機能がGitHub Actionsの実行時間も消費するよう変更。Proプラン$10/月・Pro+プラン$39/月（Opusモデルアクセス付き）。ユーザーレベルの予算管理機能も追加。 :link: <https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/> 4. <http://_Z.ai|_Z.ai>「GLM-5.2」リリース — 100万トークンコンテキスト対応_ └ 6月13日にGLM-5.2が公開。実用的な100万トークンコンテキストウィンドウとHigh/Maxエフォートレベルを搭載。Anthropic互換エンドポイント経由でClaude Code、Cline、OpenClawとの統合が可能。 :link: <https://www.marktechpost.com/2026/06/10/ai-coding-agents-development-platforms-2026/> 5. _Agentic Codingが業界標準へ — AWS・Google・M...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781669086.531879",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781669086.531879",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781669086.531879",
+      "timestamp": "2026-06-17T04:04:46.531Z",
+      "detailBullets": [
+        "SpaceXがIPO（750億ドル調達・史上最大規模）からわずか数日で、Cursorを600億ドル相当の株式交換で買収したのは痺れます。現金ではなく株式対価とはいえ、上場直後にこれだけの規模のディールを実行するのはイーロンマスクにしかできない離れ業だと思います。AnthropicやOpenAIに対抗するための戦略的な布石で、業界再編（大手による買収合戦）が加速する予感がしました。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781669086.531879",
+          "text": "SpaceXがIPO（750億ドル調達・史上最大規模）からわずか数日で、Cursorを600億ドル相当の株式交換で買収したのは痺れます。現金ではなく株式対価とはいえ、上場直後にこれだけの規模のディールを実行するのはイーロンマスクにしかできない離れ業だと思います。AnthropicやOpenAIに対抗するための戦略的な布石で、業界再編（大手による買収合戦）が加速する予感がしました。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781669086.531879",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "SpaceXがIPO（750億ドル調達・史上最大規模）からわずか数日で、Cursorを600億ドル相当の株式交換で買収したのは痺れます。現金ではなく株式対価とはいえ、上場直後にこれだけの規模のディールを実行するのはイーロンマスクにしかできない離れ業だと思います。AnthropicやOpenAIに対抗するための戦略的な布石で、業界再編（大手による買収合戦）が加速する予感がしました。\nai駆動開発ネタ\n経営"
     }
   ]
 }

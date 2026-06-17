@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-16T04:58:48.233Z",
+  "generatedAt": "2026-06-17T04:44:10.566Z",
   "channelCount": 9,
-  "totalMessages": 1831,
+  "totalMessages": 1834,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -29501,11 +29501,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1781588911.463389",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> *今年の5月までに入社した皆さんへ* お疲れ様です。総務の藤井です。 先日、鈴木福社長からご案内があったように、 「エンジニア交際費補助制度」が開始されました。 それに伴い、社労士共有個人フォルダの、 「【要確認】このフォルダについて.docx」に記載している、 会社からの補助に係る項目を改定いたしました。 各自、個人フォルダからご確認をお願い致します。",
+          "rawText": "<!channel>\n*今年の5月までに入社した皆さんへ*\nお疲れ様です。総務の藤井です。\n先日、鈴木福社長からご案内があったように、\n「エンジニア交際費補助制度」が開始されました。\n\nそれに伴い、社労士共有個人フォルダの、\n「【要確認】このフォルダについて.docx」に記載している、\n会社からの補助に係る項目を改定いたしました。\n各自、個人フォルダからご確認をお願い致します。",
+          "messageTs": "1781588911.463389",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-16",
+          "timestamp": "2026-06-16T05:48:31.463Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 275,
+      "messageCount": 276,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-06-14"
+      "lastDate": "2026-06-16"
     },
     {
       "id": "C09QXV3F8G0",
@@ -32328,11 +32348,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1781661478.054239",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026/06/17_ 1. _SpaceX が AI コーディングツール「Cursor」を600億ドルで買収_ └ SpaceX（xAI統合済み）がCursorを約600億ドルの全額株式取引で買収することを正式発表（6/16）。Cursorは年間ARR約26億ドルまで急成長しており、SpaceXのColossusスパコンインフラとの共同モデルトレーニングも進行中。AnthropicやOpenAIへの対抗軸として注目。 :link: <https://www.engadget.com/2195265/spacex-is-buying-ai-coding-startup-cursor-for-60-billion/> 2. _Claude Code v2.1.161 リリース — Agent TeamsとDynamic Workflows_ └ Claude Codeが週次アップデートを継続。複数エージェントが協調して大きなタスクを分担する「Agent Teams」と、サブエージェントへの動的タスク分解を行う「Dynamic Workflows」が標準化。コードゼロでも使えるCoworkもGA済み。 :link: <https://www.ai-souken.com/article/claude-code-updates-2026> 3. _GitHub Copilot が従量課金制（AI Credits）に完全移行_ └ 6月1日より全プランがAI Creditsによる従量課金に移行。Copilotコードレビュー機能がGitHub Actionsの実行時間も消費するよう変更。Proプラン$10/月・Pro+プラン$39/月（Opusモデルアクセス付き）。ユーザーレベルの予算管理機能も追加。 :link: <https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/> 4. <http://_Z.ai|_Z.ai>「GLM-5.2」リリース — 100万トークンコンテキスト対応_ └ 6月13日にGLM-5.2が公開。実用的な100万トークンコンテキストウィンドウとHigh/Maxエフォートレベルを搭載。Anthropic互換エンドポイント経由でClaude Code、Cline、OpenClawとの統合が可能。 :link: <https://www.marktechpost.com/2026/06/10/ai-coding-agents-development-platforms-2026/> 5. _Agentic Codingが業界標準へ — AWS・Google・Microsoftなど各社が一斉展開_ └ AIコーディングツールがオートコンプリートやAI IDEから「エージェントワークフロー」へ進化。AWS、Google Cloud、GitHub、Databricksなどが「エージェントを新しいソフトウェアレイヤー」として位置づけ戦略展開中。Googleの内部エージェントツール「Agent Smith」も注目。 :link: <https://medium.com/@dave-patten/the-state-of-ai-coding-agents-2026-from-pair-programming-to-autonomous-ai-teams-b11f2b39232a> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026/06/17_\n\n1. _SpaceX が AI コーディングツール「Cursor」を600億ドルで買収_\n└ SpaceX（xAI統合済み）がCursorを約600億ドルの全額株式取引で買収することを正式発表（6/16）。Cursorは年間ARR約26億ドルまで急成長しており、SpaceXのColossusスパコンインフラとの共同モデルトレーニングも進行中。AnthropicやOpenAIへの対抗軸として注目。\n:link: <https://www.engadget.com/2195265/spacex-is-buying-ai-coding-startup-cursor-for-60-billion/>\n2. _Claude Code v2.1.161 リリース — Agent TeamsとDynamic Workflows_\n└ Claude Codeが週次アップデートを継続。複数エージェントが協調して大きなタスクを分担する「Agent Teams」と、サブエージェントへの動的タスク分解を行う「Dynamic Workflows」が標準化。コードゼロでも使えるCoworkもGA済み。\n:link: <https://www.ai-souken.com/article/claude-code-updates-2026>\n3. _GitHub Copilot が従量課金制（AI Credits）に完全移行_\n└ 6月1日より全プランがAI Creditsによる従量課金に移行。Copilotコードレビュー機能がGitHub Actionsの実行時間も消費するよう変更。Proプラン$10/月・Pro+プラン$39/月（Opusモデルアクセス付き）。ユーザーレベルの予算管理機能も追加。\n:link: <https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/>\n4. <http://_Z.ai|_Z.ai>「GLM-5.2」リリース — 100万トークンコンテキスト対応_\n└ 6月13日にGLM-5.2が公開。実用的な100万トークンコンテキストウィンドウとHigh/Maxエフォートレベルを搭載。Anthropic互換エンドポイント経由でClaude Code、Cline、OpenClawとの統合が可能。\n:link: <https://www.marktechpost.com/2026/06/10/ai-coding-agents-development-platforms-2026/>\n5. _Agentic Codingが業界標準へ — AWS・Google・Microsoftなど各社が一斉展開_\n└ AIコーディングツールがオートコンプリートやAI IDEから「エージェントワークフロー」へ進化。AWS、Google Cloud、GitHub、Databricksなどが「エージェントを新しいソフトウェアレイヤー」として位置づけ戦略展開中。Googleの内部エージェントツール「Agent Smith」も注目。\n:link: <https://medium.com/@dave-patten/the-state-of-ai-coding-agents-2026-from-pair-programming-to-autonomous-ai-teams-b11f2b39232a> *使用して送信されました* Claude",
+          "messageTs": "1781661478.054239",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-17",
+          "timestamp": "2026-06-17T01:57:58.054Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1781669086.531879",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "SpaceXがIPO（750億ドル調達・史上最大規模）からわずか数日で、Cursorを600億ドル相当の株式交換で買収したのは痺れます。現金ではなく株式対価とはいえ、上場直後にこれだけの規模のディールを実行するのはイーロンマスクにしかできない離れ業だと思います。AnthropicやOpenAIに対抗するための戦略的な布石で、業界再編（大手による買収合戦）が加速する予感がしました。",
+          "rawText": "SpaceXがIPO（750億ドル調達・史上最大規模）からわずか数日で、Cursorを600億ドル相当の株式交換で買収したのは痺れます。現金ではなく株式対価とはいえ、上場直後にこれだけの規模のディールを実行するのはイーロンマスクにしかできない離れ業だと思います。AnthropicやOpenAIに対抗するための戦略的な布石で、業界再編（大手による買収合戦）が加速する予感がしました。",
+          "messageTs": "1781669086.531879",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-17",
+          "timestamp": "2026-06-17T04:04:46.531Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 147,
+      "messageCount": 149,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-06-15"
+      "lastDate": "2026-06-17"
     },
     {
       "id": "C09Q1KNL2P8",
