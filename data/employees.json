@@ -2615,5 +2615,35 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0B9S2057EE"
+  },
+  {
+    "name": "増田 新太郎",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-06-19T04:55:23.764Z",
+    "updatedAt": "2026-06-19T04:55:23.764Z",
+    "last_updated": "2026-06-19T04:55:23.764Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BB85WB97D"
+  },
+  {
+    "name": "志賀海星",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-06-19T04:55:23.790Z",
+    "updatedAt": "2026-06-19T04:55:23.790Z",
+    "last_updated": "2026-06-19T04:55:23.790Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BBGUX353K"
   }
 ]

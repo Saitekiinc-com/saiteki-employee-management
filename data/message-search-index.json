@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-18T04:27:31.217Z",
+  "generatedAt": "2026-06-19T04:55:24.013Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -55357,6 +55357,424 @@
         }
       ],
       "searchText": "3について リンクに飛ぶとAnthropicの直近のレポートがダウンロードできました。資料PDF添付します。以下に要約も置いておきます。 個人的には「セキュリティ分野もAIにより民主化される」という記載部分が真だとすると、この1年間で「AIにより作られたシステムに対してセキュリティ分野が価値を発揮する」という文脈で語られてきたことも全て前提が崩れるなと思いました。 *2026 Agentic Coding Trends Report 要約* 全体のテーマ 「コードを書く」から「エージェントを指揮する」へ。AIはもはや補助ツールではなく、*開発の恒常的な共同作業者*になりつつある。ただし「完全委任」ではなく、人間の監督・判断が依然として不可欠。 ■ 基盤トレンド：大きなパラダイムシフト *Trend 1：ソフトウェア開発ライフサイクルの劇的変化* • 実装・テスト・ドキュメント作成をAIが担うことで、開発サイクルが「週単位→時間単位」に圧縮 • エンジニアの役割が「コードを書く人」から「エージェントを指揮する人」へ変化 • 新しいコードベースへのオンボーディングが「数週間→数時間」に短縮 ■ 能力トレンド：エージェントにできること *Trend 2：単一エージェント → 複数エージェントのチーム化* • 複数の専門エージェントが並列で動作し、より複雑なタスクを処理 • 例：採用プラットフォームFountainが階層型マルチエージェントで選考速度50%向上、新拠点の人員配置を1週間以上→72時間以内に短縮 *Trend 3：長時間稼働エージェントが完全なシステムを構築* • 数分の単発タスクから、*数日〜数週間の自律的な開発*へ • 例：楽天がvLLM（1,250万行）への機能実装を7時間で完了（精度99.9%） *Trend 4：人間の監督を「インテリジェントな協働」でスケール* • AIが「判断が必要な場面」を自ら認識し、人間に委ねる仕組みへ • エンジニアがAIを使う作業は約60%だが、「完全委任」できるのは0〜20%に留まる • 人間の役割は「全部レビュー」から「重要な箇所だけレビュー」へ *Trend 5：新しい領域・ユーザーへの拡張* • COBOLやFortranなどのレガシー言語にも対応拡大 • エンジニア以外（セキュリティ、デザイン、法務など）もコーディングエージェントを活用 ■ インパクトトレンド：ビジネスへの影響 *Trend 6：生産性向上が開発経済を再編* • 開発スピードの向上だけでなく、*アウトプット量*が大幅増（これまで着手できなかったタスクも実行可能に） • AI支援作業の約27%は「AIがなければ実施されなかったタスク」 • 例：TELUSが13,000以上のカスタムAIソリューションを作成、コーディング速度30%向上、50...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781759064.549079",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781759064.549079",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781759064.549079",
+      "timestamp": "2026-06-18T05:04:24.549Z",
+      "detailBullets": [
+        "<@U0B9S2057EE> 安増さん、あらためてよろしくお願いします！ご入社承諾頂けて嬉しいです！ ピアノ弾ける男性ってめちゃくちゃ憧れます！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781759064.549079",
+          "text": "<@U0B9S2057EE> 安増さん、あらためてよろしくお願いします！ご入社承諾頂けて嬉しいです！ ピアノ弾ける男性ってめちゃくちゃ憧れます！！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781759064.549079",
+          "threadTs": "1781495517.560449",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B9S2057EE> 安増さん、あらためてよろしくお願いします！ご入社承諾頂けて嬉しいです！ ピアノ弾ける男性ってめちゃくちゃ憧れます！！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781774827.831839",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781774827.831839",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781774827.831839",
+      "timestamp": "2026-06-18T09:27:07.831Z",
+      "detailBullets": [
+        "Letter of Tで報告していたSky株式会社の案件にSaitekiから2人のエンジニアの方の参画が派遣契約にて決まりました:tada: 全員のおかげで会社が前に進んでいます。今回も、面談対応してくれた2人に心から感謝です。 これで3期目にして売上1,700億円の巨大SIerとの取引が実現します！！また週末のLetterにもう少し詳しく記載します:saluting_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781774827.831839",
+          "text": "Letter of Tで報告していたSky株式会社の案件にSaitekiから2人のエンジニアの方の参画が派遣契約にて決まりました:tada: 全員のおかげで会社が前に進んでいます。今回も、面談対応してくれた2人に心から感謝です。 これで3期目にして売上1,700億円の巨大SIerとの取引が実現します！！また週末のLetterにもう少し詳しく記載します:saluting_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781774827.831839",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "Letter of Tで報告していたSky株式会社の案件にSaitekiから2人のエンジニアの方の参画が派遣契約にて決まりました:tada: 全員のおかげで会社が前に進んでいます。今回も、面談対応してくれた2人に心から感謝です。 これで3期目にして売上1,700億円の巨大SIerとの取引が実現します！！また週末のLetterにもう少し詳しく記載します:saluting_face:\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781794167.848579",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781794167.848579",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781794167.848579",
+      "timestamp": "2026-06-18T14:49:27.848Z",
+      "detailBullets": [
+        "いいですね！きれいですね！！ ゴッホ展もぜひぜひ行ってみて下さい！ 神戸で見た者としては、激推しです:laughing: ゴッホの前期は土臭い暗い絵がほとんどですが、とにかく絵がめちゃくちゃうまいですし、この暗さから後期の鮮やかな色彩に変化していくんだ…と想像すると、胸に来るものがあります:pleading_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781794167.848579",
+          "text": "いいですね！きれいですね！！ ゴッホ展もぜひぜひ行ってみて下さい！ 神戸で見た者としては、激推しです:laughing: ゴッホの前期は土臭い暗い絵がほとんどですが、とにかく絵がめちゃくちゃうまいですし、この暗さから後期の鮮やかな色彩に変化していくんだ…と想像すると、胸に来るものがあります:pleading_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781794167.848579",
+          "threadTs": "1781444181.349029",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "いいですね！きれいですね！！ ゴッホ展もぜひぜひ行ってみて下さい！ 神戸で見た者としては、激推しです:laughing: ゴッホの前期は土臭い暗い絵がほとんどですが、とにかく絵がめちゃくちゃうまいですし、この暗さから後期の鮮やかな色彩に変化していくんだ…と想像すると、胸に来るものがあります:pleading_face:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781796479.571159",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781796479.571159",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781796479.571159",
+      "timestamp": "2026-06-18T15:27:59.571Z",
+      "detailBullets": [
+        "今、業務でAndroid TVの再生アプリ (TVのコア機能です) を新しいプラットフォームに移植する作業をやっているんですが、再生アプリの中にとてもいい設計があるのでシェアします。 皆さん、デザインパターンというものはご存知でしょうか？ ソフトウェアの設計・実装品質を高めることができる、先人の知恵が詰まった設計定石のことです。 代表的なものには、Singieton, Builder, Factory Metodパターンなどがあります。 TV再生アプリの中で登場したのは、Adapterパターンです。 僕は個人的に、エンジニアが武器とすべきデザインパターンをひとつ挙げろと言われたら、迷わずAdapterパターンを挙げます。 Adapterパターンは乱暴に言うとWrapperに近いですが、本質は「既存資産を壊さずに進化させるための技術」です。 システム移植、ライブラリ交換、リファクタリング、再設計などで特に威力を発揮します。 実際、TVの再生アプリも、Adapterパターンで設計されているおかげで、新しいプラットフォームに移植しても実装はちょっとで済みそうです。(たぶん1機能あたり100..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781796479.571159",
+          "text": "今、業務でAndroid TVの再生アプリ (TVのコア機能です) を新しいプラットフォームに移植する作業をやっているんですが、再生アプリの中にとてもいい設計があるのでシェアします。 皆さん、デザインパターンというものはご存知でしょうか？ ソフトウェアの設計・実装品質を高めることができる、先人の知恵が詰まった設計定石のことです。 代表的なものには、Singieton, Builder, Factory Metodパターンなどがあります。 TV再生アプリの中で登場したのは、Adapterパターンです。 僕は個人的に、エンジニアが武器とすべきデザインパターンをひとつ挙げろと言われたら、迷わずAdapterパターンを挙げます。 Adapterパターンは乱暴に言うとWrapperに近いですが、本質は「既存資産を壊さずに進化させるための技術」です。 システム移植、ライブラリ交換、リファクタリング、再設計などで特に威力を発揮します。 実際、TVの再生アプリも、Adapterパターンで設計されているおかげで、新しいプラットフォームに移植しても実装はちょっとで済みそうです。(たぶん1機能あたり100ステップ未満) 修正の影響範囲も特定しやすい=テスト設計しやすい、というのもポイント高いです。 Adapterパターンとはどういうものか、以下の記事が分かりやすいです。 <https://refactoring.guru/design-patterns/adapter|https://refactoring.guru/design-patterns/adapter>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781796479.571159",
+          "threadTs": "1781796479.571159",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "今、業務でAndroid TVの再生アプリ (TVのコア機能です) を新しいプラットフォームに移植する作業をやっているんですが、再生アプリの中にとてもいい設計があるのでシェアします。 皆さん、デザインパターンというものはご存知でしょうか？ ソフトウェアの設計・実装品質を高めることができる、先人の知恵が詰まった設計定石のことです。 代表的なものには、Singieton, Builder, Factory Metodパターンなどがあります。 TV再生アプリの中で登場したのは、Adapterパターンです。 僕は個人的に、エンジニアが武器とすべきデザインパターンをひとつ挙げろと言われたら、迷わずAdapterパターンを挙げます。 Adapterパターンは乱暴に言うとWrapperに近いですが、本質は「既存資産を壊さずに進化させるための技術」です。 システム移植、ライブラリ交換、リファクタリング、再設計などで特に威力を発揮します。 実際、TVの再生アプリも、Adapterパターンで設計されているおかげで、新しいプラットフォームに移植しても実装はちょっとで済みそうです。(たぶん1機能あたり100ステップ未満) 修正の影響範囲も特定しやすい=テスト設計しやすい、というのもポイント高いです。 Adapterパターンとはどういうものか、以下の記事が分かりやすいです。 <https://refactoring.guru/design-patterns/adapter|https://refactoring.guru/design-patterns/adapter>\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781823864.442729",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781823864.442729",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781823864.442729",
+      "timestamp": "2026-06-18T23:04:24.442Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026/06/18_ 1. _Claude Design が Claude Code と直接連携 — デザインからコードへのシームレスなハンドオフ_ └ Anthropic が Claude Design の大型アップデートを本日リリース。ローカルコードベースからデザインを開始し、スクリーンショット不要でそのまま Claude Code へ引き渡せるようになった。ターミナルで `/design` と入力するだけで Claude Code 内からデザイン編集も可能。GitHub やローカルファイルからデザインシステムを構築できる柔軟なインポートツールも追加。 :link: <https://techmymoney.com/2026/06/18/claude-design-now-hands-off-designs-straight-to-claude-code/> 2. _Cursor がクラウドエージェント機能を大幅強化_ └ 本日のアップデートで Cursor の Agents Window にクラウドエージェント機能が追加。..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781823864.442729",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026/06/18_ 1. _Claude Design が Claude Code と直接連携 — デザインからコードへのシームレスなハンドオフ_ └ Anthropic が Claude Design の大型アップデートを本日リリース。ローカルコードベースからデザインを開始し、スクリーンショット不要でそのまま Claude Code へ引き渡せるようになった。ターミナルで `/design` と入力するだけで Claude Code 内からデザイン編集も可能。GitHub やローカルファイルからデザインシステムを構築できる柔軟なインポートツールも追加。 :link: <https://techmymoney.com/2026/06/18/claude-design-now-hands-off-designs-straight-to-claude-code/> 2. _Cursor がクラウドエージェント機能を大幅強化_ └ 本日のアップデートで Cursor の Agents Window にクラウドエージェント機能が追加。クラウド環境のセットアップ高速化、再利用可能なスナップショット、並列作業用の `/in-cloud` サブエージェントを導入。ローカルとクラウド間のハンドオフも改善された。 :link: <https://releasebot.io/updates/cursor> 3. _SpaceX が AI コーディングスタートアップ Cursor を 600億ドルで買収（6/16）_ └ SpaceX が ...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781823864.442729",
+          "threadTs": "1781823864.442729",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026/06/18_ 1. _Claude Design が Claude Code と直接連携 — デザインからコードへのシームレスなハンドオフ_ └ Anthropic が Claude Design の大型アップデートを本日リリース。ローカルコードベースからデザインを開始し、スクリーンショット不要でそのまま Claude Code へ引き渡せるようになった。ターミナルで `/design` と入力するだけで Claude Code 内からデザイン編集も可能。GitHub やローカルファイルからデザインシステムを構築できる柔軟なインポートツールも追加。 :link: <https://techmymoney.com/2026/06/18/claude-design-now-hands-off-designs-straight-to-claude-code/> 2. _Cursor がクラウドエージェント機能を大幅強化_ └ 本日のアップデートで Cursor の Agents Window にクラウドエージェント機能が追加。クラウド環境のセットアップ高速化、再利用可能なスナップショット、並列作業用の `/in-cloud` サブエージェントを導入。ローカルとクラウド間のハンドオフも改善された。 :link: <https://releasebot.io/updates/cursor> 3. _SpaceX が AI コーディングスタートアップ Cursor を 600億ドルで買収（6/16）_ └ SpaceX が IPO 直後に Cursor（Anysphere）を600億ドルの全株式交換で買収すると発表。Cursor は年間経常収益 30億ドル、MIT 出身の4人が設立したわずか数年の会社。SpaceX の AI 部門（xAI と合併済み）が主要 AI ラボに追いつくための戦略的買収とみられる。 :link: <https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/> 4. _GitHub Copilot アプリが macOS・Windows・Linux で正式 GA（6/17）_ └ GitHub Copilot のデスクトップアプリが全プラットフォームで正式リリース。Issue や PR からセッションを開始し、複数リポジトリでの並列エージェントセッションを実行可能。PR 作成前にdiff をレビューする機能も搭載。エージェント駆動開発のデスクトップハブと位置付けられている。 :link: <https://github.blog/chan...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1781824446.019099",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1781824446.019099",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1781824446.019099",
+      "timestamp": "2026-06-18T23:14:06.019Z",
+      "detailBullets": [
+        "AWSの解説。 モノリシックなサービスをいかに安全にマイクロサービスに分割、移行するかが丁寧に解説されています。 ちょっと難しめの印象ですが、極めて実践的で大事な考え方・手法だと思います。 Strangler Fig Patternというものは今回初めて知りましたが、考え方はAdapterパターンと本質的に同じだと思います。 <https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html|https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1781824446.019099",
+          "text": "AWSの解説。 モノリシックなサービスをいかに安全にマイクロサービスに分割、移行するかが丁寧に解説されています。 ちょっと難しめの印象ですが、極めて実践的で大事な考え方・手法だと思います。 Strangler Fig Patternというものは今回初めて知りましたが、考え方はAdapterパターンと本質的に同じだと思います。 <https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html|https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1781824446.019099",
+          "threadTs": "1781796479.571159",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "AWSの解説。 モノリシックなサービスをいかに安全にマイクロサービスに分割、移行するかが丁寧に解説されています。 ちょっと難しめの印象ですが、極めて実践的で大事な考え方・手法だと思います。 Strangler Fig Patternというものは今回初めて知りましたが、考え方はAdapterパターンと本質的に同じだと思います。 <https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html|https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html>\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781833485.551159",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:増田 新太郎",
+      "personName": "増田 新太郎",
+      "slackIds": [
+        "U0BB85WB97D"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781833485.551159",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781833485.551159",
+      "timestamp": "2026-06-19T01:44:45.551Z",
+      "detailBullets": [
+        "初めまして。 10月入社予定の増田新太郎(ますだしんたろう)と申します。 :white_medium_small_square:出身地 愛知県 :white_medium_small_square:これまでやってきたこと 自社システム構築、情シスのヘルプデスク業務に携わってきました。 :white_medium_small_square:スノボ、旅行、最近はピザ作りにハマってます:pizza: :white_medium_small_square:ひとこと 新しい環境で学ぶことも多いですが、これまでの経験も活かしつつ、1日でも早く貢献できるよう積極的にチャレンジしていきます。 これからよろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781833485.551159",
+          "text": "初めまして。 10月入社予定の増田新太郎(ますだしんたろう)と申します。 :white_medium_small_square:出身地 愛知県 :white_medium_small_square:これまでやってきたこと 自社システム構築、情シスのヘルプデスク業務に携わってきました。 :white_medium_small_square:スノボ、旅行、最近はピザ作りにハマってます:pizza: :white_medium_small_square:ひとこと 新しい環境で学ぶことも多いですが、これまでの経験も活かしつつ、1日でも早く貢献できるよう積極的にチャレンジしていきます。 これからよろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781833485.551159",
+          "threadTs": "1781833485.551159",
+          "authorName": "増田 新太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 10月入社予定の増田新太郎(ますだしんたろう)と申します。 :white_medium_small_square:出身地 愛知県 :white_medium_small_square:これまでやってきたこと 自社システム構築、情シスのヘルプデスク業務に携わってきました。 :white_medium_small_square:スノボ、旅行、最近はピザ作りにハマってます:pizza: :white_medium_small_square:ひとこと 新しい環境で学ぶことも多いですが、これまでの経験も活かしつつ、1日でも早く貢献できるよう積極的にチャレンジしていきます。 これからよろしくお願いいたします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781834989.432409",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781834989.432409",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781834989.432409",
+      "timestamp": "2026-06-19T02:09:49.432Z",
+      "detailBullets": [
+        "Cursorの買収はもう見飽きました 同じような内容のニュースは排除する仕様に変更します"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781834989.432409",
+          "text": "Cursorの買収はもう見飽きました 同じような内容のニュースは排除する仕様に変更します",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781834989.432409",
+          "threadTs": "1781823864.442729",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "Cursorの買収はもう見飽きました 同じような内容のニュースは排除する仕様に変更します\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781835698.368589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781835698.368589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781835698.368589",
+      "timestamp": "2026-06-19T02:21:38.368Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-06-19_ 1. _Claude CodeにArtifacts機能がベータ公開 — 作業内容をライブページとして共有可能に_ └ 6月18日より、Claude Codeのセッション内容（PRレビュー、ダッシュボード、調査ログ等）をインタラクティブなWebページとして変換・共有できるArtifactsがベータ提供開始。チームメンバーはリアルタイムで更新を確認可能。Team/Enterpriseプラン限定。 :link: <https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises> 2. _Google、Gemini Code Assist 個人向けIDE拡張とCLIを6/18で終了 — Antigravity CLIへ移行_ └ Google AI無料・Pro・Ultraプランの個人向けGemini ..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781835698.368589",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-19_ 1. _Claude CodeにArtifacts機能がベータ公開 — 作業内容をライブページとして共有可能に_ └ 6月18日より、Claude Codeのセッション内容（PRレビュー、ダッシュボード、調査ログ等）をインタラクティブなWebページとして変換・共有できるArtifactsがベータ提供開始。チームメンバーはリアルタイムで更新を確認可能。Team/Enterpriseプラン限定。 :link: <https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises> 2. _Google、Gemini Code Assist 個人向けIDE拡張とCLIを6/18で終了 — Antigravity CLIへ移行_ └ Google AI無料・Pro・Ultraプランの個人向けGemini Code Assist（IDE拡張 + Gemini CLI）が6月18日より応答停止。後継はAntigravity CLI（クローズドソース）。GitHubの組織向けプラグインも新規インストール受け付けを停止。移行未対応のワークフローは要確認。 :link: <https://developers.google.com/gemini-code-assist/docs/deprecations/c...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781835698.368589",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-06-19_ 1. _Claude CodeにArtifacts機能がベータ公開 — 作業内容をライブページとして共有可能に_ └ 6月18日より、Claude Codeのセッション内容（PRレビュー、ダッシュボード、調査ログ等）をインタラクティブなWebページとして変換・共有できるArtifactsがベータ提供開始。チームメンバーはリアルタイムで更新を確認可能。Team/Enterpriseプラン限定。 :link: <https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises> 2. _Google、Gemini Code Assist 個人向けIDE拡張とCLIを6/18で終了 — Antigravity CLIへ移行_ └ Google AI無料・Pro・Ultraプランの個人向けGemini Code Assist（IDE拡張 + Gemini CLI）が6月18日より応答停止。後継はAntigravity CLI（クローズドソース）。GitHubの組織向けプラグインも新規インストール受け付けを停止。移行未対応のワークフローは要確認。 :link: <https://developers.google.com/gemini-code-assist/docs/deprecations/code-assist-individuals> 3. _WindsurfがDevin Desktopにリブランド — Cascadeは7月1日でEOL（要移行対応）_ └ 6月2日、WindsurfがCognitionのDevin Desktopとして静かに改名。エージェントはCascadeからDevin Local（Rust製・トークン30%削減・サブエージェント対応）に置き換え。Cascadeは7月1日完全終了予定のため、CI/CDや自動化スクリプトでCascadeを呼んでいる場合は今すぐDevin Localに移行を。 :link: <https://devin.ai/blog/windsurf-is-now-devin-desktop/> 4. _AI開発コストが急騰 — UberはClaude Code予算を4月に使い果たし、MSは社内ライセンス取り消し_ └ TechCrunchの調査によると、大手企業でAI駆動開発のトークンコストが予算を大幅に超過する事例が続出。Uberは2026年AI開発予算を4月に使い切り、MicrosoftはClaude Code社内ライセンスを数...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781837080.815899",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:志賀海星",
+      "personName": "志賀海星",
+      "slackIds": [
+        "U0BBGUX353K"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781837080.815899",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781837080.815899",
+      "timestamp": "2026-06-19T02:44:40.815Z",
+      "detailBullets": [
+        "初めまして 7月もしくは8月入社予定の志賀 海星(しが かいせい)と申します ◼︎出身地 山口県出身 福岡県在住 今月末に、九州の佐賀県に引っ越す予定です ◼︎これまでやってきたこと ５年間ほど、Webの業務システム（php,ruby等）の開発、運用保守をメインでやってきました ◼︎趣味 お笑い芸人さんの動画、サウナ、ゴルフ、お酒:beer: 引っ越したらランニングを本格的に始めるつもりです:man-running: ◼︎休日の過ごし方 恋愛リアリティを見ながら飲酒してます ◼︎ひとこと まだまだ未熟ですが、皆様からいろいろ吸収して戦力となれるよう頑張ります！ これからどうぞよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781837080.815899",
+          "text": "初めまして 7月もしくは8月入社予定の志賀 海星(しが かいせい)と申します ◼︎出身地 山口県出身 福岡県在住 今月末に、九州の佐賀県に引っ越す予定です ◼︎これまでやってきたこと ５年間ほど、Webの業務システム（php,ruby等）の開発、運用保守をメインでやってきました ◼︎趣味 お笑い芸人さんの動画、サウナ、ゴルフ、お酒:beer: 引っ越したらランニングを本格的に始めるつもりです:man-running: ◼︎休日の過ごし方 恋愛リアリティを見ながら飲酒してます ◼︎ひとこと まだまだ未熟ですが、皆様からいろいろ吸収して戦力となれるよう頑張ります！ これからどうぞよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781837080.815899",
+          "threadTs": "1781837080.815899",
+          "authorName": "志賀海星",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして 7月もしくは8月入社予定の志賀 海星(しが かいせい)と申します ◼︎出身地 山口県出身 福岡県在住 今月末に、九州の佐賀県に引っ越す予定です ◼︎これまでやってきたこと ５年間ほど、Webの業務システム（php,ruby等）の開発、運用保守をメインでやってきました ◼︎趣味 お笑い芸人さんの動画、サウナ、ゴルフ、お酒:beer: 引っ越したらランニングを本格的に始めるつもりです:man-running: ◼︎休日の過ごし方 恋愛リアリティを見ながら飲酒してます ◼︎ひとこと まだまだ未熟ですが、皆様からいろいろ吸収して戦力となれるよう頑張ります！ これからどうぞよろしくお願いいたします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781838918.939889",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781838918.939889",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781838918.939889",
+      "timestamp": "2026-06-19T03:15:18.939Z",
+      "detailBullets": [
+        "<@U0BB85WB97D> 増田さん、あらためてよろしくお願いします！ ピザ作りにハマってるのかっこいいです！食べてみたいです:sparkles: 生地から作るんですかね、オシャレなピザ作るんでしょうね、、笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781838918.939889",
+          "text": "<@U0BB85WB97D> 増田さん、あらためてよろしくお願いします！ ピザ作りにハマってるのかっこいいです！食べてみたいです:sparkles: 生地から作るんですかね、オシャレなピザ作るんでしょうね、、笑",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781838918.939889",
+          "threadTs": "1781833485.551159",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BB85WB97D> 増田さん、あらためてよろしくお願いします！ ピザ作りにハマってるのかっこいいです！食べてみたいです:sparkles: 生地から作るんですかね、オシャレなピザ作るんでしょうね、、笑\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1781839043.185909",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1781839043.185909",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1781839043.185909",
+      "timestamp": "2026-06-19T03:17:23.185Z",
+      "detailBullets": [
+        "<@U0BBGUX353K> 志賀さん、あらためてよろしくお願いします！ お笑い芸人さんの動画、サウナ、ゴルフ、お酒 僕も全部好きです笑 ジャルジャルのYoutubeを見ながら寝落ちする日が週に2、3回あります そしてランニング最高すね！ぜひマラソン大会一緒に出ましょう！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1781839043.185909",
+          "text": "<@U0BBGUX353K> 志賀さん、あらためてよろしくお願いします！ お笑い芸人さんの動画、サウナ、ゴルフ、お酒 僕も全部好きです笑 ジャルジャルのYoutubeを見ながら寝落ちする日が週に2、3回あります そしてランニング最高すね！ぜひマラソン大会一緒に出ましょう！！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1781839043.185909",
+          "threadTs": "1781837080.815899",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BBGUX353K> 志賀さん、あらためてよろしくお願いします！ お笑い芸人さんの動画、サウナ、ゴルフ、お酒 僕も全部好きです笑 ジャルジャルのYoutubeを見ながら寝落ちする日が週に2、3回あります そしてランニング最高すね！ぜひマラソン大会一緒に出ましょう！！\n自己紹介\n経営"
     }
   ]
 }
