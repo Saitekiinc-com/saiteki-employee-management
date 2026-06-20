@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-19T04:55:24.013Z",
+  "generatedAt": "2026-06-20T04:10:24.373Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -55775,6 +55775,41 @@
         }
       ],
       "searchText": "<@U0BBGUX353K> 志賀さん、あらためてよろしくお願いします！ お笑い芸人さんの動画、サウナ、ゴルフ、お酒 僕も全部好きです笑 ジャルジャルのYoutubeを見ながら寝落ちする日が週に2、3回あります そしてランニング最高すね！ぜひマラソン大会一緒に出ましょう！！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781910383.942549",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781910383.942549",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781910383.942549",
+      "timestamp": "2026-06-19T23:06:23.942Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-06-19_ 1. _Claude Code、自動モードで破壊的gitコマンドを自動ブロックする安全機能を追加_ └ 2026年6月19日付のアップデートで、`git reset --hard` / `git checkout -- .` / `git clean -fd` など作業内容を失いかねない操作を、ユーザーが明示的に指示していない場合はエージェントが実行できないようブロック。また他のセッションで作成したコミットへの `git commit --amend` もブロック対象に。自律エージェント利用時の事故防止策として注目。 :link: <https://code.claude.com/docs/en/changelog> 2. _GitHub Copilot デスクトップアプリが正式GA（macOS / Windows / Linux）_ └ 6月17日、エージェント型開発を中心に設計された GitHub ネイティブのデスクトップアプリが一般提供開始。IDE拡張ではなく単独アプリとして動作し、リポジトリ横断のエ..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781910383.942549",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-19_ 1. _Claude Code、自動モードで破壊的gitコマンドを自動ブロックする安全機能を追加_ └ 2026年6月19日付のアップデートで、`git reset --hard` / `git checkout -- .` / `git clean -fd` など作業内容を失いかねない操作を、ユーザーが明示的に指示していない場合はエージェントが実行できないようブロック。また他のセッションで作成したコミットへの `git commit --amend` もブロック対象に。自律エージェント利用時の事故防止策として注目。 :link: <https://code.claude.com/docs/en/changelog> 2. _GitHub Copilot デスクトップアプリが正式GA（macOS / Windows / Linux）_ └ 6月17日、エージェント型開発を中心に設計された GitHub ネイティブのデスクトップアプリが一般提供開始。IDE拡張ではなく単独アプリとして動作し、リポジトリ横断のエージェント指示やバックグラウンドタスク管理が可能。「コードを書く場所」から「エージェントを指揮する場所」へのシフトを象徴するリリース。 :link: <https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/> 3. _OpenAI が GPT-5.6 をリリース、コーディングベンチマーク首位を...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781910383.942549",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-06-19_ 1. _Claude Code、自動モードで破壊的gitコマンドを自動ブロックする安全機能を追加_ └ 2026年6月19日付のアップデートで、`git reset --hard` / `git checkout -- .` / `git clean -fd` など作業内容を失いかねない操作を、ユーザーが明示的に指示していない場合はエージェントが実行できないようブロック。また他のセッションで作成したコミットへの `git commit --amend` もブロック対象に。自律エージェント利用時の事故防止策として注目。 :link: <https://code.claude.com/docs/en/changelog> 2. _GitHub Copilot デスクトップアプリが正式GA（macOS / Windows / Linux）_ └ 6月17日、エージェント型開発を中心に設計された GitHub ネイティブのデスクトップアプリが一般提供開始。IDE拡張ではなく単独アプリとして動作し、リポジトリ横断のエージェント指示やバックグラウンドタスク管理が可能。「コードを書く場所」から「エージェントを指揮する場所」へのシフトを象徴するリリース。 :link: <https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/> 3. _OpenAI が GPT-5.6 をリリース、コーディングベンチマーク首位を再び争う展開に_ └ GPT-5.6がAGI Rankerのプログラミングリーダーボードに登場し、Claude Opus 4.8 に挑戦。過去3ヶ月でGPT-5.5 → Claude Opus 4.7 → GPT-5.6 と首位が3度交代するほどコーディング性能競争が激化。企業のAI開発ツール選定に直接影響する動向として要注目。 :link: <https://qiita.com/lhjjjk4/items/1d32575db5a9b6ec4caf> 4. _生成AI利用実態調査2026：6割超が「使えなくなると業務に影響」と回答_ └ サイバーセキュリティクラウドが業務で生成AIを利用する会社員360名を対象に実施した調査結果を6月19日に発表。2人に1人が上司・同僚より生成AIを参考にした経験があると回答。AI依存度の高まりがガバナンスやBCP設計に新たな課題を投げかけている。 :link: <https://ai.watch.impress.co.jp/docs/news/2118691.html> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
     }
   ]
 }

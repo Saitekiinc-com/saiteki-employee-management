@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-19T04:55:35.761Z",
+  "generatedAt": "2026-06-20T04:10:26.234Z",
   "channelCount": 9,
-  "totalMessages": 1849,
+  "totalMessages": 1850,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -32688,9 +32688,29 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1781910383.942549",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-19_ 1. _Claude Code、自動モードで破壊的gitコマンドを自動ブロックする安全機能を追加_ └ 2026年6月19日付のアップデートで、`git reset --hard` / `git checkout -- .` / `git clean -fd` など作業内容を失いかねない操作を、ユーザーが明示的に指示していない場合はエージェントが実行できないようブロック。また他のセッションで作成したコミットへの `git commit --amend` もブロック対象に。自律エージェント利用時の事故防止策として注目。 :link: <https://code.claude.com/docs/en/changelog> 2. _GitHub Copilot デスクトップアプリが正式GA（macOS / Windows / Linux）_ └ 6月17日、エージェント型開発を中心に設計された GitHub ネイティブのデスクトップアプリが一般提供開始。IDE拡張ではなく単独アプリとして動作し、リポジトリ横断のエージェント指示やバックグラウンドタスク管理が可能。「コードを書く場所」から「エージェントを指揮する場所」へのシフトを象徴するリリース。 :link: <https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/> 3. _OpenAI が GPT-5.6 をリリース、コーディングベンチマーク首位を再び争う展開に_ └ GPT-5.6がAGI Rankerのプログラミングリーダーボードに登場し、Claude Opus 4.8 に挑戦。過去3ヶ月でGPT-5.5 → Claude Opus 4.7 → GPT-5.6 と首位が3度交代するほどコーディング性能競争が激化。企業のAI開発ツール選定に直接影響する動向として要注目。 :link: <https://qiita.com/lhjjjk4/items/1d32575db5a9b6ec4caf> 4. _生成AI利用実態調査2026：6割超が「使えなくなると業務に影響」と回答_ └ サイバーセキュリティクラウドが業務で生成AIを利用する会社員360名を対象に実施した調査結果を6月19日に発表。2人に1人が上司・同僚より生成AIを参考にした経験があると回答。AI依存度の高まりがガバナンスやBCP設計に新たな課題を投げかけている。 :link: <https://ai.watch.impress.co.jp/docs/news/2118691.html> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-06-19_\n\n1. _Claude Code、自動モードで破壊的gitコマンドを自動ブロックする安全機能を追加_\n└ 2026年6月19日付のアップデートで、`git reset --hard` / `git checkout -- .` / `git clean -fd` など作業内容を失いかねない操作を、ユーザーが明示的に指示していない場合はエージェントが実行できないようブロック。また他のセッションで作成したコミットへの `git commit --amend` もブロック対象に。自律エージェント利用時の事故防止策として注目。\n:link: <https://code.claude.com/docs/en/changelog>\n2. _GitHub Copilot デスクトップアプリが正式GA（macOS / Windows / Linux）_\n└ 6月17日、エージェント型開発を中心に設計された GitHub ネイティブのデスクトップアプリが一般提供開始。IDE拡張ではなく単独アプリとして動作し、リポジトリ横断のエージェント指示やバックグラウンドタスク管理が可能。「コードを書く場所」から「エージェントを指揮する場所」へのシフトを象徴するリリース。\n:link: <https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/>\n3. _OpenAI が GPT-5.6 をリリース、コーディングベンチマーク首位を再び争う展開に_\n└ GPT-5.6がAGI Rankerのプログラミングリーダーボードに登場し、Claude Opus 4.8 に挑戦。過去3ヶ月でGPT-5.5 → Claude Opus 4.7 → GPT-5.6 と首位が3度交代するほどコーディング性能競争が激化。企業のAI開発ツール選定に直接影響する動向として要注目。\n:link: <https://qiita.com/lhjjjk4/items/1d32575db5a9b6ec4caf>\n4. _生成AI利用実態調査2026：6割超が「使えなくなると業務に影響」と回答_\n└ サイバーセキュリティクラウドが業務で生成AIを利用する会社員360名を対象に実施した調査結果を6月19日に発表。2人に1人が上司・同僚より生成AIを参考にした経験があると回答。AI依存度の高まりがガバナンスやBCP設計に新たな課題を投げかけている。\n:link: <https://ai.watch.impress.co.jp/docs/news/2118691.html> *使用して送信されました* Claude",
+          "messageTs": "1781910383.942549",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-19",
+          "timestamp": "2026-06-19T23:06:23.942Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 155,
+      "messageCount": 156,
       "firstDate": "2025-10-31",
       "lastDate": "2026-06-19"
     },
