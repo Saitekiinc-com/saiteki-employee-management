@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-20T04:10:26.234Z",
+  "generatedAt": "2026-06-21T04:51:34.734Z",
   "channelCount": 9,
-  "totalMessages": 1850,
+  "totalMessages": 1853,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -29701,11 +29701,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1781938834.339519",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.06.20）* を共有します。 今週のテーマは *「Sky様との取引が正式スタート！＆『AI駆動開発研究会』メンバー募集のお知らせ」* です。 今週は、先週予告していた大型の仕込みが最速で実を結んだ最高の結果報告と、Saitekiの技術力を次の次元へ引き上げる新しい社内コミュニティの発表です！ • *【菅野さんの参画でSky株式会社様と取引開始！】* ◦ 先週の最終調整から最速で実現。見事に参画を勝ち取ってくれたエンジニアの菅野さん、そして泥臭く関係を築き続けてくれた副社長・鈴木さんの執念の勝利です！商流が非常に浅い（一次請け）ため、今後は「チーム・体制」での参画も見据えて打席を広げていきます。 • *【有志募集：AI駆動開発研究会、始動！】* ◦ 「AIを圧倒的に使いこなすエンジニアになりたい」メンバーを大募集！<@U0A7VHB07J4>さんと他複数の運営メンバーと共に立ち上げます！業務命令ではなく、あくまで趣味の延長（完全任意）として、Claude CodeやGitHub Copilotなどのノウハウ、プロンプトの失敗談をカジュアルに語り合う会です。 「会社が打席を広げ、エンジニアが技術を尖らせて市場価値を広げる」。そんな理想のサイクルを作っていけるように尽力します！ 少しでも興味がある方は、ぜひレター内の募集要項をチェックして戸塚までDMをください！ ▼ Letter of T | 今週の記録（2026.06.20） <https://app.notion.com/p/Letter-of-T-2026-06-20-385dfb42679c80ffb017ef610c2e5dec> 今週も、最高のパフォーマンスをありがとうございました！！",
+          "rawText": "<!channel>\nみなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.06.20）* を共有します。\n\n今週のテーマは\n*「Sky様との取引が正式スタート！＆『AI駆動開発研究会』メンバー募集のお知らせ」* です。\n今週は、先週予告していた大型の仕込みが最速で実を結んだ最高の結果報告と、Saitekiの技術力を次の次元へ引き上げる新しい社内コミュニティの発表です！\n\n• *【菅野さんの参画でSky株式会社様と取引開始！】* \n    ◦ 先週の最終調整から最速で実現。見事に参画を勝ち取ってくれたエンジニアの菅野さん、そして泥臭く関係を築き続けてくれた副社長・鈴木さんの執念の勝利です！商流が非常に浅い（一次請け）ため、今後は「チーム・体制」での参画も見据えて打席を広げていきます。 \n• *【有志募集：AI駆動開発研究会、始動！】* \n    ◦ 「AIを圧倒的に使いこなすエンジニアになりたい」メンバーを大募集！<@U0A7VHB07J4>さんと他複数の運営メンバーと共に立ち上げます！業務命令ではなく、あくまで趣味の延長（完全任意）として、Claude CodeやGitHub Copilotなどのノウハウ、プロンプトの失敗談をカジュアルに語り合う会です。\n「会社が打席を広げ、エンジニアが技術を尖らせて市場価値を広げる」。そんな理想のサイクルを作っていけるように尽力します！\n少しでも興味がある方は、ぜひレター内の募集要項をチェックして戸塚までDMをください！\n\n▼ Letter of T | 今週の記録（2026.06.20）\n<https://app.notion.com/p/Letter-of-T-2026-06-20-385dfb42679c80ffb017ef610c2e5dec>\n\n今週も、最高のパフォーマンスをありがとうございました！！",
+          "messageTs": "1781938834.339519",
+          "threadTs": "1781938834.339519",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-20",
+          "timestamp": "2026-06-20T07:00:34.339Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1782002599.538549",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A7VHB07J4",
+          "userName": "小松田 真伍",
+          "userRealName": "小松田 真伍",
+          "text": "<@U09MGUVJ8BV> このタイミングでもうSkyさんと商流つながるとは:しゅごい_すごい_sugoi_shugoi_syugoi::star-struck: 菅野さんも:副社長:も:saikyo_saikyou_最強::最高: AI駆動開発研究会 バイネーム指名ありがとうございます:saluting_face: Saitekiへの入社理由の一つに 「AIと業務の融合による最適」を思い描いていたので ここから始めていきたいと想います:fire: 楽しくやっていけるだろうなぁ〜と心から想ってます:sparkles:",
+          "rawText": "<@U09MGUVJ8BV>\nこのタイミングでもうSkyさんと商流つながるとは:しゅごい_すごい_sugoi_shugoi_syugoi::star-struck:\n菅野さんも:副社長:も:saikyo_saikyou_最強::最高:\n\nAI駆動開発研究会\nバイネーム指名ありがとうございます:saluting_face:\n\nSaitekiへの入社理由の一つに\n「AIと業務の融合による最適」を思い描いていたので\nここから始めていきたいと想います:fire:\n\n楽しくやっていけるだろうなぁ〜と心から想ってます:sparkles:",
+          "messageTs": "1782002599.538549",
+          "threadTs": "1781938834.339519",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-06-21",
+          "timestamp": "2026-06-21T00:43:19.538Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 276,
+      "messageCount": 278,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-06-16"
+      "lastDate": "2026-06-21"
     },
     {
       "id": "C09QXV3F8G0",
@@ -32708,11 +32748,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1781997061.783149",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-20_ 1. _Claude Code v2.1.185: API応答待機メッセージとタイムアウトを改善_ └ ストリーム停止時のヒント表示が「No response from API · Retrying in…」から「Waiting for API response · will retry in…」に変更。タイムアウト判定も10秒から20秒に延長され、短い遅延で不要なエラーメッセージが表示されなくなる。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.185> 2. _Cline v3.0.28: 新サブスクリプション「ClinePass」のオンボーディング開始_ └ OSSのAIコーディングアシスタントClineが独自サブスクリプション「ClinePass」を導入。プレミアムモデルの選択機能と改善されたエラー管理を提供。ハブダッシュボードのリデザイン、auto-approve設定の即時反映、大型ツール出力のデフォルト切り詰めなども実装。 :link: <https://github.com/cline/cline/releases> 3. _OSS AIコーディングアシスタント「Continue」がv2.0メジャーバージョンをリリース_ └ VS Code・JetBrains対応のオープンソースAIコーディング拡張Continueがメジャーバージョン2.0に到達。同日に早速v2.1.0も公開されており、活発な開発が続いている。 :link: <https://github.com/continuedev/continue/releases/tag/v2.0.0-vscode> 4. _Vercel AI SDK: WorkflowAgentにシステムメッセージ制約・TUIにサンドボックス機能を追加_ └ @ai-sdk/workflow v1.0.0-beta.101でWorkflowAgentがprompt/messages内のシステムメッセージをデフォルト拒否（`allowSystemInMessages: true`で従来動作に戻せる）。@ai-sdk/tui v1.0.0-beta.18ではエージェントストリームのツール実行にsandboxオプションが追加。 :link: <https://github.com/vercel/ai/releases> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-06-20_\n\n1. _Claude Code v2.1.185: API応答待機メッセージとタイムアウトを改善_\n└ ストリーム停止時のヒント表示が「No response from API · Retrying in…」から「Waiting for API response · will retry in…」に変更。タイムアウト判定も10秒から20秒に延長され、短い遅延で不要なエラーメッセージが表示されなくなる。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.185>\n2. _Cline v3.0.28: 新サブスクリプション「ClinePass」のオンボーディング開始_\n└ OSSのAIコーディングアシスタントClineが独自サブスクリプション「ClinePass」を導入。プレミアムモデルの選択機能と改善されたエラー管理を提供。ハブダッシュボードのリデザイン、auto-approve設定の即時反映、大型ツール出力のデフォルト切り詰めなども実装。\n:link: <https://github.com/cline/cline/releases>\n3. _OSS AIコーディングアシスタント「Continue」がv2.0メジャーバージョンをリリース_\n└ VS Code・JetBrains対応のオープンソースAIコーディング拡張Continueがメジャーバージョン2.0に到達。同日に早速v2.1.0も公開されており、活発な開発が続いている。\n:link: <https://github.com/continuedev/continue/releases/tag/v2.0.0-vscode>\n4. _Vercel AI SDK: WorkflowAgentにシステムメッセージ制約・TUIにサンドボックス機能を追加_\n└ @ai-sdk/workflow v1.0.0-beta.101でWorkflowAgentがprompt/messages内のシステムメッセージをデフォルト拒否（`allowSystemInMessages: true`で従来動作に戻せる）。@ai-sdk/tui v1.0.0-beta.18ではエージェントストリームのツール実行にsandboxオプションが追加。\n:link: <https://github.com/vercel/ai/releases> *使用して送信されました* Claude",
+          "messageTs": "1781997061.783149",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-20",
+          "timestamp": "2026-06-20T23:11:01.783Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 156,
+      "messageCount": 157,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-06-19"
+      "lastDate": "2026-06-20"
     },
     {
       "id": "C09Q1KNL2P8",

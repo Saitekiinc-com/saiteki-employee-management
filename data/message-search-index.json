@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-20T04:10:24.373Z",
+  "generatedAt": "2026-06-21T04:51:31.112Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -55810,6 +55810,111 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-06-19_ 1. _Claude Code、自動モードで破壊的gitコマンドを自動ブロックする安全機能を追加_ └ 2026年6月19日付のアップデートで、`git reset --hard` / `git checkout -- .` / `git clean -fd` など作業内容を失いかねない操作を、ユーザーが明示的に指示していない場合はエージェントが実行できないようブロック。また他のセッションで作成したコミットへの `git commit --amend` もブロック対象に。自律エージェント利用時の事故防止策として注目。 :link: <https://code.claude.com/docs/en/changelog> 2. _GitHub Copilot デスクトップアプリが正式GA（macOS / Windows / Linux）_ └ 6月17日、エージェント型開発を中心に設計された GitHub ネイティブのデスクトップアプリが一般提供開始。IDE拡張ではなく単独アプリとして動作し、リポジトリ横断のエージェント指示やバックグラウンドタスク管理が可能。「コードを書く場所」から「エージェントを指揮する場所」へのシフトを象徴するリリース。 :link: <https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/> 3. _OpenAI が GPT-5.6 をリリース、コーディングベンチマーク首位を再び争う展開に_ └ GPT-5.6がAGI Rankerのプログラミングリーダーボードに登場し、Claude Opus 4.8 に挑戦。過去3ヶ月でGPT-5.5 → Claude Opus 4.7 → GPT-5.6 と首位が3度交代するほどコーディング性能競争が激化。企業のAI開発ツール選定に直接影響する動向として要注目。 :link: <https://qiita.com/lhjjjk4/items/1d32575db5a9b6ec4caf> 4. _生成AI利用実態調査2026：6割超が「使えなくなると業務に影響」と回答_ └ サイバーセキュリティクラウドが業務で生成AIを利用する会社員360名を対象に実施した調査結果を6月19日に発表。2人に1人が上司・同僚より生成AIを参考にした経験があると回答。AI依存度の高まりがガバナンスやBCP設計に新たな課題を投げかけている。 :link: <https://ai.watch.impress.co.jp/docs/news/2118691.html> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1781938834.339519",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1781938834.339519",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1781938834.339519",
+      "timestamp": "2026-06-20T07:00:34.339Z",
+      "detailBullets": [
+        "<!channel> みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.06.20）* を共有します。 今週のテーマは *「Sky様との取引が正式スタート！＆『AI駆動開発研究会』メンバー募集のお知らせ」* です。 今週は、先週予告していた大型の仕込みが最速で実を結んだ最高の結果報告と、Saitekiの技術力を次の次元へ引き上げる新しい社内コミュニティの発表です！ • *【菅野さんの参画でSky株式会社様と取引開始！】* ◦ 先週の最終調整から最速で実現。見事に参画を勝ち取ってくれたエンジニアの菅野さん、そして泥臭く関係を築き続けてくれた副社長・鈴木さんの執念の勝利です！商流が非常に浅い（一次請け）ため、今後は「チーム・体制」での参画も見据えて打席を広げていきます。 • *【有志募集：AI駆動開発研究会、始動！】* ◦ 「AIを圧倒的に使いこなすエンジニアになりたい」メンバーを大募集！<@U0A7VHB07J4>さんと他複数の運営メンバーと共に立ち上げます！業務命令ではなく、あくまで趣味の延長（完全任意）として、Claude CodeやGitHub..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1781938834.339519",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.06.20）* を共有します。 今週のテーマは *「Sky様との取引が正式スタート！＆『AI駆動開発研究会』メンバー募集のお知らせ」* です。 今週は、先週予告していた大型の仕込みが最速で実を結んだ最高の結果報告と、Saitekiの技術力を次の次元へ引き上げる新しい社内コミュニティの発表です！ • *【菅野さんの参画でSky株式会社様と取引開始！】* ◦ 先週の最終調整から最速で実現。見事に参画を勝ち取ってくれたエンジニアの菅野さん、そして泥臭く関係を築き続けてくれた副社長・鈴木さんの執念の勝利です！商流が非常に浅い（一次請け）ため、今後は「チーム・体制」での参画も見据えて打席を広げていきます。 • *【有志募集：AI駆動開発研究会、始動！】* ◦ 「AIを圧倒的に使いこなすエンジニアになりたい」メンバーを大募集！<@U0A7VHB07J4>さんと他複数の運営メンバーと共に立ち上げます！業務命令ではなく、あくまで趣味の延長（完全任意）として、Claude CodeやGitHub Copilotなどのノウハウ、プロンプトの失敗談をカジュアルに語り合う会です。 「会社が打席を広げ、エンジニアが技術を尖らせて市場価値を広げる」。そんな理想のサイクルを作っていけるように尽力します！ 少しでも興味がある方は、ぜひレター内の募集要項をチェックして戸塚までDMをください！ ▼ Letter of T | 今週の記録（2026.06.20） <https://app.notion.co...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1781938834.339519",
+          "threadTs": "1781938834.339519",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.06.20）* を共有します。 今週のテーマは *「Sky様との取引が正式スタート！＆『AI駆動開発研究会』メンバー募集のお知らせ」* です。 今週は、先週予告していた大型の仕込みが最速で実を結んだ最高の結果報告と、Saitekiの技術力を次の次元へ引き上げる新しい社内コミュニティの発表です！ • *【菅野さんの参画でSky株式会社様と取引開始！】* ◦ 先週の最終調整から最速で実現。見事に参画を勝ち取ってくれたエンジニアの菅野さん、そして泥臭く関係を築き続けてくれた副社長・鈴木さんの執念の勝利です！商流が非常に浅い（一次請け）ため、今後は「チーム・体制」での参画も見据えて打席を広げていきます。 • *【有志募集：AI駆動開発研究会、始動！】* ◦ 「AIを圧倒的に使いこなすエンジニアになりたい」メンバーを大募集！<@U0A7VHB07J4>さんと他複数の運営メンバーと共に立ち上げます！業務命令ではなく、あくまで趣味の延長（完全任意）として、Claude CodeやGitHub Copilotなどのノウハウ、プロンプトの失敗談をカジュアルに語り合う会です。 「会社が打席を広げ、エンジニアが技術を尖らせて市場価値を広げる」。そんな理想のサイクルを作っていけるように尽力します！ 少しでも興味がある方は、ぜひレター内の募集要項をチェックして戸塚までDMをください！ ▼ Letter of T | 今週の記録（2026.06.20） <https://app.notion.com/p/Letter-of-T-2026-06-20-385dfb42679c80ffb017ef610c2e5dec> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1781997061.783149",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1781997061.783149",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1781997061.783149",
+      "timestamp": "2026-06-20T23:11:01.783Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-06-20_ 1. _Claude Code v2.1.185: API応答待機メッセージとタイムアウトを改善_ └ ストリーム停止時のヒント表示が「No response from API · Retrying in…」から「Waiting for API response · will retry in…」に変更。タイムアウト判定も10秒から20秒に延長され、短い遅延で不要なエラーメッセージが表示されなくなる。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.185> 2. _Cline v3.0.28: 新サブスクリプション「ClinePass」のオンボーディング開始_ └ OSSのAIコーディングアシスタントClineが独自サブスクリプション「ClinePass」を導入。プレミアムモデルの選択機能と改善されたエラー管理を提供。ハブダッシュボードのリデザイン、auto-approve設定の即時反映、大型ツール出力のデフォルト切り..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1781997061.783149",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-20_ 1. _Claude Code v2.1.185: API応答待機メッセージとタイムアウトを改善_ └ ストリーム停止時のヒント表示が「No response from API · Retrying in…」から「Waiting for API response · will retry in…」に変更。タイムアウト判定も10秒から20秒に延長され、短い遅延で不要なエラーメッセージが表示されなくなる。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.185> 2. _Cline v3.0.28: 新サブスクリプション「ClinePass」のオンボーディング開始_ └ OSSのAIコーディングアシスタントClineが独自サブスクリプション「ClinePass」を導入。プレミアムモデルの選択機能と改善されたエラー管理を提供。ハブダッシュボードのリデザイン、auto-approve設定の即時反映、大型ツール出力のデフォルト切り詰めなども実装。 :link: <https://github.com/cline/cline/releases> 3. _OSS AIコーディングアシスタント「Continue」がv2.0メジャーバージョンをリリース_ └ VS Code・JetBrains対応のオープンソースAIコーディング拡張Continueがメジャーバージョン2.0に到達。同日に早速v2.1.0も公開されており、活発な開発...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1781997061.783149",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-06-20_ 1. _Claude Code v2.1.185: API応答待機メッセージとタイムアウトを改善_ └ ストリーム停止時のヒント表示が「No response from API · Retrying in…」から「Waiting for API response · will retry in…」に変更。タイムアウト判定も10秒から20秒に延長され、短い遅延で不要なエラーメッセージが表示されなくなる。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.185> 2. _Cline v3.0.28: 新サブスクリプション「ClinePass」のオンボーディング開始_ └ OSSのAIコーディングアシスタントClineが独自サブスクリプション「ClinePass」を導入。プレミアムモデルの選択機能と改善されたエラー管理を提供。ハブダッシュボードのリデザイン、auto-approve設定の即時反映、大型ツール出力のデフォルト切り詰めなども実装。 :link: <https://github.com/cline/cline/releases> 3. _OSS AIコーディングアシスタント「Continue」がv2.0メジャーバージョンをリリース_ └ VS Code・JetBrains対応のオープンソースAIコーディング拡張Continueがメジャーバージョン2.0に到達。同日に早速v2.1.0も公開されており、活発な開発が続いている。 :link: <https://github.com/continuedev/continue/releases/tag/v2.0.0-vscode> 4. _Vercel AI SDK: WorkflowAgentにシステムメッセージ制約・TUIにサンドボックス機能を追加_ └ @ai-sdk/workflow v1.0.0-beta.101でWorkflowAgentがprompt/messages内のシステムメッセージをデフォルト拒否（`allowSystemInMessages: true`で従来動作に戻せる）。@ai-sdk/tui v1.0.0-beta.18ではエージェントストリームのツール実行にsandboxオプションが追加。 :link: <https://github.com/vercel/ai/releases> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1782002599.538549",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1782002599.538549",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1782002599.538549",
+      "timestamp": "2026-06-21T00:43:19.538Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> このタイミングでもうSkyさんと商流つながるとは:しゅごい_すごい_sugoi_shugoi_syugoi::star-struck: 菅野さんも:副社長:も:saikyo_saikyou_最強::最高: AI駆動開発研究会 バイネーム指名ありがとうございます:saluting_face: Saitekiへの入社理由の一つに 「AIと業務の融合による最適」を思い描いていたので ここから始めていきたいと想います:fire: 楽しくやっていけるだろうなぁ〜と心から想ってます:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1782002599.538549",
+          "text": "<@U09MGUVJ8BV> このタイミングでもうSkyさんと商流つながるとは:しゅごい_すごい_sugoi_shugoi_syugoi::star-struck: 菅野さんも:副社長:も:saikyo_saikyou_最強::最高: AI駆動開発研究会 バイネーム指名ありがとうございます:saluting_face: Saitekiへの入社理由の一つに 「AIと業務の融合による最適」を思い描いていたので ここから始めていきたいと想います:fire: 楽しくやっていけるだろうなぁ〜と心から想ってます:sparkles:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1782002599.538549",
+          "threadTs": "1781938834.339519",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> このタイミングでもうSkyさんと商流つながるとは:しゅごい_すごい_sugoi_shugoi_syugoi::star-struck: 菅野さんも:副社長:も:saikyo_saikyou_最強::最高: AI駆動開発研究会 バイネーム指名ありがとうございます:saluting_face: Saitekiへの入社理由の一つに 「AIと業務の融合による最適」を思い描いていたので ここから始めていきたいと想います:fire: 楽しくやっていけるだろうなぁ〜と心から想ってます:sparkles:\nall-saiteki\nEngineer"
     }
   ]
 }
