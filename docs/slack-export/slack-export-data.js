@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-21T04:51:34.734Z",
+  "generatedAt": "2026-06-22T05:00:20.085Z",
   "channelCount": 9,
-  "totalMessages": 1853,
+  "totalMessages": 1854,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -32768,11 +32768,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1782083174.747809",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-21_ 1. _GitHub Copilot CLI、サブエージェント委任をスマート化（June 12リリース）_ └ CLIのメインエージェントが状況を自律判断し、必要な時だけサブエージェントに委任するよう改善。A/Bテストでツール失敗率23%削減（検索27%↓、編集18%↓）、P95ウェイトタイム5%改善を達成。`/update` コマンドでv1.0.42以降に更新可能。 :link: <https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/> 2. _Cursor Automations、June 2026アップデートで大幅拡張_ └ 常時稼働コーディングエージェント「Automations」に `/automate` スキル・GitHub/Slackトリガー・computer use対応を追加。マージされたPRや作成されたLinearイシューをトリガーにエージェントが自動起動し、セキュリティ監査やPagerDutyインシデント対応にも活用可能。 :link: <https://cursor.com/blog/automations> 3. _Claude Code 6月メジャーアップデート：Opus 4.8デフォルト化・レート制限2倍・Safe Mode追加_ └ デフォルトモデルがClaude Opus 4.8に変更、レート制限が2倍に拡大。新機能「Safe Mode」の追加や `/cd` コマンド、カテゴリ別の `/usage` 表示も実装され、大規模開発での利用がさらに強化。 :link: <https://jangwook.net/en/blog/en/claude-code-june-2026-new-features-changelog-developer-guide/> 4. _AWSが推進する「AI駆動開発ライフサイクル（AI-DLC）」— DevSumi 2026注目セッション_ └ AWSがDevSumi 2026で提唱する「AI-DLC」は、要件定義からデプロイまでをAIエージェントが連携処理するフレームワーク。従来のCI/CDを拡張し、コードレビュー・テスト生成・デプロイ判断をエージェントが担う実践事例も紹介予定。 :link: <https://codezine.jp/news/detail/23204> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-06-21_\n\n1. _GitHub Copilot CLI、サブエージェント委任をスマート化（June 12リリース）_\n└ CLIのメインエージェントが状況を自律判断し、必要な時だけサブエージェントに委任するよう改善。A/Bテストでツール失敗率23%削減（検索27%↓、編集18%↓）、P95ウェイトタイム5%改善を達成。`/update` コマンドでv1.0.42以降に更新可能。\n:link: <https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/>\n2. _Cursor Automations、June 2026アップデートで大幅拡張_\n└ 常時稼働コーディングエージェント「Automations」に `/automate` スキル・GitHub/Slackトリガー・computer use対応を追加。マージされたPRや作成されたLinearイシューをトリガーにエージェントが自動起動し、セキュリティ監査やPagerDutyインシデント対応にも活用可能。\n:link: <https://cursor.com/blog/automations>\n3. _Claude Code 6月メジャーアップデート：Opus 4.8デフォルト化・レート制限2倍・Safe Mode追加_\n└ デフォルトモデルがClaude Opus 4.8に変更、レート制限が2倍に拡大。新機能「Safe Mode」の追加や `/cd` コマンド、カテゴリ別の `/usage` 表示も実装され、大規模開発での利用がさらに強化。\n:link: <https://jangwook.net/en/blog/en/claude-code-june-2026-new-features-changelog-developer-guide/>\n4. _AWSが推進する「AI駆動開発ライフサイクル（AI-DLC）」— DevSumi 2026注目セッション_\n└ AWSがDevSumi 2026で提唱する「AI-DLC」は、要件定義からデプロイまでをAIエージェントが連携処理するフレームワーク。従来のCI/CDを拡張し、コードレビュー・テスト生成・デプロイ判断をエージェントが担う実践事例も紹介予定。\n:link: <https://codezine.jp/news/detail/23204> *使用して送信されました* Claude",
+          "messageTs": "1782083174.747809",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-21",
+          "timestamp": "2026-06-21T23:06:14.747Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 157,
+      "messageCount": 158,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-06-20"
+      "lastDate": "2026-06-21"
     },
     {
       "id": "C09Q1KNL2P8",
