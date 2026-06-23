@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-22T05:00:20.085Z",
+  "generatedAt": "2026-06-23T04:00:11.312Z",
   "channelCount": 9,
-  "totalMessages": 1854,
+  "totalMessages": 1858,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -29741,11 +29741,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1782115300.996859",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> 各位 お疲れ様です。総務からお知らせです:mega: 2026年6月分給与明細(対象：2026/5/1～5／30稼働分)を発行いたしました。 今月からマネーフォワードクラウド給与(以降 MFクラウド給与)にて明細をご確認いただくことになりました。 先日お送りしたMF給与クラウド給与へのURL、 又はコチラ(<https://biz.moneyforward.com/payroll> )からログインして頂き、 明細のご確認をお願い致します。 また、訂正がある場合は、明日中(6月23日)にご連絡をお願い致します。 以上、よろしくお願い致します。",
+          "rawText": "<!channel>\n各位\nお疲れ様です。総務からお知らせです:mega:\n\n2026年6月分給与明細(対象：2026/5/1～5／30稼働分)を発行いたしました。\n今月からマネーフォワードクラウド給与(以降 MFクラウド給与)にて明細をご確認いただくことになりました。\n先日お送りしたMF給与クラウド給与へのURL、\n又はコチラ(<https://biz.moneyforward.com/payroll> )からログインして頂き、\n明細のご確認をお願い致します。\nまた、訂正がある場合は、明日中(6月23日)にご連絡をお願い致します。\n\n以上、よろしくお願い致します。",
+          "messageTs": "1782115300.996859",
+          "threadTs": "1782115300.996859",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-22",
+          "timestamp": "2026-06-22T08:01:40.996Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1782127419.511289",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "最初の投稿のURL、404エラーになっていました。 失礼いたしました。 修正いたしましたので、皆さん給与明細のご確認よろしくお願い致します:pray: <@U0A7VHB07J4> さん ご連絡ありがとうございます:感謝:",
+          "rawText": "最初の投稿のURL、404エラーになっていました。\n失礼いたしました。\n\n修正いたしましたので、皆さん給与明細のご確認よろしくお願い致します:pray:\n\n <@U0A7VHB07J4> さん\nご連絡ありがとうございます:感謝:",
+          "messageTs": "1782127419.511289",
+          "threadTs": "1782115300.996859",
+          "parentUserId": "U0A9EE7HZ3P",
+          "subtype": null,
+          "date": "2026-06-22",
+          "timestamp": "2026-06-22T11:23:39.511Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 278,
+      "messageCount": 280,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-06-21"
+      "lastDate": "2026-06-22"
     },
     {
       "id": "C09QXV3F8G0",
@@ -32788,11 +32828,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1782169647.459919",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-22_ 1. _GitHub Copilot for JetBrains IDEs に Claude が agent provider としてパブリックプレビュー開始_ └ IntelliJ など JetBrains IDE の GitHub Copilot で、Claude をエンジンとして選択できる機能が 6/22 にパブリックプレビュー開始。Claude Code CLI をインストール後、Copilot Chat panel から Claude を指定するだけで利用可能に。ファイル編集・ツール呼び出しは全自動承認で動作し、Copilot CLI のキューイング/ステアリング機能や組織・企業エージェントサポートも同時追加された。 :link: <https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides/|github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides> 2. _「エージェントがエージェントをプロンプトする」時代へ — AI 開発の「ループ化」が加速_ └ Claude Code 創設者の Boris Cherny 氏が Meta @Scale カンファレンスで AI 開発の最前線を解説。「エージェントがコードを書く」段階から「エージェントがエージェントをプロンプトし、そのエージェントがコードを書く」という多層エージェント構造への移行が急加速している。この \"loopy\" な構造こそが AI コーディングの次のフロンティアだと指摘。 :link: <https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/|techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy> 3. _iOS 27 の実用的 AI 機能を TechCrunch が詳報 — Siri を超えた開発者・ユーザー向け機能_ └ iOS 27 に搭載予定の AI 機能を網羅。開発者向けに AI API が大幅拡充され、アプリからの AI タスク連携が容易になる。AI が日常タスクを自律実行するシステムレベルの機能も追加予定で、iOS 向けアプリ開発者はこれらの新 API への対応が今後必要となる。 :link: <https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/|techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-06-22_\n\n1. _GitHub Copilot for JetBrains IDEs に Claude が agent provider としてパブリックプレビュー開始_\n└ IntelliJ など JetBrains IDE の GitHub Copilot で、Claude をエンジンとして選択できる機能が 6/22 にパブリックプレビュー開始。Claude Code CLI をインストール後、Copilot Chat panel から Claude を指定するだけで利用可能に。ファイル編集・ツール呼び出しは全自動承認で動作し、Copilot CLI のキューイング/ステアリング機能や組織・企業エージェントサポートも同時追加された。\n:link: <https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides/|github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides>\n2. _「エージェントがエージェントをプロンプトする」時代へ — AI 開発の「ループ化」が加速_\n└ Claude Code 創設者の Boris Cherny 氏が Meta @Scale カンファレンスで AI 開発の最前線を解説。「エージェントがコードを書く」段階から「エージェントがエージェントをプロンプトし、そのエージェントがコードを書く」という多層エージェント構造への移行が急加速している。この \"loopy\" な構造こそが AI コーディングの次のフロンティアだと指摘。\n:link: <https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/|techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy>\n3. _iOS 27 の実用的 AI 機能を TechCrunch が詳報 — Siri を超えた開発者・ユーザー向け機能_\n└ iOS 27 に搭載予定の AI 機能を網羅。開発者向けに AI API が大幅拡充され、アプリからの AI タスク連携が容易になる。AI が日常タスクを自律実行するシステムレベルの機能も追加予定で、iOS 向けアプリ開発者はこれらの新 API への対応が今後必要となる。\n:link: <https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/|techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27> *使用して送信されました* Claude",
+          "messageTs": "1782169647.459919",
+          "threadTs": "1782169647.459919",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-22",
+          "timestamp": "2026-06-22T23:07:27.459Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1782171121.450769",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "2 について エージェントがエージェントをプロンプトする という事象は、弊社AI顧問の佐藤傑さんの作業環境を見せていただいた際にハイレベルで実現されていました。 傑さんが指示を出しているのはメインエージェントのみですが、メインエージェントの下に何体ものサブエージェントがいて、メインはサブに自動でプロンプトを生成し、作業指示を出します。特別、難しい設定をしているわけではありませんでした。 既に誰もがカジュアルにサブエージェントが使えるUIが実現されていて、AIが AIにプロンプトを作れるほど指示を出すAIのプロンプトの精度も上がっているし受け取り手のAIの頭も良くなっています。",
+          "rawText": "2 について\nエージェントがエージェントをプロンプトする\n\nという事象は、弊社AI顧問の佐藤傑さんの作業環境を見せていただいた際にハイレベルで実現されていました。\n\n傑さんが指示を出しているのはメインエージェントのみですが、メインエージェントの下に何体ものサブエージェントがいて、メインはサブに自動でプロンプトを生成し、作業指示を出します。特別、難しい設定をしているわけではありませんでした。\n\n既に誰もがカジュアルにサブエージェントが使えるUIが実現されていて、AIが AIにプロンプトを作れるほど指示を出すAIのプロンプトの精度も上がっているし受け取り手のAIの頭も良くなっています。",
+          "messageTs": "1782171121.450769",
+          "threadTs": "1782169647.459919",
+          "parentUserId": null,
+          "subtype": "thread_broadcast",
+          "date": "2026-06-22",
+          "timestamp": "2026-06-22T23:32:01.450Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 158,
+      "messageCount": 160,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-06-21"
+      "lastDate": "2026-06-22"
     },
     {
       "id": "C09Q1KNL2P8",
