@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-23T04:00:06.702Z",
+  "generatedAt": "2026-06-24T04:02:10.117Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -56088,6 +56088,109 @@
         }
       ],
       "searchText": "2 について エージェントがエージェントをプロンプトする という事象は、弊社AI顧問の佐藤傑さんの作業環境を見せていただいた際にハイレベルで実現されていました。 傑さんが指示を出しているのはメインエージェントのみですが、メインエージェントの下に何体ものサブエージェントがいて、メインはサブに自動でプロンプトを生成し、作業指示を出します。特別、難しい設定をしているわけではありませんでした。 既に誰もがカジュアルにサブエージェントが使えるUIが実現されていて、AIが AIにプロンプトを作れるほど指示を出すAIのプロンプトの精度も上がっているし受け取り手のAIの頭も良くなっています。\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782191826.159009",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:平野佑治",
+      "personName": "平野佑治",
+      "slackIds": [
+        "U0BCBMQTHTP"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782191826.159009",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782191826.159009",
+      "timestamp": "2026-06-23T05:17:06.159Z",
+      "detailBullets": [
+        "初めまして。 七月もしくは八月入社予定の平野佑治(ひらの ゆうじ)と申します。 ◆出身 京都市に住んでいます。 ◆経歴 大学卒業後、組込SW開発や医療系サービスのWebアプリ等の開発に携わり、その後独立してフリーランスエンジニアとして活動していました。 ◆趣味 休日はVTuberのゲーム配信を見たりジムに行ったりしています。最近は新しい趣味として将棋の本や神話の本に手を出しています。 入社してやりたい事・実現したい自分像は色々ありますが、当面はエンジニアとして皆様の期待にお応えできる成果を出すことを目標に頑張ります。 よろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782191826.159009",
+          "text": "初めまして。 七月もしくは八月入社予定の平野佑治(ひらの ゆうじ)と申します。 ◆出身 京都市に住んでいます。 ◆経歴 大学卒業後、組込SW開発や医療系サービスのWebアプリ等の開発に携わり、その後独立してフリーランスエンジニアとして活動していました。 ◆趣味 休日はVTuberのゲーム配信を見たりジムに行ったりしています。最近は新しい趣味として将棋の本や神話の本に手を出しています。 入社してやりたい事・実現したい自分像は色々ありますが、当面はエンジニアとして皆様の期待にお応えできる成果を出すことを目標に頑張ります。 よろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782191826.159009",
+          "threadTs": null,
+          "authorName": "平野佑治",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 七月もしくは八月入社予定の平野佑治(ひらの ゆうじ)と申します。 ◆出身 京都市に住んでいます。 ◆経歴 大学卒業後、組込SW開発や医療系サービスのWebアプリ等の開発に携わり、その後独立してフリーランスエンジニアとして活動していました。 ◆趣味 休日はVTuberのゲーム配信を見たりジムに行ったりしています。最近は新しい趣味として将棋の本や神話の本に手を出しています。 入社してやりたい事・実現したい自分像は色々ありますが、当面はエンジニアとして皆様の期待にお応えできる成果を出すことを目標に頑張ります。 よろしくお願いいたします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782210835.898439",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:竹中茜",
+      "personName": "竹中茜",
+      "slackIds": [
+        "U0BBSMTQW2D"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782210835.898439",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782210835.898439",
+      "timestamp": "2026-06-23T10:33:55.898Z",
+      "detailBullets": [
+        "初めまして、8月入社予定の竹中茜（たけなか あかね）と申します。 ◇出身 香川→大阪 7月からは兵庫県姫路市に在住します。 ◇経歴 高校卒業後、香川にてコールセンター勤務後 大阪で知り合いの会社に業務委託契約で WEB会社のコーディングテスト作業やライター業務を行う。 その後、ガス会社向けの販売管理システムの開発に関わり、 要件定義から運用保守まで経験しました。 ◇趣味 ハロー！プロジェクトのアイドル （特にJuice=Juiceやモーニング娘。）が大好きで、 大阪でライブがある時は足を運んでいます。 日本史も好きなので歴史的な建造物を 旅行する際は観光で行きます。 ◇休日の過ごし方 インドアな日はぽこあポケモンというゲームをしたり、 ChatGPTに話し相手になってもらったりしています。 たまにGemini使うと全然違う意見が出てきたりするので いろんな生成AIに同じ話題をするのにもハマっています。 ◇入社してやりたいこと お客様の目線に立てるエンジニアになることを 目標に頑張ります。よろしくお願いします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782210835.898439",
+          "text": "初めまして、8月入社予定の竹中茜（たけなか あかね）と申します。 ◇出身 香川→大阪 7月からは兵庫県姫路市に在住します。 ◇経歴 高校卒業後、香川にてコールセンター勤務後 大阪で知り合いの会社に業務委託契約で WEB会社のコーディングテスト作業やライター業務を行う。 その後、ガス会社向けの販売管理システムの開発に関わり、 要件定義から運用保守まで経験しました。 ◇趣味 ハロー！プロジェクトのアイドル （特にJuice=Juiceやモーニング娘。）が大好きで、 大阪でライブがある時は足を運んでいます。 日本史も好きなので歴史的な建造物を 旅行する際は観光で行きます。 ◇休日の過ごし方 インドアな日はぽこあポケモンというゲームをしたり、 ChatGPTに話し相手になってもらったりしています。 たまにGemini使うと全然違う意見が出てきたりするので いろんな生成AIに同じ話題をするのにもハマっています。 ◇入社してやりたいこと お客様の目線に立てるエンジニアになることを 目標に頑張ります。よろしくお願いします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782210835.898439",
+          "threadTs": null,
+          "authorName": "竹中茜",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして、8月入社予定の竹中茜（たけなか あかね）と申します。 ◇出身 香川→大阪 7月からは兵庫県姫路市に在住します。 ◇経歴 高校卒業後、香川にてコールセンター勤務後 大阪で知り合いの会社に業務委託契約で WEB会社のコーディングテスト作業やライター業務を行う。 その後、ガス会社向けの販売管理システムの開発に関わり、 要件定義から運用保守まで経験しました。 ◇趣味 ハロー！プロジェクトのアイドル （特にJuice=Juiceやモーニング娘。）が大好きで、 大阪でライブがある時は足を運んでいます。 日本史も好きなので歴史的な建造物を 旅行する際は観光で行きます。 ◇休日の過ごし方 インドアな日はぽこあポケモンというゲームをしたり、 ChatGPTに話し相手になってもらったりしています。 たまにGemini使うと全然違う意見が出てきたりするので いろんな生成AIに同じ話題をするのにもハマっています。 ◇入社してやりたいこと お客様の目線に立てるエンジニアになることを 目標に頑張ります。よろしくお願いします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1782255950.129369",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1782255950.129369",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1782255950.129369",
+      "timestamp": "2026-06-23T23:05:50.129Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-06-23_ 1. _Anthropic、SlackにAIチームメイト「Claude Tag」をリリース（エンタープライズ向けリサーチプレビュー）_ └ AnthropicがSlackチャンネルで `@Claude` とタイプするだけで共有AIを呼び出せる「Claude Tag」をリリース。Claude EnterpriseおよびTeamユーザー向けリサーチプレビューとして2026年6月23日に公開。チームでAIを使った協働が一段とシームレスになる。 :link: <https://techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack/|techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack> 2. _GitHub Copilot CLI、新ターミナルUIが正式GA（タブ型レイアウト・MCPガイ..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1782255950.129369",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-23_ 1. _Anthropic、SlackにAIチームメイト「Claude Tag」をリリース（エンタープライズ向けリサーチプレビュー）_ └ AnthropicがSlackチャンネルで `@Claude` とタイプするだけで共有AIを呼び出せる「Claude Tag」をリリース。Claude EnterpriseおよびTeamユーザー向けリサーチプレビューとして2026年6月23日に公開。チームでAIを使った協働が一段とシームレスになる。 :link: <https://techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack/|techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack> 2. _GitHub Copilot CLI、新ターミナルUIが正式GA（タブ型レイアウト・MCPガイド付きセットアップ搭載）_ └ Microsoft Build 2026でプレビューされたGitHub Copilot CLIの新ターミナルインターフェイスが正式リリース。セッション/Gists/Issues/PRのタブ型レイアウト、 `/mcp add` や `/mcp search` によるガイド付きMCPサーバー設定、テーマ対応のセマンティックカラーなどを採用。`copilot update...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1782255950.129369",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-06-23_ 1. _Anthropic、SlackにAIチームメイト「Claude Tag」をリリース（エンタープライズ向けリサーチプレビュー）_ └ AnthropicがSlackチャンネルで `@Claude` とタイプするだけで共有AIを呼び出せる「Claude Tag」をリリース。Claude EnterpriseおよびTeamユーザー向けリサーチプレビューとして2026年6月23日に公開。チームでAIを使った協働が一段とシームレスになる。 :link: <https://techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack/|techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack> 2. _GitHub Copilot CLI、新ターミナルUIが正式GA（タブ型レイアウト・MCPガイド付きセットアップ搭載）_ └ Microsoft Build 2026でプレビューされたGitHub Copilot CLIの新ターミナルインターフェイスが正式リリース。セッション/Gists/Issues/PRのタブ型レイアウト、 `/mcp add` や `/mcp search` によるガイド付きMCPサーバー設定、テーマ対応のセマンティックカラーなどを採用。`copilot update` でアップデート可能。 :link: <https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available/|github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available> 3. _AnthropicのClaude Code責任者「エージェントと仕事しすぎて孤独になった」と語る_ └ AnthropicのエンジニアリングリーダーFiona Fung氏がFortune誌に「アジェンティックAIの活用が進むにつれ、エンジニア同士の協働が減り、孤独な体験になっている」と言及。AI駆動開発が浸透する中、チームダイナミクスや開発者のモラールにどう向き合うかを問う視点として注目。 :link: <https://fortune.com/2026/06/23/anthropic-engineering-head-claude-code-lonely-e...\nai駆動開発ネタ\n経営"
     }
   ]
 }
