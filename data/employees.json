@@ -2675,5 +2675,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BBSMTQW2D"
+  },
+  {
+    "name": "遠藤優斗",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-06-25T04:02:55.250Z",
+    "updatedAt": "2026-06-25T04:02:55.250Z",
+    "last_updated": "2026-06-25T04:02:55.250Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BC5SAE8NQ"
   }
 ]

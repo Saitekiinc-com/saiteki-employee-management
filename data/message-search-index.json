@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-24T04:02:10.117Z",
+  "generatedAt": "2026-06-25T04:02:55.469Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -56116,7 +56116,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1782191826.159009",
-          "threadTs": null,
+          "threadTs": "1782191826.159009",
           "authorName": "平野佑治",
           "permalink": null
         }
@@ -56150,7 +56150,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1782210835.898439",
-          "threadTs": null,
+          "threadTs": "1782210835.898439",
           "authorName": "竹中茜",
           "permalink": null
         }
@@ -56191,6 +56191,145 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-06-23_ 1. _Anthropic、SlackにAIチームメイト「Claude Tag」をリリース（エンタープライズ向けリサーチプレビュー）_ └ AnthropicがSlackチャンネルで `@Claude` とタイプするだけで共有AIを呼び出せる「Claude Tag」をリリース。Claude EnterpriseおよびTeamユーザー向けリサーチプレビューとして2026年6月23日に公開。チームでAIを使った協働が一段とシームレスになる。 :link: <https://techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack/|techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack> 2. _GitHub Copilot CLI、新ターミナルUIが正式GA（タブ型レイアウト・MCPガイド付きセットアップ搭載）_ └ Microsoft Build 2026でプレビューされたGitHub Copilot CLIの新ターミナルインターフェイスが正式リリース。セッション/Gists/Issues/PRのタブ型レイアウト、 `/mcp add` や `/mcp search` によるガイド付きMCPサーバー設定、テーマ対応のセマンティックカラーなどを採用。`copilot update` でアップデート可能。 :link: <https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available/|github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available> 3. _AnthropicのClaude Code責任者「エージェントと仕事しすぎて孤独になった」と語る_ └ AnthropicのエンジニアリングリーダーFiona Fung氏がFortune誌に「アジェンティックAIの活用が進むにつれ、エンジニア同士の協働が減り、孤独な体験になっている」と言及。AI駆動開発が浸透する中、チームダイナミクスや開発者のモラールにどう向き合うかを問う視点として注目。 :link: <https://fortune.com/2026/06/23/anthropic-engineering-head-claude-code-lonely-e...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782301208.713259",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782301208.713259",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782301208.713259",
+      "timestamp": "2026-06-24T11:40:08.713Z",
+      "detailBullets": [
+        "<@U0BCBMQTHTP> 平野さん、あらためてよろしくお願いします！去年の12月からずっと会話させていただいていて、今回、ご入社を決断いただけて本当に嬉しかったです！！これから一緒にやりたいことがたくさんあるのでお付き合いお願いします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782301208.713259",
+          "text": "<@U0BCBMQTHTP> 平野さん、あらためてよろしくお願いします！去年の12月からずっと会話させていただいていて、今回、ご入社を決断いただけて本当に嬉しかったです！！これから一緒にやりたいことがたくさんあるのでお付き合いお願いします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782301208.713259",
+          "threadTs": "1782191826.159009",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BCBMQTHTP> 平野さん、あらためてよろしくお願いします！去年の12月からずっと会話させていただいていて、今回、ご入社を決断いただけて本当に嬉しかったです！！これから一緒にやりたいことがたくさんあるのでお付き合いお願いします！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782340578.433449",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:遠藤優斗",
+      "personName": "遠藤優斗",
+      "slackIds": [
+        "U0BC5SAE8NQ"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782340578.433449",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782340578.433449",
+      "timestamp": "2026-06-24T22:36:18.433Z",
+      "detailBullets": [
+        "初めまして。 10月入社予定の遠藤優斗（えんどう ゆうと）と申します。 :black_small_square:出身 東京都 :black_small_square:経歴 SES企業にてインフラエンジニアとして、運用保守を担当（今月でちょうど半年になります。） :black_small_square:趣味 ・音楽 ヒップホップ（KANDYTOWN、Kohjiyaが特に好きです） ・ゲーム FPSを中心にやっています ・スタッズベルト作り アメカジが大好きなので、自分用だったり友達に作ったりしています :black_small_square:休日の過ごし方 インドアな人間なので、ずっとPCと睨めっこしてます… 疲れたら昼寝したり、散歩したりしてリフレッシュしてます 最近はArch Linuxで環境構築をしようと思い、仮想化環境で試したのですが、使用したかったWMと相性が悪かったのでこの前断念しました…:sob: デュアルブートするのは怖いので、それ専用のPCを購入しようか検討中です:thinking_face: :black_small_square:ひとこと 経験も浅く、分からないこ..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782340578.433449",
+          "text": "初めまして。 10月入社予定の遠藤優斗（えんどう ゆうと）と申します。 :black_small_square:出身 東京都 :black_small_square:経歴 SES企業にてインフラエンジニアとして、運用保守を担当（今月でちょうど半年になります。） :black_small_square:趣味 ・音楽 ヒップホップ（KANDYTOWN、Kohjiyaが特に好きです） ・ゲーム FPSを中心にやっています ・スタッズベルト作り アメカジが大好きなので、自分用だったり友達に作ったりしています :black_small_square:休日の過ごし方 インドアな人間なので、ずっとPCと睨めっこしてます… 疲れたら昼寝したり、散歩したりしてリフレッシュしてます 最近はArch Linuxで環境構築をしようと思い、仮想化環境で試したのですが、使用したかったWMと相性が悪かったのでこの前断念しました…:sob: デュアルブートするのは怖いので、それ専用のPCを購入しようか検討中です:thinking_face: :black_small_square:ひとこと 経験も浅く、分からないことだらけですが、若さを武器に失敗を恐れず挑戦し、多くのことを吸収して成長していきたいと考えております。 これからよろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782340578.433449",
+          "threadTs": null,
+          "authorName": "遠藤優斗",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 10月入社予定の遠藤優斗（えんどう ゆうと）と申します。 :black_small_square:出身 東京都 :black_small_square:経歴 SES企業にてインフラエンジニアとして、運用保守を担当（今月でちょうど半年になります。） :black_small_square:趣味 ・音楽 ヒップホップ（KANDYTOWN、Kohjiyaが特に好きです） ・ゲーム FPSを中心にやっています ・スタッズベルト作り アメカジが大好きなので、自分用だったり友達に作ったりしています :black_small_square:休日の過ごし方 インドアな人間なので、ずっとPCと睨めっこしてます… 疲れたら昼寝したり、散歩したりしてリフレッシュしてます 最近はArch Linuxで環境構築をしようと思い、仮想化環境で試したのですが、使用したかったWMと相性が悪かったのでこの前断念しました…:sob: デュアルブートするのは怖いので、それ専用のPCを購入しようか検討中です:thinking_face: :black_small_square:ひとこと 経験も浅く、分からないことだらけですが、若さを武器に失敗を恐れず挑戦し、多くのことを吸収して成長していきたいと考えております。 これからよろしくお願いいたします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782340881.796669",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782340881.796669",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782340881.796669",
+      "timestamp": "2026-06-24T22:41:21.796Z",
+      "detailBullets": [
+        "<@U0BBSMTQW2D> 竹中さん、あらためてよろしくお願いします！ 「お客様の目線に立てるエンジニアになることを目標に頑張ります」 素晴らしすぎます。。応援しますので一緒に頑張りましょう！！ 僕も歴史的建造物は好きなのでその辺りも今度お話しさせてください:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782340881.796669",
+          "text": "<@U0BBSMTQW2D> 竹中さん、あらためてよろしくお願いします！ 「お客様の目線に立てるエンジニアになることを目標に頑張ります」 素晴らしすぎます。。応援しますので一緒に頑張りましょう！！ 僕も歴史的建造物は好きなのでその辺りも今度お話しさせてください:sparkles:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782340881.796669",
+          "threadTs": "1782210835.898439",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BBSMTQW2D> 竹中さん、あらためてよろしくお願いします！ 「お客様の目線に立てるエンジニアになることを目標に頑張ります」 素晴らしすぎます。。応援しますので一緒に頑張りましょう！！ 僕も歴史的建造物は好きなのでその辺りも今度お話しさせてください:sparkles:\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1782342505.095059",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1782342505.095059",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1782342505.095059",
+      "timestamp": "2026-06-24T23:08:25.095Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-06-24_ 1. _GitHub Copilot App、BYOK（Bring Your Own Key）対応を追加_ └ GitHub CopilotアプリにBYOK機能が追加され、OpenAI・Azure OpenAI・Anthropic・LM Studio・Ollama等の自前APIキーでエージェントセッションを実行できるようになった。キーはOSのkeychainにローカル保存され、UI側からは読み取れない設計でセキュリティを確保。自社モデル管理・コスト管理のニーズを持つ企業に特に有効。 :link: <https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok/|github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok> 2. _Cursor、1.5兆パラメータの独自フロンティアモデルをColossusで初学習中_ └ Cursor共同創業..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1782342505.095059",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-24_ 1. _GitHub Copilot App、BYOK（Bring Your Own Key）対応を追加_ └ GitHub CopilotアプリにBYOK機能が追加され、OpenAI・Azure OpenAI・Anthropic・LM Studio・Ollama等の自前APIキーでエージェントセッションを実行できるようになった。キーはOSのkeychainにローカル保存され、UI側からは読み取れない設計でセキュリティを確保。自社モデル管理・コスト管理のニーズを持つ企業に特に有効。 :link: <https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok/|github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok> 2. _Cursor、1.5兆パラメータの独自フロンティアモデルをColossusで初学習中_ └ Cursor共同創業者のMichael Truellが、xAI社Colossusスーパーコンピュータにて1.5兆パラメータのAIモデルをゼロから事前学習中と発表。従来モデルはKimi K2.5をベースとしていたが、今回は完全独自構築。数週間以内にユーザーへ提供予定とのこと。大手コーディングツールが独自モデル開発に踏み出した注目の動き。 :link: <https://www.techtimes.com/article...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1782342505.095059",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-06-24_ 1. _GitHub Copilot App、BYOK（Bring Your Own Key）対応を追加_ └ GitHub CopilotアプリにBYOK機能が追加され、OpenAI・Azure OpenAI・Anthropic・LM Studio・Ollama等の自前APIキーでエージェントセッションを実行できるようになった。キーはOSのkeychainにローカル保存され、UI側からは読み取れない設計でセキュリティを確保。自社モデル管理・コスト管理のニーズを持つ企業に特に有効。 :link: <https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok/|github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok> 2. _Cursor、1.5兆パラメータの独自フロンティアモデルをColossusで初学習中_ └ Cursor共同創業者のMichael Truellが、xAI社Colossusスーパーコンピュータにて1.5兆パラメータのAIモデルをゼロから事前学習中と発表。従来モデルはKimi K2.5をベースとしていたが、今回は完全独自構築。数週間以内にユーザーへ提供予定とのこと。大手コーディングツールが独自モデル開発に踏み出した注目の動き。 :link: <https://www.techtimes.com/articles/318974/20260624/cursor-trains-first-frontier-model-scratch-colossus-15-trillion-parameters.htm|techtimes.com/articles/318974/20260624/cursor-trains-first-frontier-model-scratch-colossus-15-trillion…> 3. _Claude Code、Sandbox認証情報ブロック・組織モデル制限など最新機能を追加_ └ Claude Codeの最新アップデートで、sandbox内での認証情報ブロック、組織単位のモデル利用制限、フルスクリーンマウスサポートの強化が追加された。また、resume処理・構造化出力・リモートMCP・セッションハンドリングの信頼性も改善。GitHub App設定・/btw・/pluginコマンド・VS Code連携も安定化。 :link: <https://code.claude.com/docs/en/whats-new|code.claude.com/docs/en/what...\nai駆動開発ネタ\n経営"
     }
   ]
 }
