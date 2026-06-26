@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-25T04:03:00.110Z",
+  "generatedAt": "2026-06-26T04:10:22.315Z",
   "channelCount": 9,
-  "totalMessages": 1865,
+  "totalMessages": 1867,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -32980,7 +32980,7 @@ window.SLACK_EXPORT_DATA = {
           "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-23_ 1. _Anthropic、SlackにAIチームメイト「Claude Tag」をリリース（エンタープライズ向けリサーチプレビュー）_ └ AnthropicがSlackチャンネルで `@Claude` とタイプするだけで共有AIを呼び出せる「Claude Tag」をリリース。Claude EnterpriseおよびTeamユーザー向けリサーチプレビューとして2026年6月23日に公開。チームでAIを使った協働が一段とシームレスになる。 :link: <https://techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack/|techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack> 2. _GitHub Copilot CLI、新ターミナルUIが正式GA（タブ型レイアウト・MCPガイド付きセットアップ搭載）_ └ Microsoft Build 2026でプレビューされたGitHub Copilot CLIの新ターミナルインターフェイスが正式リリース。セッション/Gists/Issues/PRのタブ型レイアウト、 `/mcp add` や `/mcp search` によるガイド付きMCPサーバー設定、テーマ対応のセマンティックカラーなどを採用。`copilot update` でアップデート可能。 :link: <https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available/|github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available> 3. _AnthropicのClaude Code責任者「エージェントと仕事しすぎて孤独になった」と語る_ └ AnthropicのエンジニアリングリーダーFiona Fung氏がFortune誌に「アジェンティックAIの活用が進むにつれ、エンジニア同士の協働が減り、孤独な体験になっている」と言及。AI駆動開発が浸透する中、チームダイナミクスや開発者のモラールにどう向き合うかを問う視点として注目。 :link: <https://fortune.com/2026/06/23/anthropic-engineering-head-claude-code-lonely-experience-big-tech-morale/|fortune.com/2026/06/23/anthropic-engineering-head-claude-code-lonely-experience-big-tech-morale> *使用して送信されました* Claude",
           "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-06-23_\n\n1. _Anthropic、SlackにAIチームメイト「Claude Tag」をリリース（エンタープライズ向けリサーチプレビュー）_\n└ AnthropicがSlackチャンネルで `@Claude` とタイプするだけで共有AIを呼び出せる「Claude Tag」をリリース。Claude EnterpriseおよびTeamユーザー向けリサーチプレビューとして2026年6月23日に公開。チームでAIを使った協働が一段とシームレスになる。\n:link: <https://techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack/|techmymoney.com/2026/06/23/anthropics-claude-tag-drops-an-claude-teammate-into-slack>\n2. _GitHub Copilot CLI、新ターミナルUIが正式GA（タブ型レイアウト・MCPガイド付きセットアップ搭載）_\n└ Microsoft Build 2026でプレビューされたGitHub Copilot CLIの新ターミナルインターフェイスが正式リリース。セッション/Gists/Issues/PRのタブ型レイアウト、 `/mcp add` や `/mcp search` によるガイド付きMCPサーバー設定、テーマ対応のセマンティックカラーなどを採用。`copilot update` でアップデート可能。\n:link: <https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available/|github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available>\n3. _AnthropicのClaude Code責任者「エージェントと仕事しすぎて孤独になった」と語る_\n└ AnthropicのエンジニアリングリーダーFiona Fung氏がFortune誌に「アジェンティックAIの活用が進むにつれ、エンジニア同士の協働が減り、孤独な体験になっている」と言及。AI駆動開発が浸透する中、チームダイナミクスや開発者のモラールにどう向き合うかを問う視点として注目。\n:link: <https://fortune.com/2026/06/23/anthropic-engineering-head-claude-code-lonely-experience-big-tech-morale/|fortune.com/2026/06/23/anthropic-engineering-head-claude-code-lonely-experience-big-tech-morale> *使用して送信されました* Claude",
           "messageTs": "1782255950.129369",
-          "threadTs": null,
+          "threadTs": "1782255950.129369",
           "parentUserId": null,
           "subtype": null,
           "date": "2026-06-23",
@@ -33008,11 +33008,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1782385038.044879",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "3 Claude Codeの責任者がエージェントと仕事しすぎて孤独になったのはちょっと笑ってしまう",
+          "rawText": "3 Claude Codeの責任者がエージェントと仕事しすぎて孤独になったのはちょっと笑ってしまう",
+          "messageTs": "1782385038.044879",
+          "threadTs": "1782255950.129369",
+          "parentUserId": null,
+          "subtype": "thread_broadcast",
+          "date": "2026-06-25",
+          "timestamp": "2026-06-25T10:57:18.044Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1782428904.293779",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-25_ 1. _Claude Code v2.1.193 リリース — Bashモードにライブ補完・MCP認証強化_ └ Claude Codeの最新版がリリース。Bashモード（`!`）でファイルパスのライブ補完が追加され、MCPサーバーが認証を必要とする場合は起動時に通知が表示されるように改善。auto-modeの拒否理由がトランスクリプトや `/permissions` に記録され透明性も向上。バックグラウンドシェルコマンドのメモリ自動回収など安定性強化も含む。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.193|github.com/anthropics/…/v2.1.193> 2. _GitHub Copilot コードレビューが分析深度ラベリングとコスト約20%削減を実現_ └ GitHub Copilotのコードレビュー機能がアップデート。組み込みのファイル探索ツールを活用した効率化でレビューコストが約20%削減。中程度の分析深度（medium）でのレビューにはラベルが付与されるようになり、組織単位でリポジトリのデフォルトレビューレベルを設定する機能も追加。 :link: <https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates/|github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates> 3. _Cursor × Notion SDK連携事例を公開 — 数週間でコーディングエージェントをプロダクト統合_ └ NotionチームがCursor SDKを使って、わずか数週間でコーディングエージェントを自社プロダクトに組み込んだ事例を公開。NotionのDoc上でCursorに@タグを付けるだけで、計画・実装・テスト・PR作成までを自動実行。エージェント基盤を自前で構築・維持するコストを削減できる点が強調されている。 :link: <https://cursor.com/blog/notion|cursor.com/blog/notion> 4. _GitHub Actions にステップ並列実行（background / wait）が追加 — AI駆動CI/CDの高速化に直結_ └ GitHub Actionsのワークフローでステップを非同期に並列実行できる `background: true` キーワードが追加。`wait` / `wait-all` で特定のバックグラウンドステップの完了を待機する制御も可能に。AIエージェントを活用したビルド・テスト・デプロイパイプラインの大幅な高速化が期待できる。 :link: <https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel/|github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-06-25_\n\n1. _Claude Code v2.1.193 リリース — Bashモードにライブ補完・MCP認証強化_\n└ Claude Codeの最新版がリリース。Bashモード（`!`）でファイルパスのライブ補完が追加され、MCPサーバーが認証を必要とする場合は起動時に通知が表示されるように改善。auto-modeの拒否理由がトランスクリプトや `/permissions` に記録され透明性も向上。バックグラウンドシェルコマンドのメモリ自動回収など安定性強化も含む。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.193|github.com/anthropics/…/v2.1.193>\n2. _GitHub Copilot コードレビューが分析深度ラベリングとコスト約20%削減を実現_\n└ GitHub Copilotのコードレビュー機能がアップデート。組み込みのファイル探索ツールを活用した効率化でレビューコストが約20%削減。中程度の分析深度（medium）でのレビューにはラベルが付与されるようになり、組織単位でリポジトリのデフォルトレビューレベルを設定する機能も追加。\n:link: <https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates/|github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates>\n3. _Cursor × Notion SDK連携事例を公開 — 数週間でコーディングエージェントをプロダクト統合_\n└ NotionチームがCursor SDKを使って、わずか数週間でコーディングエージェントを自社プロダクトに組み込んだ事例を公開。NotionのDoc上でCursorに@タグを付けるだけで、計画・実装・テスト・PR作成までを自動実行。エージェント基盤を自前で構築・維持するコストを削減できる点が強調されている。\n:link: <https://cursor.com/blog/notion|cursor.com/blog/notion>\n4. _GitHub Actions にステップ並列実行（background / wait）が追加 — AI駆動CI/CDの高速化に直結_\n└ GitHub Actionsのワークフローでステップを非同期に並列実行できる `background: true` キーワードが追加。`wait` / `wait-all` で特定のバックグラウンドステップの完了を待機する制御も可能に。AIエージェントを活用したビルド・テスト・デプロイパイプラインの大幅な高速化が期待できる。\n:link: <https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel/|github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel> *使用して送信されました* Claude",
+          "messageTs": "1782428904.293779",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-25",
+          "timestamp": "2026-06-25T23:08:24.293Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 162,
+      "messageCount": 164,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-06-24"
+      "lastDate": "2026-06-25"
     },
     {
       "id": "C09Q1KNL2P8",
