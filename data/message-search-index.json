@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-26T04:10:19.411Z",
+  "generatedAt": "2026-06-27T03:55:50.633Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -56400,6 +56400,75 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-06-25_ 1. _Claude Code v2.1.193 リリース — Bashモードにライブ補完・MCP認証強化_ └ Claude Codeの最新版がリリース。Bashモード（`!`）でファイルパスのライブ補完が追加され、MCPサーバーが認証を必要とする場合は起動時に通知が表示されるように改善。auto-modeの拒否理由がトランスクリプトや `/permissions` に記録され透明性も向上。バックグラウンドシェルコマンドのメモリ自動回収など安定性強化も含む。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.193|github.com/anthropics/…/v2.1.193> 2. _GitHub Copilot コードレビューが分析深度ラベリングとコスト約20%削減を実現_ └ GitHub Copilotのコードレビュー機能がアップデート。組み込みのファイル探索ツールを活用した効率化でレビューコストが約20%削減。中程度の分析深度（medium）でのレビューにはラベルが付与されるようになり、組織単位でリポジトリのデフォルトレビューレベルを設定する機能も追加。 :link: <https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates/|github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates> 3. _Cursor × Notion SDK連携事例を公開 — 数週間でコーディングエージェントをプロダクト統合_ └ NotionチームがCursor SDKを使って、わずか数週間でコーディングエージェントを自社プロダクトに組み込んだ事例を公開。NotionのDoc上でCursorに@タグを付けるだけで、計画・実装・テスト・PR作成までを自動実行。エージェント基盤を自前で構築・維持するコストを削減できる点が強調されている。 :link: <https://cursor.com/blog/notion|cursor.com/blog/notion> 4. _GitHub Actions にステップ並列実行（background / wait）が追加 — AI駆動CI/CDの高速化に直結_ └ GitHub Actionsのワークフローでステップを非同期に並列実行できる `background: true` キーワードが追加。`wait...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1782466842.995129",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1782466842.995129",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1782466842.995129",
+      "timestamp": "2026-06-26T09:40:42.995Z",
+      "detailBullets": [
+        "<!channel> *社員の皆さまへ* 2026年7月1日より、就業規則の一部が改定されます。 対象となる変更点について、以下の通りご案内いたします。 ご不明な点は総務までお問い合わせください。 ━━━━━━━━━━━━━━━━━━━━ 【1】フレックスタイム制の導入（第26条） ━━━━━━━━━━━━━━━━━━━━ 本社勤務の社員および会社が別途認めた一部の方が対象。 本社勤務者は業務の性質上、 顧客・パートナー・現場との連絡調整やトラブル時の緊急対応など、 早朝・深夜にわたる対応が発生することがございます。 これらに柔軟に対応し、長時間労働を防ぐため、 始業・終業時刻を本人が調整できるフレックスタイム制を導入いたします。 ━━━━━━━━━━━━━━━━━━━━ 【2】年次有給休暇の分割付与開始（第35条） ━━━━━━━━━━━━━━━━━━━━ 2026年7月1日より、入社初年度の年次有給休暇の付与方法が以下のように変わります。 *※取得前にSlackで申告をしましょう(99_お名前のチャンネル)* ● 入社日に 3日 を付与 ● 入社日から6か月を経過した月の翌月1日..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1782466842.995129",
+          "text": "<!channel> *社員の皆さまへ* 2026年7月1日より、就業規則の一部が改定されます。 対象となる変更点について、以下の通りご案内いたします。 ご不明な点は総務までお問い合わせください。 ━━━━━━━━━━━━━━━━━━━━ 【1】フレックスタイム制の導入（第26条） ━━━━━━━━━━━━━━━━━━━━ 本社勤務の社員および会社が別途認めた一部の方が対象。 本社勤務者は業務の性質上、 顧客・パートナー・現場との連絡調整やトラブル時の緊急対応など、 早朝・深夜にわたる対応が発生することがございます。 これらに柔軟に対応し、長時間労働を防ぐため、 始業・終業時刻を本人が調整できるフレックスタイム制を導入いたします。 ━━━━━━━━━━━━━━━━━━━━ 【2】年次有給休暇の分割付与開始（第35条） ━━━━━━━━━━━━━━━━━━━━ 2026年7月1日より、入社初年度の年次有給休暇の付与方法が以下のように変わります。 *※取得前にSlackで申告をしましょう(99_お名前のチャンネル)* ● 入社日に 3日 を付与 ● 入社日から6か月を経過した月の翌月1日に 残り7日 を付与 ● 「有給・特休申請シート_name_yyyymm.xlsx」で申請してください。 ※上記申請シートは個人フォルダの【お読みください】に入れてあります。 ▼ 2026年6月以前に入社された方へ 7月1日時点で入社6か月を経過していない方にも、7月1日に3日を付与します。 残り7日は、入社日から6か月を経過した月の翌月1日に付与されます。 【例】2026年2月1日入社の場合 ・...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1782466842.995129",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> *社員の皆さまへ* 2026年7月1日より、就業規則の一部が改定されます。 対象となる変更点について、以下の通りご案内いたします。 ご不明な点は総務までお問い合わせください。 ━━━━━━━━━━━━━━━━━━━━ 【1】フレックスタイム制の導入（第26条） ━━━━━━━━━━━━━━━━━━━━ 本社勤務の社員および会社が別途認めた一部の方が対象。 本社勤務者は業務の性質上、 顧客・パートナー・現場との連絡調整やトラブル時の緊急対応など、 早朝・深夜にわたる対応が発生することがございます。 これらに柔軟に対応し、長時間労働を防ぐため、 始業・終業時刻を本人が調整できるフレックスタイム制を導入いたします。 ━━━━━━━━━━━━━━━━━━━━ 【2】年次有給休暇の分割付与開始（第35条） ━━━━━━━━━━━━━━━━━━━━ 2026年7月1日より、入社初年度の年次有給休暇の付与方法が以下のように変わります。 *※取得前にSlackで申告をしましょう(99_お名前のチャンネル)* ● 入社日に 3日 を付与 ● 入社日から6か月を経過した月の翌月1日に 残り7日 を付与 ● 「有給・特休申請シート_name_yyyymm.xlsx」で申請してください。 ※上記申請シートは個人フォルダの【お読みください】に入れてあります。 ▼ 2026年6月以前に入社された方へ 7月1日時点で入社6か月を経過していない方にも、7月1日に3日を付与します。 残り7日は、入社日から6か月を経過した月の翌月1日に付与されます。 【例】2026年2月1日入社の場合 ・7月1日 → 3日付与 ・8月1日（入社6か月経過の翌月）→ 残り7日付与 また、7月1日の付与開始以前に欠勤があった場合は、7月1日付与分の有給を遡って充当することができます。 この遡及対応は、7月1日以前に有給を付与されている社員も対象となります。 ただし、昨年度の欠勤を有給に変更する場合、遡及対応に使う有給は、今年度分の有給となります。ご了承ください。 遡及対応を希望する人は、「有給・特休申請シート_name_yyyymm.xlsx」に遡及対応したい日を記載し、7月分稼働報告と一緒に個人フォルダへ保管してください。 *※遡及対応申請は7月末日〆切といたします。* ━━━━━━━━━━━━━━━━━━━━ 【3】時間単位の年次有給休暇（第36条） ━━━━━━━━━━━━━━━━━━━━ 年次有給休暇のうち、年間5日分を上限として1時間単位での取得が可能になります。 *※取得前にSlackで申告をしましょう(99_お名前のチャンネル)* ● 全社員対象 ●ご自身が契約している 所定労働時間で、年間取得可能時間が計算されます。 (詳細は就業規則に記載があります) ● 1時間単位で申請...\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1782515172.478539",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1782515172.478539",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1782515172.478539",
+      "timestamp": "2026-06-26T23:06:12.478Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-06-26_ 1. _GitHub Desktop 3.6：Git WorktreeとCopilot統合を強化_ └ Copilotによるコミットメッセージ自動生成・マージコンフリクト解決をGitHub Desktopに統合。.github/copilot-instructions.md や AGENTS.md のカスタム指示も自動反映される。モデルピッカー追加でBYOK（自前APIキー）にも対応し、ローカルモデルの選択も可能に。 :link: <https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration/|github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration> 2. _MAI-Code-1-Flash、GitHub Copilot Business/..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1782515172.478539",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-26_ 1. _GitHub Desktop 3.6：Git WorktreeとCopilot統合を強化_ └ Copilotによるコミットメッセージ自動生成・マージコンフリクト解決をGitHub Desktopに統合。.github/copilot-instructions.md や AGENTS.md のカスタム指示も自動反映される。モデルピッカー追加でBYOK（自前APIキー）にも対応し、ローカルモデルの選択も可能に。 :link: <https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration/|github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration> 2. _MAI-Code-1-Flash、GitHub Copilot Business/EnterpriseでGA_ └ MicrosoftのAI部門が開発したコーディング特化モデルが正式リリース。高頻度・反復的なエージェントワークフロー向けに低レイテンシを実現するよう設計されており、CopilotのモデルラインアップにMicrosoft独自モデルが初めて加わった。 :link: <https://github.blog/changelog/2026-06-26-mai-code-1...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1782515172.478539",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-06-26_ 1. _GitHub Desktop 3.6：Git WorktreeとCopilot統合を強化_ └ Copilotによるコミットメッセージ自動生成・マージコンフリクト解決をGitHub Desktopに統合。.github/copilot-instructions.md や AGENTS.md のカスタム指示も自動反映される。モデルピッカー追加でBYOK（自前APIキー）にも対応し、ローカルモデルの選択も可能に。 :link: <https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration/|github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration> 2. _MAI-Code-1-Flash、GitHub Copilot Business/EnterpriseでGA_ └ MicrosoftのAI部門が開発したコーディング特化モデルが正式リリース。高頻度・反復的なエージェントワークフロー向けに低レイテンシを実現するよう設計されており、CopilotのモデルラインアップにMicrosoft独自モデルが初めて加わった。 :link: <https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise/|github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise> 3. _NTT DATAとCursorが戦略的提携：エンタープライズAIコーディングを加速_ └ NTT DATAがCursorのAIエージェントをグローバルなソフトウェアエンジニアリング・デリバリーモデルに採用。大規模システムのモダナイゼーションとAIガバナンス推進を目的とした提携で、企業規模でのAIコーディング本格導入が進む。 :link: <https://techtrendske.co.ke/2026/06/26/ntt-data-cursor-ai-coding-enterprise-modernization/|techtrendske.co.ke/2026/06/26/ntt-data-cursor-ai-coding-enterprise-modernization> 4. _6月...\nai駆動開発ネタ\n経営"
     }
   ]
 }
