@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-27T03:55:53.394Z",
+  "generatedAt": "2026-06-28T04:18:33.236Z",
   "channelCount": 9,
-  "totalMessages": 1869,
+  "totalMessages": 1871,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -29901,11 +29901,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1782615676.805189",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.06.27）* を共有します。 今週のテーマは *「SIerとのアポイントラッシュ、Slack50人突破。そして『福利厚生の大幅拡充』へ！」* です。 派遣許認可の取得や組織の拡大を契機に、会社全体の成長スパイラルが凄まじいスピードで加速していること、そしてそれを全員への「環境のアップデート」として還元していく想いを込めたレポートです！ • *【中堅SIerから多くの反響】*HAS様やSky様に続き、情報技術センター様、日本コンピュータシステム様、YSLソリューション様、サイバーコム様とのアポが続々確定！資金調達による強固な財務基盤に加え、エンジニア社員の増加や、藤井さん・小島さん・貴志さん・徳田さん・深尾さんといった本社メンバーの拡充など、すべての要素が噛み合って市場から信頼され始めています。 • *【祝・Slackメンバー50人突破！】* 今年1月にはまだ10人程度しかいなかった組織が、わずか半年で50人規模へ。この急成長を支える現場全員の日々の努力に、心から感謝します。 • *【7月〜 有言実行の福利厚生大幅拡充！】* 「関わるすべての人が幸せになれる会社を作りたい」という理想をカタチにすべく、就業規則を改定し4つの制度を導入・拡充します。 ・本社フレックスタイム制導入 ・有給休暇の「入社日3日先行付与（分割付与）」開始（過去欠勤への遡及対応あり※7月末〆切） ・1時間単位での有給休暇取得（年間5日分上限） ・夏季休暇の新設（6月以前入社メンバーには5日間一挙付与！） • *【制度の裏にある“誰かの努力”に感謝しましょう】* 今回の制度が増える裏には、集計を担う総務の藤井さんや、現場と調整する営業メンバーの業務増といった努力が隠れています。全員が全員に感謝し合える、そんな好循環の組織を一緒に作っていきましょう。 半年前は10人だったSaitekiが、今や50人の仲間と共に日本を代表する企業や中堅各社と次々に取引を実現し、間違いなく業界で一目置かれる存在へと進化しています。この勢いを止めることなく、来週も全員で努力していきましょう！ ぜひLetterも読んでみてください！ ▼ Letter of T | 今週の記録（2026.06.27） <https://app.notion.com/p/Letter-of-T-2026-06-27-38ddfb42679c8002b7f0fccfaa65a331|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！",
+          "rawText": "<!channel>\nみなさん、今週もお疲れ様でした！！\n*Letter of T | 今週の記録（2026.06.27）* を共有します。\n\n今週のテーマは\n*「SIerとのアポイントラッシュ、Slack50人突破。そして『福利厚生の大幅拡充』へ！」* です。\n派遣許認可の取得や組織の拡大を契機に、会社全体の成長スパイラルが凄まじいスピードで加速していること、そしてそれを全員への「環境のアップデート」として還元していく想いを込めたレポートです！\n\n• *【中堅SIerから多くの反響】*HAS様やSky様に続き、情報技術センター様、日本コンピュータシステム様、YSLソリューション様、サイバーコム様とのアポが続々確定！資金調達による強固な財務基盤に加え、エンジニア社員の増加や、藤井さん・小島さん・貴志さん・徳田さん・深尾さんといった本社メンバーの拡充など、すべての要素が噛み合って市場から信頼され始めています。\n• *【祝・Slackメンバー50人突破！】* 今年1月にはまだ10人程度しかいなかった組織が、わずか半年で50人規模へ。この急成長を支える現場全員の日々の努力に、心から感謝します。\n• *【7月〜 有言実行の福利厚生大幅拡充！】* 「関わるすべての人が幸せになれる会社を作りたい」という理想をカタチにすべく、就業規則を改定し4つの制度を導入・拡充します。\n・本社フレックスタイム制導入  \n・有給休暇の「入社日3日先行付与（分割付与）」開始（過去欠勤への遡及対応あり※7月末〆切）  \n・1時間単位での有給休暇取得（年間5日分上限）  \n・夏季休暇の新設（6月以前入社メンバーには5日間一挙付与！）  \n\n• *【制度の裏にある“誰かの努力”に感謝しましょう】*\n今回の制度が増える裏には、集計を担う総務の藤井さんや、現場と調整する営業メンバーの業務増といった努力が隠れています。全員が全員に感謝し合える、そんな好循環の組織を一緒に作っていきましょう。\n\n半年前は10人だったSaitekiが、今や50人の仲間と共に日本を代表する企業や中堅各社と次々に取引を実現し、間違いなく業界で一目置かれる存在へと進化しています。この勢いを止めることなく、来週も全員で努力していきましょう！\n\nぜひLetterも読んでみてください！\n\n▼ Letter of T | 今週の記録（2026.06.27）\n<https://app.notion.com/p/Letter-of-T-2026-06-27-38ddfb42679c8002b7f0fccfaa65a331|app.notion.com/p/Letter-of-T-…>\n\n今週も、最高のパフォーマンスをありがとうございました！！",
+          "messageTs": "1782615676.805189",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-28",
+          "timestamp": "2026-06-28T03:01:16.805Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 281,
+      "messageCount": 282,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-06-26"
+      "lastDate": "2026-06-28"
     },
     {
       "id": "C09QXV3F8G0",
@@ -33088,11 +33108,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1782601672.941339",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-27_ 1. _Claude Code v2.1.195リリース — 日本語音声入力バグ修正・バックグラウンドエージェント安定性向上_ └ 日本語・中国語・タイ語など空白なし言語での音声入力自動送信が正常に動作しないバグを修正。フルスクリーン時のマウスクリック/ドラッグを無効化できる `CLAUDE_CODE_DISABLE_MOUSE_CLICKS` 環境変数を追加（スクロールは維持）。ハイフン入りhookマッチャー（例: `code-reviewer`）の誤った部分一致バグ修正、バックグラウンドエージェントのデータ消失・制御ソケット障害も解消。計12件の変更を含む。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.195|github.com/anthropics/…/v2.1.195> 2. _GitHub Copilot：AIアダプションフェーズ別PRマージ数を組織レポートに追加_ └ 組織・エンタープライズ向けCopilotレポートに、開発者のAI活用度（Phase 1: コード補完のみ → Phase 2: 単一エージェント → Phase 3: マルチエージェント）別のPRマージ数指標を新追加。Copilot活用の深度と実際のコード貢献度を定量化でき、AI導入ROIの測定が容易になる。REST API経由で1日・28日スパンで取得可能。 :link: <https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports/|github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports> 3. _本日のAIニュースまとめ：生成AIが「実験」から「業務基盤」フェーズへ本格移行（eguweb 2026-06-27）_ └ コーディング・科学研究・セキュリティなど高難度領域でのAIモデル活用が加速。モデル単体の評価から、エージェント・推論チップ・AI基盤・規制対応を含む実務運用の議論へとフェーズが移行していることを複数の事例から解説する本日のAI業界まとめ。 :link: <https://eguweb.jp/ai/81081/|eguweb.jp/ai/81081> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-06-27_\n\n1. _Claude Code v2.1.195リリース — 日本語音声入力バグ修正・バックグラウンドエージェント安定性向上_\n└ 日本語・中国語・タイ語など空白なし言語での音声入力自動送信が正常に動作しないバグを修正。フルスクリーン時のマウスクリック/ドラッグを無効化できる `CLAUDE_CODE_DISABLE_MOUSE_CLICKS` 環境変数を追加（スクロールは維持）。ハイフン入りhookマッチャー（例: `code-reviewer`）の誤った部分一致バグ修正、バックグラウンドエージェントのデータ消失・制御ソケット障害も解消。計12件の変更を含む。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.195|github.com/anthropics/…/v2.1.195>\n2. _GitHub Copilot：AIアダプションフェーズ別PRマージ数を組織レポートに追加_\n└ 組織・エンタープライズ向けCopilotレポートに、開発者のAI活用度（Phase 1: コード補完のみ → Phase 2: 単一エージェント → Phase 3: マルチエージェント）別のPRマージ数指標を新追加。Copilot活用の深度と実際のコード貢献度を定量化でき、AI導入ROIの測定が容易になる。REST API経由で1日・28日スパンで取得可能。\n:link: <https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports/|github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports>\n3. _本日のAIニュースまとめ：生成AIが「実験」から「業務基盤」フェーズへ本格移行（eguweb 2026-06-27）_\n└ コーディング・科学研究・セキュリティなど高難度領域でのAIモデル活用が加速。モデル単体の評価から、エージェント・推論チップ・AI基盤・規制対応を含む実務運用の議論へとフェーズが移行していることを複数の事例から解説する本日のAI業界まとめ。\n:link: <https://eguweb.jp/ai/81081/|eguweb.jp/ai/81081> *使用して送信されました* Claude",
+          "messageTs": "1782601672.941339",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-27",
+          "timestamp": "2026-06-27T23:07:52.941Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 165,
+      "messageCount": 166,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-06-26"
+      "lastDate": "2026-06-27"
     },
     {
       "id": "C09Q1KNL2P8",
