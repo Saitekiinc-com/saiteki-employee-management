@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-06-29T04:25:08.096Z",
+  "generatedAt": "2026-06-30T04:04:56.061Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -56254,7 +56254,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1782340578.433449",
-          "threadTs": null,
+          "threadTs": "1782340578.433449",
           "authorName": "遠藤優斗",
           "permalink": null
         }
@@ -56574,6 +56574,145 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-06-28_ 1. _2026年6月28日 AIニュース：エージェント・推論基盤・企業AI・透明性ルールが実務段階へ_ └ 生成AIが「使うツール」から「業務を動かす基盤」へと本格移行。AIエージェントの長時間稼働、特化型推論チップによるコスト低減、Slackや開発環境へのビジネスエージェント浸透が加速している。またEU AI法第50条の透明性規則が2026年8月2日に施行予定で、AI生成コンテンツへのマーキング義務化が差し迫った課題に。 :link: <https://eguweb.jp/ai/81094/|eguweb.jp/ai/81094> 2. _CursorがOSSコーディングアシスタント「Continue」を静かに買収、7月15日でサービス終了_ └ GitHub Stars 34,000超のオープンソースAIコーディングアシスタント「Continue」をCursorが買収（アキハイア形式）。製品は7月15日にシャットダウンされ、ユーザーはデータエクスポートが必要。コードはApache 2.0ライセンスでコミュニティに開放、共同創業者はCursorへ参画。CursorはSupermaven・Graphiteに続く買収で開発ツールエコシステムを強化。 :link: <https://thenewstack.io/cursor-acquires-continue-coding/|thenewstack.io/cursor-acquires-continue-coding> 3. _AWS Summit Japan 2026基調講演：セッションの半数がAIエージェント関連、OpenAIが開発サイクル15倍短縮を発表_ └ 6/25〜26開催のAWS Summit Japan 2026では167セッション中約半数がAIエージェント関連。OpenAI日本法人社長がAIエージェント活用によるモデル開発サイクルの15倍短縮を公表。Amazon Bedrock AgentCore（プロダクショングレードAIエージェント基盤）とKiro IDE（スマホから管理可能なAIエージェントIDE）の最新情報も発表された。 :link: <https://cloud.watch.impress.co.jp/docs/event/2120217.html|cloud.watch.impress.co.jp/docs/event/2120217.html> 4. _GitHub Copilot for JiraがGA：Jiraチケット内でエージェント進捗をリアルタイム追跡_ └ GitHub Copilot for JiraがGA（2026年6月25日）。Jiraのチケット上でコーディングエージェントの作業進捗...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782715383.266899",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林大起",
+      "personName": "小林大起",
+      "slackIds": [
+        "U0BDQV92DE2"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782715383.266899",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782715383.266899",
+      "timestamp": "2026-06-29T06:43:03.266Z",
+      "detailBullets": [
+        "初めまして。 9月入社予定の小林大起(こばやし だいき)と申します。 ◾︎出身 長野県 ◾︎経歴 3年間、東京のホテルで音響や照明の演出をしていました。 その後、インフラエンジニアとして運用保守を行ってました。 ◾︎趣味 ・音楽 ロックが好きです ・ディズニー 1人でも行ったり、月イチで行くくらいには好きです ◾︎休日の過ごし方 ゲームしてるか、音楽聴きながら宛もなく散歩してます。 ◾︎ひとこと IT業界の経験がまだまだ浅いので分からないことも多いですが、早く戦力になれるように頑張ります。 よろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782715383.266899",
+          "text": "初めまして。 9月入社予定の小林大起(こばやし だいき)と申します。 ◾︎出身 長野県 ◾︎経歴 3年間、東京のホテルで音響や照明の演出をしていました。 その後、インフラエンジニアとして運用保守を行ってました。 ◾︎趣味 ・音楽 ロックが好きです ・ディズニー 1人でも行ったり、月イチで行くくらいには好きです ◾︎休日の過ごし方 ゲームしてるか、音楽聴きながら宛もなく散歩してます。 ◾︎ひとこと IT業界の経験がまだまだ浅いので分からないことも多いですが、早く戦力になれるように頑張ります。 よろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782715383.266899",
+          "threadTs": "1782715383.266899",
+          "authorName": "小林大起",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 9月入社予定の小林大起(こばやし だいき)と申します。 ◾︎出身 長野県 ◾︎経歴 3年間、東京のホテルで音響や照明の演出をしていました。 その後、インフラエンジニアとして運用保守を行ってました。 ◾︎趣味 ・音楽 ロックが好きです ・ディズニー 1人でも行ったり、月イチで行くくらいには好きです ◾︎休日の過ごし方 ゲームしてるか、音楽聴きながら宛もなく散歩してます。 ◾︎ひとこと IT業界の経験がまだまだ浅いので分からないことも多いですが、早く戦力になれるように頑張ります。 よろしくお願いいたします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1782774525.552899",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1782774525.552899",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1782774525.552899",
+      "timestamp": "2026-06-29T23:08:45.552Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-06-29_ 1. _Cursor、iOSアプリをパブリックベータ公開 — スマホからコーディングエージェントを操作_ └ CursorがiOS向けモバイルアプリを全有料プランでパブリックベータ公開。iPhoneからクラウドホスト型エージェントの起動、または手元マシン上のエージェントのリモートコントローラーとして利用可能。音声入力・スラッシュコマンドによる指示、ロック画面でのライブアクティビティ表示にも対応。 :link: <https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/|techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go> 2. _AIニュースまとめ（2026/6/29）：Claude Code導入で生産性3倍・EU AI Act..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1782774525.552899",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-29_ 1. _Cursor、iOSアプリをパブリックベータ公開 — スマホからコーディングエージェントを操作_ └ CursorがiOS向けモバイルアプリを全有料プランでパブリックベータ公開。iPhoneからクラウドホスト型エージェントの起動、または手元マシン上のエージェントのリモートコントローラーとして利用可能。音声入力・スラッシュコマンドによる指示、ロック画面でのライブアクティビティ表示にも対応。 :link: <https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/|techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go> 2. _AIニュースまとめ（2026/6/29）：Claude Code導入で生産性3倍・EU AI Act透明性義務は8/2から適用_ └ Claude Code導入でエンジニア生産性が実質3倍に向上とVentureBeatが報道。開発ボトルネックが「コードを書く作業」から「構築すべきものを決める意思決定」へ移行中。EU AI Act第50条（AI生成コンテンツ透明性義務）が2026年8月2日より正式施行となり、企業の対応が急務に。 :link: <https://eguweb.jp/ai/81103...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1782774525.552899",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-06-29_ 1. _Cursor、iOSアプリをパブリックベータ公開 — スマホからコーディングエージェントを操作_ └ CursorがiOS向けモバイルアプリを全有料プランでパブリックベータ公開。iPhoneからクラウドホスト型エージェントの起動、または手元マシン上のエージェントのリモートコントローラーとして利用可能。音声入力・スラッシュコマンドによる指示、ロック画面でのライブアクティビティ表示にも対応。 :link: <https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/|techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go> 2. _AIニュースまとめ（2026/6/29）：Claude Code導入で生産性3倍・EU AI Act透明性義務は8/2から適用_ └ Claude Code導入でエンジニア生産性が実質3倍に向上とVentureBeatが報道。開発ボトルネックが「コードを書く作業」から「構築すべきものを決める意思決定」へ移行中。EU AI Act第50条（AI生成コンテンツ透明性義務）が2026年8月2日より正式施行となり、企業の対応が急務に。 :link: <https://eguweb.jp/ai/81103/|eguweb.jp/ai/81103> 3. _2,800万ワークフローから見た、AI時代の「詰まらない」開発戦略_ └ 2,800万件のワークフローデータを基に「AI時代に開発が詰まらない」ための実践的戦略を解説したスライド資料（2026-06-29公開）。データアクセス制御・承認フロー・コスト管理・ログ管理といった実務課題を整理し、AI駆動開発の運用フェーズへの移行を支援する内容。 :link: <https://www.docswell.com/s/hideokamoto/K277E4-2026-06-29-105144|docswell.com/s/hideokamoto/…> 4. _OpenAI Codexの利用急増 — 企業の非エンジニアの利用が189倍に拡大_ └ OpenAIの自律型コーディングAI「Codex」の社内利用率が97.9%に達し、企業の非エンジニア職での利用が189倍に急増。AIがチャット型から自律エージェント型へ移行し、開発者以外の職種にもコーディング支援が浸透していることを示す注目データ。 :link: <https://www.sbbit.jp...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782783994.269589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782783994.269589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782783994.269589",
+      "timestamp": "2026-06-30T01:46:34.269Z",
+      "detailBullets": [
+        "<@U0BC5SAE8NQ> 遠藤さん、あらためてよろしくお願いします！ ヒップホップ、スタッズベルト作り、かっこいいですね:sparkles: そして休日の過ごし方、めちゃくちゃいいですね、、、！ そうやって好きで技術を探求しようとする方が多い会社なので、やはり社風に合うと思います！ これからご一緒できることを楽しみにしています！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782783994.269589",
+          "text": "<@U0BC5SAE8NQ> 遠藤さん、あらためてよろしくお願いします！ ヒップホップ、スタッズベルト作り、かっこいいですね:sparkles: そして休日の過ごし方、めちゃくちゃいいですね、、、！ そうやって好きで技術を探求しようとする方が多い会社なので、やはり社風に合うと思います！ これからご一緒できることを楽しみにしています！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782783994.269589",
+          "threadTs": "1782340578.433449",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BC5SAE8NQ> 遠藤さん、あらためてよろしくお願いします！ ヒップホップ、スタッズベルト作り、かっこいいですね:sparkles: そして休日の過ごし方、めちゃくちゃいいですね、、、！ そうやって好きで技術を探求しようとする方が多い会社なので、やはり社風に合うと思います！ これからご一緒できることを楽しみにしています！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782784175.283349",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782784175.283349",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782784175.283349",
+      "timestamp": "2026-06-30T01:49:35.283Z",
+      "detailBullets": [
+        "<@U0BDQV92DE2> 小林さん、あらためてこれからよろしくお願いします！ ディズニー月イチで行くんですね、大ファンですね！ 僕、ディズニーランドって多分、人生で2回しか行ったことがなくて、1回目は小学生の時でほぼゴーカートで終わって、2回目は大和証券時代の達成者を秘密のレストラン？に招待してもらえる企画で、だったのでちゃんと遊んだことがないんですよね。 いまになってディズニーランドで思いっきり遊んでみたいな、と思い始めていまして、ぜひ今度大人のディズニーランドの楽しみ方を教えて欲しいです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782784175.283349",
+          "text": "<@U0BDQV92DE2> 小林さん、あらためてこれからよろしくお願いします！ ディズニー月イチで行くんですね、大ファンですね！ 僕、ディズニーランドって多分、人生で2回しか行ったことがなくて、1回目は小学生の時でほぼゴーカートで終わって、2回目は大和証券時代の達成者を秘密のレストラン？に招待してもらえる企画で、だったのでちゃんと遊んだことがないんですよね。 いまになってディズニーランドで思いっきり遊んでみたいな、と思い始めていまして、ぜひ今度大人のディズニーランドの楽しみ方を教えて欲しいです！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782784175.283349",
+          "threadTs": "1782715383.266899",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BDQV92DE2> 小林さん、あらためてこれからよろしくお願いします！ ディズニー月イチで行くんですね、大ファンですね！ 僕、ディズニーランドって多分、人生で2回しか行ったことがなくて、1回目は小学生の時でほぼゴーカートで終わって、2回目は大和証券時代の達成者を秘密のレストラン？に招待してもらえる企画で、だったのでちゃんと遊んだことがないんですよね。 いまになってディズニーランドで思いっきり遊んでみたいな、と思い始めていまして、ぜひ今度大人のディズニーランドの楽しみ方を教えて欲しいです！\n自己紹介\n経営"
     }
   ]
 }

@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-06-29T04:25:10.817Z",
+  "generatedAt": "2026-06-30T04:05:00.446Z",
   "channelCount": 9,
-  "totalMessages": 1872,
+  "totalMessages": 1876,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -24494,7 +24494,7 @@ window.SLACK_EXPORT_DATA = {
           "text": "初めまして。 10月入社予定の遠藤優斗（えんどう ゆうと）と申します。 :black_small_square:出身 東京都 :black_small_square:経歴 SES企業にてインフラエンジニアとして、運用保守を担当（今月でちょうど半年になります。） :black_small_square:趣味 ・音楽 ヒップホップ（KANDYTOWN、Kohjiyaが特に好きです） ・ゲーム FPSを中心にやっています ・スタッズベルト作り アメカジが大好きなので、自分用だったり友達に作ったりしています :black_small_square:休日の過ごし方 インドアな人間なので、ずっとPCと睨めっこしてます… 疲れたら昼寝したり、散歩したりしてリフレッシュしてます 最近はArch Linuxで環境構築をしようと思い、仮想化環境で試したのですが、使用したかったWMと相性が悪かったのでこの前断念しました…:sob: デュアルブートするのは怖いので、それ専用のPCを購入しようか検討中です:thinking_face: :black_small_square:ひとこと 経験も浅く、分からないことだらけですが、若さを武器に失敗を恐れず挑戦し、多くのことを吸収して成長していきたいと考えております。 これからよろしくお願いいたします。",
           "rawText": "初めまして。\n10月入社予定の遠藤優斗（えんどう ゆうと）と申します。\n\n:black_small_square:出身\n東京都\n\n:black_small_square:経歴\nSES企業にてインフラエンジニアとして、運用保守を担当（今月でちょうど半年になります。）\n\n:black_small_square:趣味\n・音楽\n　ヒップホップ（KANDYTOWN、Kohjiyaが特に好きです）\n・ゲーム\n　FPSを中心にやっています\n・スタッズベルト作り\n　アメカジが大好きなので、自分用だったり友達に作ったりしています\n\n:black_small_square:休日の過ごし方\nインドアな人間なので、ずっとPCと睨めっこしてます…\n疲れたら昼寝したり、散歩したりしてリフレッシュしてます\n最近はArch Linuxで環境構築をしようと思い、仮想化環境で試したのですが、使用したかったWMと相性が悪かったのでこの前断念しました…:sob:\nデュアルブートするのは怖いので、それ専用のPCを購入しようか検討中です:thinking_face:\n\n:black_small_square:ひとこと\n経験も浅く、分からないことだらけですが、若さを武器に失敗を恐れず挑戦し、多くのことを吸収して成長していきたいと考えております。\nこれからよろしくお願いいたします。",
           "messageTs": "1782340578.433449",
-          "threadTs": null,
+          "threadTs": "1782340578.433449",
           "parentUserId": null,
           "subtype": null,
           "date": "2026-06-24",
@@ -24522,11 +24522,71 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1782715383.266899",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0BDQV92DE2",
+          "userName": "小林大起",
+          "userRealName": "小林大起",
+          "text": "初めまして。 9月入社予定の小林大起(こばやし だいき)と申します。 ◾︎出身 長野県 ◾︎経歴 3年間、東京のホテルで音響や照明の演出をしていました。 その後、インフラエンジニアとして運用保守を行ってました。 ◾︎趣味 ・音楽 ロックが好きです ・ディズニー 1人でも行ったり、月イチで行くくらいには好きです ◾︎休日の過ごし方 ゲームしてるか、音楽聴きながら宛もなく散歩してます。 ◾︎ひとこと IT業界の経験がまだまだ浅いので分からないことも多いですが、早く戦力になれるように頑張ります。 よろしくお願いいたします。",
+          "rawText": "初めまして。\n9月入社予定の小林大起(こばやし だいき)と申します。\n\n◾︎出身\n長野県\n\n◾︎経歴\n3年間、東京のホテルで音響や照明の演出をしていました。\nその後、インフラエンジニアとして運用保守を行ってました。\n\n◾︎趣味\n・音楽\n　ロックが好きです\n・ディズニー\n　1人でも行ったり、月イチで行くくらいには好きです\n\n◾︎休日の過ごし方\nゲームしてるか、音楽聴きながら宛もなく散歩してます。\n\n◾︎ひとこと\nIT業界の経験がまだまだ浅いので分からないことも多いですが、早く戦力になれるように頑張ります。\nよろしくお願いいたします。",
+          "messageTs": "1782715383.266899",
+          "threadTs": "1782715383.266899",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-29",
+          "timestamp": "2026-06-29T06:43:03.266Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1782783994.269589",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<@U0BC5SAE8NQ> 遠藤さん、あらためてよろしくお願いします！ ヒップホップ、スタッズベルト作り、かっこいいですね:sparkles: そして休日の過ごし方、めちゃくちゃいいですね、、、！ そうやって好きで技術を探求しようとする方が多い会社なので、やはり社風に合うと思います！ これからご一緒できることを楽しみにしています！",
+          "rawText": "<@U0BC5SAE8NQ>\n遠藤さん、あらためてよろしくお願いします！\n\nヒップホップ、スタッズベルト作り、かっこいいですね:sparkles:\nそして休日の過ごし方、めちゃくちゃいいですね、、、！\nそうやって好きで技術を探求しようとする方が多い会社なので、やはり社風に合うと思います！\n\nこれからご一緒できることを楽しみにしています！",
+          "messageTs": "1782783994.269589",
+          "threadTs": "1782340578.433449",
+          "parentUserId": "U0BC5SAE8NQ",
+          "subtype": null,
+          "date": "2026-06-30",
+          "timestamp": "2026-06-30T01:46:34.269Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1782784175.283349",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<@U0BDQV92DE2> 小林さん、あらためてこれからよろしくお願いします！ ディズニー月イチで行くんですね、大ファンですね！ 僕、ディズニーランドって多分、人生で2回しか行ったことがなくて、1回目は小学生の時でほぼゴーカートで終わって、2回目は大和証券時代の達成者を秘密のレストラン？に招待してもらえる企画で、だったのでちゃんと遊んだことがないんですよね。 いまになってディズニーランドで思いっきり遊んでみたいな、と思い始めていまして、ぜひ今度大人のディズニーランドの楽しみ方を教えて欲しいです！",
+          "rawText": "<@U0BDQV92DE2>\n小林さん、あらためてこれからよろしくお願いします！\n\nディズニー月イチで行くんですね、大ファンですね！\n\n僕、ディズニーランドって多分、人生で2回しか行ったことがなくて、1回目は小学生の時でほぼゴーカートで終わって、2回目は大和証券時代の達成者を秘密のレストラン？に招待してもらえる企画で、だったのでちゃんと遊んだことがないんですよね。\n\nいまになってディズニーランドで思いっきり遊んでみたいな、と思い始めていまして、ぜひ今度大人のディズニーランドの楽しみ方を教えて欲しいです！",
+          "messageTs": "1782784175.283349",
+          "threadTs": "1782715383.266899",
+          "parentUserId": "U0BDQV92DE2",
+          "subtype": null,
+          "date": "2026-06-30",
+          "timestamp": "2026-06-30T01:49:35.283Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 379,
+      "messageCount": 382,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-06-24"
+      "lastDate": "2026-06-30"
     },
     {
       "id": "C09MKT8QKAR",
@@ -33148,11 +33208,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1782774525.552899",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-06-29_ 1. _Cursor、iOSアプリをパブリックベータ公開 — スマホからコーディングエージェントを操作_ └ CursorがiOS向けモバイルアプリを全有料プランでパブリックベータ公開。iPhoneからクラウドホスト型エージェントの起動、または手元マシン上のエージェントのリモートコントローラーとして利用可能。音声入力・スラッシュコマンドによる指示、ロック画面でのライブアクティビティ表示にも対応。 :link: <https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/|techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go> 2. _AIニュースまとめ（2026/6/29）：Claude Code導入で生産性3倍・EU AI Act透明性義務は8/2から適用_ └ Claude Code導入でエンジニア生産性が実質3倍に向上とVentureBeatが報道。開発ボトルネックが「コードを書く作業」から「構築すべきものを決める意思決定」へ移行中。EU AI Act第50条（AI生成コンテンツ透明性義務）が2026年8月2日より正式施行となり、企業の対応が急務に。 :link: <https://eguweb.jp/ai/81103/|eguweb.jp/ai/81103> 3. _2,800万ワークフローから見た、AI時代の「詰まらない」開発戦略_ └ 2,800万件のワークフローデータを基に「AI時代に開発が詰まらない」ための実践的戦略を解説したスライド資料（2026-06-29公開）。データアクセス制御・承認フロー・コスト管理・ログ管理といった実務課題を整理し、AI駆動開発の運用フェーズへの移行を支援する内容。 :link: <https://www.docswell.com/s/hideokamoto/K277E4-2026-06-29-105144|docswell.com/s/hideokamoto/…> 4. _OpenAI Codexの利用急増 — 企業の非エンジニアの利用が189倍に拡大_ └ OpenAIの自律型コーディングAI「Codex」の社内利用率が97.9%に達し、企業の非エンジニア職での利用が189倍に急増。AIがチャット型から自律エージェント型へ移行し、開発者以外の職種にもコーディング支援が浸透していることを示す注目データ。 :link: <https://www.sbbit.jp/article/cont1/185928|sbbit.jp/article/cont1/185928> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-06-29_\n\n1. _Cursor、iOSアプリをパブリックベータ公開 — スマホからコーディングエージェントを操作_\n└ CursorがiOS向けモバイルアプリを全有料プランでパブリックベータ公開。iPhoneからクラウドホスト型エージェントの起動、または手元マシン上のエージェントのリモートコントローラーとして利用可能。音声入力・スラッシュコマンドによる指示、ロック画面でのライブアクティビティ表示にも対応。\n:link: <https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/|techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go>\n2. _AIニュースまとめ（2026/6/29）：Claude Code導入で生産性3倍・EU AI Act透明性義務は8/2から適用_\n└ Claude Code導入でエンジニア生産性が実質3倍に向上とVentureBeatが報道。開発ボトルネックが「コードを書く作業」から「構築すべきものを決める意思決定」へ移行中。EU AI Act第50条（AI生成コンテンツ透明性義務）が2026年8月2日より正式施行となり、企業の対応が急務に。\n:link: <https://eguweb.jp/ai/81103/|eguweb.jp/ai/81103>\n3. _2,800万ワークフローから見た、AI時代の「詰まらない」開発戦略_\n└ 2,800万件のワークフローデータを基に「AI時代に開発が詰まらない」ための実践的戦略を解説したスライド資料（2026-06-29公開）。データアクセス制御・承認フロー・コスト管理・ログ管理といった実務課題を整理し、AI駆動開発の運用フェーズへの移行を支援する内容。\n:link: <https://www.docswell.com/s/hideokamoto/K277E4-2026-06-29-105144|docswell.com/s/hideokamoto/…>\n4. _OpenAI Codexの利用急増 — 企業の非エンジニアの利用が189倍に拡大_\n└ OpenAIの自律型コーディングAI「Codex」の社内利用率が97.9%に達し、企業の非エンジニア職での利用が189倍に急増。AIがチャット型から自律エージェント型へ移行し、開発者以外の職種にもコーディング支援が浸透していることを示す注目データ。\n:link: <https://www.sbbit.jp/article/cont1/185928|sbbit.jp/article/cont1/185928> *使用して送信されました* Claude",
+          "messageTs": "1782774525.552899",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-06-29",
+          "timestamp": "2026-06-29T23:08:45.552Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 167,
+      "messageCount": 168,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-06-28"
+      "lastDate": "2026-06-29"
     },
     {
       "id": "C09Q1KNL2P8",
