@@ -2705,5 +2705,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BDQV92DE2"
+  },
+  {
+    "name": "春山彩",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-07-02T04:00:38.761Z",
+    "updatedAt": "2026-07-02T04:00:38.761Z",
+    "last_updated": "2026-07-02T04:00:38.761Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0B912BD7HD"
   }
 ]

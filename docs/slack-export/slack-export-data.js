@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-01T04:21:08.038Z",
+  "generatedAt": "2026-07-02T04:00:46.173Z",
   "channelCount": 9,
-  "totalMessages": 1885,
+  "totalMessages": 1891,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -24702,11 +24702,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1782902484.182519",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0B912BD7HD",
+          "userName": "春山彩",
+          "userRealName": "春山彩",
+          "text": "みなさん、初めまして。 本日より営業として入社いたしました春山彩です。 鈴木さん、徳田さんと一緒にみなさんの案件参画サポートをメインにしていきます。 よろしくお願いします！！ ◼︎出身地 北海道 ◼︎これまでやってきたこと アパレル ↓ 医療事務 ↓ ヘルプデスク ↓ SES営業 ↓ Saiteki ◼︎最近ハマってること スポーツ観戦（野球:baseball:・バスケ:basketball:） 音楽（色々聞いたりするのですが、特にSMAP,サカナクション:fish:が好きです） ◼︎休日の過ごし方 プロバスケ観戦に行くことです！ ◼︎ひとこと 徳田さんの勧めで最近ジムの契約しました！",
+          "rawText": "みなさん、初めまして。\n本日より営業として入社いたしました春山彩です。\n鈴木さん、徳田さんと一緒にみなさんの案件参画サポートをメインにしていきます。\nよろしくお願いします！！\n\n◼︎出身地\n北海道\n\n◼︎これまでやってきたこと\nアパレル\n↓\n医療事務\n↓\nヘルプデスク\n↓\nSES営業\n↓\nSaiteki\n\n◼︎最近ハマってること\nスポーツ観戦（野球:baseball:・バスケ:basketball:）\n音楽（色々聞いたりするのですが、特にSMAP,サカナクション:fish:が好きです）\n\n◼︎休日の過ごし方\nプロバスケ観戦に行くことです！\n◼︎ひとこと\n徳田さんの勧めで最近ジムの契約しました！",
+          "messageTs": "1782902484.182519",
+          "threadTs": "1782902484.182519",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-01",
+          "timestamp": "2026-07-01T10:41:24.182Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1782943385.553009",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U09NHL467U0",
+          "userName": "上遼太郎",
+          "userRealName": "上遼太郎",
+          "text": "上(カミ)です、よろしくお願いします！ ジムでトレーニングカッコいいですね:no_mouth: 僕は筋トレ続けるの苦手で、 少し筋肉ついたら辞めちゃいます(笑) 徳田さんもジムに行ってるんですね:muscle: 知らなかった 知らなかった",
+          "rawText": "上(カミ)です、よろしくお願いします！\nジムでトレーニングカッコいいですね:no_mouth:\n僕は筋トレ続けるの苦手で、\n少し筋肉ついたら辞めちゃいます(笑)\n徳田さんもジムに行ってるんですね:muscle:\n知らなかった\n知らなかった",
+          "messageTs": "1782943385.553009",
+          "threadTs": "1782902484.182519",
+          "parentUserId": "U0B912BD7HD",
+          "subtype": null,
+          "date": "2026-07-01",
+          "timestamp": "2026-07-01T22:03:05.553Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 388,
+      "messageCount": 390,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-06-30"
+      "lastDate": "2026-07-01"
     },
     {
       "id": "C09MKT8QKAR",
@@ -30121,11 +30161,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1782893940.004829",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<@U0A7VHB07J4>さん 利用して大丈夫です:+1: 常駐先が休んで良しとしている期間があり、 その時期が7月〜12月の中であれば、夏季休暇を消化できます。",
+          "rawText": "<@U0A7VHB07J4>さん\n利用して大丈夫です:+1:\n常駐先が休んで良しとしている期間があり、\nその時期が7月〜12月の中であれば、夏季休暇を消化できます。",
+          "messageTs": "1782893940.004829",
+          "threadTs": "1782466842.995129",
+          "parentUserId": "U0A9EE7HZ3P",
+          "subtype": null,
+          "date": "2026-07-01",
+          "timestamp": "2026-07-01T08:19:00.004Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1782898130.359679",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A7VHB07J4",
+          "userName": "小松田 真伍",
+          "userRealName": "小松田 真伍",
+          "text": "<@U0A9EE7HZ3P> さん ご返答頂きありがとうございます:raised_hands::sparkles: 承知致しました:saluting_face:",
+          "rawText": "<@U0A9EE7HZ3P> さん\nご返答頂きありがとうございます:raised_hands::sparkles:\n承知致しました:saluting_face:",
+          "messageTs": "1782898130.359679",
+          "threadTs": "1782466842.995129",
+          "parentUserId": "U0A9EE7HZ3P",
+          "subtype": null,
+          "date": "2026-07-01",
+          "timestamp": "2026-07-01T09:28:50.359Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 283,
+      "messageCount": 285,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-06-30"
+      "lastDate": "2026-07-01"
     },
     {
       "id": "C09QXV3F8G0",
@@ -33408,11 +33488,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1782947238.831479",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-01_ 1. _Claude Code v2.1.197：Claude Sonnet 5がデフォルトモデルに、1Mトークン対応・8月末まで優待価格_ └ Claude CodeがSonnet 5をデフォルト採用し、ネイティブ100万トークンコンテキストを実現。プロモーション価格は8月31日まで。エージェントサイドパネル表示・キーボードフォーカス・バックグラウンドジョブのサブエージェントタイプ消失・セッションステータス誤表示など複数バグも修正。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _Claude Fable 5が全プラットフォームで復活──米輸出規制解除、99%超ジェイルブレイク防御classifier同梱_ └ 米商務省が6月30日に輸出規制を解除し、Fable 5（およびMythos 5）が7月1日より <http://Claude.ai|Claude.ai>・Claude Platform・Claude Code・Claude Coworkで再提供。Anthropicは問題のジェイルブレイクを99%超ブロックする再学習済みサイバーセキュリティ分類器を同梱。 :link: <https://9to5mac.com/2026/07/01/claude-fable-5-cleared-to-return-as-us-lifts-anthropics-export-control-restriction/|9to5mac.com/2026/07/01/claude-fable-5-cleared-to-return-as-us-lifts-anthropics-export-control-restriction> 3. _Kimi K2.7 Code、GitHub Copilotで初のオープンウェイトモデルとして一般提供開始_ └ 月初のGitHub Changelogにて、Moonshot AIのオープンウェイトモデル「Kimi K2.7 Code」がCopilotモデルピッカーに追加。Pro/Pro+/Maxプランから利用可能で、低コストなコーディングワークフローの選択肢として提供。 :link: <https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/|github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot> 4. _AnthropicがMicrosoft Teamsへのクロードエージェント統合を検討中_ └ Anthropicが業務コラボレーションツール「Microsoft Teams」へのClaude AIエージェント統合を視野に入れていることが報じられた。Slack向け「Claude Tag」に続き、エンタープライズ向けAIエージェント展開を加速する動き。 :link: <https://winbuzzer.com/2026/07/01/anthropic-eyes-claude-agent-for-microsoft-teams-xcxwbn/|winbuzzer.com/2026/07/01/anthropic-eyes-claude-agent-for-microsoft-teams-xcxwbn> 5. _2026-07-01 AIニュースまとめ（eguweb）：エージェント運用・AI基盤・透明性対応が本番段階へ_ └ エージェント実装・AI基盤整備・EU AI Act第50条（8/2施行）に向けた生成コンテンツ透明性ルール対応など、AIの「運用フェーズ」への移行が加速。開発者にとって実務直結の動向が続く。 :link: <https://eguweb.jp/ai/81115/|eguweb.jp/ai/81115> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-01_\n\n1. _Claude Code v2.1.197：Claude Sonnet 5がデフォルトモデルに、1Mトークン対応・8月末まで優待価格_\n└ Claude CodeがSonnet 5をデフォルト採用し、ネイティブ100万トークンコンテキストを実現。プロモーション価格は8月31日まで。エージェントサイドパネル表示・キーボードフォーカス・バックグラウンドジョブのサブエージェントタイプ消失・セッションステータス誤表示など複数バグも修正。\n:link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog>\n2. _Claude Fable 5が全プラットフォームで復活──米輸出規制解除、99%超ジェイルブレイク防御classifier同梱_\n└ 米商務省が6月30日に輸出規制を解除し、Fable 5（およびMythos 5）が7月1日より <http://Claude.ai|Claude.ai>・Claude Platform・Claude Code・Claude Coworkで再提供。Anthropicは問題のジェイルブレイクを99%超ブロックする再学習済みサイバーセキュリティ分類器を同梱。\n:link: <https://9to5mac.com/2026/07/01/claude-fable-5-cleared-to-return-as-us-lifts-anthropics-export-control-restriction/|9to5mac.com/2026/07/01/claude-fable-5-cleared-to-return-as-us-lifts-anthropics-export-control-restriction>\n3. _Kimi K2.7 Code、GitHub Copilotで初のオープンウェイトモデルとして一般提供開始_\n└ 月初のGitHub Changelogにて、Moonshot AIのオープンウェイトモデル「Kimi K2.7 Code」がCopilotモデルピッカーに追加。Pro/Pro+/Maxプランから利用可能で、低コストなコーディングワークフローの選択肢として提供。\n:link: <https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/|github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot>\n4. _AnthropicがMicrosoft Teamsへのクロードエージェント統合を検討中_\n└ Anthropicが業務コラボレーションツール「Microsoft Teams」へのClaude AIエージェント統合を視野に入れていることが報じられた。Slack向け「Claude Tag」に続き、エンタープライズ向けAIエージェント展開を加速する動き。\n:link: <https://winbuzzer.com/2026/07/01/anthropic-eyes-claude-agent-for-microsoft-teams-xcxwbn/|winbuzzer.com/2026/07/01/anthropic-eyes-claude-agent-for-microsoft-teams-xcxwbn>\n5. _2026-07-01 AIニュースまとめ（eguweb）：エージェント運用・AI基盤・透明性対応が本番段階へ_\n└ エージェント実装・AI基盤整備・EU AI Act第50条（8/2施行）に向けた生成コンテンツ透明性ルール対応など、AIの「運用フェーズ」への移行が加速。開発者にとって実務直結の動向が続く。\n:link: <https://eguweb.jp/ai/81115/|eguweb.jp/ai/81115> *使用して送信されました* Claude",
+          "messageTs": "1782947238.831479",
+          "threadTs": "1782947238.831479",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-01",
+          "timestamp": "2026-07-01T23:07:18.831Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1782956817.528179",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "生成AIが台頭してから毎日のようにアップデートが続いていますが、私の向き合い方についてシェアします。 *基本方針：構造的変化だけ拾い、細部は追わない* モデルの性能はビジネス活用において既に十分すぎるぐらいの水準に達していると感じます。むしろ多くの場合、ツールのキャパシティの一部しか使えていないことが実態です（9割の会社が使いこなせないと思う）。 そのため、優先順位を以下のように整理しています。 *追うべきもの（構造的変化）* • AIエージェントなど、業務フローそのものを変えうるアップデート（パラダイムシフトぐらいのインパクト） • 実務への組み込み方が大きく変わる機能変化 *追わなくていいもの* • モデルのベンチマークスコアや細かい性能比較 • 新モデルのリリース情報（使い方が変わらないもの） *重要なのは、今あるツールで業務フローを組み替えること。* 新しいツールや機能を試すこと自体は大事だと思いますが、それを追うことが目的化しないよう意識したいなと。「どう使いこなすか」の精度を上げることに時間を投資した方が、ROI（投資対効果）は高いと考えます。 何か気になるアップデートがあった際は、「これは構造的変化か？パラダイムシフトが起こるほどの話か？」を自問する習慣をつけてみると、膨大すぎる日々のAI関連のニュースを少しでも追いやすくなるかな、と思っています。",
+          "rawText": "生成AIが台頭してから毎日のようにアップデートが続いていますが、私の向き合い方についてシェアします。\n\n*基本方針：構造的変化だけ拾い、細部は追わない*\n\nモデルの性能はビジネス活用において既に十分すぎるぐらいの水準に達していると感じます。むしろ多くの場合、ツールのキャパシティの一部しか使えていないことが実態です（9割の会社が使いこなせないと思う）。\n\nそのため、優先順位を以下のように整理しています。\n\n*追うべきもの（構造的変化）*\n• AIエージェントなど、業務フローそのものを変えうるアップデート（パラダイムシフトぐらいのインパクト）\n• 実務への組み込み方が大きく変わる機能変化\n*追わなくていいもの*\n• モデルのベンチマークスコアや細かい性能比較\n• 新モデルのリリース情報（使い方が変わらないもの）\n*重要なのは、今あるツールで業務フローを組み替えること。*\n\n新しいツールや機能を試すこと自体は大事だと思いますが、それを追うことが目的化しないよう意識したいなと。「どう使いこなすか」の精度を上げることに時間を投資した方が、ROI（投資対効果）は高いと考えます。\n\n何か気になるアップデートがあった際は、「これは構造的変化か？パラダイムシフトが起こるほどの話か？」を自問する習慣をつけてみると、膨大すぎる日々のAI関連のニュースを少しでも追いやすくなるかな、と思っています。",
+          "messageTs": "1782956817.528179",
+          "threadTs": "1782947238.831479",
+          "parentUserId": null,
+          "subtype": "thread_broadcast",
+          "date": "2026-07-02",
+          "timestamp": "2026-07-02T01:46:57.528Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 170,
+      "messageCount": 172,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-07-01"
+      "lastDate": "2026-07-02"
     },
     {
       "id": "C09Q1KNL2P8",
