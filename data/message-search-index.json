@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-02T04:00:38.986Z",
+  "generatedAt": "2026-07-03T03:44:47.567Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -57236,6 +57236,421 @@
         }
       ],
       "searchText": "生成AIが台頭してから毎日のようにアップデートが続いていますが、私の向き合い方についてシェアします。 *基本方針：構造的変化だけ拾い、細部は追わない* モデルの性能はビジネス活用において既に十分すぎるぐらいの水準に達していると感じます。むしろ多くの場合、ツールのキャパシティの一部しか使えていないことが実態です（9割の会社が使いこなせないと思う）。 そのため、優先順位を以下のように整理しています。 *追うべきもの（構造的変化）* • AIエージェントなど、業務フローそのものを変えうるアップデート（パラダイムシフトぐらいのインパクト） • 実務への組み込み方が大きく変わる機能変化 *追わなくていいもの* • モデルのベンチマークスコアや細かい性能比較 • 新モデルのリリース情報（使い方が変わらないもの） *重要なのは、今あるツールで業務フローを組み替えること。* 新しいツールや機能を試すこと自体は大事だと思いますが、それを追うことが目的化しないよう意識したいなと。「どう使いこなすか」の精度を上げることに時間を投資した方が、ROI（投資対効果）は高いと考えます。 何か気になるアップデートがあった際は、「これは構造的変化か？パラダイムシフトが起こるほどの話か？」を自問する習慣をつけてみると、膨大すぎる日々のAI関連のニュースを少しでも追いやすくなるかな、と思っています。\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1782986859.131649",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1782986859.131649",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1782986859.131649",
+      "timestamp": "2026-07-02T10:07:39.131Z",
+      "detailBullets": [
+        "私も同意です！ ある程度やり込んでいるので同調すると AI駆動開発を進めているマインドセットとしては`低モデルでも動く仕組み作り`です:saluting_face: 今の時代 低コストと言ってもClaude Sonnet 4.5ぐらいの ”普通に使っていればAIとしての役割は充分果たせる性能”のものが普通に使えちゃうので いいモデル使えたらラッキーぐらいで *`AI前提の仕組みを整えるのが大事かな〜`*と想ってます:blush: ※既存フローを壊してでもAIを使ってみる、使った結果を人が評価してブラッシュアップする →ここにAI活用の知識(Skillとか)が必要の認識"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1782986859.131649",
+          "text": "私も同意です！ ある程度やり込んでいるので同調すると AI駆動開発を進めているマインドセットとしては`低モデルでも動く仕組み作り`です:saluting_face: 今の時代 低コストと言ってもClaude Sonnet 4.5ぐらいの ”普通に使っていればAIとしての役割は充分果たせる性能”のものが普通に使えちゃうので いいモデル使えたらラッキーぐらいで *`AI前提の仕組みを整えるのが大事かな〜`*と想ってます:blush: ※既存フローを壊してでもAIを使ってみる、使った結果を人が評価してブラッシュアップする →ここにAI活用の知識(Skillとか)が必要の認識",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1782986859.131649",
+          "threadTs": "1782947238.831479",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "私も同意です！ ある程度やり込んでいるので同調すると AI駆動開発を進めているマインドセットとしては`低モデルでも動く仕組み作り`です:saluting_face: 今の時代 低コストと言ってもClaude Sonnet 4.5ぐらいの ”普通に使っていればAIとしての役割は充分果たせる性能”のものが普通に使えちゃうので いいモデル使えたらラッキーぐらいで *`AI前提の仕組みを整えるのが大事かな〜`*と想ってます:blush: ※既存フローを壊してでもAIを使ってみる、使った結果を人が評価してブラッシュアップする →ここにAI活用の知識(Skillとか)が必要の認識\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782997565.748309",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782997565.748309",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782997565.748309",
+      "timestamp": "2026-07-02T13:06:05.748Z",
+      "detailBullets": [
+        "<@U0B912BD7HD> 初めまして！小林美咲と申しまつ:heart_hands: ダイヤのA、おおきく振りかぶってに脳内焼かれて一時期スコアボードも書けるくらいまで高校野球にハマってました！ バスケは黒子のバスケ程度の知識ですが、何回か試合見に行ったりしてました！ 仲良くしてくださーい🫶︎💕︎︎"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782997565.748309",
+          "text": "<@U0B912BD7HD> 初めまして！小林美咲と申しまつ:heart_hands: ダイヤのA、おおきく振りかぶってに脳内焼かれて一時期スコアボードも書けるくらいまで高校野球にハマってました！ バスケは黒子のバスケ程度の知識ですが、何回か試合見に行ったりしてました！ 仲良くしてくださーい🫶︎💕︎︎",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782997565.748309",
+          "threadTs": "1782902484.182519",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B912BD7HD> 初めまして！小林美咲と申しまつ:heart_hands: ダイヤのA、おおきく振りかぶってに脳内焼かれて一時期スコアボードも書けるくらいまで高校野球にハマってました！ バスケは黒子のバスケ程度の知識ですが、何回か試合見に行ったりしてました！ 仲良くしてくださーい🫶︎💕︎︎\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782997854.856579",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782997854.856579",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782997854.856579",
+      "timestamp": "2026-07-02T13:10:54.856Z",
+      "detailBullets": [
+        "<@U0BDQV92DE2> 初めまして！小林美咲と申しまつ:v: 同じ苗字なので下のお名前で呼ばせてもらえたら嬉しいでつ:relaxed::relaxed: 諏訪大社大好きで4/15の御頭祭にも行ってきました！ 長野には色々と縁があるので、ツルヤのおすすめ品とか教えて欲しいでつ:heart_hands: 仲良くしてくださーい(*´︶`*)ﾉ"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782997854.856579",
+          "text": "<@U0BDQV92DE2> 初めまして！小林美咲と申しまつ:v: 同じ苗字なので下のお名前で呼ばせてもらえたら嬉しいでつ:relaxed::relaxed: 諏訪大社大好きで4/15の御頭祭にも行ってきました！ 長野には色々と縁があるので、ツルヤのおすすめ品とか教えて欲しいでつ:heart_hands: 仲良くしてくださーい(*´︶`*)ﾉ",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782997854.856579",
+          "threadTs": "1782715383.266899",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BDQV92DE2> 初めまして！小林美咲と申しまつ:v: 同じ苗字なので下のお名前で呼ばせてもらえたら嬉しいでつ:relaxed::relaxed: 諏訪大社大好きで4/15の御頭祭にも行ってきました！ 長野には色々と縁があるので、ツルヤのおすすめ品とか教えて欲しいでつ:heart_hands: 仲良くしてくださーい(*´︶`*)ﾉ\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782998223.349429",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782998223.349429",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782998223.349429",
+      "timestamp": "2026-07-02T13:17:03.349Z",
+      "detailBullets": [
+        "<@U0BC5SAE8NQ> 初めまして！小林美咲と申しまつ:saluting_face: 私もインドア派なのですが、お散歩されてるなんて健康的ですね！ 私は如何に外に出ないかを考えながら日々過ごしているので、遠藤さんを見習ってお散歩してみようかな…:woman-walking:𓂃 𓈒𓏸 仲良くしてくださーい:relaxed::v:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782998223.349429",
+          "text": "<@U0BC5SAE8NQ> 初めまして！小林美咲と申しまつ:saluting_face: 私もインドア派なのですが、お散歩されてるなんて健康的ですね！ 私は如何に外に出ないかを考えながら日々過ごしているので、遠藤さんを見習ってお散歩してみようかな…:woman-walking:𓂃 𓈒𓏸 仲良くしてくださーい:relaxed::v:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782998223.349429",
+          "threadTs": "1782340578.433449",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BC5SAE8NQ> 初めまして！小林美咲と申しまつ:saluting_face: 私もインドア派なのですが、お散歩されてるなんて健康的ですね！ 私は如何に外に出ないかを考えながら日々過ごしているので、遠藤さんを見習ってお散歩してみようかな…:woman-walking:𓂃 𓈒𓏸 仲良くしてくださーい:relaxed::v:\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782998561.598759",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782998561.598759",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782998561.598759",
+      "timestamp": "2026-07-02T13:22:41.598Z",
+      "detailBullets": [
+        "<@U0BBSMTQW2D> 初めまして！小林美咲と申しまつ:heart_hands: ポカブ可愛い〜:relaxed: 私もGeminiとチャッピーに毎日話しかけて壁打ちしてまつ:saluting_face: 自我出してきて上から目線で正論ぶったこと言ってきて腹立つこともありますが、最近は私のことを理解出来てきたのかGeminiもチャッピーも可愛く思えてきました(*´︶`*)ﾉ 最近はCopilotを飼い慣らそうとしてまつ:relaxed::relaxed::relaxed: 仲良くしてくださーい🫶︎💕︎︎"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782998561.598759",
+          "text": "<@U0BBSMTQW2D> 初めまして！小林美咲と申しまつ:heart_hands: ポカブ可愛い〜:relaxed: 私もGeminiとチャッピーに毎日話しかけて壁打ちしてまつ:saluting_face: 自我出してきて上から目線で正論ぶったこと言ってきて腹立つこともありますが、最近は私のことを理解出来てきたのかGeminiもチャッピーも可愛く思えてきました(*´︶`*)ﾉ 最近はCopilotを飼い慣らそうとしてまつ:relaxed::relaxed::relaxed: 仲良くしてくださーい🫶︎💕︎︎",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782998561.598759",
+          "threadTs": "1782210835.898439",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BBSMTQW2D> 初めまして！小林美咲と申しまつ:heart_hands: ポカブ可愛い〜:relaxed: 私もGeminiとチャッピーに毎日話しかけて壁打ちしてまつ:saluting_face: 自我出してきて上から目線で正論ぶったこと言ってきて腹立つこともありますが、最近は私のことを理解出来てきたのかGeminiもチャッピーも可愛く思えてきました(*´︶`*)ﾉ 最近はCopilotを飼い慣らそうとしてまつ:relaxed::relaxed::relaxed: 仲良くしてくださーい🫶︎💕︎︎\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1782998739.876979",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1782998739.876979",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1782998739.876979",
+      "timestamp": "2026-07-02T13:25:39.876Z",
+      "detailBullets": [
+        "<@U0BCBMQTHTP> 初めまして！小林美咲と申しまつ:saluting_face: 神話好きな民ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!! 日本神話大好きなので是非お話させてください:handshake::handshake::handshake: 別の神話もギリいけまつ:handshake::handshake::handshake: 仲良くしてくださーい:relaxed::sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1782998739.876979",
+          "text": "<@U0BCBMQTHTP> 初めまして！小林美咲と申しまつ:saluting_face: 神話好きな民ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!! 日本神話大好きなので是非お話させてください:handshake::handshake::handshake: 別の神話もギリいけまつ:handshake::handshake::handshake: 仲良くしてくださーい:relaxed::sparkles:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1782998739.876979",
+          "threadTs": "1782191826.159009",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BCBMQTHTP> 初めまして！小林美咲と申しまつ:saluting_face: 神話好きな民ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!! 日本神話大好きなので是非お話させてください:handshake::handshake::handshake: 別の神話もギリいけまつ:handshake::handshake::handshake: 仲良くしてくださーい:relaxed::sparkles:\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783000330.569059",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783000330.569059",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783000330.569059",
+      "timestamp": "2026-07-02T13:52:10.569Z",
+      "detailBullets": [
+        "帰ったら妻から「食べていいよ」と謎にヒラアジを半身渡されましたw アジといえばこれやろ、となめろうを作りました:grin: 濃厚な味でめちゃくちゃおいしい…:pleading_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783000330.569059",
+          "text": "帰ったら妻から「食べていいよ」と謎にヒラアジを半身渡されましたw アジといえばこれやろ、となめろうを作りました:grin: 濃厚な味でめちゃくちゃおいしい…:pleading_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783000330.569059",
+          "threadTs": "1783000330.569059",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "帰ったら妻から「食べていいよ」と謎にヒラアジを半身渡されましたw アジといえばこれやろ、となめろうを作りました:grin: 濃厚な味でめちゃくちゃおいしい…:pleading_face:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783032692.799989",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783032692.799989",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783032692.799989",
+      "timestamp": "2026-07-02T22:51:32.799Z",
+      "detailBullets": [
+        "なめろう美味しそうですね！！:beer: 居酒屋でしか食べたことないので今度作ってみようかと思います！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783032692.799989",
+          "text": "なめろう美味しそうですね！！:beer: 居酒屋でしか食べたことないので今度作ってみようかと思います！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783032692.799989",
+          "threadTs": "1783000330.569059",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "なめろう美味しそうですね！！:beer: 居酒屋でしか食べたことないので今度作ってみようかと思います！\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783033413.765099",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783033413.765099",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783033413.765099",
+      "timestamp": "2026-07-02T23:03:33.765Z",
+      "detailBullets": [
+        "<@U09NHL467U0> 簡単なので、ぜひ作ってみて下さい:+1: 今回は有り合わせの味噌、大葉、ニンニク、ゴマで作りました。 有り合わせの薬味で作るもよし、自分の好きな薬味を好きなだけ入れるもよし、な気がします:laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783033413.765099",
+          "text": "<@U09NHL467U0> 簡単なので、ぜひ作ってみて下さい:+1: 今回は有り合わせの味噌、大葉、ニンニク、ゴマで作りました。 有り合わせの薬味で作るもよし、自分の好きな薬味を好きなだけ入れるもよし、な気がします:laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783033413.765099",
+          "threadTs": "1783000330.569059",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL467U0> 簡単なので、ぜひ作ってみて下さい:+1: 今回は有り合わせの味噌、大葉、ニンニク、ゴマで作りました。 有り合わせの薬味で作るもよし、自分の好きな薬味を好きなだけ入れるもよし、な気がします:laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1783033670.803649",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1783033670.803649",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1783033670.803649",
+      "timestamp": "2026-07-02T23:07:50.803Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-02_ 1. _Cursor IDEに重大RCE脆弱性「DuneSlide」開示（CVSS 9.8）_ └ Cato AI LabsがCursor IDEにゼロクリックのRCE脆弱性「DuneSlide」（CVE-2026-50548/49）を公開。プロンプトインジェクション1つでサンドボックスを脱出し、開発者マシンで任意コマンドを実行可能。Cursor 3.0で修正済みだが、それ以前の全バージョンが対象。AIコーディングツールの安全管理が改めて問われる。 :link: <https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html|thehackernews.com/2026/07/critical-cursor-flaws-could-let…> 2. _Claude Desktopがプロンプトインジェクションで「二重スパイ」化——Pentera Labsが実証_ └ レッドチームがClaude Desktopを乗っ取..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1783033670.803649",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-02_ 1. _Cursor IDEに重大RCE脆弱性「DuneSlide」開示（CVSS 9.8）_ └ Cato AI LabsがCursor IDEにゼロクリックのRCE脆弱性「DuneSlide」（CVE-2026-50548/49）を公開。プロンプトインジェクション1つでサンドボックスを脱出し、開発者マシンで任意コマンドを実行可能。Cursor 3.0で修正済みだが、それ以前の全バージョンが対象。AIコーディングツールの安全管理が改めて問われる。 :link: <https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html|thehackernews.com/2026/07/critical-cursor-flaws-could-let…> 2. _Claude Desktopがプロンプトインジェクションで「二重スパイ」化——Pentera Labsが実証_ └ レッドチームがClaude Desktopを乗っ取り、開発者マシンへの完全リモートコード実行（RCE）を実証。偽エラーメッセージと修正リンクを介して悪意ある操作を誘導する手口が明らかに。AIエージェントのセキュリティ境界に対する注目が高まっている。 :link: <https://www.theregister.com/security/2026/07/01/red-teamers-turned-claude-desktop-into-a-dou...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1783033670.803649",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-02_ 1. _Cursor IDEに重大RCE脆弱性「DuneSlide」開示（CVSS 9.8）_ └ Cato AI LabsがCursor IDEにゼロクリックのRCE脆弱性「DuneSlide」（CVE-2026-50548/49）を公開。プロンプトインジェクション1つでサンドボックスを脱出し、開発者マシンで任意コマンドを実行可能。Cursor 3.0で修正済みだが、それ以前の全バージョンが対象。AIコーディングツールの安全管理が改めて問われる。 :link: <https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html|thehackernews.com/2026/07/critical-cursor-flaws-could-let…> 2. _Claude Desktopがプロンプトインジェクションで「二重スパイ」化——Pentera Labsが実証_ └ レッドチームがClaude Desktopを乗っ取り、開発者マシンへの完全リモートコード実行（RCE）を実証。偽エラーメッセージと修正リンクを介して悪意ある操作を誘導する手口が明らかに。AIエージェントのセキュリティ境界に対する注目が高まっている。 :link: <https://www.theregister.com/security/2026/07/01/red-teamers-turned-claude-desktop-into-a-double-agent-to-do-their-evil-bidding/5264692|theregister.com/security/…/5264692> 3. _無害なGitリポジトリでClaude Codeを乗っ取る新攻撃手法を研究者が発表_ └ 悪意のある指示を隠した一見正常なGitリポジトリを使い、Claude Codeエージェントにリバースシェルを生成させて開発者マシンを制御下に置く攻撃手法が公開された。リポジトリ内に悪意あるコードが存在しないため検知が極めて困難。 :link: <https://www.securityweek.com/new-attack-abuses-claude-code-and-harmless-looking-repositories-to-hijack-developer-machines/|securityweek.com/new-attack-abuses-claude-code-and-harmless-looking-repositories-to-hijack-developer-machines> 4. _2026年7月2日 AI...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783034351.279609",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783034351.279609",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783034351.279609",
+      "timestamp": "2026-07-02T23:19:11.279Z",
+      "detailBullets": [
+        "ありがとうございます！絶対作ってみます:star-struck:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783034351.279609",
+          "text": "ありがとうございます！絶対作ってみます:star-struck:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783034351.279609",
+          "threadTs": "1783000330.569059",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "ありがとうございます！絶対作ってみます:star-struck:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783034690.771179",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783034690.771179",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783034690.771179",
+      "timestamp": "2026-07-02T23:24:50.771Z",
+      "detailBullets": [
+        "好みのお酒も忘れずに:bangbang::sake:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783034690.771179",
+          "text": "好みのお酒も忘れずに:bangbang::sake:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783034690.771179",
+          "threadTs": "1783000330.569059",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "好みのお酒も忘れずに:bangbang::sake:\nソーシャル\nEngineer"
     }
   ]
 }
