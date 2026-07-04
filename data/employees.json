@@ -2720,5 +2720,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0B912BD7HD"
+  },
+  {
+    "name": "林田 譲一",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-07-04T03:37:27.909Z",
+    "updatedAt": "2026-07-04T03:37:27.909Z",
+    "last_updated": "2026-07-04T03:37:27.909Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BEVC5MS7Q"
   }
 ]
