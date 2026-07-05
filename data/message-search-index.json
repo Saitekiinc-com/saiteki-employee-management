@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-04T03:37:28.132Z",
+  "generatedAt": "2026-07-05T03:56:03.178Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -58020,12 +58020,12 @@
       "messageTs": "1783135747.787129",
       "timestamp": "2026-07-04T03:29:07.787Z",
       "detailBullets": [
-        "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.07.04）* を共有します。 今週のテーマは *「上場企業セラク様との取引開始！＆M&amp;A戦略のリアルと上場SIerとの共同企画」* です。 前回のSky様に続き、またしてもSaitekiの歴史を塗り替える超ド級のビッグニュースと、会社の未来をスケールさせる経営戦略のリアルを詰め込んだレポートです！ • *【東証上場・メガSIerセラク様と口座開設！】* 売上高247億、従業員3,200名超の上場企業と、3期目のSaitekiが直接取引を実現！ 営業部長の徳田さんとエンジニアの稲村さんの完璧なコンビプレーによる大金星です。紹介元の社長様経由で、セラクの営業・楠本さんから徳田さんの立ち回りを「大絶賛」され、「これからも一緒に仕事を続けたいからいいエンジニアをたくさん雇ってほしい」と言わしめるほどのパーフェクトな実績を作ってくれました！ • *【情報戦略テクノロジー社との特大共同企画】* 子会社WhiteBoxの代表も務める川原取締役との会話。「実践と理論」が融合する【S..."
+        "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.07.04）* を共有します。 今週のテーマは *「上場企業セラク様との取引開始！＆M&A戦略のリアルと上場SIerとの共同企画」* です。 前回のSky様に続き、またしてもSaitekiの歴史を塗り替える超ド級のビッグニュースと、会社の未来をスケールさせる経営戦略のリアルを詰め込んだレポートです！ • *【東証上場・大手SIerセラク様と口座開設！】* 売上高247億、従業員3,200名超の上場企業と、3期目のSaitekiが直接取引を実現！ 営業部長の徳田さんとエンジニアの稲村さんの完璧なコンビプレーによる大金星です。紹介元の社長様経由で、セラクの営業・楠本さんから徳田さんの立ち回りを「大絶賛」され、「これからも一緒に仕事を続けたいからいいエンジニアをたくさん雇ってほしい」と言わしめるほどのパーフェクトな実績を作ってくれました！ • *【情報戦略テクノロジー社との特大共同企画】* 子会社WhiteBoxの代表も務める川原取締役との会話。「実践と理論」が融合する【SES経営..."
       ],
       "quotes": [
         {
           "messageId": "message:primary:C09MKT8QKAR:1783135747.787129",
-          "text": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.07.04）* を共有します。 今週のテーマは *「上場企業セラク様との取引開始！＆M&amp;A戦略のリアルと上場SIerとの共同企画」* です。 前回のSky様に続き、またしてもSaitekiの歴史を塗り替える超ド級のビッグニュースと、会社の未来をスケールさせる経営戦略のリアルを詰め込んだレポートです！ • *【東証上場・メガSIerセラク様と口座開設！】* 売上高247億、従業員3,200名超の上場企業と、3期目のSaitekiが直接取引を実現！ 営業部長の徳田さんとエンジニアの稲村さんの完璧なコンビプレーによる大金星です。紹介元の社長様経由で、セラクの営業・楠本さんから徳田さんの立ち回りを「大絶賛」され、「これからも一緒に仕事を続けたいからいいエンジニアをたくさん雇ってほしい」と言わしめるほどのパーフェクトな実績を作ってくれました！ • *【情報戦略テクノロジー社との特大共同企画】* 子会社WhiteBoxの代表も務める川原取締役との会話。「実践と理論」が融合する【SES経営者向けM&amp;A勉強会】を両社で共同企画・開催へ向けて動き出します。 • *【M&amp;A戦略の真実と、代表の覚悟】* 実はこれまで何社からも売却相談を受けていますが、監査の末、深刻なリスク（不正取引、急激な業績悪化、重要幹部の離脱など）を特定し、すべてこちらから辞退しています。Saitekiの未来を創る「最初の1社」だからこそ、焦って妥協せず、本物のパートナーを厳選していきます。 ...",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.07.04）* を共有します。 今週のテーマは *「上場企業セラク様との取引開始！＆M&A戦略のリアルと上場SIerとの共同企画」* です。 前回のSky様に続き、またしてもSaitekiの歴史を塗り替える超ド級のビッグニュースと、会社の未来をスケールさせる経営戦略のリアルを詰め込んだレポートです！ • *【東証上場・大手SIerセラク様と口座開設！】* 売上高247億、従業員3,200名超の上場企業と、3期目のSaitekiが直接取引を実現！ 営業部長の徳田さんとエンジニアの稲村さんの完璧なコンビプレーによる大金星です。紹介元の社長様経由で、セラクの営業・楠本さんから徳田さんの立ち回りを「大絶賛」され、「これからも一緒に仕事を続けたいからいいエンジニアをたくさん雇ってほしい」と言わしめるほどのパーフェクトな実績を作ってくれました！ • *【情報戦略テクノロジー社との特大共同企画】* 子会社WhiteBoxの代表も務める川原取締役との会話。「実践と理論」が融合する【SES経営者向けM&A勉強会】を両社で共同企画・開催へ向けて動き出します。 • *【M&A戦略の真実と、代表の覚悟】* 実はこれまで何社からも売却相談を受けていますが、監査の末、深刻なリスク（不正取引、急激な業績悪化、重要幹部の離脱など）を特定し、すべてこちらから辞退しています。Saitekiの未来を創る「最初の1社」だからこそ、焦って妥協せず、本物のパートナーを厳選していきます。 現場と本社がガッチリと噛...",
           "channelId": "C09MKT8QKAR",
           "channelName": "all-saiteki",
           "messageTs": "1783135747.787129",
@@ -58034,7 +58034,111 @@
           "permalink": null
         }
       ],
-      "searchText": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.07.04）* を共有します。 今週のテーマは *「上場企業セラク様との取引開始！＆M&amp;A戦略のリアルと上場SIerとの共同企画」* です。 前回のSky様に続き、またしてもSaitekiの歴史を塗り替える超ド級のビッグニュースと、会社の未来をスケールさせる経営戦略のリアルを詰め込んだレポートです！ • *【東証上場・メガSIerセラク様と口座開設！】* 売上高247億、従業員3,200名超の上場企業と、3期目のSaitekiが直接取引を実現！ 営業部長の徳田さんとエンジニアの稲村さんの完璧なコンビプレーによる大金星です。紹介元の社長様経由で、セラクの営業・楠本さんから徳田さんの立ち回りを「大絶賛」され、「これからも一緒に仕事を続けたいからいいエンジニアをたくさん雇ってほしい」と言わしめるほどのパーフェクトな実績を作ってくれました！ • *【情報戦略テクノロジー社との特大共同企画】* 子会社WhiteBoxの代表も務める川原取締役との会話。「実践と理論」が融合する【SES経営者向けM&amp;A勉強会】を両社で共同企画・開催へ向けて動き出します。 • *【M&amp;A戦略の真実と、代表の覚悟】* 実はこれまで何社からも売却相談を受けていますが、監査の末、深刻なリスク（不正取引、急激な業績悪化、重要幹部の離脱など）を特定し、すべてこちらから辞退しています。Saitekiの未来を創る「最初の1社」だからこそ、焦って妥協せず、本物のパートナーを厳選していきます。 現場と本社がガッチリと噛み合い、もの凄いエネルギーで会社が進化していることが生々しく伝わる内容になっています。ぜひ週末にチェックしてみてください！ ▼ Letter of T | 今週の記録（2026.07.04） <https://app.notion.com/p/Letter-of-T-2026-07-04-393dfb42679c806db5dde1e19c2c19a2|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+      "searchText": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.07.04）* を共有します。 今週のテーマは *「上場企業セラク様との取引開始！＆M&A戦略のリアルと上場SIerとの共同企画」* です。 前回のSky様に続き、またしてもSaitekiの歴史を塗り替える超ド級のビッグニュースと、会社の未来をスケールさせる経営戦略のリアルを詰め込んだレポートです！ • *【東証上場・大手SIerセラク様と口座開設！】* 売上高247億、従業員3,200名超の上場企業と、3期目のSaitekiが直接取引を実現！ 営業部長の徳田さんとエンジニアの稲村さんの完璧なコンビプレーによる大金星です。紹介元の社長様経由で、セラクの営業・楠本さんから徳田さんの立ち回りを「大絶賛」され、「これからも一緒に仕事を続けたいからいいエンジニアをたくさん雇ってほしい」と言わしめるほどのパーフェクトな実績を作ってくれました！ • *【情報戦略テクノロジー社との特大共同企画】* 子会社WhiteBoxの代表も務める川原取締役との会話。「実践と理論」が融合する【SES経営者向けM&A勉強会】を両社で共同企画・開催へ向けて動き出します。 • *【M&A戦略の真実と、代表の覚悟】* 実はこれまで何社からも売却相談を受けていますが、監査の末、深刻なリスク（不正取引、急激な業績悪化、重要幹部の離脱など）を特定し、すべてこちらから辞退しています。Saitekiの未来を創る「最初の1社」だからこそ、焦って妥協せず、本物のパートナーを厳選していきます。 現場と本社がガッチリと噛み合い、もの凄いエネルギーで会社が進化していることが生々しく伝わる内容になっています。ぜひ週末にチェックしてみてください！ ▼ Letter of T | 今週の記録（2026.07.04） <https://app.notion.com/p/Letter-of-T-2026-07-04-393dfb42679c806db5dde1e19c2c19a2|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783136979.959619",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:榎本詩織",
+      "personName": "榎本詩織",
+      "slackIds": [
+        "U0AEE7CDAPK"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783136979.959619",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783136979.959619",
+      "timestamp": "2026-07-04T03:49:39.959Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> さん なめろう、いいですね:drooling_face::sake: とても美味しそうです:relaxed: 鯵も良いですが、鯖、鰯でもまた違った美味しさがあります:fish: (個人的には薬味いっぱいが好きです:sake:)"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783136979.959619",
+          "text": "<@U09MM9KS06S> さん なめろう、いいですね:drooling_face::sake: とても美味しそうです:relaxed: 鯵も良いですが、鯖、鰯でもまた違った美味しさがあります:fish: (個人的には薬味いっぱいが好きです:sake:)",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783136979.959619",
+          "threadTs": "1783000330.569059",
+          "authorName": "榎本 詩織",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> さん なめろう、いいですね:drooling_face::sake: とても美味しそうです:relaxed: 鯵も良いですが、鯖、鰯でもまた違った美味しさがあります:fish: (個人的には薬味いっぱいが好きです:sake:)\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783149005.790819",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783149005.790819",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783149005.790819",
+      "timestamp": "2026-07-04T07:10:05.790Z",
+      "detailBullets": [
+        "<@U0AEE7CDAPK> なめろうのおススメ、ありがとうございます！ 榎本さんも魚、お酒好きですもんね:relaxed: 鯖、鰯のなめろうは食べたことないんですが、想像しただけで:drooling_face: 今度作ってみたいと思います:+1:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783149005.790819",
+          "text": "<@U0AEE7CDAPK> なめろうのおススメ、ありがとうございます！ 榎本さんも魚、お酒好きですもんね:relaxed: 鯖、鰯のなめろうは食べたことないんですが、想像しただけで:drooling_face: 今度作ってみたいと思います:+1:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783149005.790819",
+          "threadTs": "1783000330.569059",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0AEE7CDAPK> なめろうのおススメ、ありがとうございます！ 榎本さんも魚、お酒好きですもんね:relaxed: 鯖、鰯のなめろうは食べたことないんですが、想像しただけで:drooling_face: 今度作ってみたいと思います:+1:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1783206727.028339",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1783206727.028339",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1783206727.028339",
+      "timestamp": "2026-07-04T23:12:07.028Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-04_ 1. _Z.aiが無料AIコーディングツール「ZCode」正式リリース——Cursor・Claude Code・Copilotに挑戦状_ └ <http://中国AI企業Z.ai|xn--aiz-u68d01bl53ado5a.ai>（智谱AI）が、自社モデルGLM-5.2搭載の無料デスクトップAIコーディングツール「ZCode」をWindows/macOS/Linux向けにリリース。競合比で大幅に低コスト（Liteプラン月$16.20〜）を実現。一方、全APIコールに中国データ法が適用されるプライバシーリスクが指摘されており、企業利用の際は注意が必要。 :link: <https://www.techtimes.com/articles/319707/20260704/ai-coding-assistant-zcode-launches-free-china-data-law-applies-every-glm-52-api-call.htm|techtimes.com/articles/319707/2..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1783206727.028339",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-04_ 1. _Z.aiが無料AIコーディングツール「ZCode」正式リリース——Cursor・Claude Code・Copilotに挑戦状_ └ <http://中国AI企業Z.ai|xn--aiz-u68d01bl53ado5a.ai>（智谱AI）が、自社モデルGLM-5.2搭載の無料デスクトップAIコーディングツール「ZCode」をWindows/macOS/Linux向けにリリース。競合比で大幅に低コスト（Liteプラン月$16.20〜）を実現。一方、全APIコールに中国データ法が適用されるプライバシーリスクが指摘されており、企業利用の際は注意が必要。 :link: <https://www.techtimes.com/articles/319707/20260704/ai-coding-assistant-zcode-launches-free-china-data-law-applies-every-glm-52-api-call.htm|techtimes.com/articles/319707/20260704/ai-coding-assistant-zcode-launches-free-china-data-law-applies-every-glm-52-api…> 2. _This Week in AI for Coding — 2026年7月第1週まとめ（7/3付け）_ └ 週次コーディングAIニュースまとめ。Claude Code 2.1.198でClaude in Chrom...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1783206727.028339",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-04_ 1. _Z.aiが無料AIコーディングツール「ZCode」正式リリース——Cursor・Claude Code・Copilotに挑戦状_ └ <http://中国AI企業Z.ai|xn--aiz-u68d01bl53ado5a.ai>（智谱AI）が、自社モデルGLM-5.2搭載の無料デスクトップAIコーディングツール「ZCode」をWindows/macOS/Linux向けにリリース。競合比で大幅に低コスト（Liteプラン月$16.20〜）を実現。一方、全APIコールに中国データ法が適用されるプライバシーリスクが指摘されており、企業利用の際は注意が必要。 :link: <https://www.techtimes.com/articles/319707/20260704/ai-coding-assistant-zcode-launches-free-china-data-law-applies-every-glm-52-api-call.htm|techtimes.com/articles/319707/20260704/ai-coding-assistant-zcode-launches-free-china-data-law-applies-every-glm-52-api…> 2. _This Week in AI for Coding — 2026年7月第1週まとめ（7/3付け）_ └ 週次コーディングAIニュースまとめ。Claude Code 2.1.198でClaude in Chrome GA・バックグラウンドエージェント自動コミット・/datavizスキルが追加。Grok 4.5（1.5兆パラメータ・Cursor IDEデータで追加学習）がSpaceX/TeslaでプライベートベータIN。GitHub CopilotにAIクレジットプール管理とActionsネイティブ連携（GITHUB_TOKEN直接利用）が追加。 :link: <https://geeksourcecodes.com/this-week-in-ai-for-coding-july-3-2026/|geeksourcecodes.com/this-week-in-ai-for-coding-july-3-2026> 3. _【2026-07-04】世界のAI最新ニュース：エージェント・AI規制・インフラが実装段階へ_ └ エージェントAIが実験フェーズを完全に脱し業務基盤として本格定着。EU AI Act第50条（AI生成コンテンツ透明性義務）が8/2施行予定で企業対応が急務。NVIDIAが中国向け新AI CPU「Vera」の8月提供を発表。AIコーディング普及に伴いコスト・ガバナンス管理が開発現...\nai駆動開発ネタ\n経営"
     }
   ]
 }
