@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-05T03:56:03.178Z",
+  "generatedAt": "2026-07-06T04:02:39.047Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -58139,6 +58139,145 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-04_ 1. _Z.aiが無料AIコーディングツール「ZCode」正式リリース——Cursor・Claude Code・Copilotに挑戦状_ └ <http://中国AI企業Z.ai|xn--aiz-u68d01bl53ado5a.ai>（智谱AI）が、自社モデルGLM-5.2搭載の無料デスクトップAIコーディングツール「ZCode」をWindows/macOS/Linux向けにリリース。競合比で大幅に低コスト（Liteプラン月$16.20〜）を実現。一方、全APIコールに中国データ法が適用されるプライバシーリスクが指摘されており、企業利用の際は注意が必要。 :link: <https://www.techtimes.com/articles/319707/20260704/ai-coding-assistant-zcode-launches-free-china-data-law-applies-every-glm-52-api-call.htm|techtimes.com/articles/319707/20260704/ai-coding-assistant-zcode-launches-free-china-data-law-applies-every-glm-52-api…> 2. _This Week in AI for Coding — 2026年7月第1週まとめ（7/3付け）_ └ 週次コーディングAIニュースまとめ。Claude Code 2.1.198でClaude in Chrome GA・バックグラウンドエージェント自動コミット・/datavizスキルが追加。Grok 4.5（1.5兆パラメータ・Cursor IDEデータで追加学習）がSpaceX/TeslaでプライベートベータIN。GitHub CopilotにAIクレジットプール管理とActionsネイティブ連携（GITHUB_TOKEN直接利用）が追加。 :link: <https://geeksourcecodes.com/this-week-in-ai-for-coding-july-3-2026/|geeksourcecodes.com/this-week-in-ai-for-coding-july-3-2026> 3. _【2026-07-04】世界のAI最新ニュース：エージェント・AI規制・インフラが実装段階へ_ └ エージェントAIが実験フェーズを完全に脱し業務基盤として本格定着。EU AI Act第50条（AI生成コンテンツ透明性義務）が8/2施行予定で企業対応が急務。NVIDIAが中国向け新AI CPU「Vera」の8月提供を発表。AIコーディング普及に伴いコスト・ガバナンス管理が開発現...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783225893.155959",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783225893.155959",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783225893.155959",
+      "timestamp": "2026-07-05T04:31:33.155Z",
+      "detailBullets": [
+        "ハッピーコンサートという、0歳からでも入れるコンサートに行ってきました。 妻が1stヴァイオリンで出演したためです。 コンサートは未就学児童が入れないものが大半なので、こういう機会は子供が小さい親にとって本当にありがたいんですよね:pleading_face: うちの家族も子供が小学生になるまではこういうコンサートによく行っていました。 添付の動画はカルメン前奏曲の様子ですが、観客の子供たちも巻き込んでわちゃわちゃしてます:laughing: そして、Somebody Stole My Galという演目があったんですが、衝撃を受けることに。 関西人なら誰もが知るこの曲が、ジャズだったとは… 昨日まで、僕はキダタローの作品だと思いこんでましたw スレで僕の衝撃を共有しますw"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783225893.155959",
+          "text": "ハッピーコンサートという、0歳からでも入れるコンサートに行ってきました。 妻が1stヴァイオリンで出演したためです。 コンサートは未就学児童が入れないものが大半なので、こういう機会は子供が小さい親にとって本当にありがたいんですよね:pleading_face: うちの家族も子供が小学生になるまではこういうコンサートによく行っていました。 添付の動画はカルメン前奏曲の様子ですが、観客の子供たちも巻き込んでわちゃわちゃしてます:laughing: そして、Somebody Stole My Galという演目があったんですが、衝撃を受けることに。 関西人なら誰もが知るこの曲が、ジャズだったとは… 昨日まで、僕はキダタローの作品だと思いこんでましたw スレで僕の衝撃を共有しますw",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783225893.155959",
+          "threadTs": "1783225893.155959",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "ハッピーコンサートという、0歳からでも入れるコンサートに行ってきました。 妻が1stヴァイオリンで出演したためです。 コンサートは未就学児童が入れないものが大半なので、こういう機会は子供が小さい親にとって本当にありがたいんですよね:pleading_face: うちの家族も子供が小学生になるまではこういうコンサートによく行っていました。 添付の動画はカルメン前奏曲の様子ですが、観客の子供たちも巻き込んでわちゃわちゃしてます:laughing: そして、Somebody Stole My Galという演目があったんですが、衝撃を受けることに。 関西人なら誰もが知るこの曲が、ジャズだったとは… 昨日まで、僕はキダタローの作品だと思いこんでましたw スレで僕の衝撃を共有しますw\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783225931.685959",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783225931.685959",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783225931.685959",
+      "timestamp": "2026-07-05T04:32:11.685Z",
+      "detailBullets": [
+        "<https://youtu.be/m4slBkJzEWA?si=EdT4ZhAHLjfc3gy1|https://youtu.be/m4slBkJzEWA?si=EdT4ZhAHLjfc3gy1>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783225931.685959",
+          "text": "<https://youtu.be/m4slBkJzEWA?si=EdT4ZhAHLjfc3gy1|https://youtu.be/m4slBkJzEWA?si=EdT4ZhAHLjfc3gy1>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783225931.685959",
+          "threadTs": "1783225893.155959",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<https://youtu.be/m4slBkJzEWA?si=EdT4ZhAHLjfc3gy1|https://youtu.be/m4slBkJzEWA?si=EdT4ZhAHLjfc3gy1>\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1783293074.119499",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1783293074.119499",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1783293074.119499",
+      "timestamp": "2026-07-05T23:11:14.119Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-05_ 1. _Tesla、AIツール支出を週$200に上限設定—Grokのみ例外（7/6〜）_ └ Teslaが7月6日より社員のAIツール利用費を週200ドルに制限。一部エンジニアが週数千ドルのトークンを消費していたことが背景。Elon Musk傘下のxAI製品（Grok）のみ除外対象。Meta・Amazon・Walmartも同様の支出管理を強化中で、企業のAIコスト最適化が業界全体で本格化。 :link: <https://www.techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays-exempt.htm|techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays…> 2. _Claude Code v2.1.200..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1783293074.119499",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-05_ 1. _Tesla、AIツール支出を週$200に上限設定—Grokのみ例外（7/6〜）_ └ Teslaが7月6日より社員のAIツール利用費を週200ドルに制限。一部エンジニアが週数千ドルのトークンを消費していたことが背景。Elon Musk傘下のxAI製品（Grok）のみ除外対象。Meta・Amazon・Walmartも同様の支出管理を強化中で、企業のAIコスト最適化が業界全体で本格化。 :link: <https://www.techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays-exempt.htm|techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays…> 2. _Claude Code v2.1.200：デフォルト権限モードが「Manual」に変更、対話挙動も刷新_ └ AskUserQuestionダイアログが自動続行しなくなり、/configでアイドルタイムアウトのオプトイン設定が可能に。CLI・VS Code・JetBrainsすべてでデフォルト権限モードを「manual」に統一。ストリーミングアイドルウォッチドッグ（5分無応答で自動リトライ）もデフォルト有効化。 :link: <http...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1783293074.119499",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-05_ 1. _Tesla、AIツール支出を週$200に上限設定—Grokのみ例外（7/6〜）_ └ Teslaが7月6日より社員のAIツール利用費を週200ドルに制限。一部エンジニアが週数千ドルのトークンを消費していたことが背景。Elon Musk傘下のxAI製品（Grok）のみ除外対象。Meta・Amazon・Walmartも同様の支出管理を強化中で、企業のAIコスト最適化が業界全体で本格化。 :link: <https://www.techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays-exempt.htm|techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays…> 2. _Claude Code v2.1.200：デフォルト権限モードが「Manual」に変更、対話挙動も刷新_ └ AskUserQuestionダイアログが自動続行しなくなり、/configでアイドルタイムアウトのオプトイン設定が可能に。CLI・VS Code・JetBrainsすべてでデフォルト権限モードを「manual」に統一。ストリーミングアイドルウォッチドッグ（5分無応答で自動リトライ）もデフォルト有効化。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.200|github.com/anthropics/…/v2.1.200> 3. _GodotエンジンがAI生成コントリビューション禁止発表—「vibe-coded」PRは即ban_ └ OSSゲームエンジンGodotが、AIエージェントによる自律的なコード投稿・vibe-coding由来のPRをほぼ全面禁止する方針を発表。AI生成PRの急増でレビュー負荷が限界に達したため。許容されるのはコード補完・正規表現等の補助的利用のみ。AI駆動開発の普及がOSSガバナンスにもたらす新たな課題として注目。 :link: <https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344|theregister.com/ai-and-ml/…/5265344> 4. _【2026-07-05】AIニュースまとめ：エージェント・生成メディア...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783293766.323459",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783293766.323459",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783293766.323459",
+      "timestamp": "2026-07-05T23:22:46.323Z",
+      "detailBullets": [
+        "<@U0B0XCRK6KW> さん :tada:Happy Birthday:tada: お誕生日おめでとうございます！ 良い一年になりますように:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783293766.323459",
+          "text": "<@U0B0XCRK6KW> さん :tada:Happy Birthday:tada: お誕生日おめでとうございます！ 良い一年になりますように:sparkles:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783293766.323459",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B0XCRK6KW> さん :tada:Happy Birthday:tada: お誕生日おめでとうございます！ 良い一年になりますように:sparkles:\nソーシャル\nSales"
     }
   ]
 }

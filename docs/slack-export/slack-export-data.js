@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-05T03:56:07.650Z",
+  "generatedAt": "2026-07-06T04:02:43.622Z",
   "channelCount": 9,
-  "totalMessages": 1917,
+  "totalMessages": 1921,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -17548,11 +17548,71 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1783225893.155959",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "ハッピーコンサートという、0歳からでも入れるコンサートに行ってきました。 妻が1stヴァイオリンで出演したためです。 コンサートは未就学児童が入れないものが大半なので、こういう機会は子供が小さい親にとって本当にありがたいんですよね:pleading_face: うちの家族も子供が小学生になるまではこういうコンサートによく行っていました。 添付の動画はカルメン前奏曲の様子ですが、観客の子供たちも巻き込んでわちゃわちゃしてます:laughing: そして、Somebody Stole My Galという演目があったんですが、衝撃を受けることに。 関西人なら誰もが知るこの曲が、ジャズだったとは… 昨日まで、僕はキダタローの作品だと思いこんでましたw スレで僕の衝撃を共有しますw",
+          "rawText": "ハッピーコンサートという、0歳からでも入れるコンサートに行ってきました。\n妻が1stヴァイオリンで出演したためです。\n\nコンサートは未就学児童が入れないものが大半なので、こういう機会は子供が小さい親にとって本当にありがたいんですよね:pleading_face:\nうちの家族も子供が小学生になるまではこういうコンサートによく行っていました。\n\n添付の動画はカルメン前奏曲の様子ですが、観客の子供たちも巻き込んでわちゃわちゃしてます:laughing:\n\nそして、Somebody Stole My Galという演目があったんですが、衝撃を受けることに。\n関西人なら誰もが知るこの曲が、ジャズだったとは…\n昨日まで、僕はキダタローの作品だと思いこんでましたw\n\nスレで僕の衝撃を共有しますw",
+          "messageTs": "1783225893.155959",
+          "threadTs": "1783225893.155959",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-05",
+          "timestamp": "2026-07-05T04:31:33.155Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1783225931.685959",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "<https://youtu.be/m4slBkJzEWA?si=EdT4ZhAHLjfc3gy1|https://youtu.be/m4slBkJzEWA?si=EdT4ZhAHLjfc3gy1>",
+          "rawText": "<https://youtu.be/m4slBkJzEWA?si=EdT4ZhAHLjfc3gy1|https://youtu.be/m4slBkJzEWA?si=EdT4ZhAHLjfc3gy1> ",
+          "messageTs": "1783225931.685959",
+          "threadTs": "1783225893.155959",
+          "parentUserId": "U09MM9KS06S",
+          "subtype": null,
+          "date": "2026-07-05",
+          "timestamp": "2026-07-05T04:32:11.685Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1783293766.323459",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<@U0B0XCRK6KW> さん :tada:Happy Birthday:tada: お誕生日おめでとうございます！ 良い一年になりますように:sparkles:",
+          "rawText": "<@U0B0XCRK6KW> さん\n:tada:Happy Birthday:tada:\nお誕生日おめでとうございます！\n良い一年になりますように:sparkles:",
+          "messageTs": "1783293766.323459",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-05",
+          "timestamp": "2026-07-05T23:22:46.323Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 916,
+      "messageCount": 919,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-07-04"
+      "lastDate": "2026-07-05"
     },
     {
       "id": "C09Q46YA4ER",
@@ -34048,11 +34108,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1783293074.119499",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-05_ 1. _Tesla、AIツール支出を週$200に上限設定—Grokのみ例外（7/6〜）_ └ Teslaが7月6日より社員のAIツール利用費を週200ドルに制限。一部エンジニアが週数千ドルのトークンを消費していたことが背景。Elon Musk傘下のxAI製品（Grok）のみ除外対象。Meta・Amazon・Walmartも同様の支出管理を強化中で、企業のAIコスト最適化が業界全体で本格化。 :link: <https://www.techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays-exempt.htm|techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays…> 2. _Claude Code v2.1.200：デフォルト権限モードが「Manual」に変更、対話挙動も刷新_ └ AskUserQuestionダイアログが自動続行しなくなり、/configでアイドルタイムアウトのオプトイン設定が可能に。CLI・VS Code・JetBrainsすべてでデフォルト権限モードを「manual」に統一。ストリーミングアイドルウォッチドッグ（5分無応答で自動リトライ）もデフォルト有効化。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.200|github.com/anthropics/…/v2.1.200> 3. _GodotエンジンがAI生成コントリビューション禁止発表—「vibe-coded」PRは即ban_ └ OSSゲームエンジンGodotが、AIエージェントによる自律的なコード投稿・vibe-coding由来のPRをほぼ全面禁止する方針を発表。AI生成PRの急増でレビュー負荷が限界に達したため。許容されるのはコード補完・正規表現等の補助的利用のみ。AI駆動開発の普及がOSSガバナンスにもたらす新たな課題として注目。 :link: <https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344|theregister.com/ai-and-ml/…/5265344> 4. _【2026-07-05】AIニュースまとめ：エージェント・生成メディア・AI規制・インフラが運用段階へ_ └ 本日のAIニュース総括。生成AIの競争軸は単体モデル性能から、社内データへの安全な接続・長時間エージェントの監視・EU AI Act第50条（8/2施行）への対応へとシフト。「便利な生成ツール」から「管理された実行システム」への転換が、コスト制御・ガバナンス・規制対応を開発実務の中心課題に押し上げている。 :link: <https://eguweb.jp/ai/81131/|eguweb.jp/ai/81131> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-05_\n\n1. _Tesla、AIツール支出を週$200に上限設定—Grokのみ例外（7/6〜）_\n└ Teslaが7月6日より社員のAIツール利用費を週200ドルに制限。一部エンジニアが週数千ドルのトークンを消費していたことが背景。Elon Musk傘下のxAI製品（Grok）のみ除外対象。Meta・Amazon・Walmartも同様の支出管理を強化中で、企業のAIコスト最適化が業界全体で本格化。\n:link: <https://www.techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays-exempt.htm|techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays…>\n2. _Claude Code v2.1.200：デフォルト権限モードが「Manual」に変更、対話挙動も刷新_\n└ AskUserQuestionダイアログが自動続行しなくなり、/configでアイドルタイムアウトのオプトイン設定が可能に。CLI・VS Code・JetBrainsすべてでデフォルト権限モードを「manual」に統一。ストリーミングアイドルウォッチドッグ（5分無応答で自動リトライ）もデフォルト有効化。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.200|github.com/anthropics/…/v2.1.200>\n3. _GodotエンジンがAI生成コントリビューション禁止発表—「vibe-coded」PRは即ban_\n└ OSSゲームエンジンGodotが、AIエージェントによる自律的なコード投稿・vibe-coding由来のPRをほぼ全面禁止する方針を発表。AI生成PRの急増でレビュー負荷が限界に達したため。許容されるのはコード補完・正規表現等の補助的利用のみ。AI駆動開発の普及がOSSガバナンスにもたらす新たな課題として注目。\n:link: <https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344|theregister.com/ai-and-ml/…/5265344>\n4. _【2026-07-05】AIニュースまとめ：エージェント・生成メディア・AI規制・インフラが運用段階へ_\n└ 本日のAIニュース総括。生成AIの競争軸は単体モデル性能から、社内データへの安全な接続・長時間エージェントの監視・EU AI Act第50条（8/2施行）への対応へとシフト。「便利な生成ツール」から「管理された実行システム」への転換が、コスト制御・ガバナンス・規制対応を開発実務の中心課題に押し上げている。\n:link: <https://eguweb.jp/ai/81131/|eguweb.jp/ai/81131> *使用して送信されました* Claude",
+          "messageTs": "1783293074.119499",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-05",
+          "timestamp": "2026-07-05T23:11:14.119Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 177,
+      "messageCount": 178,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-07-04"
+      "lastDate": "2026-07-05"
     },
     {
       "id": "C09Q1KNL2P8",
