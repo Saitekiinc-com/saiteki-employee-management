@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-06T04:02:43.622Z",
+  "generatedAt": "2026-07-07T03:53:47.756Z",
   "channelCount": 9,
-  "totalMessages": 1921,
+  "totalMessages": 1923,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -30681,11 +30681,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1783326965.304759",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<!channel> :loudspeaker: *【AI顧問Uravation様より】2026年6月版 AIニュースレポート* お疲れ様です。AI顧問の佐藤さん（Uravation）から今月のAIニュースレポートが届きました。ぜひ、キャッチアップしておいてください！ :fire: *今月のトピック（開発への影響大）* *1. Claude Sonnet 5 登場（6/30）* Opus 4.8級のエージェント性能が `$2/$10`（100万トークン）に。8/31までの導入価格なので、この期間に実タスクで検証しておくと後々のモデル振り分け判断がしやすくなります。日常のコーディング・レビューはSonnet 5に寄せる方向で試してみてください。 *2. Claude Fable 5が19日間の提供停止（6/12→7/1復旧）* 米輸出規制により最上位モデルが突然使えなくなる事態が発生。「最上位モデル前提のワークフロー」はリスクを抱えるという教訓です。 → Claude Codeの*フォールバックモデルチェーン*機能を使い、主要ワークフローに代替モデルへの切り替えを設定しておくのを推奨します。 *3. MCPサーバーのセキュリティ注意喚起* Trend Micro調査で、認証なしでネット露出しているMCPサーバーが492台確認されたとのこと。 *4. Claude Code 6月アップデート* • 最大3階層のネスト型サブエージェント対応 • モデル障害時の自動フォールバックチェーン • `claude mcp login/logout`でMCP認証をCLI化 • エージェント別のコスト集計が可能に（自動化ごとの原価が見える化） その他もいろいろなニュースを掲載いただいておりますので、それぞれお好きなように眺めてみてください！:palms_up_together:",
+          "rawText": "<!channel>\n:loudspeaker: *【AI顧問Uravation様より】2026年6月版 AIニュースレポート*\nお疲れ様です。AI顧問の佐藤さん（Uravation）から今月のAIニュースレポートが届きました。ぜひ、キャッチアップしておいてください！\n\n:fire: *今月のトピック（開発への影響大）*\n*1. Claude Sonnet 5 登場（6/30）*\nOpus 4.8級のエージェント性能が `$2/$10`（100万トークン）に。8/31までの導入価格なので、この期間に実タスクで検証しておくと後々のモデル振り分け判断がしやすくなります。日常のコーディング・レビューはSonnet 5に寄せる方向で試してみてください。\n\n*2. Claude Fable 5が19日間の提供停止（6/12→7/1復旧）*\n米輸出規制により最上位モデルが突然使えなくなる事態が発生。「最上位モデル前提のワークフロー」はリスクを抱えるという教訓です。\n→ Claude Codeの*フォールバックモデルチェーン*機能を使い、主要ワークフローに代替モデルへの切り替えを設定しておくのを推奨します。\n\n*3. MCPサーバーのセキュリティ注意喚起*\nTrend Micro調査で、認証なしでネット露出しているMCPサーバーが492台確認されたとのこと。\n\n*4. Claude Code 6月アップデート*\n• 最大3階層のネスト型サブエージェント対応\n• モデル障害時の自動フォールバックチェーン\n• `claude mcp login/logout`でMCP認証をCLI化\n• エージェント別のコスト集計が可能に（自動化ごとの原価が見える化）\nその他もいろいろなニュースを掲載いただいておりますので、それぞれお好きなように眺めてみてください！:palms_up_together:",
+          "messageTs": "1783326965.304759",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-06",
+          "timestamp": "2026-07-06T08:36:05.304Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 286,
+      "messageCount": 287,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-07-04"
+      "lastDate": "2026-07-06"
     },
     {
       "id": "C09QXV3F8G0",
@@ -34128,11 +34148,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1783379328.074539",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-06_ 1. _AnthropicがClaudeの「自己内省空間（J-Space）」を発見_ └ Anthropicが研究論文で、Claudeの内部推論プロセスに「J-Space」（ヤコビアン数学由来の名称）と呼ばれる自己内省領域の存在を確認したと発表。コードのバグ検知や画像認識を「頭の中で」黙って処理するなど、外部には見えない隠れた推論ステップが明らかに。論文中に「conscious（意識）」という単語が200回以上登場し、AI意識研究として業界の注目を集めている。 :link: <https://www.axios.com/2026/07/06/anthropic-claude-ai-conscious|axios.com/2026/07/06/anthropic-claude-ai-conscious> 2. _中国企業によるClaude「知識蒸留」疑惑、Washington Postが詳報_ └ AnthropicがなぜAI知識蒸留問題で中国企業を問題視しているのかを詳細に報道。複数の中国AIスタートアップがClaudeのAPIレスポンスを訓練データとして自社モデルに使用していた疑惑の背景と、Anthropicの法的・技術的対応策を解説。AI開発倫理とIP保護の問題として注目。 :link: <https://www.washingtonpost.com/national-security/2026/07/06/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude/|washingtonpost.com/national-security/…/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude> 3. _Claude Code v2.1.201 リリース_ └ 7月6日付でClaude Code v2.1.201がリリース。セッションでのsystemロール処理に関する変更が含まれる。v2.1.200（昨日7/5）からわずか1日でのアップデート。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.201|github.com/anthropics/…/v2.1.201> 4. _Claude AI 大規模障害が発生・同日復旧（7/6月曜）_ └ 7月6日（月）にClaude AIで大規模障害が発生し、Downdetectorで2,000件超の報告。Claude.aiおよびClaude Codeのアクセス・OAuthログインに影響が出たが、同日中に修正・復旧が完了。Claude Codeを業務利用している開発者は影響を受けた可能性あり。 :link: <https://www.macrumors.com/2026/07/06/claude-outage-currently-affecting-multiple-models/|macrumors.com/2026/07/06/claude-outage-currently-affecting-multiple-models> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-06_\n\n1. _AnthropicがClaudeの「自己内省空間（J-Space）」を発見_\n└ Anthropicが研究論文で、Claudeの内部推論プロセスに「J-Space」（ヤコビアン数学由来の名称）と呼ばれる自己内省領域の存在を確認したと発表。コードのバグ検知や画像認識を「頭の中で」黙って処理するなど、外部には見えない隠れた推論ステップが明らかに。論文中に「conscious（意識）」という単語が200回以上登場し、AI意識研究として業界の注目を集めている。\n:link: <https://www.axios.com/2026/07/06/anthropic-claude-ai-conscious|axios.com/2026/07/06/anthropic-claude-ai-conscious>\n2. _中国企業によるClaude「知識蒸留」疑惑、Washington Postが詳報_\n└ AnthropicがなぜAI知識蒸留問題で中国企業を問題視しているのかを詳細に報道。複数の中国AIスタートアップがClaudeのAPIレスポンスを訓練データとして自社モデルに使用していた疑惑の背景と、Anthropicの法的・技術的対応策を解説。AI開発倫理とIP保護の問題として注目。\n:link: <https://www.washingtonpost.com/national-security/2026/07/06/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude/|washingtonpost.com/national-security/…/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude>\n3. _Claude Code v2.1.201 リリース_\n└ 7月6日付でClaude Code v2.1.201がリリース。セッションでのsystemロール処理に関する変更が含まれる。v2.1.200（昨日7/5）からわずか1日でのアップデート。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.201|github.com/anthropics/…/v2.1.201>\n4. _Claude AI 大規模障害が発生・同日復旧（7/6月曜）_\n└ 7月6日（月）にClaude AIで大規模障害が発生し、Downdetectorで2,000件超の報告。Claude.aiおよびClaude Codeのアクセス・OAuthログインに影響が出たが、同日中に修正・復旧が完了。Claude Codeを業務利用している開発者は影響を受けた可能性あり。\n:link: <https://www.macrumors.com/2026/07/06/claude-outage-currently-affecting-multiple-models/|macrumors.com/2026/07/06/claude-outage-currently-affecting-multiple-models> *使用して送信されました* Claude",
+          "messageTs": "1783379328.074539",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-06",
+          "timestamp": "2026-07-06T23:08:48.074Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 178,
+      "messageCount": 179,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-07-05"
+      "lastDate": "2026-07-06"
     },
     {
       "id": "C09Q1KNL2P8",
