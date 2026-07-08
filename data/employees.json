@@ -2735,5 +2735,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BEVC5MS7Q"
+  },
+  {
+    "name": "堀江 悠花",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-07-08T03:20:21.513Z",
+    "updatedAt": "2026-07-08T03:20:21.513Z",
+    "last_updated": "2026-07-08T03:20:21.513Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BFAGG3QCW"
   }
 ]
