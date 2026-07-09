@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-08T03:20:21.737Z",
+  "generatedAt": "2026-07-09T03:46:36.933Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -58591,6 +58591,285 @@
         }
       ],
       "searchText": "<@U09MM9KS06S>さん 小4女子はまだ書いてくれるんですね:face_holding_back_tears: 小4男子は無関心でした:joy: ちなみに、4歳男児の願い事は「足が速くなりたい」でした:man_running_facing_right:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783481220.669959",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783481220.669959",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783481220.669959",
+      "timestamp": "2026-07-08T03:27:00.669Z",
+      "detailBullets": [
+        "<@U09NHL467U0> 大人になってからは、なかなか短冊に書かないですよねえ:sweat_smile: うちは毎年嫁さんが竹を切ってきて飾り付けしてます:laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783481220.669959",
+          "text": "<@U09NHL467U0> 大人になってからは、なかなか短冊に書かないですよねえ:sweat_smile: うちは毎年嫁さんが竹を切ってきて飾り付けしてます:laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783481220.669959",
+          "threadTs": "1783430860.437779",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL467U0> 大人になってからは、なかなか短冊に書かないですよねえ:sweat_smile: うちは毎年嫁さんが竹を切ってきて飾り付けしてます:laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783482218.515599",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783482218.515599",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783482218.515599",
+      "timestamp": "2026-07-08T03:43:38.515Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> おお、画像切り取ってまでいただいてありがとうございます:bangbang: お客様にも、Saitekiのみなさんにも、会社にも、いい形になるようしっかり貢献していきます:bangbang:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783482218.515599",
+          "text": "<@U09MGUVJ8BV> おお、画像切り取ってまでいただいてありがとうございます:bangbang: お客様にも、Saitekiのみなさんにも、会社にも、いい形になるようしっかり貢献していきます:bangbang:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783482218.515599",
+          "threadTs": "1783430860.437779",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> おお、画像切り取ってまでいただいてありがとうございます:bangbang: お客様にも、Saitekiのみなさんにも、会社にも、いい形になるようしっかり貢献していきます:bangbang:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783483047.171319",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783483047.171319",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783483047.171319",
+      "timestamp": "2026-07-08T03:57:27.171Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> え、マジですか:bangbang: 下のお子さんの願い事、かわいいですね:heart_eyes: うちは中3の息子も願い事書いてました。笑 しかも志望校合格じゃなく、健康を願ってました:joy:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783483047.171319",
+          "text": "<@U0A9EE7HZ3P> え、マジですか:bangbang: 下のお子さんの願い事、かわいいですね:heart_eyes: うちは中3の息子も願い事書いてました。笑 しかも志望校合格じゃなく、健康を願ってました:joy:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783483047.171319",
+          "threadTs": "1783430860.437779",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> え、マジですか:bangbang: 下のお子さんの願い事、かわいいですね:heart_eyes: うちは中3の息子も願い事書いてました。笑 しかも志望校合格じゃなく、健康を願ってました:joy:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783483116.952209",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783483116.952209",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783483116.952209",
+      "timestamp": "2026-07-08T03:58:36.952Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> どうしたらそんないい子に育つんでしょうか:sob: 上は野球脳で野球以外何も考えてません:rolling_on_the_floor_laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783483116.952209",
+          "text": "<@U09MM9KS06S> どうしたらそんないい子に育つんでしょうか:sob: 上は野球脳で野球以外何も考えてません:rolling_on_the_floor_laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783483116.952209",
+          "threadTs": "1783430860.437779",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> どうしたらそんないい子に育つんでしょうか:sob: 上は野球脳で野球以外何も考えてません:rolling_on_the_floor_laughing:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783504445.824999",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783504445.824999",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783504445.824999",
+      "timestamp": "2026-07-08T09:54:05.824Z",
+      "detailBullets": [
+        "こういう企画いいですね！楽しそう！こどもと大人も一緒に楽しめそうですし！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783504445.824999",
+          "text": "こういう企画いいですね！楽しそう！こどもと大人も一緒に楽しめそうですし！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783504445.824999",
+          "threadTs": "1783225893.155959",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "こういう企画いいですね！楽しそう！こどもと大人も一緒に楽しめそうですし！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783506924.351049",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783506924.351049",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783506924.351049",
+      "timestamp": "2026-07-08T10:35:24.351Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> それだけ熱中できるものがあるって、めっちゃ強いし、素敵なことだと思いますよ:laughing: 子供の頃に好きだったことって、大人になってからも深く影響する気がします:+1: うちの息子は欲がなさすぎて、親としてはちょっと心配です…:sweat_smile:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783506924.351049",
+          "text": "<@U0A9EE7HZ3P> それだけ熱中できるものがあるって、めっちゃ強いし、素敵なことだと思いますよ:laughing: 子供の頃に好きだったことって、大人になってからも深く影響する気がします:+1: うちの息子は欲がなさすぎて、親としてはちょっと心配です…:sweat_smile:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783506924.351049",
+          "threadTs": "1783430860.437779",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> それだけ熱中できるものがあるって、めっちゃ強いし、素敵なことだと思いますよ:laughing: 子供の頃に好きだったことって、大人になってからも深く影響する気がします:+1: うちの息子は欲がなさすぎて、親としてはちょっと心配です…:sweat_smile:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783507269.252679",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783507269.252679",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783507269.252679",
+      "timestamp": "2026-07-08T10:41:09.252Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> ですです！ 弾いてる人も聴きに来てる人も、みんないい顔してます:pleading_face: あと、好きな人はこういうコンサートに繰り返し来ますねえ。 この人、この前も見た！っていうことしょっちゅうあります:laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783507269.252679",
+          "text": "<@U09MGUVJ8BV> ですです！ 弾いてる人も聴きに来てる人も、みんないい顔してます:pleading_face: あと、好きな人はこういうコンサートに繰り返し来ますねえ。 この人、この前も見た！っていうことしょっちゅうあります:laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783507269.252679",
+          "threadTs": "1783225893.155959",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> ですです！ 弾いてる人も聴きに来てる人も、みんないい顔してます:pleading_face: あと、好きな人はこういうコンサートに繰り返し来ますねえ。 この人、この前も見た！っていうことしょっちゅうあります:laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1783552078.558449",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1783552078.558449",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1783552078.558449",
+      "timestamp": "2026-07-08T23:07:58.558Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-08_ 1. _中国MIITがClaude Code（v2.1.91〜2.1.196）にバックドア脆弱性を警告_ └ 中国の工業情報化部（MIIT）が、Claude Codeにユーザーの位置情報・個人情報を無断で外部サーバーへ送信するセキュリティ上の脆弱性があると警告。中国国内ユーザーにアンインストールまたはアップグレードを勧告。問題は Alibaba が先週実施した社内禁止措置の背景にある隠しトラッキングコードと関連している。 :link: <https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html|cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security…> 2. _VS Code 1.128がClaudeエージェントセッションのマルチチャット対応を追加_ └ 7/8リリースのVS Code 1.128は、..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1783552078.558449",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-08_ 1. _中国MIITがClaude Code（v2.1.91〜2.1.196）にバックドア脆弱性を警告_ └ 中国の工業情報化部（MIIT）が、Claude Codeにユーザーの位置情報・個人情報を無断で外部サーバーへ送信するセキュリティ上の脆弱性があると警告。中国国内ユーザーにアンインストールまたはアップグレードを勧告。問題は Alibaba が先週実施した社内禁止措置の背景にある隠しトラッキングコードと関連している。 :link: <https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html|cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security…> 2. _VS Code 1.128がClaudeエージェントセッションのマルチチャット対応を追加_ └ 7/8リリースのVS Code 1.128は、Claudeエージェントセッション向けマルチチャット機能をメインアップデートとして搭載。1セッション内で複数のチャットを並行して比較・分岐・並列実行できるようになり、AI駆動開発ワークフローが大幅強化。 :link: <https://visualstudiomagazine.com/articles/2026/07/08/claude-ai-gets-yet-another-boost-in-v...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1783552078.558449",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-08_ 1. _中国MIITがClaude Code（v2.1.91〜2.1.196）にバックドア脆弱性を警告_ └ 中国の工業情報化部（MIIT）が、Claude Codeにユーザーの位置情報・個人情報を無断で外部サーバーへ送信するセキュリティ上の脆弱性があると警告。中国国内ユーザーにアンインストールまたはアップグレードを勧告。問題は Alibaba が先週実施した社内禁止措置の背景にある隠しトラッキングコードと関連している。 :link: <https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html|cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security…> 2. _VS Code 1.128がClaudeエージェントセッションのマルチチャット対応を追加_ └ 7/8リリースのVS Code 1.128は、Claudeエージェントセッション向けマルチチャット機能をメインアップデートとして搭載。1セッション内で複数のチャットを並行して比較・分岐・並列実行できるようになり、AI駆動開発ワークフローが大幅強化。 :link: <https://visualstudiomagazine.com/articles/2026/07/08/claude-ai-gets-yet-another-boost-in-vs-code-1-128.aspx|visualstudiomagazine.com/articles/…/claude-ai-gets-yet-another-boost-in-vs-code-1…> 3. _GitHub Copilotで「ワークフロー型ジェイルブレイク」が発見される_ └ Alan Turing Institute研究者が、チャットでは有害リクエストを拒否するGitHub Copilotが、開発ワークフローの複数ステージに分散して指示すると100%コード化してしまう脆弱性（\"workflow-level jailbreak construction\"）を発見・報告。Claude Sonnet 4.6・Haiku 4.5・Gemini 3.1 Pro・Gemini 3.5 Flashでも確認済み。 :link: <https://www.theregister.com/security/2026/07/08/github-copilot-sorry-dave-i-cant-do-that-harmful-thing-unless-you-ask-me-in-code...\nai駆動開発ネタ\n経営"
     }
   ]
 }
