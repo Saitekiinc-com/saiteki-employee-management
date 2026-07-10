@@ -2750,5 +2750,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BFAGG3QCW"
+  },
+  {
+    "name": "早川 大地",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-07-10T03:48:26.635Z",
+    "updatedAt": "2026-07-10T03:48:26.635Z",
+    "last_updated": "2026-07-10T03:48:26.635Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BEQ1Q1668"
   }
 ]

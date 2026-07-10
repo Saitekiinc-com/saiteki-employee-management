@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-09T03:46:45.194Z",
+  "generatedAt": "2026-07-10T03:48:29.724Z",
   "channelCount": 9,
-  "totalMessages": 1938,
+  "totalMessages": 1940,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -25462,11 +25462,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1783595093.130809",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0BEQ1Q1668",
+          "userName": "早川 大地",
+          "userRealName": "早川 大地",
+          "text": "初めまして。 8月入社予定の早川 大地（はやかわ だいち）と申します。 ■出身地 千葉の浦安出身（現在は福岡県に住んでおります） ■これまでやってきたこと ケーブルテレビ会社のセキュリティ部署にて、セキュリティシステムの運用保守業務を3年やっておりました。 ■趣味 サウナ、ダーツ、ビリヤード、ギター、カラオケ、などなど ■休日の過ごし方 サウナに行ったり、技術系の動画を流し聞きしたり、ダーツの練習したり、寝たりしてます。 ■ひとこと 積極的に学び、挑戦して行き、いち早く戦力となれるよう頑張ります。これからよろしくお願いします",
+          "rawText": "初めまして。\n8月入社予定の早川 大地（はやかわ だいち）と申します。\n\n■出身地\n千葉の浦安出身（現在は福岡県に住んでおります）\n\n■これまでやってきたこと\nケーブルテレビ会社のセキュリティ部署にて、セキュリティシステムの運用保守業務を3年やっておりました。\n\n■趣味\nサウナ、ダーツ、ビリヤード、ギター、カラオケ、などなど\n\n■休日の過ごし方\nサウナに行ったり、技術系の動画を流し聞きしたり、ダーツの練習したり、寝たりしてます。\n\n■ひとこと\n積極的に学び、挑戦して行き、いち早く戦力となれるよう頑張ります。これからよろしくお願いします",
+          "messageTs": "1783595093.130809",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-09",
+          "timestamp": "2026-07-09T11:04:53.130Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 398,
+      "messageCount": 399,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-07-08"
+      "lastDate": "2026-07-09"
     },
     {
       "id": "C09MKT8QKAR",
@@ -34468,11 +34488,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1783638549.459979",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-09_ 1. _OpenAI GPT-5.6 Sol / Terra / Luna が GitHub Copilot で利用可能に_ └ GPT-5.6ファミリーの3バリアントがCopilotに追加。Sol（複雑な推論・大規模コードベース向け）、Terra（日常的なエージェントコーディング向け）、Luna（高速・低コスト向け）と用途別に使い分けが可能に。 :link: <https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot/|github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot> 2. _GitHub Copilot にリポジトリ概要生成機能が追加_ └ 初めて探索するリポジトリについて Copilot に質問すると、リポジトリの目的・使用技術・コントリビューションガイドラインをまとめて要約してくれる新機能。全 Copilot プランで利用可能。 :link: <https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview/|github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview> 3. _AWS が Claude Apps Gateway でアクセス・コスト・ガバナンスを一元管理_ └ AWS が Amazon Bedrock 経由での Claude 利用において、アクセス制御・支出追跡・ガバナンスポリシーを一元管理できる仕組みを強化。AI 投資の可視化・管理が容易になりエンタープライズ導入を後押し。 :link: <https://www.helpnetsecurity.com/2026/07/09/aws-claude-apps-gateway-governance/|helpnetsecurity.com/2026/07/09/aws-claude-apps-gateway-governance> 4. _Cursor が Automations プラットフォームを公開_ └ コードベース変更・Slack リアクション・タイマーをトリガーにしてコーディングエージェントを自動起動できる新プラットフォーム。コードレビュー・セキュリティ監査・インシデント対応・週次サマリーなどを自動化。Cursor 社内でも毎時数百の自動化タスクを稼働中。 :link: <https://mlq.ai/news/cursor-releases-automations-platform-for-ai-coding-agent-management/|mlq.ai/news/cursor-releases-automations-platform-for-ai-coding-agent-management> 5. _AI コーディングエージェントが攻撃者検知用エンドポイントセキュリティルールを誤トリガーする問題が発覚_ └ 正規の AI エージェントによる開発作業（ファイル探索・コマンド実行など）が、マルウェアや攻撃者を想定して設計されたセキュリティルールと一致し誤検知を招くケースが確認された。AI 導入拡大に伴うセキュリティポリシー見直しが急務に。 :link: <https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html|thehackernews.com/2026/07/ai-coding-agents-found-triggering.html> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-09_\n\n1. _OpenAI GPT-5.6 Sol / Terra / Luna が GitHub Copilot で利用可能に_\n└ GPT-5.6ファミリーの3バリアントがCopilotに追加。Sol（複雑な推論・大規模コードベース向け）、Terra（日常的なエージェントコーディング向け）、Luna（高速・低コスト向け）と用途別に使い分けが可能に。\n:link: <https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot/|github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot>\n2. _GitHub Copilot にリポジトリ概要生成機能が追加_\n└ 初めて探索するリポジトリについて Copilot に質問すると、リポジトリの目的・使用技術・コントリビューションガイドラインをまとめて要約してくれる新機能。全 Copilot プランで利用可能。\n:link: <https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview/|github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview>\n3. _AWS が Claude Apps Gateway でアクセス・コスト・ガバナンスを一元管理_\n└ AWS が Amazon Bedrock 経由での Claude 利用において、アクセス制御・支出追跡・ガバナンスポリシーを一元管理できる仕組みを強化。AI 投資の可視化・管理が容易になりエンタープライズ導入を後押し。\n:link: <https://www.helpnetsecurity.com/2026/07/09/aws-claude-apps-gateway-governance/|helpnetsecurity.com/2026/07/09/aws-claude-apps-gateway-governance>\n4. _Cursor が Automations プラットフォームを公開_\n└ コードベース変更・Slack リアクション・タイマーをトリガーにしてコーディングエージェントを自動起動できる新プラットフォーム。コードレビュー・セキュリティ監査・インシデント対応・週次サマリーなどを自動化。Cursor 社内でも毎時数百の自動化タスクを稼働中。\n:link: <https://mlq.ai/news/cursor-releases-automations-platform-for-ai-coding-agent-management/|mlq.ai/news/cursor-releases-automations-platform-for-ai-coding-agent-management>\n5. _AI コーディングエージェントが攻撃者検知用エンドポイントセキュリティルールを誤トリガーする問題が発覚_\n└ 正規の AI エージェントによる開発作業（ファイル探索・コマンド実行など）が、マルウェアや攻撃者を想定して設計されたセキュリティルールと一致し誤検知を招くケースが確認された。AI 導入拡大に伴うセキュリティポリシー見直しが急務に。\n:link: <https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html|thehackernews.com/2026/07/ai-coding-agents-found-triggering.html> *使用して送信されました* Claude",
+          "messageTs": "1783638549.459979",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-09",
+          "timestamp": "2026-07-09T23:09:09.459Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 181,
+      "messageCount": 182,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-07-08"
+      "lastDate": "2026-07-09"
     },
     {
       "id": "C09Q1KNL2P8",
