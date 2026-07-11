@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-10T03:48:26.854Z",
+  "generatedAt": "2026-07-11T03:15:06.705Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -58939,6 +58939,214 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-09_ 1. _OpenAI GPT-5.6 Sol / Terra / Luna が GitHub Copilot で利用可能に_ └ GPT-5.6ファミリーの3バリアントがCopilotに追加。Sol（複雑な推論・大規模コードベース向け）、Terra（日常的なエージェントコーディング向け）、Luna（高速・低コスト向け）と用途別に使い分けが可能に。 :link: <https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot/|github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot> 2. _GitHub Copilot にリポジトリ概要生成機能が追加_ └ 初めて探索するリポジトリについて Copilot に質問すると、リポジトリの目的・使用技術・コントリビューションガイドラインをまとめて要約してくれる新機能。全 Copilot プランで利用可能。 :link: <https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview/|github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview> 3. _AWS が Claude Apps Gateway でアクセス・コスト・ガバナンスを一元管理_ └ AWS が Amazon Bedrock 経由での Claude 利用において、アクセス制御・支出追跡・ガバナンスポリシーを一元管理できる仕組みを強化。AI 投資の可視化・管理が容易になりエンタープライズ導入を後押し。 :link: <https://www.helpnetsecurity.com/2026/07/09/aws-claude-apps-gateway-governance/|helpnetsecurity.com/2026/07/09/aws-claude-apps-gateway-governance> 4. _Cursor が Automations プラットフォームを公開_ └ コードベース変更・Slack リアクション・タイマーをトリガーにしてコーディングエージェントを自動起動できる新プラットフォーム。コードレビュー・セキュリティ監査・インシデント対応・週次サマリーなどを自動化。Cu...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783677763.206799",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783677763.206799",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783677763.206799",
+      "timestamp": "2026-07-10T10:02:43.206Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 家の中に飾る短冊に、思春期の男の子が本心書きませんって。 大丈夫ですよ。 仲間内とかには、ちゃんと内に秘めた熱いものを語ってますよ、きっと:sparkles::tanabata_tree: 親の前では澄まして大人ぶってますけどねー:face_with_hand_over_mouth:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783677763.206799",
+          "text": "<@U09MM9KS06S> 家の中に飾る短冊に、思春期の男の子が本心書きませんって。 大丈夫ですよ。 仲間内とかには、ちゃんと内に秘めた熱いものを語ってますよ、きっと:sparkles::tanabata_tree: 親の前では澄まして大人ぶってますけどねー:face_with_hand_over_mouth:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783677763.206799",
+          "threadTs": "1783430860.437779",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 家の中に飾る短冊に、思春期の男の子が本心書きませんって。 大丈夫ですよ。 仲間内とかには、ちゃんと内に秘めた熱いものを語ってますよ、きっと:sparkles::tanabata_tree: 親の前では澄まして大人ぶってますけどねー:face_with_hand_over_mouth:\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783678064.846539",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783678064.846539",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783678064.846539",
+      "timestamp": "2026-07-10T10:07:44.846Z",
+      "detailBullets": [
+        "＃ひとりごと たまに思いますねん。 各SNSにて。 自分の発言に対する「いいね:+1:」リアクションに、さらに「いいね:+1:」したい。 豆粒いいね開発してくれんかな。 終わりなき「いいね:+1:」の応酬をしたい。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783678064.846539",
+          "text": "＃ひとりごと たまに思いますねん。 各SNSにて。 自分の発言に対する「いいね:+1:」リアクションに、さらに「いいね:+1:」したい。 豆粒いいね開発してくれんかな。 終わりなき「いいね:+1:」の応酬をしたい。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783678064.846539",
+          "threadTs": "1783678064.846539",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "＃ひとりごと たまに思いますねん。 各SNSにて。 自分の発言に対する「いいね:+1:」リアクションに、さらに「いいね:+1:」したい。 豆粒いいね開発してくれんかな。 終わりなき「いいね:+1:」の応酬をしたい。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1783724862.312159",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1783724862.312159",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1783724862.312159",
+      "timestamp": "2026-07-10T23:07:42.312Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-10_ 1. _Claude Code v2.1.206リリース：ナビゲーション・エージェント品質を大幅改善_ └ 7/10リリースのClaude Code最新版。スマートナビゲーション強化、Worktreeの安全策改善、バックグラウンドエージェントとコードレビュー品質が向上。`/cd` へのディレクトリパス補完追加や、`/commit-push-pr` のgit push自動許可など開発体験も多数改善。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Mobile、Copilotセッションのフィルター・並び替え機能を強化_ └ モバイルアプリでCopilotセッション一覧の絞り込みが可能に。アクティブ状態・リポジトリ・タイプ・エージェント・並び替えでの検索ができ、セッション数の増加に伴う管理の煩雑さを解消。全Copilotプランで利用可能。 :link: <https:/..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1783724862.312159",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-10_ 1. _Claude Code v2.1.206リリース：ナビゲーション・エージェント品質を大幅改善_ └ 7/10リリースのClaude Code最新版。スマートナビゲーション強化、Worktreeの安全策改善、バックグラウンドエージェントとコードレビュー品質が向上。`/cd` へのディレクトリパス補完追加や、`/commit-push-pr` のgit push自動許可など開発体験も多数改善。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Mobile、Copilotセッションのフィルター・並び替え機能を強化_ └ モバイルアプリでCopilotセッション一覧の絞り込みが可能に。アクティブ状態・リポジトリ・タイプ・エージェント・並び替えでの検索ができ、セッション数の増加に伴う管理の煩雑さを解消。全Copilotプランで利用可能。 :link: <https://github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions/|github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions> 3. ...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1783724862.312159",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-10_ 1. _Claude Code v2.1.206リリース：ナビゲーション・エージェント品質を大幅改善_ └ 7/10リリースのClaude Code最新版。スマートナビゲーション強化、Worktreeの安全策改善、バックグラウンドエージェントとコードレビュー品質が向上。`/cd` へのディレクトリパス補完追加や、`/commit-push-pr` のgit push自動許可など開発体験も多数改善。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Mobile、Copilotセッションのフィルター・並び替え機能を強化_ └ モバイルアプリでCopilotセッション一覧の絞り込みが可能に。アクティブ状態・リポジトリ・タイプ・エージェント・並び替えでの検索ができ、セッション数の増加に伴う管理の煩雑さを解消。全Copilotプランで利用可能。 :link: <https://github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions/|github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions> 3. _Cursor、汎用AIエージェント「Sand」を内部開発中——Claude Cowork・ChatGPT Workに対抗_ └ コーディングツールとして知られるCursorが、メール対応・スプレッドシート整理・エンジニアリング業務を一手に担う汎用ワークプレースエージェント「Sand」を開発中と報道。AI駆動開発をコードの外の業務全体へ拡張する戦略的な動き。 :link: <https://www.pymnts.com/news/artificial-intelligence/2026/cursor-prepares-workplace-ai-agent-to-challenge-claude-cowork-and-chatgpt-work/|pymnts.com/news/artificial-intelligence/2026/cursor-prepares-workplace-ai-agent-to-challenge-claude-cowork-and-chatgpt-work> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783734922.802539",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783734922.802539",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783734922.802539",
+      "timestamp": "2026-07-11T01:55:22.802Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> ありがとうございます:pleading_face: そういうアツいものをうちに秘めていると信じます:sob::sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783734922.802539",
+          "text": "<@U09QZF7KT2P> ありがとうございます:pleading_face: そういうアツいものをうちに秘めていると信じます:sob::sparkles:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783734922.802539",
+          "threadTs": "1783430860.437779",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> ありがとうございます:pleading_face: そういうアツいものをうちに秘めていると信じます:sob::sparkles:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783736607.807399",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783736607.807399",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783736607.807399",
+      "timestamp": "2026-07-11T02:23:27.807Z",
+      "detailBullets": [
+        "いいねしてくれる人に自分もいいねしたい気持ち、めちゃくちゃわかります！笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783736607.807399",
+          "text": "いいねしてくれる人に自分もいいねしたい気持ち、めちゃくちゃわかります！笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783736607.807399",
+          "threadTs": "1783678064.846539",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "いいねしてくれる人に自分もいいねしたい気持ち、めちゃくちゃわかります！笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783738635.430749",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783738635.430749",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783738635.430749",
+      "timestamp": "2026-07-11T02:57:15.430Z",
+      "detailBullets": [
+        "<!channel> もし豆粒いいねを実装するとしたら。 UXや仕様を真面目／不真面目に考えてみよう:laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783738635.430749",
+          "text": "<!channel> もし豆粒いいねを実装するとしたら。 UXや仕様を真面目／不真面目に考えてみよう:laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783738635.430749",
+          "threadTs": "1783678064.846539",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> もし豆粒いいねを実装するとしたら。 UXや仕様を真面目／不真面目に考えてみよう:laughing:\nソーシャル\nEngineer"
     }
   ]
 }
