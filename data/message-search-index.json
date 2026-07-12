@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-11T03:15:06.705Z",
+  "generatedAt": "2026-07-12T03:26:23.474Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -57679,7 +57679,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1783072292.501959",
-          "threadTs": null,
+          "threadTs": "1783072292.501959",
           "authorName": "林田 譲一",
           "permalink": null
         }
@@ -58898,7 +58898,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1783595093.130809",
-          "threadTs": null,
+          "threadTs": "1783595093.130809",
           "authorName": "早川 大地",
           "permalink": null
         }
@@ -59147,6 +59147,494 @@
         }
       ],
       "searchText": "<!channel> もし豆粒いいねを実装するとしたら。 UXや仕様を真面目／不真面目に考えてみよう:laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1783739877.726599",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1783739877.726599",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1783739877.726599",
+      "timestamp": "2026-07-11T03:17:57.726Z",
+      "detailBullets": [
+        "<!channel> みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.07.11）* を共有します。 今週のテーマは *「東京都の入札エントリー開始！＆凸版印刷様との『日曜朝食』から始まった新たな布石」* です。 今期、Saitekiの第二の柱である「受託開発事業」をスケールさせるため、公共セクター（官公庁・自治体）の市場をこじ開けにいくトップ営業の裏側をレポートします。 • *【東京都の入札資格をクリア！】* 前期決算書の提出など大変な手続きを経て準備完了。いよいよ8月から東京都の入札エントリーを開始します。今期中に「最低1件以上の獲得」を明確なターゲットとして勝ち取りにいきます。 • *【巨大企業・凸版印刷様とコネクション構築】* 官公庁・自治体の入札案件に圧倒的強みを持つ凸版印刷（TOPPAN）様の入札部署・企画担当の方と繋がりました。大企業の看板で獲得した大規模IT案件の開発を、Saitekiに再委託してもらえるパートナーとしての案件紹介に向けて具体的に動いています。 • *【チャンスは日曜の朝食に】* きっかけはある起業家との朝食会。「..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1783739877.726599",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.07.11）* を共有します。 今週のテーマは *「東京都の入札エントリー開始！＆凸版印刷様との『日曜朝食』から始まった新たな布石」* です。 今期、Saitekiの第二の柱である「受託開発事業」をスケールさせるため、公共セクター（官公庁・自治体）の市場をこじ開けにいくトップ営業の裏側をレポートします。 • *【東京都の入札資格をクリア！】* 前期決算書の提出など大変な手続きを経て準備完了。いよいよ8月から東京都の入札エントリーを開始します。今期中に「最低1件以上の獲得」を明確なターゲットとして勝ち取りにいきます。 • *【巨大企業・凸版印刷様とコネクション構築】* 官公庁・自治体の入札案件に圧倒的強みを持つ凸版印刷（TOPPAN）様の入札部署・企画担当の方と繋がりました。大企業の看板で獲得した大規模IT案件の開発を、Saitekiに再委託してもらえるパートナーとしての案件紹介に向けて具体的に動いています。 • *【チャンスは日曜の朝食に】* きっかけはある起業家との朝食会。「奥様が入札部門にいる」と聞いて即座にプレゼンを敢行し、公式な開発パートナーの1社として考えていくという最高の回答をいただきました。 平日の稼働だけでなく、週末の一瞬の出会いであってもビジョンを愚直に伝え続けることの重要性を改めて実感しています。頼もしい本社・現場の仲間がインフラを支えてくれているからこそ、私は代表として外で特大の「未来の種」を蒔き続けることができます。 東京都への直接入札と、巨人の...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1783739877.726599",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.07.11）* を共有します。 今週のテーマは *「東京都の入札エントリー開始！＆凸版印刷様との『日曜朝食』から始まった新たな布石」* です。 今期、Saitekiの第二の柱である「受託開発事業」をスケールさせるため、公共セクター（官公庁・自治体）の市場をこじ開けにいくトップ営業の裏側をレポートします。 • *【東京都の入札資格をクリア！】* 前期決算書の提出など大変な手続きを経て準備完了。いよいよ8月から東京都の入札エントリーを開始します。今期中に「最低1件以上の獲得」を明確なターゲットとして勝ち取りにいきます。 • *【巨大企業・凸版印刷様とコネクション構築】* 官公庁・自治体の入札案件に圧倒的強みを持つ凸版印刷（TOPPAN）様の入札部署・企画担当の方と繋がりました。大企業の看板で獲得した大規模IT案件の開発を、Saitekiに再委託してもらえるパートナーとしての案件紹介に向けて具体的に動いています。 • *【チャンスは日曜の朝食に】* きっかけはある起業家との朝食会。「奥様が入札部門にいる」と聞いて即座にプレゼンを敢行し、公式な開発パートナーの1社として考えていくという最高の回答をいただきました。 平日の稼働だけでなく、週末の一瞬の出会いであってもビジョンを愚直に伝え続けることの重要性を改めて実感しています。頼もしい本社・現場の仲間がインフラを支えてくれているからこそ、私は代表として外で特大の「未来の種」を蒔き続けることができます。 東京都への直接入札と、巨人の肩を借りた再委託開発の両面作戦で、受託事業を次のステージへ突入させていきます。ぜひ週末にチェックしてみてください！ ▼ Letter of T | 今週の記録（2026.07.11） <https://app.notion.com/p/Letter-of-T-2026-07-11-39adfb42679c804990c4fd21cbf4f4aa|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783747286.718449",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783747286.718449",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783747286.718449",
+      "timestamp": "2026-07-11T05:21:26.718Z",
+      "detailBullets": [
+        "連打攻撃対策に、いいねをタップしたら画像認識CAPCHAを表示する:grin:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783747286.718449",
+          "text": "連打攻撃対策に、いいねをタップしたら画像認識CAPCHAを表示する:grin:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783747286.718449",
+          "threadTs": "1783678064.846539",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "連打攻撃対策に、いいねをタップしたら画像認識CAPCHAを表示する:grin:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783754540.883609",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783754540.883609",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783754540.883609",
+      "timestamp": "2026-07-11T07:22:20.883Z",
+      "detailBullets": [
+        "ジャルジャルが好きで寝る前にYouTubeの動画を見る習慣が1年ぐらい続いてるのですが、最近はサムネで十分笑えるようになって本編を見ないことも増えてきました。<https://youtube.com/@jarujaruisland8111?si=QOqkh7RpPwIE2Vr6|ジャルジャルアイランド>、おすすめです。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783754540.883609",
+          "text": "ジャルジャルが好きで寝る前にYouTubeの動画を見る習慣が1年ぐらい続いてるのですが、最近はサムネで十分笑えるようになって本編を見ないことも増えてきました。<https://youtube.com/@jarujaruisland8111?si=QOqkh7RpPwIE2Vr6|ジャルジャルアイランド>、おすすめです。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783754540.883609",
+          "threadTs": "1783754540.883609",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "ジャルジャルが好きで寝る前にYouTubeの動画を見る習慣が1年ぐらい続いてるのですが、最近はサムネで十分笑えるようになって本編を見ないことも増えてきました。<https://youtube.com/@jarujaruisland8111?si=QOqkh7RpPwIE2Vr6|ジャルジャルアイランド>、おすすめです。\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1783755541.018979",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1783755541.018979",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1783755541.018979",
+      "timestamp": "2026-07-11T07:39:01.018Z",
+      "detailBullets": [
+        "<@U0B912BD7HD> 春山さん、あらためてよろしくお願いします！ 第一印象はおとなしく凛とした印象ですが、お客さんからの信頼が厚く、可愛がられていそうな印象も持っていてこれからに大期待です！ 春山さんが成長していける環境を用意できるよう僕も頑張っていきます！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1783755541.018979",
+          "text": "<@U0B912BD7HD> 春山さん、あらためてよろしくお願いします！ 第一印象はおとなしく凛とした印象ですが、お客さんからの信頼が厚く、可愛がられていそうな印象も持っていてこれからに大期待です！ 春山さんが成長していける環境を用意できるよう僕も頑張っていきます！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1783755541.018979",
+          "threadTs": "1782902484.182519",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B912BD7HD> 春山さん、あらためてよろしくお願いします！ 第一印象はおとなしく凛とした印象ですが、お客さんからの信頼が厚く、可愛がられていそうな印象も持っていてこれからに大期待です！ 春山さんが成長していける環境を用意できるよう僕も頑張っていきます！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1783755661.006709",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1783755661.006709",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1783755661.006709",
+      "timestamp": "2026-07-11T07:41:01.006Z",
+      "detailBullets": [
+        "<@U0BEVC5MS7Q> 林田さん、あらためてよろしくお願いします！！最新のAIツールの動向を土日に追ってしまうあたり、めちゃくちゃいいですね！AIとか業務効率が素でお好きなんだろうなぁと想像しました！頼りにしています！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1783755661.006709",
+          "text": "<@U0BEVC5MS7Q> 林田さん、あらためてよろしくお願いします！！最新のAIツールの動向を土日に追ってしまうあたり、めちゃくちゃいいですね！AIとか業務効率が素でお好きなんだろうなぁと想像しました！頼りにしています！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1783755661.006709",
+          "threadTs": "1783072292.501959",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BEVC5MS7Q> 林田さん、あらためてよろしくお願いします！！最新のAIツールの動向を土日に追ってしまうあたり、めちゃくちゃいいですね！AIとか業務効率が素でお好きなんだろうなぁと想像しました！頼りにしています！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1783755760.940249",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1783755760.940249",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1783755760.940249",
+      "timestamp": "2026-07-11T07:42:40.940Z",
+      "detailBullets": [
+        "<@U0BFAGG3QCW> 堀江さん、あらためてよろしくお願いします！ サーフィン！起業してからは行けてないですが、僕も2年ぐらい前まで千葉の一宮によくサーフィンに行ってました！冬の極寒の海にも入るぐらい好きでした笑 今度、語りましょう！:man-surfing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1783755760.940249",
+          "text": "<@U0BFAGG3QCW> 堀江さん、あらためてよろしくお願いします！ サーフィン！起業してからは行けてないですが、僕も2年ぐらい前まで千葉の一宮によくサーフィンに行ってました！冬の極寒の海にも入るぐらい好きでした笑 今度、語りましょう！:man-surfing:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1783755760.940249",
+          "threadTs": "1783420848.936349",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BFAGG3QCW> 堀江さん、あらためてよろしくお願いします！ サーフィン！起業してからは行けてないですが、僕も2年ぐらい前まで千葉の一宮によくサーフィンに行ってました！冬の極寒の海にも入るぐらい好きでした笑 今度、語りましょう！:man-surfing:\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1783755938.781099",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1783755938.781099",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1783755938.781099",
+      "timestamp": "2026-07-11T07:45:38.781Z",
+      "detailBullets": [
+        "<@U0BEQ1Q1668> 早川さん、あらためてよろしくお願いします！趣味が色々あって素敵ですね！ ギターかっこいい！福岡のおすすめのサウナが開拓できたら今度、教えてください！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1783755938.781099",
+          "text": "<@U0BEQ1Q1668> 早川さん、あらためてよろしくお願いします！趣味が色々あって素敵ですね！ ギターかっこいい！福岡のおすすめのサウナが開拓できたら今度、教えてください！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1783755938.781099",
+          "threadTs": "1783595093.130809",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BEQ1Q1668> 早川さん、あらためてよろしくお願いします！趣味が色々あって素敵ですね！ ギターかっこいい！福岡のおすすめのサウナが開拓できたら今度、教えてください！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783758775.392699",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:好田　歩",
+      "personName": "好田 歩",
+      "slackIds": [
+        "U0ATVGURLRL"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783758775.392699",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783758775.392699",
+      "timestamp": "2026-07-11T08:32:55.392Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> めっちゃわかります。私も一緒です笑 習慣になりすぎて絶対寝落ちしちゃうので最近はスリープタイマーを使うようになりました笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783758775.392699",
+          "text": "<@U09MGUVJ8BV> めっちゃわかります。私も一緒です笑 習慣になりすぎて絶対寝落ちしちゃうので最近はスリープタイマーを使うようになりました笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783758775.392699",
+          "threadTs": "1783754540.883609",
+          "authorName": "好田　歩",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> めっちゃわかります。私も一緒です笑 習慣になりすぎて絶対寝落ちしちゃうので最近はスリープタイマーを使うようになりました笑\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783761407.924859",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783761407.924859",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783761407.924859",
+      "timestamp": "2026-07-11T09:16:47.924Z",
+      "detailBullets": [
+        "<@U0ATVGURLRL> おお、同志ですね！笑 スリープタイマー僕も使うことにします！ この辺ももはや見てないけど面白くて満足してます。笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783761407.924859",
+          "text": "<@U0ATVGURLRL> おお、同志ですね！笑 スリープタイマー僕も使うことにします！ この辺ももはや見てないけど面白くて満足してます。笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783761407.924859",
+          "threadTs": "1783754540.883609",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0ATVGURLRL> おお、同志ですね！笑 スリープタイマー僕も使うことにします！ この辺ももはや見てないけど面白くて満足してます。笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783764200.467699",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:好田　歩",
+      "personName": "好田 歩",
+      "slackIds": [
+        "U0ATVGURLRL"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783764200.467699",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783764200.467699",
+      "timestamp": "2026-07-11T10:03:20.467Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> セムネで既に面白いですよね！ 中身も裏切らない面白さでした:rolling_on_the_floor_laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783764200.467699",
+          "text": "<@U09MGUVJ8BV> セムネで既に面白いですよね！ 中身も裏切らない面白さでした:rolling_on_the_floor_laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783764200.467699",
+          "threadTs": "1783754540.883609",
+          "authorName": "好田　歩",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> セムネで既に面白いですよね！ 中身も裏切らない面白さでした:rolling_on_the_floor_laughing:\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783766870.828819",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783766870.828819",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783766870.828819",
+      "timestamp": "2026-07-11T10:47:50.828Z",
+      "detailBullets": [
+        "僕も大好きなYouTubeチャンネルがあるので紹介します！ 「<https://m.youtube.com/@moozaru|ムーザルちゃんねる>」という、プログラミングやAIに関する時事ネタ、開発ネタについて、ムーさんとザルさんの2人がラジオ風にゆるく雑に語るチャンネルです！ 好きなポイントはいろいろありますが、とにかく2人の会話と掛け合いがめちゃくちゃ面白いです！ 難しくなりがちなプログラミングやAIの話を面白おかしく、ほどよくふざけながら話してくれるので、深い知識がなくても気楽に聞けます！ そうかと思えばかなりコアな技術の話もしっかりされるので、その緩急もこのチャンネルの魅力です！ 僕はインフラをメインでやっているので、すぐに明日から使える知識ばかりというわけではありませんが、開発やAIのトレンドを気楽にキャッチアップできるので、とても勉強になります！ 気になった方はぜひ見てみてください！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783766870.828819",
+          "text": "僕も大好きなYouTubeチャンネルがあるので紹介します！ 「<https://m.youtube.com/@moozaru|ムーザルちゃんねる>」という、プログラミングやAIに関する時事ネタ、開発ネタについて、ムーさんとザルさんの2人がラジオ風にゆるく雑に語るチャンネルです！ 好きなポイントはいろいろありますが、とにかく2人の会話と掛け合いがめちゃくちゃ面白いです！ 難しくなりがちなプログラミングやAIの話を面白おかしく、ほどよくふざけながら話してくれるので、深い知識がなくても気楽に聞けます！ そうかと思えばかなりコアな技術の話もしっかりされるので、その緩急もこのチャンネルの魅力です！ 僕はインフラをメインでやっているので、すぐに明日から使える知識ばかりというわけではありませんが、開発やAIのトレンドを気楽にキャッチアップできるので、とても勉強になります！ 気になった方はぜひ見てみてください！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783766870.828819",
+          "threadTs": "1783766870.828819",
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "僕も大好きなYouTubeチャンネルがあるので紹介します！ 「<https://m.youtube.com/@moozaru|ムーザルちゃんねる>」という、プログラミングやAIに関する時事ネタ、開発ネタについて、ムーさんとザルさんの2人がラジオ風にゆるく雑に語るチャンネルです！ 好きなポイントはいろいろありますが、とにかく2人の会話と掛け合いがめちゃくちゃ面白いです！ 難しくなりがちなプログラミングやAIの話を面白おかしく、ほどよくふざけながら話してくれるので、深い知識がなくても気楽に聞けます！ そうかと思えばかなりコアな技術の話もしっかりされるので、その緩急もこのチャンネルの魅力です！ 僕はインフラをメインでやっているので、すぐに明日から使える知識ばかりというわけではありませんが、開発やAIのトレンドを気楽にキャッチアップできるので、とても勉強になります！ 気になった方はぜひ見てみてください！\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1783811541.273529",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1783811541.273529",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1783811541.273529",
+      "timestamp": "2026-07-11T23:12:21.273Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-11_ 1. _Claude Code v2.1.207リリース：BedrockでautoモードがデフォルトにOpus 4.8も採用_ └ Bedrockを含むVertex AI・Foundryでautoモードが初期設定でオンに（`disableAutoMode`設定で無効化可能）。BedrockのデフォルトモデルがClaude Opus 4.8に更新。ターミナルの応答遅延やバイナリサイズ（約7MB削減）の改善、セキュリティ同意ダイアログのバグも修正済み。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.207|github.com/anthropics/…/v2.1.207> 2. _Cursor 3.11：メインチャットを邪魔しない「サイドチャット」機能が登場_ └ `/side`・`/btw` コマンドまたはプラスボタンで、メインのエージェント会話を中断せずに独立したチャットを並行起動可能に。サイドチャットは読み取り・調査..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1783811541.273529",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-11_ 1. _Claude Code v2.1.207リリース：BedrockでautoモードがデフォルトにOpus 4.8も採用_ └ Bedrockを含むVertex AI・Foundryでautoモードが初期設定でオンに（`disableAutoMode`設定で無効化可能）。BedrockのデフォルトモデルがClaude Opus 4.8に更新。ターミナルの応答遅延やバイナリサイズ（約7MB削減）の改善、セキュリティ同意ダイアログのバグも修正済み。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.207|github.com/anthropics/…/v2.1.207> 2. _Cursor 3.11：メインチャットを邪魔しない「サイドチャット」機能が登場_ └ `/side`・`/btw` コマンドまたはプラスボタンで、メインのエージェント会話を中断せずに独立したチャットを並行起動可能に。サイドチャットは読み取り・調査・QA向けに最適化されており、後からメインスレッドへのコンテキスト引き込みも可能。エージェントトランスクリプト検索機能とプロジェクト・リポジトリピッカーのUI改善も同梱。 :link: <https://cursor.com/changelog|cursor.com/changelog> 3. _GitHub Copilot CLI v1.0.70：GPT-5.6対応・`/refine`コマンドな...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1783811541.273529",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-11_ 1. _Claude Code v2.1.207リリース：BedrockでautoモードがデフォルトにOpus 4.8も採用_ └ Bedrockを含むVertex AI・Foundryでautoモードが初期設定でオンに（`disableAutoMode`設定で無効化可能）。BedrockのデフォルトモデルがClaude Opus 4.8に更新。ターミナルの応答遅延やバイナリサイズ（約7MB削減）の改善、セキュリティ同意ダイアログのバグも修正済み。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.207|github.com/anthropics/…/v2.1.207> 2. _Cursor 3.11：メインチャットを邪魔しない「サイドチャット」機能が登場_ └ `/side`・`/btw` コマンドまたはプラスボタンで、メインのエージェント会話を中断せずに独立したチャットを並行起動可能に。サイドチャットは読み取り・調査・QA向けに最適化されており、後からメインスレッドへのコンテキスト引き込みも可能。エージェントトランスクリプト検索機能とプロジェクト・リポジトリピッカーのUI改善も同梱。 :link: <https://cursor.com/changelog|cursor.com/changelog> 3. _GitHub Copilot CLI v1.0.70：GPT-5.6対応・`/refine`コマンドなど多数の機能追加_ └ GPT-5.6モデル（Sol/Terra/Luna）に正式対応。`/refine` コマンドで大まかに入力したプロンプトを自動的に整理・明確化できるように。プラグインをコミットSHAでピン留めする機能、セッション単位でOSレベルのサンドボックスを制御する `--sandbox`/`--no-sandbox` フラグ、`/settings` や `/model` への `--repo`/`--local` フラグも追加。 :link: <https://github.com/github/copilot-cli/releases/tag/v1.0.70|github.com/github/…/v1.0.70> 4. _国内AIエージェント動向（7/11号）：浜松市補助金・不動産管理MCPサーバー・法人GPT-5.6導入_ └ 浜松市が中小企業向けAIエージェント導入補助金の第2弾を発表（上限500万円・補助率最大50%、7/31まで募集）。日本情報クリエイトが不動産管理ソフトとClaude Desktop等を繋ぐローカルMCPサーバーの試験提供を7/22から開始。...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783822654.732309",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783822654.732309",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783822654.732309",
+      "timestamp": "2026-07-12T02:17:34.732Z",
+      "detailBullets": [
+        "これは仕事にも役立ちそうな情報を収集できてかつ、面白いっていいすね！僕の紹介とは大違い、、笑 聞いてみます！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783822654.732309",
+          "text": "これは仕事にも役立ちそうな情報を収集できてかつ、面白いっていいすね！僕の紹介とは大違い、、笑 聞いてみます！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783822654.732309",
+          "threadTs": "1783766870.828819",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "これは仕事にも役立ちそうな情報を収集できてかつ、面白いっていいすね！僕の紹介とは大違い、、笑 聞いてみます！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783826099.495309",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783826099.495309",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783826099.495309",
+      "timestamp": "2026-07-12T03:14:59.495Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> <@U0ATVGURLRL> 動画みたら軽くサムネを超える面白さでした:laughing: 大昔のジャルジャルしか知らなかったんですが、シュールさと細かすぎるコント設定が段違いでした:joy: 最高です:bangbang:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783826099.495309",
+          "text": "<@U09MGUVJ8BV> <@U0ATVGURLRL> 動画みたら軽くサムネを超える面白さでした:laughing: 大昔のジャルジャルしか知らなかったんですが、シュールさと細かすぎるコント設定が段違いでした:joy: 最高です:bangbang:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783826099.495309",
+          "threadTs": "1783754540.883609",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> <@U0ATVGURLRL> 動画みたら軽くサムネを超える面白さでした:laughing: 大昔のジャルジャルしか知らなかったんですが、シュールさと細かすぎるコント設定が段違いでした:joy: 最高です:bangbang:\nソーシャル\nEngineer"
     }
   ]
 }
