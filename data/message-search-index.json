@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-12T03:26:23.474Z",
+  "generatedAt": "2026-07-13T03:29:52.280Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -59635,6 +59635,286 @@
         }
       ],
       "searchText": "<@U09MGUVJ8BV> <@U0ATVGURLRL> 動画みたら軽くサムネを超える面白さでした:laughing: 大昔のジャルジャルしか知らなかったんですが、シュールさと細かすぎるコント設定が段違いでした:joy: 最高です:bangbang:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783827870.308509",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783827870.308509",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783827870.308509",
+      "timestamp": "2026-07-12T03:44:30.308Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 毎日ぐらいのペースで動画を上げているのが、狂気でしかないと思ってます！ 確実にお笑いを追求し続ける姿にファンになりました。 個人的には、後藤がひたすら嫌な奴の回は、見逃せないと思ってみてます！ <https://youtu.be/GqvF-OfcNK4?si=QwvDTk1KnB2CTHp5|youtu.be/…?si=…> <https://youtu.be/m9pQgco5KEE?si=81FDBakWkKC1FJ6h|youtu.be/…?si=…> <https://youtu.be/ch7K1wOfm_4?si=ZzERfiwasnGd_IUW|youtu.be/…?si=ZzERfiwasnGd_IUW>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783827870.308509",
+          "text": "<@U09MM9KS06S> 毎日ぐらいのペースで動画を上げているのが、狂気でしかないと思ってます！ 確実にお笑いを追求し続ける姿にファンになりました。 個人的には、後藤がひたすら嫌な奴の回は、見逃せないと思ってみてます！ <https://youtu.be/GqvF-OfcNK4?si=QwvDTk1KnB2CTHp5|youtu.be/…?si=…> <https://youtu.be/m9pQgco5KEE?si=81FDBakWkKC1FJ6h|youtu.be/…?si=…> <https://youtu.be/ch7K1wOfm_4?si=ZzERfiwasnGd_IUW|youtu.be/…?si=ZzERfiwasnGd_IUW>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783827870.308509",
+          "threadTs": "1783754540.883609",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 毎日ぐらいのペースで動画を上げているのが、狂気でしかないと思ってます！ 確実にお笑いを追求し続ける姿にファンになりました。 個人的には、後藤がひたすら嫌な奴の回は、見逃せないと思ってみてます！ <https://youtu.be/GqvF-OfcNK4?si=QwvDTk1KnB2CTHp5|youtu.be/…?si=…> <https://youtu.be/m9pQgco5KEE?si=81FDBakWkKC1FJ6h|youtu.be/…?si=…> <https://youtu.be/ch7K1wOfm_4?si=ZzERfiwasnGd_IUW|youtu.be/…?si=ZzERfiwasnGd_IUW>\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783829763.676899",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783829763.676899",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783829763.676899",
+      "timestamp": "2026-07-12T04:16:03.676Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> このクオリティのコントを毎日のように上げてるのは驚きです:bangbang: ほんと狂気ですね:face_with_spiral_eyes: > 個人的には、後藤がひたすら嫌な奴の回は、見逃せないと思ってみてます！ なるほど！ 義理チョコもサンチュも、ジワジワ精神を削ってくる嫌さでした:laughing: 福徳の反応がまためちゃくちゃ面白い:rolling_on_the_floor_laughing: 追加でおススメいただいた動画も見てみます:bangbang:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783829763.676899",
+          "text": "<@U09MGUVJ8BV> このクオリティのコントを毎日のように上げてるのは驚きです:bangbang: ほんと狂気ですね:face_with_spiral_eyes: > 個人的には、後藤がひたすら嫌な奴の回は、見逃せないと思ってみてます！ なるほど！ 義理チョコもサンチュも、ジワジワ精神を削ってくる嫌さでした:laughing: 福徳の反応がまためちゃくちゃ面白い:rolling_on_the_floor_laughing: 追加でおススメいただいた動画も見てみます:bangbang:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783829763.676899",
+          "threadTs": "1783754540.883609",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> このクオリティのコントを毎日のように上げてるのは驚きです:bangbang: ほんと狂気ですね:face_with_spiral_eyes: > 個人的には、後藤がひたすら嫌な奴の回は、見逃せないと思ってみてます！ なるほど！ 義理チョコもサンチュも、ジワジワ精神を削ってくる嫌さでした:laughing: 福徳の反応がまためちゃくちゃ面白い:rolling_on_the_floor_laughing: 追加でおススメいただいた動画も見てみます:bangbang:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783830800.375639",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783830800.375639",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783830800.375639",
+      "timestamp": "2026-07-12T04:33:20.375Z",
+      "detailBullets": [
+        "<@U09NHL5HMRN> この動画見たんですが、新感覚のラジオを聴いてるようでめちゃくちゃ新鮮で面白かったです:laughing: ざるさんの声、好きです。笑 話題は現場で直面する悩みや課題をしっかりえぐっていて、めちゃくちゃ勉強になるな、と感じました:bangbang: <https://youtu.be/hLpul9X5888?si=Q9LT5CyPRb5W-Zwx|https://youtu.be/hLpul9X5888?si=Q9LT5CyPRb5W-Zwx>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783830800.375639",
+          "text": "<@U09NHL5HMRN> この動画見たんですが、新感覚のラジオを聴いてるようでめちゃくちゃ新鮮で面白かったです:laughing: ざるさんの声、好きです。笑 話題は現場で直面する悩みや課題をしっかりえぐっていて、めちゃくちゃ勉強になるな、と感じました:bangbang: <https://youtu.be/hLpul9X5888?si=Q9LT5CyPRb5W-Zwx|https://youtu.be/hLpul9X5888?si=Q9LT5CyPRb5W-Zwx>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783830800.375639",
+          "threadTs": "1783766870.828819",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL5HMRN> この動画見たんですが、新感覚のラジオを聴いてるようでめちゃくちゃ新鮮で面白かったです:laughing: ざるさんの声、好きです。笑 話題は現場で直面する悩みや課題をしっかりえぐっていて、めちゃくちゃ勉強になるな、と感じました:bangbang: <https://youtu.be/hLpul9X5888?si=Q9LT5CyPRb5W-Zwx|https://youtu.be/hLpul9X5888?si=Q9LT5CyPRb5W-Zwx>\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783832850.623489",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783832850.623489",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783832850.623489",
+      "timestamp": "2026-07-12T05:07:30.623Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> トレンドの話だけじゃなくてエンジニアの現場の課題とかかなり細かくリアルな話もされるんで勉強になるんですよ！ ぜひ聴いてみてください！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783832850.623489",
+          "text": "<@U09MGUVJ8BV> トレンドの話だけじゃなくてエンジニアの現場の課題とかかなり細かくリアルな話もされるんで勉強になるんですよ！ ぜひ聴いてみてください！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783832850.623489",
+          "threadTs": "1783766870.828819",
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> トレンドの話だけじゃなくてエンジニアの現場の課題とかかなり細かくリアルな話もされるんで勉強になるんですよ！ ぜひ聴いてみてください！\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1783833040.148839",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09N28KTKL1:1783833040.148839",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1783833040.148839",
+      "timestamp": "2026-07-12T05:10:40.148Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> さすが田浦さん、早速聴いてくれてありがとうございます！ ざるさんの声良いですよね！ムーさんも知識量あるのに上手い感じに視聴者目線で聞き役になってくれてラジオとしての完成度がめちゃくちゃ高いんですよね！ そう！結構リアルな悩みを話してくれたりするんでかなりぶっ刺さります！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1783833040.148839",
+          "text": "<@U09MM9KS06S> さすが田浦さん、早速聴いてくれてありがとうございます！ ざるさんの声良いですよね！ムーさんも知識量あるのに上手い感じに視聴者目線で聞き役になってくれてラジオとしての完成度がめちゃくちゃ高いんですよね！ そう！結構リアルな悩みを話してくれたりするんでかなりぶっ刺さります！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1783833040.148839",
+          "threadTs": "1783766870.828819",
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> さすが田浦さん、早速聴いてくれてありがとうございます！ ざるさんの声良いですよね！ムーさんも知識量あるのに上手い感じに視聴者目線で聞き役になってくれてラジオとしての完成度がめちゃくちゃ高いんですよね！ そう！結構リアルな悩みを話してくれたりするんでかなりぶっ刺さります！\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1783897918.971309",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1783897918.971309",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1783897918.971309",
+      "timestamp": "2026-07-12T23:11:58.971Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-12_ 1. _Claude Fable 5有料プラン無料利用を7月19日まで再延長_ └ Anthropicが7月12日期限だったFable 5の有料プラン無料利用枠を7月19日23:59 PTまで再延長すると発表。Pro/Max/Team/Enterprise向けに週間利用量の最大50%まで追加費用なしで利用可能。期間終了後は入力$10/M・出力$50/Mの高額課金に移行予定。Claude Codeからも引き続き利用できる。 :link: <https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/|bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-un..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1783897918.971309",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-12_ 1. _Claude Fable 5有料プラン無料利用を7月19日まで再延長_ └ Anthropicが7月12日期限だったFable 5の有料プラン無料利用枠を7月19日23:59 PTまで再延長すると発表。Pro/Max/Team/Enterprise向けに週間利用量の最大50%まで追加費用なしで利用可能。期間終了後は入力$10/M・出力$50/Mの高額課金に移行予定。Claude Codeからも引き続き利用できる。 :link: <https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/|bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time> 2. _Claude Codeデスクトップに内蔵サンドボックスブラウザが追加_ └ Claude Codeデスクトップアプリに、Chromeを開かず直接Webを操作できる内蔵ブラウザが追加（Cmd+Shift+B / Ctrl+Shift+Bで起動）。ドキュメント・デザイン・任意のサイトをAIがクリック・テキスト読取...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1783897918.971309",
+          "threadTs": "1783897918.971309",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-12_ 1. _Claude Fable 5有料プラン無料利用を7月19日まで再延長_ └ Anthropicが7月12日期限だったFable 5の有料プラン無料利用枠を7月19日23:59 PTまで再延長すると発表。Pro/Max/Team/Enterprise向けに週間利用量の最大50%まで追加費用なしで利用可能。期間終了後は入力$10/M・出力$50/Mの高額課金に移行予定。Claude Codeからも引き続き利用できる。 :link: <https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/|bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time> 2. _Claude Codeデスクトップに内蔵サンドボックスブラウザが追加_ └ Claude Codeデスクトップアプリに、Chromeを開かず直接Webを操作できる内蔵ブラウザが追加（Cmd+Shift+B / Ctrl+Shift+Bで起動）。ドキュメント・デザイン・任意のサイトをAIがクリック・テキスト読取り可能で、ローカルdevサーバーと同じ感覚で操作できる。個人の認証情報や閲覧履歴から完全分離した専用プロファイルで動作し安全性も確保。 :link: <https://9to5mac.com/2026/07/10/anthropic-highlights-claude-codes-in-app-browser-on-the-desktop/|9to5mac.com/2026/07/10/anthropic-highlights-claude-codes-in-app-browser-on-the-desktop> 3. _ZCodeがサブエージェント・bashバックグラウンドタスク機能を追加（7/11更新）_ └ Z.AI製AIコーディングツール「ZCode」がアップデート。サブエージェントとbashコマンドをバックグラウンドで非同期実行する機能を搭載し、長時間タスクをUIをブロックせず実行可能に。SSH環境でのローカルプラグイン同期・マーケットプレイス連携も追加。Markdownテーブルの横スクロール対応・大画面でのチャット表示領域拡大など開発者体験も改善。 :link: <http...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1783901462.212929",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1783901462.212929",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1783901462.212929",
+      "timestamp": "2026-07-13T00:11:02.212Z",
+      "detailBullets": [
+        "1について、Fable漬けの人をもっと増やしてから有料化する戦略ですかね。それか、想定よりFableユーザーが増えていないか。一つ下のモデルでも便利すぎるぐらいなので。 4について、400名以上の実質引き抜きは、流石に黙っていないでしょうね。。パートナーシップも結んでたということですが、決裂も覚悟だった感じですかね。こんなの巨人Apple相手だと提訴されるに決まってるので"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1783901462.212929",
+          "text": "1について、Fable漬けの人をもっと増やしてから有料化する戦略ですかね。それか、想定よりFableユーザーが増えていないか。一つ下のモデルでも便利すぎるぐらいなので。 4について、400名以上の実質引き抜きは、流石に黙っていないでしょうね。。パートナーシップも結んでたということですが、決裂も覚悟だった感じですかね。こんなの巨人Apple相手だと提訴されるに決まってるので",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1783901462.212929",
+          "threadTs": "1783897918.971309",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "1について、Fable漬けの人をもっと増やしてから有料化する戦略ですかね。それか、想定よりFableユーザーが増えていないか。一つ下のモデルでも便利すぎるぐらいなので。 4について、400名以上の実質引き抜きは、流石に黙っていないでしょうね。。パートナーシップも結んでたということですが、決裂も覚悟だった感じですかね。こんなの巨人Apple相手だと提訴されるに決まってるので\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1783904671.308759",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1783904671.308759",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1783904671.308759",
+      "timestamp": "2026-07-13T01:04:31.308Z",
+      "detailBullets": [
+        "上記の私のコメント、Claudeに評価させた結果。 「訴訟はコストとして計算済みだったのかもしれません」は良い表現だと思いました。訴訟コストより、パートナーシップ決裂のコストより、400人の採用を選んだ可能性。 &gt; Fable 5の件、鋭いですね。無料枠を2週間延長するのはよくある「有料化前の解約防止」施策で、通常は移行率が想定より低いときに打つ手なので、下位モデルでも十分すぎるという戸塚さんの感覚は的を射てると思います。入力$10/M・出力$50/Mは相当強気な価格なので、実際に払うユーザーがどれだけ残るかは見ものですね。 &gt; Apple対OpenAIの件も、400名超という規模とパートナーシップ決裂という組み合わせは、OpenAI側もリスクは織り込み済みだったはずです。ハードウェア領域でAppleの技術者を大量に取り込んだ以上、訴訟は「コスト」として計算済みだったのかもしれません。 &gt; この2つ、Saitekiの事業（M&amp;A・SES）に絡める論点は特になさそうですが、何か関連して考えたいことがあれば教えてください。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1783904671.308759",
+          "text": "上記の私のコメント、Claudeに評価させた結果。 「訴訟はコストとして計算済みだったのかもしれません」は良い表現だと思いました。訴訟コストより、パートナーシップ決裂のコストより、400人の採用を選んだ可能性。 &gt; Fable 5の件、鋭いですね。無料枠を2週間延長するのはよくある「有料化前の解約防止」施策で、通常は移行率が想定より低いときに打つ手なので、下位モデルでも十分すぎるという戸塚さんの感覚は的を射てると思います。入力$10/M・出力$50/Mは相当強気な価格なので、実際に払うユーザーがどれだけ残るかは見ものですね。 &gt; Apple対OpenAIの件も、400名超という規模とパートナーシップ決裂という組み合わせは、OpenAI側もリスクは織り込み済みだったはずです。ハードウェア領域でAppleの技術者を大量に取り込んだ以上、訴訟は「コスト」として計算済みだったのかもしれません。 &gt; この2つ、Saitekiの事業（M&amp;A・SES）に絡める論点は特になさそうですが、何か関連して考えたいことがあれば教えてください。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1783904671.308759",
+          "threadTs": "1783897918.971309",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "上記の私のコメント、Claudeに評価させた結果。 「訴訟はコストとして計算済みだったのかもしれません」は良い表現だと思いました。訴訟コストより、パートナーシップ決裂のコストより、400人の採用を選んだ可能性。 &gt; Fable 5の件、鋭いですね。無料枠を2週間延長するのはよくある「有料化前の解約防止」施策で、通常は移行率が想定より低いときに打つ手なので、下位モデルでも十分すぎるという戸塚さんの感覚は的を射てると思います。入力$10/M・出力$50/Mは相当強気な価格なので、実際に払うユーザーがどれだけ残るかは見ものですね。 &gt; Apple対OpenAIの件も、400名超という規模とパートナーシップ決裂という組み合わせは、OpenAI側もリスクは織り込み済みだったはずです。ハードウェア領域でAppleの技術者を大量に取り込んだ以上、訴訟は「コスト」として計算済みだったのかもしれません。 &gt; この2つ、Saitekiの事業（M&amp;A・SES）に絡める論点は特になさそうですが、何か関連して考えたいことがあれば教えてください。\nai駆動開発ネタ\n経営"
     }
   ]
 }
