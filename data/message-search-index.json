@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-13T03:29:52.280Z",
+  "generatedAt": "2026-07-14T02:52:12.813Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -59915,6 +59915,76 @@
         }
       ],
       "searchText": "上記の私のコメント、Claudeに評価させた結果。 「訴訟はコストとして計算済みだったのかもしれません」は良い表現だと思いました。訴訟コストより、パートナーシップ決裂のコストより、400人の採用を選んだ可能性。 &gt; Fable 5の件、鋭いですね。無料枠を2週間延長するのはよくある「有料化前の解約防止」施策で、通常は移行率が想定より低いときに打つ手なので、下位モデルでも十分すぎるという戸塚さんの感覚は的を射てると思います。入力$10/M・出力$50/Mは相当強気な価格なので、実際に払うユーザーがどれだけ残るかは見ものですね。 &gt; Apple対OpenAIの件も、400名超という規模とパートナーシップ決裂という組み合わせは、OpenAI側もリスクは織り込み済みだったはずです。ハードウェア領域でAppleの技術者を大量に取り込んだ以上、訴訟は「コスト」として計算済みだったのかもしれません。 &gt; この2つ、Saitekiの事業（M&amp;A・SES）に絡める論点は特になさそうですが、何か関連して考えたいことがあれば教えてください。\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1783984132.493729",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1783984132.493729",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1783984132.493729",
+      "timestamp": "2026-07-13T23:08:52.493Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-13_ 1. _GitHub Copilot 週次ラウンドアップ（7/13号）：BYOK・マルチモデル・エンタープライズガバナンス整備_ └ CopilotデスクトップアプリがFree含む全プランに展開し、BYOK（Bring Your Own Key）対応が追加。モデルピッカーに初のオープンウェイトモデル「Kimi K2.7 Code」とGPT-5.6バリアントが選択可能に。エンタープライズ向けにはMDMによる設定管理、OpenTelemetryエクスポート、エージェント向け予算管理UIの改善が行われ、AIコーディングエージェントの大規模運用体制が整備された。 :link: <https://tech.hub.ms/github-copilot/roundups/weekly-github-copilot-roundup-2026-07-13|tech.hub.ms/github-copilot/roundups/weekly-github-copilot-roundup-2026-07-13> 2. _WeAr..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1783984132.493729",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-13_ 1. _GitHub Copilot 週次ラウンドアップ（7/13号）：BYOK・マルチモデル・エンタープライズガバナンス整備_ └ CopilotデスクトップアプリがFree含む全プランに展開し、BYOK（Bring Your Own Key）対応が追加。モデルピッカーに初のオープンウェイトモデル「Kimi K2.7 Code」とGPT-5.6バリアントが選択可能に。エンタープライズ向けにはMDMによる設定管理、OpenTelemetryエクスポート、エージェント向け予算管理UIの改善が行われ、AIコーディングエージェントの大規模運用体制が整備された。 :link: <https://tech.hub.ms/github-copilot/roundups/weekly-github-copilot-roundup-2026-07-13|tech.hub.ms/github-copilot/roundups/weekly-github-copilot-roundup-2026-07-13> 2. _WeAreDevelopers World Congress 2026：15,000名の開発者が語る「AIは本番フェーズへ移行」_ └ 7月8〜10日に開催された世界最大の開発者カンファレンス（参加者15,000名以上）のレポートが本日公開。「AIが使えるか」ではなく「どう使いこなすか」に議論が移行しており、ソフトウェア設計・構築・セキュリティ・運用のすべてでAI活用が標準化されつつある。試験的なパイロッ...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1783984132.493729",
+          "threadTs": "1783984132.493729",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-13_ 1. _GitHub Copilot 週次ラウンドアップ（7/13号）：BYOK・マルチモデル・エンタープライズガバナンス整備_ └ CopilotデスクトップアプリがFree含む全プランに展開し、BYOK（Bring Your Own Key）対応が追加。モデルピッカーに初のオープンウェイトモデル「Kimi K2.7 Code」とGPT-5.6バリアントが選択可能に。エンタープライズ向けにはMDMによる設定管理、OpenTelemetryエクスポート、エージェント向け予算管理UIの改善が行われ、AIコーディングエージェントの大規模運用体制が整備された。 :link: <https://tech.hub.ms/github-copilot/roundups/weekly-github-copilot-roundup-2026-07-13|tech.hub.ms/github-copilot/roundups/weekly-github-copilot-roundup-2026-07-13> 2. _WeAreDevelopers World Congress 2026：15,000名の開発者が語る「AIは本番フェーズへ移行」_ └ 7月8〜10日に開催された世界最大の開発者カンファレンス（参加者15,000名以上）のレポートが本日公開。「AIが使えるか」ではなく「どう使いこなすか」に議論が移行しており、ソフトウェア設計・構築・セキュリティ・運用のすべてでAI活用が標準化されつつある。試験的なパイロット導入から本番実装への転換点として2026年が位置づけられている。 :link: <https://www.manilatimes.net/2026/07/13/tmt-newswire/globenewswire/ai-moves-from-pilots-to-production-at-the-worlds-largest-developer-event/2383486|manilatimes.net/2026/…/2383486> 3. _【2026-07-13】世界のAI最新ニュース：エージェント・音声AI・規制・インフラが運用段階へ（<http://eguweb.jp|eguweb.jp>）_ └ 本日の世界AI最新動向を日本語でまとめた速報。コーディングエージェント、音声AI、AI活用Webサービス、各国規制対応、インフラ整備がいずれも実証実験段階を超え実用フェーズへ。AIが「試すもの」から「運用するもの」に変わる転換点として、開発者が今すぐ対応すべきポイントを解説。 :link: <https://eguweb.jp/ai/81186/|eguweb.jp/ai/8118...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1783989636.162289",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1783989636.162289",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1783989636.162289",
+      "timestamp": "2026-07-14T00:40:36.162Z",
+      "detailBullets": [
+        "2、3 「AIが使えるかどうか」や「使えるか試す」というフェーズから、「どう使いこなすか」「運用するもの」に変わっている。 もはやグローバルには「使えるのは当たり前」になりつつある状況。日本も必ずその流れに追いついてくるため、いまAIツールを触れるだけ触っておくのは、正解だと思う。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1783989636.162289",
+          "text": "2、3 「AIが使えるかどうか」や「使えるか試す」というフェーズから、「どう使いこなすか」「運用するもの」に変わっている。 もはやグローバルには「使えるのは当たり前」になりつつある状況。日本も必ずその流れに追いついてくるため、いまAIツールを触れるだけ触っておくのは、正解だと思う。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1783989636.162289",
+          "threadTs": "1783984132.493729",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "2、3 「AIが使えるかどうか」や「使えるか試す」というフェーズから、「どう使いこなすか」「運用するもの」に変わっている。 もはやグローバルには「使えるのは当たり前」になりつつある状況。日本も必ずその流れに追いついてくるため、いまAIツールを触れるだけ触っておくのは、正解だと思う。\nai駆動開発ネタ\n経営"
     }
   ]
 }

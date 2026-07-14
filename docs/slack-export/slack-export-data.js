@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-13T03:30:00.495Z",
+  "generatedAt": "2026-07-14T02:52:15.679Z",
   "channelCount": 9,
-  "totalMessages": 1968,
+  "totalMessages": 1970,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -35068,11 +35068,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1783984132.493729",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-13_ 1. _GitHub Copilot 週次ラウンドアップ（7/13号）：BYOK・マルチモデル・エンタープライズガバナンス整備_ └ CopilotデスクトップアプリがFree含む全プランに展開し、BYOK（Bring Your Own Key）対応が追加。モデルピッカーに初のオープンウェイトモデル「Kimi K2.7 Code」とGPT-5.6バリアントが選択可能に。エンタープライズ向けにはMDMによる設定管理、OpenTelemetryエクスポート、エージェント向け予算管理UIの改善が行われ、AIコーディングエージェントの大規模運用体制が整備された。 :link: <https://tech.hub.ms/github-copilot/roundups/weekly-github-copilot-roundup-2026-07-13|tech.hub.ms/github-copilot/roundups/weekly-github-copilot-roundup-2026-07-13> 2. _WeAreDevelopers World Congress 2026：15,000名の開発者が語る「AIは本番フェーズへ移行」_ └ 7月8〜10日に開催された世界最大の開発者カンファレンス（参加者15,000名以上）のレポートが本日公開。「AIが使えるか」ではなく「どう使いこなすか」に議論が移行しており、ソフトウェア設計・構築・セキュリティ・運用のすべてでAI活用が標準化されつつある。試験的なパイロット導入から本番実装への転換点として2026年が位置づけられている。 :link: <https://www.manilatimes.net/2026/07/13/tmt-newswire/globenewswire/ai-moves-from-pilots-to-production-at-the-worlds-largest-developer-event/2383486|manilatimes.net/2026/…/2383486> 3. _【2026-07-13】世界のAI最新ニュース：エージェント・音声AI・規制・インフラが運用段階へ（<http://eguweb.jp|eguweb.jp>）_ └ 本日の世界AI最新動向を日本語でまとめた速報。コーディングエージェント、音声AI、AI活用Webサービス、各国規制対応、インフラ整備がいずれも実証実験段階を超え実用フェーズへ。AIが「試すもの」から「運用するもの」に変わる転換点として、開発者が今すぐ対応すべきポイントを解説。 :link: <https://eguweb.jp/ai/81186/|eguweb.jp/ai/81186> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-13_\n\n1. _GitHub Copilot 週次ラウンドアップ（7/13号）：BYOK・マルチモデル・エンタープライズガバナンス整備_\n└ CopilotデスクトップアプリがFree含む全プランに展開し、BYOK（Bring Your Own Key）対応が追加。モデルピッカーに初のオープンウェイトモデル「Kimi K2.7 Code」とGPT-5.6バリアントが選択可能に。エンタープライズ向けにはMDMによる設定管理、OpenTelemetryエクスポート、エージェント向け予算管理UIの改善が行われ、AIコーディングエージェントの大規模運用体制が整備された。\n:link: <https://tech.hub.ms/github-copilot/roundups/weekly-github-copilot-roundup-2026-07-13|tech.hub.ms/github-copilot/roundups/weekly-github-copilot-roundup-2026-07-13>\n2. _WeAreDevelopers World Congress 2026：15,000名の開発者が語る「AIは本番フェーズへ移行」_\n└ 7月8〜10日に開催された世界最大の開発者カンファレンス（参加者15,000名以上）のレポートが本日公開。「AIが使えるか」ではなく「どう使いこなすか」に議論が移行しており、ソフトウェア設計・構築・セキュリティ・運用のすべてでAI活用が標準化されつつある。試験的なパイロット導入から本番実装への転換点として2026年が位置づけられている。\n:link: <https://www.manilatimes.net/2026/07/13/tmt-newswire/globenewswire/ai-moves-from-pilots-to-production-at-the-worlds-largest-developer-event/2383486|manilatimes.net/2026/…/2383486>\n3. _【2026-07-13】世界のAI最新ニュース：エージェント・音声AI・規制・インフラが運用段階へ（<http://eguweb.jp|eguweb.jp>）_\n└ 本日の世界AI最新動向を日本語でまとめた速報。コーディングエージェント、音声AI、AI活用Webサービス、各国規制対応、インフラ整備がいずれも実証実験段階を超え実用フェーズへ。AIが「試すもの」から「運用するもの」に変わる転換点として、開発者が今すぐ対応すべきポイントを解説。\n:link: <https://eguweb.jp/ai/81186/|eguweb.jp/ai/81186> *使用して送信されました* Claude",
+          "messageTs": "1783984132.493729",
+          "threadTs": "1783984132.493729",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-13",
+          "timestamp": "2026-07-13T23:08:52.493Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1783989636.162289",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "2、3 「AIが使えるかどうか」や「使えるか試す」というフェーズから、「どう使いこなすか」「運用するもの」に変わっている。 もはやグローバルには「使えるのは当たり前」になりつつある状況。日本も必ずその流れに追いついてくるため、いまAIツールを触れるだけ触っておくのは、正解だと思う。",
+          "rawText": "2、3\n「AIが使えるかどうか」や「使えるか試す」というフェーズから、「どう使いこなすか」「運用するもの」に変わっている。\n\nもはやグローバルには「使えるのは当たり前」になりつつある状況。日本も必ずその流れに追いついてくるため、いまAIツールを触れるだけ触っておくのは、正解だと思う。",
+          "messageTs": "1783989636.162289",
+          "threadTs": "1783984132.493729",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-07-14",
+          "timestamp": "2026-07-14T00:40:36.162Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 187,
+      "messageCount": 189,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-07-13"
+      "lastDate": "2026-07-14"
     },
     {
       "id": "C09Q1KNL2P8",
