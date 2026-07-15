@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-14T02:52:15.679Z",
+  "generatedAt": "2026-07-15T02:50:30.326Z",
   "channelCount": 9,
-  "totalMessages": 1970,
+  "totalMessages": 1974,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -18188,11 +18188,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1784010424.082619",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<@U0B40MREQM6> さん :birthday:Happy Birthday:birthday: お誕生日おめでとうございます！ 良い一年になりますように:sparkles:",
+          "rawText": "<@U0B40MREQM6> さん\n:birthday:Happy Birthday:birthday:\nお誕生日おめでとうございます！\n良い一年になりますように:sparkles:",
+          "messageTs": "1784010424.082619",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-14",
+          "timestamp": "2026-07-14T06:27:04.082Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 948,
+      "messageCount": 949,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-07-12"
+      "lastDate": "2026-07-14"
     },
     {
       "id": "C09Q46YA4ER",
@@ -35108,11 +35128,71 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1784023079.393209",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U0A7VHB07J4",
+          "userName": "小松田 真伍",
+          "userRealName": "小松田 真伍",
+          "text": "上記あたりの話もai-playgroundないし もっと広域で討論会というよりお茶会的なのしてみたいですね:relaxed: エンジニアの開発フローとして運用はどうあるべきか？ チームとして全体を見ての運用はどうあるべきか？ など プライベート...は、まだ早いかもなので まずは自身の業務の従事領域に近いところだけでも",
+          "rawText": "上記あたりの話もai-playgroundないし\nもっと広域で討論会というよりお茶会的なのしてみたいですね:relaxed:\n\nエンジニアの開発フローとして運用はどうあるべきか？\nチームとして全体を見ての運用はどうあるべきか？\nなど\n\nプライベート...は、まだ早いかもなので\nまずは自身の業務の従事領域に近いところだけでも",
+          "messageTs": "1784023079.393209",
+          "threadTs": "1783984132.493729",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-07-14",
+          "timestamp": "2026-07-14T09:57:59.393Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1784070488.181899",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-14_ 1. _GitHub Copilot アプリにセキュリティレビュー機能が追加（パブリックプレビュー）_ └ `/security-review` コマンドがパブリックプレビューで提供開始。現在の作業変更を分析し、インジェクション・XSS・安全でないデータ処理・パストラバーサル・弱い暗号化などの脆弱性を重大度とスコアで報告。Copilot Free/Pro/Business/Enterprise 全プランで利用可能。 :link: <https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app/|github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app> 2. _Claude Code 7/14 アップデート：スクリーンリーダーモード・Vim設定強化ほか_ └ スクリーンリーダー向けプレーンテキスト描画モードを追加（`--ax-screen-reader` フラグまたは `CLAUDE_AX_SCREEN_READER=1` で有効化）。Vim インサートモードで `jj → Esc` 等の2キーシーケンスマップが設定可能に。企業向けランチャーサポート用 `CLAUDE_CODE_PROCESS_WRAPPER` も新設。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 3. _Claude AI が大規模障害（7/14 火曜日）— 2,000件超の報告_ └ 日本時間7/15未明（米PT午後2時40分）時点で2,000件以上の障害報告。<http://claude.ai|claude.ai>・Cowork Remote・Claude Code Remote・Claude Design に影響。公式ステータスページが障害を確認。利用中のチームは状況を要確認。 :link: <https://gvwire.com/2026/07/14/claude-ai-goes-down-for-thousands-tuesday-downdetector-reports/|gvwire.com/2026/07/14/claude-ai-goes-down-for-thousands-tuesday-downdetector-reports> 4. _Claude Code の「隠しトラッカー」問題 — Anthropic は「実験」と説明_ └ Claude Code に隠しトラッカーが含まれていたことが発覚し、セキュリティ研究者が指摘。Anthropic は「実験的な機能だった」と説明したが、先週の中国MIITによるバックドア警告（v2.1.91〜2.1.196）に続き、企業導入における信頼性への懸念が続く状況。 :link: <https://www.malwarebytes.com/blog/news/2026/07/claude-codes-hidden-tracker-was-an-experiment-says-anthropic|malwarebytes.com/blog/…/claude-codes-hidden-tracker-was-an-experiment-says-anthropic> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-14_\n\n1. _GitHub Copilot アプリにセキュリティレビュー機能が追加（パブリックプレビュー）_\n└ `/security-review` コマンドがパブリックプレビューで提供開始。現在の作業変更を分析し、インジェクション・XSS・安全でないデータ処理・パストラバーサル・弱い暗号化などの脆弱性を重大度とスコアで報告。Copilot Free/Pro/Business/Enterprise 全プランで利用可能。\n:link: <https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app/|github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app>\n2. _Claude Code 7/14 アップデート：スクリーンリーダーモード・Vim設定強化ほか_\n└ スクリーンリーダー向けプレーンテキスト描画モードを追加（`--ax-screen-reader` フラグまたは `CLAUDE_AX_SCREEN_READER=1` で有効化）。Vim インサートモードで `jj → Esc` 等の2キーシーケンスマップが設定可能に。企業向けランチャーサポート用 `CLAUDE_CODE_PROCESS_WRAPPER` も新設。\n:link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code>\n3. _Claude AI が大規模障害（7/14 火曜日）— 2,000件超の報告_\n└ 日本時間7/15未明（米PT午後2時40分）時点で2,000件以上の障害報告。<http://claude.ai|claude.ai>・Cowork Remote・Claude Code Remote・Claude Design に影響。公式ステータスページが障害を確認。利用中のチームは状況を要確認。\n:link: <https://gvwire.com/2026/07/14/claude-ai-goes-down-for-thousands-tuesday-downdetector-reports/|gvwire.com/2026/07/14/claude-ai-goes-down-for-thousands-tuesday-downdetector-reports>\n4. _Claude Code の「隠しトラッカー」問題 — Anthropic は「実験」と説明_\n└ Claude Code に隠しトラッカーが含まれていたことが発覚し、セキュリティ研究者が指摘。Anthropic は「実験的な機能だった」と説明したが、先週の中国MIITによるバックドア警告（v2.1.91〜2.1.196）に続き、企業導入における信頼性への懸念が続く状況。\n:link: <https://www.malwarebytes.com/blog/news/2026/07/claude-codes-hidden-tracker-was-an-experiment-says-anthropic|malwarebytes.com/blog/…/claude-codes-hidden-tracker-was-an-experiment-says-anthropic> *使用して送信されました* Claude",
+          "messageTs": "1784070488.181899",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-14",
+          "timestamp": "2026-07-14T23:08:08.181Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1784076157.418769",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<@U0A7VHB07J4> そうすね！どうなるかは誰にもわからないわけですが、どちらにもポジションを取れるように情報は追っておき、議論を深めておくべきだと思っています。その情報をとるネットワークは広いほど良いと思っているので、討論会的にラフに話してみるのは賛成です！",
+          "rawText": "<@U0A7VHB07J4>\nそうすね！どうなるかは誰にもわからないわけですが、どちらにもポジションを取れるように情報は追っておき、議論を深めておくべきだと思っています。その情報をとるネットワークは広いほど良いと思っているので、討論会的にラフに話してみるのは賛成です！",
+          "messageTs": "1784076157.418769",
+          "threadTs": "1783984132.493729",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-07-15",
+          "timestamp": "2026-07-15T00:42:37.418Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 189,
+      "messageCount": 192,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-07-14"
+      "lastDate": "2026-07-15"
     },
     {
       "id": "C09Q1KNL2P8",
