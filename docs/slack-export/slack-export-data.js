@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-15T02:50:30.326Z",
+  "generatedAt": "2026-07-16T02:57:03.725Z",
   "channelCount": 9,
-  "totalMessages": 1974,
+  "totalMessages": 1976,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -35188,9 +35188,49 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1784084862.423739",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U0A7VHB07J4",
+          "userName": "小松田 真伍",
+          "userRealName": "小松田 真伍",
+          "text": "<@U09MGUVJ8BV> ありがとうございます:raised_hands::sparkles: テーマ組んでみて まずはplaygroundからやっていくのはいいかもですね:blush:",
+          "rawText": "<@U09MGUVJ8BV> \nありがとうございます:raised_hands::sparkles:\n\nテーマ組んでみて\nまずはplaygroundからやっていくのはいいかもですね:blush:",
+          "messageTs": "1784084862.423739",
+          "threadTs": "1783984132.493729",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-07-15",
+          "timestamp": "2026-07-15T03:07:42.423Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1784156905.219779",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-15_ 1. _Claude Code v2.1.210 リリース：ログイン期限切れ警告・マニュアルモードバッジなど多数の改善_ └ ログインセッション期限切れ前に警告を表示する機能を追加。手動パーミッションモード時のフッターに「:double_vertical_bar:」バッジを表示するUIも導入。macOS・Windows・ワークツリー環境での複数バグを修正し、ストリーミング応答速度の改善と起動時メモリ使用量の削減も含まれる。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Copilot CLI、プランモードのエージェントループホールを修正_ └ GitHub Copilot CLIの最新アップデートで、プランモード実行中にLLMのドリフトによりファイル編集が発生する問題をランタイムレイヤーで完全ブロック。これまではプランニングセッション中でも意図せずファイル変更が起きうるリスクがあったが、今回の修正でエージェントの計画フェーズと実行フェーズが明確に分離された。 :link: <https://www.techtimes.com/articles/320560/20260715/github-copilot-cli-closes-agentic-loophole-plan-mode-can-no-longer-edit-your-files.htm|techtimes.com/articles/320560/20260715/github-copilot-cli-closes-agentic-loophole-plan-mode-can-no-longer-edit-your…> 3. _日本IBMがエンタープライズ向けAI駆動開発ソリューション「ALSEA」を正式発表_ └ IBMジャパンが「AI Lifecycle Shared Engineering Artifacts（ALSEA：アルシア）」を正式リリース。AIがシステム開発の知識・ルールを活用できる形に体系化し、企業ごとの開発標準に合わせたAI駆動開発の実装・定着を支援。2026年4月から80社以上で事前検証を実施済みで、年内100件のプロジェクト適用を目指す。 :link: <https://enterprisezine.jp/news/detail/24697|enterprisezine.jp/news/detail/24697> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-15_\n\n1. _Claude Code v2.1.210 リリース：ログイン期限切れ警告・マニュアルモードバッジなど多数の改善_\n└ ログインセッション期限切れ前に警告を表示する機能を追加。手動パーミッションモード時のフッターに「:double_vertical_bar:」バッジを表示するUIも導入。macOS・Windows・ワークツリー環境での複数バグを修正し、ストリーミング応答速度の改善と起動時メモリ使用量の削減も含まれる。\n:link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog>\n2. _GitHub Copilot CLI、プランモードのエージェントループホールを修正_\n└ GitHub Copilot CLIの最新アップデートで、プランモード実行中にLLMのドリフトによりファイル編集が発生する問題をランタイムレイヤーで完全ブロック。これまではプランニングセッション中でも意図せずファイル変更が起きうるリスクがあったが、今回の修正でエージェントの計画フェーズと実行フェーズが明確に分離された。\n:link: <https://www.techtimes.com/articles/320560/20260715/github-copilot-cli-closes-agentic-loophole-plan-mode-can-no-longer-edit-your-files.htm|techtimes.com/articles/320560/20260715/github-copilot-cli-closes-agentic-loophole-plan-mode-can-no-longer-edit-your…>\n3. _日本IBMがエンタープライズ向けAI駆動開発ソリューション「ALSEA」を正式発表_\n└ IBMジャパンが「AI Lifecycle Shared Engineering Artifacts（ALSEA：アルシア）」を正式リリース。AIがシステム開発の知識・ルールを活用できる形に体系化し、企業ごとの開発標準に合わせたAI駆動開発の実装・定着を支援。2026年4月から80社以上で事前検証を実施済みで、年内100件のプロジェクト適用を目指す。\n:link: <https://enterprisezine.jp/news/detail/24697|enterprisezine.jp/news/detail/24697> *使用して送信されました* Claude",
+          "messageTs": "1784156905.219779",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-15",
+          "timestamp": "2026-07-15T23:08:25.219Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 192,
+      "messageCount": 194,
       "firstDate": "2025-10-31",
       "lastDate": "2026-07-15"
     },
