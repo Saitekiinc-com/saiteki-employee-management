@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-16T02:57:00.920Z",
+  "generatedAt": "2026-07-17T03:14:15.083Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -60194,6 +60194,109 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-15_ 1. _Claude Code v2.1.210 リリース：ログイン期限切れ警告・マニュアルモードバッジなど多数の改善_ └ ログインセッション期限切れ前に警告を表示する機能を追加。手動パーミッションモード時のフッターに「:double_vertical_bar:」バッジを表示するUIも導入。macOS・Windows・ワークツリー環境での複数バグを修正し、ストリーミング応答速度の改善と起動時メモリ使用量の削減も含まれる。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Copilot CLI、プランモードのエージェントループホールを修正_ └ GitHub Copilot CLIの最新アップデートで、プランモード実行中にLLMのドリフトによりファイル編集が発生する問題をランタイムレイヤーで完全ブロック。これまではプランニングセッション中でも意図せずファイル変更が起きうるリスクがあったが、今回の修正でエージェントの計画フェーズと実行フェーズが明確に分離された。 :link: <https://www.techtimes.com/articles/320560/20260715/github-copilot-cli-closes-agentic-loophole-plan-mode-can-no-longer-edit-your-files.htm|techtimes.com/articles/320560/20260715/github-copilot-cli-closes-agentic-loophole-plan-mode-can-no-longer-edit-your…> 3. _日本IBMがエンタープライズ向けAI駆動開発ソリューション「ALSEA」を正式発表_ └ IBMジャパンが「AI Lifecycle Shared Engineering Artifacts（ALSEA：アルシア）」を正式リリース。AIがシステム開発の知識・ルールを活用できる形に体系化し、企業ごとの開発標準に合わせたAI駆動開発の実装・定着を支援。2026年4月から80社以上で事前検証を実施済みで、年内100件のプロジェクト適用を目指す。 :link: <https://enterprisezine.jp/news/detail/24697|enterprisezine.jp/news/detail/24697> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1784176967.917999",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1784176967.917999",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1784176967.917999",
+      "timestamp": "2026-07-16T04:42:47.917Z",
+      "detailBullets": [
+        "<!channel> 各位 お疲れ様です。総務の藤井です。 本日は、毎月の勤怠報告方法の変更についてお知らせいたします:mega: :point_right: *自社用勤怠管理表の作成* 時間単位年休、そして、有給分配付与が開始されたことから、 勤怠集計の管理漏れを防ぐため、常駐先勤務表とは別に、自社勤怠管理表も毎月提出してもらう事となりました。 【添付内容】 ・(プロパー用)勤怠管理表_name_yyyymm_ver.20260715.xlsx :memo: ・自社勤怠管理表の書き方.pdf :book: ・勤怠管理表提出ステップ.pdf :person_running_facing_right: 【使用用途】 ・ご自身の給与計算の為に、Saitekiへ提出する勤怠管理表です。 ・お休みをした日は、休暇区分から休暇の種類を選んでください。 ・休暇は別途「有給・特休申請シート」を提出してください。 常駐先から指示されている勤務表は、継続して対応してください。 「常駐先勤務表」はお客様とSaitekiの間で請求に使います。 「自社勤怠管理表」はSaitekiとご自身の間で給与計算の為に..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1784176967.917999",
+          "text": "<!channel> 各位 お疲れ様です。総務の藤井です。 本日は、毎月の勤怠報告方法の変更についてお知らせいたします:mega: :point_right: *自社用勤怠管理表の作成* 時間単位年休、そして、有給分配付与が開始されたことから、 勤怠集計の管理漏れを防ぐため、常駐先勤務表とは別に、自社勤怠管理表も毎月提出してもらう事となりました。 【添付内容】 ・(プロパー用)勤怠管理表_name_yyyymm_ver.20260715.xlsx :memo: ・自社勤怠管理表の書き方.pdf :book: ・勤怠管理表提出ステップ.pdf :person_running_facing_right: 【使用用途】 ・ご自身の給与計算の為に、Saitekiへ提出する勤怠管理表です。 ・お休みをした日は、休暇区分から休暇の種類を選んでください。 ・休暇は別途「有給・特休申請シート」を提出してください。 常駐先から指示されている勤務表は、継続して対応してください。 「常駐先勤務表」はお客様とSaitekiの間で請求に使います。 「自社勤怠管理表」はSaitekiとご自身の間で給与計算の為に使います。 お手数をおかけいたしますが、勤怠管理の改定にご協力をお願いいたします。 常駐先に勤務表フォーマットが無く、既に自社フォーマットを使っている方も、 添付のフォーマットへ更新をお願いします:woman-bowing: 添付の説明書で分からないことは、「99_お名前」のチャンネルでご連絡ください:pray:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1784176967.917999",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> 各位 お疲れ様です。総務の藤井です。 本日は、毎月の勤怠報告方法の変更についてお知らせいたします:mega: :point_right: *自社用勤怠管理表の作成* 時間単位年休、そして、有給分配付与が開始されたことから、 勤怠集計の管理漏れを防ぐため、常駐先勤務表とは別に、自社勤怠管理表も毎月提出してもらう事となりました。 【添付内容】 ・(プロパー用)勤怠管理表_name_yyyymm_ver.20260715.xlsx :memo: ・自社勤怠管理表の書き方.pdf :book: ・勤怠管理表提出ステップ.pdf :person_running_facing_right: 【使用用途】 ・ご自身の給与計算の為に、Saitekiへ提出する勤怠管理表です。 ・お休みをした日は、休暇区分から休暇の種類を選んでください。 ・休暇は別途「有給・特休申請シート」を提出してください。 常駐先から指示されている勤務表は、継続して対応してください。 「常駐先勤務表」はお客様とSaitekiの間で請求に使います。 「自社勤怠管理表」はSaitekiとご自身の間で給与計算の為に使います。 お手数をおかけいたしますが、勤怠管理の改定にご協力をお願いいたします。 常駐先に勤務表フォーマットが無く、既に自社フォーマットを使っている方も、 添付のフォーマットへ更新をお願いします:woman-bowing: 添付の説明書で分からないことは、「99_お名前」のチャンネルでご連絡ください:pray:\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1784192185.127709",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:澤田　真太郎",
+      "personName": "澤田 真太郎",
+      "slackIds": [
+        "U0BHU85SV8U"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1784192185.127709",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1784192185.127709",
+      "timestamp": "2026-07-16T08:56:25.127Z",
+      "detailBullets": [
+        "はじめまして。 9月入社予定の澤田 真太郎（さわだ しんたろう）と申します。 ■出身地 青森県出身、高校卒業後は東京で10年ほど暮らし、現在は宮城県に住んでいます ■これまでやってきたこと WEBディレクター：ECサイトの運営代行業務等を3年 WEBエンジニア：多業種の上流〜下流を約10年 ■趣味 ジム、草野球、ドライブ、スポーツゲーム ■休日の過ごし方 趣味をして過ごしたり、8時間野球の素振りをしたり、飼い猫と戯れたり:black_cat: ■ひとこと ハマればとことんなタイプです。しっかり働いて貢献していきます！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1784192185.127709",
+          "text": "はじめまして。 9月入社予定の澤田 真太郎（さわだ しんたろう）と申します。 ■出身地 青森県出身、高校卒業後は東京で10年ほど暮らし、現在は宮城県に住んでいます ■これまでやってきたこと WEBディレクター：ECサイトの運営代行業務等を3年 WEBエンジニア：多業種の上流〜下流を約10年 ■趣味 ジム、草野球、ドライブ、スポーツゲーム ■休日の過ごし方 趣味をして過ごしたり、8時間野球の素振りをしたり、飼い猫と戯れたり:black_cat: ■ひとこと ハマればとことんなタイプです。しっかり働いて貢献していきます！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1784192185.127709",
+          "threadTs": null,
+          "authorName": "澤田　真太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして。 9月入社予定の澤田 真太郎（さわだ しんたろう）と申します。 ■出身地 青森県出身、高校卒業後は東京で10年ほど暮らし、現在は宮城県に住んでいます ■これまでやってきたこと WEBディレクター：ECサイトの運営代行業務等を3年 WEBエンジニア：多業種の上流〜下流を約10年 ■趣味 ジム、草野球、ドライブ、スポーツゲーム ■休日の過ごし方 趣味をして過ごしたり、8時間野球の素振りをしたり、飼い猫と戯れたり:black_cat: ■ひとこと ハマればとことんなタイプです。しっかり働いて貢献していきます！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784243345.717289",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784243345.717289",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784243345.717289",
+      "timestamp": "2026-07-16T23:09:05.717Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-16_ 1. _Claude Code 2026-07-16 大規模アップデートリリース_ └ サブエージェントのテキストストリーミング対応・権限/アップロード処理改善・バックグラウンドエージェントレポート強化・ターミナル高速レンダリングを実装。Bedrock/Vertex/Windows/Chrome全環境の安定性向上とセッションリカバリ改善も含む大型アップデート。Vertex/BedrockでのモデルフォールバックNotice誤出力バグなども修正済み。 :link: <https://github.com/anthropics/claude-code/releases|github.com/anthropics/claude-code/releases> 2. _Cursor Windows ゼロデイ脆弱性 — 7ヶ月未修正で全開示（Mindgard）_ └ リポジトリルートに悪意ある git.exe を配置するだけで、リポジトリを開いた瞬間にコードが自動実行される脆弱性が発覚。クリック・警告・承認ダイアログ一..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784243345.717289",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-16_ 1. _Claude Code 2026-07-16 大規模アップデートリリース_ └ サブエージェントのテキストストリーミング対応・権限/アップロード処理改善・バックグラウンドエージェントレポート強化・ターミナル高速レンダリングを実装。Bedrock/Vertex/Windows/Chrome全環境の安定性向上とセッションリカバリ改善も含む大型アップデート。Vertex/BedrockでのモデルフォールバックNotice誤出力バグなども修正済み。 :link: <https://github.com/anthropics/claude-code/releases|github.com/anthropics/claude-code/releases> 2. _Cursor Windows ゼロデイ脆弱性 — 7ヶ月未修正で全開示（Mindgard）_ └ リポジトリルートに悪意ある git.exe を配置するだけで、リポジトリを開いた瞬間にコードが自動実行される脆弱性が発覚。クリック・警告・承認ダイアログ一切なしで任意コード実行が可能。Mindgard が2025年12月に報告後7ヶ月間応答がなく、今回フルディスクロージャーに踏み切った。不審なリポジトリのクローンには要注意。 :link: <https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html|thehackernews.com/2026/07/cursor...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784243345.717289",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-16_ 1. _Claude Code 2026-07-16 大規模アップデートリリース_ └ サブエージェントのテキストストリーミング対応・権限/アップロード処理改善・バックグラウンドエージェントレポート強化・ターミナル高速レンダリングを実装。Bedrock/Vertex/Windows/Chrome全環境の安定性向上とセッションリカバリ改善も含む大型アップデート。Vertex/BedrockでのモデルフォールバックNotice誤出力バグなども修正済み。 :link: <https://github.com/anthropics/claude-code/releases|github.com/anthropics/claude-code/releases> 2. _Cursor Windows ゼロデイ脆弱性 — 7ヶ月未修正で全開示（Mindgard）_ └ リポジトリルートに悪意ある git.exe を配置するだけで、リポジトリを開いた瞬間にコードが自動実行される脆弱性が発覚。クリック・警告・承認ダイアログ一切なしで任意コード実行が可能。Mindgard が2025年12月に報告後7ヶ月間応答がなく、今回フルディスクロージャーに踏み切った。不審なリポジトリのクローンには要注意。 :link: <https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html|thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html> 3. _【2026-07-16】世界のAI最新ニュース：AIエージェント・運用設計・規制・推論基盤が本番段階へ_ └ AIエージェントの本番運用移行が加速。「どう使うか」から「どう安全に運用するか」への関心がシフトし、規制対応・コスト管理・推論インフラ整備が同時に前進。AI駆動開発が試験運用から実ビジネス実装へと転換点を迎えた動向の日本語サマリー。 :link: <https://eguweb.jp/ai/81198/|eguweb.jp/ai/81198> 4. _【2026年7月版】主要生成AIサービス料金比較 ―― Claude Sonnet 5登場とFable/Mythosの行方（Business Insider Japan）_ └ Claude Sonnet 5正式登場後の主要8サービス料金早見表を公開。高性能モデルFableや次世代Mythosの価格展開も含めた比較で、AI駆動開発のコスト計画に役立つ情報。モデル選定の経済的視点を整理する際の参考に。 :link: <https://www.business...\nai駆動開発ネタ\n経営"
     }
   ]
 }

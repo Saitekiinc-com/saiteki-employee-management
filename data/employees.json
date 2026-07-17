@@ -2765,5 +2765,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BEQ1Q1668"
+  },
+  {
+    "name": "澤田　真太郎",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-07-17T03:14:14.855Z",
+    "updatedAt": "2026-07-17T03:14:14.855Z",
+    "last_updated": "2026-07-17T03:14:14.855Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BHU85SV8U"
   }
 ]

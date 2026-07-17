@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-16T02:57:03.725Z",
+  "generatedAt": "2026-07-17T03:14:18.861Z",
   "channelCount": 9,
-  "totalMessages": 1976,
+  "totalMessages": 1979,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -25942,11 +25942,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1784192185.127709",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0BHU85SV8U",
+          "userName": "澤田　真太郎",
+          "userRealName": "澤田　真太郎",
+          "text": "はじめまして。 9月入社予定の澤田 真太郎（さわだ しんたろう）と申します。 ■出身地 青森県出身、高校卒業後は東京で10年ほど暮らし、現在は宮城県に住んでいます ■これまでやってきたこと WEBディレクター：ECサイトの運営代行業務等を3年 WEBエンジニア：多業種の上流〜下流を約10年 ■趣味 ジム、草野球、ドライブ、スポーツゲーム ■休日の過ごし方 趣味をして過ごしたり、8時間野球の素振りをしたり、飼い猫と戯れたり:black_cat: ■ひとこと ハマればとことんなタイプです。しっかり働いて貢献していきます！",
+          "rawText": "はじめまして。\n9月入社予定の澤田 真太郎（さわだ しんたろう）と申します。\n\n■出身地\n青森県出身、高校卒業後は東京で10年ほど暮らし、現在は宮城県に住んでいます\n\n■これまでやってきたこと\nWEBディレクター：ECサイトの運営代行業務等を3年\nWEBエンジニア：多業種の上流〜下流を約10年\n\n■趣味\nジム、草野球、ドライブ、スポーツゲーム\n\n■休日の過ごし方\n趣味をして過ごしたり、8時間野球の素振りをしたり、飼い猫と戯れたり:black_cat:\n\n■ひとこと\nハマればとことんなタイプです。しっかり働いて貢献していきます！",
+          "messageTs": "1784192185.127709",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-16",
+          "timestamp": "2026-07-16T08:56:25.127Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 403,
+      "messageCount": 404,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-07-11"
+      "lastDate": "2026-07-16"
     },
     {
       "id": "C09MKT8QKAR",
@@ -31461,11 +31481,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1784176967.917999",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> 各位 お疲れ様です。総務の藤井です。 本日は、毎月の勤怠報告方法の変更についてお知らせいたします:mega: :point_right: *自社用勤怠管理表の作成* 時間単位年休、そして、有給分配付与が開始されたことから、 勤怠集計の管理漏れを防ぐため、常駐先勤務表とは別に、自社勤怠管理表も毎月提出してもらう事となりました。 【添付内容】 ・(プロパー用)勤怠管理表_name_yyyymm_ver.20260715.xlsx :memo: ・自社勤怠管理表の書き方.pdf :book: ・勤怠管理表提出ステップ.pdf :person_running_facing_right: 【使用用途】 ・ご自身の給与計算の為に、Saitekiへ提出する勤怠管理表です。 ・お休みをした日は、休暇区分から休暇の種類を選んでください。 ・休暇は別途「有給・特休申請シート」を提出してください。 常駐先から指示されている勤務表は、継続して対応してください。 「常駐先勤務表」はお客様とSaitekiの間で請求に使います。 「自社勤怠管理表」はSaitekiとご自身の間で給与計算の為に使います。 お手数をおかけいたしますが、勤怠管理の改定にご協力をお願いいたします。 常駐先に勤務表フォーマットが無く、既に自社フォーマットを使っている方も、 添付のフォーマットへ更新をお願いします:woman-bowing: 添付の説明書で分からないことは、「99_お名前」のチャンネルでご連絡ください:pray:",
+          "rawText": "<!channel>\n各位\nお疲れ様です。総務の藤井です。\n本日は、毎月の勤怠報告方法の変更についてお知らせいたします:mega:\n\n:point_right: *自社用勤怠管理表の作成*\n時間単位年休、そして、有給分配付与が開始されたことから、\n勤怠集計の管理漏れを防ぐため、常駐先勤務表とは別に、自社勤怠管理表も毎月提出してもらう事となりました。\n\n【添付内容】\n・(プロパー用)勤怠管理表_name_yyyymm_ver.20260715.xlsx :memo:\n・自社勤怠管理表の書き方.pdf :book:\n・勤怠管理表提出ステップ.pdf :person_running_facing_right:\n\n【使用用途】\n・ご自身の給与計算の為に、Saitekiへ提出する勤怠管理表です。\n・お休みをした日は、休暇区分から休暇の種類を選んでください。\n・休暇は別途「有給・特休申請シート」を提出してください。\n\n常駐先から指示されている勤務表は、継続して対応してください。\n「常駐先勤務表」はお客様とSaitekiの間で請求に使います。\n「自社勤怠管理表」はSaitekiとご自身の間で給与計算の為に使います。\n\nお手数をおかけいたしますが、勤怠管理の改定にご協力をお願いいたします。\n\n常駐先に勤務表フォーマットが無く、既に自社フォーマットを使っている方も、\n添付のフォーマットへ更新をお願いします:woman-bowing:\n\n添付の説明書で分からないことは、「99_お名前」のチャンネルでご連絡ください:pray:",
+          "messageTs": "1784176967.917999",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-16",
+          "timestamp": "2026-07-16T04:42:47.917Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 288,
+      "messageCount": 289,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-07-11"
+      "lastDate": "2026-07-16"
     },
     {
       "id": "C09QXV3F8G0",
@@ -35228,11 +35268,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1784243345.717289",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-16_ 1. _Claude Code 2026-07-16 大規模アップデートリリース_ └ サブエージェントのテキストストリーミング対応・権限/アップロード処理改善・バックグラウンドエージェントレポート強化・ターミナル高速レンダリングを実装。Bedrock/Vertex/Windows/Chrome全環境の安定性向上とセッションリカバリ改善も含む大型アップデート。Vertex/BedrockでのモデルフォールバックNotice誤出力バグなども修正済み。 :link: <https://github.com/anthropics/claude-code/releases|github.com/anthropics/claude-code/releases> 2. _Cursor Windows ゼロデイ脆弱性 — 7ヶ月未修正で全開示（Mindgard）_ └ リポジトリルートに悪意ある git.exe を配置するだけで、リポジトリを開いた瞬間にコードが自動実行される脆弱性が発覚。クリック・警告・承認ダイアログ一切なしで任意コード実行が可能。Mindgard が2025年12月に報告後7ヶ月間応答がなく、今回フルディスクロージャーに踏み切った。不審なリポジトリのクローンには要注意。 :link: <https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html|thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html> 3. _【2026-07-16】世界のAI最新ニュース：AIエージェント・運用設計・規制・推論基盤が本番段階へ_ └ AIエージェントの本番運用移行が加速。「どう使うか」から「どう安全に運用するか」への関心がシフトし、規制対応・コスト管理・推論インフラ整備が同時に前進。AI駆動開発が試験運用から実ビジネス実装へと転換点を迎えた動向の日本語サマリー。 :link: <https://eguweb.jp/ai/81198/|eguweb.jp/ai/81198> 4. _【2026年7月版】主要生成AIサービス料金比較 ―― Claude Sonnet 5登場とFable/Mythosの行方（Business Insider Japan）_ └ Claude Sonnet 5正式登場後の主要8サービス料金早見表を公開。高性能モデルFableや次世代Mythosの価格展開も含めた比較で、AI駆動開発のコスト計画に役立つ情報。モデル選定の経済的視点を整理する際の参考に。 :link: <https://www.businessinsider.jp/article/2607-how-much-did-major-generative-ai-service-fees-become-in-july-2026/|businessinsider.jp/article/2607-how-much-did-major-generative-ai-service-fees-become-in-july-2026> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-16_\n\n1. _Claude Code 2026-07-16 大規模アップデートリリース_\n└ サブエージェントのテキストストリーミング対応・権限/アップロード処理改善・バックグラウンドエージェントレポート強化・ターミナル高速レンダリングを実装。Bedrock/Vertex/Windows/Chrome全環境の安定性向上とセッションリカバリ改善も含む大型アップデート。Vertex/BedrockでのモデルフォールバックNotice誤出力バグなども修正済み。\n:link: <https://github.com/anthropics/claude-code/releases|github.com/anthropics/claude-code/releases>\n2. _Cursor Windows ゼロデイ脆弱性 — 7ヶ月未修正で全開示（Mindgard）_\n└ リポジトリルートに悪意ある git.exe を配置するだけで、リポジトリを開いた瞬間にコードが自動実行される脆弱性が発覚。クリック・警告・承認ダイアログ一切なしで任意コード実行が可能。Mindgard が2025年12月に報告後7ヶ月間応答がなく、今回フルディスクロージャーに踏み切った。不審なリポジトリのクローンには要注意。\n:link: <https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html|thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html>\n3. _【2026-07-16】世界のAI最新ニュース：AIエージェント・運用設計・規制・推論基盤が本番段階へ_\n└ AIエージェントの本番運用移行が加速。「どう使うか」から「どう安全に運用するか」への関心がシフトし、規制対応・コスト管理・推論インフラ整備が同時に前進。AI駆動開発が試験運用から実ビジネス実装へと転換点を迎えた動向の日本語サマリー。\n:link: <https://eguweb.jp/ai/81198/|eguweb.jp/ai/81198>\n4. _【2026年7月版】主要生成AIサービス料金比較 ―― Claude Sonnet 5登場とFable/Mythosの行方（Business Insider Japan）_\n└ Claude Sonnet 5正式登場後の主要8サービス料金早見表を公開。高性能モデルFableや次世代Mythosの価格展開も含めた比較で、AI駆動開発のコスト計画に役立つ情報。モデル選定の経済的視点を整理する際の参考に。\n:link: <https://www.businessinsider.jp/article/2607-how-much-did-major-generative-ai-service-fees-become-in-july-2026/|businessinsider.jp/article/2607-how-much-did-major-generative-ai-service-fees-become-in-july-2026> *使用して送信されました* Claude",
+          "messageTs": "1784243345.717289",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-16",
+          "timestamp": "2026-07-16T23:09:05.717Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 194,
+      "messageCount": 195,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-07-15"
+      "lastDate": "2026-07-16"
     },
     {
       "id": "C09Q1KNL2P8",
