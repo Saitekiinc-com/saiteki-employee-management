@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-17T03:14:15.083Z",
+  "generatedAt": "2026-07-18T02:51:40.821Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -60256,7 +60256,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1784192185.127709",
-          "threadTs": null,
+          "threadTs": "1784192185.127709",
           "authorName": "澤田　真太郎",
           "permalink": null
         }
@@ -60297,6 +60297,178 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-16_ 1. _Claude Code 2026-07-16 大規模アップデートリリース_ └ サブエージェントのテキストストリーミング対応・権限/アップロード処理改善・バックグラウンドエージェントレポート強化・ターミナル高速レンダリングを実装。Bedrock/Vertex/Windows/Chrome全環境の安定性向上とセッションリカバリ改善も含む大型アップデート。Vertex/BedrockでのモデルフォールバックNotice誤出力バグなども修正済み。 :link: <https://github.com/anthropics/claude-code/releases|github.com/anthropics/claude-code/releases> 2. _Cursor Windows ゼロデイ脆弱性 — 7ヶ月未修正で全開示（Mindgard）_ └ リポジトリルートに悪意ある git.exe を配置するだけで、リポジトリを開いた瞬間にコードが自動実行される脆弱性が発覚。クリック・警告・承認ダイアログ一切なしで任意コード実行が可能。Mindgard が2025年12月に報告後7ヶ月間応答がなく、今回フルディスクロージャーに踏み切った。不審なリポジトリのクローンには要注意。 :link: <https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html|thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html> 3. _【2026-07-16】世界のAI最新ニュース：AIエージェント・運用設計・規制・推論基盤が本番段階へ_ └ AIエージェントの本番運用移行が加速。「どう使うか」から「どう安全に運用するか」への関心がシフトし、規制対応・コスト管理・推論インフラ整備が同時に前進。AI駆動開発が試験運用から実ビジネス実装へと転換点を迎えた動向の日本語サマリー。 :link: <https://eguweb.jp/ai/81198/|eguweb.jp/ai/81198> 4. _【2026年7月版】主要生成AIサービス料金比較 ―― Claude Sonnet 5登場とFable/Mythosの行方（Business Insider Japan）_ └ Claude Sonnet 5正式登場後の主要8サービス料金早見表を公開。高性能モデルFableや次世代Mythosの価格展開も含めた比較で、AI駆動開発のコスト計画に役立つ情報。モデル選定の経済的視点を整理する際の参考に。 :link: <https://www.business...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1784267460.970459",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1784267460.970459",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1784267460.970459",
+      "timestamp": "2026-07-17T05:51:00.970Z",
+      "detailBullets": [
+        "<!channel> *全社員要確認！！* 令和8年度の健康診断（生活習慣病予防健診）の受診案内をお送りします。 `※前回の健診から10か月以上経過している方は、お早めにご予約ください。` `※年度末(2027年3月)の受診は駆け込みの受診者で混雑します、余裕を持った予約をお願いい致します。` :male-doctor: *生活習慣病予防健診とは* 協会けんぽが提供する健康診断制度で、被保険者（社員本人）が年1回受診できます。 詳細は協会けんぽ公式ページをご確認ください。 <https://www.kyoukaikenpo.or.jp/health_promotion/health_checkups/|kyoukaikenpo.or.jp/health_promotion/health_checkups> :stethoscope: *自分が受けられる健診メニューの確認方法* 受診できるメニューはご年齢によって異なります。 下記ページ中ほどにある「あなたのR8年度に受けられる健診メニュー」でご確認ください。 <https://www.kyoukaikenpo.or.jp/lp/202..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1784267460.970459",
+          "text": "<!channel> *全社員要確認！！* 令和8年度の健康診断（生活習慣病予防健診）の受診案内をお送りします。 `※前回の健診から10か月以上経過している方は、お早めにご予約ください。` `※年度末(2027年3月)の受診は駆け込みの受診者で混雑します、余裕を持った予約をお願いい致します。` :male-doctor: *生活習慣病予防健診とは* 協会けんぽが提供する健康診断制度で、被保険者（社員本人）が年1回受診できます。 詳細は協会けんぽ公式ページをご確認ください。 <https://www.kyoukaikenpo.or.jp/health_promotion/health_checkups/|kyoukaikenpo.or.jp/health_promotion/health_checkups> :stethoscope: *自分が受けられる健診メニューの確認方法* 受診できるメニューはご年齢によって異なります。 下記ページ中ほどにある「あなたのR8年度に受けられる健診メニュー」でご確認ください。 <https://www.kyoukaikenpo.or.jp/lp/2026kenshin/|kyoukaikenpo.or.jp/lp/2026kenshin> *`※ 21〜24歳・26〜29歳の方へ（重要）`* *`上記ページで「健診メニューはありません」と表示される場合がありますが、`* *`年に1回の健康診断の受診は必要です。医療機関に直接「健康診断」としてご予約ください。`* :hospital: *提携医療機関の探し方* 協会けんぽと提携している医療機関は...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1784267460.970459",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> *全社員要確認！！* 令和8年度の健康診断（生活習慣病予防健診）の受診案内をお送りします。 `※前回の健診から10か月以上経過している方は、お早めにご予約ください。` `※年度末(2027年3月)の受診は駆け込みの受診者で混雑します、余裕を持った予約をお願いい致します。` :male-doctor: *生活習慣病予防健診とは* 協会けんぽが提供する健康診断制度で、被保険者（社員本人）が年1回受診できます。 詳細は協会けんぽ公式ページをご確認ください。 <https://www.kyoukaikenpo.or.jp/health_promotion/health_checkups/|kyoukaikenpo.or.jp/health_promotion/health_checkups> :stethoscope: *自分が受けられる健診メニューの確認方法* 受診できるメニューはご年齢によって異なります。 下記ページ中ほどにある「あなたのR8年度に受けられる健診メニュー」でご確認ください。 <https://www.kyoukaikenpo.or.jp/lp/2026kenshin/|kyoukaikenpo.or.jp/lp/2026kenshin> *`※ 21〜24歳・26〜29歳の方へ（重要）`* *`上記ページで「健診メニューはありません」と表示される場合がありますが、`* *`年に1回の健康診断の受診は必要です。医療機関に直接「健康診断」としてご予約ください。`* :hospital: *提携医療機関の探し方* 協会けんぽと提携している医療機関は下記URLから検索できます。 ご自宅や職場に近い医療機関をお選びください。 <https://www.kyoukaikenpo.or.jp/health_promotion/health_checkups/insured/002/|kyoukaikenpo.or.jp/health_promotion/health_checkups/insured/002> `※ 注意：提携医療機関以外での受診は、協会けんぽからの補助（健診費用の一部負担）を受けることができません。` `必ず上記URLで提携医療機関をご確認の上、ご予約ください。` :telephone_receiver: *医療機関への予約について* 医療機関への予約は、各自で直接ご対応をお願いします。 会社側での予約手配は行っておりませんので、ご自身でご連絡ください。 （医療機関によっては予約が混み合う場合があります。お早めの行動をお勧めします。） :moneybag: *費用・精算について* 【会社補助について】 ・法定受診項目に限り、上限10,000円まで会社が補助します。 ・協会けんぽの提携医療機関で「一般健診」を受診した場合...\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1784269320.675799",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1784269320.675799",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1784269320.675799",
+      "timestamp": "2026-07-17T06:22:00.675Z",
+      "detailBullets": [
+        "<!channel> 先ほど周知した内容の、*「受診の流れ（簡単4ステップ）」*が一部変更しました。 【変更内容】 Slackに受診希望日を先に連絡してください。 営業担当者が現場へ休むことを伝えます。 現場から了承を得たら、医療機関へ予約を入れて頂き、受診をお願い致します。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1784269320.675799",
+          "text": "<!channel> 先ほど周知した内容の、*「受診の流れ（簡単4ステップ）」*が一部変更しました。 【変更内容】 Slackに受診希望日を先に連絡してください。 営業担当者が現場へ休むことを伝えます。 現場から了承を得たら、医療機関へ予約を入れて頂き、受診をお願い致します。",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1784269320.675799",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> 先ほど周知した内容の、*「受診の流れ（簡単4ステップ）」*が一部変更しました。 【変更内容】 Slackに受診希望日を先に連絡してください。 営業担当者が現場へ休むことを伝えます。 現場から了承を得たら、医療機関へ予約を入れて頂き、受診をお願い致します。\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1784283531.743909",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1784283531.743909",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1784283531.743909",
+      "timestamp": "2026-07-17T10:18:51.743Z",
+      "detailBullets": [
+        "<@U0BHU85SV8U> 澤田さん、あらためてよろしくお願いします！ 澤田さんのようなプロフェッショナルと働けること、とても嬉しく思います！！会社としてしっかりサポートしていきます！同時に、若手のメンバーにも澤田さんのご知見を共有してもらえたりしたらめちゃくちゃ嬉しいです！！ 「8時間野球の素振り」のインパクトでかすぎですw もしかして大リーグボール養成ギプスとかつけてます？"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1784283531.743909",
+          "text": "<@U0BHU85SV8U> 澤田さん、あらためてよろしくお願いします！ 澤田さんのようなプロフェッショナルと働けること、とても嬉しく思います！！会社としてしっかりサポートしていきます！同時に、若手のメンバーにも澤田さんのご知見を共有してもらえたりしたらめちゃくちゃ嬉しいです！！ 「8時間野球の素振り」のインパクトでかすぎですw もしかして大リーグボール養成ギプスとかつけてます？",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1784283531.743909",
+          "threadTs": "1784192185.127709",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BHU85SV8U> 澤田さん、あらためてよろしくお願いします！ 澤田さんのようなプロフェッショナルと働けること、とても嬉しく思います！！会社としてしっかりサポートしていきます！同時に、若手のメンバーにも澤田さんのご知見を共有してもらえたりしたらめちゃくちゃ嬉しいです！！ 「8時間野球の素振り」のインパクトでかすぎですw もしかして大リーグボール養成ギプスとかつけてます？\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1784284260.975319",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:澤田　真太郎",
+      "personName": "澤田 真太郎",
+      "slackIds": [
+        "U0BHU85SV8U"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1784284260.975319",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1784284260.975319",
+      "timestamp": "2026-07-17T10:31:00.975Z",
+      "detailBullets": [
+        "戸塚さん、改めてよろしくお願いします！ ギプスに近いトレーニング道具はありますｗ ハードルが上がってそうなので、恐れ多いですが期待に応えられるよう頑張ります:muscle:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1784284260.975319",
+          "text": "戸塚さん、改めてよろしくお願いします！ ギプスに近いトレーニング道具はありますｗ ハードルが上がってそうなので、恐れ多いですが期待に応えられるよう頑張ります:muscle:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1784284260.975319",
+          "threadTs": "1784192185.127709",
+          "authorName": "澤田　真太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "戸塚さん、改めてよろしくお願いします！ ギプスに近いトレーニング道具はありますｗ ハードルが上がってそうなので、恐れ多いですが期待に応えられるよう頑張ります:muscle:\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784329761.835459",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784329761.835459",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784329761.835459",
+      "timestamp": "2026-07-17T23:09:21.835Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-17_ 1. _Claude Code v2.1.211 大型アップデート：/fork・/resume・WebSearch制限・自動バックグラウンドMCP_ └ 本日リリースのv2.1.211では、`/fork`コマンドで会話を新しいバックグラウンドセッションにコピー可能に（サブエージェントの名称が`/subtask`に変更）。`/resume`で過去セッションをバックグラウンドで再開できる新コマンドも追加。WebSearchのセッション上限がデフォルト200回に設定され、2分超えのMCPツール呼び出しは自動的にバックグラウンドへ移行。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.211|github.com/anthropics/claude-code/…/v2.1.211> 2. _Anthropic・Blackstone・H&amp;Fが「Ode with Anthropic」を15億ドル規模で正式設立_ └ エンター..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784329761.835459",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-17_ 1. _Claude Code v2.1.211 大型アップデート：/fork・/resume・WebSearch制限・自動バックグラウンドMCP_ └ 本日リリースのv2.1.211では、`/fork`コマンドで会話を新しいバックグラウンドセッションにコピー可能に（サブエージェントの名称が`/subtask`に変更）。`/resume`で過去セッションをバックグラウンドで再開できる新コマンドも追加。WebSearchのセッション上限がデフォルト200回に設定され、2分超えのMCPツール呼び出しは自動的にバックグラウンドへ移行。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.211|github.com/anthropics/claude-code/…/v2.1.211> 2. _Anthropic・Blackstone・H&amp;Fが「Ode with Anthropic」を15億ドル規模で正式設立_ └ エンタープライズ向けAI実装専門企業「Ode with Anthropic」が正式ローンチ。Anthropic・Blackstone・Hellman &amp; Friedman各社が約3億ドルずつ、Goldman Sachsも約1.5億ドルを出資。中規模企業がAI試験運用フェーズを脱して日常業務に組み込むのを支援する専門集団として機能する。 :link: <https://www.technology....",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784329761.835459",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-17_ 1. _Claude Code v2.1.211 大型アップデート：/fork・/resume・WebSearch制限・自動バックグラウンドMCP_ └ 本日リリースのv2.1.211では、`/fork`コマンドで会話を新しいバックグラウンドセッションにコピー可能に（サブエージェントの名称が`/subtask`に変更）。`/resume`で過去セッションをバックグラウンドで再開できる新コマンドも追加。WebSearchのセッション上限がデフォルト200回に設定され、2分超えのMCPツール呼び出しは自動的にバックグラウンドへ移行。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.211|github.com/anthropics/claude-code/…/v2.1.211> 2. _Anthropic・Blackstone・H&amp;Fが「Ode with Anthropic」を15億ドル規模で正式設立_ └ エンタープライズ向けAI実装専門企業「Ode with Anthropic」が正式ローンチ。Anthropic・Blackstone・Hellman &amp; Friedman各社が約3億ドルずつ、Goldman Sachsも約1.5億ドルを出資。中規模企業がAI試験運用フェーズを脱して日常業務に組み込むのを支援する専門集団として機能する。 :link: <https://www.technology.org/2026/07/16/ode-with-anthropic-blackstone-ai-implementation/|technology.org/2026/07/16/ode-with-anthropic-blackstone-ai-implementation> 3. _Gemini 3.5 Pro が3度目の延期：Google が暫定版「Gemini 3.6 Flash」を検討_ └ 7/17 GA目標だったGemini 3.5 Proが再び延期。完全再設計後もrecursiveなツール呼び出しやSVG生成での構造的障害が解消できずGPT-5.6のベンチマークにも届かなかった。Googleは代替として軽量モデル「Gemini 3.6 Flash」の暫定リリースを検討中。 :link: <https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm|techtimes.com/art...\nai駆動開発ネタ\n経営"
     }
   ]
 }
