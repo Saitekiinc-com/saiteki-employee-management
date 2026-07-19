@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-18T02:51:46.329Z",
+  "generatedAt": "2026-07-19T03:22:34.599Z",
   "channelCount": 9,
-  "totalMessages": 1984,
+  "totalMessages": 1986,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -31581,11 +31581,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1784372953.533809",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.07.18）* を共有します。 今週のテーマは *「金融機関が認めた『Saitekiの格』＆メガスタートアップとの商談裏側（動画あり）」* です。 Saitekiの金融機関からの信用力が一気に上がっている背景と、メガスタートアップとの直接の商談ルートをこじ開けた、エキサイティングな裏舞台をお届けします！ • *【政府系金融機関から非常に前向きな回答！】* 商工中金様との融資商談を敢行し、以前とは比較にならないほどの猛烈な“食いつき”を肌で感じました。 • *【※融資＝会社への“太鼓判”です！】* 「融資＝借金＝ネガティブ」と思われがちですが、企業経営においては真逆です。銀行は将来性のない会社には1円も貸しません（雨の日に傘は貸さない）。 手元に1.5億の潤沢なキャッシュがある今、さらに融資を受けられるのは、金融機関から「健全で成長が見込める」と圧倒的な信用を認められた証拠（＝企業格の上昇）です。毎月8名以上が入社していて、全員が現場で努力してくれているおかげさまで、努力の賜物です。 いつも本当にありがとうございます！ • *【IDOM CaaS Technology様との直接商談ルート確立へ】* ガリバーからスピンアウトしたメガスタートアップである同社との商談で、8月入社予定のエンジニア・志賀さんが「顧客目線」に立った見事なプレゼンを披露！先方もSaitekiのスタンスを高く評価してくださり、一次請けでの参画、そして将来的な「受託開発への切り出し」に繋がる足がかりができました。 • *【超リアルな営業最先端の裏側を全公開！】* 今回のレターでは、数千億規模の上場候補スタートアップ社長を経由したトップ紹介の泥臭いフローから、事前の打ち合わせ、そして当日の実際の商談動画（前編・後編）までを丸ごとノーカットで大公開しています！ 相手がメガスタートアップの華々しい技術責任者であっても、全く引けを取らず堂々と価値を証明した志賀さん、そして動線整理を完璧にサポートした営業部長・徳田さん。この現場と本社の圧倒的なシナジーを、ぜひ動画とレターからその目で確かめてみてください！ <@U0BBGUX353K> <@U0APF134ZP1> ナイス商談でした！！お疲れさまでした！！！ ▼ Letter of T | 今週の記録（2026.07.18） <https://app.notion.com/p/Letter-of-T-2026-07-18-3a1dfb42679c8063b9cfeb41a53cec7c|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！",
+          "rawText": "<!channel>\nみなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.07.18）* を共有します。\n\n今週のテーマは\n*「金融機関が認めた『Saitekiの格』＆メガスタートアップとの商談裏側（動画あり）」* です。\n\nSaitekiの金融機関からの信用力が一気に上がっている背景と、メガスタートアップとの直接の商談ルートをこじ開けた、エキサイティングな裏舞台をお届けします！\n\n• *【政府系金融機関から非常に前向きな回答！】*\n 商工中金様との融資商談を敢行し、以前とは比較にならないほどの猛烈な“食いつき”を肌で感じました。\n\n• *【※融資＝会社への“太鼓判”です！】*\n 「融資＝借金＝ネガティブ」と思われがちですが、企業経営においては真逆です。銀行は将来性のない会社には1円も貸しません（雨の日に傘は貸さない）。\n手元に1.5億の潤沢なキャッシュがある今、さらに融資を受けられるのは、金融機関から「健全で成長が見込める」と圧倒的な信用を認められた証拠（＝企業格の上昇）です。毎月8名以上が入社していて、全員が現場で努力してくれているおかげさまで、努力の賜物です。\nいつも本当にありがとうございます！\n\n• *【IDOM CaaS Technology様との直接商談ルート確立へ】*\nガリバーからスピンアウトしたメガスタートアップである同社との商談で、8月入社予定のエンジニア・志賀さんが「顧客目線」に立った見事なプレゼンを披露！先方もSaitekiのスタンスを高く評価してくださり、一次請けでの参画、そして将来的な「受託開発への切り出し」に繋がる足がかりができました。\n\n• *【超リアルな営業最先端の裏側を全公開！】*\n今回のレターでは、数千億規模の上場候補スタートアップ社長を経由したトップ紹介の泥臭いフローから、事前の打ち合わせ、そして当日の実際の商談動画（前編・後編）までを丸ごとノーカットで大公開しています！\n\n相手がメガスタートアップの華々しい技術責任者であっても、全く引けを取らず堂々と価値を証明した志賀さん、そして動線整理を完璧にサポートした営業部長・徳田さん。この現場と本社の圧倒的なシナジーを、ぜひ動画とレターからその目で確かめてみてください！\n\n<@U0BBGUX353K> <@U0APF134ZP1>\nナイス商談でした！！お疲れさまでした！！！\n\n▼ Letter of T | 今週の記録（2026.07.18）\n<https://app.notion.com/p/Letter-of-T-2026-07-18-3a1dfb42679c8063b9cfeb41a53cec7c|app.notion.com/p/Letter-of-T-…>\n\n今週も、最高のパフォーマンスをありがとうございました！！",
+          "messageTs": "1784372953.533809",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-18",
+          "timestamp": "2026-07-18T11:09:13.533Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 291,
+      "messageCount": 292,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-07-17"
+      "lastDate": "2026-07-18"
     },
     {
       "id": "C09QXV3F8G0",
@@ -35388,11 +35408,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1784416304.856049",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-18_ 1. _Cursor、Slack統合を大幅強化──作業前プラン共有・マルチリポジトリ対応_ └ CursorがSlack統合をアップデート（7/17）。作業開始前に計画をSlackへ共有して方向修正できるようになり、フロントエンド・バックエンドなど複数リポジトリ環境での横断作業に対応。他チャンネル・スレッドの参照や投稿も可能になり、従来のインラインボタンはコンパクトなフッターリンクに刷新。テーブル・PR・成果物の表示も改善。 :link: <https://cursor.com/changelog|cursor.com/changelog> 2. _Claude Code v2.1.212リリース──サブエージェント起動数制限・Windows の Git 不要化_ └ 7/17リリース（v2.1.211に続く追加更新）。セッション単位でサブエージェント起動数の上限（デフォルト200回）を設け暴走ループを防止。/resume がエージェントビューでセッション一覧ピッカーを表示するよう改善。`claude ultrareview` コマンドでCI・スクリプトからのコードレビューも実行可能に。Git for Windows なしでも PowerShell が自動利用されるよう改善。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.212|github.com/anthropics/claude-code/…/v2.1.212> 3. _Google、NotebookLM を「Gemini Notebook」に改名──コード実行機能を追加_ └ Google が NotebookLM（利用者3,000万人超・60万組織）を Gemini Notebook に改名（7/16）。各ノートブックに安全なクラウドコンピュータを付与し、アップロードした独自ソースに対して Python コードを記述・実行してデータ分析や Excel/PDF レポートを生成可能に。AI Ultra ユーザー・Workspace 企業向けに提供開始、Pro ユーザーへは数週間以内に展開予定。 :link: <https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/|techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook> 4. _Anaconda、AIコーディングエージェント「Kilo Code」を買収_ └ Anaconda がオープンソースの AI コーディングエージェント Kilo Code を買収（7/15）。開発者 300 万人超が利用し、VS Code・JetBrains・Web・CLI で動作。60 社以上の AI プロバイダーから 500 以上のモデルをベンダーロックインなしで利用でき、毎月約 10 兆トークンを処理する規模に成長。Anaconda プラットフォームとの統合でエンタープライズ向け AI 開発基盤を強化。 :link: <https://www.anaconda.com/blog/anaconda-acquires-kilo-code|anaconda.com/blog/anaconda-acquires-kilo-code> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-18_\n\n1. _Cursor、Slack統合を大幅強化──作業前プラン共有・マルチリポジトリ対応_\n└ CursorがSlack統合をアップデート（7/17）。作業開始前に計画をSlackへ共有して方向修正できるようになり、フロントエンド・バックエンドなど複数リポジトリ環境での横断作業に対応。他チャンネル・スレッドの参照や投稿も可能になり、従来のインラインボタンはコンパクトなフッターリンクに刷新。テーブル・PR・成果物の表示も改善。\n:link: <https://cursor.com/changelog|cursor.com/changelog>\n2. _Claude Code v2.1.212リリース──サブエージェント起動数制限・Windows の Git 不要化_\n└ 7/17リリース（v2.1.211に続く追加更新）。セッション単位でサブエージェント起動数の上限（デフォルト200回）を設け暴走ループを防止。/resume がエージェントビューでセッション一覧ピッカーを表示するよう改善。`claude ultrareview` コマンドでCI・スクリプトからのコードレビューも実行可能に。Git for Windows なしでも PowerShell が自動利用されるよう改善。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.212|github.com/anthropics/claude-code/…/v2.1.212>\n3. _Google、NotebookLM を「Gemini Notebook」に改名──コード実行機能を追加_\n└ Google が NotebookLM（利用者3,000万人超・60万組織）を Gemini Notebook に改名（7/16）。各ノートブックに安全なクラウドコンピュータを付与し、アップロードした独自ソースに対して Python コードを記述・実行してデータ分析や Excel/PDF レポートを生成可能に。AI Ultra ユーザー・Workspace 企業向けに提供開始、Pro ユーザーへは数週間以内に展開予定。\n:link: <https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/|techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook>\n4. _Anaconda、AIコーディングエージェント「Kilo Code」を買収_\n└ Anaconda がオープンソースの AI コーディングエージェント Kilo Code を買収（7/15）。開発者 300 万人超が利用し、VS Code・JetBrains・Web・CLI で動作。60 社以上の AI プロバイダーから 500 以上のモデルをベンダーロックインなしで利用でき、毎月約 10 兆トークンを処理する規模に成長。Anaconda プラットフォームとの統合でエンタープライズ向け AI 開発基盤を強化。\n:link: <https://www.anaconda.com/blog/anaconda-acquires-kilo-code|anaconda.com/blog/anaconda-acquires-kilo-code> *使用して送信されました* Claude",
+          "messageTs": "1784416304.856049",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-18",
+          "timestamp": "2026-07-18T23:11:44.856Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 196,
+      "messageCount": 197,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-07-17"
+      "lastDate": "2026-07-18"
     },
     {
       "id": "C09Q1KNL2P8",

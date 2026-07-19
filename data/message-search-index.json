@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-18T02:51:40.821Z",
+  "generatedAt": "2026-07-19T03:22:31.751Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -60469,6 +60469,76 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-17_ 1. _Claude Code v2.1.211 大型アップデート：/fork・/resume・WebSearch制限・自動バックグラウンドMCP_ └ 本日リリースのv2.1.211では、`/fork`コマンドで会話を新しいバックグラウンドセッションにコピー可能に（サブエージェントの名称が`/subtask`に変更）。`/resume`で過去セッションをバックグラウンドで再開できる新コマンドも追加。WebSearchのセッション上限がデフォルト200回に設定され、2分超えのMCPツール呼び出しは自動的にバックグラウンドへ移行。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.211|github.com/anthropics/claude-code/…/v2.1.211> 2. _Anthropic・Blackstone・H&amp;Fが「Ode with Anthropic」を15億ドル規模で正式設立_ └ エンタープライズ向けAI実装専門企業「Ode with Anthropic」が正式ローンチ。Anthropic・Blackstone・Hellman &amp; Friedman各社が約3億ドルずつ、Goldman Sachsも約1.5億ドルを出資。中規模企業がAI試験運用フェーズを脱して日常業務に組み込むのを支援する専門集団として機能する。 :link: <https://www.technology.org/2026/07/16/ode-with-anthropic-blackstone-ai-implementation/|technology.org/2026/07/16/ode-with-anthropic-blackstone-ai-implementation> 3. _Gemini 3.5 Pro が3度目の延期：Google が暫定版「Gemini 3.6 Flash」を検討_ └ 7/17 GA目標だったGemini 3.5 Proが再び延期。完全再設計後もrecursiveなツール呼び出しやSVG生成での構造的障害が解消できずGPT-5.6のベンチマークにも届かなかった。Googleは代替として軽量モデル「Gemini 3.6 Flash」の暫定リリースを検討中。 :link: <https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm|techtimes.com/art...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1784372953.533809",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1784372953.533809",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1784372953.533809",
+      "timestamp": "2026-07-18T11:09:13.533Z",
+      "detailBullets": [
+        "<!channel> みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.07.18）* を共有します。 今週のテーマは *「金融機関が認めた『Saitekiの格』＆メガスタートアップとの商談裏側（動画あり）」* です。 Saitekiの金融機関からの信用力が一気に上がっている背景と、メガスタートアップとの直接の商談ルートをこじ開けた、エキサイティングな裏舞台をお届けします！ • *【政府系金融機関から非常に前向きな回答！】* 商工中金様との融資商談を敢行し、以前とは比較にならないほどの猛烈な“食いつき”を肌で感じました。 • *【※融資＝会社への“太鼓判”です！】* 「融資＝借金＝ネガティブ」と思われがちですが、企業経営においては真逆です。銀行は将来性のない会社には1円も貸しません（雨の日に傘は貸さない）。 手元に1.5億の潤沢なキャッシュがある今、さらに融資を受けられるのは、金融機関から「健全で成長が見込める」と圧倒的な信用を認められた証拠（＝企業格の上昇）です。毎月8名以上が入社していて、全員が現場で努力してくれているおかげさまで、努力の賜物で..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1784372953.533809",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.07.18）* を共有します。 今週のテーマは *「金融機関が認めた『Saitekiの格』＆メガスタートアップとの商談裏側（動画あり）」* です。 Saitekiの金融機関からの信用力が一気に上がっている背景と、メガスタートアップとの直接の商談ルートをこじ開けた、エキサイティングな裏舞台をお届けします！ • *【政府系金融機関から非常に前向きな回答！】* 商工中金様との融資商談を敢行し、以前とは比較にならないほどの猛烈な“食いつき”を肌で感じました。 • *【※融資＝会社への“太鼓判”です！】* 「融資＝借金＝ネガティブ」と思われがちですが、企業経営においては真逆です。銀行は将来性のない会社には1円も貸しません（雨の日に傘は貸さない）。 手元に1.5億の潤沢なキャッシュがある今、さらに融資を受けられるのは、金融機関から「健全で成長が見込める」と圧倒的な信用を認められた証拠（＝企業格の上昇）です。毎月8名以上が入社していて、全員が現場で努力してくれているおかげさまで、努力の賜物です。 いつも本当にありがとうございます！ • *【IDOM CaaS Technology様との直接商談ルート確立へ】* ガリバーからスピンアウトしたメガスタートアップである同社との商談で、8月入社予定のエンジニア・志賀さんが「顧客目線」に立った見事なプレゼンを披露！先方もSaitekiのスタンスを高く評価してくださり、一次請けでの参画、そして将来的な「受託開発への切り出し」に繋がる足がかりができ...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1784372953.533809",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> みなさん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.07.18）* を共有します。 今週のテーマは *「金融機関が認めた『Saitekiの格』＆メガスタートアップとの商談裏側（動画あり）」* です。 Saitekiの金融機関からの信用力が一気に上がっている背景と、メガスタートアップとの直接の商談ルートをこじ開けた、エキサイティングな裏舞台をお届けします！ • *【政府系金融機関から非常に前向きな回答！】* 商工中金様との融資商談を敢行し、以前とは比較にならないほどの猛烈な“食いつき”を肌で感じました。 • *【※融資＝会社への“太鼓判”です！】* 「融資＝借金＝ネガティブ」と思われがちですが、企業経営においては真逆です。銀行は将来性のない会社には1円も貸しません（雨の日に傘は貸さない）。 手元に1.5億の潤沢なキャッシュがある今、さらに融資を受けられるのは、金融機関から「健全で成長が見込める」と圧倒的な信用を認められた証拠（＝企業格の上昇）です。毎月8名以上が入社していて、全員が現場で努力してくれているおかげさまで、努力の賜物です。 いつも本当にありがとうございます！ • *【IDOM CaaS Technology様との直接商談ルート確立へ】* ガリバーからスピンアウトしたメガスタートアップである同社との商談で、8月入社予定のエンジニア・志賀さんが「顧客目線」に立った見事なプレゼンを披露！先方もSaitekiのスタンスを高く評価してくださり、一次請けでの参画、そして将来的な「受託開発への切り出し」に繋がる足がかりができました。 • *【超リアルな営業最先端の裏側を全公開！】* 今回のレターでは、数千億規模の上場候補スタートアップ社長を経由したトップ紹介の泥臭いフローから、事前の打ち合わせ、そして当日の実際の商談動画（前編・後編）までを丸ごとノーカットで大公開しています！ 相手がメガスタートアップの華々しい技術責任者であっても、全く引けを取らず堂々と価値を証明した志賀さん、そして動線整理を完璧にサポートした営業部長・徳田さん。この現場と本社の圧倒的なシナジーを、ぜひ動画とレターからその目で確かめてみてください！ <@U0BBGUX353K> <@U0APF134ZP1> ナイス商談でした！！お疲れさまでした！！！ ▼ Letter of T | 今週の記録（2026.07.18） <https://app.notion.com/p/Letter-of-T-2026-07-18-3a1dfb42679c8063b9cfeb41a53cec7c|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784416304.856049",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784416304.856049",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784416304.856049",
+      "timestamp": "2026-07-18T23:11:44.856Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-18_ 1. _Cursor、Slack統合を大幅強化──作業前プラン共有・マルチリポジトリ対応_ └ CursorがSlack統合をアップデート（7/17）。作業開始前に計画をSlackへ共有して方向修正できるようになり、フロントエンド・バックエンドなど複数リポジトリ環境での横断作業に対応。他チャンネル・スレッドの参照や投稿も可能になり、従来のインラインボタンはコンパクトなフッターリンクに刷新。テーブル・PR・成果物の表示も改善。 :link: <https://cursor.com/changelog|cursor.com/changelog> 2. _Claude Code v2.1.212リリース──サブエージェント起動数制限・Windows の Git 不要化_ └ 7/17リリース（v2.1.211に続く追加更新）。セッション単位でサブエージェント起動数の上限（デフォルト200回）を設け暴走ループを防止。/resume がエージェントビューでセッション一覧ピッカーを表示するよう改善。`claude ul..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784416304.856049",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-18_ 1. _Cursor、Slack統合を大幅強化──作業前プラン共有・マルチリポジトリ対応_ └ CursorがSlack統合をアップデート（7/17）。作業開始前に計画をSlackへ共有して方向修正できるようになり、フロントエンド・バックエンドなど複数リポジトリ環境での横断作業に対応。他チャンネル・スレッドの参照や投稿も可能になり、従来のインラインボタンはコンパクトなフッターリンクに刷新。テーブル・PR・成果物の表示も改善。 :link: <https://cursor.com/changelog|cursor.com/changelog> 2. _Claude Code v2.1.212リリース──サブエージェント起動数制限・Windows の Git 不要化_ └ 7/17リリース（v2.1.211に続く追加更新）。セッション単位でサブエージェント起動数の上限（デフォルト200回）を設け暴走ループを防止。/resume がエージェントビューでセッション一覧ピッカーを表示するよう改善。`claude ultrareview` コマンドでCI・スクリプトからのコードレビューも実行可能に。Git for Windows なしでも PowerShell が自動利用されるよう改善。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.212|github.com/anthropics/claude-code/…/v2.1....",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784416304.856049",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-18_ 1. _Cursor、Slack統合を大幅強化──作業前プラン共有・マルチリポジトリ対応_ └ CursorがSlack統合をアップデート（7/17）。作業開始前に計画をSlackへ共有して方向修正できるようになり、フロントエンド・バックエンドなど複数リポジトリ環境での横断作業に対応。他チャンネル・スレッドの参照や投稿も可能になり、従来のインラインボタンはコンパクトなフッターリンクに刷新。テーブル・PR・成果物の表示も改善。 :link: <https://cursor.com/changelog|cursor.com/changelog> 2. _Claude Code v2.1.212リリース──サブエージェント起動数制限・Windows の Git 不要化_ └ 7/17リリース（v2.1.211に続く追加更新）。セッション単位でサブエージェント起動数の上限（デフォルト200回）を設け暴走ループを防止。/resume がエージェントビューでセッション一覧ピッカーを表示するよう改善。`claude ultrareview` コマンドでCI・スクリプトからのコードレビューも実行可能に。Git for Windows なしでも PowerShell が自動利用されるよう改善。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.212|github.com/anthropics/claude-code/…/v2.1.212> 3. _Google、NotebookLM を「Gemini Notebook」に改名──コード実行機能を追加_ └ Google が NotebookLM（利用者3,000万人超・60万組織）を Gemini Notebook に改名（7/16）。各ノートブックに安全なクラウドコンピュータを付与し、アップロードした独自ソースに対して Python コードを記述・実行してデータ分析や Excel/PDF レポートを生成可能に。AI Ultra ユーザー・Workspace 企業向けに提供開始、Pro ユーザーへは数週間以内に展開予定。 :link: <https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/|techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook...\nai駆動開発ネタ\n経営"
     }
   ]
 }
