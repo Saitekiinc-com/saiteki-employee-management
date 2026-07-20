@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-19T03:22:34.599Z",
+  "generatedAt": "2026-07-20T03:36:40.849Z",
   "channelCount": 9,
-  "totalMessages": 1986,
+  "totalMessages": 1987,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -35428,11 +35428,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1784502918.344239",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-19_ 1. _Claude Fable 5、7/20よりMax・Team Premiumに恒久搭載決定（Proはクレジット移行）_ └ Anthropicが7/18に発表。7月20日からFable 5をMax・Team Premium全プランに利用上限50%枠で正式搭載。Proユーザーはウィークリー枠から除外されクレジット課金に移行（一時金$100付与）。無料延長を繰り返してきた「サブスクリプションの宙ぶらりん状態」が解消される。 :link: <https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm|techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only…> 2. _Claude Code v2.1.214リリース（7/18）：重大セキュリティ修正9件・EndConversationツール追加_ └ Windows PowerShell 5.1のパーミッション確認バイパス修正、`dir/**`ルールが意図しない場所に適用されるバグ修正など計9件のセキュリティ修正。悪意あるユーザー・ジェイルブレイク試行に対してセッションを終了できる`EndConversation`ツールと、長時間ツール実行時の進行状況ハートビートも追加（計28件のバグ修正）。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.214|github.com/anthropics/claude-code/…/v2.1.214> 3. _Claude Code v2.1.215リリース（7/19）：/verifyと/code-reviewが手動呼び出し専用に変更_ └ Claudeが`/verify`と`/code-review`スキルを自動実行しなくなった。明示的にコマンド入力したときのみ動作するよう変更。過剰なレビュー実行による意図しない動作を抑制する目的。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.215|github.com/anthropics/claude-code/…/v2.1.215> 4. _Microsoft「Project Perception」：Anthropic・OpenAI・Microsoftモデルを組み合わせた低コスト脆弱性検出ツール_ └ MicrosoftがAnthropic・OpenAI・自社モデルを組み合わせ、企業コード・クラウドインフラの脆弱性を自動特定・修正提案する「Project Perception」を今月内に正式ローンチ予定。Anthropic Mythosの100%高いAPIコストに対して大幅安いコストが訴求点で、スマートルーティングにより各セキュリティタスクに最適なモデルを選択する仕組み。 :link: <https://www.techrepublic.com/article/news-microsoft-project-perception-ai-security-tool/|techrepublic.com/article/news-microsoft-project-perception-ai-security-tool> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-19_\n\n1. _Claude Fable 5、7/20よりMax・Team Premiumに恒久搭載決定（Proはクレジット移行）_\n└ Anthropicが7/18に発表。7月20日からFable 5をMax・Team Premium全プランに利用上限50%枠で正式搭載。Proユーザーはウィークリー枠から除外されクレジット課金に移行（一時金$100付与）。無料延長を繰り返してきた「サブスクリプションの宙ぶらりん状態」が解消される。\n:link: <https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm|techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only…>\n2. _Claude Code v2.1.214リリース（7/18）：重大セキュリティ修正9件・EndConversationツール追加_\n└ Windows PowerShell 5.1のパーミッション確認バイパス修正、`dir/**`ルールが意図しない場所に適用されるバグ修正など計9件のセキュリティ修正。悪意あるユーザー・ジェイルブレイク試行に対してセッションを終了できる`EndConversation`ツールと、長時間ツール実行時の進行状況ハートビートも追加（計28件のバグ修正）。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.214|github.com/anthropics/claude-code/…/v2.1.214>\n3. _Claude Code v2.1.215リリース（7/19）：/verifyと/code-reviewが手動呼び出し専用に変更_\n└ Claudeが`/verify`と`/code-review`スキルを自動実行しなくなった。明示的にコマンド入力したときのみ動作するよう変更。過剰なレビュー実行による意図しない動作を抑制する目的。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.215|github.com/anthropics/claude-code/…/v2.1.215>\n4. _Microsoft「Project Perception」：Anthropic・OpenAI・Microsoftモデルを組み合わせた低コスト脆弱性検出ツール_\n└ MicrosoftがAnthropic・OpenAI・自社モデルを組み合わせ、企業コード・クラウドインフラの脆弱性を自動特定・修正提案する「Project Perception」を今月内に正式ローンチ予定。Anthropic Mythosの100%高いAPIコストに対して大幅安いコストが訴求点で、スマートルーティングにより各セキュリティタスクに最適なモデルを選択する仕組み。\n:link: <https://www.techrepublic.com/article/news-microsoft-project-perception-ai-security-tool/|techrepublic.com/article/news-microsoft-project-perception-ai-security-tool> *使用して送信されました* Claude",
+          "messageTs": "1784502918.344239",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-19",
+          "timestamp": "2026-07-19T23:15:18.344Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 197,
+      "messageCount": 198,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-07-18"
+      "lastDate": "2026-07-19"
     },
     {
       "id": "C09Q1KNL2P8",

@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-19T03:22:31.751Z",
+  "generatedAt": "2026-07-20T03:36:38.860Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -60539,6 +60539,41 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-18_ 1. _Cursor、Slack統合を大幅強化──作業前プラン共有・マルチリポジトリ対応_ └ CursorがSlack統合をアップデート（7/17）。作業開始前に計画をSlackへ共有して方向修正できるようになり、フロントエンド・バックエンドなど複数リポジトリ環境での横断作業に対応。他チャンネル・スレッドの参照や投稿も可能になり、従来のインラインボタンはコンパクトなフッターリンクに刷新。テーブル・PR・成果物の表示も改善。 :link: <https://cursor.com/changelog|cursor.com/changelog> 2. _Claude Code v2.1.212リリース──サブエージェント起動数制限・Windows の Git 不要化_ └ 7/17リリース（v2.1.211に続く追加更新）。セッション単位でサブエージェント起動数の上限（デフォルト200回）を設け暴走ループを防止。/resume がエージェントビューでセッション一覧ピッカーを表示するよう改善。`claude ultrareview` コマンドでCI・スクリプトからのコードレビューも実行可能に。Git for Windows なしでも PowerShell が自動利用されるよう改善。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.212|github.com/anthropics/claude-code/…/v2.1.212> 3. _Google、NotebookLM を「Gemini Notebook」に改名──コード実行機能を追加_ └ Google が NotebookLM（利用者3,000万人超・60万組織）を Gemini Notebook に改名（7/16）。各ノートブックに安全なクラウドコンピュータを付与し、アップロードした独自ソースに対して Python コードを記述・実行してデータ分析や Excel/PDF レポートを生成可能に。AI Ultra ユーザー・Workspace 企業向けに提供開始、Pro ユーザーへは数週間以内に展開予定。 :link: <https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/|techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784502918.344239",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784502918.344239",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784502918.344239",
+      "timestamp": "2026-07-19T23:15:18.344Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-19_ 1. _Claude Fable 5、7/20よりMax・Team Premiumに恒久搭載決定（Proはクレジット移行）_ └ Anthropicが7/18に発表。7月20日からFable 5をMax・Team Premium全プランに利用上限50%枠で正式搭載。Proユーザーはウィークリー枠から除外されクレジット課金に移行（一時金$100付与）。無料延長を繰り返してきた「サブスクリプションの宙ぶらりん状態」が解消される。 :link: <https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm|techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only…> 2. _C..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784502918.344239",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-19_ 1. _Claude Fable 5、7/20よりMax・Team Premiumに恒久搭載決定（Proはクレジット移行）_ └ Anthropicが7/18に発表。7月20日からFable 5をMax・Team Premium全プランに利用上限50%枠で正式搭載。Proユーザーはウィークリー枠から除外されクレジット課金に移行（一時金$100付与）。無料延長を繰り返してきた「サブスクリプションの宙ぶらりん状態」が解消される。 :link: <https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm|techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only…> 2. _Claude Code v2.1.214リリース（7/18）：重大セキュリティ修正9件・EndConversationツール追加_ └ Windows PowerShell 5.1のパーミッション確認バイパス修正、`dir/**`ルールが意図しない場所に適用されるバグ修正など計9件のセキュリティ修正。悪意あるユーザー・ジェイルブレイク試行に対してセッションを終了できる`EndConversation...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784502918.344239",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-19_ 1. _Claude Fable 5、7/20よりMax・Team Premiumに恒久搭載決定（Proはクレジット移行）_ └ Anthropicが7/18に発表。7月20日からFable 5をMax・Team Premium全プランに利用上限50%枠で正式搭載。Proユーザーはウィークリー枠から除外されクレジット課金に移行（一時金$100付与）。無料延長を繰り返してきた「サブスクリプションの宙ぶらりん状態」が解消される。 :link: <https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm|techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only…> 2. _Claude Code v2.1.214リリース（7/18）：重大セキュリティ修正9件・EndConversationツール追加_ └ Windows PowerShell 5.1のパーミッション確認バイパス修正、`dir/**`ルールが意図しない場所に適用されるバグ修正など計9件のセキュリティ修正。悪意あるユーザー・ジェイルブレイク試行に対してセッションを終了できる`EndConversation`ツールと、長時間ツール実行時の進行状況ハートビートも追加（計28件のバグ修正）。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.214|github.com/anthropics/claude-code/…/v2.1.214> 3. _Claude Code v2.1.215リリース（7/19）：/verifyと/code-reviewが手動呼び出し専用に変更_ └ Claudeが`/verify`と`/code-review`スキルを自動実行しなくなった。明示的にコマンド入力したときのみ動作するよう変更。過剰なレビュー実行による意図しない動作を抑制する目的。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.215|github.com/anthropics/claude-code/…/v2.1.215> 4. _Microsoft「Project Perception」：Anthropic・OpenAI・M...\nai駆動開発ネタ\n経営"
     }
   ]
 }
