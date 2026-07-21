@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-20T03:36:40.849Z",
+  "generatedAt": "2026-07-21T03:17:16.572Z",
   "channelCount": 9,
-  "totalMessages": 1987,
+  "totalMessages": 1992,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -18208,11 +18208,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1784590999.091519",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "自宅PCに出先からリモートアクセスしたいなあ、と以前から考えてはいたんですが、そういう環境を作るのってめんどくさいんですよね…なかなか作れずにいました。 ですが、TailscaleというサービスをAIがさらっと言い出したので、使ってみたところ、めちゃくちゃ簡単に構築できて感動しました:laughing: 僕と同じように困ってる方がいればぜひ使ってみてください！ もし会社でVPN接続を導入することになったら、Tailscaleを候補のひとつとして検討してもいいんじゃないか、と思います。 紹介記事は以下 <https://note.com/lepandaivre/n/n0a90d710efaa|https://note.com/lepandaivre/n/n0a90d710efaa> Tailscale公式ページは以下 <https://tailscale.com|https://tailscale.com> Wikipediaは以下 <https://ja.wikipedia.org/wiki/Tailscale|https://ja.wikipedia.org/wiki/Tailscale>",
+          "rawText": "自宅PCに出先からリモートアクセスしたいなあ、と以前から考えてはいたんですが、そういう環境を作るのってめんどくさいんですよね…なかなか作れずにいました。\n\nですが、TailscaleというサービスをAIがさらっと言い出したので、使ってみたところ、めちゃくちゃ簡単に構築できて感動しました:laughing:\n\n僕と同じように困ってる方がいればぜひ使ってみてください！\n\nもし会社でVPN接続を導入することになったら、Tailscaleを候補のひとつとして検討してもいいんじゃないか、と思います。\n\n紹介記事は以下\n<https://note.com/lepandaivre/n/n0a90d710efaa|https://note.com/lepandaivre/n/n0a90d710efaa> \n\nTailscale公式ページは以下\n<https://tailscale.com|https://tailscale.com> \n\nWikipediaは以下\n<https://ja.wikipedia.org/wiki/Tailscale|https://ja.wikipedia.org/wiki/Tailscale> ",
+          "messageTs": "1784590999.091519",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-20",
+          "timestamp": "2026-07-20T23:43:19.091Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 949,
+      "messageCount": 950,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-07-14"
+      "lastDate": "2026-07-20"
     },
     {
       "id": "C09Q46YA4ER",
@@ -26002,11 +26022,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1784599580.459499",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0BK4QJRA3S",
+          "userName": "佐々木 智義",
+          "userRealName": "佐々木 智義",
+          "text": "はじめまして。 10月入社予定の佐々木 智義(ささき ともよし)と申します。 ■出身地 神奈川県横浜市 ■これまでやってきたこと 携帯ショップで販売員を経験した後、コンサルタント・スーパーバイザーとして店舗運営やスタッフ育成に携わっていました。 その後IT業界へ転職し、AWS環境を中心にNagiosを利用したインフラの監視・運用業務を担当していました。 ■最近ハマっていること PCゲームやアニメ鑑賞です！ ゲームはVALORANTやOverwatchをよくプレイしています。最近は料理研究家リュウジさんの動画を見ながら作り置き料理を作ることにもハマっています。 ■休日の過ごし方 休日は家でのんびり過ごすことが多く、作り置き料理をしたり、PCゲームをしてリフレッシュしています。 ■ひとこと まだまだ分からないことも多いですが、一日でも早く戦力になれるよう成長していきたいと思っています。 これからよろしくお願いします。",
+          "rawText": "はじめまして。\n10月入社予定の佐々木 智義(ささき ともよし)と申します。\n\n■出身地\n神奈川県横浜市\n\n■これまでやってきたこと\n携帯ショップで販売員を経験した後、コンサルタント・スーパーバイザーとして店舗運営やスタッフ育成に携わっていました。\nその後IT業界へ転職し、AWS環境を中心にNagiosを利用したインフラの監視・運用業務を担当していました。\n\n■最近ハマっていること\nPCゲームやアニメ鑑賞です！\nゲームはVALORANTやOverwatchをよくプレイしています。最近は料理研究家リュウジさんの動画を見ながら作り置き料理を作ることにもハマっています。\n■休日の過ごし方\n休日は家でのんびり過ごすことが多く、作り置き料理をしたり、PCゲームをしてリフレッシュしています。\n\n■ひとこと\nまだまだ分からないことも多いですが、一日でも早く戦力になれるよう成長していきたいと思っています。\nこれからよろしくお願いします。",
+          "messageTs": "1784599580.459499",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-21",
+          "timestamp": "2026-07-21T02:06:20.459Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 406,
+      "messageCount": 407,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-07-17"
+      "lastDate": "2026-07-21"
     },
     {
       "id": "C09MKT8QKAR",
@@ -31601,11 +31641,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1784599654.486029",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> 各位 お疲れ様です。総務からお知らせです:mega: 2026年7月分給与明細(対象：2026/5/1～5／30稼働分)を発行いたしました。 各自マネーフォワードクラウド給与(以降 MFクラウド給与)にて明細をご確認ください。 MF給与クラウド給与へはコチラ(<https://biz.moneyforward.com/payroll|biz.moneyforward.com/payroll> )からログインできます。 また、訂正がある場合は、明日中(7月22日)にご連絡をお願い致します。 以上、よろしくお願い致します。",
+          "rawText": "<!channel>\n各位\nお疲れ様です。総務からお知らせです:mega:\n\n2026年7月分給与明細(対象：2026/5/1～5／30稼働分)を発行いたしました。\n各自マネーフォワードクラウド給与(以降 MFクラウド給与)にて明細をご確認ください。\n\nMF給与クラウド給与へはコチラ(<https://biz.moneyforward.com/payroll|biz.moneyforward.com/payroll> )からログインできます。\nまた、訂正がある場合は、明日中(7月22日)にご連絡をお願い致します。\n\n以上、よろしくお願い致します。",
+          "messageTs": "1784599654.486029",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-21",
+          "timestamp": "2026-07-21T02:07:34.486Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 292,
+      "messageCount": 293,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-07-18"
+      "lastDate": "2026-07-21"
     },
     {
       "id": "C09QXV3F8G0",
@@ -35440,7 +35500,7 @@ window.SLACK_EXPORT_DATA = {
           "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-19_ 1. _Claude Fable 5、7/20よりMax・Team Premiumに恒久搭載決定（Proはクレジット移行）_ └ Anthropicが7/18に発表。7月20日からFable 5をMax・Team Premium全プランに利用上限50%枠で正式搭載。Proユーザーはウィークリー枠から除外されクレジット課金に移行（一時金$100付与）。無料延長を繰り返してきた「サブスクリプションの宙ぶらりん状態」が解消される。 :link: <https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm|techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only…> 2. _Claude Code v2.1.214リリース（7/18）：重大セキュリティ修正9件・EndConversationツール追加_ └ Windows PowerShell 5.1のパーミッション確認バイパス修正、`dir/**`ルールが意図しない場所に適用されるバグ修正など計9件のセキュリティ修正。悪意あるユーザー・ジェイルブレイク試行に対してセッションを終了できる`EndConversation`ツールと、長時間ツール実行時の進行状況ハートビートも追加（計28件のバグ修正）。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.214|github.com/anthropics/claude-code/…/v2.1.214> 3. _Claude Code v2.1.215リリース（7/19）：/verifyと/code-reviewが手動呼び出し専用に変更_ └ Claudeが`/verify`と`/code-review`スキルを自動実行しなくなった。明示的にコマンド入力したときのみ動作するよう変更。過剰なレビュー実行による意図しない動作を抑制する目的。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.215|github.com/anthropics/claude-code/…/v2.1.215> 4. _Microsoft「Project Perception」：Anthropic・OpenAI・Microsoftモデルを組み合わせた低コスト脆弱性検出ツール_ └ MicrosoftがAnthropic・OpenAI・自社モデルを組み合わせ、企業コード・クラウドインフラの脆弱性を自動特定・修正提案する「Project Perception」を今月内に正式ローンチ予定。Anthropic Mythosの100%高いAPIコストに対して大幅安いコストが訴求点で、スマートルーティングにより各セキュリティタスクに最適なモデルを選択する仕組み。 :link: <https://www.techrepublic.com/article/news-microsoft-project-perception-ai-security-tool/|techrepublic.com/article/news-microsoft-project-perception-ai-security-tool> *使用して送信されました* Claude",
           "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-19_\n\n1. _Claude Fable 5、7/20よりMax・Team Premiumに恒久搭載決定（Proはクレジット移行）_\n└ Anthropicが7/18に発表。7月20日からFable 5をMax・Team Premium全プランに利用上限50%枠で正式搭載。Proユーザーはウィークリー枠から除外されクレジット課金に移行（一時金$100付与）。無料延長を繰り返してきた「サブスクリプションの宙ぶらりん状態」が解消される。\n:link: <https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm|techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only…>\n2. _Claude Code v2.1.214リリース（7/18）：重大セキュリティ修正9件・EndConversationツール追加_\n└ Windows PowerShell 5.1のパーミッション確認バイパス修正、`dir/**`ルールが意図しない場所に適用されるバグ修正など計9件のセキュリティ修正。悪意あるユーザー・ジェイルブレイク試行に対してセッションを終了できる`EndConversation`ツールと、長時間ツール実行時の進行状況ハートビートも追加（計28件のバグ修正）。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.214|github.com/anthropics/claude-code/…/v2.1.214>\n3. _Claude Code v2.1.215リリース（7/19）：/verifyと/code-reviewが手動呼び出し専用に変更_\n└ Claudeが`/verify`と`/code-review`スキルを自動実行しなくなった。明示的にコマンド入力したときのみ動作するよう変更。過剰なレビュー実行による意図しない動作を抑制する目的。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.215|github.com/anthropics/claude-code/…/v2.1.215>\n4. _Microsoft「Project Perception」：Anthropic・OpenAI・Microsoftモデルを組み合わせた低コスト脆弱性検出ツール_\n└ MicrosoftがAnthropic・OpenAI・自社モデルを組み合わせ、企業コード・クラウドインフラの脆弱性を自動特定・修正提案する「Project Perception」を今月内に正式ローンチ予定。Anthropic Mythosの100%高いAPIコストに対して大幅安いコストが訴求点で、スマートルーティングにより各セキュリティタスクに最適なモデルを選択する仕組み。\n:link: <https://www.techrepublic.com/article/news-microsoft-project-perception-ai-security-tool/|techrepublic.com/article/news-microsoft-project-perception-ai-security-tool> *使用して送信されました* Claude",
           "messageTs": "1784502918.344239",
-          "threadTs": null,
+          "threadTs": "1784502918.344239",
           "parentUserId": null,
           "subtype": null,
           "date": "2026-07-19",
@@ -35448,11 +35508,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1784554723.031129",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "1. の真相はわからないけど以下の推測が時系列的には正しそう。Fableで得られる収益想定が大きく崩れたと思うのでAnthropicにはめちゃくちゃ痛手なはず。 <https://x.com/sm_hn/status/2078321864020304253?s=46|https://x.com/sm_hn/status/2078321864020304253?s=46>",
+          "rawText": "1. の真相はわからないけど以下の推測が時系列的には正しそう。Fableで得られる収益想定が大きく崩れたと思うのでAnthropicにはめちゃくちゃ痛手なはず。\n\n<https://x.com/sm_hn/status/2078321864020304253?s=46|https://x.com/sm_hn/status/2078321864020304253?s=46> \n\n",
+          "messageTs": "1784554723.031129",
+          "threadTs": "1784502918.344239",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-07-20",
+          "timestamp": "2026-07-20T13:38:43.031Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1784589308.737029",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-20_ 1. _Claude Fable 5の課金移行が本日正式開始、Claude Code Maxプランで誤課金バグ発生→修正済み_ └ 本日7/20よりFable 5がMax・Team PremiumプランはUsage上限50%枠で恒久搭載、Pro/Team Standardはクレジット課金（入力$10/M・出力$50/M）に移行。切り替え直後の07:03 UTCにClaude Code Maxユーザーが誤ってクレジット購入を促される障害が発生。15:35 UTCに解決済み（Claude Codeの再起動で回避可能だった）。 :link: <https://usagebox.com/articles/claude-fable-5-usage-credits-switch-july-2026|usagebox.com/articles/claude-fable-5-usage-credits-switch-july-2026> 2. _中国Moonshot AIの「Kimi K3」がフロントエンドコーディング世界1位を獲得、米AI業界に衝撃_ └ 2.8兆パラメータのオープンウェイトモデルKimi K3がフロントエンドCode Arenaで1,679 Eloを記録し、Claude Fable 5（1,631）・GPT-5.6 Sol（1,618）を超えて首位を獲得。全体性能ではFable 5・GPT-5.6に及ばないが、コーディング・エージェントベンチマークでは両モデルを上回り、今週末の米AI業界で大きな話題に。完全なオープンウェイト公開は7/27予定。 :link: <https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html|cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic…> 3. _【2026-07-20】世界のAI最新ニュース：エージェント時代の実装・コスト・透明性_ └ 本日公開のAI動向まとめ。AIエージェントが試験運用フェーズから本番実装フェーズへの移行が加速中。コスト管理と生成物の説明責任がエンタープライズAI導入の新たな焦点に。上海世界AI会議閉幕・EU対Google規制強化・Kimi K3ショックなど多数のトピックを網羅。 :link: <https://eguweb.jp/ai/81214/|eguweb.jp/ai/81214> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-20_\n\n1. _Claude Fable 5の課金移行が本日正式開始、Claude Code Maxプランで誤課金バグ発生→修正済み_\n└ 本日7/20よりFable 5がMax・Team PremiumプランはUsage上限50%枠で恒久搭載、Pro/Team Standardはクレジット課金（入力$10/M・出力$50/M）に移行。切り替え直後の07:03 UTCにClaude Code Maxユーザーが誤ってクレジット購入を促される障害が発生。15:35 UTCに解決済み（Claude Codeの再起動で回避可能だった）。\n:link: <https://usagebox.com/articles/claude-fable-5-usage-credits-switch-july-2026|usagebox.com/articles/claude-fable-5-usage-credits-switch-july-2026>\n2. _中国Moonshot AIの「Kimi K3」がフロントエンドコーディング世界1位を獲得、米AI業界に衝撃_\n└ 2.8兆パラメータのオープンウェイトモデルKimi K3がフロントエンドCode Arenaで1,679 Eloを記録し、Claude Fable 5（1,631）・GPT-5.6 Sol（1,618）を超えて首位を獲得。全体性能ではFable 5・GPT-5.6に及ばないが、コーディング・エージェントベンチマークでは両モデルを上回り、今週末の米AI業界で大きな話題に。完全なオープンウェイト公開は7/27予定。\n:link: <https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html|cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic…>\n3. _【2026-07-20】世界のAI最新ニュース：エージェント時代の実装・コスト・透明性_\n└ 本日公開のAI動向まとめ。AIエージェントが試験運用フェーズから本番実装フェーズへの移行が加速中。コスト管理と生成物の説明責任がエンタープライズAI導入の新たな焦点に。上海世界AI会議閉幕・EU対Google規制強化・Kimi K3ショックなど多数のトピックを網羅。\n:link: <https://eguweb.jp/ai/81214/|eguweb.jp/ai/81214> *使用して送信されました* Claude",
+          "messageTs": "1784589308.737029",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-20",
+          "timestamp": "2026-07-20T23:15:08.737Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 198,
+      "messageCount": 200,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-07-19"
+      "lastDate": "2026-07-20"
     },
     {
       "id": "C09Q1KNL2P8",

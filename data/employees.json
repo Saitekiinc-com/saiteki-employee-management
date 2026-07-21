@@ -2780,5 +2780,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BHU85SV8U"
+  },
+  {
+    "name": "佐々木 智義",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-07-21T03:17:10.819Z",
+    "updatedAt": "2026-07-21T03:17:10.819Z",
+    "last_updated": "2026-07-21T03:17:10.819Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BK4QJRA3S"
   }
 ]

@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-20T03:36:38.860Z",
+  "generatedAt": "2026-07-21T03:17:11.060Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -60568,12 +60568,185 @@
           "channelId": "C09QXV3F8G0",
           "channelName": "ai駆動開発ネタ",
           "messageTs": "1784502918.344239",
-          "threadTs": null,
+          "threadTs": "1784502918.344239",
           "authorName": "戸塚直道",
           "permalink": null
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-19_ 1. _Claude Fable 5、7/20よりMax・Team Premiumに恒久搭載決定（Proはクレジット移行）_ └ Anthropicが7/18に発表。7月20日からFable 5をMax・Team Premium全プランに利用上限50%枠で正式搭載。Proユーザーはウィークリー枠から除外されクレジット課金に移行（一時金$100付与）。無料延長を繰り返してきた「サブスクリプションの宙ぶらりん状態」が解消される。 :link: <https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm|techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only…> 2. _Claude Code v2.1.214リリース（7/18）：重大セキュリティ修正9件・EndConversationツール追加_ └ Windows PowerShell 5.1のパーミッション確認バイパス修正、`dir/**`ルールが意図しない場所に適用されるバグ修正など計9件のセキュリティ修正。悪意あるユーザー・ジェイルブレイク試行に対してセッションを終了できる`EndConversation`ツールと、長時間ツール実行時の進行状況ハートビートも追加（計28件のバグ修正）。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.214|github.com/anthropics/claude-code/…/v2.1.214> 3. _Claude Code v2.1.215リリース（7/19）：/verifyと/code-reviewが手動呼び出し専用に変更_ └ Claudeが`/verify`と`/code-review`スキルを自動実行しなくなった。明示的にコマンド入力したときのみ動作するよう変更。過剰なレビュー実行による意図しない動作を抑制する目的。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.215|github.com/anthropics/claude-code/…/v2.1.215> 4. _Microsoft「Project Perception」：Anthropic・OpenAI・M...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784554723.031129",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784554723.031129",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784554723.031129",
+      "timestamp": "2026-07-20T13:38:43.031Z",
+      "detailBullets": [
+        "1. の真相はわからないけど以下の推測が時系列的には正しそう。Fableで得られる収益想定が大きく崩れたと思うのでAnthropicにはめちゃくちゃ痛手なはず。 <https://x.com/sm_hn/status/2078321864020304253?s=46|https://x.com/sm_hn/status/2078321864020304253?s=46>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784554723.031129",
+          "text": "1. の真相はわからないけど以下の推測が時系列的には正しそう。Fableで得られる収益想定が大きく崩れたと思うのでAnthropicにはめちゃくちゃ痛手なはず。 <https://x.com/sm_hn/status/2078321864020304253?s=46|https://x.com/sm_hn/status/2078321864020304253?s=46>",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784554723.031129",
+          "threadTs": "1784502918.344239",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "1. の真相はわからないけど以下の推測が時系列的には正しそう。Fableで得られる収益想定が大きく崩れたと思うのでAnthropicにはめちゃくちゃ痛手なはず。 <https://x.com/sm_hn/status/2078321864020304253?s=46|https://x.com/sm_hn/status/2078321864020304253?s=46>\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784589308.737029",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784589308.737029",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784589308.737029",
+      "timestamp": "2026-07-20T23:15:08.737Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-20_ 1. _Claude Fable 5の課金移行が本日正式開始、Claude Code Maxプランで誤課金バグ発生→修正済み_ └ 本日7/20よりFable 5がMax・Team PremiumプランはUsage上限50%枠で恒久搭載、Pro/Team Standardはクレジット課金（入力$10/M・出力$50/M）に移行。切り替え直後の07:03 UTCにClaude Code Maxユーザーが誤ってクレジット購入を促される障害が発生。15:35 UTCに解決済み（Claude Codeの再起動で回避可能だった）。 :link: <https://usagebox.com/articles/claude-fable-5-usage-credits-switch-july-2026|usagebox.com/articles/claude-fable-5-usage-credits-switch-july-2026> 2. _中国Moonshot AIの「Kimi K3」がフロントエンドコーディング世界..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784589308.737029",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-20_ 1. _Claude Fable 5の課金移行が本日正式開始、Claude Code Maxプランで誤課金バグ発生→修正済み_ └ 本日7/20よりFable 5がMax・Team PremiumプランはUsage上限50%枠で恒久搭載、Pro/Team Standardはクレジット課金（入力$10/M・出力$50/M）に移行。切り替え直後の07:03 UTCにClaude Code Maxユーザーが誤ってクレジット購入を促される障害が発生。15:35 UTCに解決済み（Claude Codeの再起動で回避可能だった）。 :link: <https://usagebox.com/articles/claude-fable-5-usage-credits-switch-july-2026|usagebox.com/articles/claude-fable-5-usage-credits-switch-july-2026> 2. _中国Moonshot AIの「Kimi K3」がフロントエンドコーディング世界1位を獲得、米AI業界に衝撃_ └ 2.8兆パラメータのオープンウェイトモデルKimi K3がフロントエンドCode Arenaで1,679 Eloを記録し、Claude Fable 5（1,631）・GPT-5.6 Sol（1,618）を超えて首位を獲得。全体性能ではFable 5・GPT-5.6に及ばないが、コーディング・エージェントベンチマークでは両モデルを上回り、今週末の米AI業界で大きな...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784589308.737029",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-20_ 1. _Claude Fable 5の課金移行が本日正式開始、Claude Code Maxプランで誤課金バグ発生→修正済み_ └ 本日7/20よりFable 5がMax・Team PremiumプランはUsage上限50%枠で恒久搭載、Pro/Team Standardはクレジット課金（入力$10/M・出力$50/M）に移行。切り替え直後の07:03 UTCにClaude Code Maxユーザーが誤ってクレジット購入を促される障害が発生。15:35 UTCに解決済み（Claude Codeの再起動で回避可能だった）。 :link: <https://usagebox.com/articles/claude-fable-5-usage-credits-switch-july-2026|usagebox.com/articles/claude-fable-5-usage-credits-switch-july-2026> 2. _中国Moonshot AIの「Kimi K3」がフロントエンドコーディング世界1位を獲得、米AI業界に衝撃_ └ 2.8兆パラメータのオープンウェイトモデルKimi K3がフロントエンドCode Arenaで1,679 Eloを記録し、Claude Fable 5（1,631）・GPT-5.6 Sol（1,618）を超えて首位を獲得。全体性能ではFable 5・GPT-5.6に及ばないが、コーディング・エージェントベンチマークでは両モデルを上回り、今週末の米AI業界で大きな話題に。完全なオープンウェイト公開は7/27予定。 :link: <https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html|cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic…> 3. _【2026-07-20】世界のAI最新ニュース：エージェント時代の実装・コスト・透明性_ └ 本日公開のAI動向まとめ。AIエージェントが試験運用フェーズから本番実装フェーズへの移行が加速中。コスト管理と生成物の説明責任がエンタープライズAI導入の新たな焦点に。上海世界AI会議閉幕・EU対Google規制強化・Kimi K3ショックなど多数のトピックを網羅。 :link: <https://eguweb.jp/ai/81214/|eguweb.jp/ai/81214> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784590999.091519",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784590999.091519",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784590999.091519",
+      "timestamp": "2026-07-20T23:43:19.091Z",
+      "detailBullets": [
+        "自宅PCに出先からリモートアクセスしたいなあ、と以前から考えてはいたんですが、そういう環境を作るのってめんどくさいんですよね…なかなか作れずにいました。 ですが、TailscaleというサービスをAIがさらっと言い出したので、使ってみたところ、めちゃくちゃ簡単に構築できて感動しました:laughing: 僕と同じように困ってる方がいればぜひ使ってみてください！ もし会社でVPN接続を導入することになったら、Tailscaleを候補のひとつとして検討してもいいんじゃないか、と思います。 紹介記事は以下 <https://note.com/lepandaivre/n/n0a90d710efaa|https://note.com/lepandaivre/n/n0a90d710efaa> Tailscale公式ページは以下 <https://tailscale.com|https://tailscale.com> Wikipediaは以下 <https://ja.wikipedia.org/wiki/Tailscale|https://ja.wikipedia.org/wiki/Tailsc..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784590999.091519",
+          "text": "自宅PCに出先からリモートアクセスしたいなあ、と以前から考えてはいたんですが、そういう環境を作るのってめんどくさいんですよね…なかなか作れずにいました。 ですが、TailscaleというサービスをAIがさらっと言い出したので、使ってみたところ、めちゃくちゃ簡単に構築できて感動しました:laughing: 僕と同じように困ってる方がいればぜひ使ってみてください！ もし会社でVPN接続を導入することになったら、Tailscaleを候補のひとつとして検討してもいいんじゃないか、と思います。 紹介記事は以下 <https://note.com/lepandaivre/n/n0a90d710efaa|https://note.com/lepandaivre/n/n0a90d710efaa> Tailscale公式ページは以下 <https://tailscale.com|https://tailscale.com> Wikipediaは以下 <https://ja.wikipedia.org/wiki/Tailscale|https://ja.wikipedia.org/wiki/Tailscale>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784590999.091519",
+          "threadTs": null,
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "自宅PCに出先からリモートアクセスしたいなあ、と以前から考えてはいたんですが、そういう環境を作るのってめんどくさいんですよね…なかなか作れずにいました。 ですが、TailscaleというサービスをAIがさらっと言い出したので、使ってみたところ、めちゃくちゃ簡単に構築できて感動しました:laughing: 僕と同じように困ってる方がいればぜひ使ってみてください！ もし会社でVPN接続を導入することになったら、Tailscaleを候補のひとつとして検討してもいいんじゃないか、と思います。 紹介記事は以下 <https://note.com/lepandaivre/n/n0a90d710efaa|https://note.com/lepandaivre/n/n0a90d710efaa> Tailscale公式ページは以下 <https://tailscale.com|https://tailscale.com> Wikipediaは以下 <https://ja.wikipedia.org/wiki/Tailscale|https://ja.wikipedia.org/wiki/Tailscale>\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1784599580.459499",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:佐々木 智義",
+      "personName": "佐々木 智義",
+      "slackIds": [
+        "U0BK4QJRA3S"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1784599580.459499",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1784599580.459499",
+      "timestamp": "2026-07-21T02:06:20.459Z",
+      "detailBullets": [
+        "はじめまして。 10月入社予定の佐々木 智義(ささき ともよし)と申します。 ■出身地 神奈川県横浜市 ■これまでやってきたこと 携帯ショップで販売員を経験した後、コンサルタント・スーパーバイザーとして店舗運営やスタッフ育成に携わっていました。 その後IT業界へ転職し、AWS環境を中心にNagiosを利用したインフラの監視・運用業務を担当していました。 ■最近ハマっていること PCゲームやアニメ鑑賞です！ ゲームはVALORANTやOverwatchをよくプレイしています。最近は料理研究家リュウジさんの動画を見ながら作り置き料理を作ることにもハマっています。 ■休日の過ごし方 休日は家でのんびり過ごすことが多く、作り置き料理をしたり、PCゲームをしてリフレッシュしています。 ■ひとこと まだまだ分からないことも多いですが、一日でも早く戦力になれるよう成長していきたいと思っています。 これからよろしくお願いします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1784599580.459499",
+          "text": "はじめまして。 10月入社予定の佐々木 智義(ささき ともよし)と申します。 ■出身地 神奈川県横浜市 ■これまでやってきたこと 携帯ショップで販売員を経験した後、コンサルタント・スーパーバイザーとして店舗運営やスタッフ育成に携わっていました。 その後IT業界へ転職し、AWS環境を中心にNagiosを利用したインフラの監視・運用業務を担当していました。 ■最近ハマっていること PCゲームやアニメ鑑賞です！ ゲームはVALORANTやOverwatchをよくプレイしています。最近は料理研究家リュウジさんの動画を見ながら作り置き料理を作ることにもハマっています。 ■休日の過ごし方 休日は家でのんびり過ごすことが多く、作り置き料理をしたり、PCゲームをしてリフレッシュしています。 ■ひとこと まだまだ分からないことも多いですが、一日でも早く戦力になれるよう成長していきたいと思っています。 これからよろしくお願いします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1784599580.459499",
+          "threadTs": null,
+          "authorName": "佐々木 智義",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして。 10月入社予定の佐々木 智義(ささき ともよし)と申します。 ■出身地 神奈川県横浜市 ■これまでやってきたこと 携帯ショップで販売員を経験した後、コンサルタント・スーパーバイザーとして店舗運営やスタッフ育成に携わっていました。 その後IT業界へ転職し、AWS環境を中心にNagiosを利用したインフラの監視・運用業務を担当していました。 ■最近ハマっていること PCゲームやアニメ鑑賞です！ ゲームはVALORANTやOverwatchをよくプレイしています。最近は料理研究家リュウジさんの動画を見ながら作り置き料理を作ることにもハマっています。 ■休日の過ごし方 休日は家でのんびり過ごすことが多く、作り置き料理をしたり、PCゲームをしてリフレッシュしています。 ■ひとこと まだまだ分からないことも多いですが、一日でも早く戦力になれるよう成長していきたいと思っています。 これからよろしくお願いします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1784599654.486029",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1784599654.486029",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1784599654.486029",
+      "timestamp": "2026-07-21T02:07:34.486Z",
+      "detailBullets": [
+        "<!channel> 各位 お疲れ様です。総務からお知らせです:mega: 2026年7月分給与明細(対象：2026/5/1～5／30稼働分)を発行いたしました。 各自マネーフォワードクラウド給与(以降 MFクラウド給与)にて明細をご確認ください。 MF給与クラウド給与へはコチラ(<https://biz.moneyforward.com/payroll|biz.moneyforward.com/payroll> )からログインできます。 また、訂正がある場合は、明日中(7月22日)にご連絡をお願い致します。 以上、よろしくお願い致します。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1784599654.486029",
+          "text": "<!channel> 各位 お疲れ様です。総務からお知らせです:mega: 2026年7月分給与明細(対象：2026/5/1～5／30稼働分)を発行いたしました。 各自マネーフォワードクラウド給与(以降 MFクラウド給与)にて明細をご確認ください。 MF給与クラウド給与へはコチラ(<https://biz.moneyforward.com/payroll|biz.moneyforward.com/payroll> )からログインできます。 また、訂正がある場合は、明日中(7月22日)にご連絡をお願い致します。 以上、よろしくお願い致します。",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1784599654.486029",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> 各位 お疲れ様です。総務からお知らせです:mega: 2026年7月分給与明細(対象：2026/5/1～5／30稼働分)を発行いたしました。 各自マネーフォワードクラウド給与(以降 MFクラウド給与)にて明細をご確認ください。 MF給与クラウド給与へはコチラ(<https://biz.moneyforward.com/payroll|biz.moneyforward.com/payroll> )からログインできます。 また、訂正がある場合は、明日中(7月22日)にご連絡をお願い致します。 以上、よろしくお願い致します。\nall-saiteki\nSales"
     }
   ]
 }
