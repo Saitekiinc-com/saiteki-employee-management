@@ -2795,5 +2795,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BK4QJRA3S"
+  },
+  {
+    "name": "渡邉 碩人",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-07-22T03:15:14.379Z",
+    "updatedAt": "2026-07-22T03:15:14.379Z",
+    "last_updated": "2026-07-22T03:15:14.379Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BJ4BB4F7W"
   }
 ]
