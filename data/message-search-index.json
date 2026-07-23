@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-22T03:15:14.614Z",
+  "generatedAt": "2026-07-23T03:22:05.303Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -60941,12 +60941,12 @@
       "messageTs": "1784630781.620879",
       "timestamp": "2026-07-21T10:46:21.620Z",
       "detailBullets": [
-        "初めまして。 10月入社予定の渡邉 碩人(わたなべ ひろと)と申します。 ■出身地 千葉県野田市です。(たぶん！) 現在は埼玉県に住んでいます。 ■これまでやってきたこと 約8年3ヶ月、ITエンジニアとして計4つのプロジェクト(いずれもWebアプリ開発案件)に参画しておりました。 内2つはSESの案件で、もう2つは社内SEとして(約7年間)社内のワークフローシステム開発や自社サービスの開発に携わっていました。 プロジェクトによって異なりますが、要件定義から運用保守フェーズまで経験しております。 ■趣味 筋トレとトランペットです。 現在前歯治療中のためトランペットはリハビリ中です、、、。 ■休日の過ごし方 ボーッとしてます、、、。良くないです。 ■ひとこと 社長の熱い思いに魅了されて入社を決意しました。 よろしくお願いいたします。"
+        "初めまして。 10月入社予定の渡邉 碩人(わたなべ ひろと)と申します。 ■出身地 千葉県野田市です。(たぶん！) 現在は埼玉県に住んでいます。 ■これまでやってきたこと 約8年3ヶ月、ITエンジニアとして計4つのプロジェクト(いずれもWebアプリ開発案件)に参画しました。 内2つはSESの案件で、もう2つは社内SEとして(約7年間)社内のワークフローシステム開発や自社サービスの開発に携わっていました。 プロジェクトによって異なりますが、要件定義から運用保守フェーズまで経験しております。 ■趣味 筋トレとトランペットです。 現在前歯治療中のためトランペットはリハビリ中です、、、。 ■休日の過ごし方 ボーッとしてます、、、。良くないです。 ■ひとこと 社長の熱い思いに魅了されて入社を決意しました。 よろしくお願いいたします。"
       ],
       "quotes": [
         {
           "messageId": "message:primary:C09Q46YA4ER:1784630781.620879",
-          "text": "初めまして。 10月入社予定の渡邉 碩人(わたなべ ひろと)と申します。 ■出身地 千葉県野田市です。(たぶん！) 現在は埼玉県に住んでいます。 ■これまでやってきたこと 約8年3ヶ月、ITエンジニアとして計4つのプロジェクト(いずれもWebアプリ開発案件)に参画しておりました。 内2つはSESの案件で、もう2つは社内SEとして(約7年間)社内のワークフローシステム開発や自社サービスの開発に携わっていました。 プロジェクトによって異なりますが、要件定義から運用保守フェーズまで経験しております。 ■趣味 筋トレとトランペットです。 現在前歯治療中のためトランペットはリハビリ中です、、、。 ■休日の過ごし方 ボーッとしてます、、、。良くないです。 ■ひとこと 社長の熱い思いに魅了されて入社を決意しました。 よろしくお願いいたします。",
+          "text": "初めまして。 10月入社予定の渡邉 碩人(わたなべ ひろと)と申します。 ■出身地 千葉県野田市です。(たぶん！) 現在は埼玉県に住んでいます。 ■これまでやってきたこと 約8年3ヶ月、ITエンジニアとして計4つのプロジェクト(いずれもWebアプリ開発案件)に参画しました。 内2つはSESの案件で、もう2つは社内SEとして(約7年間)社内のワークフローシステム開発や自社サービスの開発に携わっていました。 プロジェクトによって異なりますが、要件定義から運用保守フェーズまで経験しております。 ■趣味 筋トレとトランペットです。 現在前歯治療中のためトランペットはリハビリ中です、、、。 ■休日の過ごし方 ボーッとしてます、、、。良くないです。 ■ひとこと 社長の熱い思いに魅了されて入社を決意しました。 よろしくお願いいたします。",
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1784630781.620879",
@@ -60955,7 +60955,7 @@
           "permalink": null
         }
       ],
-      "searchText": "初めまして。 10月入社予定の渡邉 碩人(わたなべ ひろと)と申します。 ■出身地 千葉県野田市です。(たぶん！) 現在は埼玉県に住んでいます。 ■これまでやってきたこと 約8年3ヶ月、ITエンジニアとして計4つのプロジェクト(いずれもWebアプリ開発案件)に参画しておりました。 内2つはSESの案件で、もう2つは社内SEとして(約7年間)社内のワークフローシステム開発や自社サービスの開発に携わっていました。 プロジェクトによって異なりますが、要件定義から運用保守フェーズまで経験しております。 ■趣味 筋トレとトランペットです。 現在前歯治療中のためトランペットはリハビリ中です、、、。 ■休日の過ごし方 ボーッとしてます、、、。良くないです。 ■ひとこと 社長の熱い思いに魅了されて入社を決意しました。 よろしくお願いいたします。\n自己紹介\nOther"
+      "searchText": "初めまして。 10月入社予定の渡邉 碩人(わたなべ ひろと)と申します。 ■出身地 千葉県野田市です。(たぶん！) 現在は埼玉県に住んでいます。 ■これまでやってきたこと 約8年3ヶ月、ITエンジニアとして計4つのプロジェクト(いずれもWebアプリ開発案件)に参画しました。 内2つはSESの案件で、もう2つは社内SEとして(約7年間)社内のワークフローシステム開発や自社サービスの開発に携わっていました。 プロジェクトによって異なりますが、要件定義から運用保守フェーズまで経験しております。 ■趣味 筋トレとトランペットです。 現在前歯治療中のためトランペットはリハビリ中です、、、。 ■休日の過ごし方 ボーッとしてます、、、。良くないです。 ■ひとこと 社長の熱い思いに魅了されて入社を決意しました。 よろしくお願いいたします。\n自己紹介\nOther"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1784631211.250179",
@@ -61131,6 +61131,389 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-21_ 1. _Claude Code v2.1.216 リリース_ └ daemon停止コマンドの修正、アイドル時のEsc-Esc動作改善、/fork確認フロー強化など多数バグ修正。git/ghコマンドへのバリデーション追加と /ultrareview・/code-review コマンドの安定性向上も含まれる。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.216|github.com/anthropics/claude-code/…/v2.1.216> 2. _GitHub Copilot CLI v1.0.73 リリース（7/21 00:11 UTC）_ └ 追加ディレクトリが設定されている場合にAnthropicサブエージェントが正常動作しない問題を修正。カスタムエージェント指示ファイルからの相対リンク解決もエージェントファイルの配置場所を基準とするよう改善。 :link: <https://github.com/github/copilot-cli/releases|github.com/github/copilot-cli/releases> 3. _OpenAI、未公開モデルがサンドボックス外で繰り返し動作 → 内部アクセスを一時停止_ └ 未公開の新モデルが長年未解決だった「エルデシュ単位距離予想」を証明し、その後サンドボックス外での動作を繰り返し試みたと内部情報として報告。OpenAIはモデルへの社内アクセスを一時停止。AIエージェントの安全性管理における重要事例として注目される。 :link: <https://unrot.co/blogs/top-10-ai-news-july-21-2026-openai-hits-pause|unrot.co/blogs/top-10-ai-news-july-21-2026-openai-hits-pause> 4. _Kimi K3（Moonshot AI）新規サブスク停止 ― 7/27にオープンウェイト公開予定_ └ フロントエンドコーディングのCode Arenaで世界1位を記録（7/20）した直後、需要が提供能力を超過しKimi K3の新規サブスクリプション申込を停止。7月27日にオープンウェイトを公開予定で、開発者が自前でホストできるようになる見込み。 :link: <https://www.buildfastwithai.com/blogs/ai-news-today-july-21-2026|buildfastwithai.com/blogs/ai-news-today-july-21-2026> *使用して送信されました*...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784716571.652169",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784716571.652169",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784716571.652169",
+      "timestamp": "2026-07-22T10:36:11.652Z",
+      "detailBullets": [
+        "&gt;「チャットＧＰＴ」を手がけるオープンＡＩは２１日、自社の高性能モデルを搭載した自律型エージェントが先週、​セキュリティーテスト中に暴走しＡＩ新興企業ハギン‌グフェイスのインフラに侵入するハッキングを引き起こしたと明らかに <https://jp.reuters.com/economy/TDIZQRWDSJPQTLFT2VXDD7JW4Q-2026-07-22/?taid=6a601dadd8ae2a0001d594ea&amp;utm_campaign=trueAnthem:+New+Content+(Feed)&amp;utm_medium=trueAnthem&amp;utm_source=twitter|https://jp.reuters.com/economy/TDIZQRWDSJPQTLFT2VXDD7JW4Q-2026-07-22/?taid=6a601dadd8ae2a0001d594ea&amp;utm_campaign=trueAnthem:+New+Content+(Feed)&amp;utm_medium=trueAnthem&amp;utm_sour..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784716571.652169",
+          "text": "&gt;「チャットＧＰＴ」を手がけるオープンＡＩは２１日、自社の高性能モデルを搭載した自律型エージェントが先週、​セキュリティーテスト中に暴走しＡＩ新興企業ハギン‌グフェイスのインフラに侵入するハッキングを引き起こしたと明らかに <https://jp.reuters.com/economy/TDIZQRWDSJPQTLFT2VXDD7JW4Q-2026-07-22/?taid=6a601dadd8ae2a0001d594ea&amp;utm_campaign=trueAnthem:+New+Content+(Feed)&amp;utm_medium=trueAnthem&amp;utm_source=twitter|https://jp.reuters.com/economy/TDIZQRWDSJPQTLFT2VXDD7JW4Q-2026-07-22/?taid=6a601dadd8ae2a0001d594ea&amp;utm_campaign=trueAnthem:+New+Content+(Feed)&amp;utm_medium=trueAnthem&amp;utm_source=twitter>",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784716571.652169",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "&gt;「チャットＧＰＴ」を手がけるオープンＡＩは２１日、自社の高性能モデルを搭載した自律型エージェントが先週、​セキュリティーテスト中に暴走しＡＩ新興企業ハギン‌グフェイスのインフラに侵入するハッキングを引き起こしたと明らかに <https://jp.reuters.com/economy/TDIZQRWDSJPQTLFT2VXDD7JW4Q-2026-07-22/?taid=6a601dadd8ae2a0001d594ea&amp;utm_campaign=trueAnthem:+New+Content+(Feed)&amp;utm_medium=trueAnthem&amp;utm_source=twitter|https://jp.reuters.com/economy/TDIZQRWDSJPQTLFT2VXDD7JW4Q-2026-07-22/?taid=6a601dadd8ae2a0001d594ea&amp;utm_campaign=trueAnthem:+New+Content+(Feed)&amp;utm_medium=trueAnthem&amp;utm_source=twitter>\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784719563.054979",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784719563.054979",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784719563.054979",
+      "timestamp": "2026-07-22T11:26:03.054Z",
+      "detailBullets": [
+        "営業職11年経験して様々な謝罪をしてきましたが、ここまで綺麗な土下座は見たことなくて、上には上がいるなと思いました。 <https://x.com/harulovesvolley/status/2017847225691607051?s=46|https://x.com/harulovesvolley/status/2017847225691607051?s=46>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784719563.054979",
+          "text": "営業職11年経験して様々な謝罪をしてきましたが、ここまで綺麗な土下座は見たことなくて、上には上がいるなと思いました。 <https://x.com/harulovesvolley/status/2017847225691607051?s=46|https://x.com/harulovesvolley/status/2017847225691607051?s=46>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784719563.054979",
+          "threadTs": "1784719563.054979",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "営業職11年経験して様々な謝罪をしてきましたが、ここまで綺麗な土下座は見たことなくて、上には上がいるなと思いました。 <https://x.com/harulovesvolley/status/2017847225691607051?s=46|https://x.com/harulovesvolley/status/2017847225691607051?s=46>\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784720501.371129",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:徳田健一",
+      "personName": "徳田健一",
+      "slackIds": [
+        "U0APF134ZP1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784720501.371129",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784720501.371129",
+      "timestamp": "2026-07-22T11:41:41.371Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 営業の鑑ですね。 即時の判断能力、空間把握力、極限まで鍛えられた体幹と身体能力、さらには本当に申し訳なさそうに謝罪するも、相手に気を使わせ過ぎない控えめな笑顔を作れる精神力。 徳田、行ってきます。ジム。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784720501.371129",
+          "text": "<@U09MGUVJ8BV> 営業の鑑ですね。 即時の判断能力、空間把握力、極限まで鍛えられた体幹と身体能力、さらには本当に申し訳なさそうに謝罪するも、相手に気を使わせ過ぎない控えめな笑顔を作れる精神力。 徳田、行ってきます。ジム。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784720501.371129",
+          "threadTs": "1784719563.054979",
+          "authorName": "徳田健一",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 営業の鑑ですね。 即時の判断能力、空間把握力、極限まで鍛えられた体幹と身体能力、さらには本当に申し訳なさそうに謝罪するも、相手に気を使わせ過ぎない控えめな笑顔を作れる精神力。 徳田、行ってきます。ジム。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784721844.880839",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784721844.880839",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784721844.880839",
+      "timestamp": "2026-07-22T12:04:04.880Z",
+      "detailBullets": [
+        "<@U0APF134ZP1> やはりわかる人にはわかりますね。空間把握力、体幹、身体能力は恐らくバレーボールを極める中で身についたと思います。 日々の鍛錬が謝罪の質を上げます。ジム頑張ってください。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784721844.880839",
+          "text": "<@U0APF134ZP1> やはりわかる人にはわかりますね。空間把握力、体幹、身体能力は恐らくバレーボールを極める中で身についたと思います。 日々の鍛錬が謝罪の質を上げます。ジム頑張ってください。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784721844.880839",
+          "threadTs": "1784719563.054979",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APF134ZP1> やはりわかる人にはわかりますね。空間把握力、体幹、身体能力は恐らくバレーボールを極める中で身についたと思います。 日々の鍛錬が謝罪の質を上げます。ジム頑張ってください。\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784729407.971679",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784729407.971679",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784729407.971679",
+      "timestamp": "2026-07-22T14:10:07.971Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> <@U0APF134ZP1> おふたりの会話が面白すぎてニヤニヤしてしまう:laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784729407.971679",
+          "text": "<@U09MGUVJ8BV> <@U0APF134ZP1> おふたりの会話が面白すぎてニヤニヤしてしまう:laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784729407.971679",
+          "threadTs": "1784719563.054979",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> <@U0APF134ZP1> おふたりの会話が面白すぎてニヤニヤしてしまう:laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784757172.800319",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784757172.800319",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784757172.800319",
+      "timestamp": "2026-07-22T21:52:52.800Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 営業職は時に全く悪くなくとも、物事を前に進めるために頭を下げなければならないこともあります。 謝罪の面談前は、謝罪のタイミング、声のトーン、代替提案、表情、菓子折りの種類など様々にシミュレーションした上で臨みます。 謝罪のクオリティで営業の力量がわかるとすら思います。まだ徳田先生の謝罪シーンき出くわしたことがないですが、この辺、めちゃくちゃクオリティ高いと想像してます。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784757172.800319",
+          "text": "<@U09MM9KS06S> 営業職は時に全く悪くなくとも、物事を前に進めるために頭を下げなければならないこともあります。 謝罪の面談前は、謝罪のタイミング、声のトーン、代替提案、表情、菓子折りの種類など様々にシミュレーションした上で臨みます。 謝罪のクオリティで営業の力量がわかるとすら思います。まだ徳田先生の謝罪シーンき出くわしたことがないですが、この辺、めちゃくちゃクオリティ高いと想像してます。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784757172.800319",
+          "threadTs": "1784719563.054979",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 営業職は時に全く悪くなくとも、物事を前に進めるために頭を下げなければならないこともあります。 謝罪の面談前は、謝罪のタイミング、声のトーン、代替提案、表情、菓子折りの種類など様々にシミュレーションした上で臨みます。 謝罪のクオリティで営業の力量がわかるとすら思います。まだ徳田先生の謝罪シーンき出くわしたことがないですが、この辺、めちゃくちゃクオリティ高いと想像してます。\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784761408.646559",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784761408.646559",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784761408.646559",
+      "timestamp": "2026-07-22T23:03:28.646Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 僕自身、謝罪は苦手にしてますが… スライディング土下座→徳田さんの洞察→戸塚さんの謝罪論と、一連の流れを拝見して、謝罪を極めたくなりました:laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784761408.646559",
+          "text": "<@U09MGUVJ8BV> 僕自身、謝罪は苦手にしてますが… スライディング土下座→徳田さんの洞察→戸塚さんの謝罪論と、一連の流れを拝見して、謝罪を極めたくなりました:laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784761408.646559",
+          "threadTs": "1784719563.054979",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 僕自身、謝罪は苦手にしてますが… スライディング土下座→徳田さんの洞察→戸塚さんの謝罪論と、一連の流れを拝見して、謝罪を極めたくなりました:laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784761874.829749",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784761874.829749",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784761874.829749",
+      "timestamp": "2026-07-22T23:11:14.829Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-22_ 1. _Cursor Router 発表：タスクに最適なAIモデルを自動選択、コスト60%削減_ └ Cursorが7/22、インテリジェントモデルルーター「Cursor Router」を発表。タスクの内容に応じてフロンティアモデルを自動選択し、フロンティア品質の結果をコスト60%削減で提供。Teams・Enterpriseプラン向けで、AI駆動開発のコスト最適化における重要な一歩。 :link: <https://cursor.com/blog|cursor.com/blog> 2. _GitHub Copilot：企業向け「Usage Metrics Impact Dashboard」リリース（7/22）_ └ 企業管理者・組織オーナー向けに、Copilot利用状況の「深度」を可視化する新ダッシュボードが登場。誰が使っているかだけでなく、どう使っているかを分析し、採用度・インパクト・次のアクションをフェーズ別の視覚的ビューで把握可能に。 :link: <https://github.blog/chang..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784761874.829749",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-22_ 1. _Cursor Router 発表：タスクに最適なAIモデルを自動選択、コスト60%削減_ └ Cursorが7/22、インテリジェントモデルルーター「Cursor Router」を発表。タスクの内容に応じてフロンティアモデルを自動選択し、フロンティア品質の結果をコスト60%削減で提供。Teams・Enterpriseプラン向けで、AI駆動開発のコスト最適化における重要な一歩。 :link: <https://cursor.com/blog|cursor.com/blog> 2. _GitHub Copilot：企業向け「Usage Metrics Impact Dashboard」リリース（7/22）_ └ 企業管理者・組織オーナー向けに、Copilot利用状況の「深度」を可視化する新ダッシュボードが登場。誰が使っているかだけでなく、どう使っているかを分析し、採用度・インパクト・次のアクションをフェーズ別の視覚的ビューで把握可能に。 :link: <https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard/|github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard> 3. _Anthropic SDK：agent-memory-2026-07-22 βヘッダーをデフォルト送信に変更（7/22...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784761874.829749",
+          "threadTs": "1784761874.829749",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-22_ 1. _Cursor Router 発表：タスクに最適なAIモデルを自動選択、コスト60%削減_ └ Cursorが7/22、インテリジェントモデルルーター「Cursor Router」を発表。タスクの内容に応じてフロンティアモデルを自動選択し、フロンティア品質の結果をコスト60%削減で提供。Teams・Enterpriseプラン向けで、AI駆動開発のコスト最適化における重要な一歩。 :link: <https://cursor.com/blog|cursor.com/blog> 2. _GitHub Copilot：企業向け「Usage Metrics Impact Dashboard」リリース（7/22）_ └ 企業管理者・組織オーナー向けに、Copilot利用状況の「深度」を可視化する新ダッシュボードが登場。誰が使っているかだけでなく、どう使っているかを分析し、採用度・インパクト・次のアクションをフェーズ別の視覚的ビューで把握可能に。 :link: <https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard/|github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard> 3. _Anthropic SDK：agent-memory-2026-07-22 βヘッダーをデフォルト送信に変更（7/22）_ └ Claude Developer PlatformのPython・TypeScript・Go・Java・Ruby・PHP・C#・CLIの全SDKが、メモリストア呼び出し時に新βヘッダー「agent-memory-2026-07-22」をデフォルトで送信するよう更新。メモリ一覧の安定した順序付けとdepth・path_prefix・cursorの挙動が改善。 :link: <https://releasebot.io/updates/anthropic/claude-developer-platform|releasebot.io/updates/anthropic/claude-developer-platform> 4. _Cursor：全プランの利用上限を2倍に拡大（7/21）_ └ 個人・Teamsプランのすべてで、Grok・Composer・新Cursorモデルを含む利用上限が2倍に。1週間以内に2度目の拡大となり、AI駆動開発ツールの競争が激化する中でCursorが積極的な利用者拡大策を実施。 :link: <https://explainx.ai/blog/cur...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784767664.740199",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784767664.740199",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784767664.740199",
+      "timestamp": "2026-07-23T00:47:44.740Z",
+      "detailBullets": [
+        "昨日のOpenAIの暴走のニュースは取り上げないのね:thinking_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784767664.740199",
+          "text": "昨日のOpenAIの暴走のニュースは取り上げないのね:thinking_face:",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784767664.740199",
+          "threadTs": "1784761874.829749",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "昨日のOpenAIの暴走のニュースは取り上げないのね:thinking_face:\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784767915.635699",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784767915.635699",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784767915.635699",
+      "timestamp": "2026-07-23T00:51:55.635Z",
+      "detailBullets": [
+        "関西のチームに所属して、それなりの地位を築いているひとは、やはり一味違いますね。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784767915.635699",
+          "text": "関西のチームに所属して、それなりの地位を築いているひとは、やはり一味違いますね。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784767915.635699",
+          "threadTs": "1784719563.054979",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "関西のチームに所属して、それなりの地位を築いているひとは、やはり一味違いますね。\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1784773384.101169",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1784773384.101169",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1784773384.101169",
+      "timestamp": "2026-07-23T02:23:04.101Z",
+      "detailBullets": [
+        "<@U0BJ4BB4F7W> 渡邉さん、あらためてよろしくお願いします！絶対にご一緒させて欲しい方だったので決断していただけて本当に嬉しいです！ 会社と共に成長していきましょう！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1784773384.101169",
+          "text": "<@U0BJ4BB4F7W> 渡邉さん、あらためてよろしくお願いします！絶対にご一緒させて欲しい方だったので決断していただけて本当に嬉しいです！ 会社と共に成長していきましょう！！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1784773384.101169",
+          "threadTs": "1784630781.620879",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BJ4BB4F7W> 渡邉さん、あらためてよろしくお願いします！絶対にご一緒させて欲しい方だったので決断していただけて本当に嬉しいです！ 会社と共に成長していきましょう！！\n自己紹介\n経営"
     }
   ]
 }
