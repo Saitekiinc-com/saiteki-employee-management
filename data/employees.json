@@ -2810,5 +2810,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BJ4BB4F7W"
+  },
+  {
+    "name": "Rio",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-07-24T03:15:58.399Z",
+    "updatedAt": "2026-07-24T03:15:58.399Z",
+    "last_updated": "2026-07-24T03:15:58.399Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BK4336Q2X"
   }
 ]

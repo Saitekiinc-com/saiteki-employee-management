@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-23T03:22:05.303Z",
+  "generatedAt": "2026-07-24T03:15:58.636Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -61514,6 +61514,318 @@
         }
       ],
       "searchText": "<@U0BJ4BB4F7W> 渡邉さん、あらためてよろしくお願いします！絶対にご一緒させて欲しい方だったので決断していただけて本当に嬉しいです！ 会社と共に成長していきましょう！！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784777814.174789",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784777814.174789",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784777814.174789",
+      "timestamp": "2026-07-23T03:36:54.174Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> ありがとうございます:blush: まだまだ修行中です:laughing: この一連のやり取りから、本社に伺ってみなさんとゆっくりお話ししたくなりました:raised_hands:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784777814.174789",
+          "text": "<@U0A9EE7HZ3P> ありがとうございます:blush: まだまだ修行中です:laughing: この一連のやり取りから、本社に伺ってみなさんとゆっくりお話ししたくなりました:raised_hands:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784777814.174789",
+          "threadTs": "1784719563.054979",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> ありがとうございます:blush: まだまだ修行中です:laughing: この一連のやり取りから、本社に伺ってみなさんとゆっくりお話ししたくなりました:raised_hands:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784778227.162089",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:徳田健一",
+      "personName": "徳田健一",
+      "slackIds": [
+        "U0APF134ZP1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784778227.162089",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784778227.162089",
+      "timestamp": "2026-07-23T03:43:47.162Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 田浦先生、俺が大阪行きますよ。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784778227.162089",
+          "text": "<@U09MM9KS06S> 田浦先生、俺が大阪行きますよ。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784778227.162089",
+          "threadTs": "1784719563.054979",
+          "authorName": "徳田健一",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 田浦先生、俺が大阪行きますよ。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784778921.046509",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784778921.046509",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784778921.046509",
+      "timestamp": "2026-07-23T03:55:21.046Z",
+      "detailBullets": [
+        "<@U0APF134ZP1> おお、マジすか:bangbang: お越しの際は、関西メンバーも誘って飲みに行きましょう:beer: あわせて謝罪道もご指導ください:laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784778921.046509",
+          "text": "<@U0APF134ZP1> おお、マジすか:bangbang: お越しの際は、関西メンバーも誘って飲みに行きましょう:beer: あわせて謝罪道もご指導ください:laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784778921.046509",
+          "threadTs": "1784719563.054979",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APF134ZP1> おお、マジすか:bangbang: お越しの際は、関西メンバーも誘って飲みに行きましょう:beer: あわせて謝罪道もご指導ください:laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784779536.747579",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:徳田健一",
+      "personName": "徳田健一",
+      "slackIds": [
+        "U0APF134ZP1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784779536.747579",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784779536.747579",
+      "timestamp": "2026-07-23T04:05:36.747Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 行きましょうー！ 以下、謝罪道の研修動画となります。 私はこの作品を見て勉強していました。 ご参考までに。 <https://www.youtube.com/watch?v=moHcwZOWRjQ|youtube.com/watch?v=moHcwZOWRjQ>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784779536.747579",
+          "text": "<@U09MM9KS06S> 行きましょうー！ 以下、謝罪道の研修動画となります。 私はこの作品を見て勉強していました。 ご参考までに。 <https://www.youtube.com/watch?v=moHcwZOWRjQ|youtube.com/watch?v=moHcwZOWRjQ>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784779536.747579",
+          "threadTs": "1784719563.054979",
+          "authorName": "徳田健一",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 行きましょうー！ 以下、謝罪道の研修動画となります。 私はこの作品を見て勉強していました。 ご参考までに。 <https://www.youtube.com/watch?v=moHcwZOWRjQ|youtube.com/watch?v=moHcwZOWRjQ>\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1784804735.309369",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:Rio",
+      "personName": "Rio",
+      "slackIds": [
+        "U0BK4336Q2X"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1784804735.309369",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1784804735.309369",
+      "timestamp": "2026-07-23T11:05:35.309Z",
+      "detailBullets": [
+        "初めまして！ このたび業務委託として一部業務に携わらせていただくことになりました、市川 理緒（いちかわ りお）と申します。 ■これまでやってきたこと SE、法人営業、キャリアアドバイザーなどを経験し、現在は人事として採用業務や採用広報を担当しています。 ■担当予定の業務 正社員としての入社ではありませんが、勉強会の企画・運営など、必要な業務を部分的に担当させていただく予定です！ ■趣味 ・食べ歩き ・旅行 ■休日の過ごし方 気になる飲食店へ行ったり、旅行や海などへ出かけたりすることが多いです。 最近ピラティスを始めたので、土曜日の朝はピラティスから始めるということを習慣にしてます！ ■ひとこと 携わる時間は限られますが、皆さまとコミュニケーションを取りながら、少しでもSaitekiのお力になれるよう努めてまいります。 これからどうぞよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1784804735.309369",
+          "text": "初めまして！ このたび業務委託として一部業務に携わらせていただくことになりました、市川 理緒（いちかわ りお）と申します。 ■これまでやってきたこと SE、法人営業、キャリアアドバイザーなどを経験し、現在は人事として採用業務や採用広報を担当しています。 ■担当予定の業務 正社員としての入社ではありませんが、勉強会の企画・運営など、必要な業務を部分的に担当させていただく予定です！ ■趣味 ・食べ歩き ・旅行 ■休日の過ごし方 気になる飲食店へ行ったり、旅行や海などへ出かけたりすることが多いです。 最近ピラティスを始めたので、土曜日の朝はピラティスから始めるということを習慣にしてます！ ■ひとこと 携わる時間は限られますが、皆さまとコミュニケーションを取りながら、少しでもSaitekiのお力になれるよう努めてまいります。 これからどうぞよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1784804735.309369",
+          "threadTs": "1784804735.309369",
+          "authorName": "Rio",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして！ このたび業務委託として一部業務に携わらせていただくことになりました、市川 理緒（いちかわ りお）と申します。 ■これまでやってきたこと SE、法人営業、キャリアアドバイザーなどを経験し、現在は人事として採用業務や採用広報を担当しています。 ■担当予定の業務 正社員としての入社ではありませんが、勉強会の企画・運営など、必要な業務を部分的に担当させていただく予定です！ ■趣味 ・食べ歩き ・旅行 ■休日の過ごし方 気になる飲食店へ行ったり、旅行や海などへ出かけたりすることが多いです。 最近ピラティスを始めたので、土曜日の朝はピラティスから始めるということを習慣にしてます！ ■ひとこと 携わる時間は限られますが、皆さまとコミュニケーションを取りながら、少しでもSaitekiのお力になれるよう努めてまいります。 これからどうぞよろしくお願いいたします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784808589.589869",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784808589.589869",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784808589.589869",
+      "timestamp": "2026-07-23T12:09:49.589Z",
+      "detailBullets": [
+        "<@U0APF134ZP1> 徳田先生、研修動画にクドカン✖︎阿部サダヲは反則です、最高すぎます:laughing: 履修します:bangbang:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784808589.589869",
+          "text": "<@U0APF134ZP1> 徳田先生、研修動画にクドカン✖︎阿部サダヲは反則です、最高すぎます:laughing: 履修します:bangbang:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784808589.589869",
+          "threadTs": "1784719563.054979",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APF134ZP1> 徳田先生、研修動画にクドカン✖︎阿部サダヲは反則です、最高すぎます:laughing: 履修します:bangbang:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784810899.736949",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784810899.736949",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784810899.736949",
+      "timestamp": "2026-07-23T12:48:19.736Z",
+      "detailBullets": [
+        "都合の悪いことを隠されていたり:smirk: 結構現場でも話題になってたんですけどね:sweat_drops:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784810899.736949",
+          "text": "都合の悪いことを隠されていたり:smirk: 結構現場でも話題になってたんですけどね:sweat_drops:",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784810899.736949",
+          "threadTs": "1784761874.829749",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "都合の悪いことを隠されていたり:smirk: 結構現場でも話題になってたんですけどね:sweat_drops:\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784848274.470319",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784848274.470319",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784848274.470319",
+      "timestamp": "2026-07-23T23:11:14.470Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-23_ 1. _Claude Code v2.1.218リリース（7/22）：/code-reviewバックグラウンド化・オートモード性能低下修正_ └ 37件の変更を含む大型安定化パス。`/code-review` がバックグラウンドサブエージェントで実行されるようになり、会話を汚染しない形で非同期レビューが可能に。長時間オートモードセッションでの二次的パフォーマンス低下を修正、Windows上で `\\u` プレフィックスがCJK文字に化けるバグも解消。MCPサーバーの接続エラー表示も強化。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.218|github.com/anthropics/claude-code/…/v2.1.218> 2. _ホワイトハウス：中国Moonshot AIがAnthropicのFableを蒸留してKimi K3を開発・財務省が制裁を検討（7/22）_ └ ホワイトハウスOSTP局長が公式発表。M..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784848274.470319",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-23_ 1. _Claude Code v2.1.218リリース（7/22）：/code-reviewバックグラウンド化・オートモード性能低下修正_ └ 37件の変更を含む大型安定化パス。`/code-review` がバックグラウンドサブエージェントで実行されるようになり、会話を汚染しない形で非同期レビューが可能に。長時間オートモードセッションでの二次的パフォーマンス低下を修正、Windows上で `\\u` プレフィックスがCJK文字に化けるバグも解消。MCPサーバーの接続エラー表示も強化。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.218|github.com/anthropics/claude-code/…/v2.1.218> 2. _ホワイトハウス：中国Moonshot AIがAnthropicのFableを蒸留してKimi K3を開発・財務省が制裁を検討（7/22）_ └ ホワイトハウスOSTP局長が公式発表。Moonshot AIが高度な蒸留プラットフォームを構築しAnthropicのFable 5を使用、検出回避のためアクセス経路を頻繁に切り替えたと主張。Fable 5の再公開（7/1）からKimi K3リリース（7/16）まで15日という短期間が根拠。財務省がGB300チップ調達を含む制裁を検討中。研究者からは技術的に懐疑的な見解も。 :link: <https://techcrunch.com/2...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784848274.470319",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-23_ 1. _Claude Code v2.1.218リリース（7/22）：/code-reviewバックグラウンド化・オートモード性能低下修正_ └ 37件の変更を含む大型安定化パス。`/code-review` がバックグラウンドサブエージェントで実行されるようになり、会話を汚染しない形で非同期レビューが可能に。長時間オートモードセッションでの二次的パフォーマンス低下を修正、Windows上で `\\u` プレフィックスがCJK文字に化けるバグも解消。MCPサーバーの接続エラー表示も強化。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.218|github.com/anthropics/claude-code/…/v2.1.218> 2. _ホワイトハウス：中国Moonshot AIがAnthropicのFableを蒸留してKimi K3を開発・財務省が制裁を検討（7/22）_ └ ホワイトハウスOSTP局長が公式発表。Moonshot AIが高度な蒸留プラットフォームを構築しAnthropicのFable 5を使用、検出回避のためアクセス経路を頻繁に切り替えたと主張。Fable 5の再公開（7/1）からKimi K3リリース（7/16）まで15日という短期間が根拠。財務省がGB300チップ調達を含む制裁を検討中。研究者からは技術的に懐疑的な見解も。 :link: <https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/|techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable> 3. _Claude音声モードにOpus/Sonnetモデル選択・Thinkingレベル設定UIを追加（7/23）_ └ AnthropicがClaudeの音声モードを強化。Opus・Sonnetを選択するとHaikuへのフォールバックなしで高品質な音声会話が実現。音声UIにThinkingレベル設定が追加され、音声対話でも推論の深度を調整可能に。近日中の公開ロールアウトを示唆する変更。 :link: <https://www.testingcatalog.com/claude-voice-mode-to-get-opus-and-sonnet-model-...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1784859863.439409",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1784859863.439409",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1784859863.439409",
+      "timestamp": "2026-07-24T02:24:23.439Z",
+      "detailBullets": [
+        "<@U0BK4336Q2X> 市川さん、あらためてよろしくお願いします！！ 創業当初に採用媒体の代理店として弊社をご支援いただいていた市川さんに、こうして業務委託としてサポートいただけること、ご縁だなぁ、、としみじみ思います笑 市川さんのキャリアにとっても良い経験を積んでいただけるようにアンテナを張っていきますので、これからあらためてよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1784859863.439409",
+          "text": "<@U0BK4336Q2X> 市川さん、あらためてよろしくお願いします！！ 創業当初に採用媒体の代理店として弊社をご支援いただいていた市川さんに、こうして業務委託としてサポートいただけること、ご縁だなぁ、、としみじみ思います笑 市川さんのキャリアにとっても良い経験を積んでいただけるようにアンテナを張っていきますので、これからあらためてよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1784859863.439409",
+          "threadTs": "1784804735.309369",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BK4336Q2X> 市川さん、あらためてよろしくお願いします！！ 創業当初に採用媒体の代理店として弊社をご支援いただいていた市川さんに、こうして業務委託としてサポートいただけること、ご縁だなぁ、、としみじみ思います笑 市川さんのキャリアにとっても良い経験を積んでいただけるようにアンテナを張っていきますので、これからあらためてよろしくお願いいたします！\n自己紹介\n経営"
     }
   ]
 }
