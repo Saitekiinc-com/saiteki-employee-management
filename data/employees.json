@@ -2825,5 +2825,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BK4336Q2X"
+  },
+  {
+    "name": "森田勝也",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-07-25T03:14:31.692Z",
+    "updatedAt": "2026-07-25T03:14:31.692Z",
+    "last_updated": "2026-07-25T03:14:31.692Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BK41C1Z4P"
   }
 ]

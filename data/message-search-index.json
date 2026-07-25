@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-24T03:15:58.636Z",
+  "generatedAt": "2026-07-25T03:14:31.919Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -61826,6 +61826,422 @@
         }
       ],
       "searchText": "<@U0BK4336Q2X> 市川さん、あらためてよろしくお願いします！！ 創業当初に採用媒体の代理店として弊社をご支援いただいていた市川さんに、こうして業務委託としてサポートいただけること、ご縁だなぁ、、としみじみ思います笑 市川さんのキャリアにとっても良い経験を積んでいただけるようにアンテナを張っていきますので、これからあらためてよろしくお願いいたします！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784887908.191659",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784887908.191659",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784887908.191659",
+      "timestamp": "2026-07-24T10:11:48.191Z",
+      "detailBullets": [
+        "@ALL 今年もやってきました。 そう！皆さんお待ちかねの 鳥 人 間 コ ン テ ス ト ！！:mega: 誰や、待ってないわー言うてるのは。 新人さんもなんのこっちゃかわかりませんよね。 鳥人間って、あのテレビでやってるやつですわ。 暑い夏が今年もやってきましたよ。 開催地は琵琶湖（彦根・松原水泳場）。 現地行く人は、彦根駅から無料シャトルバスが出てるから。 電車で来るのが一番いいですね。 自家用車も彦根駅に停めて。青空駐車場やから、フロントカバーしておきましょう。 近くのコンビニ、つぶれちゃってるから飲み物忘れずにね。 バス、今年は5:30から走ってくれるので、１番機も見れるよ。 今年もプロペラ機から飛びますね。日曜が滑空機。滑空機も良い。 １番機は京大か。京大は、まぁ、あそこは...すぐ落ちるかな（酷） 今年は足場組んでるときに事故もあったので心配してたけど無事開催しますね。 出場が決まってた名門チームが１組、来る前に断念してる。機体損壊したかなぁ... 木曜から続々と琵琶湖に向けて遡上しているバードマンたち。 今日の点検（大会運営側の最終チェック）は無事終わったみたいです。..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784887908.191659",
+          "text": "@ALL 今年もやってきました。 そう！皆さんお待ちかねの 鳥 人 間 コ ン テ ス ト ！！:mega: 誰や、待ってないわー言うてるのは。 新人さんもなんのこっちゃかわかりませんよね。 鳥人間って、あのテレビでやってるやつですわ。 暑い夏が今年もやってきましたよ。 開催地は琵琶湖（彦根・松原水泳場）。 現地行く人は、彦根駅から無料シャトルバスが出てるから。 電車で来るのが一番いいですね。 自家用車も彦根駅に停めて。青空駐車場やから、フロントカバーしておきましょう。 近くのコンビニ、つぶれちゃってるから飲み物忘れずにね。 バス、今年は5:30から走ってくれるので、１番機も見れるよ。 今年もプロペラ機から飛びますね。日曜が滑空機。滑空機も良い。 １番機は京大か。京大は、まぁ、あそこは...すぐ落ちるかな（酷） 今年は足場組んでるときに事故もあったので心配してたけど無事開催しますね。 出場が決まってた名門チームが１組、来る前に断念してる。機体損壊したかなぁ... 木曜から続々と琵琶湖に向けて遡上しているバードマンたち。 今日の点検（大会運営側の最終チェック）は無事終わったみたいです。 最近の機体は強度が増してるので、飛び立ってすぐ翼が折れることは少なくなってきてる。 周辺部品が破損、重さ（設計）ミス、操縦ミス、風の読み間違い、初動（走り込み）不足、操縦者の体力が主な落ちる原因ですわ。 各機体、最低でもざっと200万円はかかってるから、それが全て琵琶湖の藻屑となる。 （環境保全のため、全部拾われてますが） １年かけて作り上げてきた機体、筋肉を楽しみましょう！ じゃ、みんな！Yo...",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784887908.191659",
+          "threadTs": "1784887908.191659",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "@ALL 今年もやってきました。 そう！皆さんお待ちかねの 鳥 人 間 コ ン テ ス ト ！！:mega: 誰や、待ってないわー言うてるのは。 新人さんもなんのこっちゃかわかりませんよね。 鳥人間って、あのテレビでやってるやつですわ。 暑い夏が今年もやってきましたよ。 開催地は琵琶湖（彦根・松原水泳場）。 現地行く人は、彦根駅から無料シャトルバスが出てるから。 電車で来るのが一番いいですね。 自家用車も彦根駅に停めて。青空駐車場やから、フロントカバーしておきましょう。 近くのコンビニ、つぶれちゃってるから飲み物忘れずにね。 バス、今年は5:30から走ってくれるので、１番機も見れるよ。 今年もプロペラ機から飛びますね。日曜が滑空機。滑空機も良い。 １番機は京大か。京大は、まぁ、あそこは...すぐ落ちるかな（酷） 今年は足場組んでるときに事故もあったので心配してたけど無事開催しますね。 出場が決まってた名門チームが１組、来る前に断念してる。機体損壊したかなぁ... 木曜から続々と琵琶湖に向けて遡上しているバードマンたち。 今日の点検（大会運営側の最終チェック）は無事終わったみたいです。 最近の機体は強度が増してるので、飛び立ってすぐ翼が折れることは少なくなってきてる。 周辺部品が破損、重さ（設計）ミス、操縦ミス、風の読み間違い、初動（走り込み）不足、操縦者の体力が主な落ちる原因ですわ。 各機体、最低でもざっと200万円はかかってるから、それが全て琵琶湖の藻屑となる。 （環境保全のため、全部拾われてますが） １年かけて作り上げてきた機体、筋肉を楽しみましょう！ じゃ、みんな！Youtubeの前に明日6:15に集合！ 心して観るが良い。（面白いよ） 多ければ8000人くらいは同時視聴します。 <https://www.youtube.com/@ytvbirdman|youtube.com/@ytvbirdman> テレビより、断然こっちのほうが面白い。 30分に１機飛ぶくらいの間隔で飛びます。 機体の解説、裏話も聞けるよ。 たぶんテレビ放映は、例年通りだと8/26か9/2じゃないかな。 ほな。 ワテはジムでパイロット共にチャリ漕いでくる！！！:bicyclist:\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784888315.775279",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784888315.775279",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784888315.775279",
+      "timestamp": "2026-07-24T10:18:35.775Z",
+      "detailBullets": [
+        "自分が一番に:激アツ:スタンプ押したった！！！:star-struck:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784888315.775279",
+          "text": "自分が一番に:激アツ:スタンプ押したった！！！:star-struck:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784888315.775279",
+          "threadTs": "1784887908.191659",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "自分が一番に:激アツ:スタンプ押したった！！！:star-struck:\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784891688.916729",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784891688.916729",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784891688.916729",
+      "timestamp": "2026-07-24T11:14:48.916Z",
+      "detailBullets": [
+        "急遽入った大阪出張で終電手前まで付き合ってもらった田浦さん、平野さん、松浦さんと！ ありがとうございました！店で写真撮り忘れてエスカレーターで上昇中に。笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784891688.916729",
+          "text": "急遽入った大阪出張で終電手前まで付き合ってもらった田浦さん、平野さん、松浦さんと！ ありがとうございました！店で写真撮り忘れてエスカレーターで上昇中に。笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784891688.916729",
+          "threadTs": "1784891688.916729",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "急遽入った大阪出張で終電手前まで付き合ってもらった田浦さん、平野さん、松浦さんと！ ありがとうございました！店で写真撮り忘れてエスカレーターで上昇中に。笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784891964.147529",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784891964.147529",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784891964.147529",
+      "timestamp": "2026-07-24T11:19:24.147Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> いよいよ！ 鳥人間コンテストにおける熟練具合がひしひしと伝わる投稿ですね！ 京大に対する容赦ない酷評笑いました笑 ワールドカップ起きれた人は6:15は余裕なはず！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784891964.147529",
+          "text": "<@U09QZF7KT2P> いよいよ！ 鳥人間コンテストにおける熟練具合がひしひしと伝わる投稿ですね！ 京大に対する容赦ない酷評笑いました笑 ワールドカップ起きれた人は6:15は余裕なはず！！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784891964.147529",
+          "threadTs": "1784887908.191659",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> いよいよ！ 鳥人間コンテストにおける熟練具合がひしひしと伝わる投稿ですね！ 京大に対する容赦ない酷評笑いました笑 ワールドカップ起きれた人は6:15は余裕なはず！！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784900028.370039",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784900028.370039",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784900028.370039",
+      "timestamp": "2026-07-24T13:33:48.370Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> <@U0BCBMQTHTP> <@U0B925NE9RP> こちらこそありがとうございました:bangbang: 深い話も緩い話もできてめちゃくちゃ楽しかったです:relaxed: 二件目はお好み焼き屋でしたw"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784900028.370039",
+          "text": "<@U09MGUVJ8BV> <@U0BCBMQTHTP> <@U0B925NE9RP> こちらこそありがとうございました:bangbang: 深い話も緩い話もできてめちゃくちゃ楽しかったです:relaxed: 二件目はお好み焼き屋でしたw",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784900028.370039",
+          "threadTs": "1784891688.916729",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> <@U0BCBMQTHTP> <@U0B925NE9RP> こちらこそありがとうございました:bangbang: 深い話も緩い話もできてめちゃくちゃ楽しかったです:relaxed: 二件目はお好み焼き屋でしたw\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784900378.992619",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:松浦 馨",
+      "personName": "松浦 馨",
+      "slackIds": [
+        "U0B925NE9RP"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784900378.992619",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784900378.992619",
+      "timestamp": "2026-07-24T13:39:38.992Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> <@U09MGUVJ8BV> <@U0BCBMQTHTP> ありがとうございました:man-bowing: とても楽しかったです！ また大阪メンバーで行きましょう！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784900378.992619",
+          "text": "<@U09MM9KS06S> <@U09MGUVJ8BV> <@U0BCBMQTHTP> ありがとうございました:man-bowing: とても楽しかったです！ また大阪メンバーで行きましょう！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784900378.992619",
+          "threadTs": "1784891688.916729",
+          "authorName": "松浦 馨",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> <@U09MGUVJ8BV> <@U0BCBMQTHTP> ありがとうございました:man-bowing: とても楽しかったです！ また大阪メンバーで行きましょう！\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784900576.252329",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784900576.252329",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784900576.252329",
+      "timestamp": "2026-07-24T13:42:56.252Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> そろそろだよなあ…と思っていたんですが、ジャストタイミングの投稿ありがとうございます:bangbang: 僕はアルバトロスを応援します:grin:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784900576.252329",
+          "text": "<@U09QZF7KT2P> そろそろだよなあ…と思っていたんですが、ジャストタイミングの投稿ありがとうございます:bangbang: 僕はアルバトロスを応援します:grin:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784900576.252329",
+          "threadTs": "1784887908.191659",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> そろそろだよなあ…と思っていたんですが、ジャストタイミングの投稿ありがとうございます:bangbang: 僕はアルバトロスを応援します:grin:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784900910.168079",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784900910.168079",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784900910.168079",
+      "timestamp": "2026-07-24T13:48:30.168Z",
+      "detailBullets": [
+        "<@U0B925NE9RP> <@U0BCBMQTHTP> CC <@U09MGUVJ8BV> ぜひ関西メンバーでいきましょう:bangbang: 関西盛り上げて行こう:+1:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784900910.168079",
+          "text": "<@U0B925NE9RP> <@U0BCBMQTHTP> CC <@U09MGUVJ8BV> ぜひ関西メンバーでいきましょう:bangbang: 関西盛り上げて行こう:+1:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784900910.168079",
+          "threadTs": "1784891688.916729",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B925NE9RP> <@U0BCBMQTHTP> CC <@U09MGUVJ8BV> ぜひ関西メンバーでいきましょう:bangbang: 関西盛り上げて行こう:+1:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1784901800.195209",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:森田勝也",
+      "personName": "森田勝也",
+      "slackIds": [
+        "U0BK41C1Z4P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1784901800.195209",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1784901800.195209",
+      "timestamp": "2026-07-24T14:03:20.195Z",
+      "detailBullets": [
+        "初めまして。 10月入社予定の森田勝也（もりたかつや）と申します。 ■出身地 佐賀県生まれ、福岡在住 ■これまでやってきたこと 空調設備整備 ↓ 施工管理 ↓ QAエンジニア ・Webアプリケーションのテスト設計からテスト実施、不具合管理まで一貫して実施しています。 ■趣味 アニメ、漫画、ホラーコンテンツ全般、サッカー観戦、ホロライブ、ゲーム、筋トレ(自重) ■ひとこと エンジニアとしてスキルアップできるように頑張ります。これからよろしくお願いします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1784901800.195209",
+          "text": "初めまして。 10月入社予定の森田勝也（もりたかつや）と申します。 ■出身地 佐賀県生まれ、福岡在住 ■これまでやってきたこと 空調設備整備 ↓ 施工管理 ↓ QAエンジニア ・Webアプリケーションのテスト設計からテスト実施、不具合管理まで一貫して実施しています。 ■趣味 アニメ、漫画、ホラーコンテンツ全般、サッカー観戦、ホロライブ、ゲーム、筋トレ(自重) ■ひとこと エンジニアとしてスキルアップできるように頑張ります。これからよろしくお願いします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1784901800.195209",
+          "threadTs": null,
+          "authorName": "森田勝也",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 10月入社予定の森田勝也（もりたかつや）と申します。 ■出身地 佐賀県生まれ、福岡在住 ■これまでやってきたこと 空調設備整備 ↓ 施工管理 ↓ QAエンジニア ・Webアプリケーションのテスト設計からテスト実施、不具合管理まで一貫して実施しています。 ■趣味 アニメ、漫画、ホラーコンテンツ全般、サッカー観戦、ホロライブ、ゲーム、筋トレ(自重) ■ひとこと エンジニアとしてスキルアップできるように頑張ります。これからよろしくお願いします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784927392.050009",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784927392.050009",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784927392.050009",
+      "timestamp": "2026-07-24T21:09:52.050Z",
+      "detailBullets": [
+        ":kisyo_kisho_okita_asa_起きた: 小中学生以来ぐらいな気がするので 技術発展見るの:wakuwaku_ワクワク_wakuteka_wktk:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784927392.050009",
+          "text": ":kisyo_kisho_okita_asa_起きた: 小中学生以来ぐらいな気がするので 技術発展見るの:wakuwaku_ワクワク_wakuteka_wktk:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784927392.050009",
+          "threadTs": "1784887908.191659",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": ":kisyo_kisho_okita_asa_起きた: 小中学生以来ぐらいな気がするので 技術発展見るの:wakuwaku_ワクワク_wakuteka_wktk:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1784934579.016209",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1784934579.016209",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1784934579.016209",
+      "timestamp": "2026-07-24T23:09:39.016Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-24_ 1. _Claude Code: Claude Opus 5 をデフォルト Opus モデルとして採用・新フック/設定追加_ └ Claude Code が Claude Opus 5（1M コンテキスト、ファストモード $10/$50/Mtok）を新デフォルト Opus モデルとして追加。sandbox.network.strictAllowlist（非許可ホストへのアクセスを拒否）、DirectoryAdded フック（/add-dir 実行後に自動発火）、workflowSizeGuideline 設定キーも新実装された。 :link: <https://code.claude.com/docs/en/whats-new|code.claude.com/docs/en/whats-new> 2. _SpaceXAI + Cursor：本日にも第2弾共同 AI モデルをリリース予定（The Information 報道）_ └ The Information が、SpaceXAI と Cursor が本..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1784934579.016209",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-24_ 1. _Claude Code: Claude Opus 5 をデフォルト Opus モデルとして採用・新フック/設定追加_ └ Claude Code が Claude Opus 5（1M コンテキスト、ファストモード $10/$50/Mtok）を新デフォルト Opus モデルとして追加。sandbox.network.strictAllowlist（非許可ホストへのアクセスを拒否）、DirectoryAdded フック（/add-dir 実行後に自動発火）、workflowSizeGuideline 設定キーも新実装された。 :link: <https://code.claude.com/docs/en/whats-new|code.claude.com/docs/en/whats-new> 2. _SpaceXAI + Cursor：本日にも第2弾共同 AI モデルをリリース予定（The Information 報道）_ └ The Information が、SpaceXAI と Cursor が本日（水）にも新たな共同 AI モデルを発表する見通しと報道。7/8 リリースの Grok 4.5 に続く第2弾とみられ、コーディングエージェントと専門職ワークフロー向けの最適化が期待される。 :link: <https://finance.yahoo.com/technology/ai/articles/spacexai-plans-launch-model-cursor-210200389.ht...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1784934579.016209",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-24_ 1. _Claude Code: Claude Opus 5 をデフォルト Opus モデルとして採用・新フック/設定追加_ └ Claude Code が Claude Opus 5（1M コンテキスト、ファストモード $10/$50/Mtok）を新デフォルト Opus モデルとして追加。sandbox.network.strictAllowlist（非許可ホストへのアクセスを拒否）、DirectoryAdded フック（/add-dir 実行後に自動発火）、workflowSizeGuideline 設定キーも新実装された。 :link: <https://code.claude.com/docs/en/whats-new|code.claude.com/docs/en/whats-new> 2. _SpaceXAI + Cursor：本日にも第2弾共同 AI モデルをリリース予定（The Information 報道）_ └ The Information が、SpaceXAI と Cursor が本日（水）にも新たな共同 AI モデルを発表する見通しと報道。7/8 リリースの Grok 4.5 に続く第2弾とみられ、コーディングエージェントと専門職ワークフロー向けの最適化が期待される。 :link: <https://finance.yahoo.com/technology/ai/articles/spacexai-plans-launch-model-cursor-210200389.html|finance.yahoo.com/technology/ai/articles/spacexai-plans-launch-model-cursor…> 3. _GitHub Copilot: Gemini 2.5 Pro・Gemini 3 Flash を 7/31 に廃止_ └ GitHub が Copilot の全体験（チャット・インライン編集・コード補完）から Gemini 2.5 Pro と Gemini 3 Flash を 7/31 に削除すると発表。現在これらのモデルを使用中の開発者は他モデルへの移行が必要。 :link: <https://github.blog/changelog/month/07-2026/|github.blog/changelog/month/07-2026> 4. _GitHub Copilot CLI v1.0.74 リリース（7/23）_ └ セッションハンドリングの改善と MCP セットアップの安定化が施された最新版が昨日リリース。エージェントループの安定性向上が見込まれる。 :link: <https://github.com/g...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1784937859.367479",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1784937859.367479",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1784937859.367479",
+      "timestamp": "2026-07-25T00:04:19.367Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> <@U0BCBMQTHTP> <@U0B925NE9RP> お疲れさまでした！無事に新幹線に乗り、ばばばっと残務をして、寝て帰りました！ 次回はゆっくりご一緒できたら嬉しいです:palms_up_together:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1784937859.367479",
+          "text": "<@U09MM9KS06S> <@U0BCBMQTHTP> <@U0B925NE9RP> お疲れさまでした！無事に新幹線に乗り、ばばばっと残務をして、寝て帰りました！ 次回はゆっくりご一緒できたら嬉しいです:palms_up_together:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1784937859.367479",
+          "threadTs": "1784891688.916729",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> <@U0BCBMQTHTP> <@U0B925NE9RP> お疲れさまでした！無事に新幹線に乗り、ばばばっと残務をして、寝て帰りました！ 次回はゆっくりご一緒できたら嬉しいです:palms_up_together:\nソーシャル\n経営"
     }
   ]
 }
