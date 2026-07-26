@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-25T03:14:31.919Z",
+  "generatedAt": "2026-07-26T03:27:49.085Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -62242,6 +62242,111 @@
         }
       ],
       "searchText": "<@U09MM9KS06S> <@U0BCBMQTHTP> <@U0B925NE9RP> お疲れさまでした！無事に新幹線に乗り、ばばばっと残務をして、寝て帰りました！ 次回はゆっくりご一緒できたら嬉しいです:palms_up_together:\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1784952479.358529",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1784952479.358529",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1784952479.358529",
+      "timestamp": "2026-07-25T04:07:59.358Z",
+      "detailBullets": [
+        "<!channel> 皆さん、今週もお疲れ様でした！Letter of T｜今週の記録（2026.07.25）を共有します。 今週のテーマは、「仕事の信頼が、新しい仕事と仲間を連れてくる」です。 先週お伝えしたIDOM CaaS Technology様の案件について、志賀さんの参画が正式に決まりました！一度きりの面談で見事に合格を勝ち取っています。 今回の成約は、Saitekiが目指す、 *経営者ネットワーク × 上流対応ができるエンジニア* *→ 事業会社直の案件* *→ 将来的なチーム・受託開発* という道筋が、現実になり始めたことを示す大切な一歩です。 また、総務の藤井さんからの紹介で、杉崎さんが新たにSaitekiをサポートしてくださることになりました。前職で助けてもらった恩を返したいという思いから生まれた、とても温かいご縁です。今週号では、以下について書いています。 • IDOM CaaS Technology様の案件成約 • 志賀さんに期待する、先端的な開発ノウハウの社内還元 • 事業会社直の仕事を増やすために必要な掛け算 • 藤井さんと杉崎さんの信頼から生まれたご縁 •..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1784952479.358529",
+          "text": "<!channel> 皆さん、今週もお疲れ様でした！Letter of T｜今週の記録（2026.07.25）を共有します。 今週のテーマは、「仕事の信頼が、新しい仕事と仲間を連れてくる」です。 先週お伝えしたIDOM CaaS Technology様の案件について、志賀さんの参画が正式に決まりました！一度きりの面談で見事に合格を勝ち取っています。 今回の成約は、Saitekiが目指す、 *経営者ネットワーク × 上流対応ができるエンジニア* *→ 事業会社直の案件* *→ 将来的なチーム・受託開発* という道筋が、現実になり始めたことを示す大切な一歩です。 また、総務の藤井さんからの紹介で、杉崎さんが新たにSaitekiをサポートしてくださることになりました。前職で助けてもらった恩を返したいという思いから生まれた、とても温かいご縁です。今週号では、以下について書いています。 • IDOM CaaS Technology様の案件成約 • 志賀さんに期待する、先端的な開発ノウハウの社内還元 • 事業会社直の仕事を増やすために必要な掛け算 • 藤井さんと杉崎さんの信頼から生まれたご縁 • 皆さんへのリファラルのお願い 日々の仕事で築いた信頼は、いつか新しい仕事や仲間となって戻ってきます。ぜひご覧ください！ ▼Letter of T｜今週の記録（2026.07.25） <https://app.notion.com/p/Letter-of-T-2026-07-25-3a8dfb42679c80f68dacfe5263651062|app.notion.com/p/Letter-of...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1784952479.358529",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> 皆さん、今週もお疲れ様でした！Letter of T｜今週の記録（2026.07.25）を共有します。 今週のテーマは、「仕事の信頼が、新しい仕事と仲間を連れてくる」です。 先週お伝えしたIDOM CaaS Technology様の案件について、志賀さんの参画が正式に決まりました！一度きりの面談で見事に合格を勝ち取っています。 今回の成約は、Saitekiが目指す、 *経営者ネットワーク × 上流対応ができるエンジニア* *→ 事業会社直の案件* *→ 将来的なチーム・受託開発* という道筋が、現実になり始めたことを示す大切な一歩です。 また、総務の藤井さんからの紹介で、杉崎さんが新たにSaitekiをサポートしてくださることになりました。前職で助けてもらった恩を返したいという思いから生まれた、とても温かいご縁です。今週号では、以下について書いています。 • IDOM CaaS Technology様の案件成約 • 志賀さんに期待する、先端的な開発ノウハウの社内還元 • 事業会社直の仕事を増やすために必要な掛け算 • 藤井さんと杉崎さんの信頼から生まれたご縁 • 皆さんへのリファラルのお願い 日々の仕事で築いた信頼は、いつか新しい仕事や仲間となって戻ってきます。ぜひご覧ください！ ▼Letter of T｜今週の記録（2026.07.25） <https://app.notion.com/p/Letter-of-T-2026-07-25-3a8dfb42679c80f68dacfe5263651062|app.notion.com/p/Letter-of-T-…> 今週も、本当にありがとうございました！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785020964.793639",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785020964.793639",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785020964.793639",
+      "timestamp": "2026-07-25T23:09:24.793Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-25_ 1. _MCPが7/28に最大規模の仕様改訂 — ステートレス化・Tasks拡張・破壊的変更あり_ └ MCP（Model Context Protocol）が7/28に2026年版最終仕様を公開予定。最大の変更はプロトコルレベルの「ステートレス化」で、セッション管理とinitializeハンドシェイクを廃止。普通のHTTPロードバランサーで動作可能になりエージェント基盤の構築が大幅に簡素化。新機能としてTasks拡張（長時間タスク処理）・MCP Apps（サーバーサイドUI）・OAuth/OIDC準拠の認証強化を追加。Roots/Sampling/LoggingはDeprecated（12ヶ月猶予）。Tier 1 SDKはすでにベータ対応済み。 :link: <https://www.theregister.com/devops/2026/07/23/model_context_protocol-prepares-to-break-with-its-stateful-past/5276722|thereg..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785020964.793639",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-25_ 1. _MCPが7/28に最大規模の仕様改訂 — ステートレス化・Tasks拡張・破壊的変更あり_ └ MCP（Model Context Protocol）が7/28に2026年版最終仕様を公開予定。最大の変更はプロトコルレベルの「ステートレス化」で、セッション管理とinitializeハンドシェイクを廃止。普通のHTTPロードバランサーで動作可能になりエージェント基盤の構築が大幅に簡素化。新機能としてTasks拡張（長時間タスク処理）・MCP Apps（サーバーサイドUI）・OAuth/OIDC準拠の認証強化を追加。Roots/Sampling/LoggingはDeprecated（12ヶ月猶予）。Tier 1 SDKはすでにベータ対応済み。 :link: <https://www.theregister.com/devops/2026/07/23/model_context_protocol-prepares-to-break-with-its-stateful-past/5276722|theregister.com/devops/…/5276722> 2. _GitHub公式MCPサーバーが新仕様（2026-07-28 RC）に対応_ └ GitHub MCP Serverが2026-07-28仕様のリリースキャンディデートに対応。ステートレスなHTTPリクエストと新Tasks拡張をサポートし、CI/CDやエージェントワークフローへの組み込みが容易に。 :link: <https://gi...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785020964.793639",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-25_ 1. _MCPが7/28に最大規模の仕様改訂 — ステートレス化・Tasks拡張・破壊的変更あり_ └ MCP（Model Context Protocol）が7/28に2026年版最終仕様を公開予定。最大の変更はプロトコルレベルの「ステートレス化」で、セッション管理とinitializeハンドシェイクを廃止。普通のHTTPロードバランサーで動作可能になりエージェント基盤の構築が大幅に簡素化。新機能としてTasks拡張（長時間タスク処理）・MCP Apps（サーバーサイドUI）・OAuth/OIDC準拠の認証強化を追加。Roots/Sampling/LoggingはDeprecated（12ヶ月猶予）。Tier 1 SDKはすでにベータ対応済み。 :link: <https://www.theregister.com/devops/2026/07/23/model_context_protocol-prepares-to-break-with-its-stateful-past/5276722|theregister.com/devops/…/5276722> 2. _GitHub公式MCPサーバーが新仕様（2026-07-28 RC）に対応_ └ GitHub MCP Serverが2026-07-28仕様のリリースキャンディデートに対応。ステートレスなHTTPリクエストと新Tasks拡張をサポートし、CI/CDやエージェントワークフローへの組み込みが容易に。 :link: <https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification/|github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification> 3. _Kimi K3 オープンウェイト7/27公開直前 — 独立検証で51%幻覚率が発覚_ └ Moonshot AIのKimi K3（2.8兆パラメータ、Code Arena世界1位）のオープンウェイトが7/27にHuggingFaceで公開予定（MXFP4形式、約1.4TB）。ただし独立検証でMoonshotが公表していなかった51%の幻覚率が判明。フロンティアモデル級のコーディング性能と幻覚リスクを兼ね備えた要注意リリース。 :link: <https://www.techtimes.com/articles/321499/20260724/kimi-k3-open-weights-drop-july-27-near-frontier-...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785024759.216189",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785024759.216189",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785024759.216189",
+      "timestamp": "2026-07-26T00:12:39.216Z",
+      "detailBullets": [
+        "<https://x.com/pnpn_86/status/2080442357984768018?s=46|https://x.com/pnpn_86/status/2080442357984768018?s=46> トップスタートアップなどで使われているClaude CodeのSkills。各社、レビュー、QA、分析スキルに共通して使われている感じ。 レビュー、QA、分析は当社でもAIと相性が良いだろうと議論してきた業務で想定内ですが、逆に各社で上記以外の業務でAIがめちゃくちゃ活躍していそうな感じがあまりないのがポイントな気がします（あくまでskills利用に対するコメントのみな可能性ありますが）。AIによる効率化に投資してきた会社の、人とAIの業務分担の答え。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785024759.216189",
+          "text": "<https://x.com/pnpn_86/status/2080442357984768018?s=46|https://x.com/pnpn_86/status/2080442357984768018?s=46> トップスタートアップなどで使われているClaude CodeのSkills。各社、レビュー、QA、分析スキルに共通して使われている感じ。 レビュー、QA、分析は当社でもAIと相性が良いだろうと議論してきた業務で想定内ですが、逆に各社で上記以外の業務でAIがめちゃくちゃ活躍していそうな感じがあまりないのがポイントな気がします（あくまでskills利用に対するコメントのみな可能性ありますが）。AIによる効率化に投資してきた会社の、人とAIの業務分担の答え。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785024759.216189",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<https://x.com/pnpn_86/status/2080442357984768018?s=46|https://x.com/pnpn_86/status/2080442357984768018?s=46> トップスタートアップなどで使われているClaude CodeのSkills。各社、レビュー、QA、分析スキルに共通して使われている感じ。 レビュー、QA、分析は当社でもAIと相性が良いだろうと議論してきた業務で想定内ですが、逆に各社で上記以外の業務でAIがめちゃくちゃ活躍していそうな感じがあまりないのがポイントな気がします（あくまでskills利用に対するコメントのみな可能性ありますが）。AIによる効率化に投資してきた会社の、人とAIの業務分担の答え。\nai駆動開発ネタ\n経営"
     }
   ]
 }
