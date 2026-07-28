@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-27T03:36:49.823Z",
+  "generatedAt": "2026-07-28T02:52:47.927Z",
   "channelCount": 9,
-  "totalMessages": 2046,
+  "totalMessages": 2047,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -36628,9 +36628,29 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1785194359.364319",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-27_ 1. _Kimi K3 オープンウェイト本日公開：世界最大の2.8Tパラメータモデルが無償ダウンロード可能に_ └ Moonshot AI（中国）が予告通り本日7/27、Kimi K3のフルウェイトをHugging Faceで公開。2.8兆パラメータのMoEアーキテクチャながら、毎トークンの活性パラメータは約500億個でコンパクトに動作。フロントエンドコーディング能力は世界トップクラス。MIT-likeライセンスで商用利用可能（商業ゲートあり）。ただし最低4〜8枚のH100 80GBが必要で、個人での推論はほぼ不可能なスケール。 :link: <https://startupfortune.com/moonshot-ai-releases-kimi-k3-open-weights-making-the-worlds-largest-open-weight-model-free-to-download/|startupfortune.com/moonshot-ai-releases-kimi-k3-open-weights-making-the-worlds-largest-open-weight-model-free-to-download> 2. _x402 Foundation設立：Stripe・Mastercard・Visa・AWSらがAIエージェント決済標準を策定_ └ Linux Foundation傘下にx402 Foundationが設立され、AIエージェントがユーザーの代理で決済を行う際の仕様を標準化する取り組みが始動。エージェントのロール定義・支出上限・人間監視のガイドラインを策定予定。エージェントが契約・購買・サービス利用を自律的に行う時代に向けた金融インフラ整備として注目。 :link: <https://aiagentstore.ai/ai-agent-news/this-week|aiagentstore.ai/ai-agent-news/this-week> 3. _Cursor エチオピアAIハッカソン2026：300名超の開発者が参加しリアル課題をAIで解決_ └ Ethio TelecomがCursorを活用したAIハッカソンを7/27に開催し、学生・開発者・イノベーター300名超が参加。農業・医療・物流などエチオピア固有の課題をAI駆動開発で解決するプロジェクトを競い合った。Cursorがグローバルの開発者コミュニティ育成に注力していることを示す事例。 :link: <https://techafricanews.com/2026/07/27/ethio-telecom-spotlights-ethiopias-ai-talent-at-cursor-ethiopia-hackathon-2026/|techafricanews.com/2026/07/27/ethio-telecom-spotlights-ethiopias-ai-talent-at-cursor-ethiopia-hackathon-2026> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-27_\n\n1. _Kimi K3 オープンウェイト本日公開：世界最大の2.8Tパラメータモデルが無償ダウンロード可能に_\n└ Moonshot AI（中国）が予告通り本日7/27、Kimi K3のフルウェイトをHugging Faceで公開。2.8兆パラメータのMoEアーキテクチャながら、毎トークンの活性パラメータは約500億個でコンパクトに動作。フロントエンドコーディング能力は世界トップクラス。MIT-likeライセンスで商用利用可能（商業ゲートあり）。ただし最低4〜8枚のH100 80GBが必要で、個人での推論はほぼ不可能なスケール。\n:link: <https://startupfortune.com/moonshot-ai-releases-kimi-k3-open-weights-making-the-worlds-largest-open-weight-model-free-to-download/|startupfortune.com/moonshot-ai-releases-kimi-k3-open-weights-making-the-worlds-largest-open-weight-model-free-to-download>\n2. _x402 Foundation設立：Stripe・Mastercard・Visa・AWSらがAIエージェント決済標準を策定_\n└ Linux Foundation傘下にx402 Foundationが設立され、AIエージェントがユーザーの代理で決済を行う際の仕様を標準化する取り組みが始動。エージェントのロール定義・支出上限・人間監視のガイドラインを策定予定。エージェントが契約・購買・サービス利用を自律的に行う時代に向けた金融インフラ整備として注目。\n:link: <https://aiagentstore.ai/ai-agent-news/this-week|aiagentstore.ai/ai-agent-news/this-week>\n3. _Cursor エチオピアAIハッカソン2026：300名超の開発者が参加しリアル課題をAIで解決_\n└ Ethio TelecomがCursorを活用したAIハッカソンを7/27に開催し、学生・開発者・イノベーター300名超が参加。農業・医療・物流などエチオピア固有の課題をAI駆動開発で解決するプロジェクトを競い合った。Cursorがグローバルの開発者コミュニティ育成に注力していることを示す事例。\n:link: <https://techafricanews.com/2026/07/27/ethio-telecom-spotlights-ethiopias-ai-talent-at-cursor-ethiopia-hackathon-2026/|techafricanews.com/2026/07/27/ethio-telecom-spotlights-ethiopias-ai-talent-at-cursor-ethiopia-hackathon-2026> *使用して送信されました* Claude",
+          "messageTs": "1785194359.364319",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-27",
+          "timestamp": "2026-07-27T23:19:19.364Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 213,
+      "messageCount": 214,
       "firstDate": "2025-10-31",
       "lastDate": "2026-07-27"
     },
