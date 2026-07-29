@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-28T02:52:45.995Z",
+  "generatedAt": "2026-07-29T03:12:35.567Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -62131,7 +62131,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1784901800.195209",
-          "threadTs": null,
+          "threadTs": "1784901800.195209",
           "authorName": "森田勝也",
           "permalink": null
         }
@@ -62376,7 +62376,7 @@
           "channelId": "C09N28KTKL1",
           "channelName": "ソーシャル",
           "messageTs": "1785043582.489939",
-          "threadTs": null,
+          "threadTs": "1785043582.489939",
           "authorName": "田浦裕樹",
           "permalink": null
         }
@@ -62661,6 +62661,765 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-27_ 1. _Kimi K3 オープンウェイト本日公開：世界最大の2.8Tパラメータモデルが無償ダウンロード可能に_ └ Moonshot AI（中国）が予告通り本日7/27、Kimi K3のフルウェイトをHugging Faceで公開。2.8兆パラメータのMoEアーキテクチャながら、毎トークンの活性パラメータは約500億個でコンパクトに動作。フロントエンドコーディング能力は世界トップクラス。MIT-likeライセンスで商用利用可能（商業ゲートあり）。ただし最低4〜8枚のH100 80GBが必要で、個人での推論はほぼ不可能なスケール。 :link: <https://startupfortune.com/moonshot-ai-releases-kimi-k3-open-weights-making-the-worlds-largest-open-weight-model-free-to-download/|startupfortune.com/moonshot-ai-releases-kimi-k3-open-weights-making-the-worlds-largest-open-weight-model-free-to-download> 2. _x402 Foundation設立：Stripe・Mastercard・Visa・AWSらがAIエージェント決済標準を策定_ └ Linux Foundation傘下にx402 Foundationが設立され、AIエージェントがユーザーの代理で決済を行う際の仕様を標準化する取り組みが始動。エージェントのロール定義・支出上限・人間監視のガイドラインを策定予定。エージェントが契約・購買・サービス利用を自律的に行う時代に向けた金融インフラ整備として注目。 :link: <https://aiagentstore.ai/ai-agent-news/this-week|aiagentstore.ai/ai-agent-news/this-week> 3. _Cursor エチオピアAIハッカソン2026：300名超の開発者が参加しリアル課題をAIで解決_ └ Ethio TelecomがCursorを活用したAIハッカソンを7/27に開催し、学生・開発者・イノベーター300名超が参加。農業・医療・物流などエチオピア固有の課題をAI駆動開発で解決するプロジェクトを競い合った。Cursorがグローバルの開発者コミュニティ育成に注力していることを示す事例。 :link: <https://techafricanews.com/2026/07/27/ethio-telecom-spotlights-ethiopias-ai-talent-at-cur...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785218440.254029",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785218440.254029",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785218440.254029",
+      "timestamp": "2026-07-28T06:00:40.254Z",
+      "detailBullets": [
+        "「子どもが泣いてた」等とネットで話題になってる映画ちいかわですが、私も絶妙に気になってきてて「\"子ども向けじゃない\"\"ひどい\"等と世間をざわつかせて認知を上げて、大人需要を取り込む」までをマーケティングとして考えていたら、策士すぎるな…と。ちいかわって大人も推し活するんですもんね？最初から大人狙いなマーケの可能性は全然ありますよね。 <https://x.com/mhhjencrfi36938/status/2081506110729826532?s=46|https://x.com/mhhjencrfi36938/status/2081506110729826532?s=46>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785218440.254029",
+          "text": "「子どもが泣いてた」等とネットで話題になってる映画ちいかわですが、私も絶妙に気になってきてて「\"子ども向けじゃない\"\"ひどい\"等と世間をざわつかせて認知を上げて、大人需要を取り込む」までをマーケティングとして考えていたら、策士すぎるな…と。ちいかわって大人も推し活するんですもんね？最初から大人狙いなマーケの可能性は全然ありますよね。 <https://x.com/mhhjencrfi36938/status/2081506110729826532?s=46|https://x.com/mhhjencrfi36938/status/2081506110729826532?s=46>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785218440.254029",
+          "threadTs": "1785218440.254029",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "「子どもが泣いてた」等とネットで話題になってる映画ちいかわですが、私も絶妙に気になってきてて「\"子ども向けじゃない\"\"ひどい\"等と世間をざわつかせて認知を上げて、大人需要を取り込む」までをマーケティングとして考えていたら、策士すぎるな…と。ちいかわって大人も推し活するんですもんね？最初から大人狙いなマーケの可能性は全然ありますよね。 <https://x.com/mhhjencrfi36938/status/2081506110729826532?s=46|https://x.com/mhhjencrfi36938/status/2081506110729826532?s=46>\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785218558.692929",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785218558.692929",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785218558.692929",
+      "timestamp": "2026-07-28T06:02:38.692Z",
+      "detailBullets": [
+        "ネット情報だけじゃなく一次情報を確かめようとして、ちいかわファンの姪っ子の様子を姉に確認したところ、ちゃんとかわいそうでした。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785218558.692929",
+          "text": "ネット情報だけじゃなく一次情報を確かめようとして、ちいかわファンの姪っ子の様子を姉に確認したところ、ちゃんとかわいそうでした。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785218558.692929",
+          "threadTs": "1785218440.254029",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "ネット情報だけじゃなく一次情報を確かめようとして、ちいかわファンの姪っ子の様子を姉に確認したところ、ちゃんとかわいそうでした。\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785219154.611549",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:根路銘秀典",
+      "personName": "根路銘秀典",
+      "slackIds": [
+        "U0B81RBBDD1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785219154.611549",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785219154.611549",
+      "timestamp": "2026-07-28T06:12:34.611Z",
+      "detailBullets": [
+        "ちいさい、かわいそうの略です。人魚編は悲惨でした。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785219154.611549",
+          "text": "ちいさい、かわいそうの略です。人魚編は悲惨でした。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785219154.611549",
+          "threadTs": "1785218440.254029",
+          "authorName": "根路銘秀典",
+          "permalink": null
+        }
+      ],
+      "searchText": "ちいさい、かわいそうの略です。人魚編は悲惨でした。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785219364.543549",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785219364.543549",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785219364.543549",
+      "timestamp": "2026-07-28T06:16:04.543Z",
+      "detailBullets": [
+        "<@U0B81RBBDD1> ちいかわってちいさい、かわいそうの略だったんですね、、映画もご覧になったんですか？？ 「悲惨」気になる…笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785219364.543549",
+          "text": "<@U0B81RBBDD1> ちいかわってちいさい、かわいそうの略だったんですね、、映画もご覧になったんですか？？ 「悲惨」気になる…笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785219364.543549",
+          "threadTs": "1785218440.254029",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B81RBBDD1> ちいかわってちいさい、かわいそうの略だったんですね、、映画もご覧になったんですか？？ 「悲惨」気になる…笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785225581.752749",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785225581.752749",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785225581.752749",
+      "timestamp": "2026-07-28T07:59:41.752Z",
+      "detailBullets": [
+        "熊本で大きな地震発生していますが、西日本の皆さん大丈夫ですか？ 震度の強弱あるものの、頻発していらっしゃるようですね。 3.11経験者としては、帰宅困難などになっていないか気になって:disappointed_relieved: (おせっかいですみません)"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785225581.752749",
+          "text": "熊本で大きな地震発生していますが、西日本の皆さん大丈夫ですか？ 震度の強弱あるものの、頻発していらっしゃるようですね。 3.11経験者としては、帰宅困難などになっていないか気になって:disappointed_relieved: (おせっかいですみません)",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785225581.752749",
+          "threadTs": "1785225581.752749",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "熊本で大きな地震発生していますが、西日本の皆さん大丈夫ですか？ 震度の強弱あるものの、頻発していらっしゃるようですね。 3.11経験者としては、帰宅困難などになっていないか気になって:disappointed_relieved: (おせっかいですみません)\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785227071.857419",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:根路銘秀典",
+      "personName": "根路銘秀典",
+      "slackIds": [
+        "U0B81RBBDD1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785227071.857419",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785227071.857419",
+      "timestamp": "2026-07-28T08:24:31.857Z",
+      "detailBullets": [
+        "いえ。『なんか小さくてかわいいやつ』が正しい全称です。 人魚編だけは見ました。短く説明するのが難しい、濃い内容です。 セイレーンと人魚の遊びに巻き込まれて致命傷を負った島民を生かすために、友人が人魚を殺して食べさせた。と言うのが発端なのですが、あの絵柄でやるストーリーじゃないな、と。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785227071.857419",
+          "text": "いえ。『なんか小さくてかわいいやつ』が正しい全称です。 人魚編だけは見ました。短く説明するのが難しい、濃い内容です。 セイレーンと人魚の遊びに巻き込まれて致命傷を負った島民を生かすために、友人が人魚を殺して食べさせた。と言うのが発端なのですが、あの絵柄でやるストーリーじゃないな、と。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785227071.857419",
+          "threadTs": "1785218440.254029",
+          "authorName": "根路銘秀典",
+          "permalink": null
+        }
+      ],
+      "searchText": "いえ。『なんか小さくてかわいいやつ』が正しい全称です。 人魚編だけは見ました。短く説明するのが難しい、濃い内容です。 セイレーンと人魚の遊びに巻き込まれて致命傷を負った島民を生かすために、友人が人魚を殺して食べさせた。と言うのが発端なのですが、あの絵柄でやるストーリーじゃないな、と。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785228336.247849",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785228336.247849",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785228336.247849",
+      "timestamp": "2026-07-28T08:45:36.247Z",
+      "detailBullets": [
+        "いやいやほんと、、熊本のメンバーがいないから一旦、安心していましたが佐賀や福岡も結構揺れたみたいですもんね。。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785228336.247849",
+          "text": "いやいやほんと、、熊本のメンバーがいないから一旦、安心していましたが佐賀や福岡も結構揺れたみたいですもんね。。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785228336.247849",
+          "threadTs": "1785225581.752749",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "いやいやほんと、、熊本のメンバーがいないから一旦、安心していましたが佐賀や福岡も結構揺れたみたいですもんね。。\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785228391.351989",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785228391.351989",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785228391.351989",
+      "timestamp": "2026-07-28T08:46:31.351Z",
+      "detailBullets": [
+        "「友人が人魚を殺して食べさせた」の一言に強烈な力がありますね、、笑 根路銘さんの短く説明する能力が高すぎて、脱帽です！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785228391.351989",
+          "text": "「友人が人魚を殺して食べさせた」の一言に強烈な力がありますね、、笑 根路銘さんの短く説明する能力が高すぎて、脱帽です！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785228391.351989",
+          "threadTs": "1785218440.254029",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "「友人が人魚を殺して食べさせた」の一言に強烈な力がありますね、、笑 根路銘さんの短く説明する能力が高すぎて、脱帽です！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785228597.911269",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785228597.911269",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785228597.911269",
+      "timestamp": "2026-07-28T08:49:57.911Z",
+      "detailBullets": [
+        "みんな良い笑顔ですね！暑い中、、お疲れさまでした！かっこいい！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785228597.911269",
+          "text": "みんな良い笑顔ですね！暑い中、、お疲れさまでした！かっこいい！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785228597.911269",
+          "threadTs": "1785043582.489939",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "みんな良い笑顔ですね！暑い中、、お疲れさまでした！かっこいい！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785228959.122629",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:志賀海星",
+      "personName": "志賀海星",
+      "slackIds": [
+        "U0BBGUX353K"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785228959.122629",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785228959.122629",
+      "timestamp": "2026-07-28T08:55:59.122Z",
+      "detailBullets": [
+        "佐賀、結構揺れましたが無事です！ 引き続き注意しておきます:warning:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785228959.122629",
+          "text": "佐賀、結構揺れましたが無事です！ 引き続き注意しておきます:warning:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785228959.122629",
+          "threadTs": "1785225581.752749",
+          "authorName": "志賀海星",
+          "permalink": null
+        }
+      ],
+      "searchText": "佐賀、結構揺れましたが無事です！ 引き続き注意しておきます:warning:\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785231473.984519",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785231473.984519",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785231473.984519",
+      "timestamp": "2026-07-28T09:37:53.984Z",
+      "detailBullets": [
+        "<@U0BBGUX353K> お住まいの地域も多分震度4とか5でしたよね！無事でよかったです:sweat_drops:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785231473.984519",
+          "text": "<@U0BBGUX353K> お住まいの地域も多分震度4とか5でしたよね！無事でよかったです:sweat_drops:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785231473.984519",
+          "threadTs": "1785225581.752749",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BBGUX353K> お住まいの地域も多分震度4とか5でしたよね！無事でよかったです:sweat_drops:\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785231834.228489",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785231834.228489",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785231834.228489",
+      "timestamp": "2026-07-28T09:43:54.228Z",
+      "detailBullets": [
+        "<@U0BBGUX353K>さん まだ揺れてるようですね。 ニュースつけてびっくりしました。 震源地近隣にお住まいの皆さんも、引き続きお気をつけください:pray:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785231834.228489",
+          "text": "<@U0BBGUX353K>さん まだ揺れてるようですね。 ニュースつけてびっくりしました。 震源地近隣にお住まいの皆さんも、引き続きお気をつけください:pray:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785231834.228489",
+          "threadTs": "1785225581.752749",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BBGUX353K>さん まだ揺れてるようですね。 ニュースつけてびっくりしました。 震源地近隣にお住まいの皆さんも、引き続きお気をつけください:pray:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785234244.817389",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785234244.817389",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785234244.817389",
+      "timestamp": "2026-07-28T10:24:04.817Z",
+      "detailBullets": [
+        "現場8Fなので、\"無駄に\"揺れ大きく感じたり スマホの警報が大量になったり でざわつきましたが 特に影響なくでした:saluting_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785234244.817389",
+          "text": "現場8Fなので、\"無駄に\"揺れ大きく感じたり スマホの警報が大量になったり でざわつきましたが 特に影響なくでした:saluting_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785234244.817389",
+          "threadTs": "1785225581.752749",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "現場8Fなので、\"無駄に\"揺れ大きく感じたり スマホの警報が大量になったり でざわつきましたが 特に影響なくでした:saluting_face:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1785236327.353869",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1785236327.353869",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1785236327.353869",
+      "timestamp": "2026-07-28T10:58:47.353Z",
+      "detailBullets": [
+        "<@U0BK41C1Z4P> 初めまして！4月入社の小松田(こまつだ)と申します！ 屋久島出身でたま〜に屋久島に居ますが 普段は福岡なので、福岡民として仲良くしていただけると嬉しいです！ ホロライブ:キタコレ_kitakore: 私も箱推し (最推し:cherry_blossom:)です:saluting_face::よろしくお願いします:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1785236327.353869",
+          "text": "<@U0BK41C1Z4P> 初めまして！4月入社の小松田(こまつだ)と申します！ 屋久島出身でたま〜に屋久島に居ますが 普段は福岡なので、福岡民として仲良くしていただけると嬉しいです！ ホロライブ:キタコレ_kitakore: 私も箱推し (最推し:cherry_blossom:)です:saluting_face::よろしくお願いします:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1785236327.353869",
+          "threadTs": "1784901800.195209",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BK41C1Z4P> 初めまして！4月入社の小松田(こまつだ)と申します！ 屋久島出身でたま〜に屋久島に居ますが 普段は福岡なので、福岡民として仲良くしていただけると嬉しいです！ ホロライブ:キタコレ_kitakore: 私も箱推し (最推し:cherry_blossom:)です:saluting_face::よろしくお願いします:\n自己紹介\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1785236795.588589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:森田勝也",
+      "personName": "森田勝也",
+      "slackIds": [
+        "U0BK41C1Z4P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1785236795.588589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1785236795.588589",
+      "timestamp": "2026-07-28T11:06:35.588Z",
+      "detailBullets": [
+        "<@U0A7VHB07J4> 小松田さん！ まさかホロ好きの同志がいるなんてとても嬉しいです:laughing: 福岡在住とのことですし、機会があれば語り合いましょう！ 私も箱推しですが強いて言うなら雪民です:snowflake: どうぞよろしくお願いします:bow:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1785236795.588589",
+          "text": "<@U0A7VHB07J4> 小松田さん！ まさかホロ好きの同志がいるなんてとても嬉しいです:laughing: 福岡在住とのことですし、機会があれば語り合いましょう！ 私も箱推しですが強いて言うなら雪民です:snowflake: どうぞよろしくお願いします:bow:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1785236795.588589",
+          "threadTs": "1784901800.195209",
+          "authorName": "森田勝也",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A7VHB07J4> 小松田さん！ まさかホロ好きの同志がいるなんてとても嬉しいです:laughing: 福岡在住とのことですし、機会があれば語り合いましょう！ 私も箱推しですが強いて言うなら雪民です:snowflake: どうぞよろしくお願いします:bow:\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785238768.428799",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785238768.428799",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785238768.428799",
+      "timestamp": "2026-07-28T11:39:28.428Z",
+      "detailBullets": [
+        "<@U0A7VHB07J4>さん 帰宅難民になっていなくてよかったです。 執務室全員のスマホの緊急地震速報が一斉に鳴るの、心臓に悪いですよね。。:disappointed_relieved: このあともどうぞお気をつけて:pray:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785238768.428799",
+          "text": "<@U0A7VHB07J4>さん 帰宅難民になっていなくてよかったです。 執務室全員のスマホの緊急地震速報が一斉に鳴るの、心臓に悪いですよね。。:disappointed_relieved: このあともどうぞお気をつけて:pray:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785238768.428799",
+          "threadTs": "1785225581.752749",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A7VHB07J4>さん 帰宅難民になっていなくてよかったです。 執務室全員のスマホの緊急地震速報が一斉に鳴るの、心臓に悪いですよね。。:disappointed_relieved: このあともどうぞお気をつけて:pray:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785238936.808269",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785238936.808269",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785238936.808269",
+      "timestamp": "2026-07-28T11:42:16.808Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> ありがとうございます:blush: めっちゃ青春な感じで、若いって素晴らしいと思いました:laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785238936.808269",
+          "text": "<@U09MGUVJ8BV> ありがとうございます:blush: めっちゃ青春な感じで、若いって素晴らしいと思いました:laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785238936.808269",
+          "threadTs": "1785043582.489939",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> ありがとうございます:blush: めっちゃ青春な感じで、若いって素晴らしいと思いました:laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785240631.777399",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785240631.777399",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785240631.777399",
+      "timestamp": "2026-07-28T12:10:31.777Z",
+      "detailBullets": [
+        "<@U09S602LZS7> さん :birthday:Happy Birthday:partying_face: お誕生日おめでとうございます！ 良い一年になりますように:sparkles: また本社でお会いしましょう:+1:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785240631.777399",
+          "text": "<@U09S602LZS7> さん :birthday:Happy Birthday:partying_face: お誕生日おめでとうございます！ 良い一年になりますように:sparkles: また本社でお会いしましょう:+1:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785240631.777399",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09S602LZS7> さん :birthday:Happy Birthday:partying_face: お誕生日おめでとうございます！ 良い一年になりますように:sparkles: また本社でお会いしましょう:+1:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785280325.442299",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785280325.442299",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785280325.442299",
+      "timestamp": "2026-07-28T23:12:05.442Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-28_ 1. _MCP 2026-07-28仕様が本日正式リリース — Claude対応も開始_ └ MCPの最大改訂版（2026-07-28仕様）が本日公式公開。双方向ステートフルからリクエスト/レスポンス型の*ステートレスコア*に移行し、サーバーレス・エッジ環境へのデプロイが容易に。OAuth/OIDC強化、AppsとTasksの拡張フレームワーク、プライベートネットワーク内のMCPサーバーに外部公開なしで接続する「*MCP Tunnels（リサーチプレビュー）*」も同時スタート。月間SDKダウンロードは今年4倍増の4億回超。 :link: <https://claude.com/blog/bringing-mcp-2026-07-28-to-claude|claude.com/blog/bringing-mcp-2026-07-28-to-claude> 2. _Open Secure AI Alliance設立 — NVIDIA主導、37社がAIセキュリティ標準化へ_ └ NVIDIAが主導し37社が参画す..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785280325.442299",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-28_ 1. _MCP 2026-07-28仕様が本日正式リリース — Claude対応も開始_ └ MCPの最大改訂版（2026-07-28仕様）が本日公式公開。双方向ステートフルからリクエスト/レスポンス型の*ステートレスコア*に移行し、サーバーレス・エッジ環境へのデプロイが容易に。OAuth/OIDC強化、AppsとTasksの拡張フレームワーク、プライベートネットワーク内のMCPサーバーに外部公開なしで接続する「*MCP Tunnels（リサーチプレビュー）*」も同時スタート。月間SDKダウンロードは今年4倍増の4億回超。 :link: <https://claude.com/blog/bringing-mcp-2026-07-28-to-claude|claude.com/blog/bringing-mcp-2026-07-28-to-claude> 2. _Open Secure AI Alliance設立 — NVIDIA主導、37社がAIセキュリティ標準化へ_ └ NVIDIAが主導し37社が参画する「Open Secure AI Alliance」が発足（7/27）。AIエージェント・システムを対象とした防御ツールの共有・標準化を目的とし、各社の防御ツールをオープンに公開。AIエージェントの本番運用が加速する中、セキュリティ基盤を業界横断で整備する動き。 :link: <https://tech-noisy.com/2026/07/27/nvidia-ai-security-coaliti...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785280325.442299",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-28_ 1. _MCP 2026-07-28仕様が本日正式リリース — Claude対応も開始_ └ MCPの最大改訂版（2026-07-28仕様）が本日公式公開。双方向ステートフルからリクエスト/レスポンス型の*ステートレスコア*に移行し、サーバーレス・エッジ環境へのデプロイが容易に。OAuth/OIDC強化、AppsとTasksの拡張フレームワーク、プライベートネットワーク内のMCPサーバーに外部公開なしで接続する「*MCP Tunnels（リサーチプレビュー）*」も同時スタート。月間SDKダウンロードは今年4倍増の4億回超。 :link: <https://claude.com/blog/bringing-mcp-2026-07-28-to-claude|claude.com/blog/bringing-mcp-2026-07-28-to-claude> 2. _Open Secure AI Alliance設立 — NVIDIA主導、37社がAIセキュリティ標準化へ_ └ NVIDIAが主導し37社が参画する「Open Secure AI Alliance」が発足（7/27）。AIエージェント・システムを対象とした防御ツールの共有・標準化を目的とし、各社の防御ツールをオープンに公開。AIエージェントの本番運用が加速する中、セキュリティ基盤を業界横断で整備する動き。 :link: <https://tech-noisy.com/2026/07/27/nvidia-ai-security-coalition-formed/|tech-noisy.com/2026/07/27/nvidia-ai-security-coalition-formed> 3. _AI駆動開発カンファレンス 2026夏（7/30〜31）— 品川・オンライン開催_ └ 7月30日（木）〜31日（金）に東京品川グランドセントラルタワーとオンラインで開催。Claude Code・Cursor・Devinを中心としたアジェンティックコーディングの実践、AIによる要件定義・テスト変革、LLM最大活用などをテーマに、GitHubらが登壇。参加登録は connpass から。 :link: <https://qiita.com/yarai/items/67e0c37387182b2a1f91|qiita.com/yarai/items/…> 4. _MCP ステートレス化 移行ガイド — 何が壊れ、何が安くなるか_ └ 本日発効のMCP 2026-07-28仕様への移行で開発者が把握すべき破壊的変更（セッション管理廃止・SSE変更）とコスト削減効果を整理した実践ガイド。エンタープライズ向け認証強化ポイントやステートレス化に...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785287990.969349",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:Jun Akiyama",
+      "personName": "Jun Akiyama",
+      "slackIds": [
+        "U0AD4UADJ07"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785287990.969349",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785287990.969349",
+      "timestamp": "2026-07-29T01:19:50.969Z",
+      "detailBullets": [
+        "福岡の私の地域は震度3でした。 改めて会社としても安否確認は必要かと思うところです。 先月までいた会社では定期的に訓練でメールまたはWebで安否確認は実施されていました。 Saitekiではスラック使用の為、チャンネルなりbot活用が出来そうです。 ↓参考までにです。 Slackで安否確認を行う方法は？メリットやデメリットを解説 | トヨクモ防災タイムズ <https://share.google/sb0UF2ECwhgVMsxCL|https://share.google/sb0UF2ECwhgVMsxCL>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785287990.969349",
+          "text": "福岡の私の地域は震度3でした。 改めて会社としても安否確認は必要かと思うところです。 先月までいた会社では定期的に訓練でメールまたはWebで安否確認は実施されていました。 Saitekiではスラック使用の為、チャンネルなりbot活用が出来そうです。 ↓参考までにです。 Slackで安否確認を行う方法は？メリットやデメリットを解説 | トヨクモ防災タイムズ <https://share.google/sb0UF2ECwhgVMsxCL|https://share.google/sb0UF2ECwhgVMsxCL>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785287990.969349",
+          "threadTs": "1785225581.752749",
+          "authorName": "Jun Akiyama",
+          "permalink": null
+        }
+      ],
+      "searchText": "福岡の私の地域は震度3でした。 改めて会社としても安否確認は必要かと思うところです。 先月までいた会社では定期的に訓練でメールまたはWebで安否確認は実施されていました。 Saitekiではスラック使用の為、チャンネルなりbot活用が出来そうです。 ↓参考までにです。 Slackで安否確認を行う方法は？メリットやデメリットを解説 | トヨクモ防災タイムズ <https://share.google/sb0UF2ECwhgVMsxCL|https://share.google/sb0UF2ECwhgVMsxCL>\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785291113.956129",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785291113.956129",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785291113.956129",
+      "timestamp": "2026-07-29T02:11:53.956Z",
+      "detailBullets": [
+        "<@U0AD4UADJ07> さん 大きな被害がなくてよかったです。 安否確認する場所必要ですね。上長に提案してみますね:woman-bowing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785291113.956129",
+          "text": "<@U0AD4UADJ07> さん 大きな被害がなくてよかったです。 安否確認する場所必要ですね。上長に提案してみますね:woman-bowing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785291113.956129",
+          "threadTs": "1785225581.752749",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0AD4UADJ07> さん 大きな被害がなくてよかったです。 安否確認する場所必要ですね。上長に提案してみますね:woman-bowing:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1785294427.368369",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:Rio",
+      "personName": "Rio",
+      "slackIds": [
+        "U0BK4336Q2X"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1785294427.368369",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1785294427.368369",
+      "timestamp": "2026-07-29T03:07:07.368Z",
+      "detailBullets": [
+        "<!channel> :loudspeaker: *AI駆動開発 勉強会（全3回）開催のお知らせ* AIを活用した開発が急速に広がる中、「AIをどう開発に取り入れるべきか」をテーマにした勉強会を全3回で開催します。 第1回は、*<@U0A7VHB07J4> さん*にご登壇いただきます！ 今回のテーマは『*AI駆動開発のマインドセット』* AIを単なるコード生成ツールとして使うのではなく、*自分の意思や判断を拡張するパートナーとして活用する考え方*についてお話しいただきます！ ＝＝＝＝＝＝＝＝ :date:*詳細* *■日時* 8月24日（月）19:30〜21:30 *■形式* オンライン Google Meet : <https://meet.google.com/asf-niqg-itz|meet.google.com/asf-niqg-itz> *■対象* AI駆動開発に興味のある方（エンジニア以外も大歓迎！） *■内容* • AI駆動開発とは • AIを開発パートナーとして活用する考え方 • AIと人、それぞれの役割 • 明日から実践できるAI活用方法 *■登壇者紹介* *<@..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1785294427.368369",
+          "text": "<!channel> :loudspeaker: *AI駆動開発 勉強会（全3回）開催のお知らせ* AIを活用した開発が急速に広がる中、「AIをどう開発に取り入れるべきか」をテーマにした勉強会を全3回で開催します。 第1回は、*<@U0A7VHB07J4> さん*にご登壇いただきます！ 今回のテーマは『*AI駆動開発のマインドセット』* AIを単なるコード生成ツールとして使うのではなく、*自分の意思や判断を拡張するパートナーとして活用する考え方*についてお話しいただきます！ ＝＝＝＝＝＝＝＝ :date:*詳細* *■日時* 8月24日（月）19:30〜21:30 *■形式* オンライン Google Meet : <https://meet.google.com/asf-niqg-itz|meet.google.com/asf-niqg-itz> *■対象* AI駆動開発に興味のある方（エンジニア以外も大歓迎！） *■内容* • AI駆動開発とは • AIを開発パートナーとして活用する考え方 • AIと人、それぞれの役割 • 明日から実践できるAI活用方法 *■登壇者紹介* *<@U0A7VHB07J4> さん（株式会社Saiteki 技術職）* 新卒からWebアプリケーション開発を中心に、フロントエンド・バックエンド・DB・インフラまで幅広い開発を経験。現在はSalesforceやスマホアプリ開発にも携わっています。 2025年より本格的にAI駆動開発へ取り組み、*AIを活用したWeb・スマホアプリ開発や企業ホームページ制作、社内向けAIプロダクト（AIナレッジRAG・デ...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1785294427.368369",
+          "threadTs": null,
+          "authorName": "Rio",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> :loudspeaker: *AI駆動開発 勉強会（全3回）開催のお知らせ* AIを活用した開発が急速に広がる中、「AIをどう開発に取り入れるべきか」をテーマにした勉強会を全3回で開催します。 第1回は、*<@U0A7VHB07J4> さん*にご登壇いただきます！ 今回のテーマは『*AI駆動開発のマインドセット』* AIを単なるコード生成ツールとして使うのではなく、*自分の意思や判断を拡張するパートナーとして活用する考え方*についてお話しいただきます！ ＝＝＝＝＝＝＝＝ :date:*詳細* *■日時* 8月24日（月）19:30〜21:30 *■形式* オンライン Google Meet : <https://meet.google.com/asf-niqg-itz|meet.google.com/asf-niqg-itz> *■対象* AI駆動開発に興味のある方（エンジニア以外も大歓迎！） *■内容* • AI駆動開発とは • AIを開発パートナーとして活用する考え方 • AIと人、それぞれの役割 • 明日から実践できるAI活用方法 *■登壇者紹介* *<@U0A7VHB07J4> さん（株式会社Saiteki 技術職）* 新卒からWebアプリケーション開発を中心に、フロントエンド・バックエンド・DB・インフラまで幅広い開発を経験。現在はSalesforceやスマホアプリ開発にも携わっています。 2025年より本格的にAI駆動開発へ取り組み、*AIを活用したWeb・スマホアプリ開発や企業ホームページ制作、社内向けAIプロダクト（AIナレッジRAG・デモアプリ生成など）の開発*を実践。 自身も「AIに頼るな」という考え方から実践を通じてAI活用へシフトした経験を持ち、*現場で得た知見をもとに、AIとの向き合い方や開発への取り入れ方についてお話しいただきます。* ＝＝＝＝＝＝＝＝ ぜひお気軽にご参加ください！\nall-saiteki\nOther"
     }
   ]
 }
