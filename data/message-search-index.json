@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-29T03:12:35.567Z",
+  "generatedAt": "2026-07-30T02:44:50.543Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -63414,12 +63414,222 @@
           "channelId": "C09MKT8QKAR",
           "channelName": "all-saiteki",
           "messageTs": "1785294427.368369",
-          "threadTs": null,
+          "threadTs": "1785294427.368369",
           "authorName": "Rio",
           "permalink": null
         }
       ],
       "searchText": "<!channel> :loudspeaker: *AI駆動開発 勉強会（全3回）開催のお知らせ* AIを活用した開発が急速に広がる中、「AIをどう開発に取り入れるべきか」をテーマにした勉強会を全3回で開催します。 第1回は、*<@U0A7VHB07J4> さん*にご登壇いただきます！ 今回のテーマは『*AI駆動開発のマインドセット』* AIを単なるコード生成ツールとして使うのではなく、*自分の意思や判断を拡張するパートナーとして活用する考え方*についてお話しいただきます！ ＝＝＝＝＝＝＝＝ :date:*詳細* *■日時* 8月24日（月）19:30〜21:30 *■形式* オンライン Google Meet : <https://meet.google.com/asf-niqg-itz|meet.google.com/asf-niqg-itz> *■対象* AI駆動開発に興味のある方（エンジニア以外も大歓迎！） *■内容* • AI駆動開発とは • AIを開発パートナーとして活用する考え方 • AIと人、それぞれの役割 • 明日から実践できるAI活用方法 *■登壇者紹介* *<@U0A7VHB07J4> さん（株式会社Saiteki 技術職）* 新卒からWebアプリケーション開発を中心に、フロントエンド・バックエンド・DB・インフラまで幅広い開発を経験。現在はSalesforceやスマホアプリ開発にも携わっています。 2025年より本格的にAI駆動開発へ取り組み、*AIを活用したWeb・スマホアプリ開発や企業ホームページ制作、社内向けAIプロダクト（AIナレッジRAG・デモアプリ生成など）の開発*を実践。 自身も「AIに頼るな」という考え方から実践を通じてAI活用へシフトした経験を持ち、*現場で得た知見をもとに、AIとの向き合い方や開発への取り入れ方についてお話しいただきます。* ＝＝＝＝＝＝＝＝ ぜひお気軽にご参加ください！\nall-saiteki\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1785296155.995079",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1785296155.995079",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1785296155.995079",
+      "timestamp": "2026-07-29T03:35:55.995Z",
+      "detailBullets": [
+        "<@U0BK4336Q2X> ご案内頂きありがとうございます！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1785296155.995079",
+          "text": "<@U0BK4336Q2X> ご案内頂きありがとうございます！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1785296155.995079",
+          "threadTs": "1785294427.368369",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BK4336Q2X> ご案内頂きありがとうございます！\nall-saiteki\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1785296219.413899",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1785296219.413899",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1785296219.413899",
+      "timestamp": "2026-07-29T03:36:59.413Z",
+      "detailBullets": [
+        "@各位 今回、レベル感ごとに回を分けて（全3回） 話をしていくシナリオを想定しております。 今回の機会通して 組織全体でAI技術集団になれるように ボトムアップ出来ればと考えております:saluting_face: まだまだ未熟者ではありますが 一緒にいい機会に出来るよう頑張ります:heart_on_fire::よろしくお願いします:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1785296219.413899",
+          "text": "@各位 今回、レベル感ごとに回を分けて（全3回） 話をしていくシナリオを想定しております。 今回の機会通して 組織全体でAI技術集団になれるように ボトムアップ出来ればと考えております:saluting_face: まだまだ未熟者ではありますが 一緒にいい機会に出来るよう頑張ります:heart_on_fire::よろしくお願いします:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1785296219.413899",
+          "threadTs": "1785294427.368369",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "@各位 今回、レベル感ごとに回を分けて（全3回） 話をしていくシナリオを想定しております。 今回の機会通して 組織全体でAI技術集団になれるように ボトムアップ出来ればと考えております:saluting_face: まだまだ未熟者ではありますが 一緒にいい機会に出来るよう頑張ります:heart_on_fire::よろしくお願いします:\nall-saiteki\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1785310071.550839",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1785310071.550839",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1785310071.550839",
+      "timestamp": "2026-07-29T07:27:51.550Z",
+      "detailBullets": [
+        "<@U0A7VHB07J4> 最高すぎる！良い会になるよう、バックアップできることはしていきますのでよろしくです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1785310071.550839",
+          "text": "<@U0A7VHB07J4> 最高すぎる！良い会になるよう、バックアップできることはしていきますのでよろしくです！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1785310071.550839",
+          "threadTs": "1785294427.368369",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A7VHB07J4> 最高すぎる！良い会になるよう、バックアップできることはしていきますのでよろしくです！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1785366002.616149",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1785366002.616149",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1785366002.616149",
+      "timestamp": "2026-07-29T23:00:02.616Z",
+      "detailBullets": [
+        "<@U0BK4336Q2X> 市川さん、改めまして<https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1785294427368369|こちら>の件 ありがとうございます！ 一緒にSaiteki盛り上げていけるような活動できたらと思ってますので 今後ともよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1785366002.616149",
+          "text": "<@U0BK4336Q2X> 市川さん、改めまして<https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1785294427368369|こちら>の件 ありがとうございます！ 一緒にSaiteki盛り上げていけるような活動できたらと思ってますので 今後ともよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1785366002.616149",
+          "threadTs": "1784804735.309369",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BK4336Q2X> 市川さん、改めまして<https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1785294427368369|こちら>の件 ありがとうございます！ 一緒にSaiteki盛り上げていけるような活動できたらと思ってますので 今後ともよろしくお願いいたします！\n自己紹介\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785366591.439299",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785366591.439299",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785366591.439299",
+      "timestamp": "2026-07-29T23:09:51.439Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-29_ 1. _Claude、全世界でサービス障害（7/29）_ └ 水曜日の午後、Claudeに世界規模の接続障害が発生。Downdetectorに3,000〜5,000件超の報告が集中し、Claude Codeを含む全サービスへの接続に支障。復旧の詳細は公式ステータスページを確認のこと。 :link: <https://gvwire.com/2026/07/29/claude-ai-goes-down-for-thousands-wednesday-downdetector-reports/|gvwire.com/2026/07/29/claude-ai-goes-down-for-thousands-wednesday-downdetector-reports> 2. _GitHub Copilot：コードレビューのエージェントスキル・MCP、全プランにGA（7/29）_ └ Pro・Pro+・Business・Enterprise の全ユーザーへ正式提供開始。チームのツールや外部コンテキストをMCPサーバー..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785366591.439299",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-29_ 1. _Claude、全世界でサービス障害（7/29）_ └ 水曜日の午後、Claudeに世界規模の接続障害が発生。Downdetectorに3,000〜5,000件超の報告が集中し、Claude Codeを含む全サービスへの接続に支障。復旧の詳細は公式ステータスページを確認のこと。 :link: <https://gvwire.com/2026/07/29/claude-ai-goes-down-for-thousands-wednesday-downdetector-reports/|gvwire.com/2026/07/29/claude-ai-goes-down-for-thousands-wednesday-downdetector-reports> 2. _GitHub Copilot：コードレビューのエージェントスキル・MCP、全プランにGA（7/29）_ └ Pro・Pro+・Business・Enterprise の全ユーザーへ正式提供開始。チームのツールや外部コンテキストをMCPサーバー経由でコードレビューに直接持ち込めるようになった。AI駆動開発のレビュープロセスが大きく変わる節目。 :link: <https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available/|github.blog/changelog/2026-07-29-c...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785366591.439299",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-29_ 1. _Claude、全世界でサービス障害（7/29）_ └ 水曜日の午後、Claudeに世界規模の接続障害が発生。Downdetectorに3,000〜5,000件超の報告が集中し、Claude Codeを含む全サービスへの接続に支障。復旧の詳細は公式ステータスページを確認のこと。 :link: <https://gvwire.com/2026/07/29/claude-ai-goes-down-for-thousands-wednesday-downdetector-reports/|gvwire.com/2026/07/29/claude-ai-goes-down-for-thousands-wednesday-downdetector-reports> 2. _GitHub Copilot：コードレビューのエージェントスキル・MCP、全プランにGA（7/29）_ └ Pro・Pro+・Business・Enterprise の全ユーザーへ正式提供開始。チームのツールや外部コンテキストをMCPサーバー経由でコードレビューに直接持ち込めるようになった。AI駆動開発のレビュープロセスが大きく変わる節目。 :link: <https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available/|github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available> 3. _GitHub Copilot Business/Enterprise：GAモデルの自動有効化ポリシーを導入（7/29）_ └ 今後GAになるCopilotモデルは、管理者が手動で有効化しなくてもデフォルトでオンになる新ポリシーを発表。厳格なガバナンスが必要な組織向けに単一のオプトアウト制御も追加。 :link: <https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise/|github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise> 4. _Cursor、インド向け割安プラン「Cursor Start」（Rs 649/月）を発売（7/29）_ └ インドでの1年間でユーザー数が3倍...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1785374795.410029",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1785374795.410029",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1785374795.410029",
+      "timestamp": "2026-07-30T01:26:35.410Z",
+      "detailBullets": [
+        "<@U0BK41C1Z4P> 森田さんあらためてよろしくお願いします！ 趣味がいろいろあっていいですね！この夏にオススメのホラーコンテンツがあったら教えて欲しいです！（閲覧注意系は、その旨も添えてもらえると嬉しいですw）"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1785374795.410029",
+          "text": "<@U0BK41C1Z4P> 森田さんあらためてよろしくお願いします！ 趣味がいろいろあっていいですね！この夏にオススメのホラーコンテンツがあったら教えて欲しいです！（閲覧注意系は、その旨も添えてもらえると嬉しいですw）",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1785374795.410029",
+          "threadTs": "1784901800.195209",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BK41C1Z4P> 森田さんあらためてよろしくお願いします！ 趣味がいろいろあっていいですね！この夏にオススメのホラーコンテンツがあったら教えて欲しいです！（閲覧注意系は、その旨も添えてもらえると嬉しいですw）\n自己紹介\n経営"
     }
   ]
 }
