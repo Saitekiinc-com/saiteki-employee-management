@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-07-30T02:44:56.992Z",
+  "generatedAt": "2026-07-31T03:27:34.876Z",
   "channelCount": 9,
-  "totalMessages": 2075,
+  "totalMessages": 2078,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -33001,11 +33001,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1785461336.578589",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> :mega:リマインド:mega: 先日お知らせいたしました通り、7月分勤怠から提出物が増えています。 ・常駐先勤務表(全員) ・自社勤務表(全員) ・有給・特休申請シート(対象者のみ) ・交通費申請書(対象者のみ) ・経費にかかった領収書(対象者のみ) 以下、先日の周知内容を改めてご連絡させていただきます:woman-bowing: --------------------------------------------------------------------------- :point_right: *有給の分割付与開始、有給の申請方法についてはこちら* <https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1782466842995129|https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1782466842995129> 7月から有給の分割付与開始、時間単位年休や、有給を申請する方法について。 --------------------------------------------------------------------------- :point_right: *自社用勤怠管理表の作成についてはこちら* <https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1784176967917999|https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1784176967917999> 時間単位年休、そして、有給分配付与が開始されたことから、 勤怠集計の管理漏れを防ぐため、常駐先勤務表とは別に、自社勤怠管理表も毎月提出してもらう事となりました。 --------------------------------------------------------------------------- 皆さま、ご協力をよろしくお願い致します。",
+          "rawText": "<!channel>\n:mega:リマインド:mega:\n先日お知らせいたしました通り、7月分勤怠から提出物が増えています。\n\n・常駐先勤務表(全員)\n・自社勤務表(全員)\n・有給・特休申請シート(対象者のみ)\n・交通費申請書(対象者のみ)\n・経費にかかった領収書(対象者のみ)\n\n以下、先日の周知内容を改めてご連絡させていただきます:woman-bowing:\n---------------------------------------------------------------------------\n:point_right: *有給の分割付与開始、有給の申請方法についてはこちら*\n<https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1782466842995129|https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1782466842995129>\n7月から有給の分割付与開始、時間単位年休や、有給を申請する方法について。\n---------------------------------------------------------------------------\n:point_right: *自社用勤怠管理表の作成についてはこちら*\n<https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1784176967917999|https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1784176967917999>\n時間単位年休、そして、有給分配付与が開始されたことから、\n勤怠集計の管理漏れを防ぐため、常駐先勤務表とは別に、自社勤怠管理表も毎月提出してもらう事となりました。\n---------------------------------------------------------------------------\n\n皆さま、ご協力をよろしくお願い致します。",
+          "messageTs": "1785461336.578589",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-31",
+          "timestamp": "2026-07-31T01:28:56.578Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 298,
+      "messageCount": 299,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-07-29"
+      "lastDate": "2026-07-31"
     },
     {
       "id": "C09QXV3F8G0",
@@ -37208,11 +37228,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1785453014.816969",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-30_ 1. _GitHub Copilot for Visual Studio - 7月アップデート_ └ GitHub Copilot for Visual Studio July 2026アップデートが公開。.NETおよびAzureチームによる専門エージェント、Copilot SDKベースの新エージェント、チームカスタマイズ機能の強化など開発者体験を大幅改善。 :link: <https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update/|github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update> 2. _Microsoft、Copilot・GitHub Copilot・AIエージェントを1つのアプリに統合へ_ └ Microsoft CEOサティア・ナデラが、Copilotチャット・GitHub Copilot・Cowork・Autopilotエージェントを一本化した統合アプリを2026年中にリリースすると正式表明。AIコーディングと業務自動化が単一UIで完結する方向性へ。 :link: <https://techweez.com/2026/07/30/microsoft-unified-copilot-app-2026/|techweez.com/2026/07/30/microsoft-unified-copilot-app-2026> 3. _GitHub Models、本日（7/30）をもって正式終了_ └ GitHubが提供してきた無料AIモデル試験プラットフォーム「GitHub Models」が本日2026年7月30日付で完全廃止。利用者はGitHub CopilotまたはモデルプロバイダーのAPIへの移行が必要。 :link: <https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/|github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026> 4. _Cursor、iPad向けコーディング体験を全面刷新_ └ CursorがiPad対応を全有料プランへ拡大。スプリットスクリーンチャット・完全PRレビュー・リッチ差分表示を搭載した新iPadレイアウトを投入し、モバイルでのAIコーディングワークフローを強化。iPhoneのオンザゴーワークフローにも改良を加えた。 :link: <https://www.gradually.ai/en/changelogs/cursor/|gradually.ai/en/changelogs/cursor> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-07-30_\n\n1. _GitHub Copilot for Visual Studio - 7月アップデート_\n└ GitHub Copilot for Visual Studio July 2026アップデートが公開。.NETおよびAzureチームによる専門エージェント、Copilot SDKベースの新エージェント、チームカスタマイズ機能の強化など開発者体験を大幅改善。\n:link: <https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update/|github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update>\n2. _Microsoft、Copilot・GitHub Copilot・AIエージェントを1つのアプリに統合へ_\n└ Microsoft CEOサティア・ナデラが、Copilotチャット・GitHub Copilot・Cowork・Autopilotエージェントを一本化した統合アプリを2026年中にリリースすると正式表明。AIコーディングと業務自動化が単一UIで完結する方向性へ。\n:link: <https://techweez.com/2026/07/30/microsoft-unified-copilot-app-2026/|techweez.com/2026/07/30/microsoft-unified-copilot-app-2026>\n3. _GitHub Models、本日（7/30）をもって正式終了_\n└ GitHubが提供してきた無料AIモデル試験プラットフォーム「GitHub Models」が本日2026年7月30日付で完全廃止。利用者はGitHub CopilotまたはモデルプロバイダーのAPIへの移行が必要。\n:link: <https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/|github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026>\n4. _Cursor、iPad向けコーディング体験を全面刷新_\n└ CursorがiPad対応を全有料プランへ拡大。スプリットスクリーンチャット・完全PRレビュー・リッチ差分表示を搭載した新iPadレイアウトを投入し、モバイルでのAIコーディングワークフローを強化。iPhoneのオンザゴーワークフローにも改良を加えた。\n:link: <https://www.gradually.ai/en/changelogs/cursor/|gradually.ai/en/changelogs/cursor> *使用して送信されました* Claude",
+          "messageTs": "1785453014.816969",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-30",
+          "timestamp": "2026-07-30T23:10:14.816Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1785458670.059389",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "最近、スタートアップ経営者と話す際、「AIによって、開発は実際にどの程度効率化されているのか」を意識して聞くようにしています。 志賀さんの参画が決まったIDOM CaaS Technologyをご紹介いただいたmatsuri technologiesの吉田社長と、昨日ランチでお話ししました。 同社では、CTOがAIを活用することによって、個人の開発効率が以前の約8倍になったそうです。一方、約20名いるエンジニア組織において、CTO以外のメンバーの効率向上は1.5倍程度に留まっているとのことでした。似たような話は、他の企業からも聞きます。 ここから考えられるのは、AIがすべてのエンジニアの生産性を均等に引き上げるわけではないということです。現時点では、AIはエンジニアの能力を代替するというよりも、既存の能力差を増幅する側面が強いのではないかと考えています。 経験豊富なエンジニアは、AIに適切な指示を出せるだけでなく、出力されたコードの設計、品質、リスクを素早く判断できます。そのため、AIによる生産性向上を最大限に享受できます。 一方、基礎的な設計力や評価力が十分でなければ、AIによってコードを生成できても、その正しさを判断できません。結果として、レビューや修正、手戻りに時間がかかり、生産性向上の効果が相殺されてしまいます。 また、「個人の実装速度」と「プロジェクト全体の生産性」も分けて考える必要があります。 当然のことなんですが、よく議論される「エンジニアがAIに代替される」という議論は、個人開発レベルで作られたアプリやシステムの話と、SIerが獲得しているような大規模開発の案件とで分けて考えるべきだと思っています。 実装が速くなっても、要件定義、顧客との合意形成、設計、レビュー、テストなどがボトルネックのままであれば、プロジェクト全体が同じ倍率で速くなるわけではありません。しかもこれらはプロジェクトの規模が大きくなればなるほど複雑になる。 個人のコーディング速度が8倍になったとしても、プロジェクト全体の生産性が8倍になるとは限らないということです。 したがって、Saitekiが目指すAI駆動開発も、「各エンジニアがAIツールを使えること」だけでは不十分です。 経験豊富なエンジニアが持つ判断基準を、設計ルール、開発手順、レビュー、テスト、ナレッジとして仕組み化し、組織全体で再現できる状態をつくる必要があります。 その意味では、これまでSaiteki AI Standardをつくってきた方向性は、やはり間違っていなかったと思います。ただし、Standardを整備すること自体が目的ではありません。それによって、経験豊富なエンジニアの判断をどこまで組織に実装し、実際の品質・納期・原価を改善できるかが重要です。 中堅も若手も、Standardを読んで手を動かしているうちに「SaitekiのAI駆動開発」にキャッチアップできる状態を作るのが大事。 これまで、「将来的にPGは生き残れなくなる」という議論に、どこか納得がいかない部分がありました。 しかし、個人の職種が生き残るかどうかというよりも、AIを前提とした開発プロセスを構築し、継続的に改善できる組織と、従来の開発方法を続ける組織とで、競争力の差が大きく開いていくと考えた方が、実態に近いのかもしれないと最近は思い始めています。 これから問われるのは、AIが生み出す個人の能力差を、組織としてどのように吸収・増幅できるかだと思います。",
+          "rawText": "最近、スタートアップ経営者と話す際、「AIによって、開発は実際にどの程度効率化されているのか」を意識して聞くようにしています。\n\n志賀さんの参画が決まったIDOM CaaS Technologyをご紹介いただいたmatsuri technologiesの吉田社長と、昨日ランチでお話ししました。\n\n同社では、CTOがAIを活用することによって、個人の開発効率が以前の約8倍になったそうです。一方、約20名いるエンジニア組織において、CTO以外のメンバーの効率向上は1.5倍程度に留まっているとのことでした。似たような話は、他の企業からも聞きます。\n\nここから考えられるのは、AIがすべてのエンジニアの生産性を均等に引き上げるわけではないということです。現時点では、AIはエンジニアの能力を代替するというよりも、既存の能力差を増幅する側面が強いのではないかと考えています。\n\n経験豊富なエンジニアは、AIに適切な指示を出せるだけでなく、出力されたコードの設計、品質、リスクを素早く判断できます。そのため、AIによる生産性向上を最大限に享受できます。\n一方、基礎的な設計力や評価力が十分でなければ、AIによってコードを生成できても、その正しさを判断できません。結果として、レビューや修正、手戻りに時間がかかり、生産性向上の効果が相殺されてしまいます。\n\nまた、「個人の実装速度」と「プロジェクト全体の生産性」も分けて考える必要があります。\n当然のことなんですが、よく議論される「エンジニアがAIに代替される」という議論は、個人開発レベルで作られたアプリやシステムの話と、SIerが獲得しているような大規模開発の案件とで分けて考えるべきだと思っています。\n\n実装が速くなっても、要件定義、顧客との合意形成、設計、レビュー、テストなどがボトルネックのままであれば、プロジェクト全体が同じ倍率で速くなるわけではありません。しかもこれらはプロジェクトの規模が大きくなればなるほど複雑になる。\n個人のコーディング速度が8倍になったとしても、プロジェクト全体の生産性が8倍になるとは限らないということです。\n\nしたがって、Saitekiが目指すAI駆動開発も、「各エンジニアがAIツールを使えること」だけでは不十分です。\n経験豊富なエンジニアが持つ判断基準を、設計ルール、開発手順、レビュー、テスト、ナレッジとして仕組み化し、組織全体で再現できる状態をつくる必要があります。\n\nその意味では、これまでSaiteki AI Standardをつくってきた方向性は、やはり間違っていなかったと思います。ただし、Standardを整備すること自体が目的ではありません。それによって、経験豊富なエンジニアの判断をどこまで組織に実装し、実際の品質・納期・原価を改善できるかが重要です。\n中堅も若手も、Standardを読んで手を動かしているうちに「SaitekiのAI駆動開発」にキャッチアップできる状態を作るのが大事。\n\nこれまで、「将来的にPGは生き残れなくなる」という議論に、どこか納得がいかない部分がありました。\nしかし、個人の職種が生き残るかどうかというよりも、AIを前提とした開発プロセスを構築し、継続的に改善できる組織と、従来の開発方法を続ける組織とで、競争力の差が大きく開いていくと考えた方が、実態に近いのかもしれないと最近は思い始めています。\n\nこれから問われるのは、AIが生み出す個人の能力差を、組織としてどのように吸収・増幅できるかだと思います。",
+          "messageTs": "1785458670.059389",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-07-31",
+          "timestamp": "2026-07-31T00:44:30.059Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 216,
+      "messageCount": 218,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-07-29"
+      "lastDate": "2026-07-31"
     },
     {
       "id": "C09Q1KNL2P8",

@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-07-30T02:44:50.543Z",
+  "generatedAt": "2026-07-31T03:27:31.205Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -63630,6 +63630,110 @@
         }
       ],
       "searchText": "<@U0BK41C1Z4P> 森田さんあらためてよろしくお願いします！ 趣味がいろいろあっていいですね！この夏にオススメのホラーコンテンツがあったら教えて欲しいです！（閲覧注意系は、その旨も添えてもらえると嬉しいですw）\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785453014.816969",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785453014.816969",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785453014.816969",
+      "timestamp": "2026-07-30T23:10:14.816Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-07-30_ 1. _GitHub Copilot for Visual Studio - 7月アップデート_ └ GitHub Copilot for Visual Studio July 2026アップデートが公開。.NETおよびAzureチームによる専門エージェント、Copilot SDKベースの新エージェント、チームカスタマイズ機能の強化など開発者体験を大幅改善。 :link: <https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update/|github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update> 2. _Microsoft、Copilot・GitHub Copilot・AIエージェントを1つのアプリに統合へ_ └ Microsoft CEOサティア・ナデラが、Copilotチャット・GitHub Copil..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785453014.816969",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-07-30_ 1. _GitHub Copilot for Visual Studio - 7月アップデート_ └ GitHub Copilot for Visual Studio July 2026アップデートが公開。.NETおよびAzureチームによる専門エージェント、Copilot SDKベースの新エージェント、チームカスタマイズ機能の強化など開発者体験を大幅改善。 :link: <https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update/|github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update> 2. _Microsoft、Copilot・GitHub Copilot・AIエージェントを1つのアプリに統合へ_ └ Microsoft CEOサティア・ナデラが、Copilotチャット・GitHub Copilot・Cowork・Autopilotエージェントを一本化した統合アプリを2026年中にリリースすると正式表明。AIコーディングと業務自動化が単一UIで完結する方向性へ。 :link: <https://techweez.com/2026/07/30/microsoft-unified-copilot-app-2026/|techweez.com/2026/07/30/microsoft-unif...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785453014.816969",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-07-30_ 1. _GitHub Copilot for Visual Studio - 7月アップデート_ └ GitHub Copilot for Visual Studio July 2026アップデートが公開。.NETおよびAzureチームによる専門エージェント、Copilot SDKベースの新エージェント、チームカスタマイズ機能の強化など開発者体験を大幅改善。 :link: <https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update/|github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update> 2. _Microsoft、Copilot・GitHub Copilot・AIエージェントを1つのアプリに統合へ_ └ Microsoft CEOサティア・ナデラが、Copilotチャット・GitHub Copilot・Cowork・Autopilotエージェントを一本化した統合アプリを2026年中にリリースすると正式表明。AIコーディングと業務自動化が単一UIで完結する方向性へ。 :link: <https://techweez.com/2026/07/30/microsoft-unified-copilot-app-2026/|techweez.com/2026/07/30/microsoft-unified-copilot-app-2026> 3. _GitHub Models、本日（7/30）をもって正式終了_ └ GitHubが提供してきた無料AIモデル試験プラットフォーム「GitHub Models」が本日2026年7月30日付で完全廃止。利用者はGitHub CopilotまたはモデルプロバイダーのAPIへの移行が必要。 :link: <https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/|github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026> 4. _Cursor、iPad向けコーディング体験を全面刷新_ └ CursorがiPad対応を全有料プランへ拡大。スプリットスクリーンチャット・完全PRレビュー・リッチ差分表示を搭載した新iPadレイアウトを投入し、モバイルでのAIコーディングワークフローを強化。iPhoneのオン...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785458670.059389",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785458670.059389",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785458670.059389",
+      "timestamp": "2026-07-31T00:44:30.059Z",
+      "detailBullets": [
+        "最近、スタートアップ経営者と話す際、「AIによって、開発は実際にどの程度効率化されているのか」を意識して聞くようにしています。 志賀さんの参画が決まったIDOM CaaS Technologyをご紹介いただいたmatsuri technologiesの吉田社長と、昨日ランチでお話ししました。 同社では、CTOがAIを活用することによって、個人の開発効率が以前の約8倍になったそうです。一方、約20名いるエンジニア組織において、CTO以外のメンバーの効率向上は1.5倍程度に留まっているとのことでした。似たような話は、他の企業からも聞きます。 ここから考えられるのは、AIがすべてのエンジニアの生産性を均等に引き上げるわけではないということです。現時点では、AIはエンジニアの能力を代替するというよりも、既存の能力差を増幅する側面が強いのではないかと考えています。 経験豊富なエンジニアは、AIに適切な指示を出せるだけでなく、出力されたコードの設計、品質、リスクを素早く判断できます。そのため、AIによる生産性向上を最大限に享受できます。 一方、基礎的な設計力や評価力が十分でなければ、AIによって..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785458670.059389",
+          "text": "最近、スタートアップ経営者と話す際、「AIによって、開発は実際にどの程度効率化されているのか」を意識して聞くようにしています。 志賀さんの参画が決まったIDOM CaaS Technologyをご紹介いただいたmatsuri technologiesの吉田社長と、昨日ランチでお話ししました。 同社では、CTOがAIを活用することによって、個人の開発効率が以前の約8倍になったそうです。一方、約20名いるエンジニア組織において、CTO以外のメンバーの効率向上は1.5倍程度に留まっているとのことでした。似たような話は、他の企業からも聞きます。 ここから考えられるのは、AIがすべてのエンジニアの生産性を均等に引き上げるわけではないということです。現時点では、AIはエンジニアの能力を代替するというよりも、既存の能力差を増幅する側面が強いのではないかと考えています。 経験豊富なエンジニアは、AIに適切な指示を出せるだけでなく、出力されたコードの設計、品質、リスクを素早く判断できます。そのため、AIによる生産性向上を最大限に享受できます。 一方、基礎的な設計力や評価力が十分でなければ、AIによってコードを生成できても、その正しさを判断できません。結果として、レビューや修正、手戻りに時間がかかり、生産性向上の効果が相殺されてしまいます。 また、「個人の実装速度」と「プロジェクト全体の生産性」も分けて考える必要があります。 当然のことなんですが、よく議論される「エンジニアがAIに代替される」という議論は、個人開発レベルで作られたアプリやシステムの話と、SIerが獲得しているような大規模開発の案...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785458670.059389",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "最近、スタートアップ経営者と話す際、「AIによって、開発は実際にどの程度効率化されているのか」を意識して聞くようにしています。 志賀さんの参画が決まったIDOM CaaS Technologyをご紹介いただいたmatsuri technologiesの吉田社長と、昨日ランチでお話ししました。 同社では、CTOがAIを活用することによって、個人の開発効率が以前の約8倍になったそうです。一方、約20名いるエンジニア組織において、CTO以外のメンバーの効率向上は1.5倍程度に留まっているとのことでした。似たような話は、他の企業からも聞きます。 ここから考えられるのは、AIがすべてのエンジニアの生産性を均等に引き上げるわけではないということです。現時点では、AIはエンジニアの能力を代替するというよりも、既存の能力差を増幅する側面が強いのではないかと考えています。 経験豊富なエンジニアは、AIに適切な指示を出せるだけでなく、出力されたコードの設計、品質、リスクを素早く判断できます。そのため、AIによる生産性向上を最大限に享受できます。 一方、基礎的な設計力や評価力が十分でなければ、AIによってコードを生成できても、その正しさを判断できません。結果として、レビューや修正、手戻りに時間がかかり、生産性向上の効果が相殺されてしまいます。 また、「個人の実装速度」と「プロジェクト全体の生産性」も分けて考える必要があります。 当然のことなんですが、よく議論される「エンジニアがAIに代替される」という議論は、個人開発レベルで作られたアプリやシステムの話と、SIerが獲得しているような大規模開発の案件とで分けて考えるべきだと思っています。 実装が速くなっても、要件定義、顧客との合意形成、設計、レビュー、テストなどがボトルネックのままであれば、プロジェクト全体が同じ倍率で速くなるわけではありません。しかもこれらはプロジェクトの規模が大きくなればなるほど複雑になる。 個人のコーディング速度が8倍になったとしても、プロジェクト全体の生産性が8倍になるとは限らないということです。 したがって、Saitekiが目指すAI駆動開発も、「各エンジニアがAIツールを使えること」だけでは不十分です。 経験豊富なエンジニアが持つ判断基準を、設計ルール、開発手順、レビュー、テスト、ナレッジとして仕組み化し、組織全体で再現できる状態をつくる必要があります。 その意味では、これまでSaiteki AI Standardをつくってきた方向性は、やはり間違っていなかったと思います。ただし、Standardを整備すること自体が目的ではありません。それによって、経験豊富なエンジニアの判断をどこまで組織に実装し、実際の品質・納期・原価を改善できるかが重要です。 中堅も若手も、Standardを読んで手を動かしている...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1785461336.578589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1785461336.578589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1785461336.578589",
+      "timestamp": "2026-07-31T01:28:56.578Z",
+      "detailBullets": [
+        "<!channel> :mega:リマインド:mega: 先日お知らせいたしました通り、7月分勤怠から提出物が増えています。 ・常駐先勤務表(全員) ・自社勤務表(全員) ・有給・特休申請シート(対象者のみ) ・交通費申請書(対象者のみ) ・経費にかかった領収書(対象者のみ) 以下、先日の周知内容を改めてご連絡させていただきます:woman-bowing: --------------------------------------------------------------------------- :point_right: *有給の分割付与開始、有給の申請方法についてはこちら* <https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1782466842995129|https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1782466842995129> 7月から有給の分割付与開始、時間単位年休や、有給を申請する方法について。 --------------------------..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1785461336.578589",
+          "text": "<!channel> :mega:リマインド:mega: 先日お知らせいたしました通り、7月分勤怠から提出物が増えています。 ・常駐先勤務表(全員) ・自社勤務表(全員) ・有給・特休申請シート(対象者のみ) ・交通費申請書(対象者のみ) ・経費にかかった領収書(対象者のみ) 以下、先日の周知内容を改めてご連絡させていただきます:woman-bowing: --------------------------------------------------------------------------- :point_right: *有給の分割付与開始、有給の申請方法についてはこちら* <https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1782466842995129|https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1782466842995129> 7月から有給の分割付与開始、時間単位年休や、有給を申請する方法について。 --------------------------------------------------------------------------- :point_right: *自社用勤怠管理表の作成についてはこちら* <https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1784176967917999|https://saiteki-hq.slack.com/archives/C09MKT8...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1785461336.578589",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> :mega:リマインド:mega: 先日お知らせいたしました通り、7月分勤怠から提出物が増えています。 ・常駐先勤務表(全員) ・自社勤務表(全員) ・有給・特休申請シート(対象者のみ) ・交通費申請書(対象者のみ) ・経費にかかった領収書(対象者のみ) 以下、先日の周知内容を改めてご連絡させていただきます:woman-bowing: --------------------------------------------------------------------------- :point_right: *有給の分割付与開始、有給の申請方法についてはこちら* <https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1782466842995129|https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1782466842995129> 7月から有給の分割付与開始、時間単位年休や、有給を申請する方法について。 --------------------------------------------------------------------------- :point_right: *自社用勤怠管理表の作成についてはこちら* <https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1784176967917999|https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1784176967917999> 時間単位年休、そして、有給分配付与が開始されたことから、 勤怠集計の管理漏れを防ぐため、常駐先勤務表とは別に、自社勤怠管理表も毎月提出してもらう事となりました。 --------------------------------------------------------------------------- 皆さま、ご協力をよろしくお願い致します。\nall-saiteki\nSales"
     }
   ]
 }
