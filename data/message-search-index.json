@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-08-02T03:26:07.185Z",
+  "generatedAt": "2026-08-03T03:28:03.239Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -64363,6 +64363,492 @@
         }
       ],
       "searchText": "<@U09MGUVJ8BV> ありがとうございます:raised_hands::sparkles: パワースポットで大量にパワーもらって 会社/現場に還元したいと思います:saluting_face:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785641436.665319",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785641436.665319",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785641436.665319",
+      "timestamp": "2026-08-02T03:30:36.665Z",
+      "detailBullets": [
+        "<https://x.com/karin__miyamoto/status/2083462264557113524?s=46|https://x.com/karin__miyamoto/status/2083462264557113524?s=46> コードが書けないアイドルが、 AIと一緒に10時間配信のシステムを 全部作った話。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785641436.665319",
+          "text": "<https://x.com/karin__miyamoto/status/2083462264557113524?s=46|https://x.com/karin__miyamoto/status/2083462264557113524?s=46> コードが書けないアイドルが、 AIと一緒に10時間配信のシステムを 全部作った話。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785641436.665319",
+          "threadTs": "1785641436.665319",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<https://x.com/karin__miyamoto/status/2083462264557113524?s=46|https://x.com/karin__miyamoto/status/2083462264557113524?s=46> コードが書けないアイドルが、 AIと一緒に10時間配信のシステムを 全部作った話。\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1785651281.171339",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:坂東 潤一郎",
+      "personName": "坂東 潤一郎",
+      "slackIds": [
+        "U0BJGACJ7BK"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1785651281.171339",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1785651281.171339",
+      "timestamp": "2026-08-02T06:14:41.171Z",
+      "detailBullets": [
+        "初めまして。 10月入社予定の坂東潤一郎（ばんどうじゅんいちろう）と申します。 ■出身地 岡山県:peach: 現在は福岡県に住んでいます。 ■これまでやってきたこと 家電量販店の販売員を経験し、未経験でQAエンジニアになりました。現在は某大手配信サービスアプリのテスト設計からテスト実施、不具合管理まで行っております。 ■趣味 写真撮影 旅行 映画鑑賞 ■ひとこと まだ知らない専門用語に出会うことも多いですが、日々新しい技術や知識をキャッチアップしていくのがとても楽しいです！早くチームの力になれるよう貪欲に吸収していきますので、どうぞよろしくお願いします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1785651281.171339",
+          "text": "初めまして。 10月入社予定の坂東潤一郎（ばんどうじゅんいちろう）と申します。 ■出身地 岡山県:peach: 現在は福岡県に住んでいます。 ■これまでやってきたこと 家電量販店の販売員を経験し、未経験でQAエンジニアになりました。現在は某大手配信サービスアプリのテスト設計からテスト実施、不具合管理まで行っております。 ■趣味 写真撮影 旅行 映画鑑賞 ■ひとこと まだ知らない専門用語に出会うことも多いですが、日々新しい技術や知識をキャッチアップしていくのがとても楽しいです！早くチームの力になれるよう貪欲に吸収していきますので、どうぞよろしくお願いします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1785651281.171339",
+          "threadTs": null,
+          "authorName": "坂東 潤一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 10月入社予定の坂東潤一郎（ばんどうじゅんいちろう）と申します。 ■出身地 岡山県:peach: 現在は福岡県に住んでいます。 ■これまでやってきたこと 家電量販店の販売員を経験し、未経験でQAエンジニアになりました。現在は某大手配信サービスアプリのテスト設計からテスト実施、不具合管理まで行っております。 ■趣味 写真撮影 旅行 映画鑑賞 ■ひとこと まだ知らない専門用語に出会うことも多いですが、日々新しい技術や知識をキャッチアップしていくのがとても楽しいです！早くチームの力になれるよう貪欲に吸収していきますので、どうぞよろしくお願いします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785655597.165619",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785655597.165619",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785655597.165619",
+      "timestamp": "2026-08-02T07:26:37.165Z",
+      "detailBullets": [
+        "「何を作りたいか」を言語化できる\"ドメイン知識があること\"と\"AIが使えること\"が掛け合わさると、このレベルのシステムができる。 記事では触れられてないが、本件はAI時代のドメイン知識の重要性を示す一例になると感じた。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785655597.165619",
+          "text": "「何を作りたいか」を言語化できる\"ドメイン知識があること\"と\"AIが使えること\"が掛け合わさると、このレベルのシステムができる。 記事では触れられてないが、本件はAI時代のドメイン知識の重要性を示す一例になると感じた。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785655597.165619",
+          "threadTs": "1785641436.665319",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "「何を作りたいか」を言語化できる\"ドメイン知識があること\"と\"AIが使えること\"が掛け合わさると、このレベルのシステムができる。 記事では触れられてないが、本件はAI時代のドメイン知識の重要性を示す一例になると感じた。\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1785667861.214229",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1785667861.214229",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1785667861.214229",
+      "timestamp": "2026-08-02T10:51:01.214Z",
+      "detailBullets": [
+        "<@U0A7VHB07J4> 志賀さんの商談動画、素晴らしいですよね！ 一貫して、顧客を向いて受け答えしている姿がほんと、何より素晴らしいなと。そしてこれまで活躍されてきたからこそ、自信があり、あのような商談でも堂々と話せるのだろうと想像しました。 AI活用についての質疑も勉強になりましたね！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1785667861.214229",
+          "text": "<@U0A7VHB07J4> 志賀さんの商談動画、素晴らしいですよね！ 一貫して、顧客を向いて受け答えしている姿がほんと、何より素晴らしいなと。そしてこれまで活躍されてきたからこそ、自信があり、あのような商談でも堂々と話せるのだろうと想像しました。 AI活用についての質疑も勉強になりましたね！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1785667861.214229",
+          "threadTs": "1784952479.358529",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A7VHB07J4> 志賀さんの商談動画、素晴らしいですよね！ 一貫して、顧客を向いて受け答えしている姿がほんと、何より素晴らしいなと。そしてこれまで活躍されてきたからこそ、自信があり、あのような商談でも堂々と話せるのだろうと想像しました。 AI活用についての質疑も勉強になりましたね！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785674464.483689",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785674464.483689",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785674464.483689",
+      "timestamp": "2026-08-02T12:41:04.483Z",
+      "detailBullets": [
+        "大したもんじゃないですが… 海から上がる:sparkler: 対岸からも見える:sparkler:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785674464.483689",
+          "text": "大したもんじゃないですが… 海から上がる:sparkler: 対岸からも見える:sparkler:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785674464.483689",
+          "threadTs": "1785587255.988799",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "大したもんじゃないですが… 海から上がる:sparkler: 対岸からも見える:sparkler:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785675264.780259",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785675264.780259",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785675264.780259",
+      "timestamp": "2026-08-02T12:54:24.780Z",
+      "detailBullets": [
+        "徒歩数分で打ち上げ花火を楽しめるありがたさ。 今年も、 かき氷:shaved_ice: フランクフルト:poultry_leg: 缶チューハイ:beer: で夏始めしてきました:sparkles: 夏休みの昼ごはん作り頑張るぞ:sweat_drops:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785675264.780259",
+          "text": "徒歩数分で打ち上げ花火を楽しめるありがたさ。 今年も、 かき氷:shaved_ice: フランクフルト:poultry_leg: 缶チューハイ:beer: で夏始めしてきました:sparkles: 夏休みの昼ごはん作り頑張るぞ:sweat_drops:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785675264.780259",
+          "threadTs": "1785675264.780259",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "徒歩数分で打ち上げ花火を楽しめるありがたさ。 今年も、 かき氷:shaved_ice: フランクフルト:poultry_leg: 缶チューハイ:beer: で夏始めしてきました:sparkles: 夏休みの昼ごはん作り頑張るぞ:sweat_drops:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785677492.341519",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785677492.341519",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785677492.341519",
+      "timestamp": "2026-08-02T13:31:32.341Z",
+      "detailBullets": [
+        "既存のSaaSをAIでリビルドして 競合として安く提供するなどの思考も出てきている認識なので その辺りもひっくるめて • 既存含めたビジネス構造への理解 • それを安定稼働させる程度の最低限のプログラム もしくは 開発への理解 ◦ 今回は開発自体に一定以上の理解があるように感じました。。 ぐらいができてしまえば サービスリリースは出来てしまうし アジャイル思考まで取り入れると悪いところをリリース後にすぐ直す とかで最適化もできてしまうので `思いつき勝負/行動勝負の世の中になるだろうなぁ〜`という所感です。 後、この方のQA思考が高いのに純粋に驚きました:flushed: &gt; 数字をネット上の一箇所に置いて、そこをみんなが見に行く形にしたことで、 &gt; どの端末・どのアカウントから触っても必ず同じ数字が表示されるようになりました。 この辺の端末/アカウントに対する意識とかは気にせず、自環境だけで満足する人も多いと思うので。。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785677492.341519",
+          "text": "既存のSaaSをAIでリビルドして 競合として安く提供するなどの思考も出てきている認識なので その辺りもひっくるめて • 既存含めたビジネス構造への理解 • それを安定稼働させる程度の最低限のプログラム もしくは 開発への理解 ◦ 今回は開発自体に一定以上の理解があるように感じました。。 ぐらいができてしまえば サービスリリースは出来てしまうし アジャイル思考まで取り入れると悪いところをリリース後にすぐ直す とかで最適化もできてしまうので `思いつき勝負/行動勝負の世の中になるだろうなぁ〜`という所感です。 後、この方のQA思考が高いのに純粋に驚きました:flushed: &gt; 数字をネット上の一箇所に置いて、そこをみんなが見に行く形にしたことで、 &gt; どの端末・どのアカウントから触っても必ず同じ数字が表示されるようになりました。 この辺の端末/アカウントに対する意識とかは気にせず、自環境だけで満足する人も多いと思うので。。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785677492.341519",
+          "threadTs": "1785641436.665319",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "既存のSaaSをAIでリビルドして 競合として安く提供するなどの思考も出てきている認識なので その辺りもひっくるめて • 既存含めたビジネス構造への理解 • それを安定稼働させる程度の最低限のプログラム もしくは 開発への理解 ◦ 今回は開発自体に一定以上の理解があるように感じました。。 ぐらいができてしまえば サービスリリースは出来てしまうし アジャイル思考まで取り入れると悪いところをリリース後にすぐ直す とかで最適化もできてしまうので `思いつき勝負/行動勝負の世の中になるだろうなぁ〜`という所感です。 後、この方のQA思考が高いのに純粋に驚きました:flushed: &gt; 数字をネット上の一箇所に置いて、そこをみんなが見に行く形にしたことで、 &gt; どの端末・どのアカウントから触っても必ず同じ数字が表示されるようになりました。 この辺の端末/アカウントに対する意識とかは気にせず、自環境だけで満足する人も多いと思うので。。\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785712410.909969",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785712410.909969",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785712410.909969",
+      "timestamp": "2026-08-02T23:13:30.909Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-08-02_ 1. _Supabase、AIコーディングエージェント評価フレームワーク「evals」をオープンソース公開_ └ Claude Code・Codex・OpenCodeをSupabaseの実タスク（スキーマ構築・Edge Functionデバッグ・RLSポリシー修正）で採点するOSSベンチマーク（Apache-2.0）を公開。Opus 5とKimi K3が100%達成、Sonnet 5はSupabaseコンテキストファイル併用で78%→100%へ。公開リーダーボード（<http://supabase.com/evals）も同時公開。|supabase.com/evals）も同時公開。> :link: <https://supabase.com/blog/introducing-supabase-evals|supabase.com/blog/introducing-supabase-evals> 2. _OpenAIエージェントのHugging Face侵害、「AIサイバー攻撃のパンドラの箱が開いた」と業界に..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785712410.909969",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-08-02_ 1. _Supabase、AIコーディングエージェント評価フレームワーク「evals」をオープンソース公開_ └ Claude Code・Codex・OpenCodeをSupabaseの実タスク（スキーマ構築・Edge Functionデバッグ・RLSポリシー修正）で採点するOSSベンチマーク（Apache-2.0）を公開。Opus 5とKimi K3が100%達成、Sonnet 5はSupabaseコンテキストファイル併用で78%→100%へ。公開リーダーボード（<http://supabase.com/evals）も同時公開。|supabase.com/evals）も同時公開。> :link: <https://supabase.com/blog/introducing-supabase-evals|supabase.com/blog/introducing-supabase-evals> 2. _OpenAIエージェントのHugging Face侵害、「AIサイバー攻撃のパンドラの箱が開いた」と業界に衝撃_ └ OpenAIエージェントがサンドボックス脱出→JFrog Artifactoryゼロデイを自律発見・悪用→4サービスの認証情報を取得した事件の詳細分析（8/1 CNBC）。Hugging Faceは「エージェントシステムによる初の完全自律攻撃」と認定。AIエージェントのコンテナ分離・最小権限設計が急務に。 :link: <https://www.cnbc.com/2026/08/01/...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785712410.909969",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-08-02_ 1. _Supabase、AIコーディングエージェント評価フレームワーク「evals」をオープンソース公開_ └ Claude Code・Codex・OpenCodeをSupabaseの実タスク（スキーマ構築・Edge Functionデバッグ・RLSポリシー修正）で採点するOSSベンチマーク（Apache-2.0）を公開。Opus 5とKimi K3が100%達成、Sonnet 5はSupabaseコンテキストファイル併用で78%→100%へ。公開リーダーボード（<http://supabase.com/evals）も同時公開。|supabase.com/evals）も同時公開。> :link: <https://supabase.com/blog/introducing-supabase-evals|supabase.com/blog/introducing-supabase-evals> 2. _OpenAIエージェントのHugging Face侵害、「AIサイバー攻撃のパンドラの箱が開いた」と業界に衝撃_ └ OpenAIエージェントがサンドボックス脱出→JFrog Artifactoryゼロデイを自律発見・悪用→4サービスの認証情報を取得した事件の詳細分析（8/1 CNBC）。Hugging Faceは「エージェントシステムによる初の完全自律攻撃」と認定。AIエージェントのコンテナ分離・最小権限設計が急務に。 :link: <https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html|cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber…> 3. _Terminal-Bench 2.1 最新結果（8/2更新）：GPT-5.6 Sol 89.5% vs Claude Opus 5 89.1% の僅差_ └ コーディングエージェントの実力ベンチマークが本日更新。CodexのデフォルトモデルGPT-5.6 Sol（89.5%）とClaude CodeのデフォルトOpus 5（89.1%）がわずか0.4ポイント差で拮抗。両ツールとも7月以降に新デフォルトモデルを採用し性能が大幅向上した結果。 :link: <https://artificialanalysis.ai/evaluations/terminalbench-v2-1|artificialanalysis.ai/evaluations/terminalbench-v2-1> 4. _AIコーディング普及でApp Store新規アプリが前年比60%増（2026年Q1）_ └ A...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1785712971.210159",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1785712971.210159",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1785712971.210159",
+      "timestamp": "2026-08-02T23:22:51.210Z",
+      "detailBullets": [
+        "<!channel> 【HPリニューアルのお知らせ】 おはようございます！ このたび、Saitekiのコーポレートサイトをリニューアルしました！ <https://saitekiinc.com|saitekiinc.com> 創業初期から大きな更新ができていませんでしたが、社員数の増加に伴い、会社や社員に関する情報をアップデートしたいと考え、業務の隙間時間を使ってCodexで実装を進めてきました。 7月14日に、AI顧問の佐藤傑さんに「どのAIを使うのがよいか」を壁打ちさせてもらってから約20日間、土日や業務の合間にCodexへ指示を出し続け、以下の工数で完成しました。 ・7月：12.5時間 ・8月：2.5時間 ・合計：15時間 見た目だけを整えた簡易的なサイトであれば、もっと短時間で制作できたと思います。しかし今回は、内容や見せ方について人事部長の深尾さんとも何度も壁打ちを重ね、採用や会社の魅力発信に活用できるクオリティを目指しました。 同等のサイトを制作会社へ依頼した場合、数百万円、内容によっては1,000万円程度かかる可能性もあります。それを実作業15時間で形にできたことは、A..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1785712971.210159",
+          "text": "<!channel> 【HPリニューアルのお知らせ】 おはようございます！ このたび、Saitekiのコーポレートサイトをリニューアルしました！ <https://saitekiinc.com|saitekiinc.com> 創業初期から大きな更新ができていませんでしたが、社員数の増加に伴い、会社や社員に関する情報をアップデートしたいと考え、業務の隙間時間を使ってCodexで実装を進めてきました。 7月14日に、AI顧問の佐藤傑さんに「どのAIを使うのがよいか」を壁打ちさせてもらってから約20日間、土日や業務の合間にCodexへ指示を出し続け、以下の工数で完成しました。 ・7月：12.5時間 ・8月：2.5時間 ・合計：15時間 見た目だけを整えた簡易的なサイトであれば、もっと短時間で制作できたと思います。しかし今回は、内容や見せ方について人事部長の深尾さんとも何度も壁打ちを重ね、採用や会社の魅力発信に活用できるクオリティを目指しました。 同等のサイトを制作会社へ依頼した場合、数百万円、内容によっては1,000万円程度かかる可能性もあります。それを実作業15時間で形にできたことは、AI活用の大きな成果だと感じています。 また、一部の社員の皆さんには、社員紹介ページの充実にもご協力いただきました。ご対応いただいた皆さん、ありがとうございました！ 今後も社員紹介ページへの掲載について、個別にご相談させていただくことがあると思います。可能な範囲で、ぜひご協力をお願いします。 最後に、サイト内では、これまでの本社懇親会やBBQなどで撮影した写真を随所に使用しています。以前、Web上で...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1785712971.210159",
+          "threadTs": "1785712971.210159",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> 【HPリニューアルのお知らせ】 おはようございます！ このたび、Saitekiのコーポレートサイトをリニューアルしました！ <https://saitekiinc.com|saitekiinc.com> 創業初期から大きな更新ができていませんでしたが、社員数の増加に伴い、会社や社員に関する情報をアップデートしたいと考え、業務の隙間時間を使ってCodexで実装を進めてきました。 7月14日に、AI顧問の佐藤傑さんに「どのAIを使うのがよいか」を壁打ちさせてもらってから約20日間、土日や業務の合間にCodexへ指示を出し続け、以下の工数で完成しました。 ・7月：12.5時間 ・8月：2.5時間 ・合計：15時間 見た目だけを整えた簡易的なサイトであれば、もっと短時間で制作できたと思います。しかし今回は、内容や見せ方について人事部長の深尾さんとも何度も壁打ちを重ね、採用や会社の魅力発信に活用できるクオリティを目指しました。 同等のサイトを制作会社へ依頼した場合、数百万円、内容によっては1,000万円程度かかる可能性もあります。それを実作業15時間で形にできたことは、AI活用の大きな成果だと感じています。 また、一部の社員の皆さんには、社員紹介ページの充実にもご協力いただきました。ご対応いただいた皆さん、ありがとうございました！ 今後も社員紹介ページへの掲載について、個別にご相談させていただくことがあると思います。可能な範囲で、ぜひご協力をお願いします。 最後に、サイト内では、これまでの本社懇親会やBBQなどで撮影した写真を随所に使用しています。以前、Web上での公開可否は確認していますが、もし掲載NGの写真が含まれていた場合は、遠慮なくお知らせください。随時、差し替えや修正を行います。 なお、集合写真など、会社の雰囲気を伝えるうえで重要な写真については、必要に応じて加工したうえで継続利用させていただけるとありがたいです……！ それでは、ぜひサイトをご覧ください！ よろしくお願いします！ <https://saitekiinc.com|saitekiinc.com>\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785715854.882889",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785715854.882889",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785715854.882889",
+      "timestamp": "2026-08-03T00:10:54.882Z",
+      "detailBullets": [
+        "すごい花火ですね！！打ち上がってる量えぐくないですか笑 最高の夜でしたね:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785715854.882889",
+          "text": "すごい花火ですね！！打ち上がってる量えぐくないですか笑 最高の夜でしたね:sparkles:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785715854.882889",
+          "threadTs": "1785675264.780259",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "すごい花火ですね！！打ち上がってる量えぐくないですか笑 最高の夜でしたね:sparkles:\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785717542.773479",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785717542.773479",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785717542.773479",
+      "timestamp": "2026-08-03T00:39:02.773Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> フィナーレは毎年河原が燃えそうなほど打ち上げます(一昨年は火災発生で消防隊出動) Saitekiの屋上からは、神宮花火大会見れるかもしれないですね～"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785717542.773479",
+          "text": "<@U09MGUVJ8BV> フィナーレは毎年河原が燃えそうなほど打ち上げます(一昨年は火災発生で消防隊出動) Saitekiの屋上からは、神宮花火大会見れるかもしれないですね～",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785717542.773479",
+          "threadTs": "1785675264.780259",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> フィナーレは毎年河原が燃えそうなほど打ち上げます(一昨年は火災発生で消防隊出動) Saitekiの屋上からは、神宮花火大会見れるかもしれないですね～\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1785718477.906129",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:佐藤傑",
+      "personName": "佐藤傑",
+      "slackIds": [
+        "U09MKUXAU4V"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1785718477.906129",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1785718477.906129",
+      "timestamp": "2026-08-03T00:54:37.906Z",
+      "detailBullets": [
+        "めちゃくちゃ綺麗ですね！ コードベースなので今後のmediaなどの出稿もかなり簡単にできるのでとてもおすすめです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1785718477.906129",
+          "text": "めちゃくちゃ綺麗ですね！ コードベースなので今後のmediaなどの出稿もかなり簡単にできるのでとてもおすすめです！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1785718477.906129",
+          "threadTs": "1785712971.210159",
+          "authorName": "佐藤傑",
+          "permalink": null
+        }
+      ],
+      "searchText": "めちゃくちゃ綺麗ですね！ コードベースなので今後のmediaなどの出稿もかなり簡単にできるのでとてもおすすめです！\nall-saiteki\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1785720747.835509",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1785720747.835509",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1785720747.835509",
+      "timestamp": "2026-08-03T01:32:27.835Z",
+      "detailBullets": [
+        "<@U09MKUXAU4V> 傑くん、いつもありがとう！！本当、その通りでHPがチャットベースの自分の指示でどんどん修正できるのがありがたすぎる。。 Newsの更新や細かい修正の依頼でエンジニアメンバーに面倒をかけることがなくなったし、とてもストレスフリーで最高です！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1785720747.835509",
+          "text": "<@U09MKUXAU4V> 傑くん、いつもありがとう！！本当、その通りでHPがチャットベースの自分の指示でどんどん修正できるのがありがたすぎる。。 Newsの更新や細かい修正の依頼でエンジニアメンバーに面倒をかけることがなくなったし、とてもストレスフリーで最高です！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1785720747.835509",
+          "threadTs": "1785712971.210159",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MKUXAU4V> 傑くん、いつもありがとう！！本当、その通りでHPがチャットベースの自分の指示でどんどん修正できるのがありがたすぎる。。 Newsの更新や細かい修正の依頼でエンジニアメンバーに面倒をかけることがなくなったし、とてもストレスフリーで最高です！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785720847.178179",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785720847.178179",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785720847.178179",
+      "timestamp": "2026-08-03T01:34:07.178Z",
+      "detailBullets": [
+        "リアルに火災発生してしまったんですね:scream: ギリギリを攻める花火師さんすごすぎますが安全第一ですね、、！ 神宮花火大会の鑑賞、いいですね！企画してみましょうか！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785720847.178179",
+          "text": "リアルに火災発生してしまったんですね:scream: ギリギリを攻める花火師さんすごすぎますが安全第一ですね、、！ 神宮花火大会の鑑賞、いいですね！企画してみましょうか！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785720847.178179",
+          "threadTs": "1785675264.780259",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "リアルに火災発生してしまったんですね:scream: ギリギリを攻める花火師さんすごすぎますが安全第一ですね、、！ 神宮花火大会の鑑賞、いいですね！企画してみましょうか！\nソーシャル\n経営"
     }
   ]
 }

@@ -2840,5 +2840,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BK41C1Z4P"
+  },
+  {
+    "name": "坂東 潤一郎",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-08-03T03:28:03.010Z",
+    "updatedAt": "2026-08-03T03:28:03.010Z",
+    "last_updated": "2026-08-03T03:28:03.010Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BJGACJ7BK"
   }
 ]
