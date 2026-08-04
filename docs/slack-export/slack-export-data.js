@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-08-03T03:28:16.304Z",
+  "generatedAt": "2026-08-04T02:56:30.120Z",
   "channelCount": 9,
-  "totalMessages": 2110,
+  "totalMessages": 2113,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -27542,11 +27542,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1785746165.485589",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0BMM70PZND",
+          "userName": "奥間りん",
+          "userRealName": "奥間りん",
+          "text": "初めまして。 9月入社予定の奥間りん（おくまりん）と申します。 よろしくお願いします。 :white_small_square:出身地 茨城生まれ山形育ち（現在は千葉在住） :white_small_square:これまでやってきたこと 3年ほどプログラマーとしてゲーム制作会社の社内システム運用保守、製鉄所のシステム改修に関わりました。 :white_small_square:最近ハマってること、趣味など オススメされたドラマやアニメなどを見ること。 :white_small_square:ひとこと まだ知らないことやできないことも多いですが、これから多くのことを経験してスキルアップできるよう努力して参ります。 よろしくお願いします！",
+          "rawText": "初めまして。\n9月入社予定の奥間りん（おくまりん）と申します。\nよろしくお願いします。\n\n:white_small_square:出身地\n茨城生まれ山形育ち（現在は千葉在住）\n\n:white_small_square:これまでやってきたこと\n3年ほどプログラマーとしてゲーム制作会社の社内システム運用保守、製鉄所のシステム改修に関わりました。\n\n:white_small_square:最近ハマってること、趣味など\nオススメされたドラマやアニメなどを見ること。\n\n:white_small_square:ひとこと\nまだ知らないことやできないことも多いですが、これから多くのことを経験してスキルアップできるよう努力して参ります。\nよろしくお願いします！",
+          "messageTs": "1785746165.485589",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-08-03",
+          "timestamp": "2026-08-03T08:36:05.485Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 422,
+      "messageCount": 423,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-08-02"
+      "lastDate": "2026-08-03"
     },
     {
       "id": "C09MKT8QKAR",
@@ -33401,9 +33421,29 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1785747602.668659",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A7VHB07J4",
+          "userName": "小松田 真伍",
+          "userRealName": "小松田 真伍",
+          "text": "*【ご連絡 to 皆様】* * *皆様お疲れ様です！ 全3回(予定)のAI駆動開発勉強会 に向けまして 事前に気になることなどを記載できる管理表を作成いたしました:saluting_face: &gt; <https://docs.google.com/spreadsheets/d/1cDkLtfxhdge19tjZgd3U9aNZo2A24P7FoajEJT_UmRk/edit?usp=sharing|LINK> AIに関することならどんなことでも お気軽に記載してもらえると大変嬉しいです！ 勉強会の中でなるべく記載の事項に触れて 今後のAIに対する議論を深められるような場にしたいと考えております:man-bowing::skin-tone-2::よろしくお願いします:",
+          "rawText": "*【ご連絡 to 皆様】*\n*　*皆様お疲れ様です！\n　全3回(予定)のAI駆動開発勉強会 に向けまして\n\n事前に気になることなどを記載できる管理表を作成いたしました:saluting_face:\n&gt; <https://docs.google.com/spreadsheets/d/1cDkLtfxhdge19tjZgd3U9aNZo2A24P7FoajEJT_UmRk/edit?usp=sharing|LINK>\nAIに関することならどんなことでも\nお気軽に記載してもらえると大変嬉しいです！\n\n勉強会の中でなるべく記載の事項に触れて\n今後のAIに対する議論を深められるような場にしたいと考えております:man-bowing::skin-tone-2::よろしくお願いします:",
+          "messageTs": "1785747602.668659",
+          "threadTs": "1785294427.368369",
+          "parentUserId": null,
+          "subtype": "thread_broadcast",
+          "date": "2026-08-03",
+          "timestamp": "2026-08-03T09:00:02.668Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 305,
+      "messageCount": 306,
       "firstDate": "2025-10-21",
       "lastDate": "2026-08-03"
     },
@@ -37908,11 +37948,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1785798683.923739",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-08-03_ 1. _MiniMax H3 オープンウェイト本日公開 ― 2K動画生成・ネイティブ音声・ComfyUI Day-0対応_ └ 中国AI企業MiniMaxが動画生成モデル「H3（Hailuo 3.0）」のウェイトをHugging Faceで正式公開。最大15秒・2K解像度・ネイティブステレオ音声を生成可能で、ComfyUIサポートも同日追加。BF16 123.6GB → INT8/NVFP4最適化で42.5GB（66%削減）に圧縮済み。RTX 3060クラスのGPUでのローカル実行が現実的に。年収$20M未満の商用利用も可のMiniMax Community Licenseを採用。 :link: <https://comfyui-wiki.com/en/news/2026-08-03-minimax-h3-open-weights-comfyui|comfyui-wiki.com/en/news/2026-08-03-minimax-h3-open-weights-comfyui> 2. _Claude Tag ― AnthropicのSlack用AIエージェントへの自動移行が本日完了_ └ 旧AnthropicSlackアプリが8/3付けで廃止され、6/23発表の「Claude Tag」への移行が全ワークスペースで自動完了。Claude Opus 4.8ベースで動作し、チャンネル会話履歴の継続参照・バックグラウンドでの非同期タスク実行が可能。組織のIDと権限で動作するため、個人課金から組織課金に変更。MCPサーバー等のツール連携も設定可能。AI駆動開発チームのSlack体験に直結する変更点。 :link: <https://www.techtimes.com/articles/319206/20260627/claude-tag-brings-ambient-ai-slack-admins-have-until-august-3-migrate.htm|techtimes.com/articles/319206/20260627/claude-tag-brings-ambient-ai-slack-admins-have-until-august-3…> 3. _GitHub Copilot Billing Previewアプリ本日退役 ― AIクレジット使用量管理はBilling設定へ一元化_ └ AIクレジット使用量ベース課金（6/1全面移行）の浸透に伴い、Copilot Billing Previewアプリが本日8/3付けで正式退役。旧アプリでは表示できなかったユーザーレベル予算・コストセンター・使用プール配分などの詳細をBilling設定の「AI usage」ページで一元管理可能に。コスト管理を強化したい開発チームは設定確認を推奨。 :link: <https://github.blog/changelog/2026-07-07-copilot-billing-preview-app-will-be-retired-on-august-3/|github.blog/changelog/2026-07-07-copilot-billing-preview-app-will-be-retired-on-august-3> 4. _【本日の総括】透明性規制・本番エージェント安全設計・AIインフラが主要テーマ（eguweb日次）_ └ EU AI Act第50条の透明性義務が8/2から適用段階入りした直後の初週。長時間動作するAIエージェントの安全設計（コンテナ管理・権限分離・ログ監査）が主要ベンダーの中心テーマとして急浮上。「新モデルが出た」から「AIをどう業務・規制・コスト管理の中に組み込むか」へ、業界の関心軸が明確に移行している。 :link: <https://eguweb.jp/ai/81279/|eguweb.jp/ai/81279> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-08-03_\n\n1. _MiniMax H3 オープンウェイト本日公開 ― 2K動画生成・ネイティブ音声・ComfyUI Day-0対応_\n└ 中国AI企業MiniMaxが動画生成モデル「H3（Hailuo 3.0）」のウェイトをHugging Faceで正式公開。最大15秒・2K解像度・ネイティブステレオ音声を生成可能で、ComfyUIサポートも同日追加。BF16 123.6GB → INT8/NVFP4最適化で42.5GB（66%削減）に圧縮済み。RTX 3060クラスのGPUでのローカル実行が現実的に。年収$20M未満の商用利用も可のMiniMax Community Licenseを採用。\n:link: <https://comfyui-wiki.com/en/news/2026-08-03-minimax-h3-open-weights-comfyui|comfyui-wiki.com/en/news/2026-08-03-minimax-h3-open-weights-comfyui>\n2. _Claude Tag ― AnthropicのSlack用AIエージェントへの自動移行が本日完了_\n└ 旧AnthropicSlackアプリが8/3付けで廃止され、6/23発表の「Claude Tag」への移行が全ワークスペースで自動完了。Claude Opus 4.8ベースで動作し、チャンネル会話履歴の継続参照・バックグラウンドでの非同期タスク実行が可能。組織のIDと権限で動作するため、個人課金から組織課金に変更。MCPサーバー等のツール連携も設定可能。AI駆動開発チームのSlack体験に直結する変更点。\n:link: <https://www.techtimes.com/articles/319206/20260627/claude-tag-brings-ambient-ai-slack-admins-have-until-august-3-migrate.htm|techtimes.com/articles/319206/20260627/claude-tag-brings-ambient-ai-slack-admins-have-until-august-3…>\n3. _GitHub Copilot Billing Previewアプリ本日退役 ― AIクレジット使用量管理はBilling設定へ一元化_\n└ AIクレジット使用量ベース課金（6/1全面移行）の浸透に伴い、Copilot Billing Previewアプリが本日8/3付けで正式退役。旧アプリでは表示できなかったユーザーレベル予算・コストセンター・使用プール配分などの詳細をBilling設定の「AI usage」ページで一元管理可能に。コスト管理を強化したい開発チームは設定確認を推奨。\n:link: <https://github.blog/changelog/2026-07-07-copilot-billing-preview-app-will-be-retired-on-august-3/|github.blog/changelog/2026-07-07-copilot-billing-preview-app-will-be-retired-on-august-3>\n4. _【本日の総括】透明性規制・本番エージェント安全設計・AIインフラが主要テーマ（eguweb日次）_\n└ EU AI Act第50条の透明性義務が8/2から適用段階入りした直後の初週。長時間動作するAIエージェントの安全設計（コンテナ管理・権限分離・ログ監査）が主要ベンダーの中心テーマとして急浮上。「新モデルが出た」から「AIをどう業務・規制・コスト管理の中に組み込むか」へ、業界の関心軸が明確に移行している。\n:link: <https://eguweb.jp/ai/81279/|eguweb.jp/ai/81279> *使用して送信されました* Claude",
+          "messageTs": "1785798683.923739",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-08-03",
+          "timestamp": "2026-08-03T23:11:23.923Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 231,
+      "messageCount": 232,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-08-02"
+      "lastDate": "2026-08-03"
     },
     {
       "id": "C09Q1KNL2P8",

@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-08-03T03:28:03.239Z",
+  "generatedAt": "2026-08-04T02:56:26.476Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -64849,6 +64849,110 @@
         }
       ],
       "searchText": "リアルに火災発生してしまったんですね:scream: ギリギリを攻める花火師さんすごすぎますが安全第一ですね、、！ 神宮花火大会の鑑賞、いいですね！企画してみましょうか！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1785746165.485589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:奥間りん",
+      "personName": "奥間りん",
+      "slackIds": [
+        "U0BMM70PZND"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1785746165.485589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1785746165.485589",
+      "timestamp": "2026-08-03T08:36:05.485Z",
+      "detailBullets": [
+        "初めまして。 9月入社予定の奥間りん（おくまりん）と申します。 よろしくお願いします。 :white_small_square:出身地 茨城生まれ山形育ち（現在は千葉在住） :white_small_square:これまでやってきたこと 3年ほどプログラマーとしてゲーム制作会社の社内システム運用保守、製鉄所のシステム改修に関わりました。 :white_small_square:最近ハマってること、趣味など オススメされたドラマやアニメなどを見ること。 :white_small_square:ひとこと まだ知らないことやできないことも多いですが、これから多くのことを経験してスキルアップできるよう努力して参ります。 よろしくお願いします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1785746165.485589",
+          "text": "初めまして。 9月入社予定の奥間りん（おくまりん）と申します。 よろしくお願いします。 :white_small_square:出身地 茨城生まれ山形育ち（現在は千葉在住） :white_small_square:これまでやってきたこと 3年ほどプログラマーとしてゲーム制作会社の社内システム運用保守、製鉄所のシステム改修に関わりました。 :white_small_square:最近ハマってること、趣味など オススメされたドラマやアニメなどを見ること。 :white_small_square:ひとこと まだ知らないことやできないことも多いですが、これから多くのことを経験してスキルアップできるよう努力して参ります。 よろしくお願いします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1785746165.485589",
+          "threadTs": null,
+          "authorName": "奥間りん",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 9月入社予定の奥間りん（おくまりん）と申します。 よろしくお願いします。 :white_small_square:出身地 茨城生まれ山形育ち（現在は千葉在住） :white_small_square:これまでやってきたこと 3年ほどプログラマーとしてゲーム制作会社の社内システム運用保守、製鉄所のシステム改修に関わりました。 :white_small_square:最近ハマってること、趣味など オススメされたドラマやアニメなどを見ること。 :white_small_square:ひとこと まだ知らないことやできないことも多いですが、これから多くのことを経験してスキルアップできるよう努力して参ります。 よろしくお願いします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1785747602.668659",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1785747602.668659",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1785747602.668659",
+      "timestamp": "2026-08-03T09:00:02.668Z",
+      "detailBullets": [
+        "*【ご連絡 to 皆様】* * *皆様お疲れ様です！ 全3回(予定)のAI駆動開発勉強会 に向けまして 事前に気になることなどを記載できる管理表を作成いたしました:saluting_face: &gt; <https://docs.google.com/spreadsheets/d/1cDkLtfxhdge19tjZgd3U9aNZo2A24P7FoajEJT_UmRk/edit?usp=sharing|LINK> AIに関することならどんなことでも お気軽に記載してもらえると大変嬉しいです！ 勉強会の中でなるべく記載の事項に触れて 今後のAIに対する議論を深められるような場にしたいと考えております:man-bowing::skin-tone-2::よろしくお願いします:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1785747602.668659",
+          "text": "*【ご連絡 to 皆様】* * *皆様お疲れ様です！ 全3回(予定)のAI駆動開発勉強会 に向けまして 事前に気になることなどを記載できる管理表を作成いたしました:saluting_face: &gt; <https://docs.google.com/spreadsheets/d/1cDkLtfxhdge19tjZgd3U9aNZo2A24P7FoajEJT_UmRk/edit?usp=sharing|LINK> AIに関することならどんなことでも お気軽に記載してもらえると大変嬉しいです！ 勉強会の中でなるべく記載の事項に触れて 今後のAIに対する議論を深められるような場にしたいと考えております:man-bowing::skin-tone-2::よろしくお願いします:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1785747602.668659",
+          "threadTs": "1785294427.368369",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "*【ご連絡 to 皆様】* * *皆様お疲れ様です！ 全3回(予定)のAI駆動開発勉強会 に向けまして 事前に気になることなどを記載できる管理表を作成いたしました:saluting_face: &gt; <https://docs.google.com/spreadsheets/d/1cDkLtfxhdge19tjZgd3U9aNZo2A24P7FoajEJT_UmRk/edit?usp=sharing|LINK> AIに関することならどんなことでも お気軽に記載してもらえると大変嬉しいです！ 勉強会の中でなるべく記載の事項に触れて 今後のAIに対する議論を深められるような場にしたいと考えております:man-bowing::skin-tone-2::よろしくお願いします:\nall-saiteki\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785798683.923739",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785798683.923739",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785798683.923739",
+      "timestamp": "2026-08-03T23:11:23.923Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-08-03_ 1. _MiniMax H3 オープンウェイト本日公開 ― 2K動画生成・ネイティブ音声・ComfyUI Day-0対応_ └ 中国AI企業MiniMaxが動画生成モデル「H3（Hailuo 3.0）」のウェイトをHugging Faceで正式公開。最大15秒・2K解像度・ネイティブステレオ音声を生成可能で、ComfyUIサポートも同日追加。BF16 123.6GB → INT8/NVFP4最適化で42.5GB（66%削減）に圧縮済み。RTX 3060クラスのGPUでのローカル実行が現実的に。年収$20M未満の商用利用も可のMiniMax Community Licenseを採用。 :link: <https://comfyui-wiki.com/en/news/2026-08-03-minimax-h3-open-weights-comfyui|comfyui-wiki.com/en/news/2026-08-03-minimax-h3-open-weights-comfyui> 2. _Claude T..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785798683.923739",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-08-03_ 1. _MiniMax H3 オープンウェイト本日公開 ― 2K動画生成・ネイティブ音声・ComfyUI Day-0対応_ └ 中国AI企業MiniMaxが動画生成モデル「H3（Hailuo 3.0）」のウェイトをHugging Faceで正式公開。最大15秒・2K解像度・ネイティブステレオ音声を生成可能で、ComfyUIサポートも同日追加。BF16 123.6GB → INT8/NVFP4最適化で42.5GB（66%削減）に圧縮済み。RTX 3060クラスのGPUでのローカル実行が現実的に。年収$20M未満の商用利用も可のMiniMax Community Licenseを採用。 :link: <https://comfyui-wiki.com/en/news/2026-08-03-minimax-h3-open-weights-comfyui|comfyui-wiki.com/en/news/2026-08-03-minimax-h3-open-weights-comfyui> 2. _Claude Tag ― AnthropicのSlack用AIエージェントへの自動移行が本日完了_ └ 旧AnthropicSlackアプリが8/3付けで廃止され、6/23発表の「Claude Tag」への移行が全ワークスペースで自動完了。Claude Opus 4.8ベースで動作し、チャンネル会話履歴の継続参照・バックグラウンドでの非同期タスク実行が可能。組織のIDと権限で動作するため、個人課金から組織課金に変...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785798683.923739",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-08-03_ 1. _MiniMax H3 オープンウェイト本日公開 ― 2K動画生成・ネイティブ音声・ComfyUI Day-0対応_ └ 中国AI企業MiniMaxが動画生成モデル「H3（Hailuo 3.0）」のウェイトをHugging Faceで正式公開。最大15秒・2K解像度・ネイティブステレオ音声を生成可能で、ComfyUIサポートも同日追加。BF16 123.6GB → INT8/NVFP4最適化で42.5GB（66%削減）に圧縮済み。RTX 3060クラスのGPUでのローカル実行が現実的に。年収$20M未満の商用利用も可のMiniMax Community Licenseを採用。 :link: <https://comfyui-wiki.com/en/news/2026-08-03-minimax-h3-open-weights-comfyui|comfyui-wiki.com/en/news/2026-08-03-minimax-h3-open-weights-comfyui> 2. _Claude Tag ― AnthropicのSlack用AIエージェントへの自動移行が本日完了_ └ 旧AnthropicSlackアプリが8/3付けで廃止され、6/23発表の「Claude Tag」への移行が全ワークスペースで自動完了。Claude Opus 4.8ベースで動作し、チャンネル会話履歴の継続参照・バックグラウンドでの非同期タスク実行が可能。組織のIDと権限で動作するため、個人課金から組織課金に変更。MCPサーバー等のツール連携も設定可能。AI駆動開発チームのSlack体験に直結する変更点。 :link: <https://www.techtimes.com/articles/319206/20260627/claude-tag-brings-ambient-ai-slack-admins-have-until-august-3-migrate.htm|techtimes.com/articles/319206/20260627/claude-tag-brings-ambient-ai-slack-admins-have-until-august-3…> 3. _GitHub Copilot Billing Previewアプリ本日退役 ― AIクレジット使用量管理はBilling設定へ一元化_ └ AIクレジット使用量ベース課金（6/1全面移行）の浸透に伴い、Copilot Billing Previewアプリが本日8/3付けで正式退役。旧アプリでは表示できなかったユーザーレベル予算・コストセンター・使用プール配分などの詳細をBilling設定の「AI usage」ページで一...\nai駆動開発ネタ\n経営"
     }
   ]
 }
