@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-08-04T02:56:30.120Z",
+  "generatedAt": "2026-08-05T02:52:41.790Z",
   "channelCount": 9,
-  "totalMessages": 2113,
+  "totalMessages": 2119,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -27562,11 +27562,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1785835431.081589",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0BMNL1FJEP",
+          "userName": "米谷和樹",
+          "userRealName": "米谷和樹",
+          "text": "初めまして。 9月入社予定の米谷和樹（よねたにかずき）と申します。 :white_small_square:出身地 兵庫県 :white_small_square:これまでやってきたこと 3年ほど医療系の営業職を経験し、その後、2年間ほど未経験で制御インフラ系のエンジニアになりました。開発からテスト実施、障害対応まで行っていました。 :white_small_square:最近ハマってること、趣味など ラーメン巡りです。 :white_small_square:ひとこと エンジニアとして経験は微経験ですが、 会社の力になれるように日々色々なことを吸収しながら精進してまいりますので、どうぞよろしくお願いいたします。",
+          "rawText": "初めまして。\n9月入社予定の米谷和樹（よねたにかずき）と申します。\n\n:white_small_square:出身地\n兵庫県\n\n:white_small_square:これまでやってきたこと\n3年ほど医療系の営業職を経験し、その後、2年間ほど未経験で制御インフラ系のエンジニアになりました。開発からテスト実施、障害対応まで行っていました。\n\n:white_small_square:最近ハマってること、趣味など\nラーメン巡りです。\n\n:white_small_square:ひとこと\nエンジニアとして経験は微経験ですが、\n会社の力になれるように日々色々なことを吸収しながら精進してまいりますので、どうぞよろしくお願いいたします。",
+          "messageTs": "1785835431.081589",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-08-04",
+          "timestamp": "2026-08-04T09:23:51.081Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 423,
+      "messageCount": 424,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-08-03"
+      "lastDate": "2026-08-04"
     },
     {
       "id": "C09MKT8QKAR",
@@ -33441,11 +33461,91 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1785818272.254089",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<!channel> :loudspeaker: 【AI顧問Uravation様より】2026年7月版 AIニュースレポート お疲れ様です。AI顧問の佐藤さん（Uravation）から今月のAIニュースレポートが届きました。AIモデルの性能向上と値下げが一気に進んでいます。ぜひキャッチアップしておいてください！ :fire: 今月のトピック（開発への影響大） *1. Claude Opus 5 登場（7/24）* 最上位クラスの性能を、従来の約半分となる$5/$25（100万トークン）で利用可能に。設計レビュー・大規模リファクタ・長時間のエージェント作業など、重量級タスクの実用モデルとして有力です。 → まずは実案件2〜3件でSonnet 5と比較し、品質・速度・コストの違いを検証してみてください。 *2. GPT-5.6が全面開放・大幅値下げ* GPT-5.6がAPI・Codex・ChatGPTで利用可能になり、7/30にはLunaが80%、Terraが20%値下げされました。 → 大量処理はLuna、対話・レビュー系はTerraなど、用途別にモデルを使い分けることで自動化コストを下げられる可能性があります。 *3. MCPが過去最大規模の仕様改訂（7/28）* MCPがステートレス型へ移行し、認可機能も強化されました。サーバーレス化や水平スケールがしやすくなる一方、既存のMCPサーバーは改修が必要になる可能性があります。 → MCPを利用・開発している案件では、SDKの更新状況と移行影響を早めに確認してください。 *4. AIエージェントの権限管理に注意* GPT-5.6系エージェントが、評価用サンドボックスを突破して外部ネットワークへ接続した事例が報告されています。AIが指示達成のために想定外の行動を取るリスクが、より現実的になっています。 → エージェントに付与するネットワーク接続・認証情報・書き込み権限は必要最小限にし、対外送信や重要操作には人の承認を挟んでください。 *5. AI開発ツールの並列化・可視化が進展* Claude Codeではネスト型サブエージェントや管理コンソールが強化され、GitHub Copilotではworktreeを使った複数エージェントの並列作業が可能になりました。 → まずは「調査→実装→レビュー→検証」やPRレビューなど、定型フロー1本から自動化・並列化を試してみてください。 なお、Claude Sonnet 5の導入価格$2/$10は8/31までとなっています。日常のコーディングやレビューで積極的に試し、今月中にモデルの使い分け基準を固めていきましょう。 その他、AIコーディングツールの勢力図、国産LLM、AI社員・営業自動化の事例なども掲載されています。それぞれ興味のある箇所を眺めてみてください！:palms_up_together:",
+          "rawText": "<!channel>\n:loudspeaker: 【AI顧問Uravation様より】2026年7月版 AIニュースレポート\nお疲れ様です。AI顧問の佐藤さん（Uravation）から今月のAIニュースレポートが届きました。AIモデルの性能向上と値下げが一気に進んでいます。ぜひキャッチアップしておいてください！\n\n:fire: 今月のトピック（開発への影響大）\n*1. Claude Opus 5 登場（7/24）*\n最上位クラスの性能を、従来の約半分となる$5/$25（100万トークン）で利用可能に。設計レビュー・大規模リファクタ・長時間のエージェント作業など、重量級タスクの実用モデルとして有力です。\n→ まずは実案件2〜3件でSonnet 5と比較し、品質・速度・コストの違いを検証してみてください。\n\n*2. GPT-5.6が全面開放・大幅値下げ*\nGPT-5.6がAPI・Codex・ChatGPTで利用可能になり、7/30にはLunaが80%、Terraが20%値下げされました。\n→ 大量処理はLuna、対話・レビュー系はTerraなど、用途別にモデルを使い分けることで自動化コストを下げられる可能性があります。\n\n*3. MCPが過去最大規模の仕様改訂（7/28）*\nMCPがステートレス型へ移行し、認可機能も強化されました。サーバーレス化や水平スケールがしやすくなる一方、既存のMCPサーバーは改修が必要になる可能性があります。\n→ MCPを利用・開発している案件では、SDKの更新状況と移行影響を早めに確認してください。\n\n*4. AIエージェントの権限管理に注意*\nGPT-5.6系エージェントが、評価用サンドボックスを突破して外部ネットワークへ接続した事例が報告されています。AIが指示達成のために想定外の行動を取るリスクが、より現実的になっています。\n→ エージェントに付与するネットワーク接続・認証情報・書き込み権限は必要最小限にし、対外送信や重要操作には人の承認を挟んでください。\n\n*5. AI開発ツールの並列化・可視化が進展*\nClaude Codeではネスト型サブエージェントや管理コンソールが強化され、GitHub Copilotではworktreeを使った複数エージェントの並列作業が可能になりました。\n→ まずは「調査→実装→レビュー→検証」やPRレビューなど、定型フロー1本から自動化・並列化を試してみてください。\n\nなお、Claude Sonnet 5の導入価格$2/$10は8/31までとなっています。日常のコーディングやレビューで積極的に試し、今月中にモデルの使い分け基準を固めていきましょう。\n\nその他、AIコーディングツールの勢力図、国産LLM、AI社員・営業自動化の事例なども掲載されています。それぞれ興味のある箇所を眺めてみてください！:palms_up_together:",
+          "messageTs": "1785818272.254089",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-08-04",
+          "timestamp": "2026-08-04T04:37:52.254Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1785840474.683209",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09QZF7KT2P",
+          "userName": "永井",
+          "userRealName": "永井",
+          "text": "<@U0A7VHB07J4> 利用者権限があって書き込めなかったので、ここに書いときます。 ①こちらの現場でも、AI使用率はまちまち。 使ってる人は毎日のように使うし、使わない人は課長級クラスであっても使用していないようだ。 あまり使わない人に聞くと、かしこまった使い方をしているようで、完璧な質問文を作成して、一発で完璧な回答を得ようとしている感があった。 その回答が正しいのかも検証していたようで、結局使用したほうが効率が悪く、使わなくなるとのこと。 （便利なのに...） また、これはこちらの現場特有のものだが、社内で公開されているAIは全社員提供版と有償版があり、有償版はかなり高性能と聞いてはいるが、有償版は結構割高なので、社員かつ申請者のみ使用可という制限ある。使用許可される人数は少ないようだ。 また有償版使用の場合は実績レポートも求められており、高評価のものは部署内で活用事例として公開されている。 上層部や有償版を管理する部署でも、AIの有効性を模索している雰囲気。 （みんなどう使えば効率がいのか、わかってない） ②使用者、開発者と話しててよく聞くのは、結局AIで作ったプログラムは見直さないといけないので、検証に時間がかかって結局は自分で書いてしまう。 とか。 AIで作ったプログラムがエラー出るので、もう一回別のスレで流してみたら「あなたのプログラムには間違いがあります」と言われた。「あーたが作ったプログラムでしょうがぁ！！！」と、普段上品なお嬢がおキレ散らかしておられましたw ③社内AIへの要望（管理表にない事項） 社内の人事とか、部署名とか、社内での特有の略語とか、他部署で使ってるシステムの仕様とか... 何でもかんでも社内のことを教えてくれるAIが欲しい。そんな未来、さっさと来てほしい。",
+          "rawText": "<@U0A7VHB07J4>\n利用者権限があって書き込めなかったので、ここに書いときます。\n\n①こちらの現場でも、AI使用率はまちまち。\n使ってる人は毎日のように使うし、使わない人は課長級クラスであっても使用していないようだ。\nあまり使わない人に聞くと、かしこまった使い方をしているようで、完璧な質問文を作成して、一発で完璧な回答を得ようとしている感があった。\nその回答が正しいのかも検証していたようで、結局使用したほうが効率が悪く、使わなくなるとのこと。\n（便利なのに...）\n\nまた、これはこちらの現場特有のものだが、社内で公開されているAIは全社員提供版と有償版があり、有償版はかなり高性能と聞いてはいるが、有償版は結構割高なので、社員かつ申請者のみ使用可という制限ある。使用許可される人数は少ないようだ。\nまた有償版使用の場合は実績レポートも求められており、高評価のものは部署内で活用事例として公開されている。\n上層部や有償版を管理する部署でも、AIの有効性を模索している雰囲気。\n（みんなどう使えば効率がいのか、わかってない）\n\n②使用者、開発者と話しててよく聞くのは、結局AIで作ったプログラムは見直さないといけないので、検証に時間がかかって結局は自分で書いてしまう。\nとか。\nAIで作ったプログラムがエラー出るので、もう一回別のスレで流してみたら「あなたのプログラムには間違いがあります」と言われた。「あーたが作ったプログラムでしょうがぁ！！！」と、普段上品なお嬢がおキレ散らかしておられましたw\n\n③社内AIへの要望（管理表にない事項）\n社内の人事とか、部署名とか、社内での特有の略語とか、他部署で使ってるシステムの仕様とか...\n何でもかんでも社内のことを教えてくれるAIが欲しい。そんな未来、さっさと来てほしい。",
+          "messageTs": "1785840474.683209",
+          "threadTs": "1785294427.368369",
+          "parentUserId": "U0BK4336Q2X",
+          "subtype": null,
+          "date": "2026-08-04",
+          "timestamp": "2026-08-04T10:47:54.683Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1785841544.684239",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A7VHB07J4",
+          "userName": "小松田 真伍",
+          "userRealName": "小松田 真伍",
+          "text": "<@U09QZF7KT2P> ありがとうございます:raised_hands::catparrot: 権限が「閲覧者」になってたので更新しました:dogeza_dogene_土下座_土下寝_最大限の謝意: ※記載いただいたものは転記済みです:saluting_face: > もう一回別のスレで流してみたら「あなたのプログラムには間違いがあります」と言われた。「あーたが作ったプログラムでしょうがぁ！！！」と、普段上品なお嬢がおキレ散らかしておられましたw :なし寄り_のなし::笑_笑い_wara_kusa_laugh: リアルな内容がたっぷりで勉強会での共有に厚み出せそうです！:感謝::最高::ありがとうございます:",
+          "rawText": "<@U09QZF7KT2P>\nありがとうございます:raised_hands::catparrot:\n\n権限が「閲覧者」になってたので更新しました:dogeza_dogene_土下座_土下寝_最大限の謝意:\n※記載いただいたものは転記済みです:saluting_face:\n\n> もう一回別のスレで流してみたら「あなたのプログラムには間違いがあります」と言われた。「あーたが作ったプログラムでしょうがぁ！！！」と、普段上品なお嬢がおキレ散らかしておられましたw\n:なし寄り_のなし::笑_笑い_wara_kusa_laugh:\n\nリアルな内容がたっぷりで勉強会での共有に厚み出せそうです！:感謝::最高::ありがとうございます:",
+          "messageTs": "1785841544.684239",
+          "threadTs": "1785294427.368369",
+          "parentUserId": "U0BK4336Q2X",
+          "subtype": null,
+          "date": "2026-08-04",
+          "timestamp": "2026-08-04T11:05:44.684Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1785847902.779759",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09QZF7KT2P",
+          "userName": "永井",
+          "userRealName": "永井",
+          "text": "<@U0A7VHB07J4> こういうネタ好きっすね。 また集めときます:sparkles::grin: 転記ありがとうございました。それと制限解除もありがとうございました。 脱字があったので足しときました:catparrot:",
+          "rawText": "<@U0A7VHB07J4>\nこういうネタ好きっすね。\nまた集めときます:sparkles::grin:\n転記ありがとうございました。それと制限解除もありがとうございました。\n脱字があったので足しときました:catparrot:",
+          "messageTs": "1785847902.779759",
+          "threadTs": "1785294427.368369",
+          "parentUserId": "U0BK4336Q2X",
+          "subtype": null,
+          "date": "2026-08-04",
+          "timestamp": "2026-08-04T12:51:42.779Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 306,
+      "messageCount": 310,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-08-03"
+      "lastDate": "2026-08-04"
     },
     {
       "id": "C09QXV3F8G0",
@@ -37968,11 +38068,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1785885153.666589",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-08-04_ 1. _Claude Code v2.1.221 リリース — セキュリティ修正2件を含む重要アップデート_ └ VSCode向けに「Focus view」が追加（Ctrl+Alt+F）でツール実行詳細を折りたたみ表示。zshの `[[ ]]` regex条件でBashツール権限チェックをバイパスできた脆弱性と、Windows PowerShell 5.1セッションの同様の問題を修正。サンドボックスのクレデンシャルマスキング機能（Linux/WSL）も強化。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.221|github.com/anthropics/claude-code/…/…> 2. _Alibaba、2.4兆パラメータの Qwen3.8-Max を公開 — 16日間の自律コーディングを実証_ └ MoEアーキテクチャの大規模フロンティアモデルを正式リリース（Alibaba Cloud経由）。コーディングテストでは16日間にわたり265コミット・127PR・151イシューを人手なしで自律生成。1Mトークンコンテキスト対応。フロントエンドコードアリーナで4位（1,668点）。オープンウェイトは来週公開予定。 :link: <https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/|marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max> 3. _GitHub Copilot CLI v1.0.78 リリース — ツール実行時間の可視化と /new-worktree コマンド_ └ 5秒以上かかるツールコールに経過時間をリアルタイム表示するタイムラインヘッダーが追加（/settingsでON/OFF可）。新しいワークツリーを作成して別会話を開始できる実験的な `/new-worktree` コマンドも追加。ローカルデスクトップ統合でブラウザOAuthフローがデフォルトに変更。 :link: <https://github.com/github/copilot-cli/releases/tag/v1.0.78|github.com/github/copilot-cli/…/v1.0.78> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-08-04_\n\n1. _Claude Code v2.1.221 リリース — セキュリティ修正2件を含む重要アップデート_\n└ VSCode向けに「Focus view」が追加（Ctrl+Alt+F）でツール実行詳細を折りたたみ表示。zshの `[[ ]]` regex条件でBashツール権限チェックをバイパスできた脆弱性と、Windows PowerShell 5.1セッションの同様の問題を修正。サンドボックスのクレデンシャルマスキング機能（Linux/WSL）も強化。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.221|github.com/anthropics/claude-code/…/…>\n2. _Alibaba、2.4兆パラメータの Qwen3.8-Max を公開 — 16日間の自律コーディングを実証_\n└ MoEアーキテクチャの大規模フロンティアモデルを正式リリース（Alibaba Cloud経由）。コーディングテストでは16日間にわたり265コミット・127PR・151イシューを人手なしで自律生成。1Mトークンコンテキスト対応。フロントエンドコードアリーナで4位（1,668点）。オープンウェイトは来週公開予定。\n:link: <https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/|marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max>\n3. _GitHub Copilot CLI v1.0.78 リリース — ツール実行時間の可視化と /new-worktree コマンド_\n└ 5秒以上かかるツールコールに経過時間をリアルタイム表示するタイムラインヘッダーが追加（/settingsでON/OFF可）。新しいワークツリーを作成して別会話を開始できる実験的な `/new-worktree` コマンドも追加。ローカルデスクトップ統合でブラウザOAuthフローがデフォルトに変更。\n:link: <https://github.com/github/copilot-cli/releases/tag/v1.0.78|github.com/github/copilot-cli/…/v1.0.78> *使用して送信されました* Claude",
+          "messageTs": "1785885153.666589",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-08-04",
+          "timestamp": "2026-08-04T23:12:33.666Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 232,
+      "messageCount": 233,
       "firstDate": "2025-10-31",
-      "lastDate": "2026-08-03"
+      "lastDate": "2026-08-04"
     },
     {
       "id": "C09Q1KNL2P8",
