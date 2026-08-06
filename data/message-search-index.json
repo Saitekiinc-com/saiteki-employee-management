@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-08-05T02:52:35.484Z",
+  "generatedAt": "2026-08-06T02:56:11.247Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -65160,6 +65160,248 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-08-04_ 1. _Claude Code v2.1.221 リリース — セキュリティ修正2件を含む重要アップデート_ └ VSCode向けに「Focus view」が追加（Ctrl+Alt+F）でツール実行詳細を折りたたみ表示。zshの `[[ ]]` regex条件でBashツール権限チェックをバイパスできた脆弱性と、Windows PowerShell 5.1セッションの同様の問題を修正。サンドボックスのクレデンシャルマスキング機能（Linux/WSL）も強化。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.221|github.com/anthropics/claude-code/…/…> 2. _Alibaba、2.4兆パラメータの Qwen3.8-Max を公開 — 16日間の自律コーディングを実証_ └ MoEアーキテクチャの大規模フロンティアモデルを正式リリース（Alibaba Cloud経由）。コーディングテストでは16日間にわたり265コミット・127PR・151イシューを人手なしで自律生成。1Mトークンコンテキスト対応。フロントエンドコードアリーナで4位（1,668点）。オープンウェイトは来週公開予定。 :link: <https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/|marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max> 3. _GitHub Copilot CLI v1.0.78 リリース — ツール実行時間の可視化と /new-worktree コマンド_ └ 5秒以上かかるツールコールに経過時間をリアルタイム表示するタイムラインヘッダーが追加（/settingsでON/OFF可）。新しいワークツリーを作成して別会話を開始できる実験的な `/new-worktree` コマンドも追加。ローカルデスクトップ統合でブラウザOAuthフローがデフォルトに変更。 :link: <https://github.com/github/copilot-cli/releases/tag/v1.0.78|github.com/github/copilot-cli/…/v1.0.78> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1785900192.803529",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:津田隼輔",
+      "personName": "津田隼輔",
+      "slackIds": [
+        "U0BMFEWJAFP"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1785900192.803529",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1785900192.803529",
+      "timestamp": "2026-08-05T03:23:12.803Z",
+      "detailBullets": [
+        "初めまして。 9月入社予定の津田隼輔（つだしゅんすけ）と申します。よろしくお願いします。 ■出身地 兵庫県 ■これまでやってきたこと 2年半ほど完全自社制作のフルスクラッチシステムの保守運用に加え機能追加などを行いました。 ■趣味 アニメ、ゲーム、野球観戦 ■ひとこと まだまだ分からないことだらけですが新しい知識をしっかりと取り入れて吸収しスキルアップし続け貢献して行けるように頑張ります！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1785900192.803529",
+          "text": "初めまして。 9月入社予定の津田隼輔（つだしゅんすけ）と申します。よろしくお願いします。 ■出身地 兵庫県 ■これまでやってきたこと 2年半ほど完全自社制作のフルスクラッチシステムの保守運用に加え機能追加などを行いました。 ■趣味 アニメ、ゲーム、野球観戦 ■ひとこと まだまだ分からないことだらけですが新しい知識をしっかりと取り入れて吸収しスキルアップし続け貢献して行けるように頑張ります！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1785900192.803529",
+          "threadTs": null,
+          "authorName": "津田隼輔",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 9月入社予定の津田隼輔（つだしゅんすけ）と申します。よろしくお願いします。 ■出身地 兵庫県 ■これまでやってきたこと 2年半ほど完全自社制作のフルスクラッチシステムの保守運用に加え機能追加などを行いました。 ■趣味 アニメ、ゲーム、野球観戦 ■ひとこと まだまだ分からないことだらけですが新しい知識をしっかりと取り入れて吸収しスキルアップし続け貢献して行けるように頑張ります！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1785903464.457139",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:工藤智子",
+      "personName": "工藤智子",
+      "slackIds": [
+        "U0BMU52BKFB"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1785903464.457139",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1785903464.457139",
+      "timestamp": "2026-08-05T04:17:44.457Z",
+      "detailBullets": [
+        "はじめまして、10月入社予定の工藤智子（くどう ともこ）と申します！ ■出身地 熊本出身、大阪在住です。 ■これまでやってきたこと Webコーダー・マークアップエンジニアとして、WebサイトやWebシステムを作っています。 主にHTML/CSS/JavaScript/PHPなどの言語を扱っています。 ■最近ハマってること ジムで筋トレです！約3か月前に始めました。 体型はまだ変わりません…。 ■休日の過ごし方 YouTubeを見る、ジムに行く、アイデアがあればWeb系の自主制作 ■趣味 推し活：推しのVTuber（にじさんじ）がいます！VTuber・ストリーマー界隈が大好きです。 ゲーム：FF・モンハン・シミュレーション・サンドボックスなどなど ■ひとこと フロントエンドエンジニアへのキャリアチェンジになります。 たくさんの経験を積んでいけることが、いまからすごく楽しみです！ 皆様ともぜひ積極的に交流できればと思っています。これからどうぞよろしくお願いいたします！ ぜひお気軽に話しかけてください:woman-bowing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1785903464.457139",
+          "text": "はじめまして、10月入社予定の工藤智子（くどう ともこ）と申します！ ■出身地 熊本出身、大阪在住です。 ■これまでやってきたこと Webコーダー・マークアップエンジニアとして、WebサイトやWebシステムを作っています。 主にHTML/CSS/JavaScript/PHPなどの言語を扱っています。 ■最近ハマってること ジムで筋トレです！約3か月前に始めました。 体型はまだ変わりません…。 ■休日の過ごし方 YouTubeを見る、ジムに行く、アイデアがあればWeb系の自主制作 ■趣味 推し活：推しのVTuber（にじさんじ）がいます！VTuber・ストリーマー界隈が大好きです。 ゲーム：FF・モンハン・シミュレーション・サンドボックスなどなど ■ひとこと フロントエンドエンジニアへのキャリアチェンジになります。 たくさんの経験を積んでいけることが、いまからすごく楽しみです！ 皆様ともぜひ積極的に交流できればと思っています。これからどうぞよろしくお願いいたします！ ぜひお気軽に話しかけてください:woman-bowing:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1785903464.457139",
+          "threadTs": null,
+          "authorName": "工藤智子",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして、10月入社予定の工藤智子（くどう ともこ）と申します！ ■出身地 熊本出身、大阪在住です。 ■これまでやってきたこと Webコーダー・マークアップエンジニアとして、WebサイトやWebシステムを作っています。 主にHTML/CSS/JavaScript/PHPなどの言語を扱っています。 ■最近ハマってること ジムで筋トレです！約3か月前に始めました。 体型はまだ変わりません…。 ■休日の過ごし方 YouTubeを見る、ジムに行く、アイデアがあればWeb系の自主制作 ■趣味 推し活：推しのVTuber（にじさんじ）がいます！VTuber・ストリーマー界隈が大好きです。 ゲーム：FF・モンハン・シミュレーション・サンドボックスなどなど ■ひとこと フロントエンドエンジニアへのキャリアチェンジになります。 たくさんの経験を積んでいけることが、いまからすごく楽しみです！ 皆様ともぜひ積極的に交流できればと思っています。これからどうぞよろしくお願いいたします！ ぜひお気軽に話しかけてください:woman-bowing:\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1785911760.059859",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1785911760.059859",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1785911760.059859",
+      "timestamp": "2026-08-05T06:36:00.059Z",
+      "detailBullets": [
+        "屋上から神宮方面全く見えませんでした:joy: 残念！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1785911760.059859",
+          "text": "屋上から神宮方面全く見えませんでした:joy: 残念！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1785911760.059859",
+          "threadTs": "1785675264.780259",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "屋上から神宮方面全く見えませんでした:joy: 残念！\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785971547.117359",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785971547.117359",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785971547.117359",
+      "timestamp": "2026-08-05T23:12:27.117Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-08-05_ 1. _ClaudeがMythos 5・Fable 5・Opus 5・Sonnet 5の全主要モデルで7時間超の大規模障害（8/5）_ └ 8/5午前3時台（ET）から全主要モデルが同時に障害を起こし、Anthropicエンジニアが修正を投入。その後Opus 5でさらに別の障害が発生し、完全復旧まで計7時間29分を要した。2026年通算164回目の障害となった。Claude CodeやAPIへの依存が高いチームは今後もステータスページの監視が推奨される。 :link: <https://www.techtimes.com/articles/323171/20260805/claude-goes-down-again-71b-compute-deal-cannot-prevent-anthropics-164th-outage.htm|techtimes.com/articles/323171/20260805/claude-goes-down-again-71b-compute-deal-cannot-pr..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785971547.117359",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-08-05_ 1. _ClaudeがMythos 5・Fable 5・Opus 5・Sonnet 5の全主要モデルで7時間超の大規模障害（8/5）_ └ 8/5午前3時台（ET）から全主要モデルが同時に障害を起こし、Anthropicエンジニアが修正を投入。その後Opus 5でさらに別の障害が発生し、完全復旧まで計7時間29分を要した。2026年通算164回目の障害となった。Claude CodeやAPIへの依存が高いチームは今後もステータスページの監視が推奨される。 :link: <https://www.techtimes.com/articles/323171/20260805/claude-goes-down-again-71b-compute-deal-cannot-prevent-anthropics-164th-outage.htm|techtimes.com/articles/323171/20260805/claude-goes-down-again-71b-compute-deal-cannot-prevent-anthropics…> 2. _GitHub Spark、新規ユーザー受付停止・8/31に完全廃止（8/4）_ └ Copilot IDE・Copilot CLIなどのエージェント開発環境が成熟したため、GitHubがローコードAIアプリビルダー「GitHub Spark」を段階的に廃止。8/4から新規ユーザー・新規アプリの作成が停止され、8/31に完全終了予定。既存アプリはエクスポ...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785971547.117359",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-08-05_ 1. _ClaudeがMythos 5・Fable 5・Opus 5・Sonnet 5の全主要モデルで7時間超の大規模障害（8/5）_ └ 8/5午前3時台（ET）から全主要モデルが同時に障害を起こし、Anthropicエンジニアが修正を投入。その後Opus 5でさらに別の障害が発生し、完全復旧まで計7時間29分を要した。2026年通算164回目の障害となった。Claude CodeやAPIへの依存が高いチームは今後もステータスページの監視が推奨される。 :link: <https://www.techtimes.com/articles/323171/20260805/claude-goes-down-again-71b-compute-deal-cannot-prevent-anthropics-164th-outage.htm|techtimes.com/articles/323171/20260805/claude-goes-down-again-71b-compute-deal-cannot-prevent-anthropics…> 2. _GitHub Spark、新規ユーザー受付停止・8/31に完全廃止（8/4）_ └ Copilot IDE・Copilot CLIなどのエージェント開発環境が成熟したため、GitHubがローコードAIアプリビルダー「GitHub Spark」を段階的に廃止。8/4から新規ユーザー・新規アプリの作成が停止され、8/31に完全終了予定。既存アプリはエクスポート推奨。次世代の同種機能はGitHub Copilot内で提供される見込み。 :link: <https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com/|github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com> 3. _GitHub Copilotクラウドエージェントへのタスク委任時に「推論レベル」を指定可能に（8/3）_ └ GitHub Copilotのクラウドエージェントにタスクを委任する際、モデルが対応していれば推論レベル（低・中・高）を選択できるようになった。高レベルは複雑な問題に有効だが、トークン消費が増えAIクレジットを多く消費する。Pro・Pro+・Business・Enterprise・Maxの全有料プランで利用可。 :link: <https://github.blog/changelog/2026-08-03-customize...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785974687.307849",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785974687.307849",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785974687.307849",
+      "timestamp": "2026-08-06T00:04:47.307Z",
+      "detailBullets": [
+        "<https://x.com/nikkei/status/2084863542893711518?s=46|https://x.com/nikkei/status/2084863542893711518?s=46> AI活用するほど残業多い傾向、労働負荷軽減は道半ば 経財白書が指摘"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785974687.307849",
+          "text": "<https://x.com/nikkei/status/2084863542893711518?s=46|https://x.com/nikkei/status/2084863542893711518?s=46> AI活用するほど残業多い傾向、労働負荷軽減は道半ば 経財白書が指摘",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785974687.307849",
+          "threadTs": "1785974687.307849",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<https://x.com/nikkei/status/2084863542893711518?s=46|https://x.com/nikkei/status/2084863542893711518?s=46> AI活用するほど残業多い傾向、労働負荷軽減は道半ば 経財白書が指摘\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785978956.692459",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785978956.692459",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785978956.692459",
+      "timestamp": "2026-08-06T01:15:56.692Z",
+      "detailBullets": [
+        "【記事本文の共有】 経済財政白書は企業の人工知能（AI）活用に関し、利用頻度が高いほど残業時間が長くなる傾向を指摘した。AIによる効率化が労働負荷の軽減に十分つながっていない現状を映す。 パーソル総合研究所の調査を紹介した。AIの活用によって対象業務の作業時間は平均16.7%減少したのに、業務時間を短縮できたと答えた人は25.4%にとどまった。 業務でAIを週4日以上利用する人は、利用しない人より週当たりの残業時間が長い傾向がみられた。 同研究所の担当者は「AI活用で生まれた時間を別の仕事に充てたり、AI活用の指導が集中したりすることで業務時間が膨らんでいる可能性がある」とみる。 白書は「AIを導入している・する予定の業務」について企業に尋ねた。定型的な書類作成について将来を含め、7割ほどの企業がAI代替を検討していた。スケジュール調整や労務管理でも半数以上の企業が将来代替すると答えた。 厚生労働省の調査ではAIを導入している事業所は26年2月時点で全体の31%にとどまるものの、うち78%が「効果があった」と答えた。 効果のあった事業所の9割以上が「作業負担の軽減や作業効率の改善」が..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785978956.692459",
+          "text": "【記事本文の共有】 経済財政白書は企業の人工知能（AI）活用に関し、利用頻度が高いほど残業時間が長くなる傾向を指摘した。AIによる効率化が労働負荷の軽減に十分つながっていない現状を映す。 パーソル総合研究所の調査を紹介した。AIの活用によって対象業務の作業時間は平均16.7%減少したのに、業務時間を短縮できたと答えた人は25.4%にとどまった。 業務でAIを週4日以上利用する人は、利用しない人より週当たりの残業時間が長い傾向がみられた。 同研究所の担当者は「AI活用で生まれた時間を別の仕事に充てたり、AI活用の指導が集中したりすることで業務時間が膨らんでいる可能性がある」とみる。 白書は「AIを導入している・する予定の業務」について企業に尋ねた。定型的な書類作成について将来を含め、7割ほどの企業がAI代替を検討していた。スケジュール調整や労務管理でも半数以上の企業が将来代替すると答えた。 厚生労働省の調査ではAIを導入している事業所は26年2月時点で全体の31%にとどまるものの、うち78%が「効果があった」と答えた。 効果のあった事業所の9割以上が「作業負担の軽減や作業効率の改善」があったという。金融・保険業や情報通信業で効果を感じる企業が多かった。 白書は賃金との関係も分析した。「AI代替などにより労働需要が減少する場合、賃金は低下する傾向にあると考えられる」と記した。近年は事務従事者の賃金上昇率が高く「賃金が押し下げられている傾向が現時点であるわけではない」とも触れた。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785978956.692459",
+          "threadTs": "1785974687.307849",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "【記事本文の共有】 経済財政白書は企業の人工知能（AI）活用に関し、利用頻度が高いほど残業時間が長くなる傾向を指摘した。AIによる効率化が労働負荷の軽減に十分つながっていない現状を映す。 パーソル総合研究所の調査を紹介した。AIの活用によって対象業務の作業時間は平均16.7%減少したのに、業務時間を短縮できたと答えた人は25.4%にとどまった。 業務でAIを週4日以上利用する人は、利用しない人より週当たりの残業時間が長い傾向がみられた。 同研究所の担当者は「AI活用で生まれた時間を別の仕事に充てたり、AI活用の指導が集中したりすることで業務時間が膨らんでいる可能性がある」とみる。 白書は「AIを導入している・する予定の業務」について企業に尋ねた。定型的な書類作成について将来を含め、7割ほどの企業がAI代替を検討していた。スケジュール調整や労務管理でも半数以上の企業が将来代替すると答えた。 厚生労働省の調査ではAIを導入している事業所は26年2月時点で全体の31%にとどまるものの、うち78%が「効果があった」と答えた。 効果のあった事業所の9割以上が「作業負担の軽減や作業効率の改善」があったという。金融・保険業や情報通信業で効果を感じる企業が多かった。 白書は賃金との関係も分析した。「AI代替などにより労働需要が減少する場合、賃金は低下する傾向にあると考えられる」と記した。近年は事務従事者の賃金上昇率が高く「賃金が押し下げられている傾向が現時点であるわけではない」とも触れた。\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1785979343.465909",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1785979343.465909",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1785979343.465909",
+      "timestamp": "2026-08-06T01:22:23.465Z",
+      "detailBullets": [
+        "要は、 仕事の効率は上がるけど、それにより生まれた時間で新しい仕事に取り組まされる、またはAI活用のための学習コストが上がっている ということですね。何人に調査したかわからないからなんともいえないデータですけど、現場ではそんなことが起こっていそうな気もします。エンジニア職も一緒かなと。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1785979343.465909",
+          "text": "要は、 仕事の効率は上がるけど、それにより生まれた時間で新しい仕事に取り組まされる、またはAI活用のための学習コストが上がっている ということですね。何人に調査したかわからないからなんともいえないデータですけど、現場ではそんなことが起こっていそうな気もします。エンジニア職も一緒かなと。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1785979343.465909",
+          "threadTs": "1785974687.307849",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "要は、 仕事の効率は上がるけど、それにより生まれた時間で新しい仕事に取り組まされる、またはAI活用のための学習コストが上がっている ということですね。何人に調査したかわからないからなんともいえないデータですけど、現場ではそんなことが起こっていそうな気もします。エンジニア職も一緒かなと。\nai駆動開発ネタ\n経営"
     }
   ]
 }

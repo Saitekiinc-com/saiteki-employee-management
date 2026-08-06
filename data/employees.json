@@ -2885,5 +2885,35 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BMNL1FJEP"
+  },
+  {
+    "name": "津田隼輔",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-08-06T02:56:10.902Z",
+    "updatedAt": "2026-08-06T02:56:10.902Z",
+    "last_updated": "2026-08-06T02:56:10.902Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BMFEWJAFP"
+  },
+  {
+    "name": "工藤智子",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-08-06T02:56:11.000Z",
+    "updatedAt": "2026-08-06T02:56:11.000Z",
+    "last_updated": "2026-08-06T02:56:11.000Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BMU52BKFB"
   }
 ]
