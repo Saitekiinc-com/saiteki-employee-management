@@ -2915,5 +2915,35 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BMU52BKFB"
+  },
+  {
+    "name": "遠藤貴也",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-08-07T02:52:47.982Z",
+    "updatedAt": "2026-08-07T02:52:47.982Z",
+    "last_updated": "2026-08-07T02:52:47.982Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BJKM3CTFA"
+  },
+  {
+    "name": "佐藤　龍馬",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-08-07T02:52:48.028Z",
+    "updatedAt": "2026-08-07T02:52:48.028Z",
+    "last_updated": "2026-08-07T02:52:48.028Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BJ6LDMT2B"
   }
 ]
