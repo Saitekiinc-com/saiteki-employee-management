@@ -2945,5 +2945,35 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BJ6LDMT2B"
+  },
+  {
+    "name": "齊藤勇太郎",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-08-08T01:56:49.446Z",
+    "updatedAt": "2026-08-08T01:56:49.446Z",
+    "last_updated": "2026-08-08T01:56:49.446Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BMQR89KQW"
+  },
+  {
+    "name": "Nana Yada",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-08-08T01:56:49.545Z",
+    "updatedAt": "2026-08-08T01:56:49.545Z",
+    "last_updated": "2026-08-08T01:56:49.545Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BNHNLCP3P"
   }
 ]
