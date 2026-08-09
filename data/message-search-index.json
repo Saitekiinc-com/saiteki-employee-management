@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-08-08T01:56:49.767Z",
+  "generatedAt": "2026-08-09T02:04:26.600Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -64877,7 +64877,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1785746165.485589",
-          "threadTs": null,
+          "threadTs": "1785746165.485589",
           "authorName": "奥間りん",
           "permalink": null
         }
@@ -65016,7 +65016,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1785835431.081589",
-          "threadTs": null,
+          "threadTs": "1785835431.081589",
           "authorName": "米谷和樹",
           "permalink": null
         }
@@ -65188,7 +65188,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1785900192.803529",
-          "threadTs": null,
+          "threadTs": "1785900192.803529",
           "authorName": "津田隼輔",
           "permalink": null
         }
@@ -65222,7 +65222,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1785903464.457139",
-          "threadTs": null,
+          "threadTs": "1785903464.457139",
           "authorName": "工藤智子",
           "permalink": null
         }
@@ -65430,7 +65430,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1785988406.411019",
-          "threadTs": null,
+          "threadTs": "1785988406.411019",
           "authorName": "遠藤貴也",
           "permalink": null
         }
@@ -65464,7 +65464,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1786004272.089759",
-          "threadTs": null,
+          "threadTs": "1786004272.089759",
           "authorName": "佐藤　龍馬",
           "permalink": null
         }
@@ -65776,7 +65776,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1786081130.233799",
-          "threadTs": null,
+          "threadTs": "1786081130.233799",
           "authorName": "齊藤勇太郎",
           "permalink": null
         }
@@ -65845,7 +65845,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1786099324.159499",
-          "threadTs": null,
+          "threadTs": "1786099324.159499",
           "authorName": "Nana Yada",
           "permalink": null
         }
@@ -65991,6 +65991,425 @@
         }
       ],
       "searchText": "続編のAIダークサイド第2〜5回も読みました。あまり目新しい情報はないかもしれないですが、読み物としては面白いかなと思うので置いておきます。\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1786156825.915279",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1786156825.915279",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1786156825.915279",
+      "timestamp": "2026-08-08T02:40:25.915Z",
+      "detailBullets": [
+        "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.08.08）* を共有します。 今週のテーマは *「大手・老舗SIerとの連携開始、自治体受託案件の引き合い＆リファラル制度」* です。 • *【アクセンチュア子会社・老舗SIerとの商談！】* アクセンチュア子会社のSI&amp;C様、老舗SIerのCAC様と商談がありました。SI&amp;C様は、2年前の五反田のスナックで語り合った熱量が結実し、「アクセンチュアと直接取引できるBPの1社にSaitekiを上申したい」というお言葉をいただく展開に。CAC様の商談では、営業部長・徳田さんの完璧なヒアリングとトークで協業に向けた連携がスタートしています！ • *【自治体案件＆凸版印刷様から初の受託引き合い】* 株式会社ひとのね様と連携し、東京都や地方自治体の入札案件獲得へ本格始動しました。すでに複数件の紹介やエントリー準備が進んでいます。さらに、凸版印刷様からもついに最初の案件のご紹介をいただき、見積・提案を提出しました！ • *【エンジニアご紹介のお願い（リファラル制度）】*..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1786156825.915279",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.08.08）* を共有します。 今週のテーマは *「大手・老舗SIerとの連携開始、自治体受託案件の引き合い＆リファラル制度」* です。 • *【アクセンチュア子会社・老舗SIerとの商談！】* アクセンチュア子会社のSI&amp;C様、老舗SIerのCAC様と商談がありました。SI&amp;C様は、2年前の五反田のスナックで語り合った熱量が結実し、「アクセンチュアと直接取引できるBPの1社にSaitekiを上申したい」というお言葉をいただく展開に。CAC様の商談では、営業部長・徳田さんの完璧なヒアリングとトークで協業に向けた連携がスタートしています！ • *【自治体案件＆凸版印刷様から初の受託引き合い】* 株式会社ひとのね様と連携し、東京都や地方自治体の入札案件獲得へ本格始動しました。すでに複数件の紹介やエントリー準備が進んでいます。さらに、凸版印刷様からもついに最初の案件のご紹介をいただき、見積・提案を提出しました！ • *【エンジニアご紹介のお願い（リファラル制度）】* 急成長に伴い、信頼できるエンジニアの仲間がもっと必要です。Saitekiのリファラル制度は単発ではなく、「紹介したお友達が稼働している間、紹介者に毎月2万円が給与加算される（1人で年間24万円還元）」という非常に手厚い仕組みです。すぐの転職でなくても、少しでも興味がある方がいればまずは代表とのカジュアル面談から大歓迎です！ 2年前の熱量や、現場の営業力、そして受託への仕掛け、会社の挑戦が加速し続...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1786156825.915279",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.08.08）* を共有します。 今週のテーマは *「大手・老舗SIerとの連携開始、自治体受託案件の引き合い＆リファラル制度」* です。 • *【アクセンチュア子会社・老舗SIerとの商談！】* アクセンチュア子会社のSI&amp;C様、老舗SIerのCAC様と商談がありました。SI&amp;C様は、2年前の五反田のスナックで語り合った熱量が結実し、「アクセンチュアと直接取引できるBPの1社にSaitekiを上申したい」というお言葉をいただく展開に。CAC様の商談では、営業部長・徳田さんの完璧なヒアリングとトークで協業に向けた連携がスタートしています！ • *【自治体案件＆凸版印刷様から初の受託引き合い】* 株式会社ひとのね様と連携し、東京都や地方自治体の入札案件獲得へ本格始動しました。すでに複数件の紹介やエントリー準備が進んでいます。さらに、凸版印刷様からもついに最初の案件のご紹介をいただき、見積・提案を提出しました！ • *【エンジニアご紹介のお願い（リファラル制度）】* 急成長に伴い、信頼できるエンジニアの仲間がもっと必要です。Saitekiのリファラル制度は単発ではなく、「紹介したお友達が稼働している間、紹介者に毎月2万円が給与加算される（1人で年間24万円還元）」という非常に手厚い仕組みです。すぐの転職でなくても、少しでも興味がある方がいればまずは代表とのカジュアル面談から大歓迎です！ 2年前の熱量や、現場の営業力、そして受託への仕掛け、会社の挑戦が加速し続けています。ぜひ週末にチェックしてみてください！ ▼ Letter of T | 今週の記録（2026.08.08） <https://app.notion.com/p/Letter-of-T-2026-08-08-3b6dfb42679c8056b1aae64998828629|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1786158615.166619",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1786158615.166619",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1786158615.166619",
+      "timestamp": "2026-08-08T03:10:15.166Z",
+      "detailBullets": [
+        "<@U0BJGACJ7BK> 坂東さん、あらためてよろしくお願いします！ 笑顔がとても印象的で、現場にファンを作りそうな方だなと思っていました！ これから新しい環境でぜひ一緒に頑張っていきましょう！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1786158615.166619",
+          "text": "<@U0BJGACJ7BK> 坂東さん、あらためてよろしくお願いします！ 笑顔がとても印象的で、現場にファンを作りそうな方だなと思っていました！ これから新しい環境でぜひ一緒に頑張っていきましょう！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1786158615.166619",
+          "threadTs": "1785651281.171339",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BJGACJ7BK> 坂東さん、あらためてよろしくお願いします！ 笑顔がとても印象的で、現場にファンを作りそうな方だなと思っていました！ これから新しい環境でぜひ一緒に頑張っていきましょう！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1786158728.937989",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1786158728.937989",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1786158728.937989",
+      "timestamp": "2026-08-08T03:12:08.937Z",
+      "detailBullets": [
+        "<@U0BMM70PZND> 奥間さん、新ためてよろしくお願いします！ 山形育ちなんですね！山形料理の美味しい居酒屋に以前よく行っていて、芋煮食べてました！食事が美味しいですよね:sparkles: お会いした際にはドラマやアニメの話、聞かせて欲しいです！ これから一緒に頑張っていきましょう！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1786158728.937989",
+          "text": "<@U0BMM70PZND> 奥間さん、新ためてよろしくお願いします！ 山形育ちなんですね！山形料理の美味しい居酒屋に以前よく行っていて、芋煮食べてました！食事が美味しいですよね:sparkles: お会いした際にはドラマやアニメの話、聞かせて欲しいです！ これから一緒に頑張っていきましょう！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1786158728.937989",
+          "threadTs": "1785746165.485589",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BMM70PZND> 奥間さん、新ためてよろしくお願いします！ 山形育ちなんですね！山形料理の美味しい居酒屋に以前よく行っていて、芋煮食べてました！食事が美味しいですよね:sparkles: お会いした際にはドラマやアニメの話、聞かせて欲しいです！ これから一緒に頑張っていきましょう！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1786158788.101719",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1786158788.101719",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1786158788.101719",
+      "timestamp": "2026-08-08T03:13:08.101Z",
+      "detailBullets": [
+        "<@U0BMNL1FJEP> 米谷さん、これからよろしくお願いします！ ラーメン巡り最高ですね！関東の美味しいラーメンはまずまず詳しい方だと思っていますが、関西は全くなので、おすすめのラーメン屋を今度教えて欲しいです！ 一緒に頑張っていきましょう！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1786158788.101719",
+          "text": "<@U0BMNL1FJEP> 米谷さん、これからよろしくお願いします！ ラーメン巡り最高ですね！関東の美味しいラーメンはまずまず詳しい方だと思っていますが、関西は全くなので、おすすめのラーメン屋を今度教えて欲しいです！ 一緒に頑張っていきましょう！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1786158788.101719",
+          "threadTs": "1785835431.081589",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BMNL1FJEP> 米谷さん、これからよろしくお願いします！ ラーメン巡り最高ですね！関東の美味しいラーメンはまずまず詳しい方だと思っていますが、関西は全くなので、おすすめのラーメン屋を今度教えて欲しいです！ 一緒に頑張っていきましょう！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1786158875.450819",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1786158875.450819",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1786158875.450819",
+      "timestamp": "2026-08-08T03:14:35.450Z",
+      "detailBullets": [
+        "<@U0BMFEWJAFP> 津田さん、これからあらためてよろしくお願いします！ お若いのにしっかりされていて、これからにとても期待しちゃう方だなと思っていました！ 関西メンバーを盛り上げて欲しいです！一緒に頑張りましょう！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1786158875.450819",
+          "text": "<@U0BMFEWJAFP> 津田さん、これからあらためてよろしくお願いします！ お若いのにしっかりされていて、これからにとても期待しちゃう方だなと思っていました！ 関西メンバーを盛り上げて欲しいです！一緒に頑張りましょう！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1786158875.450819",
+          "threadTs": "1785900192.803529",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BMFEWJAFP> 津田さん、これからあらためてよろしくお願いします！ お若いのにしっかりされていて、これからにとても期待しちゃう方だなと思っていました！ 関西メンバーを盛り上げて欲しいです！一緒に頑張りましょう！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1786158983.196369",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1786158983.196369",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1786158983.196369",
+      "timestamp": "2026-08-08T03:16:23.196Z",
+      "detailBullets": [
+        "<@U0BMU52BKFB> 工藤さん、あらためてよろしくお願いいたします！ ゲーム好きがガチそうな感じがして、めちゃくちゃいいなと思いました！僕の中学生・高校1年ぐらいまでの青春はモンハンでした。モンハントークしたいです！ 今後、一緒に頑張っていきましょう！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1786158983.196369",
+          "text": "<@U0BMU52BKFB> 工藤さん、あらためてよろしくお願いいたします！ ゲーム好きがガチそうな感じがして、めちゃくちゃいいなと思いました！僕の中学生・高校1年ぐらいまでの青春はモンハンでした。モンハントークしたいです！ 今後、一緒に頑張っていきましょう！！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1786158983.196369",
+          "threadTs": "1785903464.457139",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BMU52BKFB> 工藤さん、あらためてよろしくお願いいたします！ ゲーム好きがガチそうな感じがして、めちゃくちゃいいなと思いました！僕の中学生・高校1年ぐらいまでの青春はモンハンでした。モンハントークしたいです！ 今後、一緒に頑張っていきましょう！！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1786159084.639199",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1786159084.639199",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1786159084.639199",
+      "timestamp": "2026-08-08T03:18:04.639Z",
+      "detailBullets": [
+        "<@U0BJKM3CTFA> 遠藤さん、あらためてこれからよろしくお願いいたします！ ランニングの習慣いいですね！長距離はやりますか？ハーフやフルにも出るようでしたら、ぜひ一緒に出ましょう！ お会いした時にはその辺の話もさせていただけますと嬉しいです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1786159084.639199",
+          "text": "<@U0BJKM3CTFA> 遠藤さん、あらためてこれからよろしくお願いいたします！ ランニングの習慣いいですね！長距離はやりますか？ハーフやフルにも出るようでしたら、ぜひ一緒に出ましょう！ お会いした時にはその辺の話もさせていただけますと嬉しいです！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1786159084.639199",
+          "threadTs": "1785988406.411019",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BJKM3CTFA> 遠藤さん、あらためてこれからよろしくお願いいたします！ ランニングの習慣いいですね！長距離はやりますか？ハーフやフルにも出るようでしたら、ぜひ一緒に出ましょう！ お会いした時にはその辺の話もさせていただけますと嬉しいです！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1786159170.560089",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1786159170.560089",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1786159170.560089",
+      "timestamp": "2026-08-08T03:19:30.560Z",
+      "detailBullets": [
+        "<@U0BJ6LDMT2B> 佐藤さん、あらためてよろしくお願いいたします！ ベース、ギター、かっこいいです！福岡メンバーの早川さんもギターやりますのでどこかでお引き合わせしたいです！ これから一緒に頑張っていきましょう！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1786159170.560089",
+          "text": "<@U0BJ6LDMT2B> 佐藤さん、あらためてよろしくお願いいたします！ ベース、ギター、かっこいいです！福岡メンバーの早川さんもギターやりますのでどこかでお引き合わせしたいです！ これから一緒に頑張っていきましょう！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1786159170.560089",
+          "threadTs": "1786004272.089759",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BJ6LDMT2B> 佐藤さん、あらためてよろしくお願いいたします！ ベース、ギター、かっこいいです！福岡メンバーの早川さんもギターやりますのでどこかでお引き合わせしたいです！ これから一緒に頑張っていきましょう！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1786159299.491249",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1786159299.491249",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1786159299.491249",
+      "timestamp": "2026-08-08T03:21:39.491Z",
+      "detailBullets": [
+        "<@U0BMQR89KQW> 齋藤さん、あらためてこれからよろしくお願いいたします！ 自治体や国からの委託業務を責任者として担うってとても大変なお仕事だったろうと想像します。巻き込むステークホルダーがお堅めな方々だと苦労しますよね。 齋藤さんのご経験をぜひ他の社員や会社にも共有していってもらえると嬉しいです！ バイクお好きなんですね！関東の堀江さんとかもバイクお好きなのでどこかでお引き合わせが出来たらなと思います！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1786159299.491249",
+          "text": "<@U0BMQR89KQW> 齋藤さん、あらためてこれからよろしくお願いいたします！ 自治体や国からの委託業務を責任者として担うってとても大変なお仕事だったろうと想像します。巻き込むステークホルダーがお堅めな方々だと苦労しますよね。 齋藤さんのご経験をぜひ他の社員や会社にも共有していってもらえると嬉しいです！ バイクお好きなんですね！関東の堀江さんとかもバイクお好きなのでどこかでお引き合わせが出来たらなと思います！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1786159299.491249",
+          "threadTs": "1786081130.233799",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BMQR89KQW> 齋藤さん、あらためてこれからよろしくお願いいたします！ 自治体や国からの委託業務を責任者として担うってとても大変なお仕事だったろうと想像します。巻き込むステークホルダーがお堅めな方々だと苦労しますよね。 齋藤さんのご経験をぜひ他の社員や会社にも共有していってもらえると嬉しいです！ バイクお好きなんですね！関東の堀江さんとかもバイクお好きなのでどこかでお引き合わせが出来たらなと思います！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1786159459.658249",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1786159459.658249",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1786159459.658249",
+      "timestamp": "2026-08-08T03:24:19.658Z",
+      "detailBullets": [
+        "<@U0BNHNLCP3P> 弥田さん、あらためてよろしくお願いします！ 北陸出身ってあまりいないので、オファー面談ではテンション上がりました！笑 幼少期に雪かきしたり、犬と雪の上を走り回ったり、そんな記憶が鮮明に残ってたりします。 「自作PCの構成を考えて」ってワード強いですね！すごい！ またお話ししたときに、色々、聞かせていただきたいです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1786159459.658249",
+          "text": "<@U0BNHNLCP3P> 弥田さん、あらためてよろしくお願いします！ 北陸出身ってあまりいないので、オファー面談ではテンション上がりました！笑 幼少期に雪かきしたり、犬と雪の上を走り回ったり、そんな記憶が鮮明に残ってたりします。 「自作PCの構成を考えて」ってワード強いですね！すごい！ またお話ししたときに、色々、聞かせていただきたいです！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1786159459.658249",
+          "threadTs": "1786099324.159499",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BNHNLCP3P> 弥田さん、あらためてよろしくお願いします！ 北陸出身ってあまりいないので、オファー面談ではテンション上がりました！笑 幼少期に雪かきしたり、犬と雪の上を走り回ったり、そんな記憶が鮮明に残ってたりします。 「自作PCの構成を考えて」ってワード強いですね！すごい！ またお話ししたときに、色々、聞かせていただきたいです！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1786171898.166619",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:Nana Yada",
+      "personName": "Nana Yada",
+      "slackIds": [
+        "U0BNHNLCP3P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1786171898.166619",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1786171898.166619",
+      "timestamp": "2026-08-08T06:51:38.166Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 戸塚さん、ありがとうございます！ 犬と雪遊びめちゃめちゃ素敵な思い出ですね〜！！ 芝犬を義実家で飼ってるので私も今年は一緒に遊ぼうかと思います:dog2: 自作PCは沼なので眺めてる段階が私にはちょうど良いです笑 これからSaitekiに関われること嬉しく思ってます！よろしくお願い致します！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1786171898.166619",
+          "text": "<@U09MGUVJ8BV> 戸塚さん、ありがとうございます！ 犬と雪遊びめちゃめちゃ素敵な思い出ですね〜！！ 芝犬を義実家で飼ってるので私も今年は一緒に遊ぼうかと思います:dog2: 自作PCは沼なので眺めてる段階が私にはちょうど良いです笑 これからSaitekiに関われること嬉しく思ってます！よろしくお願い致します！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1786171898.166619",
+          "threadTs": "1786099324.159499",
+          "authorName": "Nana Yada",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 戸塚さん、ありがとうございます！ 犬と雪遊びめちゃめちゃ素敵な思い出ですね〜！！ 芝犬を義実家で飼ってるので私も今年は一緒に遊ぼうかと思います:dog2: 自作PCは沼なので眺めてる段階が私にはちょうど良いです笑 これからSaitekiに関われること嬉しく思ってます！よろしくお願い致します！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1786230632.996289",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1786230632.996289",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1786230632.996289",
+      "timestamp": "2026-08-08T23:10:32.996Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-08-08_ 1. _Claude Code v2.1.225 / v2.1.226 リリース_ └ 2026-08-08に連続リリース。v2.1.225ではゲートウェイのスペンドリミット通知サポートが追加され、未信頼ディレクトリへのワークスペース信頼プロンプトも実装。一時的な401認証エラーの修正も含まれる。v2.1.226はバグ修正・安定性改善が中心。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Copilot 週次リリース（8月第2週）_ └ 2026-08-07付けアップデート。Autoモードが各リクエストを処理したモデル名・AIクレジット・キャッシュ詳細を表示するようになり、トークン消費の透明性が向上。セッションサイドバーによる複数セッション管理や、`/side` コマンドによる並行タスク探索も追加。 :link: <https://github.blog/chan..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1786230632.996289",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-08-08_ 1. _Claude Code v2.1.225 / v2.1.226 リリース_ └ 2026-08-08に連続リリース。v2.1.225ではゲートウェイのスペンドリミット通知サポートが追加され、未信頼ディレクトリへのワークスペース信頼プロンプトも実装。一時的な401認証エラーの修正も含まれる。v2.1.226はバグ修正・安定性改善が中心。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Copilot 週次リリース（8月第2週）_ └ 2026-08-07付けアップデート。Autoモードが各リクエストを処理したモデル名・AIクレジット・キャッシュ詳細を表示するようになり、トークン消費の透明性が向上。セッションサイドバーによる複数セッション管理や、`/side` コマンドによる並行タスク探索も追加。 :link: <https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3/|github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3> 3. _GitHub Copilot インパクトダッシュボードに ROI セクション追加_ └ 2026-08-07、GitHub Co...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1786230632.996289",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-08-08_ 1. _Claude Code v2.1.225 / v2.1.226 リリース_ └ 2026-08-08に連続リリース。v2.1.225ではゲートウェイのスペンドリミット通知サポートが追加され、未信頼ディレクトリへのワークスペース信頼プロンプトも実装。一時的な401認証エラーの修正も含まれる。v2.1.226はバグ修正・安定性改善が中心。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Copilot 週次リリース（8月第2週）_ └ 2026-08-07付けアップデート。Autoモードが各リクエストを処理したモデル名・AIクレジット・キャッシュ詳細を表示するようになり、トークン消費の透明性が向上。セッションサイドバーによる複数セッション管理や、`/side` コマンドによる並行タスク探索も追加。 :link: <https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3/|github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3> 3. _GitHub Copilot インパクトダッシュボードに ROI セクション追加_ └ 2026-08-07、GitHub Copilotの管理ダッシュボードに「潜在的な投資対効果（ROI）」セクションが追加。Copilotへの支出とプルリクエスト成果を紐づけることで、組織の費用対効果を定量的に可視化できるようになった。Business/Enterprise プランの管理者が活用可能。 :link: <https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section/|github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
     }
   ]
 }
