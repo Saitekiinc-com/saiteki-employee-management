@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-08-10T02:08:57.181Z",
+  "generatedAt": "2026-08-11T02:04:01.571Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -66688,6 +66688,214 @@
         }
       ],
       "searchText": "<@U0APF134ZP1> 聞いてはいけないことを聞いた感じがしますね、、、(笑) 自分は苺は好きでも嫌いでもないです。\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1786353220.269319",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1786353220.269319",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1786353220.269319",
+      "timestamp": "2026-08-10T09:13:40.269Z",
+      "detailBullets": [
+        "<@U09NHL467U0> 写真を見ただけでなぜかよだれが:drooling_face: 祖父母の苺農園とか、いちごが大好きな娘が狂喜しそうな環境です:laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1786353220.269319",
+          "text": "<@U09NHL467U0> 写真を見ただけでなぜかよだれが:drooling_face: 祖父母の苺農園とか、いちごが大好きな娘が狂喜しそうな環境です:laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1786353220.269319",
+          "threadTs": "1786320692.944729",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL467U0> 写真を見ただけでなぜかよだれが:drooling_face: 祖父母の苺農園とか、いちごが大好きな娘が狂喜しそうな環境です:laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1786366081.323219",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:高野朱里",
+      "personName": "高野朱里",
+      "slackIds": [
+        "U0BN9KLP5D1"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1786366081.323219",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1786366081.323219",
+      "timestamp": "2026-08-10T12:48:01.323Z",
+      "detailBullets": [
+        "初めまして。 11月入社予定の高野朱里(たかのあかり)と申します。 ■出身地 東京都 ■これまでやってきたこと 大学卒業後にIT業界へ入り、開発現場の業務支援(ITサポート)からスタートしました。 直近はクレジットカードに関する開発PJに携わり、バッチ処理をメインに基本設計支援、テスト、本番リリース作業などを経験しています。 ■最近ハマっていること 元々ホラゲ実況が好きで、今は特にYouTubeでの怪談視聴にハマっています。 それとビギナーですがポケカ(アプリではなく物理の方)も始めました。なかなか奥が深くて面白いです。 ■趣味 ゲーム、散歩、鳥を眺める 最近ゲーミングPCを買ったので、おすすめのゲームなどあればぜひ教えてください！ ■ひとこと エンジニアとしてはまだまだ未熟ですので、技術の習得や業務領域の幅を広げられるよう、1歩1歩着実に努力を重ねていこうと思います。 どうぞよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1786366081.323219",
+          "text": "初めまして。 11月入社予定の高野朱里(たかのあかり)と申します。 ■出身地 東京都 ■これまでやってきたこと 大学卒業後にIT業界へ入り、開発現場の業務支援(ITサポート)からスタートしました。 直近はクレジットカードに関する開発PJに携わり、バッチ処理をメインに基本設計支援、テスト、本番リリース作業などを経験しています。 ■最近ハマっていること 元々ホラゲ実況が好きで、今は特にYouTubeでの怪談視聴にハマっています。 それとビギナーですがポケカ(アプリではなく物理の方)も始めました。なかなか奥が深くて面白いです。 ■趣味 ゲーム、散歩、鳥を眺める 最近ゲーミングPCを買ったので、おすすめのゲームなどあればぜひ教えてください！ ■ひとこと エンジニアとしてはまだまだ未熟ですので、技術の習得や業務領域の幅を広げられるよう、1歩1歩着実に努力を重ねていこうと思います。 どうぞよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1786366081.323219",
+          "threadTs": null,
+          "authorName": "高野朱里",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして。 11月入社予定の高野朱里(たかのあかり)と申します。 ■出身地 東京都 ■これまでやってきたこと 大学卒業後にIT業界へ入り、開発現場の業務支援(ITサポート)からスタートしました。 直近はクレジットカードに関する開発PJに携わり、バッチ処理をメインに基本設計支援、テスト、本番リリース作業などを経験しています。 ■最近ハマっていること 元々ホラゲ実況が好きで、今は特にYouTubeでの怪談視聴にハマっています。 それとビギナーですがポケカ(アプリではなく物理の方)も始めました。なかなか奥が深くて面白いです。 ■趣味 ゲーム、散歩、鳥を眺める 最近ゲーミングPCを買ったので、おすすめのゲームなどあればぜひ教えてください！ ■ひとこと エンジニアとしてはまだまだ未熟ですので、技術の習得や業務領域の幅を広げられるよう、1歩1歩着実に努力を重ねていこうと思います。 どうぞよろしくお願いいたします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1786371343.999869",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1786371343.999869",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1786371343.999869",
+      "timestamp": "2026-08-10T14:15:43.999Z",
+      "detailBullets": [
+        "先日、8が並ぶ縁起がよき日に、母校のクラブの同窓会に参加してきました。 僕は43回生で、高校時代はコントラバスを弾いていました。 高校を卒業してから35年ほど経っていますが、みんな当時の面影そのままで、当時の記憶も鮮明に残っているし、めちゃくちゃ懐かしかったです:pleading_face: 「コントラバスを再開してOBオーケストラに入って」と何人かから熱心に誘われましたが、さすがにお断りしました:joy: コントラバスを買うって、大きすぎて家族がもうひとり増えるような感じなんで… あ、Saitekiの宣伝もさらっとしてきました:+1: 集合写真は、さすがにそのままここに載せるのはあかんかなと思い、ChatGPTに僕以外の顔をぼかすように頼みました。 そしたら、なぜか僕の顔まで微妙に別人になりました:rolling_on_the_floor_laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1786371343.999869",
+          "text": "先日、8が並ぶ縁起がよき日に、母校のクラブの同窓会に参加してきました。 僕は43回生で、高校時代はコントラバスを弾いていました。 高校を卒業してから35年ほど経っていますが、みんな当時の面影そのままで、当時の記憶も鮮明に残っているし、めちゃくちゃ懐かしかったです:pleading_face: 「コントラバスを再開してOBオーケストラに入って」と何人かから熱心に誘われましたが、さすがにお断りしました:joy: コントラバスを買うって、大きすぎて家族がもうひとり増えるような感じなんで… あ、Saitekiの宣伝もさらっとしてきました:+1: 集合写真は、さすがにそのままここに載せるのはあかんかなと思い、ChatGPTに僕以外の顔をぼかすように頼みました。 そしたら、なぜか僕の顔まで微妙に別人になりました:rolling_on_the_floor_laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1786371343.999869",
+          "threadTs": "1786371343.999869",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "先日、8が並ぶ縁起がよき日に、母校のクラブの同窓会に参加してきました。 僕は43回生で、高校時代はコントラバスを弾いていました。 高校を卒業してから35年ほど経っていますが、みんな当時の面影そのままで、当時の記憶も鮮明に残っているし、めちゃくちゃ懐かしかったです:pleading_face: 「コントラバスを再開してOBオーケストラに入って」と何人かから熱心に誘われましたが、さすがにお断りしました:joy: コントラバスを買うって、大きすぎて家族がもうひとり増えるような感じなんで… あ、Saitekiの宣伝もさらっとしてきました:+1: 集合写真は、さすがにそのままここに載せるのはあかんかなと思い、ChatGPTに僕以外の顔をぼかすように頼みました。 そしたら、なぜか僕の顔まで微妙に別人になりました:rolling_on_the_floor_laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1786372749.905449",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1786372749.905449",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1786372749.905449",
+      "timestamp": "2026-08-10T14:39:09.905Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 娘さん苺好きなんですね！！ いちご狩りとかもいいですよね:star-struck:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1786372749.905449",
+          "text": "<@U09MM9KS06S> 娘さん苺好きなんですね！！ いちご狩りとかもいいですよね:star-struck:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1786372749.905449",
+          "threadTs": "1786320692.944729",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 娘さん苺好きなんですね！！ いちご狩りとかもいいですよね:star-struck:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1786398332.937129",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:徳田健一",
+      "personName": "徳田健一",
+      "slackIds": [
+        "U0APF134ZP1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1786398332.937129",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1786398332.937129",
+      "timestamp": "2026-08-10T21:45:32.937Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 田浦先生、蘇る思い出が色褪せず、楽器が家族のようだなんて素敵ですね。35年後に奏でる音色もまた歳月の深みがでるのではないでしょうか？ ちなみに帰省先の大阪での話ですが、妻が義母に伝えていたのは歳月を経た生命保険の大事さでした。こちらは色褪せていきそうです。 現場からは以上です。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1786398332.937129",
+          "text": "<@U09MM9KS06S> 田浦先生、蘇る思い出が色褪せず、楽器が家族のようだなんて素敵ですね。35年後に奏でる音色もまた歳月の深みがでるのではないでしょうか？ ちなみに帰省先の大阪での話ですが、妻が義母に伝えていたのは歳月を経た生命保険の大事さでした。こちらは色褪せていきそうです。 現場からは以上です。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1786398332.937129",
+          "threadTs": "1786371343.999869",
+          "authorName": "徳田健一",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 田浦先生、蘇る思い出が色褪せず、楽器が家族のようだなんて素敵ですね。35年後に奏でる音色もまた歳月の深みがでるのではないでしょうか？ ちなみに帰省先の大阪での話ですが、妻が義母に伝えていたのは歳月を経た生命保険の大事さでした。こちらは色褪せていきそうです。 現場からは以上です。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1786403738.814259",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1786403738.814259",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1786403738.814259",
+      "timestamp": "2026-08-10T23:15:38.814Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-08-10_ 1. _Claude Code、有料プランでオートモードをデフォルト化へ（8/14〜）_ └ AnthropicがClaude Codeのオートモードを8月14日からPro/Max/Teamプランでデフォルト有効化すると発表。「AIの分類器による判断がユーザーのクリック操作と同等以上に安全」と評価された。EnterpriseやAPIは当面オプトインのままだが、1ヶ月以内にデフォルト化予定。コーディングエージェントが\"デフォルトオン\"時代に突入。 :link: <https://www.theregister.com/ai-and-ml/2026/08/10/claude-code-puts-auto-mode-in-the-drivers-seat/5285326|theregister.com/ai-and-ml/…/5285326> 2. _GitHub Copilot on Web、会話コントロールを拡張_ └ GitHub.comのCopilot Chatに3つの新機能が追加。①最近の会話へのクイッ..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1786403738.814259",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-08-10_ 1. _Claude Code、有料プランでオートモードをデフォルト化へ（8/14〜）_ └ AnthropicがClaude Codeのオートモードを8月14日からPro/Max/Teamプランでデフォルト有効化すると発表。「AIの分類器による判断がユーザーのクリック操作と同等以上に安全」と評価された。EnterpriseやAPIは当面オプトインのままだが、1ヶ月以内にデフォルト化予定。コーディングエージェントが\"デフォルトオン\"時代に突入。 :link: <https://www.theregister.com/ai-and-ml/2026/08/10/claude-code-puts-auto-mode-in-the-drivers-seat/5285326|theregister.com/ai-and-ml/…/5285326> 2. _GitHub Copilot on Web、会話コントロールを拡張_ └ GitHub.comのCopilot Chatに3つの新機能が追加。①最近の会話へのクイックアクセス、②AI応答待ち中もGitHubを閲覧できるチャットウィンドウの最小化機能、③Copilotトークン消費量をリアルタイムで確認できるインジケーター。開発ワークフローへのシームレスな統合が着実に進む。 :link: <https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls/|...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1786403738.814259",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-08-10_ 1. _Claude Code、有料プランでオートモードをデフォルト化へ（8/14〜）_ └ AnthropicがClaude Codeのオートモードを8月14日からPro/Max/Teamプランでデフォルト有効化すると発表。「AIの分類器による判断がユーザーのクリック操作と同等以上に安全」と評価された。EnterpriseやAPIは当面オプトインのままだが、1ヶ月以内にデフォルト化予定。コーディングエージェントが\"デフォルトオン\"時代に突入。 :link: <https://www.theregister.com/ai-and-ml/2026/08/10/claude-code-puts-auto-mode-in-the-drivers-seat/5285326|theregister.com/ai-and-ml/…/5285326> 2. _GitHub Copilot on Web、会話コントロールを拡張_ └ GitHub.comのCopilot Chatに3つの新機能が追加。①最近の会話へのクイックアクセス、②AI応答待ち中もGitHubを閲覧できるチャットウィンドウの最小化機能、③Copilotトークン消費量をリアルタイムで確認できるインジケーター。開発ワークフローへのシームレスな統合が着実に進む。 :link: <https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls/|github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls> 3. _GitHub Copilot CLI v1.0.79リリース_ └ エンタープライズ向けサンドボックスポリシー管理が強化。企業管理者がプロキシURLをポリシーで強制しつつも、認証情報はユーザー側で制御できる柔軟な設計が可能に。認証設定まわりの構成改善も含む。 :link: <https://github.com/github/copilot-cli/releases/tag/v1.0.79|github.com/github/copilot-cli/…/v1.0.79> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
     }
   ]
 }

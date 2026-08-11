@@ -2975,5 +2975,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BNHNLCP3P"
+  },
+  {
+    "name": "高野朱里",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-08-11T02:04:01.334Z",
+    "updatedAt": "2026-08-11T02:04:01.334Z",
+    "last_updated": "2026-08-11T02:04:01.334Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BN9KLP5D1"
   }
 ]
