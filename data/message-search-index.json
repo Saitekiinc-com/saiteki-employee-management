@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-08-30T15:50:22.060Z",
+  "generatedAt": "2026-08-31T04:48:15.311Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -99287,6 +99287,109 @@
         }
       ],
       "searchText": "404発生してるのやばすぎる。。\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1788132329.420569",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1788132329.420569",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1788132329.420569",
+      "timestamp": "2026-08-30T23:25:29.420Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-08-30_ 1. _OpenAI、SpaceX傘下Cursorとの契約打ち切りを通知 — 11月12日にモデルアクセス停止_ └ SpaceXが約600億ドルでCursor親会社Anysphereを買収したことを受け、OpenAIが「契約上の支配権変更条項」を発動。Cursorへのモデル提供を2026年11月12日に終了すると通知した。OpenAIは「マスク関連企業の過去の規約違反を踏まえ、SpaceXが利用規約内でAIを使うか確信が持てない」と説明。Cursorユーザートラフィックの約5%がOpenAIモデルを利用しており、今後はClaude・Grokへのフォールバックで機能を維持する見込み。 :link: <https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html|cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html> 2. _Claude Codeの週次利用上限、9月..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1788132329.420569",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-08-30_ 1. _OpenAI、SpaceX傘下Cursorとの契約打ち切りを通知 — 11月12日にモデルアクセス停止_ └ SpaceXが約600億ドルでCursor親会社Anysphereを買収したことを受け、OpenAIが「契約上の支配権変更条項」を発動。Cursorへのモデル提供を2026年11月12日に終了すると通知した。OpenAIは「マスク関連企業の過去の規約違反を踏まえ、SpaceXが利用規約内でAIを使うか確信が持てない」と説明。Cursorユーザートラフィックの約5%がOpenAIモデルを利用しており、今後はClaude・Grokへのフォールバックで機能を維持する見込み。 :link: <https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html|cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html> 2. _Claude Codeの週次利用上限、9月14日に再調整 — 「25%増」は現状比17%削減_ └ 5月以降4度延長されてきた一時的な50%増枠が9月14日に終了し、恒久的な25%増に置き換えられる。しかし現在の上限を基準にすると実質17%の削減となるため、ヘビーユーザーは設定見直しが必要。対象はPro・Max・Team・Enterprise席ベースプランの週次上限のみで、5時間単位の上限は据え置き。 :link: <https://ww...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1788132329.420569",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-08-30_ 1. _OpenAI、SpaceX傘下Cursorとの契約打ち切りを通知 — 11月12日にモデルアクセス停止_ └ SpaceXが約600億ドルでCursor親会社Anysphereを買収したことを受け、OpenAIが「契約上の支配権変更条項」を発動。Cursorへのモデル提供を2026年11月12日に終了すると通知した。OpenAIは「マスク関連企業の過去の規約違反を踏まえ、SpaceXが利用規約内でAIを使うか確信が持てない」と説明。Cursorユーザートラフィックの約5%がOpenAIモデルを利用しており、今後はClaude・Grokへのフォールバックで機能を維持する見込み。 :link: <https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html|cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html> 2. _Claude Codeの週次利用上限、9月14日に再調整 — 「25%増」は現状比17%削減_ └ 5月以降4度延長されてきた一時的な50%増枠が9月14日に終了し、恒久的な25%増に置き換えられる。しかし現在の上限を基準にすると実質17%の削減となるため、ヘビーユーザーは設定見直しが必要。対象はPro・Max・Team・Enterprise席ベースプランの週次上限のみで、5時間単位の上限は据え置き。 :link: <https://www.digitalapplied.com/blog/claude-code-weekly-limit-reduction-september-14|digitalapplied.com/blog/claude-code-weekly-limit-reduction-september-14> 3. _GitHub Copilot、9月1日に6モデルを廃止 — Claude旧世代・Gemini 3.1 Proも対象_ └ GitHub Copilotが9月1日をもってGemini 3.1 Pro、Claude Opus 4.5/4.6、Claude Sonnet 4.5/4.6、Raptor miniの6モデルを廃止する。Copilot Enterprise管理者はモデルポリシーで代替モデルのアクセス設定が必要。Claude Sonnet 4.6は年間プランのIndividual契約者に限り例外的に継続提供される予定。 :link: <https://github.com/github/roadmap/issues/1308|github.com/github/roadmap/issue...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1788139063.580479",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:佐藤 友亮",
+      "personName": "佐藤 友亮",
+      "slackIds": [
+        "U0BSWNFPSVD"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1788139063.580479",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1788139063.580479",
+      "timestamp": "2026-08-31T01:17:43.580Z",
+      "detailBullets": [
+        "はじめまして！ 11月入社予定の佐藤 友亮 (さとう ゆうすけ) と申します。 ■出身 北海道出身、佐賀県在住です。 ■経歴 コールセンターの事務仕事をしながらExcelのVBAや関数を使って業務効率化を試行した事をきっかけに約3年前にこの業界に参入いたしました。 直近ではPythonを主軸に開発に携わっておりました。 ■趣味 ・ドラマ、映画鑑賞 (ホラー、スプラッターメインで観ます！) ・ゲーム (FPS,TPSを筆頭に色んなジャンルやってます！) 音ゲー、格ゲーは苦手です:sweat_drops: ■ひとこと 自己管理を怠らず、自分にできる仕事、任せられた事は責任を持ってこなせればと思っております。 よろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1788139063.580479",
+          "text": "はじめまして！ 11月入社予定の佐藤 友亮 (さとう ゆうすけ) と申します。 ■出身 北海道出身、佐賀県在住です。 ■経歴 コールセンターの事務仕事をしながらExcelのVBAや関数を使って業務効率化を試行した事をきっかけに約3年前にこの業界に参入いたしました。 直近ではPythonを主軸に開発に携わっておりました。 ■趣味 ・ドラマ、映画鑑賞 (ホラー、スプラッターメインで観ます！) ・ゲーム (FPS,TPSを筆頭に色んなジャンルやってます！) 音ゲー、格ゲーは苦手です:sweat_drops: ■ひとこと 自己管理を怠らず、自分にできる仕事、任せられた事は責任を持ってこなせればと思っております。 よろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1788139063.580479",
+          "threadTs": null,
+          "authorName": "佐藤 友亮",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして！ 11月入社予定の佐藤 友亮 (さとう ゆうすけ) と申します。 ■出身 北海道出身、佐賀県在住です。 ■経歴 コールセンターの事務仕事をしながらExcelのVBAや関数を使って業務効率化を試行した事をきっかけに約3年前にこの業界に参入いたしました。 直近ではPythonを主軸に開発に携わっておりました。 ■趣味 ・ドラマ、映画鑑賞 (ホラー、スプラッターメインで観ます！) ・ゲーム (FPS,TPSを筆頭に色んなジャンルやってます！) 音ゲー、格ゲーは苦手です:sweat_drops: ■ひとこと 自己管理を怠らず、自分にできる仕事、任せられた事は責任を持ってこなせればと思っております。 よろしくお願いいたします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1788145312.517099",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:清水幸祐",
+      "personName": "清水幸祐",
+      "slackIds": [
+        "U0BSW5T03QC"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1788145312.517099",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1788145312.517099",
+      "timestamp": "2026-08-31T03:01:52.517Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> 文鳥さんいいですねー！お迎えしてみたいです！ こんなに鳥飼さんが多い会社初めてです:rolling_on_the_floor_laughing: これからよろしくお願いいたします:bow:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1788145312.517099",
+          "text": "<@U09QZF7KT2P> 文鳥さんいいですねー！お迎えしてみたいです！ こんなに鳥飼さんが多い会社初めてです:rolling_on_the_floor_laughing: これからよろしくお願いいたします:bow:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1788145312.517099",
+          "threadTs": "1787734128.693829",
+          "authorName": "清水幸祐",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> 文鳥さんいいですねー！お迎えしてみたいです！ こんなに鳥飼さんが多い会社初めてです:rolling_on_the_floor_laughing: これからよろしくお願いいたします:bow:\n自己紹介\nOther"
     }
   ]
 }

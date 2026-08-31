@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-08-30T16:16:12.344Z",
+  "generatedAt": "2026-08-31T04:48:19.166Z",
   "channelCount": 15,
-  "totalMessages": 3149,
+  "totalMessages": 3152,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -43391,11 +43391,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1788139063.580479",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0BSWNFPSVD",
+          "userName": "佐藤 友亮",
+          "userRealName": "佐藤 友亮",
+          "text": "はじめまして！ 11月入社予定の佐藤 友亮 (さとう ゆうすけ) と申します。 ■出身 北海道出身、佐賀県在住です。 ■経歴 コールセンターの事務仕事をしながらExcelのVBAや関数を使って業務効率化を試行した事をきっかけに約3年前にこの業界に参入いたしました。 直近ではPythonを主軸に開発に携わっておりました。 ■趣味 ・ドラマ、映画鑑賞 (ホラー、スプラッターメインで観ます！) ・ゲーム (FPS,TPSを筆頭に色んなジャンルやってます！) 音ゲー、格ゲーは苦手です:sweat_drops: ■ひとこと 自己管理を怠らず、自分にできる仕事、任せられた事は責任を持ってこなせればと思っております。 よろしくお願いいたします。",
+          "rawText": "はじめまして！\n11月入社予定の佐藤 友亮 (さとう ゆうすけ) と申します。\n \n\n■出身\n北海道出身、佐賀県在住です。\n\n■経歴\nコールセンターの事務仕事をしながらExcelのVBAや関数を使って業務効率化を試行した事をきっかけに約3年前にこの業界に参入いたしました。\n\n直近ではPythonを主軸に開発に携わっておりました。\n\n■趣味\n・ドラマ、映画鑑賞 (ホラー、スプラッターメインで観ます！)\n\n・ゲーム (FPS,TPSを筆頭に色んなジャンルやってます！)\n音ゲー、格ゲーは苦手です:sweat_drops:\n\n\n■ひとこと\n自己管理を怠らず、自分にできる仕事、任せられた事は責任を持ってこなせればと思っております。\n\nよろしくお願いいたします。",
+          "messageTs": "1788139063.580479",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-08-31",
+          "timestamp": "2026-08-31T01:17:43.580Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1788145312.517099",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0BSW5T03QC",
+          "userName": "清水幸祐",
+          "userRealName": "清水幸祐",
+          "text": "<@U09QZF7KT2P> 文鳥さんいいですねー！お迎えしてみたいです！ こんなに鳥飼さんが多い会社初めてです:rolling_on_the_floor_laughing: これからよろしくお願いいたします:bow:",
+          "rawText": "<@U09QZF7KT2P>\n文鳥さんいいですねー！お迎えしてみたいです！\nこんなに鳥飼さんが多い会社初めてです:rolling_on_the_floor_laughing:\nこれからよろしくお願いいたします:bow:",
+          "messageTs": "1788145312.517099",
+          "threadTs": "1787734128.693829",
+          "parentUserId": "U0BSW5T03QC",
+          "subtype": null,
+          "date": "2026-08-31",
+          "timestamp": "2026-08-31T03:01:52.517Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 469,
+      "messageCount": 471,
       "firstDate": "2025-11-02",
-      "lastDate": "2026-08-28"
+      "lastDate": "2026-08-31"
     },
     {
       "id": "C09MKT8QKAR",
@@ -56053,9 +56093,29 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1788132329.420569",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-08-30_ 1. _OpenAI、SpaceX傘下Cursorとの契約打ち切りを通知 — 11月12日にモデルアクセス停止_ └ SpaceXが約600億ドルでCursor親会社Anysphereを買収したことを受け、OpenAIが「契約上の支配権変更条項」を発動。Cursorへのモデル提供を2026年11月12日に終了すると通知した。OpenAIは「マスク関連企業の過去の規約違反を踏まえ、SpaceXが利用規約内でAIを使うか確信が持てない」と説明。Cursorユーザートラフィックの約5%がOpenAIモデルを利用しており、今後はClaude・Grokへのフォールバックで機能を維持する見込み。 :link: <https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html|cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html> 2. _Claude Codeの週次利用上限、9月14日に再調整 — 「25%増」は現状比17%削減_ └ 5月以降4度延長されてきた一時的な50%増枠が9月14日に終了し、恒久的な25%増に置き換えられる。しかし現在の上限を基準にすると実質17%の削減となるため、ヘビーユーザーは設定見直しが必要。対象はPro・Max・Team・Enterprise席ベースプランの週次上限のみで、5時間単位の上限は据え置き。 :link: <https://www.digitalapplied.com/blog/claude-code-weekly-limit-reduction-september-14|digitalapplied.com/blog/claude-code-weekly-limit-reduction-september-14> 3. _GitHub Copilot、9月1日に6モデルを廃止 — Claude旧世代・Gemini 3.1 Proも対象_ └ GitHub Copilotが9月1日をもってGemini 3.1 Pro、Claude Opus 4.5/4.6、Claude Sonnet 4.5/4.6、Raptor miniの6モデルを廃止する。Copilot Enterprise管理者はモデルポリシーで代替モデルのアクセス設定が必要。Claude Sonnet 4.6は年間プランのIndividual契約者に限り例外的に継続提供される予定。 :link: <https://github.com/github/roadmap/issues/1308|github.com/github/roadmap/issues/1308> 4. _Tencent、770BパラメータのオープンウェイトモデルHy4 previewをApache 2.0で公開_ └ テンセントHunyuanチームが770B総パラメータ（有効49B）・100万トークンコンテキストのMoEモデルをオープンソース公開（8/28）。コーディング・オフィス業務・科学研究で高性能を発揮し、163名の専門家によるブラインドテストでGLM-5.3やKimi K3を上回ったと報告。自身のトレーニングパイプライン最適化にも参加した初のHunyuanモデルでもあり、推論スループットを31.8%改善した。 :link: <https://technode.com/2026/08/28/tencent-open-sources-hy4-preview-with-770b-parameters-and-a-1m-token-context/|technode.com/2026/08/28/tencent-open-sources-hy4-preview-with-770b-parameters-and-a-1m-token-context> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-08-30_\n\n1. _OpenAI、SpaceX傘下Cursorとの契約打ち切りを通知 — 11月12日にモデルアクセス停止_\n└ SpaceXが約600億ドルでCursor親会社Anysphereを買収したことを受け、OpenAIが「契約上の支配権変更条項」を発動。Cursorへのモデル提供を2026年11月12日に終了すると通知した。OpenAIは「マスク関連企業の過去の規約違反を踏まえ、SpaceXが利用規約内でAIを使うか確信が持てない」と説明。Cursorユーザートラフィックの約5%がOpenAIモデルを利用しており、今後はClaude・Grokへのフォールバックで機能を維持する見込み。\n:link: <https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html|cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html>\n2. _Claude Codeの週次利用上限、9月14日に再調整 — 「25%増」は現状比17%削減_\n└ 5月以降4度延長されてきた一時的な50%増枠が9月14日に終了し、恒久的な25%増に置き換えられる。しかし現在の上限を基準にすると実質17%の削減となるため、ヘビーユーザーは設定見直しが必要。対象はPro・Max・Team・Enterprise席ベースプランの週次上限のみで、5時間単位の上限は据え置き。\n:link: <https://www.digitalapplied.com/blog/claude-code-weekly-limit-reduction-september-14|digitalapplied.com/blog/claude-code-weekly-limit-reduction-september-14>\n3. _GitHub Copilot、9月1日に6モデルを廃止 — Claude旧世代・Gemini 3.1 Proも対象_\n└ GitHub Copilotが9月1日をもってGemini 3.1 Pro、Claude Opus 4.5/4.6、Claude Sonnet 4.5/4.6、Raptor miniの6モデルを廃止する。Copilot Enterprise管理者はモデルポリシーで代替モデルのアクセス設定が必要。Claude Sonnet 4.6は年間プランのIndividual契約者に限り例外的に継続提供される予定。\n:link: <https://github.com/github/roadmap/issues/1308|github.com/github/roadmap/issues/1308>\n4. _Tencent、770BパラメータのオープンウェイトモデルHy4 previewをApache 2.0で公開_\n└ テンセントHunyuanチームが770B総パラメータ（有効49B）・100万トークンコンテキストのMoEモデルをオープンソース公開（8/28）。コーディング・オフィス業務・科学研究で高性能を発揮し、163名の専門家によるブラインドテストでGLM-5.3やKimi K3を上回ったと報告。自身のトレーニングパイプライン最適化にも参加した初のHunyuanモデルでもあり、推論スループットを31.8%改善した。\n:link: <https://technode.com/2026/08/28/tencent-open-sources-hy4-preview-with-770b-parameters-and-a-1m-token-context/|technode.com/2026/08/28/tencent-open-sources-hy4-preview-with-770b-parameters-and-a-1m-token-context> *使用して送信されました* Claude",
+          "messageTs": "1788132329.420569",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-08-30",
+          "timestamp": "2026-08-30T23:25:29.420Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 276,
+      "messageCount": 277,
       "firstDate": "2025-11-01",
       "lastDate": "2026-08-30"
     },

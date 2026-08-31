@@ -3050,5 +3050,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BSW5T03QC"
+  },
+  {
+    "name": "佐藤 友亮",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-08-31T04:48:15.067Z",
+    "updatedAt": "2026-08-31T04:48:15.067Z",
+    "last_updated": "2026-08-31T04:48:15.067Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BSWNFPSVD"
   }
 ]
