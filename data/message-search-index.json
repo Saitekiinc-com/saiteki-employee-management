@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-08-31T04:48:15.311Z",
+  "generatedAt": "2026-09-01T04:28:00.155Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -99350,7 +99350,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1788139063.580479",
-          "threadTs": null,
+          "threadTs": "1788139063.580479",
           "authorName": "佐藤 友亮",
           "permalink": null
         }
@@ -99390,6 +99390,179 @@
         }
       ],
       "searchText": "<@U09QZF7KT2P> 文鳥さんいいですねー！お迎えしてみたいです！ こんなに鳥飼さんが多い会社初めてです:rolling_on_the_floor_laughing: これからよろしくお願いいたします:bow:\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1788170003.505299",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:志賀海星",
+      "personName": "志賀海星",
+      "slackIds": [
+        "U0BBGUX353K"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1788170003.505299",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1788170003.505299",
+      "timestamp": "2026-08-31T09:53:23.505Z",
+      "detailBullets": [
+        "<@U0BSWNFPSVD> 佐藤さん初めまして！ 自分も佐賀県在住なので、仲良くしていただけると嬉しいです！ よろしくお願いします:sunglasses:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1788170003.505299",
+          "text": "<@U0BSWNFPSVD> 佐藤さん初めまして！ 自分も佐賀県在住なので、仲良くしていただけると嬉しいです！ よろしくお願いします:sunglasses:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1788170003.505299",
+          "threadTs": "1788139063.580479",
+          "authorName": "志賀海星",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BSWNFPSVD> 佐藤さん初めまして！ 自分も佐賀県在住なので、仲良くしていただけると嬉しいです！ よろしくお願いします:sunglasses:\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1788176953.547879",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1788176953.547879",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1788176953.547879",
+      "timestamp": "2026-08-31T11:49:13.547Z",
+      "detailBullets": [
+        "自分も有料会員じゃないので、全部は読めないですが もうタイトルだけで言いたいことは分かるやつ <https://www.itmedia.co.jp/business/articles/2608/31/news016.html|itmedia.co.jp/business/…/news016.html>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1788176953.547879",
+          "text": "自分も有料会員じゃないので、全部は読めないですが もうタイトルだけで言いたいことは分かるやつ <https://www.itmedia.co.jp/business/articles/2608/31/news016.html|itmedia.co.jp/business/…/news016.html>",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1788176953.547879",
+          "threadTs": "1788176953.547879",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "自分も有料会員じゃないので、全部は読めないですが もうタイトルだけで言いたいことは分かるやつ <https://www.itmedia.co.jp/business/articles/2608/31/news016.html|itmedia.co.jp/business/…/news016.html>\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1788177221.247929",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1788177221.247929",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1788177221.247929",
+      "timestamp": "2026-08-31T11:53:41.247Z",
+      "detailBullets": [
+        "現状は本当に既存フローの中で どうやってAI挟み込もうかな〜が非常に多い印象ですが 既存のフローなんて要らないと思ってます。(*`ウォーターフォールもアジャイルも適さない`*) \"15%ぐらいやっている\"はある程度実感湧くし 信頼/実績ある企業...IBMとかNRIとかとかが 本当に本腰入れて成功事例引き下げてくると敵わなくなるので *今やらないといけないよなぁ〜*なんて思ってます。 できる？ じゃなくてやらないと次世代の道は開けない"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1788177221.247929",
+          "text": "現状は本当に既存フローの中で どうやってAI挟み込もうかな〜が非常に多い印象ですが 既存のフローなんて要らないと思ってます。(*`ウォーターフォールもアジャイルも適さない`*) \"15%ぐらいやっている\"はある程度実感湧くし 信頼/実績ある企業...IBMとかNRIとかとかが 本当に本腰入れて成功事例引き下げてくると敵わなくなるので *今やらないといけないよなぁ〜*なんて思ってます。 できる？ じゃなくてやらないと次世代の道は開けない",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1788177221.247929",
+          "threadTs": "1788176953.547879",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "現状は本当に既存フローの中で どうやってAI挟み込もうかな〜が非常に多い印象ですが 既存のフローなんて要らないと思ってます。(*`ウォーターフォールもアジャイルも適さない`*) \"15%ぐらいやっている\"はある程度実感湧くし 信頼/実績ある企業...IBMとかNRIとかとかが 本当に本腰入れて成功事例引き下げてくると敵わなくなるので *今やらないといけないよなぁ〜*なんて思ってます。 できる？ じゃなくてやらないと次世代の道は開けない\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1788217792.342259",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1788217792.342259",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1788217792.342259",
+      "timestamp": "2026-08-31T23:09:52.342Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-08-31_ 1. _Claude Sonnet 5 API価格が$2/$10に永久固定 — 本日予定の値上げは撤回_ └ Anthropicは8/10に、本日9/1から予定していたClaude Sonnet 5の値上げ（入力$3/出力$15 per Mトークン）を撤回し、導入価格の$2/$10を永久化すると発表。APIユーザーにとっては朗報だが、Sonnet 5の新トークナイザーは同一入力に対し旧モデル比最大35%多くトークンを消費するため、実際のコストへの影響は要確認。 :link: <https://note.com/nori_nw/n/nd90ec174e822|note.com/nori_nw/n/…> 2. _GitHub障害でCopilotの回復が遅れる — 依存関係の複雑さが浮き彫りに_ └ 8月末に発生したGitHubの障害において、GitHub本体は先に復旧したにもかかわらずCopilotの機能回復が大幅に遅れた事例が報告された。CopilotがGitHubインフラの複数レイヤーに依存していることが改..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1788217792.342259",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-08-31_ 1. _Claude Sonnet 5 API価格が$2/$10に永久固定 — 本日予定の値上げは撤回_ └ Anthropicは8/10に、本日9/1から予定していたClaude Sonnet 5の値上げ（入力$3/出力$15 per Mトークン）を撤回し、導入価格の$2/$10を永久化すると発表。APIユーザーにとっては朗報だが、Sonnet 5の新トークナイザーは同一入力に対し旧モデル比最大35%多くトークンを消費するため、実際のコストへの影響は要確認。 :link: <https://note.com/nori_nw/n/nd90ec174e822|note.com/nori_nw/n/…> 2. _GitHub障害でCopilotの回復が遅れる — 依存関係の複雑さが浮き彫りに_ └ 8月末に発生したGitHubの障害において、GitHub本体は先に復旧したにもかかわらずCopilotの機能回復が大幅に遅れた事例が報告された。CopilotがGitHubインフラの複数レイヤーに依存していることが改めて問題視されており、AIコーディングツールのSLA設計に影響を与えそうだ。 :link: <https://www.digitalapplied.com/blog/github-outage-copilot-dependency-chain-august-2026|digitalapplied.com/blog/github-outage-copilot-dependency-chain-aug...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1788217792.342259",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-08-31_ 1. _Claude Sonnet 5 API価格が$2/$10に永久固定 — 本日予定の値上げは撤回_ └ Anthropicは8/10に、本日9/1から予定していたClaude Sonnet 5の値上げ（入力$3/出力$15 per Mトークン）を撤回し、導入価格の$2/$10を永久化すると発表。APIユーザーにとっては朗報だが、Sonnet 5の新トークナイザーは同一入力に対し旧モデル比最大35%多くトークンを消費するため、実際のコストへの影響は要確認。 :link: <https://note.com/nori_nw/n/nd90ec174e822|note.com/nori_nw/n/…> 2. _GitHub障害でCopilotの回復が遅れる — 依存関係の複雑さが浮き彫りに_ └ 8月末に発生したGitHubの障害において、GitHub本体は先に復旧したにもかかわらずCopilotの機能回復が大幅に遅れた事例が報告された。CopilotがGitHubインフラの複数レイヤーに依存していることが改めて問題視されており、AIコーディングツールのSLA設計に影響を与えそうだ。 :link: <https://www.digitalapplied.com/blog/github-outage-copilot-dependency-chain-august-2026|digitalapplied.com/blog/github-outage-copilot-dependency-chain-august-2026> 3. <http://_Claude.ai|_Claude.ai>・Claude Code on the web が本日夕方に一時障害（約20分で復旧）_ └ 8/31 17:32 UTC頃から、<http://claude.ai|claude.ai>・Claude Code on the web・Code Review・Claude in Slackで接続エラーや応答遅延が発生。Anthropicが即座に調査を開始し、17:52 UTCまでに完全復旧を確認。月末の高負荷タイミングでの発生が注目された。 :link: <https://status.claude.com/|status.claude.com> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1788226927.539769",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:佐藤 友亮",
+      "personName": "佐藤 友亮",
+      "slackIds": [
+        "U0BSWNFPSVD"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1788226927.539769",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1788226927.539769",
+      "timestamp": "2026-09-01T01:42:07.539Z",
+      "detailBullets": [
+        "<@U0BBGUX353K> 志賀さん、はじめまして！ 返信遅くなってしまって申し訳ないです:sob: 是非仲良くさせてください！！ よろしくお願いします:sunglasses:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1788226927.539769",
+          "text": "<@U0BBGUX353K> 志賀さん、はじめまして！ 返信遅くなってしまって申し訳ないです:sob: 是非仲良くさせてください！！ よろしくお願いします:sunglasses:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1788226927.539769",
+          "threadTs": "1788139063.580479",
+          "authorName": "佐藤 友亮",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BBGUX353K> 志賀さん、はじめまして！ 返信遅くなってしまって申し訳ないです:sob: 是非仲良くさせてください！！ よろしくお願いします:sunglasses:\n自己紹介\nOther"
     }
   ]
 }
