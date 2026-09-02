@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-01T04:28:05.796Z",
+  "generatedAt": "2026-09-02T03:51:26.162Z",
   "channelCount": 15,
-  "totalMessages": 3157,
+  "totalMessages": 3162,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -20969,11 +20969,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1788319870.458969",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<@U0A9EE7HZ3P> 藤井さん、お誕生日おめでとうございます:tada::tada::tada: いつも自発的に社員の皆さんにおめでとうメッセージをありがとうございます！ また、業務の方もいつも頼らせていただいていて本当に心強いです:神: 良い1日をお過ごしください:sparkles:",
+          "rawText": "<@U0A9EE7HZ3P>\n藤井さん、お誕生日おめでとうございます:tada::tada::tada:\nいつも自発的に社員の皆さんにおめでとうメッセージをありがとうございます！\nまた、業務の方もいつも頼らせていただいていて本当に心強いです:神:\n良い1日をお過ごしください:sparkles:",
+          "messageTs": "1788319870.458969",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-02",
+          "timestamp": "2026-09-02T03:31:10.458Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 1048,
+      "messageCount": 1049,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-08-30"
+      "lastDate": "2026-09-02"
     },
     {
       "id": "C098RT3NRT2",
@@ -50602,11 +50622,71 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1788240435.844039",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> 8月に健康診断を受診した人は、 社労士共有個人フォルダに健康診断の領収書の保管をお忘れずに！ 【保管の際の注意】 ・宛名に「株式会社Saiteki」と記載する ・ブレ、ボケのない写真であること ・影や反射で読めないところがないこと ・画面からはみ出ていないこと",
+          "rawText": "<!channel>\n8月に健康診断を受診した人は、\n社労士共有個人フォルダに健康診断の領収書の保管をお忘れずに！\n\n【保管の際の注意】\n・宛名に「株式会社Saiteki」と記載する\n・ブレ、ボケのない写真であること\n・影や反射で読めないところがないこと\n・画面からはみ出ていないこと",
+          "messageTs": "1788240435.844039",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-01",
+          "timestamp": "2026-09-01T05:27:15.844Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1788304500.610799",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> :loudspeaker: *社内ポータルサイトがオープンしました!* :tada: おはようございます、総務の藤井です。 かねてより準備を進めておりました*社内ポータルサイト*が、とうとうオープンしました:sparkles: 昨日、皆さまのメールアドレス宛に招待メールをお送りいたしましたので、ご確認とパスワードの設定をお願い致します。:envelope_with_arrow: (招待メールが届いていない場合は、「99_お名前」のチャンネルで総務へご連絡ください) サイトへのログイン方法や基本的な使い方は、以下の*社員向けマニュアル*にまとめておりますので、ぜひご参考ください。 :link: 社員向けマニュアルはこちら:point_down: <https://docs.google.com/presentation/d/13mnpgH8LGg0bLEFsecO-hyF8pf8qZK_O3Jg0IGaQ4Kw/edit?slide=id.p1#slide=id.p1|docs.google.com/presentation/d/13mnpgH8LGg0…/edit?slide=id.p1#slide=id.p1> 今後、社内の情報共有がよりスムーズになるよう、ポータルサイトをどんどん活用していきますので、ぜひ触ってみてください:raised_hands: ご不明点やご意見はお気軽に本スレッドでお知らせください:blush: そして、この社内ポータルサイトを作成してくれた <@U0A7VHB07J4> さん、 本当にありがとうございました:感謝:",
+          "rawText": "<!channel>\n:loudspeaker: *社内ポータルサイトがオープンしました!* :tada:\n\nおはようございます、総務の藤井です。\nかねてより準備を進めておりました*社内ポータルサイト*が、とうとうオープンしました:sparkles:\n\n昨日、皆さまのメールアドレス宛に招待メールをお送りいたしましたので、ご確認とパスワードの設定をお願い致します。:envelope_with_arrow:\n(招待メールが届いていない場合は、「99_お名前」のチャンネルで総務へご連絡ください)\n\nサイトへのログイン方法や基本的な使い方は、以下の*社員向けマニュアル*にまとめておりますので、ぜひご参考ください。\n:link: 社員向けマニュアルはこちら:point_down:\n <https://docs.google.com/presentation/d/13mnpgH8LGg0bLEFsecO-hyF8pf8qZK_O3Jg0IGaQ4Kw/edit?slide=id.p1#slide=id.p1|docs.google.com/presentation/d/13mnpgH8LGg0…/edit?slide=id.p1#slide=id.p1>\n\n今後、社内の情報共有がよりスムーズになるよう、ポータルサイトをどんどん活用していきますので、ぜひ触ってみてください:raised_hands:\n ご不明点やご意見はお気軽に本スレッドでお知らせください:blush:\n\nそして、この社内ポータルサイトを作成してくれた <@U0A7VHB07J4> さん、\n本当にありがとうございました:感謝:",
+          "messageTs": "1788304500.610799",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-01",
+          "timestamp": "2026-09-01T23:15:00.610Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1788309244.936119",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> :warning:*追伸*:warning: *社内ポータルサイトへの招待期限は24時間です！* URLの期限が切れてしまった場合は新しく招待メールをお送りいいたしますので、 「99_お名前」のチャンネルへご連絡ください:woman-bowing:",
+          "rawText": "<!channel>\n:warning:*追伸*:warning:\n*社内ポータルサイトへの招待期限は24時間です！*\nURLの期限が切れてしまった場合は新しく招待メールをお送りいいたしますので、\n「99_お名前」のチャンネルへご連絡ください:woman-bowing:",
+          "messageTs": "1788309244.936119",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-02",
+          "timestamp": "2026-09-02T00:34:04.936Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 356,
+      "messageCount": 359,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-08-29"
+      "lastDate": "2026-09-02"
     },
     {
       "id": "C09QXV3F8G0",
@@ -56213,11 +56293,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1788304301.497819",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-01_ 1. _Anthropic、Claude Fable 5.1 &amp; Mythos 5.1 を本日リリース——コーディングベンチマーク軒並み更新_ └ AnthropicがFable 5.1とMythos 5.1を9月1日に公開。SWE-bench Pro 81.2%でリーダーボード1位、LiveCodeBench 90.52%、Terminal-Bench-Science 52.6%（前世代比2倍超）を達成。キャッシュリード費用を75%削減し実効コストを最大45%低減。価格は$10/$50/Mトークンで据え置き、1Mトークンコンテキスト・128K出力に対応。Mythos 5.1はサイバーセキュリティ・ライフサイエンス向け限定公開。 :link: <https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads|venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads> 2. _OpenAI、ChatGPTにSite tools（WebMCP）追加——AIエージェントがウェブのツールを直接呼び出し_ └ OpenAIがWebMCP（実験的オープン標準）を利用したSite toolsをChatGPTデスクトップアプリに追加。ウェブサイトがJavaScript関数をAIエージェント向けツールとして公開でき、ChatGPT Work・CodexがサポートサイトのツールをMCP経由で直接呼び出し可能に。9月3日締め切りの「WebMCP Challenge」も並行開催中（賞金$3,000・ChatGPT Pro 1年分）。 :link: <https://superpowerdaily.com/posts/openai-launches-10-day-webmcp-challenge-as-chatgpt-gains-a-browser-tool-interface|superpowerdaily.com/posts/openai-launches-10-day-webmcp-challenge-as-chatgpt-gains-a-browser-tool-interface> 3. _Claude Code ホットフィックス配信（9/1）——Mac障害・Remote Controlフリーズ等を修正_ └ MacでのBash「task output swap refused」エラー、「always allow」設定の保存失敗、劣化接続時のRemote Controlフリーズ、バックグラウンドタスクサイズ超過問題を修正。/rename・/compact・デフォルトシステムプロンプト下での「ここから要約」コマンドの安定性も改善。 :link: <https://updatify.io/releases/claude-code|updatify.io/releases/claude-code> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-01_\n\n1. _Anthropic、Claude Fable 5.1 &amp; Mythos 5.1 を本日リリース——コーディングベンチマーク軒並み更新_\n└ AnthropicがFable 5.1とMythos 5.1を9月1日に公開。SWE-bench Pro 81.2%でリーダーボード1位、LiveCodeBench 90.52%、Terminal-Bench-Science 52.6%（前世代比2倍超）を達成。キャッシュリード費用を75%削減し実効コストを最大45%低減。価格は$10/$50/Mトークンで据え置き、1Mトークンコンテキスト・128K出力に対応。Mythos 5.1はサイバーセキュリティ・ライフサイエンス向け限定公開。\n:link: <https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads|venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads>\n2. _OpenAI、ChatGPTにSite tools（WebMCP）追加——AIエージェントがウェブのツールを直接呼び出し_\n└ OpenAIがWebMCP（実験的オープン標準）を利用したSite toolsをChatGPTデスクトップアプリに追加。ウェブサイトがJavaScript関数をAIエージェント向けツールとして公開でき、ChatGPT Work・CodexがサポートサイトのツールをMCP経由で直接呼び出し可能に。9月3日締め切りの「WebMCP Challenge」も並行開催中（賞金$3,000・ChatGPT Pro 1年分）。\n:link: <https://superpowerdaily.com/posts/openai-launches-10-day-webmcp-challenge-as-chatgpt-gains-a-browser-tool-interface|superpowerdaily.com/posts/openai-launches-10-day-webmcp-challenge-as-chatgpt-gains-a-browser-tool-interface>\n3. _Claude Code ホットフィックス配信（9/1）——Mac障害・Remote Controlフリーズ等を修正_\n└ MacでのBash「task output swap refused」エラー、「always allow」設定の保存失敗、劣化接続時のRemote Controlフリーズ、バックグラウンドタスクサイズ超過問題を修正。/rename・/compact・デフォルトシステムプロンプト下での「ここから要約」コマンドの安定性も改善。\n:link: <https://updatify.io/releases/claude-code|updatify.io/releases/claude-code> *使用して送信されました* Claude",
+          "messageTs": "1788304301.497819",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-01",
+          "timestamp": "2026-09-01T23:11:41.497Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 280,
+      "messageCount": 281,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-08-31"
+      "lastDate": "2026-09-01"
     },
     {
       "id": "C0AARGDBC3V",

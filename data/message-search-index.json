@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-01T04:28:00.155Z",
+  "generatedAt": "2026-09-02T03:51:20.102Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -99563,6 +99563,178 @@
         }
       ],
       "searchText": "<@U0BBGUX353K> 志賀さん、はじめまして！ 返信遅くなってしまって申し訳ないです:sob: 是非仲良くさせてください！！ よろしくお願いします:sunglasses:\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1788240435.844039",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1788240435.844039",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1788240435.844039",
+      "timestamp": "2026-09-01T05:27:15.844Z",
+      "detailBullets": [
+        "<!channel> 8月に健康診断を受診した人は、 社労士共有個人フォルダに健康診断の領収書の保管をお忘れずに！ 【保管の際の注意】 ・宛名に「株式会社Saiteki」と記載する ・ブレ、ボケのない写真であること ・影や反射で読めないところがないこと ・画面からはみ出ていないこと"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1788240435.844039",
+          "text": "<!channel> 8月に健康診断を受診した人は、 社労士共有個人フォルダに健康診断の領収書の保管をお忘れずに！ 【保管の際の注意】 ・宛名に「株式会社Saiteki」と記載する ・ブレ、ボケのない写真であること ・影や反射で読めないところがないこと ・画面からはみ出ていないこと",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1788240435.844039",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> 8月に健康診断を受診した人は、 社労士共有個人フォルダに健康診断の領収書の保管をお忘れずに！ 【保管の際の注意】 ・宛名に「株式会社Saiteki」と記載する ・ブレ、ボケのない写真であること ・影や反射で読めないところがないこと ・画面からはみ出ていないこと\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1788304301.497819",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1788304301.497819",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1788304301.497819",
+      "timestamp": "2026-09-01T23:11:41.497Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-01_ 1. _Anthropic、Claude Fable 5.1 &amp; Mythos 5.1 を本日リリース——コーディングベンチマーク軒並み更新_ └ AnthropicがFable 5.1とMythos 5.1を9月1日に公開。SWE-bench Pro 81.2%でリーダーボード1位、LiveCodeBench 90.52%、Terminal-Bench-Science 52.6%（前世代比2倍超）を達成。キャッシュリード費用を75%削減し実効コストを最大45%低減。価格は$10/$50/Mトークンで据え置き、1Mトークンコンテキスト・128K出力に対応。Mythos 5.1はサイバーセキュリティ・ライフサイエンス向け限定公開。 :link: <https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-rea..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1788304301.497819",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-01_ 1. _Anthropic、Claude Fable 5.1 &amp; Mythos 5.1 を本日リリース——コーディングベンチマーク軒並み更新_ └ AnthropicがFable 5.1とMythos 5.1を9月1日に公開。SWE-bench Pro 81.2%でリーダーボード1位、LiveCodeBench 90.52%、Terminal-Bench-Science 52.6%（前世代比2倍超）を達成。キャッシュリード費用を75%削減し実効コストを最大45%低減。価格は$10/$50/Mトークンで据え置き、1Mトークンコンテキスト・128K出力に対応。Mythos 5.1はサイバーセキュリティ・ライフサイエンス向け限定公開。 :link: <https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads|venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads> 2. _OpenAI、ChatGPTにSite tools（WebMCP）追加——AIエージェントがウェブのツールを直接呼び出し_ └ Open...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1788304301.497819",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-01_ 1. _Anthropic、Claude Fable 5.1 &amp; Mythos 5.1 を本日リリース——コーディングベンチマーク軒並み更新_ └ AnthropicがFable 5.1とMythos 5.1を9月1日に公開。SWE-bench Pro 81.2%でリーダーボード1位、LiveCodeBench 90.52%、Terminal-Bench-Science 52.6%（前世代比2倍超）を達成。キャッシュリード費用を75%削減し実効コストを最大45%低減。価格は$10/$50/Mトークンで据え置き、1Mトークンコンテキスト・128K出力に対応。Mythos 5.1はサイバーセキュリティ・ライフサイエンス向け限定公開。 :link: <https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads|venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads> 2. _OpenAI、ChatGPTにSite tools（WebMCP）追加——AIエージェントがウェブのツールを直接呼び出し_ └ OpenAIがWebMCP（実験的オープン標準）を利用したSite toolsをChatGPTデスクトップアプリに追加。ウェブサイトがJavaScript関数をAIエージェント向けツールとして公開でき、ChatGPT Work・CodexがサポートサイトのツールをMCP経由で直接呼び出し可能に。9月3日締め切りの「WebMCP Challenge」も並行開催中（賞金$3,000・ChatGPT Pro 1年分）。 :link: <https://superpowerdaily.com/posts/openai-launches-10-day-webmcp-challenge-as-chatgpt-gains-a-browser-tool-interface|superpowerdaily.com/posts/openai-launches-10-day-webmcp-challenge-as-chatgpt-gains-a-browser-tool-interface> 3. _Claude Code ホットフィックス配信（9/1）——Mac障害・Remote Controlフリーズ等を修正_...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1788304500.610799",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1788304500.610799",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1788304500.610799",
+      "timestamp": "2026-09-01T23:15:00.610Z",
+      "detailBullets": [
+        "<!channel> :loudspeaker: *社内ポータルサイトがオープンしました!* :tada: おはようございます、総務の藤井です。 かねてより準備を進めておりました*社内ポータルサイト*が、とうとうオープンしました:sparkles: 昨日、皆さまのメールアドレス宛に招待メールをお送りいたしましたので、ご確認とパスワードの設定をお願い致します。:envelope_with_arrow: (招待メールが届いていない場合は、「99_お名前」のチャンネルで総務へご連絡ください) サイトへのログイン方法や基本的な使い方は、以下の*社員向けマニュアル*にまとめておりますので、ぜひご参考ください。 :link: 社員向けマニュアルはこちら:point_down: <https://docs.google.com/presentation/d/13mnpgH8LGg0bLEFsecO-hyF8pf8qZK_O3Jg0IGaQ4Kw/edit?slide=id.p1#slide=id.p1|docs.google.com/presentation/d/13mnpgH8LGg0…/edi..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1788304500.610799",
+          "text": "<!channel> :loudspeaker: *社内ポータルサイトがオープンしました!* :tada: おはようございます、総務の藤井です。 かねてより準備を進めておりました*社内ポータルサイト*が、とうとうオープンしました:sparkles: 昨日、皆さまのメールアドレス宛に招待メールをお送りいたしましたので、ご確認とパスワードの設定をお願い致します。:envelope_with_arrow: (招待メールが届いていない場合は、「99_お名前」のチャンネルで総務へご連絡ください) サイトへのログイン方法や基本的な使い方は、以下の*社員向けマニュアル*にまとめておりますので、ぜひご参考ください。 :link: 社員向けマニュアルはこちら:point_down: <https://docs.google.com/presentation/d/13mnpgH8LGg0bLEFsecO-hyF8pf8qZK_O3Jg0IGaQ4Kw/edit?slide=id.p1#slide=id.p1|docs.google.com/presentation/d/13mnpgH8LGg0…/edit?slide=id.p1#slide=id.p1> 今後、社内の情報共有がよりスムーズになるよう、ポータルサイトをどんどん活用していきますので、ぜひ触ってみてください:raised_hands: ご不明点やご意見はお気軽に本スレッドでお知らせください:blush: そして、この社内ポータルサイトを作成してくれた <@U0A7VHB07J4> さん、 本当にありがとうございました:感謝:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1788304500.610799",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> :loudspeaker: *社内ポータルサイトがオープンしました!* :tada: おはようございます、総務の藤井です。 かねてより準備を進めておりました*社内ポータルサイト*が、とうとうオープンしました:sparkles: 昨日、皆さまのメールアドレス宛に招待メールをお送りいたしましたので、ご確認とパスワードの設定をお願い致します。:envelope_with_arrow: (招待メールが届いていない場合は、「99_お名前」のチャンネルで総務へご連絡ください) サイトへのログイン方法や基本的な使い方は、以下の*社員向けマニュアル*にまとめておりますので、ぜひご参考ください。 :link: 社員向けマニュアルはこちら:point_down: <https://docs.google.com/presentation/d/13mnpgH8LGg0bLEFsecO-hyF8pf8qZK_O3Jg0IGaQ4Kw/edit?slide=id.p1#slide=id.p1|docs.google.com/presentation/d/13mnpgH8LGg0…/edit?slide=id.p1#slide=id.p1> 今後、社内の情報共有がよりスムーズになるよう、ポータルサイトをどんどん活用していきますので、ぜひ触ってみてください:raised_hands: ご不明点やご意見はお気軽に本スレッドでお知らせください:blush: そして、この社内ポータルサイトを作成してくれた <@U0A7VHB07J4> さん、 本当にありがとうございました:感謝:\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1788309244.936119",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1788309244.936119",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1788309244.936119",
+      "timestamp": "2026-09-02T00:34:04.936Z",
+      "detailBullets": [
+        "<!channel> :warning:*追伸*:warning: *社内ポータルサイトへの招待期限は24時間です！* URLの期限が切れてしまった場合は新しく招待メールをお送りいいたしますので、 「99_お名前」のチャンネルへご連絡ください:woman-bowing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1788309244.936119",
+          "text": "<!channel> :warning:*追伸*:warning: *社内ポータルサイトへの招待期限は24時間です！* URLの期限が切れてしまった場合は新しく招待メールをお送りいいたしますので、 「99_お名前」のチャンネルへご連絡ください:woman-bowing:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1788309244.936119",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> :warning:*追伸*:warning: *社内ポータルサイトへの招待期限は24時間です！* URLの期限が切れてしまった場合は新しく招待メールをお送りいいたしますので、 「99_お名前」のチャンネルへご連絡ください:woman-bowing:\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788319870.458969",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788319870.458969",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788319870.458969",
+      "timestamp": "2026-09-02T03:31:10.458Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> 藤井さん、お誕生日おめでとうございます:tada::tada::tada: いつも自発的に社員の皆さんにおめでとうメッセージをありがとうございます！ また、業務の方もいつも頼らせていただいていて本当に心強いです:神: 良い1日をお過ごしください:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788319870.458969",
+          "text": "<@U0A9EE7HZ3P> 藤井さん、お誕生日おめでとうございます:tada::tada::tada: いつも自発的に社員の皆さんにおめでとうメッセージをありがとうございます！ また、業務の方もいつも頼らせていただいていて本当に心強いです:神: 良い1日をお過ごしください:sparkles:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788319870.458969",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> 藤井さん、お誕生日おめでとうございます:tada::tada::tada: いつも自発的に社員の皆さんにおめでとうメッセージをありがとうございます！ また、業務の方もいつも頼らせていただいていて本当に心強いです:神: 良い1日をお過ごしください:sparkles:\nソーシャル\n経営"
     }
   ]
 }
