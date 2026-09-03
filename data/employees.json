@@ -3065,5 +3065,35 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BSWNFPSVD"
+  },
+  {
+    "name": "松岡 大輝",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-09-03T03:50:30.349Z",
+    "updatedAt": "2026-09-03T03:50:30.349Z",
+    "last_updated": "2026-09-03T03:50:30.349Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BU5QR565R"
+  },
+  {
+    "name": "加藤大暉",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-09-03T03:50:30.411Z",
+    "updatedAt": "2026-09-03T03:50:30.411Z",
+    "last_updated": "2026-09-03T03:50:30.411Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BUA1ECFCM"
   }
 ]

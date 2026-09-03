@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-02T03:51:20.102Z",
+  "generatedAt": "2026-09-03T03:50:30.648Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -99685,21 +99685,21 @@
       "messageTs": "1788309244.936119",
       "timestamp": "2026-09-02T00:34:04.936Z",
       "detailBullets": [
-        "<!channel> :warning:*追伸*:warning: *社内ポータルサイトへの招待期限は24時間です！* URLの期限が切れてしまった場合は新しく招待メールをお送りいいたしますので、 「99_お名前」のチャンネルへご連絡ください:woman-bowing:"
+        "<!channel> :warning:*追伸*:warning: *社内ポータルサイトへの招待期限は24時間です！* URLの期限が切れてしまった場合は新しく招待メールをお送りいいたしますので、 「99_お名前」のチャンネルへご連絡ください:woman-bowing: :arrow_down_small:*2026/9/2 追記！*:arrow_down_small: *リンク自体の有効期限が24時間なので注意！* *一度リンクを押すと、そこで有効期限内に開いたという状態になり、* *開いた状態から時間を空けてしまうとセッションタイムアウトになってしまいます。* 招待メールの再発行はすぐできますので、 タイムアウトになりましたらSlackにご連絡ください:woman-bowing:"
       ],
       "quotes": [
         {
           "messageId": "message:primary:C09MKT8QKAR:1788309244.936119",
-          "text": "<!channel> :warning:*追伸*:warning: *社内ポータルサイトへの招待期限は24時間です！* URLの期限が切れてしまった場合は新しく招待メールをお送りいいたしますので、 「99_お名前」のチャンネルへご連絡ください:woman-bowing:",
+          "text": "<!channel> :warning:*追伸*:warning: *社内ポータルサイトへの招待期限は24時間です！* URLの期限が切れてしまった場合は新しく招待メールをお送りいいたしますので、 「99_お名前」のチャンネルへご連絡ください:woman-bowing: :arrow_down_small:*2026/9/2 追記！*:arrow_down_small: *リンク自体の有効期限が24時間なので注意！* *一度リンクを押すと、そこで有効期限内に開いたという状態になり、* *開いた状態から時間を空けてしまうとセッションタイムアウトになってしまいます。* 招待メールの再発行はすぐできますので、 タイムアウトになりましたらSlackにご連絡ください:woman-bowing:",
           "channelId": "C09MKT8QKAR",
           "channelName": "all-saiteki",
           "messageTs": "1788309244.936119",
-          "threadTs": null,
+          "threadTs": "1788309244.936119",
           "authorName": "藤井芙美子",
           "permalink": null
         }
       ],
-      "searchText": "<!channel> :warning:*追伸*:warning: *社内ポータルサイトへの招待期限は24時間です！* URLの期限が切れてしまった場合は新しく招待メールをお送りいいたしますので、 「99_お名前」のチャンネルへご連絡ください:woman-bowing:\nall-saiteki\nSales"
+      "searchText": "<!channel> :warning:*追伸*:warning: *社内ポータルサイトへの招待期限は24時間です！* URLの期限が切れてしまった場合は新しく招待メールをお送りいいたしますので、 「99_お名前」のチャンネルへご連絡ください:woman-bowing: :arrow_down_small:*2026/9/2 追記！*:arrow_down_small: *リンク自体の有効期限が24時間なので注意！* *一度リンクを押すと、そこで有効期限内に開いたという状態になり、* *開いた状態から時間を空けてしまうとセッションタイムアウトになってしまいます。* 招待メールの再発行はすぐできますので、 タイムアウトになりましたらSlackにご連絡ください:woman-bowing:\nall-saiteki\nSales"
     },
     {
       "@id": "search-message:primary:C09N28KTKL1:1788319870.458969",
@@ -99729,12 +99729,525 @@
           "channelId": "C09N28KTKL1",
           "channelName": "ソーシャル",
           "messageTs": "1788319870.458969",
-          "threadTs": null,
+          "threadTs": "1788319870.458969",
           "authorName": "戸塚直道",
           "permalink": null
         }
       ],
       "searchText": "<@U0A9EE7HZ3P> 藤井さん、お誕生日おめでとうございます:tada::tada::tada: いつも自発的に社員の皆さんにおめでとうメッセージをありがとうございます！ また、業務の方もいつも頼らせていただいていて本当に心強いです:神: 良い1日をお過ごしください:sparkles:\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788324693.152189",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788324693.152189",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788324693.152189",
+      "timestamp": "2026-09-02T04:51:33.152Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> さん ありがとうございます:raised_hands::blush: こちらこそ、いつもご配慮いただいてありがとうございます:woman-bowing: 会社に貢献できるよう務めてまいります！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788324693.152189",
+          "text": "<@U09MGUVJ8BV> さん ありがとうございます:raised_hands::blush: こちらこそ、いつもご配慮いただいてありがとうございます:woman-bowing: 会社に貢献できるよう務めてまいります！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788324693.152189",
+          "threadTs": "1788319870.458969",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> さん ありがとうございます:raised_hands::blush: こちらこそ、いつもご配慮いただいてありがとうございます:woman-bowing: 会社に貢献できるよう務めてまいります！\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788332899.677069",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788332899.677069",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788332899.677069",
+      "timestamp": "2026-09-02T07:08:19.677Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> お誕生日おめでとうございます:birthday::tada: 女子会しましょーね:smiling_face_with_3_hearts:🫶︎💕︎︎"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788332899.677069",
+          "text": "<@U0A9EE7HZ3P> お誕生日おめでとうございます:birthday::tada: 女子会しましょーね:smiling_face_with_3_hearts:🫶︎💕︎︎",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788332899.677069",
+          "threadTs": "1788319870.458969",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> お誕生日おめでとうございます:birthday::tada: 女子会しましょーね:smiling_face_with_3_hearts:🫶︎💕︎︎\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1788333085.992459",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:松岡 大輝",
+      "personName": "松岡 大輝",
+      "slackIds": [
+        "U0BU5QR565R"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1788333085.992459",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1788333085.992459",
+      "timestamp": "2026-09-02T07:11:25.992Z",
+      "detailBullets": [
+        "はじめまして！ 11月入社予定の松岡 大輝 (まつおか だいき) と申します。 ■出身 奈良県出身、大阪府在住です。 ■経歴 約6年間、組込み・制御系を中心としたQA・検証業務に携わり、テスト設計・実施から不具合検出・簡単な原因調査まで一連の工程を経験してまいりました。 また、開発側との会議では、根拠となる数値や全体への影響を踏まえて提案するなど、関係者と連携しながら業務を推進してまいりました。 直近では、Playwrightなどの自動化ツール学習にも取り組み、今後は上流工程やマネジメントなど、さらに対応領域を広げていきたいと考えております。 ■趣味 ・スポーツ観戦＝主に野球、海外サッカーをテレビや配信で観ています！小学生の頃から阪神タイガースとリヴァプールを応援しています:tiger::red_circle::phoenix: ・音楽鑑賞＝雑食でなんでも聴きますが特にK-POPが好きです:kr: ■ひとこと 自ら考えて行動する姿勢を大切にし、積極的に業務へ取り組んでいきたいと考えております。 これまでの経験を活かしつつ、新しい知識や技術も積極的に学び、自走して業務を推進しながら、会..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1788333085.992459",
+          "text": "はじめまして！ 11月入社予定の松岡 大輝 (まつおか だいき) と申します。 ■出身 奈良県出身、大阪府在住です。 ■経歴 約6年間、組込み・制御系を中心としたQA・検証業務に携わり、テスト設計・実施から不具合検出・簡単な原因調査まで一連の工程を経験してまいりました。 また、開発側との会議では、根拠となる数値や全体への影響を踏まえて提案するなど、関係者と連携しながら業務を推進してまいりました。 直近では、Playwrightなどの自動化ツール学習にも取り組み、今後は上流工程やマネジメントなど、さらに対応領域を広げていきたいと考えております。 ■趣味 ・スポーツ観戦＝主に野球、海外サッカーをテレビや配信で観ています！小学生の頃から阪神タイガースとリヴァプールを応援しています:tiger::red_circle::phoenix: ・音楽鑑賞＝雑食でなんでも聴きますが特にK-POPが好きです:kr: ■ひとこと 自ら考えて行動する姿勢を大切にし、積極的に業務へ取り組んでいきたいと考えております。 これまでの経験を活かしつつ、新しい知識や技術も積極的に学び、自走して業務を推進しながら、会社やチームに貢献できるよう精進してまいります。 これからどうぞよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1788333085.992459",
+          "threadTs": null,
+          "authorName": "松岡 大輝",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして！ 11月入社予定の松岡 大輝 (まつおか だいき) と申します。 ■出身 奈良県出身、大阪府在住です。 ■経歴 約6年間、組込み・制御系を中心としたQA・検証業務に携わり、テスト設計・実施から不具合検出・簡単な原因調査まで一連の工程を経験してまいりました。 また、開発側との会議では、根拠となる数値や全体への影響を踏まえて提案するなど、関係者と連携しながら業務を推進してまいりました。 直近では、Playwrightなどの自動化ツール学習にも取り組み、今後は上流工程やマネジメントなど、さらに対応領域を広げていきたいと考えております。 ■趣味 ・スポーツ観戦＝主に野球、海外サッカーをテレビや配信で観ています！小学生の頃から阪神タイガースとリヴァプールを応援しています:tiger::red_circle::phoenix: ・音楽鑑賞＝雑食でなんでも聴きますが特にK-POPが好きです:kr: ■ひとこと 自ら考えて行動する姿勢を大切にし、積極的に業務へ取り組んでいきたいと考えております。 これまでの経験を活かしつつ、新しい知識や技術も積極的に学び、自走して業務を推進しながら、会社やチームに貢献できるよう精進してまいります。 これからどうぞよろしくお願いいたします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788334518.190709",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788334518.190709",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788334518.190709",
+      "timestamp": "2026-09-02T07:35:18.190Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> 藤井さんお誕生日おめでとうございます‼︎:v::v::cake: いつも手厚いサポートしてくだり本当に助かっています:bangbang::bow::bow:︎(毎度ご迷惑お掛けして申し訳ありません:man-facepalming:) 良い一年を‼︎"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788334518.190709",
+          "text": "<@U0A9EE7HZ3P> 藤井さんお誕生日おめでとうございます‼︎:v::v::cake: いつも手厚いサポートしてくだり本当に助かっています:bangbang::bow::bow:︎(毎度ご迷惑お掛けして申し訳ありません:man-facepalming:) 良い一年を‼︎",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788334518.190709",
+          "threadTs": "1788319870.458969",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> 藤井さんお誕生日おめでとうございます‼︎:v::v::cake: いつも手厚いサポートしてくだり本当に助かっています:bangbang::bow::bow:︎(毎度ご迷惑お掛けして申し訳ありません:man-facepalming:) 良い一年を‼︎\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788338094.275729",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788338094.275729",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788338094.275729",
+      "timestamp": "2026-09-02T08:34:54.275Z",
+      "detailBullets": [
+        "<@U0APQEHUJ7R> さん ありがとうございます:感謝: ぜひ集まりましょ～！(本気で)"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788338094.275729",
+          "text": "<@U0APQEHUJ7R> さん ありがとうございます:感謝: ぜひ集まりましょ～！(本気で)",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788338094.275729",
+          "threadTs": "1788319870.458969",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APQEHUJ7R> さん ありがとうございます:感謝: ぜひ集まりましょ～！(本気で)\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788338233.690879",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788338233.690879",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788338233.690879",
+      "timestamp": "2026-09-02T08:37:13.690Z",
+      "detailBullets": [
+        "<@U09NHL467U0> さん ありがとうございます:raised_hands: 嬉しいお言葉、励みになります:blush: トライアスロンがんばって！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788338233.690879",
+          "text": "<@U09NHL467U0> さん ありがとうございます:raised_hands: 嬉しいお言葉、励みになります:blush: トライアスロンがんばって！！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788338233.690879",
+          "threadTs": "1788319870.458969",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL467U0> さん ありがとうございます:raised_hands: 嬉しいお言葉、励みになります:blush: トライアスロンがんばって！！\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788345396.927819",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:榎本詩織",
+      "personName": "榎本詩織",
+      "slackIds": [
+        "U0AEE7CDAPK"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788345396.927819",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788345396.927819",
+      "timestamp": "2026-09-02T10:36:36.927Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> さん お誕生日おめでとうございます:birthday: 女子会、ぜひ開催しましょう :やりたい_yaritai::ホゲータ::わくわく: ちなみに池袋ならおすすめのお店が1〜2件ほど…:eyes: (みなさんどの辺りが集まりやすいんですかね？)"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788345396.927819",
+          "text": "<@U0A9EE7HZ3P> さん お誕生日おめでとうございます:birthday: 女子会、ぜひ開催しましょう :やりたい_yaritai::ホゲータ::わくわく: ちなみに池袋ならおすすめのお店が1〜2件ほど…:eyes: (みなさんどの辺りが集まりやすいんですかね？)",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788345396.927819",
+          "threadTs": "1788319870.458969",
+          "authorName": "榎本 詩織",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> さん お誕生日おめでとうございます:birthday: 女子会、ぜひ開催しましょう :やりたい_yaritai::ホゲータ::わくわく: ちなみに池袋ならおすすめのお店が1〜2件ほど…:eyes: (みなさんどの辺りが集まりやすいんですかね？)\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788349032.493559",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:菅野聖也",
+      "personName": "菅野聖也",
+      "slackIds": [
+        "U0ADE4H3RTJ"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788349032.493559",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788349032.493559",
+      "timestamp": "2026-09-02T11:37:12.493Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> お誕生日おめでとうございます！ いつも助けていただいてありがとうございます！！ これからもよろしくお願いします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788349032.493559",
+          "text": "<@U0A9EE7HZ3P> お誕生日おめでとうございます！ いつも助けていただいてありがとうございます！！ これからもよろしくお願いします！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788349032.493559",
+          "threadTs": "1788319870.458969",
+          "authorName": "菅野聖也",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> お誕生日おめでとうございます！ いつも助けていただいてありがとうございます！！ これからもよろしくお願いします！\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788350115.577199",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788350115.577199",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788350115.577199",
+      "timestamp": "2026-09-02T11:55:15.577Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> お誕生日おめでとうございます:bangbang: 日がめっちゃ近いですね:laughing: 日々の細やかなサポートにめちゃくちゃ助けていただいてます:pleading_face: そしてSlackも盛り上げていただいて:bangbang: 本当に感謝です:bow: 最高の一年になりますように:tada:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788350115.577199",
+          "text": "<@U0A9EE7HZ3P> お誕生日おめでとうございます:bangbang: 日がめっちゃ近いですね:laughing: 日々の細やかなサポートにめちゃくちゃ助けていただいてます:pleading_face: そしてSlackも盛り上げていただいて:bangbang: 本当に感謝です:bow: 最高の一年になりますように:tada:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788350115.577199",
+          "threadTs": "1788319870.458969",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> お誕生日おめでとうございます:bangbang: 日がめっちゃ近いですね:laughing: 日々の細やかなサポートにめちゃくちゃ助けていただいてます:pleading_face: そしてSlackも盛り上げていただいて:bangbang: 本当に感謝です:bow: 最高の一年になりますように:tada:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1788352139.047149",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:加藤大暉",
+      "personName": "加藤大暉",
+      "slackIds": [
+        "U0BUA1ECFCM"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1788352139.047149",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1788352139.047149",
+      "timestamp": "2026-09-02T12:28:59.047Z",
+      "detailBullets": [
+        "はじめまして！ 11月入社予定の加藤 大暉 (かとう だいき) と申します。 ■出身 愛知県名古屋市 ■経歴 2年間テストエンジニアとして設計、実施、QA対応をしておりました。 ■趣味 ・野球（ドラゴンズファン） ・ディスニー（年数回は必ず行きます） ・ゲーム (ドラクエとフロムゲーが好きです） ■ひとこと エンジニアとしてはテスト経験しかなく、まだまだ未熟の身なので積極的に技術の取得をしていこうと思います。 これからよろしくおねがいします！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1788352139.047149",
+          "text": "はじめまして！ 11月入社予定の加藤 大暉 (かとう だいき) と申します。 ■出身 愛知県名古屋市 ■経歴 2年間テストエンジニアとして設計、実施、QA対応をしておりました。 ■趣味 ・野球（ドラゴンズファン） ・ディスニー（年数回は必ず行きます） ・ゲーム (ドラクエとフロムゲーが好きです） ■ひとこと エンジニアとしてはテスト経験しかなく、まだまだ未熟の身なので積極的に技術の取得をしていこうと思います。 これからよろしくおねがいします！！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1788352139.047149",
+          "threadTs": null,
+          "authorName": "加藤大暉",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして！ 11月入社予定の加藤 大暉 (かとう だいき) と申します。 ■出身 愛知県名古屋市 ■経歴 2年間テストエンジニアとして設計、実施、QA対応をしておりました。 ■趣味 ・野球（ドラゴンズファン） ・ディスニー（年数回は必ず行きます） ・ゲーム (ドラクエとフロムゲーが好きです） ■ひとこと エンジニアとしてはテスト経験しかなく、まだまだ未熟の身なので積極的に技術の取得をしていこうと思います。 これからよろしくおねがいします！！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1788352619.518559",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1788352619.518559",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1788352619.518559",
+      "timestamp": "2026-09-02T12:36:59.518Z",
+      "detailBullets": [
+        "皆さまへ 社内ポータルサイトへの招待期限について追記をいたしました！ メール送付から認証を終えるまで24時間 ではなく リンク自体の有効期限が24時間 ということだそうです。 お気をつけください。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1788352619.518559",
+          "text": "皆さまへ 社内ポータルサイトへの招待期限について追記をいたしました！ メール送付から認証を終えるまで24時間 ではなく リンク自体の有効期限が24時間 ということだそうです。 お気をつけください。",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1788352619.518559",
+          "threadTs": "1788309244.936119",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "皆さまへ 社内ポータルサイトへの招待期限について追記をいたしました！ メール送付から認証を終えるまで24時間 ではなく リンク自体の有効期限が24時間 ということだそうです。 お気をつけください。\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788358003.698029",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788358003.698029",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788358003.698029",
+      "timestamp": "2026-09-02T14:06:43.698Z",
+      "detailBullets": [
+        "<@U0AEE7CDAPK>さん ありがとうございます:sparkles: 開催しましょう！ グループチャンネル作ります:smiling_face_with_3_hearts:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788358003.698029",
+          "text": "<@U0AEE7CDAPK>さん ありがとうございます:sparkles: 開催しましょう！ グループチャンネル作ります:smiling_face_with_3_hearts:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788358003.698029",
+          "threadTs": "1788319870.458969",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0AEE7CDAPK>さん ありがとうございます:sparkles: 開催しましょう！ グループチャンネル作ります:smiling_face_with_3_hearts:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788358152.240179",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788358152.240179",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788358152.240179",
+      "timestamp": "2026-09-02T14:09:12.240Z",
+      "detailBullets": [
+        "<@U0ADE4H3RTJ>さん ありがとうございます:hugging_face: また本社に来てくださいねー！ 待ってます:raised_hands:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788358152.240179",
+          "text": "<@U0ADE4H3RTJ>さん ありがとうございます:hugging_face: また本社に来てくださいねー！ 待ってます:raised_hands:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788358152.240179",
+          "threadTs": "1788319870.458969",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0ADE4H3RTJ>さん ありがとうございます:hugging_face: また本社に来てくださいねー！ 待ってます:raised_hands:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788358492.055999",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788358492.055999",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788358492.055999",
+      "timestamp": "2026-09-02T14:14:52.055Z",
+      "detailBullets": [
+        "<@U09MM9KS06S>さん ありがとうございます:raised_hands: :感謝: 誕生日近いですよね！ 来年もこうしてメッセージ伝えあえるといいなぁと思います:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788358492.055999",
+          "text": "<@U09MM9KS06S>さん ありがとうございます:raised_hands: :感謝: 誕生日近いですよね！ 来年もこうしてメッセージ伝えあえるといいなぁと思います:sparkles:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788358492.055999",
+          "threadTs": "1788319870.458969",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S>さん ありがとうございます:raised_hands: :感謝: 誕生日近いですよね！ 来年もこうしてメッセージ伝えあえるといいなぁと思います:sparkles:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1788390727.271509",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1788390727.271509",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1788390727.271509",
+      "timestamp": "2026-09-02T23:12:07.271Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-02_ 1. _McKinsey「2026年AIの現状」グローバル調査 — エージェント型コーディングが購買行動を変える_ └ 調査対象組織の32%が「エージェント型コーディングツールで社内開発できるようになったため、少なくとも1つのソフトウェア製品の購入を見送った」と回答。大企業でAIエージェントをスケールしている割合は昨年の27%から40%に急増。AI活用は「ROI立証フェーズ」へ本格移行中。 :link: <https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai|mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai> 2. _GitHub Copilot エージェントワークフロー実践ガイド公開 — 「PR Sous Chef」パターンで自動PRレビューをROI実証_ └ GitHubが「アイデアからPRまで」のCopilotエ..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1788390727.271509",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-02_ 1. _McKinsey「2026年AIの現状」グローバル調査 — エージェント型コーディングが購買行動を変える_ └ 調査対象組織の32%が「エージェント型コーディングツールで社内開発できるようになったため、少なくとも1つのソフトウェア製品の購入を見送った」と回答。大企業でAIエージェントをスケールしている割合は昨年の27%から40%に急増。AI活用は「ROI立証フェーズ」へ本格移行中。 :link: <https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai|mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai> 2. _GitHub Copilot エージェントワークフロー実践ガイド公開 — 「PR Sous Chef」パターンで自動PRレビューをROI実証_ └ GitHubが「アイデアからPRまで」のCopilotエージェントワークフロー実践ガイドを公開。本番導入済みの「PR Sous Chef」ワークフローでは15分ごとにPRを監視し、人間レビューが必要なときだけCopilotアクションをトリガー。同パターンのマージ率は85%（コミット数平均9.09回）を達成。ノイズを最小化しながらコードレビューを自動化する具体的なアーキテクチャが示された。 :link: <https://github.blog/ai-a...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1788390727.271509",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-02_ 1. _McKinsey「2026年AIの現状」グローバル調査 — エージェント型コーディングが購買行動を変える_ └ 調査対象組織の32%が「エージェント型コーディングツールで社内開発できるようになったため、少なくとも1つのソフトウェア製品の購入を見送った」と回答。大企業でAIエージェントをスケールしている割合は昨年の27%から40%に急増。AI活用は「ROI立証フェーズ」へ本格移行中。 :link: <https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai|mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai> 2. _GitHub Copilot エージェントワークフロー実践ガイド公開 — 「PR Sous Chef」パターンで自動PRレビューをROI実証_ └ GitHubが「アイデアからPRまで」のCopilotエージェントワークフロー実践ガイドを公開。本番導入済みの「PR Sous Chef」ワークフローでは15分ごとにPRを監視し、人間レビューが必要なときだけCopilotアクションをトリガー。同パターンのマージ率は85%（コミット数平均9.09回）を達成。ノイズを最小化しながらコードレビューを自動化する具体的なアーキテクチャが示された。 :link: <https://github.blog/ai-and-ml/github-copilot/from-idea-to-pr-a-guide-to-github-copilots-agentic-workflows/|github.blog/ai-and-ml/github-copilot/from-idea-to-pr-a-guide-to-github-copilots-agentic-workflows> 3. _Claude Code 9/2 アップデート — ultrareviewタイムアウト・Bash権限自動承認バグを修正_ └ 9/2リリースでは `ultrareview` / `/ultrareview` がクラウドセッション起動失敗時に30分フル待機してしまうバグを修正。Bash変数への算術式アサイン（例: `((x=1))`）が権限チェックを自動承認してしまうセキュリティバグも対処。前日修正のmacOS 12 Monterey起動不能問題（v2.1.255リグレッション）にも追加対応。 :link: <https://claudefa.st/blog/guide/changelog|claudefa.st/blog/...\nai駆動開発ネタ\n経営"
     }
   ]
 }
