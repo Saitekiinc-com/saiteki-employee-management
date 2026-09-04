@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-03T03:50:45.813Z",
+  "generatedAt": "2026-09-04T03:56:32.868Z",
   "channelCount": 15,
-  "totalMessages": 3177,
+  "totalMessages": 3181,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -43751,11 +43751,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1788493417.643359",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0BUMR1LBTL",
+          "userName": "山本帆乃歌",
+          "userRealName": "山本帆乃歌",
+          "text": "初めまして！ 11月入社予定の山本帆乃歌(やまもと ほのか)と申します。 ■出身 兵庫県明石市 ■経歴 約7年間整体師をしておりまして、ニュースなどを見ている時にセキュリティを強化したり会社を守ってみたいと思いインフラエンジニアの道にキャリアチェンジを行いしました！ 1年間インフラエンジニアとしてヘルプデスク業務に関わってきました！ 今後はクラウドの道に進み人を守り会社を守れる人材になりたいと考えております！ ■趣味 ○お酒を飲むこと！ 基本はどんな種類でも飲みます！ 休みの日は友達と昼飲みをしたりしてます！ ○サウナとジムが好きです! 元々バスケをしていまして、今はたまーにやるぐらいにはなっておりますが汗を流すのが好きです！ ○ドラマ鑑賞！ 月に数回休みの日には家に引きこもり朝から晩までドラマをみあさってる日もあります！ ■ひとこと まだまだ未熟ですが、これから会社に貢献できる人材になれるように頑張っていきたいと考えておりますのでこれから宜しくお願いします！",
+          "rawText": "初めまして！\n11月入社予定の山本帆乃歌(やまもと　ほのか)と申します。\n \n■出身\n兵庫県明石市\n■経歴\n約7年間整体師をしておりまして、ニュースなどを見ている時にセキュリティを強化したり会社を守ってみたいと思いインフラエンジニアの道にキャリアチェンジを行いしました！\n1年間インフラエンジニアとしてヘルプデスク業務に関わってきました！\n今後はクラウドの道に進み人を守り会社を守れる人材になりたいと考えております！\n■趣味\n○お酒を飲むこと！\n基本はどんな種類でも飲みます！\n休みの日は友達と昼飲みをしたりしてます！\n○サウナとジムが好きです!\n元々バスケをしていまして、今はたまーにやるぐらいにはなっておりますが汗を流すのが好きです！\n○ドラマ鑑賞！\n月に数回休みの日には家に引きこもり朝から晩までドラマをみあさってる日もあります！\n■ひとこと\nまだまだ未熟ですが、これから会社に貢献できる人材になれるように頑張っていきたいと考えておりますのでこれから宜しくお願いします！\n",
+          "messageTs": "1788493417.643359",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-04",
+          "timestamp": "2026-09-04T03:43:37.643Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 475,
+      "messageCount": 476,
       "firstDate": "2025-11-02",
-      "lastDate": "2026-09-02"
+      "lastDate": "2026-09-04"
     },
     {
       "id": "C09MKT8QKAR",
@@ -50962,11 +50982,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1788479452.493209",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0BK4336Q2X",
+          "userName": "Rio",
+          "userRealName": "Rio",
+          "text": "<!channel> :loudspeaker: *AI駆動開発 勉強会｜第2回 開催のお知らせ* おはようございます！ 先月に引き続き、AI駆動開発 勉強会の第2回を開催します！ 今回も <@U0A7VHB07J4> さんにご登壇いただきます:clap: 第2回のメインテーマは、 「*現場でのAI駆動開発*」 今回は、「個人のAI知見をチームの資産にする」を軸に、AIエージェントを実際の開発現場にどう組み込み、活用していくのかについてお話しいただきます！ AIが「何を読めるのか・何を実行できるのか」といったAIエージェントの仕組みから、個人で培ったAI活用の知見やノウハウを、チームで再利用できる仕組みにしていく考え方まで扱う予定です:bulb: ＝＝＝＝＝＝＝＝ :date: 詳細 *■日時* 9月30日（水）20:00〜 *■形式* オンライン Google Meet :<https://meet.google.com/xgb-enbp-jws|meet.google.com/xgb-enbp-jws> *■内容* ・現場でのAI駆動開発 ・AIエージェントの仕組みと活用 ・個人のAI知見をチームで再利用する方法 ・AIを安全に活用するための考え方 ＝＝＝＝＝＝＝＝ 第1回に参加された方はもちろん、*今回からの参加も大歓迎です！*:raised_hands: AIを個人で使うだけでなく、実際の開発現場やチームでどう活用していくのかに興味がある方は、ぜひお気軽にご参加ください！",
+          "rawText": "<!channel>\n:loudspeaker: *AI駆動開発 勉強会｜第2回 開催のお知らせ*\nおはようございます！\n先月に引き続き、AI駆動開発 勉強会の第2回を開催します！\n今回も <@U0A7VHB07J4> さんにご登壇いただきます:clap:\n\n第2回のメインテーマは、\n「*現場でのAI駆動開発*」\n\n今回は、「個人のAI知見をチームの資産にする」を軸に、AIエージェントを実際の開発現場にどう組み込み、活用していくのかについてお話しいただきます！\n\nAIが「何を読めるのか・何を実行できるのか」といったAIエージェントの仕組みから、個人で培ったAI活用の知見やノウハウを、チームで再利用できる仕組みにしていく考え方まで扱う予定です:bulb:\n\n＝＝＝＝＝＝＝＝\n\n:date: 詳細\n*■日時*\n9月30日（水）20:00〜\n\n*■形式*\nオンライン\nGoogle Meet :<https://meet.google.com/xgb-enbp-jws|meet.google.com/xgb-enbp-jws>\n\n*■内容*\n・現場でのAI駆動開発\n・AIエージェントの仕組みと活用\n・個人のAI知見をチームで再利用する方法\n・AIを安全に活用するための考え方\n\n＝＝＝＝＝＝＝＝\n\n第1回に参加された方はもちろん、*今回からの参加も大歓迎です！*:raised_hands:\n\nAIを個人で使うだけでなく、実際の開発現場やチームでどう活用していくのかに興味がある方は、ぜひお気軽にご参加ください！",
+          "messageTs": "1788479452.493209",
+          "threadTs": "1788479452.493209",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-03",
+          "timestamp": "2026-09-03T23:50:52.493Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1788483620.268589",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0BNHNLCP3P",
+          "userName": "Nana Yada",
+          "userRealName": "Nana Yada",
+          "text": "お疲れ様です！ こちらぜひ参加させていただきたいのですが、 日程合うかまだわからずでして、 アーカイブを残すような予定はないでしょうか・・？",
+          "rawText": "お疲れ様です！\nこちらぜひ参加させていただきたいのですが、\n日程合うかまだわからずでして、\nアーカイブを残すような予定はないでしょうか・・？",
+          "messageTs": "1788483620.268589",
+          "threadTs": "1788479452.493209",
+          "parentUserId": "U0BK4336Q2X",
+          "subtype": null,
+          "date": "2026-09-04",
+          "timestamp": "2026-09-04T01:00:20.268Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 360,
+      "messageCount": 362,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-09-02"
+      "lastDate": "2026-09-04"
     },
     {
       "id": "C09QXV3F8G0",
@@ -56613,11 +56673,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1788477046.988999",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-03_ 1. _Claude Code 9/3アップデート：組織向けMCPサーバー管理・GitLab MR認識・ヘッドレス権限制御を追加_ └ 組織の全ユーザーにHTTP/SSE MCPサーバーを一括提供できる `managedMcpServers` 設定が追加。`glab mr create/merge/close` 等のGitLab MRコマンドを認識し、フッターに MR !N バッジを表示するように。ヘッドレス・無人ホスト向けに `--permission-prompts none` オプションも追加され、CI/自動化環境での利用が強化された。 :link: <https://www.scriptbyai.com/claude-code-timeline/|scriptbyai.com/claude-code-timeline> 2. _GitHub Copilot：コンテンツ除外ポリシーがアプリ・CLIで正式GA（9/2）_ └ エンタープライズ・組織・リポジトリ管理者が設定したコンテンツ除外ポリシーが、GitHub CopilotアプリとCopilot CLIで正式に適用されるようになった。機密ファイルをAI提案のコンテキストから保護でき、エージェントワークフロー全体での機密コード管理が強化される。設定反映まで最大30分かかる点に注意。 :link: <https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli/|github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli> 3. _働き方×AIニュース 2026年9月3日_ └ GitHub CopilotのChat・モバイル・クラウドエージェントを統合した新エクスペリエンスが9/28以降にリニューアル予定。Grok 4.6のサービス低下・Azure AIアップデートなど、AI駆動開発周辺の国内外ニュースを日本語でまとめて紹介。 :link: <https://journal.omoshigo.link/trend/workai/20260903-20420/|journal.omoshigo.link/trend/workai/20260903-20420> 4. _Qiita プログラミング雑記 2026年9月3日_ └ Claude Code・GitHub Copilot・Cursor等の最新動向を技術者視点でまとめる人気連載の9/3号。AIエージェントの実践活用・エコシステムの変化・ツール選定のポイントを解説。 :link: <https://qiita.com/ishisaka/items/c286e8c7a868e07fe157|qiita.com/ishisaka/items/…> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-03_\n\n1. _Claude Code 9/3アップデート：組織向けMCPサーバー管理・GitLab MR認識・ヘッドレス権限制御を追加_\n└ 組織の全ユーザーにHTTP/SSE MCPサーバーを一括提供できる `managedMcpServers` 設定が追加。`glab mr create/merge/close` 等のGitLab MRコマンドを認識し、フッターに MR !N バッジを表示するように。ヘッドレス・無人ホスト向けに `--permission-prompts none` オプションも追加され、CI/自動化環境での利用が強化された。\n:link: <https://www.scriptbyai.com/claude-code-timeline/|scriptbyai.com/claude-code-timeline>\n2. _GitHub Copilot：コンテンツ除外ポリシーがアプリ・CLIで正式GA（9/2）_\n└ エンタープライズ・組織・リポジトリ管理者が設定したコンテンツ除外ポリシーが、GitHub CopilotアプリとCopilot CLIで正式に適用されるようになった。機密ファイルをAI提案のコンテキストから保護でき、エージェントワークフロー全体での機密コード管理が強化される。設定反映まで最大30分かかる点に注意。\n:link: <https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli/|github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli>\n3. _働き方×AIニュース 2026年9月3日_\n└ GitHub CopilotのChat・モバイル・クラウドエージェントを統合した新エクスペリエンスが9/28以降にリニューアル予定。Grok 4.6のサービス低下・Azure AIアップデートなど、AI駆動開発周辺の国内外ニュースを日本語でまとめて紹介。\n:link: <https://journal.omoshigo.link/trend/workai/20260903-20420/|journal.omoshigo.link/trend/workai/20260903-20420>\n4. _Qiita プログラミング雑記 2026年9月3日_\n└ Claude Code・GitHub Copilot・Cursor等の最新動向を技術者視点でまとめる人気連載の9/3号。AIエージェントの実践活用・エコシステムの変化・ツール選定のポイントを解説。\n:link: <https://qiita.com/ishisaka/items/c286e8c7a868e07fe157|qiita.com/ishisaka/items/…> *使用して送信されました* Claude",
+          "messageTs": "1788477046.988999",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-03",
+          "timestamp": "2026-09-03T23:10:46.988Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 282,
+      "messageCount": 283,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-09-02"
+      "lastDate": "2026-09-03"
     },
     {
       "id": "C0AARGDBC3V",
