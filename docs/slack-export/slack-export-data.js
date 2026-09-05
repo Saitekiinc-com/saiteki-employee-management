@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-04T03:56:32.868Z",
+  "generatedAt": "2026-09-05T03:49:54.949Z",
   "channelCount": 15,
-  "totalMessages": 3181,
+  "totalMessages": 3184,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -51022,11 +51022,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1788504422.219739",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0BK4336Q2X",
+          "userName": "Rio",
+          "userRealName": "Rio",
+          "text": "<@U0BNHNLCP3P> お疲れ様です！ ご質問ありがとうございます！ 後日アーカイブとして残す予定は*あります*ので、 当日参加できなくても視聴していただくこと可能です:+1:",
+          "rawText": "<@U0BNHNLCP3P>\nお疲れ様です！\nご質問ありがとうございます！\n\n後日アーカイブとして残す予定は*あります*ので、\n当日参加できなくても視聴していただくこと可能です:+1:",
+          "messageTs": "1788504422.219739",
+          "threadTs": "1788479452.493209",
+          "parentUserId": "U0BK4336Q2X",
+          "subtype": null,
+          "date": "2026-09-04",
+          "timestamp": "2026-09-04T06:47:02.219Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1788571579.465409",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.05）* を共有します。 今週のテーマは *「大手上場SIerからのコアパートナー打診＆上場企業・情報戦略テクノロジー様とのM&amp;Aセミナー決定！」* です。 Saitekiの企業としての「格」がまた一段上がり、今後のグループ拡大に向けた熱い仕掛けが動き出している手応えをお届けします！ • *【東証スタンダード上場「システムズ・デザイン」社長・役員陣と商談！】* 代表取締役社長・執行役員・事業部長4名の方々と商談を実施し、「Saitekiさんのような顧客志向の会社とコアパートナー関係を築きたい」というありがたいお言葉をいただきました。営業部長の徳田さんが全国対応体制や強みを堂々とプレゼンし、顧客志向のエンジニア組織として絶大な評価を獲得。強固なアライアンスに向けて関係構築を進めていきます。 • *【アクセンチュア子会社「SI&amp;C」調達責任者との会食】* アクセンチュアとの統合が進む同社の調達責任者様と会食を実施。一体化完了後、アクセンチュア本体とSaitekiの直接取引の可能性を本格的に模索していく前向きな言葉をいただきました！ • *【10/23(金) 上場企業・情報戦略テクノロジー様とM&amp;A共催セミナー開催！】* SES経営者を「60名」動員する大型セミナーの開催が決定！同社の川原取締役、M&amp;Aされた企業代表の浅岡様によるセッションにて代表の戸塚がモデレーターを務めます。日本M&amp;Aセンター時代の経験と知見をフル活用し、Saitekiにグループインする最高の仲間（SES企業）を開拓していきます！ 営業・アライアンス・M&amp;Aのすべての歯車が噛み合い、Saitekiの目指す「新しいSIerへの進化」と「多重下請け構造の解体」に向けて大きく加速しています。ぜひ週末にチェックしてみてください！ ▼ Letter of T | 今週の記録（2026.09.05） <https://app.notion.com/p/Letter-of-T-2026-09-05-3d2dfb42679c80629694e1f149da5763|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！",
+          "rawText": "<!channel>\nみなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.05）* を共有します。\n\n今週のテーマは *「大手上場SIerからのコアパートナー打診＆上場企業・情報戦略テクノロジー様とのM&amp;Aセミナー決定！」* です。\nSaitekiの企業としての「格」がまた一段上がり、今後のグループ拡大に向けた熱い仕掛けが動き出している手応えをお届けします！\n\n• *【東証スタンダード上場「システムズ・デザイン」社長・役員陣と商談！】*\n 代表取締役社長・執行役員・事業部長4名の方々と商談を実施し、「Saitekiさんのような顧客志向の会社とコアパートナー関係を築きたい」というありがたいお言葉をいただきました。営業部長の徳田さんが全国対応体制や強みを堂々とプレゼンし、顧客志向のエンジニア組織として絶大な評価を獲得。強固なアライアンスに向けて関係構築を進めていきます。\n\n• *【アクセンチュア子会社「SI&amp;C」調達責任者との会食】*\n アクセンチュアとの統合が進む同社の調達責任者様と会食を実施。一体化完了後、アクセンチュア本体とSaitekiの直接取引の可能性を本格的に模索していく前向きな言葉をいただきました！\n\n• *【10/23(金) 上場企業・情報戦略テクノロジー様とM&amp;A共催セミナー開催！】*\n SES経営者を「60名」動員する大型セミナーの開催が決定！同社の川原取締役、M&amp;Aされた企業代表の浅岡様によるセッションにて代表の戸塚がモデレーターを務めます。日本M&amp;Aセンター時代の経験と知見をフル活用し、Saitekiにグループインする最高の仲間（SES企業）を開拓していきます！\n\n営業・アライアンス・M&amp;Aのすべての歯車が噛み合い、Saitekiの目指す「新しいSIerへの進化」と「多重下請け構造の解体」に向けて大きく加速しています。ぜひ週末にチェックしてみてください！\n\n▼ Letter of T | 今週の記録（2026.09.05）\n<https://app.notion.com/p/Letter-of-T-2026-09-05-3d2dfb42679c80629694e1f149da5763|app.notion.com/p/Letter-of-T-…>\n\n今週も、最高のパフォーマンスをありがとうございました！！",
+          "messageTs": "1788571579.465409",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-05",
+          "timestamp": "2026-09-05T01:26:19.465Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 362,
+      "messageCount": 364,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-09-04"
+      "lastDate": "2026-09-05"
     },
     {
       "id": "C09QXV3F8G0",
@@ -56693,11 +56733,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1788563361.516419",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-04_ 1. _Claude Code 9/4アップデート—git worktree Windows修正・Coworkがホームフォルダ等アタッチをサポート_ └ Windowsでgit worktreeから開始したCodeセッションが初期化に失敗するバグを修正。CoworkがホームフォルダやWindows Documents、AppDataなどへのアタッチをサポート開始（Claudeの設定・資格情報ロケーションは引き続き保護）。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Copilot: Google Gemini 3.8 Flash 対応開始（9/3）_ └ GoogleのGemini 3.8 FlashがGitHub Copilotに追加。複雑なターミナルベースのコーディングタスクで高性能を発揮し、アクション可能な失敗からの粘り強い回復を実証。Copilot Pro/Pro+/Max/Business/Enterprise対象で12/31まで入門価格。 :link: <https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/|github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot> 3. _Cursor: セルフホストマシン公開—コードを自社インフラ内で実行（9/2）_ └ Cursorのクラウドエージェントを自社インフラ内で実行できる「セルフホストマシン」機能が公開。コード・ビルド出力・シークレットが社内ネットワークに留まる。AWS Lambda・Cloudflare・Vercel等のインフラに対応し、個人向けMy Machinesとチーム向けTeamプールの2形態。 :link: <https://cursor.com/blog/self-hosted-machines|cursor.com/blog/self-hosted-machines> 4. _OpenAI GPT-6 Astra 限定提供開始 + 本日のAIコーディングニュースまとめ_ └ OpenAIが高度な自己修正と画面操作をネイティブ統合した次世代モデル「GPT-6 Astra」の限定提供を開始。Copilot Gemini 3.8 Flash追加と合わせ、AI駆動開発ツールに本日大型アップデートが集中。 :link: <https://devbrief.dev/ai-coding/ai-coding-2026-09-04/|devbrief.dev/ai-coding/ai-coding-2026-09-04> 5. _プログラミング雑記 2026年9月4日—GitHub CLI Linux署名キー期限切れ注意・Copilotモデル廃止追加予告_ └ GitHub CLI Linuxパッケージの署名キーが9月5日に期限切れ（本日中に更新対応を推奨）、10月2日のGitHub Copilotモデル廃止波の追加予告など、AI駆動開発者が今日対応すべき実務情報をまとめ。 :link: <https://qiita.com/ishisaka/items/a90767b269f6d6b692b9|qiita.com/ishisaka/items/…> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-04_\n\n1. _Claude Code 9/4アップデート—git worktree Windows修正・Coworkがホームフォルダ等アタッチをサポート_\n└ Windowsでgit worktreeから開始したCodeセッションが初期化に失敗するバグを修正。CoworkがホームフォルダやWindows Documents、AppDataなどへのアタッチをサポート開始（Claudeの設定・資格情報ロケーションは引き続き保護）。\n:link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog>\n2. _GitHub Copilot: Google Gemini 3.8 Flash 対応開始（9/3）_\n└ GoogleのGemini 3.8 FlashがGitHub Copilotに追加。複雑なターミナルベースのコーディングタスクで高性能を発揮し、アクション可能な失敗からの粘り強い回復を実証。Copilot Pro/Pro+/Max/Business/Enterprise対象で12/31まで入門価格。\n:link: <https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/|github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot>\n3. _Cursor: セルフホストマシン公開—コードを自社インフラ内で実行（9/2）_\n└ Cursorのクラウドエージェントを自社インフラ内で実行できる「セルフホストマシン」機能が公開。コード・ビルド出力・シークレットが社内ネットワークに留まる。AWS Lambda・Cloudflare・Vercel等のインフラに対応し、個人向けMy Machinesとチーム向けTeamプールの2形態。\n:link: <https://cursor.com/blog/self-hosted-machines|cursor.com/blog/self-hosted-machines>\n4. _OpenAI GPT-6 Astra 限定提供開始 + 本日のAIコーディングニュースまとめ_\n└ OpenAIが高度な自己修正と画面操作をネイティブ統合した次世代モデル「GPT-6 Astra」の限定提供を開始。Copilot Gemini 3.8 Flash追加と合わせ、AI駆動開発ツールに本日大型アップデートが集中。\n:link: <https://devbrief.dev/ai-coding/ai-coding-2026-09-04/|devbrief.dev/ai-coding/ai-coding-2026-09-04>\n5. _プログラミング雑記 2026年9月4日—GitHub CLI Linux署名キー期限切れ注意・Copilotモデル廃止追加予告_\n└ GitHub CLI Linuxパッケージの署名キーが9月5日に期限切れ（本日中に更新対応を推奨）、10月2日のGitHub Copilotモデル廃止波の追加予告など、AI駆動開発者が今日対応すべき実務情報をまとめ。\n:link: <https://qiita.com/ishisaka/items/a90767b269f6d6b692b9|qiita.com/ishisaka/items/…> *使用して送信されました* Claude",
+          "messageTs": "1788563361.516419",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-04",
+          "timestamp": "2026-09-04T23:09:21.516Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 283,
+      "messageCount": 284,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-09-03"
+      "lastDate": "2026-09-04"
     },
     {
       "id": "C0AARGDBC3V",

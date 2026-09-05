@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-04T03:56:28.033Z",
+  "generatedAt": "2026-09-05T03:49:51.192Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -100385,6 +100385,110 @@
         }
       ],
       "searchText": "初めまして！ 11月入社予定の山本帆乃歌(やまもと ほのか)と申します。 ■出身 兵庫県明石市 ■経歴 約7年間整体師をしておりまして、ニュースなどを見ている時にセキュリティを強化したり会社を守ってみたいと思いインフラエンジニアの道にキャリアチェンジを行いしました！ 1年間インフラエンジニアとしてヘルプデスク業務に関わってきました！ 今後はクラウドの道に進み人を守り会社を守れる人材になりたいと考えております！ ■趣味 ○お酒を飲むこと！ 基本はどんな種類でも飲みます！ 休みの日は友達と昼飲みをしたりしてます！ ○サウナとジムが好きです! 元々バスケをしていまして、今はたまーにやるぐらいにはなっておりますが汗を流すのが好きです！ ○ドラマ鑑賞！ 月に数回休みの日には家に引きこもり朝から晩までドラマをみあさってる日もあります！ ■ひとこと まだまだ未熟ですが、これから会社に貢献できる人材になれるように頑張っていきたいと考えておりますのでこれから宜しくお願いします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1788504422.219739",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:Rio",
+      "personName": "Rio",
+      "slackIds": [
+        "U0BK4336Q2X"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1788504422.219739",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1788504422.219739",
+      "timestamp": "2026-09-04T06:47:02.219Z",
+      "detailBullets": [
+        "<@U0BNHNLCP3P> お疲れ様です！ ご質問ありがとうございます！ 後日アーカイブとして残す予定は*あります*ので、 当日参加できなくても視聴していただくこと可能です:+1:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1788504422.219739",
+          "text": "<@U0BNHNLCP3P> お疲れ様です！ ご質問ありがとうございます！ 後日アーカイブとして残す予定は*あります*ので、 当日参加できなくても視聴していただくこと可能です:+1:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1788504422.219739",
+          "threadTs": "1788479452.493209",
+          "authorName": "Rio",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BNHNLCP3P> お疲れ様です！ ご質問ありがとうございます！ 後日アーカイブとして残す予定は*あります*ので、 当日参加できなくても視聴していただくこと可能です:+1:\nall-saiteki\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1788563361.516419",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1788563361.516419",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1788563361.516419",
+      "timestamp": "2026-09-04T23:09:21.516Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-04_ 1. _Claude Code 9/4アップデート—git worktree Windows修正・Coworkがホームフォルダ等アタッチをサポート_ └ Windowsでgit worktreeから開始したCodeセッションが初期化に失敗するバグを修正。CoworkがホームフォルダやWindows Documents、AppDataなどへのアタッチをサポート開始（Claudeの設定・資格情報ロケーションは引き続き保護）。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Copilot: Google Gemini 3.8 Flash 対応開始（9/3）_ └ GoogleのGemini 3.8 FlashがGitHub Copilotに追加。複雑なターミナルベースのコーディングタスクで高性能を発揮し、アクション可能な失敗からの粘り強い回復を実証。Copilot Pr..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1788563361.516419",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-04_ 1. _Claude Code 9/4アップデート—git worktree Windows修正・Coworkがホームフォルダ等アタッチをサポート_ └ Windowsでgit worktreeから開始したCodeセッションが初期化に失敗するバグを修正。CoworkがホームフォルダやWindows Documents、AppDataなどへのアタッチをサポート開始（Claudeの設定・資格情報ロケーションは引き続き保護）。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Copilot: Google Gemini 3.8 Flash 対応開始（9/3）_ └ GoogleのGemini 3.8 FlashがGitHub Copilotに追加。複雑なターミナルベースのコーディングタスクで高性能を発揮し、アクション可能な失敗からの粘り強い回復を実証。Copilot Pro/Pro+/Max/Business/Enterprise対象で12/31まで入門価格。 :link: <https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/|github.blog/changelog/2026-09-03-gemini-3-8-flash-is...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1788563361.516419",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-04_ 1. _Claude Code 9/4アップデート—git worktree Windows修正・Coworkがホームフォルダ等アタッチをサポート_ └ Windowsでgit worktreeから開始したCodeセッションが初期化に失敗するバグを修正。CoworkがホームフォルダやWindows Documents、AppDataなどへのアタッチをサポート開始（Claudeの設定・資格情報ロケーションは引き続き保護）。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _GitHub Copilot: Google Gemini 3.8 Flash 対応開始（9/3）_ └ GoogleのGemini 3.8 FlashがGitHub Copilotに追加。複雑なターミナルベースのコーディングタスクで高性能を発揮し、アクション可能な失敗からの粘り強い回復を実証。Copilot Pro/Pro+/Max/Business/Enterprise対象で12/31まで入門価格。 :link: <https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/|github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot> 3. _Cursor: セルフホストマシン公開—コードを自社インフラ内で実行（9/2）_ └ Cursorのクラウドエージェントを自社インフラ内で実行できる「セルフホストマシン」機能が公開。コード・ビルド出力・シークレットが社内ネットワークに留まる。AWS Lambda・Cloudflare・Vercel等のインフラに対応し、個人向けMy Machinesとチーム向けTeamプールの2形態。 :link: <https://cursor.com/blog/self-hosted-machines|cursor.com/blog/self-hosted-machines> 4. _OpenAI GPT-6 Astra 限定提供開始 + 本日のAIコーディングニュースまとめ_ └ OpenAIが高度な自己修正と画面操作をネイティブ統合した次世代モデル「GPT-6 Astra」の限定提供を開始。Copilot Gemini 3.8 Flash追加と合わせ、AI駆動開発ツールに本日大型アップデートが集中。 :link: <ht...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1788571579.465409",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1788571579.465409",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1788571579.465409",
+      "timestamp": "2026-09-05T01:26:19.465Z",
+      "detailBullets": [
+        "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.05）* を共有します。 今週のテーマは *「大手上場SIerからのコアパートナー打診＆上場企業・情報戦略テクノロジー様とのM&amp;Aセミナー決定！」* です。 Saitekiの企業としての「格」がまた一段上がり、今後のグループ拡大に向けた熱い仕掛けが動き出している手応えをお届けします！ • *【東証スタンダード上場「システムズ・デザイン」社長・役員陣と商談！】* 代表取締役社長・執行役員・事業部長4名の方々と商談を実施し、「Saitekiさんのような顧客志向の会社とコアパートナー関係を築きたい」というありがたいお言葉をいただきました。営業部長の徳田さんが全国対応体制や強みを堂々とプレゼンし、顧客志向のエンジニア組織として絶大な評価を獲得。強固なアライアンスに向けて関係構築を進めていきます。 • *【アクセンチュア子会社「SI&amp;C」調達責任者との会食】* アクセンチュアとの統合が進む同社の調達責任者様と会食を実施。一体化完了後、アクセンチュア本体とSaite..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1788571579.465409",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.05）* を共有します。 今週のテーマは *「大手上場SIerからのコアパートナー打診＆上場企業・情報戦略テクノロジー様とのM&amp;Aセミナー決定！」* です。 Saitekiの企業としての「格」がまた一段上がり、今後のグループ拡大に向けた熱い仕掛けが動き出している手応えをお届けします！ • *【東証スタンダード上場「システムズ・デザイン」社長・役員陣と商談！】* 代表取締役社長・執行役員・事業部長4名の方々と商談を実施し、「Saitekiさんのような顧客志向の会社とコアパートナー関係を築きたい」というありがたいお言葉をいただきました。営業部長の徳田さんが全国対応体制や強みを堂々とプレゼンし、顧客志向のエンジニア組織として絶大な評価を獲得。強固なアライアンスに向けて関係構築を進めていきます。 • *【アクセンチュア子会社「SI&amp;C」調達責任者との会食】* アクセンチュアとの統合が進む同社の調達責任者様と会食を実施。一体化完了後、アクセンチュア本体とSaitekiの直接取引の可能性を本格的に模索していく前向きな言葉をいただきました！ • *【10/23(金) 上場企業・情報戦略テクノロジー様とM&amp;A共催セミナー開催！】* SES経営者を「60名」動員する大型セミナーの開催が決定！同社の川原取締役、M&amp;Aされた企業代表の浅岡様によるセッションにて代表の戸塚がモデレーターを務めます。日本M&amp;Aセンター時代の経験と知見をフル活用し、S...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1788571579.465409",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.05）* を共有します。 今週のテーマは *「大手上場SIerからのコアパートナー打診＆上場企業・情報戦略テクノロジー様とのM&amp;Aセミナー決定！」* です。 Saitekiの企業としての「格」がまた一段上がり、今後のグループ拡大に向けた熱い仕掛けが動き出している手応えをお届けします！ • *【東証スタンダード上場「システムズ・デザイン」社長・役員陣と商談！】* 代表取締役社長・執行役員・事業部長4名の方々と商談を実施し、「Saitekiさんのような顧客志向の会社とコアパートナー関係を築きたい」というありがたいお言葉をいただきました。営業部長の徳田さんが全国対応体制や強みを堂々とプレゼンし、顧客志向のエンジニア組織として絶大な評価を獲得。強固なアライアンスに向けて関係構築を進めていきます。 • *【アクセンチュア子会社「SI&amp;C」調達責任者との会食】* アクセンチュアとの統合が進む同社の調達責任者様と会食を実施。一体化完了後、アクセンチュア本体とSaitekiの直接取引の可能性を本格的に模索していく前向きな言葉をいただきました！ • *【10/23(金) 上場企業・情報戦略テクノロジー様とM&amp;A共催セミナー開催！】* SES経営者を「60名」動員する大型セミナーの開催が決定！同社の川原取締役、M&amp;Aされた企業代表の浅岡様によるセッションにて代表の戸塚がモデレーターを務めます。日本M&amp;Aセンター時代の経験と知見をフル活用し、Saitekiにグループインする最高の仲間（SES企業）を開拓していきます！ 営業・アライアンス・M&amp;Aのすべての歯車が噛み合い、Saitekiの目指す「新しいSIerへの進化」と「多重下請け構造の解体」に向けて大きく加速しています。ぜひ週末にチェックしてみてください！ ▼ Letter of T | 今週の記録（2026.09.05） <https://app.notion.com/p/Letter-of-T-2026-09-05-3d2dfb42679c80629694e1f149da5763|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
     }
   ]
 }
