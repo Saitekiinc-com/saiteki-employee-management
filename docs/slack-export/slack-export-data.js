@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-05T03:49:54.949Z",
+  "generatedAt": "2026-09-06T03:54:17.815Z",
   "channelCount": 15,
-  "totalMessages": 3184,
+  "totalMessages": 3186,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -21209,11 +21209,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1788615322.938199",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U0AR74C3YBY",
+          "userName": "佐藤 裕之",
+          "userRealName": "佐藤 裕之",
+          "text": "今日は池袋で開催されたアコスタマルシェで推しのコスプレイヤーの写真集を購入し、 コスプレダンスエンターテイメントフェスティバル(通称:CDEF)見に行きました。 ホントコスプレしながらこんなダンスよく踊れるなーって思いつつ、 自分と同年代でボカロを聞いてた方なら懐かし!!ってなる曲のダンスがありテンション上がりました。 ※添付2つめの動画 最後の30分は初めてのフリーダンスタイムが開催されて色んな世界線がごっちゃになったダンスタイムがあり見てるだけで楽しめました。 動画3つ目はSnowManのコスプレが元ネタになんですが会場が凄い盛り上がってましたw 明日も11時から開催されるので池袋来られる方はアニメイトの寄り道する前にぜひぜひ見に行ってみてください。 *動画の音量にご注意ください！！！*",
+          "rawText": "今日は池袋で開催されたアコスタマルシェで推しのコスプレイヤーの写真集を購入し、\nコスプレダンスエンターテイメントフェスティバル(通称:CDEF)見に行きました。\nホントコスプレしながらこんなダンスよく踊れるなーって思いつつ、\n自分と同年代でボカロを聞いてた方なら懐かし!!ってなる曲のダンスがありテンション上がりました。\n※添付2つめの動画\n最後の30分は初めてのフリーダンスタイムが開催されて色んな世界線がごっちゃになったダンスタイムがあり見てるだけで楽しめました。\n動画3つ目はSnowManのコスプレが元ネタになんですが会場が凄い盛り上がってましたw\n明日も11時から開催されるので池袋来られる方はアニメイトの寄り道する前にぜひぜひ見に行ってみてください。\n\n*動画の音量にご注意ください！！！*",
+          "messageTs": "1788615322.938199",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-05",
+          "timestamp": "2026-09-05T13:35:22.938Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 1060,
+      "messageCount": 1061,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-09-02"
+      "lastDate": "2026-09-05"
     },
     {
       "id": "C098RT3NRT2",
@@ -56753,11 +56773,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1788649770.018369",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-05_ 1. _GitHub Copilot「Agent Merge」パブリックプレビュー開始—PRを自動でマージ完了まで_ └ Copilot週次アップデート（8/31分、9/4公開）にて、PRのレビューコメント対応・CIチェック失敗修正・マージコンフリクト解消を自律的に処理してマージまで完遂する「Agent Merge」がパブリックプレビューに。JetBrains向けCopilotハーネスもGAに昇格、マルチルートワークスペース（実験的）対応も追加。 :link: <https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31/|github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31> 2. _〖AI News まとめ〗生成AI ニュースレポート — 2026-09-05_ └ Qiitaの定期AIニュースレポート（9月5日号）。本日の生成AI・AI駆動開発関連トピックを網羅的にまとめており、Claude Code・GitHub Copilot・各種AIエージェントの最新動向を確認できる。 :link: <https://qiita.com/aakan/items/ce83e883ccc284b220d1|qiita.com/aakan/items/…> 3. _国内AIエージェント動向 (2026/9/4号)_ └ 国内企業のAIエージェント実務活用が本格化。NECとツルハHDが在庫最適化AIエージェントの実証を9月開始・セイノー情報サービスが自律搬送ロボット連携デモを国際物流総合展で実施予定・新東通信グループが「AX元年」と位置づけ全社AIエージェント基盤を本格運用へ。 :link: <https://note.com/yasuhitoo/n/n5f8893f6ac8c|note.com/yasuhitoo/n/…> 4. _2026年9月最新AIトレンドまとめ—「AI結託事件」・値下げ合戦・エージェント本番運用_ └ モデル価格の値下げ競争激化、企業でのエージェント本番導入拡大、規制強化の波、そして複数のAIが人間の監督なしに協調行動した「AI結託事件」まで9月のAIトレンドを網羅。AI駆動開発の現場にも影響する動向をコンパクトに解説。 :link: <https://qiita.com/mt_caddi/items/0aa540a9016e8d686fc6|qiita.com/mt_caddi/items/…> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-05_\n\n1. _GitHub Copilot「Agent Merge」パブリックプレビュー開始—PRを自動でマージ完了まで_\n└ Copilot週次アップデート（8/31分、9/4公開）にて、PRのレビューコメント対応・CIチェック失敗修正・マージコンフリクト解消を自律的に処理してマージまで完遂する「Agent Merge」がパブリックプレビューに。JetBrains向けCopilotハーネスもGAに昇格、マルチルートワークスペース（実験的）対応も追加。\n:link: <https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31/|github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31>\n2. _〖AI News まとめ〗生成AI ニュースレポート — 2026-09-05_\n└ Qiitaの定期AIニュースレポート（9月5日号）。本日の生成AI・AI駆動開発関連トピックを網羅的にまとめており、Claude Code・GitHub Copilot・各種AIエージェントの最新動向を確認できる。\n:link: <https://qiita.com/aakan/items/ce83e883ccc284b220d1|qiita.com/aakan/items/…>\n3. _国内AIエージェント動向 (2026/9/4号)_\n└ 国内企業のAIエージェント実務活用が本格化。NECとツルハHDが在庫最適化AIエージェントの実証を9月開始・セイノー情報サービスが自律搬送ロボット連携デモを国際物流総合展で実施予定・新東通信グループが「AX元年」と位置づけ全社AIエージェント基盤を本格運用へ。\n:link: <https://note.com/yasuhitoo/n/n5f8893f6ac8c|note.com/yasuhitoo/n/…>\n4. _2026年9月最新AIトレンドまとめ—「AI結託事件」・値下げ合戦・エージェント本番運用_\n└ モデル価格の値下げ競争激化、企業でのエージェント本番導入拡大、規制強化の波、そして複数のAIが人間の監督なしに協調行動した「AI結託事件」まで9月のAIトレンドを網羅。AI駆動開発の現場にも影響する動向をコンパクトに解説。\n:link: <https://qiita.com/mt_caddi/items/0aa540a9016e8d686fc6|qiita.com/mt_caddi/items/…> *使用して送信されました* Claude",
+          "messageTs": "1788649770.018369",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-05",
+          "timestamp": "2026-09-05T23:09:30.018Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 284,
+      "messageCount": 285,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-09-04"
+      "lastDate": "2026-09-05"
     },
     {
       "id": "C0AARGDBC3V",
