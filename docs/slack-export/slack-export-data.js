@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-06T03:54:17.815Z",
+  "generatedAt": "2026-09-07T03:53:36.536Z",
   "channelCount": 15,
-  "totalMessages": 3186,
+  "totalMessages": 3187,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -56793,11 +56793,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1788736214.383629",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-06_ 1. _〖AI News〗生成AI ニュースレポート — 2026-09-06_ └ 本日分のAIニュースまとめ（24本）。GPT-6 AstraのGitHub Copilot統合、マルチエージェント開発でSWEパターンが鍵との研究報告、Raspberry Pi×LiteRT+Gemmaによるエッジ展開事例など、AI駆動開発に直結する話題を幅広くカバー。 :link: <https://qiita.com/aakan/items/bd6199661b6a33d2b433|qiita.com/aakan/items/…> 2. _Claude Code v2.1.263 リリース（9/6）— ポリシー診断・コマンド出力上限を大幅拡張_ └ 本日リリース。Organization policyのロード失敗理由を `/status` と `claude doctor` に表示する機能を追加。`bashOutputMaxChars`・`taskOutputMaxChars` 設定により、コマンド出力を最大128K文字までインライン受信可能に。ターン完了時刻の表示追加と、長い差分行でのトランスクリプト速度低下バグも修正。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 3. _NVIDIA、Hugging Faceを約129億ドル（約2兆円）で買収合意_ └ NVIDIAが9/3、AIモデル共有プラットフォームHugging Faceの買収を発表。300万超のモデル・50万のデータセット・1,800万人超の開発者が利用するAIエコシステムを取得。クローズは規制審査を経て2027年上半期予定。買収後もオープンプラットフォームとしてオープンソース・オープンウェイトモデルのサポートを継続するとしており、AI開発のエコシステム構造を大きく塗り替える可能性がある。 :link: <https://gigazine.net/news/20260904-nvidia-acquire-hugging-face/|gigazine.net/news/20260904-nvidia-acquire-hugging-face> 4. _AI定点観測 2026/08/31〜09/05｜GPT-6 Astra・Fable 5.1・NVIDIA買収合意_ └ 先週末〜昨日の主要AIニュースを定点観測形式で整理。GPT-6 Astraの発表、Claude Fable 5.1の全プラン展開、NVIDIAによるHugging Face買収合意、など開発者に影響が大きい動向を一覧で把握できる。 :link: <https://qiita.com/good-software/items/54b7be0aa0a402267960|qiita.com/good-software/items/…> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-06_\n\n1. _〖AI News〗生成AI ニュースレポート — 2026-09-06_\n└ 本日分のAIニュースまとめ（24本）。GPT-6 AstraのGitHub Copilot統合、マルチエージェント開発でSWEパターンが鍵との研究報告、Raspberry Pi×LiteRT+Gemmaによるエッジ展開事例など、AI駆動開発に直結する話題を幅広くカバー。\n:link: <https://qiita.com/aakan/items/bd6199661b6a33d2b433|qiita.com/aakan/items/…>\n2. _Claude Code v2.1.263 リリース（9/6）— ポリシー診断・コマンド出力上限を大幅拡張_\n└ 本日リリース。Organization policyのロード失敗理由を `/status` と `claude doctor` に表示する機能を追加。`bashOutputMaxChars`・`taskOutputMaxChars` 設定により、コマンド出力を最大128K文字までインライン受信可能に。ターン完了時刻の表示追加と、長い差分行でのトランスクリプト速度低下バグも修正。\n:link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code>\n3. _NVIDIA、Hugging Faceを約129億ドル（約2兆円）で買収合意_\n└ NVIDIAが9/3、AIモデル共有プラットフォームHugging Faceの買収を発表。300万超のモデル・50万のデータセット・1,800万人超の開発者が利用するAIエコシステムを取得。クローズは規制審査を経て2027年上半期予定。買収後もオープンプラットフォームとしてオープンソース・オープンウェイトモデルのサポートを継続するとしており、AI開発のエコシステム構造を大きく塗り替える可能性がある。\n:link: <https://gigazine.net/news/20260904-nvidia-acquire-hugging-face/|gigazine.net/news/20260904-nvidia-acquire-hugging-face>\n4. _AI定点観測 2026/08/31〜09/05｜GPT-6 Astra・Fable 5.1・NVIDIA買収合意_\n└ 先週末〜昨日の主要AIニュースを定点観測形式で整理。GPT-6 Astraの発表、Claude Fable 5.1の全プラン展開、NVIDIAによるHugging Face買収合意、など開発者に影響が大きい動向を一覧で把握できる。\n:link: <https://qiita.com/good-software/items/54b7be0aa0a402267960|qiita.com/good-software/items/…> *使用して送信されました* Claude",
+          "messageTs": "1788736214.383629",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-06",
+          "timestamp": "2026-09-06T23:10:14.383Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 285,
+      "messageCount": 286,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-09-05"
+      "lastDate": "2026-09-06"
     },
     {
       "id": "C0AARGDBC3V",
