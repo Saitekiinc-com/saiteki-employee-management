@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-07T03:53:34.434Z",
+  "generatedAt": "2026-09-08T03:56:10.413Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -99831,7 +99831,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1788333085.992459",
-          "threadTs": null,
+          "threadTs": "1788333085.992459",
           "authorName": "松岡 大輝",
           "permalink": null
         }
@@ -100517,7 +100517,7 @@
           "channelId": "C09N28KTKL1",
           "channelName": "ソーシャル",
           "messageTs": "1788615322.938199",
-          "threadTs": null,
+          "threadTs": "1788615322.938199",
           "authorName": "佐藤 裕之",
           "permalink": null
         }
@@ -100593,6 +100593,386 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-06_ 1. _〖AI News〗生成AI ニュースレポート — 2026-09-06_ └ 本日分のAIニュースまとめ（24本）。GPT-6 AstraのGitHub Copilot統合、マルチエージェント開発でSWEパターンが鍵との研究報告、Raspberry Pi×LiteRT+Gemmaによるエッジ展開事例など、AI駆動開発に直結する話題を幅広くカバー。 :link: <https://qiita.com/aakan/items/bd6199661b6a33d2b433|qiita.com/aakan/items/…> 2. _Claude Code v2.1.263 リリース（9/6）— ポリシー診断・コマンド出力上限を大幅拡張_ └ 本日リリース。Organization policyのロード失敗理由を `/status` と `claude doctor` に表示する機能を追加。`bashOutputMaxChars`・`taskOutputMaxChars` 設定により、コマンド出力を最大128K文字までインライン受信可能に。ターン完了時刻の表示追加と、長い差分行でのトランスクリプト速度低下バグも修正。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 3. _NVIDIA、Hugging Faceを約129億ドル（約2兆円）で買収合意_ └ NVIDIAが9/3、AIモデル共有プラットフォームHugging Faceの買収を発表。300万超のモデル・50万のデータセット・1,800万人超の開発者が利用するAIエコシステムを取得。クローズは規制審査を経て2027年上半期予定。買収後もオープンプラットフォームとしてオープンソース・オープンウェイトモデルのサポートを継続するとしており、AI開発のエコシステム構造を大きく塗り替える可能性がある。 :link: <https://gigazine.net/news/20260904-nvidia-acquire-hugging-face/|gigazine.net/news/20260904-nvidia-acquire-hugging-face> 4. _AI定点観測 2026/08/31〜09/05｜GPT-6 Astra・Fable 5.1・NVIDIA買収合意_ └ 先週末〜昨日の主要AIニュースを定点観測形式で整理。GPT-6 Astraの発表、Claude Fable 5.1の全プラン展開、NVIDIAによるHugging Face買収合意、など開発者に影響が大...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788774440.559689",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788774440.559689",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788774440.559689",
+      "timestamp": "2026-09-07T09:47:20.559Z",
+      "detailBullets": [
+        "【閉報】 永井の2026夏、終了。 <https://www.ytv.co.jp/birdman/|ytv.co.jp/birdman>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788774440.559689",
+          "text": "【閉報】 永井の2026夏、終了。 <https://www.ytv.co.jp/birdman/|ytv.co.jp/birdman>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788774440.559689",
+          "threadTs": "1788774440.559689",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "【閉報】 永井の2026夏、終了。 <https://www.ytv.co.jp/birdman/|ytv.co.jp/birdman>\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788775178.947199",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788775178.947199",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788775178.947199",
+      "timestamp": "2026-09-07T09:59:38.947Z",
+      "detailBullets": [
+        "<@U0AR74C3YBY> すごい世界っすねー:flushed: みんな楽しそう:sparkles: 衣装も手が込んでますね。これ、細かいとこまで作り込むの大変そう..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788775178.947199",
+          "text": "<@U0AR74C3YBY> すごい世界っすねー:flushed: みんな楽しそう:sparkles: 衣装も手が込んでますね。これ、細かいとこまで作り込むの大変そう...",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788775178.947199",
+          "threadTs": "1788615322.938199",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0AR74C3YBY> すごい世界っすねー:flushed: みんな楽しそう:sparkles: 衣装も手が込んでますね。これ、細かいとこまで作り込むの大変そう...\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788786541.294499",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788786541.294499",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788786541.294499",
+      "timestamp": "2026-09-07T13:09:01.294Z",
+      "detailBullets": [
+        "ほんと、青春って感じですよね、、来年もまた永井さんの胸が熱くなるようなプロローグがこのチャンネルで見られることを楽しみにしています！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788786541.294499",
+          "text": "ほんと、青春って感じですよね、、来年もまた永井さんの胸が熱くなるようなプロローグがこのチャンネルで見られることを楽しみにしています！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788786541.294499",
+          "threadTs": "1788774440.559689",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "ほんと、青春って感じですよね、、来年もまた永井さんの胸が熱くなるようなプロローグがこのチャンネルで見られることを楽しみにしています！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1788794162.071459",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1788794162.071459",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1788794162.071459",
+      "timestamp": "2026-09-07T15:16:02.071Z",
+      "detailBullets": [
+        "楽しそうですね！僕も推し活してみたいなぁと思い続けてます。推せる何かがあると人生がもう一段彩りそうな気がします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1788794162.071459",
+          "text": "楽しそうですね！僕も推し活してみたいなぁと思い続けてます。推せる何かがあると人生がもう一段彩りそうな気がします！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1788794162.071459",
+          "threadTs": "1788615322.938199",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "楽しそうですね！僕も推し活してみたいなぁと思い続けてます。推せる何かがあると人生がもう一段彩りそうな気がします！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1788794672.294259",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1788794672.294259",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1788794672.294259",
+      "timestamp": "2026-09-07T15:24:32.294Z",
+      "detailBullets": [
+        "<@U0BSW5T03QC> あらためてよろしくお願いします！この半年ぐらいで、「鳥飼さん、みんな良い人説」が僕の中で立証されました。笑 芸のトレーニングはかなり気になります！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1788794672.294259",
+          "text": "<@U0BSW5T03QC> あらためてよろしくお願いします！この半年ぐらいで、「鳥飼さん、みんな良い人説」が僕の中で立証されました。笑 芸のトレーニングはかなり気になります！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1788794672.294259",
+          "threadTs": "1787734128.693829",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BSW5T03QC> あらためてよろしくお願いします！この半年ぐらいで、「鳥飼さん、みんな良い人説」が僕の中で立証されました。笑 芸のトレーニングはかなり気になります！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1788794818.065999",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1788794818.065999",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1788794818.065999",
+      "timestamp": "2026-09-07T15:26:58.065Z",
+      "detailBullets": [
+        "<@U0BSWNFPSVD> あらためてよろしくお願いします！ホラー、スプラッターメインの映画鑑賞される方、他にもいたような、、今度その魅力を聞かせてほしいです！ 九州行く時、佐賀メンバーにも声かけますので集まりましょう！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1788794818.065999",
+          "text": "<@U0BSWNFPSVD> あらためてよろしくお願いします！ホラー、スプラッターメインの映画鑑賞される方、他にもいたような、、今度その魅力を聞かせてほしいです！ 九州行く時、佐賀メンバーにも声かけますので集まりましょう！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1788794818.065999",
+          "threadTs": "1788139063.580479",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BSWNFPSVD> あらためてよろしくお願いします！ホラー、スプラッターメインの映画鑑賞される方、他にもいたような、、今度その魅力を聞かせてほしいです！ 九州行く時、佐賀メンバーにも声かけますので集まりましょう！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1788794935.461279",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1788794935.461279",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1788794935.461279",
+      "timestamp": "2026-09-07T15:28:55.461Z",
+      "detailBullets": [
+        "<@U0BU5QR565R> あらためてよろしくお願いします！ スポーツ観戦好きなメンバーがたくさんいるので、そろそろ部を立ち上げましょう！（立ち上げるのでぜひ部員になってください！） 11月からご一緒できること楽しみにしています！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1788794935.461279",
+          "text": "<@U0BU5QR565R> あらためてよろしくお願いします！ スポーツ観戦好きなメンバーがたくさんいるので、そろそろ部を立ち上げましょう！（立ち上げるのでぜひ部員になってください！） 11月からご一緒できること楽しみにしています！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1788794935.461279",
+          "threadTs": "1788333085.992459",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BU5QR565R> あらためてよろしくお願いします！ スポーツ観戦好きなメンバーがたくさんいるので、そろそろ部を立ち上げましょう！（立ち上げるのでぜひ部員になってください！） 11月からご一緒できること楽しみにしています！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1788822626.880539",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1788822626.880539",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1788822626.880539",
+      "timestamp": "2026-09-07T23:10:26.880Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-07_ 1. _Claude API：会話途中のツール変更でもキャッシュを維持する新機能が追加_ └ AnthropicのClaude APIで、会話の途中でツールリストを変更してもプロンプトキャッシュが無効化されない新機能がリリース。エージェント型アプリケーションでのキャッシュコスト削減に大きく貢献し、より柔軟なツール設計が可能になった。9/7のTop 10 AI Newsとして取り上げられた注目アップデート。 :link: <https://blurbrahlab.medium.com/claude-api-now-lets-you-change-tools-mid-conversation-without-breaking-the-cache-top-10-ai-4c30954c4be7|blurbrahlab.medium.com/claude-api-now-lets-you-change-tools-mid-conversation-without-breaking-the-cache-top-10-a..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1788822626.880539",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-07_ 1. _Claude API：会話途中のツール変更でもキャッシュを維持する新機能が追加_ └ AnthropicのClaude APIで、会話の途中でツールリストを変更してもプロンプトキャッシュが無効化されない新機能がリリース。エージェント型アプリケーションでのキャッシュコスト削減に大きく貢献し、より柔軟なツール設計が可能になった。9/7のTop 10 AI Newsとして取り上げられた注目アップデート。 :link: <https://blurbrahlab.medium.com/claude-api-now-lets-you-change-tools-mid-conversation-without-breaking-the-cache-top-10-ai-4c30954c4be7|blurbrahlab.medium.com/claude-api-now-lets-you-change-tools-mid-conversation-without-breaking-the-cache-top-10-ai…> 2. _JetBrains調査：90%の開発者が週次でAIコーディングエージェントを活用、Claude Codeが最多採用_ └ JetBrainsの2026年調査（2026年8月公開）で、プロ開発者の90%が週1回以上AIコーディングエージェントを業務に利用し、68%は毎日使用していることが判明。Claude CodeはGitHub Copilotの2倍の採用率で最も広く使われているAI...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1788822626.880539",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-07_ 1. _Claude API：会話途中のツール変更でもキャッシュを維持する新機能が追加_ └ AnthropicのClaude APIで、会話の途中でツールリストを変更してもプロンプトキャッシュが無効化されない新機能がリリース。エージェント型アプリケーションでのキャッシュコスト削減に大きく貢献し、より柔軟なツール設計が可能になった。9/7のTop 10 AI Newsとして取り上げられた注目アップデート。 :link: <https://blurbrahlab.medium.com/claude-api-now-lets-you-change-tools-mid-conversation-without-breaking-the-cache-top-10-ai-4c30954c4be7|blurbrahlab.medium.com/claude-api-now-lets-you-change-tools-mid-conversation-without-breaking-the-cache-top-10-ai…> 2. _JetBrains調査：90%の開発者が週次でAIコーディングエージェントを活用、Claude Codeが最多採用_ └ JetBrainsの2026年調査（2026年8月公開）で、プロ開発者の90%が週1回以上AIコーディングエージェントを業務に利用し、68%は毎日使用していることが判明。Claude CodeはGitHub Copilotの2倍の採用率で最も広く使われているAIコーディングツールに。 :link: <https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/|blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026> 3. _AWS Bedrock、MiniMaxモデルを追加—4Mトークンコンテキストでエージェントワークフローを強化_ └ AWSがAmazon Bedrock上にMiniMaxモデルを追加（9/7）。4Mトークンの超長コンテキストウィンドウとMoE（混合専門家）アーキテクチャを採用し、エージェント型ワークフローに最適。統一API・オートスケーリング・AWSセキュリティ制御を通じて利用可能。 :link: <https://aiagentstore.ai/ai-agent-news/this-week|aiagentstore.ai/ai-agent-news/this-week> 4. _Hugging Face、LLM推論コストを最大40%削減するカーネルライブラ...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1788830825.459519",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:Nana Yada",
+      "personName": "Nana Yada",
+      "slackIds": [
+        "U0BNHNLCP3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1788830825.459519",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1788830825.459519",
+      "timestamp": "2026-09-08T01:27:05.459Z",
+      "detailBullets": [
+        "<@U0BK4336Q2X> こちら返信もれており大変失礼いたしました！ アーカイブの予定があるとのこと承知しました！ ありがとうございます。後日確認させていただきます:woman-bowing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1788830825.459519",
+          "text": "<@U0BK4336Q2X> こちら返信もれており大変失礼いたしました！ アーカイブの予定があるとのこと承知しました！ ありがとうございます。後日確認させていただきます:woman-bowing:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1788830825.459519",
+          "threadTs": "1788479452.493209",
+          "authorName": "Nana Yada",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BK4336Q2X> こちら返信もれており大変失礼いたしました！ アーカイブの予定があるとのこと承知しました！ ありがとうございます。後日確認させていただきます:woman-bowing:\nall-saiteki\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1788836971.168919",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:佐藤 友亮",
+      "personName": "佐藤 友亮",
+      "slackIds": [
+        "U0BSWNFPSVD"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1788836971.168919",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1788836971.168919",
+      "timestamp": "2026-09-08T03:09:31.168Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 戸塚さん、こちらこそよろしくお願いいたします！ 九州にお越しいただいた際は是非楽しくお話しさせていただければと思います！ 楽しみにお待ちしてます:good:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1788836971.168919",
+          "text": "<@U09MGUVJ8BV> 戸塚さん、こちらこそよろしくお願いいたします！ 九州にお越しいただいた際は是非楽しくお話しさせていただければと思います！ 楽しみにお待ちしてます:good:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1788836971.168919",
+          "threadTs": "1788139063.580479",
+          "authorName": "佐藤 友亮",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 戸塚さん、こちらこそよろしくお願いいたします！ 九州にお越しいただいた際は是非楽しくお話しさせていただければと思います！ 楽しみにお待ちしてます:good:\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1788837989.797129",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:清水幸祐",
+      "personName": "清水幸祐",
+      "slackIds": [
+        "U0BSW5T03QC"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1788837989.797129",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1788837989.797129",
+      "timestamp": "2026-09-08T03:26:29.797Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> こちらこそよろしくお願いいたします:bow: トレーニングは「おいで」/「(自分の家に)もどれ」/「待て」を練習中でして、成功率は8割程度となってきたところになります笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1788837989.797129",
+          "text": "<@U09MGUVJ8BV> こちらこそよろしくお願いいたします:bow: トレーニングは「おいで」/「(自分の家に)もどれ」/「待て」を練習中でして、成功率は8割程度となってきたところになります笑",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1788837989.797129",
+          "threadTs": "1787734128.693829",
+          "authorName": "清水幸祐",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> こちらこそよろしくお願いいたします:bow: トレーニングは「おいで」/「(自分の家に)もどれ」/「待て」を練習中でして、成功率は8割程度となってきたところになります笑\n自己紹介\nOther"
     }
   ]
 }
