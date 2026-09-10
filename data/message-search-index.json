@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-09T04:01:40.437Z",
+  "generatedAt": "2026-09-10T04:00:25.295Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -101112,6 +101112,76 @@
         }
       ],
       "searchText": "バイブコーティングで開発を進めている 現場にいた時のことなんですが、 PMに改修時に苦労するんじゃないかと 質問したことがありました。 将来的にAIに保守、改修をやらせるから問題ないとの回答が返ってきたことがあります。 その時はそうなのかぐらいで納得して 会話は終わりました。 全体的に左側のようになっているけど、 開発時間は短縮できているから問題ないのかと思いました。 みなさんどうお考えなんですかね？:melting_face:\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1788957544.204509",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1788957544.204509",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1788957544.204509",
+      "timestamp": "2026-09-09T12:39:04.204Z",
+      "detailBullets": [
+        "上さんの意見も踏まえつつ 勉強会にも絡みそうなので所感を:pray: *【結論】* *バイブコーディングの捉え方次第な気がしている (どのレベル感で取り組んでいるか？)* *→全てのバイブコーディングが図の通りになるわけではないと思っている* 【詳細】 自分自身、AIが全てのコードを書くことを悪として捉えてないです。 →何なら先日リリースしたポータルサイトは1個も手動実装してないです。:zange-ざんげ-懺悔: →追加/改修も基本AIになる想定 `エンジニアリング`と呼びたい部分は正に図の通りに `綺麗な構造のソフトウェアを作る部分(ここにエンジニアのプロとしての力量も価値も現れる)`と考えているので *\"バイブコーディングでどこまでエンジニアリングできるかが大事\"という主張* バイブコーディングでやってきたからAIに任せて大丈夫 ではなく *`バイブコーディングで高レベルなエンジニアリングが実現できるからAIに任せても大丈夫`* と言えるようになりたい →AI使っても右側を常に再現できるStandardを追求してます。(研究中)"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1788957544.204509",
+          "text": "上さんの意見も踏まえつつ 勉強会にも絡みそうなので所感を:pray: *【結論】* *バイブコーディングの捉え方次第な気がしている (どのレベル感で取り組んでいるか？)* *→全てのバイブコーディングが図の通りになるわけではないと思っている* 【詳細】 自分自身、AIが全てのコードを書くことを悪として捉えてないです。 →何なら先日リリースしたポータルサイトは1個も手動実装してないです。:zange-ざんげ-懺悔: →追加/改修も基本AIになる想定 `エンジニアリング`と呼びたい部分は正に図の通りに `綺麗な構造のソフトウェアを作る部分(ここにエンジニアのプロとしての力量も価値も現れる)`と考えているので *\"バイブコーディングでどこまでエンジニアリングできるかが大事\"という主張* バイブコーディングでやってきたからAIに任せて大丈夫 ではなく *`バイブコーディングで高レベルなエンジニアリングが実現できるからAIに任せても大丈夫`* と言えるようになりたい →AI使っても右側を常に再現できるStandardを追求してます。(研究中)",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1788957544.204509",
+          "threadTs": "1788912148.494449",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "上さんの意見も踏まえつつ 勉強会にも絡みそうなので所感を:pray: *【結論】* *バイブコーディングの捉え方次第な気がしている (どのレベル感で取り組んでいるか？)* *→全てのバイブコーディングが図の通りになるわけではないと思っている* 【詳細】 自分自身、AIが全てのコードを書くことを悪として捉えてないです。 →何なら先日リリースしたポータルサイトは1個も手動実装してないです。:zange-ざんげ-懺悔: →追加/改修も基本AIになる想定 `エンジニアリング`と呼びたい部分は正に図の通りに `綺麗な構造のソフトウェアを作る部分(ここにエンジニアのプロとしての力量も価値も現れる)`と考えているので *\"バイブコーディングでどこまでエンジニアリングできるかが大事\"という主張* バイブコーディングでやってきたからAIに任せて大丈夫 ではなく *`バイブコーディングで高レベルなエンジニアリングが実現できるからAIに任せても大丈夫`* と言えるようになりたい →AI使っても右側を常に再現できるStandardを追求してます。(研究中)\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1788995457.971399",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1788995457.971399",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1788995457.971399",
+      "timestamp": "2026-09-09T23:10:57.971Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-09_ 1. _Claude Code v2.1.267 リリース（9/9）_ └ 全プロバイダー（Bedrock・Vertex・Foundry）に対して `maxEffortLevel` 設定でエフォート上限を一括制御可能に。`--system-prompt-snapshot off` でリクエストごとにシステムプロンプトを新規生成するオプションも追加。53件の変更（68%がバグ修正）含む：大規模セッション再開時の並列ツール呼び出し消失バグ、マーケットプレイスパスのバックスラッシュによるセキュリティバイパス修正、拡張ホストの100% CPU ハング修正なども対象。 :link: <https://ai-tldr.dev/releases/anthropic-claude-code-2-1-267/|ai-tldr.dev/releases/anthropic-claude-code-2-1-267> 2. _Visual Studio 2026 v18.9 リリース（9/8）_ └ AIモデルの Thinking..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1788995457.971399",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-09_ 1. _Claude Code v2.1.267 リリース（9/9）_ └ 全プロバイダー（Bedrock・Vertex・Foundry）に対して `maxEffortLevel` 設定でエフォート上限を一括制御可能に。`--system-prompt-snapshot off` でリクエストごとにシステムプロンプトを新規生成するオプションも追加。53件の変更（68%がバグ修正）含む：大規模セッション再開時の並列ツール呼び出し消失バグ、マーケットプレイスパスのバックスラッシュによるセキュリティバイパス修正、拡張ホストの100% CPU ハング修正なども対象。 :link: <https://ai-tldr.dev/releases/anthropic-claude-code-2-1-267/|ai-tldr.dev/releases/anthropic-claude-code-2-1-267> 2. _Visual Studio 2026 v18.9 リリース（9/8）_ └ AIモデルの Thinking Effort（低/中/高）制御機能が追加。また BYOK（Bring Your Own Key）により GitHub Copilot 未契約のユーザーも自前モデルキーで AI 機能を利用可能に。個人・チームともに柔軟なモデル選択が実現。 :link: <https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-not...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1788995457.971399",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-09_ 1. _Claude Code v2.1.267 リリース（9/9）_ └ 全プロバイダー（Bedrock・Vertex・Foundry）に対して `maxEffortLevel` 設定でエフォート上限を一括制御可能に。`--system-prompt-snapshot off` でリクエストごとにシステムプロンプトを新規生成するオプションも追加。53件の変更（68%がバグ修正）含む：大規模セッション再開時の並列ツール呼び出し消失バグ、マーケットプレイスパスのバックスラッシュによるセキュリティバイパス修正、拡張ホストの100% CPU ハング修正なども対象。 :link: <https://ai-tldr.dev/releases/anthropic-claude-code-2-1-267/|ai-tldr.dev/releases/anthropic-claude-code-2-1-267> 2. _Visual Studio 2026 v18.9 リリース（9/8）_ └ AIモデルの Thinking Effort（低/中/高）制御機能が追加。また BYOK（Bring Your Own Key）により GitHub Copilot 未契約のユーザーも自前モデルキーで AI 機能を利用可能に。個人・チームともに柔軟なモデル選択が実現。 :link: <https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes|learn.microsoft.com/en-us/…/release-notes> 3. _GitHub Copilot：並列エージェントセッション &amp; HydraFusion 研究プレビュー_ └ GitHub Copilot アプリが並列エージェントセッションをサポート。複数の AI タスクをそれぞれ独立した Git worktree で同時実行可能になり、開発の速度と集中度が向上。さらに Copilot CLI に研究プレビュー「HydraFusion」が登場：複数モデルを動的オーケストレーションして下書き→批評→改訂→エスカレートのサイクルを自動化し、品質・コスト・レイテンシを最適化。 :link: <https://github.blog/changelog/month/09-2026/|github.blog/changelog/month/09-2026> 4. _〖AI News まとめ〗生成AI ニュースレポート — 2026-09-09（Qiita）_ └ 本日の生成AI・AI駆動開発関連ニュースをまとめたデイリーレポート。Claude Code・G...\nai駆動開発ネタ\n経営"
     }
   ]
 }

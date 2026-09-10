@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-09T04:01:45.223Z",
+  "generatedAt": "2026-09-10T04:00:28.328Z",
   "channelCount": 15,
-  "totalMessages": 3202,
+  "totalMessages": 3204,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -57113,9 +57113,49 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1788957544.204509",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U0A7VHB07J4",
+          "userName": "小松田 真伍",
+          "userRealName": "小松田 真伍",
+          "text": "上さんの意見も踏まえつつ 勉強会にも絡みそうなので所感を:pray: *【結論】* *バイブコーディングの捉え方次第な気がしている (どのレベル感で取り組んでいるか？)* *→全てのバイブコーディングが図の通りになるわけではないと思っている* 【詳細】 自分自身、AIが全てのコードを書くことを悪として捉えてないです。 →何なら先日リリースしたポータルサイトは1個も手動実装してないです。:zange-ざんげ-懺悔: →追加/改修も基本AIになる想定 `エンジニアリング`と呼びたい部分は正に図の通りに `綺麗な構造のソフトウェアを作る部分(ここにエンジニアのプロとしての力量も価値も現れる)`と考えているので *\"バイブコーディングでどこまでエンジニアリングできるかが大事\"という主張* バイブコーディングでやってきたからAIに任せて大丈夫 ではなく *`バイブコーディングで高レベルなエンジニアリングが実現できるからAIに任せても大丈夫`* と言えるようになりたい →AI使っても右側を常に再現できるStandardを追求してます。(研究中)",
+          "rawText": "上さんの意見も踏まえつつ\n勉強会にも絡みそうなので所感を:pray:\n\n*【結論】*\n　*バイブコーディングの捉え方次第な気がしている (どのレベル感で取り組んでいるか？)*\n　　*→全てのバイブコーディングが図の通りになるわけではないと思っている*\n\n【詳細】\n　自分自身、AIが全てのコードを書くことを悪として捉えてないです。\n　　→何なら先日リリースしたポータルサイトは1個も手動実装してないです。:zange-ざんげ-懺悔:\n　　　→追加/改修も基本AIになる想定\n\n　`エンジニアリング`と呼びたい部分は正に図の通りに\n　`綺麗な構造のソフトウェアを作る部分(ここにエンジニアのプロとしての力量も価値も現れる)`と考えているので\n　*\"バイブコーディングでどこまでエンジニアリングできるかが大事\"という主張*\n\nバイブコーディングでやってきたからAIに任せて大丈夫 ではなく\n*`バイブコーディングで高レベルなエンジニアリングが実現できるからAIに任せても大丈夫`* と言えるようになりたい\n→AI使っても右側を常に再現できるStandardを追求してます。(研究中)",
+          "messageTs": "1788957544.204509",
+          "threadTs": "1788912148.494449",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-09-09",
+          "timestamp": "2026-09-09T12:39:04.204Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1788995457.971399",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-09_ 1. _Claude Code v2.1.267 リリース（9/9）_ └ 全プロバイダー（Bedrock・Vertex・Foundry）に対して `maxEffortLevel` 設定でエフォート上限を一括制御可能に。`--system-prompt-snapshot off` でリクエストごとにシステムプロンプトを新規生成するオプションも追加。53件の変更（68%がバグ修正）含む：大規模セッション再開時の並列ツール呼び出し消失バグ、マーケットプレイスパスのバックスラッシュによるセキュリティバイパス修正、拡張ホストの100% CPU ハング修正なども対象。 :link: <https://ai-tldr.dev/releases/anthropic-claude-code-2-1-267/|ai-tldr.dev/releases/anthropic-claude-code-2-1-267> 2. _Visual Studio 2026 v18.9 リリース（9/8）_ └ AIモデルの Thinking Effort（低/中/高）制御機能が追加。また BYOK（Bring Your Own Key）により GitHub Copilot 未契約のユーザーも自前モデルキーで AI 機能を利用可能に。個人・チームともに柔軟なモデル選択が実現。 :link: <https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes|learn.microsoft.com/en-us/…/release-notes> 3. _GitHub Copilot：並列エージェントセッション &amp; HydraFusion 研究プレビュー_ └ GitHub Copilot アプリが並列エージェントセッションをサポート。複数の AI タスクをそれぞれ独立した Git worktree で同時実行可能になり、開発の速度と集中度が向上。さらに Copilot CLI に研究プレビュー「HydraFusion」が登場：複数モデルを動的オーケストレーションして下書き→批評→改訂→エスカレートのサイクルを自動化し、品質・コスト・レイテンシを最適化。 :link: <https://github.blog/changelog/month/09-2026/|github.blog/changelog/month/09-2026> 4. _〖AI News まとめ〗生成AI ニュースレポート — 2026-09-09（Qiita）_ └ 本日の生成AI・AI駆動開発関連ニュースをまとめたデイリーレポート。Claude Code・GitHub Copilot・各種エージェントフレームワークの最新動向を網羅。 :link: <https://qiita.com/aakan/items/64724ae661ad26d45dd5|qiita.com/aakan/items/…> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-09_\n\n1. _Claude Code v2.1.267 リリース（9/9）_\n└ 全プロバイダー（Bedrock・Vertex・Foundry）に対して `maxEffortLevel` 設定でエフォート上限を一括制御可能に。`--system-prompt-snapshot off` でリクエストごとにシステムプロンプトを新規生成するオプションも追加。53件の変更（68%がバグ修正）含む：大規模セッション再開時の並列ツール呼び出し消失バグ、マーケットプレイスパスのバックスラッシュによるセキュリティバイパス修正、拡張ホストの100% CPU ハング修正なども対象。\n:link: <https://ai-tldr.dev/releases/anthropic-claude-code-2-1-267/|ai-tldr.dev/releases/anthropic-claude-code-2-1-267>\n2. _Visual Studio 2026 v18.9 リリース（9/8）_\n└ AIモデルの Thinking Effort（低/中/高）制御機能が追加。また BYOK（Bring Your Own Key）により GitHub Copilot 未契約のユーザーも自前モデルキーで AI 機能を利用可能に。個人・チームともに柔軟なモデル選択が実現。\n:link: <https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes|learn.microsoft.com/en-us/…/release-notes>\n3. _GitHub Copilot：並列エージェントセッション &amp; HydraFusion 研究プレビュー_\n└ GitHub Copilot アプリが並列エージェントセッションをサポート。複数の AI タスクをそれぞれ独立した Git worktree で同時実行可能になり、開発の速度と集中度が向上。さらに Copilot CLI に研究プレビュー「HydraFusion」が登場：複数モデルを動的オーケストレーションして下書き→批評→改訂→エスカレートのサイクルを自動化し、品質・コスト・レイテンシを最適化。\n:link: <https://github.blog/changelog/month/09-2026/|github.blog/changelog/month/09-2026>\n4. _〖AI News まとめ〗生成AI ニュースレポート — 2026-09-09（Qiita）_\n└ 本日の生成AI・AI駆動開発関連ニュースをまとめたデイリーレポート。Claude Code・GitHub Copilot・各種エージェントフレームワークの最新動向を網羅。\n:link: <https://qiita.com/aakan/items/64724ae661ad26d45dd5|qiita.com/aakan/items/…> *使用して送信されました* Claude",
+          "messageTs": "1788995457.971399",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-09",
+          "timestamp": "2026-09-09T23:10:57.971Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 290,
+      "messageCount": 292,
       "firstDate": "2025-11-01",
       "lastDate": "2026-09-09"
     },
