@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-10T04:00:25.295Z",
+  "generatedAt": "2026-09-11T03:57:29.259Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -101182,6 +101182,41 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-09_ 1. _Claude Code v2.1.267 リリース（9/9）_ └ 全プロバイダー（Bedrock・Vertex・Foundry）に対して `maxEffortLevel` 設定でエフォート上限を一括制御可能に。`--system-prompt-snapshot off` でリクエストごとにシステムプロンプトを新規生成するオプションも追加。53件の変更（68%がバグ修正）含む：大規模セッション再開時の並列ツール呼び出し消失バグ、マーケットプレイスパスのバックスラッシュによるセキュリティバイパス修正、拡張ホストの100% CPU ハング修正なども対象。 :link: <https://ai-tldr.dev/releases/anthropic-claude-code-2-1-267/|ai-tldr.dev/releases/anthropic-claude-code-2-1-267> 2. _Visual Studio 2026 v18.9 リリース（9/8）_ └ AIモデルの Thinking Effort（低/中/高）制御機能が追加。また BYOK（Bring Your Own Key）により GitHub Copilot 未契約のユーザーも自前モデルキーで AI 機能を利用可能に。個人・チームともに柔軟なモデル選択が実現。 :link: <https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes|learn.microsoft.com/en-us/…/release-notes> 3. _GitHub Copilot：並列エージェントセッション &amp; HydraFusion 研究プレビュー_ └ GitHub Copilot アプリが並列エージェントセッションをサポート。複数の AI タスクをそれぞれ独立した Git worktree で同時実行可能になり、開発の速度と集中度が向上。さらに Copilot CLI に研究プレビュー「HydraFusion」が登場：複数モデルを動的オーケストレーションして下書き→批評→改訂→エスカレートのサイクルを自動化し、品質・コスト・レイテンシを最適化。 :link: <https://github.blog/changelog/month/09-2026/|github.blog/changelog/month/09-2026> 4. _〖AI News まとめ〗生成AI ニュースレポート — 2026-09-09（Qiita）_ └ 本日の生成AI・AI駆動開発関連ニュースをまとめたデイリーレポート。Claude Code・G...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789081730.221289",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789081730.221289",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789081730.221289",
+      "timestamp": "2026-09-10T23:08:50.221Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-10_ 1. _Visual Studio Code 1.137 リリース — AIエージェント自動化・音声モード・Agent Host Protocol_ └ 今月のVS Code大型アップデート。「Agent Automations」で時間・日・週単位のエージェントタスク定期実行が可能に。「Voice Mode」ではコード生成中にエージェントへ音声で割り込み指示ができる。「Agent Host Protocol」がAIセッションをワークスペースから切り離し、フォルダを閉じてもセッションが継続・SSH越しのリモート実行にも対応。GitHub Issues/PR連携もAgentsウィンドウ内で直接操作できるよう強化。 :link: <https://code.visualstudio.com/updates/v1_137|code.visualstudio.com/updates/v1_137> 2. _Microsoft、「Copilot Workspace 2.0」を全域GA公開_ └ GitHub Copil..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789081730.221289",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-10_ 1. _Visual Studio Code 1.137 リリース — AIエージェント自動化・音声モード・Agent Host Protocol_ └ 今月のVS Code大型アップデート。「Agent Automations」で時間・日・週単位のエージェントタスク定期実行が可能に。「Voice Mode」ではコード生成中にエージェントへ音声で割り込み指示ができる。「Agent Host Protocol」がAIセッションをワークスペースから切り離し、フォルダを閉じてもセッションが継続・SSH越しのリモート実行にも対応。GitHub Issues/PR連携もAgentsウィンドウ内で直接操作できるよう強化。 :link: <https://code.visualstudio.com/updates/v1_137|code.visualstudio.com/updates/v1_137> 2. _Microsoft、「Copilot Workspace 2.0」を全域GA公開_ └ GitHub Copilotエコシステムの中核開発プラットフォームが全ユーザーへ一般提供開始。自然言語で要件を入力するだけで、AIがシステム設計・コード変更・テスト生成・ビルド検証をバックグラウンドで自律完遂する。要件定義からデプロイまでのエンドツーエンド自動化が現実的な選択肢となり、AI駆動開発が大きく前進。 :link: <https://nomadmovement.xyz/global-tech-digest-se...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789081730.221289",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-10_ 1. _Visual Studio Code 1.137 リリース — AIエージェント自動化・音声モード・Agent Host Protocol_ └ 今月のVS Code大型アップデート。「Agent Automations」で時間・日・週単位のエージェントタスク定期実行が可能に。「Voice Mode」ではコード生成中にエージェントへ音声で割り込み指示ができる。「Agent Host Protocol」がAIセッションをワークスペースから切り離し、フォルダを閉じてもセッションが継続・SSH越しのリモート実行にも対応。GitHub Issues/PR連携もAgentsウィンドウ内で直接操作できるよう強化。 :link: <https://code.visualstudio.com/updates/v1_137|code.visualstudio.com/updates/v1_137> 2. _Microsoft、「Copilot Workspace 2.0」を全域GA公開_ └ GitHub Copilotエコシステムの中核開発プラットフォームが全ユーザーへ一般提供開始。自然言語で要件を入力するだけで、AIがシステム設計・コード変更・テスト生成・ビルド検証をバックグラウンドで自律完遂する。要件定義からデプロイまでのエンドツーエンド自動化が現実的な選択肢となり、AI駆動開発が大きく前進。 :link: <https://nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace/|nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace> 3. _EUが「Agentic AI」向け消費者保護指針を初提示_ └ 自律型AIエージェントが契約・購買等を人間の代わりに実行する際の国際的な消費者保護ルール策定に向け、EUが初の公式指針を公表。AI駆動開発ツールが本番環境で広く使われる中、エージェントの行動に対する説明責任・取消権・同意取得の在り方が論点に。規制面での整備が加速する節目となるニュース。 :link: <https://nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace/|nomadmovement.xyz/global-tech-digest-sep...\nai駆動開発ネタ\n経営"
     }
   ]
 }

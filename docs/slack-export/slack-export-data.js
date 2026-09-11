@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-10T04:00:28.328Z",
+  "generatedAt": "2026-09-11T03:57:31.386Z",
   "channelCount": 15,
-  "totalMessages": 3204,
+  "totalMessages": 3205,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -57153,11 +57153,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1789081730.221289",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-10_ 1. _Visual Studio Code 1.137 リリース — AIエージェント自動化・音声モード・Agent Host Protocol_ └ 今月のVS Code大型アップデート。「Agent Automations」で時間・日・週単位のエージェントタスク定期実行が可能に。「Voice Mode」ではコード生成中にエージェントへ音声で割り込み指示ができる。「Agent Host Protocol」がAIセッションをワークスペースから切り離し、フォルダを閉じてもセッションが継続・SSH越しのリモート実行にも対応。GitHub Issues/PR連携もAgentsウィンドウ内で直接操作できるよう強化。 :link: <https://code.visualstudio.com/updates/v1_137|code.visualstudio.com/updates/v1_137> 2. _Microsoft、「Copilot Workspace 2.0」を全域GA公開_ └ GitHub Copilotエコシステムの中核開発プラットフォームが全ユーザーへ一般提供開始。自然言語で要件を入力するだけで、AIがシステム設計・コード変更・テスト生成・ビルド検証をバックグラウンドで自律完遂する。要件定義からデプロイまでのエンドツーエンド自動化が現実的な選択肢となり、AI駆動開発が大きく前進。 :link: <https://nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace/|nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace> 3. _EUが「Agentic AI」向け消費者保護指針を初提示_ └ 自律型AIエージェントが契約・購買等を人間の代わりに実行する際の国際的な消費者保護ルール策定に向け、EUが初の公式指針を公表。AI駆動開発ツールが本番環境で広く使われる中、エージェントの行動に対する説明責任・取消権・同意取得の在り方が論点に。規制面での整備が加速する節目となるニュース。 :link: <https://nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace/|nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace> 4. _GitHub Copilot: MAI-Code-1-Flash が本日（9/10）廃止、MAI-Code-1.1-Flash へ移行_ └ 予告されていた通り、MAI-Code-1-FlashがCopilot全プラン（Pro/Business/Enterprise）で本日より利用不可に。後継の MAI-Code-1.1-Flash が提供済みで、パフォーマンス向上とコスト削減を両立。APIやCLI等でモデルを直接指定しているワークフローは速やかな設定変更が必要。 :link: <https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash/|github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-10_\n\n1. _Visual Studio Code 1.137 リリース — AIエージェント自動化・音声モード・Agent Host Protocol_\n└ 今月のVS Code大型アップデート。「Agent Automations」で時間・日・週単位のエージェントタスク定期実行が可能に。「Voice Mode」ではコード生成中にエージェントへ音声で割り込み指示ができる。「Agent Host Protocol」がAIセッションをワークスペースから切り離し、フォルダを閉じてもセッションが継続・SSH越しのリモート実行にも対応。GitHub Issues/PR連携もAgentsウィンドウ内で直接操作できるよう強化。\n:link: <https://code.visualstudio.com/updates/v1_137|code.visualstudio.com/updates/v1_137>\n2. _Microsoft、「Copilot Workspace 2.0」を全域GA公開_\n└ GitHub Copilotエコシステムの中核開発プラットフォームが全ユーザーへ一般提供開始。自然言語で要件を入力するだけで、AIがシステム設計・コード変更・テスト生成・ビルド検証をバックグラウンドで自律完遂する。要件定義からデプロイまでのエンドツーエンド自動化が現実的な選択肢となり、AI駆動開発が大きく前進。\n:link: <https://nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace/|nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace>\n3. _EUが「Agentic AI」向け消費者保護指針を初提示_\n└ 自律型AIエージェントが契約・購買等を人間の代わりに実行する際の国際的な消費者保護ルール策定に向け、EUが初の公式指針を公表。AI駆動開発ツールが本番環境で広く使われる中、エージェントの行動に対する説明責任・取消権・同意取得の在り方が論点に。規制面での整備が加速する節目となるニュース。\n:link: <https://nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace/|nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace>\n4. _GitHub Copilot: MAI-Code-1-Flash が本日（9/10）廃止、MAI-Code-1.1-Flash へ移行_\n└ 予告されていた通り、MAI-Code-1-FlashがCopilot全プラン（Pro/Business/Enterprise）で本日より利用不可に。後継の MAI-Code-1.1-Flash が提供済みで、パフォーマンス向上とコスト削減を両立。APIやCLI等でモデルを直接指定しているワークフローは速やかな設定変更が必要。\n:link: <https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash/|github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash> *使用して送信されました* Claude",
+          "messageTs": "1789081730.221289",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-10",
+          "timestamp": "2026-09-10T23:08:50.221Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 292,
+      "messageCount": 293,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-09-09"
+      "lastDate": "2026-09-10"
     },
     {
       "id": "C0AARGDBC3V",
