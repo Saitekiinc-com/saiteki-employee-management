@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-11T03:57:29.259Z",
+  "generatedAt": "2026-09-12T03:59:33.172Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -101217,6 +101217,354 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-10_ 1. _Visual Studio Code 1.137 リリース — AIエージェント自動化・音声モード・Agent Host Protocol_ └ 今月のVS Code大型アップデート。「Agent Automations」で時間・日・週単位のエージェントタスク定期実行が可能に。「Voice Mode」ではコード生成中にエージェントへ音声で割り込み指示ができる。「Agent Host Protocol」がAIセッションをワークスペースから切り離し、フォルダを閉じてもセッションが継続・SSH越しのリモート実行にも対応。GitHub Issues/PR連携もAgentsウィンドウ内で直接操作できるよう強化。 :link: <https://code.visualstudio.com/updates/v1_137|code.visualstudio.com/updates/v1_137> 2. _Microsoft、「Copilot Workspace 2.0」を全域GA公開_ └ GitHub Copilotエコシステムの中核開発プラットフォームが全ユーザーへ一般提供開始。自然言語で要件を入力するだけで、AIがシステム設計・コード変更・テスト生成・ビルド検証をバックグラウンドで自律完遂する。要件定義からデプロイまでのエンドツーエンド自動化が現実的な選択肢となり、AI駆動開発が大きく前進。 :link: <https://nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace/|nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace> 3. _EUが「Agentic AI」向け消費者保護指針を初提示_ └ 自律型AIエージェントが契約・購買等を人間の代わりに実行する際の国際的な消費者保護ルール策定に向け、EUが初の公式指針を公表。AI駆動開発ツールが本番環境で広く使われる中、エージェントの行動に対する説明責任・取消権・同意取得の在り方が論点に。規制面での整備が加速する節目となるニュース。 :link: <https://nomadmovement.xyz/global-tech-digest-september-2026-eu-agentic-ai-rules-microsoft-copilot-workspace/|nomadmovement.xyz/global-tech-digest-sep...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789114657.667739",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789114657.667739",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789114657.667739",
+      "timestamp": "2026-09-11T08:17:37.667Z",
+      "detailBullets": [
+        "<@U0BBLLB4YE8> さん :birthday:Happy Birthday:birthday: 先日お誕生日でしたね！ おめでとうございます！ 良い一年になりますように:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789114657.667739",
+          "text": "<@U0BBLLB4YE8> さん :birthday:Happy Birthday:birthday: 先日お誕生日でしたね！ おめでとうございます！ 良い一年になりますように:sparkles:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789114657.667739",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BBLLB4YE8> さん :birthday:Happy Birthday:birthday: 先日お誕生日でしたね！ おめでとうございます！ 良い一年になりますように:sparkles:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789122063.121639",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789122063.121639",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789122063.121639",
+      "timestamp": "2026-09-11T10:21:03.121Z",
+      "detailBullets": [
+        "2026 Japan AWS Top Engineersの方がAWS導入においてAI使っているところと手動でやってるところ。 AWS Top Engineersレベルの人でも設計書、パラメーターシート作成はフォーマットとか図の差し込みとかあるから手動でやること多いと言っていてなんかちょっと安心。 逆に設計書、パラメーターシートの作成をAIでほぼ自動化みたいにできるようになると、めっちゃラクやと思います。AWSが公式のパラメーターシートの雛形出してくれたらそれが一番良いんだけど、無理か。。 <https://qiita.com/infra365/items/aa30a54fc6f0849385a7|https://qiita.com/infra365/items/aa30a54fc6f0849385a7>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789122063.121639",
+          "text": "2026 Japan AWS Top Engineersの方がAWS導入においてAI使っているところと手動でやってるところ。 AWS Top Engineersレベルの人でも設計書、パラメーターシート作成はフォーマットとか図の差し込みとかあるから手動でやること多いと言っていてなんかちょっと安心。 逆に設計書、パラメーターシートの作成をAIでほぼ自動化みたいにできるようになると、めっちゃラクやと思います。AWSが公式のパラメーターシートの雛形出してくれたらそれが一番良いんだけど、無理か。。 <https://qiita.com/infra365/items/aa30a54fc6f0849385a7|https://qiita.com/infra365/items/aa30a54fc6f0849385a7>",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789122063.121639",
+          "threadTs": null,
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "2026 Japan AWS Top Engineersの方がAWS導入においてAI使っているところと手動でやってるところ。 AWS Top Engineersレベルの人でも設計書、パラメーターシート作成はフォーマットとか図の差し込みとかあるから手動でやること多いと言っていてなんかちょっと安心。 逆に設計書、パラメーターシートの作成をAIでほぼ自動化みたいにできるようになると、めっちゃラクやと思います。AWSが公式のパラメーターシートの雛形出してくれたらそれが一番良いんだけど、無理か。。 <https://qiita.com/infra365/items/aa30a54fc6f0849385a7|https://qiita.com/infra365/items/aa30a54fc6f0849385a7>\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789132663.734649",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789132663.734649",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789132663.734649",
+      "timestamp": "2026-09-11T13:17:43.734Z",
+      "detailBullets": [
+        "<@U0APF134ZP1> 徳田先生、前から2列目、ど真ん中で羊文学の爆音を浴びてきました:bangbang: 最高過ぎました:pleading_face: 現場からは以上です:saluting_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789132663.734649",
+          "text": "<@U0APF134ZP1> 徳田先生、前から2列目、ど真ん中で羊文学の爆音を浴びてきました:bangbang: 最高過ぎました:pleading_face: 現場からは以上です:saluting_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789132663.734649",
+          "threadTs": "1789132663.734649",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APF134ZP1> 徳田先生、前から2列目、ど真ん中で羊文学の爆音を浴びてきました:bangbang: 最高過ぎました:pleading_face: 現場からは以上です:saluting_face:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789132925.257429",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:徳田健一",
+      "personName": "徳田健一",
+      "slackIds": [
+        "U0APF134ZP1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789132925.257429",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789132925.257429",
+      "timestamp": "2026-09-11T13:22:05.257Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 羨ましいからーー！！ 同時刻オフィスで爆音で聞いておりました。 burningを！ 良い夜ですね。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789132925.257429",
+          "text": "<@U09MM9KS06S> 羨ましいからーー！！ 同時刻オフィスで爆音で聞いておりました。 burningを！ 良い夜ですね。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789132925.257429",
+          "threadTs": "1789132663.734649",
+          "authorName": "徳田健一",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 羨ましいからーー！！ 同時刻オフィスで爆音で聞いておりました。 burningを！ 良い夜ですね。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789133330.983219",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789133330.983219",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789133330.983219",
+      "timestamp": "2026-09-11T13:28:50.983Z",
+      "detailBullets": [
+        "<@U0APF134ZP1> 徳田さんにもお声掛けしますので、大阪で参戦してください:+1: Burningはライブで聴くとめちゃくちゃいいですよ:bangbang: 今回はありませんでしたが、2年ぐらい前のライブの帰り道、みんな「Burningヤバかった」と口を揃えてました:raised_hands:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789133330.983219",
+          "text": "<@U0APF134ZP1> 徳田さんにもお声掛けしますので、大阪で参戦してください:+1: Burningはライブで聴くとめちゃくちゃいいですよ:bangbang: 今回はありませんでしたが、2年ぐらい前のライブの帰り道、みんな「Burningヤバかった」と口を揃えてました:raised_hands:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789133330.983219",
+          "threadTs": "1789132663.734649",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APF134ZP1> 徳田さんにもお声掛けしますので、大阪で参戦してください:+1: Burningはライブで聴くとめちゃくちゃいいですよ:bangbang: 今回はありませんでしたが、2年ぐらい前のライブの帰り道、みんな「Burningヤバかった」と口を揃えてました:raised_hands:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789166225.618219",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789166225.618219",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789166225.618219",
+      "timestamp": "2026-09-11T22:37:05.618Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> あらためて企画からチケット購入まで全て対応いただきありがとうございました！約束したのが半年前ぐらいですかね？ずっと楽しみにしてました！ まだ興奮が冷めないです:face_exhaling:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789166225.618219",
+          "text": "<@U09MM9KS06S> あらためて企画からチケット購入まで全て対応いただきありがとうございました！約束したのが半年前ぐらいですかね？ずっと楽しみにしてました！ まだ興奮が冷めないです:face_exhaling:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789166225.618219",
+          "threadTs": "1789132663.734649",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> あらためて企画からチケット購入まで全て対応いただきありがとうございました！約束したのが半年前ぐらいですかね？ずっと楽しみにしてました！ まだ興奮が冷めないです:face_exhaling:\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789168155.796779",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789168155.796779",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789168155.796779",
+      "timestamp": "2026-09-11T23:09:15.796Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-11_ 1. _GitHub Copilot コードレビュー 自動解決＆アンサンブルエージェント強化_ └ Copilotのコードレビューが大きく進化。コード提案を適用したコミットを検知し、対応済みコメントを自動解決。スマートなコミットメッセージも自動生成。アンサンブルエージェントの導入により、Liteエフォートレベルでも多角的・詳細なレビューが実現し、開発者が注目すべきフィードバックに集中しやすい環境に。 :link: <https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review/|github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review> 2. _Anthropic、Claude Enterprise向け「Smart Reports」βを本日開始..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789168155.796779",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-11_ 1. _GitHub Copilot コードレビュー 自動解決＆アンサンブルエージェント強化_ └ Copilotのコードレビューが大きく進化。コード提案を適用したコミットを検知し、対応済みコメントを自動解決。スマートなコミットメッセージも自動生成。アンサンブルエージェントの導入により、Liteエフォートレベルでも多角的・詳細なレビューが実現し、開発者が注目すべきフィードバックに集中しやすい環境に。 :link: <https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review/|github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review> 2. _Anthropic、Claude Enterprise向け「Smart Reports」βを本日開始_ └ チームのClaude利用状況を自動分析するSmart Reportsをβ版で提供開始（Enterprise限定）。実施した作業内容・コスト・セッション上のフリクション・反復パターンを可視化し、スキルとして共有すべきタスクを特定できる。チームのAI活用状況の把握・最適化ツールとして注目。 :link: <https://releasebot.io/updates/anthropic/clau...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789168155.796779",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-11_ 1. _GitHub Copilot コードレビュー 自動解決＆アンサンブルエージェント強化_ └ Copilotのコードレビューが大きく進化。コード提案を適用したコミットを検知し、対応済みコメントを自動解決。スマートなコミットメッセージも自動生成。アンサンブルエージェントの導入により、Liteエフォートレベルでも多角的・詳細なレビューが実現し、開発者が注目すべきフィードバックに集中しやすい環境に。 :link: <https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review/|github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review> 2. _Anthropic、Claude Enterprise向け「Smart Reports」βを本日開始_ └ チームのClaude利用状況を自動分析するSmart Reportsをβ版で提供開始（Enterprise限定）。実施した作業内容・コスト・セッション上のフリクション・反復パターンを可視化し、スキルとして共有すべきタスクを特定できる。チームのAI活用状況の把握・最適化ツールとして注目。 :link: <https://releasebot.io/updates/anthropic/claude|releasebot.io/updates/anthropic/claude> 3. _Cognition（Devin開発元）が$20億調達・評価額$480億・ARR$9億規模に急成長_ └ AIコーディングエージェント「Devin」を開発するCognitionが20億ドルを調達し、評価額が480億ドルに到達。Windsurf買収効果で売上が約半年で約2倍（$4.92億→$9億）の急成長。Nvidia・Citi・Mercedes-Benzなど大企業顧客を獲得し、AIコーディングエージェント市場でのリーダー的地位を確立。 :link: <https://hipther.com/news/2026/09/11/129962/ai-dispatch-daily-trends-and-innovations-september-11-2026-chinese-ai-labs-gemini-for-windows-gpt-li|hipther.com/news/…/ai-dispatch-daily-trends-and-innovations-september-11-2026-chin...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789177153.642909",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789177153.642909",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789177153.642909",
+      "timestamp": "2026-09-12T01:39:13.642Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> こちらこそ、昨日はありがとうございました:blush: まだ興奮冷めないとは:bangbang: お誘いしてホントによかったです:relaxed: かくいう僕もまだ余韻が残ってます:laughing: 戸塚さん、 <@U09QZF7KT2P> さんと、あの至近距離で羊文学渾身の曲の数々が聴けて、僕にとっても過去最高のライブ体験でした:pleading_face: > 約束したのが半年前ぐらいですかね？ そんなに前だったっけ？と思って履歴を見返したら、チケットが当選したのが3/29でした:flushed: 戸塚さん、記憶力よすぎです。笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789177153.642909",
+          "text": "<@U09MGUVJ8BV> こちらこそ、昨日はありがとうございました:blush: まだ興奮冷めないとは:bangbang: お誘いしてホントによかったです:relaxed: かくいう僕もまだ余韻が残ってます:laughing: 戸塚さん、 <@U09QZF7KT2P> さんと、あの至近距離で羊文学渾身の曲の数々が聴けて、僕にとっても過去最高のライブ体験でした:pleading_face: > 約束したのが半年前ぐらいですかね？ そんなに前だったっけ？と思って履歴を見返したら、チケットが当選したのが3/29でした:flushed: 戸塚さん、記憶力よすぎです。笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789177153.642909",
+          "threadTs": "1789132663.734649",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> こちらこそ、昨日はありがとうございました:blush: まだ興奮冷めないとは:bangbang: お誘いしてホントによかったです:relaxed: かくいう僕もまだ余韻が残ってます:laughing: 戸塚さん、 <@U09QZF7KT2P> さんと、あの至近距離で羊文学渾身の曲の数々が聴けて、僕にとっても過去最高のライブ体験でした:pleading_face: > 約束したのが半年前ぐらいですかね？ そんなに前だったっけ？と思って履歴を見返したら、チケットが当選したのが3/29でした:flushed: 戸塚さん、記憶力よすぎです。笑\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1789180503.615749",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1789180503.615749",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1789180503.615749",
+      "timestamp": "2026-09-12T02:35:03.615Z",
+      "detailBullets": [
+        "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.12）* を共有します。 今週のテーマは *「清水さん（<@U0B0XCRK6KW> ）の人脈から生まれたTOPPAN案件＆和田アキ子さん関連会社のHP受託と、15年越しの恩師との裏話」* です。 社員のリアルな成果と、代表・戸塚の原点にある「人間ドラマ」を凝縮してお届けします！ • *【清水光一さんの信頼関係からTOPPAN SI様との商談創出！】* 清水さんの長年のご縁からTOPPANシステムインテグレーション部長様との商談が実現！実際のSlackでのスピード感ある連携により、10月入社エンジニアの面談依頼までその場で決定しました。紹介の種を即座にトップへ繋いだ清水さんの「ビジネスセンスの嗅覚」に大感謝です！ • *【和田アキ子さんご夫妻の会社（エー・アンド・ケー様）のHP受託！】* 同社HPのフルリニューアル＆居酒屋「わだ家」HP保守を受託！AI駆動開発で爆速爆安で入り込み、真のIT課題を解決する「受託×SI」の強力なモデルケースとして展開していきます。 • *【..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1789180503.615749",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.12）* を共有します。 今週のテーマは *「清水さん（<@U0B0XCRK6KW> ）の人脈から生まれたTOPPAN案件＆和田アキ子さん関連会社のHP受託と、15年越しの恩師との裏話」* です。 社員のリアルな成果と、代表・戸塚の原点にある「人間ドラマ」を凝縮してお届けします！ • *【清水光一さんの信頼関係からTOPPAN SI様との商談創出！】* 清水さんの長年のご縁からTOPPANシステムインテグレーション部長様との商談が実現！実際のSlackでのスピード感ある連携により、10月入社エンジニアの面談依頼までその場で決定しました。紹介の種を即座にトップへ繋いだ清水さんの「ビジネスセンスの嗅覚」に大感謝です！ • *【和田アキ子さんご夫妻の会社（エー・アンド・ケー様）のHP受託！】* 同社HPのフルリニューアル＆居酒屋「わだ家」HP保守を受託！AI駆動開発で爆速爆安で入り込み、真のIT課題を解決する「受託×SI」の強力なモデルケースとして展開していきます。 • *【18歳の恩師から繋がった15年越しの縁〜これだから仕事は面白い〜】* 今回のご縁をくれたのは、18歳で飛び込み営業をやっていた頃の恩師・石田太一さん。20代前半の鞄持ちから現在まで、毎年会社の大掃除をし続けた石田さんの愚直な誠実さがアッコさんご夫妻の信頼を生み、Saitekiへ依頼をいただく物語に。「縁と誠実さ」が生む仕事の面白さを語っています！ ビジネスの成果と、胸が熱くなる人間ドラマが詰まった...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1789180503.615749",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.12）* を共有します。 今週のテーマは *「清水さん（<@U0B0XCRK6KW> ）の人脈から生まれたTOPPAN案件＆和田アキ子さん関連会社のHP受託と、15年越しの恩師との裏話」* です。 社員のリアルな成果と、代表・戸塚の原点にある「人間ドラマ」を凝縮してお届けします！ • *【清水光一さんの信頼関係からTOPPAN SI様との商談創出！】* 清水さんの長年のご縁からTOPPANシステムインテグレーション部長様との商談が実現！実際のSlackでのスピード感ある連携により、10月入社エンジニアの面談依頼までその場で決定しました。紹介の種を即座にトップへ繋いだ清水さんの「ビジネスセンスの嗅覚」に大感謝です！ • *【和田アキ子さんご夫妻の会社（エー・アンド・ケー様）のHP受託！】* 同社HPのフルリニューアル＆居酒屋「わだ家」HP保守を受託！AI駆動開発で爆速爆安で入り込み、真のIT課題を解決する「受託×SI」の強力なモデルケースとして展開していきます。 • *【18歳の恩師から繋がった15年越しの縁〜これだから仕事は面白い〜】* 今回のご縁をくれたのは、18歳で飛び込み営業をやっていた頃の恩師・石田太一さん。20代前半の鞄持ちから現在まで、毎年会社の大掃除をし続けた石田さんの愚直な誠実さがアッコさんご夫妻の信頼を生み、Saitekiへ依頼をいただく物語に。「縁と誠実さ」が生む仕事の面白さを語っています！ ビジネスの成果と、胸が熱くなる人間ドラマが詰まった内容です。ぜひ週末にチェックしてみてください！ ▼ Letter of T | 今週の記録（2026.09.12） <https://app.notion.com/p/Letter-of-T-2026-09-12-3d8dfb42679c80039963fc47e6bb1c56|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789183126.945629",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789183126.945629",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789183126.945629",
+      "timestamp": "2026-09-12T03:18:46.945Z",
+      "detailBullets": [
+        "<@U0APF134ZP1> <@U09MGUVJ8BV> <@U09QZF7KT2P> 【悲報】 ツアーTシャツ、全種類売り切れてます… びっくり…早すぎんか… <https://hitsujibungaku-store.jp/|https://hitsujibungaku-store.jp/>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789183126.945629",
+          "text": "<@U0APF134ZP1> <@U09MGUVJ8BV> <@U09QZF7KT2P> 【悲報】 ツアーTシャツ、全種類売り切れてます… びっくり…早すぎんか… <https://hitsujibungaku-store.jp/|https://hitsujibungaku-store.jp/>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789183126.945629",
+          "threadTs": "1789132663.734649",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APF134ZP1> <@U09MGUVJ8BV> <@U09QZF7KT2P> 【悲報】 ツアーTシャツ、全種類売り切れてます… びっくり…早すぎんか… <https://hitsujibungaku-store.jp/|https://hitsujibungaku-store.jp/>\nソーシャル\nEngineer"
     }
   ]
 }
