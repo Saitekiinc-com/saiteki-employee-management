@@ -3125,5 +3125,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0C03MRFE81"
+  },
+  {
+    "name": "鈴木 結捺",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-09-14T04:17:03.060Z",
+    "updatedAt": "2026-09-14T04:17:03.060Z",
+    "last_updated": "2026-09-14T04:17:03.060Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0C0XDW4L1G"
   }
 ]

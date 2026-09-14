@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-12T03:59:42.997Z",
+  "generatedAt": "2026-09-14T04:17:10.072Z",
   "channelCount": 15,
-  "totalMessages": 3215,
+  "totalMessages": 3221,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -21449,11 +21449,71 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1789218245.297409",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "ひょんなきっかけで映画ちいかわを、小4の娘と見てきました。 ※長男と妻はキングダムを見てました。笑 いやはや、あれは小さい子は泣きますよw セイレーンがメンタルを削る怖さ。 娘も怖かった、でもセイレーンは好きだと言ってました。 ナガノは、ちいかわの世界を通して善と悪や利害が割り切れない大人の世界を描きたかったのかなあ、と感じました。 結果的にそれが大人を惹きつけ、マーケティングになっているのかな、と。 後味が若干よくないので、好みが分かれるかなあと感じましたが、島二郎とうさぎが大活躍するので、うさぎ推しの方にはオススメかな:laughing: <https://saiteki-hq.slack.com/archives/C09N28KTKL1/p1785218440254029>",
+          "rawText": "ひょんなきっかけで映画ちいかわを、小4の娘と見てきました。\n※長男と妻はキングダムを見てました。笑\n\nいやはや、あれは小さい子は泣きますよw\nセイレーンがメンタルを削る怖さ。\n娘も怖かった、でもセイレーンは好きだと言ってました。\n\nナガノは、ちいかわの世界を通して善と悪や利害が割り切れない大人の世界を描きたかったのかなあ、と感じました。\n結果的にそれが大人を惹きつけ、マーケティングになっているのかな、と。\n\n後味が若干よくないので、好みが分かれるかなあと感じましたが、島二郎とうさぎが大活躍するので、うさぎ推しの方にはオススメかな:laughing:\n<https://saiteki-hq.slack.com/archives/C09N28KTKL1/p1785218440254029> ",
+          "messageTs": "1789218245.297409",
+          "threadTs": "1789218245.297409",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-12",
+          "timestamp": "2026-09-12T13:04:05.297Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1789296725.641029",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09NHL467U0",
+          "userName": "上遼太郎",
+          "userRealName": "上遼太郎",
+          "text": "<@U09MM9KS06S> 同級生の友達がものすごく推し活をしてフィギュア集めたりしてるんですが、 田浦さんも見たのであれば 真剣に見てみようかと思ってきました:thinking_face::thinking_face:",
+          "rawText": "<@U09MM9KS06S> \n同級生の友達がものすごく推し活をしてフィギュア集めたりしてるんですが、\n田浦さんも見たのであれば\n真剣に見てみようかと思ってきました:thinking_face::thinking_face:\n",
+          "messageTs": "1789296725.641029",
+          "threadTs": "1789218245.297409",
+          "parentUserId": "U09MM9KS06S",
+          "subtype": null,
+          "date": "2026-09-13",
+          "timestamp": "2026-09-13T10:52:05.641Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1789310314.668369",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "<@U09NHL467U0> 上映が終わる前にぜひ見てみて下さい:laughing: しゃべるキャラがほとんどいないのに物語が成立してる、という斬新さも見どころのひとつかもしれませんw",
+          "rawText": "<@U09NHL467U0> \n上映が終わる前にぜひ見てみて下さい:laughing:\nしゃべるキャラがほとんどいないのに物語が成立してる、という斬新さも見どころのひとつかもしれませんw",
+          "messageTs": "1789310314.668369",
+          "threadTs": "1789218245.297409",
+          "parentUserId": "U09MM9KS06S",
+          "subtype": null,
+          "date": "2026-09-13",
+          "timestamp": "2026-09-13T14:38:34.668Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 1072,
+      "messageCount": 1075,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-09-12"
+      "lastDate": "2026-09-13"
     },
     {
       "id": "C098RT3NRT2",
@@ -44131,11 +44191,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1789342119.843409",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0C0XDW4L1G",
+          "userName": "鈴木 結捺",
+          "userRealName": "鈴木 結捺",
+          "text": "はじめまして。 11月入社予定の鈴木 結捺(すずき ゆいな)と申します。 ◾︎出身 愛知県 ◾︎経歴 これまで約5年間、給与・勤怠システム等の導入支援に携わり、お客様へのヒアリングや要件確認から、システム設定、テスト、本番稼働、導入後の運用定着まで一貫して担当してきました。 その後、社内SEとなり、基幹・業務システムの運用管理や業務改善を担当しています。業務フローの見直しやデータ連携・自動化など、課題の整理から改善案の提案・実装まで取り組んできました。 ◾︎趣味 ・ディズニー パークはもちろん、音楽も好きでよく聴いています。 ・トロンボーン 吹くのも聴くのも好きです！ ・ポケモン 「ぽこあポケモン」にハマっています。エネコが1番好きです。 ・カフェ巡り 旅行先でカフェを見つけてふらっと入るのが好きです。コーヒーが美味しいお店だとうれしいです^^ ◾︎ひとこと これまでの経験を活かしてスキルを伸ばしつつ、新しいこともたくさん吸収していきたいと考えています。 1日でも早く貢献できるよう努めてまいります。 これからよろしくお願いします！",
+          "rawText": "はじめまして。\n11月入社予定の鈴木 結捺(すずき ゆいな)と申します。\n◾︎出身\n愛知県\n◾︎経歴\nこれまで約5年間、給与・勤怠システム等の導入支援に携わり、お客様へのヒアリングや要件確認から、システム設定、テスト、本番稼働、導入後の運用定着まで一貫して担当してきました。\nその後、社内SEとなり、基幹・業務システムの運用管理や業務改善を担当しています。業務フローの見直しやデータ連携・自動化など、課題の整理から改善案の提案・実装まで取り組んできました。\n◾︎趣味\n・ディズニー\n　パークはもちろん、音楽も好きでよく聴いています。\n・トロンボーン\n　吹くのも聴くのも好きです！\n・ポケモン\n　「ぽこあポケモン」にハマっています。エネコが1番好きです。\n・カフェ巡り\n　旅行先でカフェを見つけてふらっと入るのが好きです。コーヒーが美味しいお店だとうれしいです^^\n◾︎ひとこと\nこれまでの経験を活かしてスキルを伸ばしつつ、新しいこともたくさん吸収していきたいと考えています。\n1日でも早く貢献できるよう努めてまいります。\nこれからよろしくお願いします！",
+          "messageTs": "1789342119.843409",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-13",
+          "timestamp": "2026-09-13T23:28:39.843Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 482,
+      "messageCount": 483,
       "firstDate": "2025-11-02",
-      "lastDate": "2026-09-08"
+      "lastDate": "2026-09-13"
     },
     {
       "id": "C09MKT8QKAR",
@@ -57373,11 +57453,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1789254443.494859",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-12_ 1. _Cursor、大規模プロジェクト管理機能「Projects」ベータ公開_ └ Cursorがクラウド上で動作する新機能「Projects」をベータ公開。数ヶ月にわたるコンテキスト保持・数千のサブエージェントへのタスク委任・Slack/スケジュール/PRなど外部シグナル連動が可能。機能追加・マイグレーション・フルアプリ開発などの大規模作業向け。 :link: <https://cursor.com/changelog|cursor.com/changelog> 2. _Claude Code v2.1.269 リリース_ └ `claude plugin eval`コマンド追加（プラグインのevalスイートをJSON+HTMLレポートで実行・採点）、`/output-style`コマンドでリモートコントロール含む全セッションで出力スタイルを切替可能に。Bashツールがファイル編集を行った場合の差分をツール結果に追加する`bashEditDiffEnabled`設定も追加。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 3. _GitHub Copilot：VS Code エージェント利用統計が正式 GA_ └ エンタープライズ・組織レベルでのCopilotエージェント利用状況のトラッキングが正式GA。日次・28日間の利用統計、ユーザーレベルの利用有無・会話ボリュームを追跡可能に。大規模チームでのAI活用実態把握が容易になる。 :link: <https://github.blog/changelog/month/09-2026/|github.blog/changelog/month/09-2026> 4. _〖AI News まとめ〗生成AI ニュースレポート — 2026-09-12（Qiita）_ └ 本日の生成AI・AI駆動開発関連ニュースのデイリーまとめ。Claude Fable 5.1のClaude Codeへのデフォルトモデル追加・GitLab CVE-2026-85706（CVSS 10.0）セキュリティ脆弱性のAI開発環境への影響など幅広く収録。 :link: <https://qiita.com/aakan/items/2e1c5f4cfe40dbb74fb3|qiita.com/aakan/items/…> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-12_\n\n1. _Cursor、大規模プロジェクト管理機能「Projects」ベータ公開_\n└ Cursorがクラウド上で動作する新機能「Projects」をベータ公開。数ヶ月にわたるコンテキスト保持・数千のサブエージェントへのタスク委任・Slack/スケジュール/PRなど外部シグナル連動が可能。機能追加・マイグレーション・フルアプリ開発などの大規模作業向け。\n:link: <https://cursor.com/changelog|cursor.com/changelog>\n2. _Claude Code v2.1.269 リリース_\n└ `claude plugin eval`コマンド追加（プラグインのevalスイートをJSON+HTMLレポートで実行・採点）、`/output-style`コマンドでリモートコントロール含む全セッションで出力スタイルを切替可能に。Bashツールがファイル編集を行った場合の差分をツール結果に追加する`bashEditDiffEnabled`設定も追加。\n:link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog>\n3. _GitHub Copilot：VS Code エージェント利用統計が正式 GA_\n└ エンタープライズ・組織レベルでのCopilotエージェント利用状況のトラッキングが正式GA。日次・28日間の利用統計、ユーザーレベルの利用有無・会話ボリュームを追跡可能に。大規模チームでのAI活用実態把握が容易になる。\n:link: <https://github.blog/changelog/month/09-2026/|github.blog/changelog/month/09-2026>\n4. _〖AI News まとめ〗生成AI ニュースレポート — 2026-09-12（Qiita）_\n└ 本日の生成AI・AI駆動開発関連ニュースのデイリーまとめ。Claude Fable 5.1のClaude Codeへのデフォルトモデル追加・GitLab CVE-2026-85706（CVSS 10.0）セキュリティ脆弱性のAI開発環境への影響など幅広く収録。\n:link: <https://qiita.com/aakan/items/2e1c5f4cfe40dbb74fb3|qiita.com/aakan/items/…> *使用して送信されました* Claude",
+          "messageTs": "1789254443.494859",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-12",
+          "timestamp": "2026-09-12T23:07:23.494Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1789340923.082089",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-13_ 1. _Claude Code +50%週次利用制限プロモーション、本日9/13で終了—9/14から恒常的に+25%へ_ └ 2026年5月13日から実施されていた Claude Code の週次利用制限+50%キャンペーンが本日（9月13日 23:59 PT）をもって終了。対象は Pro/Max/Team/旧シート制 Enterprise プラン。9/14からは恒常的に従来比+25%に変更となるため、現行プロモ比では実質 _17%の利用制限減少_ となる。5時間制限は影響なし。 :link: <https://qcode.cc/en/claude-weekly-limit-september-2026|qcode.cc/en/claude-weekly-limit-september-2026> 2. _Anthropic CEO アモデイ氏、AI開発ペース調整を求める3,800字のエッセイを公開—OpenAI CEO らも賛同_ └ Dario Amodei CEOが9/12に「最先端AIモデルの能力向上ペースを落とすべき」と主張するエッセイを公開。①第三者機関によるAIモデル評価、②業界標準の策定、③各国政府による規制化—の3点を提案し、Anthropic が先行適用すると宣言。OpenAI の Sam Altman 氏と Elon Musk 氏も賛意を表明。元 Anthropic 研究者による「最先端AIが人類を滅ぼす可能性」の公開書簡が背景にある。 :link: <https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/|techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier> 3. _GitHub Copilot 週次アップデート（9/7〜13）：音声モード実験的追加・Jira 連携・Agents ウィンドウで Issue/PR 参照_ └ 今週の Copilot アップデートで音声でCopilotに指示・中断・方向転換できる「Voice Mode」が実験的機能として追加。Jira 連携が Copilot アプリに統合され、リポジトリ未オープンの状態でも Agents ウィンドウから GitHub Issue/PR 詳細を直接参照できる機能（実験的）も追加。コードレビューの自動解決分析も強化。 :link: <https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/|github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7> 4. _週刊まとめ：Claude Code・Codex・Gemini CLI の最新動向（9/13 週）_ └ Claude Code、OpenAI Codex、Google Gemini CLI の今週の変化点を横断比較した英語記事。Claude Code の週次制限プロモ終了・plugin eval コマンド追加・/output-style 切替対応、Codex・Gemini CLI の直近アップデートをあわせて把握できる一本。 :link: <https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-13-2026-1ob5|dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-13-2026…> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-13_\n\n1. _Claude Code +50%週次利用制限プロモーション、本日9/13で終了—9/14から恒常的に+25%へ_\n└ 2026年5月13日から実施されていた Claude Code の週次利用制限+50%キャンペーンが本日（9月13日 23:59 PT）をもって終了。対象は Pro/Max/Team/旧シート制 Enterprise プラン。9/14からは恒常的に従来比+25%に変更となるため、現行プロモ比では実質 _17%の利用制限減少_ となる。5時間制限は影響なし。\n:link: <https://qcode.cc/en/claude-weekly-limit-september-2026|qcode.cc/en/claude-weekly-limit-september-2026>\n2. _Anthropic CEO アモデイ氏、AI開発ペース調整を求める3,800字のエッセイを公開—OpenAI CEO らも賛同_\n└ Dario Amodei CEOが9/12に「最先端AIモデルの能力向上ペースを落とすべき」と主張するエッセイを公開。①第三者機関によるAIモデル評価、②業界標準の策定、③各国政府による規制化—の3点を提案し、Anthropic が先行適用すると宣言。OpenAI の Sam Altman 氏と Elon Musk 氏も賛意を表明。元 Anthropic 研究者による「最先端AIが人類を滅ぼす可能性」の公開書簡が背景にある。\n:link: <https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/|techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier>\n3. _GitHub Copilot 週次アップデート（9/7〜13）：音声モード実験的追加・Jira 連携・Agents ウィンドウで Issue/PR 参照_\n└ 今週の Copilot アップデートで音声でCopilotに指示・中断・方向転換できる「Voice Mode」が実験的機能として追加。Jira 連携が Copilot アプリに統合され、リポジトリ未オープンの状態でも Agents ウィンドウから GitHub Issue/PR 詳細を直接参照できる機能（実験的）も追加。コードレビューの自動解決分析も強化。\n:link: <https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/|github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7>\n4. _週刊まとめ：Claude Code・Codex・Gemini CLI の最新動向（9/13 週）_\n└ Claude Code、OpenAI Codex、Google Gemini CLI の今週の変化点を横断比較した英語記事。Claude Code の週次制限プロモ終了・plugin eval コマンド追加・/output-style 切替対応、Codex・Gemini CLI の直近アップデートをあわせて把握できる一本。\n:link: <https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-13-2026-1ob5|dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-13-2026…> *使用して送信されました* Claude",
+          "messageTs": "1789340923.082089",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-13",
+          "timestamp": "2026-09-13T23:08:43.082Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 295,
+      "messageCount": 297,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-09-11"
+      "lastDate": "2026-09-13"
     },
     {
       "id": "C0AARGDBC3V",
