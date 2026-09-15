@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-14T04:17:03.313Z",
+  "generatedAt": "2026-09-15T04:16:57.137Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -101774,6 +101774,179 @@
         }
       ],
       "searchText": "はじめまして。 11月入社予定の鈴木 結捺(すずき ゆいな)と申します。 ◾︎出身 愛知県 ◾︎経歴 これまで約5年間、給与・勤怠システム等の導入支援に携わり、お客様へのヒアリングや要件確認から、システム設定、テスト、本番稼働、導入後の運用定着まで一貫して担当してきました。 その後、社内SEとなり、基幹・業務システムの運用管理や業務改善を担当しています。業務フローの見直しやデータ連携・自動化など、課題の整理から改善案の提案・実装まで取り組んできました。 ◾︎趣味 ・ディズニー パークはもちろん、音楽も好きでよく聴いています。 ・トロンボーン 吹くのも聴くのも好きです！ ・ポケモン 「ぽこあポケモン」にハマっています。エネコが1番好きです。 ・カフェ巡り 旅行先でカフェを見つけてふらっと入るのが好きです。コーヒーが美味しいお店だとうれしいです^^ ◾︎ひとこと これまでの経験を活かしてスキルを伸ばしつつ、新しいこともたくさん吸収していきたいと考えています。 1日でも早く貢献できるよう努めてまいります。 これからよろしくお願いします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789378276.326889",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789378276.326889",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789378276.326889",
+      "timestamp": "2026-09-14T09:31:16.326Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 本気で見てみます:star-struck::star-struck:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789378276.326889",
+          "text": "<@U09MM9KS06S> 本気で見てみます:star-struck::star-struck:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789378276.326889",
+          "threadTs": "1789218245.297409",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 本気で見てみます:star-struck::star-struck:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789380605.956349",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789380605.956349",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789380605.956349",
+      "timestamp": "2026-09-14T10:10:05.956Z",
+      "detailBullets": [
+        "<@U09NHL467U0> ぜひ！ しーさーがめちゃくちゃかわいくて、癒されますよ:star-struck:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789380605.956349",
+          "text": "<@U09NHL467U0> ぜひ！ しーさーがめちゃくちゃかわいくて、癒されますよ:star-struck:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789380605.956349",
+          "threadTs": "1789218245.297409",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL467U0> ぜひ！ しーさーがめちゃくちゃかわいくて、癒されますよ:star-struck:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1789386031.781189",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:太田圭祐",
+      "personName": "太田圭祐",
+      "slackIds": [
+        "U0C1L6X14CA"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1789386031.781189",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1789386031.781189",
+      "timestamp": "2026-09-14T11:40:31.781Z",
+      "detailBullets": [
+        "はじめまして。 12月入社予定の太田圭祐（おおた けいすけ）と申します。 ■出身 佐賀出身、福岡在住 ■経歴 これまで薬局事務、コンビニ店舗運営、人事労務、そして情報システム担当として幅広い業務に携わってきました。 特に情報システム領域では、業務自動化やITポリシー策定、セキュリティ対策、PCキッティング、サービスデスク立ち上げなど、運用と改善の両面で経験を積んでいます。 ■趣味 ・飲酒 ・DJ ■ひとこと 社内SEとして業務改善とIT運用を中心に経験してきました。 プログラミングは基礎のみですが、ノーコード・ローコードやAIを活用した効率化を得意としています。 新しい技術も吸収しながら早期に貢献していきます。 これからよろしくお願いします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1789386031.781189",
+          "text": "はじめまして。 12月入社予定の太田圭祐（おおた けいすけ）と申します。 ■出身 佐賀出身、福岡在住 ■経歴 これまで薬局事務、コンビニ店舗運営、人事労務、そして情報システム担当として幅広い業務に携わってきました。 特に情報システム領域では、業務自動化やITポリシー策定、セキュリティ対策、PCキッティング、サービスデスク立ち上げなど、運用と改善の両面で経験を積んでいます。 ■趣味 ・飲酒 ・DJ ■ひとこと 社内SEとして業務改善とIT運用を中心に経験してきました。 プログラミングは基礎のみですが、ノーコード・ローコードやAIを活用した効率化を得意としています。 新しい技術も吸収しながら早期に貢献していきます。 これからよろしくお願いします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1789386031.781189",
+          "threadTs": null,
+          "authorName": "太田圭祐",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして。 12月入社予定の太田圭祐（おおた けいすけ）と申します。 ■出身 佐賀出身、福岡在住 ■経歴 これまで薬局事務、コンビニ店舗運営、人事労務、そして情報システム担当として幅広い業務に携わってきました。 特に情報システム領域では、業務自動化やITポリシー策定、セキュリティ対策、PCキッティング、サービスデスク立ち上げなど、運用と改善の両面で経験を積んでいます。 ■趣味 ・飲酒 ・DJ ■ひとこと 社内SEとして業務改善とIT運用を中心に経験してきました。 プログラミングは基礎のみですが、ノーコード・ローコードやAIを活用した効率化を得意としています。 新しい技術も吸収しながら早期に貢献していきます。 これからよろしくお願いします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789427406.279729",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789427406.279729",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789427406.279729",
+      "timestamp": "2026-09-14T23:10:06.279Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-14_ 1. _ソニー銀行と富士通、勘定系システム開発に生成AIを本格適用—工数40%削減・開発期間30%短縮_ └ 2025年9月から適用を開始し、Amazon Bedrock上のClaudeなどを活用。基本設計〜結合テストまで工数40%削減・開発期間30%短縮を達成。製造工程のソースコード生成率99%、結合テスト工程でテスト実行工数最大90%削減など各工程で大幅な効率化を実現した。生成AIを単独ツールとしてではなく、設計書・ソースコード・テスト資産を工程横断で活用し開発プロセス全体を変革した事例として注目。 :link: <https://enterprisezine.jp/news/detail/25073|enterprisezine.jp/news/detail/25073> 2. _GitHub Copilot、9月28日に大規模ポリシー変更—コードレビューデフォルト変更・チャット永続保存など管理者は要確認_ └ 9/28からコードレビューのデフォルトが Lite→Balanced に変更（より深いレビ..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789427406.279729",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-14_ 1. _ソニー銀行と富士通、勘定系システム開発に生成AIを本格適用—工数40%削減・開発期間30%短縮_ └ 2025年9月から適用を開始し、Amazon Bedrock上のClaudeなどを活用。基本設計〜結合テストまで工数40%削減・開発期間30%短縮を達成。製造工程のソースコード生成率99%、結合テスト工程でテスト実行工数最大90%削減など各工程で大幅な効率化を実現した。生成AIを単独ツールとしてではなく、設計書・ソースコード・テスト資産を工程横断で活用し開発プロセス全体を変革した事例として注目。 :link: <https://enterprisezine.jp/news/detail/25073|enterprisezine.jp/news/detail/25073> 2. _GitHub Copilot、9月28日に大規模ポリシー変更—コードレビューデフォルト変更・チャット永続保存など管理者は要確認_ └ 9/28からコードレビューのデフォルトが Lite→Balanced に変更（より深いレビューでコスト増）。Copilot Chatのデータが28日間削除→アカウント期間中永続保存に。課金ポリシーも刷新（新規シートは即時前払い必須に）。希望するデフォルト設定がある場合は9/28までに明示的に変更が必要。Business/Enterprise管理者は期限前に設定確認を推奨。 :link: <https://note.com/aitrendlab/n/nfff02f850a1f|note....",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789427406.279729",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-14_ 1. _ソニー銀行と富士通、勘定系システム開発に生成AIを本格適用—工数40%削減・開発期間30%短縮_ └ 2025年9月から適用を開始し、Amazon Bedrock上のClaudeなどを活用。基本設計〜結合テストまで工数40%削減・開発期間30%短縮を達成。製造工程のソースコード生成率99%、結合テスト工程でテスト実行工数最大90%削減など各工程で大幅な効率化を実現した。生成AIを単独ツールとしてではなく、設計書・ソースコード・テスト資産を工程横断で活用し開発プロセス全体を変革した事例として注目。 :link: <https://enterprisezine.jp/news/detail/25073|enterprisezine.jp/news/detail/25073> 2. _GitHub Copilot、9月28日に大規模ポリシー変更—コードレビューデフォルト変更・チャット永続保存など管理者は要確認_ └ 9/28からコードレビューのデフォルトが Lite→Balanced に変更（より深いレビューでコスト増）。Copilot Chatのデータが28日間削除→アカウント期間中永続保存に。課金ポリシーも刷新（新規シートは即時前払い必須に）。希望するデフォルト設定がある場合は9/28までに明示的に変更が必要。Business/Enterprise管理者は期限前に設定確認を推奨。 :link: <https://note.com/aitrendlab/n/nfff02f850a1f|note.com/aitrendlab/n/…> 3. _GitHub CopilotがPull Requestの承認者になれるように—ブランチ保護ルールへの影響は？_ └ GitHub CopilotがPR承認機能を正式に取得。AIエージェントがブランチ保護ルールの「必要な承認数」を満たせるかどうかというガバナンス上の新課題が浮上。チームのコードレビューポリシーとAI承認の位置づけを整理する必要がある。Copilotを承認者として認めるかどうかをリポジトリ・組織レベルで設定可能。 :link: <https://dev.to/pwd9000/copilot-can-now-approve-pull-requests-should-it-count-toward-your-branch-protection-2b78|dev.to/pwd9000/copilot-can-now-approve-pull-requests-should-it-count-toward-your-branch-protection…> 4. _Claude Code v2.1.270リリース—長時間セッションでのB...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1789427713.991129",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:南野文希",
+      "personName": "南野文希",
+      "slackIds": [
+        "U0C16B96J8P"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1789427713.991129",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1789427713.991129",
+      "timestamp": "2026-09-14T23:15:13.991Z",
+      "detailBullets": [
+        "はじめまして！ 10〜11月入社予定の南野 文希 (みなみの ふみき)と申します。 :white_medium_small_square:出身 大阪府出身、大阪府在住です。 :white_medium_small_square:経歴 自動車の電動パーキングブレーキ（EPB）のテスト業務を経験した後、現在は Azure のカスタマーサポート業務にて、Azure 機能の仕様およびトラブルシューティングに関する対応を行っています。 :white_medium_small_square:趣味 映画鑑賞、その他探し中です。 :white_medium_small_square:ひとこと 今後はクラウドエンジニアを目指し、インフラ業務の実務経験を積みながらスキルアップし、身につけた知識や経験を活かして貢献していきたいと考えています。これからよろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1789427713.991129",
+          "text": "はじめまして！ 10〜11月入社予定の南野 文希 (みなみの ふみき)と申します。 :white_medium_small_square:出身 大阪府出身、大阪府在住です。 :white_medium_small_square:経歴 自動車の電動パーキングブレーキ（EPB）のテスト業務を経験した後、現在は Azure のカスタマーサポート業務にて、Azure 機能の仕様およびトラブルシューティングに関する対応を行っています。 :white_medium_small_square:趣味 映画鑑賞、その他探し中です。 :white_medium_small_square:ひとこと 今後はクラウドエンジニアを目指し、インフラ業務の実務経験を積みながらスキルアップし、身につけた知識や経験を活かして貢献していきたいと考えています。これからよろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1789427713.991129",
+          "threadTs": null,
+          "authorName": "南野文希",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして！ 10〜11月入社予定の南野 文希 (みなみの ふみき)と申します。 :white_medium_small_square:出身 大阪府出身、大阪府在住です。 :white_medium_small_square:経歴 自動車の電動パーキングブレーキ（EPB）のテスト業務を経験した後、現在は Azure のカスタマーサポート業務にて、Azure 機能の仕様およびトラブルシューティングに関する対応を行っています。 :white_medium_small_square:趣味 映画鑑賞、その他探し中です。 :white_medium_small_square:ひとこと 今後はクラウドエンジニアを目指し、インフラ業務の実務経験を積みながらスキルアップし、身につけた知識や経験を活かして貢献していきたいと考えています。これからよろしくお願いいたします。\n自己紹介\nOther"
     }
   ]
 }

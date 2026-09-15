@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-14T04:17:10.072Z",
+  "generatedAt": "2026-09-15T04:17:02.777Z",
   "channelCount": 15,
-  "totalMessages": 3221,
+  "totalMessages": 3226,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -21509,11 +21509,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1789378276.326889",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09NHL467U0",
+          "userName": "上遼太郎",
+          "userRealName": "上遼太郎",
+          "text": "<@U09MM9KS06S> 本気で見てみます:star-struck::star-struck:",
+          "rawText": "<@U09MM9KS06S> \n本気で見てみます:star-struck::star-struck:",
+          "messageTs": "1789378276.326889",
+          "threadTs": "1789218245.297409",
+          "parentUserId": "U09MM9KS06S",
+          "subtype": null,
+          "date": "2026-09-14",
+          "timestamp": "2026-09-14T09:31:16.326Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1789380605.956349",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "<@U09NHL467U0> ぜひ！ しーさーがめちゃくちゃかわいくて、癒されますよ:star-struck:",
+          "rawText": "<@U09NHL467U0> \nぜひ！\nしーさーがめちゃくちゃかわいくて、癒されますよ:star-struck:",
+          "messageTs": "1789380605.956349",
+          "threadTs": "1789218245.297409",
+          "parentUserId": "U09MM9KS06S",
+          "subtype": null,
+          "date": "2026-09-14",
+          "timestamp": "2026-09-14T10:10:05.956Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 1075,
+      "messageCount": 1077,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-09-13"
+      "lastDate": "2026-09-14"
     },
     {
       "id": "C098RT3NRT2",
@@ -44211,11 +44251,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1789386031.781189",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0C1L6X14CA",
+          "userName": "太田圭祐",
+          "userRealName": "太田圭祐",
+          "text": "はじめまして。 12月入社予定の太田圭祐（おおた けいすけ）と申します。 ■出身 佐賀出身、福岡在住 ■経歴 これまで薬局事務、コンビニ店舗運営、人事労務、そして情報システム担当として幅広い業務に携わってきました。 特に情報システム領域では、業務自動化やITポリシー策定、セキュリティ対策、PCキッティング、サービスデスク立ち上げなど、運用と改善の両面で経験を積んでいます。 ■趣味 ・飲酒 ・DJ ■ひとこと 社内SEとして業務改善とIT運用を中心に経験してきました。 プログラミングは基礎のみですが、ノーコード・ローコードやAIを活用した効率化を得意としています。 新しい技術も吸収しながら早期に貢献していきます。 これからよろしくお願いします。",
+          "rawText": "はじめまして。\n12月入社予定の太田圭祐（おおた けいすけ）と申します。\n■出身\n佐賀出身、福岡在住\n■経歴\nこれまで薬局事務、コンビニ店舗運営、人事労務、そして情報システム担当として幅広い業務に携わってきました。\n特に情報システム領域では、業務自動化やITポリシー策定、セキュリティ対策、PCキッティング、サービスデスク立ち上げなど、運用と改善の両面で経験を積んでいます。\n■趣味\n・飲酒\n・DJ\n■ひとこと\n社内SEとして業務改善とIT運用を中心に経験してきました。\nプログラミングは基礎のみですが、ノーコード・ローコードやAIを活用した効率化を得意としています。\n新しい技術も吸収しながら早期に貢献していきます。\nこれからよろしくお願いします。",
+          "messageTs": "1789386031.781189",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-14",
+          "timestamp": "2026-09-14T11:40:31.781Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1789427713.991129",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0C16B96J8P",
+          "userName": "南野文希",
+          "userRealName": "南野文希",
+          "text": "はじめまして！ 10〜11月入社予定の南野 文希 (みなみの ふみき)と申します。 :white_medium_small_square:出身 大阪府出身、大阪府在住です。 :white_medium_small_square:経歴 自動車の電動パーキングブレーキ（EPB）のテスト業務を経験した後、現在は Azure のカスタマーサポート業務にて、Azure 機能の仕様およびトラブルシューティングに関する対応を行っています。 :white_medium_small_square:趣味 映画鑑賞、その他探し中です。 :white_medium_small_square:ひとこと 今後はクラウドエンジニアを目指し、インフラ業務の実務経験を積みながらスキルアップし、身につけた知識や経験を活かして貢献していきたいと考えています。これからよろしくお願いいたします。",
+          "rawText": "はじめまして！\n\n10〜11月入社予定の南野 文希 (みなみの ふみき)と申します。\n\n:white_medium_small_square:出身\n大阪府出身、大阪府在住です。\n\n:white_medium_small_square:経歴\n自動車の電動パーキングブレーキ（EPB）のテスト業務を経験した後、現在は Azure のカスタマーサポート業務にて、Azure 機能の仕様およびトラブルシューティングに関する対応を行っています。\n\n:white_medium_small_square:趣味\n映画鑑賞、その他探し中です。\n\n:white_medium_small_square:ひとこと\n今後はクラウドエンジニアを目指し、インフラ業務の実務経験を積みながらスキルアップし、身につけた知識や経験を活かして貢献していきたいと考えています。これからよろしくお願いいたします。",
+          "messageTs": "1789427713.991129",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-14",
+          "timestamp": "2026-09-14T23:15:13.991Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 483,
+      "messageCount": 485,
       "firstDate": "2025-11-02",
-      "lastDate": "2026-09-13"
+      "lastDate": "2026-09-14"
     },
     {
       "id": "C09MKT8QKAR",
@@ -57493,11 +57573,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1789427406.279729",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-14_ 1. _ソニー銀行と富士通、勘定系システム開発に生成AIを本格適用—工数40%削減・開発期間30%短縮_ └ 2025年9月から適用を開始し、Amazon Bedrock上のClaudeなどを活用。基本設計〜結合テストまで工数40%削減・開発期間30%短縮を達成。製造工程のソースコード生成率99%、結合テスト工程でテスト実行工数最大90%削減など各工程で大幅な効率化を実現した。生成AIを単独ツールとしてではなく、設計書・ソースコード・テスト資産を工程横断で活用し開発プロセス全体を変革した事例として注目。 :link: <https://enterprisezine.jp/news/detail/25073|enterprisezine.jp/news/detail/25073> 2. _GitHub Copilot、9月28日に大規模ポリシー変更—コードレビューデフォルト変更・チャット永続保存など管理者は要確認_ └ 9/28からコードレビューのデフォルトが Lite→Balanced に変更（より深いレビューでコスト増）。Copilot Chatのデータが28日間削除→アカウント期間中永続保存に。課金ポリシーも刷新（新規シートは即時前払い必須に）。希望するデフォルト設定がある場合は9/28までに明示的に変更が必要。Business/Enterprise管理者は期限前に設定確認を推奨。 :link: <https://note.com/aitrendlab/n/nfff02f850a1f|note.com/aitrendlab/n/…> 3. _GitHub CopilotがPull Requestの承認者になれるように—ブランチ保護ルールへの影響は？_ └ GitHub CopilotがPR承認機能を正式に取得。AIエージェントがブランチ保護ルールの「必要な承認数」を満たせるかどうかというガバナンス上の新課題が浮上。チームのコードレビューポリシーとAI承認の位置づけを整理する必要がある。Copilotを承認者として認めるかどうかをリポジトリ・組織レベルで設定可能。 :link: <https://dev.to/pwd9000/copilot-can-now-approve-pull-requests-should-it-count-toward-your-branch-protection-2b78|dev.to/pwd9000/copilot-can-now-approve-pull-requests-should-it-count-toward-your-branch-protection…> 4. _Claude Code v2.1.270リリース—長時間セッションでのBash権限バグなど複数修正_ └ v2.1.269で混入したリグレッション（長時間セッション後にBashの読み取り専用gitコマンドが不必要に権限確認を求める）を修正。CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MSが SessionEndフックのタイムアウトを延長しなかった問題、--continue/--resumeでSessionStartフック完了を待たずに会話が即表示されるよう改善、/pluginインストール後にメニューを閉じるだけで変更が反映されるよう修正なども含む。 :link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.270|github.com/anthropics/claude-code/…/…> 5. _〖AI Newsまとめ〗生成AI ニュースレポート 2026-09-14（Qiita）_ └ 本日の生成AI・AI駆動開発関連ニュースを網羅したQiitaデイリーまとめ。ソニー銀行のAI活用事例、各AIツールの最新動向、研究成果、国内外の事例が包括的に整理されている。毎日更新の定番まとめ記事。 :link: <https://qiita.com/aakan/items/9e19f3a08f18cc4aed6e|qiita.com/aakan/items/…> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-14_\n\n1. _ソニー銀行と富士通、勘定系システム開発に生成AIを本格適用—工数40%削減・開発期間30%短縮_\n└ 2025年9月から適用を開始し、Amazon Bedrock上のClaudeなどを活用。基本設計〜結合テストまで工数40%削減・開発期間30%短縮を達成。製造工程のソースコード生成率99%、結合テスト工程でテスト実行工数最大90%削減など各工程で大幅な効率化を実現した。生成AIを単独ツールとしてではなく、設計書・ソースコード・テスト資産を工程横断で活用し開発プロセス全体を変革した事例として注目。\n:link: <https://enterprisezine.jp/news/detail/25073|enterprisezine.jp/news/detail/25073>\n2. _GitHub Copilot、9月28日に大規模ポリシー変更—コードレビューデフォルト変更・チャット永続保存など管理者は要確認_\n└ 9/28からコードレビューのデフォルトが Lite→Balanced に変更（より深いレビューでコスト増）。Copilot Chatのデータが28日間削除→アカウント期間中永続保存に。課金ポリシーも刷新（新規シートは即時前払い必須に）。希望するデフォルト設定がある場合は9/28までに明示的に変更が必要。Business/Enterprise管理者は期限前に設定確認を推奨。\n:link: <https://note.com/aitrendlab/n/nfff02f850a1f|note.com/aitrendlab/n/…>\n3. _GitHub CopilotがPull Requestの承認者になれるように—ブランチ保護ルールへの影響は？_\n└ GitHub CopilotがPR承認機能を正式に取得。AIエージェントがブランチ保護ルールの「必要な承認数」を満たせるかどうかというガバナンス上の新課題が浮上。チームのコードレビューポリシーとAI承認の位置づけを整理する必要がある。Copilotを承認者として認めるかどうかをリポジトリ・組織レベルで設定可能。\n:link: <https://dev.to/pwd9000/copilot-can-now-approve-pull-requests-should-it-count-toward-your-branch-protection-2b78|dev.to/pwd9000/copilot-can-now-approve-pull-requests-should-it-count-toward-your-branch-protection…>\n4. _Claude Code v2.1.270リリース—長時間セッションでのBash権限バグなど複数修正_\n└ v2.1.269で混入したリグレッション（長時間セッション後にBashの読み取り専用gitコマンドが不必要に権限確認を求める）を修正。CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MSが SessionEndフックのタイムアウトを延長しなかった問題、--continue/--resumeでSessionStartフック完了を待たずに会話が即表示されるよう改善、/pluginインストール後にメニューを閉じるだけで変更が反映されるよう修正なども含む。\n:link: <https://github.com/anthropics/claude-code/releases/tag/v2.1.270|github.com/anthropics/claude-code/…/…>\n5. _〖AI Newsまとめ〗生成AI ニュースレポート 2026-09-14（Qiita）_\n└ 本日の生成AI・AI駆動開発関連ニュースを網羅したQiitaデイリーまとめ。ソニー銀行のAI活用事例、各AIツールの最新動向、研究成果、国内外の事例が包括的に整理されている。毎日更新の定番まとめ記事。\n:link: <https://qiita.com/aakan/items/9e19f3a08f18cc4aed6e|qiita.com/aakan/items/…> *使用して送信されました* Claude",
+          "messageTs": "1789427406.279729",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-14",
+          "timestamp": "2026-09-14T23:10:06.279Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 297,
+      "messageCount": 298,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-09-13"
+      "lastDate": "2026-09-14"
     },
     {
       "id": "C0AARGDBC3V",

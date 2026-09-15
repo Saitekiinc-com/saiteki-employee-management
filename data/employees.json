@@ -3140,5 +3140,35 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0C0XDW4L1G"
+  },
+  {
+    "name": "太田圭祐",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-09-15T04:16:56.804Z",
+    "updatedAt": "2026-09-15T04:16:56.804Z",
+    "last_updated": "2026-09-15T04:16:56.804Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0C1L6X14CA"
+  },
+  {
+    "name": "南野文希",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-09-15T04:16:56.884Z",
+    "updatedAt": "2026-09-15T04:16:56.884Z",
+    "last_updated": "2026-09-15T04:16:56.884Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0C16B96J8P"
   }
 ]
