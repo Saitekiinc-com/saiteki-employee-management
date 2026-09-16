@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-15T04:16:57.137Z",
+  "generatedAt": "2026-09-16T04:12:43.454Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -101947,6 +101947,316 @@
         }
       ],
       "searchText": "はじめまして！ 10〜11月入社予定の南野 文希 (みなみの ふみき)と申します。 :white_medium_small_square:出身 大阪府出身、大阪府在住です。 :white_medium_small_square:経歴 自動車の電動パーキングブレーキ（EPB）のテスト業務を経験した後、現在は Azure のカスタマーサポート業務にて、Azure 機能の仕様およびトラブルシューティングに関する対応を行っています。 :white_medium_small_square:趣味 映画鑑賞、その他探し中です。 :white_medium_small_square:ひとこと 今後はクラウドエンジニアを目指し、インフラ業務の実務経験を積みながらスキルアップし、身につけた知識や経験を活かして貢献していきたいと考えています。これからよろしくお願いいたします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1789476559.205519",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1789476559.205519",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1789476559.205519",
+      "timestamp": "2026-09-15T12:49:19.205Z",
+      "detailBullets": [
+        "<!channel> *【ご協力のお願い】柔軟な働き方に関するアンケートについて* 総務より、社員の皆さまへお願いです。 育児・介護休業法の改正（令和7年10月施行）に伴い、3歳から小学校就学前のお子さまを養育する社員の方が柔軟な働き方を選択できるよう、会社として以下の5つの選択肢の中から2つ以上の制度を整備することが義務付けられています。 ①始業時刻などの変更（時差出勤・フレックス等） ②テレワークの実施（月10日以上） ③育児のための所定労働時間の短縮（時短勤務） ④養育両立支援休暇の付与（年10日以上・原則無給の特別休暇） ⑤保育施設の設置運営等 会社としてどの2つを整備するか検討するにあたり、皆さんのご意見を伺いたく、アンケートを実施いたします。 *■ スケジュール* ・9月15日（火）：アンケート配信 ・9月30日（水）：回答期限 ・回答フォーム：社内ポータルの*お知らせ*から、Googleフォームへ移動をお願い致します。 :link: <https://portal.saitekiinc.com/announcement/all|portal.saitekiinc.com..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1789476559.205519",
+          "text": "<!channel> *【ご協力のお願い】柔軟な働き方に関するアンケートについて* 総務より、社員の皆さまへお願いです。 育児・介護休業法の改正（令和7年10月施行）に伴い、3歳から小学校就学前のお子さまを養育する社員の方が柔軟な働き方を選択できるよう、会社として以下の5つの選択肢の中から2つ以上の制度を整備することが義務付けられています。 ①始業時刻などの変更（時差出勤・フレックス等） ②テレワークの実施（月10日以上） ③育児のための所定労働時間の短縮（時短勤務） ④養育両立支援休暇の付与（年10日以上・原則無給の特別休暇） ⑤保育施設の設置運営等 会社としてどの2つを整備するか検討するにあたり、皆さんのご意見を伺いたく、アンケートを実施いたします。 *■ スケジュール* ・9月15日（火）：アンケート配信 ・9月30日（水）：回答期限 ・回答フォーム：社内ポータルの*お知らせ*から、Googleフォームへ移動をお願い致します。 :link: <https://portal.saitekiinc.com/announcement/all|portal.saitekiinc.com/announcement/all> ※ご回答には1〜2分程度で完了します。 ※お名前は匿名でも構いません。 ※期限までにご回答いただいた内容をもとに社内で検討のうえ、決定後、詳細は就業規則へ明記し皆様へ周知致します。また、今後対象者が生じた際には、個別に相談の機会を設け適用してまいります。 ご不明点があれば、「99_お名前」のチャンネルにて、総務までお気軽にお声がけください。 ご協力のほど、よろ...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1789476559.205519",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> *【ご協力のお願い】柔軟な働き方に関するアンケートについて* 総務より、社員の皆さまへお願いです。 育児・介護休業法の改正（令和7年10月施行）に伴い、3歳から小学校就学前のお子さまを養育する社員の方が柔軟な働き方を選択できるよう、会社として以下の5つの選択肢の中から2つ以上の制度を整備することが義務付けられています。 ①始業時刻などの変更（時差出勤・フレックス等） ②テレワークの実施（月10日以上） ③育児のための所定労働時間の短縮（時短勤務） ④養育両立支援休暇の付与（年10日以上・原則無給の特別休暇） ⑤保育施設の設置運営等 会社としてどの2つを整備するか検討するにあたり、皆さんのご意見を伺いたく、アンケートを実施いたします。 *■ スケジュール* ・9月15日（火）：アンケート配信 ・9月30日（水）：回答期限 ・回答フォーム：社内ポータルの*お知らせ*から、Googleフォームへ移動をお願い致します。 :link: <https://portal.saitekiinc.com/announcement/all|portal.saitekiinc.com/announcement/all> ※ご回答には1〜2分程度で完了します。 ※お名前は匿名でも構いません。 ※期限までにご回答いただいた内容をもとに社内で検討のうえ、決定後、詳細は就業規則へ明記し皆様へ周知致します。また、今後対象者が生じた際には、個別に相談の機会を設け適用してまいります。 ご不明点があれば、「99_お名前」のチャンネルにて、総務までお気軽にお声がけください。 ご協力のほど、よろしくお願いいたします。\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789479327.138019",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:松井誠",
+      "personName": "松井誠",
+      "slackIds": [
+        "U0BBLLB4YE8"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789479327.138019",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789479327.138019",
+      "timestamp": "2026-09-15T13:35:27.138Z",
+      "detailBullets": [
+        "何事にも備えが大事と思った1日でした。 私事ですが、 自動化ツールと報告資料を終わらせて、 依頼者に報告をするのに屈んだ時でした。 ビリッとスラックスが破れてしまったんですねぇ。 一瞬詰んだと思いましたが、癖で持ち歩いていた、応急キットの裁縫道具にまさか救われる日が来るとは思わなかったです。（思ったのとはだいぶ違いますが…。） 皆様も備えておくと意外な形で助けてくれる事があるかもしれませんね。 と言うおっさんの独り言でした。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789479327.138019",
+          "text": "何事にも備えが大事と思った1日でした。 私事ですが、 自動化ツールと報告資料を終わらせて、 依頼者に報告をするのに屈んだ時でした。 ビリッとスラックスが破れてしまったんですねぇ。 一瞬詰んだと思いましたが、癖で持ち歩いていた、応急キットの裁縫道具にまさか救われる日が来るとは思わなかったです。（思ったのとはだいぶ違いますが…。） 皆様も備えておくと意外な形で助けてくれる事があるかもしれませんね。 と言うおっさんの独り言でした。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789479327.138019",
+          "threadTs": "1789479327.138019",
+          "authorName": "松井誠",
+          "permalink": null
+        }
+      ],
+      "searchText": "何事にも備えが大事と思った1日でした。 私事ですが、 自動化ツールと報告資料を終わらせて、 依頼者に報告をするのに屈んだ時でした。 ビリッとスラックスが破れてしまったんですねぇ。 一瞬詰んだと思いましたが、癖で持ち歩いていた、応急キットの裁縫道具にまさか救われる日が来るとは思わなかったです。（思ったのとはだいぶ違いますが…。） 皆様も備えておくと意外な形で助けてくれる事があるかもしれませんね。 と言うおっさんの独り言でした。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789479956.184469",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789479956.184469",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789479956.184469",
+      "timestamp": "2026-09-15T13:45:56.184Z",
+      "detailBullets": [
+        "漫画みたいですね、笑いました:laughing: 裁縫道具を癖で持ち歩いてる松井さんの女子力に感服です笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789479956.184469",
+          "text": "漫画みたいですね、笑いました:laughing: 裁縫道具を癖で持ち歩いてる松井さんの女子力に感服です笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789479956.184469",
+          "threadTs": "1789479327.138019",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "漫画みたいですね、笑いました:laughing: 裁縫道具を癖で持ち歩いてる松井さんの女子力に感服です笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789480138.990449",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:松井誠",
+      "personName": "松井誠",
+      "slackIds": [
+        "U0BBLLB4YE8"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789480138.990449",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789480138.990449",
+      "timestamp": "2026-09-15T13:48:58.990Z",
+      "detailBullets": [
+        "後日談としては午後は乗り切って定時で帰り秒速でスラックスを二本買いました。 突如の出費はこたえます。笑:laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789480138.990449",
+          "text": "後日談としては午後は乗り切って定時で帰り秒速でスラックスを二本買いました。 突如の出費はこたえます。笑:laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789480138.990449",
+          "threadTs": "1789479327.138019",
+          "authorName": "松井誠",
+          "permalink": null
+        }
+      ],
+      "searchText": "後日談としては午後は乗り切って定時で帰り秒速でスラックスを二本買いました。 突如の出費はこたえます。笑:laughing:\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789480869.993949",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:徳田健一",
+      "personName": "徳田健一",
+      "slackIds": [
+        "U0APF134ZP1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789480869.993949",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789480869.993949",
+      "timestamp": "2026-09-15T14:01:09.993Z",
+      "detailBullets": [
+        "確かにひょんなことから助かったと感じる事はありますね。 先日22時頃に仕事を終えた戸塚代表から飯でも食って帰るかとのお誘いを頂きましたが、生憎のどしゃ降り雨模様。 傘を持っていなかった我々でしたが、オフィス建物の地下の備品室に置き傘が必ずあると確信した私は、案の定ちょうど2本あったので拝借し代表を雨晒しにする事なく事なきを終えました。 身の回り以外の備えにも助けてもらったことを実感した夜であります。 「普段事務所に傘置いてるんだけどなぁ、、」と本来あるはずの戸塚代表の置き傘は、別日に使って失くしていたのは私だったことは現状バレていません。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789480869.993949",
+          "text": "確かにひょんなことから助かったと感じる事はありますね。 先日22時頃に仕事を終えた戸塚代表から飯でも食って帰るかとのお誘いを頂きましたが、生憎のどしゃ降り雨模様。 傘を持っていなかった我々でしたが、オフィス建物の地下の備品室に置き傘が必ずあると確信した私は、案の定ちょうど2本あったので拝借し代表を雨晒しにする事なく事なきを終えました。 身の回り以外の備えにも助けてもらったことを実感した夜であります。 「普段事務所に傘置いてるんだけどなぁ、、」と本来あるはずの戸塚代表の置き傘は、別日に使って失くしていたのは私だったことは現状バレていません。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789480869.993949",
+          "threadTs": "1789479327.138019",
+          "authorName": "徳田健一",
+          "permalink": null
+        }
+      ],
+      "searchText": "確かにひょんなことから助かったと感じる事はありますね。 先日22時頃に仕事を終えた戸塚代表から飯でも食って帰るかとのお誘いを頂きましたが、生憎のどしゃ降り雨模様。 傘を持っていなかった我々でしたが、オフィス建物の地下の備品室に置き傘が必ずあると確信した私は、案の定ちょうど2本あったので拝借し代表を雨晒しにする事なく事なきを終えました。 身の回り以外の備えにも助けてもらったことを実感した夜であります。 「普段事務所に傘置いてるんだけどなぁ、、」と本来あるはずの戸塚代表の置き傘は、別日に使って失くしていたのは私だったことは現状バレていません。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789481642.816449",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:松井誠",
+      "personName": "松井誠",
+      "slackIds": [
+        "U0BBLLB4YE8"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789481642.816449",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789481642.816449",
+      "timestamp": "2026-09-15T14:14:02.816Z",
+      "detailBullets": [
+        "本当に諸先輩方の教えに従う事の重要性に気づかされた1日でした。 やはり何事にも備えは大事ですねぇ"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789481642.816449",
+          "text": "本当に諸先輩方の教えに従う事の重要性に気づかされた1日でした。 やはり何事にも備えは大事ですねぇ",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789481642.816449",
+          "threadTs": "1789479327.138019",
+          "authorName": "松井誠",
+          "permalink": null
+        }
+      ],
+      "searchText": "本当に諸先輩方の教えに従う事の重要性に気づかされた1日でした。 やはり何事にも備えは大事ですねぇ\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789482110.344149",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789482110.344149",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789482110.344149",
+      "timestamp": "2026-09-15T14:21:50.344Z",
+      "detailBullets": [
+        "このスレッド、面白すぎて腹抱えました:laughing: 家族が寝静まった後でよかったですw"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789482110.344149",
+          "text": "このスレッド、面白すぎて腹抱えました:laughing: 家族が寝静まった後でよかったですw",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789482110.344149",
+          "threadTs": "1789479327.138019",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "このスレッド、面白すぎて腹抱えました:laughing: 家族が寝静まった後でよかったですw\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789513792.215379",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789513792.215379",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789513792.215379",
+      "timestamp": "2026-09-15T23:09:52.215Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-15_ 1. _Claude Code v2.1.271 リリース — リモートセッションの Fast Mode 対応 &amp; /config パネル改善_ └ リモートランナー（クラウド・セルフホスト）上でfast modeが組織ポリシー許可時に適用可能になった。あわせてフルスクリーンの /config パネルにマウスホイールスクロールが追加され、設定操作がより快適に。また本日をもって週次利用制限の +25% が恒久ベースラインとして確定。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 2. _Applitools、Agentic Coding 向け「Visual AI Guardrails」を発表 — SDLC 全体でのコード品質劣化を防ぐ_ └ Agentic SDLC のガバナンス基盤として「Visual AI Guardrails」が登場。..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789513792.215379",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-15_ 1. _Claude Code v2.1.271 リリース — リモートセッションの Fast Mode 対応 &amp; /config パネル改善_ └ リモートランナー（クラウド・セルフホスト）上でfast modeが組織ポリシー許可時に適用可能になった。あわせてフルスクリーンの /config パネルにマウスホイールスクロールが追加され、設定操作がより快適に。また本日をもって週次利用制限の +25% が恒久ベースラインとして確定。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 2. _Applitools、Agentic Coding 向け「Visual AI Guardrails」を発表 — SDLC 全体でのコード品質劣化を防ぐ_ └ Agentic SDLC のガバナンス基盤として「Visual AI Guardrails」が登場。Figma Design Baseline SDK・Applitools Eyes MCP Tools・Intent-Based NLP エンジンで構成され、AI エージェントが生成する UI コードの品質劣化を自動検知・防止する。複数言語対応で本日より提供開始。 :link: <https://www.globenewswire.com/news-release/2026/09/15/33618...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789513792.215379",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-15_ 1. _Claude Code v2.1.271 リリース — リモートセッションの Fast Mode 対応 &amp; /config パネル改善_ └ リモートランナー（クラウド・セルフホスト）上でfast modeが組織ポリシー許可時に適用可能になった。あわせてフルスクリーンの /config パネルにマウスホイールスクロールが追加され、設定操作がより快適に。また本日をもって週次利用制限の +25% が恒久ベースラインとして確定。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 2. _Applitools、Agentic Coding 向け「Visual AI Guardrails」を発表 — SDLC 全体でのコード品質劣化を防ぐ_ └ Agentic SDLC のガバナンス基盤として「Visual AI Guardrails」が登場。Figma Design Baseline SDK・Applitools Eyes MCP Tools・Intent-Based NLP エンジンで構成され、AI エージェントが生成する UI コードの品質劣化を自動検知・防止する。複数言語対応で本日より提供開始。 :link: <https://www.globenewswire.com/news-release/2026/09/15/3361865/0/en/applitools-introduces-visual-ai-guardrails-to-prevent-quality-degradation-and-reduce-review-burden-in-agentic-coding.html|globenewswire.com/…/applitools-introduces-visual-ai-guardrails-to-prevent-quality-degradation-and-reduce-review-burden-in-agentic…> 3. _TechCrunch：暴走 AI エージェントを制御する新スタートアップ「AIUC」登場 — Anthropic 元社員 + METR 元 COO が創業_ └ 「Artificial Intelligence Underwriting Company（AIUC）」は、AI エージェントが意図しない動作をした際の企業リスクを保険・安全審査でカバーする B2B スタートアップ。Cursor をはじめとするエンタープライズ顧客向けに AI エージェントの信頼性・制御評...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1789520437.601649",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1789520437.601649",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1789520437.601649",
+      "timestamp": "2026-09-16T01:00:37.601Z",
+      "detailBullets": [
+        "<@U0BBLLB4YE8> 備えあれば憂いなし。誰しもに共通する先人の教訓ですね！ クスッと笑えて教訓も振り返らせてくれる、示唆に富んだ投稿をありがとうございました！ <@U0APF134ZP1> 僕の傘、返してください。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1789520437.601649",
+          "text": "<@U0BBLLB4YE8> 備えあれば憂いなし。誰しもに共通する先人の教訓ですね！ クスッと笑えて教訓も振り返らせてくれる、示唆に富んだ投稿をありがとうございました！ <@U0APF134ZP1> 僕の傘、返してください。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1789520437.601649",
+          "threadTs": "1789479327.138019",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BBLLB4YE8> 備えあれば憂いなし。誰しもに共通する先人の教訓ですね！ クスッと笑えて教訓も振り返らせてくれる、示唆に富んだ投稿をありがとうございました！ <@U0APF134ZP1> 僕の傘、返してください。\nソーシャル\n経営"
     }
   ]
 }
