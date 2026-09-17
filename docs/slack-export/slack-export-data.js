@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-16T04:12:52.755Z",
+  "generatedAt": "2026-09-17T04:19:37.405Z",
   "channelCount": 15,
-  "totalMessages": 3235,
+  "totalMessages": 3238,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -44431,11 +44431,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1789546198.183159",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0C26R21Y0G",
+          "userName": "服巻瑞稀",
+          "userRealName": "服巻瑞稀",
+          "text": "はじめまして！ 12月入社予定の服巻 瑞稀(ふくまき みずき)と申します。 ◼︎ 出身地 福岡県 ◼︎ これまでやってきたこと 前職は6年半ほど、放送局向け自社プロダクトや受託案件の開発を行っているIT企業に勤めておりました。私はシステムのUI/UXデザインを行っており、最近はVue.jsなどを用いたWEBシステムのフロント実装まで業務の幅を広げてまいりました。特にデザイナーとエンジニアの間で言葉の齟齬が無いように橋渡しをすることが多かったです。直近ではClaude Codeを使った社内ツールの開発なども行っております。 ◼︎ 最近ハマってること 自分の想像したものをデジタル上で作るのが好きで、最近はFigma＋ClaudeCodeで自分専用のWEBアプリを作ってみたり、blenderで3D制作に挑戦してみたりと、創作にハマっています！ ◼︎ 休日の過ごし方 車でドライブに出かけたり、家で飼っている犬達(ミニチュアダックスとシェルティー)と戯れたりしています。 車は現在テスラのモデルYと、マツダのNDロードスターに乗っています。 オープンにして好きな音楽を聴きながらドライブするのが大好きです！ 夜はお酒を飲みながらゲームすることが多いです！ ◼︎ 趣味 お酒・ゲーム(FPS/VR等)・アイススケート・着物・お神楽・卓球・お絵描き・ドライブ ◼︎ ひとこと 今後はデザインの知識を活かしつつ、よりフロントエンジニアの方向へスキルアップしていきたいと考えておりますので、どうぞよろしくお願いいたします！",
+          "rawText": "はじめまして！\n12月入社予定の服巻 瑞稀(ふくまき みずき)と申します。\n\n◼︎ 出身地\n福岡県\n\n◼︎ これまでやってきたこと\n前職は6年半ほど、放送局向け自社プロダクトや受託案件の開発を行っているIT企業に勤めておりました。私はシステムのUI/UXデザインを行っており、最近はVue.jsなどを用いたWEBシステムのフロント実装まで業務の幅を広げてまいりました。特にデザイナーとエンジニアの間で言葉の齟齬が無いように橋渡しをすることが多かったです。直近ではClaude Codeを使った社内ツールの開発なども行っております。\n\n◼︎ 最近ハマってること\n自分の想像したものをデジタル上で作るのが好きで、最近はFigma＋ClaudeCodeで自分専用のWEBアプリを作ってみたり、blenderで3D制作に挑戦してみたりと、創作にハマっています！\n\n◼︎ 休日の過ごし方\n車でドライブに出かけたり、家で飼っている犬達(ミニチュアダックスとシェルティー)と戯れたりしています。\n車は現在テスラのモデルYと、マツダのNDロードスターに乗っています。\nオープンにして好きな音楽を聴きながらドライブするのが大好きです！\n夜はお酒を飲みながらゲームすることが多いです！\n\n◼︎ 趣味\nお酒・ゲーム(FPS/VR等)・アイススケート・着物・お神楽・卓球・お絵描き・ドライブ\n\n◼︎ ひとこと\n今後はデザインの知識を活かしつつ、よりフロントエンジニアの方向へスキルアップしていきたいと考えておりますので、どうぞよろしくお願いいたします！",
+          "messageTs": "1789546198.183159",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-16",
+          "timestamp": "2026-09-16T08:09:58.183Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1789553234.356049",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0C1FM7DAFN",
+          "userName": "榑林咲希",
+          "userRealName": "榑林咲希",
+          "text": "はじめまして！ 12月入社予定の榑林 咲希(くればやし さき)と申します。 ◾︎出身 広島県出身、福岡県在住 ◾︎経歴 これまで社内SEとして、業務効率化につながるシステムの開発に携わってきました。 直近では、APIを活用した複数システム間のデータ連携や、業務効率化を目的としたシステム開発などを経験しております。 ◾︎趣味 最近は「ぽこあポケモン」にハマっています！ またお酒を飲むことも好きなのでおすすめのお酒があればぜひ教えてください:raised_hands: ◾︎ひとこと まだまだ未熟な部分もありますが、これから色々な技術を吸収しながら成長していければと思っています。 一日でも早く皆さまのお力になれるよう努めてまいりますので、これからどうぞよろしくお願いいたします！",
+          "rawText": "はじめまして！\n12月入社予定の榑林 咲希(くればやし さき)と申します。\n\n◾︎出身\n広島県出身、福岡県在住\n\n◾︎経歴\nこれまで社内SEとして、業務効率化につながるシステムの開発に携わってきました。\n直近では、APIを活用した複数システム間のデータ連携や、業務効率化を目的としたシステム開発などを経験しております。\n\n◾︎趣味\n最近は「ぽこあポケモン」にハマっています！\nまたお酒を飲むことも好きなのでおすすめのお酒があればぜひ教えてください:raised_hands:\n\n◾︎ひとこと\nまだまだ未熟な部分もありますが、これから色々な技術を吸収しながら成長していければと思っています。\n一日でも早く皆さまのお力になれるよう努めてまいりますので、これからどうぞよろしくお願いいたします！",
+          "messageTs": "1789553234.356049",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-16",
+          "timestamp": "2026-09-16T10:07:14.356Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 485,
+      "messageCount": 487,
       "firstDate": "2025-11-02",
-      "lastDate": "2026-09-14"
+      "lastDate": "2026-09-16"
     },
     {
       "id": "C09MKT8QKAR",
@@ -57773,11 +57813,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1789600203.385629",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-16_ 1. _Claude Code v2.1.273リリース—リモートセッションのフォーク機能・LLMゲートウェイヒントヘッダー追加、セキュリティ修正_ └ 64件の変更を含む最新リリース。`--remote-control` で起動したセッションをローカルのバックグラウンドセッションとしてフォーク継続可能に。LLMゲートウェイ向けに `x-claude-code-request-class` 等のリクエストヒントヘッダーを追加（`CLAUDE_CODE_GATEWAY_HINT_HEADERS=1` で有効化）。MCPサーバーが切断・再接続失敗した際に `/mcp` への誘導通知を追加。Bypassモードのサブシェル内で危険なコマンドが権限チェックをすり抜けるセキュリティバグも修正。 :link: <https://github.com/anthropics/claude-code/releases|github.com/anthropics/claude-code/releases> 2. _GitHub Copilot CLI v1.0.85—VimモードがすべてのユーザーへGA公開、エージェント向け詳細設定を追加_ └ Vimモードが全ユーザーに正式公開。`/vim` コマンドまたは `editorMode: vim` 設定でコンポーザーのモーダル編集が可能に（現在のモードをタイプ中に表示）。エージェント・サブエージェント向けコンテキスト管理ツールのオプトイン設定を追加。`transcriptView: \"concise\"` でツール活動を折りたたみ可能な作業サマリーとして表示。`/config` サイドバー・`/sandbox` ネットワークホストルール・セマンティックJSONL形式のセッション/メモリインポートコマンドも新機能として追加。 :link: <https://github.com/github/copilot-cli/releases|github.com/github/copilot-cli/releases> 3. _「次に何を実験するかもＡＩが決定」——LG AI Research、AIが実験計画から論文執筆・査読まで担う自律研究システムを公開_ └ LG AI研究所がAI自律研究システムを発表。実験設計・実施・論文執筆・査読まですべてAIが担い、「次に何を実験するか」もAIが決定する仕組み。10月にはAIがリード著者として登壇し、テキストから音声変換して発表を行うユニークな学術カンファレンスが開催予定。AI駆動の科学研究プロセスが本格化する兆候として注目を集めている。 :link: <https://rkernel.wordpress.com/2026/09/16/%E3%80%8C%E6%AC%A1%E3%81%AB%E4%BD%95%E3%82%92%E5%AE%9F%E9%A8%93%E3%81%99%E3%82%8B%E3%81%8B%E3%82%82%EF%BD%81%EF%BD%89%E3%81%8C%E6%B1%BA%E5%AE%9A%E3%80%8D/|rkernel.wordpress.com/2026/…/…> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-16_\n\n1. _Claude Code v2.1.273リリース—リモートセッションのフォーク機能・LLMゲートウェイヒントヘッダー追加、セキュリティ修正_\n└ 64件の変更を含む最新リリース。`--remote-control` で起動したセッションをローカルのバックグラウンドセッションとしてフォーク継続可能に。LLMゲートウェイ向けに `x-claude-code-request-class` 等のリクエストヒントヘッダーを追加（`CLAUDE_CODE_GATEWAY_HINT_HEADERS=1` で有効化）。MCPサーバーが切断・再接続失敗した際に `/mcp` への誘導通知を追加。Bypassモードのサブシェル内で危険なコマンドが権限チェックをすり抜けるセキュリティバグも修正。\n:link: <https://github.com/anthropics/claude-code/releases|github.com/anthropics/claude-code/releases>\n2. _GitHub Copilot CLI v1.0.85—VimモードがすべてのユーザーへGA公開、エージェント向け詳細設定を追加_\n└ Vimモードが全ユーザーに正式公開。`/vim` コマンドまたは `editorMode: vim` 設定でコンポーザーのモーダル編集が可能に（現在のモードをタイプ中に表示）。エージェント・サブエージェント向けコンテキスト管理ツールのオプトイン設定を追加。`transcriptView: \"concise\"` でツール活動を折りたたみ可能な作業サマリーとして表示。`/config` サイドバー・`/sandbox` ネットワークホストルール・セマンティックJSONL形式のセッション/メモリインポートコマンドも新機能として追加。\n:link: <https://github.com/github/copilot-cli/releases|github.com/github/copilot-cli/releases>\n3. _「次に何を実験するかもＡＩが決定」——LG AI Research、AIが実験計画から論文執筆・査読まで担う自律研究システムを公開_\n└ LG AI研究所がAI自律研究システムを発表。実験設計・実施・論文執筆・査読まですべてAIが担い、「次に何を実験するか」もAIが決定する仕組み。10月にはAIがリード著者として登壇し、テキストから音声変換して発表を行うユニークな学術カンファレンスが開催予定。AI駆動の科学研究プロセスが本格化する兆候として注目を集めている。\n:link: <https://rkernel.wordpress.com/2026/09/16/%E3%80%8C%E6%AC%A1%E3%81%AB%E4%BD%95%E3%82%92%E5%AE%9F%E9%A8%93%E3%81%99%E3%82%8B%E3%81%8B%E3%82%82%EF%BD%81%EF%BD%89%E3%81%8C%E6%B1%BA%E5%AE%9A%E3%80%8D/|rkernel.wordpress.com/2026/…/…> *使用して送信されました* Claude",
+          "messageTs": "1789600203.385629",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-16",
+          "timestamp": "2026-09-16T23:10:03.385Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 299,
+      "messageCount": 300,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-09-15"
+      "lastDate": "2026-09-16"
     },
     {
       "id": "C0AARGDBC3V",

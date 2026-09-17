@@ -3170,5 +3170,35 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0C16B96J8P"
+  },
+  {
+    "name": "服巻瑞稀",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-09-17T04:19:33.138Z",
+    "updatedAt": "2026-09-17T04:19:33.138Z",
+    "last_updated": "2026-09-17T04:19:33.138Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0C26R21Y0G"
+  },
+  {
+    "name": "榑林咲希",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-09-17T04:19:33.219Z",
+    "updatedAt": "2026-09-17T04:19:33.219Z",
+    "last_updated": "2026-09-17T04:19:33.219Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0C1FM7DAFN"
   }
 ]
