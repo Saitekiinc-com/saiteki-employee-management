@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-18T04:03:23.331Z",
+  "generatedAt": "2026-09-19T04:00:35.003Z",
   "channelCount": 15,
-  "totalMessages": 3241,
+  "totalMessages": 3243,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -57893,11 +57893,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1789772872.395529",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-18_ 1. _Claude Code Projectsが大幅刷新—並列クラウドセッションとコーディネーター機能がBeta公開_ └ AnthropicがClaude Code Projectsを全面刷新。1つの会話上でコーディネーターが複数の並列Claudeセッションを管理し、それぞれ別々のGitブランチで作業。ラップトップを閉じても処理継続し、共有プロジェクトメモリも利用可能に。選択されたPro・Maxユーザーへのベータ公開を9/17に開始、翌週に全Pro・Maxへ展開予定。 :link: <https://www.theregister.com/ai-and-ml/2026/09/18/claude-code-revamps-projects-so-you-can-work-and-pay-in-parallel/5297532|theregister.com/ai-and-ml/…/5297532> 2. _セキュリティ研究者、Claudeを使ってOpenAI従業員のChatGPTアカウントへの不正アクセスを実証_ └ セキュリティ研究者がClaudeを悪用し、OpenAI従業員のChatGPTアカウントを標的にしたハッキングに成功したと報告。AIツールを活用したソーシャルエンジニアリング攻撃の新たなリスクが浮上。企業のAIサービスアカウント保護の重要性が改めて問われている。 :link: <https://www.theregister.com/security/2026/09/18/researchers-used-claude-to-hack-openai-employees-chatgpt-accounts/5297517|theregister.com/security/…/5297517> 3. _GitHub CopilotにClaude Fable 5.1・GPT-6 Astra・Gemini 3.8 Flashが正式追加_ └ GitHub Copilotが最新世代のAIモデルを一挙追加。AnthropicのClaude Fable 5.1、OpenAIのGPT-6 Astra、GoogleのGemini 3.8 Flashがすべて正式GA（一般提供）入り。開発者はCopilot経由で最上位の最新モデルをシームレスに利用できるようになった。 :link: <https://github.com/features/copilot/whats-new|github.com/features/copilot/whats-new> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-18_\n\n1. _Claude Code Projectsが大幅刷新—並列クラウドセッションとコーディネーター機能がBeta公開_\n└ AnthropicがClaude Code Projectsを全面刷新。1つの会話上でコーディネーターが複数の並列Claudeセッションを管理し、それぞれ別々のGitブランチで作業。ラップトップを閉じても処理継続し、共有プロジェクトメモリも利用可能に。選択されたPro・Maxユーザーへのベータ公開を9/17に開始、翌週に全Pro・Maxへ展開予定。\n:link: <https://www.theregister.com/ai-and-ml/2026/09/18/claude-code-revamps-projects-so-you-can-work-and-pay-in-parallel/5297532|theregister.com/ai-and-ml/…/5297532>\n2. _セキュリティ研究者、Claudeを使ってOpenAI従業員のChatGPTアカウントへの不正アクセスを実証_\n└ セキュリティ研究者がClaudeを悪用し、OpenAI従業員のChatGPTアカウントを標的にしたハッキングに成功したと報告。AIツールを活用したソーシャルエンジニアリング攻撃の新たなリスクが浮上。企業のAIサービスアカウント保護の重要性が改めて問われている。\n:link: <https://www.theregister.com/security/2026/09/18/researchers-used-claude-to-hack-openai-employees-chatgpt-accounts/5297517|theregister.com/security/…/5297517>\n3. _GitHub CopilotにClaude Fable 5.1・GPT-6 Astra・Gemini 3.8 Flashが正式追加_\n└ GitHub Copilotが最新世代のAIモデルを一挙追加。AnthropicのClaude Fable 5.1、OpenAIのGPT-6 Astra、GoogleのGemini 3.8 Flashがすべて正式GA（一般提供）入り。開発者はCopilot経由で最上位の最新モデルをシームレスに利用できるようになった。\n:link: <https://github.com/features/copilot/whats-new|github.com/features/copilot/whats-new> *使用して送信されました* Claude",
+          "messageTs": "1789772872.395529",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-18",
+          "timestamp": "2026-09-18T23:07:52.395Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1789783028.152799",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U0BBGUX353K",
+          "userName": "志賀海星",
+          "userRealName": "志賀海星",
+          "text": "最近話題のJev 複雑な処理には向いてないが、単純な判定処理にはとても良さそう <https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW|https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW>",
+          "rawText": "最近話題のJev\n\n複雑な処理には向いてないが、単純な判定処理にはとても良さそう\n<https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW|https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW> ",
+          "messageTs": "1789783028.152799",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-19",
+          "timestamp": "2026-09-19T01:57:08.152Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 301,
+      "messageCount": 303,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-09-17"
+      "lastDate": "2026-09-19"
     },
     {
       "id": "C0AARGDBC3V",

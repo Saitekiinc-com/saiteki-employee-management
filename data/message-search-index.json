@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-18T04:03:19.317Z",
+  "generatedAt": "2026-09-19T04:00:32.107Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -102463,6 +102463,75 @@
         }
       ],
       "searchText": "<@U0A9EE7HZ3P> 藤井さん お疲れ様です。 ありがとうございます。 歳を重ね、責任も増え保険も考えライフスタイルが大きく変わった事で出費も増えて蓄えが激減してる中ですが蓄えが増えれるように頑張ろうと身を引き締めなおす1年になると思います。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789772872.395529",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789772872.395529",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789772872.395529",
+      "timestamp": "2026-09-18T23:07:52.395Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-18_ 1. _Claude Code Projectsが大幅刷新—並列クラウドセッションとコーディネーター機能がBeta公開_ └ AnthropicがClaude Code Projectsを全面刷新。1つの会話上でコーディネーターが複数の並列Claudeセッションを管理し、それぞれ別々のGitブランチで作業。ラップトップを閉じても処理継続し、共有プロジェクトメモリも利用可能に。選択されたPro・Maxユーザーへのベータ公開を9/17に開始、翌週に全Pro・Maxへ展開予定。 :link: <https://www.theregister.com/ai-and-ml/2026/09/18/claude-code-revamps-projects-so-you-can-work-and-pay-in-parallel/5297532|theregister.com/ai-and-ml/…/5297532> 2. _セキュリティ研究者、Claudeを使ってOpenAI従業員のChatGPTアカウントへの不正アクセス..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789772872.395529",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-18_ 1. _Claude Code Projectsが大幅刷新—並列クラウドセッションとコーディネーター機能がBeta公開_ └ AnthropicがClaude Code Projectsを全面刷新。1つの会話上でコーディネーターが複数の並列Claudeセッションを管理し、それぞれ別々のGitブランチで作業。ラップトップを閉じても処理継続し、共有プロジェクトメモリも利用可能に。選択されたPro・Maxユーザーへのベータ公開を9/17に開始、翌週に全Pro・Maxへ展開予定。 :link: <https://www.theregister.com/ai-and-ml/2026/09/18/claude-code-revamps-projects-so-you-can-work-and-pay-in-parallel/5297532|theregister.com/ai-and-ml/…/5297532> 2. _セキュリティ研究者、Claudeを使ってOpenAI従業員のChatGPTアカウントへの不正アクセスを実証_ └ セキュリティ研究者がClaudeを悪用し、OpenAI従業員のChatGPTアカウントを標的にしたハッキングに成功したと報告。AIツールを活用したソーシャルエンジニアリング攻撃の新たなリスクが浮上。企業のAIサービスアカウント保護の重要性が改めて問われている。 :link: <https://www.theregister.com/security/2026/09/18/resear...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789772872.395529",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-18_ 1. _Claude Code Projectsが大幅刷新—並列クラウドセッションとコーディネーター機能がBeta公開_ └ AnthropicがClaude Code Projectsを全面刷新。1つの会話上でコーディネーターが複数の並列Claudeセッションを管理し、それぞれ別々のGitブランチで作業。ラップトップを閉じても処理継続し、共有プロジェクトメモリも利用可能に。選択されたPro・Maxユーザーへのベータ公開を9/17に開始、翌週に全Pro・Maxへ展開予定。 :link: <https://www.theregister.com/ai-and-ml/2026/09/18/claude-code-revamps-projects-so-you-can-work-and-pay-in-parallel/5297532|theregister.com/ai-and-ml/…/5297532> 2. _セキュリティ研究者、Claudeを使ってOpenAI従業員のChatGPTアカウントへの不正アクセスを実証_ └ セキュリティ研究者がClaudeを悪用し、OpenAI従業員のChatGPTアカウントを標的にしたハッキングに成功したと報告。AIツールを活用したソーシャルエンジニアリング攻撃の新たなリスクが浮上。企業のAIサービスアカウント保護の重要性が改めて問われている。 :link: <https://www.theregister.com/security/2026/09/18/researchers-used-claude-to-hack-openai-employees-chatgpt-accounts/5297517|theregister.com/security/…/5297517> 3. _GitHub CopilotにClaude Fable 5.1・GPT-6 Astra・Gemini 3.8 Flashが正式追加_ └ GitHub Copilotが最新世代のAIモデルを一挙追加。AnthropicのClaude Fable 5.1、OpenAIのGPT-6 Astra、GoogleのGemini 3.8 Flashがすべて正式GA（一般提供）入り。開発者はCopilot経由で最上位の最新モデルをシームレスに利用できるようになった。 :link: <https://github.com/features/copilot/whats-new|github.com/features/copilot/whats-new> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789783028.152799",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:志賀海星",
+      "personName": "志賀海星",
+      "slackIds": [
+        "U0BBGUX353K"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789783028.152799",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789783028.152799",
+      "timestamp": "2026-09-19T01:57:08.152Z",
+      "detailBullets": [
+        "最近話題のJev 複雑な処理には向いてないが、単純な判定処理にはとても良さそう <https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW|https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789783028.152799",
+          "text": "最近話題のJev 複雑な処理には向いてないが、単純な判定処理にはとても良さそう <https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW|https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW>",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789783028.152799",
+          "threadTs": null,
+          "authorName": "志賀海星",
+          "permalink": null
+        }
+      ],
+      "searchText": "最近話題のJev 複雑な処理には向いてないが、単純な判定処理にはとても良さそう <https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW|https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW>\nai駆動開発ネタ\nOther"
     }
   ]
 }
