@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-19T04:00:32.107Z",
+  "generatedAt": "2026-09-20T04:19:19.905Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -101001,7 +101001,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1788861687.999779",
-          "threadTs": null,
+          "threadTs": "1788861687.999779",
           "authorName": "三谷元気",
           "permalink": null
         }
@@ -101768,7 +101768,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1789342119.843409",
-          "threadTs": null,
+          "threadTs": "1789342119.843409",
           "authorName": "鈴木 結捺",
           "permalink": null
         }
@@ -102526,12 +102526,359 @@
           "channelId": "C09QXV3F8G0",
           "channelName": "ai駆動開発ネタ",
           "messageTs": "1789783028.152799",
-          "threadTs": null,
+          "threadTs": "1789783028.152799",
           "authorName": "志賀海星",
           "permalink": null
         }
       ],
       "searchText": "最近話題のJev 複雑な処理には向いてないが、単純な判定処理にはとても良さそう <https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW|https://youtu.be/HmLK5Vr-mgc?si=IKQ0-402Ve7JRwZW>\nai駆動開発ネタ\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1789797794.383129",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1789797794.383129",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1789797794.383129",
+      "timestamp": "2026-09-19T06:03:14.383Z",
+      "detailBullets": [
+        "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.19）* を共有します。 今週のテーマは *「TOPPAN SI様での連続参画決定！＆ 大手元請参画ラッシュと『累計調達額2億円突破』の財務戦略」* です。 現場の鮮やかなチームプレーと、日本トップクラスの成長スピードを支える強固な財務基盤を凝縮してお届けします！ • *【清水さんアシスト×渡邉さんゴール！TOPPAN SI様で連続参画決定！】* 清水さんの人脈アシストから戸塚のビルドアップ、そして渡邉さんの圧巻プレゼンによる一発即決ゴール！渡邉さんの活躍への期待で信頼が跳ね上がり、もう1人のメンバーの追加参画（契約決定）まで決まる最高の連携が生まれました。 • *【渡邉さんの面談動画共有！勝てるエンジニアの商談術】* 本人の許可を得て商談動画のリンクを公開！大手相手にも物怖じせず、相手の課題に「自分の経験がどう活きるか」をロジカルに接続するプレゼンや、数日間でDify・Pythonを自走学習して臨んだプロ意識など、全エンジニア必見の「最高の教科書」です。 • *【大手..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1789797794.383129",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.19）* を共有します。 今週のテーマは *「TOPPAN SI様での連続参画決定！＆ 大手元請参画ラッシュと『累計調達額2億円突破』の財務戦略」* です。 現場の鮮やかなチームプレーと、日本トップクラスの成長スピードを支える強固な財務基盤を凝縮してお届けします！ • *【清水さんアシスト×渡邉さんゴール！TOPPAN SI様で連続参画決定！】* 清水さんの人脈アシストから戸塚のビルドアップ、そして渡邉さんの圧巻プレゼンによる一発即決ゴール！渡邉さんの活躍への期待で信頼が跳ね上がり、もう1人のメンバーの追加参画（契約決定）まで決まる最高の連携が生まれました。 • *【渡邉さんの面談動画共有！勝てるエンジニアの商談術】* 本人の許可を得て商談動画のリンクを公開！大手相手にも物怖じせず、相手の課題に「自分の経験がどう活きるか」をロジカルに接続するプレゼンや、数日間でDify・Pythonを自走学習して臨んだプロ意識など、全エンジニア必見の「最高の教科書」です。 • *【大手元請への参画が続々！セラク4名・Sky2名・TOPPAN SI 2名に！】* 派遣免許の取得と営業部長・徳田さんの圧倒的な関係構築力、そして現場で成果を出すメンバーのプレゼン力が噛み合い、1名参画から「2人目、4人目」とチーム化が進む最高のスパイラルができています。 • *【累計資金調達額が『2億円』を突破！】* 主要取引銀行からの追加融資オファーにより累計調達額（融資・出资）が2億円を突破！創業...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1789797794.383129",
+          "threadTs": "1789797794.383129",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.19）* を共有します。 今週のテーマは *「TOPPAN SI様での連続参画決定！＆ 大手元請参画ラッシュと『累計調達額2億円突破』の財務戦略」* です。 現場の鮮やかなチームプレーと、日本トップクラスの成長スピードを支える強固な財務基盤を凝縮してお届けします！ • *【清水さんアシスト×渡邉さんゴール！TOPPAN SI様で連続参画決定！】* 清水さんの人脈アシストから戸塚のビルドアップ、そして渡邉さんの圧巻プレゼンによる一発即決ゴール！渡邉さんの活躍への期待で信頼が跳ね上がり、もう1人のメンバーの追加参画（契約決定）まで決まる最高の連携が生まれました。 • *【渡邉さんの面談動画共有！勝てるエンジニアの商談術】* 本人の許可を得て商談動画のリンクを公開！大手相手にも物怖じせず、相手の課題に「自分の経験がどう活きるか」をロジカルに接続するプレゼンや、数日間でDify・Pythonを自走学習して臨んだプロ意識など、全エンジニア必見の「最高の教科書」です。 • *【大手元請への参画が続々！セラク4名・Sky2名・TOPPAN SI 2名に！】* 派遣免許の取得と営業部長・徳田さんの圧倒的な関係構築力、そして現場で成果を出すメンバーのプレゼン力が噛み合い、1名参画から「2人目、4人目」とチーム化が進む最高のスパイラルができています。 • *【累計資金調達額が『2億円』を突破！】* 主要取引銀行からの追加融資オファーにより累計調達額（融資・出资）が2億円を突破！創業2年数ヶ月で2億調達・半年で10名から70名へ拡大する企業は、スタートアップ全体でも上位1%〜3%未満（全起業数比では上位0.1%以下）の稀有な成長スピードです。 • *【「キャッシュは血液」リスクに備える経営哲学】* 金融機関出身の代表・戸塚の知見と営業力を活かし、「調達できる絶好調の時に手元資金を最大化する」財務戦略を徹底。盤石な基盤があるからこそ、不測の事態から雇用を守り、採用・M&Aへ果敢に挑戦できます。 現場の熱いチームプレーと、会社としての圧倒的な安定感・成長性を感じられる内容です。ぜひ週末にチェックしてみてください！ ▼ Letter of T | 今週の記録（2026.09.19） <https://app.notion.com/p/Letter-of-T-2026-09-19-3e0dfb42679c807a8f26e5207df3b693|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789805338.967899",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789805338.967899",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789805338.967899",
+      "timestamp": "2026-09-19T08:08:58.967Z",
+      "detailBullets": [
+        "Xで話題になっているのは見てたのですが全然キャッチアップできてなかったので助かります！まだWaitlistに登録するしかないんですね。 LLM／コーディングエージェントが生成・推論する → Jevが分類・採点・分岐判断する → コードが処理を実行する という流れで開発プロセスの中で重宝されそうですよね！ 以下、活用事例をまとめてくれている人がいて、使い所を設計できるようになるとめちゃくちゃ使えそうだなと感じました。 <https://x.com/29meat_ai/status/2100844631693095267?s=46|x.com/29meat_ai/status/2100844631693095267?s=46>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789805338.967899",
+          "text": "Xで話題になっているのは見てたのですが全然キャッチアップできてなかったので助かります！まだWaitlistに登録するしかないんですね。 LLM／コーディングエージェントが生成・推論する → Jevが分類・採点・分岐判断する → コードが処理を実行する という流れで開発プロセスの中で重宝されそうですよね！ 以下、活用事例をまとめてくれている人がいて、使い所を設計できるようになるとめちゃくちゃ使えそうだなと感じました。 <https://x.com/29meat_ai/status/2100844631693095267?s=46|x.com/29meat_ai/status/2100844631693095267?s=46>",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789805338.967899",
+          "threadTs": "1789783028.152799",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "Xで話題になっているのは見てたのですが全然キャッチアップできてなかったので助かります！まだWaitlistに登録するしかないんですね。 LLM／コーディングエージェントが生成・推論する → Jevが分類・採点・分岐判断する → コードが処理を実行する という流れで開発プロセスの中で重宝されそうですよね！ 以下、活用事例をまとめてくれている人がいて、使い所を設計できるようになるとめちゃくちゃ使えそうだなと感じました。 <https://x.com/29meat_ai/status/2100844631693095267?s=46|x.com/29meat_ai/status/2100844631693095267?s=46>\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789808248.579409",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789808248.579409",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789808248.579409",
+      "timestamp": "2026-09-19T08:57:28.579Z",
+      "detailBullets": [
+        "<@U0BBGUX353K> ありがとうございます！ こんなに特化型のAIが誕生しているとは。。。 特化型のAIリリースがどれぐらい進んでいるか ちょっと調査してみましたが、本当に\"役割分担\"が大事になりそうですね。 Jevに関して実用的なところで言うと以下ライン？ • RAG(AIチャット)とかでのチャット返答妥当性チェック ◦ 回答の類似度(スコア)評価と言われる部分とか • コードレビュー工程でのマージOK/NG判定 ◦ これもルールを事前に設けてれば機械判定に持って行けそう 情報めっちゃ助かります:pray:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789808248.579409",
+          "text": "<@U0BBGUX353K> ありがとうございます！ こんなに特化型のAIが誕生しているとは。。。 特化型のAIリリースがどれぐらい進んでいるか ちょっと調査してみましたが、本当に\"役割分担\"が大事になりそうですね。 Jevに関して実用的なところで言うと以下ライン？ • RAG(AIチャット)とかでのチャット返答妥当性チェック ◦ 回答の類似度(スコア)評価と言われる部分とか • コードレビュー工程でのマージOK/NG判定 ◦ これもルールを事前に設けてれば機械判定に持って行けそう 情報めっちゃ助かります:pray:",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789808248.579409",
+          "threadTs": "1789783028.152799",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BBGUX353K> ありがとうございます！ こんなに特化型のAIが誕生しているとは。。。 特化型のAIリリースがどれぐらい進んでいるか ちょっと調査してみましたが、本当に\"役割分担\"が大事になりそうですね。 Jevに関して実用的なところで言うと以下ライン？ • RAG(AIチャット)とかでのチャット返答妥当性チェック ◦ 回答の類似度(スコア)評価と言われる部分とか • コードレビュー工程でのマージOK/NG判定 ◦ これもルールを事前に設けてれば機械判定に持って行けそう 情報めっちゃ助かります:pray:\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1789811350.320299",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:渡邉 碩人",
+      "personName": "渡邉 碩人",
+      "slackIds": [
+        "U0BJ4BB4F7W"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1789811350.320299",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1789811350.320299",
+      "timestamp": "2026-09-19T09:49:10.320Z",
+      "detailBullets": [
+        "拙い面談で恥ずかしい限りです、、、。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1789811350.320299",
+          "text": "拙い面談で恥ずかしい限りです、、、。",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1789811350.320299",
+          "threadTs": "1789797794.383129",
+          "authorName": "渡邉 碩人",
+          "permalink": null
+        }
+      ],
+      "searchText": "拙い面談で恥ずかしい限りです、、、。\nall-saiteki\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789814582.359029",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:志賀海星",
+      "personName": "志賀海星",
+      "slackIds": [
+        "U0BBGUX353K"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789814582.359029",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789814582.359029",
+      "timestamp": "2026-09-19T10:43:02.359Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 自分もLLMとの組み合わせでより処理が早くなりそうだな〜と思いました！ シェアありがとうございます！ 判定処理もですが、ブラウザとの相性も良さそうですよね。 個人的には↓の実用例がすごいと思いました！ <https://x.com/tsuyoshi_osiire/status/2100714613381960186|x.com/tsuyoshi_osiire/status/2100714613381960186>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789814582.359029",
+          "text": "<@U09MGUVJ8BV> 自分もLLMとの組み合わせでより処理が早くなりそうだな〜と思いました！ シェアありがとうございます！ 判定処理もですが、ブラウザとの相性も良さそうですよね。 個人的には↓の実用例がすごいと思いました！ <https://x.com/tsuyoshi_osiire/status/2100714613381960186|x.com/tsuyoshi_osiire/status/2100714613381960186>",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789814582.359029",
+          "threadTs": "1789783028.152799",
+          "authorName": "志賀海星",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 自分もLLMとの組み合わせでより処理が早くなりそうだな〜と思いました！ シェアありがとうございます！ 判定処理もですが、ブラウザとの相性も良さそうですよね。 個人的には↓の実用例がすごいと思いました！ <https://x.com/tsuyoshi_osiire/status/2100714613381960186|x.com/tsuyoshi_osiire/status/2100714613381960186>\nai駆動開発ネタ\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789815140.631909",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:志賀海星",
+      "personName": "志賀海星",
+      "slackIds": [
+        "U0BBGUX353K"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789815140.631909",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789815140.631909",
+      "timestamp": "2026-09-19T10:52:20.631Z",
+      "detailBullets": [
+        "<@U0A7VHB07J4> 自分も、特化型は見たことがなかったので 余計興味が湧きました笑 すごい、、調査のサマリまでありがとうございます！ > AI Standardの「工程ごとにStopを置き、人が判断する」という思想と相性がよい。 →すごい納得です！ 部品的に使うことで、より扱いやすい気がしますね:glitch_crab: > コードレビュー工程でのマージOK/NG判定 ですね〜。まさに活きる使い方かと思います。 今後もこういった特化型が出てきそうですね:eyes:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789815140.631909",
+          "text": "<@U0A7VHB07J4> 自分も、特化型は見たことがなかったので 余計興味が湧きました笑 すごい、、調査のサマリまでありがとうございます！ > AI Standardの「工程ごとにStopを置き、人が判断する」という思想と相性がよい。 →すごい納得です！ 部品的に使うことで、より扱いやすい気がしますね:glitch_crab: > コードレビュー工程でのマージOK/NG判定 ですね〜。まさに活きる使い方かと思います。 今後もこういった特化型が出てきそうですね:eyes:",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789815140.631909",
+          "threadTs": "1789783028.152799",
+          "authorName": "志賀海星",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A7VHB07J4> 自分も、特化型は見たことがなかったので 余計興味が湧きました笑 すごい、、調査のサマリまでありがとうございます！ > AI Standardの「工程ごとにStopを置き、人が判断する」という思想と相性がよい。 →すごい納得です！ 部品的に使うことで、より扱いやすい気がしますね:glitch_crab: > コードレビュー工程でのマージOK/NG判定 ですね〜。まさに活きる使い方かと思います。 今後もこういった特化型が出てきそうですね:eyes:\nai駆動開発ネタ\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789827140.480229",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789827140.480229",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789827140.480229",
+      "timestamp": "2026-09-19T14:12:20.480Z",
+      "detailBullets": [
+        "<@U0BBGUX353K> ものすごく`Saiteki AI Standard`と相性いい気がしたので、Jev利用する方向で考えてます:saluting_face::ナイス::ありがとうございます: ※サクッと使おうとしたら招待待ちみたいになっていた。。。:かなしみ_kanasii_kanashii: 上記で触れてもらっていたAI Standardの目指すべき動きをIBMが &gt; <https://bob.ibm.com/ja?utm_content=SRCWW&amp;p1=Search&amp;p4=2447864445311&amp;p5=e&amp;p9=201519965651&amp;gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=23781976760&amp;gbraid=0AAAAAD-_QsShhOHJVkPqa6LtTcjoEUz1_&amp;gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnRsznM2SNioYuLNQECuCoGpdp_lO683XhFtL26g0sK8XHj_P_dfp..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789827140.480229",
+          "text": "<@U0BBGUX353K> ものすごく`Saiteki AI Standard`と相性いい気がしたので、Jev利用する方向で考えてます:saluting_face::ナイス::ありがとうございます: ※サクッと使おうとしたら招待待ちみたいになっていた。。。:かなしみ_kanasii_kanashii: 上記で触れてもらっていたAI Standardの目指すべき動きをIBMが &gt; <https://bob.ibm.com/ja?utm_content=SRCWW&amp;p1=Search&amp;p4=2447864445311&amp;p5=e&amp;p9=201519965651&amp;gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=23781976760&amp;gbraid=0AAAAAD-_QsShhOHJVkPqa6LtTcjoEUz1_&amp;gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnRsznM2SNioYuLNQECuCoGpdp_lO683XhFtL26g0sK8XHj_P_dfpVIaAi0LEALw_wcB|Bob> (IBM内でのオリジナルのコーディングエージェント) &gt; × &gt; <https://www.ibm.com/jp-ja/consulting/alsea-ai-lifecycle-shared-engineering-artifacts?utm_content=SRCWW&amp;p1=Search&amp;p4=430990752861&am...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789827140.480229",
+          "threadTs": "1789783028.152799",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BBGUX353K> ものすごく`Saiteki AI Standard`と相性いい気がしたので、Jev利用する方向で考えてます:saluting_face::ナイス::ありがとうございます: ※サクッと使おうとしたら招待待ちみたいになっていた。。。:かなしみ_kanasii_kanashii: 上記で触れてもらっていたAI Standardの目指すべき動きをIBMが &gt; <https://bob.ibm.com/ja?utm_content=SRCWW&amp;p1=Search&amp;p4=2447864445311&amp;p5=e&amp;p9=201519965651&amp;gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=23781976760&amp;gbraid=0AAAAAD-_QsShhOHJVkPqa6LtTcjoEUz1_&amp;gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnRsznM2SNioYuLNQECuCoGpdp_lO683XhFtL26g0sK8XHj_P_dfpVIaAi0LEALw_wcB|Bob> (IBM内でのオリジナルのコーディングエージェント) &gt; × &gt; <https://www.ibm.com/jp-ja/consulting/alsea-ai-lifecycle-shared-engineering-artifacts?utm_content=SRCWW&amp;p1=Search&amp;p4=430990752861&amp;p5=p&amp;p9=197106445125&amp;gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=21991377078&amp;gbraid=0AAAAAD-_QsR71EnZN6p1MPRMx8ZtnEDsZ&amp;gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnR_QXKOkiBgqGCh7CuGo87CuwxvE6ChdxZICawaEK2YZeKmMHbWjZgaAqmeEALw_wcB|ALSEA> (IBM内で言うSaiteki AI Standard) で動き始めてそうで 今後、この手の動きが強くなってくると見てます。 社内の研究としても 使えるエージェントやそれに付随する技術(今回のような)は知見を貯めて *Saiteki AI Standardを組織的に最高に使いこなせる環境構築*が必要かな... とか考えてます。。\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1789857867.258649",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1789857867.258649",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1789857867.258649",
+      "timestamp": "2026-09-19T22:44:27.258Z",
+      "detailBullets": [
+        "<@U0C03MRFE81> 三谷さん、11月からよろしくお願いします！ SOCオペレーターとしての経験は貴重ですよね！セキュリティの知見を持ったメンバーは多くはないので、会社としても期待させてもらっています！ 大阪のカフェは営業周りしてるときの間で利用したりするので今度、おすすめを教えて欲しいです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1789857867.258649",
+          "text": "<@U0C03MRFE81> 三谷さん、11月からよろしくお願いします！ SOCオペレーターとしての経験は貴重ですよね！セキュリティの知見を持ったメンバーは多くはないので、会社としても期待させてもらっています！ 大阪のカフェは営業周りしてるときの間で利用したりするので今度、おすすめを教えて欲しいです！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1789857867.258649",
+          "threadTs": "1788861687.999779",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0C03MRFE81> 三谷さん、11月からよろしくお願いします！ SOCオペレーターとしての経験は貴重ですよね！セキュリティの知見を持ったメンバーは多くはないので、会社としても期待させてもらっています！ 大阪のカフェは営業周りしてるときの間で利用したりするので今度、おすすめを教えて欲しいです！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1789858011.083829",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1789858011.083829",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1789858011.083829",
+      "timestamp": "2026-09-19T22:46:51.083Z",
+      "detailBullets": [
+        "<@U0C0XDW4L1G> 鈴木さん、あらためて11月からよろしくお願いします！ トロンボーンできるの素敵ですね！音楽が好きだったり、演奏ができるメンバーも多いので社員間で共通項が見つけられると思います！ 社内SEとしてのご経験を存分に活かしていただけるお仕事をご用意できるよう尽力しますね！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1789858011.083829",
+          "text": "<@U0C0XDW4L1G> 鈴木さん、あらためて11月からよろしくお願いします！ トロンボーンできるの素敵ですね！音楽が好きだったり、演奏ができるメンバーも多いので社員間で共通項が見つけられると思います！ 社内SEとしてのご経験を存分に活かしていただけるお仕事をご用意できるよう尽力しますね！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1789858011.083829",
+          "threadTs": "1789342119.843409",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0C0XDW4L1G> 鈴木さん、あらためて11月からよろしくお願いします！ トロンボーンできるの素敵ですね！音楽が好きだったり、演奏ができるメンバーも多いので社員間で共通項が見つけられると思います！ 社内SEとしてのご経験を存分に活かしていただけるお仕事をご用意できるよう尽力しますね！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789859269.298979",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789859269.298979",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789859269.298979",
+      "timestamp": "2026-09-19T23:07:49.298Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-19_ 1. _Claude Code v2.1.277：AGENTS.md対応で30以上のAIコーディングツールと相互互換に_ └ Claude Code 2.1.277がAGENTS.mdのフォールバック読み込みをサポート。CLAUDE.mdが存在しないプロジェクトでAGENTS.mdを自動読み込み（/configで変更可）。OpenAI Codex、Google Jules、Cursor、GitHub Copilot等30以上のツールがサポートする60,000以上のリポジトリで使われるオープン標準フォーマットと互換性を獲得。BedRock・Vertex・Foundryでは未対応。 :link: <https://cryptobriefing.com/anthropic-claude-code-agents-md-support/|cryptobriefing.com/anthropic-claude-code-agents-md-support> 2. _GitHub Copilot：6モデルが10/19廃止..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789859269.298979",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-19_ 1. _Claude Code v2.1.277：AGENTS.md対応で30以上のAIコーディングツールと相互互換に_ └ Claude Code 2.1.277がAGENTS.mdのフォールバック読み込みをサポート。CLAUDE.mdが存在しないプロジェクトでAGENTS.mdを自動読み込み（/configで変更可）。OpenAI Codex、Google Jules、Cursor、GitHub Copilot等30以上のツールがサポートする60,000以上のリポジトリで使われるオープン標準フォーマットと互換性を獲得。BedRock・Vertex・Foundryでは未対応。 :link: <https://cryptobriefing.com/anthropic-claude-code-agents-md-support/|cryptobriefing.com/anthropic-claude-code-agents-md-support> 2. _GitHub Copilot：6モデルが10/19廃止予告—対象ワークフローの移行が必要_ └ Gemini 3.7 Flash・GPT-5.5・GPT-5.4・GPT-5.4 mini・GPT-5 mini・Grok 4.5が2026年10月19日に全Copilotエクスペリエンス（Chat・インライン編集・エージェントモード・コード補完）で廃止予定。代替モデルとしてGemini 3.8 Flash・GPT-5.6 Sol・GPT-5.6 Luna...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789859269.298979",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-19_ 1. _Claude Code v2.1.277：AGENTS.md対応で30以上のAIコーディングツールと相互互換に_ └ Claude Code 2.1.277がAGENTS.mdのフォールバック読み込みをサポート。CLAUDE.mdが存在しないプロジェクトでAGENTS.mdを自動読み込み（/configで変更可）。OpenAI Codex、Google Jules、Cursor、GitHub Copilot等30以上のツールがサポートする60,000以上のリポジトリで使われるオープン標準フォーマットと互換性を獲得。BedRock・Vertex・Foundryでは未対応。 :link: <https://cryptobriefing.com/anthropic-claude-code-agents-md-support/|cryptobriefing.com/anthropic-claude-code-agents-md-support> 2. _GitHub Copilot：6モデルが10/19廃止予告—対象ワークフローの移行が必要_ └ Gemini 3.7 Flash・GPT-5.5・GPT-5.4・GPT-5.4 mini・GPT-5 mini・Grok 4.5が2026年10月19日に全Copilotエクスペリエンス（Chat・インライン編集・エージェントモード・コード補完）で廃止予定。代替モデルとしてGemini 3.8 Flash・GPT-5.6 Sol・GPT-5.6 Luna・Grok 4.6が推奨。Enterprise/Businessはデフォルト有効化済みで対応不要だが、独自ワークフローは期限前に移行が必要。 :link: <https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/|github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october> 3. _OpenAI カスタムGPT（GPTs）廃止へ—9/25新規作成終了・12/11完全停止_ └ OpenAIが全個人向けプラン（Free・Plus・Pro）でCustom GPTの新規作成とGPT Storeへの公開を停止。9/25に作成機能終了、12/11に完全廃止の見込み。後継として「Plugins」システムへの移行を推奨。既存のCustom GPTは廃止日まで利用可能だが、早めの棚卸し・移行が...\nai駆動開発ネタ\n経営"
     }
   ]
 }
