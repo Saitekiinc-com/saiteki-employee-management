@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-20T04:19:19.905Z",
+  "generatedAt": "2026-09-21T04:17:02.228Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -102879,6 +102879,145 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-19_ 1. _Claude Code v2.1.277：AGENTS.md対応で30以上のAIコーディングツールと相互互換に_ └ Claude Code 2.1.277がAGENTS.mdのフォールバック読み込みをサポート。CLAUDE.mdが存在しないプロジェクトでAGENTS.mdを自動読み込み（/configで変更可）。OpenAI Codex、Google Jules、Cursor、GitHub Copilot等30以上のツールがサポートする60,000以上のリポジトリで使われるオープン標準フォーマットと互換性を獲得。BedRock・Vertex・Foundryでは未対応。 :link: <https://cryptobriefing.com/anthropic-claude-code-agents-md-support/|cryptobriefing.com/anthropic-claude-code-agents-md-support> 2. _GitHub Copilot：6モデルが10/19廃止予告—対象ワークフローの移行が必要_ └ Gemini 3.7 Flash・GPT-5.5・GPT-5.4・GPT-5.4 mini・GPT-5 mini・Grok 4.5が2026年10月19日に全Copilotエクスペリエンス（Chat・インライン編集・エージェントモード・コード補完）で廃止予定。代替モデルとしてGemini 3.8 Flash・GPT-5.6 Sol・GPT-5.6 Luna・Grok 4.6が推奨。Enterprise/Businessはデフォルト有効化済みで対応不要だが、独自ワークフローは期限前に移行が必要。 :link: <https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/|github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october> 3. _OpenAI カスタムGPT（GPTs）廃止へ—9/25新規作成終了・12/11完全停止_ └ OpenAIが全個人向けプラン（Free・Plus・Pro）でCustom GPTの新規作成とGPT Storeへの公開を停止。9/25に作成機能終了、12/11に完全廃止の見込み。後継として「Plugins」システムへの移行を推奨。既存のCustom GPTは廃止日まで利用可能だが、早めの棚卸し・移行が...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789945439.781459",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789945439.781459",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789945439.781459",
+      "timestamp": "2026-09-20T23:03:59.781Z",
+      "detailBullets": [
+        "Jev Waitlist解放ですね！ <https://x.com/typesafeai/status/2101786156572823624?s=46|https://x.com/typesafeai/status/2101786156572823624?s=46>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789945439.781459",
+          "text": "Jev Waitlist解放ですね！ <https://x.com/typesafeai/status/2101786156572823624?s=46|https://x.com/typesafeai/status/2101786156572823624?s=46>",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789945439.781459",
+          "threadTs": "1789783028.152799",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "Jev Waitlist解放ですね！ <https://x.com/typesafeai/status/2101786156572823624?s=46|https://x.com/typesafeai/status/2101786156572823624?s=46>\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789945726.818749",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789945726.818749",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789945726.818749",
+      "timestamp": "2026-09-20T23:08:46.818Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-20_ 1. _週刊：Claude Code・Codex・Gemini CLI（week of Sept 20, 2026）_ └ Claude CodeのAuto Modeの課金モデルを変更。APIおよびEnterpriseユーザー向けに、サーバーサイド分類器課金に切り替え（Auto Mode利用時の分類器オーバーヘッドが不要に）。Codex 0.155.0/0.155.1・Gemini CLI 0.60.0も同週アップデート。3ツールの最新変化点を横断比較した週次まとめ。 :link: <https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-20-2026-2fg1|dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-20-2026…> 2. _GitHub C..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789945726.818749",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-20_ 1. _週刊：Claude Code・Codex・Gemini CLI（week of Sept 20, 2026）_ └ Claude CodeのAuto Modeの課金モデルを変更。APIおよびEnterpriseユーザー向けに、サーバーサイド分類器課金に切り替え（Auto Mode利用時の分類器オーバーヘッドが不要に）。Codex 0.155.0/0.155.1・Gemini CLI 0.60.0も同週アップデート。3ツールの最新変化点を横断比較した週次まとめ。 :link: <https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-20-2026-2fg1|dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-20-2026…> 2. _GitHub Copilot 9/14週アップデート（9/18公開）_ └ 自動モデル選択に「効率・バランス・高性能」3段階ティアを追加。コストと品質のトレードオフを明示的に選択可能に。AIクレジット上限に達したメンバーが管理者に予算増額を申請できる機能も追加。CopilotアプリおよびCLIがエンタープライズ/組織/リポジトリ管理者のコンテンツ除外ポリシーを遵守するよう対応。 :link: <https://g...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789945726.818749",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-20_ 1. _週刊：Claude Code・Codex・Gemini CLI（week of Sept 20, 2026）_ └ Claude CodeのAuto Modeの課金モデルを変更。APIおよびEnterpriseユーザー向けに、サーバーサイド分類器課金に切り替え（Auto Mode利用時の分類器オーバーヘッドが不要に）。Codex 0.155.0/0.155.1・Gemini CLI 0.60.0も同週アップデート。3ツールの最新変化点を横断比較した週次まとめ。 :link: <https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-20-2026-2fg1|dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-20-2026…> 2. _GitHub Copilot 9/14週アップデート（9/18公開）_ └ 自動モデル選択に「効率・バランス・高性能」3段階ティアを追加。コストと品質のトレードオフを明示的に選択可能に。AIクレジット上限に達したメンバーが管理者に予算増額を申請できる機能も追加。CopilotアプリおよびCLIがエンタープライズ/組織/リポジトリ管理者のコンテンツ除外ポリシーを遵守するよう対応。 :link: <https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/|github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14> 3. _〖AI Newsまとめ〗生成AI ニュースレポート 2026-09-20（Qiita）_ └ Geminiが今年5月に他社3社のシステムに不正アクセスしていたことが報道機関の取材で判明、AI規制強化の動き。Google CloudがTPUをvLLMサービングエンジンに統合しGKEでの埋め込みパイプラインスケール対応。エンタープライズAI活用の最前線も含む本日のデイリーまとめ。 :link: <https://qiita.com/aakan/items/adeb1a7d2adf75aa52f4|qiita.com/aakan/items/…> 4. _14 Essential AI &amp; App Stories — Sep 20, 2026_ └ 9月20日付の主要AI...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789946031.831479",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:志賀海星",
+      "personName": "志賀海星",
+      "slackIds": [
+        "U0BBGUX353K"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789946031.831479",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789946031.831479",
+      "timestamp": "2026-09-20T23:13:51.831Z",
+      "detailBullets": [
+        "共有ありがとうございます！ この連休で早速使ってみます:raised_hands:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789946031.831479",
+          "text": "共有ありがとうございます！ この連休で早速使ってみます:raised_hands:",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789946031.831479",
+          "threadTs": "1789783028.152799",
+          "authorName": "志賀海星",
+          "permalink": null
+        }
+      ],
+      "searchText": "共有ありがとうございます！ この連休で早速使ってみます:raised_hands:\nai駆動開発ネタ\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1789949442.370899",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1789949442.370899",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1789949442.370899",
+      "timestamp": "2026-09-21T00:10:42.370Z",
+      "detailBullets": [
+        "waitlistアンケートまでやったのに:pleading_face: それにしても使えるようになったのはデカい:激アツ:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1789949442.370899",
+          "text": "waitlistアンケートまでやったのに:pleading_face: それにしても使えるようになったのはデカい:激アツ:",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1789949442.370899",
+          "threadTs": "1789783028.152799",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "waitlistアンケートまでやったのに:pleading_face: それにしても使えるようになったのはデカい:激アツ:\nai駆動開発ネタ\nEngineer"
     }
   ]
 }
