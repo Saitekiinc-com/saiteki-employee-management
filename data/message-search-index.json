@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-21T04:17:02.228Z",
+  "generatedAt": "2026-09-22T04:12:45.073Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -101872,7 +101872,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1789386031.781189",
-          "threadTs": null,
+          "threadTs": "1789386031.781189",
           "authorName": "太田圭祐",
           "permalink": null
         }
@@ -101941,7 +101941,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1789427713.991129",
-          "threadTs": null,
+          "threadTs": "1789427713.991129",
           "authorName": "南野文希",
           "permalink": null
         }
@@ -102285,7 +102285,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1789546198.183159",
-          "threadTs": null,
+          "threadTs": "1789546198.183159",
           "authorName": "服巻瑞稀",
           "permalink": null
         }
@@ -102319,7 +102319,7 @@
           "channelId": "C09Q46YA4ER",
           "channelName": "自己紹介",
           "messageTs": "1789553234.356049",
-          "threadTs": null,
+          "threadTs": "1789553234.356049",
           "authorName": "榑林咲希",
           "permalink": null
         }
@@ -103018,6 +103018,216 @@
         }
       ],
       "searchText": "waitlistアンケートまでやったのに:pleading_face: それにしても使えるようになったのはデカい:激アツ:\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1789976201.952489",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1789976201.952489",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1789976201.952489",
+      "timestamp": "2026-09-21T07:36:41.952Z",
+      "detailBullets": [
+        "<@U0C1L6X14CA> 太田さん、あらためてよろしくお願いします！ DJが趣味ってカッコ良すぎます！幅広い業務経験とその学ぶ姿勢を活かしてSaitekiでも活躍してもらえますと幸いです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1789976201.952489",
+          "text": "<@U0C1L6X14CA> 太田さん、あらためてよろしくお願いします！ DJが趣味ってカッコ良すぎます！幅広い業務経験とその学ぶ姿勢を活かしてSaitekiでも活躍してもらえますと幸いです！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1789976201.952489",
+          "threadTs": "1789386031.781189",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0C1L6X14CA> 太田さん、あらためてよろしくお願いします！ DJが趣味ってカッコ良すぎます！幅広い業務経験とその学ぶ姿勢を活かしてSaitekiでも活躍してもらえますと幸いです！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1789976447.675669",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1789976447.675669",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1789976447.675669",
+      "timestamp": "2026-09-21T07:40:47.675Z",
+      "detailBullets": [
+        "<@U0C16B96J8P> 南野さん、あらためてよろしくお願いします！ テスターからクラウドエンジニアというキャリアは珍しいかなと思いますので、これから一緒にキャリアを作って活躍の幅を広げていただければと思います！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1789976447.675669",
+          "text": "<@U0C16B96J8P> 南野さん、あらためてよろしくお願いします！ テスターからクラウドエンジニアというキャリアは珍しいかなと思いますので、これから一緒にキャリアを作って活躍の幅を広げていただければと思います！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1789976447.675669",
+          "threadTs": "1789427713.991129",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0C16B96J8P> 南野さん、あらためてよろしくお願いします！ テスターからクラウドエンジニアというキャリアは珍しいかなと思いますので、これから一緒にキャリアを作って活躍の幅を広げていただければと思います！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1789976843.795199",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1789976843.795199",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1789976843.795199",
+      "timestamp": "2026-09-21T07:47:23.795Z",
+      "detailBullets": [
+        "<@U0C26R21Y0G> 服巻さん、あらためてよろしくお願いします！ ClaudeCodeを使って開発をすでにされているとのことでこれからの当社での開発スタイルにあっていますし楽しみです:palms_up_together: 趣味も多くて、お酒もお好きとのことで、メンバーとの会話が弾みそうですね！直接お会いできることを楽しみにしています！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1789976843.795199",
+          "text": "<@U0C26R21Y0G> 服巻さん、あらためてよろしくお願いします！ ClaudeCodeを使って開発をすでにされているとのことでこれからの当社での開発スタイルにあっていますし楽しみです:palms_up_together: 趣味も多くて、お酒もお好きとのことで、メンバーとの会話が弾みそうですね！直接お会いできることを楽しみにしています！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1789976843.795199",
+          "threadTs": "1789546198.183159",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0C26R21Y0G> 服巻さん、あらためてよろしくお願いします！ ClaudeCodeを使って開発をすでにされているとのことでこれからの当社での開発スタイルにあっていますし楽しみです:palms_up_together: 趣味も多くて、お酒もお好きとのことで、メンバーとの会話が弾みそうですね！直接お会いできることを楽しみにしています！\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1789977007.240359",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1789977007.240359",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1789977007.240359",
+      "timestamp": "2026-09-21T07:50:07.240Z",
+      "detailBullets": [
+        "<@U0C1FM7DAFN> 榑林さん、あらためてこれからよろしくお願いします！ 僕、広島が大好きでいずれ広島トークさせてください！お酒好きも素敵ですね:sake: 福岡メンバーでの交流会とか企画した際は、ぜひご参加ください:palms_up_together:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1789977007.240359",
+          "text": "<@U0C1FM7DAFN> 榑林さん、あらためてこれからよろしくお願いします！ 僕、広島が大好きでいずれ広島トークさせてください！お酒好きも素敵ですね:sake: 福岡メンバーでの交流会とか企画した際は、ぜひご参加ください:palms_up_together:",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1789977007.240359",
+          "threadTs": "1789553234.356049",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0C1FM7DAFN> 榑林さん、あらためてこれからよろしくお願いします！ 僕、広島が大好きでいずれ広島トークさせてください！お酒好きも素敵ですね:sake: 福岡メンバーでの交流会とか企画した際は、ぜひご参加ください:palms_up_together:\n自己紹介\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790032110.375119",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790032110.375119",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790032110.375119",
+      "timestamp": "2026-09-21T23:08:30.375Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-21_ 1. _Claude Code、ソフトウェア開発を「管理職の仕事」に変える_ └ Claude Codeの普及により、開発者の役割がコードを書くことからAIエージェントの管理・監督へとシフト。プログラマーから「AIチームのマネージャー」への転換が起きていると分析。コードを書く時間より、指示・レビュー・方向修正に時間を使う新たな開発スタイルが定着しつつある。 :link: <https://adtmag.com/articles/2026/09/21/claude-code-turns-software-development-into-a-management-job.aspx|adtmag.com/articles/…/claude-code-turns-software-development-into-a-management…> 2. _Grok 4.7、GitHub Copilotに追加_ └ xAIの最新推論モデルGrok 4.7がGitHub Copilotに本日ロールアウト開始。Agenti..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790032110.375119",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-21_ 1. _Claude Code、ソフトウェア開発を「管理職の仕事」に変える_ └ Claude Codeの普及により、開発者の役割がコードを書くことからAIエージェントの管理・監督へとシフト。プログラマーから「AIチームのマネージャー」への転換が起きていると分析。コードを書く時間より、指示・レビュー・方向修正に時間を使う新たな開発スタイルが定着しつつある。 :link: <https://adtmag.com/articles/2026/09/21/claude-code-turns-software-development-into-a-management-job.aspx|adtmag.com/articles/…/claude-code-turns-software-development-into-a-management…> 2. _Grok 4.7、GitHub Copilotに追加_ └ xAIの最新推論モデルGrok 4.7がGitHub Copilotに本日ロールアウト開始。Agentic codingや複雑なマルチステップワークフロー向けに特化して設計されており、Pro・Pro+・Max・Business・Enterpriseの全有料プランで利用可能。 :link: <https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot/|github.blog/changelo...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790032110.375119",
+          "threadTs": "1790032110.375119",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-21_ 1. _Claude Code、ソフトウェア開発を「管理職の仕事」に変える_ └ Claude Codeの普及により、開発者の役割がコードを書くことからAIエージェントの管理・監督へとシフト。プログラマーから「AIチームのマネージャー」への転換が起きていると分析。コードを書く時間より、指示・レビュー・方向修正に時間を使う新たな開発スタイルが定着しつつある。 :link: <https://adtmag.com/articles/2026/09/21/claude-code-turns-software-development-into-a-management-job.aspx|adtmag.com/articles/…/claude-code-turns-software-development-into-a-management…> 2. _Grok 4.7、GitHub Copilotに追加_ └ xAIの最新推論モデルGrok 4.7がGitHub Copilotに本日ロールアウト開始。Agentic codingや複雑なマルチステップワークフロー向けに特化して設計されており、Pro・Pro+・Max・Business・Enterpriseの全有料プランで利用可能。 :link: <https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot/|github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot> 3. _OpenAI・AWS・Microsoft・Cursor・VercelがAIエージェントプラグイン共通規格「Agent Plugins」を発表_ └ 競合する5社がAIエージェント向けの共通パッケージ規格「Agent Plugins」を共同発表。MCPサーバーとAgent Skillsを1つのフォルダにまとめるフォーマットで、ChatGPT・Codex・Cursor・GitHub Copilot等の競合ツール間で同じプラグインを再利用可能に。オープンライセンスで公開し特定企業に依存しないガバナンス体制を採用。 :link: <https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/|the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790047416.746139",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790047416.746139",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790047416.746139",
+      "timestamp": "2026-09-22T03:23:36.746Z",
+      "detailBullets": [
+        "*`「Agent Plugins」`* 来ましたね:smirk: GPT(Codex)と壁打ちしながら &gt; *どのIDE・どのAgent・どのModelでも* &gt; *同じ品質思想(Saiteki AI Standard)で* &gt; *AI駆動開発できる基盤を作った* な感じのことを進めてみてますが ※先日のJevの思想も取り込みつつ この件は だいぶ追い風になってくれそうな気がしてます:raised_hands::sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790047416.746139",
+          "text": "*`「Agent Plugins」`* 来ましたね:smirk: GPT(Codex)と壁打ちしながら &gt; *どのIDE・どのAgent・どのModelでも* &gt; *同じ品質思想(Saiteki AI Standard)で* &gt; *AI駆動開発できる基盤を作った* な感じのことを進めてみてますが ※先日のJevの思想も取り込みつつ この件は だいぶ追い風になってくれそうな気がしてます:raised_hands::sparkles:",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790047416.746139",
+          "threadTs": "1790032110.375119",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "*`「Agent Plugins」`* 来ましたね:smirk: GPT(Codex)と壁打ちしながら &gt; *どのIDE・どのAgent・どのModelでも* &gt; *同じ品質思想(Saiteki AI Standard)で* &gt; *AI駆動開発できる基盤を作った* な感じのことを進めてみてますが ※先日のJevの思想も取り込みつつ この件は だいぶ追い風になってくれそうな気がしてます:raised_hands::sparkles:\nai駆動開発ネタ\nEngineer"
     }
   ]
 }
