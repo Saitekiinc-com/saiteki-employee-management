@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-22T04:12:51.598Z",
+  "generatedAt": "2026-09-23T04:09:59.828Z",
   "channelCount": 15,
-  "totalMessages": 3263,
+  "totalMessages": 3265,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -52022,11 +52022,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1790060209.532459",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<@U0BJ4BB4F7W> 非の打ち所がない、完璧な面談でした:man-gesturing-ok:さすがです！",
+          "rawText": "<@U0BJ4BB4F7W> \n非の打ち所がない、完璧な面談でした:man-gesturing-ok:さすがです！",
+          "messageTs": "1790060209.532459",
+          "threadTs": "1789797794.383129",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-09-22",
+          "timestamp": "2026-09-22T06:56:49.532Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 369,
+      "messageCount": 370,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-09-19"
+      "lastDate": "2026-09-22"
     },
     {
       "id": "C09QXV3F8G0",
@@ -58333,9 +58353,29 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1790118514.053319",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-22_ 1. _Claude Code v2.1.280：Claude Opus 5.5がデフォルトモデルに—100万トークンコンテキスト＆Responsiveモード追加_ └ 本日リリースのClaude Code v2.1.280で、Opus 5.5が新デフォルトモデルに昇格。コンテキストウィンドウが100万トークンに拡大し、処理速度も向上。推論・ツール実行前に一文回答を先行返答する「Responsiveモード」と、絵文字・前置き・締め文句等を排除した新出力スタイルも導入。 :link: <https://www.havoptic.com/tools/claude-code|havoptic.com/tools/claude-code> 2. _Claude Opus 5.5がGitHub Copilotに追加—Agentic Coding向け少ステップ・少トークン処理_ └ AnthropicのClaude Opus 5.5がGitHub Copilotで本日より利用可能に。長時間エージェントタスクやKnowledge Workに対応し、Opus 5比で大幅に少ないステップ・トークンで同等タスクを解決できると早期テストで評価。 :link: <https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot/|github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot> 3. _OpenAI GPT-6 Sol &amp; GPT-6 LunaがGitHub Copilotに追加—用途別2モデルで選択肢拡大_ └ GPT-6ファミリーの2新モデルがCopilotに追加。GPT-6 Solはインタラクティブ・エージェントコーディング向けのバランスモデル、GPT-6 LunaはCopilot最安値クラスの高速・軽量モデル。用途や予算に応じた使い分けが可能に。 :link: <https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available/|github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available> 4. _JetBrains Air 発表—AIエージェント開発のIDE・チーム・ガバナンスを統合するオープンプラットフォーム_ └ JetBrainsが「Air」を正式発表。①IDE内でエージェントを指示・監視する「Air in IDEs」、②ソフトウェアデリバリーを自動化する「Air Teams」、③組織ポリシー・コスト・監査対応の「Air Governance」（旧JetBrains Central）の3層構成。AIコーディングエージェントJunieとIDE-エージェント間の標準プロトコルACP（Agent Client Protocol）も同時公開。 :link: <https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/|blog.jetbrains.com/blog/…/introducing-jetbrains-air> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-22_\n\n1. _Claude Code v2.1.280：Claude Opus 5.5がデフォルトモデルに—100万トークンコンテキスト＆Responsiveモード追加_\n└ 本日リリースのClaude Code v2.1.280で、Opus 5.5が新デフォルトモデルに昇格。コンテキストウィンドウが100万トークンに拡大し、処理速度も向上。推論・ツール実行前に一文回答を先行返答する「Responsiveモード」と、絵文字・前置き・締め文句等を排除した新出力スタイルも導入。\n:link: <https://www.havoptic.com/tools/claude-code|havoptic.com/tools/claude-code>\n2. _Claude Opus 5.5がGitHub Copilotに追加—Agentic Coding向け少ステップ・少トークン処理_\n└ AnthropicのClaude Opus 5.5がGitHub Copilotで本日より利用可能に。長時間エージェントタスクやKnowledge Workに対応し、Opus 5比で大幅に少ないステップ・トークンで同等タスクを解決できると早期テストで評価。\n:link: <https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot/|github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot>\n3. _OpenAI GPT-6 Sol &amp; GPT-6 LunaがGitHub Copilotに追加—用途別2モデルで選択肢拡大_\n└ GPT-6ファミリーの2新モデルがCopilotに追加。GPT-6 Solはインタラクティブ・エージェントコーディング向けのバランスモデル、GPT-6 LunaはCopilot最安値クラスの高速・軽量モデル。用途や予算に応じた使い分けが可能に。\n:link: <https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available/|github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available>\n4. _JetBrains Air 発表—AIエージェント開発のIDE・チーム・ガバナンスを統合するオープンプラットフォーム_\n└ JetBrainsが「Air」を正式発表。①IDE内でエージェントを指示・監視する「Air in IDEs」、②ソフトウェアデリバリーを自動化する「Air Teams」、③組織ポリシー・コスト・監査対応の「Air Governance」（旧JetBrains Central）の3層構成。AIコーディングエージェントJunieとIDE-エージェント間の標準プロトコルACP（Agent Client Protocol）も同時公開。\n:link: <https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/|blog.jetbrains.com/blog/…/introducing-jetbrains-air> *使用して送信されました* Claude",
+          "messageTs": "1790118514.053319",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-22",
+          "timestamp": "2026-09-22T23:08:34.053Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 315,
+      "messageCount": 316,
       "firstDate": "2025-11-01",
       "lastDate": "2026-09-22"
     },

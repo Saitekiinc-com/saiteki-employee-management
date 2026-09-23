@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-22T04:12:45.073Z",
+  "generatedAt": "2026-09-23T04:09:57.018Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -103228,6 +103228,76 @@
         }
       ],
       "searchText": "*`「Agent Plugins」`* 来ましたね:smirk: GPT(Codex)と壁打ちしながら &gt; *どのIDE・どのAgent・どのModelでも* &gt; *同じ品質思想(Saiteki AI Standard)で* &gt; *AI駆動開発できる基盤を作った* な感じのことを進めてみてますが ※先日のJevの思想も取り込みつつ この件は だいぶ追い風になってくれそうな気がしてます:raised_hands::sparkles:\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1790060209.532459",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1790060209.532459",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1790060209.532459",
+      "timestamp": "2026-09-22T06:56:49.532Z",
+      "detailBullets": [
+        "<@U0BJ4BB4F7W> 非の打ち所がない、完璧な面談でした:man-gesturing-ok:さすがです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1790060209.532459",
+          "text": "<@U0BJ4BB4F7W> 非の打ち所がない、完璧な面談でした:man-gesturing-ok:さすがです！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1790060209.532459",
+          "threadTs": "1789797794.383129",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BJ4BB4F7W> 非の打ち所がない、完璧な面談でした:man-gesturing-ok:さすがです！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790118514.053319",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790118514.053319",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790118514.053319",
+      "timestamp": "2026-09-22T23:08:34.053Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-22_ 1. _Claude Code v2.1.280：Claude Opus 5.5がデフォルトモデルに—100万トークンコンテキスト＆Responsiveモード追加_ └ 本日リリースのClaude Code v2.1.280で、Opus 5.5が新デフォルトモデルに昇格。コンテキストウィンドウが100万トークンに拡大し、処理速度も向上。推論・ツール実行前に一文回答を先行返答する「Responsiveモード」と、絵文字・前置き・締め文句等を排除した新出力スタイルも導入。 :link: <https://www.havoptic.com/tools/claude-code|havoptic.com/tools/claude-code> 2. _Claude Opus 5.5がGitHub Copilotに追加—Agentic Coding向け少ステップ・少トークン処理_ └ AnthropicのClaude Opus 5.5がGitHub Copilotで本日より利用可能に。長時間エージェントタスクやKnowl..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790118514.053319",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-22_ 1. _Claude Code v2.1.280：Claude Opus 5.5がデフォルトモデルに—100万トークンコンテキスト＆Responsiveモード追加_ └ 本日リリースのClaude Code v2.1.280で、Opus 5.5が新デフォルトモデルに昇格。コンテキストウィンドウが100万トークンに拡大し、処理速度も向上。推論・ツール実行前に一文回答を先行返答する「Responsiveモード」と、絵文字・前置き・締め文句等を排除した新出力スタイルも導入。 :link: <https://www.havoptic.com/tools/claude-code|havoptic.com/tools/claude-code> 2. _Claude Opus 5.5がGitHub Copilotに追加—Agentic Coding向け少ステップ・少トークン処理_ └ AnthropicのClaude Opus 5.5がGitHub Copilotで本日より利用可能に。長時間エージェントタスクやKnowledge Workに対応し、Opus 5比で大幅に少ないステップ・トークンで同等タスクを解決できると早期テストで評価。 :link: <https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot/|github.blog/changelog/2026-09-22-claude...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790118514.053319",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-22_ 1. _Claude Code v2.1.280：Claude Opus 5.5がデフォルトモデルに—100万トークンコンテキスト＆Responsiveモード追加_ └ 本日リリースのClaude Code v2.1.280で、Opus 5.5が新デフォルトモデルに昇格。コンテキストウィンドウが100万トークンに拡大し、処理速度も向上。推論・ツール実行前に一文回答を先行返答する「Responsiveモード」と、絵文字・前置き・締め文句等を排除した新出力スタイルも導入。 :link: <https://www.havoptic.com/tools/claude-code|havoptic.com/tools/claude-code> 2. _Claude Opus 5.5がGitHub Copilotに追加—Agentic Coding向け少ステップ・少トークン処理_ └ AnthropicのClaude Opus 5.5がGitHub Copilotで本日より利用可能に。長時間エージェントタスクやKnowledge Workに対応し、Opus 5比で大幅に少ないステップ・トークンで同等タスクを解決できると早期テストで評価。 :link: <https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot/|github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot> 3. _OpenAI GPT-6 Sol &amp; GPT-6 LunaがGitHub Copilotに追加—用途別2モデルで選択肢拡大_ └ GPT-6ファミリーの2新モデルがCopilotに追加。GPT-6 Solはインタラクティブ・エージェントコーディング向けのバランスモデル、GPT-6 LunaはCopilot最安値クラスの高速・軽量モデル。用途や予算に応じた使い分けが可能に。 :link: <https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available/|github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available> 4. _JetBrains Air 発表—AIエージェント開発のIDE・チーム・ガバナンスを統合するオープンプラットフォーム_ └ JetBrainsが「Air...\nai駆動開発ネタ\n経営"
     }
   ]
 }
