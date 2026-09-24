@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-23T04:09:59.828Z",
+  "generatedAt": "2026-09-24T04:05:06.736Z",
   "channelCount": 15,
-  "totalMessages": 3265,
+  "totalMessages": 3268,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -44631,11 +44631,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1790206468.092159",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0C26R21Y0G",
+          "userName": "服巻瑞稀",
+          "userRealName": "服巻瑞稀",
+          "text": "<@U09MGUVJ8BV> ありがとうございます。 12月からよろしくお願いいたします！",
+          "rawText": "<@U09MGUVJ8BV> \nありがとうございます。\n12月からよろしくお願いいたします！",
+          "messageTs": "1790206468.092159",
+          "threadTs": "1789546198.183159",
+          "parentUserId": "U0C26R21Y0G",
+          "subtype": null,
+          "date": "2026-09-23",
+          "timestamp": "2026-09-23T23:34:28.092Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1790221158.906149",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0C1ZM2EY4B",
+          "userName": "酒井聖人",
+          "userRealName": "酒井聖人",
+          "text": "初めまして！ 12月入社予定の酒井 聖人(さかい まさと)と申します。 :white_small_square:出身地 静岡県浜松市 :white_small_square:経歴 新卒入社はパチンコ屋の店員をしてました！ 前職では、インフラ領域だと仮想化基盤サーバの構築やWindowsサーバの設計と構築を行ってきました。 開発領域だとSQLを使用したデータの抽出作業やエラーの解析などを行ってきました。 :white_small_square:趣味 4月に子供が産まれ、絶賛子育て中です！ お酒が好きです！ :white_small_square:ひとこと インフラエンジニアとしての経験を活かせるよう資格などを取りながら、即戦力となれるよう努力していきますので、これからよろしくお願いします。",
+          "rawText": "初めまして！\n12月入社予定の酒井 聖人(さかい まさと)と申します。\n\n:white_small_square:出身地\n静岡県浜松市\n\n:white_small_square:経歴\n新卒入社はパチンコ屋の店員をしてました！\n前職では、インフラ領域だと仮想化基盤サーバの構築やWindowsサーバの設計と構築を行ってきました。\n開発領域だとSQLを使用したデータの抽出作業やエラーの解析などを行ってきました。\n\n:white_small_square:趣味\n4月に子供が産まれ、絶賛子育て中です！\nお酒が好きです！\n\n:white_small_square:ひとこと\nインフラエンジニアとしての経験を活かせるよう資格などを取りながら、即戦力となれるよう努力していきますので、これからよろしくお願いします。",
+          "messageTs": "1790221158.906149",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-24",
+          "timestamp": "2026-09-24T03:39:18.906Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 493,
+      "messageCount": 495,
       "firstDate": "2025-11-02",
-      "lastDate": "2026-09-21"
+      "lastDate": "2026-09-24"
     },
     {
       "id": "C09MKT8QKAR",
@@ -58373,11 +58413,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1790204973.621759",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-23_ 1. _GitHub Copilot アプリにローカルサンドボックス機能が追加_ └ AIエージェントによる意図しないコマンド実行リスクを低減する「ローカルサンドボックス」がGitHub Copilotアプリに正式追加。プロジェクトごとにファイルシステム（読み書き制限）・ネットワーク（外部/ローカル接続制御）・認証情報（Git・GitHub CLI）を細かく設定可能。エンタープライズ管理ポリシーとも統合され、ポリシーを適用できないOSではセッション開始をブロックする安全設計。 :link: <https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app/|github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app> 2. _Xiaomi、MITライセンスのオープンウェイトマルチモーダルAI「MiMo-V2.6」を公開_ └ 1兆パラメータの「Pro」と310億パラメータの「Flash」で構成されるオープンウェイトAIシリーズ。コーディングエージェント・長時間タスク・視覚フィードバックループに特化し、Artificial Analysis Intelligence Indexでオープンウェイト最高スコア（46.32点）を記録。HuggingFaceでMITライセンス公開済み。 :link: <https://siliconangle.com/2026/09/22/xiaomi-introduces-mimo-v2-6-series-open-source-ai-model-family/|siliconangle.com/2026/09/22/xiaomi-introduces-mimo-v2-6-series-open-source-ai-model-family> 3. _Google、Kubernetesスタイルのオープンソース AIエージェントオーケストレーター「AX」を公開_ └ Google I/O（9/18）で発表されたオープンソースのエージェントオーケストレーションランタイム。Task/Workspace/Gateway/Modelの4プリミティブで構成し、複数クラウド・エッジ・デバイスに渡る自律AIエージェントを宣言的APIで管理。CLIはkubectlコマンド体系を踏襲。先週から今週にかけてGitHubスターが急増（+2,305/日）しコミュニティで大きな注目を集めている。 :link: <https://www.infoq.com/news/2026/09/google-ax-orchestrator/|infoq.com/news/2026/09/google-ax-orchestrator> 4. _AWSが「AI-DLC（AI駆動開発ライフサイクル）」を提唱——デブサミ2026注目セッション_ └ AWSがソフトウェア開発ライフサイクル全体をAI化する概念「AI-DLC（AI-Driven Development Life Cycle）」を発表。デブサミ2026の注目セッションとして取り上げられ、要件定義・設計・実装・テスト・運用の全フェーズをAmazon BedrockやAmazon Q Developer等のAWS基盤で統合する具体的な実装アーキテクチャを解説。 :link: <https://codezine.jp/news/detail/23204|codezine.jp/news/detail/23204> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-23_\n\n1. _GitHub Copilot アプリにローカルサンドボックス機能が追加_\n└ AIエージェントによる意図しないコマンド実行リスクを低減する「ローカルサンドボックス」がGitHub Copilotアプリに正式追加。プロジェクトごとにファイルシステム（読み書き制限）・ネットワーク（外部/ローカル接続制御）・認証情報（Git・GitHub CLI）を細かく設定可能。エンタープライズ管理ポリシーとも統合され、ポリシーを適用できないOSではセッション開始をブロックする安全設計。\n:link: <https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app/|github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app>\n2. _Xiaomi、MITライセンスのオープンウェイトマルチモーダルAI「MiMo-V2.6」を公開_\n└ 1兆パラメータの「Pro」と310億パラメータの「Flash」で構成されるオープンウェイトAIシリーズ。コーディングエージェント・長時間タスク・視覚フィードバックループに特化し、Artificial Analysis Intelligence Indexでオープンウェイト最高スコア（46.32点）を記録。HuggingFaceでMITライセンス公開済み。\n:link: <https://siliconangle.com/2026/09/22/xiaomi-introduces-mimo-v2-6-series-open-source-ai-model-family/|siliconangle.com/2026/09/22/xiaomi-introduces-mimo-v2-6-series-open-source-ai-model-family>\n3. _Google、Kubernetesスタイルのオープンソース AIエージェントオーケストレーター「AX」を公開_\n└ Google I/O（9/18）で発表されたオープンソースのエージェントオーケストレーションランタイム。Task/Workspace/Gateway/Modelの4プリミティブで構成し、複数クラウド・エッジ・デバイスに渡る自律AIエージェントを宣言的APIで管理。CLIはkubectlコマンド体系を踏襲。先週から今週にかけてGitHubスターが急増（+2,305/日）しコミュニティで大きな注目を集めている。\n:link: <https://www.infoq.com/news/2026/09/google-ax-orchestrator/|infoq.com/news/2026/09/google-ax-orchestrator>\n4. _AWSが「AI-DLC（AI駆動開発ライフサイクル）」を提唱——デブサミ2026注目セッション_\n└ AWSがソフトウェア開発ライフサイクル全体をAI化する概念「AI-DLC（AI-Driven Development Life Cycle）」を発表。デブサミ2026の注目セッションとして取り上げられ、要件定義・設計・実装・テスト・運用の全フェーズをAmazon BedrockやAmazon Q Developer等のAWS基盤で統合する具体的な実装アーキテクチャを解説。\n:link: <https://codezine.jp/news/detail/23204|codezine.jp/news/detail/23204> *使用して送信されました* Claude",
+          "messageTs": "1790204973.621759",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-23",
+          "timestamp": "2026-09-23T23:09:33.621Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 316,
+      "messageCount": 317,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-09-22"
+      "lastDate": "2026-09-23"
     },
     {
       "id": "C0AARGDBC3V",

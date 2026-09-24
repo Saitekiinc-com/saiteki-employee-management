@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-23T04:09:57.018Z",
+  "generatedAt": "2026-09-24T04:05:02.889Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -103298,6 +103298,109 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-22_ 1. _Claude Code v2.1.280：Claude Opus 5.5がデフォルトモデルに—100万トークンコンテキスト＆Responsiveモード追加_ └ 本日リリースのClaude Code v2.1.280で、Opus 5.5が新デフォルトモデルに昇格。コンテキストウィンドウが100万トークンに拡大し、処理速度も向上。推論・ツール実行前に一文回答を先行返答する「Responsiveモード」と、絵文字・前置き・締め文句等を排除した新出力スタイルも導入。 :link: <https://www.havoptic.com/tools/claude-code|havoptic.com/tools/claude-code> 2. _Claude Opus 5.5がGitHub Copilotに追加—Agentic Coding向け少ステップ・少トークン処理_ └ AnthropicのClaude Opus 5.5がGitHub Copilotで本日より利用可能に。長時間エージェントタスクやKnowledge Workに対応し、Opus 5比で大幅に少ないステップ・トークンで同等タスクを解決できると早期テストで評価。 :link: <https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot/|github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot> 3. _OpenAI GPT-6 Sol &amp; GPT-6 LunaがGitHub Copilotに追加—用途別2モデルで選択肢拡大_ └ GPT-6ファミリーの2新モデルがCopilotに追加。GPT-6 Solはインタラクティブ・エージェントコーディング向けのバランスモデル、GPT-6 LunaはCopilot最安値クラスの高速・軽量モデル。用途や予算に応じた使い分けが可能に。 :link: <https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available/|github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available> 4. _JetBrains Air 発表—AIエージェント開発のIDE・チーム・ガバナンスを統合するオープンプラットフォーム_ └ JetBrainsが「Air...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790204973.621759",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790204973.621759",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790204973.621759",
+      "timestamp": "2026-09-23T23:09:33.621Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-23_ 1. _GitHub Copilot アプリにローカルサンドボックス機能が追加_ └ AIエージェントによる意図しないコマンド実行リスクを低減する「ローカルサンドボックス」がGitHub Copilotアプリに正式追加。プロジェクトごとにファイルシステム（読み書き制限）・ネットワーク（外部/ローカル接続制御）・認証情報（Git・GitHub CLI）を細かく設定可能。エンタープライズ管理ポリシーとも統合され、ポリシーを適用できないOSではセッション開始をブロックする安全設計。 :link: <https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app/|github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app> 2. _Xiaomi、MITライセンスのオープンウェイトマルチモーダルAI「MiMo-V2.6」を..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790204973.621759",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-23_ 1. _GitHub Copilot アプリにローカルサンドボックス機能が追加_ └ AIエージェントによる意図しないコマンド実行リスクを低減する「ローカルサンドボックス」がGitHub Copilotアプリに正式追加。プロジェクトごとにファイルシステム（読み書き制限）・ネットワーク（外部/ローカル接続制御）・認証情報（Git・GitHub CLI）を細かく設定可能。エンタープライズ管理ポリシーとも統合され、ポリシーを適用できないOSではセッション開始をブロックする安全設計。 :link: <https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app/|github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app> 2. _Xiaomi、MITライセンスのオープンウェイトマルチモーダルAI「MiMo-V2.6」を公開_ └ 1兆パラメータの「Pro」と310億パラメータの「Flash」で構成されるオープンウェイトAIシリーズ。コーディングエージェント・長時間タスク・視覚フィードバックループに特化し、Artificial Analysis Intelligence Indexでオープンウェイト最高スコア（46.32点）を記録。HuggingFaceでMITライセンス公開済み。 :link: <https:/...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790204973.621759",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-23_ 1. _GitHub Copilot アプリにローカルサンドボックス機能が追加_ └ AIエージェントによる意図しないコマンド実行リスクを低減する「ローカルサンドボックス」がGitHub Copilotアプリに正式追加。プロジェクトごとにファイルシステム（読み書き制限）・ネットワーク（外部/ローカル接続制御）・認証情報（Git・GitHub CLI）を細かく設定可能。エンタープライズ管理ポリシーとも統合され、ポリシーを適用できないOSではセッション開始をブロックする安全設計。 :link: <https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app/|github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app> 2. _Xiaomi、MITライセンスのオープンウェイトマルチモーダルAI「MiMo-V2.6」を公開_ └ 1兆パラメータの「Pro」と310億パラメータの「Flash」で構成されるオープンウェイトAIシリーズ。コーディングエージェント・長時間タスク・視覚フィードバックループに特化し、Artificial Analysis Intelligence Indexでオープンウェイト最高スコア（46.32点）を記録。HuggingFaceでMITライセンス公開済み。 :link: <https://siliconangle.com/2026/09/22/xiaomi-introduces-mimo-v2-6-series-open-source-ai-model-family/|siliconangle.com/2026/09/22/xiaomi-introduces-mimo-v2-6-series-open-source-ai-model-family> 3. _Google、Kubernetesスタイルのオープンソース AIエージェントオーケストレーター「AX」を公開_ └ Google I/O（9/18）で発表されたオープンソースのエージェントオーケストレーションランタイム。Task/Workspace/Gateway/Modelの4プリミティブで構成し、複数クラウド・エッジ・デバイスに渡る自律AIエージェントを宣言的APIで管理。CLIはkubectlコマンド体系を踏襲。先週から今週にかけてGitHubスターが急増（+2,305/日）しコミュニティで大きな注目を集めている。 :link: <https://www.infoq.com/news/2026/09/goog...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1790206468.092159",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:服巻瑞稀",
+      "personName": "服巻瑞稀",
+      "slackIds": [
+        "U0C26R21Y0G"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1790206468.092159",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1790206468.092159",
+      "timestamp": "2026-09-23T23:34:28.092Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> ありがとうございます。 12月からよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1790206468.092159",
+          "text": "<@U09MGUVJ8BV> ありがとうございます。 12月からよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1790206468.092159",
+          "threadTs": "1789546198.183159",
+          "authorName": "服巻瑞稀",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> ありがとうございます。 12月からよろしくお願いいたします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1790221158.906149",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:酒井聖人",
+      "personName": "酒井聖人",
+      "slackIds": [
+        "U0C1ZM2EY4B"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1790221158.906149",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1790221158.906149",
+      "timestamp": "2026-09-24T03:39:18.906Z",
+      "detailBullets": [
+        "初めまして！ 12月入社予定の酒井 聖人(さかい まさと)と申します。 :white_small_square:出身地 静岡県浜松市 :white_small_square:経歴 新卒入社はパチンコ屋の店員をしてました！ 前職では、インフラ領域だと仮想化基盤サーバの構築やWindowsサーバの設計と構築を行ってきました。 開発領域だとSQLを使用したデータの抽出作業やエラーの解析などを行ってきました。 :white_small_square:趣味 4月に子供が産まれ、絶賛子育て中です！ お酒が好きです！ :white_small_square:ひとこと インフラエンジニアとしての経験を活かせるよう資格などを取りながら、即戦力となれるよう努力していきますので、これからよろしくお願いします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1790221158.906149",
+          "text": "初めまして！ 12月入社予定の酒井 聖人(さかい まさと)と申します。 :white_small_square:出身地 静岡県浜松市 :white_small_square:経歴 新卒入社はパチンコ屋の店員をしてました！ 前職では、インフラ領域だと仮想化基盤サーバの構築やWindowsサーバの設計と構築を行ってきました。 開発領域だとSQLを使用したデータの抽出作業やエラーの解析などを行ってきました。 :white_small_square:趣味 4月に子供が産まれ、絶賛子育て中です！ お酒が好きです！ :white_small_square:ひとこと インフラエンジニアとしての経験を活かせるよう資格などを取りながら、即戦力となれるよう努力していきますので、これからよろしくお願いします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1790221158.906149",
+          "threadTs": null,
+          "authorName": "酒井聖人",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして！ 12月入社予定の酒井 聖人(さかい まさと)と申します。 :white_small_square:出身地 静岡県浜松市 :white_small_square:経歴 新卒入社はパチンコ屋の店員をしてました！ 前職では、インフラ領域だと仮想化基盤サーバの構築やWindowsサーバの設計と構築を行ってきました。 開発領域だとSQLを使用したデータの抽出作業やエラーの解析などを行ってきました。 :white_small_square:趣味 4月に子供が産まれ、絶賛子育て中です！ お酒が好きです！ :white_small_square:ひとこと インフラエンジニアとしての経験を活かせるよう資格などを取りながら、即戦力となれるよう努力していきますので、これからよろしくお願いします。\n自己紹介\nOther"
     }
   ]
 }
