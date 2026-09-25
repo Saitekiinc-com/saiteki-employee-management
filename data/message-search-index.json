@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-24T04:05:02.889Z",
+  "generatedAt": "2026-09-25T04:18:57.736Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -103401,6 +103401,250 @@
         }
       ],
       "searchText": "初めまして！ 12月入社予定の酒井 聖人(さかい まさと)と申します。 :white_small_square:出身地 静岡県浜松市 :white_small_square:経歴 新卒入社はパチンコ屋の店員をしてました！ 前職では、インフラ領域だと仮想化基盤サーバの構築やWindowsサーバの設計と構築を行ってきました。 開発領域だとSQLを使用したデータの抽出作業やエラーの解析などを行ってきました。 :white_small_square:趣味 4月に子供が産まれ、絶賛子育て中です！ お酒が好きです！ :white_small_square:ひとこと インフラエンジニアとしての経験を活かせるよう資格などを取りながら、即戦力となれるよう努力していきますので、これからよろしくお願いします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790291358.150589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790291358.150589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790291358.150589",
+      "timestamp": "2026-09-24T23:09:18.150Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-24_ 1. _AdobeがClaudeプラグインにAcrobatを追加—80以上のツールがClaude上で利用可能に_ └ AdobeがClaudeプラグインをアップデートし、Acrobatツールを新たに統合。Photoshop・Illustrator・Premiere・Lightroom等を含む80以上のツールをClaude（デスクトップ・Web・モバイル）上で直接操作可能に。PDFの編集もチャット画面から離れずに実行できる。同日、Gemini向けのCreativeツール統合も発表。 :link: <https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude/|9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude>..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790291358.150589",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-24_ 1. _AdobeがClaudeプラグインにAcrobatを追加—80以上のツールがClaude上で利用可能に_ └ AdobeがClaudeプラグインをアップデートし、Acrobatツールを新たに統合。Photoshop・Illustrator・Premiere・Lightroom等を含む80以上のツールをClaude（デスクトップ・Web・モバイル）上で直接操作可能に。PDFの編集もチャット画面から離れずに実行できる。同日、Gemini向けのCreativeツール統合も発表。 :link: <https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude/|9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude> 2. _GitHub Copilot for JetBrains 1.18.0 リリース—AIツール承認補助・組織共有スキル追加_ └ JetBrains向けGitHub Copilot 1.18.0が公開。AIによるツール承認補助機能でエージェント操作の安全性が向上し、エージェント会話のコントロールも強化。組織全体で共有できるスキル・インストラクション機能も新たに追加された。 :link: <...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790291358.150589",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-24_ 1. _AdobeがClaudeプラグインにAcrobatを追加—80以上のツールがClaude上で利用可能に_ └ AdobeがClaudeプラグインをアップデートし、Acrobatツールを新たに統合。Photoshop・Illustrator・Premiere・Lightroom等を含む80以上のツールをClaude（デスクトップ・Web・モバイル）上で直接操作可能に。PDFの編集もチャット画面から離れずに実行できる。同日、Gemini向けのCreativeツール統合も発表。 :link: <https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude/|9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude> 2. _GitHub Copilot for JetBrains 1.18.0 リリース—AIツール承認補助・組織共有スキル追加_ └ JetBrains向けGitHub Copilot 1.18.0が公開。AIによるツール承認補助機能でエージェント操作の安全性が向上し、エージェント会話のコントロールも強化。組織全体で共有できるスキル・インストラクション機能も新たに追加された。 :link: <https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains/|github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains> 3. _Amazon、Seller Central APIを外部AIエージェントへ開放—Claude・Amazon Quickで在庫管理が可能に_ └ Amazon AccelerateイベントでSeller Central APIが外部AIエージェントに開放された。AnthropicのClaudeまたはAmazon Quickを介して、Seller Centralを開かずに在庫・価格・リスティング・アナリティクスを管理できる。Seller AssistantはAmazon Nova + Claudeをベースに動作し、12月末まで無料提供。 :link: <https://aiagentstore.ai/ai-agent...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790294588.048059",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790294588.048059",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790294588.048059",
+      "timestamp": "2026-09-25T00:03:08.048Z",
+      "detailBullets": [
+        "<https://x.com/it21592349/status/2103051762219540959?s=46|https://x.com/it21592349/status/2103051762219540959?s=46> これエンジニアのミカタグループのことを指しているのですが、本当に悪い噂が続いています。。グループ会社すべて知ってるのでスレッドに置いておきます。他社のことを悪く言うことは滅多にないのですが、業界の風紀を乱すレベルで好き勝手やっているので、皆さんもご注意ください。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790294588.048059",
+          "text": "<https://x.com/it21592349/status/2103051762219540959?s=46|https://x.com/it21592349/status/2103051762219540959?s=46> これエンジニアのミカタグループのことを指しているのですが、本当に悪い噂が続いています。。グループ会社すべて知ってるのでスレッドに置いておきます。他社のことを悪く言うことは滅多にないのですが、業界の風紀を乱すレベルで好き勝手やっているので、皆さんもご注意ください。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790294588.048059",
+          "threadTs": "1790294588.048059",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<https://x.com/it21592349/status/2103051762219540959?s=46|https://x.com/it21592349/status/2103051762219540959?s=46> これエンジニアのミカタグループのことを指しているのですが、本当に悪い噂が続いています。。グループ会社すべて知ってるのでスレッドに置いておきます。他社のことを悪く言うことは滅多にないのですが、業界の風紀を乱すレベルで好き勝手やっているので、皆さんもご注意ください。\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790294672.979739",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790294672.979739",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790294672.979739",
+      "timestamp": "2026-09-25T00:04:32.979Z",
+      "detailBullets": [
+        "エンジニアのミカタ Neuealle カンゲンエージェント アイドルシステム エンジニアファースト ケンブリッジ・コンサルティング オックスフォードパートナーズ ITエグゼクティブ AIメタバース エンジニアキャピタル インフレーション AIクラウド デジタルノマド NEOM スキルアップラボ テドリアップ Ascendrix タレントシステム また、このグループ出身の方が代表を務める会社も要注意かなと思います。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790294672.979739",
+          "text": "エンジニアのミカタ Neuealle カンゲンエージェント アイドルシステム エンジニアファースト ケンブリッジ・コンサルティング オックスフォードパートナーズ ITエグゼクティブ AIメタバース エンジニアキャピタル インフレーション AIクラウド デジタルノマド NEOM スキルアップラボ テドリアップ Ascendrix タレントシステム また、このグループ出身の方が代表を務める会社も要注意かなと思います。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790294672.979739",
+          "threadTs": "1790294588.048059",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "エンジニアのミカタ Neuealle カンゲンエージェント アイドルシステム エンジニアファースト ケンブリッジ・コンサルティング オックスフォードパートナーズ ITエグゼクティブ AIメタバース エンジニアキャピタル インフレーション AIクラウド デジタルノマド NEOM スキルアップラボ テドリアップ Ascendrix タレントシステム また、このグループ出身の方が代表を務める会社も要注意かなと思います。\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790306441.443699",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:佐藤 裕之",
+      "personName": "佐藤 裕之",
+      "slackIds": [
+        "U0AR74C3YBY"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790306441.443699",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790306441.443699",
+      "timestamp": "2026-09-25T03:20:41.443Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 自分の同居人が現在AIメタバースに所属してますね。。 未経験採用なので詐称とかは今のところ心配ないですが、 営業の対応とかそれホントに大丈夫か？ってところもあるので現場切り替わるタイミングとかで転職進めようかなと思いました。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790306441.443699",
+          "text": "<@U09MGUVJ8BV> 自分の同居人が現在AIメタバースに所属してますね。。 未経験採用なので詐称とかは今のところ心配ないですが、 営業の対応とかそれホントに大丈夫か？ってところもあるので現場切り替わるタイミングとかで転職進めようかなと思いました。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790306441.443699",
+          "threadTs": "1790294588.048059",
+          "authorName": "佐藤 裕之",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 自分の同居人が現在AIメタバースに所属してますね。。 未経験採用なので詐称とかは今のところ心配ないですが、 営業の対応とかそれホントに大丈夫か？ってところもあるので現場切り替わるタイミングとかで転職進めようかなと思いました。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790306803.084929",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790306803.084929",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790306803.084929",
+      "timestamp": "2026-09-25T03:26:43.084Z",
+      "detailBullets": [
+        "<@U0AR74C3YBY> おお、そうなんですね、、。そういうこともあるかもなぁと思って嫌な書き方するのはちょっと気を遣ったんですが、未経験採用でご経歴なりに営業されているのであれば問題ないだろうと思いました！ 結局、経歴を詐称して入職して現場の期待値とのギャップに苦労するのはエンジニア本人ですからね。。もし今後の現場で大変そうだったりしたら、ご相談ください。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790306803.084929",
+          "text": "<@U0AR74C3YBY> おお、そうなんですね、、。そういうこともあるかもなぁと思って嫌な書き方するのはちょっと気を遣ったんですが、未経験採用でご経歴なりに営業されているのであれば問題ないだろうと思いました！ 結局、経歴を詐称して入職して現場の期待値とのギャップに苦労するのはエンジニア本人ですからね。。もし今後の現場で大変そうだったりしたら、ご相談ください。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790306803.084929",
+          "threadTs": "1790294588.048059",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0AR74C3YBY> おお、そうなんですね、、。そういうこともあるかもなぁと思って嫌な書き方するのはちょっと気を遣ったんですが、未経験採用でご経歴なりに営業されているのであれば問題ないだろうと思いました！ 結局、経歴を詐称して入職して現場の期待値とのギャップに苦労するのはエンジニア本人ですからね。。もし今後の現場で大変そうだったりしたら、ご相談ください。\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790308886.539629",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790308886.539629",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790308886.539629",
+      "timestamp": "2026-09-25T04:01:26.539Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 昨日たまたま、上記にしけんさんのポストを目にして、どこの会社だろう、と気になってたんですよね… エンジニアのミカタ系列でしたか！ グループ会社も広報が派手に目立っていたり、エンジニア飲み会も盛んにやってたりとか、この会社大丈夫？と感じることが多いです… CodeCastももしかして、と思って調べてみたら、エンジニアのミカタが運営してるんですね。笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790308886.539629",
+          "text": "<@U09MGUVJ8BV> 昨日たまたま、上記にしけんさんのポストを目にして、どこの会社だろう、と気になってたんですよね… エンジニアのミカタ系列でしたか！ グループ会社も広報が派手に目立っていたり、エンジニア飲み会も盛んにやってたりとか、この会社大丈夫？と感じることが多いです… CodeCastももしかして、と思って調べてみたら、エンジニアのミカタが運営してるんですね。笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790308886.539629",
+          "threadTs": "1790294588.048059",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 昨日たまたま、上記にしけんさんのポストを目にして、どこの会社だろう、と気になってたんですよね… エンジニアのミカタ系列でしたか！ グループ会社も広報が派手に目立っていたり、エンジニア飲み会も盛んにやってたりとか、この会社大丈夫？と感じることが多いです… CodeCastももしかして、と思って調べてみたら、エンジニアのミカタが運営してるんですね。笑\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790309655.041229",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790309655.041229",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790309655.041229",
+      "timestamp": "2026-09-25T04:14:15.041Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> え、Code Castもエンジニアのミカタなんですか:sweat_drops:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790309655.041229",
+          "text": "<@U09MM9KS06S> え、Code Castもエンジニアのミカタなんですか:sweat_drops:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790309655.041229",
+          "threadTs": "1790294588.048059",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> え、Code Castもエンジニアのミカタなんですか:sweat_drops:\nソーシャル\n経営"
     }
   ]
 }
