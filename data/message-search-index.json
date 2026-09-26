@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-25T04:18:57.736Z",
+  "generatedAt": "2026-09-26T04:23:26.691Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -103645,6 +103645,658 @@
         }
       ],
       "searchText": "<@U09MM9KS06S> え、Code Castもエンジニアのミカタなんですか:sweat_drops:\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790312164.814499",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790312164.814499",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790312164.814499",
+      "timestamp": "2026-09-25T04:56:04.814Z",
+      "detailBullets": [
+        "<https://x.com/it21592349/status/2103316995169239313?s=46|https://x.com/it21592349/status/2103316995169239313?s=46> エンジニアのミカタグループのタレコミ第二弾。。ちなみに私はこの鬼十則を同社の代表から見せてもらったことがありますが、パワーアップしてます。。。さすがに最低最悪だと思います。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790312164.814499",
+          "text": "<https://x.com/it21592349/status/2103316995169239313?s=46|https://x.com/it21592349/status/2103316995169239313?s=46> エンジニアのミカタグループのタレコミ第二弾。。ちなみに私はこの鬼十則を同社の代表から見せてもらったことがありますが、パワーアップしてます。。。さすがに最低最悪だと思います。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790312164.814499",
+          "threadTs": "1790294588.048059",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<https://x.com/it21592349/status/2103316995169239313?s=46|https://x.com/it21592349/status/2103316995169239313?s=46> エンジニアのミカタグループのタレコミ第二弾。。ちなみに私はこの鬼十則を同社の代表から見せてもらったことがありますが、パワーアップしてます。。。さすがに最低最悪だと思います。\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1790327521.019279",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:Rio",
+      "personName": "Rio",
+      "slackIds": [
+        "U0BK4336Q2X"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1790327521.019279",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1790327521.019279",
+      "timestamp": "2026-09-25T09:12:01.019Z",
+      "detailBullets": [
+        "<!channel> :loudspeaker: *AI駆動開発 勉強会 第2回* 以前ご案内していた*AI駆動開発 勉強会 第2回*が、いよいよ来週となりました！:raised_hands: :date: 詳細 *■日時* 9月30日（水）20:00〜 *■形式* オンライン Google Meet :<https://meet.google.com/xgb-enbp-jws|meet.google.com/xgb-enbp-jws> 今回も <@U0A7VHB07J4> さんにご登壇いただき、 「現場でのAI駆動開発」をテーマにお話しいただきます！ 第1回の「AI駆動開発のマインドセット」から一歩進んで、今回は「個人のAI知見を、チームの資産に」を軸に、AIエージェントの仕組みや、実際の開発現場・チームでどう活用していくのかについて掘り下げていきます:bulb: 第1回に参加された方はもちろん、*第2回からの参加も大歓迎です！* 来週、ぜひお気軽にご参加ください！:sparkles: よろしくお願いいたします:raised_hands:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1790327521.019279",
+          "text": "<!channel> :loudspeaker: *AI駆動開発 勉強会 第2回* 以前ご案内していた*AI駆動開発 勉強会 第2回*が、いよいよ来週となりました！:raised_hands: :date: 詳細 *■日時* 9月30日（水）20:00〜 *■形式* オンライン Google Meet :<https://meet.google.com/xgb-enbp-jws|meet.google.com/xgb-enbp-jws> 今回も <@U0A7VHB07J4> さんにご登壇いただき、 「現場でのAI駆動開発」をテーマにお話しいただきます！ 第1回の「AI駆動開発のマインドセット」から一歩進んで、今回は「個人のAI知見を、チームの資産に」を軸に、AIエージェントの仕組みや、実際の開発現場・チームでどう活用していくのかについて掘り下げていきます:bulb: 第1回に参加された方はもちろん、*第2回からの参加も大歓迎です！* 来週、ぜひお気軽にご参加ください！:sparkles: よろしくお願いいたします:raised_hands:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1790327521.019279",
+          "threadTs": "1788479452.493209",
+          "authorName": "Rio",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> :loudspeaker: *AI駆動開発 勉強会 第2回* 以前ご案内していた*AI駆動開発 勉強会 第2回*が、いよいよ来週となりました！:raised_hands: :date: 詳細 *■日時* 9月30日（水）20:00〜 *■形式* オンライン Google Meet :<https://meet.google.com/xgb-enbp-jws|meet.google.com/xgb-enbp-jws> 今回も <@U0A7VHB07J4> さんにご登壇いただき、 「現場でのAI駆動開発」をテーマにお話しいただきます！ 第1回の「AI駆動開発のマインドセット」から一歩進んで、今回は「個人のAI知見を、チームの資産に」を軸に、AIエージェントの仕組みや、実際の開発現場・チームでどう活用していくのかについて掘り下げていきます:bulb: 第1回に参加された方はもちろん、*第2回からの参加も大歓迎です！* 来週、ぜひお気軽にご参加ください！:sparkles: よろしくお願いいたします:raised_hands:\nall-saiteki\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790329034.436879",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790329034.436879",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790329034.436879",
+      "timestamp": "2026-09-25T09:37:14.436Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 以前内定もらった会社名があってゾッとしました…:fearful: 最初から胡散臭くて条件もクソオブクソだったんですけど、直感的に嫌だなと思ったので入社はしませんでした。 あの時の自分の判断によってSaitekiに巡り会えたので、直感や本能的なものを信じてよかったです…！ これからも頑張ります！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790329034.436879",
+          "text": "<@U09MGUVJ8BV> 以前内定もらった会社名があってゾッとしました…:fearful: 最初から胡散臭くて条件もクソオブクソだったんですけど、直感的に嫌だなと思ったので入社はしませんでした。 あの時の自分の判断によってSaitekiに巡り会えたので、直感や本能的なものを信じてよかったです…！ これからも頑張ります！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790329034.436879",
+          "threadTs": "1790294588.048059",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 以前内定もらった会社名があってゾッとしました…:fearful: 最初から胡散臭くて条件もクソオブクソだったんですけど、直感的に嫌だなと思ったので入社はしませんでした。 あの時の自分の判断によってSaitekiに巡り会えたので、直感や本能的なものを信じてよかったです…！ これからも頑張ります！\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790331078.417439",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790331078.417439",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790331078.417439",
+      "timestamp": "2026-09-25T10:11:18.417Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> ＠有識者の皆様 お願い！ スタンプを作ってください。 「おめでとう」が欲しいです。 誕生日おめでとうのスタンプかと思って、追加ポチしたら「ありがとうございます」でしたw 連打してもた... よく見える文字色で是非:sparkles: 誕生日にふさわしい派手なヤツを、ひとつふたつ。お願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790331078.417439",
+          "text": "<@U09MGUVJ8BV> ＠有識者の皆様 お願い！ スタンプを作ってください。 「おめでとう」が欲しいです。 誕生日おめでとうのスタンプかと思って、追加ポチしたら「ありがとうございます」でしたw 連打してもた... よく見える文字色で是非:sparkles: 誕生日にふさわしい派手なヤツを、ひとつふたつ。お願いいたします。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790331078.417439",
+          "threadTs": "1790331078.417439",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> ＠有識者の皆様 お願い！ スタンプを作ってください。 「おめでとう」が欲しいです。 誕生日おめでとうのスタンプかと思って、追加ポチしたら「ありがとうございます」でしたw 連打してもた... よく見える文字色で是非:sparkles: 誕生日にふさわしい派手なヤツを、ひとつふたつ。お願いいたします。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1790331165.358029",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1790331165.358029",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1790331165.358029",
+      "timestamp": "2026-09-25T10:12:45.358Z",
+      "detailBullets": [
+        "<@U0BK4336Q2X> 行けたら行くわ、です。（関西人）"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1790331165.358029",
+          "text": "<@U0BK4336Q2X> 行けたら行くわ、です。（関西人）",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1790331165.358029",
+          "threadTs": null,
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BK4336Q2X> 行けたら行くわ、です。（関西人）\nall-saiteki\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790331531.582079",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790331531.582079",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790331531.582079",
+      "timestamp": "2026-09-25T10:18:51.582Z",
+      "detailBullets": [
+        "<@U0APQEHUJ7R> あるやん！「おめでとう」 これですよ。 ありがとうございます！！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790331531.582079",
+          "text": "<@U0APQEHUJ7R> あるやん！「おめでとう」 これですよ。 ありがとうございます！！！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790331531.582079",
+          "threadTs": "1790331078.417439",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APQEHUJ7R> あるやん！「おめでとう」 これですよ。 ありがとうございます！！！\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790331608.759069",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790331608.759069",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790331608.759069",
+      "timestamp": "2026-09-25T10:20:08.759Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> ぽよんぽよんのおめでとう！も追加しました！ こっちの方が派手です:saluting_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790331608.759069",
+          "text": "<@U09QZF7KT2P> ぽよんぽよんのおめでとう！も追加しました！ こっちの方が派手です:saluting_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790331608.759069",
+          "threadTs": "1790331078.417439",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> ぽよんぽよんのおめでとう！も追加しました！ こっちの方が派手です:saluting_face:\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790331678.075669",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790331678.075669",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790331678.075669",
+      "timestamp": "2026-09-25T10:21:18.075Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> 力こそパワーやばいwwwこれ目指しますwwwしばしお待ちをwww"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790331678.075669",
+          "text": "<@U09QZF7KT2P> 力こそパワーやばいwwwこれ目指しますwwwしばしお待ちをwww",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790331678.075669",
+          "threadTs": "1790331078.417439",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> 力こそパワーやばいwwwこれ目指しますwwwしばしお待ちをwww\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790331777.629909",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790331777.629909",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790331777.629909",
+      "timestamp": "2026-09-25T10:22:57.629Z",
+      "detailBullets": [
+        "<@U0APQEHUJ7R> 今作ってくれてるんですか！ ありがとうございます！！ﾔﾀｰ:raised_hands:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790331777.629909",
+          "text": "<@U0APQEHUJ7R> 今作ってくれてるんですか！ ありがとうございます！！ﾔﾀｰ:raised_hands:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790331777.629909",
+          "threadTs": "1790331078.417439",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APQEHUJ7R> 今作ってくれてるんですか！ ありがとうございます！！ﾔﾀｰ:raised_hands:\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790331901.153519",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790331901.153519",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790331901.153519",
+      "timestamp": "2026-09-25T10:25:01.153Z",
+      "detailBullets": [
+        "おかしなスタンプばっかあるですよねー。 誰が使うの？ 私か？！:nerd_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790331901.153519",
+          "text": "おかしなスタンプばっかあるですよねー。 誰が使うの？ 私か？！:nerd_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790331901.153519",
+          "threadTs": "1790331078.417439",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "おかしなスタンプばっかあるですよねー。 誰が使うの？ 私か？！:nerd_face:\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790332006.486179",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790332006.486179",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790332006.486179",
+      "timestamp": "2026-09-25T10:26:46.486Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> なんか違うかもー:sob::sob::sob:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790332006.486179",
+          "text": "<@U09QZF7KT2P> なんか違うかもー:sob::sob::sob:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790332006.486179",
+          "threadTs": "1790331078.417439",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> なんか違うかもー:sob::sob::sob:\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790332069.961579",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790332069.961579",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790332069.961579",
+      "timestamp": "2026-09-25T10:27:49.961Z",
+      "detailBullets": [
+        "いえいえ。ありがとうございます。気持ちが伝わればOK:+1: ちょっと見えんけど..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790332069.961579",
+          "text": "いえいえ。ありがとうございます。気持ちが伝わればOK:+1: ちょっと見えんけど...",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790332069.961579",
+          "threadTs": "1790331078.417439",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "いえいえ。ありがとうございます。気持ちが伝わればOK:+1: ちょっと見えんけど...\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790332200.109119",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790332200.109119",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790332200.109119",
+      "timestamp": "2026-09-25T10:30:00.109Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> うわーん:sob:センスがなくてギブです:sob: 前に小松田さんが教えてくれた絵文字作るサイト共有しましゅ……( っ °､｡)っﾊﾟﾀｯ <https://zk-phi.github.io/MEGAMOJI/|https://zk-phi.github.io/MEGAMOJI/>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790332200.109119",
+          "text": "<@U09QZF7KT2P> うわーん:sob:センスがなくてギブです:sob: 前に小松田さんが教えてくれた絵文字作るサイト共有しましゅ……( っ °､｡)っﾊﾟﾀｯ <https://zk-phi.github.io/MEGAMOJI/|https://zk-phi.github.io/MEGAMOJI/>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790332200.109119",
+          "threadTs": "1790331078.417439",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> うわーん:sob:センスがなくてギブです:sob: 前に小松田さんが教えてくれた絵文字作るサイト共有しましゅ……( っ °､｡)っﾊﾟﾀｯ <https://zk-phi.github.io/MEGAMOJI/|https://zk-phi.github.io/MEGAMOJI/>\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790332785.133329",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790332785.133329",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790332785.133329",
+      "timestamp": "2026-09-25T10:39:45.133Z",
+      "detailBullets": [
+        "<@U0APQEHUJ7R> だいぶ嫌な思いをされたんだなとお察ししました。。でも結果として小林さんとお会いできて、こうして一緒に働けているので本当によかったです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790332785.133329",
+          "text": "<@U0APQEHUJ7R> だいぶ嫌な思いをされたんだなとお察ししました。。でも結果として小林さんとお会いできて、こうして一緒に働けているので本当によかったです！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790332785.133329",
+          "threadTs": "1790294588.048059",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APQEHUJ7R> だいぶ嫌な思いをされたんだなとお察ししました。。でも結果として小林さんとお会いできて、こうして一緒に働けているので本当によかったです！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790334114.712689",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790334114.712689",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790334114.712689",
+      "timestamp": "2026-09-25T11:01:54.712Z",
+      "detailBullets": [
+        "<@U0APQEHUJ7R> <@U09QZF7KT2P> スタンプ職人おそくなりました:pray:笑 小林さん作成ありがとです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790334114.712689",
+          "text": "<@U0APQEHUJ7R> <@U09QZF7KT2P> スタンプ職人おそくなりました:pray:笑 小林さん作成ありがとです！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790334114.712689",
+          "threadTs": "1790331078.417439",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APQEHUJ7R> <@U09QZF7KT2P> スタンプ職人おそくなりました:pray:笑 小林さん作成ありがとです！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790339120.244649",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790339120.244649",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790339120.244649",
+      "timestamp": "2026-09-25T12:25:20.244Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> GoogleのAIモードが嘘をついてまして… Code Castはエンジニアのミカタとは関係のない別会社の運営でした。 失礼しました:bow: しかし、佐藤さんや小林さんの話を聞いてゾッとしました… 鬼十則も…こういうこと言う人は人の上に立ってはいけない…"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790339120.244649",
+          "text": "<@U09MGUVJ8BV> GoogleのAIモードが嘘をついてまして… Code Castはエンジニアのミカタとは関係のない別会社の運営でした。 失礼しました:bow: しかし、佐藤さんや小林さんの話を聞いてゾッとしました… 鬼十則も…こういうこと言う人は人の上に立ってはいけない…",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790339120.244649",
+          "threadTs": "1790294588.048059",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> GoogleのAIモードが嘘をついてまして… Code Castはエンジニアのミカタとは関係のない別会社の運営でした。 失礼しました:bow: しかし、佐藤さんや小林さんの話を聞いてゾッとしました… 鬼十則も…こういうこと言う人は人の上に立ってはいけない…\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790339999.318209",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790339999.318209",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790339999.318209",
+      "timestamp": "2026-09-25T12:39:59.318Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> ありがとうなのか、おめでとうなのか・・・ 小さい文字見えない仲間、ココにもいますよ:eyeglasses:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790339999.318209",
+          "text": "<@U09QZF7KT2P> ありがとうなのか、おめでとうなのか・・・ 小さい文字見えない仲間、ココにもいますよ:eyeglasses:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790339999.318209",
+          "threadTs": "1790331078.417439",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> ありがとうなのか、おめでとうなのか・・・ 小さい文字見えない仲間、ココにもいますよ:eyeglasses:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790377897.014079",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790377897.014079",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790377897.014079",
+      "timestamp": "2026-09-25T23:11:37.014Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-25_ 1. _Claude Code 最新アップデート（2026-09-25）_ └ 新しいターミナル＆ポリシー制御、起動の高速化、セッション再開の改善、プラグイン・MCP・バックグラウンドエージェント・リモートコントロール全体の信頼性向上が実施された。新ベータ機能として、1プロジェクトが複数の並列スレッドと共有メモリを管理し、Claude が複数セッションを横断して作業を調整できる「プロジェクト並列調整」が登場。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 2. _GitHub Copilot for Slack &amp; Microsoft Teams が大幅強化_ └ Slack 連携では、ファイル・添付ファイル・メッセージリンクをコンテキストとして活用可能に。Teams では、インライン画像、転送メッセージのコンテキスト、チャンネル・スレッ..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790377897.014079",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-25_ 1. _Claude Code 最新アップデート（2026-09-25）_ └ 新しいターミナル＆ポリシー制御、起動の高速化、セッション再開の改善、プラグイン・MCP・バックグラウンドエージェント・リモートコントロール全体の信頼性向上が実施された。新ベータ機能として、1プロジェクトが複数の並列スレッドと共有メモリを管理し、Claude が複数セッションを横断して作業を調整できる「プロジェクト並列調整」が登場。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 2. _GitHub Copilot for Slack &amp; Microsoft Teams が大幅強化_ └ Slack 連携では、ファイル・添付ファイル・メッセージリンクをコンテキストとして活用可能に。Teams では、インライン画像、転送メッセージのコンテキスト、チャンネル・スレッド履歴への対応が追加。会話から GitHub 上の作業への導線もより明確になった。 :link: <https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams/|github.blog/changelog/2026-09-25-updates-to-github-c...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790377897.014079",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-25_ 1. _Claude Code 最新アップデート（2026-09-25）_ └ 新しいターミナル＆ポリシー制御、起動の高速化、セッション再開の改善、プラグイン・MCP・バックグラウンドエージェント・リモートコントロール全体の信頼性向上が実施された。新ベータ機能として、1プロジェクトが複数の並列スレッドと共有メモリを管理し、Claude が複数セッションを横断して作業を調整できる「プロジェクト並列調整」が登場。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 2. _GitHub Copilot for Slack &amp; Microsoft Teams が大幅強化_ └ Slack 連携では、ファイル・添付ファイル・メッセージリンクをコンテキストとして活用可能に。Teams では、インライン画像、転送メッセージのコンテキスト、チャンネル・スレッド履歴への対応が追加。会話から GitHub 上の作業への導線もより明確になった。 :link: <https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams/|github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams> 3. _GitHub Copilot コードレビュー機能が強化（週次リリース 9/21週）_ └ 個人のレビュー制御設定と企業向けデフォルトレビュー強度設定がGAに。コードレビューに進捗トラッキング、スマートな解決提案、タイトル付き結果表示、バッチサジェスト用のコミットメッセージ生成が新たに追加された。 :link: <https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/|github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21> 4. _GitHub Copilot Agentic AutofixがCopilot Memoryを活用_ └ Copilot Memory を有効化しているユーザー向けに、エージェント型オートフィックスがメモリを参照してセキュリティアラートの解決を支援。修正パターンをメモ...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790379116.732119",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790379116.732119",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790379116.732119",
+      "timestamp": "2026-09-25T23:31:56.732Z",
+      "detailBullets": [
+        "スタンプ職人(二番煎じ)おそくなりました:pray: 面白そうなスレ出遅れてしまった...:しょぼん_shobon_syobon: 私からは <https://saiteki-hq.slack.com/archives/C09N28KTKL1/p1790332200109119?thread_ts=1790331078.417439&amp;cid=C09N28KTKL1|カスタム絵文字メーカー>の魔改造手法置いておきます( ´･ω･)⊃旦 ｽｯ ①まず、テキト〜にテキストを打ちます。 ②「効果をつける」押しちゃいます。(画像参照) ③色々遊んでつけちゃいます。(動画参照) ④.gifでダウンロードできるので、slackに取り込むと動きます(^_^)v ※あまりにもうるさかったので、追加は自重しました:sweat_drops::力こそパワー_tikara_power_noukin_nokin: 何方かが:職人_shokunin_syokunin_pro_プロ:モードまで使いこなすことをお祈りします:pray:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790379116.732119",
+          "text": "スタンプ職人(二番煎じ)おそくなりました:pray: 面白そうなスレ出遅れてしまった...:しょぼん_shobon_syobon: 私からは <https://saiteki-hq.slack.com/archives/C09N28KTKL1/p1790332200109119?thread_ts=1790331078.417439&amp;cid=C09N28KTKL1|カスタム絵文字メーカー>の魔改造手法置いておきます( ´･ω･)⊃旦 ｽｯ ①まず、テキト〜にテキストを打ちます。 ②「効果をつける」押しちゃいます。(画像参照) ③色々遊んでつけちゃいます。(動画参照) ④.gifでダウンロードできるので、slackに取り込むと動きます(^_^)v ※あまりにもうるさかったので、追加は自重しました:sweat_drops::力こそパワー_tikara_power_noukin_nokin: 何方かが:職人_shokunin_syokunin_pro_プロ:モードまで使いこなすことをお祈りします:pray:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790379116.732119",
+          "threadTs": "1790331078.417439",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "スタンプ職人(二番煎じ)おそくなりました:pray: 面白そうなスレ出遅れてしまった...:しょぼん_shobon_syobon: 私からは <https://saiteki-hq.slack.com/archives/C09N28KTKL1/p1790332200109119?thread_ts=1790331078.417439&amp;cid=C09N28KTKL1|カスタム絵文字メーカー>の魔改造手法置いておきます( ´･ω･)⊃旦 ｽｯ ①まず、テキト〜にテキストを打ちます。 ②「効果をつける」押しちゃいます。(画像参照) ③色々遊んでつけちゃいます。(動画参照) ④.gifでダウンロードできるので、slackに取り込むと動きます(^_^)v ※あまりにもうるさかったので、追加は自重しました:sweat_drops::力こそパワー_tikara_power_noukin_nokin: 何方かが:職人_shokunin_syokunin_pro_プロ:モードまで使いこなすことをお祈りします:pray:\nソーシャル\nEngineer"
     }
   ]
 }
