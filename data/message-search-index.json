@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-26T04:23:26.691Z",
+  "generatedAt": "2026-09-27T04:40:31.267Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -104297,6 +104297,250 @@
         }
       ],
       "searchText": "スタンプ職人(二番煎じ)おそくなりました:pray: 面白そうなスレ出遅れてしまった...:しょぼん_shobon_syobon: 私からは <https://saiteki-hq.slack.com/archives/C09N28KTKL1/p1790332200109119?thread_ts=1790331078.417439&amp;cid=C09N28KTKL1|カスタム絵文字メーカー>の魔改造手法置いておきます( ´･ω･)⊃旦 ｽｯ ①まず、テキト〜にテキストを打ちます。 ②「効果をつける」押しちゃいます。(画像参照) ③色々遊んでつけちゃいます。(動画参照) ④.gifでダウンロードできるので、slackに取り込むと動きます(^_^)v ※あまりにもうるさかったので、追加は自重しました:sweat_drops::力こそパワー_tikara_power_noukin_nokin: 何方かが:職人_shokunin_syokunin_pro_プロ:モードまで使いこなすことをお祈りします:pray:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790401617.624629",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790401617.624629",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790401617.624629",
+      "timestamp": "2026-09-26T05:46:57.624Z",
+      "detailBullets": [
+        "<@U0A7VHB07J4> カスタム絵文字メーカーの汎用性高いですね！笑 こっちの方がいいなと！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790401617.624629",
+          "text": "<@U0A7VHB07J4> カスタム絵文字メーカーの汎用性高いですね！笑 こっちの方がいいなと！！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790401617.624629",
+          "threadTs": "1790331078.417439",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A7VHB07J4> カスタム絵文字メーカーの汎用性高いですね！笑 こっちの方がいいなと！！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790402034.631159",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790402034.631159",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790402034.631159",
+      "timestamp": "2026-09-26T05:53:54.631Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> おーそうでしたか！Code Castもアイドルシステムとかと近い手法でエンジニアを集めようとしているのは間違い無いですよね。 いつも思うのは、稲盛和夫先生の本を20代前半で読むことができて、それを繰り返し読んできて良かったなということです！どうあっても人としての在り方は間違えないようにしたいと思えます。 いろんな会社が存在する業界ですが、健全な思考のもとで経営して、社員のために、業界のために、業界再編を牽引していく存在になれたらと思います！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790402034.631159",
+          "text": "<@U09MM9KS06S> おーそうでしたか！Code Castもアイドルシステムとかと近い手法でエンジニアを集めようとしているのは間違い無いですよね。 いつも思うのは、稲盛和夫先生の本を20代前半で読むことができて、それを繰り返し読んできて良かったなということです！どうあっても人としての在り方は間違えないようにしたいと思えます。 いろんな会社が存在する業界ですが、健全な思考のもとで経営して、社員のために、業界のために、業界再編を牽引していく存在になれたらと思います！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790402034.631159",
+          "threadTs": "1790294588.048059",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> おーそうでしたか！Code Castもアイドルシステムとかと近い手法でエンジニアを集めようとしているのは間違い無いですよね。 いつも思うのは、稲盛和夫先生の本を20代前半で読むことができて、それを繰り返し読んできて良かったなということです！どうあっても人としての在り方は間違えないようにしたいと思えます。 いろんな会社が存在する業界ですが、健全な思考のもとで経営して、社員のために、業界のために、業界再編を牽引していく存在になれたらと思います！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790404232.286959",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790404232.286959",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790404232.286959",
+      "timestamp": "2026-09-26T06:30:32.286Z",
+      "detailBullets": [
+        "<@U0A7VHB07J4> 職人モードで昨日作ってたんですけど、スマホでやってるからなのか、私のセンスがないのか上手くできなかったです…｡ﾟ( ﾟஇωஇﾟ)ﾟ｡ PCで作った方がいいのかなぁ…"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790404232.286959",
+          "text": "<@U0A7VHB07J4> 職人モードで昨日作ってたんですけど、スマホでやってるからなのか、私のセンスがないのか上手くできなかったです…｡ﾟ( ﾟஇωஇﾟ)ﾟ｡ PCで作った方がいいのかなぁ…",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790404232.286959",
+          "threadTs": "1790331078.417439",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A7VHB07J4> 職人モードで昨日作ってたんですけど、スマホでやってるからなのか、私のセンスがないのか上手くできなかったです…｡ﾟ( ﾟஇωஇﾟ)ﾟ｡ PCで作った方がいいのかなぁ…\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1790412462.534159",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1790412462.534159",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1790412462.534159",
+      "timestamp": "2026-09-26T08:47:42.534Z",
+      "detailBullets": [
+        "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.26）* を共有します。 今週のテーマは *「直取引を創出する新サービス（仮称：Saiteki HP）始動＆社員数80名（100名体制目前）突破と経営者の倫理観」* です。 新しいプロダクトの仕掛けと、組織拡大に伴う代表・戸塚の覚悟・経営倫理観を凝縮してお届けします！ • *【新サービス（仮称：Saiteki HP）リリース！】* 事業会社向けに「格安・高品質」でHP制作＆月額保守を提供する新サービスLPを公開！真の狙いは事業会社に直接入り込み、高付加価値なSI受託へ繋げる「ドアノックツール」にすることです。 ▼ プロトタイプLPはこちら <https://saitekiinc.com/saiteki-hp/|saitekiinc.com/saiteki-hp> サービス作成にあたって壁打ちしてくれた<@U09MM9KS06S> さん、<@U0A7VHB07J4> さん、お忙しい中、ありがとうございました！！ • *【社員数80名突破！（業務委託含め100名体制目前）】..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1790412462.534159",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.26）* を共有します。 今週のテーマは *「直取引を創出する新サービス（仮称：Saiteki HP）始動＆社員数80名（100名体制目前）突破と経営者の倫理観」* です。 新しいプロダクトの仕掛けと、組織拡大に伴う代表・戸塚の覚悟・経営倫理観を凝縮してお届けします！ • *【新サービス（仮称：Saiteki HP）リリース！】* 事業会社向けに「格安・高品質」でHP制作＆月額保守を提供する新サービスLPを公開！真の狙いは事業会社に直接入り込み、高付加価値なSI受託へ繋げる「ドアノックツール」にすることです。 ▼ プロトタイプLPはこちら <https://saitekiinc.com/saiteki-hp/|saitekiinc.com/saiteki-hp> サービス作成にあたって壁打ちしてくれた<@U09MM9KS06S> さん、<@U0A7VHB07J4> さん、お忙しい中、ありがとうございました！！ • *【社員数80名突破！（業務委託含め100名体制目前）】* 入社予定含め社員数80名を突破！BPの方々も含めると95名ほどとなり、100名体制が目前に迫っています。今月も徳田さんや代表紹介によるリファラルで素晴らしい仲間が参画決定。インセンティブ制度もありますので、ぜひ今後とも元同僚やお知り合いがいらっしゃればカジュアルにお声がけください！ • *【他社の崩壊から考える経営者の倫理観〜動機善なりや私心なかりしか〜】* 1,000名規模の巨大グループで起...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1790412462.534159",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.09.26）* を共有します。 今週のテーマは *「直取引を創出する新サービス（仮称：Saiteki HP）始動＆社員数80名（100名体制目前）突破と経営者の倫理観」* です。 新しいプロダクトの仕掛けと、組織拡大に伴う代表・戸塚の覚悟・経営倫理観を凝縮してお届けします！ • *【新サービス（仮称：Saiteki HP）リリース！】* 事業会社向けに「格安・高品質」でHP制作＆月額保守を提供する新サービスLPを公開！真の狙いは事業会社に直接入り込み、高付加価値なSI受託へ繋げる「ドアノックツール」にすることです。 ▼ プロトタイプLPはこちら <https://saitekiinc.com/saiteki-hp/|saitekiinc.com/saiteki-hp> サービス作成にあたって壁打ちしてくれた<@U09MM9KS06S> さん、<@U0A7VHB07J4> さん、お忙しい中、ありがとうございました！！ • *【社員数80名突破！（業務委託含め100名体制目前）】* 入社予定含め社員数80名を突破！BPの方々も含めると95名ほどとなり、100名体制が目前に迫っています。今月も徳田さんや代表紹介によるリファラルで素晴らしい仲間が参画決定。インセンティブ制度もありますので、ぜひ今後とも元同僚やお知り合いがいらっしゃればカジュアルにお声がけください！ • *【他社の崩壊から考える経営者の倫理観〜動機善なりや私心なかりしか〜】* 1,000名規模の巨大グループで起きた元会長の2億円横領・会社私物化による壊滅的な崩壊劇を背景に、経営トップに求められる倫理観について深く言及。稲盛和夫氏の「動機善なりや私心なかりしか」を胸に、累計2億調達・100名体制の代表として、人生をかけて「業界の最適化」を追求する覚悟を綴っています。 ▼ 稲盛和夫氏の名言集はこちら <https://meigen-ijin.com/inamorikazuo/|meigen-ijin.com/inamorikazuo> 新しいサービスを自らの足で育て、高い志と倫理観のもとで組織を大きくしていく熱量が詰まった内容です。ぜひ週末にチェックしてみてください！ ▼ Letter of T | 今週の記録（2026.09.26） <https://app.notion.com/p/Letter-of-T-2026-09-26-3e7dfb42679c80c0af48f5f8ca8f8e09|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790464398.273829",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790464398.273829",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790464398.273829",
+      "timestamp": "2026-09-26T23:13:18.273Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-26_ 1. _MicrosoftがCopilotスーパーアプリ発表—Home・Code・Autopilotの3モード統合_ └ MicrosoftがCopilotを「Home（個人生産性）」「Code（開発者向け）」「Autopilot（自動化）」の3モードに再設計したスーパーアプリを発表。ビジネスユーザー向けにAIエージェント機能を全面統合し、Microsoft全製品のAI基盤として再定義する大型アップデート。開発者向けのCodeモードでは、AIエージェントによるコーディング支援が一層強化されている。 :link: <https://fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents/|fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790464398.273829",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-26_ 1. _MicrosoftがCopilotスーパーアプリ発表—Home・Code・Autopilotの3モード統合_ └ MicrosoftがCopilotを「Home（個人生産性）」「Code（開発者向け）」「Autopilot（自動化）」の3モードに再設計したスーパーアプリを発表。ビジネスユーザー向けにAIエージェント機能を全面統合し、Microsoft全製品のAI基盤として再定義する大型アップデート。開発者向けのCodeモードでは、AIエージェントによるコーディング支援が一層強化されている。 :link: <https://fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents/|fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents> 2. _Meta Muse AIエージェントが3.4Mダウンロード突破、Metaが投資を強化_ └ 9月8日ローンチのMetaのパーソナルAIエージェント「Muse」が3.4Mダウンロードを突破。メール・予定表・ショッピングなど日常タスクを自律実行するエージェントとして急成長中。Metaはさらなる開発リソースの投入を発表したが、ファイルシステムへの意図しないアクセス等の安全性懸念も...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790464398.273829",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-26_ 1. _MicrosoftがCopilotスーパーアプリ発表—Home・Code・Autopilotの3モード統合_ └ MicrosoftがCopilotを「Home（個人生産性）」「Code（開発者向け）」「Autopilot（自動化）」の3モードに再設計したスーパーアプリを発表。ビジネスユーザー向けにAIエージェント機能を全面統合し、Microsoft全製品のAI基盤として再定義する大型アップデート。開発者向けのCodeモードでは、AIエージェントによるコーディング支援が一層強化されている。 :link: <https://fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents/|fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents> 2. _Meta Muse AIエージェントが3.4Mダウンロード突破、Metaが投資を強化_ └ 9月8日ローンチのMetaのパーソナルAIエージェント「Muse」が3.4Mダウンロードを突破。メール・予定表・ショッピングなど日常タスクを自律実行するエージェントとして急成長中。Metaはさらなる開発リソースの投入を発表したが、ファイルシステムへの意図しないアクセス等の安全性懸念も浮上している。 :link: <https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/|techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off> 3. _OpenRouterがStripe統合を実現—AIモデルルーティング基盤が本格成長フェーズへ_ └ Claude・GPT-6・Geminiなど複数AIモデルへの統一APIを提供するOpenRouterが、Seed調達からStripe決済統合まで成長の軌跡を公開。開発者がコスト・性能・速度に応じてモデルを動的に切り替えられるAIルーティング基盤として、2026年のAI開発インフラの重要プレイヤーに成長している。 :link: <https://www.latent.space/p/openrouter|latent.space/p/openrouter> *使用して送信されました...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790465169.860549",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790465169.860549",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790465169.860549",
+      "timestamp": "2026-09-26T23:26:09.860Z",
+      "detailBullets": [
+        "おはようございます！ 今日は剣道を5年振りにしたいと思い 稽古会に参加してきました！！:dagger_knife: 上と書いてあるのが私です笑 剣道は全身の筋肉を使うので 1時間やるだけでクタクタです:sweat_smile: 剣道経験者の方対戦よろしくお願いします(笑)"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790465169.860549",
+          "text": "おはようございます！ 今日は剣道を5年振りにしたいと思い 稽古会に参加してきました！！:dagger_knife: 上と書いてあるのが私です笑 剣道は全身の筋肉を使うので 1時間やるだけでクタクタです:sweat_smile: 剣道経験者の方対戦よろしくお願いします(笑)",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790465169.860549",
+          "threadTs": "1790465169.860549",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "おはようございます！ 今日は剣道を5年振りにしたいと思い 稽古会に参加してきました！！:dagger_knife: 上と書いてあるのが私です笑 剣道は全身の筋肉を使うので 1時間やるだけでクタクタです:sweat_smile: 剣道経験者の方対戦よろしくお願いします(笑)\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790483733.871379",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790483733.871379",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790483733.871379",
+      "timestamp": "2026-09-27T04:35:33.871Z",
+      "detailBullets": [
+        "かっこいいな！剣道部できたらガチ感がすごいね笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790483733.871379",
+          "text": "かっこいいな！剣道部できたらガチ感がすごいね笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790483733.871379",
+          "threadTs": "1790465169.860549",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "かっこいいな！剣道部できたらガチ感がすごいね笑\nソーシャル\n経営"
     }
   ]
 }
