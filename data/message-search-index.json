@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-27T04:40:31.267Z",
+  "generatedAt": "2026-09-28T04:42:21.958Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -104541,6 +104541,526 @@
         }
       ],
       "searchText": "かっこいいな！剣道部できたらガチ感がすごいね笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790489465.393539",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790489465.393539",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790489465.393539",
+      "timestamp": "2026-09-27T06:11:05.393Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> 団体とかは試合があるから出てみたいです:grinning::thinking_face:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790489465.393539",
+          "text": "<@U09MGUVJ8BV> 団体とかは試合があるから出てみたいです:grinning::thinking_face:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790489465.393539",
+          "threadTs": "1790465169.860549",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> 団体とかは試合があるから出てみたいです:grinning::thinking_face:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790499777.899649",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790499777.899649",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790499777.899649",
+      "timestamp": "2026-09-27T09:02:57.899Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> &gt; おーそうでしたか！Code Castもアイドルシステムとかと近い手法でエンジニアを集めようとしているのは間違い無いですよね。 そうなんですよね、手法が近いから、同じグループに見えてしまいます・・・ 怪しいと思いつつ、カンゲンエージェントやCode Castのエンジニア飲み会の案内に気持ちが揺さぶられる自分もいますw &gt; いつも思うのは、稲盛和夫先生の本を20代前半で読むことができて、それを繰り返し読んできて良かったなということです！どうあっても人としての在り方は間違えないようにしたいと思えます。 本当にすばらしいです:pleading_face: 僕は若いころは、稲盛さんのおっしゃることは、本当に事業と両立するのかなあ、と思っていましたから・・・ 稲盛さんがおっしゃることがスッと入るようになったのは去年ですw &gt; いろんな会社が存在する業界ですが、健全な思考のもとで経営して、社員のために、業界のために、業界再編を牽引していく存在になれたらと思います！ ついていきます:bangbang:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790499777.899649",
+          "text": "<@U09MGUVJ8BV> &gt; おーそうでしたか！Code Castもアイドルシステムとかと近い手法でエンジニアを集めようとしているのは間違い無いですよね。 そうなんですよね、手法が近いから、同じグループに見えてしまいます・・・ 怪しいと思いつつ、カンゲンエージェントやCode Castのエンジニア飲み会の案内に気持ちが揺さぶられる自分もいますw &gt; いつも思うのは、稲盛和夫先生の本を20代前半で読むことができて、それを繰り返し読んできて良かったなということです！どうあっても人としての在り方は間違えないようにしたいと思えます。 本当にすばらしいです:pleading_face: 僕は若いころは、稲盛さんのおっしゃることは、本当に事業と両立するのかなあ、と思っていましたから・・・ 稲盛さんがおっしゃることがスッと入るようになったのは去年ですw &gt; いろんな会社が存在する業界ですが、健全な思考のもとで経営して、社員のために、業界のために、業界再編を牽引していく存在になれたらと思います！ ついていきます:bangbang:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790499777.899649",
+          "threadTs": "1790294588.048059",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> &gt; おーそうでしたか！Code Castもアイドルシステムとかと近い手法でエンジニアを集めようとしているのは間違い無いですよね。 そうなんですよね、手法が近いから、同じグループに見えてしまいます・・・ 怪しいと思いつつ、カンゲンエージェントやCode Castのエンジニア飲み会の案内に気持ちが揺さぶられる自分もいますw &gt; いつも思うのは、稲盛和夫先生の本を20代前半で読むことができて、それを繰り返し読んできて良かったなということです！どうあっても人としての在り方は間違えないようにしたいと思えます。 本当にすばらしいです:pleading_face: 僕は若いころは、稲盛さんのおっしゃることは、本当に事業と両立するのかなあ、と思っていましたから・・・ 稲盛さんがおっしゃることがスッと入るようになったのは去年ですw &gt; いろんな会社が存在する業界ですが、健全な思考のもとで経営して、社員のために、業界のために、業界再編を牽引していく存在になれたらと思います！ ついていきます:bangbang:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790500039.385949",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790500039.385949",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790500039.385949",
+      "timestamp": "2026-09-27T09:07:19.385Z",
+      "detailBullets": [
+        "<@U09NHL467U0> 剣道をガチでやってる人は和太鼓やったら上達が速いんじゃないかと思います:laughing:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790500039.385949",
+          "text": "<@U09NHL467U0> 剣道をガチでやってる人は和太鼓やったら上達が速いんじゃないかと思います:laughing:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790500039.385949",
+          "threadTs": "1790465169.860549",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL467U0> 剣道をガチでやってる人は和太鼓やったら上達が速いんじゃないかと思います:laughing:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790504017.444819",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790504017.444819",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790504017.444819",
+      "timestamp": "2026-09-27T10:13:37.444Z",
+      "detailBullets": [
+        "<@U09NHL467U0> (｀・ω・´)／メーン！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790504017.444819",
+          "text": "<@U09NHL467U0> (｀・ω・´)／メーン！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790504017.444819",
+          "threadTs": "1790465169.860549",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL467U0> (｀・ω・´)／メーン！\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790505433.237749",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790505433.237749",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790505433.237749",
+      "timestamp": "2026-09-27T10:37:13.237Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 初知りです:thinking_face: 自分は音感がないのでどうでしょう笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790505433.237749",
+          "text": "<@U09MM9KS06S> 初知りです:thinking_face: 自分は音感がないのでどうでしょう笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790505433.237749",
+          "threadTs": "1790465169.860549",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 初知りです:thinking_face: 自分は音感がないのでどうでしょう笑\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790505551.421299",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790505551.421299",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790505551.421299",
+      "timestamp": "2026-09-27T10:39:11.421Z",
+      "detailBullets": [
+        "<@U0APQEHUJ7R> 入部ありがとうございます:v: 次はコテです笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790505551.421299",
+          "text": "<@U0APQEHUJ7R> 入部ありがとうございます:v: 次はコテです笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790505551.421299",
+          "threadTs": "1790465169.860549",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0APQEHUJ7R> 入部ありがとうございます:v: 次はコテです笑\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790507296.260849",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林 美咲",
+      "personName": "小林 美咲",
+      "slackIds": [
+        "U0APQEHUJ7R"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790507296.260849",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790507296.260849",
+      "timestamp": "2026-09-27T11:08:16.260Z",
+      "detailBullets": [
+        "<@U09NHL467U0> (:3_ヽ)_ｺﾃｯ!"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790507296.260849",
+          "text": "<@U09NHL467U0> (:3_ヽ)_ｺﾃｯ!",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790507296.260849",
+          "threadTs": "1790465169.860549",
+          "authorName": "小林 美咲",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL467U0> (:3_ヽ)_ｺﾃｯ!\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790550519.571829",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790550519.571829",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790550519.571829",
+      "timestamp": "2026-09-27T23:08:39.571Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-27_ 1. _AnthropicがAPIの安全フィルター拒否リクエスト3カテゴリを課金対象化_ └ Anthropicは、Claudeの安全分類器が拒否する前に実行されたAPIリクエストのうち、`bio`・`frontier_llm`・`reasoning_extraction`の3カテゴリについて通常のリクエスト同様に課金を開始。拒否された場合でも空レスポンス（stop_reason: \"refusal\"）としてトークン分が請求される。Anthropicは「スケールでの安全ガード回避試みを妨げるため」と説明し、誤検知率が低い3カテゴリに限定。99.7%のユーザーには影響なし。 :link: <https://alphasignal.ai/news/anthropic-now-charges-developers-for-claude-s-blocked-safety-refusals|alphasignal.ai/news/anthropic-now-charges-developers-for-claude-..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790550519.571829",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-27_ 1. _AnthropicがAPIの安全フィルター拒否リクエスト3カテゴリを課金対象化_ └ Anthropicは、Claudeの安全分類器が拒否する前に実行されたAPIリクエストのうち、`bio`・`frontier_llm`・`reasoning_extraction`の3カテゴリについて通常のリクエスト同様に課金を開始。拒否された場合でも空レスポンス（stop_reason: \"refusal\"）としてトークン分が請求される。Anthropicは「スケールでの安全ガード回避試みを妨げるため」と説明し、誤検知率が低い3カテゴリに限定。99.7%のユーザーには影響なし。 :link: <https://alphasignal.ai/news/anthropic-now-charges-developers-for-claude-s-blocked-safety-refusals|alphasignal.ai/news/anthropic-now-charges-developers-for-claude-s-blocked-safety-refusals> 2. _Claude Code v2.1.283リリース—/doctor prompt-audit・管理設定強化_ └ Claude Code最新版が公開。新たに `/doctor prompt-audit` コマンドでプロンプト設定を診断可能に。`availableModelsMatch: \"exact\"` 管理設定追加により新リリースモデル...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790550519.571829",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-27_ 1. _AnthropicがAPIの安全フィルター拒否リクエスト3カテゴリを課金対象化_ └ Anthropicは、Claudeの安全分類器が拒否する前に実行されたAPIリクエストのうち、`bio`・`frontier_llm`・`reasoning_extraction`の3カテゴリについて通常のリクエスト同様に課金を開始。拒否された場合でも空レスポンス（stop_reason: \"refusal\"）としてトークン分が請求される。Anthropicは「スケールでの安全ガード回避試みを妨げるため」と説明し、誤検知率が低い3カテゴリに限定。99.7%のユーザーには影響なし。 :link: <https://alphasignal.ai/news/anthropic-now-charges-developers-for-claude-s-blocked-safety-refusals|alphasignal.ai/news/anthropic-now-charges-developers-for-claude-s-blocked-safety-refusals> 2. _Claude Code v2.1.283リリース—/doctor prompt-audit・管理設定強化_ └ Claude Code最新版が公開。新たに `/doctor prompt-audit` コマンドでプロンプト設定を診断可能に。`availableModelsMatch: \"exact\"` 管理設定追加により新リリースモデルを明示的に許可するまでブロック可能に。Claude Opus 5.5（1Mトークンコンテキスト）がデフォルトOpusモデルに。起動・レイテンシ改善、MCP/プラグイン管理も強化。 :link: <https://www.havoptic.com/tools/claude-code|havoptic.com/tools/claude-code> 3. _今週のClaude Code・Codex・Gemini CLI（9/27週）まとめ_ └ 週次まとめ記事が公開。Claude Code・OpenAI Codex・Google Gemini CLIの今週の主要アップデートを横断的に解説。Terminal-Bench 4.0でCodexとClaude Codeが首位タイを維持、各エージェントのベンチマーク動向も整理されている。 :link: <https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-27-2026-11oo|dev.to/aicoding-gui...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790557936.552599",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790557936.552599",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790557936.552599",
+      "timestamp": "2026-09-28T01:12:16.552Z",
+      "detailBullets": [
+        "<@U09NHL467U0> さん いいですねぇ！ 練馬の石神井剣友会ですか？"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790557936.552599",
+          "text": "<@U09NHL467U0> さん いいですねぇ！ 練馬の石神井剣友会ですか？",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790557936.552599",
+          "threadTs": "1790465169.860549",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL467U0> さん いいですねぇ！ 練馬の石神井剣友会ですか？\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790559709.809379",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790559709.809379",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790559709.809379",
+      "timestamp": "2026-09-28T01:41:49.809Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> いえ！これタレネームっていうんですけど、 以前勤めてたところで作ったものを使ってるだけでここは違います！ 石神井剣友会なんてあるんですね！笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790559709.809379",
+          "text": "<@U0A9EE7HZ3P> いえ！これタレネームっていうんですけど、 以前勤めてたところで作ったものを使ってるだけでここは違います！ 石神井剣友会なんてあるんですね！笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790559709.809379",
+          "threadTs": "1790465169.860549",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> いえ！これタレネームっていうんですけど、 以前勤めてたところで作ったものを使ってるだけでここは違います！ 石神井剣友会なんてあるんですね！笑\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790559965.677649",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790559965.677649",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790559965.677649",
+      "timestamp": "2026-09-28T01:46:05.677Z",
+      "detailBullets": [
+        "この1週間で、ご本人、そしてご家族の体調不良で病院へ行く方々が急増しています。 私の子どもの小学校では既にインフルの学級閉鎖がありました。 皆さん、可能な限りマスクをしたり、予防接種をして、発症しても軽度で済むようお気をつけください:pray:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790559965.677649",
+          "text": "この1週間で、ご本人、そしてご家族の体調不良で病院へ行く方々が急増しています。 私の子どもの小学校では既にインフルの学級閉鎖がありました。 皆さん、可能な限りマスクをしたり、予防接種をして、発症しても軽度で済むようお気をつけください:pray:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790559965.677649",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "この1週間で、ご本人、そしてご家族の体調不良で病院へ行く方々が急増しています。 私の子どもの小学校では既にインフルの学級閉鎖がありました。 皆さん、可能な限りマスクをしたり、予防接種をして、発症しても軽度で済むようお気をつけください:pray:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790560547.943739",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790560547.943739",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790560547.943739",
+      "timestamp": "2026-09-28T01:55:47.943Z",
+      "detailBullets": [
+        "<@U09NHL467U0> 練馬にあるんですよ、石神井剣友会w 上くんが団体戦出たら応援行こうかな:mega:ｲｯﾎﾟｰﾝ!"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790560547.943739",
+          "text": "<@U09NHL467U0> 練馬にあるんですよ、石神井剣友会w 上くんが団体戦出たら応援行こうかな:mega:ｲｯﾎﾟｰﾝ!",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790560547.943739",
+          "threadTs": "1790465169.860549",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL467U0> 練馬にあるんですよ、石神井剣友会w 上くんが団体戦出たら応援行こうかな:mega:ｲｯﾎﾟｰﾝ!\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790565151.883749",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790565151.883749",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790565151.883749",
+      "timestamp": "2026-09-28T03:12:31.883Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> 今は石神井には住んでないんですが 埼玉の方にないか探してみようかと思います笑 もしも出ることあったら是非お願いします:palms_up_together:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790565151.883749",
+          "text": "<@U0A9EE7HZ3P> 今は石神井には住んでないんですが 埼玉の方にないか探してみようかと思います笑 もしも出ることあったら是非お願いします:palms_up_together:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790565151.883749",
+          "threadTs": "1790465169.860549",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> 今は石神井には住んでないんですが 埼玉の方にないか探してみようかと思います笑 もしも出ることあったら是非お願いします:palms_up_together:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790566905.365819",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790566905.365819",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790566905.365819",
+      "timestamp": "2026-09-28T03:41:45.365Z",
+      "detailBullets": [
+        "<!channel> こんな魅力的なイベントを見つけたのでシェアします:pleading_face: アーキテクチャカンファレンス2026。 なんと、あのマーティン・ファウラー氏が来日して講演されます:raised_hands: ファウラー氏の講演は会場限定ですが… とはいえ、配信される講演もかなり魅力的なものが多いので、僕は真剣にオンライン参加を検討してます。 ざっと確認したところ、AI時代のアーキテクチャがメインテーマになってます。 AI駆動開発が本格化すると、アーキテクチャを理解し、使いこなせる人材はより重要になると思いますので、みなさんもこの機会にぜひ:bangbang: <https://architecture-con.findy-tools.io/2026?utm_source=google&utm_medium=display&utm_campaign=archi&utm_term=ad1&utm_id=24213743920&hsa_acc=7063598705&hsa_cam=24213743920&hsa_grp=200112836135&hsa_ad=8231..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790566905.365819",
+          "text": "<!channel> こんな魅力的なイベントを見つけたのでシェアします:pleading_face: アーキテクチャカンファレンス2026。 なんと、あのマーティン・ファウラー氏が来日して講演されます:raised_hands: ファウラー氏の講演は会場限定ですが… とはいえ、配信される講演もかなり魅力的なものが多いので、僕は真剣にオンライン参加を検討してます。 ざっと確認したところ、AI時代のアーキテクチャがメインテーマになってます。 AI駆動開発が本格化すると、アーキテクチャを理解し、使いこなせる人材はより重要になると思いますので、みなさんもこの機会にぜひ:bangbang: <https://architecture-con.findy-tools.io/2026?utm_source=google&utm_medium=display&utm_campaign=archi&utm_term=ad1&utm_id=24213743920&hsa_acc=7063598705&hsa_cam=24213743920&hsa_grp=200112836135&hsa_ad=823120187422&hsa_src=dsc&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_campaignid=24213743920&wbraid=ClQKCQjw2t3VBhD5ARJDAL2RdnblGthLJbx6swWuXU8rzwPR3uxKn2xquil_eCjHcSx8XZ6zLcLyeapeix8rmx-kdMNoT3...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790566905.365819",
+          "threadTs": "1790566905.365819",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> こんな魅力的なイベントを見つけたのでシェアします:pleading_face: アーキテクチャカンファレンス2026。 なんと、あのマーティン・ファウラー氏が来日して講演されます:raised_hands: ファウラー氏の講演は会場限定ですが… とはいえ、配信される講演もかなり魅力的なものが多いので、僕は真剣にオンライン参加を検討してます。 ざっと確認したところ、AI時代のアーキテクチャがメインテーマになってます。 AI駆動開発が本格化すると、アーキテクチャを理解し、使いこなせる人材はより重要になると思いますので、みなさんもこの機会にぜひ:bangbang: <https://architecture-con.findy-tools.io/2026?utm_source=google&utm_medium=display&utm_campaign=archi&utm_term=ad1&utm_id=24213743920&hsa_acc=7063598705&hsa_cam=24213743920&hsa_grp=200112836135&hsa_ad=823120187422&hsa_src=dsc&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_campaignid=24213743920&wbraid=ClQKCQjw2t3VBhD5ARJDAL2RdnblGthLJbx6swWuXU8rzwPR3uxKn2xquil_eCjHcSx8XZ6zLcLyeapeix8rmx-kdMNoT3w80coJlp5qJ0IbkBoC6ZI|https://architecture-con.findy-tools.io/2026?utm_source=google&utm_medium=display&utm_campaign=archi&utm_term=ad1&utm_id=24213743920&hsa_acc=7063598705&hsa_cam=24213743920&hsa_grp=200112836135&hsa_ad=823120187422&hsa_src=dsc&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_campaignid=24213743920&wbraid=ClQKCQjw2t3VBhD5ARJDAL2RdnblGthLJbx6swWuXU8rzwPR3uxKn2xquil_eCjHcSx8XZ6zLcLyeapeix8rmx-kdMNoT3w80coJlp5qJ0IbkBoC6ZI>\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790567930.119939",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790567930.119939",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790567930.119939",
+      "timestamp": "2026-09-28T03:58:50.119Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> ありがとうございます！ナイスシェアです！ 以前チラッと概要は見ていたんですが、完全に忘れてました:sweat_smile: タイムテーブル見て、気になるセッションあったのでオンラインで参加しようと思いました！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790567930.119939",
+          "text": "<@U09MM9KS06S> ありがとうございます！ナイスシェアです！ 以前チラッと概要は見ていたんですが、完全に忘れてました:sweat_smile: タイムテーブル見て、気になるセッションあったのでオンラインで参加しようと思いました！",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790567930.119939",
+          "threadTs": "1790566905.365819",
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> ありがとうございます！ナイスシェアです！ 以前チラッと概要は見ていたんですが、完全に忘れてました:sweat_smile: タイムテーブル見て、気になるセッションあったのでオンラインで参加しようと思いました！\nai駆動開発ネタ\nEngineer"
     }
   ]
 }
