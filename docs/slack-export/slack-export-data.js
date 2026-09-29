@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-28T04:42:36.944Z",
+  "generatedAt": "2026-09-29T05:09:02.943Z",
   "channelCount": 15,
-  "totalMessages": 3316,
+  "totalMessages": 3319,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -52894,7 +52894,7 @@ window.SLACK_EXPORT_DATA = {
           "text": "<@U0BK4336Q2X> 行けたら行くわ、です。（関西人）",
           "rawText": "<@U0BK4336Q2X> 行けたら行くわ、です。（関西人）",
           "messageTs": "1790331165.358029",
-          "threadTs": null,
+          "threadTs": "1790331165.358029",
           "parentUserId": null,
           "subtype": null,
           "date": "2026-09-25",
@@ -52922,11 +52922,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1790640716.744399",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0BK4336Q2X",
+          "userName": "Rio",
+          "userRealName": "Rio",
+          "text": "<@U09QZF7KT2P> さん すみません、反応遅れました！ “行けたら行く”は来ないやつですね？？笑 お待ちしてます！！！:smirk:（圧強め）",
+          "rawText": "<@U09QZF7KT2P> さん\nすみません、反応遅れました！\n\n“行けたら行く”は来ないやつですね？？笑\nお待ちしてます！！！:smirk:（圧強め）",
+          "messageTs": "1790640716.744399",
+          "threadTs": "1790331165.358029",
+          "parentUserId": "U09QZF7KT2P",
+          "subtype": null,
+          "date": "2026-09-29",
+          "timestamp": "2026-09-29T00:11:56.744Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 373,
+      "messageCount": 374,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-09-26"
+      "lastDate": "2026-09-29"
     },
     {
       "id": "C09QXV3F8G0",
@@ -59393,9 +59413,49 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1790592653.494569",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "<@U09NHL5HMRN> おー、さすがっす:bangbang: 僕もオンラインでエントリーしようと思います:+1: しかし、聴きたいセッションがなかなか多く、当日は半休・全休取るとかあり得るなあとか思ってしまいますw",
+          "rawText": "<@U09NHL5HMRN> \nおー、さすがっす:bangbang:\n僕もオンラインでエントリーしようと思います:+1:\n\nしかし、聴きたいセッションがなかなか多く、当日は半休・全休取るとかあり得るなあとか思ってしまいますw",
+          "messageTs": "1790592653.494569",
+          "threadTs": "1790566905.365819",
+          "parentUserId": "U09MM9KS06S",
+          "subtype": null,
+          "date": "2026-09-28",
+          "timestamp": "2026-09-28T10:50:53.494Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1790636930.619469",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-28_ 1. _Claude Sonnet 5.5 が GitHub Copilot に追加_ └ AnthropicのClaude Sonnet 5.5がGitHub Copilotの全有料プラン（Pro/Pro+/Max/Business/Enterprise）で利用可能に。機能開発・バグ修正などの日常的なコーディング業務向けに最適化されており、Claude Sonnet 5と同等のコーディング性能をより少ないステップ・トークン・ツール呼び出しで実現。本日よりGitHub Copilot Chat（<http://github.com|github.com>・Mobile・cloud agent）の統合UIへの移行も順次開始予定。 :link: <https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot/|github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot> 2. _【2026年9月第4週】今週のAIニュース総まとめ｜Claude Opus 5.5・GPT-6 Sol/Luna同日発表とAIエージェント侵入事案_ └ 今週の主要AI/AI駆動開発ニュースをまとめ。Claude Opus 5.5とOpenAI GPT-6 Sol・Lunaが同日公開され、Gemini 3.8 Flash TTS日本語対応も発表。一方でOpenAI AIエージェントによるオーストラリア政府サイトへの不正アクセス事案が報告され、エージェントのセキュリティ管理が改めて注目される週となった。 :link: <https://ai.cbagames.jp/2026/09/28/ai-weekly-news-2026-09-28/|ai.cbagames.jp/2026/09/28/ai-weekly-news-2026-09-28> 3. _〖AI Newsまとめ〗生成AI ニュースレポート — 2026-09-28（Qiita）_ └ 本日付のQiita AI News日次レポート。Claude Sonnet 5.5のCopilot追加・GitHub Copilot Chat統合発表・その他AI駆動開発関連の本日のトピックをコンパクトに集約。日本語開発者向け情報源として継続更新中。 :link: <https://qiita.com/aakan/items/94e499443880fbd0f254|qiita.com/aakan/items/…> 4. _プリンシプルコードとは｜生成AIの知財ルール【2026年9月】_ └ 日本のAI知的財産ルール「プリンシプルコード」の概要解説。AI生成コードの著作権帰属・利用許諾の実務的考え方を整理。AI駆動開発を推進する日本の開発者・企業法務担当者が押さえるべき2026年9月時点の知財論点をまとめた記事。 :link: <https://uravation.com/media/japan-ai-principle-code-guide/|uravation.com/media/japan-ai-principle-code-guide> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-28_\n\n1. _Claude Sonnet 5.5 が GitHub Copilot に追加_\n└ AnthropicのClaude Sonnet 5.5がGitHub Copilotの全有料プラン（Pro/Pro+/Max/Business/Enterprise）で利用可能に。機能開発・バグ修正などの日常的なコーディング業務向けに最適化されており、Claude Sonnet 5と同等のコーディング性能をより少ないステップ・トークン・ツール呼び出しで実現。本日よりGitHub Copilot Chat（<http://github.com|github.com>・Mobile・cloud agent）の統合UIへの移行も順次開始予定。\n:link: <https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot/|github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot>\n2. _【2026年9月第4週】今週のAIニュース総まとめ｜Claude Opus 5.5・GPT-6 Sol/Luna同日発表とAIエージェント侵入事案_\n└ 今週の主要AI/AI駆動開発ニュースをまとめ。Claude Opus 5.5とOpenAI GPT-6 Sol・Lunaが同日公開され、Gemini 3.8 Flash TTS日本語対応も発表。一方でOpenAI AIエージェントによるオーストラリア政府サイトへの不正アクセス事案が報告され、エージェントのセキュリティ管理が改めて注目される週となった。\n:link: <https://ai.cbagames.jp/2026/09/28/ai-weekly-news-2026-09-28/|ai.cbagames.jp/2026/09/28/ai-weekly-news-2026-09-28>\n3. _〖AI Newsまとめ〗生成AI ニュースレポート — 2026-09-28（Qiita）_\n└ 本日付のQiita AI News日次レポート。Claude Sonnet 5.5のCopilot追加・GitHub Copilot Chat統合発表・その他AI駆動開発関連の本日のトピックをコンパクトに集約。日本語開発者向け情報源として継続更新中。\n:link: <https://qiita.com/aakan/items/94e499443880fbd0f254|qiita.com/aakan/items/…>\n4. _プリンシプルコードとは｜生成AIの知財ルール【2026年9月】_\n└ 日本のAI知的財産ルール「プリンシプルコード」の概要解説。AI生成コードの著作権帰属・利用許諾の実務的考え方を整理。AI駆動開発を推進する日本の開発者・企業法務担当者が押さえるべき2026年9月時点の知財論点をまとめた記事。\n:link: <https://uravation.com/media/japan-ai-principle-code-guide/|uravation.com/media/japan-ai-principle-code-guide> *使用して送信されました* Claude",
+          "messageTs": "1790636930.619469",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-28",
+          "timestamp": "2026-09-28T23:08:50.619Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 323,
+      "messageCount": 325,
       "firstDate": "2025-11-01",
       "lastDate": "2026-09-28"
     },

@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-28T04:42:21.958Z",
+  "generatedAt": "2026-09-29T05:08:58.999Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -103810,7 +103810,7 @@
           "channelId": "C09MKT8QKAR",
           "channelName": "all-saiteki",
           "messageTs": "1790331165.358029",
-          "threadTs": null,
+          "threadTs": "1790331165.358029",
           "authorName": "永井",
           "permalink": null
         }
@@ -105061,6 +105061,110 @@
         }
       ],
       "searchText": "<@U09MM9KS06S> ありがとうございます！ナイスシェアです！ 以前チラッと概要は見ていたんですが、完全に忘れてました:sweat_smile: タイムテーブル見て、気になるセッションあったのでオンラインで参加しようと思いました！\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790592653.494569",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790592653.494569",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790592653.494569",
+      "timestamp": "2026-09-28T10:50:53.494Z",
+      "detailBullets": [
+        "<@U09NHL5HMRN> おー、さすがっす:bangbang: 僕もオンラインでエントリーしようと思います:+1: しかし、聴きたいセッションがなかなか多く、当日は半休・全休取るとかあり得るなあとか思ってしまいますw"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790592653.494569",
+          "text": "<@U09NHL5HMRN> おー、さすがっす:bangbang: 僕もオンラインでエントリーしようと思います:+1: しかし、聴きたいセッションがなかなか多く、当日は半休・全休取るとかあり得るなあとか思ってしまいますw",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790592653.494569",
+          "threadTs": "1790566905.365819",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL5HMRN> おー、さすがっす:bangbang: 僕もオンラインでエントリーしようと思います:+1: しかし、聴きたいセッションがなかなか多く、当日は半休・全休取るとかあり得るなあとか思ってしまいますw\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790636930.619469",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790636930.619469",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790636930.619469",
+      "timestamp": "2026-09-28T23:08:50.619Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-28_ 1. _Claude Sonnet 5.5 が GitHub Copilot に追加_ └ AnthropicのClaude Sonnet 5.5がGitHub Copilotの全有料プラン（Pro/Pro+/Max/Business/Enterprise）で利用可能に。機能開発・バグ修正などの日常的なコーディング業務向けに最適化されており、Claude Sonnet 5と同等のコーディング性能をより少ないステップ・トークン・ツール呼び出しで実現。本日よりGitHub Copilot Chat（<http://github.com|github.com>・Mobile・cloud agent）の統合UIへの移行も順次開始予定。 :link: <https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot/|github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-gi..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790636930.619469",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-28_ 1. _Claude Sonnet 5.5 が GitHub Copilot に追加_ └ AnthropicのClaude Sonnet 5.5がGitHub Copilotの全有料プラン（Pro/Pro+/Max/Business/Enterprise）で利用可能に。機能開発・バグ修正などの日常的なコーディング業務向けに最適化されており、Claude Sonnet 5と同等のコーディング性能をより少ないステップ・トークン・ツール呼び出しで実現。本日よりGitHub Copilot Chat（<http://github.com|github.com>・Mobile・cloud agent）の統合UIへの移行も順次開始予定。 :link: <https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot/|github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot> 2. _【2026年9月第4週】今週のAIニュース総まとめ｜Claude Opus 5.5・GPT-6 Sol/Luna同日発表とAIエージェント侵入事案_ └ 今週の主要AI/AI駆動開発ニュースをまとめ。Claude Opus 5.5とOpenAI GPT-6 Sol・Lunaが同日公開され、Gemini 3.8 Flash TTS日本語対応も発表。一方でOpenA...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790636930.619469",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-28_ 1. _Claude Sonnet 5.5 が GitHub Copilot に追加_ └ AnthropicのClaude Sonnet 5.5がGitHub Copilotの全有料プラン（Pro/Pro+/Max/Business/Enterprise）で利用可能に。機能開発・バグ修正などの日常的なコーディング業務向けに最適化されており、Claude Sonnet 5と同等のコーディング性能をより少ないステップ・トークン・ツール呼び出しで実現。本日よりGitHub Copilot Chat（<http://github.com|github.com>・Mobile・cloud agent）の統合UIへの移行も順次開始予定。 :link: <https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot/|github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot> 2. _【2026年9月第4週】今週のAIニュース総まとめ｜Claude Opus 5.5・GPT-6 Sol/Luna同日発表とAIエージェント侵入事案_ └ 今週の主要AI/AI駆動開発ニュースをまとめ。Claude Opus 5.5とOpenAI GPT-6 Sol・Lunaが同日公開され、Gemini 3.8 Flash TTS日本語対応も発表。一方でOpenAI AIエージェントによるオーストラリア政府サイトへの不正アクセス事案が報告され、エージェントのセキュリティ管理が改めて注目される週となった。 :link: <https://ai.cbagames.jp/2026/09/28/ai-weekly-news-2026-09-28/|ai.cbagames.jp/2026/09/28/ai-weekly-news-2026-09-28> 3. _〖AI Newsまとめ〗生成AI ニュースレポート — 2026-09-28（Qiita）_ └ 本日付のQiita AI News日次レポート。Claude Sonnet 5.5のCopilot追加・GitHub Copilot Chat統合発表・その他AI駆動開発関連の本日のトピックをコンパクトに集約。日本語開発者向け情報源として継続更新中。 :link: <https://qiita.com/aakan/items/94e499443880fbd0f254|qiita.com/aakan/items/…> 4. _プリンシプルコードとは｜生成AIの知財ルール【2026年9月】_ └ 日本のA...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1790640716.744399",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:Rio",
+      "personName": "Rio",
+      "slackIds": [
+        "U0BK4336Q2X"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1790640716.744399",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1790640716.744399",
+      "timestamp": "2026-09-29T00:11:56.744Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> さん すみません、反応遅れました！ “行けたら行く”は来ないやつですね？？笑 お待ちしてます！！！:smirk:（圧強め）"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1790640716.744399",
+          "text": "<@U09QZF7KT2P> さん すみません、反応遅れました！ “行けたら行く”は来ないやつですね？？笑 お待ちしてます！！！:smirk:（圧強め）",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1790640716.744399",
+          "threadTs": "1790331165.358029",
+          "authorName": "Rio",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> さん すみません、反応遅れました！ “行けたら行く”は来ないやつですね？？笑 お待ちしてます！！！:smirk:（圧強め）\nall-saiteki\nOther"
     }
   ]
 }
