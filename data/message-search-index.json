@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-09-29T05:08:58.999Z",
+  "generatedAt": "2026-09-30T04:56:20.703Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -105165,6 +105165,111 @@
         }
       ],
       "searchText": "<@U09QZF7KT2P> さん すみません、反応遅れました！ “行けたら行く”は来ないやつですね？？笑 お待ちしてます！！！:smirk:（圧強め）\nall-saiteki\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790723269.646459",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790723269.646459",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790723269.646459",
+      "timestamp": "2026-09-29T23:07:49.646Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-09-29_ 1. _OpenAI DevDay 2026：常時稼働エージェント「Dots」など20以上の機能を発表_ └ OpenAIが年次開発者カンファレンスDevDay 2026をサンフランシスコ（Fort Mason）で開催。常時稼働AIエージェント「Dots」（ChatGPT内で24/7稼働、独自PC・ブラウザ・4,000以上のアプリと連携）、新モデルGPT-6.1 Sol、チームとエージェントが協働するChatGPT Space、ドキュメントコラボツール「Pages」、Decisions API、クラウドでのCodex実行など20件超を一気に発表。 :link: <https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html|cnbc.com/2026/09/29/openai-devday-2026-live-updates.html> 2. _GPT-6.1 Sol、GitHub Copilotで本日より利用可能に_ └ Open..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790723269.646459",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-29_ 1. _OpenAI DevDay 2026：常時稼働エージェント「Dots」など20以上の機能を発表_ └ OpenAIが年次開発者カンファレンスDevDay 2026をサンフランシスコ（Fort Mason）で開催。常時稼働AIエージェント「Dots」（ChatGPT内で24/7稼働、独自PC・ブラウザ・4,000以上のアプリと連携）、新モデルGPT-6.1 Sol、チームとエージェントが協働するChatGPT Space、ドキュメントコラボツール「Pages」、Decisions API、クラウドでのCodex実行など20件超を一気に発表。 :link: <https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html|cnbc.com/2026/09/29/openai-devday-2026-live-updates.html> 2. _GPT-6.1 Sol、GitHub Copilotで本日より利用可能に_ └ OpenAIの最新モデルGPT-6.1 Solが本日GitHub Copilotで一般提供開始。エージェント型コーディングやターミナルワークフローに対応し、前世代のGPT-6 Sol比でトークン数・ステップ数を大幅削減しながら高い性能を維持。Copilot Pro+、Max、Business、Enterpriseプランで利用可能。 :link: <https://github.blog/changelog...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790723269.646459",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-09-29_ 1. _OpenAI DevDay 2026：常時稼働エージェント「Dots」など20以上の機能を発表_ └ OpenAIが年次開発者カンファレンスDevDay 2026をサンフランシスコ（Fort Mason）で開催。常時稼働AIエージェント「Dots」（ChatGPT内で24/7稼働、独自PC・ブラウザ・4,000以上のアプリと連携）、新モデルGPT-6.1 Sol、チームとエージェントが協働するChatGPT Space、ドキュメントコラボツール「Pages」、Decisions API、クラウドでのCodex実行など20件超を一気に発表。 :link: <https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html|cnbc.com/2026/09/29/openai-devday-2026-live-updates.html> 2. _GPT-6.1 Sol、GitHub Copilotで本日より利用可能に_ └ OpenAIの最新モデルGPT-6.1 Solが本日GitHub Copilotで一般提供開始。エージェント型コーディングやターミナルワークフローに対応し、前世代のGPT-6 Sol比でトークン数・ステップ数を大幅削減しながら高い性能を維持。Copilot Pro+、Max、Business、Enterpriseプランで利用可能。 :link: <https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot/|github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot> 3. _Claudeが一時サービス障害、現在は全面復旧済み_ └ Claude Code・API・Consoleなどが本日07:00〜07:59 PT（日本時間23:00〜24:00）に部分障害を発生。Anthropicが修正を展開し約1時間で復旧。Claude Codeのセッションが失敗するケースがあったため、本日の開発作業に影響を受けたチームは要確認。 :link: <https://9to5google.com/2026/09/29/claude-confirmed-outage-sept-29/|9to5google.com/2026/09/29/claude-confirmed-outage-sept-29> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1790732147.437029",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1790732147.437029",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1790732147.437029",
+      "timestamp": "2026-09-30T01:35:47.437Z",
+      "detailBullets": [
+        "<!channel> 皆さん、お疲れさまです！今日はAI駆動開発の勉強会第二弾ですね！ 前回動画が滑り込みで、今日納品されましたので第一弾を確認してから参加したい方は、以下よりお願いします！ ▼第一弾 <https://youtu.be/azKoYl3zz_g|youtu.be/azKoYl3zz_g> そして第二弾のリンクは、先日市川さんがアナウンスしてくれたように以下からになります！参加できる人はぜひです！ *■日時* 9月30日（水）20:00〜 *■形式* オンライン Google Meet :<http://meet.google.com/xgb-enbp-jws|meet.google.com/xgb-enbp-jws>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1790732147.437029",
+          "text": "<!channel> 皆さん、お疲れさまです！今日はAI駆動開発の勉強会第二弾ですね！ 前回動画が滑り込みで、今日納品されましたので第一弾を確認してから参加したい方は、以下よりお願いします！ ▼第一弾 <https://youtu.be/azKoYl3zz_g|youtu.be/azKoYl3zz_g> そして第二弾のリンクは、先日市川さんがアナウンスしてくれたように以下からになります！参加できる人はぜひです！ *■日時* 9月30日（水）20:00〜 *■形式* オンライン Google Meet :<http://meet.google.com/xgb-enbp-jws|meet.google.com/xgb-enbp-jws>",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1790732147.437029",
+          "threadTs": "1790732147.437029",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> 皆さん、お疲れさまです！今日はAI駆動開発の勉強会第二弾ですね！ 前回動画が滑り込みで、今日納品されましたので第一弾を確認してから参加したい方は、以下よりお願いします！ ▼第一弾 <https://youtu.be/azKoYl3zz_g|youtu.be/azKoYl3zz_g> そして第二弾のリンクは、先日市川さんがアナウンスしてくれたように以下からになります！参加できる人はぜひです！ *■日時* 9月30日（水）20:00〜 *■形式* オンライン Google Meet :<http://meet.google.com/xgb-enbp-jws|meet.google.com/xgb-enbp-jws>\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1790738168.045319",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1790738168.045319",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1790738168.045319",
+      "timestamp": "2026-09-30T03:16:08.045Z",
+      "detailBullets": [
+        "<@U0A7VHB07J4> <@U09MGUVJ8BV> 参加予定してましたが、家族の看護のため不参加になります。(子どもインフル、妻も感染しました:cry:) アーカイブは見ようと思っているのと、3回目は参加します！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1790738168.045319",
+          "text": "<@U0A7VHB07J4> <@U09MGUVJ8BV> 参加予定してましたが、家族の看護のため不参加になります。(子どもインフル、妻も感染しました:cry:) アーカイブは見ようと思っているのと、3回目は参加します！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1790738168.045319",
+          "threadTs": "1790732147.437029",
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A7VHB07J4> <@U09MGUVJ8BV> 参加予定してましたが、家族の看護のため不参加になります。(子どもインフル、妻も感染しました:cry:) アーカイブは見ようと思っているのと、3回目は参加します！\nall-saiteki\nEngineer"
     }
   ]
 }

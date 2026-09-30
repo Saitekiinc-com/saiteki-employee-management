@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-09-29T05:09:02.943Z",
+  "generatedAt": "2026-09-30T04:56:24.683Z",
   "channelCount": 15,
-  "totalMessages": 3319,
+  "totalMessages": 3322,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -52942,11 +52942,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1790732147.437029",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<!channel> 皆さん、お疲れさまです！今日はAI駆動開発の勉強会第二弾ですね！ 前回動画が滑り込みで、今日納品されましたので第一弾を確認してから参加したい方は、以下よりお願いします！ ▼第一弾 <https://youtu.be/azKoYl3zz_g|youtu.be/azKoYl3zz_g> そして第二弾のリンクは、先日市川さんがアナウンスしてくれたように以下からになります！参加できる人はぜひです！ *■日時* 9月30日（水）20:00〜 *■形式* オンライン Google Meet :<http://meet.google.com/xgb-enbp-jws|meet.google.com/xgb-enbp-jws>",
+          "rawText": "<!channel>\n皆さん、お疲れさまです！今日はAI駆動開発の勉強会第二弾ですね！\n\n前回動画が滑り込みで、今日納品されましたので第一弾を確認してから参加したい方は、以下よりお願いします！\n\n▼第一弾\n<https://youtu.be/azKoYl3zz_g|youtu.be/azKoYl3zz_g>\n\nそして第二弾のリンクは、先日市川さんがアナウンスしてくれたように以下からになります！参加できる人はぜひです！\n\n*■日時*\n9月30日（水）20:00〜\n\n*■形式*\nオンライン\nGoogle Meet :<http://meet.google.com/xgb-enbp-jws|meet.google.com/xgb-enbp-jws>",
+          "messageTs": "1790732147.437029",
+          "threadTs": "1790732147.437029",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-30",
+          "timestamp": "2026-09-30T01:35:47.437Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1790738168.045319",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09NHL5HMRN",
+          "userName": "青木淳一郎",
+          "userRealName": "青木淳一郎",
+          "text": "<@U0A7VHB07J4> <@U09MGUVJ8BV> 参加予定してましたが、家族の看護のため不参加になります。(子どもインフル、妻も感染しました:cry:) アーカイブは見ようと思っているのと、3回目は参加します！",
+          "rawText": "<@U0A7VHB07J4> <@U09MGUVJ8BV> \n参加予定してましたが、家族の看護のため不参加になります。(子どもインフル、妻も感染しました:cry:)\nアーカイブは見ようと思っているのと、3回目は参加します！",
+          "messageTs": "1790738168.045319",
+          "threadTs": "1790732147.437029",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-09-30",
+          "timestamp": "2026-09-30T03:16:08.045Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 374,
+      "messageCount": 376,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-09-29"
+      "lastDate": "2026-09-30"
     },
     {
       "id": "C09QXV3F8G0",
@@ -59453,11 +59493,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1790723269.646459",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-09-29_ 1. _OpenAI DevDay 2026：常時稼働エージェント「Dots」など20以上の機能を発表_ └ OpenAIが年次開発者カンファレンスDevDay 2026をサンフランシスコ（Fort Mason）で開催。常時稼働AIエージェント「Dots」（ChatGPT内で24/7稼働、独自PC・ブラウザ・4,000以上のアプリと連携）、新モデルGPT-6.1 Sol、チームとエージェントが協働するChatGPT Space、ドキュメントコラボツール「Pages」、Decisions API、クラウドでのCodex実行など20件超を一気に発表。 :link: <https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html|cnbc.com/2026/09/29/openai-devday-2026-live-updates.html> 2. _GPT-6.1 Sol、GitHub Copilotで本日より利用可能に_ └ OpenAIの最新モデルGPT-6.1 Solが本日GitHub Copilotで一般提供開始。エージェント型コーディングやターミナルワークフローに対応し、前世代のGPT-6 Sol比でトークン数・ステップ数を大幅削減しながら高い性能を維持。Copilot Pro+、Max、Business、Enterpriseプランで利用可能。 :link: <https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot/|github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot> 3. _Claudeが一時サービス障害、現在は全面復旧済み_ └ Claude Code・API・Consoleなどが本日07:00〜07:59 PT（日本時間23:00〜24:00）に部分障害を発生。Anthropicが修正を展開し約1時間で復旧。Claude Codeのセッションが失敗するケースがあったため、本日の開発作業に影響を受けたチームは要確認。 :link: <https://9to5google.com/2026/09/29/claude-confirmed-outage-sept-29/|9to5google.com/2026/09/29/claude-confirmed-outage-sept-29> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-09-29_\n\n1. _OpenAI DevDay 2026：常時稼働エージェント「Dots」など20以上の機能を発表_\n└ OpenAIが年次開発者カンファレンスDevDay 2026をサンフランシスコ（Fort Mason）で開催。常時稼働AIエージェント「Dots」（ChatGPT内で24/7稼働、独自PC・ブラウザ・4,000以上のアプリと連携）、新モデルGPT-6.1 Sol、チームとエージェントが協働するChatGPT Space、ドキュメントコラボツール「Pages」、Decisions API、クラウドでのCodex実行など20件超を一気に発表。\n:link: <https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html|cnbc.com/2026/09/29/openai-devday-2026-live-updates.html>\n2. _GPT-6.1 Sol、GitHub Copilotで本日より利用可能に_\n└ OpenAIの最新モデルGPT-6.1 Solが本日GitHub Copilotで一般提供開始。エージェント型コーディングやターミナルワークフローに対応し、前世代のGPT-6 Sol比でトークン数・ステップ数を大幅削減しながら高い性能を維持。Copilot Pro+、Max、Business、Enterpriseプランで利用可能。\n:link: <https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot/|github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot>\n3. _Claudeが一時サービス障害、現在は全面復旧済み_\n└ Claude Code・API・Consoleなどが本日07:00〜07:59 PT（日本時間23:00〜24:00）に部分障害を発生。Anthropicが修正を展開し約1時間で復旧。Claude Codeのセッションが失敗するケースがあったため、本日の開発作業に影響を受けたチームは要確認。\n:link: <https://9to5google.com/2026/09/29/claude-confirmed-outage-sept-29/|9to5google.com/2026/09/29/claude-confirmed-outage-sept-29> *使用して送信されました* Claude",
+          "messageTs": "1790723269.646459",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-09-29",
+          "timestamp": "2026-09-29T23:07:49.646Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 325,
+      "messageCount": 326,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-09-28"
+      "lastDate": "2026-09-29"
     },
     {
       "id": "C0AARGDBC3V",
