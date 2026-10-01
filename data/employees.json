@@ -3215,5 +3215,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0C1ZM2EY4B"
+  },
+  {
+    "name": "Takashi Hamanaka",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-10-01T05:09:19.943Z",
+    "updatedAt": "2026-10-01T05:09:19.943Z",
+    "last_updated": "2026-10-01T05:09:19.943Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0BNZ73FYCR"
   }
 ]
