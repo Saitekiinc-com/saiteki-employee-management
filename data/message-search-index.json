@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-01T05:09:20.208Z",
+  "generatedAt": "2026-10-02T04:58:25.027Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -105747,12 +105747,255 @@
           "channelId": "C09QXV3F8G0",
           "channelName": "ai駆動開発ネタ",
           "messageTs": "1790828748.695579",
-          "threadTs": null,
+          "threadTs": "1790828748.695579",
           "authorName": "青木淳一郎",
           "permalink": null
         }
       ],
       "searchText": "10ヶ月前の動画ですが、AIによる生産性向上について、エンジニア視点とCTO視点の違いがとても重要な感覚だなと思ったのと、めちゃくちゃ面白かったので共有します！ 動画内で一休の伊藤氏も語られていますが、CTO視点ではAIによってエンジニア個人の生産性は向上している一方で、組織全体としてのアウトカムはそこまで増えていないとのことでした。 個人開発や小規模なチームではこの限りではないかもですが、組織やプロジェクトの規模が大きくなるほど、個人の生産性向上と組織全体のアウトカムとのギャップは大きくなっていくのかなと感じました。 一方で10ヶ月前の動画でもあるので、AIの進化によって、今後ここで話しているエンジニア視点でのマクロな生産性向上も本当の意味で高まっていくはずだと思っています！ AIで自分の作業が速くなったかだけを見るのではなく、それが本当にチームや組織のアウトカムにつながっているかを、常に自分自身に問いかけながら広い視点でAIと付き合っていきたいなと感じる動画でした！ 時間があれば、ぜひ見てみてください！ <https://m.youtube.com/watch?v=MhPAZW-oMKs&pp=iggCQAE%3D|https://m.youtube.com/watch?v=MhPAZW-oMKs&pp=iggCQAE%3D>\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790863908.033959",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790863908.033959",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790863908.033959",
+      "timestamp": "2026-10-01T14:11:48.033Z",
+      "detailBullets": [
+        "完全に同意です！ 偉そうにAI勉強会登壇したり、AI駆動開発に取り組んだりと 私自身このテーマの近くにいる自負はあるのですが... それでも、 AIを使って組織レベルのアウトカムを増やすところまでは、未だに実現できてないです。 ※これが今、いちばん強く感じている危機感です。。。 →*ここに対してアプローチしている企業が増えてきている*認識のため、このままだと波に乗り遅れる (*`既に遅れている`*) 現場では実装効率化だけでなく全体最適を打ち出すと、差し止められたりしてるんですが。。 Saitekiなら、実装スピードの向上だけで満足せず *速くなったことで生まれた余力を、更なる価値につなげるアクションを起こせるのではと思ってます。(それだけ凄い人たちが揃っている認識)* *※何なら単一のプロダクトだけじゃない、もっと全体\"最適\"を為すことさえも視野* 【AI駆動推進】 本当に皆さんの力が必要だし 『AI駆動の会社でやっていくのであれば』 \"今\" みんなで同じ方向を見て、次世代の高速/高品質なAI駆動開発基盤を築くことが 本当に大事な時期が到来していると考えてます。 ※その意思を波及す..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790863908.033959",
+          "text": "完全に同意です！ 偉そうにAI勉強会登壇したり、AI駆動開発に取り組んだりと 私自身このテーマの近くにいる自負はあるのですが... それでも、 AIを使って組織レベルのアウトカムを増やすところまでは、未だに実現できてないです。 ※これが今、いちばん強く感じている危機感です。。。 →*ここに対してアプローチしている企業が増えてきている*認識のため、このままだと波に乗り遅れる (*`既に遅れている`*) 現場では実装効率化だけでなく全体最適を打ち出すと、差し止められたりしてるんですが。。 Saitekiなら、実装スピードの向上だけで満足せず *速くなったことで生まれた余力を、更なる価値につなげるアクションを起こせるのではと思ってます。(それだけ凄い人たちが揃っている認識)* *※何なら単一のプロダクトだけじゃない、もっと全体\"最適\"を為すことさえも視野* 【AI駆動推進】 本当に皆さんの力が必要だし 『AI駆動の会社でやっていくのであれば』 \"今\" みんなで同じ方向を見て、次世代の高速/高品質なAI駆動開発基盤を築くことが 本当に大事な時期が到来していると考えてます。 ※その意思を波及するために勉強会を引き受けてます。 (私だけでは大いに力不足ですが:cry:、AIも駆使して大手SIerにも負けないような会社になれると心から信じている故:pray:)",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790863908.033959",
+          "threadTs": "1790828748.695579",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "完全に同意です！ 偉そうにAI勉強会登壇したり、AI駆動開発に取り組んだりと 私自身このテーマの近くにいる自負はあるのですが... それでも、 AIを使って組織レベルのアウトカムを増やすところまでは、未だに実現できてないです。 ※これが今、いちばん強く感じている危機感です。。。 →*ここに対してアプローチしている企業が増えてきている*認識のため、このままだと波に乗り遅れる (*`既に遅れている`*) 現場では実装効率化だけでなく全体最適を打ち出すと、差し止められたりしてるんですが。。 Saitekiなら、実装スピードの向上だけで満足せず *速くなったことで生まれた余力を、更なる価値につなげるアクションを起こせるのではと思ってます。(それだけ凄い人たちが揃っている認識)* *※何なら単一のプロダクトだけじゃない、もっと全体\"最適\"を為すことさえも視野* 【AI駆動推進】 本当に皆さんの力が必要だし 『AI駆動の会社でやっていくのであれば』 \"今\" みんなで同じ方向を見て、次世代の高速/高品質なAI駆動開発基盤を築くことが 本当に大事な時期が到来していると考えてます。 ※その意思を波及するために勉強会を引き受けてます。 (私だけでは大いに力不足ですが:cry:、AIも駆使して大手SIerにも負けないような会社になれると心から信じている故:pray:)\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790865007.107859",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790865007.107859",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790865007.107859",
+      "timestamp": "2026-10-01T14:30:07.107Z",
+      "detailBullets": [
+        "<@U0A7VHB07J4> ありがとうございます！ 小松田さんがそれだけの気概をもって推進してくれて心強いです！しっかり自分もついていきたいです！ 実際のところ、一エンジニアでこの視点を持ち続けながら日々の業務こなしてやっていくのは難しいですよねー:sweat_drops:目の前には毎日自分のやることがいっぱいあって、作ったものがどれだけ組織や社会のためにプラスになってるかチェックするのは大変かと思います。 大きいことはいきなりできないので、その心持ちではいたいなと思いますね:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790865007.107859",
+          "text": "<@U0A7VHB07J4> ありがとうございます！ 小松田さんがそれだけの気概をもって推進してくれて心強いです！しっかり自分もついていきたいです！ 実際のところ、一エンジニアでこの視点を持ち続けながら日々の業務こなしてやっていくのは難しいですよねー:sweat_drops:目の前には毎日自分のやることがいっぱいあって、作ったものがどれだけ組織や社会のためにプラスになってるかチェックするのは大変かと思います。 大きいことはいきなりできないので、その心持ちではいたいなと思いますね:sparkles:",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790865007.107859",
+          "threadTs": "1790828748.695579",
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A7VHB07J4> ありがとうございます！ 小松田さんがそれだけの気概をもって推進してくれて心強いです！しっかり自分もついていきたいです！ 実際のところ、一エンジニアでこの視点を持ち続けながら日々の業務こなしてやっていくのは難しいですよねー:sweat_drops:目の前には毎日自分のやることがいっぱいあって、作ったものがどれだけ組織や社会のためにプラスになってるかチェックするのは大変かと思います。 大きいことはいきなりできないので、その心持ちではいたいなと思いますね:sparkles:\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790893800.721719",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小松田真伍",
+      "personName": "小松田真伍",
+      "slackIds": [
+        "U0A7VHB07J4",
+        "U0AAUUU1LTX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790893800.721719",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790893800.721719",
+      "timestamp": "2026-10-01T22:30:00.721Z",
+      "detailBullets": [
+        "<@U09NHL5HMRN> 去年の年末頃 1人の *`\"それまでエンジニアではなかった人\"` に対して、一般企業がシステム開発の発注かけている*という情報を拾って ※福岡でソロプレナーとして5社ほどから受託もらっているような方 (システム規模は聞いてないが。。) エンジニアに閉じた仕事だけしていると 動画にある通り裾野は広がって、\"この先無いな\"と感じ AI駆動の世界に飛び込んでみたものの 実際はそこから大きく物事を変えられず、やきもきしている状態です:sweat_drops: (組織動かすのﾑｽﾞｶｼｲ) ※開発早めても次の開発が来るし...結果リリース早まっているわけでは無いし。。。 インフラもフロントもバックエンドもドメインも 全て学ぶ意味はまだまだあると考えてますが、それを組織の(AIの)知識資産にしていって *AI Standardを作れる組織(エンジニア)になる*のが、他SIerやソロプレナーに勝てる道かと思ってます。 ※詳しくは第3回勉強会にて ~comming soon?~"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790893800.721719",
+          "text": "<@U09NHL5HMRN> 去年の年末頃 1人の *`\"それまでエンジニアではなかった人\"` に対して、一般企業がシステム開発の発注かけている*という情報を拾って ※福岡でソロプレナーとして5社ほどから受託もらっているような方 (システム規模は聞いてないが。。) エンジニアに閉じた仕事だけしていると 動画にある通り裾野は広がって、\"この先無いな\"と感じ AI駆動の世界に飛び込んでみたものの 実際はそこから大きく物事を変えられず、やきもきしている状態です:sweat_drops: (組織動かすのﾑｽﾞｶｼｲ) ※開発早めても次の開発が来るし...結果リリース早まっているわけでは無いし。。。 インフラもフロントもバックエンドもドメインも 全て学ぶ意味はまだまだあると考えてますが、それを組織の(AIの)知識資産にしていって *AI Standardを作れる組織(エンジニア)になる*のが、他SIerやソロプレナーに勝てる道かと思ってます。 ※詳しくは第3回勉強会にて ~comming soon?~",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790893800.721719",
+          "threadTs": "1790828748.695579",
+          "authorName": "小松田 真伍",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09NHL5HMRN> 去年の年末頃 1人の *`\"それまでエンジニアではなかった人\"` に対して、一般企業がシステム開発の発注かけている*という情報を拾って ※福岡でソロプレナーとして5社ほどから受託もらっているような方 (システム規模は聞いてないが。。) エンジニアに閉じた仕事だけしていると 動画にある通り裾野は広がって、\"この先無いな\"と感じ AI駆動の世界に飛び込んでみたものの 実際はそこから大きく物事を変えられず、やきもきしている状態です:sweat_drops: (組織動かすのﾑｽﾞｶｼｲ) ※開発早めても次の開発が来るし...結果リリース早まっているわけでは無いし。。。 インフラもフロントもバックエンドもドメインも 全て学ぶ意味はまだまだあると考えてますが、それを組織の(AIの)知識資産にしていって *AI Standardを作れる組織(エンジニア)になる*のが、他SIerやソロプレナーに勝てる道かと思ってます。 ※詳しくは第3回勉強会にて ~comming soon?~\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1790896110.289799",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1790896110.289799",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1790896110.289799",
+      "timestamp": "2026-10-01T23:08:30.289Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-01_ 1. _GitHub Copilot がデスクトップアプリ操作（Computer Use）をパブリックプレビュー公開_ └ GitHub CopilotがmacOS・WindowsでデスクトップアプリをAIが直接操作する「Computer Use」機能をパブリックプレビューとして公開。Copilot CLIとCopilotアプリから利用可能で、APIやCLIのないレガシー業務ソフトやGUI専用アプリへのAI自動化が実現。ボタンクリック・テキスト入力・スクロール・ドラッグなどの操作が可能で、AIが「任意のデスクトップ作業」を代行。 :link: <https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/|github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps> 2. _Curs..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1790896110.289799",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-01_ 1. _GitHub Copilot がデスクトップアプリ操作（Computer Use）をパブリックプレビュー公開_ └ GitHub CopilotがmacOS・WindowsでデスクトップアプリをAIが直接操作する「Computer Use」機能をパブリックプレビューとして公開。Copilot CLIとCopilotアプリから利用可能で、APIやCLIのないレガシー業務ソフトやGUI専用アプリへのAI自動化が実現。ボタンクリック・テキスト入力・スクロール・ドラッグなどの操作が可能で、AIが「任意のデスクトップ作業」を代行。 :link: <https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/|github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps> 2. _Cursor が本番監視「Rollouts」とセキュリティ審査「Security Reviewer」を追加_ └ CursorがPR→本番環境間のリグレッションを自動検知する「Rollouts」と、コードベースのセキュリティ問題を発見・修正する「Security Reviewer」を新たに追加。AI駆動開発の信頼性・安全性を強化する方向性で、AWS Lambda MicroVMsをCursor Cloud...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1790896110.289799",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-01_ 1. _GitHub Copilot がデスクトップアプリ操作（Computer Use）をパブリックプレビュー公開_ └ GitHub CopilotがmacOS・WindowsでデスクトップアプリをAIが直接操作する「Computer Use」機能をパブリックプレビューとして公開。Copilot CLIとCopilotアプリから利用可能で、APIやCLIのないレガシー業務ソフトやGUI専用アプリへのAI自動化が実現。ボタンクリック・テキスト入力・スクロール・ドラッグなどの操作が可能で、AIが「任意のデスクトップ作業」を代行。 :link: <https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/|github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps> 2. _Cursor が本番監視「Rollouts」とセキュリティ審査「Security Reviewer」を追加_ └ CursorがPR→本番環境間のリグレッションを自動検知する「Rollouts」と、コードベースのセキュリティ問題を発見・修正する「Security Reviewer」を新たに追加。AI駆動開発の信頼性・安全性を強化する方向性で、AWS Lambda MicroVMsをCursor Cloudエージェントのコンピュート基盤として採用することも発表。 :link: <https://releasebot.io/updates/cursor|releasebot.io/updates/cursor> 3. _Google、最新モデル「Gemini 4 Argon」をサイバー防御組織向けに限定公開_ └ Googleが新モデル「Gemini 4 Argon」をサイバー防御・セキュリティ機関向けに限定提供を開始。100万トークンの出力上限に対応し、脅威分析・サイバー攻撃検知などセキュリティ特化の用途に設計。一般提供の時期は未定で、まずは防衛・政府系機関への展開を優先する方針。 :link: <https://qiita.com/aakan/items/11ff33750e8e0bd0d12b|qiita.com/aakan/items/…> 4. _HENNGEが「人間役員2名＋AIエージェント主体」の新会社を設立_ └ セキュリティSaaS企業のHENNGEが、人間の取締役は2名のみで実務のほぼすべてをAIエージェントが担う新会社を設立。コーディング・業務オペレーション・意思決定...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790901169.461109",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:松井誠",
+      "personName": "松井誠",
+      "slackIds": [
+        "U0BBLLB4YE8"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790901169.461109",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790901169.461109",
+      "timestamp": "2026-10-02T00:32:49.461Z",
+      "detailBullets": [
+        "ここ最近、ずっと雨や台風が続いていますね 皆様いかがでしょうか、今まで在宅メインで業務をしていたので、気づいていませんでしたが、 通勤していて思ったのが、電車の思いがけない遅延や運休が結構多いと思う日々です。 是非通勤されている方は気を付けて下さい と言うおっさんの独り言でした。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790901169.461109",
+          "text": "ここ最近、ずっと雨や台風が続いていますね 皆様いかがでしょうか、今まで在宅メインで業務をしていたので、気づいていませんでしたが、 通勤していて思ったのが、電車の思いがけない遅延や運休が結構多いと思う日々です。 是非通勤されている方は気を付けて下さい と言うおっさんの独り言でした。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790901169.461109",
+          "threadTs": "1790901169.461109",
+          "authorName": "松井誠",
+          "permalink": null
+        }
+      ],
+      "searchText": "ここ最近、ずっと雨や台風が続いていますね 皆様いかがでしょうか、今まで在宅メインで業務をしていたので、気づいていませんでしたが、 通勤していて思ったのが、電車の思いがけない遅延や運休が結構多いと思う日々です。 是非通勤されている方は気を付けて下さい と言うおっさんの独り言でした。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790906300.608389",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790906300.608389",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790906300.608389",
+      "timestamp": "2026-10-02T01:58:20.608Z",
+      "detailBullets": [
+        "ほっこりします。ただ、松井さんがおっさんだとしたら僕もおっさんなので「松井さんはおっさんじゃない！」と独り言を残しておきます！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790906300.608389",
+          "text": "ほっこりします。ただ、松井さんがおっさんだとしたら僕もおっさんなので「松井さんはおっさんじゃない！」と独り言を残しておきます！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790906300.608389",
+          "threadTs": "1790901169.461109",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "ほっこりします。ただ、松井さんがおっさんだとしたら僕もおっさんなので「松井さんはおっさんじゃない！」と独り言を残しておきます！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1790910786.412939",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:松井誠",
+      "personName": "松井誠",
+      "slackIds": [
+        "U0BBLLB4YE8"
+      ],
+      "message": "message:primary:C09N28KTKL1:1790910786.412939",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1790910786.412939",
+      "timestamp": "2026-10-02T03:13:06.412Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> そう言っていただけるとありがたいです。:smile:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1790910786.412939",
+          "text": "<@U09MGUVJ8BV> そう言っていただけるとありがたいです。:smile:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1790910786.412939",
+          "threadTs": "1790901169.461109",
+          "authorName": "松井誠",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> そう言っていただけるとありがたいです。:smile:\nソーシャル\nOther"
     }
   ]
 }
