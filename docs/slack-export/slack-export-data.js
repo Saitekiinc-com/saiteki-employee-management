@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-10-02T04:58:32.607Z",
+  "generatedAt": "2026-10-03T04:42:00.037Z",
   "channelCount": 15,
-  "totalMessages": 3343,
+  "totalMessages": 3349,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -22569,11 +22569,71 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1790949409.218349",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09NHL467U0",
+          "userName": "上遼太郎",
+          "userRealName": "上遼太郎",
+          "text": "みなさんこんばんわ‼︎ 明日九十九里浜のトライアスロンに 参加します！！ 今日は前泊して戸塚さんと知り合いの方と3人で旅館に宿泊してます:no_mouth::slightly_smiling_face: 来年興味あったら是非参加してください:triumph::triumph:",
+          "rawText": "みなさんこんばんわ‼︎\n明日九十九里浜のトライアスロンに\n参加します！！\n今日は前泊して戸塚さんと知り合いの方と3人で旅館に宿泊してます:no_mouth::slightly_smiling_face:\n来年興味あったら是非参加してください:triumph::triumph:",
+          "messageTs": "1790949409.218349",
+          "threadTs": "1790949409.218349",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-02",
+          "timestamp": "2026-10-02T13:56:49.218Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1790977950.553279",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "遼太郎君と運転を交代しながら地元の町中華で夕飯を食べてから宿で完走前祝いでお酒を飲んで向かいます！至福の時間です！",
+          "rawText": "遼太郎君と運転を交代しながら地元の町中華で夕飯を食べてから宿で完走前祝いでお酒を飲んで向かいます！至福の時間です！",
+          "messageTs": "1790977950.553279",
+          "threadTs": "1790949409.218349",
+          "parentUserId": "U09NHL467U0",
+          "subtype": null,
+          "date": "2026-10-02",
+          "timestamp": "2026-10-02T21:52:30.553Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1790991019.043729",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "<@U09MGUVJ8BV> <@U09NHL467U0> もうレースも後半戦でしょうか？ 思い切り楽しんでください:bangbang: レース中の心温まるエピソード、今年も期待してます:relaxed:",
+          "rawText": "<@U09MGUVJ8BV> <@U09NHL467U0> \nもうレースも後半戦でしょうか？\n思い切り楽しんでください:bangbang:\n\nレース中の心温まるエピソード、今年も期待してます:relaxed:",
+          "messageTs": "1790991019.043729",
+          "threadTs": "1790949409.218349",
+          "parentUserId": "U09NHL467U0",
+          "subtype": null,
+          "date": "2026-10-03",
+          "timestamp": "2026-10-03T01:30:19.043Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 1128,
+      "messageCount": 1131,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-10-02"
+      "lastDate": "2026-10-03"
     },
     {
       "id": "C098RT3NRT2",
@@ -53282,11 +53342,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1790937309.483419",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09QZF7KT2P",
+          "userName": "永井",
+          "userRealName": "永井",
+          "text": "<@U0A7VHB07J4> <@U0BK4336Q2X> お疲れ様でした。 勉強会、参加できず残念でした。 内容気になるので、第２回も動画上げていただけると幸いです。 見れたら見るわ～:laughing:",
+          "rawText": "<@U0A7VHB07J4> <@U0BK4336Q2X>\nお疲れ様でした。\n勉強会、参加できず残念でした。\n内容気になるので、第２回も動画上げていただけると幸いです。\n\n見れたら見るわ～:laughing:",
+          "messageTs": "1790937309.483419",
+          "threadTs": "1790732147.437029",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-10-02",
+          "timestamp": "2026-10-02T10:35:09.483Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1790944463.615279",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0BK4336Q2X",
+          "userName": "Rio",
+          "userRealName": "Rio",
+          "text": "<@U09QZF7KT2P> さん ありがとうございます」！ 動画完成しましたら、共有するのでお楽しみしててください:sparkles: 次回の案内も後日行いますので、参加お待ちしております！！",
+          "rawText": "<@U09QZF7KT2P> さん\nありがとうございます」！\n\n動画完成しましたら、共有するのでお楽しみしててください:sparkles:\n次回の案内も後日行いますので、参加お待ちしております！！",
+          "messageTs": "1790944463.615279",
+          "threadTs": "1790732147.437029",
+          "parentUserId": "U09MGUVJ8BV",
+          "subtype": null,
+          "date": "2026-10-02",
+          "timestamp": "2026-10-02T12:34:23.615Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 388,
+      "messageCount": 390,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-09-30"
+      "lastDate": "2026-10-02"
     },
     {
       "id": "C09QXV3F8G0",
@@ -59933,11 +60033,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1790982469.590899",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-02_ 1. _Claude Code v2.1.287、TypeScriptベースのMod（プラグイン）機能を正式リリース_ └ Claude CodeがCLI・デスクトップアプリ両対応のMod機能を導入。TypeScriptで独自UI・カスタム動作・機能差し替えができるプラグイン基盤が整備され、コミュニティ拡張エコシステムの形成が本格化。Anthropic公式X（旧Twitter）でも v2.1.287 としてアナウンス。 :link: <https://pasqualepillitteri.it/en/news/19871/claude-code-mods-plugins|pasqualepillitteri.it/en/news/19871/claude-code-mods-plugins> 2. _Barclays、年内に開発者の半数にClaude Codeを展開へ—金融大手が本格採用_ └ AnthropicのプレスリリースによりBarclaysが全開発者の50%へClaude Code導入計画を公表（2026-10-01）。金融業界における大規模AI駆動開発への移行事例として、エンタープライズ採用加速を示す注目案件。 :link: <https://www.pymnts.com/news/artificial-intelligence/2026/barclays-accelerates-ai-rollout-with-anthropic-claude-code/|pymnts.com/news/artificial-intelligence/2026/barclays-accelerates-ai-rollout-with-anthropic-claude-code> 3. _AgenticDev 2026ワークショップ（10/12〜16、ミュンヘン）—LLMマルチエージェントと次世代ソフトウェア開発の国際学術場_ └ ASE 2026に付属する形で「エージェント型AI次世代ソフトウェア開発」ワークショップが10月12〜16日にドイツ・ミュンヘンで開催。LLMや複数エージェントが開発ライフサイクルを再形成するトレンドを研究・事例ベースで議論する場として国際的な注目が集まっている。 :link: <https://conf.researchr.org/home/ase-2026/agenticdev-2026|conf.researchr.org/home/ase-2026/agenticdev-2026> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-10-02_\n\n1. _Claude Code v2.1.287、TypeScriptベースのMod（プラグイン）機能を正式リリース_\n└ Claude CodeがCLI・デスクトップアプリ両対応のMod機能を導入。TypeScriptで独自UI・カスタム動作・機能差し替えができるプラグイン基盤が整備され、コミュニティ拡張エコシステムの形成が本格化。Anthropic公式X（旧Twitter）でも v2.1.287 としてアナウンス。\n:link: <https://pasqualepillitteri.it/en/news/19871/claude-code-mods-plugins|pasqualepillitteri.it/en/news/19871/claude-code-mods-plugins>\n2. _Barclays、年内に開発者の半数にClaude Codeを展開へ—金融大手が本格採用_\n└ AnthropicのプレスリリースによりBarclaysが全開発者の50%へClaude Code導入計画を公表（2026-10-01）。金融業界における大規模AI駆動開発への移行事例として、エンタープライズ採用加速を示す注目案件。\n:link: <https://www.pymnts.com/news/artificial-intelligence/2026/barclays-accelerates-ai-rollout-with-anthropic-claude-code/|pymnts.com/news/artificial-intelligence/2026/barclays-accelerates-ai-rollout-with-anthropic-claude-code>\n3. _AgenticDev 2026ワークショップ（10/12〜16、ミュンヘン）—LLMマルチエージェントと次世代ソフトウェア開発の国際学術場_\n└ ASE 2026に付属する形で「エージェント型AI次世代ソフトウェア開発」ワークショップが10月12〜16日にドイツ・ミュンヘンで開催。LLMや複数エージェントが開発ライフサイクルを再形成するトレンドを研究・事例ベースで議論する場として国際的な注目が集まっている。\n:link: <https://conf.researchr.org/home/ase-2026/agenticdev-2026|conf.researchr.org/home/ase-2026/agenticdev-2026> *使用して送信されました* Claude",
+          "messageTs": "1790982469.590899",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-02",
+          "timestamp": "2026-10-02T23:07:49.590Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 332,
+      "messageCount": 333,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-10-01"
+      "lastDate": "2026-10-02"
     },
     {
       "id": "C0AARGDBC3V",
