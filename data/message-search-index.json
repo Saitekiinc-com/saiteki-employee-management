@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-03T04:41:52.935Z",
+  "generatedAt": "2026-10-04T05:13:16.316Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -106204,6 +106204,251 @@
         }
       ],
       "searchText": "<@U09MGUVJ8BV> <@U09NHL467U0> もうレースも後半戦でしょうか？ 思い切り楽しんでください:bangbang: レース中の心温まるエピソード、今年も期待してます:relaxed:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791009046.923139",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791009046.923139",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791009046.923139",
+      "timestamp": "2026-10-03T06:30:46.923Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> レース中返信できなくてすみません！ 心温まるエピソード、、 私事ですが 今回のトライアスロンに向けて禁煙をしました‼︎ 禁煙のおかげで戸塚さんのランニングスピードに合わせることができて同着でゴールできました笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791009046.923139",
+          "text": "<@U09MM9KS06S> レース中返信できなくてすみません！ 心温まるエピソード、、 私事ですが 今回のトライアスロンに向けて禁煙をしました‼︎ 禁煙のおかげで戸塚さんのランニングスピードに合わせることができて同着でゴールできました笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791009046.923139",
+          "threadTs": "1790949409.218349",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> レース中返信できなくてすみません！ 心温まるエピソード、、 私事ですが 今回のトライアスロンに向けて禁煙をしました‼︎ 禁煙のおかげで戸塚さんのランニングスピードに合わせることができて同着でゴールできました笑\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791009074.472869",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791009074.472869",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791009074.472869",
+      "timestamp": "2026-10-03T06:31:14.472Z",
+      "detailBullets": [
+        "写真こんな感じです！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791009074.472869",
+          "text": "写真こんな感じです！！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791009074.472869",
+          "threadTs": "1790949409.218349",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "写真こんな感じです！！\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791018109.337569",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791018109.337569",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791018109.337569",
+      "timestamp": "2026-10-03T09:01:49.337Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> <@U09NHL467U0> 戸塚さん、遼太郎さん、完走おめでとうございます:bangbang: 遼太郎さん、禁煙の効果はそんなに絶大なんですか:pleading_face: 去年、戸塚さんのスピードにビビったと言っていたのに、マジですごい:tada:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791018109.337569",
+          "text": "<@U09MGUVJ8BV> <@U09NHL467U0> 戸塚さん、遼太郎さん、完走おめでとうございます:bangbang: 遼太郎さん、禁煙の効果はそんなに絶大なんですか:pleading_face: 去年、戸塚さんのスピードにビビったと言っていたのに、マジですごい:tada:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791018109.337569",
+          "threadTs": "1790949409.218349",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> <@U09NHL467U0> 戸塚さん、遼太郎さん、完走おめでとうございます:bangbang: 遼太郎さん、禁煙の効果はそんなに絶大なんですか:pleading_face: 去年、戸塚さんのスピードにビビったと言っていたのに、マジですごい:tada:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791030474.438899",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791030474.438899",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791030474.438899",
+      "timestamp": "2026-10-03T12:27:54.438Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 酸素が身体中を巡ってくれている気がするようなしないようなって感じです笑 今年は戸塚さんが調子が悪かっただけで本調子なら絶対に同着は無理だと思います:sweat_smile: 追いつけるように頑張ります:male-mechanic:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791030474.438899",
+          "text": "<@U09MM9KS06S> 酸素が身体中を巡ってくれている気がするようなしないようなって感じです笑 今年は戸塚さんが調子が悪かっただけで本調子なら絶対に同着は無理だと思います:sweat_smile: 追いつけるように頑張ります:male-mechanic:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791030474.438899",
+          "threadTs": "1790949409.218349",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 酸素が身体中を巡ってくれている気がするようなしないようなって感じです笑 今年は戸塚さんが調子が悪かっただけで本調子なら絶対に同着は無理だと思います:sweat_smile: 追いつけるように頑張ります:male-mechanic:\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791034115.071829",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791034115.071829",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791034115.071829",
+      "timestamp": "2026-10-03T13:28:35.071Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 田浦さん、応援ありがとうございました！ <@U09NHL467U0> 遼太郎のポテンシャル半端ないよ。。同着の写真とかスタッフが撮ってくれてたら記念に買いたいね笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791034115.071829",
+          "text": "<@U09MM9KS06S> 田浦さん、応援ありがとうございました！ <@U09NHL467U0> 遼太郎のポテンシャル半端ないよ。。同着の写真とかスタッフが撮ってくれてたら記念に買いたいね笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791034115.071829",
+          "threadTs": "1790949409.218349",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 田浦さん、応援ありがとうございました！ <@U09NHL467U0> 遼太郎のポテンシャル半端ないよ。。同着の写真とかスタッフが撮ってくれてたら記念に買いたいね笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791035455.969439",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791035455.969439",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791035455.969439",
+      "timestamp": "2026-10-03T13:50:55.969Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 僕からも応援ありがとうございました！！ <@U09MGUVJ8BV> 写真公開させたらみてみます！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791035455.969439",
+          "text": "<@U09MM9KS06S> 僕からも応援ありがとうございました！！ <@U09MGUVJ8BV> 写真公開させたらみてみます！！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791035455.969439",
+          "threadTs": "1790949409.218349",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 僕からも応援ありがとうございました！！ <@U09MGUVJ8BV> 写真公開させたらみてみます！！\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1791069052.888029",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1791069052.888029",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1791069052.888029",
+      "timestamp": "2026-10-03T23:10:52.888Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-03_ 1. _GitHub Copilot、4モデルを廃止・新モデルへ移行（10/2実施、10/19追加廃止予定）_ └ 10月2日付でGemini 3.5/3.6 Flash・Kimi K2.7 Code・Claude Opus 4.7が全Copilotエクスペリエンスで廃止。それぞれGemini 3.8 Flash / Kimi K3 / Claude Opus 5に自動移行。さらに10月19日にはGemini 3.7 Flash・GPT-5.5/5.4系・Grok 4.5の廃止も予定されており、管理者はモデルポリシーの確認が必要。 :link: <https://aicybr.com/blog/github-copilot-model-deprecation-october-2026|aicybr.com/blog/github-copilot-model-deprecation-october-2026> 2. _OpenAI Codex エージェント v0.160.0 リリース_ └ タスク履歴の閲覧機..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1791069052.888029",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-03_ 1. _GitHub Copilot、4モデルを廃止・新モデルへ移行（10/2実施、10/19追加廃止予定）_ └ 10月2日付でGemini 3.5/3.6 Flash・Kimi K2.7 Code・Claude Opus 4.7が全Copilotエクスペリエンスで廃止。それぞれGemini 3.8 Flash / Kimi K3 / Claude Opus 5に自動移行。さらに10月19日にはGemini 3.7 Flash・GPT-5.5/5.4系・Grok 4.5の廃止も予定されており、管理者はモデルポリシーの確認が必要。 :link: <https://aicybr.com/blog/github-copilot-model-deprecation-october-2026|aicybr.com/blog/github-copilot-model-deprecation-october-2026> 2. _OpenAI Codex エージェント v0.160.0 リリース_ └ タスク履歴の閲覧機能、X11 middle-click paste対応、プロジェクト未指定でもワークスペースデフォルトで動作する「projectlessセッション」を追加。Guardian reviewsの改善とWindowsサンドボックス・再接続バグも修正。 :link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-october-2-2026...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1791069052.888029",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-03_ 1. _GitHub Copilot、4モデルを廃止・新モデルへ移行（10/2実施、10/19追加廃止予定）_ └ 10月2日付でGemini 3.5/3.6 Flash・Kimi K2.7 Code・Claude Opus 4.7が全Copilotエクスペリエンスで廃止。それぞれGemini 3.8 Flash / Kimi K3 / Claude Opus 5に自動移行。さらに10月19日にはGemini 3.7 Flash・GPT-5.5/5.4系・Grok 4.5の廃止も予定されており、管理者はモデルポリシーの確認が必要。 :link: <https://aicybr.com/blog/github-copilot-model-deprecation-october-2026|aicybr.com/blog/github-copilot-model-deprecation-october-2026> 2. _OpenAI Codex エージェント v0.160.0 リリース_ └ タスク履歴の閲覧機能、X11 middle-click paste対応、プロジェクト未指定でもワークスペースデフォルトで動作する「projectlessセッション」を追加。Guardian reviewsの改善とWindowsサンドボックス・再接続バグも修正。 :link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-october-2-2026|aiagentsdirectory.com/news/ai-agents-news-brief-october-2-2026> 3. _AIコーディングエージェントのセキュリティ脆弱性 2026年10月まとめ—GitSpawnほか_ └ 「GitSpawn」などAIコーディングエージェント固有の攻撃手法が複数報告され、エージェントが自律的にgit操作を行う環境でのリポジトリ汚染リスクが顕在化。AIエージェントを本番CIに組み込む際のレビュー設計の見直しを促す内容。 :link: <https://adversa.ai/blog/top-ai-coding-agent-security-resources-october-2026/|adversa.ai/blog/top-ai-coding-agent-security-resources-october-2026> 4. _Amazon、エージェント判断特化モデル「Strands Decider 2B」をApache 2.0でリリース_ └ Qwen3.5ベースの2Bパラメータモデルで、答えではなく「判断（decision）」を返す...\nai駆動開発ネタ\n経営"
     }
   ]
 }
