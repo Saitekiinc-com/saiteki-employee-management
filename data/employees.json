@@ -3230,5 +3230,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0BNZ73FYCR"
+  },
+  {
+    "name": "中村ののか",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-10-05T04:57:30.137Z",
+    "updatedAt": "2026-10-05T04:57:30.137Z",
+    "last_updated": "2026-10-05T04:57:30.137Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0C633P12DT"
   }
 ]

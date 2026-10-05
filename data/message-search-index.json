@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-04T05:13:16.316Z",
+  "generatedAt": "2026-10-05T04:57:30.374Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -106449,6 +106449,110 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-03_ 1. _GitHub Copilot、4モデルを廃止・新モデルへ移行（10/2実施、10/19追加廃止予定）_ └ 10月2日付でGemini 3.5/3.6 Flash・Kimi K2.7 Code・Claude Opus 4.7が全Copilotエクスペリエンスで廃止。それぞれGemini 3.8 Flash / Kimi K3 / Claude Opus 5に自動移行。さらに10月19日にはGemini 3.7 Flash・GPT-5.5/5.4系・Grok 4.5の廃止も予定されており、管理者はモデルポリシーの確認が必要。 :link: <https://aicybr.com/blog/github-copilot-model-deprecation-october-2026|aicybr.com/blog/github-copilot-model-deprecation-october-2026> 2. _OpenAI Codex エージェント v0.160.0 リリース_ └ タスク履歴の閲覧機能、X11 middle-click paste対応、プロジェクト未指定でもワークスペースデフォルトで動作する「projectlessセッション」を追加。Guardian reviewsの改善とWindowsサンドボックス・再接続バグも修正。 :link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-october-2-2026|aiagentsdirectory.com/news/ai-agents-news-brief-october-2-2026> 3. _AIコーディングエージェントのセキュリティ脆弱性 2026年10月まとめ—GitSpawnほか_ └ 「GitSpawn」などAIコーディングエージェント固有の攻撃手法が複数報告され、エージェントが自律的にgit操作を行う環境でのリポジトリ汚染リスクが顕在化。AIエージェントを本番CIに組み込む際のレビュー設計の見直しを促す内容。 :link: <https://adversa.ai/blog/top-ai-coding-agent-security-resources-october-2026/|adversa.ai/blog/top-ai-coding-agent-security-resources-october-2026> 4. _Amazon、エージェント判断特化モデル「Strands Decider 2B」をApache 2.0でリリース_ └ Qwen3.5ベースの2Bパラメータモデルで、答えではなく「判断（decision）」を返す...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1791104965.093259",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1791104965.093259",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1791104965.093259",
+      "timestamp": "2026-10-04T09:09:25.093Z",
+      "detailBullets": [
+        "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.10.03）* を共有します。 今週のテーマは *「インサイト様5名体制参画＆小松田さん主導のAI駆動開発勉強会、そして九十九里トライアスロン完走」* です。 受託開発の加速、社内AIナレッジの組織化、チームでキャパを広げていく熱いトピックスをお届けします！ • *【インサイト様へ5名体制での参画決定！受託案件がさらに拡大】* 9名提案・面談から5名の体制参画が一挙に決定！開発の大半をSaitekiが担う実質的な受託案件です。予算の都合で惜しくも参画に至らなかったメンバーも含め、9名全員の素晴らしいパフォーマンスと個々の過去の実績があったからこそ掴み取れた成果です。 • *【田浦さん×AWSプロ青木さんの強力バックボーンで受託を牽引】* 通常稼働しながら受託案件を牽引してくれた田浦PLに加え、AWSプロフェッショナル・青木さんが現案件に参画しながらインフラ面を強力フォロー！この盤石な技術体制があったからこそ勝ち取れました。今後は社内から次々と受託を導くPL/PMを輩出していき..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1791104965.093259",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.10.03）* を共有します。 今週のテーマは *「インサイト様5名体制参画＆小松田さん主導のAI駆動開発勉強会、そして九十九里トライアスロン完走」* です。 受託開発の加速、社内AIナレッジの組織化、チームでキャパを広げていく熱いトピックスをお届けします！ • *【インサイト様へ5名体制での参画決定！受託案件がさらに拡大】* 9名提案・面談から5名の体制参画が一挙に決定！開発の大半をSaitekiが担う実質的な受託案件です。予算の都合で惜しくも参画に至らなかったメンバーも含め、9名全員の素晴らしいパフォーマンスと個々の過去の実績があったからこそ掴み取れた成果です。 • *【田浦さん×AWSプロ青木さんの強力バックボーンで受託を牽引】* 通常稼働しながら受託案件を牽引してくれた田浦PLに加え、AWSプロフェッショナル・青木さんが現案件に参画しながらインフラ面を強力フォロー！この盤石な技術体制があったからこそ勝ち取れました。今後は社内から次々と受託を導くPL/PMを輩出していきます！ • *【小松田さん講師！「第2回 AI駆動開発勉強会」開催！】* 小松田さん、市川さんらを中心とした勉強会を開催！「個人のAI知見をいかにチーム・組織の仕組み（インストラクションズ・スキルズ）として再利用するか」というテーマで濃密な議論が行われました。小松田さんは社内ポータルでのAIチャットボット構築にも着手してくれています！ • *【上 遼太郎と挑んだ九十九里トライアスロン完走！〜誰かの...",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1791104965.093259",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.10.03）* を共有します。 今週のテーマは *「インサイト様5名体制参画＆小松田さん主導のAI駆動開発勉強会、そして九十九里トライアスロン完走」* です。 受託開発の加速、社内AIナレッジの組織化、チームでキャパを広げていく熱いトピックスをお届けします！ • *【インサイト様へ5名体制での参画決定！受託案件がさらに拡大】* 9名提案・面談から5名の体制参画が一挙に決定！開発の大半をSaitekiが担う実質的な受託案件です。予算の都合で惜しくも参画に至らなかったメンバーも含め、9名全員の素晴らしいパフォーマンスと個々の過去の実績があったからこそ掴み取れた成果です。 • *【田浦さん×AWSプロ青木さんの強力バックボーンで受託を牽引】* 通常稼働しながら受託案件を牽引してくれた田浦PLに加え、AWSプロフェッショナル・青木さんが現案件に参画しながらインフラ面を強力フォロー！この盤石な技術体制があったからこそ勝ち取れました。今後は社内から次々と受託を導くPL/PMを輩出していきます！ • *【小松田さん講師！「第2回 AI駆動開発勉強会」開催！】* 小松田さん、市川さんらを中心とした勉強会を開催！「個人のAI知見をいかにチーム・組織の仕組み（インストラクションズ・スキルズ）として再利用するか」というテーマで濃密な議論が行われました。小松田さんは社内ポータルでのAIチャットボット構築にも着手してくれています！ • *【上 遼太郎と挑んだ九十九里トライアスロン完走！〜誰かの力を借りてキャパを広げる〜】* 「仕事も趣味も全力」の信念で完走！移動中に運転を引き受けてサポートしてくれた遼太郎（ありがとう！）の存在を通じ、「自分一人の力に固執せず、信頼できる誰かの力を借りて自分の限界（キャパ）を広げる」経営の重要性を再確認しました。サポートしてくれる仲間のためにも、より一層仕事に邁進していきます！ メンバー一人ひとりの経験が引き寄せる新たな受託案件、田浦さんと青木さんが示す頼もしい技術体制、そして小松田さんのように自身の知見や仕組みを惜しみなく組織へ還元してくれる姿勢。 こうして個の強みが組織の資産へと繋がり、仲間と支え合いながら限界を超えていける文化こそが、Saitekiを強いチームへと進化させています。 来週も全員で誇りを持てる仕事を積み重ね、最高のパフォーマンスを出していきましょう！ ▼ Letter of T | 今週の記録（2026.10.03） <https://app.notion.com/p/Letter-of-T-2026-10-03-3efdfb42679c8089862bc8fa179893e9|app.notion.com/p/Lette...\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1791155325.045219",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1791155325.045219",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1791155325.045219",
+      "timestamp": "2026-10-04T23:08:45.045Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-04_ 1. _Earendil「Pi 1.0」：MITライセンスのOSSターミナル型コーディングエージェント_ └ Armin RoncacherらのEarendilが、ターミナル上で動くOSSコーディングエージェント「Pi」の v1.0 をリリース。MIT License・15以上のモデルプロバイダー対応・Rustポートも完成。read/write/edit/bash の4ツール構成によるミニマル設計で毎週数十万人が利用中。`npm install` または `cargo install` で即導入可能。 :link: <https://innfactory.ai/en/ai-harness/pi/|innfactory.ai/en/ai-harness/pi> 2. _IBM Bobがセルフホスト版を企業向けに提供開始、社内8万人超が利用_ └ IBMがAIコーディングエージェント「Bob」のオンプレミス対応を発表。社内80,000人超が利用し平均45%の生産性向上を報告。Claude / IBM Grani..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1791155325.045219",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-04_ 1. _Earendil「Pi 1.0」：MITライセンスのOSSターミナル型コーディングエージェント_ └ Armin RoncacherらのEarendilが、ターミナル上で動くOSSコーディングエージェント「Pi」の v1.0 をリリース。MIT License・15以上のモデルプロバイダー対応・Rustポートも完成。read/write/edit/bash の4ツール構成によるミニマル設計で毎週数十万人が利用中。`npm install` または `cargo install` で即導入可能。 :link: <https://innfactory.ai/en/ai-harness/pi/|innfactory.ai/en/ai-harness/pi> 2. _IBM Bobがセルフホスト版を企業向けに提供開始、社内8万人超が利用_ └ IBMがAIコーディングエージェント「Bob」のオンプレミス対応を発表。社内80,000人超が利用し平均45%の生産性向上を報告。Claude / IBM Granite / Mistralなど複数モデルを精度・コスト・速度でдинамично切り替えるマルチモデル構成で、HashiCorp AIOps との連携も追加。BobShellで全操作が自己文書化されトレーサビリティも確保。 :link: <https://www.techtarget.com/it-infrastructure/news/366642799/IBM-Bob-AI-coding-age...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1791155325.045219",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-04_ 1. _Earendil「Pi 1.0」：MITライセンスのOSSターミナル型コーディングエージェント_ └ Armin RoncacherらのEarendilが、ターミナル上で動くOSSコーディングエージェント「Pi」の v1.0 をリリース。MIT License・15以上のモデルプロバイダー対応・Rustポートも完成。read/write/edit/bash の4ツール構成によるミニマル設計で毎週数十万人が利用中。`npm install` または `cargo install` で即導入可能。 :link: <https://innfactory.ai/en/ai-harness/pi/|innfactory.ai/en/ai-harness/pi> 2. _IBM Bobがセルフホスト版を企業向けに提供開始、社内8万人超が利用_ └ IBMがAIコーディングエージェント「Bob」のオンプレミス対応を発表。社内80,000人超が利用し平均45%の生産性向上を報告。Claude / IBM Granite / Mistralなど複数モデルを精度・コスト・速度でдинамично切り替えるマルチモデル構成で、HashiCorp AIOps との連携も追加。BobShellで全操作が自己文書化されトレーサビリティも確保。 :link: <https://www.techtarget.com/it-infrastructure/news/366642799/IBM-Bob-AI-coding-agent-ships-HashiCorp-AIOps-previewed|techtarget.com/it-infrastructure/news/366642799/IBM-Bob-AI-coding-agent-ships-HashiCorp-AIOps-previewed> 3. _AIコーディングエージェントの「バグ報告スパム」でInternet Bug Bountyが申請受付を一時停止_ └ HackerOne運営のInternet Bug BountyがAI生成の低品質バグ報告急増を受けて申請受付を一時停止。cURL プロジェクトも独自バグバウンティを終了宣言。Googleは高品質の証跡（OSS-Fuzz 再現パッチ等）を必須化し対策。Linux Foundation は Google・Anthropic・AWS・Microsoft・OpenAI 各社から計$12.5M を調達しOSSセキュリティ改善に着手する見通し。 :link: <https://www.csoonline.com/article/4154216/internet-bug-bounty-program-h...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1791156224.460049",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:中村ののか",
+      "personName": "中村ののか",
+      "slackIds": [
+        "U0C633P12DT"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1791156224.460049",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1791156224.460049",
+      "timestamp": "2026-10-04T23:23:44.460Z",
+      "detailBullets": [
+        "はじめまして。 2027年1月入社予定の、中村ののかと申します。 :white_small_square:出身 愛知県の田舎出身、名古屋市在住です。 :white_small_square:経歴 新卒でカラオケメーカー(JOYの方)に勤めており、カラオケボックスへの営業を4年間経験したのち、保守部門でカラオケ機器の仕様書やFAQを集約した社内向けアプリの制作に2年間携わっておりました。 その後、Salesforceのパートナー企業にてSEとして2年間勤め、主に不動産住宅業界の企業様へのSalesforce導入支援をしてきました。 :white_small_square:趣味 ⚪︎音楽 友人とバンドを組み、ベースを弾いています:guitar: ⚪︎ひとり旅 プロフィール写真は今年行った西表島の滝です:mountain: ⚪︎ロードバイク 琵琶湖一周したこともあります:woman-biking: ⚪︎ランニング 今年初めてハーフマラソンに挑戦するので練習中です:person_running_facing_right: ⚪︎ポケモン ゲームはもちろん、ポケモンセンターでの大散財が恒例行事で..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1791156224.460049",
+          "text": "はじめまして。 2027年1月入社予定の、中村ののかと申します。 :white_small_square:出身 愛知県の田舎出身、名古屋市在住です。 :white_small_square:経歴 新卒でカラオケメーカー(JOYの方)に勤めており、カラオケボックスへの営業を4年間経験したのち、保守部門でカラオケ機器の仕様書やFAQを集約した社内向けアプリの制作に2年間携わっておりました。 その後、Salesforceのパートナー企業にてSEとして2年間勤め、主に不動産住宅業界の企業様へのSalesforce導入支援をしてきました。 :white_small_square:趣味 ⚪︎音楽 友人とバンドを組み、ベースを弾いています:guitar: ⚪︎ひとり旅 プロフィール写真は今年行った西表島の滝です:mountain: ⚪︎ロードバイク 琵琶湖一周したこともあります:woman-biking: ⚪︎ランニング 今年初めてハーフマラソンに挑戦するので練習中です:person_running_facing_right: ⚪︎ポケモン ゲームはもちろん、ポケモンセンターでの大散財が恒例行事です:money_with_wings: :white_small_square:ひとこと Salesforceの構築を主に経験してきましたが、これから色々な開発現場を経験し、将来的にはSalesforce以外にも出来ることを広げていきたいと考えています。たくさん学んで貢献できるよう努力いたしますので、よろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1791156224.460049",
+          "threadTs": null,
+          "authorName": "中村ののか",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして。 2027年1月入社予定の、中村ののかと申します。 :white_small_square:出身 愛知県の田舎出身、名古屋市在住です。 :white_small_square:経歴 新卒でカラオケメーカー(JOYの方)に勤めており、カラオケボックスへの営業を4年間経験したのち、保守部門でカラオケ機器の仕様書やFAQを集約した社内向けアプリの制作に2年間携わっておりました。 その後、Salesforceのパートナー企業にてSEとして2年間勤め、主に不動産住宅業界の企業様へのSalesforce導入支援をしてきました。 :white_small_square:趣味 ⚪︎音楽 友人とバンドを組み、ベースを弾いています:guitar: ⚪︎ひとり旅 プロフィール写真は今年行った西表島の滝です:mountain: ⚪︎ロードバイク 琵琶湖一周したこともあります:woman-biking: ⚪︎ランニング 今年初めてハーフマラソンに挑戦するので練習中です:person_running_facing_right: ⚪︎ポケモン ゲームはもちろん、ポケモンセンターでの大散財が恒例行事です:money_with_wings: :white_small_square:ひとこと Salesforceの構築を主に経験してきましたが、これから色々な開発現場を経験し、将来的にはSalesforce以外にも出来ることを広げていきたいと考えています。たくさん学んで貢献できるよう努力いたしますので、よろしくお願いいたします！\n自己紹介\nOther"
     }
   ]
 }
