@@ -3245,5 +3245,35 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0C633P12DT"
+  },
+  {
+    "name": "竹下晃之介",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-10-06T05:45:07.936Z",
+    "updatedAt": "2026-10-06T05:45:07.936Z",
+    "last_updated": "2026-10-06T05:45:07.936Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0C7DU8H1S4"
+  },
+  {
+    "name": "洲鎌隆希",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-10-06T05:45:08.046Z",
+    "updatedAt": "2026-10-06T05:45:08.046Z",
+    "last_updated": "2026-10-06T05:45:08.046Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0C6Z7H6WV8"
   }
 ]

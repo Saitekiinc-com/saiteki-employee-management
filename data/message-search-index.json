@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-05T04:57:30.374Z",
+  "generatedAt": "2026-10-06T05:45:08.290Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -106553,6 +106553,178 @@
         }
       ],
       "searchText": "はじめまして。 2027年1月入社予定の、中村ののかと申します。 :white_small_square:出身 愛知県の田舎出身、名古屋市在住です。 :white_small_square:経歴 新卒でカラオケメーカー(JOYの方)に勤めており、カラオケボックスへの営業を4年間経験したのち、保守部門でカラオケ機器の仕様書やFAQを集約した社内向けアプリの制作に2年間携わっておりました。 その後、Salesforceのパートナー企業にてSEとして2年間勤め、主に不動産住宅業界の企業様へのSalesforce導入支援をしてきました。 :white_small_square:趣味 ⚪︎音楽 友人とバンドを組み、ベースを弾いています:guitar: ⚪︎ひとり旅 プロフィール写真は今年行った西表島の滝です:mountain: ⚪︎ロードバイク 琵琶湖一周したこともあります:woman-biking: ⚪︎ランニング 今年初めてハーフマラソンに挑戦するので練習中です:person_running_facing_right: ⚪︎ポケモン ゲームはもちろん、ポケモンセンターでの大散財が恒例行事です:money_with_wings: :white_small_square:ひとこと Salesforceの構築を主に経験してきましたが、これから色々な開発現場を経験し、将来的にはSalesforce以外にも出来ることを広げていきたいと考えています。たくさん学んで貢献できるよう努力いたしますので、よろしくお願いいたします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1791187923.117189",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1791187923.117189",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1791187923.117189",
+      "timestamp": "2026-10-05T08:12:03.117Z",
+      "detailBullets": [
+        "面白そうなセッションがたくさん！ オンライン参加、アーカイブもあるみたいです！ <https://qiita.com/conference?twclid=2duqct5xdj454ciroi26f5hik1|https://qiita.com/conference?twclid=2duqct5xdj454ciroi26f5hik1>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1791187923.117189",
+          "text": "面白そうなセッションがたくさん！ オンライン参加、アーカイブもあるみたいです！ <https://qiita.com/conference?twclid=2duqct5xdj454ciroi26f5hik1|https://qiita.com/conference?twclid=2duqct5xdj454ciroi26f5hik1>",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1791187923.117189",
+          "threadTs": null,
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "面白そうなセッションがたくさん！ オンライン参加、アーカイブもあるみたいです！ <https://qiita.com/conference?twclid=2duqct5xdj454ciroi26f5hik1|https://qiita.com/conference?twclid=2duqct5xdj454ciroi26f5hik1>\nai駆動開発ネタ\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1791241779.505069",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1791241779.505069",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1791241779.505069",
+      "timestamp": "2026-10-05T23:09:39.505Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-05_ 1. _Claude Code v2.1.289 リリース — プラグイン安全性・エージェント機能強化_ └ プラグイン・ターミナル・シェルコマンドの安全性に関する複数の問題を修正。大ファイルのレンダリング性能も改善。`agent.spawn` APIと新しいエージェント状態管理が追加され、マルチエージェントワークフローの構築が一段と柔軟になった。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 2. _ChatGPT Enterprise/EDU が「Codex Cloud」を追加（10/5）_ └ OpenAI が ChatGPT Enterprise・EDU に Codex Cloud を統合。デスクトップ・Web・モバイルいずれからでも利用可能な分離クラウド環境でコーディングタスクを実行でき、チームで再利用可能なワークスペースを共有できる。..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1791241779.505069",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-05_ 1. _Claude Code v2.1.289 リリース — プラグイン安全性・エージェント機能強化_ └ プラグイン・ターミナル・シェルコマンドの安全性に関する複数の問題を修正。大ファイルのレンダリング性能も改善。`agent.spawn` APIと新しいエージェント状態管理が追加され、マルチエージェントワークフローの構築が一段と柔軟になった。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 2. _ChatGPT Enterprise/EDU が「Codex Cloud」を追加（10/5）_ └ OpenAI が ChatGPT Enterprise・EDU に Codex Cloud を統合。デスクトップ・Web・モバイルいずれからでも利用可能な分離クラウド環境でコーディングタスクを実行でき、チームで再利用可能なワークスペースを共有できる。 :link: <https://releasebot.io/updates/openai|releasebot.io/updates/openai> 3. _The AI Landscape: October 2026 — 10月初旬のAI業界動向総括_ └ AI Central が2026年10月初旬の重要トピックを整理。OpenAI DevDay余波・ホワイトハウスの自発的AI安全合意・各社...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1791241779.505069",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-05_ 1. _Claude Code v2.1.289 リリース — プラグイン安全性・エージェント機能強化_ └ プラグイン・ターミナル・シェルコマンドの安全性に関する複数の問題を修正。大ファイルのレンダリング性能も改善。`agent.spawn` APIと新しいエージェント状態管理が追加され、マルチエージェントワークフローの構築が一段と柔軟になった。 :link: <https://releasebot.io/updates/anthropic/claude-code|releasebot.io/updates/anthropic/claude-code> 2. _ChatGPT Enterprise/EDU が「Codex Cloud」を追加（10/5）_ └ OpenAI が ChatGPT Enterprise・EDU に Codex Cloud を統合。デスクトップ・Web・モバイルいずれからでも利用可能な分離クラウド環境でコーディングタスクを実行でき、チームで再利用可能なワークスペースを共有できる。 :link: <https://releasebot.io/updates/openai|releasebot.io/updates/openai> 3. _The AI Landscape: October 2026 — 10月初旬のAI業界動向総括_ └ AI Central が2026年10月初旬の重要トピックを整理。OpenAI DevDay余波・ホワイトハウスの自発的AI安全合意・各社エージェントツール競争の最前線などを横断的に解説している。 :link: <https://substack.aicentral.blog/p/the-ai-landscape-october-2026|substack.aicentral.blog/p/the-ai-landscape-october-2026> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1791243495.701409",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:Rio",
+      "personName": "Rio",
+      "slackIds": [
+        "U0BK4336Q2X"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1791243495.701409",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1791243495.701409",
+      "timestamp": "2026-10-05T23:38:15.701Z",
+      "detailBullets": [
+        "<!channel> :loudspeaker: *AI駆動開発 勉強会｜第3回 開催のお知らせ* AI駆動開発 勉強会、*いよいよ第3回です！* 今回も *<@U0A7VHB07J4> さん*にご登壇いただきます:clap: 第3回のテーマは、 *「個人の知見を“組織”の資産に」* *〜成長するAI駆動開発基盤を作る技術と思想〜* 第1回では*AI駆動開発のマインドセット、* 第2回では*現場でのAI駆動開発*として、個人のAI知見をチームで再利用していく考え方について学んできました。 今回はさらにその先へ進み、 *個人やチームに蓄積されたAI活用の知見を、どう“組織の資産”として残し、* *成長させていくのか*をテーマにお話しいただく予定です:bulb: ＝＝＝＝＝＝＝＝ :date: 詳細 *■日時* 10月20日（火）20:00〜 *■形式* オンライン Google Meet :<https://meet.google.com/ear-ondv-dfd|meet.google.com/ear-ondv-dfd> ＝＝＝＝＝＝＝＝ 第1回・第2回に参加された方はもちろん、*第..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1791243495.701409",
+          "text": "<!channel> :loudspeaker: *AI駆動開発 勉強会｜第3回 開催のお知らせ* AI駆動開発 勉強会、*いよいよ第3回です！* 今回も *<@U0A7VHB07J4> さん*にご登壇いただきます:clap: 第3回のテーマは、 *「個人の知見を“組織”の資産に」* *〜成長するAI駆動開発基盤を作る技術と思想〜* 第1回では*AI駆動開発のマインドセット、* 第2回では*現場でのAI駆動開発*として、個人のAI知見をチームで再利用していく考え方について学んできました。 今回はさらにその先へ進み、 *個人やチームに蓄積されたAI活用の知見を、どう“組織の資産”として残し、* *成長させていくのか*をテーマにお話しいただく予定です:bulb: ＝＝＝＝＝＝＝＝ :date: 詳細 *■日時* 10月20日（火）20:00〜 *■形式* オンライン Google Meet :<https://meet.google.com/ear-ondv-dfd|meet.google.com/ear-ondv-dfd> ＝＝＝＝＝＝＝＝ 第1回・第2回に参加された方はもちろん、*第3回からの参加も大歓迎です！* AIを「個人で使う」から「チームで活用する」、そして「組織の資産として育てていく」へ。 AI駆動開発を組織としてどう発展させていくのか気になる方は、ぜひご参加ください:sparkles: よろしくお願いいたします！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1791243495.701409",
+          "threadTs": null,
+          "authorName": "Rio",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> :loudspeaker: *AI駆動開発 勉強会｜第3回 開催のお知らせ* AI駆動開発 勉強会、*いよいよ第3回です！* 今回も *<@U0A7VHB07J4> さん*にご登壇いただきます:clap: 第3回のテーマは、 *「個人の知見を“組織”の資産に」* *〜成長するAI駆動開発基盤を作る技術と思想〜* 第1回では*AI駆動開発のマインドセット、* 第2回では*現場でのAI駆動開発*として、個人のAI知見をチームで再利用していく考え方について学んできました。 今回はさらにその先へ進み、 *個人やチームに蓄積されたAI活用の知見を、どう“組織の資産”として残し、* *成長させていくのか*をテーマにお話しいただく予定です:bulb: ＝＝＝＝＝＝＝＝ :date: 詳細 *■日時* 10月20日（火）20:00〜 *■形式* オンライン Google Meet :<https://meet.google.com/ear-ondv-dfd|meet.google.com/ear-ondv-dfd> ＝＝＝＝＝＝＝＝ 第1回・第2回に参加された方はもちろん、*第3回からの参加も大歓迎です！* AIを「個人で使う」から「チームで活用する」、そして「組織の資産として育てていく」へ。 AI駆動開発を組織としてどう発展させていくのか気になる方は、ぜひご参加ください:sparkles: よろしくお願いいたします！\nall-saiteki\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1791262596.186759",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:竹下晃之介",
+      "personName": "竹下晃之介",
+      "slackIds": [
+        "U0C7DU8H1S4"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1791262596.186759",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1791262596.186759",
+      "timestamp": "2026-10-06T04:56:36.186Z",
+      "detailBullets": [
+        "初めまして！ 12月入社予定の竹下 晃之介（たけした こうのすけ）と申します。 :white_small_square:出身地 静岡県出身、静岡県在住 :white_small_square:経歴 新卒からこれまでの約3年間、インフラ領域にて主にオンプレミス環境におけるシステムの移行作業、SVNを用いた構成管理、SQLによるデータベース操作などの実務などを行ってきました。 :white_small_square:趣味 車でドライブをしたりたまにサーキット走行などをして楽しんでおります。 車はルノーのルーテシア3rsに乗っていて最近ではドライブの際に写真撮影するのにハマっています！ :white_small_square:ひとこと これまでのインフラ経験を土台にしつつ、クラウド技術やWeb/アプリ領域などへも積極的に挑戦し エンジニアとしての幅を広げていきたいと考えております。 １日でも早く貢献できるよう努めてまいりますので、どうぞよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1791262596.186759",
+          "text": "初めまして！ 12月入社予定の竹下 晃之介（たけした こうのすけ）と申します。 :white_small_square:出身地 静岡県出身、静岡県在住 :white_small_square:経歴 新卒からこれまでの約3年間、インフラ領域にて主にオンプレミス環境におけるシステムの移行作業、SVNを用いた構成管理、SQLによるデータベース操作などの実務などを行ってきました。 :white_small_square:趣味 車でドライブをしたりたまにサーキット走行などをして楽しんでおります。 車はルノーのルーテシア3rsに乗っていて最近ではドライブの際に写真撮影するのにハマっています！ :white_small_square:ひとこと これまでのインフラ経験を土台にしつつ、クラウド技術やWeb/アプリ領域などへも積極的に挑戦し エンジニアとしての幅を広げていきたいと考えております。 １日でも早く貢献できるよう努めてまいりますので、どうぞよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1791262596.186759",
+          "threadTs": null,
+          "authorName": "竹下晃之介",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして！ 12月入社予定の竹下 晃之介（たけした こうのすけ）と申します。 :white_small_square:出身地 静岡県出身、静岡県在住 :white_small_square:経歴 新卒からこれまでの約3年間、インフラ領域にて主にオンプレミス環境におけるシステムの移行作業、SVNを用いた構成管理、SQLによるデータベース操作などの実務などを行ってきました。 :white_small_square:趣味 車でドライブをしたりたまにサーキット走行などをして楽しんでおります。 車はルノーのルーテシア3rsに乗っていて最近ではドライブの際に写真撮影するのにハマっています！ :white_small_square:ひとこと これまでのインフラ経験を土台にしつつ、クラウド技術やWeb/アプリ領域などへも積極的に挑戦し エンジニアとしての幅を広げていきたいと考えております。 １日でも早く貢献できるよう努めてまいりますので、どうぞよろしくお願いいたします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1791265336.639529",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:洲鎌隆希",
+      "personName": "洲鎌隆希",
+      "slackIds": [
+        "U0C6Z7H6WV8"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1791265336.639529",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1791265336.639529",
+      "timestamp": "2026-10-06T05:42:16.639Z",
+      "detailBullets": [
+        "初めまして！ 2027年1月入社予定の洲鎌 隆希(すがま りゅうき)と申します。 :white_small_square:出身地 沖縄県の宮古島市 :white_small_square:経歴 前職は、サーバー • ITシステムの監視運用業務に約2年携わってきました。 監視や障害対応に加えて、PythonやPower Automateを使った定型業務の自動化も担当していました。 :white_small_square:趣味 体を動かすことが好きで、マリンアクティビティやジム、ランニング、球技など幅広く楽しんでいます。 海外サッカー観戦、バイクに乗るのも好きです。 ゲームも好きで、FPSやサバイバル系のゲームをよくやります。 何か一つでも趣味が合う方は、ぜひ気軽に声をかけてください！ :white_small_square:ひとこと 新しい環境で分からないことも多いですが、一日でも早く戦力になれるよう積極的に吸収していきます。 気軽に声をかけていただけると嬉しいです。 これからどうぞよろしくお願いいたします！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1791265336.639529",
+          "text": "初めまして！ 2027年1月入社予定の洲鎌 隆希(すがま りゅうき)と申します。 :white_small_square:出身地 沖縄県の宮古島市 :white_small_square:経歴 前職は、サーバー • ITシステムの監視運用業務に約2年携わってきました。 監視や障害対応に加えて、PythonやPower Automateを使った定型業務の自動化も担当していました。 :white_small_square:趣味 体を動かすことが好きで、マリンアクティビティやジム、ランニング、球技など幅広く楽しんでいます。 海外サッカー観戦、バイクに乗るのも好きです。 ゲームも好きで、FPSやサバイバル系のゲームをよくやります。 何か一つでも趣味が合う方は、ぜひ気軽に声をかけてください！ :white_small_square:ひとこと 新しい環境で分からないことも多いですが、一日でも早く戦力になれるよう積極的に吸収していきます。 気軽に声をかけていただけると嬉しいです。 これからどうぞよろしくお願いいたします！",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1791265336.639529",
+          "threadTs": null,
+          "authorName": "洲鎌隆希",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして！ 2027年1月入社予定の洲鎌 隆希(すがま りゅうき)と申します。 :white_small_square:出身地 沖縄県の宮古島市 :white_small_square:経歴 前職は、サーバー • ITシステムの監視運用業務に約2年携わってきました。 監視や障害対応に加えて、PythonやPower Automateを使った定型業務の自動化も担当していました。 :white_small_square:趣味 体を動かすことが好きで、マリンアクティビティやジム、ランニング、球技など幅広く楽しんでいます。 海外サッカー観戦、バイクに乗るのも好きです。 ゲームも好きで、FPSやサバイバル系のゲームをよくやります。 何か一つでも趣味が合う方は、ぜひ気軽に声をかけてください！ :white_small_square:ひとこと 新しい環境で分からないことも多いですが、一日でも早く戦力になれるよう積極的に吸収していきます。 気軽に声をかけていただけると嬉しいです。 これからどうぞよろしくお願いいたします！\n自己紹介\nOther"
     }
   ]
 }
