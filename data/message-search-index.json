@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-06T05:45:08.290Z",
+  "generatedAt": "2026-10-07T05:16:34.673Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -106725,6 +106725,282 @@
         }
       ],
       "searchText": "初めまして！ 2027年1月入社予定の洲鎌 隆希(すがま りゅうき)と申します。 :white_small_square:出身地 沖縄県の宮古島市 :white_small_square:経歴 前職は、サーバー • ITシステムの監視運用業務に約2年携わってきました。 監視や障害対応に加えて、PythonやPower Automateを使った定型業務の自動化も担当していました。 :white_small_square:趣味 体を動かすことが好きで、マリンアクティビティやジム、ランニング、球技など幅広く楽しんでいます。 海外サッカー観戦、バイクに乗るのも好きです。 ゲームも好きで、FPSやサバイバル系のゲームをよくやります。 何か一つでも趣味が合う方は、ぜひ気軽に声をかけてください！ :white_small_square:ひとこと 新しい環境で分からないことも多いですが、一日でも早く戦力になれるよう積極的に吸収していきます。 気軽に声をかけていただけると嬉しいです。 これからどうぞよろしくお願いいたします！\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791265871.503229",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:佐藤 裕之",
+      "personName": "佐藤 裕之",
+      "slackIds": [
+        "U0AR74C3YBY"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791265871.503229",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791265871.503229",
+      "timestamp": "2026-10-06T05:51:11.503Z",
+      "detailBullets": [
+        "週末買い物に行った時に、109のガチャコーナーで発見。 北陸出身の人間にしか理解されないやつですw (戸塚さん以外に北陸出身者いるか謎ですが) 福井駅だったかで見た記憶はあるのですがガチャは関東デビューしてたことにびっくりしましたw"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791265871.503229",
+          "text": "週末買い物に行った時に、109のガチャコーナーで発見。 北陸出身の人間にしか理解されないやつですw (戸塚さん以外に北陸出身者いるか謎ですが) 福井駅だったかで見た記憶はあるのですがガチャは関東デビューしてたことにびっくりしましたw",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791265871.503229",
+          "threadTs": "1791265871.503229",
+          "authorName": "佐藤 裕之",
+          "permalink": null
+        }
+      ],
+      "searchText": "週末買い物に行った時に、109のガチャコーナーで発見。 北陸出身の人間にしか理解されないやつですw (戸塚さん以外に北陸出身者いるか謎ですが) 福井駅だったかで見た記憶はあるのですがガチャは関東デビューしてたことにびっくりしましたw\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791266762.647469",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:坂東 潤一郎",
+      "personName": "坂東 潤一郎",
+      "slackIds": [
+        "U0BJGACJ7BK"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791266762.647469",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791266762.647469",
+      "timestamp": "2026-10-06T06:06:02.647Z",
+      "detailBullets": [
+        "実は岡山にも存在するんですね… 学生の頃よく行ってました！ 夏限定のざるラーメンが好きです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791266762.647469",
+          "text": "実は岡山にも存在するんですね… 学生の頃よく行ってました！ 夏限定のざるラーメンが好きです！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791266762.647469",
+          "threadTs": "1791265871.503229",
+          "authorName": "坂東 潤一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "実は岡山にも存在するんですね… 学生の頃よく行ってました！ 夏限定のざるラーメンが好きです！\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1791270441.096359",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1791270441.096359",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1791270441.096359",
+      "timestamp": "2026-10-06T07:07:21.096Z",
+      "detailBullets": [
+        "<!channel> 【AI顧問資料｜2026年9月版の共有】 SaitekiのAI顧問である株式会社Uravationのすぐるさんより、9月のAIニュースとSaiteki向けの推奨アクションをまとめた月次資料をいただきました！ 9月はClaude Opus 5.5／Sonnet 5.5、GPT-6系が登場し、先月までの「既定モデル」の前提が大きく変わっています。モデル選定だけでなく、国内のAI予算・調達ルール、業務SaaSの従量課金、AIエージェントの統制、EUの報告義務まで幅広く整理されています！ まずは、以下のページをご確認ください。 • 3ページ：今月取り組むべき施策の一覧 • 91ページ以降：Saiteki向け推奨アクション ◦ モデルの使い分け ◦ 月額費用の試算 ◦ 新モデルへの移行手順 ◦ STEP 1〜3の実行計画 特に、AI・開発ツールを日常的に利用しているメンバーは確認をお願いします。 巻末には、9月に発生したAI関連の出来事232件と出典も掲載されています。気になるテーマがある方は、情報収集にも活用してください！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1791270441.096359",
+          "text": "<!channel> 【AI顧問資料｜2026年9月版の共有】 SaitekiのAI顧問である株式会社Uravationのすぐるさんより、9月のAIニュースとSaiteki向けの推奨アクションをまとめた月次資料をいただきました！ 9月はClaude Opus 5.5／Sonnet 5.5、GPT-6系が登場し、先月までの「既定モデル」の前提が大きく変わっています。モデル選定だけでなく、国内のAI予算・調達ルール、業務SaaSの従量課金、AIエージェントの統制、EUの報告義務まで幅広く整理されています！ まずは、以下のページをご確認ください。 • 3ページ：今月取り組むべき施策の一覧 • 91ページ以降：Saiteki向け推奨アクション ◦ モデルの使い分け ◦ 月額費用の試算 ◦ 新モデルへの移行手順 ◦ STEP 1〜3の実行計画 特に、AI・開発ツールを日常的に利用しているメンバーは確認をお願いします。 巻末には、9月に発生したAI関連の出来事232件と出典も掲載されています。気になるテーマがある方は、情報収集にも活用してください！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1791270441.096359",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> 【AI顧問資料｜2026年9月版の共有】 SaitekiのAI顧問である株式会社Uravationのすぐるさんより、9月のAIニュースとSaiteki向けの推奨アクションをまとめた月次資料をいただきました！ 9月はClaude Opus 5.5／Sonnet 5.5、GPT-6系が登場し、先月までの「既定モデル」の前提が大きく変わっています。モデル選定だけでなく、国内のAI予算・調達ルール、業務SaaSの従量課金、AIエージェントの統制、EUの報告義務まで幅広く整理されています！ まずは、以下のページをご確認ください。 • 3ページ：今月取り組むべき施策の一覧 • 91ページ以降：Saiteki向け推奨アクション ◦ モデルの使い分け ◦ 月額費用の試算 ◦ 新モデルへの移行手順 ◦ STEP 1〜3の実行計画 特に、AI・開発ツールを日常的に利用しているメンバーは確認をお願いします。 巻末には、9月に発生したAI関連の出来事232件と出典も掲載されています。気になるテーマがある方は、情報収集にも活用してください！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791275833.600859",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791275833.600859",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791275833.600859",
+      "timestamp": "2026-10-06T08:37:13.600Z",
+      "detailBullets": [
+        "止まらないエンジニアのミカタの暴露…本当にこんなことしてるなら絶対に業界から退場して欲しい… <https://x.com/it21592349/status/2107385146299011306?s=46|https://x.com/it21592349/status/2107385146299011306?s=46>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791275833.600859",
+          "text": "止まらないエンジニアのミカタの暴露…本当にこんなことしてるなら絶対に業界から退場して欲しい… <https://x.com/it21592349/status/2107385146299011306?s=46|https://x.com/it21592349/status/2107385146299011306?s=46>",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791275833.600859",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "止まらないエンジニアのミカタの暴露…本当にこんなことしてるなら絶対に業界から退場して欲しい… <https://x.com/it21592349/status/2107385146299011306?s=46|https://x.com/it21592349/status/2107385146299011306?s=46>\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791275931.637419",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791275931.637419",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791275931.637419",
+      "timestamp": "2026-10-06T08:38:51.637Z",
+      "detailBullets": [
+        "8番らーめん！これはコンプリートしたい！笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791275931.637419",
+          "text": "8番らーめん！これはコンプリートしたい！笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791275931.637419",
+          "threadTs": "1791265871.503229",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "8番らーめん！これはコンプリートしたい！笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791278429.786329",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:佐藤 裕之",
+      "personName": "佐藤 裕之",
+      "slackIds": [
+        "U0AR74C3YBY"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791278429.786329",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791278429.786329",
+      "timestamp": "2026-10-06T09:20:29.786Z",
+      "detailBullets": [
+        "<@U0BJGACJ7BK> まさかの関西を飛んで岡山にもお店あったんですね！ ざるラーメン好きとか通ですねw 自分は半チャーハンセットの塩バターラーメンが鉄板でしたw <@U09MGUVJ8BV> 懐かしいメニューが多くて次帰省した時食べたくなりましたw"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791278429.786329",
+          "text": "<@U0BJGACJ7BK> まさかの関西を飛んで岡山にもお店あったんですね！ ざるラーメン好きとか通ですねw 自分は半チャーハンセットの塩バターラーメンが鉄板でしたw <@U09MGUVJ8BV> 懐かしいメニューが多くて次帰省した時食べたくなりましたw",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791278429.786329",
+          "threadTs": "1791265871.503229",
+          "authorName": "佐藤 裕之",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0BJGACJ7BK> まさかの関西を飛んで岡山にもお店あったんですね！ ざるラーメン好きとか通ですねw 自分は半チャーハンセットの塩バターラーメンが鉄板でしたw <@U09MGUVJ8BV> 懐かしいメニューが多くて次帰省した時食べたくなりましたw\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1791328064.292549",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1791328064.292549",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1791328064.292549",
+      "timestamp": "2026-10-06T23:07:44.292Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-06_ 1. _GitHub、エージェントスケール開発向けGitインフラ再構築を発表_ └ 開発者とAIエージェントが1日数百万コミットを並列で行える基盤構築のため、GitHubがGitコアインフラの刷新を進めていることを公式ブログで公開。エージェント主体の開発スタイルが次世代アーキテクチャ転換を牽引していると位置づけており、agent-scaleなソフトウェア開発の実現に向けた取り組みを詳述している。 :link: <https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development|github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development> 2. _ReviewBench：AIコードレビューエージェント..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1791328064.292549",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-06_ 1. _GitHub、エージェントスケール開発向けGitインフラ再構築を発表_ └ 開発者とAIエージェントが1日数百万コミットを並列で行える基盤構築のため、GitHubがGitコアインフラの刷新を進めていることを公式ブログで公開。エージェント主体の開発スタイルが次世代アーキテクチャ転換を牽引していると位置づけており、agent-scaleなソフトウェア開発の実現に向けた取り組みを詳述している。 :link: <https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development|github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development> 2. _ReviewBench：AIコードレビューエージェント評価用オープンベンチマーク公開（GitHub）_ └ GitHubが実際のGitHub PRデータを基にしたコードレビューエージェント向け評価ベンチマーク「ReviewBench」を公開。AIエージェントのコードレビュー品質を業界横断で標準化・計測できるようにすることを目的としており、エージェントの実力を客観評価する指標として注目を集めている。 :link: <https://github.blo...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1791328064.292549",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-06_ 1. _GitHub、エージェントスケール開発向けGitインフラ再構築を発表_ └ 開発者とAIエージェントが1日数百万コミットを並列で行える基盤構築のため、GitHubがGitコアインフラの刷新を進めていることを公式ブログで公開。エージェント主体の開発スタイルが次世代アーキテクチャ転換を牽引していると位置づけており、agent-scaleなソフトウェア開発の実現に向けた取り組みを詳述している。 :link: <https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development|github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development> 2. _ReviewBench：AIコードレビューエージェント評価用オープンベンチマーク公開（GitHub）_ └ GitHubが実際のGitHub PRデータを基にしたコードレビューエージェント向け評価ベンチマーク「ReviewBench」を公開。AIエージェントのコードレビュー品質を業界横断で標準化・計測できるようにすることを目的としており、エージェントの実力を客観評価する指標として注目を集めている。 :link: <https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review|github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review> 3. _Claude Code v2.1.291リリース—セッション回答消失・メモリリーク等の重要バグを修正_ └ クラウドセッションで権限プロンプトへの回答がドロップする回帰バグ、長時間SDKセッションのメモリリーク、フォーク済みエージェントのAPI 400エラー、孤立したtool_use_idによる会話再開エラーなど複数の重要バグを修正。v2.1.291ではさらにRemote Control経由の写真受信問題も解消。 :link: <https://github.com/anthropics/claude-code/releases|github.com/anthropics/claude-code/releases> 4. _GitHub Copilot CL...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791342254.516169",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791342254.516169",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791342254.516169",
+      "timestamp": "2026-10-07T03:04:14.516Z",
+      "detailBullets": [
+        "<@U09UHG24VUZ> さん :tada:Happy Birthday:tada: 先日はお誕生日でしたね！おめでとうございます:raised_hands: かわいいインコちゃんと一緒に、良い一年になりますように:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791342254.516169",
+          "text": "<@U09UHG24VUZ> さん :tada:Happy Birthday:tada: 先日はお誕生日でしたね！おめでとうございます:raised_hands: かわいいインコちゃんと一緒に、良い一年になりますように:sparkles:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791342254.516169",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09UHG24VUZ> さん :tada:Happy Birthday:tada: 先日はお誕生日でしたね！おめでとうございます:raised_hands: かわいいインコちゃんと一緒に、良い一年になりますように:sparkles:\nソーシャル\nSales"
     }
   ]
 }
