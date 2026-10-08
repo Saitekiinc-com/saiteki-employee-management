@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-07T05:16:34.673Z",
+  "generatedAt": "2026-10-08T05:26:09.400Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -106995,12 +106995,82 @@
           "channelId": "C09N28KTKL1",
           "channelName": "ソーシャル",
           "messageTs": "1791342254.516169",
-          "threadTs": null,
+          "threadTs": "1791342254.516169",
           "authorName": "藤井芙美子",
           "permalink": null
         }
       ],
       "searchText": "<@U09UHG24VUZ> さん :tada:Happy Birthday:tada: 先日はお誕生日でしたね！おめでとうございます:raised_hands: かわいいインコちゃんと一緒に、良い一年になりますように:sparkles:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1791367920.212899",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:開米 敦則",
+      "personName": "開米 敦則",
+      "slackIds": [
+        "U09UHG24VUZ",
+        "U0A69LWD1QF"
+      ],
+      "message": "message:primary:C09N28KTKL1:1791367920.212899",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1791367920.212899",
+      "timestamp": "2026-10-07T10:12:00.212Z",
+      "detailBullets": [
+        "<@U0A9EE7HZ3P> ありがとうございます！！ また一つ歳を重ねましたが（笑）、元気なインコたちと一緒に楽しい一年にしたいと思います:hatched_chick: お気遣いいただきありがとうございます。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1791367920.212899",
+          "text": "<@U0A9EE7HZ3P> ありがとうございます！！ また一つ歳を重ねましたが（笑）、元気なインコたちと一緒に楽しい一年にしたいと思います:hatched_chick: お気遣いいただきありがとうございます。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1791367920.212899",
+          "threadTs": "1791342254.516169",
+          "authorName": "開米 敦則",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0A9EE7HZ3P> ありがとうございます！！ また一つ歳を重ねましたが（笑）、元気なインコたちと一緒に楽しい一年にしたいと思います:hatched_chick: お気遣いいただきありがとうございます。\nソーシャル\nQA"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1791414524.673709",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1791414524.673709",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1791414524.673709",
+      "timestamp": "2026-10-07T23:08:44.673Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-07_ 1. _AnthropicがClaude Haiku 5.5を大幅値下げでリリース、GitHub Copilotにも搭載_ └ AnthropicがClaude Haiku 5.5を大幅に安い価格で提供開始。高速・大量処理向けのコンパクトモデルとしてコーディングタスクに最適化。GitHub Copilotでも同日から段階的に展開開始（有料プランに順次追加）。 :link: <https://thenewstack.io/anthropic-claude-haiku-5-5/|thenewstack.io/anthropic-claude-haiku-5-5> 2. _GitHub Copilot、AIによる秘密検出モデルを刷新—/security-reviewがAI Credits課金に移行_ └ GitHubがAIを活用した秘密検出モデルを強化し、プッシュ保護チェックと/security-reviewコマンドがAI Creditsを消費する課金体系へ移行。GHSP・GHASの既存顧客はAIパスワードアラー..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1791414524.673709",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-07_ 1. _AnthropicがClaude Haiku 5.5を大幅値下げでリリース、GitHub Copilotにも搭載_ └ AnthropicがClaude Haiku 5.5を大幅に安い価格で提供開始。高速・大量処理向けのコンパクトモデルとしてコーディングタスクに最適化。GitHub Copilotでも同日から段階的に展開開始（有料プランに順次追加）。 :link: <https://thenewstack.io/anthropic-claude-haiku-5-5/|thenewstack.io/anthropic-claude-haiku-5-5> 2. _GitHub Copilot、AIによる秘密検出モデルを刷新—/security-reviewがAI Credits課金に移行_ └ GitHubがAIを活用した秘密検出モデルを強化し、プッシュ保護チェックと/security-reviewコマンドがAI Creditsを消費する課金体系へ移行。GHSP・GHASの既存顧客はAIパスワードアラートを無償で新モデルに切替。 :link: <https://github.blog/changelog/label/copilot/|github.blog/changelog/label/copilot> 3. _GitHub Copilot CLI v1.0.94—ローカルOllamaモデルの直接選択が可能に_ └ GitHub Copilot CLIの最新版で、ローカルで動作するOllama...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1791414524.673709",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-07_ 1. _AnthropicがClaude Haiku 5.5を大幅値下げでリリース、GitHub Copilotにも搭載_ └ AnthropicがClaude Haiku 5.5を大幅に安い価格で提供開始。高速・大量処理向けのコンパクトモデルとしてコーディングタスクに最適化。GitHub Copilotでも同日から段階的に展開開始（有料プランに順次追加）。 :link: <https://thenewstack.io/anthropic-claude-haiku-5-5/|thenewstack.io/anthropic-claude-haiku-5-5> 2. _GitHub Copilot、AIによる秘密検出モデルを刷新—/security-reviewがAI Credits課金に移行_ └ GitHubがAIを活用した秘密検出モデルを強化し、プッシュ保護チェックと/security-reviewコマンドがAI Creditsを消費する課金体系へ移行。GHSP・GHASの既存顧客はAIパスワードアラートを無償で新モデルに切替。 :link: <https://github.blog/changelog/label/copilot/|github.blog/changelog/label/copilot> 3. _GitHub Copilot CLI v1.0.94—ローカルOllamaモデルの直接選択が可能に_ └ GitHub Copilot CLIの最新版で、ローカルで動作するOllamaのモデルを/modelピッカーから直接検出・選択できるようになった。ツールコールとストリーミングに対応したモデルが対象。オフライン・プライベート環境でのAIコーディング利用が拡大。 :link: <https://github.com/github/copilot-cli/releases|github.com/github/copilot-cli/releases> 4. _Microsoft、GitHub Copilot向けマルチモデルAIオーケストレーター「HydraFusion」を発表_ └ MicrosoftがWindowsイベントでGitHub Copilot向けのマルチモデルオーケストレーションシステム「HydraFusion」を公開。コーディングタスクに応じて最適なモデル・ワークフローを動的に選択する仕組みで、エージェント型コーディングの効率化を狙う。 :link: <https://hothardware.com/news/microsoft-nvidia-windows-surface-rtx-spark-event|hothardware.com/news/mic...\nai駆動開発ネタ\n経営"
     }
   ]
 }

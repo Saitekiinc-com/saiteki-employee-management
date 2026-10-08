@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-10-07T05:16:43.195Z",
+  "generatedAt": "2026-10-08T05:26:12.506Z",
   "channelCount": 15,
-  "totalMessages": 3372,
+  "totalMessages": 3374,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -22861,7 +22861,7 @@ window.SLACK_EXPORT_DATA = {
           "text": "<@U09UHG24VUZ> さん :tada:Happy Birthday:tada: 先日はお誕生日でしたね！おめでとうございます:raised_hands: かわいいインコちゃんと一緒に、良い一年になりますように:sparkles:",
           "rawText": "<@U09UHG24VUZ> さん\n:tada:Happy Birthday:tada:\n先日はお誕生日でしたね！おめでとうございます:raised_hands:\nかわいいインコちゃんと一緒に、良い一年になりますように:sparkles:",
           "messageTs": "1791342254.516169",
-          "threadTs": null,
+          "threadTs": "1791342254.516169",
           "parentUserId": null,
           "subtype": null,
           "date": "2026-10-07",
@@ -22869,9 +22869,29 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1791367920.212899",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09UHG24VUZ",
+          "userName": "開米 敦則",
+          "userRealName": "開米 敦則",
+          "text": "<@U0A9EE7HZ3P> ありがとうございます！！ また一つ歳を重ねましたが（笑）、元気なインコたちと一緒に楽しい一年にしたいと思います:hatched_chick: お気遣いいただきありがとうございます。",
+          "rawText": "<@U0A9EE7HZ3P>\nありがとうございます！！\nまた一つ歳を重ねましたが（笑）、元気なインコたちと一緒に楽しい一年にしたいと思います:hatched_chick:\nお気遣いいただきありがとうございます。",
+          "messageTs": "1791367920.212899",
+          "threadTs": "1791342254.516169",
+          "parentUserId": "U0A9EE7HZ3P",
+          "subtype": null,
+          "date": "2026-10-07",
+          "timestamp": "2026-10-07T10:12:00.212Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 1143,
+      "messageCount": 1144,
       "firstDate": "2025-10-21",
       "lastDate": "2026-10-07"
     },
@@ -60513,11 +60533,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1791414524.673709",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-07_ 1. _AnthropicがClaude Haiku 5.5を大幅値下げでリリース、GitHub Copilotにも搭載_ └ AnthropicがClaude Haiku 5.5を大幅に安い価格で提供開始。高速・大量処理向けのコンパクトモデルとしてコーディングタスクに最適化。GitHub Copilotでも同日から段階的に展開開始（有料プランに順次追加）。 :link: <https://thenewstack.io/anthropic-claude-haiku-5-5/|thenewstack.io/anthropic-claude-haiku-5-5> 2. _GitHub Copilot、AIによる秘密検出モデルを刷新—/security-reviewがAI Credits課金に移行_ └ GitHubがAIを活用した秘密検出モデルを強化し、プッシュ保護チェックと/security-reviewコマンドがAI Creditsを消費する課金体系へ移行。GHSP・GHASの既存顧客はAIパスワードアラートを無償で新モデルに切替。 :link: <https://github.blog/changelog/label/copilot/|github.blog/changelog/label/copilot> 3. _GitHub Copilot CLI v1.0.94—ローカルOllamaモデルの直接選択が可能に_ └ GitHub Copilot CLIの最新版で、ローカルで動作するOllamaのモデルを/modelピッカーから直接検出・選択できるようになった。ツールコールとストリーミングに対応したモデルが対象。オフライン・プライベート環境でのAIコーディング利用が拡大。 :link: <https://github.com/github/copilot-cli/releases|github.com/github/copilot-cli/releases> 4. _Microsoft、GitHub Copilot向けマルチモデルAIオーケストレーター「HydraFusion」を発表_ └ MicrosoftがWindowsイベントでGitHub Copilot向けのマルチモデルオーケストレーションシステム「HydraFusion」を公開。コーディングタスクに応じて最適なモデル・ワークフローを動的に選択する仕組みで、エージェント型コーディングの効率化を狙う。 :link: <https://hothardware.com/news/microsoft-nvidia-windows-surface-rtx-spark-event|hothardware.com/news/microsoft-nvidia-windows-surface-rtx-spark-event> 5. _開発者の90%がAIコーディングエージェントを週次利用—CIが次のボトルネックに_ └ 最新調査でAIコーディングエージェントの活用が急速に拡大し、週次利用率が90%に到達。AIが生成するコード量増加に伴い、CIパイプラインがモデル能力ではなく開発速度の新たな制約要因になりつつあるとの指摘が業界で広がっている。 :link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-october-6-2026|aiagentsdirectory.com/news/ai-agents-news-brief-october-6-2026> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-10-07_\n\n1. _AnthropicがClaude Haiku 5.5を大幅値下げでリリース、GitHub Copilotにも搭載_\n└ AnthropicがClaude Haiku 5.5を大幅に安い価格で提供開始。高速・大量処理向けのコンパクトモデルとしてコーディングタスクに最適化。GitHub Copilotでも同日から段階的に展開開始（有料プランに順次追加）。\n:link: <https://thenewstack.io/anthropic-claude-haiku-5-5/|thenewstack.io/anthropic-claude-haiku-5-5>\n2. _GitHub Copilot、AIによる秘密検出モデルを刷新—/security-reviewがAI Credits課金に移行_\n└ GitHubがAIを活用した秘密検出モデルを強化し、プッシュ保護チェックと/security-reviewコマンドがAI Creditsを消費する課金体系へ移行。GHSP・GHASの既存顧客はAIパスワードアラートを無償で新モデルに切替。\n:link: <https://github.blog/changelog/label/copilot/|github.blog/changelog/label/copilot>\n3. _GitHub Copilot CLI v1.0.94—ローカルOllamaモデルの直接選択が可能に_\n└ GitHub Copilot CLIの最新版で、ローカルで動作するOllamaのモデルを/modelピッカーから直接検出・選択できるようになった。ツールコールとストリーミングに対応したモデルが対象。オフライン・プライベート環境でのAIコーディング利用が拡大。\n:link: <https://github.com/github/copilot-cli/releases|github.com/github/copilot-cli/releases>\n4. _Microsoft、GitHub Copilot向けマルチモデルAIオーケストレーター「HydraFusion」を発表_\n└ MicrosoftがWindowsイベントでGitHub Copilot向けのマルチモデルオーケストレーションシステム「HydraFusion」を公開。コーディングタスクに応じて最適なモデル・ワークフローを動的に選択する仕組みで、エージェント型コーディングの効率化を狙う。\n:link: <https://hothardware.com/news/microsoft-nvidia-windows-surface-rtx-spark-event|hothardware.com/news/microsoft-nvidia-windows-surface-rtx-spark-event>\n5. _開発者の90%がAIコーディングエージェントを週次利用—CIが次のボトルネックに_\n└ 最新調査でAIコーディングエージェントの活用が急速に拡大し、週次利用率が90%に到達。AIが生成するコード量増加に伴い、CIパイプラインがモデル能力ではなく開発速度の新たな制約要因になりつつあるとの指摘が業界で広がっている。\n:link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-october-6-2026|aiagentsdirectory.com/news/ai-agents-news-brief-october-6-2026> *使用して送信されました* Claude",
+          "messageTs": "1791414524.673709",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-07",
+          "timestamp": "2026-10-07T23:08:44.673Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 338,
+      "messageCount": 339,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-10-06"
+      "lastDate": "2026-10-07"
     },
     {
       "id": "C0AARGDBC3V",
