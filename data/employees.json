@@ -3275,5 +3275,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0C6Z7H6WV8"
+  },
+  {
+    "name": "北村隆彦",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-10-09T05:29:49.702Z",
+    "updatedAt": "2026-10-09T05:29:49.702Z",
+    "last_updated": "2026-10-09T05:29:49.702Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0C7SPGQLEQ"
   }
 ]

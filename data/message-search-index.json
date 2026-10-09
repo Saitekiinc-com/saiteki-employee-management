@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-08T05:26:09.400Z",
+  "generatedAt": "2026-10-09T05:29:49.967Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -107071,6 +107071,109 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-07_ 1. _AnthropicがClaude Haiku 5.5を大幅値下げでリリース、GitHub Copilotにも搭載_ └ AnthropicがClaude Haiku 5.5を大幅に安い価格で提供開始。高速・大量処理向けのコンパクトモデルとしてコーディングタスクに最適化。GitHub Copilotでも同日から段階的に展開開始（有料プランに順次追加）。 :link: <https://thenewstack.io/anthropic-claude-haiku-5-5/|thenewstack.io/anthropic-claude-haiku-5-5> 2. _GitHub Copilot、AIによる秘密検出モデルを刷新—/security-reviewがAI Credits課金に移行_ └ GitHubがAIを活用した秘密検出モデルを強化し、プッシュ保護チェックと/security-reviewコマンドがAI Creditsを消費する課金体系へ移行。GHSP・GHASの既存顧客はAIパスワードアラートを無償で新モデルに切替。 :link: <https://github.blog/changelog/label/copilot/|github.blog/changelog/label/copilot> 3. _GitHub Copilot CLI v1.0.94—ローカルOllamaモデルの直接選択が可能に_ └ GitHub Copilot CLIの最新版で、ローカルで動作するOllamaのモデルを/modelピッカーから直接検出・選択できるようになった。ツールコールとストリーミングに対応したモデルが対象。オフライン・プライベート環境でのAIコーディング利用が拡大。 :link: <https://github.com/github/copilot-cli/releases|github.com/github/copilot-cli/releases> 4. _Microsoft、GitHub Copilot向けマルチモデルAIオーケストレーター「HydraFusion」を発表_ └ MicrosoftがWindowsイベントでGitHub Copilot向けのマルチモデルオーケストレーションシステム「HydraFusion」を公開。コーディングタスクに応じて最適なモデル・ワークフローを動的に選択する仕組みで、エージェント型コーディングの効率化を狙う。 :link: <https://hothardware.com/news/microsoft-nvidia-windows-surface-rtx-spark-event|hothardware.com/news/mic...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1791444461.764709",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:北村隆彦",
+      "personName": "北村隆彦",
+      "slackIds": [
+        "U0C7SPGQLEQ"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1791444461.764709",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1791444461.764709",
+      "timestamp": "2026-10-08T07:27:41.764Z",
+      "detailBullets": [
+        "初めまして！ 2026年12月入社予定の北村 隆彦(きたむら たかひこ)と申します。 :white_small_square:出身地 福岡県 福津市 :white_small_square:経歴 インフラ運用を中心に5年ほど、AD管理やWSUS配信、M365運用などを担当してきました。 AWSでのWSUS構築やVMwareでの仮想サーバ作成、YAMAHAルーター設定など、構築まわりも経験しています。 :white_small_square:趣味 インドア・アウトドアの趣味がどちらもあります。 インドアではアニメ鑑賞・ゲームをやっております。 ゲームは自作PCとswitch2でやっておりまして対人や協力ゲームなど色々やっております。 アウトドアでは海釣りと温泉でサウナ活動をしておりまして 温泉は週末仕事終わりに行ったり海釣りは堤防をメインでやっています！ :white_small_square:ひとこと 自分の経歴を活かし現場の業務改善等に貢献しつつスキルアップ出来ればよいと考えております。 これから宜しくお願い致します"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1791444461.764709",
+          "text": "初めまして！ 2026年12月入社予定の北村 隆彦(きたむら たかひこ)と申します。 :white_small_square:出身地 福岡県 福津市 :white_small_square:経歴 インフラ運用を中心に5年ほど、AD管理やWSUS配信、M365運用などを担当してきました。 AWSでのWSUS構築やVMwareでの仮想サーバ作成、YAMAHAルーター設定など、構築まわりも経験しています。 :white_small_square:趣味 インドア・アウトドアの趣味がどちらもあります。 インドアではアニメ鑑賞・ゲームをやっております。 ゲームは自作PCとswitch2でやっておりまして対人や協力ゲームなど色々やっております。 アウトドアでは海釣りと温泉でサウナ活動をしておりまして 温泉は週末仕事終わりに行ったり海釣りは堤防をメインでやっています！ :white_small_square:ひとこと 自分の経歴を活かし現場の業務改善等に貢献しつつスキルアップ出来ればよいと考えております。 これから宜しくお願い致します",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1791444461.764709",
+          "threadTs": null,
+          "authorName": "北村隆彦",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして！ 2026年12月入社予定の北村 隆彦(きたむら たかひこ)と申します。 :white_small_square:出身地 福岡県 福津市 :white_small_square:経歴 インフラ運用を中心に5年ほど、AD管理やWSUS配信、M365運用などを担当してきました。 AWSでのWSUS構築やVMwareでの仮想サーバ作成、YAMAHAルーター設定など、構築まわりも経験しています。 :white_small_square:趣味 インドア・アウトドアの趣味がどちらもあります。 インドアではアニメ鑑賞・ゲームをやっております。 ゲームは自作PCとswitch2でやっておりまして対人や協力ゲームなど色々やっております。 アウトドアでは海釣りと温泉でサウナ活動をしておりまして 温泉は週末仕事終わりに行ったり海釣りは堤防をメインでやっています！ :white_small_square:ひとこと 自分の経歴を活かし現場の業務改善等に貢献しつつスキルアップ出来ればよいと考えております。 これから宜しくお願い致します\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1791457668.312879",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1791457668.312879",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1791457668.312879",
+      "timestamp": "2026-10-08T11:07:48.312Z",
+      "detailBullets": [
+        "<!channel> *☆最近ご入社された皆さん* *☆これからご入社される皆さん* *☆まだ住民税を特別徴収(給与天引き)にしていない皆さん* *住民税普通納税 第3期がやってきます。* まだ住民税を普通納税している人(自分で納付している人)、 前職で特別徴収(給与天引き)していたけど、自宅へ普通納税納付書が届いた人はいらっしゃいませんか？ 住民税の納付書がお手元にある方は、「99_お名前」のチャンネルから総務までご連絡ください！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1791457668.312879",
+          "text": "<!channel> *☆最近ご入社された皆さん* *☆これからご入社される皆さん* *☆まだ住民税を特別徴収(給与天引き)にしていない皆さん* *住民税普通納税 第3期がやってきます。* まだ住民税を普通納税している人(自分で納付している人)、 前職で特別徴収(給与天引き)していたけど、自宅へ普通納税納付書が届いた人はいらっしゃいませんか？ 住民税の納付書がお手元にある方は、「99_お名前」のチャンネルから総務までご連絡ください！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1791457668.312879",
+          "threadTs": null,
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> *☆最近ご入社された皆さん* *☆これからご入社される皆さん* *☆まだ住民税を特別徴収(給与天引き)にしていない皆さん* *住民税普通納税 第3期がやってきます。* まだ住民税を普通納税している人(自分で納付している人)、 前職で特別徴収(給与天引き)していたけど、自宅へ普通納税納付書が届いた人はいらっしゃいませんか？ 住民税の納付書がお手元にある方は、「99_お名前」のチャンネルから総務までご連絡ください！\nall-saiteki\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1791500946.465329",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1791500946.465329",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1791500946.465329",
+      "timestamp": "2026-10-08T23:09:06.465Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-08_ 1. _GitHub Copilot: ローカルサンドボックスが全プラットフォームで一般提供開始_ └ GitHub CopilotのLocal Sandboxing機能がCLI・VS Code・デスクトップアプリで正式GA。AI生成コードを隔離されたサンドボックス環境で安全に実行できるようになり、エンタープライズや高セキュリティ環境での採用が加速しそう。昨日(10/7)リリース。 :link: <https://github.blog/changelog/label/copilot/|github.blog/changelog/label/copilot> 2. _Claude Code: AgentツールにeffortパラメータとPlugin Marketplaceインストールが追加_ └ Claude Code最新チェンジログ(10/6)で、Agentツール呼び出し時にeffort（low/medium/high）を指定しサブエージェントの処理レベルを制御できるように。また`claude plugin..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1791500946.465329",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-08_ 1. _GitHub Copilot: ローカルサンドボックスが全プラットフォームで一般提供開始_ └ GitHub CopilotのLocal Sandboxing機能がCLI・VS Code・デスクトップアプリで正式GA。AI生成コードを隔離されたサンドボックス環境で安全に実行できるようになり、エンタープライズや高セキュリティ環境での採用が加速しそう。昨日(10/7)リリース。 :link: <https://github.blog/changelog/label/copilot/|github.blog/changelog/label/copilot> 2. _Claude Code: AgentツールにeffortパラメータとPlugin Marketplaceインストールが追加_ └ Claude Code最新チェンジログ(10/6)で、Agentツール呼び出し時にeffort（low/medium/high）を指定しサブエージェントの処理レベルを制御できるように。また`claude plugin install --marketplace`フラグでマーケットプレイスから直接プラグインをインストールする機能も追加。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 3. _GitHub Copilot: 10月19日にGPT-5.5系・Gemini 3.7 Flash・G...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1791500946.465329",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-08_ 1. _GitHub Copilot: ローカルサンドボックスが全プラットフォームで一般提供開始_ └ GitHub CopilotのLocal Sandboxing機能がCLI・VS Code・デスクトップアプリで正式GA。AI生成コードを隔離されたサンドボックス環境で安全に実行できるようになり、エンタープライズや高セキュリティ環境での採用が加速しそう。昨日(10/7)リリース。 :link: <https://github.blog/changelog/label/copilot/|github.blog/changelog/label/copilot> 2. _Claude Code: AgentツールにeffortパラメータとPlugin Marketplaceインストールが追加_ └ Claude Code最新チェンジログ(10/6)で、Agentツール呼び出し時にeffort（low/medium/high）を指定しサブエージェントの処理レベルを制御できるように。また`claude plugin install --marketplace`フラグでマーケットプレイスから直接プラグインをインストールする機能も追加。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 3. _GitHub Copilot: 10月19日にGPT-5.5系・Gemini 3.7 Flash・Grok 4.5を廃止、新世代モデルへ移行_ └ GitHubが10/19にGPT-5.5、GPT-5.4、GPT-5.4 mini、GPT-5 mini、Gemini 3.7 Flash、Grok 4.5を全Copilot体験から削除。推奨移行先はGPT-5.6 Sol/Luna、Gemini 3.8 Flash、Grok 4.6。CI/CDパイプラインでモデルを明示指定している場合は来週までに対応が必要。 :link: <https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/|github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october> *使用して送信されました* Claude\nai駆動開発ネタ\n経営"
     }
   ]
 }

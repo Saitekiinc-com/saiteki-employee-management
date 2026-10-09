@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-10-08T05:26:12.506Z",
+  "generatedAt": "2026-10-09T05:29:53.943Z",
   "channelCount": 15,
-  "totalMessages": 3374,
+  "totalMessages": 3377,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -45891,11 +45891,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1791444461.764709",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0C7SPGQLEQ",
+          "userName": "北村隆彦",
+          "userRealName": "北村隆彦",
+          "text": "初めまして！ 2026年12月入社予定の北村 隆彦(きたむら たかひこ)と申します。 :white_small_square:出身地 福岡県 福津市 :white_small_square:経歴 インフラ運用を中心に5年ほど、AD管理やWSUS配信、M365運用などを担当してきました。 AWSでのWSUS構築やVMwareでの仮想サーバ作成、YAMAHAルーター設定など、構築まわりも経験しています。 :white_small_square:趣味 インドア・アウトドアの趣味がどちらもあります。 インドアではアニメ鑑賞・ゲームをやっております。 ゲームは自作PCとswitch2でやっておりまして対人や協力ゲームなど色々やっております。 アウトドアでは海釣りと温泉でサウナ活動をしておりまして 温泉は週末仕事終わりに行ったり海釣りは堤防をメインでやっています！ :white_small_square:ひとこと 自分の経歴を活かし現場の業務改善等に貢献しつつスキルアップ出来ればよいと考えております。 これから宜しくお願い致します",
+          "rawText": "初めまして！\n2026年12月入社予定の北村 隆彦(きたむら たかひこ)と申します。\n\n:white_small_square:出身地\n福岡県 福津市\n\n:white_small_square:経歴\nインフラ運用を中心に5年ほど、AD管理やWSUS配信、M365運用などを担当してきました。\nAWSでのWSUS構築やVMwareでの仮想サーバ作成、YAMAHAルーター設定など、構築まわりも経験しています。\n\n:white_small_square:趣味\nインドア・アウトドアの趣味がどちらもあります。\nインドアではアニメ鑑賞・ゲームをやっております。\nゲームは自作PCとswitch2でやっておりまして対人や協力ゲームなど色々やっております。\nアウトドアでは海釣りと温泉でサウナ活動をしておりまして\n温泉は週末仕事終わりに行ったり海釣りは堤防をメインでやっています！\n\n:white_small_square:ひとこと\n自分の経歴を活かし現場の業務改善等に貢献しつつスキルアップ出来ればよいと考えております。\nこれから宜しくお願い致します",
+          "messageTs": "1791444461.764709",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-08",
+          "timestamp": "2026-10-08T07:27:41.764Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 498,
+      "messageCount": 499,
       "firstDate": "2025-11-02",
-      "lastDate": "2026-10-06"
+      "lastDate": "2026-10-08"
     },
     {
       "id": "C09MKT8QKAR",
@@ -53762,11 +53782,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1791457668.312879",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0A9EE7HZ3P",
+          "userName": "藤井芙美子",
+          "userRealName": "藤井芙美子",
+          "text": "<!channel> *☆最近ご入社された皆さん* *☆これからご入社される皆さん* *☆まだ住民税を特別徴収(給与天引き)にしていない皆さん* *住民税普通納税 第3期がやってきます。* まだ住民税を普通納税している人(自分で納付している人)、 前職で特別徴収(給与天引き)していたけど、自宅へ普通納税納付書が届いた人はいらっしゃいませんか？ 住民税の納付書がお手元にある方は、「99_お名前」のチャンネルから総務までご連絡ください！",
+          "rawText": "<!channel>\n*☆最近ご入社された皆さん*\n*☆これからご入社される皆さん*\n*☆まだ住民税を特別徴収(給与天引き)にしていない皆さん*\n\n*住民税普通納税 第3期がやってきます。*\nまだ住民税を普通納税している人(自分で納付している人)、\n前職で特別徴収(給与天引き)していたけど、自宅へ普通納税納付書が届いた人はいらっしゃいませんか？\n\n住民税の納付書がお手元にある方は、「99_お名前」のチャンネルから総務までご連絡ください！",
+          "messageTs": "1791457668.312879",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-08",
+          "timestamp": "2026-10-08T11:07:48.312Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 393,
+      "messageCount": 394,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-10-06"
+      "lastDate": "2026-10-08"
     },
     {
       "id": "C09QXV3F8G0",
@@ -60553,11 +60593,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1791500946.465329",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-08_ 1. _GitHub Copilot: ローカルサンドボックスが全プラットフォームで一般提供開始_ └ GitHub CopilotのLocal Sandboxing機能がCLI・VS Code・デスクトップアプリで正式GA。AI生成コードを隔離されたサンドボックス環境で安全に実行できるようになり、エンタープライズや高セキュリティ環境での採用が加速しそう。昨日(10/7)リリース。 :link: <https://github.blog/changelog/label/copilot/|github.blog/changelog/label/copilot> 2. _Claude Code: AgentツールにeffortパラメータとPlugin Marketplaceインストールが追加_ └ Claude Code最新チェンジログ(10/6)で、Agentツール呼び出し時にeffort（low/medium/high）を指定しサブエージェントの処理レベルを制御できるように。また`claude plugin install --marketplace`フラグでマーケットプレイスから直接プラグインをインストールする機能も追加。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 3. _GitHub Copilot: 10月19日にGPT-5.5系・Gemini 3.7 Flash・Grok 4.5を廃止、新世代モデルへ移行_ └ GitHubが10/19にGPT-5.5、GPT-5.4、GPT-5.4 mini、GPT-5 mini、Gemini 3.7 Flash、Grok 4.5を全Copilot体験から削除。推奨移行先はGPT-5.6 Sol/Luna、Gemini 3.8 Flash、Grok 4.6。CI/CDパイプラインでモデルを明示指定している場合は来週までに対応が必要。 :link: <https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/|github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-10-08_\n\n1. _GitHub Copilot: ローカルサンドボックスが全プラットフォームで一般提供開始_\n└ GitHub CopilotのLocal Sandboxing機能がCLI・VS Code・デスクトップアプリで正式GA。AI生成コードを隔離されたサンドボックス環境で安全に実行できるようになり、エンタープライズや高セキュリティ環境での採用が加速しそう。昨日(10/7)リリース。\n:link: <https://github.blog/changelog/label/copilot/|github.blog/changelog/label/copilot>\n2. _Claude Code: AgentツールにeffortパラメータとPlugin Marketplaceインストールが追加_\n└ Claude Code最新チェンジログ(10/6)で、Agentツール呼び出し時にeffort（low/medium/high）を指定しサブエージェントの処理レベルを制御できるように。また`claude plugin install --marketplace`フラグでマーケットプレイスから直接プラグインをインストールする機能も追加。\n:link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog>\n3. _GitHub Copilot: 10月19日にGPT-5.5系・Gemini 3.7 Flash・Grok 4.5を廃止、新世代モデルへ移行_\n└ GitHubが10/19にGPT-5.5、GPT-5.4、GPT-5.4 mini、GPT-5 mini、Gemini 3.7 Flash、Grok 4.5を全Copilot体験から削除。推奨移行先はGPT-5.6 Sol/Luna、Gemini 3.8 Flash、Grok 4.6。CI/CDパイプラインでモデルを明示指定している場合は来週までに対応が必要。\n:link: <https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/|github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october> *使用して送信されました* Claude",
+          "messageTs": "1791500946.465329",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-08",
+          "timestamp": "2026-10-08T23:09:06.465Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 339,
+      "messageCount": 340,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-10-07"
+      "lastDate": "2026-10-08"
     },
     {
       "id": "C0AARGDBC3V",
