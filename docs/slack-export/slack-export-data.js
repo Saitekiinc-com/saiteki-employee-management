@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-10-09T05:29:53.943Z",
+  "generatedAt": "2026-10-10T05:14:04.533Z",
   "channelCount": 15,
-  "totalMessages": 3377,
+  "totalMessages": 3382,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -53802,11 +53802,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1791606027.380499",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.10.10）* を共有します。 今週のテーマは *「祝・100名体制到達！全員への感謝＆SIerとしての対外リリース配信とAI投資の加速」* です。 会社としてひとつの大きな歴史的節目を迎えました！今週のメッセージをお届けします！ • *【祝・100名体制到達！〜半年で10名から100名へ。全員のおかげ様〜】* 入社予定者・業務委託・フリーランスの方を含め、ついに「100名体制」に到達！今年4月時点の10名から、半年間で社員は85名へ急拡大しました。参画を決めてくれた一人ひとりのエンジニア、そして徳田さん、深尾さん、藤井さん、貴志さん、春山さん、三本木さんをはじめ組織を支えてくれた本社メンバー全員に、心から感謝します！11月からは営業事務・総務法務も入社し、名実ともに立派な100名企業へ進化します。 • *【対外プレスリリース配信！SES軸×受託・自社サービスを展開する「SIer」へ】* 100名突破を機に対外リリースを配信！「100名体制到達」に加え、QAサービス・セキュリティサービス・HPサービス等の展開を正式発表します（この3連休で準備して共有します！）。一人ひとりの経験が集まったからこそ、SESを軸としながら受託や自社サービスを展開できるSIerへと進化できました。 • *【エンジニアの需給バランスの変化と、AI活用投資の「一段の加速」】* エンジニアの需給バランスや求められる像が緩やかに変化する今、変化に順応できる会社だけが生き残ります。SaitekiはAI活用への投資をさらに一段と強め、全員が時代の先頭で市場価値を高められる環境を徹底整備していきます！ 100名の大台を超え、全員で創り上げた最高の軌跡と、次なるステージへの躍進を感じられる内容です。ぜひ週末にチェックしてみてください！ ▼ Letter of T | 今週の記録（2026.10.10） <https://app.notion.com/p/Letter-of-T-2026-10-10-3f5dfb42679c8078861cd2256ad9d47b|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！",
+          "rawText": "<!channel>\nみなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.10.10）* を共有します。\n\n今週のテーマは\n*「祝・100名体制到達！全員への感謝＆SIerとしての対外リリース配信とAI投資の加速」* です。\n\n会社としてひとつの大きな歴史的節目を迎えました！今週のメッセージをお届けします！\n\n• *【祝・100名体制到達！〜半年で10名から100名へ。全員のおかげ様〜】*\n入社予定者・業務委託・フリーランスの方を含め、ついに「100名体制」に到達！今年4月時点の10名から、半年間で社員は85名へ急拡大しました。参画を決めてくれた一人ひとりのエンジニア、そして徳田さん、深尾さん、藤井さん、貴志さん、春山さん、三本木さんをはじめ組織を支えてくれた本社メンバー全員に、心から感謝します！11月からは営業事務・総務法務も入社し、名実ともに立派な100名企業へ進化します。\n\n• *【対外プレスリリース配信！SES軸×受託・自社サービスを展開する「SIer」へ】*\n100名突破を機に対外リリースを配信！「100名体制到達」に加え、QAサービス・セキュリティサービス・HPサービス等の展開を正式発表します（この3連休で準備して共有します！）。一人ひとりの経験が集まったからこそ、SESを軸としながら受託や自社サービスを展開できるSIerへと進化できました。\n\n• *【エンジニアの需給バランスの変化と、AI活用投資の「一段の加速」】*\nエンジニアの需給バランスや求められる像が緩やかに変化する今、変化に順応できる会社だけが生き残ります。SaitekiはAI活用への投資をさらに一段と強め、全員が時代の先頭で市場価値を高められる環境を徹底整備していきます！\n\n100名の大台を超え、全員で創り上げた最高の軌跡と、次なるステージへの躍進を感じられる内容です。ぜひ週末にチェックしてみてください！\n\n▼ Letter of T | 今週の記録（2026.10.10）\n<https://app.notion.com/p/Letter-of-T-2026-10-10-3f5dfb42679c8078861cd2256ad9d47b|app.notion.com/p/Letter-of-T-…>\n\n今週も、最高のパフォーマンスをありがとうございました！！",
+          "messageTs": "1791606027.380499",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-10",
+          "timestamp": "2026-10-10T04:20:27.380Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 394,
+      "messageCount": 395,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-10-08"
+      "lastDate": "2026-10-10"
     },
     {
       "id": "C09QXV3F8G0",
@@ -60613,11 +60633,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1791587253.565669",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-09_ 1. _HarnessがAugment Codeの資産を買収—AIコーディングエージェントをCI/CDに統合_ └ HarnessがAugment Codeの資産を取得し、AIコーディングエージェント機能を自社のソフトウェアデリバリープラットフォームへ統合すると発表。AIによる設計〜デプロイまでのエンドツーエンド自動化が一段と加速する動き。 :link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-october-9-2026|aiagentsdirectory.com/news/ai-agents-news-brief-october-9-2026> 2. _GitHub CopilotのランタイムをAI支援でTypeScript→Rustへ刷新—14.5週間で完了_ └ GitHubがCopilot CLI・アプリ・SDKのバックエンドランタイムをTypeScriptからRustへ移行。AI支援開発を活用し約14.5週間で完了したと発表。「AI駆動開発でAI基盤を作る」という実践例として注目。 :link: <https://infoq.com/news/2026/10/github-copilot-rust-migration|infoq.com/news/2026/10/github-copilot-rust-migration> 3. _OutSystems「Agent Experience」が正式GA—Claude Code・Cursor・Codex等を企業向けに統制管理_ └ OutSystemsがエンタープライズ向けAgenticシステムプラットフォーム「Agent Experience」を正式公開。Claude Code、Cursor、OpenAI Codex、Kiroなど外部コーディングエージェントを一元管理・ガバナンスできる。大企業でのAIコーディング導入を後押しする基盤に。 :link: <https://manilatimes.net/2026/10/08/tmt-newswire/pr-newswire/outsystems-agent-experience-is-now-generally-available-bringing-governed-ai-development-to-any-coding-agent/2441405|manilatimes.net/2026/…/2441405> 4. _DeepKeep「AI Lens」—CISOがコーディングエージェントの動作を可視化・統制_ └ DeepKeepがセキュリティ責任者（CISO）向けに、AIコーディングエージェントの挙動をリアルタイム可視化・制御できるツール「AI Lens」を発表。コーディングエージェントの本番環境普及に伴うセキュリティガバナンスニーズへの対応製品。 :link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-october-9-2026|aiagentsdirectory.com/news/ai-agents-news-brief-october-9-2026> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-10-09_\n\n1. _HarnessがAugment Codeの資産を買収—AIコーディングエージェントをCI/CDに統合_\n└ HarnessがAugment Codeの資産を取得し、AIコーディングエージェント機能を自社のソフトウェアデリバリープラットフォームへ統合すると発表。AIによる設計〜デプロイまでのエンドツーエンド自動化が一段と加速する動き。\n:link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-october-9-2026|aiagentsdirectory.com/news/ai-agents-news-brief-october-9-2026>\n2. _GitHub CopilotのランタイムをAI支援でTypeScript→Rustへ刷新—14.5週間で完了_\n└ GitHubがCopilot CLI・アプリ・SDKのバックエンドランタイムをTypeScriptからRustへ移行。AI支援開発を活用し約14.5週間で完了したと発表。「AI駆動開発でAI基盤を作る」という実践例として注目。\n:link: <https://infoq.com/news/2026/10/github-copilot-rust-migration|infoq.com/news/2026/10/github-copilot-rust-migration>\n3. _OutSystems「Agent Experience」が正式GA—Claude Code・Cursor・Codex等を企業向けに統制管理_\n└ OutSystemsがエンタープライズ向けAgenticシステムプラットフォーム「Agent Experience」を正式公開。Claude Code、Cursor、OpenAI Codex、Kiroなど外部コーディングエージェントを一元管理・ガバナンスできる。大企業でのAIコーディング導入を後押しする基盤に。\n:link: <https://manilatimes.net/2026/10/08/tmt-newswire/pr-newswire/outsystems-agent-experience-is-now-generally-available-bringing-governed-ai-development-to-any-coding-agent/2441405|manilatimes.net/2026/…/2441405>\n4. _DeepKeep「AI Lens」—CISOがコーディングエージェントの動作を可視化・統制_\n└ DeepKeepがセキュリティ責任者（CISO）向けに、AIコーディングエージェントの挙動をリアルタイム可視化・制御できるツール「AI Lens」を発表。コーディングエージェントの本番環境普及に伴うセキュリティガバナンスニーズへの対応製品。\n:link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-october-9-2026|aiagentsdirectory.com/news/ai-agents-news-brief-october-9-2026> *使用して送信されました* Claude",
+          "messageTs": "1791587253.565669",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-09",
+          "timestamp": "2026-10-09T23:07:33.565Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 340,
+      "messageCount": 341,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-10-08"
+      "lastDate": "2026-10-09"
     },
     {
       "id": "C0AARGDBC3V",
@@ -64250,11 +64290,71 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q1KNL2P8:1791599131.168919",
+          "workspace": "primary",
+          "channelId": "C09Q1KNL2P8",
+          "channelName": "オススメ本",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "<!channel> 「プロフェッショナル AI駆動開発」、超絶オススメです:bangbang::bangbang: AI活用の原理原則と、開発でどう応用するかという実戦部分を分かりやすく繋いだ、名著です。 添付画像の目次をご覧ください。 取り上げられているテーマが極めて実戦的だと思います。 日常的に AIを使ってる方は是非読んでみてください:bangbang: この内容で2970円は安すぎます:pleading_face: <https://amzn.asia/d/0iWOpojD|https://amzn.asia/d/0iWOpojD>",
+          "rawText": "<!channel> \n「プロフェッショナル AI駆動開発」、超絶オススメです:bangbang::bangbang:\n\n AI活用の原理原則と、開発でどう応用するかという実戦部分を分かりやすく繋いだ、名著です。\n\n添付画像の目次をご覧ください。\n取り上げられているテーマが極めて実戦的だと思います。\n\n日常的に AIを使ってる方は是非読んでみてください:bangbang:\n\nこの内容で2970円は安すぎます:pleading_face:\n<https://amzn.asia/d/0iWOpojD|https://amzn.asia/d/0iWOpojD> ",
+          "messageTs": "1791599131.168919",
+          "threadTs": "1791599131.168919",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-10",
+          "timestamp": "2026-10-10T02:25:31.168Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09Q1KNL2P8:1791600443.661109",
+          "workspace": "primary",
+          "channelId": "C09Q1KNL2P8",
+          "channelName": "オススメ本",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "<#C0B5FKHTTCK> もぜひご活用ください:bangbang:",
+          "rawText": "<#C0B5FKHTTCK> \nもぜひご活用ください:bangbang:",
+          "messageTs": "1791600443.661109",
+          "threadTs": "1791599131.168919",
+          "parentUserId": "U09MM9KS06S",
+          "subtype": null,
+          "date": "2026-10-10",
+          "timestamp": "2026-10-10T02:47:23.661Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09Q1KNL2P8:1791601794.594229",
+          "workspace": "primary",
+          "channelId": "C09Q1KNL2P8",
+          "channelName": "オススメ本",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "小松田さんの AI駆動開発勉強会と合わせて読むとさらに勉強になります:raised_hands: :white_medium_square:第一回のアーカイブ <https://youtu.be/azKoYl3zz_g|https://youtu.be/azKoYl3zz_g>",
+          "rawText": "小松田さんの AI駆動開発勉強会と合わせて読むとさらに勉強になります:raised_hands:\n\n:white_medium_square:第一回のアーカイブ\n<https://youtu.be/azKoYl3zz_g|https://youtu.be/azKoYl3zz_g> ",
+          "messageTs": "1791601794.594229",
+          "threadTs": "1791599131.168919",
+          "parentUserId": "U09MM9KS06S",
+          "subtype": null,
+          "date": "2026-10-10",
+          "timestamp": "2026-10-10T03:09:54.594Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 72,
+      "messageCount": 75,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-05-17"
+      "lastDate": "2026-10-10"
     },
     {
       "id": "C0B5FKHTTCK",
