@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-10T05:13:58.086Z",
+  "generatedAt": "2026-10-11T05:04:10.701Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -107299,12 +107299,12 @@
       "messageTs": "1791601794.594229",
       "timestamp": "2026-10-10T03:09:54.594Z",
       "detailBullets": [
-        "小松田さんの AI駆動開発勉強会と合わせて読むとさらに勉強になります:raised_hands: :white_medium_square:第一回のアーカイブ <https://youtu.be/azKoYl3zz_g|https://youtu.be/azKoYl3zz_g>"
+        "小松田さんの AI駆動開発勉強会と合わせて読むとさらに勉強になります:raised_hands: :white_medium_square:第一回のアーカイブ <https://youtu.be/azKoYl3zz_g|https://youtu.be/azKoYl3zz_g> :white_medium_square:第二回のアーカイブ Comming soon! :white_medium_square:第三回勉強会はこちらから！ <https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1791243495701409>"
       ],
       "quotes": [
         {
           "messageId": "message:primary:C09Q1KNL2P8:1791601794.594229",
-          "text": "小松田さんの AI駆動開発勉強会と合わせて読むとさらに勉強になります:raised_hands: :white_medium_square:第一回のアーカイブ <https://youtu.be/azKoYl3zz_g|https://youtu.be/azKoYl3zz_g>",
+          "text": "小松田さんの AI駆動開発勉強会と合わせて読むとさらに勉強になります:raised_hands: :white_medium_square:第一回のアーカイブ <https://youtu.be/azKoYl3zz_g|https://youtu.be/azKoYl3zz_g> :white_medium_square:第二回のアーカイブ Comming soon! :white_medium_square:第三回勉強会はこちらから！ <https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1791243495701409>",
           "channelId": "C09Q1KNL2P8",
           "channelName": "オススメ本",
           "messageTs": "1791601794.594229",
@@ -107313,7 +107313,7 @@
           "permalink": null
         }
       ],
-      "searchText": "小松田さんの AI駆動開発勉強会と合わせて読むとさらに勉強になります:raised_hands: :white_medium_square:第一回のアーカイブ <https://youtu.be/azKoYl3zz_g|https://youtu.be/azKoYl3zz_g>\nオススメ本\nEngineer"
+      "searchText": "小松田さんの AI駆動開発勉強会と合わせて読むとさらに勉強になります:raised_hands: :white_medium_square:第一回のアーカイブ <https://youtu.be/azKoYl3zz_g|https://youtu.be/azKoYl3zz_g> :white_medium_square:第二回のアーカイブ Comming soon! :white_medium_square:第三回勉強会はこちらから！ <https://saiteki-hq.slack.com/archives/C09MKT8QKAR/p1791243495701409>\nオススメ本\nEngineer"
     },
     {
       "@id": "search-message:primary:C09MKT8QKAR:1791606027.380499",
@@ -107349,6 +107349,250 @@
         }
       ],
       "searchText": "<!channel> みなさん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.10.10）* を共有します。 今週のテーマは *「祝・100名体制到達！全員への感謝＆SIerとしての対外リリース配信とAI投資の加速」* です。 会社としてひとつの大きな歴史的節目を迎えました！今週のメッセージをお届けします！ • *【祝・100名体制到達！〜半年で10名から100名へ。全員のおかげ様〜】* 入社予定者・業務委託・フリーランスの方を含め、ついに「100名体制」に到達！今年4月時点の10名から、半年間で社員は85名へ急拡大しました。参画を決めてくれた一人ひとりのエンジニア、そして徳田さん、深尾さん、藤井さん、貴志さん、春山さん、三本木さんをはじめ組織を支えてくれた本社メンバー全員に、心から感謝します！11月からは営業事務・総務法務も入社し、名実ともに立派な100名企業へ進化します。 • *【対外プレスリリース配信！SES軸×受託・自社サービスを展開する「SIer」へ】* 100名突破を機に対外リリースを配信！「100名体制到達」に加え、QAサービス・セキュリティサービス・HPサービス等の展開を正式発表します（この3連休で準備して共有します！）。一人ひとりの経験が集まったからこそ、SESを軸としながら受託や自社サービスを展開できるSIerへと進化できました。 • *【エンジニアの需給バランスの変化と、AI活用投資の「一段の加速」】* エンジニアの需給バランスや求められる像が緩やかに変化する今、変化に順応できる会社だけが生き残ります。SaitekiはAI活用への投資をさらに一段と強め、全員が時代の先頭で市場価値を高められる環境を徹底整備していきます！ 100名の大台を超え、全員で創り上げた最高の軌跡と、次なるステージへの躍進を感じられる内容です。ぜひ週末にチェックしてみてください！ ▼ Letter of T | 今週の記録（2026.10.10） <https://app.notion.com/p/Letter-of-T-2026-10-10-3f5dfb42679c8078861cd2256ad9d47b|app.notion.com/p/Letter-of-T-…> 今週も、最高のパフォーマンスをありがとうございました！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q1KNL2P8:1791632066.134379",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09Q1KNL2P8:1791632066.134379",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: オススメ本",
+      "topicLabel": "オススメ本",
+      "messageTs": "1791632066.134379",
+      "timestamp": "2026-10-10T11:34:26.134Z",
+      "detailBullets": [
+        "<@U09MM9KS06S> 買いました！ナイスシェアです！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q1KNL2P8:1791632066.134379",
+          "text": "<@U09MM9KS06S> 買いました！ナイスシェアです！",
+          "channelId": "C09Q1KNL2P8",
+          "channelName": "オススメ本",
+          "messageTs": "1791632066.134379",
+          "threadTs": "1791599131.168919",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MM9KS06S> 買いました！ナイスシェアです！\nオススメ本\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q1KNL2P8:1791634144.097879",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:田浦裕樹",
+      "personName": "田浦裕樹",
+      "slackIds": [
+        "U09MM9KS06S",
+        "U09822KG6DT"
+      ],
+      "message": "message:primary:C09Q1KNL2P8:1791634144.097879",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: オススメ本",
+      "topicLabel": "オススメ本",
+      "messageTs": "1791634144.097879",
+      "timestamp": "2026-10-10T12:09:04.097Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> さすがです！ 数学科出身で AIを使いこなす戸塚さんには刺さると思います:+1: そして実務にもめちゃくちゃ役立つと思います:bangbang:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q1KNL2P8:1791634144.097879",
+          "text": "<@U09MGUVJ8BV> さすがです！ 数学科出身で AIを使いこなす戸塚さんには刺さると思います:+1: そして実務にもめちゃくちゃ役立つと思います:bangbang:",
+          "channelId": "C09Q1KNL2P8",
+          "channelName": "オススメ本",
+          "messageTs": "1791634144.097879",
+          "threadTs": "1791599131.168919",
+          "authorName": "田浦裕樹",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> さすがです！ 数学科出身で AIを使いこなす戸塚さんには刺さると思います:+1: そして実務にもめちゃくちゃ役立つと思います:bangbang:\nオススメ本\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1791673712.825359",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1791673712.825359",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1791673712.825359",
+      "timestamp": "2026-10-10T23:08:32.825Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-10_ 1. _Claude Code Projects がウェイトリスト全Pro/Maxユーザーへ展開開始_ └ Anthropicが9月17日にベータ開始したClaude Code Projectsが、ウェイトリスト登録済みのProおよびMaxユーザー全員への展開を開始（10/9発表）。並列スレッド・共有メモリ・プロジェクトライブラリ機能が利用可能になる。TeamおよびEnterpriseプランへの展開時期は未公開。 :link: <https://pasqualepillitteri.it/en/news/22116/claude-code-projects-lista-attesa-pro-max-en|pasqualepillitteri.it/en/news/22116/claude-code-projects-lista-attesa-pro-max-en> 2. _GitHub Copilot 週次リリース（10/5週）：マルチアカウント対応・ローカルサンドボックスGA・Claude Haiku 5..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1791673712.825359",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-10_ 1. _Claude Code Projects がウェイトリスト全Pro/Maxユーザーへ展開開始_ └ Anthropicが9月17日にベータ開始したClaude Code Projectsが、ウェイトリスト登録済みのProおよびMaxユーザー全員への展開を開始（10/9発表）。並列スレッド・共有メモリ・プロジェクトライブラリ機能が利用可能になる。TeamおよびEnterpriseプランへの展開時期は未公開。 :link: <https://pasqualepillitteri.it/en/news/22116/claude-code-projects-lista-attesa-pro-max-en|pasqualepillitteri.it/en/news/22116/claude-code-projects-lista-attesa-pro-max-en> 2. _GitHub Copilot 週次リリース（10/5週）：マルチアカウント対応・ローカルサンドボックスGA・Claude Haiku 5.5搭載_ └ 10/9公開のGitHub Copilot週次チェンジログ。CopilotライセンスとリポジトリのGitHubアカウントを分離管理できる機能が新規追加。エージェントのファイル・ネットワーク・認証情報アクセスを制限するローカルサンドボックスが正式GA、Claude Haiku 5.5も全プランで利用可能に。 :link: <https://github.blog/changelog/...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1791673712.825359",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-10_ 1. _Claude Code Projects がウェイトリスト全Pro/Maxユーザーへ展開開始_ └ Anthropicが9月17日にベータ開始したClaude Code Projectsが、ウェイトリスト登録済みのProおよびMaxユーザー全員への展開を開始（10/9発表）。並列スレッド・共有メモリ・プロジェクトライブラリ機能が利用可能になる。TeamおよびEnterpriseプランへの展開時期は未公開。 :link: <https://pasqualepillitteri.it/en/news/22116/claude-code-projects-lista-attesa-pro-max-en|pasqualepillitteri.it/en/news/22116/claude-code-projects-lista-attesa-pro-max-en> 2. _GitHub Copilot 週次リリース（10/5週）：マルチアカウント対応・ローカルサンドボックスGA・Claude Haiku 5.5搭載_ └ 10/9公開のGitHub Copilot週次チェンジログ。CopilotライセンスとリポジトリのGitHubアカウントを分離管理できる機能が新規追加。エージェントのファイル・ネットワーク・認証情報アクセスを制限するローカルサンドボックスが正式GA、Claude Haiku 5.5も全プランで利用可能に。 :link: <https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5|github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5> 3. _AIコーディングエージェントベンチマーク最新版（2026年10月）：Claude Code + Opus 5.5が Terminal-Bench 4.0で首位64.8%_ └ 最新のAIコーディングエージェント評価ランキング（10/6時点）でClaude Code + Opus 5.5が64.8%でトップ。2位はOpenAI Codex + GPT-6.1 Sol（58.2%）、Claude Code + Sonnet 5.5は61.8%。エージェント型コーディングツール間の性能競争が激化している。 :link: <https://www.morphllm.com/best-ai-coding-agents-2026|morphllm.com/best-ai-coding-agents-2026> 4. _【本日10/10】世界...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1791683785.851179",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1791683785.851179",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1791683785.851179",
+      "timestamp": "2026-10-11T01:56:25.851Z",
+      "detailBullets": [
+        "<!channel> :loudspeaker: *第2回 AI駆動開発勉強会のレポートを公開しました！* 今回は、個人でのAI活用から一歩進み、*「AIの知見をチームの仕組みにするには？」*をテーマに開催しました。 勉強会では、主に以下の内容を取り上げています。あらためて<@U0A7VHB07J4> さん、ご登壇いただきありがとうございました！ ・チャット、エージェントIDE、エージェントCLIの違い ・AIエージェントが仕事を進める仕組み ・InstructionsとSkillsを使ったチームでの標準化 ・AIに任せる範囲と、ガードレールの考え方 ・コードレビューや不具合解析など、現場での活用事例 AIを単に便利なツールとして使うだけでなく、個人の知見をチームで再利用し、組織全体の開発力につなげていくためのヒントをまとめています。 当日参加された方は振り返りとして、参加できなかった方はキャッチアップとして、ぜひご覧ください！ ▼第2回 AI駆動開発勉強会レポート <https://note.com/saitekiinc/n/n498d30682416|note.com/saite..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1791683785.851179",
+          "text": "<!channel> :loudspeaker: *第2回 AI駆動開発勉強会のレポートを公開しました！* 今回は、個人でのAI活用から一歩進み、*「AIの知見をチームの仕組みにするには？」*をテーマに開催しました。 勉強会では、主に以下の内容を取り上げています。あらためて<@U0A7VHB07J4> さん、ご登壇いただきありがとうございました！ ・チャット、エージェントIDE、エージェントCLIの違い ・AIエージェントが仕事を進める仕組み ・InstructionsとSkillsを使ったチームでの標準化 ・AIに任せる範囲と、ガードレールの考え方 ・コードレビューや不具合解析など、現場での活用事例 AIを単に便利なツールとして使うだけでなく、個人の知見をチームで再利用し、組織全体の開発力につなげていくためのヒントをまとめています。 当日参加された方は振り返りとして、参加できなかった方はキャッチアップとして、ぜひご覧ください！ ▼第2回 AI駆動開発勉強会レポート <https://note.com/saitekiinc/n/n498d30682416|note.com/saitekiinc/n/…> ▼企画協力 <@U0A7VHB07J4> さん <@U0BK4336Q2X> さん",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1791683785.851179",
+          "threadTs": "1791683785.851179",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> :loudspeaker: *第2回 AI駆動開発勉強会のレポートを公開しました！* 今回は、個人でのAI活用から一歩進み、*「AIの知見をチームの仕組みにするには？」*をテーマに開催しました。 勉強会では、主に以下の内容を取り上げています。あらためて<@U0A7VHB07J4> さん、ご登壇いただきありがとうございました！ ・チャット、エージェントIDE、エージェントCLIの違い ・AIエージェントが仕事を進める仕組み ・InstructionsとSkillsを使ったチームでの標準化 ・AIに任せる範囲と、ガードレールの考え方 ・コードレビューや不具合解析など、現場での活用事例 AIを単に便利なツールとして使うだけでなく、個人の知見をチームで再利用し、組織全体の開発力につなげていくためのヒントをまとめています。 当日参加された方は振り返りとして、参加できなかった方はキャッチアップとして、ぜひご覧ください！ ▼第2回 AI駆動開発勉強会レポート <https://note.com/saitekiinc/n/n498d30682416|note.com/saitekiinc/n/…> ▼企画協力 <@U0A7VHB07J4> さん <@U0BK4336Q2X> さん\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1791683814.441149",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1791683814.441149",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1791683814.441149",
+      "timestamp": "2026-10-11T01:56:54.441Z",
+      "detailBullets": [
+        "動画は月末までに共有予定です！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1791683814.441149",
+          "text": "動画は月末までに共有予定です！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1791683814.441149",
+          "threadTs": "1791683785.851179",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "動画は月末までに共有予定です！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1791684615.808499",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:青木淳一郎",
+      "personName": "青木淳一郎",
+      "slackIds": [
+        "U09NHL5HMRN",
+        "U09881886F7"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1791684615.808499",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1791684615.808499",
+      "timestamp": "2026-10-11T02:10:15.808Z",
+      "detailBullets": [
+        "動画待ち遠しい！！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1791684615.808499",
+          "text": "動画待ち遠しい！！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1791684615.808499",
+          "threadTs": "1791683785.851179",
+          "authorName": "青木淳一郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "動画待ち遠しい！！\nall-saiteki\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1791684803.244549",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:榎本詩織",
+      "personName": "榎本詩織",
+      "slackIds": [
+        "U0AEE7CDAPK"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1791684803.244549",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1791684803.244549",
+      "timestamp": "2026-10-11T02:13:23.244Z",
+      "detailBullets": [
+        "第2回目は残念ながら私用で参加できなかったので、動画のアップ心待ちにしております:ピカチュウ:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1791684803.244549",
+          "text": "第2回目は残念ながら私用で参加できなかったので、動画のアップ心待ちにしております:ピカチュウ:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1791684803.244549",
+          "threadTs": "1791683785.851179",
+          "authorName": "榎本 詩織",
+          "permalink": null
+        }
+      ],
+      "searchText": "第2回目は残念ながら私用で参加できなかったので、動画のアップ心待ちにしております:ピカチュウ:\nall-saiteki\nEngineer"
     }
   ]
 }
