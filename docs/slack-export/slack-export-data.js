@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-10-11T05:04:19.074Z",
+  "generatedAt": "2026-10-12T05:18:23.266Z",
   "channelCount": 15,
-  "totalMessages": 3389,
+  "totalMessages": 3391,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -22889,11 +22889,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1791700442.806729",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MM9KS06S",
+          "userName": "田浦裕樹",
+          "userRealName": "田浦裕樹",
+          "text": "今日は地域の秋祭りだったんですが、抽選会でいい賞が当たりました。笑 しかも、本来は3等 (米) だったのに、手違いでまさかの2等賞に昇格w 写真の品物になりました:laughing: 今週はこの勢いに乗って行きたいところです:pray:",
+          "rawText": "今日は地域の秋祭りだったんですが、抽選会でいい賞が当たりました。笑\n\nしかも、本来は3等 (米) だったのに、手違いでまさかの2等賞に昇格w\n写真の品物になりました:laughing:\n\n今週はこの勢いに乗って行きたいところです:pray:",
+          "messageTs": "1791700442.806729",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-11",
+          "timestamp": "2026-10-11T06:34:02.806Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 1144,
+      "messageCount": 1145,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-10-07"
+      "lastDate": "2026-10-11"
     },
     {
       "id": "C098RT3NRT2",
@@ -60753,11 +60773,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1791760254.206499",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-11_ 1. _Claude Code v2.1.296 リリース—エージェント・ワークフロー・ゲートウェイコントロール追加_ └ 10月10日に Claude Code 最新版 v2.1.296 が登場。エージェント・ワークフロー・ゲートウェイに関する制御機能が新たに追加され、クラウドセッション・VS Code・Slack・Windows での複数バグも修正。直近では Claude Haiku 5.5 がデフォルト Haiku モデルに昇格（v2.1.293）するなど活発なリリースが続いている。 :link: <https://aiweekly.co/ai-news-today/anthropic-news|aiweekly.co/ai-news-today/anthropic-news> 2. _Anthropic、Claude への虐待的行為を 11 月 12 日から禁止—利用ポリシー改訂_ └ Anthropic が 10 月 8 日に利用ポリシーを改訂。「持続的かつ不必要な虐待・残酷な行為」を 11 月 12 日以降禁止とし、Claude が会話を終了できる仕組みが主な執行手段となる。一般的な不満表明・研究目的・ダークな創作テーマは対象外。選挙工作・兵器開発ソフト・非合意の監視に関するルールも同時に強化された。 :link: <https://macrumors.com/2026/10/08/anthropic-user-guideline-update/|macrumors.com/2026/10/08/anthropic-user-guideline-update> 3. _Meta と Microsoft、社内 Claude 使用を大幅削減—自社 AI ツールへの移行加速_ └ The Information 報道（10 月 5 日）によると、Meta の Claude Code 社内ユーザーが約 6 万人から 3 万人に半減。社内 AI「MetaCode」（3 万人超）や開発中の「Muse Code」（6,000 人超）への代替が主因とされる。Microsoft の Anthropic 支出も 3 分の 1 以上削減済み。両社とも Anthropic との取引は継続しており、段階的な移行と見られる。 :link: <https://www.channelinsider.com/ai/news-microsoft-meta-cut-internal-claude-use/|channelinsider.com/ai/news-microsoft-meta-cut-internal-claude-use> 4. _GitHub Copilot for JetBrains に管理者コントロール追加・GPT-5.5 が 10/14 廃止へ_ └ 10 月 11 日付ニュースレターによると、GitHub Copilot for JetBrains でデフォルトエージェントモデルの設定や MCP サーバー自動起動のトグルなど管理者向け機能が追加。また OpenAI は ChatGPT・Codex 上の GPT-5.5 を 10 月 14 日に廃止予定と発表。Satya Nadella がフロンティアモデルに対して「意図的なペーシング（慎重な段階的推進）」を求めるエッセイを発表したことも話題に。 :link: <https://anothercodingblog.com/p/another-daily-ai-newsletter-october-5c0|anothercodingblog.com/p/another-daily-ai-newsletter-october-5c0> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-10-11_\n\n1. _Claude Code v2.1.296 リリース—エージェント・ワークフロー・ゲートウェイコントロール追加_\n└ 10月10日に Claude Code 最新版 v2.1.296 が登場。エージェント・ワークフロー・ゲートウェイに関する制御機能が新たに追加され、クラウドセッション・VS Code・Slack・Windows での複数バグも修正。直近では Claude Haiku 5.5 がデフォルト Haiku モデルに昇格（v2.1.293）するなど活発なリリースが続いている。\n:link: <https://aiweekly.co/ai-news-today/anthropic-news|aiweekly.co/ai-news-today/anthropic-news>\n2. _Anthropic、Claude への虐待的行為を 11 月 12 日から禁止—利用ポリシー改訂_\n└ Anthropic が 10 月 8 日に利用ポリシーを改訂。「持続的かつ不必要な虐待・残酷な行為」を 11 月 12 日以降禁止とし、Claude が会話を終了できる仕組みが主な執行手段となる。一般的な不満表明・研究目的・ダークな創作テーマは対象外。選挙工作・兵器開発ソフト・非合意の監視に関するルールも同時に強化された。\n:link: <https://macrumors.com/2026/10/08/anthropic-user-guideline-update/|macrumors.com/2026/10/08/anthropic-user-guideline-update>\n3. _Meta と Microsoft、社内 Claude 使用を大幅削減—自社 AI ツールへの移行加速_\n└ The Information 報道（10 月 5 日）によると、Meta の Claude Code 社内ユーザーが約 6 万人から 3 万人に半減。社内 AI「MetaCode」（3 万人超）や開発中の「Muse Code」（6,000 人超）への代替が主因とされる。Microsoft の Anthropic 支出も 3 分の 1 以上削減済み。両社とも Anthropic との取引は継続しており、段階的な移行と見られる。\n:link: <https://www.channelinsider.com/ai/news-microsoft-meta-cut-internal-claude-use/|channelinsider.com/ai/news-microsoft-meta-cut-internal-claude-use>\n4. _GitHub Copilot for JetBrains に管理者コントロール追加・GPT-5.5 が 10/14 廃止へ_\n└ 10 月 11 日付ニュースレターによると、GitHub Copilot for JetBrains でデフォルトエージェントモデルの設定や MCP サーバー自動起動のトグルなど管理者向け機能が追加。また OpenAI は ChatGPT・Codex 上の GPT-5.5 を 10 月 14 日に廃止予定と発表。Satya Nadella がフロンティアモデルに対して「意図的なペーシング（慎重な段階的推進）」を求めるエッセイを発表したことも話題に。\n:link: <https://anothercodingblog.com/p/another-daily-ai-newsletter-october-5c0|anothercodingblog.com/p/another-daily-ai-newsletter-october-5c0> *使用して送信されました* Claude",
+          "messageTs": "1791760254.206499",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-11",
+          "timestamp": "2026-10-11T23:10:54.206Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 342,
+      "messageCount": 343,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-10-10"
+      "lastDate": "2026-10-11"
     },
     {
       "id": "C0AARGDBC3V",
