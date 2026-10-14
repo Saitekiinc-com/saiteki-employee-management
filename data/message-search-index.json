@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-13T06:16:50.555Z",
+  "generatedAt": "2026-10-14T04:18:32.203Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -107732,6 +107732,110 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-12_ 1. _REA — ソースコード非公開アプリをAIエージェントでリバースエンジニアリングするOSSツール_ └ Claude Code・Codex・Cursor・Gemini CLIなどの主要コーディングエージェントに対応したオープンソースのリバースエンジニアリングフレームワーク「REA」が公開。CLIとMCPサーバーを備え、バイナリ解析・逆コンパイル・JavaScript/Electronアプリ・.NETなどを対象に、AIエージェントが自律的にソフトウェアの仕組みを解析できる。`npm install --global rea-agents &amp;&amp; rea setup` で導入可能。 :link: <https://techno-edge.net/article/2026/10/12/5574.html|techno-edge.net/article/…/5574.html> 2. _Meta、コーディングエージェント向け新モデル「Muse Wonder」「Muse Wonder Full」を発表_ └ MetaがMuse Code（コーディングエージェント）向けの新フロンティアモデル2種を発表。Muse Wonderはデベロッパー・ビルダー向けにMeta Model APIおよびMuse Code経由で即日提供開始。上位モデルのMuse Wonder Fullは Muse Code サブスクライバー向けに提供。Claude CodeやOpenAI Codexに対抗するMetaのコーディングエコシステムが強化される。 :link: <https://about.fb.com/news/2026/10/introducing-muse-wonder-models|about.fb.com/news/2026/10/introducing-muse-wonder-models> 3. _Microsoft、2027年AI展開向け次世代チップ「Azure Maia 300」を発表_ └ MicrosoftがGitHub CopilotをはじめとするAIコーディングツールの基盤を支える「Azure Maia 300」チップを公開。2027年の本格展開を見据えた設計で、マルチステップエージェントシステムの並列処理に最適化。Maia 200（2026年1月GA）の後継として、Azureデータセンターに展開予定。 :link: <https://channellife.com.au/story/microsoft-unveils-maia-300-for-2027-ai-deployments|channellife.com.au/story/microsoft-unveils...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1791933016.025209",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1791933016.025209",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1791933016.025209",
+      "timestamp": "2026-10-13T23:10:16.025Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-13_ 1. _X、「The X Subscription」発表—CursorをGrok・X Premiumとバンドル、AnthropicやOpenAIモデルは追加課金へ_ └ SpaceX傘下のCursorがXのサブスクに統合（Oct 12発表）。月$8〜のプランでGrok・X Premiumとセット提供開始。一方、AnthropicやOpenAIの競合モデルを使い続けたいユーザーには最初のリクエストからAPIレートが発生する新体系に移行。チームプランは$30/ユーザーに値下げ（旧$40）。AI駆動開発者の選択コストに直結するプライシング変更として注目。 :link: <https://thenewstack.io/x-subscription-cursor-pricing|thenewstack.io/x-subscription-cursor-pricing> 2. _Harvard大学研究: AIコーディングエージェントが普及すると「コードレビュー」が次のボトルネックに_ └ ソフトウェア開発企業700社超..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1791933016.025209",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-13_ 1. _X、「The X Subscription」発表—CursorをGrok・X Premiumとバンドル、AnthropicやOpenAIモデルは追加課金へ_ └ SpaceX傘下のCursorがXのサブスクに統合（Oct 12発表）。月$8〜のプランでGrok・X Premiumとセット提供開始。一方、AnthropicやOpenAIの競合モデルを使い続けたいユーザーには最初のリクエストからAPIレートが発生する新体系に移行。チームプランは$30/ユーザーに値下げ（旧$40）。AI駆動開発者の選択コストに直結するプライシング変更として注目。 :link: <https://thenewstack.io/x-subscription-cursor-pricing|thenewstack.io/x-subscription-cursor-pricing> 2. _Harvard大学研究: AIコーディングエージェントが普及すると「コードレビュー」が次のボトルネックに_ └ ソフトウェア開発企業700社超・70万人以上のデータを分析した結果、AIエージェントによるコード生成速度が急伸する一方、人間によるレビュー・承認が追いつかないことが判明。「速く書けるが速くレビューできない」という課題がAI駆動開発の次の壁として浮き彫りに。 :link: <https://cantabile.alhinc.jp/culture/12428/|cantabile.alhinc.jp/culture/12428> ...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1791933016.025209",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-13_ 1. _X、「The X Subscription」発表—CursorをGrok・X Premiumとバンドル、AnthropicやOpenAIモデルは追加課金へ_ └ SpaceX傘下のCursorがXのサブスクに統合（Oct 12発表）。月$8〜のプランでGrok・X Premiumとセット提供開始。一方、AnthropicやOpenAIの競合モデルを使い続けたいユーザーには最初のリクエストからAPIレートが発生する新体系に移行。チームプランは$30/ユーザーに値下げ（旧$40）。AI駆動開発者の選択コストに直結するプライシング変更として注目。 :link: <https://thenewstack.io/x-subscription-cursor-pricing|thenewstack.io/x-subscription-cursor-pricing> 2. _Harvard大学研究: AIコーディングエージェントが普及すると「コードレビュー」が次のボトルネックに_ └ ソフトウェア開発企業700社超・70万人以上のデータを分析した結果、AIエージェントによるコード生成速度が急伸する一方、人間によるレビュー・承認が追いつかないことが判明。「速く書けるが速くレビューできない」という課題がAI駆動開発の次の壁として浮き彫りに。 :link: <https://cantabile.alhinc.jp/culture/12428/|cantabile.alhinc.jp/culture/12428> 3. _Epic、Unreal Engine 6にClaude Code・Gemini等のAIエージェントをMCP経由で統合—「共同開発者」として組み込みへ_ └ Epic GamesがState of Unreal 2026でUE6開発パイプラインへのAIエージェント統合を発表。Claude Code・Codex・CursorをModel Context Protocol（MCP）経由でエディタと連携し、コードコンパイル・オブジェクト配置・UI構築・テスト実行まで担える「共同開発者」として位置づける。ゲーム開発現場でのAI駆動開発が本格化。 :link: <https://thenextweb.com/news/epic-unreal-engine-6-ai-claude-gemini|thenextweb.com/news/epic-unreal-engine-6-ai-claude-gemini> 4. _OpenAI Dots: DevDay 2026発表の常時稼働エージェント—GPT-6 Astra・専用クラウドPC・4000以上のアプリ連携_ └ OpenAIがDevDay...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1791936861.061219",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:槌西陽菜",
+      "personName": "槌西陽菜",
+      "slackIds": [
+        "U0C789L7RB9"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1791936861.061219",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1791936861.061219",
+      "timestamp": "2026-10-14T00:14:21.061Z",
+      "detailBullets": [
+        "初めまして！ 2026年11月〜12月入社予定の槌西 陽菜(つちに ひな)と申します。 :white_medium_small_square:出身地 千葉県市原市 :white_medium_small_square:経歴 約2年間接客業をしておりましたが、手に職をつけたいと思いIT業界にキャリアチェンジし前職はSES事業にてキッティングや情報システム部にて勤めておりました。 エンジニアとしては未経験になりますので、勉学に励み少しでも早く貢献できる人材を目指してまいります。 :white_medium_small_square:趣味 自然豊かなところにドライブするのが好きです。 連休の際はよく山梨県や長野県、富山県などに行き大きな山がある空間に行くのが好きです。 :white_medium_small_square:ひとこと まだまだ経験が少ないので、自己学習をしみなさんの地位まで追いつけるようにしたいです。 これからよろしくお願いいたします。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1791936861.061219",
+          "text": "初めまして！ 2026年11月〜12月入社予定の槌西 陽菜(つちに ひな)と申します。 :white_medium_small_square:出身地 千葉県市原市 :white_medium_small_square:経歴 約2年間接客業をしておりましたが、手に職をつけたいと思いIT業界にキャリアチェンジし前職はSES事業にてキッティングや情報システム部にて勤めておりました。 エンジニアとしては未経験になりますので、勉学に励み少しでも早く貢献できる人材を目指してまいります。 :white_medium_small_square:趣味 自然豊かなところにドライブするのが好きです。 連休の際はよく山梨県や長野県、富山県などに行き大きな山がある空間に行くのが好きです。 :white_medium_small_square:ひとこと まだまだ経験が少ないので、自己学習をしみなさんの地位まで追いつけるようにしたいです。 これからよろしくお願いいたします。",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1791936861.061219",
+          "threadTs": null,
+          "authorName": "槌西陽菜",
+          "permalink": null
+        }
+      ],
+      "searchText": "初めまして！ 2026年11月〜12月入社予定の槌西 陽菜(つちに ひな)と申します。 :white_medium_small_square:出身地 千葉県市原市 :white_medium_small_square:経歴 約2年間接客業をしておりましたが、手に職をつけたいと思いIT業界にキャリアチェンジし前職はSES事業にてキッティングや情報システム部にて勤めておりました。 エンジニアとしては未経験になりますので、勉学に励み少しでも早く貢献できる人材を目指してまいります。 :white_medium_small_square:趣味 自然豊かなところにドライブするのが好きです。 連休の際はよく山梨県や長野県、富山県などに行き大きな山がある空間に行くのが好きです。 :white_medium_small_square:ひとこと まだまだ経験が少ないので、自己学習をしみなさんの地位まで追いつけるようにしたいです。 これからよろしくお願いいたします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1791938498.591949",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1791938498.591949",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1791938498.591949",
+      "timestamp": "2026-10-14T00:41:38.591Z",
+      "detailBullets": [
+        "今日の日経一面。NTTが1兆円規模の投資をして大阪にAnthropic向けのデータセンター設立を考えているという話。記事によれば両社はコメントを控えていて契約締結ではなく記者にすっぱ抜かれたようです。 これが実現するとすればSIer、SESの市場も一気に変わる可能性があると思います。データの国内保存・国内処理が保証されるとすれば、大企業への導入を大きく後押しする可能性があります。 当社では初期からClaudeを標準とすべくAI顧問のすぐるさんに教材動画を提供いただいていますが、引き続きClaudeを使っておいて良いと思います。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1791938498.591949",
+          "text": "今日の日経一面。NTTが1兆円規模の投資をして大阪にAnthropic向けのデータセンター設立を考えているという話。記事によれば両社はコメントを控えていて契約締結ではなく記者にすっぱ抜かれたようです。 これが実現するとすればSIer、SESの市場も一気に変わる可能性があると思います。データの国内保存・国内処理が保証されるとすれば、大企業への導入を大きく後押しする可能性があります。 当社では初期からClaudeを標準とすべくAI顧問のすぐるさんに教材動画を提供いただいていますが、引き続きClaudeを使っておいて良いと思います。",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1791938498.591949",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "今日の日経一面。NTTが1兆円規模の投資をして大阪にAnthropic向けのデータセンター設立を考えているという話。記事によれば両社はコメントを控えていて契約締結ではなく記者にすっぱ抜かれたようです。 これが実現するとすればSIer、SESの市場も一気に変わる可能性があると思います。データの国内保存・国内処理が保証されるとすれば、大企業への導入を大きく後押しする可能性があります。 当社では初期からClaudeを標準とすべくAI顧問のすぐるさんに教材動画を提供いただいていますが、引き続きClaudeを使っておいて良いと思います。\nai駆動開発ネタ\n経営"
     }
   ]
 }

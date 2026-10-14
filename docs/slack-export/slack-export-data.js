@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-10-13T06:16:53.922Z",
+  "generatedAt": "2026-10-14T04:18:35.970Z",
   "channelCount": 15,
-  "totalMessages": 3393,
+  "totalMessages": 3396,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -45951,11 +45951,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1791936861.061219",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0C789L7RB9",
+          "userName": "槌西陽菜",
+          "userRealName": "槌西陽菜",
+          "text": "初めまして！ 2026年11月〜12月入社予定の槌西 陽菜(つちに ひな)と申します。 :white_medium_small_square:出身地 千葉県市原市 :white_medium_small_square:経歴 約2年間接客業をしておりましたが、手に職をつけたいと思いIT業界にキャリアチェンジし前職はSES事業にてキッティングや情報システム部にて勤めておりました。 エンジニアとしては未経験になりますので、勉学に励み少しでも早く貢献できる人材を目指してまいります。 :white_medium_small_square:趣味 自然豊かなところにドライブするのが好きです。 連休の際はよく山梨県や長野県、富山県などに行き大きな山がある空間に行くのが好きです。 :white_medium_small_square:ひとこと まだまだ経験が少ないので、自己学習をしみなさんの地位まで追いつけるようにしたいです。 これからよろしくお願いいたします。",
+          "rawText": "初めまして！\n2026年11月〜12月入社予定の槌西 陽菜(つちに ひな)と申します。\n\n:white_medium_small_square:出身地\n千葉県市原市\n\n:white_medium_small_square:経歴\n約2年間接客業をしておりましたが、手に職をつけたいと思いIT業界にキャリアチェンジし前職はSES事業にてキッティングや情報システム部にて勤めておりました。\nエンジニアとしては未経験になりますので、勉学に励み少しでも早く貢献できる人材を目指してまいります。\n\n:white_medium_small_square:趣味\n自然豊かなところにドライブするのが好きです。\n連休の際はよく山梨県や長野県、富山県などに行き大きな山がある空間に行くのが好きです。\n\n:white_medium_small_square:ひとこと\nまだまだ経験が少ないので、自己学習をしみなさんの地位まで追いつけるようにしたいです。\nこれからよろしくお願いいたします。",
+          "messageTs": "1791936861.061219",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-14",
+          "timestamp": "2026-10-14T00:14:21.061Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 500,
+      "messageCount": 501,
       "firstDate": "2025-11-02",
-      "lastDate": "2026-10-12"
+      "lastDate": "2026-10-14"
     },
     {
       "id": "C09MKT8QKAR",
@@ -60833,11 +60853,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1791933016.025209",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-13_ 1. _X、「The X Subscription」発表—CursorをGrok・X Premiumとバンドル、AnthropicやOpenAIモデルは追加課金へ_ └ SpaceX傘下のCursorがXのサブスクに統合（Oct 12発表）。月$8〜のプランでGrok・X Premiumとセット提供開始。一方、AnthropicやOpenAIの競合モデルを使い続けたいユーザーには最初のリクエストからAPIレートが発生する新体系に移行。チームプランは$30/ユーザーに値下げ（旧$40）。AI駆動開発者の選択コストに直結するプライシング変更として注目。 :link: <https://thenewstack.io/x-subscription-cursor-pricing|thenewstack.io/x-subscription-cursor-pricing> 2. _Harvard大学研究: AIコーディングエージェントが普及すると「コードレビュー」が次のボトルネックに_ └ ソフトウェア開発企業700社超・70万人以上のデータを分析した結果、AIエージェントによるコード生成速度が急伸する一方、人間によるレビュー・承認が追いつかないことが判明。「速く書けるが速くレビューできない」という課題がAI駆動開発の次の壁として浮き彫りに。 :link: <https://cantabile.alhinc.jp/culture/12428/|cantabile.alhinc.jp/culture/12428> 3. _Epic、Unreal Engine 6にClaude Code・Gemini等のAIエージェントをMCP経由で統合—「共同開発者」として組み込みへ_ └ Epic GamesがState of Unreal 2026でUE6開発パイプラインへのAIエージェント統合を発表。Claude Code・Codex・CursorをModel Context Protocol（MCP）経由でエディタと連携し、コードコンパイル・オブジェクト配置・UI構築・テスト実行まで担える「共同開発者」として位置づける。ゲーム開発現場でのAI駆動開発が本格化。 :link: <https://thenextweb.com/news/epic-unreal-engine-6-ai-claude-gemini|thenextweb.com/news/epic-unreal-engine-6-ai-claude-gemini> 4. _OpenAI Dots: DevDay 2026発表の常時稼働エージェント—GPT-6 Astra・専用クラウドPC・4000以上のアプリ連携_ └ OpenAIがDevDay 2026（9/29）で発表した「Dots」の詳細が注目を集めている。各Dotが専用クラウドコンピューターと独自ブラウザを持ち、目標を共有するだけで24時間自律的に動き続ける設計。Slack/Teams/ChatGPTから呼び出せ、4000以上のアプリと連携可能。月$500の新プランとセット。コーディングエージェントとの組み合わせが期待される。 :link: <https://thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday|thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday> 5. _Cursorリリースノート(Oct 13): Origin App Marketplaceアップデート + エージェントハーネス最適化でトークンコスト7%削減_ └ Cursorが10月13日付けリリースノートを公開。Origin App Marketplaceのアップデートに加え、エージェントハーネスの効率化によりユーザーのトークンコストが7%削減されたと発表。X Subscription統合と同日の改善続報。 :link: <https://releasebot.io/updates/cursor|releasebot.io/updates/cursor> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-10-13_\n\n1. _X、「The X Subscription」発表—CursorをGrok・X Premiumとバンドル、AnthropicやOpenAIモデルは追加課金へ_\n└ SpaceX傘下のCursorがXのサブスクに統合（Oct 12発表）。月$8〜のプランでGrok・X Premiumとセット提供開始。一方、AnthropicやOpenAIの競合モデルを使い続けたいユーザーには最初のリクエストからAPIレートが発生する新体系に移行。チームプランは$30/ユーザーに値下げ（旧$40）。AI駆動開発者の選択コストに直結するプライシング変更として注目。\n:link: <https://thenewstack.io/x-subscription-cursor-pricing|thenewstack.io/x-subscription-cursor-pricing>\n2. _Harvard大学研究: AIコーディングエージェントが普及すると「コードレビュー」が次のボトルネックに_\n└ ソフトウェア開発企業700社超・70万人以上のデータを分析した結果、AIエージェントによるコード生成速度が急伸する一方、人間によるレビュー・承認が追いつかないことが判明。「速く書けるが速くレビューできない」という課題がAI駆動開発の次の壁として浮き彫りに。\n:link: <https://cantabile.alhinc.jp/culture/12428/|cantabile.alhinc.jp/culture/12428>\n3. _Epic、Unreal Engine 6にClaude Code・Gemini等のAIエージェントをMCP経由で統合—「共同開発者」として組み込みへ_\n└ Epic GamesがState of Unreal 2026でUE6開発パイプラインへのAIエージェント統合を発表。Claude Code・Codex・CursorをModel Context Protocol（MCP）経由でエディタと連携し、コードコンパイル・オブジェクト配置・UI構築・テスト実行まで担える「共同開発者」として位置づける。ゲーム開発現場でのAI駆動開発が本格化。\n:link: <https://thenextweb.com/news/epic-unreal-engine-6-ai-claude-gemini|thenextweb.com/news/epic-unreal-engine-6-ai-claude-gemini>\n4. _OpenAI Dots: DevDay 2026発表の常時稼働エージェント—GPT-6 Astra・専用クラウドPC・4000以上のアプリ連携_\n└ OpenAIがDevDay 2026（9/29）で発表した「Dots」の詳細が注目を集めている。各Dotが専用クラウドコンピューターと独自ブラウザを持ち、目標を共有するだけで24時間自律的に動き続ける設計。Slack/Teams/ChatGPTから呼び出せ、4000以上のアプリと連携可能。月$500の新プランとセット。コーディングエージェントとの組み合わせが期待される。\n:link: <https://thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday|thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday>\n5. _Cursorリリースノート(Oct 13): Origin App Marketplaceアップデート + エージェントハーネス最適化でトークンコスト7%削減_\n└ Cursorが10月13日付けリリースノートを公開。Origin App Marketplaceのアップデートに加え、エージェントハーネスの効率化によりユーザーのトークンコストが7%削減されたと発表。X Subscription統合と同日の改善続報。\n:link: <https://releasebot.io/updates/cursor|releasebot.io/updates/cursor> *使用して送信されました* Claude",
+          "messageTs": "1791933016.025209",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-13",
+          "timestamp": "2026-10-13T23:10:16.025Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1791938498.591949",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "今日の日経一面。NTTが1兆円規模の投資をして大阪にAnthropic向けのデータセンター設立を考えているという話。記事によれば両社はコメントを控えていて契約締結ではなく記者にすっぱ抜かれたようです。 これが実現するとすればSIer、SESの市場も一気に変わる可能性があると思います。データの国内保存・国内処理が保証されるとすれば、大企業への導入を大きく後押しする可能性があります。 当社では初期からClaudeを標準とすべくAI顧問のすぐるさんに教材動画を提供いただいていますが、引き続きClaudeを使っておいて良いと思います。",
+          "rawText": "今日の日経一面。NTTが1兆円規模の投資をして大阪にAnthropic向けのデータセンター設立を考えているという話。記事によれば両社はコメントを控えていて契約締結ではなく記者にすっぱ抜かれたようです。\n\nこれが実現するとすればSIer、SESの市場も一気に変わる可能性があると思います。データの国内保存・国内処理が保証されるとすれば、大企業への導入を大きく後押しする可能性があります。\n\n当社では初期からClaudeを標準とすべくAI顧問のすぐるさんに教材動画を提供いただいていますが、引き続きClaudeを使っておいて良いと思います。",
+          "messageTs": "1791938498.591949",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-14",
+          "timestamp": "2026-10-14T00:41:38.591Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 344,
+      "messageCount": 346,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-10-12"
+      "lastDate": "2026-10-14"
     },
     {
       "id": "C0AARGDBC3V",
