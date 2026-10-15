@@ -3320,5 +3320,20 @@
     "values_and_motivators": null,
     "current_state": null,
     "slack_id": "U0C789L7RB9"
+  },
+  {
+    "name": "丸山 和哉",
+    "job": "Other",
+    "isActive": true,
+    "createdAt": "2026-10-15T04:00:50.258Z",
+    "updatedAt": "2026-10-15T04:00:50.258Z",
+    "last_updated": "2026-10-15T04:00:50.258Z",
+    "overall_summary": "",
+    "personality_traits": null,
+    "work_styles_and_strengths": null,
+    "communication_patterns": null,
+    "values_and_motivators": null,
+    "current_state": null,
+    "slack_id": "U0C8WA8VAAX"
   }
 ]
