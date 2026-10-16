@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-10-15T04:00:56.236Z",
+  "generatedAt": "2026-10-16T03:58:00.858Z",
   "channelCount": 15,
-  "totalMessages": 3401,
+  "totalMessages": 3403,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -22909,11 +22909,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1792099253.907929",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U0BBLLB4YE8",
+          "userName": "松井誠",
+          "userRealName": "松井誠",
+          "text": "最近、早朝冷え込む中出社されている方お疲れ様です。 昨日は少し現場の責任者の方と５年ぶりに飲んで少し体が重いと感じ歳を感じる今日この頃です。 最近は寒暖差が激しいので、体調にご留意してください。 余談にはなりますが、渋谷の半蔵門線A0口の付近でゆったり出来る、個室の居酒屋、飲み屋がありましたら教えてください。 と言う独り言でした。（笑:laughing:）",
+          "rawText": "最近、早朝冷え込む中出社されている方お疲れ様です。\n昨日は少し現場の責任者の方と５年ぶりに飲んで少し体が重いと感じ歳を感じる今日この頃です。\n最近は寒暖差が激しいので、体調にご留意してください。\n余談にはなりますが、渋谷の半蔵門線A0口の付近でゆったり出来る、個室の居酒屋、飲み屋がありましたら教えてください。\nと言う独り言でした。（笑:laughing:）",
+          "messageTs": "1792099253.907929",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-15",
+          "timestamp": "2026-10-15T21:20:53.907Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 1145,
+      "messageCount": 1146,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-10-11"
+      "lastDate": "2026-10-15"
     },
     {
       "id": "C098RT3NRT2",
@@ -60993,11 +61013,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1792105666.592759",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-15_ 1. _Claude Code アイドル圧縮機能を追加（Oct 14 チェンジログ）_ └ 200K+トークンの会話が約54分アイドル状態になると、プロンプトキャッシュ失効前に自動でコンテキストを圧縮する機能が追加。長時間のエージェントセッションのコスト効率が向上。ファイル @-メンション用の新環境変数も同時追加。 :link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog> 2. _Claude Code v2.1.300 リリース — OpenTelemetry対応・AWS Platform advisor_ └ バージョン2.1.300でリッチなOpenTelemetryトレーシングとClaude Platform on AWS向けadvisorサポートを追加。ガバナンスと監査可能性を重視した企業向け強化が続く。コーディングエージェントの可観測性が一段と向上。 :link: <https://aiagentstore.ai/ai-agent-news/this-week|aiagentstore.ai/ai-agent-news/this-week> 3. _GitHub「アンビエントインテリジェンス」が次の開発者インターフェースと発表（Oct 15）_ └ GitHubがCopilotの方向性として「アンビエントインテリジェンス」を提唱。リポジトリコンテキストを自動収集・ファイル編集・テスト実行を行い、Issueから自動でPRを生成するエージェント機能を紹介。Logitech MX Keypadとの連携も発表。 :link: <https://blockchain.news/news/github-says-ambient-intelligence-is-the-next-developer-interface|blockchain.news/news/github-says-ambient-intelligence-is-the-next-developer-interface> 4. _GitHub Copilot CLI v1.0.99-1 リリース（Oct 15）_ └ 信頼済みプロンプトセッション、検証済みGitHubプラグインインストール、Microsoft Entraのサインイン改善を含むアップデート。エンタープライズ向けセキュリティ・ガバナンス強化が着実に進んでいる。 :link: <https://releasebot.io/updates/github|releasebot.io/updates/github> 5. _「エージェントネイティブ開発」の誕生——2026年10月が新エンジニアリング規律の転換点_ └ 分析記事がOct 2026をエージェントネイティブ開発の本格的な確立期と位置付け。開発者がAIエージェントを「監督する」役割に移行し、コードレビューとガバナンスが次のボトルネックになるとの考察。700社超・70万人分析の裏付けも引用。 :link: <https://www.coddykit.com/pages/blog-detail?id=5129980&amp;slug=the-rise-of-agent-native-development-why-october-2026-marks-the-birth-of-a-new-e|coddykit.com/pages/blog-detail?slug=the-rise-of-agent-na…&amp;…> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-10-15_\n\n1. _Claude Code アイドル圧縮機能を追加（Oct 14 チェンジログ）_\n└ 200K+トークンの会話が約54分アイドル状態になると、プロンプトキャッシュ失効前に自動でコンテキストを圧縮する機能が追加。長時間のエージェントセッションのコスト効率が向上。ファイル @-メンション用の新環境変数も同時追加。\n:link: <https://code.claude.com/docs/en/changelog|code.claude.com/docs/en/changelog>\n2. _Claude Code v2.1.300 リリース — OpenTelemetry対応・AWS Platform advisor_\n└ バージョン2.1.300でリッチなOpenTelemetryトレーシングとClaude Platform on AWS向けadvisorサポートを追加。ガバナンスと監査可能性を重視した企業向け強化が続く。コーディングエージェントの可観測性が一段と向上。\n:link: <https://aiagentstore.ai/ai-agent-news/this-week|aiagentstore.ai/ai-agent-news/this-week>\n3. _GitHub「アンビエントインテリジェンス」が次の開発者インターフェースと発表（Oct 15）_\n└ GitHubがCopilotの方向性として「アンビエントインテリジェンス」を提唱。リポジトリコンテキストを自動収集・ファイル編集・テスト実行を行い、Issueから自動でPRを生成するエージェント機能を紹介。Logitech MX Keypadとの連携も発表。\n:link: <https://blockchain.news/news/github-says-ambient-intelligence-is-the-next-developer-interface|blockchain.news/news/github-says-ambient-intelligence-is-the-next-developer-interface>\n4. _GitHub Copilot CLI v1.0.99-1 リリース（Oct 15）_\n└ 信頼済みプロンプトセッション、検証済みGitHubプラグインインストール、Microsoft Entraのサインイン改善を含むアップデート。エンタープライズ向けセキュリティ・ガバナンス強化が着実に進んでいる。\n:link: <https://releasebot.io/updates/github|releasebot.io/updates/github>\n5. _「エージェントネイティブ開発」の誕生——2026年10月が新エンジニアリング規律の転換点_\n└ 分析記事がOct 2026をエージェントネイティブ開発の本格的な確立期と位置付け。開発者がAIエージェントを「監督する」役割に移行し、コードレビューとガバナンスが次のボトルネックになるとの考察。700社超・70万人分析の裏付けも引用。\n:link: <https://www.coddykit.com/pages/blog-detail?id=5129980&amp;slug=the-rise-of-agent-native-development-why-october-2026-marks-the-birth-of-a-new-e|coddykit.com/pages/blog-detail?slug=the-rise-of-agent-na…&amp;…> *使用して送信されました* Claude",
+          "messageTs": "1792105666.592759",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-15",
+          "timestamp": "2026-10-15T23:07:46.592Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 349,
+      "messageCount": 350,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-10-14"
+      "lastDate": "2026-10-15"
     },
     {
       "id": "C0AARGDBC3V",
