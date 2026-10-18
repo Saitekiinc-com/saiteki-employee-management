@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-10-17T03:48:05.400Z",
+  "generatedAt": "2026-10-18T03:54:29.613Z",
   "channelCount": 15,
-  "totalMessages": 3416,
+  "totalMessages": 3420,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -23109,11 +23109,71 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1792225308.490249",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U0AEE7CDAPK",
+          "userName": "榎本 詩織",
+          "userRealName": "榎本 詩織",
+          "text": "美味しそうな投稿に思わず立ち止まりました:ピカチュウ:笑",
+          "rawText": "美味しそうな投稿に思わず立ち止まりました:ピカチュウ:笑",
+          "messageTs": "1792225308.490249",
+          "threadTs": "1792099253.907929",
+          "parentUserId": "U0BBLLB4YE8",
+          "subtype": null,
+          "date": "2026-10-17",
+          "timestamp": "2026-10-17T08:21:48.490Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1792229032.076189",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "特に二つ目のお店は雰囲気もありつつ、料理も美味しいのでおすすめです！ 立ち止まらせてすみません！笑",
+          "rawText": "特に二つ目のお店は雰囲気もありつつ、料理も美味しいのでおすすめです！\n立ち止まらせてすみません！笑",
+          "messageTs": "1792229032.076189",
+          "threadTs": "1792099253.907929",
+          "parentUserId": "U0BBLLB4YE8",
+          "subtype": null,
+          "date": "2026-10-17",
+          "timestamp": "2026-10-17T09:23:52.076Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1792232737.911279",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U0BBLLB4YE8",
+          "userName": "松井誠",
+          "userRealName": "松井誠",
+          "text": "<@U09MGUVJ8BV> お店のご紹介ありがとうございます。 是非とも参考させていただきたいと思います",
+          "rawText": "<@U09MGUVJ8BV> \nお店のご紹介ありがとうございます。\n是非とも参考させていただきたいと思います",
+          "messageTs": "1792232737.911279",
+          "threadTs": "1792099253.907929",
+          "parentUserId": "U0BBLLB4YE8",
+          "subtype": null,
+          "date": "2026-10-17",
+          "timestamp": "2026-10-17T10:25:37.911Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 1155,
+      "messageCount": 1158,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-10-16"
+      "lastDate": "2026-10-17"
     },
     {
       "id": "C098RT3NRT2",
@@ -61293,11 +61353,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1792278227.831419",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-17_ 1. _Claude、自身のコードの90%を執筆——Claude CodeのPR数が急増しリバート率も激減_ └ AnthropicがClaude CodeのAI活用実績を公表。ClaudeがClaude Code自身のコードの約90%を執筆しており、6月〜9月にかけてマージ済みPRが2倍以上に増加。同期間にリバートされたPRの割合は40%以上減少し、AI生成コードの品質向上が数字で示された。 :link: <https://cellcog.ai/blog/claude-code-90-percent-code-review|cellcog.ai/blog/claude-code-90-percent-code-review> 2. _Anthropic、来週Claude Fable 5.5をリリース予定——パートナー向け展開すでに開始_ └ AnthropicがFable 5.5を含む複数の新モデルを近々リリース予定。すでにパートナー向けへの展開が始まっており、来週中の一般公開が見込まれる。複数モデルの同時リリースが示唆されており、開発ツールへの統合タイミングに注目。 :link: <https://testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners|testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners> 3. _GitHub Copilot、11月16日に3モデルを廃止——ピン留めワークフローの移行が急務_ └ GitHub CopilotがClaude Opus 4.8・Claude Opus 5・GPT-5.6 Terraを2026年11月16日に廃止すると発表。ほぼ全Copilot体験から削除される（個人年間プランのClaude Opus 4.8のみ例外）。プロンプトや設定でこれらモデルをピン留めしているチームは今すぐ移行計画を。 :link: <https://opentools.ai/news/github-copilot-models-retire-november-16-migration-guide|opentools.ai/news/github-copilot-models-retire-november-16-migration-guide> 4. _GitHub Copilot、SlackとTeamsでマルチリポジトリ対応——一会話で複数リポジトリを横断_ └ 10月15日リリースで、SlackおよびTeams内のCopilotが一つの会話で複数リポジトリを横断した質問に対応。「注意が必要なオープンPRを一覧化して」といった実務直結のユースケースが可能に。権限設定はリポジトリ単位で管理される。 :link: <https://opentools.ai/news/github-copilot-multi-repo-slack-teams-context-permissions|opentools.ai/news/github-copilot-multi-repo-slack-teams-context-permissions> 5. _CursorがProjectsを正式ローンチ——Security Reviewer・Rolloutsも提供開始_ └ CursorがProjectsを一般提供開始。Teams/EnterpriseプランではSecurity Reviewer（PRごとにコードベース全体のセキュリティレビューを実施）とRolloutsも利用可能に。Muse Wonder（Meta Superintelligence Labs）もCursorに統合され、CursorBenchで46.1%を記録。 :link: <https://cursor.com/changelog|cursor.com/changelog> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-10-17_\n\n1. _Claude、自身のコードの90%を執筆——Claude CodeのPR数が急増しリバート率も激減_\n└ AnthropicがClaude CodeのAI活用実績を公表。ClaudeがClaude Code自身のコードの約90%を執筆しており、6月〜9月にかけてマージ済みPRが2倍以上に増加。同期間にリバートされたPRの割合は40%以上減少し、AI生成コードの品質向上が数字で示された。\n:link: <https://cellcog.ai/blog/claude-code-90-percent-code-review|cellcog.ai/blog/claude-code-90-percent-code-review>\n2. _Anthropic、来週Claude Fable 5.5をリリース予定——パートナー向け展開すでに開始_\n└ AnthropicがFable 5.5を含む複数の新モデルを近々リリース予定。すでにパートナー向けへの展開が始まっており、来週中の一般公開が見込まれる。複数モデルの同時リリースが示唆されており、開発ツールへの統合タイミングに注目。\n:link: <https://testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners|testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners>\n3. _GitHub Copilot、11月16日に3モデルを廃止——ピン留めワークフローの移行が急務_\n└ GitHub CopilotがClaude Opus 4.8・Claude Opus 5・GPT-5.6 Terraを2026年11月16日に廃止すると発表。ほぼ全Copilot体験から削除される（個人年間プランのClaude Opus 4.8のみ例外）。プロンプトや設定でこれらモデルをピン留めしているチームは今すぐ移行計画を。\n:link: <https://opentools.ai/news/github-copilot-models-retire-november-16-migration-guide|opentools.ai/news/github-copilot-models-retire-november-16-migration-guide>\n4. _GitHub Copilot、SlackとTeamsでマルチリポジトリ対応——一会話で複数リポジトリを横断_\n└ 10月15日リリースで、SlackおよびTeams内のCopilotが一つの会話で複数リポジトリを横断した質問に対応。「注意が必要なオープンPRを一覧化して」といった実務直結のユースケースが可能に。権限設定はリポジトリ単位で管理される。\n:link: <https://opentools.ai/news/github-copilot-multi-repo-slack-teams-context-permissions|opentools.ai/news/github-copilot-multi-repo-slack-teams-context-permissions>\n5. _CursorがProjectsを正式ローンチ——Security Reviewer・Rolloutsも提供開始_\n└ CursorがProjectsを一般提供開始。Teams/EnterpriseプランではSecurity Reviewer（PRごとにコードベース全体のセキュリティレビューを実施）とRolloutsも利用可能に。Muse Wonder（Meta Superintelligence Labs）もCursorに統合され、CursorBenchで46.1%を記録。\n:link: <https://cursor.com/changelog|cursor.com/changelog> *使用して送信されました* Claude",
+          "messageTs": "1792278227.831419",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-17",
+          "timestamp": "2026-10-17T23:03:47.831Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 353,
+      "messageCount": 354,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-10-16"
+      "lastDate": "2026-10-17"
     },
     {
       "id": "C0AARGDBC3V",

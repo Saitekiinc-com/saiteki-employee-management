@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-17T03:47:53.102Z",
+  "generatedAt": "2026-10-18T03:54:24.726Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -108530,6 +108530,144 @@
         }
       ],
       "searchText": "<!channel> 皆さん、今週もお疲れ様でした！！*Letter of T | 今週の記録（2026.10.17）* を共有します！ 今週のテーマは、「3サービスのローンチと、“新しいSIer”への挑戦」です。 QA・セキュリティ・HP制作保守の3サービスを、無事に世の中へ送り出すことができました！ これは単にサービスが3つ増えたという話ではありません。 *強固なSES基盤 × 受託開発・自社サービス × AI* この3つを掛け合わせ、Saitekiが「新しいSIer」として本気で業界のポジションを取りにいく、そのスタートです。 今回のレターでは、ほかにも以下について書いています。 • 現場営業で成果を出したメンバーに、きちんと還元するインセンティブ制度 • 今のSaitekiだからこそ経験できる、圧倒的な裁量と成長機会 • エンジニア・営業・人事・総務を含めた、全職種での仲間探し 1月には10名ほどだった会社が、今では100名体制となり、自分たちのサービスを掲げて業界で勝負しようとしています。 会社が大きく変わる瞬間に、今、私たちは立っています。 ぜひ週末に読んでみてください！ ▼ Letter of T | 今週の記録（2026.10.17） <https://app.notion.com/p/Letter-of-T-2026-10-17-3fcdfb42679c802e83bcc73bcc2fe910|app.notion.com/p/Letter-of-T-…> 今週も、本当にありがとうございました！！良い週末をお過ごしください！！\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792225308.490249",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:榎本詩織",
+      "personName": "榎本詩織",
+      "slackIds": [
+        "U0AEE7CDAPK"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792225308.490249",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792225308.490249",
+      "timestamp": "2026-10-17T08:21:48.490Z",
+      "detailBullets": [
+        "美味しそうな投稿に思わず立ち止まりました:ピカチュウ:笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792225308.490249",
+          "text": "美味しそうな投稿に思わず立ち止まりました:ピカチュウ:笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792225308.490249",
+          "threadTs": "1792099253.907929",
+          "authorName": "榎本 詩織",
+          "permalink": null
+        }
+      ],
+      "searchText": "美味しそうな投稿に思わず立ち止まりました:ピカチュウ:笑\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792229032.076189",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792229032.076189",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792229032.076189",
+      "timestamp": "2026-10-17T09:23:52.076Z",
+      "detailBullets": [
+        "特に二つ目のお店は雰囲気もありつつ、料理も美味しいのでおすすめです！ 立ち止まらせてすみません！笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792229032.076189",
+          "text": "特に二つ目のお店は雰囲気もありつつ、料理も美味しいのでおすすめです！ 立ち止まらせてすみません！笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792229032.076189",
+          "threadTs": "1792099253.907929",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "特に二つ目のお店は雰囲気もありつつ、料理も美味しいのでおすすめです！ 立ち止まらせてすみません！笑\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792232737.911279",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:松井誠",
+      "personName": "松井誠",
+      "slackIds": [
+        "U0BBLLB4YE8"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792232737.911279",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792232737.911279",
+      "timestamp": "2026-10-17T10:25:37.911Z",
+      "detailBullets": [
+        "<@U09MGUVJ8BV> お店のご紹介ありがとうございます。 是非とも参考させていただきたいと思います"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792232737.911279",
+          "text": "<@U09MGUVJ8BV> お店のご紹介ありがとうございます。 是非とも参考させていただきたいと思います",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792232737.911279",
+          "threadTs": "1792099253.907929",
+          "authorName": "松井誠",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09MGUVJ8BV> お店のご紹介ありがとうございます。 是非とも参考させていただきたいと思います\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1792278227.831419",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1792278227.831419",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1792278227.831419",
+      "timestamp": "2026-10-17T23:03:47.831Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-17_ 1. _Claude、自身のコードの90%を執筆——Claude CodeのPR数が急増しリバート率も激減_ └ AnthropicがClaude CodeのAI活用実績を公表。ClaudeがClaude Code自身のコードの約90%を執筆しており、6月〜9月にかけてマージ済みPRが2倍以上に増加。同期間にリバートされたPRの割合は40%以上減少し、AI生成コードの品質向上が数字で示された。 :link: <https://cellcog.ai/blog/claude-code-90-percent-code-review|cellcog.ai/blog/claude-code-90-percent-code-review> 2. _Anthropic、来週Claude Fable 5.5をリリース予定——パートナー向け展開すでに開始_ └ AnthropicがFable 5.5を含む複数の新モデルを近々リリース予定。すでにパートナー向けへの展開が始まっており、来週中の一般公開が見込まれる。複数モデルの同..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1792278227.831419",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-17_ 1. _Claude、自身のコードの90%を執筆——Claude CodeのPR数が急増しリバート率も激減_ └ AnthropicがClaude CodeのAI活用実績を公表。ClaudeがClaude Code自身のコードの約90%を執筆しており、6月〜9月にかけてマージ済みPRが2倍以上に増加。同期間にリバートされたPRの割合は40%以上減少し、AI生成コードの品質向上が数字で示された。 :link: <https://cellcog.ai/blog/claude-code-90-percent-code-review|cellcog.ai/blog/claude-code-90-percent-code-review> 2. _Anthropic、来週Claude Fable 5.5をリリース予定——パートナー向け展開すでに開始_ └ AnthropicがFable 5.5を含む複数の新モデルを近々リリース予定。すでにパートナー向けへの展開が始まっており、来週中の一般公開が見込まれる。複数モデルの同時リリースが示唆されており、開発ツールへの統合タイミングに注目。 :link: <https://testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners|testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-part...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1792278227.831419",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-17_ 1. _Claude、自身のコードの90%を執筆——Claude CodeのPR数が急増しリバート率も激減_ └ AnthropicがClaude CodeのAI活用実績を公表。ClaudeがClaude Code自身のコードの約90%を執筆しており、6月〜9月にかけてマージ済みPRが2倍以上に増加。同期間にリバートされたPRの割合は40%以上減少し、AI生成コードの品質向上が数字で示された。 :link: <https://cellcog.ai/blog/claude-code-90-percent-code-review|cellcog.ai/blog/claude-code-90-percent-code-review> 2. _Anthropic、来週Claude Fable 5.5をリリース予定——パートナー向け展開すでに開始_ └ AnthropicがFable 5.5を含む複数の新モデルを近々リリース予定。すでにパートナー向けへの展開が始まっており、来週中の一般公開が見込まれる。複数モデルの同時リリースが示唆されており、開発ツールへの統合タイミングに注目。 :link: <https://testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners|testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners> 3. _GitHub Copilot、11月16日に3モデルを廃止——ピン留めワークフローの移行が急務_ └ GitHub CopilotがClaude Opus 4.8・Claude Opus 5・GPT-5.6 Terraを2026年11月16日に廃止すると発表。ほぼ全Copilot体験から削除される（個人年間プランのClaude Opus 4.8のみ例外）。プロンプトや設定でこれらモデルをピン留めしているチームは今すぐ移行計画を。 :link: <https://opentools.ai/news/github-copilot-models-retire-november-16-migration-guide|opentools.ai/news/github-copilot-models-retire-november-16-migration-guide> 4. _GitHub Copilot、SlackとTeamsでマルチリポジトリ対応——一会話で複数リポジトリを横断_ └ 10月15日リリースで、SlackおよびTeams内のCopilotが一つの会話で複数リポ...\nai駆動開発ネタ\n経営"
     }
   ]
 }
