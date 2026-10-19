@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-10-18T03:54:29.613Z",
+  "generatedAt": "2026-10-19T04:03:20.890Z",
   "channelCount": 15,
-  "totalMessages": 3420,
+  "totalMessages": 3425,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -23169,11 +23169,71 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1792323256.817239",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09S602LZS7",
+          "userName": "小林 翔",
+          "userRealName": "小林 翔",
+          "text": "*※動画音量注意です！！！* 急に外が騒がしくなり音の元を辿ってみると、 こんな感じの大きな提灯と太鼓の集団が延々と練り歩いていて、何の行事かも知らないまましばらく眺めてしまいました…！ なんだかエネルギーがもらえた気がするので、お裾分けです(笑)",
+          "rawText": "*※動画音量注意です！！！*\n\n急に外が騒がしくなり音の元を辿ってみると、\nこんな感じの大きな提灯と太鼓の集団が延々と練り歩いていて、何の行事かも知らないまましばらく眺めてしまいました…！\n\nなんだかエネルギーがもらえた気がするので、お裾分けです(笑)",
+          "messageTs": "1792323256.817239",
+          "threadTs": "1792323256.817239",
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-18",
+          "timestamp": "2026-10-18T11:34:16.817Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1792335595.188369",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<@U09S602LZS7> ちょうちんの使い方が独特ですね笑 お祭りは何回行ってもテンション上がります！",
+          "rawText": "<@U09S602LZS7> \nちょうちんの使い方が独特ですね笑\nお祭りは何回行ってもテンション上がります！",
+          "messageTs": "1792335595.188369",
+          "threadTs": "1792323256.817239",
+          "parentUserId": "U09S602LZS7",
+          "subtype": null,
+          "date": "2026-10-18",
+          "timestamp": "2026-10-18T14:59:55.188Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1792382083.021889",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U09NHL467U0",
+          "userName": "上遼太郎",
+          "userRealName": "上遼太郎",
+          "text": "<@U09S602LZS7> 自分地方民なんですが東京いろんな お祭りやイベント面白いですよね！ 酉の市とか最初東京来た時なんだろ？？ 規模大きい‼︎と思いました笑",
+          "rawText": "<@U09S602LZS7> \n自分地方民なんですが東京いろんな\nお祭りやイベント面白いですよね！\n\n酉の市とか最初東京来た時なんだろ？？\n規模大きい‼︎と思いました笑",
+          "messageTs": "1792382083.021889",
+          "threadTs": "1792323256.817239",
+          "parentUserId": "U09S602LZS7",
+          "subtype": null,
+          "date": "2026-10-19",
+          "timestamp": "2026-10-19T03:54:43.021Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 1158,
+      "messageCount": 1161,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-10-17"
+      "lastDate": "2026-10-19"
     },
     {
       "id": "C098RT3NRT2",
@@ -54094,7 +54154,7 @@ window.SLACK_EXPORT_DATA = {
           "text": "<!channel> :loudspeaker: *AI駆動開発 勉強会｜第3回 開催のお知らせ* AI駆動開発 勉強会、*いよいよ第3回です！* 今回も *<@U0A7VHB07J4> さん*にご登壇いただきます:clap: 第3回のテーマは、 *「個人の知見を“組織”の資産に」* *〜成長するAI駆動開発基盤を作る技術と思想〜* 第1回では*AI駆動開発のマインドセット、* 第2回では*現場でのAI駆動開発*として、個人のAI知見をチームで再利用していく考え方について学んできました。 今回はさらにその先へ進み、 *個人やチームに蓄積されたAI活用の知見を、どう“組織の資産”として残し、* *成長させていくのか*をテーマにお話しいただく予定です:bulb: ＝＝＝＝＝＝＝＝ :date: 詳細 *■日時* 10月20日（火）20:00〜 *■形式* オンライン Google Meet :<https://meet.google.com/ear-ondv-dfd|meet.google.com/ear-ondv-dfd> ＝＝＝＝＝＝＝＝ 第1回・第2回に参加された方はもちろん、*第3回からの参加も大歓迎です！* AIを「個人で使う」から「チームで活用する」、そして「組織の資産として育てていく」へ。 AI駆動開発を組織としてどう発展させていくのか気になる方は、ぜひご参加ください:sparkles: よろしくお願いいたします！",
           "rawText": "<!channel>\n:loudspeaker: *AI駆動開発 勉強会｜第3回 開催のお知らせ*\nAI駆動開発 勉強会、*いよいよ第3回です！*\n今回も *<@U0A7VHB07J4> さん*にご登壇いただきます:clap:\n\n第3回のテーマは、\n*「個人の知見を“組織”の資産に」*\n*〜成長するAI駆動開発基盤を作る技術と思想〜*\n\n第1回では*AI駆動開発のマインドセット、*\n第2回では*現場でのAI駆動開発*として、個人のAI知見をチームで再利用していく考え方について学んできました。\n\n今回はさらにその先へ進み、\n*個人やチームに蓄積されたAI活用の知見を、どう“組織の資産”として残し、*\n*成長させていくのか*をテーマにお話しいただく予定です:bulb:\n\n＝＝＝＝＝＝＝＝\n:date: 詳細\n*■日時*\n10月20日（火）20:00〜\n*■形式*\nオンライン\nGoogle Meet :<https://meet.google.com/ear-ondv-dfd|meet.google.com/ear-ondv-dfd>\n＝＝＝＝＝＝＝＝\n\n第1回・第2回に参加された方はもちろん、*第3回からの参加も大歓迎です！*\nAIを「個人で使う」から「チームで活用する」、そして「組織の資産として育てていく」へ。\nAI駆動開発を組織としてどう発展させていくのか気になる方は、ぜひご参加ください:sparkles:\nよろしくお願いいたします！",
           "messageTs": "1791243495.701409",
-          "threadTs": null,
+          "threadTs": "1791243495.701409",
           "parentUserId": null,
           "subtype": null,
           "date": "2026-10-05",
@@ -54282,11 +54342,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1792368012.014219",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0BK4336Q2X",
+          "userName": "Rio",
+          "userRealName": "Rio",
+          "text": "<!channel> :loudspeaker: *AI駆動開発 勉強会 第3回、いよいよ明日です！* :date: *10月20日（火）20:00〜* :computer: オンライン開催 今回のテーマは、 *「個人の知見を“組織”の資産に」* 〜成長するAI駆動開発基盤を作る技術と思想〜 今回も <@U0A7VHB07J4> *さん*にご登壇いただきます！:raised_hands: お時間合う方はぜひご参加ください:sparkles:",
+          "rawText": "<!channel>\n:loudspeaker: *AI駆動開発 勉強会 第3回、いよいよ明日です！*\n:date: *10月20日（火）20:00〜*\n:computer: オンライン開催\n\n今回のテーマは、\n*「個人の知見を“組織”の資産に」*\n〜成長するAI駆動開発基盤を作る技術と思想〜\n\n今回も <@U0A7VHB07J4> *さん*にご登壇いただきます！:raised_hands:\nお時間合う方はぜひご参加ください:sparkles:",
+          "messageTs": "1792368012.014219",
+          "threadTs": "1791243495.701409",
+          "parentUserId": null,
+          "subtype": "thread_broadcast",
+          "date": "2026-10-19",
+          "timestamp": "2026-10-19T00:00:12.014Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 401,
+      "messageCount": 402,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-10-17"
+      "lastDate": "2026-10-19"
     },
     {
       "id": "C09QXV3F8G0",
@@ -61373,11 +61453,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1792364699.562219",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-18_ 1. _Claude Code Plugins（Mods）がv2.1.302で公式ディレクトリとして正式ローンチ_ └ AnthropicがClaude Code用の公式プラグインディレクトリ「claude-plugins-official」をGitHubで公開。TypeScript製モジュールでUIパネル追加・プロンプト書き換え・新コマンド追加が可能に。第一弾として20以上のプラグインが提供開始。 :link: <https://tech-insider.org/claude-code-plugins-official-mods-cloud-sessions-2026|tech-insider.org/claude-code-plugins-official-mods-cloud-sessions-2026> 2. _DeepSeek V4.1-Flash-1017をMITライセンスで公開——コーディングSWEベンチでClaude Opus 5超え_ └ DeepSeekが10月16日にV4.1-Flash-1017を一般公開。DeepSWE v1.1のコーディングベンチマークで77.0を記録し、Claude Opus 5を上回る成績。MITライセンスで商用利用も可能。 :link: <https://qiita.com/aakan/items/cf5d30976fe393426366|qiita.com/aakan/items/…> 3. _Google「Deep Review」一般公開——複数AIエージェントが論文・技術文書を多段階で協調検証_ └ Googleが研究者・エンジニア向けに「Deep Review」を本日（Oct 18）一般公開。複数のAIエージェントが役割分担して論文や技術文書の事実確認・論理検証・改善提案を行う機能で、文書レビュー工数を大幅削減。 :link: <https://agentic.ai/news|agentic.ai/news> 4. _Perplexity、AIコーディングエージェント向けマイクロVMサンドボックス「SPACE」をOSS公開_ └ PerplexityがFirecracker microVMベースのエージェントサンドボックス「SPACE」をオープンソースで公開。各タスクを独立したマイクロVMで実行し、APIキーなどの資格情報と外部通信を分離管理。悪意あるコードによる情報漏洩リスクを大幅低減。 :link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-funding-new-platforms-and-evolving-developer-trust|aiagentsdirectory.com/news/ai-agents-news-brief-funding-new-platforms-and-evolving-developer-trust> 5. _Namespace、AIコーディングエージェントインフラで4,200万ドル調達_ └ スイス・チューリッヒ発スタートアップのNamespaceがAIコーディングエージェント向けインフラで4,200万ドルを調達。エージェントの実行環境・ステート管理・並列処理基盤の提供を強化し、企業向けエージェントワークフローの安定稼働を目指す。 :link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-funding-new-platforms-and-evolving-developer-trust|aiagentsdirectory.com/news/ai-agents-news-brief-funding-new-platforms-and-evolving-developer-trust> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-10-18_\n\n1. _Claude Code Plugins（Mods）がv2.1.302で公式ディレクトリとして正式ローンチ_\n└ AnthropicがClaude Code用の公式プラグインディレクトリ「claude-plugins-official」をGitHubで公開。TypeScript製モジュールでUIパネル追加・プロンプト書き換え・新コマンド追加が可能に。第一弾として20以上のプラグインが提供開始。\n:link: <https://tech-insider.org/claude-code-plugins-official-mods-cloud-sessions-2026|tech-insider.org/claude-code-plugins-official-mods-cloud-sessions-2026>\n2. _DeepSeek V4.1-Flash-1017をMITライセンスで公開——コーディングSWEベンチでClaude Opus 5超え_\n└ DeepSeekが10月16日にV4.1-Flash-1017を一般公開。DeepSWE v1.1のコーディングベンチマークで77.0を記録し、Claude Opus 5を上回る成績。MITライセンスで商用利用も可能。\n:link: <https://qiita.com/aakan/items/cf5d30976fe393426366|qiita.com/aakan/items/…>\n3. _Google「Deep Review」一般公開——複数AIエージェントが論文・技術文書を多段階で協調検証_\n└ Googleが研究者・エンジニア向けに「Deep Review」を本日（Oct 18）一般公開。複数のAIエージェントが役割分担して論文や技術文書の事実確認・論理検証・改善提案を行う機能で、文書レビュー工数を大幅削減。\n:link: <https://agentic.ai/news|agentic.ai/news>\n4. _Perplexity、AIコーディングエージェント向けマイクロVMサンドボックス「SPACE」をOSS公開_\n└ PerplexityがFirecracker microVMベースのエージェントサンドボックス「SPACE」をオープンソースで公開。各タスクを独立したマイクロVMで実行し、APIキーなどの資格情報と外部通信を分離管理。悪意あるコードによる情報漏洩リスクを大幅低減。\n:link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-funding-new-platforms-and-evolving-developer-trust|aiagentsdirectory.com/news/ai-agents-news-brief-funding-new-platforms-and-evolving-developer-trust>\n5. _Namespace、AIコーディングエージェントインフラで4,200万ドル調達_\n└ スイス・チューリッヒ発スタートアップのNamespaceがAIコーディングエージェント向けインフラで4,200万ドルを調達。エージェントの実行環境・ステート管理・並列処理基盤の提供を強化し、企業向けエージェントワークフローの安定稼働を目指す。\n:link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-funding-new-platforms-and-evolving-developer-trust|aiagentsdirectory.com/news/ai-agents-news-brief-funding-new-platforms-and-evolving-developer-trust> *使用して送信されました* Claude",
+          "messageTs": "1792364699.562219",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-18",
+          "timestamp": "2026-10-18T23:04:59.562Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 354,
+      "messageCount": 355,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-10-17"
+      "lastDate": "2026-10-18"
     },
     {
       "id": "C0AARGDBC3V",

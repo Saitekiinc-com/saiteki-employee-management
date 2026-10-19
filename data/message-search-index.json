@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-18T03:54:24.726Z",
+  "generatedAt": "2026-10-19T04:03:14.818Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -106651,7 +106651,7 @@
           "channelId": "C09MKT8QKAR",
           "channelName": "all-saiteki",
           "messageTs": "1791243495.701409",
-          "threadTs": null,
+          "threadTs": "1791243495.701409",
           "authorName": "Rio",
           "permalink": null
         }
@@ -108668,6 +108668,179 @@
         }
       ],
       "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-17_ 1. _Claude、自身のコードの90%を執筆——Claude CodeのPR数が急増しリバート率も激減_ └ AnthropicがClaude CodeのAI活用実績を公表。ClaudeがClaude Code自身のコードの約90%を執筆しており、6月〜9月にかけてマージ済みPRが2倍以上に増加。同期間にリバートされたPRの割合は40%以上減少し、AI生成コードの品質向上が数字で示された。 :link: <https://cellcog.ai/blog/claude-code-90-percent-code-review|cellcog.ai/blog/claude-code-90-percent-code-review> 2. _Anthropic、来週Claude Fable 5.5をリリース予定——パートナー向け展開すでに開始_ └ AnthropicがFable 5.5を含む複数の新モデルを近々リリース予定。すでにパートナー向けへの展開が始まっており、来週中の一般公開が見込まれる。複数モデルの同時リリースが示唆されており、開発ツールへの統合タイミングに注目。 :link: <https://testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners|testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners> 3. _GitHub Copilot、11月16日に3モデルを廃止——ピン留めワークフローの移行が急務_ └ GitHub CopilotがClaude Opus 4.8・Claude Opus 5・GPT-5.6 Terraを2026年11月16日に廃止すると発表。ほぼ全Copilot体験から削除される（個人年間プランのClaude Opus 4.8のみ例外）。プロンプトや設定でこれらモデルをピン留めしているチームは今すぐ移行計画を。 :link: <https://opentools.ai/news/github-copilot-models-retire-november-16-migration-guide|opentools.ai/news/github-copilot-models-retire-november-16-migration-guide> 4. _GitHub Copilot、SlackとTeamsでマルチリポジトリ対応——一会話で複数リポジトリを横断_ └ 10月15日リリースで、SlackおよびTeams内のCopilotが一つの会話で複数リポ...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792323256.817239",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:小林翔",
+      "personName": "小林翔",
+      "slackIds": [
+        "U09S602LZS7"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792323256.817239",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792323256.817239",
+      "timestamp": "2026-10-18T11:34:16.817Z",
+      "detailBullets": [
+        "*※動画音量注意です！！！* 急に外が騒がしくなり音の元を辿ってみると、 こんな感じの大きな提灯と太鼓の集団が延々と練り歩いていて、何の行事かも知らないまましばらく眺めてしまいました…！ なんだかエネルギーがもらえた気がするので、お裾分けです(笑)"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792323256.817239",
+          "text": "*※動画音量注意です！！！* 急に外が騒がしくなり音の元を辿ってみると、 こんな感じの大きな提灯と太鼓の集団が延々と練り歩いていて、何の行事かも知らないまましばらく眺めてしまいました…！ なんだかエネルギーがもらえた気がするので、お裾分けです(笑)",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792323256.817239",
+          "threadTs": "1792323256.817239",
+          "authorName": "小林 翔",
+          "permalink": null
+        }
+      ],
+      "searchText": "*※動画音量注意です！！！* 急に外が騒がしくなり音の元を辿ってみると、 こんな感じの大きな提灯と太鼓の集団が延々と練り歩いていて、何の行事かも知らないまましばらく眺めてしまいました…！ なんだかエネルギーがもらえた気がするので、お裾分けです(笑)\nソーシャル\nQA"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792335595.188369",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792335595.188369",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792335595.188369",
+      "timestamp": "2026-10-18T14:59:55.188Z",
+      "detailBullets": [
+        "<@U09S602LZS7> ちょうちんの使い方が独特ですね笑 お祭りは何回行ってもテンション上がります！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792335595.188369",
+          "text": "<@U09S602LZS7> ちょうちんの使い方が独特ですね笑 お祭りは何回行ってもテンション上がります！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792335595.188369",
+          "threadTs": "1792323256.817239",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09S602LZS7> ちょうちんの使い方が独特ですね笑 お祭りは何回行ってもテンション上がります！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1792364699.562219",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1792364699.562219",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1792364699.562219",
+      "timestamp": "2026-10-18T23:04:59.562Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-18_ 1. _Claude Code Plugins（Mods）がv2.1.302で公式ディレクトリとして正式ローンチ_ └ AnthropicがClaude Code用の公式プラグインディレクトリ「claude-plugins-official」をGitHubで公開。TypeScript製モジュールでUIパネル追加・プロンプト書き換え・新コマンド追加が可能に。第一弾として20以上のプラグインが提供開始。 :link: <https://tech-insider.org/claude-code-plugins-official-mods-cloud-sessions-2026|tech-insider.org/claude-code-plugins-official-mods-cloud-sessions-2026> 2. _DeepSeek V4.1-Flash-1017をMITライセンスで公開——コーディングSWEベンチでClaude Opus 5超え_ └ DeepSeekが10月16日にV4.1-Flas..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1792364699.562219",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-18_ 1. _Claude Code Plugins（Mods）がv2.1.302で公式ディレクトリとして正式ローンチ_ └ AnthropicがClaude Code用の公式プラグインディレクトリ「claude-plugins-official」をGitHubで公開。TypeScript製モジュールでUIパネル追加・プロンプト書き換え・新コマンド追加が可能に。第一弾として20以上のプラグインが提供開始。 :link: <https://tech-insider.org/claude-code-plugins-official-mods-cloud-sessions-2026|tech-insider.org/claude-code-plugins-official-mods-cloud-sessions-2026> 2. _DeepSeek V4.1-Flash-1017をMITライセンスで公開——コーディングSWEベンチでClaude Opus 5超え_ └ DeepSeekが10月16日にV4.1-Flash-1017を一般公開。DeepSWE v1.1のコーディングベンチマークで77.0を記録し、Claude Opus 5を上回る成績。MITライセンスで商用利用も可能。 :link: <https://qiita.com/aakan/items/cf5d30976fe393426366|qiita.com/aakan/items/…> 3. _Google「Deep Review」一般公開——複数...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1792364699.562219",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-18_ 1. _Claude Code Plugins（Mods）がv2.1.302で公式ディレクトリとして正式ローンチ_ └ AnthropicがClaude Code用の公式プラグインディレクトリ「claude-plugins-official」をGitHubで公開。TypeScript製モジュールでUIパネル追加・プロンプト書き換え・新コマンド追加が可能に。第一弾として20以上のプラグインが提供開始。 :link: <https://tech-insider.org/claude-code-plugins-official-mods-cloud-sessions-2026|tech-insider.org/claude-code-plugins-official-mods-cloud-sessions-2026> 2. _DeepSeek V4.1-Flash-1017をMITライセンスで公開——コーディングSWEベンチでClaude Opus 5超え_ └ DeepSeekが10月16日にV4.1-Flash-1017を一般公開。DeepSWE v1.1のコーディングベンチマークで77.0を記録し、Claude Opus 5を上回る成績。MITライセンスで商用利用も可能。 :link: <https://qiita.com/aakan/items/cf5d30976fe393426366|qiita.com/aakan/items/…> 3. _Google「Deep Review」一般公開——複数AIエージェントが論文・技術文書を多段階で協調検証_ └ Googleが研究者・エンジニア向けに「Deep Review」を本日（Oct 18）一般公開。複数のAIエージェントが役割分担して論文や技術文書の事実確認・論理検証・改善提案を行う機能で、文書レビュー工数を大幅削減。 :link: <https://agentic.ai/news|agentic.ai/news> 4. _Perplexity、AIコーディングエージェント向けマイクロVMサンドボックス「SPACE」をOSS公開_ └ PerplexityがFirecracker microVMベースのエージェントサンドボックス「SPACE」をオープンソースで公開。各タスクを独立したマイクロVMで実行し、APIキーなどの資格情報と外部通信を分離管理。悪意あるコードによる情報漏洩リスクを大幅低減。 :link: <https://aiagentsdirectory.com/news/ai-agents-news-brief-funding-new-platforms-and-evolving-developer-trust|aia...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1792368012.014219",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:Rio",
+      "personName": "Rio",
+      "slackIds": [
+        "U0BK4336Q2X"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1792368012.014219",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1792368012.014219",
+      "timestamp": "2026-10-19T00:00:12.014Z",
+      "detailBullets": [
+        "<!channel> :loudspeaker: *AI駆動開発 勉強会 第3回、いよいよ明日です！* :date: *10月20日（火）20:00〜* :computer: オンライン開催 今回のテーマは、 *「個人の知見を“組織”の資産に」* 〜成長するAI駆動開発基盤を作る技術と思想〜 今回も <@U0A7VHB07J4> *さん*にご登壇いただきます！:raised_hands: お時間合う方はぜひご参加ください:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1792368012.014219",
+          "text": "<!channel> :loudspeaker: *AI駆動開発 勉強会 第3回、いよいよ明日です！* :date: *10月20日（火）20:00〜* :computer: オンライン開催 今回のテーマは、 *「個人の知見を“組織”の資産に」* 〜成長するAI駆動開発基盤を作る技術と思想〜 今回も <@U0A7VHB07J4> *さん*にご登壇いただきます！:raised_hands: お時間合う方はぜひご参加ください:sparkles:",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1792368012.014219",
+          "threadTs": "1791243495.701409",
+          "authorName": "Rio",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> :loudspeaker: *AI駆動開発 勉強会 第3回、いよいよ明日です！* :date: *10月20日（火）20:00〜* :computer: オンライン開催 今回のテーマは、 *「個人の知見を“組織”の資産に」* 〜成長するAI駆動開発基盤を作る技術と思想〜 今回も <@U0A7VHB07J4> *さん*にご登壇いただきます！:raised_hands: お時間合う方はぜひご参加ください:sparkles:\nall-saiteki\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792382083.021889",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上遼太郎",
+      "personName": "上遼太郎",
+      "slackIds": [
+        "U09NHL467U0",
+        "U0982MZK7E1"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792382083.021889",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792382083.021889",
+      "timestamp": "2026-10-19T03:54:43.021Z",
+      "detailBullets": [
+        "<@U09S602LZS7> 自分地方民なんですが東京いろんな お祭りやイベント面白いですよね！ 酉の市とか最初東京来た時なんだろ？？ 規模大きい‼︎と思いました笑"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792382083.021889",
+          "text": "<@U09S602LZS7> 自分地方民なんですが東京いろんな お祭りやイベント面白いですよね！ 酉の市とか最初東京来た時なんだろ？？ 規模大きい‼︎と思いました笑",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792382083.021889",
+          "threadTs": "1792323256.817239",
+          "authorName": "上遼太郎",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09S602LZS7> 自分地方民なんですが東京いろんな お祭りやイベント面白いですよね！ 酉の市とか最初東京来た時なんだろ？？ 規模大きい‼︎と思いました笑\nソーシャル\nEngineer"
     }
   ]
 }
