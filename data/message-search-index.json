@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-19T04:03:14.818Z",
+  "generatedAt": "2026-10-20T04:16:25.802Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -108841,6 +108841,246 @@
         }
       ],
       "searchText": "<@U09S602LZS7> 自分地方民なんですが東京いろんな お祭りやイベント面白いですよね！ 酉の市とか最初東京来た時なんだろ？？ 規模大きい‼︎と思いました笑\nソーシャル\nEngineer"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792394488.551589",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:永井",
+      "personName": "永井",
+      "slackIds": [
+        "U09QZF7KT2P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792394488.551589",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792394488.551589",
+      "timestamp": "2026-10-19T07:21:28.551Z",
+      "detailBullets": [
+        "*本社潜入完了！* みなさんめちゃくちゃ忙しそう:sweat_drops: お邪魔にならないようレポート。 （実は1回目の投稿消えちゃいました…） アトリウムで打ち合わせ、web会議、電話対応、PC作業…… 皆さん頑張ってます！:sparkles::muscle: 社長が1番ラフな格好してます……飾り気のないTシャツとゆるパンツで裸足……いや、いいんですよ……社長らしいです。 ​渋谷駅はやっぱり迷子になりますね。階段を上り下りしてオシャレなテラスを抜け、ようやくオフィスにたどり着きました。 渋谷とは思えないくらい静かな場所で素敵！ (仕事中なので、写真撮るのが躊躇わらて観葉植物:potted_plant:だけ撮りましたw) ​ランチは社長と総務の藤井さんと、落ち着いた雰囲気のオシャレなイタリアンへ:sparkles: (社長は裸足にサンダルだけど) 帰りには藤井さんに送ってもらいつつ、スクランブル交差点とハチ公もバッチリ見てきました。 それにしても今の渋谷、本当に日本人がいないですね…！センター街は色んな人種が溢れてて、目立つところに置いてあった109のパンフレットは英語と中国語でし..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792394488.551589",
+          "text": "*本社潜入完了！* みなさんめちゃくちゃ忙しそう:sweat_drops: お邪魔にならないようレポート。 （実は1回目の投稿消えちゃいました…） アトリウムで打ち合わせ、web会議、電話対応、PC作業…… 皆さん頑張ってます！:sparkles::muscle: 社長が1番ラフな格好してます……飾り気のないTシャツとゆるパンツで裸足……いや、いいんですよ……社長らしいです。 ​渋谷駅はやっぱり迷子になりますね。階段を上り下りしてオシャレなテラスを抜け、ようやくオフィスにたどり着きました。 渋谷とは思えないくらい静かな場所で素敵！ (仕事中なので、写真撮るのが躊躇わらて観葉植物:potted_plant:だけ撮りましたw) ​ランチは社長と総務の藤井さんと、落ち着いた雰囲気のオシャレなイタリアンへ:sparkles: (社長は裸足にサンダルだけど) 帰りには藤井さんに送ってもらいつつ、スクランブル交差点とハチ公もバッチリ見てきました。 それにしても今の渋谷、本当に日本人がいないですね…！センター街は色んな人種が溢れてて、目立つところに置いてあった109のパンフレットは英語と中国語でした。(日本語のパンフ無い) 最後になりましたが、本社の皆様、お騒がせしましたandありがとうございました:感謝: ※写真 オフィス外観、ネームプレート、車内(植物)、スクランブル交差点(仲里依紗にピント)、ハチ公の写真撮影に並ぶ外人さんたち",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792394488.551589",
+          "threadTs": "1792394488.551589",
+          "authorName": "永井",
+          "permalink": null
+        }
+      ],
+      "searchText": "*本社潜入完了！* みなさんめちゃくちゃ忙しそう:sweat_drops: お邪魔にならないようレポート。 （実は1回目の投稿消えちゃいました…） アトリウムで打ち合わせ、web会議、電話対応、PC作業…… 皆さん頑張ってます！:sparkles::muscle: 社長が1番ラフな格好してます……飾り気のないTシャツとゆるパンツで裸足……いや、いいんですよ……社長らしいです。 ​渋谷駅はやっぱり迷子になりますね。階段を上り下りしてオシャレなテラスを抜け、ようやくオフィスにたどり着きました。 渋谷とは思えないくらい静かな場所で素敵！ (仕事中なので、写真撮るのが躊躇わらて観葉植物:potted_plant:だけ撮りましたw) ​ランチは社長と総務の藤井さんと、落ち着いた雰囲気のオシャレなイタリアンへ:sparkles: (社長は裸足にサンダルだけど) 帰りには藤井さんに送ってもらいつつ、スクランブル交差点とハチ公もバッチリ見てきました。 それにしても今の渋谷、本当に日本人がいないですね…！センター街は色んな人種が溢れてて、目立つところに置いてあった109のパンフレットは英語と中国語でした。(日本語のパンフ無い) 最後になりましたが、本社の皆様、お騒がせしましたandありがとうございました:感謝: ※写真 オフィス外観、ネームプレート、車内(植物)、スクランブル交差点(仲里依紗にピント)、ハチ公の写真撮影に並ぶ外人さんたち\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1792451010.957189",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1792451010.957189",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1792451010.957189",
+      "timestamp": "2026-10-19T23:03:30.957Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-19_ 1. _Claude Code、gzip圧縮で応答速度が3倍に_ └ Anthropicがp90の初回トークン待ち時間を4.07秒→1.33秒に短縮。ローカルセッションで3倍、クラウドセッションで2.8倍の高速化を達成。会話ターンのgzip圧縮とクラウドセッションのウォームアップが主な改善点。 :link: <https://aicoder.com/news/news-20261017-claude-code-3x-faster-first-token-gzip-cloud-prewarm|aicoder.com/news/news-20261017-claude-code-3x-faster-first-token-gzip-cloud-prewarm> 2. _GitHub Copilot、6モデルを本日廃止 → GPT-5.6系へ移行_ └ Gemini 3.7 Flash・GPT-5.5・GPT-5.4・GPT-5.4 mini・GPT-5 mini・Grok 4.5の6モデルを廃止。代替はGPT-..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1792451010.957189",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-19_ 1. _Claude Code、gzip圧縮で応答速度が3倍に_ └ Anthropicがp90の初回トークン待ち時間を4.07秒→1.33秒に短縮。ローカルセッションで3倍、クラウドセッションで2.8倍の高速化を達成。会話ターンのgzip圧縮とクラウドセッションのウォームアップが主な改善点。 :link: <https://aicoder.com/news/news-20261017-claude-code-3x-faster-first-token-gzip-cloud-prewarm|aicoder.com/news/news-20261017-claude-code-3x-faster-first-token-gzip-cloud-prewarm> 2. _GitHub Copilot、6モデルを本日廃止 → GPT-5.6系へ移行_ └ Gemini 3.7 Flash・GPT-5.5・GPT-5.4・GPT-5.4 mini・GPT-5 mini・Grok 4.5の6モデルを廃止。代替はGPT-5.6 Sol / GPT-5.6 Luna、GeminiはGemini 3.8 Flashへ移行。Copilot史上最大のモデル切り替えと報道されている。 :link: <https://shattered.io/github-copilot-retires-6-models-gpt-5-6-2026/|shattered.io/github-copilot-retires-6-models-g...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1792451010.957189",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-19_ 1. _Claude Code、gzip圧縮で応答速度が3倍に_ └ Anthropicがp90の初回トークン待ち時間を4.07秒→1.33秒に短縮。ローカルセッションで3倍、クラウドセッションで2.8倍の高速化を達成。会話ターンのgzip圧縮とクラウドセッションのウォームアップが主な改善点。 :link: <https://aicoder.com/news/news-20261017-claude-code-3x-faster-first-token-gzip-cloud-prewarm|aicoder.com/news/news-20261017-claude-code-3x-faster-first-token-gzip-cloud-prewarm> 2. _GitHub Copilot、6モデルを本日廃止 → GPT-5.6系へ移行_ └ Gemini 3.7 Flash・GPT-5.5・GPT-5.4・GPT-5.4 mini・GPT-5 mini・Grok 4.5の6モデルを廃止。代替はGPT-5.6 Sol / GPT-5.6 Luna、GeminiはGemini 3.8 Flashへ移行。Copilot史上最大のモデル切り替えと報道されている。 :link: <https://shattered.io/github-copilot-retires-6-models-gpt-5-6-2026/|shattered.io/github-copilot-retires-6-models-gpt-5-6-2026> 3. _Claude Code Review、Team・Enterprise向けに一般提供開始_ └ リサーチプレビューから正式GAへ移行。管理者はリポジトリごとにレビュー深度を3段階から選択可能。先週のニュースまとめによると速度もプレビュー時比で大幅改善との報告あり。 :link: <https://tech-noisy.com/2026/10/19/ai-weekly-news-2026-10-12-2026-10-18|tech-noisy.com/2026/10/19/ai-weekly-news-2026-10-12-2026-10-18> 4. _Cursor、アプリマーケットプレイス「Origin」を10/13に公開_ └ 20以上のインテグレーションが初期ラインナップとしてリリース。クラウド環境では最大300リポジトリへの接続に対応し、ロード速度も5倍高速化。AI コーディングエージェントのエコシステム拡張が本格化。 :link: <https://cursor.com/changelog|cursor.com/changelog> 5. _M...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792453168.697689",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792453168.697689",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792453168.697689",
+      "timestamp": "2026-10-19T23:39:28.697Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> 永井さん、昨日はご来社いただきありがとうございました！ パリッとした雰囲気を感じていただけたかなと思います。そんな中ゆるゆるな服装で申し訳ないです、そろそろ人からの見られ方を意識しようと思いました笑 本社メンバーは常にエンジニアの皆さんのために動いていて業務後の時間も面談対応があったり忙しく動いてくれているので、顧客との打ち合わせのない時ぐらいは服装は自由にしてほしいという思いがあったりします。 オフィスは、とても閑静で渋谷とは思えない雰囲気で割と気に入っています！素敵といっていただいてありがとうございます！ 次回は大阪でお会いしましょう！あらためてはるばるお越しいただきありがとうございました！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792453168.697689",
+          "text": "<@U09QZF7KT2P> 永井さん、昨日はご来社いただきありがとうございました！ パリッとした雰囲気を感じていただけたかなと思います。そんな中ゆるゆるな服装で申し訳ないです、そろそろ人からの見られ方を意識しようと思いました笑 本社メンバーは常にエンジニアの皆さんのために動いていて業務後の時間も面談対応があったり忙しく動いてくれているので、顧客との打ち合わせのない時ぐらいは服装は自由にしてほしいという思いがあったりします。 オフィスは、とても閑静で渋谷とは思えない雰囲気で割と気に入っています！素敵といっていただいてありがとうございます！ 次回は大阪でお会いしましょう！あらためてはるばるお越しいただきありがとうございました！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792453168.697689",
+          "threadTs": "1792394488.551589",
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> 永井さん、昨日はご来社いただきありがとうございました！ パリッとした雰囲気を感じていただけたかなと思います。そんな中ゆるゆるな服装で申し訳ないです、そろそろ人からの見られ方を意識しようと思いました笑 本社メンバーは常にエンジニアの皆さんのために動いていて業務後の時間も面談対応があったり忙しく動いてくれているので、顧客との打ち合わせのない時ぐらいは服装は自由にしてほしいという思いがあったりします。 オフィスは、とても閑静で渋谷とは思えない雰囲気で割と気に入っています！素敵といっていただいてありがとうございます！ 次回は大阪でお会いしましょう！あらためてはるばるお越しいただきありがとうございました！\nソーシャル\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792460985.747139",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792460985.747139",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792460985.747139",
+      "timestamp": "2026-10-20T01:49:45.747Z",
+      "detailBullets": [
+        "<@U0B6FN76QUF> さん :tada:Happy Birthday:tada: 昨日はお誕生日でしたね！ おめでとうございます！ 良い一年になりますように:sparkles:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792460985.747139",
+          "text": "<@U0B6FN76QUF> さん :tada:Happy Birthday:tada: 昨日はお誕生日でしたね！ おめでとうございます！ 良い一年になりますように:sparkles:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792460985.747139",
+          "threadTs": "1792460985.747139",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U0B6FN76QUF> さん :tada:Happy Birthday:tada: 昨日はお誕生日でしたね！ おめでとうございます！ 良い一年になりますように:sparkles:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792461563.866409",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:藤井芙美子",
+      "personName": "藤井芙美子",
+      "slackIds": [
+        "U0A9EE7HZ3P"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792461563.866409",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792461563.866409",
+      "timestamp": "2026-10-20T01:59:23.866Z",
+      "detailBullets": [
+        "<@U09QZF7KT2P> さん 昨日はお会いできて本当に良かったです！ ボブヘアもお似合いでした:+1::heart: 今度はお抹茶と生菓子食べられるところに一緒に行きましょう:yum: 関西も行きたい！:bullettrain_front:"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792461563.866409",
+          "text": "<@U09QZF7KT2P> さん 昨日はお会いできて本当に良かったです！ ボブヘアもお似合いでした:+1::heart: 今度はお抹茶と生菓子食べられるところに一緒に行きましょう:yum: 関西も行きたい！:bullettrain_front:",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792461563.866409",
+          "threadTs": "1792394488.551589",
+          "authorName": "藤井芙美子",
+          "permalink": null
+        }
+      ],
+      "searchText": "<@U09QZF7KT2P> さん 昨日はお会いできて本当に良かったです！ ボブヘアもお似合いでした:+1::heart: 今度はお抹茶と生菓子食べられるところに一緒に行きましょう:yum: 関西も行きたい！:bullettrain_front:\nソーシャル\nSales"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792463269.739069",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:松井誠",
+      "personName": "松井誠",
+      "slackIds": [
+        "U0BBLLB4YE8"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792463269.739069",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792463269.739069",
+      "timestamp": "2026-10-20T02:27:49.739Z",
+      "detailBullets": [
+        "雨が降りそうな天気の中、稼働お疲れ様です。 いつも独り言を呟いている人です。 最近、気圧が安定しないので、古傷が痛み出す今日この頃皆様いかがでしょうか、最近気温も安定しないので、風邪を引かれませんようご留意ください、私がいえた義理ではございませんが（笑） 前談は置いておきまして、 何方かサバイバルゲームなどにご興味がある方はいらっしゃいますでしょうか？ もしご興味があるという方がいらっしゃいましたら、メッセージ頂ければとと思います。"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792463269.739069",
+          "text": "雨が降りそうな天気の中、稼働お疲れ様です。 いつも独り言を呟いている人です。 最近、気圧が安定しないので、古傷が痛み出す今日この頃皆様いかがでしょうか、最近気温も安定しないので、風邪を引かれませんようご留意ください、私がいえた義理ではございませんが（笑） 前談は置いておきまして、 何方かサバイバルゲームなどにご興味がある方はいらっしゃいますでしょうか？ もしご興味があるという方がいらっしゃいましたら、メッセージ頂ければとと思います。",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792463269.739069",
+          "threadTs": null,
+          "authorName": "松井誠",
+          "permalink": null
+        }
+      ],
+      "searchText": "雨が降りそうな天気の中、稼働お疲れ様です。 いつも独り言を呟いている人です。 最近、気圧が安定しないので、古傷が痛み出す今日この頃皆様いかがでしょうか、最近気温も安定しないので、風邪を引かれませんようご留意ください、私がいえた義理ではございませんが（笑） 前談は置いておきまして、 何方かサバイバルゲームなどにご興味がある方はいらっしゃいますでしょうか？ もしご興味があるという方がいらっしゃいましたら、メッセージ頂ければとと思います。\nソーシャル\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09N28KTKL1:1792464087.452409",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:稲村涼",
+      "personName": "稲村涼",
+      "slackIds": [
+        "U0B6FN76QUF"
+      ],
+      "message": "message:primary:C09N28KTKL1:1792464087.452409",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ソーシャル",
+      "topicLabel": "ソーシャル",
+      "messageTs": "1792464087.452409",
+      "timestamp": "2026-10-20T02:41:27.452Z",
+      "detailBullets": [
+        "ありがとうございます！"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09N28KTKL1:1792464087.452409",
+          "text": "ありがとうございます！",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "messageTs": "1792464087.452409",
+          "threadTs": "1792460985.747139",
+          "authorName": "稲村涼",
+          "permalink": null
+        }
+      ],
+      "searchText": "ありがとうございます！\nソーシャル\nOther"
     }
   ]
 }
