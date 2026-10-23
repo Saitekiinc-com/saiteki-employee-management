@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-10-22T04:05:34.013Z",
+  "generatedAt": "2026-10-23T04:08:57.197Z",
   "channelCount": 15,
-  "totalMessages": 3462,
+  "totalMessages": 3466,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -46711,11 +46711,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09Q46YA4ER:1792643137.891399",
+          "workspace": "primary",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "user": "U0C9228AE0J",
+          "userName": "上田篤史",
+          "userRealName": "上田篤史",
+          "text": "はじめまして。 2027年1月入社予定の上田篤史(うえたあつし)と申します。 :white_small_square:出身地 千葉県 流山市 :white_small_square:経歴 1年半ほどサーバーの運用監視に携わった後、1年半ほどサーバーの構築業務に携わり、現在はサーバーの保守の業務をしています 主にLINUXに触れている機会が長かったです :white_small_square:趣味 ゲーム、古着、スポーツ :white_small_square:ひとこと 新しい知識を得ること、経験することが好きなので、どんどん挑戦をしていこうと思っております クラウド系の知識を主に増やしていこうと考えております よろしくお願いいたします",
+          "rawText": "はじめまして。\n2027年1月入社予定の上田篤史(うえたあつし)と申します。\n:white_small_square:出身地\n千葉県　流山市\n:white_small_square:経歴\n1年半ほどサーバーの運用監視に携わった後、1年半ほどサーバーの構築業務に携わり、現在はサーバーの保守の業務をしています\n主にLINUXに触れている機会が長かったです\n:white_small_square:趣味\nゲーム、古着、スポーツ\n:white_small_square:ひとこと\n新しい知識を得ること、経験することが好きなので、どんどん挑戦をしていこうと思っております\nクラウド系の知識を主に増やしていこうと考えております\nよろしくお願いいたします",
+          "messageTs": "1792643137.891399",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-22",
+          "timestamp": "2026-10-22T04:25:37.891Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 504,
+      "messageCount": 505,
       "firstDate": "2025-11-02",
-      "lastDate": "2026-10-21"
+      "lastDate": "2026-10-22"
     },
     {
       "id": "C09MKT8QKAR",
@@ -55042,11 +55062,51 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1792663878.306169",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0BJ4BB4F7W",
+          "userName": "渡邉 碩人",
+          "userRealName": "渡邉 碩人",
+          "text": "<!channel> Slackデスクトップアプリもセキュリティ修正対応が入ってるみたいです。 <https://slack.com/intl/ja-jp/release-notes/mac|https://slack.com/intl/ja-jp/release-notes/mac> <https://slack.com/intl/ja-jp/release-notes/windows|https://slack.com/intl/ja-jp/release-notes/windows>",
+          "rawText": "<!channel> \nSlackデスクトップアプリもセキュリティ修正対応が入ってるみたいです。\n\n<https://slack.com/intl/ja-jp/release-notes/mac|https://slack.com/intl/ja-jp/release-notes/mac> \n<https://slack.com/intl/ja-jp/release-notes/windows|https://slack.com/intl/ja-jp/release-notes/windows>",
+          "messageTs": "1792663878.306169",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-22",
+          "timestamp": "2026-10-22T10:11:18.306Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1792714121.054549",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U0BK4336Q2X",
+          "userName": "Rio",
+          "userRealName": "Rio",
+          "text": "<!channel> :loudspeaker: *勉強会 第4回 開催のお知らせ* 第4回は、<@U0BCBMQTHTP> さんにご登壇いただきます！:clap: 今回のテーマは、 「上流志向とQAエキスパート」 現代のエンジニアのキャリアの在り方について、平野さんが調査された内容や考察をもとにお話しいただきます:bulb: 「上流を目指す」というキャリアだけでなく、 QA領域で専門性を高めていくキャリアという視点も含めて、これからのエンジニアの働き方・キャリアについて考える内容です！ 少しマニアックな視点もありつつ、初級〜中級エンジニアの方にもおすすめの内容となっています:raised_hands: ＝＝＝＝＝＝＝＝ :date: 詳細 ■日時 11月25日（水）20:00〜 ■形式 オンライン <https://meet.google.com/yar-ykfq-jyq|meet.google.com/yar-ykfq-jyq> ＝＝＝＝＝＝＝＝ 今後のキャリアを考えたい方や、エンジニアとしての選択肢を広げたい方は、ぜひご参加ください！:sparkles: よろしくお願いいたします！",
+          "rawText": "<!channel>\n:loudspeaker: *勉強会 第4回 開催のお知らせ*\n第4回は、<@U0BCBMQTHTP> さんにご登壇いただきます！:clap:\n\n今回のテーマは、\n「上流志向とQAエキスパート」\n現代のエンジニアのキャリアの在り方について、平野さんが調査された内容や考察をもとにお話しいただきます:bulb:\n\n「上流を目指す」というキャリアだけでなく、\nQA領域で専門性を高めていくキャリアという視点も含めて、これからのエンジニアの働き方・キャリアについて考える内容です！\n少しマニアックな視点もありつつ、初級〜中級エンジニアの方にもおすすめの内容となっています:raised_hands:\n\n＝＝＝＝＝＝＝＝\n:date: 詳細\n■日時\n11月25日（水）20:00〜\n■形式\nオンライン\n<https://meet.google.com/yar-ykfq-jyq|meet.google.com/yar-ykfq-jyq>\n＝＝＝＝＝＝＝＝\n\n今後のキャリアを考えたい方や、エンジニアとしての選択肢を広げたい方は、ぜひご参加ください！:sparkles:\nよろしくお願いいたします！",
+          "messageTs": "1792714121.054549",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-23",
+          "timestamp": "2026-10-23T00:08:41.054Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 416,
+      "messageCount": 418,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-10-21"
+      "lastDate": "2026-10-23"
     },
     {
       "id": "C09QXV3F8G0",
@@ -62213,11 +62273,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1792710296.605449",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-22_ 1. _Agentic AI Foundation、4つの新プロジェクトを発表_ └ AGNTCon + MCPCon North America（サンノゼ）にて、Agent Skills（Anthropic提供）・Open Responses（OpenAI）・OpenEnv・OpenSandbox（Alibaba）の4プロジェクトを発表。AIコーディングエージェント・MCPのオープンスタンダード化が加速。 :link: <https://prnewswire.com/news-releases/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox-302916689.html|prnewswire.com/news-releases/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox…> 2. _Recursive、AIが主体的に構築したラップトップ向けコーディングモデル「Flint」を無料公開_ └ AIスタートアップRecursiveが、AI自身が大部分を構築したオンデバイスのコーディングモデル「Flint」を無料リリース。高性能ラップトップ上で動作し、クラウド依存なしでコーディング支援が可能。 :link: <https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/|techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai> 3. _GitHub Copilot、MAI Code 1.1 Flashによるローカル/クラウド自動ルーティングを発表_ └ MicrosoftがオンデバイスAIモデル「MAI Code 1.1 Flash」（137B MoE・有効パラメータ約6.8B）を発表。GitHub Copilotがタスク内容に応じてローカルとクラウドを自動切り替えし、SWE-Bench 70.80%を達成。10月末ローンチ予定。 :link: <https://alphasignal.ai/news/github-copilot-routes-tasks-between-local-and-cloud-using-mai-code-1-1-flash|alphasignal.ai/news/github-copilot-routes-tasks-between-local-and-cloud-using-mai-code-1-1-flash> 4. _VS Code 1.140、HydraFusion AIルーティングと4段階モデル選択を追加_ └ VS Code最新版1.140にHydraFusion AIルーティング機能が搭載。タスクの複雑さに応じてAIモデルを4段階で自動選択し、コスト効率と応答速度のバランスを最適化。GitHub Copilotと連携して動作。 :link: <https://tech-insider.org/vscode-hydrafusion-ai-routing-preview-2026/|tech-insider.org/vscode-hydrafusion-ai-routing-preview-2026> 5. _Software Design 2026年10月号：Agentic Codingの「ハーネスエンジニアリング」特集_ └ 技術評論社のSoftware Design誌がAgentic Codingの実践に不可欠な「ハーネス設計」を特集。Claude Code等のAIエージェントを自走させるためのCLAUDE.md設定・テスト自動化・実行環境制御のノウハウを解説。 :link: <https://gihyo.jp/article/2026/10/agentic-coding-and-harness-engineering|gihyo.jp/article/2026/10/agentic-coding-and-harness-engineering> *使用して送信されました* Claude",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-10-22_\n\n1. _Agentic AI Foundation、4つの新プロジェクトを発表_\n└ AGNTCon + MCPCon North America（サンノゼ）にて、Agent Skills（Anthropic提供）・Open Responses（OpenAI）・OpenEnv・OpenSandbox（Alibaba）の4プロジェクトを発表。AIコーディングエージェント・MCPのオープンスタンダード化が加速。\n:link: <https://prnewswire.com/news-releases/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox-302916689.html|prnewswire.com/news-releases/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox…>\n2. _Recursive、AIが主体的に構築したラップトップ向けコーディングモデル「Flint」を無料公開_\n└ AIスタートアップRecursiveが、AI自身が大部分を構築したオンデバイスのコーディングモデル「Flint」を無料リリース。高性能ラップトップ上で動作し、クラウド依存なしでコーディング支援が可能。\n:link: <https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/|techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai>\n3. _GitHub Copilot、MAI Code 1.1 Flashによるローカル/クラウド自動ルーティングを発表_\n└ MicrosoftがオンデバイスAIモデル「MAI Code 1.1 Flash」（137B MoE・有効パラメータ約6.8B）を発表。GitHub Copilotがタスク内容に応じてローカルとクラウドを自動切り替えし、SWE-Bench 70.80%を達成。10月末ローンチ予定。\n:link: <https://alphasignal.ai/news/github-copilot-routes-tasks-between-local-and-cloud-using-mai-code-1-1-flash|alphasignal.ai/news/github-copilot-routes-tasks-between-local-and-cloud-using-mai-code-1-1-flash>\n4. _VS Code 1.140、HydraFusion AIルーティングと4段階モデル選択を追加_\n└ VS Code最新版1.140にHydraFusion AIルーティング機能が搭載。タスクの複雑さに応じてAIモデルを4段階で自動選択し、コスト効率と応答速度のバランスを最適化。GitHub Copilotと連携して動作。\n:link: <https://tech-insider.org/vscode-hydrafusion-ai-routing-preview-2026/|tech-insider.org/vscode-hydrafusion-ai-routing-preview-2026>\n5. _Software Design 2026年10月号：Agentic Codingの「ハーネスエンジニアリング」特集_\n└ 技術評論社のSoftware Design誌がAgentic Codingの実践に不可欠な「ハーネス設計」を特集。Claude Code等のAIエージェントを自走させるためのCLAUDE.md設定・テスト自動化・実行環境制御のノウハウを解説。\n:link: <https://gihyo.jp/article/2026/10/agentic-coding-and-harness-engineering|gihyo.jp/article/2026/10/agentic-coding-and-harness-engineering> *使用して送信されました* Claude",
+          "messageTs": "1792710296.605449",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-10-22",
+          "timestamp": "2026-10-22T23:04:56.605Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 358,
+      "messageCount": 359,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-10-21"
+      "lastDate": "2026-10-22"
     },
     {
       "id": "C0AARGDBC3V",

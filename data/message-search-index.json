@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-10-22T04:05:22.797Z",
+  "generatedAt": "2026-10-23T04:08:52.068Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -110118,6 +110118,143 @@
         }
       ],
       "searchText": "はじめまして。 2027年1月入社予定の大竹祐一(おおたけ ゆういち)と申します。 :white_small_square:出身地 神奈川県 横浜市 :white_small_square:経歴 1年半ほどサーバーの運用保守に携わった後、現在の移動体通信業における進捗管理業務に携わっております。 運用保守当時はAzureを使用したWindowsサーバを見ておりました。 :white_small_square:趣味 ゲームや旅行、あとはご飯を食べるのが好きです。 コーヒーや紅茶、お酒なども好きです。 :white_small_square:ひとこと 何かを知ることが好きなので多岐にわたる経験が出来るよう、多くの方と積極的に関わって沢山のことを吸収出来るよう努めますので、何卒よろしくお願いします。\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09Q46YA4ER:1792643137.891399",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:上田篤史",
+      "personName": "上田篤史",
+      "slackIds": [
+        "U0C9228AE0J"
+      ],
+      "message": "message:primary:C09Q46YA4ER:1792643137.891399",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: 自己紹介",
+      "topicLabel": "自己紹介",
+      "messageTs": "1792643137.891399",
+      "timestamp": "2026-10-22T04:25:37.891Z",
+      "detailBullets": [
+        "はじめまして。 2027年1月入社予定の上田篤史(うえたあつし)と申します。 :white_small_square:出身地 千葉県 流山市 :white_small_square:経歴 1年半ほどサーバーの運用監視に携わった後、1年半ほどサーバーの構築業務に携わり、現在はサーバーの保守の業務をしています 主にLINUXに触れている機会が長かったです :white_small_square:趣味 ゲーム、古着、スポーツ :white_small_square:ひとこと 新しい知識を得ること、経験することが好きなので、どんどん挑戦をしていこうと思っております クラウド系の知識を主に増やしていこうと考えております よろしくお願いいたします"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09Q46YA4ER:1792643137.891399",
+          "text": "はじめまして。 2027年1月入社予定の上田篤史(うえたあつし)と申します。 :white_small_square:出身地 千葉県 流山市 :white_small_square:経歴 1年半ほどサーバーの運用監視に携わった後、1年半ほどサーバーの構築業務に携わり、現在はサーバーの保守の業務をしています 主にLINUXに触れている機会が長かったです :white_small_square:趣味 ゲーム、古着、スポーツ :white_small_square:ひとこと 新しい知識を得ること、経験することが好きなので、どんどん挑戦をしていこうと思っております クラウド系の知識を主に増やしていこうと考えております よろしくお願いいたします",
+          "channelId": "C09Q46YA4ER",
+          "channelName": "自己紹介",
+          "messageTs": "1792643137.891399",
+          "threadTs": null,
+          "authorName": "上田篤史",
+          "permalink": null
+        }
+      ],
+      "searchText": "はじめまして。 2027年1月入社予定の上田篤史(うえたあつし)と申します。 :white_small_square:出身地 千葉県 流山市 :white_small_square:経歴 1年半ほどサーバーの運用監視に携わった後、1年半ほどサーバーの構築業務に携わり、現在はサーバーの保守の業務をしています 主にLINUXに触れている機会が長かったです :white_small_square:趣味 ゲーム、古着、スポーツ :white_small_square:ひとこと 新しい知識を得ること、経験することが好きなので、どんどん挑戦をしていこうと思っております クラウド系の知識を主に増やしていこうと考えております よろしくお願いいたします\n自己紹介\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1792663878.306169",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:渡邉 碩人",
+      "personName": "渡邉 碩人",
+      "slackIds": [
+        "U0BJ4BB4F7W"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1792663878.306169",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1792663878.306169",
+      "timestamp": "2026-10-22T10:11:18.306Z",
+      "detailBullets": [
+        "<!channel> Slackデスクトップアプリもセキュリティ修正対応が入ってるみたいです。 <https://slack.com/intl/ja-jp/release-notes/mac|https://slack.com/intl/ja-jp/release-notes/mac> <https://slack.com/intl/ja-jp/release-notes/windows|https://slack.com/intl/ja-jp/release-notes/windows>"
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1792663878.306169",
+          "text": "<!channel> Slackデスクトップアプリもセキュリティ修正対応が入ってるみたいです。 <https://slack.com/intl/ja-jp/release-notes/mac|https://slack.com/intl/ja-jp/release-notes/mac> <https://slack.com/intl/ja-jp/release-notes/windows|https://slack.com/intl/ja-jp/release-notes/windows>",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1792663878.306169",
+          "threadTs": null,
+          "authorName": "渡邉 碩人",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> Slackデスクトップアプリもセキュリティ修正対応が入ってるみたいです。 <https://slack.com/intl/ja-jp/release-notes/mac|https://slack.com/intl/ja-jp/release-notes/mac> <https://slack.com/intl/ja-jp/release-notes/windows|https://slack.com/intl/ja-jp/release-notes/windows>\nall-saiteki\nOther"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1792710296.605449",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1792710296.605449",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1792710296.605449",
+      "timestamp": "2026-10-22T23:04:56.605Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-10-22_ 1. _Agentic AI Foundation、4つの新プロジェクトを発表_ └ AGNTCon + MCPCon North America（サンノゼ）にて、Agent Skills（Anthropic提供）・Open Responses（OpenAI）・OpenEnv・OpenSandbox（Alibaba）の4プロジェクトを発表。AIコーディングエージェント・MCPのオープンスタンダード化が加速。 :link: <https://prnewswire.com/news-releases/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox-302916689.html|prnewswire.com/news-releases/agentic-ai-foundation-announces-four-new-projects-agent-skills-..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1792710296.605449",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-10-22_ 1. _Agentic AI Foundation、4つの新プロジェクトを発表_ └ AGNTCon + MCPCon North America（サンノゼ）にて、Agent Skills（Anthropic提供）・Open Responses（OpenAI）・OpenEnv・OpenSandbox（Alibaba）の4プロジェクトを発表。AIコーディングエージェント・MCPのオープンスタンダード化が加速。 :link: <https://prnewswire.com/news-releases/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox-302916689.html|prnewswire.com/news-releases/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox…> 2. _Recursive、AIが主体的に構築したラップトップ向けコーディングモデル「Flint」を無料公開_ └ AIスタートアップRecursiveが、AI自身が大部分を構築したオンデバイスのコーディングモデル「Flint」を無料リリース。高性能ラップトップ上で動作し、クラウド依存なしでコーディング支援が可能。 ...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1792710296.605449",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-10-22_ 1. _Agentic AI Foundation、4つの新プロジェクトを発表_ └ AGNTCon + MCPCon North America（サンノゼ）にて、Agent Skills（Anthropic提供）・Open Responses（OpenAI）・OpenEnv・OpenSandbox（Alibaba）の4プロジェクトを発表。AIコーディングエージェント・MCPのオープンスタンダード化が加速。 :link: <https://prnewswire.com/news-releases/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox-302916689.html|prnewswire.com/news-releases/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox…> 2. _Recursive、AIが主体的に構築したラップトップ向けコーディングモデル「Flint」を無料公開_ └ AIスタートアップRecursiveが、AI自身が大部分を構築したオンデバイスのコーディングモデル「Flint」を無料リリース。高性能ラップトップ上で動作し、クラウド依存なしでコーディング支援が可能。 :link: <https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/|techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai> 3. _GitHub Copilot、MAI Code 1.1 Flashによるローカル/クラウド自動ルーティングを発表_ └ MicrosoftがオンデバイスAIモデル「MAI Code 1.1 Flash」（137B MoE・有効パラメータ約6.8B）を発表。GitHub Copilotがタスク内容に応じてローカルとクラウドを自動切り替えし、SWE-Bench 70.80%を達成。10月末ローンチ予定。 :link: <https://alphasignal.ai/news/github-copilot-routes-tasks-be...\nai駆動開発ネタ\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09MKT8QKAR:1792714121.054549",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:Rio",
+      "personName": "Rio",
+      "slackIds": [
+        "U0BK4336Q2X"
+      ],
+      "message": "message:primary:C09MKT8QKAR:1792714121.054549",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: all-saiteki",
+      "topicLabel": "all-saiteki",
+      "messageTs": "1792714121.054549",
+      "timestamp": "2026-10-23T00:08:41.054Z",
+      "detailBullets": [
+        "<!channel> :loudspeaker: *勉強会 第4回 開催のお知らせ* 第4回は、<@U0BCBMQTHTP> さんにご登壇いただきます！:clap: 今回のテーマは、 「上流志向とQAエキスパート」 現代のエンジニアのキャリアの在り方について、平野さんが調査された内容や考察をもとにお話しいただきます:bulb: 「上流を目指す」というキャリアだけでなく、 QA領域で専門性を高めていくキャリアという視点も含めて、これからのエンジニアの働き方・キャリアについて考える内容です！ 少しマニアックな視点もありつつ、初級〜中級エンジニアの方にもおすすめの内容となっています:raised_hands: ＝＝＝＝＝＝＝＝ :date: 詳細 ■日時 11月25日（水）20:00〜 ■形式 オンライン <https://meet.google.com/yar-ykfq-jyq|meet.google.com/yar-ykfq-jyq> ＝＝＝＝＝＝＝＝ 今後のキャリアを考えたい方や、エンジニアとしての選択肢を広げたい方は、ぜひご参加ください！:sparkles: よろしくお願いいたしま..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09MKT8QKAR:1792714121.054549",
+          "text": "<!channel> :loudspeaker: *勉強会 第4回 開催のお知らせ* 第4回は、<@U0BCBMQTHTP> さんにご登壇いただきます！:clap: 今回のテーマは、 「上流志向とQAエキスパート」 現代のエンジニアのキャリアの在り方について、平野さんが調査された内容や考察をもとにお話しいただきます:bulb: 「上流を目指す」というキャリアだけでなく、 QA領域で専門性を高めていくキャリアという視点も含めて、これからのエンジニアの働き方・キャリアについて考える内容です！ 少しマニアックな視点もありつつ、初級〜中級エンジニアの方にもおすすめの内容となっています:raised_hands: ＝＝＝＝＝＝＝＝ :date: 詳細 ■日時 11月25日（水）20:00〜 ■形式 オンライン <https://meet.google.com/yar-ykfq-jyq|meet.google.com/yar-ykfq-jyq> ＝＝＝＝＝＝＝＝ 今後のキャリアを考えたい方や、エンジニアとしての選択肢を広げたい方は、ぜひご参加ください！:sparkles: よろしくお願いいたします！",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "messageTs": "1792714121.054549",
+          "threadTs": null,
+          "authorName": "Rio",
+          "permalink": null
+        }
+      ],
+      "searchText": "<!channel> :loudspeaker: *勉強会 第4回 開催のお知らせ* 第4回は、<@U0BCBMQTHTP> さんにご登壇いただきます！:clap: 今回のテーマは、 「上流志向とQAエキスパート」 現代のエンジニアのキャリアの在り方について、平野さんが調査された内容や考察をもとにお話しいただきます:bulb: 「上流を目指す」というキャリアだけでなく、 QA領域で専門性を高めていくキャリアという視点も含めて、これからのエンジニアの働き方・キャリアについて考える内容です！ 少しマニアックな視点もありつつ、初級〜中級エンジニアの方にもおすすめの内容となっています:raised_hands: ＝＝＝＝＝＝＝＝ :date: 詳細 ■日時 11月25日（水）20:00〜 ■形式 オンライン <https://meet.google.com/yar-ykfq-jyq|meet.google.com/yar-ykfq-jyq> ＝＝＝＝＝＝＝＝ 今後のキャリアを考えたい方や、エンジニアとしての選択肢を広げたい方は、ぜひご参加ください！:sparkles: よろしくお願いいたします！\nall-saiteki\nOther"
     }
   ]
 }
