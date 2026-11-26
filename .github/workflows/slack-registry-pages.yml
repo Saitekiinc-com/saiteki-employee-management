@@ -64,19 +64,13 @@ jobs:
         if: steps.data_changes.outputs.changed == 'true'
         run: npm run build:message-search-index
 
-      - name: Embed Message Search Index
-        id: embed_message_index
+      - name: Note Message Embeddings
         if: steps.data_changes.outputs.changed == 'true'
-        continue-on-error: true
-        run: npm run embed:message-search-index
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-
-      - name: Report embedding failure
-        if: steps.embed_message_index.outcome == 'failure'
         run: |
-          echo "::warning title=Gemini embedding unavailable::Slack messages were synced, but the message search embeddings were not refreshed. Check Gemini API billing and rerun the workflow after restoring credits."
-          echo "⚠️ Slack messages and export pages will still be updated, but message vector search may not include the latest messages until Gemini embeddings are generated." >> "$GITHUB_STEP_SUMMARY"
+          echo "::notice title=Message embeddings skipped::Slack data and export pages will be updated without calling Gemini. Message vector search may not include the latest messages."
+          echo "### Message embeddings skipped" >> "$GITHUB_STEP_SUMMARY"
+          echo "Slack data, the text search index, and export pages will be updated. Gemini embeddings were not regenerated, so message vector search may not include the latest messages." >> "$GITHUB_STEP_SUMMARY"
+          echo "Run the dedicated Build Message Search Index workflow after Gemini API credits are available to refresh embeddings." >> "$GITHUB_STEP_SUMMARY"
 
       - name: Build Slack Export Pages
         if: steps.data_changes.outputs.changed == 'true'

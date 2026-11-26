@@ -63,10 +63,12 @@ jobs:
       - name: Build Message Search Index
         run: npm run build:message-search-index
 
-      - name: Embed Message Search Index
-        run: npm run embed:message-search-index
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Note Message Embeddings
+        run: |
+          echo "::notice title=Message embeddings skipped::Slack data and export pages will be updated without calling Gemini. Message vector search may not include the latest messages."
+          echo "### Message embeddings skipped" >> "$GITHUB_STEP_SUMMARY"
+          echo "Slack data, the text search index, and export pages will be updated. Gemini embeddings were not regenerated, so message vector search may not include the latest messages." >> "$GITHUB_STEP_SUMMARY"
+          echo "Run the dedicated Build Message Search Index workflow after Gemini API credits are available to refresh embeddings." >> "$GITHUB_STEP_SUMMARY"
 
       - name: Build Slack Export Pages
         run: npm run build:slack-export-pages
