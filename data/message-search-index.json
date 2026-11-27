@@ -6,7 +6,7 @@
     "message": "saiteki:message",
     "searchText": "saiteki:searchText"
   },
-  "generatedAt": "2026-11-26T13:14:26.722Z",
+  "generatedAt": "2026-11-27T07:41:49.818Z",
   "sourceFiles": [
     "data/slack-messages.jsonl",
     "data/employees.json"
@@ -119460,6 +119460,41 @@
         }
       ],
       "searchText": "忘年会の参加者数ですが、気づいたら45人となりました:beer: 40人で予約していたのもあってお店に連絡したら、60人までは入れるとのことでした！！ 迷っている方や予定が調整できた方は、せっかくなのでぜひ参加登録をしてください:palms_up_together: • 日時：12月18日（金）19:30〜 • 会場：Cafe Cotton Club 高田馬場 • 場所：東京都新宿区高田馬場1-17-14 SOUNDS bldg. 3F <http://cafecottonclub.com|cafecottonclub.com> • アクセス：東京メトロ東西線「高田馬場駅」7番出口すぐ • 参加費：無料 • 申し込みフォーム：<http://docs.google.com/forms/…/viewform|docs.google.com/forms/…/viewform>\nall-saiteki\n経営"
+    },
+    {
+      "@id": "search-message:primary:C09QXV3F8G0:1795734292.212309",
+      "@type": "saiteki:MessageSearchUnit",
+      "person": "person:戸塚直道",
+      "personName": "戸塚直道",
+      "slackIds": [
+        "U09MGUVJ8BV",
+        "U07288UDABX"
+      ],
+      "message": "message:primary:C09QXV3F8G0:1795734292.212309",
+      "semanticType": "slack_message",
+      "category": "message",
+      "sourceField": "data/slack-messages.jsonl",
+      "sourceLabel": "Slackメッセージ",
+      "relationLabel": "Slack発言: ai駆動開発ネタ",
+      "topicLabel": "ai駆動開発ネタ",
+      "messageTs": "1795734292.212309",
+      "timestamp": "2026-11-26T23:04:52.212Z",
+      "detailBullets": [
+        ":newspaper: _AI駆動開発 ニュース - 2026-11-26_ 1. _Claude Code「Don't Ask Again」ファイルでパスワード・APIキーが漏洩 — 1,994件のGitHub公開リポジトリが対象_ └ Claude Codeの設定ファイル（.claude/settings.local.json）に承認済みコマンドが保存される際、APIキーや環境変数などの認証情報も記録されることが判明。公開GitHub上の1,994件のリポジトリで2,539件の認証情報が露出している。.gitignoreへの追加など即時対応が必要。 :link: <https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html|thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html> 2. _GitHub CopilotがChromeとEdgeでブラウザ操作エージェントに（パブリックプレビュー）_ └ MicrosoftがGitH..."
+      ],
+      "quotes": [
+        {
+          "messageId": "message:primary:C09QXV3F8G0:1795734292.212309",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-11-26_ 1. _Claude Code「Don't Ask Again」ファイルでパスワード・APIキーが漏洩 — 1,994件のGitHub公開リポジトリが対象_ └ Claude Codeの設定ファイル（.claude/settings.local.json）に承認済みコマンドが保存される際、APIキーや環境変数などの認証情報も記録されることが判明。公開GitHub上の1,994件のリポジトリで2,539件の認証情報が露出している。.gitignoreへの追加など即時対応が必要。 :link: <https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html|thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html> 2. _GitHub CopilotがChromeとEdgeでブラウザ操作エージェントに（パブリックプレビュー）_ └ MicrosoftがGitHub CopilotのChrome・Edge拡張を公開。ボタンクリックやフォーム入力などWebブラウザ操作をAIが自動化するエージェント機能がパブリックプレビュー開始。VS Code・JetBrains・Copilot CLIと連携して動作する。 :link: <https://www.neowin.net/news/github-copilot-can-now-click-buttons-and...",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "messageTs": "1795734292.212309",
+          "threadTs": null,
+          "authorName": "戸塚直道",
+          "permalink": null
+        }
+      ],
+      "searchText": ":newspaper: _AI駆動開発 ニュース - 2026-11-26_ 1. _Claude Code「Don't Ask Again」ファイルでパスワード・APIキーが漏洩 — 1,994件のGitHub公開リポジトリが対象_ └ Claude Codeの設定ファイル（.claude/settings.local.json）に承認済みコマンドが保存される際、APIキーや環境変数などの認証情報も記録されることが判明。公開GitHub上の1,994件のリポジトリで2,539件の認証情報が露出している。.gitignoreへの追加など即時対応が必要。 :link: <https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html|thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html> 2. _GitHub CopilotがChromeとEdgeでブラウザ操作エージェントに（パブリックプレビュー）_ └ MicrosoftがGitHub CopilotのChrome・Edge拡張を公開。ボタンクリックやフォーム入力などWebブラウザ操作をAIが自動化するエージェント機能がパブリックプレビュー開始。VS Code・JetBrains・Copilot CLIと連携して動作する。 :link: <https://www.neowin.net/news/github-copilot-can-now-click-buttons-and-fill-out-forms-in-your-browser/|neowin.net/news/github-copilot-can-now-click-buttons-and-fill-out-forms-in-your-browser> 3. _Microsoft Copilot SDK 2.0 発表（旧：GitHub Copilot SDK）_ └ MicrosoftがIgniteでGitHub Copilot SDKをMicrosoft Copilot SDK 2.0に改称・刷新。Copilotハーネスへのプログラマティックアクセスを提供し、AIエージェント開発の基盤として位置づけ。 :link: <https://commandline.microsoft.com/microsoft-copilot-sdk-2-0-github/|commandline.microsoft.com/microsoft-copilot-sdk-2-0-github> 4. _Cursor、中国製オープンウェイトAIモデルの段階廃止を米議会で証言_ └ AIコーディングツールCursorが米議...\nai駆動開発ネタ\n経営"
     }
   ]
 }

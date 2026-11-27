@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-11-26T13:14:26.966Z",
+  "generatedAt": "2026-11-27T07:41:50.188Z",
   "channelCount": 15,
-  "totalMessages": 3732,
+  "totalMessages": 3733,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -67513,11 +67513,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1795734292.212309",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-11-26_ 1. _Claude Code「Don't Ask Again」ファイルでパスワード・APIキーが漏洩 — 1,994件のGitHub公開リポジトリが対象_ └ Claude Codeの設定ファイル（.claude/settings.local.json）に承認済みコマンドが保存される際、APIキーや環境変数などの認証情報も記録されることが判明。公開GitHub上の1,994件のリポジトリで2,539件の認証情報が露出している。.gitignoreへの追加など即時対応が必要。 :link: <https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html|thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html> 2. _GitHub CopilotがChromeとEdgeでブラウザ操作エージェントに（パブリックプレビュー）_ └ MicrosoftがGitHub CopilotのChrome・Edge拡張を公開。ボタンクリックやフォーム入力などWebブラウザ操作をAIが自動化するエージェント機能がパブリックプレビュー開始。VS Code・JetBrains・Copilot CLIと連携して動作する。 :link: <https://www.neowin.net/news/github-copilot-can-now-click-buttons-and-fill-out-forms-in-your-browser/|neowin.net/news/github-copilot-can-now-click-buttons-and-fill-out-forms-in-your-browser> 3. _Microsoft Copilot SDK 2.0 発表（旧：GitHub Copilot SDK）_ └ MicrosoftがIgniteでGitHub Copilot SDKをMicrosoft Copilot SDK 2.0に改称・刷新。Copilotハーネスへのプログラマティックアクセスを提供し、AIエージェント開発の基盤として位置づけ。 :link: <https://commandline.microsoft.com/microsoft-copilot-sdk-2-0-github/|commandline.microsoft.com/microsoft-copilot-sdk-2-0-github> 4. _Cursor、中国製オープンウェイトAIモデルの段階廃止を米議会で証言_ └ AIコーディングツールCursorが米議会の2委員会に対し、地政学的リスクを理由としてMoonshot AI製Kimi K2.5などの中国製モデルの廃止を検討していると証言。法的強制力はないものの、AIコーディングツールの地政学的動向として注目。 :link: <https://www.techzine.eu/news/devops/145957/cursor-is-considering-phasing-out-chinese-ai-models/|techzine.eu/news/devops/145957/cursor-is-considering-phasing-out-chinese-ai-models> *使用して送信されました* <@U0CJM55UBB8>",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-11-26_\n\n1. _Claude Code「Don't Ask Again」ファイルでパスワード・APIキーが漏洩 — 1,994件のGitHub公開リポジトリが対象_\n└ Claude Codeの設定ファイル（.claude/settings.local.json）に承認済みコマンドが保存される際、APIキーや環境変数などの認証情報も記録されることが判明。公開GitHub上の1,994件のリポジトリで2,539件の認証情報が露出している。.gitignoreへの追加など即時対応が必要。\n:link: <https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html|thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html>\n2. _GitHub CopilotがChromeとEdgeでブラウザ操作エージェントに（パブリックプレビュー）_\n└ MicrosoftがGitHub CopilotのChrome・Edge拡張を公開。ボタンクリックやフォーム入力などWebブラウザ操作をAIが自動化するエージェント機能がパブリックプレビュー開始。VS Code・JetBrains・Copilot CLIと連携して動作する。\n:link: <https://www.neowin.net/news/github-copilot-can-now-click-buttons-and-fill-out-forms-in-your-browser/|neowin.net/news/github-copilot-can-now-click-buttons-and-fill-out-forms-in-your-browser>\n3. _Microsoft Copilot SDK 2.0 発表（旧：GitHub Copilot SDK）_\n└ MicrosoftがIgniteでGitHub Copilot SDKをMicrosoft Copilot SDK 2.0に改称・刷新。Copilotハーネスへのプログラマティックアクセスを提供し、AIエージェント開発の基盤として位置づけ。\n:link: <https://commandline.microsoft.com/microsoft-copilot-sdk-2-0-github/|commandline.microsoft.com/microsoft-copilot-sdk-2-0-github>\n4. _Cursor、中国製オープンウェイトAIモデルの段階廃止を米議会で証言_\n└ AIコーディングツールCursorが米議会の2委員会に対し、地政学的リスクを理由としてMoonshot AI製Kimi K2.5などの中国製モデルの廃止を検討していると証言。法的強制力はないものの、AIコーディングツールの地政学的動向として注目。\n:link: <https://www.techzine.eu/news/devops/145957/cursor-is-considering-phasing-out-chinese-ai-models/|techzine.eu/news/devops/145957/cursor-is-considering-phasing-out-chinese-ai-models> *使用して送信されました* <@U0CJM55UBB8>",
+          "messageTs": "1795734292.212309",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T23:04:52.212Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 395,
+      "messageCount": 396,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-11-25"
+      "lastDate": "2026-11-26"
     },
     {
       "id": "C0AARGDBC3V",
