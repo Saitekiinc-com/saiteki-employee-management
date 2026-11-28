@@ -1,8 +1,8 @@
 window.SLACK_EXPORT_DATA = {
   "exportName": "data/slack-messages.jsonl",
-  "generatedAt": "2026-11-27T07:41:50.188Z",
+  "generatedAt": "2026-11-28T07:08:02.496Z",
   "channelCount": 15,
-  "totalMessages": 3733,
+  "totalMessages": 3736,
   "channels": [
     {
       "id": "C09N28KTKL1",
@@ -25829,11 +25829,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09N28KTKL1:1795788897.041749",
+          "workspace": "primary",
+          "channelId": "C09N28KTKL1",
+          "channelName": "ソーシャル",
+          "user": "U0BBLLB4YE8",
+          "userName": "松井誠",
+          "userRealName": "松井誠",
+          "text": ":loudspeaker: 【部活メンバー募集】#サバゲ部 できました！ :gun: 普段なかなか話す機会がない方とも交流できたらと思い、サバイバルゲームを楽しむチャンネル【#サバゲ部】を立ち上げました！ 「やってみたいけど、道具もないしハードルが高そう…」という方こそ大歓迎です！ :white_check_mark: 活動は土日祝日のみ（都合の合う日だけの単発参加OK） :white_check_mark: 未経験・手ぶらOK（フィールドで装備一式レンタルできます） :white_check_mark: 運動不足解消・ストレス発散に最適（やってみると「大人のかくれんぼ」です） :white_check_mark: 見る専・装備やFPSゲームの雑談だけでも歓迎！ 部署・チーム問わず、経験者も「銃を触ったこともない」方も大歓迎です:raised_hands: 少しでも気になった方は、ぜひ <#C0CLPH9GEUT> を覗いてみてください！ （ちょっと興味あるかも…という方は、この投稿に スタンプだけでも押してもらえると嬉しいです！）",
+          "rawText": ":loudspeaker: 【部活メンバー募集】#サバゲ部 できました！ :gun:\n\n普段なかなか話す機会がない方とも交流できたらと思い、サバイバルゲームを楽しむチャンネル【#サバゲ部】を立ち上げました！\n\n「やってみたいけど、道具もないしハードルが高そう…」という方こそ大歓迎です！\n\n:white_check_mark: 活動は土日祝日のみ（都合の合う日だけの単発参加OK）\n:white_check_mark: 未経験・手ぶらOK（フィールドで装備一式レンタルできます）\n:white_check_mark: 運動不足解消・ストレス発散に最適（やってみると「大人のかくれんぼ」です）\n:white_check_mark: 見る専・装備やFPSゲームの雑談だけでも歓迎！\n\n部署・チーム問わず、経験者も「銃を触ったこともない」方も大歓迎です:raised_hands:\n少しでも気になった方は、ぜひ <#C0CLPH9GEUT> を覗いてみてください！\n（ちょっと興味あるかも…という方は、この投稿に スタンプだけでも押してもらえると嬉しいです！）",
+          "messageTs": "1795788897.041749",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-11-27",
+          "timestamp": "2026-11-27T14:14:57.041Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 1291,
+      "messageCount": 1292,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-11-25"
+      "lastDate": "2026-11-27"
     },
     {
       "id": "C098RT3NRT2",
@@ -59602,11 +59622,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09MKT8QKAR:1795849479.474149",
+          "workspace": "primary",
+          "channelId": "C09MKT8QKAR",
+          "channelName": "all-saiteki",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": "<!channel> 皆さん、今週もお疲れ様でした！！ *Letter of T | 今週の記録（2026.11.28）* を共有します！ 今週は、営業と技術のそれぞれで、積み重ねてきたものが大きな成果になりました。 *【上場コンサルティング会社・ノースサンド様との取引開始！】* 徳田さんが半年近く関係を築き続け、山本さんが面談で高い評価を獲得したことで、初めての契約が実現しました！ 新規顧客との最初の一件は、取引口座を開き、次の提案へつなげる重要な一歩です。 セラク様、Sky様、TOPPANシステムインテグレーション様、SRA様に続き、元請クラスとの取引が着実に増えています。背負う責任も大きくなりますが、より顧客に近い場所で仕事をし、皆さんへ提供できる案件やキャリアの選択肢を広げていきます！ *【A&amp;K様のWebサイトを、社内チームでフルリニューアル！】* 1987年創業のA&amp;K様が40年近く積み重ねてきた歴史と信頼を、次の時代へ伝えるWebサイトが完成しました！ 制作の弥田さん、インフラの小松田さん、QAの坂東さんが連携し、古い情報を掲載する場所だったWebサイトを、A&amp;K様のブランドと営業活動を支える場所へ刷新しました。 *「人を想い、信頼を築く。」* 一見異なる飲食と芸能の2事業を、この共通の思想でつなぎ直しています。 さらに今回は、途中から私が細かな顧客折衝に入らなくても、チームが自律的にリリースまで完遂してくれました。この体制があれば、Web制作を継続的な事業として拡大できると確信しています！ ▼ A&amp;K様 新Webサイト <https://www.akgroup.jp/|akgroup.jp> 時間をかけて信頼を築くこと。異なる専門性を持つメンバーが連携すること。そして、目の前の仕事を成果として形にすること。 その積み重ねが、新しい取引と次の仕事を生み出しています。 ぜひご覧ください！ ▼ Letter of T | 今週の記録（2026.11.28） <https://app.notion.com/p/Letter-of-T-2026-11-28-426dfb42679c80b38f57edc32304199a|app.notion.com/p/Letter-of-T-…> 今週もみなさん、本当にありがとうございました！！",
+          "rawText": "<!channel>\n皆さん、今週もお疲れ様でした！！\n*Letter of T | 今週の記録（2026.11.28）* を共有します！\n\n今週は、営業と技術のそれぞれで、積み重ねてきたものが大きな成果になりました。\n\n*【上場コンサルティング会社・ノースサンド様との取引開始！】*\n徳田さんが半年近く関係を築き続け、山本さんが面談で高い評価を獲得したことで、初めての契約が実現しました！\n\n新規顧客との最初の一件は、取引口座を開き、次の提案へつなげる重要な一歩です。\n\nセラク様、Sky様、TOPPANシステムインテグレーション様、SRA様に続き、元請クラスとの取引が着実に増えています。背負う責任も大きくなりますが、より顧客に近い場所で仕事をし、皆さんへ提供できる案件やキャリアの選択肢を広げていきます！\n\n*【A&amp;K様のWebサイトを、社内チームでフルリニューアル！】*\n1987年創業のA&amp;K様が40年近く積み重ねてきた歴史と信頼を、次の時代へ伝えるWebサイトが完成しました！\n\n制作の弥田さん、インフラの小松田さん、QAの坂東さんが連携し、古い情報を掲載する場所だったWebサイトを、A&amp;K様のブランドと営業活動を支える場所へ刷新しました。\n\n*「人を想い、信頼を築く。」*\n\n一見異なる飲食と芸能の2事業を、この共通の思想でつなぎ直しています。\n\nさらに今回は、途中から私が細かな顧客折衝に入らなくても、チームが自律的にリリースまで完遂してくれました。この体制があれば、Web制作を継続的な事業として拡大できると確信しています！\n\n▼ A&amp;K様 新Webサイト\n<https://www.akgroup.jp/|akgroup.jp>\n\n時間をかけて信頼を築くこと。異なる専門性を持つメンバーが連携すること。そして、目の前の仕事を成果として形にすること。\n\nその積み重ねが、新しい取引と次の仕事を生み出しています。\nぜひご覧ください！\n\n▼ Letter of T | 今週の記録（2026.11.28）\n<https://app.notion.com/p/Letter-of-T-2026-11-28-426dfb42679c80b38f57edc32304199a|app.notion.com/p/Letter-of-T-…>\n\n今週もみなさん、本当にありがとうございました！！",
+          "messageTs": "1795849479.474149",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-11-28",
+          "timestamp": "2026-11-28T07:04:39.474Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 497,
+      "messageCount": 498,
       "firstDate": "2025-10-21",
-      "lastDate": "2026-11-26"
+      "lastDate": "2026-11-28"
     },
     {
       "id": "C09QXV3F8G0",
@@ -67533,11 +67573,31 @@ window.SLACK_EXPORT_DATA = {
           "source": "slack_api",
           "sourceFile": "",
           "permalink": null
+        },
+        {
+          "id": "primary:C09QXV3F8G0:1795820707.333389",
+          "workspace": "primary",
+          "channelId": "C09QXV3F8G0",
+          "channelName": "ai駆動開発ネタ",
+          "user": "U09MGUVJ8BV",
+          "userName": "戸塚直道",
+          "userRealName": "戸塚直道",
+          "text": ":newspaper: _AI駆動開発 ニュース - 2026-11-27_ 1. _Git HooksがClaude Codeの架空テスト・パッケージ生成を防ぐ_ └ Claude Codeが存在しないnpmパッケージを使用したり、偽のテストパスをでっち上げる問題に対し、オープンソースのGit hooksテンプレートが登場。コミット前に架空の依存関係と偽テスト実行を自動検出してブロック。本日Hacker Newsでも注目を集めている。 :link: <https://emergent.sh/news/git-hooks-stop-claude-code-faking-tests|emergent.sh/news/git-hooks-stop-claude-code-faking-tests> 2. _承認済みのAIエージェントでも損害を与えられる — SiliconANGLE報道_ └ AIエージェントが正式に承認・認可されていても、意図しない形でシステムに損害を与える可能性があることを示す新研究が公開。Claude Code、Cursor、Codex、GitHub Copilotなどのコーディングエージェントへの影響も言及。権限管理だけでは安全を保証できないとの警告。 :link: <https://siliconangle.com/2026/11/25/your-ai-agents-can-be-fully-authorized-and-still-do-damage|siliconangle.com/2026/11/25/your-ai-agents-can-be-fully-authorized-and-still-do-damage> 3. _〖AI News まとめ〗生成AI ニュースレポート — 2026-11-27 （Qiita）_ └ OpenAI Codexの請求エラー修正、Claude ShipのTeam/Enterpriseベータ展開状況など、コーディングエージェント関連の本日の最新動向を日本語でまとめ。AI駆動開発の実践者向けに読みやすく整理されている。 :link: <https://qiita.com/aakan/items/85af1fce2dc467be061e|qiita.com/aakan/items/…> 4. _AI Agents Daily Brief — 2026年11月27日_ └ Solana PlaygroundがAIコーディングエージェントを統合し、ブロックチェーン上のプログラム構築・デプロイをAI支援で実施可能に。その他、コーディングエージェント関連のファンディング動向・開発ツールの進化・コードレビュー課題なども掲載。 :link: <https://aiagentsdirectory.com/news/ai-agents-daily-brief-november-27-2026|aiagentsdirectory.com/news/ai-agents-daily-brief-november-27-2026> *使用して送信されました* <@U0CJM55UBB8>",
+          "rawText": ":newspaper: _AI駆動開発 ニュース - 2026-11-27_\n\n1. _Git HooksがClaude Codeの架空テスト・パッケージ生成を防ぐ_\n└ Claude Codeが存在しないnpmパッケージを使用したり、偽のテストパスをでっち上げる問題に対し、オープンソースのGit hooksテンプレートが登場。コミット前に架空の依存関係と偽テスト実行を自動検出してブロック。本日Hacker Newsでも注目を集めている。\n:link: <https://emergent.sh/news/git-hooks-stop-claude-code-faking-tests|emergent.sh/news/git-hooks-stop-claude-code-faking-tests>\n2. _承認済みのAIエージェントでも損害を与えられる — SiliconANGLE報道_\n└ AIエージェントが正式に承認・認可されていても、意図しない形でシステムに損害を与える可能性があることを示す新研究が公開。Claude Code、Cursor、Codex、GitHub Copilotなどのコーディングエージェントへの影響も言及。権限管理だけでは安全を保証できないとの警告。\n:link: <https://siliconangle.com/2026/11/25/your-ai-agents-can-be-fully-authorized-and-still-do-damage|siliconangle.com/2026/11/25/your-ai-agents-can-be-fully-authorized-and-still-do-damage>\n3. _〖AI News まとめ〗生成AI ニュースレポート — 2026-11-27 （Qiita）_\n└ OpenAI Codexの請求エラー修正、Claude ShipのTeam/Enterpriseベータ展開状況など、コーディングエージェント関連の本日の最新動向を日本語でまとめ。AI駆動開発の実践者向けに読みやすく整理されている。\n:link: <https://qiita.com/aakan/items/85af1fce2dc467be061e|qiita.com/aakan/items/…>\n4. _AI Agents Daily Brief — 2026年11月27日_\n└ Solana PlaygroundがAIコーディングエージェントを統合し、ブロックチェーン上のプログラム構築・デプロイをAI支援で実施可能に。その他、コーディングエージェント関連のファンディング動向・開発ツールの進化・コードレビュー課題なども掲載。\n:link: <https://aiagentsdirectory.com/news/ai-agents-daily-brief-november-27-2026|aiagentsdirectory.com/news/ai-agents-daily-brief-november-27-2026> *使用して送信されました* <@U0CJM55UBB8>",
+          "messageTs": "1795820707.333389",
+          "threadTs": null,
+          "parentUserId": null,
+          "subtype": null,
+          "date": "2026-11-27",
+          "timestamp": "2026-11-27T23:05:07.333Z",
+          "source": "slack_api",
+          "sourceFile": "",
+          "permalink": null
         }
       ],
-      "messageCount": 396,
+      "messageCount": 397,
       "firstDate": "2025-11-01",
-      "lastDate": "2026-11-26"
+      "lastDate": "2026-11-27"
     },
     {
       "id": "C0AARGDBC3V",
